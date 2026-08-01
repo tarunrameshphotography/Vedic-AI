@@ -1,0 +1,288 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0130",
+ "book_id": "phaladeepika",
+ "seq": 130,
+ "source_ref": {
+  "pdf_page": 130
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "48c559420798c55ebaf0ee80add0f84de347ff1a3f273d9d931c701fad21632c",
+ "lines": [
+  {
+   "text": "<b>Chapter 13</b>",
+   "bbox": [
+    281,
+    57,
+    357,
+    75
+   ]
+  },
+  {
+   "text": "<b>Determination of Longevity</b>",
+   "bbox": [
+    224,
+    85,
+    414,
+    103
+   ]
+  },
+  {
+   "text": "1. The first thing to be considered after the birth of the child is the ",
+   "bbox": [
+    121,
+    137,
+    556,
+    152
+   ]
+  },
+  {
+   "text": "examination of his longevity. The other effects should be judged later. If the ",
+   "bbox": [
+    85,
+    161,
+    556,
+    176
+   ]
+  },
+  {
+   "text": "nativity indicates some merits like Raja Yoga etc., their effects should be assessed ",
+   "bbox": [
+    85,
+    185,
+    556,
+    201
+   ]
+  },
+  {
+   "text": "in consultation with those who are proficient in the knowledge of Astrology.",
+   "bbox": [
+    85,
+    209,
+    512,
+    225
+   ]
+  },
+  {
+   "text": "2. There is difference of opinion about the actual time of birth of the child. ",
+   "bbox": [
+    121,
+    233,
+    556,
+    249
+   ]
+  },
+  {
+   "text": "The various views are —",
+   "bbox": [
+    85,
+    257,
+    226,
+    273
+   ]
+  },
+  {
+   "text": "(1) The time of birth is that when the head (of the infant) emerges.",
+   "bbox": [
+    121,
+    282,
+    492,
+    297
+   ]
+  },
+  {
+   "text": "(2) The time of birth is that when the body of the infant emerges and touches ",
+   "bbox": [
+    121,
+    306,
+    556,
+    321
+   ]
+  },
+  {
+   "text": "the ground.",
+   "bbox": [
+    85,
+    330,
+    149,
+    345
+   ]
+  },
+  {
+   "text": "(3) The time of birth is that when the body of the infant is completed, ",
+   "bbox": [
+    121,
+    354,
+    556,
+    370
+   ]
+  },
+  {
+   "text": "separated from the mother's womb.",
+   "bbox": [
+    85,
+    378,
+    282,
+    394
+   ]
+  },
+  {
+   "text": "3. In the case of human beings, it is not possible to determine the longevity ",
+   "bbox": [
+    121,
+    402,
+    556,
+    418
+   ]
+  },
+  {
+   "text": "of a child within the first twelve years. Even if the nativity shows good longevity, ",
+   "bbox": [
+    85,
+    427,
+    556,
+    442
+   ]
+  },
+  {
+   "text": "the child meets his death owing to the sinful actions of the parents (during this or ",
+   "bbox": [
+    85,
+    451,
+    556,
+    466
+   ]
+  },
+  {
+   "text": "previous births).",
+   "bbox": [
+    85,
+    475,
+    177,
+    490
+   ]
+  },
+  {
+   "text": "4. If the child dies within the first four year it will be due to the mother's ",
+   "bbox": [
+    121,
+    499,
+    556,
+    514
+   ]
+  },
+  {
+   "text": "sins. Death taking place between four to eight year will be due to the sins of the ",
+   "bbox": [
+    85,
+    523,
+    556,
+    539
+   ]
+  },
+  {
+   "text": "father. If the death takes place between eight and twelve years, it will be due to the ",
+   "bbox": [
+    85,
+    547,
+    556,
+    563
+   ]
+  },
+  {
+   "text": "native's own sinful actions in the previous births.",
+   "bbox": [
+    85,
+    571,
+    359,
+    587
+   ]
+  },
+  {
+   "text": "5. With a view to escape from the evil effects described above the father ",
+   "bbox": [
+    121,
+    596,
+    556,
+    611
+   ]
+  },
+  {
+   "text": "should resort to remedial measures mentioned below to promote the longevity of ",
+   "bbox": [
+    85,
+    620,
+    556,
+    635
+   ]
+  },
+  {
+   "text": "the child and for his protection. The father should arrange for the performance of ",
+   "bbox": [
+    85,
+    644,
+    556,
+    659
+   ]
+  },
+  {
+   "text": "religious rites preceded by the incantations of mantras and offerings of oblations ",
+   "bbox": [
+    85,
+    668,
+    556,
+    684
+   ]
+  },
+  {
+   "text": "by the pouring of ghee etc., in the holy fire on every, birth day of the child ",
+   "bbox": [
+    85,
+    692,
+    556,
+    708
+   ]
+  },
+  {
+   "text": "(according to lunar month) till the 12th year. This should be suppplemented by ",
+   "bbox": [
+    85,
+    716,
+    556,
+    732
+   ]
+  },
+  {
+   "text": "appropriate medical treatment where necessary.",
+   "bbox": [
+    85,
+    740,
+    351,
+    756
+   ]
+  },
+  {
+   "text": "6. The first eight year's period of a man's life is treated as Balarishta. Thus ",
+   "bbox": [
+    121,
+    765,
+    556,
+    780
+   ]
+  },
+  {
+   "text": "130",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

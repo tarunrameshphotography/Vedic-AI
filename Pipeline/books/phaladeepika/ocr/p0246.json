@@ -1,0 +1,288 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0246",
+ "book_id": "phaladeepika",
+ "seq": 246,
+ "source_ref": {
+  "pdf_page": 246
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "1635c60a452a74e61a5bc48090ae172d5e986184b39ce74f17ba9ffa3a7d3def",
+ "lines": [
+  {
+   "text": "<b>Chapter 26</b>",
+   "bbox": [
+    281,
+    57,
+    357,
+    75
+   ]
+  },
+  {
+   "text": "<b>Effects of transits of the various planets and constellations</b>",
+   "bbox": [
+    121,
+    85,
+    517,
+    103
+   ]
+  },
+  {
+   "text": "1. Among all the Lagnas, the Moon's Lagna (Chandra Lagna or the sign in ",
+   "bbox": [
+    121,
+    137,
+    556,
+    152
+   ]
+  },
+  {
+   "text": "which the Moon is posited), is most important for assessing the effects of transits ",
+   "bbox": [
+    85,
+    161,
+    556,
+    176
+   ]
+  },
+  {
+   "text": "(Gocharaphalam). It is, therefore, imperative to make predictions about effects of ",
+   "bbox": [
+    85,
+    185,
+    556,
+    201
+   ]
+  },
+  {
+   "text": "the transits of planets through various signs from the sign occupied by the Moon.",
+   "bbox": [
+    85,
+    209,
+    539,
+    225
+   ]
+  },
+  {
+   "text": "2. The various planets give results while transiting the following places ",
+   "bbox": [
+    121,
+    233,
+    556,
+    249
+   ]
+  },
+  {
+   "text": "counted from the Moon.",
+   "bbox": [
+    85,
+    257,
+    221,
+    273
+   ]
+  },
+  {
+   "text": "The Sun - the 3rd, 6th, 10th and 11th.",
+   "bbox": [
+    121,
+    282,
+    331,
+    297
+   ]
+  },
+  {
+   "text": "The Moon - the 1st, 3rd. 6th, 7th, 10th and 11th.",
+   "bbox": [
+    121,
+    306,
+    391,
+    321
+   ]
+  },
+  {
+   "text": "Mars - 3rd, 6th and 11th.",
+   "bbox": [
+    121,
+    330,
+    260,
+    345
+   ]
+  },
+  {
+   "text": "Mercury- 2nd. 4th, 6th, 8th, 10th and llth.",
+   "bbox": [
+    121,
+    354,
+    354,
+    370
+   ]
+  },
+  {
+   "text": "Jupiter - 2nd, 5th, 7th. 9th and 11th.",
+   "bbox": [
+    121,
+    378,
+    322,
+    394
+   ]
+  },
+  {
+   "text": "Venus - 1st, 2nd. 3rd. 4th, 5th, 8th, 9th, 11th and 12th.",
+   "bbox": [
+    121,
+    402,
+    424,
+    418
+   ]
+  },
+  {
+   "text": "Saturn - 3rd, 6th and llth.",
+   "bbox": [
+    121,
+    427,
+    262,
+    442
+   ]
+  },
+  {
+   "text": "Rahu - 3rd. 6th. 10th and 11th.",
+   "bbox": [
+    121,
+    451,
+    293,
+    466
+   ]
+  },
+  {
+   "text": "Katu - 3rd. 6th, 10th and 11th.",
+   "bbox": [
+    121,
+    475,
+    291,
+    490
+   ]
+  },
+  {
+   "text": "3. In the course of his transit the Sun is auspicious in 11th, 3rd, 10th and 6th ",
+   "bbox": [
+    121,
+    499,
+    556,
+    514
+   ]
+  },
+  {
+   "text": "if at that the corresponding Vedha place namely the 5th, 9th, 4th and 12th ",
+   "bbox": [
+    85,
+    523,
+    556,
+    539
+   ]
+  },
+  {
+   "text": "respectively are not affected by the transit of any of the planets except Saturn.",
+   "bbox": [
+    85,
+    547,
+    521,
+    563
+   ]
+  },
+  {
+   "text": "4. The auspicious house for the Moon while in transit are the 1st, 3rd, 6th, ",
+   "bbox": [
+    121,
+    571,
+    556,
+    587
+   ]
+  },
+  {
+   "text": "7th, 10th and 11th. The Vedha houses respectively are the 5th, 9th, 12th, 2nd, 4th ",
+   "bbox": [
+    85,
+    596,
+    556,
+    611
+   ]
+  },
+  {
+   "text": "and 8th. In this case the effect will not be marked if Mercury should transit at that ",
+   "bbox": [
+    85,
+    620,
+    556,
+    635
+   ]
+  },
+  {
+   "text": "time the corresponding Vedha place.",
+   "bbox": [
+    85,
+    644,
+    289,
+    659
+   ]
+  },
+  {
+   "text": "5. The auspicious houses for Mars while in transit are the 3rd, 6th and 11th, ",
+   "bbox": [
+    121,
+    668,
+    556,
+    684
+   ]
+  },
+  {
+   "text": "and the corresponding Vedha houses are respectively the 12th, 9th and 5th. The ",
+   "bbox": [
+    85,
+    692,
+    556,
+    708
+   ]
+  },
+  {
+   "text": "same applies to Saturn, but in this case the effect will not be marred if the Sun ",
+   "bbox": [
+    85,
+    716,
+    556,
+    732
+   ]
+  },
+  {
+   "text": "should transit at the time of corresponding Vedha places.",
+   "bbox": [
+    85,
+    740,
+    403,
+    756
+   ]
+  },
+  {
+   "text": "6. The auspicious houses for Mercury while in transit are the 2nd, 4th, 6th, ",
+   "bbox": [
+    121,
+    765,
+    556,
+    780
+   ]
+  },
+  {
+   "text": "246",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

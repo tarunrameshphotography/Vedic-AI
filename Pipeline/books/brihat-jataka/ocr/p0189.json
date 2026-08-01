@@ -1,0 +1,236 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0189",
+ "book_id": "brihat-jataka",
+ "seq": 189,
+ "source_ref": {
+  "pdf_page": 95,
+  "half": "a",
+  "v1_page": "s095a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "87087814c86e1129d329fc113fa1042c830fa3b5f8227a899f1ffca1ab109766",
+ "lines": [
+  {
+   "text": "25",
+   "bbox": [
+    863,
+    553,
+    957,
+    607
+   ]
+  },
+  {
+   "text": "निर्याणाध्यायः",
+   "bbox": [
+    774,
+    706,
+    1038,
+    759
+   ]
+  },
+  {
+   "text": "<b>Death</b>",
+   "bbox": [
+    784,
+    783,
+    1027,
+    852
+   ]
+  },
+  {
+   "text": "मृत्युर्मृत्युगृहेक्षणेन बलिभिस्तद्धातुकोपोद्धव-",
+   "bbox": [
+    369,
+    1029,
+    991,
+    1083
+   ]
+  },
+  {
+   "text": "स्तत्संयुक्तभगात्रजो बहुभवो वीर्यान्वितोर्भूरिभि:।",
+   "bbox": [
+    369,
+    1092,
+    1040,
+    1152
+   ]
+  },
+  {
+   "text": "अग्न्यम्ब्वायुधजो ज्वरामयकृतस्तृट्क्षुत्कृतश्चाष्टमे",
+   "bbox": [
+    372,
+    1156,
+    1048,
+    1218
+   ]
+  },
+  {
+   "text": "सूर्याद्यैर्निधने चरादिषु परस्वाध्वप्रदेशेष्वपि।। 1 ।।",
+   "bbox": [
+    369,
+    1223,
+    1093,
+    1281
+   ]
+  },
+  {
+   "text": "The disease which brings about the death of a native is",
+   "bbox": [
+    371,
+    1323,
+    1518,
+    1362
+   ]
+  },
+  {
+   "text": "indicated by the nature of the planet aspecting the eighth",
+   "bbox": [
+    293,
+    1374,
+    1518,
+    1418
+   ]
+  },
+  {
+   "text": "house. The organ or part of the body is shown by the eighth",
+   "bbox": [
+    295,
+    1429,
+    1518,
+    1468
+   ]
+  },
+  {
+   "text": "house in the diagram of the Kalapurusha.",
+   "bbox": [
+    294,
+    1482,
+    1137,
+    1521
+   ]
+  },
+  {
+   "text": "When many planets aspect the eighth house, there will be",
+   "bbox": [
+    371,
+    1560,
+    1519,
+    1599
+   ]
+  },
+  {
+   "text": "so many diseases before death.",
+   "bbox": [
+    295,
+    1614,
+    912,
+    1651
+   ]
+  },
+  {
+   "text": "When the Sun and others occupy the eighth house, then",
+   "bbox": [
+    371,
+    1691,
+    1518,
+    1730
+   ]
+  },
+  {
+   "text": "death is respectively due to fire, water, weapon, fever, disease,",
+   "bbox": [
+    294,
+    1741,
+    1518,
+    1782
+   ]
+  },
+  {
+   "text": "thirst and hunger.",
+   "bbox": [
+    294,
+    1796,
+    668,
+    1834
+   ]
+  },
+  {
+   "text": "When the eighth house is a movable sign, death is outside",
+   "bbox": [
+    372,
+    1874,
+    1519,
+    1913
+   ]
+  },
+  {
+   "text": "his place; when it is fixed, it is at home, and when it is a",
+   "bbox": [
+    294,
+    1926,
+    1516,
+    1966
+   ]
+  },
+  {
+   "text": "dwisvabhava sign, it is during travelling.",
+   "bbox": [
+    294,
+    1979,
+    1118,
+    2017
+   ]
+  },
+  {
+   "text": "<i>Notes:</i> If the Sun aspects the eighth house, the disease will",
+   "bbox": [
+    368,
+    2057,
+    1516,
+    2096
+   ]
+  },
+  {
+   "text": "refer to bile or heat; if Moon, it refers to wind and phlegm; if",
+   "bbox": [
+    294,
+    2108,
+    1518,
+    2148
+   ]
+  },
+  {
+   "text": "Mars, it is bile or heat; if Mercury, it is a mixture of wind, bile",
+   "bbox": [
+    294,
+    2161,
+    1516,
+    2200
+   ]
+  },
+  {
+   "text": "and phlegm; if Guru, it is phlegm; if Shukra, it is wind and",
+   "bbox": [
+    294,
+    2213,
+    1515,
+    2253
+   ]
+  },
+  {
+   "text": "phlegm; if Shani, it is wind (See chapter 2.8 to 11)",
+   "bbox": [
+    294,
+    2266,
+    1301,
+    2306
+   ]
+  }
+ ]
+}

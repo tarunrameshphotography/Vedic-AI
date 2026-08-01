@@ -1,0 +1,353 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0070",
+ "book_id": "brihat-jataka",
+ "seq": 70,
+ "source_ref": {
+  "pdf_page": 35,
+  "half": "b",
+  "v1_page": "s035b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "2c6f466772c158714fb3b756870946cdb56c5054068e00220742f9a849c8a2c5",
+ "lines": [
+  {
+   "text": "67",
+   "bbox": [
+    1383,
+    226,
+    1445,
+    258
+   ]
+  },
+  {
+   "text": "<b>Birth Conditions</b>",
+   "bbox": [
+    238,
+    246,
+    578,
+    287
+   ]
+  },
+  {
+   "text": "समनुपतिता यस्मिन्भागे क्रय: सनुधा ग्रहा-",
+   "bbox": [
+    311,
+    338,
+    930,
+    399
+   ]
+  },
+  {
+   "text": "भवति नियमात्तस्यावाप्तिः शुभेष्वशुभेषु वा।",
+   "bbox": [
+    315,
+    400,
+    936,
+    463
+   ]
+  },
+  {
+   "text": "व्रणकृदशुभ: पप्ठे देहे तनोर्भसमाश्रिते",
+   "bbox": [
+    313,
+    461,
+    854,
+    536
+   ]
+  },
+  {
+   "text": "तिलकमशकृद्दृष्ट: सौम्यैर्युतश्च लक्ष्मवान्।। 26 ।।",
+   "bbox": [
+    315,
+    525,
+    1051,
+    599
+   ]
+  },
+  {
+   "text": "In western astrology, the rule of Hermes is well known",
+   "bbox": [
+    318,
+    609,
+    1459,
+    686
+   ]
+  },
+  {
+   "text": "as giving correctly the moment of birth. The system is as",
+   "bbox": [
+    243,
+    662,
+    1459,
+    738
+   ]
+  },
+  {
+   "text": "under:",
+   "bbox": [
+    246,
+    747,
+    384,
+    781
+   ]
+  },
+  {
+   "text": "<math>(a)</math> The first rule under this system states that the sign in",
+   "bbox": [
+    319,
+    794,
+    1463,
+    866
+   ]
+  },
+  {
+   "text": "which Moon is located at the time of birth is the",
+   "bbox": [
+    399,
+    848,
+    1461,
+    911
+   ]
+  },
+  {
+   "text": "ascendant at the time of conception or the 7th sign",
+   "bbox": [
+    400,
+    899,
+    1463,
+    971
+   ]
+  },
+  {
+   "text": "from that ascendant.",
+   "bbox": [
+    402,
+    970,
+    817,
+    1017
+   ]
+  },
+  {
+   "text": "(b) The second rule is that the sign occupied by Moon at",
+   "bbox": [
+    327,
+    1033,
+    1470,
+    1104
+   ]
+  },
+  {
+   "text": "the time of conception becomes the sign in the ascen-",
+   "bbox": [
+    403,
+    1084,
+    1469,
+    1156
+   ]
+  },
+  {
+   "text": "dant or the descendant at the time of birth.",
+   "bbox": [
+    404,
+    1139,
+    1270,
+    1209
+   ]
+  },
+  {
+   "text": "(c) A man or woman is born after 10 lunar months from",
+   "bbox": [
+    334,
+    1214,
+    1472,
+    1288
+   ]
+  },
+  {
+   "text": "conception ie after about 273 days. The period is sub-",
+   "bbox": [
+    406,
+    1267,
+    1475,
+    1337
+   ]
+  },
+  {
+   "text": "ject to modification by the position of Moon as ex-",
+   "bbox": [
+    404,
+    1319,
+    1473,
+    1391
+   ]
+  },
+  {
+   "text": "plained below.",
+   "bbox": [
+    410,
+    1393,
+    702,
+    1441
+   ]
+  },
+  {
+   "text": "(d) When Moon is in the bright fortnight and is located",
+   "bbox": [
+    332,
+    1454,
+    1479,
+    1524
+   ]
+  },
+  {
+   "text": "between the first and the 7th house or when Moon is in",
+   "bbox": [
+    412,
+    1504,
+    1477,
+    1573
+   ]
+  },
+  {
+   "text": "the dark fortnight and is located between the 7th and",
+   "bbox": [
+    412,
+    1556,
+    1478,
+    1631
+   ]
+  },
+  {
+   "text": "the first house.",
+   "bbox": [
+    415,
+    1631,
+    721,
+    1673
+   ]
+  },
+  {
+   "text": "(e) Find out its distance in degrees from the ascendant, if",
+   "bbox": [
+    340,
+    1690,
+    1486,
+    1763
+   ]
+  },
+  {
+   "text": "Moon is below horizon but above the 7th house, divide",
+   "bbox": [
+    415,
+    1744,
+    1480,
+    1810
+   ]
+  },
+  {
+   "text": "these degrees by 12 and add the quotient to 273.",
+   "bbox": [
+    416,
+    1799,
+    1385,
+    1865
+   ]
+  },
+  {
+   "text": "(f) When Moon is in the dark fortnight and is below",
+   "bbox": [
+    351,
+    1873,
+    1486,
+    1944
+   ]
+  },
+  {
+   "text": "horizon or if it is in the bright half but above horizon",
+   "bbox": [
+    417,
+    1923,
+    1485,
+    1995
+   ]
+  },
+  {
+   "text": "the quotient should be deducted from 273.",
+   "bbox": [
+    420,
+    1982,
+    1261,
+    2046
+   ]
+  },
+  {
+   "text": "(g) When Moon is below horizon, its longitude should be",
+   "bbox": [
+    345,
+    2056,
+    1490,
+    2128
+   ]
+  },
+  {
+   "text": "counted from the longitude of the lancendant.",
+   "bbox": [
+    422,
+    2110,
+    1336,
+    2178
+   ]
+  },
+  {
+   "text": "<math>(h)</math> When Moon is above horizon, its distance should be",
+   "bbox": [
+    345,
+    2188,
+    1493,
+    2256
+   ]
+  },
+  {
+   "text": "taken from the longitude of descendant.",
+   "bbox": [
+    426,
+    2245,
+    1224,
+    2306
+   ]
+  },
+  {
+   "text": "Ramit Bhasin born 28/29-7-1965 at Delhi at 12-40' in the",
+   "bbox": [
+    354,
+    2312,
+    1493,
+    2383
+   ]
+  },
+  {
+   "text": "該一部",
+   "bbox": [
+    1121,
+    2394,
+    1226,
+    2418
+   ]
+  },
+  {
+   "text": "55",
+   "bbox": [
+    417,
+    2466,
+    452,
+    2481
+   ]
+  }
+ ]
+}

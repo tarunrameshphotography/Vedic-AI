@@ -1,0 +1,416 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0184",
+ "book_id": "brihat-jataka",
+ "seq": 184,
+ "source_ref": {
+  "pdf_page": 92,
+  "half": "b",
+  "v1_page": "s092b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "5280db231ff99ccac2a24c4c898d72c9e5dbed2900bd8bc6b1084bdee4ea90e6",
+ "lines": [
+  {
+   "text": "181",
+   "bbox": [
+    1350,
+    210,
+    1435,
+    245
+   ]
+  },
+  {
+   "text": "Female Horoscopy",
+   "bbox": [
+    227,
+    229,
+    594,
+    270
+   ]
+  },
+  {
+   "text": "Shani in the seventh aspected by malefics makes her old",
+   "bbox": [
+    305,
+    309,
+    1443,
+    375
+   ]
+  },
+  {
+   "text": "without marriage.",
+   "bbox": [
+    232,
+    380,
+    596,
+    429
+   ]
+  },
+  {
+   "text": "Notes: These combinations have to be considered from",
+   "bbox": [
+    305,
+    444,
+    1443,
+    508
+   ]
+  },
+  {
+   "text": "lagna and from the Moon as well. Evaluate the results from",
+   "bbox": [
+    233,
+    495,
+    1446,
+    569
+   ]
+  },
+  {
+   "text": "the stronger of the two. The results are given for the planets,",
+   "bbox": [
+    234,
+    548,
+    1450,
+    623
+   ]
+  },
+  {
+   "text": "except for the Moon, in the seventh. Hence, says Bhattotpala,",
+   "bbox": [
+    235,
+    602,
+    1449,
+    673
+   ]
+  },
+  {
+   "text": "the Moon sign also must be considered.",
+   "bbox": [
+    236,
+    666,
+    1018,
+    725
+   ]
+  },
+  {
+   "text": "आग्नेयैर्विधवास्तराशिसहितैर्मिश्रै: पुनर्भूर्भवेत्",
+   "bbox": [
+    310,
+    749,
+    928,
+    812
+   ]
+  },
+  {
+   "text": "क्रूरे हीनबलेऽस्तगे स्वपतिना सौम्येक्षिते प्रोज्झिता।",
+   "bbox": [
+    386,
+    805,
+    1101,
+    883
+   ]
+  },
+  {
+   "text": "अन्योन्यांशगयो: सितावनिजयोरन्यप्रसक्ताङ्गना",
+   "bbox": [
+    316,
+    885,
+    950,
+    943
+   ]
+  },
+  {
+   "text": "द्यूने तौ यदि शीतरश्मिसहितौ भर्तुस्तदानुज्ञया।। 9 ।।",
+   "bbox": [
+    390,
+    950,
+    1153,
+    1010
+   ]
+  },
+  {
+   "text": "Many malefics in the seventh make her a widow.",
+   "bbox": [
+    317,
+    1045,
+    1298,
+    1107
+   ]
+  },
+  {
+   "text": "Malefic and benefic planets in the seventh give her a",
+   "bbox": [
+    320,
+    1123,
+    1458,
+    1193
+   ]
+  },
+  {
+   "text": "second marriage within the same community.",
+   "bbox": [
+    246,
+    1183,
+    1152,
+    1244
+   ]
+  },
+  {
+   "text": "When there is a weak malefic in the seventh aspected by a",
+   "bbox": [
+    324,
+    1260,
+    1465,
+    1324
+   ]
+  },
+  {
+   "text": "benefic, she will be rejected by her husband.",
+   "bbox": [
+    248,
+    1320,
+    1132,
+    1381
+   ]
+  },
+  {
+   "text": "When Venus and Mars exchange their navamshas, she",
+   "bbox": [
+    326,
+    1398,
+    1465,
+    1460
+   ]
+  },
+  {
+   "text": "becomes adulterous.",
+   "bbox": [
+    253,
+    1468,
+    658,
+    1509
+   ]
+  },
+  {
+   "text": "When Moon, Venus and Kuja are in the seventh, she",
+   "bbox": [
+    327,
+    1532,
+    1468,
+    1600
+   ]
+  },
+  {
+   "text": "becomes adulterous with the permission of her husband.",
+   "bbox": [
+    252,
+    1586,
+    1377,
+    1652
+   ]
+  },
+  {
+   "text": "Notes: In chart 1 lagna",
+   "bbox": [
+    954,
+    1667,
+    1472,
+    1719
+   ]
+  },
+  {
+   "text": "has Kuja and Shani aspecting",
+   "bbox": [
+    883,
+    1719,
+    1472,
+    1775
+   ]
+  },
+  {
+   "text": "Shani",
+   "bbox": [
+    278,
+    1764,
+    368,
+    1796
+   ]
+  },
+  {
+   "text": "the seventh which has the",
+   "bbox": [
+    888,
+    1774,
+    1472,
+    1824
+   ]
+  },
+  {
+   "text": "Rahu",
+   "bbox": [
+    589,
+    1802,
+    675,
+    1834
+   ]
+  },
+  {
+   "text": "Kuja",
+   "bbox": [
+    278,
+    1806,
+    357,
+    1839
+   ]
+  },
+  {
+   "text": "benefic lord of lagna, Guru.",
+   "bbox": [
+    886,
+    1827,
+    1471,
+    1881
+   ]
+  },
+  {
+   "text": "Lagna",
+   "bbox": [
+    279,
+    1850,
+    380,
+    1880
+   ]
+  },
+  {
+   "text": "Yet she became a widow early",
+   "bbox": [
+    891,
+    1882,
+    1472,
+    1931
+   ]
+  },
+  {
+   "text": "in her life. From the Moon",
+   "bbox": [
+    888,
+    1933,
+    1473,
+    1984
+   ]
+  },
+  {
+   "text": "Moon",
+   "bbox": [
+    278,
+    1967,
+    370,
+    1996
+   ]
+  },
+  {
+   "text": "again Kuja and Shani are in",
+   "bbox": [
+    889,
+    1986,
+    1474,
+    2040
+   ]
+  },
+  {
+   "text": "the second.",
+   "bbox": [
+    891,
+    2046,
+    1122,
+    2087
+   ]
+  },
+  {
+   "text": "In the second chart the",
+   "bbox": [
+    968,
+    2121,
+    1477,
+    2168
+   ]
+  },
+  {
+   "text": "seventh is aspected by Shani.",
+   "bbox": [
+    895,
+    2174,
+    1476,
+    2227
+   ]
+  },
+  {
+   "text": "Shukra also is aspected by",
+   "bbox": [
+    895,
+    2225,
+    1482,
+    2277
+   ]
+  },
+  {
+   "text": "Ravi",
+   "bbox": [
+    438,
+    2238,
+    510,
+    2267
+   ]
+  },
+  {
+   "text": "Guru",
+   "bbox": [
+    738,
+    2261,
+    818,
+    2290
+   ]
+  },
+  {
+   "text": "<b>Budha</b>",
+   "bbox": [
+    582,
+    2263,
+    682,
+    2291
+   ]
+  },
+  {
+   "text": "Shukra",
+   "bbox": [
+    288,
+    2270,
+    398,
+    2298
+   ]
+  },
+  {
+   "text": "Shani. Kuja and Shani are",
+   "bbox": [
+    896,
+    2276,
+    1481,
+    2331
+   ]
+  },
+  {
+   "text": "Ketu",
+   "bbox": [
+    440,
+    2277,
+    511,
+    2306
+   ]
+  }
+ ]
+}

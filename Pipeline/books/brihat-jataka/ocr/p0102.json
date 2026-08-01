@@ -1,0 +1,236 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0102",
+ "book_id": "brihat-jataka",
+ "seq": 102,
+ "source_ref": {
+  "pdf_page": 51,
+  "half": "b",
+  "v1_page": "s051b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "fce045a39bd8fb2326acb59ad707853e377ebb3d50deb372df3f540ef300999b",
+ "lines": [
+  {
+   "text": "राजयोगाध्यायः",
+   "bbox": [
+    720,
+    699,
+    1003,
+    751
+   ]
+  },
+  {
+   "text": "<b>Rajayogas</b>",
+   "bbox": [
+    651,
+    773,
+    1078,
+    856
+   ]
+  },
+  {
+   "text": "प्राहुर्यवनाः स्वतुङ्गगैः क्रूरैः क्रूरमतिर्महीपतिः।",
+   "bbox": [
+    341,
+    1019,
+    991,
+    1095
+   ]
+  },
+  {
+   "text": "क्रूरैस्तु न जीवशर्मण: पक्षे क्षित्यधिप: प्रजायते।। 1 ।।",
+   "bbox": [
+    342,
+    1070,
+    1138,
+    1163
+   ]
+  },
+  {
+   "text": "Yavan Acharya and his followers consider that in case",
+   "bbox": [
+    344,
+    1148,
+    1491,
+    1244
+   ]
+  },
+  {
+   "text": "there are in the birth chart 3 natural malefic planets in exal-",
+   "bbox": [
+    272,
+    1205,
+    1494,
+    1302
+   ]
+  },
+  {
+   "text": "tation the native becomes a ruler. But he is oppressive in",
+   "bbox": [
+    276,
+    1256,
+    1494,
+    1357
+   ]
+  },
+  {
+   "text": "nature. Jeeva Sharma is on the other hand, of the opinion that",
+   "bbox": [
+    276,
+    1310,
+    1501,
+    1407
+   ]
+  },
+  {
+   "text": "in such a case one does not become a king (but only an affluent",
+   "bbox": [
+    276,
+    1362,
+    1503,
+    1462
+   ]
+  },
+  {
+   "text": "man).",
+   "bbox": [
+    284,
+    1465,
+    408,
+    1506
+   ]
+  },
+  {
+   "text": "वक्रार्कजार्कगुरुभि: सकलैस्त्रिभिश्च",
+   "bbox": [
+    357,
+    1519,
+    849,
+    1593
+   ]
+  },
+  {
+   "text": "स्वोच्चेषु षोडश नृपा: कथितैक लग्ने।",
+   "bbox": [
+    433,
+    1577,
+    1001,
+    1657
+   ]
+  },
+  {
+   "text": "द्वचेकाश्रितेषु च तथैकतमे विलग्ने",
+   "bbox": [
+    359,
+    1650,
+    860,
+    1723
+   ]
+  },
+  {
+   "text": "स्वक्षेत्रगे शशिनि षोडश भूमिपा: स्यु: 11 2 11",
+   "bbox": [
+    439,
+    1709,
+    1118,
+    1785
+   ]
+  },
+  {
+   "text": "If the four planets, Mars, Saturn, Sun and Jupiter are all",
+   "bbox": [
+    369,
+    1783,
+    1517,
+    1876
+   ]
+  },
+  {
+   "text": "in their sign of exaltation and one out of them occupies the",
+   "bbox": [
+    293,
+    1834,
+    1517,
+    1934
+   ]
+  },
+  {
+   "text": "ascendant, four Rajayogas will thus be constituted. If out",
+   "bbox": [
+    298,
+    1886,
+    1520,
+    1985
+   ]
+  },
+  {
+   "text": "of these four planets only three are exalted and one of those",
+   "bbox": [
+    299,
+    1936,
+    1520,
+    2038
+   ]
+  },
+  {
+   "text": "three occupies the Lagna these four planets will constitute",
+   "bbox": [
+    299,
+    1990,
+    1522,
+    2091
+   ]
+  },
+  {
+   "text": "another 12 Rajayogas, making the total sixteen. In case Moon",
+   "bbox": [
+    304,
+    2043,
+    1524,
+    2141
+   ]
+  },
+  {
+   "text": "occupies its own sign ie Cancer in Lagna and if any two",
+   "bbox": [
+    305,
+    2096,
+    1526,
+    2193
+   ]
+  },
+  {
+   "text": "of these four planets are exalted, the number of Rajayogas",
+   "bbox": [
+    305,
+    2148,
+    1529,
+    2247
+   ]
+  },
+  {
+   "text": "created will be another 12. If one out of the same four planets",
+   "bbox": [
+    307,
+    2200,
+    1533,
+    2298
+   ]
+  },
+  {
+   "text": "(Mars, Saturn, Sun and Jupiter) is exalted in Lagna they will",
+   "bbox": [
+    311,
+    2252,
+    1533,
+    2351
+   ]
+  }
+ ]
+}

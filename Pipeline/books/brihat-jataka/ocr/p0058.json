@@ -1,0 +1,353 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0058",
+ "book_id": "brihat-jataka",
+ "seq": 58,
+ "source_ref": {
+  "pdf_page": 29,
+  "half": "b",
+  "v1_page": "s029b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "98b4e83ea349e667d62d94cf897537ff1ed3fb16748f84d7c14ba2834865124a",
+ "lines": [
+  {
+   "text": "55",
+   "bbox": [
+    1378,
+    182,
+    1446,
+    218
+   ]
+  },
+  {
+   "text": "On Conception etc.",
+   "bbox": [
+    237,
+    207,
+    613,
+    254
+   ]
+  },
+  {
+   "text": "such cases of bad yogas there is plenty of benefic influence too",
+   "bbox": [
+    235,
+    280,
+    1450,
+    362
+   ]
+  },
+  {
+   "text": "on the factors afflicted the bad yoga becomes defunct.",
+   "bbox": [
+    237,
+    338,
+    1300,
+    411
+   ]
+  },
+  {
+   "text": "Likely Time of Birth",
+   "bbox": [
+    239,
+    454,
+    776,
+    516
+   ]
+  },
+  {
+   "text": "रविशशियुते सिंहे लग्ने कुजार्किनिरीक्षते",
+   "bbox": [
+    314,
+    533,
+    889,
+    599
+   ]
+  },
+  {
+   "text": "नयनरहित: सौम्यासौम्यै: सबुद्बुदलोचन:।",
+   "bbox": [
+    316,
+    597,
+    922,
+    661
+   ]
+  },
+  {
+   "text": "व्ययगृहगतश्चन्द्रो वामं हिनस्त्यपरं रविर्न",
+   "bbox": [
+    315,
+    656,
+    889,
+    734
+   ]
+  },
+  {
+   "text": "शुभगदिता योगा याप्या भवन्ति शुभेक्षिता: ।। 2011",
+   "bbox": [
+    319,
+    725,
+    1047,
+    793
+   ]
+  },
+  {
+   "text": "The number of dwadashamsha present in the longitude of",
+   "bbox": [
+    323,
+    805,
+    1465,
+    884
+   ]
+  },
+  {
+   "text": "Moon at the time of conception (or prashna) added to the said",
+   "bbox": [
+    248,
+    855,
+    1462,
+    940
+   ]
+  },
+  {
+   "text": "longitude of Moon will give the sign in which Moon will be at",
+   "bbox": [
+    249,
+    909,
+    1465,
+    991
+   ]
+  },
+  {
+   "text": "the time of birth in the 9th or 10th month from the month of",
+   "bbox": [
+    251,
+    962,
+    1466,
+    1041
+   ]
+  },
+  {
+   "text": "conception. In order to find out the ishta at the time of birth,",
+   "bbox": [
+    252,
+    1014,
+    1466,
+    1098
+   ]
+  },
+  {
+   "text": "find out the navamsha sign present in the longitude of the",
+   "bbox": [
+    251,
+    1070,
+    1467,
+    1149
+   ]
+  },
+  {
+   "text": "lagna at conception (or prashna). This sign will be sheershoday",
+   "bbox": [
+    254,
+    1121,
+    1468,
+    1206
+   ]
+  },
+  {
+   "text": "or prishtoday. For former the ishta should be considered from",
+   "bbox": [
+    254,
+    1172,
+    1470,
+    1254
+   ]
+  },
+  {
+   "text": "sunrise as it will lie in day time. If the latter, the ishta will lie",
+   "bbox": [
+    257,
+    1227,
+    1473,
+    1307
+   ]
+  },
+  {
+   "text": "in the night and should be considered from Sun set. The",
+   "bbox": [
+    255,
+    1280,
+    1473,
+    1358
+   ]
+  },
+  {
+   "text": "elapsed portion of the navamsha in lagna will indicate the",
+   "bbox": [
+    257,
+    1332,
+    1475,
+    1411
+   ]
+  },
+  {
+   "text": "elapsed portion of the day or night as the case may be.",
+   "bbox": [
+    258,
+    1383,
+    1474,
+    1464
+   ]
+  },
+  {
+   "text": "After ascertaining the duration of the day or night at the day",
+   "bbox": [
+    258,
+    1435,
+    1479,
+    1516
+   ]
+  },
+  {
+   "text": "of birth, the rule of 3 should be applied ie if the total degree",
+   "bbox": [
+    260,
+    1486,
+    1480,
+    1571
+   ]
+  },
+  {
+   "text": "of a navamsha <math>(03°20' = 200</math> minutes) equal the whole of",
+   "bbox": [
+    260,
+    1542,
+    1484,
+    1619
+   ]
+  },
+  {
+   "text": "the duration of night or day. How much of night or day will",
+   "bbox": [
+    261,
+    1592,
+    1483,
+    1676
+   ]
+  },
+  {
+   "text": "be elapsed portion of navamsha in lagna represent. The",
+   "bbox": [
+    264,
+    1645,
+    1483,
+    1729
+   ]
+  },
+  {
+   "text": "answer will be so much time past of night or day as the case",
+   "bbox": [
+    264,
+    1700,
+    1485,
+    1780
+   ]
+  },
+  {
+   "text": "may be on the day of birth, from which ascendant etc can be",
+   "bbox": [
+    264,
+    1753,
+    1485,
+    1834
+   ]
+  },
+  {
+   "text": "calculated.",
+   "bbox": [
+    267,
+    1832,
+    492,
+    1878
+   ]
+  },
+  {
+   "text": "Note: Pt. Maheedhar Sharma is of the view that the",
+   "bbox": [
+    341,
+    1881,
+    1487,
+    1959
+   ]
+  },
+  {
+   "text": "rule of 3 applied to the portion of the dwadashamsha elapsed",
+   "bbox": [
+    268,
+    1934,
+    1490,
+    2016
+   ]
+  },
+  {
+   "text": "in the longitude of Moon at conception gives the total of",
+   "bbox": [
+    270,
+    1987,
+    1493,
+    2068
+   ]
+  },
+  {
+   "text": "nakshatras elapsed. The rule of 3 would be-If the whole",
+   "bbox": [
+    271,
+    2039,
+    1491,
+    2121
+   ]
+  },
+  {
+   "text": "duration of a dwadashamsha consisting of 150 kalas (minutes)",
+   "bbox": [
+    273,
+    2090,
+    1492,
+    2175
+   ]
+  },
+  {
+   "text": "is equal to 360 degree (27 nakshatras), how much will the",
+   "bbox": [
+    273,
+    2144,
+    1493,
+    2226
+   ]
+  },
+  {
+   "text": "elapsed portion of the dwadashamsha in the longitude of Moon",
+   "bbox": [
+    275,
+    2197,
+    1497,
+    2278
+   ]
+  },
+  {
+   "text": "represent.",
+   "bbox": [
+    277,
+    2281,
+    491,
+    2325
+   ]
+  }
+ ]
+}

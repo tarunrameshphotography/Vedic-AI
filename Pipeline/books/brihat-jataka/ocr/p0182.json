@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0182",
+ "book_id": "brihat-jataka",
+ "seq": 182,
+ "source_ref": {
+  "pdf_page": 91,
+  "half": "b",
+  "v1_page": "s091b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "5f036b97bd1c1bb20839e129005ee91a1f66c77369ed9f8674f072a5a160fa37",
+ "lines": [
+  {
+   "text": "179",
+   "bbox": [
+    1356,
+    242,
+    1442,
+    274
+   ]
+  },
+  {
+   "text": "<b>Female Horoscopy</b>",
+   "bbox": [
+    235,
+    261,
+    603,
+    302
+   ]
+  },
+  {
+   "text": "sequence of Kuja, Shani, Guru, Budha and Shukra.",
+   "bbox": [
+    234,
+    342,
+    1265,
+    408
+   ]
+  },
+  {
+   "text": "स्वच्छन्दा पतिघातिनी बहुगुणा शिल्पिन्यसाध्वीन्दुभे",
+   "bbox": [
+    310,
+    424,
+    1045,
+    495
+   ]
+  },
+  {
+   "text": "न्राचारा कुलटार्कभे नृपवधू: पुंश्चेष्टिताऽगम्यगा।",
+   "bbox": [
+    311,
+    489,
+    971,
+    557
+   ]
+  },
+  {
+   "text": "जैवे नैकगुणाल्परत्यतिगुणा विज्ञानयुक्ताऽसती।",
+   "bbox": [
+    311,
+    554,
+    968,
+    622
+   ]
+  },
+  {
+   "text": "दासी नीचरताऽऽर्कि्भे पतिरता दुष्टाऽप्रजाह स्वांशकै: ।। 5 ।।",
+   "bbox": [
+    314,
+    614,
+    1186,
+    688
+   ]
+  },
+  {
+   "text": "If the lagna or the Moon is in Karka, the trimsamsha",
+   "bbox": [
+    318,
+    704,
+    1456,
+    775
+   ]
+  },
+  {
+   "text": "results are respectively - she does what she likes; she brings",
+   "bbox": [
+    242,
+    754,
+    1455,
+    830
+   ]
+  },
+  {
+   "text": "about the death of her husband; she has virtuous qualities, she",
+   "bbox": [
+    245,
+    810,
+    1456,
+    880
+   ]
+  },
+  {
+   "text": "is skilled in arts, she is immoral.",
+   "bbox": [
+    244,
+    876,
+    899,
+    931
+   ]
+  },
+  {
+   "text": "If the Moon or lagna is in Simha, the results are respec-",
+   "bbox": [
+    321,
+    943,
+    1459,
+    1007
+   ]
+  },
+  {
+   "text": "tively - she becomes masculine; she is adulterous; she is",
+   "bbox": [
+    246,
+    993,
+    1462,
+    1063
+   ]
+  },
+  {
+   "text": "queenly; she is manly; she commits incest.",
+   "bbox": [
+    250,
+    1055,
+    1096,
+    1115
+   ]
+  },
+  {
+   "text": "If the lagna or Moon falls in the signs owned by Guru,",
+   "bbox": [
+    324,
+    1124,
+    1460,
+    1193
+   ]
+  },
+  {
+   "text": "the results are respectively - she is good; she has little",
+   "bbox": [
+    250,
+    1175,
+    1464,
+    1247
+   ]
+  },
+  {
+   "text": "desire for sex; she is virtuous; she is skilled in arts; she is",
+   "bbox": [
+    251,
+    1229,
+    1464,
+    1298
+   ]
+  },
+  {
+   "text": "adulterous.",
+   "bbox": [
+    253,
+    1304,
+    485,
+    1344
+   ]
+  },
+  {
+   "text": "If the lagna or the Moon falls in the signs owned by Shani,",
+   "bbox": [
+    327,
+    1359,
+    1466,
+    1429
+   ]
+  },
+  {
+   "text": "the results of the trimsamshas are respectively - she becomes",
+   "bbox": [
+    254,
+    1413,
+    1470,
+    1482
+   ]
+  },
+  {
+   "text": "a servant; she is fond of a low man; she is virtuous; she is",
+   "bbox": [
+    255,
+    1464,
+    1472,
+    1535
+   ]
+  },
+  {
+   "text": "sinful; she is childless.",
+   "bbox": [
+    258,
+    1535,
+    712,
+    1584
+   ]
+  },
+  {
+   "text": "Notes: In the case of the Karkataka the sequence of",
+   "bbox": [
+    330,
+    1596,
+    1476,
+    1662
+   ]
+  },
+  {
+   "text": "the trimsamshas must be Shukra, Budha, Guru, Shani and",
+   "bbox": [
+    257,
+    1649,
+    1472,
+    1715
+   ]
+  },
+  {
+   "text": "Kuja. In the case of Simha it must be Kuja, Shani, Guru,",
+   "bbox": [
+    257,
+    1704,
+    1472,
+    1768
+   ]
+  },
+  {
+   "text": "Budha and Shukra. But the interpreters appear to give the",
+   "bbox": [
+    260,
+    1757,
+    1473,
+    1823
+   ]
+  },
+  {
+   "text": "results in the sequence of Kuja, Shani, Guru, Budha and",
+   "bbox": [
+    260,
+    1807,
+    1476,
+    1877
+   ]
+  },
+  {
+   "text": "Shukra. This is questionable as far as Karkataka is Con-",
+   "bbox": [
+    261,
+    1860,
+    1476,
+    1930
+   ]
+  },
+  {
+   "text": "cerned.",
+   "bbox": [
+    263,
+    1933,
+    416,
+    1979
+   ]
+  },
+  {
+   "text": "शशिलग्नसमायुक्तैः फलं त्रिंशांशकैरिदम्।",
+   "bbox": [
+    336,
+    2002,
+    930,
+    2062
+   ]
+  },
+  {
+   "text": "बलाबलविकल्पेन तयोरुक्तं विचिन्तयेत् ।। 6 ।।",
+   "bbox": [
+    337,
+    2062,
+    1025,
+    2128
+   ]
+  },
+  {
+   "text": "The results of the various trimsamshas for the lagna and",
+   "bbox": [
+    340,
+    2149,
+    1482,
+    2215
+   ]
+  },
+  {
+   "text": "the Moon-sign have been detailed. Before predicting the re-",
+   "bbox": [
+    264,
+    2200,
+    1482,
+    2271
+   ]
+  },
+  {
+   "text": "sults one must take into consideration the strength of the",
+   "bbox": [
+    268,
+    2252,
+    1483,
+    2323
+   ]
+  },
+  {
+   "text": "lagna and the Moon.",
+   "bbox": [
+    269,
+    2324,
+    687,
+    2371
+   ]
+  }
+ ]
+}

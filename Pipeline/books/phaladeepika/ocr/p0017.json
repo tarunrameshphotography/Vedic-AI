@@ -1,0 +1,288 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0017",
+ "book_id": "phaladeepika",
+ "seq": 17,
+ "source_ref": {
+  "pdf_page": 17
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "3ac99f48456cb60724a1a74cd10cbfe010ca4ff0d92f23f312eefff62ecf9f6a",
+ "lines": [
+  {
+   "text": "<b>Chapter 2</b>",
+   "bbox": [
+    285,
+    57,
+    353,
+    75
+   ]
+  },
+  {
+   "text": "<b>Information and Characteristic features of planets</b>",
+   "bbox": [
+    147,
+    85,
+    491,
+    103
+   ]
+  },
+  {
+   "text": "Before we come to the verses of this chapter it is necessary to explain its ",
+   "bbox": [
+    121,
+    137,
+    556,
+    152
+   ]
+  },
+  {
+   "text": "objects. In the previous chapter it has been described what each house stands for. It ",
+   "bbox": [
+    85,
+    161,
+    556,
+    176
+   ]
+  },
+  {
+   "text": "is proposed to state in this chapter what purpose and what object each planet ",
+   "bbox": [
+    85,
+    185,
+    556,
+    201
+   ]
+  },
+  {
+   "text": "signifies.",
+   "bbox": [
+    85,
+    209,
+    136,
+    225
+   ]
+  },
+  {
+   "text": "If a house stands for a certain subject matter, the lord of the house will also ",
+   "bbox": [
+    121,
+    233,
+    556,
+    249
+   ]
+  },
+  {
+   "text": "be considered to be concerned with it. For example, the 6th house deals with ",
+   "bbox": [
+    85,
+    257,
+    556,
+    273
+   ]
+  },
+  {
+   "text": "enemies. Naturally the same subject will have to be examined from the lord of the ",
+   "bbox": [
+    85,
+    282,
+    556,
+    297
+   ]
+  },
+  {
+   "text": "6th house. This is so because of his lordship of the 6th house. Here we have to ",
+   "bbox": [
+    85,
+    306,
+    556,
+    321
+   ]
+  },
+  {
+   "text": "consider also the natural or inherent characteristics and functions of that planet. Let ",
+   "bbox": [
+    85,
+    330,
+    556,
+    345
+   ]
+  },
+  {
+   "text": "us suppose that in ten birth charts, the Sun is lord of the ten different houses. There ",
+   "bbox": [
+    85,
+    354,
+    556,
+    370
+   ]
+  },
+  {
+   "text": "is doubt that as lord of the Ascendant Sun will function in that capacity and as lord ",
+   "bbox": [
+    85,
+    378,
+    556,
+    394
+   ]
+  },
+  {
+   "text": "of the 2nd. he will be concerned with wealth; but he will also, in course of its ",
+   "bbox": [
+    85,
+    402,
+    556,
+    418
+   ]
+  },
+  {
+   "text": "effects, will produce results of his inherent qualities and characteristics. This is ",
+   "bbox": [
+    85,
+    427,
+    556,
+    442
+   ]
+  },
+  {
+   "text": "what is intended to be explained in this chapter.",
+   "bbox": [
+    85,
+    451,
+    352,
+    466
+   ]
+  },
+  {
+   "text": "1. The Sun is the singnificator of the person's collection of copper and gold, ",
+   "bbox": [
+    121,
+    475,
+    556,
+    490
+   ]
+  },
+  {
+   "text": "and of father, patience, valour, victory in war, one's soul (Atman), auspiciousness, ",
+   "bbox": [
+    85,
+    499,
+    556,
+    514
+   ]
+  },
+  {
+   "text": "happiness, prowess, power, light, any work relating to Lord Shiva, travels in ",
+   "bbox": [
+    85,
+    523,
+    556,
+    539
+   ]
+  },
+  {
+   "text": "forests and mountains, havans or yajnas, Inclinations for work, temple, acuteness, ",
+   "bbox": [
+    85,
+    547,
+    556,
+    563
+   ]
+  },
+  {
+   "text": "enthusiasm. Wise men should act according to these significations.",
+   "bbox": [
+    85,
+    571,
+    459,
+    587
+   ]
+  },
+  {
+   "text": "2. The Moon is the signiflcator of the welfare of the mother, tranquilityof the ",
+   "bbox": [
+    121,
+    596,
+    556,
+    611
+   ]
+  },
+  {
+   "text": "mind, bathing in the sea, white chamar, umbrella, good fan, fruits, flowers, tender ",
+   "bbox": [
+    85,
+    620,
+    556,
+    635
+   ]
+  },
+  {
+   "text": "objects, farming grains, fame, pearls, silver, bell metal, beauty. In other words all ",
+   "bbox": [
+    85,
+    644,
+    556,
+    659
+   ]
+  },
+  {
+   "text": "about the above matters should be ascertained from the Moon.",
+   "bbox": [
+    85,
+    668,
+    434,
+    684
+   ]
+  },
+  {
+   "text": "3. All about one's strength (physical and mental), products produced from ",
+   "bbox": [
+    121,
+    692,
+    556,
+    708
+   ]
+  },
+  {
+   "text": "the earth, qualities of the brothers and sisters, cruelty, battle, courage, antagonism, ",
+   "bbox": [
+    85,
+    716,
+    556,
+    732
+   ]
+  },
+  {
+   "text": "the fire of the kitchen, gold, kinsmen, weapons, thieves, enemies, enthusiasm, ",
+   "bbox": [
+    85,
+    740,
+    556,
+    756
+   ]
+  },
+  {
+   "text": "sexual intercourse with another man's wife, falsehood, prowess, high thinking, sin, ",
+   "bbox": [
+    85,
+    765,
+    556,
+    780
+   ]
+  },
+  {
+   "text": "17",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

@@ -1,0 +1,252 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0220",
+ "book_id": "phaladeepika",
+ "seq": 220,
+ "source_ref": {
+  "pdf_page": 220
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "f5b1fa2e73dd59874079e177f3caedfbb48cf9cc37713e8b668702aaf4d39d9a",
+ "lines": [
+  {
+   "text": "accomplishing it. Notes — The meaning of Ashtakavarga is literally the group of 8 ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "things. In other words, it is the combination of the good and bad positions of a ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "planet with respect to the 7 planets and the Lagna (8 things). So is the combination ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "of benefic and malefic dots in a native's chart with reference to these 8 planets ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "(here Lagna is also treated as a planet).",
+   "bbox": [
+    85,
+    154,
+    304,
+    169
+   ]
+  },
+  {
+   "text": "2. In the ancient times the Rasi chakra etc., were drawn on the ground and ",
+   "bbox": [
+    121,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "the places where dots are to be indicated were shown by placing beads but now we ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "use pen and paper and dots are marked at the places where beads are to be placed. ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "Although in the verses the word 'beads' has been used, we in own translation ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "replace 'beads' with 'dots' or bindus.",
+   "bbox": [
+    85,
+    275,
+    286,
+    290
+   ]
+  },
+  {
+   "text": "Draw a horoscope on a paper and place the all seven planets at their ",
+   "bbox": [
+    121,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "appropriate positions. Suppose we have to prepare Ashtakavarga chakra of the ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "horoscopoe given below. Rahu and Ketu being shadowy planets have no place in ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "the Ashtakarvarga chart. First we will describe how the Sun's Ashtakavarga is ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "prepared.",
+   "bbox": [
+    85,
+    395,
+    138,
+    411
+   ]
+  },
+  {
+   "text": "SAT ",
+   "bbox": [
+    278,
+    456,
+    306,
+    472
+   ]
+  },
+  {
+   "text": "MOON",
+   "bbox": [
+    212,
+    464,
+    255,
+    480
+   ]
+  },
+  {
+   "text": "RAHU",
+   "bbox": [
+    270,
+    472,
+    310,
+    488
+   ]
+  },
+  {
+   "text": "L",
+   "bbox": [
+    400,
+    578,
+    408,
+    593
+   ]
+  },
+  {
+   "text": "SUN ",
+   "bbox": [
+    276,
+    618,
+    308,
+    634
+   ]
+  },
+  {
+   "text": "JUP ",
+   "bbox": [
+    335,
+    626,
+    362,
+    642
+   ]
+  },
+  {
+   "text": "MERC",
+   "bbox": [
+    214,
+    634,
+    253,
+    650
+   ]
+  },
+  {
+   "text": "VEN ",
+   "bbox": [
+    276,
+    634,
+    308,
+    650
+   ]
+  },
+  {
+   "text": "KETU",
+   "bbox": [
+    328,
+    642,
+    366,
+    658
+   ]
+  },
+  {
+   "text": "MARS",
+   "bbox": [
+    270,
+    651,
+    310,
+    666
+   ]
+  },
+  {
+   "text": "220",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

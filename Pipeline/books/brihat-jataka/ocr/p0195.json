@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0195",
+ "book_id": "brihat-jataka",
+ "seq": 195,
+ "source_ref": {
+  "pdf_page": 98,
+  "half": "a",
+  "v1_page": "s098a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "49a82d9ecc151e621c723fb8c7ed5faef943e24cfdcc5f61875d3d3c2ce703df",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1249,
+    232,
+    1541,
+    266
+   ]
+  },
+  {
+   "text": "192",
+   "bbox": [
+    331,
+    233,
+    420,
+    267
+   ]
+  },
+  {
+   "text": "navamsha lagna.",
+   "bbox": [
+    327,
+    338,
+    669,
+    375
+   ]
+  },
+  {
+   "text": "(d) Planets aspecting the sign occupied by the lord of the",
+   "bbox": [
+    401,
+    413,
+    1544,
+    455
+   ]
+  },
+  {
+   "text": "navamsha lagna.",
+   "bbox": [
+    327,
+    468,
+    667,
+    505
+   ]
+  },
+  {
+   "text": "We have to take into consideration all these or a majority",
+   "bbox": [
+    401,
+    545,
+    1544,
+    583
+   ]
+  },
+  {
+   "text": "of these to determine the locality of death. The places are not",
+   "bbox": [
+    325,
+    598,
+    1544,
+    636
+   ]
+  },
+  {
+   "text": "those governed by the planets as given in chapter 2.12.",
+   "bbox": [
+    325,
+    651,
+    1423,
+    689
+   ]
+  },
+  {
+   "text": "Take the total time of the navamshas yet to rise. The",
+   "bbox": [
+    400,
+    728,
+    1543,
+    766
+   ]
+  },
+  {
+   "text": "time of death is equal to their total. If the lagna is aspected",
+   "bbox": [
+    325,
+    780,
+    1541,
+    819
+   ]
+  },
+  {
+   "text": "by its owner, this time must be doubled. If a benefic is in",
+   "bbox": [
+    325,
+    833,
+    1541,
+    872
+   ]
+  },
+  {
+   "text": "lagna, the time must be trepled. If lagna is aspected by its",
+   "bbox": [
+    325,
+    887,
+    1543,
+    925
+   ]
+  },
+  {
+   "text": "lord and if it also has a benefic, the time must be multiplied",
+   "bbox": [
+    324,
+    940,
+    1546,
+    978
+   ]
+  },
+  {
+   "text": "by six.",
+   "bbox": [
+    325,
+    991,
+    459,
+    1029
+   ]
+  },
+  {
+   "text": "When the lagna falls in a day sign, the time refers to",
+   "bbox": [
+    400,
+    1067,
+    1543,
+    1111
+   ]
+  },
+  {
+   "text": "the day time. The signs strong in day are Simha, Kanya,",
+   "bbox": [
+    325,
+    1122,
+    1541,
+    1161
+   ]
+  },
+  {
+   "text": "Tula, Vrishchika and Kumbha. Mesha, Vrishchika, Mithuna,",
+   "bbox": [
+    325,
+    1173,
+    1538,
+    1214
+   ]
+  },
+  {
+   "text": "Karka, Dhanush and Makara are strong by night (1.10)",
+   "bbox": [
+    324,
+    1227,
+    1436,
+    1266
+   ]
+  },
+  {
+   "text": "The lagna referred to may be the navamsha lagna. The",
+   "bbox": [
+    399,
+    1304,
+    1538,
+    1343
+   ]
+  },
+  {
+   "text": "time given is the time when the native will be unconscious",
+   "bbox": [
+    322,
+    1356,
+    1538,
+    1398
+   ]
+  },
+  {
+   "text": "before death.",
+   "bbox": [
+    322,
+    1410,
+    587,
+    1444
+   ]
+  },
+  {
+   "text": "दहनजलविमिश्रैर्भस्मसंक्लेदशोषैः",
+   "bbox": [
+    394,
+    1484,
+    861,
+    1531
+   ]
+  },
+  {
+   "text": "निधनभवनसंस्थैर्व्यालवर्गैविंडन्त:।",
+   "bbox": [
+    394,
+    1549,
+    874,
+    1596
+   ]
+  },
+  {
+   "text": "इति शवपरिणामश्चिन्तनीयो यथोक्त:",
+   "bbox": [
+    394,
+    1617,
+    891,
+    1664
+   ]
+  },
+  {
+   "text": "पृथुविरचितशास्त्राद्गन्यनूकादि चिन्त्यम् ।। 13 ।।",
+   "bbox": [
+    394,
+    1685,
+    1105,
+    1733
+   ]
+  },
+  {
+   "text": "Note the Drekkana rising in the eighth house. If it is",
+   "bbox": [
+    396,
+    1776,
+    1540,
+    1818
+   ]
+  },
+  {
+   "text": "dahana, jala, or misra, the dead body will be reduced to ashes",
+   "bbox": [
+    319,
+    1826,
+    1537,
+    1872
+   ]
+  },
+  {
+   "text": "by fire or atoms by water, or putrefaction respectively.",
+   "bbox": [
+    319,
+    1883,
+    1404,
+    1922
+   ]
+  },
+  {
+   "text": "If the drekkana of the eighth is Vyala, the dead body will",
+   "bbox": [
+    396,
+    1961,
+    1538,
+    1999
+   ]
+  },
+  {
+   "text": "be disgraced.",
+   "bbox": [
+    319,
+    2013,
+    583,
+    2050
+   ]
+  },
+  {
+   "text": "The disposal of the dead body should be explained in this",
+   "bbox": [
+    396,
+    2091,
+    1538,
+    2130
+   ]
+  },
+  {
+   "text": "way.",
+   "bbox": [
+    319,
+    2151,
+    419,
+    2183
+   ]
+  },
+  {
+   "text": "As for the past and future births one must consult greater",
+   "bbox": [
+    394,
+    2220,
+    1541,
+    2258
+   ]
+  },
+  {
+   "text": "works on the matter.",
+   "bbox": [
+    319,
+    2270,
+    744,
+    2304
+   ]
+  }
+ ]
+}

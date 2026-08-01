@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0140",
+ "book_id": "phaladeepika",
+ "seq": 140,
+ "source_ref": {
+  "pdf_page": 140
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "9fc7e593cbd0971d82f14ffc60ecce02060916269ac90cd28b15ddb6d2ea3f92",
+ "lines": [
+  {
+   "text": "will be through a disease in the private parts, if Jupiter should occupy the 6th or the ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "8th house, the native will be afflicted with consumption; if Saturn be in such a ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "position, the native will suffer from nervous diseases. If Rahu aspected by Mars be ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "in the 6th or the 8th, the person concerned will suffer from carbuncle. Should ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "Saturn alongwith the Moon posited in 6th or the 8th, native will suffer from ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "enlargement of the spleen. If the waning Moon should occupy the 6th or the 8th ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "house identical with watery sign, in conjunction with malefic; the person will ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "suffer from watery diseases or consumption.",
+   "bbox": [
+    85,
+    226,
+    334,
+    242
+   ]
+  },
+  {
+   "text": "12. I now proceed to explain the manner in which a person meets with his ",
+   "bbox": [
+    121,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "death and the cause of the same.",
+   "bbox": [
+    85,
+    275,
+    266,
+    290
+   ]
+  },
+  {
+   "text": "The death is caused through the diseases caused by the strongest of the ",
+   "bbox": [
+    121,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "planets occupying or aspecting the 8th house.",
+   "bbox": [
+    85,
+    323,
+    340,
+    339
+   ]
+  },
+  {
+   "text": "If there be no planet occupying or aspecting the 8th house, the death will be ",
+   "bbox": [
+    121,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "caused by the diseases signified by the 8th house or those indicated by the house in ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "which the lord of the 8th house is placed.",
+   "bbox": [
+    85,
+    395,
+    316,
+    411
+   ]
+  },
+  {
+   "text": "If any of the planetary disposition do not exist, it may be declared with ",
+   "bbox": [
+    121,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "certainty that death will be caused by the diseases caused by the lord of the 8th ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "house, or by the lord of the 22nd decanate (counted from the Lagna decanate).",
+   "bbox": [
+    85,
+    468,
+    523,
+    483
+   ]
+  },
+  {
+   "text": "13. When the 8th house is occupied or aspected by a planet, death should be ",
+   "bbox": [
+    121,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "declared to be caused by diseases relating to that planet. When there are no planets ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "occupying or aspecting the 8th house, death is caused through diseases arising ",
+   "bbox": [
+    85,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "from the nature of the sign representing the 8th house.",
+   "bbox": [
+    85,
+    565,
+    388,
+    580
+   ]
+  },
+  {
+   "text": "14-15. The diseases or means through which death is caused by the various ",
+   "bbox": [
+    121,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "planets are as under :—",
+   "bbox": [
+    85,
+    613,
+    217,
+    628
+   ]
+  },
+  {
+   "text": "(1) The Sun — fire, high fever, bile or weapon",
+   "bbox": [
+    121,
+    637,
+    382,
+    652
+   ]
+  },
+  {
+   "text": "(2) The Moon — Cholera, watery diseases or pulmonary disease",
+   "bbox": [
+    121,
+    661,
+    483,
+    677
+   ]
+  },
+  {
+   "text": "(3) Mars — fire, magical spells, witchcraft and weapons.",
+   "bbox": [
+    121,
+    685,
+    440,
+    701
+   ]
+  },
+  {
+   "text": "(4) Mercury—Anaemia, bloodlessness, and similar diseases and giddiness.",
+   "bbox": [
+    121,
+    709,
+    540,
+    725
+   ]
+  },
+  {
+   "text": "(5) Juipter — Causes death without much trouble or through phelgm.",
+   "bbox": [
+    121,
+    734,
+    509,
+    749
+   ]
+  },
+  {
+   "text": "(6) Venus — Venefal diseases or similar ones caused by association with ",
+   "bbox": [
+    121,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "140",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

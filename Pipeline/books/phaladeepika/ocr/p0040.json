@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0040",
+ "book_id": "phaladeepika",
+ "seq": 40,
+ "source_ref": {
+  "pdf_page": 40
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "0745671d11e1eb594c483a24f5efea27efd50472960093a430d1271fdcc38649",
+ "lines": [
+  {
+   "text": "The Sun and the Moon are never retrograde in their motions. The remaining ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "planets viz. Mars, Mercury, Jupiter. Venus and Saturn have both direct and ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "retrograde motions. The strength which the planets obtain by virtue of their ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "motions is called Chesta Bala (Motional strength). To work out this strength the ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "facts regarding Mandoucha, Kshetra and Kendra etc., have to be worked out. This ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "involves lot of arithmetical calculations. It is not possible to give those details here ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "for lack of space. Still some information in this regard is given below —",
+   "bbox": [
+    85,
+    202,
+    491,
+    218
+   ]
+  },
+  {
+   "text": "(a) If the planet is retrograde he gets 60 Shastayamsa (one Rupa) of strength.",
+   "bbox": [
+    121,
+    226,
+    551,
+    242
+   ]
+  },
+  {
+   "text": "(b) If he is Anuvakra he gets 30 Shastayamsa of strength.",
+   "bbox": [
+    121,
+    251,
+    441,
+    266
+   ]
+  },
+  {
+   "text": "(c) If he is Vikala, he gets 15 Shastayamsa of strength.",
+   "bbox": [
+    121,
+    275,
+    426,
+    290
+   ]
+  },
+  {
+   "text": "(d) If he is in Samagama, he gets 30 Shastayamsa of strength.",
+   "bbox": [
+    121,
+    299,
+    466,
+    314
+   ]
+  },
+  {
+   "text": "(e) If he is Manda (This means motion be increasing but be less than the ",
+   "bbox": [
+    121,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "medium motion) and direct he gets 15 Shastayamsa of strength.",
+   "bbox": [
+    85,
+    347,
+    441,
+    363
+   ]
+  },
+  {
+   "text": "(f) If he is Mandatara (The motion be decreasing but be more than the ",
+   "bbox": [
+    121,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "medium motion) and direct, he gets 15 Shastayamsa of strength).",
+   "bbox": [
+    85,
+    395,
+    449,
+    411
+   ]
+  },
+  {
+   "text": "(g) If the motion be fast and be direct, he gets 45 Shastayamsa of strength.",
+   "bbox": [
+    121,
+    420,
+    537,
+    435
+   ]
+  },
+  {
+   "text": "(h) If motion be faster, and direct, he obtains 30 Shastayamsa of strength.",
+   "bbox": [
+    121,
+    444,
+    532,
+    459
+   ]
+  },
+  {
+   "text": "Naisargik Bala (Inherent strength)",
+   "bbox": [
+    121,
+    468,
+    312,
+    483
+   ]
+  },
+  {
+   "text": "This strength is inherent in the planet and never changes.",
+   "bbox": [
+    121,
+    492,
+    440,
+    508
+   ]
+  },
+  {
+   "text": "The Naisargik Bala of the Sun is 60 Shastayamsa, of the Moon 51.3, of ",
+   "bbox": [
+    121,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "Venus 42.85, of Jupiter 34.28, of Mercury 25.70, of Mars 17.14 and of Saturn 8.57 ",
+   "bbox": [
+    85,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "Shastayamsa.",
+   "bbox": [
+    85,
+    565,
+    161,
+    580
+   ]
+  },
+  {
+   "text": "<b>Drig Bala</b>",
+   "bbox": [
+    121,
+    589,
+    179,
+    604
+   ]
+  },
+  {
+   "text": "This kind of strength is derived from aspect. If a planet is aspected by ",
+   "bbox": [
+    121,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "benefics, the aspect is considered as benefic (favourable). To work out the strength ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "of aspect, the difference in degrees etc., of the aspecting and aspected planet has to ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "be worked out arithmetically.",
+   "bbox": [
+    85,
+    685,
+    249,
+    701
+   ]
+  },
+  {
+   "text": "If any planet is aspected by malefics, the aspect is treated as malefic ",
+   "bbox": [
+    121,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "(unfavourable). The strength of the aspect is to be worked out arithmetically. For ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "details see Sripati Padhati.",
+   "bbox": [
+    85,
+    758,
+    233,
+    773
+   ]
+  },
+  {
+   "text": "40",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

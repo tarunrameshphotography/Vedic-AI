@@ -1,0 +1,209 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0047",
+ "book_id": "brihat-jataka",
+ "seq": 47,
+ "source_ref": {
+  "pdf_page": 24,
+  "half": "a",
+  "v1_page": "s024a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "0a9b1d99da3a5ffc54900973823cb2f3d502684af3e596a994e8dd0e92553ca1",
+ "lines": [
+  {
+   "text": "44",
+   "bbox": [
+    397,
+    226,
+    455,
+    255
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1316,
+    254,
+    1609,
+    300
+   ]
+  },
+  {
+   "text": "juice such as sugar cane. If it is Mars it is a tree full of thorns.",
+   "bbox": [
+    380,
+    322,
+    1607,
+    412
+   ]
+  },
+  {
+   "text": "If it is Jupiter the tree is one that gives sweet fruits such as the",
+   "bbox": [
+    383,
+    375,
+    1607,
+    465
+   ]
+  },
+  {
+   "text": "mango tree. If it is Mercury it would represent trees that bear",
+   "bbox": [
+    382,
+    429,
+    1609,
+    517
+   ]
+  },
+  {
+   "text": "no fruit. If it is Venus it would be a flower giving tree. If it be",
+   "bbox": [
+    380,
+    479,
+    1609,
+    571
+   ]
+  },
+  {
+   "text": "Moon it would denote trees that ooze out liquid. If it is Mars",
+   "bbox": [
+    376,
+    530,
+    1604,
+    624
+   ]
+  },
+  {
+   "text": "the tree will be bitter in taste such as nim etc.",
+   "bbox": [
+    376,
+    584,
+    1306,
+    661
+   ]
+  },
+  {
+   "text": "Trees and their Soil",
+   "bbox": [
+    372,
+    689,
+    897,
+    746
+   ]
+  },
+  {
+   "text": "शुभोऽशुभर्क्षे रुचिरं कुभूमिजं करोति वृक्षं विपरीतमन्यथा।",
+   "bbox": [
+    444,
+    770,
+    1259,
+    855
+   ]
+  },
+  {
+   "text": "परांशके यावति विच्युतः स्वकाद्धवन्ति तुल्यास्तरवस्तथाभिधाः।। 8 ।।",
+   "bbox": [
+    439,
+    832,
+    1465,
+    929
+   ]
+  },
+  {
+   "text": "If the lord of the navamsha in the lagna is a benefic but",
+   "bbox": [
+    440,
+    930,
+    1589,
+    1015
+   ]
+  },
+  {
+   "text": "placed in a malefic sign it denotes the growth of beautiful trees",
+   "bbox": [
+    361,
+    977,
+    1585,
+    1071
+   ]
+  },
+  {
+   "text": "in bad soil. If on the other hand, the said lord is a malefic and",
+   "bbox": [
+    357,
+    1034,
+    1582,
+    1120
+   ]
+  },
+  {
+   "text": "occupies a good sign it denotes the growth of a bad tree in a",
+   "bbox": [
+    357,
+    1084,
+    1581,
+    1177
+   ]
+  },
+  {
+   "text": "good soil. The number of navamshas intervening between the",
+   "bbox": [
+    356,
+    1137,
+    1576,
+    1230
+   ]
+  },
+  {
+   "text": "said lord's own navamsha and that occupied by him determine",
+   "bbox": [
+    352,
+    1187,
+    1573,
+    1282
+   ]
+  },
+  {
+   "text": "the type that the tree has.",
+   "bbox": [
+    351,
+    1244,
+    885,
+    1308
+   ]
+  },
+  {
+   "text": "इति श्रीवराहमिहिरकृते बृहज्जातके वियोनिजन्माध्यायस्तृतीय: ।।3।।",
+   "bbox": [
+    486,
+    1452,
+    1423,
+    1536
+   ]
+  },
+  {
+   "text": "Thus ends the third chapter on Non-human Birth in",
+   "bbox": [
+    415,
+    1536,
+    1563,
+    1622
+   ]
+  },
+  {
+   "text": "Brihat Jatak composed by Varahamihira.",
+   "bbox": [
+    337,
+    1587,
+    1170,
+    1660
+   ]
+  }
+ ]
+}

@@ -1,0 +1,272 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0029",
+ "book_id": "brihat-jataka",
+ "seq": 29,
+ "source_ref": {
+  "pdf_page": 15,
+  "half": "a",
+  "v1_page": "s015a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "c2561b12c41e080ed3d07d65e8a28c1406bf31c8152c96fa8da99b1e9436ad05",
+ "lines": [
+  {
+   "text": "26.",
+   "bbox": [
+    361,
+    200,
+    451,
+    234
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1285,
+    232,
+    1581,
+    280
+   ]
+  },
+  {
+   "text": "बधुः स्वच्छः प्रथमभवनाद्येषु वर्णाः प्लवत्वं",
+   "bbox": [
+    429,
+    304,
+    1068,
+    376
+   ]
+  },
+  {
+   "text": "स्वाम्याशाख्यं दिनकरयुताद्धाद्द्वितीयं च वेशि: ।। 20 ।।",
+   "bbox": [
+    427,
+    364,
+    1248,
+    450
+   ]
+  },
+  {
+   "text": "Aries is red, Taurus is white, Gemini is green like a",
+   "bbox": [
+    420,
+    457,
+    1574,
+    549
+   ]
+  },
+  {
+   "text": "parrot's body, Cancer is rosy, Leo is darkish white, Virgo is",
+   "bbox": [
+    344,
+    505,
+    1570,
+    603
+   ]
+  },
+  {
+   "text": "variegated, Libra is dark, Scorpio is of golden colour, Sagit-",
+   "bbox": [
+    343,
+    557,
+    1570,
+    653
+   ]
+  },
+  {
+   "text": "tarius of yellow colour, Capricorn is brownish, Acquarius is",
+   "bbox": [
+    340,
+    610,
+    1569,
+    706
+   ]
+  },
+  {
+   "text": "darkish brown like that of mangoose, Pisces has the colour of",
+   "bbox": [
+    337,
+    661,
+    1568,
+    760
+   ]
+  },
+  {
+   "text": "a normal fish. The signs stand for the direction represented by",
+   "bbox": [
+    336,
+    715,
+    1563,
+    810
+   ]
+  },
+  {
+   "text": "their lords.",
+   "bbox": [
+    336,
+    771,
+    566,
+    815
+   ]
+  },
+  {
+   "text": "Commentary: Southern direction being represented by",
+   "bbox": [
+    407,
+    848,
+    1558,
+    942
+   ]
+  },
+  {
+   "text": "Mars, the two signs of Mars viz 1 and 8 also represent the",
+   "bbox": [
+    327,
+    898,
+    1554,
+    993
+   ]
+  },
+  {
+   "text": "south. Similar is the case with other signs (see table below):",
+   "bbox": [
+    326,
+    947,
+    1535,
+    1048
+   ]
+  },
+  {
+   "text": "Signs",
+   "bbox": [
+    326,
+    1031,
+    426,
+    1067
+   ]
+  },
+  {
+   "text": "<math>1, 8</math> <math>2, 7</math> <math>3, 6</math> <math>4</math> <math>9, 12</math> <math>10, 11</math>",
+   "bbox": [
+    593,
+    1035,
+    1393,
+    1110
+   ]
+  },
+  {
+   "text": "<math>\\overline{5}</math>",
+   "bbox": [
+    1471,
+    1075,
+    1505,
+    1104
+   ]
+  },
+  {
+   "text": "Lord of signs Mars Venus Mercury Moon Jupiter Saturn",
+   "bbox": [
+    319,
+    1081,
+    1399,
+    1166
+   ]
+  },
+  {
+   "text": "Sun",
+   "bbox": [
+    1451,
+    1131,
+    1523,
+    1163
+   ]
+  },
+  {
+   "text": "Direction",
+   "bbox": [
+    320,
+    1142,
+    575,
+    1188
+   ]
+  },
+  {
+   "text": "South South",
+   "bbox": [
+    571,
+    1153,
+    821,
+    1195
+   ]
+  },
+  {
+   "text": "North North North West",
+   "bbox": [
+    847,
+    1162,
+    1403,
+    1221
+   ]
+  },
+  {
+   "text": "East",
+   "bbox": [
+    1445,
+    1188,
+    1524,
+    1222
+   ]
+  },
+  {
+   "text": "East West",
+   "bbox": [
+    587,
+    1203,
+    785,
+    1241
+   ]
+  },
+  {
+   "text": "East",
+   "bbox": [
+    865,
+    1214,
+    944,
+    1246
+   ]
+  },
+  {
+   "text": "इति श्रीवराहमिहिरकृते बृहज्जातके राशिप्रभेदाध्याय: प्रथम: ।।1।।",
+   "bbox": [
+    461,
+    1391,
+    1381,
+    1481
+   ]
+  },
+  {
+   "text": "Thus ends the first chapter on Signs in Brihat Jatak",
+   "bbox": [
+    380,
+    1472,
+    1534,
+    1572
+   ]
+  },
+  {
+   "text": "composed by Varahamihira.",
+   "bbox": [
+    302,
+    1528,
+    869,
+    1590
+   ]
+  }
+ ]
+}

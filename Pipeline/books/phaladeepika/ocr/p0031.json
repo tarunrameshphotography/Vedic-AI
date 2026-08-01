@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0031",
+ "book_id": "phaladeepika",
+ "seq": 31,
+ "source_ref": {
+  "pdf_page": 31
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "062ba2493adf8f24bec7e7c6cf8c514519c97d06a731c259af84f58818b8f9a6",
+ "lines": [
+  {
+   "text": "7 Vargas — Calamity.",
+   "bbox": [
+    121,
+    57,
+    244,
+    73
+   ]
+  },
+  {
+   "text": "6 Vargas — Unhappiness.",
+   "bbox": [
+    121,
+    82,
+    266,
+    97
+   ]
+  },
+  {
+   "text": "5 Vargas — Love of kinsmen",
+   "bbox": [
+    121,
+    106,
+    285,
+    121
+   ]
+  },
+  {
+   "text": "4 Vargas — Foremost in the family",
+   "bbox": [
+    121,
+    130,
+    318,
+    145
+   ]
+  },
+  {
+   "text": "3 Vargas — Friend of a king",
+   "bbox": [
+    121,
+    154,
+    280,
+    169
+   ]
+  },
+  {
+   "text": "2 Vargas — Wealthy",
+   "bbox": [
+    121,
+    178,
+    236,
+    194
+   ]
+  },
+  {
+   "text": "1 Varga — Kingship",
+   "bbox": [
+    121,
+    202,
+    236,
+    218
+   ]
+  },
+  {
+   "text": "If a planet be strong in all the 10 Vargas, the native will be a king of kings.",
+   "bbox": [
+    121,
+    226,
+    539,
+    242
+   ]
+  },
+  {
+   "text": "A planet in infancy makes the native progressing. If he is in boyhood the ",
+   "bbox": [
+    121,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "native achieves happiness. If the planet be adolescent, he endows the native with ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "kingship. The native suffers from ill health If the planet be in middle age. The ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "planet in old age causes death of the native.",
+   "bbox": [
+    85,
+    323,
+    329,
+    339
+   ]
+  },
+  {
+   "text": "Notes — This means that a planet from infancy to youth gives progressively ",
+   "bbox": [
+    121,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "auspicious results and from middle age to old age the results are inauspicious.",
+   "bbox": [
+    85,
+    371,
+    521,
+    387
+   ]
+  },
+  {
+   "text": "11. If the benefic planets be endowed with strength in the Shadvargas, the ",
+   "bbox": [
+    121,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "native will be wealthy and longlived. If the Ascendant falls in the Krura amsas in ",
+   "bbox": [
+    85,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "the Shadvargas, the native will be shortlived, poor and of wicked disposition but if ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "the lord of Amsas in which the Ascendant falls, be strong, the person concerned ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "will become a king (a person with a high status political or administrative).",
+   "bbox": [
+    85,
+    492,
+    505,
+    508
+   ]
+  },
+  {
+   "text": "If the lord of the Navamsa of the Ascendant be strong, the native will be lull ",
+   "bbox": [
+    121,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "of happiness. If the lord of the Drekkana of the Ascendant be strong, the person ",
+   "bbox": [
+    85,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "concerned will achieve the status like that of a king. If the lord of the Ascendant ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "itself be strong, the native will become the ruler of the Earth and will enjoy good ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "fortune.",
+   "bbox": [
+    85,
+    613,
+    129,
+    628
+   ]
+  },
+  {
+   "text": "12. If in any nativity, malefics being in odd signs fall In the Sun's Hora (first ",
+   "bbox": [
+    121,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "15 degrees), the native will be cruel strong and wealthy. Opposite to this, if the ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "benefics being In even signs occupy the Moon's Hora (first 15 degrees), the native ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "will be lustrous, humble, soft-spoken, graceful and fortunate. If it be otherwise, the ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "results will also be of the same nature. If the dispositions be of mixed nature, the ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "results may be expected accordingly.",
+   "bbox": [
+    85,
+    758,
+    292,
+    773
+   ]
+  },
+  {
+   "text": "31",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

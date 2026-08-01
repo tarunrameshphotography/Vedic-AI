@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0112",
+ "book_id": "brihat-jataka",
+ "seq": 112,
+ "source_ref": {
+  "pdf_page": 56,
+  "half": "b",
+  "v1_page": "s056b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "44e6361c63d0a8e4fcfaef93a3b504492855e8409271fa167b70ee47cfcbd16a",
+ "lines": [
+  {
+   "text": "Nabhas (Heavenly) Yogas",
+   "bbox": [
+    268,
+    220,
+    783,
+    258
+   ]
+  },
+  {
+   "text": "109",
+   "bbox": [
+    1391,
+    220,
+    1478,
+    254
+   ]
+  },
+  {
+   "text": "If all the planets occupy only two adjoining kendras",
+   "bbox": [
+    343,
+    319,
+    1481,
+    360
+   ]
+  },
+  {
+   "text": "\"Gada\" Yoga is formed (It would be of four types ie as between",
+   "bbox": [
+    270,
+    371,
+    1479,
+    411
+   ]
+  },
+  {
+   "text": "lagna and 4th, 4th and 7th, 7th and 10th, and 10th and 1st). If",
+   "bbox": [
+    271,
+    419,
+    1482,
+    467
+   ]
+  },
+  {
+   "text": ",",
+   "bbox": [
+    0,
+    446,
+    15,
+    468
+   ]
+  },
+  {
+   "text": "all the planets are in the 1st and 7th houses, the yoga goes by",
+   "bbox": [
+    270,
+    477,
+    1479,
+    516
+   ]
+  },
+  {
+   "text": "the name of \"Sakat\". If all the planets are in 4th and 10th",
+   "bbox": [
+    270,
+    525,
+    1479,
+    571
+   ]
+  },
+  {
+   "text": "houses it is called \"Vihag\". If all the planets occupy the three",
+   "bbox": [
+    271,
+    579,
+    1478,
+    623
+   ]
+  },
+  {
+   "text": "trines starting with lagna ie 1st, 5th, 9th houses, it constitutes",
+   "bbox": [
+    271,
+    635,
+    1478,
+    674
+   ]
+  },
+  {
+   "text": "yoga called \"Shringashtak\". If all the Planets are in mutual",
+   "bbox": [
+    270,
+    687,
+    1481,
+    727
+   ]
+  },
+  {
+   "text": "trines but involving other than the lagna, the yoga constituted",
+   "bbox": [
+    270,
+    740,
+    1476,
+    780
+   ]
+  },
+  {
+   "text": "goes by the name of \"Hala\". (These would be constituted by",
+   "bbox": [
+    268,
+    793,
+    1478,
+    833
+   ]
+  },
+  {
+   "text": "<math>(i)</math> 2nd, 6th and 10th houses, <math>(ii)</math> by 3rd, 7th and 11th houses,",
+   "bbox": [
+    268,
+    846,
+    1479,
+    885
+   ]
+  },
+  {
+   "text": "(iii) by 4th, 8th and 12th houses.)",
+   "bbox": [
+    268,
+    898,
+    953,
+    937
+   ]
+  },
+  {
+   "text": "Vajra etc (4 Yogas)",
+   "bbox": [
+    269,
+    998,
+    758,
+    1045
+   ]
+  },
+  {
+   "text": "शकटाण्डजवच्छुभाशुभैर्वज्रं तद्विपरीतगैर्यव:।",
+   "bbox": [
+    339,
+    1077,
+    963,
+    1131
+   ]
+  },
+  {
+   "text": "कंमलं तु मिश्रसंस्थितैर्वापी तद्यदि केन्द्रबाह्यत: 11 5 11",
+   "bbox": [
+    337,
+    1137,
+    1124,
+    1199
+   ]
+  },
+  {
+   "text": "If the benefics occupy 1st and 7th houses and the malefics",
+   "bbox": [
+    341,
+    1240,
+    1478,
+    1279
+   ]
+  },
+  {
+   "text": "4th and 10th, with all other houses vacant the yogas formed",
+   "bbox": [
+    267,
+    1292,
+    1476,
+    1334
+   ]
+  },
+  {
+   "text": "are called \"Vajra\". If there are malefics in 1st and 7th and",
+   "bbox": [
+    268,
+    1346,
+    1476,
+    1385
+   ]
+  },
+  {
+   "text": "benefics in 4th and 10th, with other houses and malefics",
+   "bbox": [
+    268,
+    1399,
+    1476,
+    1438
+   ]
+  },
+  {
+   "text": "occupy the kendras and there are no planets in other houses,",
+   "bbox": [
+    267,
+    1450,
+    1475,
+    1494
+   ]
+  },
+  {
+   "text": "the yoga formed is called \"Kamal\". The kendras are all vacant,",
+   "bbox": [
+    267,
+    1503,
+    1475,
+    1543
+   ]
+  },
+  {
+   "text": "the yoga goes by the name of \"Vapi.\"",
+   "bbox": [
+    267,
+    1557,
+    997,
+    1597
+   ]
+  },
+  {
+   "text": "Author's Opinion on \"Vajra\" etc",
+   "bbox": [
+    261,
+    1658,
+    1095,
+    1704
+   ]
+  },
+  {
+   "text": "पूर्वशास्त्रानुसारेण मया वज्रादय: कृता:।",
+   "bbox": [
+    332,
+    1738,
+    904,
+    1789
+   ]
+  },
+  {
+   "text": "चतुर्थभवने सूर्याज्ज्ञसितौ भवत: कथम्।। 6 ।।",
+   "bbox": [
+    335,
+    1801,
+    1011,
+    1855
+   ]
+  },
+  {
+   "text": "The Vajra and Yava Yogas have been mentioned here",
+   "bbox": [
+    338,
+    1899,
+    1475,
+    1939
+   ]
+  },
+  {
+   "text": "merely following the old tradition, otherwise these Yogas lose",
+   "bbox": [
+    262,
+    1950,
+    1475,
+    1994
+   ]
+  },
+  {
+   "text": "their meaning for it is not possible for Mercury and Venus to",
+   "bbox": [
+    262,
+    2005,
+    1473,
+    2044
+   ]
+  },
+  {
+   "text": "be in the 4th place from the Sun.",
+   "bbox": [
+    262,
+    2057,
+    926,
+    2096
+   ]
+  },
+  {
+   "text": "Yupa etc 4 Yogas",
+   "bbox": [
+    261,
+    2159,
+    708,
+    2198
+   ]
+  },
+  {
+   "text": "कण्टकादिप्रवृत्तैस्तु चतुर्गृहगतैग्रहै:।",
+   "bbox": [
+    330,
+    2230,
+    829,
+    2289
+   ]
+  },
+  {
+   "text": "यूपेपुशक्तिदण्डाख्या होराद्यै: कण्टकै: क्रमात्।। 7 ।।",
+   "bbox": [
+    330,
+    2295,
+    1106,
+    2351
+   ]
+  }
+ ]
+}

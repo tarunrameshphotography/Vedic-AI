@@ -1,0 +1,227 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0012",
+ "book_id": "brihat-jataka",
+ "seq": 12,
+ "source_ref": {
+  "pdf_page": 6,
+  "half": "b",
+  "v1_page": "s006b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "7d87caee3715d3bc2660ae6ab6bd035c66d214f017e3cccf133cb7f153d87b54",
+ "lines": [
+  {
+   "text": "राशिप्रभेदाध्यायः",
+   "bbox": [
+    699,
+    691,
+    1039,
+    748
+   ]
+  },
+  {
+   "text": "<b>On Signs</b>",
+   "bbox": [
+    695,
+    771,
+    1068,
+    845
+   ]
+  },
+  {
+   "text": "<b>Benedictory Verse - 1</b>",
+   "bbox": [
+    275,
+    1021,
+    828,
+    1063
+   ]
+  },
+  {
+   "text": "मूर्तित्वे परिकल्पित: शशभृतो वर्त्माऽपुनर्जन्मना-",
+   "bbox": [
+    349,
+    1099,
+    1029,
+    1155
+   ]
+  },
+  {
+   "text": "मात्मेत्यात्मविदां क्रतुश्च यजतां भर्ताऽमरज्योतिषाम्।",
+   "bbox": [
+    351,
+    1161,
+    1079,
+    1217
+   ]
+  },
+  {
+   "text": "लोकानां प्रलयोद्धवस्थितिविभुश्चानेकधा य: श्रुतौ",
+   "bbox": [
+    349,
+    1228,
+    1045,
+    1284
+   ]
+  },
+  {
+   "text": "वाचं नः स ददात्त्वनेककिरणस्त्रैलोक्यदीपो रवि: ।। 1 ।।",
+   "bbox": [
+    349,
+    1294,
+    1184,
+    1344
+   ]
+  },
+  {
+   "text": "May the effulgent sun lightener of all the three worlds,",
+   "bbox": [
+    348,
+    1387,
+    1491,
+    1434
+   ]
+  },
+  {
+   "text": "who is one of the forms of Lord Shiva, and the means to",
+   "bbox": [
+    276,
+    1442,
+    1488,
+    1480
+   ]
+  },
+  {
+   "text": "emancipation, the Atman to the self realised, the Yagnya",
+   "bbox": [
+    276,
+    1493,
+    1490,
+    1531
+   ]
+  },
+  {
+   "text": "personified to people engaged in the worship through sacrifice,",
+   "bbox": [
+    278,
+    1543,
+    1490,
+    1582
+   ]
+  },
+  {
+   "text": "the sustainer of the planetary bodies, the cause of the birth,",
+   "bbox": [
+    276,
+    1593,
+    1490,
+    1633
+   ]
+  },
+  {
+   "text": "sustenance and destruction of the solar system, having an all",
+   "bbox": [
+    275,
+    1645,
+    1490,
+    1683
+   ]
+  },
+  {
+   "text": "pervasive existence and one who is variously called in the",
+   "bbox": [
+    276,
+    1694,
+    1490,
+    1733
+   ]
+  },
+  {
+   "text": "<i>Vedas</i>, be pleased to bestow on us the astrological ability to",
+   "bbox": [
+    278,
+    1745,
+    1488,
+    1784
+   ]
+  },
+  {
+   "text": "speak the truth.",
+   "bbox": [
+    276,
+    1797,
+    603,
+    1835
+   ]
+  },
+  {
+   "text": "The Purpose of the Book",
+   "bbox": [
+    272,
+    1900,
+    927,
+    1941
+   ]
+  },
+  {
+   "text": "भूयोभिः पटुबुद्धिभिः पटुधियां होराफलज्ञप्तये",
+   "bbox": [
+    348,
+    1979,
+    1012,
+    2029
+   ]
+  },
+  {
+   "text": "शब्द न्याय समन्वितेषु बहुश: शास्त्रेषु दृष्टेष्वपि",
+   "bbox": [
+    346,
+    2037,
+    1047,
+    2095
+   ]
+  },
+  {
+   "text": "होरातन्त्र महार्णवप्रतरणे भग्नोद्यमानामहं",
+   "bbox": [
+    347,
+    2105,
+    914,
+    2155
+   ]
+  },
+  {
+   "text": "स्वल्पं वृत्तविचित्रमर्थबहूलं शास्त्रप्लवं प्रारंभे ।। 2 ।।",
+   "bbox": [
+    347,
+    2174,
+    1128,
+    2224
+   ]
+  },
+  {
+   "text": "After having come across many astrological works by Au-",
+   "bbox": [
+    348,
+    2266,
+    1488,
+    2304
+   ]
+  },
+  {
+   "text": "thors of keen intellect, known for their grammatical and poeti-",
+   "bbox": [
+    272,
+    2317,
+    1488,
+    2355
+   ]
+  }
+ ]
+}

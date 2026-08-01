@@ -1,0 +1,344 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0073",
+ "book_id": "brihat-jataka",
+ "seq": 73,
+ "source_ref": {
+  "pdf_page": 37,
+  "half": "a",
+  "v1_page": "s037a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "40903114fb8b399b5741ad8b1fceacb4a86baea8578a04964781a5480409fb0f",
+ "lines": [
+  {
+   "text": "70",
+   "bbox": [
+    378,
+    238,
+    442,
+    273
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1296,
+    240,
+    1588,
+    274
+   ]
+  },
+  {
+   "text": "<i>Commentary:</i> In the event of the 1st and 7th house being",
+   "bbox": [
+    451,
+    343,
+    1589,
+    381
+   ]
+  },
+  {
+   "text": "occupied by malefics or being surrounded by malefics the",
+   "bbox": [
+    376,
+    395,
+    1588,
+    434
+   ]
+  },
+  {
+   "text": "ascendant will, in each case, be influenced by malefics, lagna",
+   "bbox": [
+    376,
+    448,
+    1589,
+    487
+   ]
+  },
+  {
+   "text": "being a primary house of longevity as also one denoting in-",
+   "bbox": [
+    376,
+    501,
+    1588,
+    540
+   ]
+  },
+  {
+   "text": "fancy its affliction will naturally lead to early death of the",
+   "bbox": [
+    375,
+    554,
+    1588,
+    592
+   ]
+  },
+  {
+   "text": "child.",
+   "bbox": [
+    375,
+    605,
+    490,
+    640
+   ]
+  },
+  {
+   "text": "पापावुदयास्तगतौ क्रूरेण युतश्च शशी।",
+   "bbox": [
+    445,
+    679,
+    970,
+    731
+   ]
+  },
+  {
+   "text": "दृष्टश्च शुभैर्न यदा मृत्युश्च भवेदचिरात्।। 3 ।।",
+   "bbox": [
+    445,
+    742,
+    1106,
+    795
+   ]
+  },
+  {
+   "text": "If two planets occupy each of the two houses ie the first",
+   "bbox": [
+    414,
+    838,
+    1589,
+    884
+   ]
+  },
+  {
+   "text": "and seventh and the Moon-is also associated with a malefic",
+   "bbox": [
+    375,
+    890,
+    1588,
+    929
+   ]
+  },
+  {
+   "text": "planet without the aspect of benefics the child dies soon after",
+   "bbox": [
+    372,
+    947,
+    1588,
+    986
+   ]
+  },
+  {
+   "text": "birth.",
+   "bbox": [
+    375,
+    998,
+    488,
+    1033
+   ]
+  },
+  {
+   "text": "Commentary: Lagna and Moon are two factors of longev-",
+   "bbox": [
+    448,
+    1077,
+    1586,
+    1115
+   ]
+  },
+  {
+   "text": "ity. In the conditions stated in the shloka both of these would",
+   "bbox": [
+    370,
+    1130,
+    1585,
+    1169
+   ]
+  },
+  {
+   "text": "be highly afflicted resulting in the loss of longevity.",
+   "bbox": [
+    372,
+    1182,
+    1394,
+    1221
+   ]
+  },
+  {
+   "text": "क्षीणे हिमगौ व्ययगे पापैरुदयाष्टमगै:।",
+   "bbox": [
+    445,
+    1252,
+    986,
+    1300
+   ]
+  },
+  {
+   "text": "केन्द्रेषु शुभाश्च न चेत्क्षिप्रं निधनं प्रवदेत्।। 4 ।।",
+   "bbox": [
+    444,
+    1318,
+    1135,
+    1371
+   ]
+  },
+  {
+   "text": "If Moon is within 72 degrees of Sun it is \"Ksheen\". If such",
+   "bbox": [
+    445,
+    1416,
+    1588,
+    1455
+   ]
+  },
+  {
+   "text": "a Moon occupies the 12th house and there are malefic planets",
+   "bbox": [
+    372,
+    1468,
+    1588,
+    1508
+   ]
+  },
+  {
+   "text": "in the 1st and 8th house and the Kendras, the child dies soon",
+   "bbox": [
+    370,
+    1520,
+    1585,
+    1559
+   ]
+  },
+  {
+   "text": "after birth.",
+   "bbox": [
+    370,
+    1572,
+    595,
+    1606
+   ]
+  },
+  {
+   "text": "<i>Commentary:</i> Moon being in the nature of lagna and there-",
+   "bbox": [
+    445,
+    1651,
+    1584,
+    1690
+   ]
+  },
+  {
+   "text": "fore a factor for longevity, if weak ie in vicinity of Sun and in",
+   "bbox": [
+    369,
+    1703,
+    1585,
+    1743
+   ]
+  },
+  {
+   "text": "the bad house (12th), would affect longevity very adversely.",
+   "bbox": [
+    370,
+    1756,
+    1584,
+    1796
+   ]
+  },
+  {
+   "text": "Similarly since the 1st and 8th house, each stands for longev-",
+   "bbox": [
+    370,
+    1809,
+    1584,
+    1848
+   ]
+  },
+  {
+   "text": "ity their affliction by malefics would cause loss of longevity.",
+   "bbox": [
+    369,
+    1862,
+    1584,
+    1901
+   ]
+  },
+  {
+   "text": "Planets in kendra always influence 7th lagna, hence when the",
+   "bbox": [
+    369,
+    1915,
+    1584,
+    1955
+   ]
+  },
+  {
+   "text": "kendras are devoid of benefics, this would be an additional",
+   "bbox": [
+    366,
+    1968,
+    1585,
+    2007
+   ]
+  },
+  {
+   "text": "cause for lessening of longevity, since the lagna would be",
+   "bbox": [
+    368,
+    2021,
+    1584,
+    2060
+   ]
+  },
+  {
+   "text": "devoid of benefic influence.",
+   "bbox": [
+    369,
+    2072,
+    907,
+    2108
+   ]
+  },
+  {
+   "text": "<i>Commentary:</i> Moon being in the nature of lagna and there-",
+   "bbox": [
+    444,
+    2153,
+    1585,
+    2191
+   ]
+  },
+  {
+   "text": "fore a factor for longevity, if weak ie in vicinity of Sun and in",
+   "bbox": [
+    365,
+    2203,
+    1585,
+    2243
+   ]
+  },
+  {
+   "text": "the bad house (12th), would affect longevity very adversely.",
+   "bbox": [
+    366,
+    2256,
+    1584,
+    2295
+   ]
+  },
+  {
+   "text": "Similarly since the 1st and 8th house, each stands for longev-",
+   "bbox": [
+    368,
+    2308,
+    1584,
+    2346
+   ]
+  }
+ ]
+}

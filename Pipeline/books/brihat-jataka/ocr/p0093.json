@@ -1,0 +1,371 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0093",
+ "book_id": "brihat-jataka",
+ "seq": 93,
+ "source_ref": {
+  "pdf_page": 47,
+  "half": "a",
+  "v1_page": "s047a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "a9781ad79088a9053540f9c553e2ac6725ec884897dc7602d8c35ade8b839e1e",
+ "lines": [
+  {
+   "text": "90",
+   "bbox": [
+    377,
+    209,
+    443,
+    241
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1301,
+    209,
+    1590,
+    242
+   ]
+  },
+  {
+   "text": "signs, in beneficial vargas, when not eclipsed etc) one gets",
+   "bbox": [
+    377,
+    309,
+    1593,
+    347
+   ]
+  },
+  {
+   "text": "pleasing and favourable results. Contrary is the case in ad-",
+   "bbox": [
+    377,
+    357,
+    1592,
+    397
+   ]
+  },
+  {
+   "text": "verse dasas and mixed one in mixed dasas. The results of lagna",
+   "bbox": [
+    377,
+    408,
+    1592,
+    449
+   ]
+  },
+  {
+   "text": "are given by its lord.",
+   "bbox": [
+    376,
+    457,
+    804,
+    504
+   ]
+  },
+  {
+   "text": "सञ्ज्ञाध्याये यस्य यद्द्रव्यमुक्तं कर्माजीवे यश्च यस्योपदिष्टम्।",
+   "bbox": [
+    449,
+    537,
+    1345,
+    588
+   ]
+  },
+  {
+   "text": "भावस्थानालोकयोगोद्धवं च तत्तत्सर्वं तस्य योज्यं दशायाम् ।। 2011",
+   "bbox": [
+    450,
+    597,
+    1410,
+    655
+   ]
+  },
+  {
+   "text": "During the dasa of a planet events relate to things copper",
+   "bbox": [
+    452,
+    696,
+    1592,
+    734
+   ]
+  },
+  {
+   "text": "etc mentioned in chapter for names (see chapter 2/12) to pro-",
+   "bbox": [
+    376,
+    746,
+    1589,
+    786
+   ]
+  },
+  {
+   "text": "fessions mentioned in the chapter on profession (see chapter",
+   "bbox": [
+    376,
+    796,
+    1590,
+    836
+   ]
+  },
+  {
+   "text": "10) as also to the house or the sign in which a planet is located",
+   "bbox": [
+    378,
+    847,
+    1587,
+    887
+   ]
+  },
+  {
+   "text": "and also to the results of the yoga it may be constituting. All",
+   "bbox": [
+    377,
+    897,
+    1589,
+    937
+   ]
+  },
+  {
+   "text": "these factors have to be taken in describing the results of",
+   "bbox": [
+    376,
+    947,
+    1593,
+    987
+   ]
+  },
+  {
+   "text": "dasas.",
+   "bbox": [
+    376,
+    1002,
+    501,
+    1035
+   ]
+  },
+  {
+   "text": "छायां महाभूकृतां च सर्वेऽभिव्यञ्जयन्ति स्वदशामवाप्य।",
+   "bbox": [
+    446,
+    1078,
+    1223,
+    1127
+   ]
+  },
+  {
+   "text": "क्वम्ब्वग्निवाय्वम्बरजान्गुणांञ्च नासास्यदुक्त्वक्छ्व्वणानुमेयान् ।। 21।।",
+   "bbox": [
+    445,
+    1142,
+    1426,
+    1193
+   ]
+  },
+  {
+   "text": "Planets having their dasas bring about conditions in life in",
+   "bbox": [
+    448,
+    1234,
+    1592,
+    1273
+   ]
+  },
+  {
+   "text": "consonance with their qualities as five great elements (earth,",
+   "bbox": [
+    373,
+    1281,
+    1590,
+    1322
+   ]
+  },
+  {
+   "text": "water, fire, air and ether). By an examination and close scru-",
+   "bbox": [
+    374,
+    1332,
+    1587,
+    1372
+   ]
+  },
+  {
+   "text": "tiny of these conditions we can have an idea as to a particular",
+   "bbox": [
+    373,
+    1382,
+    1589,
+    1423
+   ]
+  },
+  {
+   "text": "planet having his dasa. The element Earth is related to smell",
+   "bbox": [
+    373,
+    1431,
+    1589,
+    1472
+   ]
+  },
+  {
+   "text": "and its condition is experienced through the nose, the planet",
+   "bbox": [
+    371,
+    1482,
+    1589,
+    1523
+   ]
+  },
+  {
+   "text": "involved is Mercury. Hence when there is unusual contacts",
+   "bbox": [
+    371,
+    1533,
+    1589,
+    1574
+   ]
+  },
+  {
+   "text": "with good or bad smells it should be understood that the dasa",
+   "bbox": [
+    371,
+    1584,
+    1587,
+    1625
+   ]
+  },
+  {
+   "text": "or sub-period of Mercury is running. The element Water is",
+   "bbox": [
+    371,
+    1635,
+    1587,
+    1676
+   ]
+  },
+  {
+   "text": "related to taste which has relevance to tongue. During the",
+   "bbox": [
+    371,
+    1685,
+    1587,
+    1726
+   ]
+  },
+  {
+   "text": "time of enjoyment of unusually good or bad food, the dasa of",
+   "bbox": [
+    373,
+    1736,
+    1592,
+    1777
+   ]
+  },
+  {
+   "text": "Moon or Venus (watery planets) should be considered as in",
+   "bbox": [
+    370,
+    1780,
+    1588,
+    1832
+   ]
+  },
+  {
+   "text": "operation. The element Fire is related to appearance and",
+   "bbox": [
+    371,
+    1838,
+    1586,
+    1879
+   ]
+  },
+  {
+   "text": "concerns eyes. When therefore, events relate in great fre-",
+   "bbox": [
+    371,
+    1885,
+    1586,
+    1932
+   ]
+  },
+  {
+   "text": "quency to sight seeing etc, the dasa is of Sun or Mars. The",
+   "bbox": [
+    371,
+    1935,
+    1587,
+    1982
+   ]
+  },
+  {
+   "text": "element Air is related to the sense of touch concerned with our",
+   "bbox": [
+    371,
+    1988,
+    1586,
+    2025
+   ]
+  },
+  {
+   "text": "skin. When events concerning disease of the skin or concern-",
+   "bbox": [
+    371,
+    2040,
+    1586,
+    2080
+   ]
+  },
+  {
+   "text": "ing soft touch are in evidence, it should be understood that the",
+   "bbox": [
+    370,
+    2086,
+    1599,
+    2134
+   ]
+  },
+  {
+   "text": "dasa or sub-period of Saturn is in operation. Similarly the",
+   "bbox": [
+    371,
+    2140,
+    1584,
+    2180
+   ]
+  },
+  {
+   "text": "element Ether (sky) is related to sky and to the faculty of the",
+   "bbox": [
+    370,
+    2192,
+    1586,
+    2232
+   ]
+  },
+  {
+   "text": "hearing when therefore, there are unusual conditions for the",
+   "bbox": [
+    370,
+    2241,
+    1586,
+    2281
+   ]
+  },
+  {
+   "text": "use of ears or when diseases relating to the ears are experi-",
+   "bbox": [
+    367,
+    2293,
+    1584,
+    2332
+   ]
+  }
+ ]
+}

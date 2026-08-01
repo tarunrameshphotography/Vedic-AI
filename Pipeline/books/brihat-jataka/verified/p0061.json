@@ -1,0 +1,23 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0061",
+ "ocr_fingerprint": "a26374d0e0c2f527cc3e3fcec56909b4e8feb446340cdc7839222ec258492c45",
+ "v1_page": "s031a",
+ "printed_page": 58,
+ "kind": "chart",
+ "note": "South Indian style chart (4x4 grid, hollow centre). Surya read the nine cell labels as loose words and interleaved them with the commentary, which wraps to the right of the chart -- 'Mars' was even promoted to an H3 heading. Cells transcribed by eye from img/bj/s031a.png. NO lagna marker and NO sign labels are printed on this chart, so house numbers cannot be assigned and are not guessed; the sign reading below follows only from the fixed South Indian cell layout, and is labelled as such.",
+ "verified": "2026-08-01",
+ "exclude_lines": [
+  20,
+  21,
+  22,
+  25,
+  27,
+  29,
+  31,
+  33,
+  37
+ ],
+ "insert_after": 17,
+ "markdown": "**Birth chart — a boy born from a man other than the legitimate husband of his mother** (South Indian style; no lagna or sign labels are printed on the original)\n\n```\n+-----------+-----------+-----------+-----------+\n|           | Mars      | Saturn    | Ketu      |\n+-----------+-----------+-----------+-----------+\n| Sun       |                       |           |\n| Jupiter   |                       |           |\n| Mercury   |                       |           |\n+-----------+                       +-----------+\n| Moon      |                       |           |\n| Venus     |                       |           |\n+-----------+-----------+-----------+-----------+\n| Rahu      |           |           |           |\n+-----------+-----------+-----------+-----------+\n```\n\nPlanet placement by sign, read from the fixed South Indian cell positions (the signs themselves are **not** printed on the chart):\n\n| Sign | Planets |\n|---|---|\n| Aries | Mars |\n| Taurus | Saturn |\n| Gemini | Ketu |\n| Aquarius | Sun, Jupiter, Mercury |\n| Capricorn | Moon, Venus |\n| Sagittarius | Rahu |\n\nAll other cells are empty."
+}

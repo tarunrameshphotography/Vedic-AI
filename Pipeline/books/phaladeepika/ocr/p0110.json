@@ -1,0 +1,54 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0110",
+ "book_id": "phaladeepika",
+ "seq": 110,
+ "source_ref": {
+  "pdf_page": 110
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "9fdc83549d5f09e3a069b094adbd20430601fd1a5fdb17a3f6408b1944e06162",
+ "lines": [
+  {
+   "text": "same effect as if he is posited in exaltation sign, even if he may be in his enemy's ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "sign or in the sign of his debilitation. A planet who is vargottama produces effects ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "as if he is in his own sign.",
+   "bbox": [
+    85,
+    106,
+    231,
+    121
+   ]
+  },
+  {
+   "text": "110",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

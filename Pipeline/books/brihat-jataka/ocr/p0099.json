@@ -1,0 +1,308 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0099",
+ "book_id": "brihat-jataka",
+ "seq": 99,
+ "source_ref": {
+  "pdf_page": 50,
+  "half": "a",
+  "v1_page": "s050a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "41ccf6c103e7969f0284d11b2e63e5ecc99e31359ace588508e3ab7ff51a63bb",
+ "lines": [
+  {
+   "text": "96",
+   "bbox": [
+    453,
+    194,
+    524,
+    241
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1381,
+    244,
+    1672,
+    294
+   ]
+  },
+  {
+   "text": "From itself: 3, 5, 11 and 6.",
+   "bbox": [
+    523,
+    305,
+    1075,
+    378
+   ]
+  },
+  {
+   "text": "From Sun: 1, 4, 7, 10, 11, 8 and 2.",
+   "bbox": [
+    522,
+    377,
+    1218,
+    456
+   ]
+  },
+  {
+   "text": "From Moon: 3, 6 and 11.",
+   "bbox": [
+    517,
+    448,
+    1030,
+    519
+   ]
+  },
+  {
+   "text": "From Mars: 3, 5, 11, 6, 10 and 12.",
+   "bbox": [
+    513,
+    521,
+    1208,
+    598
+   ]
+  },
+  {
+   "text": "From Jupiter: 9, 11, 6, 10, 12 and 8.",
+   "bbox": [
+    511,
+    592,
+    1257,
+    672
+   ]
+  },
+  {
+   "text": "From Venus: 11, 12, 5 and 6.",
+   "bbox": [
+    506,
+    662,
+    1106,
+    738
+   ]
+  },
+  {
+   "text": "From Saturn: 6, 11 and 12.",
+   "bbox": [
+    504,
+    733,
+    1073,
+    808
+   ]
+  },
+  {
+   "text": "From Lagna: 3, 6, 10, 11, 1 and 4",
+   "bbox": [
+    500,
+    807,
+    1191,
+    886
+   ]
+  },
+  {
+   "text": "Total 39.",
+   "bbox": [
+    1175,
+    914,
+    1357,
+    958
+   ]
+  },
+  {
+   "text": "इति निगदितमिष्टं नेष्टमन्यद्विशेषादधिकफलविपाकं जन्मभात्तत्र दद्यु:।",
+   "bbox": [
+    492,
+    953,
+    1489,
+    1056
+   ]
+  },
+  {
+   "text": "उपचयगृहमित्रस्वोच्चगै: पुष्टमिष्टं त्वपचयगृहनीचारातिगैर्नेष्टसम्पत् ।। 8 ।।",
+   "bbox": [
+    487,
+    1018,
+    1586,
+    1126
+   ]
+  },
+  {
+   "text": "Thus we have specified good places for planets in transit.",
+   "bbox": [
+    485,
+    1112,
+    1631,
+    1213
+   ]
+  },
+  {
+   "text": "The places not mentioned are bad for the planets concerned.",
+   "bbox": [
+    406,
+    1157,
+    1630,
+    1265
+   ]
+  },
+  {
+   "text": "Transit results should be considered from the sign occupied by",
+   "bbox": [
+    402,
+    1212,
+    1629,
+    1319
+   ]
+  },
+  {
+   "text": "Moon at birth. Planets in upachaya houses (3, 6, 10 and 11), in",
+   "bbox": [
+    399,
+    1264,
+    1626,
+    1372
+   ]
+  },
+  {
+   "text": "friendly houses, in their own houses or in their sign of exalta-",
+   "bbox": [
+    396,
+    1317,
+    1623,
+    1425
+   ]
+  },
+  {
+   "text": "tion give still better results and those in other than upachaya",
+   "bbox": [
+    395,
+    1370,
+    1623,
+    1478
+   ]
+  },
+  {
+   "text": "houses, in their debilitation signs in inimical signs give worse",
+   "bbox": [
+    393,
+    1424,
+    1620,
+    1531
+   ]
+  },
+  {
+   "text": "results.",
+   "bbox": [
+    392,
+    1480,
+    553,
+    1527
+   ]
+  },
+  {
+   "text": "Note: A symbol may be fixed for good results and another",
+   "bbox": [
+    459,
+    1560,
+    1616,
+    1661
+   ]
+  },
+  {
+   "text": "for bad results. Supposing we fix \"Dot\" as a symbol of good",
+   "bbox": [
+    381,
+    1608,
+    1610,
+    1715
+   ]
+  },
+  {
+   "text": "results, then in each sign we will have dots contributed by",
+   "bbox": [
+    380,
+    1662,
+    1608,
+    1767
+   ]
+  },
+  {
+   "text": "planets. The maximum of these dots possible in a sign is 8, ie",
+   "bbox": [
+    377,
+    1714,
+    1604,
+    1820
+   ]
+  },
+  {
+   "text": "one for the position from lagna and seven from the each of the",
+   "bbox": [
+    376,
+    1766,
+    1602,
+    1873
+   ]
+  },
+  {
+   "text": "planets. In case there are 8 dots in a house that house will give",
+   "bbox": [
+    371,
+    1818,
+    1598,
+    1926
+   ]
+  },
+  {
+   "text": "good results in full, if these are 6 in number the result will be",
+   "bbox": [
+    370,
+    1872,
+    1598,
+    1977
+   ]
+  },
+  {
+   "text": "3/4th, if four the result will be half, if two only 1/4th of good",
+   "bbox": [
+    367,
+    1924,
+    1596,
+    2031
+   ]
+  },
+  {
+   "text": "इति श्रीवराहमिहिरकृते बृहज्जातकेऽष्टकवर्गाध्यायो नवम: ।। 9 ।।",
+   "bbox": [
+    489,
+    2149,
+    1450,
+    2248
+   ]
+  },
+  {
+   "text": "Thus ends the ninth chapter on Ashtak Varga in Brihat",
+   "bbox": [
+    428,
+    2237,
+    1581,
+    2340
+   ]
+  },
+  {
+   "text": "Jatak composed by Varahamihira.",
+   "bbox": [
+    348,
+    2287,
+    1040,
+    2365
+   ]
+  }
+ ]
+}

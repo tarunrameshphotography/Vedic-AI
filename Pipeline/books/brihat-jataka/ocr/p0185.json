@@ -1,0 +1,425 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0185",
+ "book_id": "brihat-jataka",
+ "seq": 185,
+ "source_ref": {
+  "pdf_page": 93,
+  "half": "a",
+  "v1_page": "s093a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "4d806c0de600b31f1f87d33451f4ae57d20b7daecac3b7722c239d64176e7ce9",
+ "lines": [
+  {
+   "text": "182",
+   "bbox": [
+    293,
+    173,
+    386,
+    208
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1217,
+    192,
+    1509,
+    229
+   ]
+  },
+  {
+   "text": "together. She was rejected by",
+   "bbox": [
+    919,
+    287,
+    1514,
+    340
+   ]
+  },
+  {
+   "text": "Rahu",
+   "bbox": [
+    305,
+    337,
+    394,
+    367
+   ]
+  },
+  {
+   "text": "her husband. Lagna is af-",
+   "bbox": [
+    915,
+    337,
+    1508,
+    396
+   ]
+  },
+  {
+   "text": "Guru",
+   "bbox": [
+    617,
+    344,
+    701,
+    374
+   ]
+  },
+  {
+   "text": "flicted by Kuja. Guru's aspect",
+   "bbox": [
+    914,
+    391,
+    1508,
+    449
+   ]
+  },
+  {
+   "text": "on the tenth was of no avail.",
+   "bbox": [
+    916,
+    451,
+    1494,
+    495
+   ]
+  },
+  {
+   "text": "15. The lagna has to be a",
+   "bbox": [
+    992,
+    533,
+    1504,
+    586
+   ]
+  },
+  {
+   "text": "<math>\\overline{c}</math>",
+   "bbox": [
+    587,
+    570,
+    614,
+    602
+   ]
+  },
+  {
+   "text": "sign owned by Mars or Sat-",
+   "bbox": [
+    911,
+    584,
+    1502,
+    638
+   ]
+  },
+  {
+   "text": "urn. Moon and Venus should",
+   "bbox": [
+    912,
+    639,
+    1500,
+    685
+   ]
+  },
+  {
+   "text": "be in lagna and aspected by",
+   "bbox": [
+    908,
+    690,
+    1501,
+    746
+   ]
+  },
+  {
+   "text": "malefics. Then the girl",
+   "bbox": [
+    908,
+    742,
+    1498,
+    798
+   ]
+  },
+  {
+   "text": "Ravi",
+   "bbox": [
+    740,
+    747,
+    801,
+    767
+   ]
+  },
+  {
+   "text": "Chandra",
+   "bbox": [
+    740,
+    774,
+    841,
+    799
+   ]
+  },
+  {
+   "text": "alongwith her mother will",
+   "bbox": [
+    908,
+    797,
+    1496,
+    851
+   ]
+  },
+  {
+   "text": "Lagna",
+   "bbox": [
+    293,
+    801,
+    396,
+    835
+   ]
+  },
+  {
+   "text": "Shukra",
+   "bbox": [
+    442,
+    804,
+    552,
+    834
+   ]
+  },
+  {
+   "text": "Kuja",
+   "bbox": [
+    740,
+    805,
+    800,
+    831
+   ]
+  },
+  {
+   "text": "<b>Budha</b>",
+   "bbox": [
+    591,
+    806,
+    691,
+    836
+   ]
+  },
+  {
+   "text": "Shani",
+   "bbox": [
+    737,
+    834,
+    811,
+    859
+   ]
+  },
+  {
+   "text": "commit adultery.",
+   "bbox": [
+    906,
+    851,
+    1250,
+    899
+   ]
+  },
+  {
+   "text": "Ketu",
+   "bbox": [
+    737,
+    866,
+    795,
+    888
+   ]
+  },
+  {
+   "text": "सौरारर्क्षे लग्नगे सेन्दुशुक्रे मात्रा सार्द्धं बन्धको पापदृष्टे।",
+   "bbox": [
+    345,
+    922,
+    1139,
+    990
+   ]
+  },
+  {
+   "text": "कौजेऽस्तांशे सौरिणा व्याधियोनिश्चारुश्रोणी बल्लभा सद्ग्रहांशे।। 10 ।।",
+   "bbox": [
+    341,
+    979,
+    1363,
+    1062
+   ]
+  },
+  {
+   "text": "When the seventh navamsha from Navamsha lagna is",
+   "bbox": [
+    344,
+    1081,
+    1492,
+    1147
+   ]
+  },
+  {
+   "text": "owned by Mars and is aspected by Shani, her sexual organ will",
+   "bbox": [
+    263,
+    1131,
+    1486,
+    1199
+   ]
+  },
+  {
+   "text": "be diseased.",
+   "bbox": [
+    262,
+    1184,
+    509,
+    1230
+   ]
+  },
+  {
+   "text": "If this seventh navamsha falls in a beneficial house,",
+   "bbox": [
+    336,
+    1265,
+    1486,
+    1329
+   ]
+  },
+  {
+   "text": "the woman will be beautiful and she will be loved by her",
+   "bbox": [
+    259,
+    1317,
+    1485,
+    1385
+   ]
+  },
+  {
+   "text": "husband.",
+   "bbox": [
+    260,
+    1375,
+    452,
+    1409
+   ]
+  },
+  {
+   "text": "वृद्धो मूर्ख: सूर्यजक्षांशके वा स्त्रीलोल: स्यात् क्रोधनश्चावनेये।",
+   "bbox": [
+    331,
+    1447,
+    1212,
+    1521
+   ]
+  },
+  {
+   "text": "शौक्रे कान्तोऽतीवसौभाग्ययुक्तो विद्वान् भर्ता नैपुणश्चैव बौधे।। 11 ।।",
+   "bbox": [
+    329,
+    1507,
+    1318,
+    1588
+   ]
+  },
+  {
+   "text": "When the seventh from lagna or from navamsha lagna is",
+   "bbox": [
+    331,
+    1609,
+    1479,
+    1675
+   ]
+  },
+  {
+   "text": "owned by Shani, the husband will be stubborn and old.",
+   "bbox": [
+    249,
+    1660,
+    1356,
+    1723
+   ]
+  },
+  {
+   "text": "When the seventh from lagna or from navamsa, is owned",
+   "bbox": [
+    328,
+    1737,
+    1475,
+    1807
+   ]
+  },
+  {
+   "text": "by Mars the husband will be after other woman, and he will be",
+   "bbox": [
+    249,
+    1791,
+    1472,
+    1857
+   ]
+  },
+  {
+   "text": "cruel.",
+   "bbox": [
+    247,
+    1846,
+    368,
+    1881
+   ]
+  },
+  {
+   "text": "When it falls in a sign of Venus, the husband will be",
+   "bbox": [
+    321,
+    1920,
+    1470,
+    1990
+   ]
+  },
+  {
+   "text": "beautiful and loving.",
+   "bbox": [
+    244,
+    1974,
+    665,
+    2023
+   ]
+  },
+  {
+   "text": "When it falls in a sign of Mercury, the husband will be",
+   "bbox": [
+    318,
+    2051,
+    1466,
+    2119
+   ]
+  },
+  {
+   "text": "intelligent and lerned.",
+   "bbox": [
+    240,
+    2101,
+    693,
+    2151
+   ]
+  },
+  {
+   "text": "Notes: In all these cases the seventh house must have no",
+   "bbox": [
+    310,
+    2179,
+    1462,
+    2241
+   ]
+  },
+  {
+   "text": "planet.",
+   "bbox": [
+    238,
+    2230,
+    385,
+    2271
+   ]
+  }
+ ]
+}

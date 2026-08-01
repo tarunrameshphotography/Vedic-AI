@@ -1,0 +1,576 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0254",
+ "book_id": "phaladeepika",
+ "seq": 254,
+ "source_ref": {
+  "pdf_page": 254
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "3a409c2e2322fe32fcf03685018ba6d19f27f53440c94941ee370e912f416b67",
+ "lines": [
+  {
+   "text": "Sun:—",
+   "bbox": [
+    85,
+    57,
+    125,
+    73
+   ]
+  },
+  {
+   "text": "Distribution amongst births",
+   "bbox": [
+    147,
+    82,
+    301,
+    97
+   ]
+  },
+  {
+   "text": "Effects",
+   "bbox": [
+    385,
+    82,
+    424,
+    97
+   ]
+  },
+  {
+   "text": "(a) 1st star - face",
+   "bbox": [
+    147,
+    102,
+    241,
+    118
+   ]
+  },
+  {
+   "text": "destruction.",
+   "bbox": [
+    385,
+    102,
+    450,
+    118
+   ]
+  },
+  {
+   "text": "(b) 2nd, 3rd, 4th and 5th - head",
+   "bbox": [
+    147,
+    118,
+    321,
+    134
+   ]
+  },
+  {
+   "text": "gain of wealth.",
+   "bbox": [
+    385,
+    118,
+    468,
+    134
+   ]
+  },
+  {
+   "text": "(c) 6th, 7th, 8th and 9th - chest",
+   "bbox": [
+    147,
+    134,
+    319,
+    150
+   ]
+  },
+  {
+   "text": "success",
+   "bbox": [
+    385,
+    134,
+    427,
+    150
+   ]
+  },
+  {
+   "text": "(d) 10th, llth, 12th and 13th - right hand",
+   "bbox": [
+    147,
+    150,
+    370,
+    166
+   ]
+  },
+  {
+   "text": "financial gain",
+   "bbox": [
+    385,
+    150,
+    461,
+    166
+   ]
+  },
+  {
+   "text": "(e) 14th, 15th, 16th, 17th, 18th and 19th - ",
+   "bbox": [
+    147,
+    167,
+    382,
+    182
+   ]
+  },
+  {
+   "text": "loss of wealth",
+   "bbox": [
+    385,
+    167,
+    463,
+    182
+   ]
+  },
+  {
+   "text": "two feet",
+   "bbox": [
+    147,
+    183,
+    192,
+    198
+   ]
+  },
+  {
+   "text": "(f) 20th, 21st, 22nd and 23rd - left hand",
+   "bbox": [
+    147,
+    199,
+    369,
+    214
+   ]
+  },
+  {
+   "text": "illness",
+   "bbox": [
+    385,
+    199,
+    421,
+    214
+   ]
+  },
+  {
+   "text": "(g) 24th and 25th - the two eyes",
+   "bbox": [
+    147,
+    215,
+    325,
+    230
+   ]
+  },
+  {
+   "text": "gain of wealth",
+   "bbox": [
+    385,
+    215,
+    465,
+    230
+   ]
+  },
+  {
+   "text": "(h) 26th and 27th - the generative organs danger to life",
+   "bbox": [
+    147,
+    231,
+    459,
+    246
+   ]
+  },
+  {
+   "text": "36. The Moons's transit",
+   "bbox": [
+    121,
+    287,
+    252,
+    303
+   ]
+  },
+  {
+   "text": "Distribution amongst limbs",
+   "bbox": [
+    148,
+    311,
+    301,
+    327
+   ]
+  },
+  {
+   "text": "Effects",
+   "bbox": [
+    365,
+    311,
+    404,
+    327
+   ]
+  },
+  {
+   "text": "(a) The 1st and 2nd - face",
+   "bbox": [
+    148,
+    335,
+    291,
+    351
+   ]
+  },
+  {
+   "text": "great fear",
+   "bbox": [
+    365,
+    335,
+    418,
+    351
+   ]
+  },
+  {
+   "text": "(b) 3rd, 4th, 5th, 6th - headd",
+   "bbox": [
+    148,
+    355,
+    306,
+    371
+   ]
+  },
+  {
+   "text": "safety",
+   "bbox": [
+    365,
+    355,
+    398,
+    371
+   ]
+  },
+  {
+   "text": "(c) 7th, 8th - back",
+   "bbox": [
+    148,
+    371,
+    247,
+    387
+   ]
+  },
+  {
+   "text": "victory over enemies",
+   "bbox": [
+    365,
+    371,
+    482,
+    387
+   ]
+  },
+  {
+   "text": "(d) 9th. 10th - two eyes",
+   "bbox": [
+    148,
+    387,
+    278,
+    403
+   ]
+  },
+  {
+   "text": "gain of wealth",
+   "bbox": [
+    365,
+    387,
+    445,
+    403
+   ]
+  },
+  {
+   "text": "(e) llth 12th, 13th, 14th, 15th - chest",
+   "bbox": [
+    148,
+    403,
+    350,
+    419
+   ]
+  },
+  {
+   "text": "peace of mind",
+   "bbox": [
+    365,
+    403,
+    444,
+    419
+   ]
+  },
+  {
+   "text": "(f) 16th, 17th. 18th - left hand",
+   "bbox": [
+    148,
+    420,
+    315,
+    435
+   ]
+  },
+  {
+   "text": "quarrels",
+   "bbox": [
+    365,
+    420,
+    410,
+    435
+   ]
+  },
+  {
+   "text": "(g) 19th, 20th, 21st. 22nd. 23rd. 24th - ",
+   "bbox": [
+    148,
+    435,
+    361,
+    451
+   ]
+  },
+  {
+   "text": "going to foreign place",
+   "bbox": [
+    365,
+    436,
+    488,
+    451
+   ]
+  },
+  {
+   "text": "two feet",
+   "bbox": [
+    148,
+    452,
+    193,
+    467
+   ]
+  },
+  {
+   "text": "(h) 25th. 26th. 27th - right hand",
+   "bbox": [
+    148,
+    467,
+    320,
+    483
+   ]
+  },
+  {
+   "text": "acquisition of wealth",
+   "bbox": [
+    365,
+    468,
+    482,
+    483
+   ]
+  },
+  {
+   "text": "37-38. Mars' transit",
+   "bbox": [
+    121,
+    508,
+    231,
+    524
+   ]
+  },
+  {
+   "text": "Distribution amongst limbs",
+   "bbox": [
+    146,
+    532,
+    299,
+    548
+   ]
+  },
+  {
+   "text": "Effects",
+   "bbox": [
+    371,
+    532,
+    410,
+    548
+   ]
+  },
+  {
+   "text": "(a) 1st and 2nd - face",
+   "bbox": [
+    146,
+    562,
+    264,
+    577
+   ]
+  },
+  {
+   "text": "death",
+   "bbox": [
+    371,
+    562,
+    401,
+    577
+   ]
+  },
+  {
+   "text": "(b) 3rd, 4th, 5th, 6th, 7th, 8th - two feet quarrels",
+   "bbox": [
+    146,
+    578,
+    416,
+    593
+   ]
+  },
+  {
+   "text": "(c) 9th, 10th, 11th - chest",
+   "bbox": [
+    146,
+    594,
+    287,
+    609
+   ]
+  },
+  {
+   "text": "success",
+   "bbox": [
+    371,
+    594,
+    413,
+    609
+   ]
+  },
+  {
+   "text": "(d) 12rh, 13th, 14th, 15th - left hand",
+   "bbox": [
+    146,
+    610,
+    348,
+    626
+   ]
+  },
+  {
+   "text": "poverty",
+   "bbox": [
+    371,
+    610,
+    413,
+    626
+   ]
+  },
+  {
+   "text": "(e) 16th. 17th – head",
+   "bbox": [
+    146,
+    626,
+    262,
+    642
+   ]
+  },
+  {
+   "text": "gains",
+   "bbox": [
+    371,
+    626,
+    400,
+    642
+   ]
+  },
+  {
+   "text": "(f) 18th, 19th, 20th, 21st - face",
+   "bbox": [
+    146,
+    642,
+    318,
+    658
+   ]
+  },
+  {
+   "text": "great fear",
+   "bbox": [
+    371,
+    642,
+    424,
+    658
+   ]
+  },
+  {
+   "text": "(g) 22nd, 23rd, 24th, 25th - right hand",
+   "bbox": [
+    146,
+    658,
+    359,
+    674
+   ]
+  },
+  {
+   "text": "happiness",
+   "bbox": [
+    371,
+    658,
+    426,
+    674
+   ]
+  },
+  {
+   "text": "(h) 26th, 27th - two eyes",
+   "bbox": [
+    146,
+    674,
+    284,
+    690
+   ]
+  },
+  {
+   "text": "going to a foreign ",
+   "bbox": [
+    371,
+    674,
+    474,
+    690
+   ]
+  },
+  {
+   "text": "place",
+   "bbox": [
+    371,
+    691,
+    400,
+    706
+   ]
+  },
+  {
+   "text": "The transits of Mercury, Jupiter and Venus",
+   "bbox": [
+    121,
+    731,
+    359,
+    746
+   ]
+  },
+  {
+   "text": "Distribution amongst limbs",
+   "bbox": [
+    145,
+    755,
+    298,
+    770
+   ]
+  },
+  {
+   "text": "Effects",
+   "bbox": [
+    364,
+    755,
+    403,
+    770
+   ]
+  },
+  {
+   "text": "254",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

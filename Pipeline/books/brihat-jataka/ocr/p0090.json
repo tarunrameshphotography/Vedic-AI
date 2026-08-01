@@ -1,0 +1,317 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0090",
+ "book_id": "brihat-jataka",
+ "seq": 90,
+ "source_ref": {
+  "pdf_page": 45,
+  "half": "b",
+  "v1_page": "s045b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "4bc31427ad66b052c1867fdd29ff9fa12c44740e59f129260b84d4eb1f40365e",
+ "lines": [
+  {
+   "text": "87",
+   "bbox": [
+    1432,
+    171,
+    1491,
+    201
+   ]
+  },
+  {
+   "text": "Ruling and Sub Ruling Periods",
+   "bbox": [
+    282,
+    178,
+    919,
+    234
+   ]
+  },
+  {
+   "text": "Dasa of Moon",
+   "bbox": [
+    288,
+    287,
+    649,
+    331
+   ]
+  },
+  {
+   "text": "इन्दो: प्राप्य दशां फलानि लभते मन्त्रद्विजात्युद्धवा-",
+   "bbox": [
+    361,
+    358,
+    1092,
+    420
+   ]
+  },
+  {
+   "text": "नीक्षुक्षीरविकारवस्त्रकुसुमक्रीडातिलान्नश्रमै:",
+   "bbox": [
+    362,
+    425,
+    948,
+    483
+   ]
+  },
+  {
+   "text": "निद्रालस्यमृदुद्विजामररति: स्त्रीजन्म मेधाविता",
+   "bbox": [
+    362,
+    483,
+    994,
+    554
+   ]
+  },
+  {
+   "text": "कीर्त्यर्थोपचयक्षयौ च बलिभिर्वैरं स्वपक्षेण चा। 13।।",
+   "bbox": [
+    363,
+    550,
+    1138,
+    608
+   ]
+  },
+  {
+   "text": "During the beneficial dasa of Moon, a person gets mantra",
+   "bbox": [
+    367,
+    636,
+    1507,
+    702
+   ]
+  },
+  {
+   "text": "and good advice from Brahmins, gets sugarcane juice and its",
+   "bbox": [
+    292,
+    690,
+    1506,
+    754
+   ]
+  },
+  {
+   "text": "products, milk and its products, clothes, flowers, til, food,",
+   "bbox": [
+    292,
+    741,
+    1506,
+    809
+   ]
+  },
+  {
+   "text": "occasions for play and useful exertions. If the dasa is adverse",
+   "bbox": [
+    293,
+    790,
+    1507,
+    863
+   ]
+  },
+  {
+   "text": "one feels sleepy and lazy. In good dasa he is gentle compassion-",
+   "bbox": [
+    295,
+    844,
+    1508,
+    915
+   ]
+  },
+  {
+   "text": "ate and serves Brahmins and devatas. He gets female progeny,",
+   "bbox": [
+    297,
+    897,
+    1508,
+    967
+   ]
+  },
+  {
+   "text": "retentive memory. He may get gain or loss of wealth and",
+   "bbox": [
+    296,
+    949,
+    1511,
+    1022
+   ]
+  },
+  {
+   "text": "honour.",
+   "bbox": [
+    300,
+    1033,
+    455,
+    1067
+   ]
+  },
+  {
+   "text": "The results depend on the strength of Moon due to",
+   "bbox": [
+    372,
+    1085,
+    1513,
+    1151
+   ]
+  },
+  {
+   "text": "her distance from the Sun as also on the fact as to what",
+   "bbox": [
+    299,
+    1137,
+    1516,
+    1203
+   ]
+  },
+  {
+   "text": "type of influence it is receiving through association or",
+   "bbox": [
+    299,
+    1184,
+    1515,
+    1261
+   ]
+  },
+  {
+   "text": "aspect.",
+   "bbox": [
+    303,
+    1265,
+    447,
+    1309
+   ]
+  },
+  {
+   "text": "<b>Dasa of Mars</b>",
+   "bbox": [
+    304,
+    1362,
+    651,
+    1408
+   ]
+  },
+  {
+   "text": "भौमस्यारिविमर्दभूपसहजक्षित्याविकाजैर्धनं",
+   "bbox": [
+    378,
+    1436,
+    962,
+    1499
+   ]
+  },
+  {
+   "text": "प्रद्वेष: सुतदारमित्रसहजैर्विद्वद्गुरुद्वेषिता।",
+   "bbox": [
+    376,
+    1496,
+    932,
+    1564
+   ]
+  },
+  {
+   "text": "तृष्णासृग्ज्वरपित्तभङ्गजनिता रोगा: परस्त्रीष्टता:",
+   "bbox": [
+    377,
+    1562,
+    1043,
+    1630
+   ]
+  },
+  {
+   "text": "प्रीति: पापरतैरधर्मनिरति: पारुष्यतैक्ष्ण्यादि च।। 14।।",
+   "bbox": [
+    378,
+    1627,
+    1139,
+    1687
+   ]
+  },
+  {
+   "text": "A favourable dasa of Mars brings in wealth by the crush-",
+   "bbox": [
+    379,
+    1715,
+    1522,
+    1779
+   ]
+  },
+  {
+   "text": "ing away of enemies, from king (or Govt), brothers, land",
+   "bbox": [
+    305,
+    1768,
+    1523,
+    1834
+   ]
+  },
+  {
+   "text": "(or houses), ram, goat and animals giving wool. In the",
+   "bbox": [
+    308,
+    1817,
+    1523,
+    1889
+   ]
+  },
+  {
+   "text": "adverse dasa of Mars one is afflicted with thirst and hun-",
+   "bbox": [
+    309,
+    1869,
+    1522,
+    1937
+   ]
+  },
+  {
+   "text": "ger, gets into trouble through diseases of the blood, fever,",
+   "bbox": [
+    309,
+    1926,
+    1523,
+    1989
+   ]
+  },
+  {
+   "text": "bile, boils and injury and through contact with other women,",
+   "bbox": [
+    309,
+    1978,
+    1523,
+    2044
+   ]
+  },
+  {
+   "text": "gets into the company of sinful people, gets interested in acts",
+   "bbox": [
+    309,
+    2027,
+    1528,
+    2098
+   ]
+  },
+  {
+   "text": "of immorality, uses cruel words and an aggressive tempera-",
+   "bbox": [
+    311,
+    2084,
+    1528,
+    2147
+   ]
+  },
+  {
+   "text": "ment.",
+   "bbox": [
+    315,
+    2158,
+    434,
+    2194
+   ]
+  }
+ ]
+}

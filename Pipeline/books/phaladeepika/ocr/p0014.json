@@ -1,0 +1,882 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0014",
+ "book_id": "phaladeepika",
+ "seq": 14,
+ "source_ref": {
+  "pdf_page": 14
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "f55ab3cade1c6aeac1233a75e7a97350dfa270f6d51a4d9474131ee7027a3352",
+ "lines": [
+  {
+   "text": "(bending upwards) the second sign is known as Adah (beneath), the third sign is ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "termed Sama (even) and the fourth sign is known as Vakra (Crooked). The same ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "order applies for the other eight signs.",
+   "bbox": [
+    85,
+    106,
+    298,
+    121
+   ]
+  },
+  {
+   "text": "Notes — For example the Sun has last passed Virgo. Then the signs from ",
+   "bbox": [
+    121,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "Virgo to Leo will be in this order - Kanya - Urdhava, Adah, Even, Vakra, Urdhava, ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "Adah, Even, Vakra, Urdhava, Adah, Even.",
+   "bbox": [
+    85,
+    178,
+    322,
+    194
+   ]
+  },
+  {
+   "text": "9. The following are some farther classifications and indications of the ",
+   "bbox": [
+    121,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "twelve signs —",
+   "bbox": [
+    85,
+    226,
+    172,
+    242
+   ]
+  },
+  {
+   "text": "Aries ",
+   "bbox": [
+    101,
+    251,
+    135,
+    266
+   ]
+  },
+  {
+   "text": "Moveable Entrance Mineral ",
+   "bbox": [
+    172,
+    251,
+    348,
+    266
+   ]
+  },
+  {
+   "text": "Fierce ",
+   "bbox": [
+    364,
+    251,
+    402,
+    266
+   ]
+  },
+  {
+   "text": "Odd ",
+   "bbox": [
+    434,
+    251,
+    462,
+    266
+   ]
+  },
+  {
+   "text": "East ",
+   "bbox": [
+    498,
+    251,
+    526,
+    266
+   ]
+  },
+  {
+   "text": "(Chara) ",
+   "bbox": [
+    172,
+    267,
+    218,
+    282
+   ]
+  },
+  {
+   "text": "(Dwara) ",
+   "bbox": [
+    236,
+    267,
+    286,
+    282
+   ]
+  },
+  {
+   "text": "(Dhatu) ",
+   "bbox": [
+    300,
+    267,
+    347,
+    282
+   ]
+  },
+  {
+   "text": "(Krura) ",
+   "bbox": [
+    364,
+    267,
+    409,
+    282
+   ]
+  },
+  {
+   "text": "(Vlshama)  ",
+   "bbox": [
+    434,
+    267,
+    502,
+    282
+   ]
+  },
+  {
+   "text": "Taurus ",
+   "bbox": [
+    101,
+    283,
+    143,
+    298
+   ]
+  },
+  {
+   "text": "Fixed ",
+   "bbox": [
+    172,
+    283,
+    208,
+    298
+   ]
+  },
+  {
+   "text": "Outside ",
+   "bbox": [
+    236,
+    283,
+    283,
+    298
+   ]
+  },
+  {
+   "text": "Vegetable Auspicious Even ",
+   "bbox": [
+    300,
+    283,
+    467,
+    298
+   ]
+  },
+  {
+   "text": "South ",
+   "bbox": [
+    498,
+    283,
+    534,
+    298
+   ]
+  },
+  {
+   "text": "(Sthlra) ",
+   "bbox": [
+    172,
+    299,
+    218,
+    314
+   ]
+  },
+  {
+   "text": "(Bahih) ",
+   "bbox": [
+    236,
+    299,
+    282,
+    314
+   ]
+  },
+  {
+   "text": "(Mula) ",
+   "bbox": [
+    300,
+    299,
+    342,
+    314
+   ]
+  },
+  {
+   "text": "(Saumya) ",
+   "bbox": [
+    364,
+    299,
+    422,
+    314
+   ]
+  },
+  {
+   "text": "(Sama) ",
+   "bbox": [
+    434,
+    299,
+    478,
+    314
+   ]
+  },
+  {
+   "text": "Gemini ",
+   "bbox": [
+    101,
+    315,
+    147,
+    330
+   ]
+  },
+  {
+   "text": "Dual ",
+   "bbox": [
+    172,
+    315,
+    203,
+    330
+   ]
+  },
+  {
+   "text": "Inside ",
+   "bbox": [
+    236,
+    315,
+    274,
+    330
+   ]
+  },
+  {
+   "text": "Animal ",
+   "bbox": [
+    300,
+    315,
+    345,
+    330
+   ]
+  },
+  {
+   "text": "Fierce ",
+   "bbox": [
+    364,
+    315,
+    402,
+    330
+   ]
+  },
+  {
+   "text": "Odd ",
+   "bbox": [
+    434,
+    315,
+    462,
+    330
+   ]
+  },
+  {
+   "text": "West ",
+   "bbox": [
+    498,
+    315,
+    529,
+    330
+   ]
+  },
+  {
+   "text": "(Ubhaya) (Garbha) (Jeeva) ",
+   "bbox": [
+    172,
+    331,
+    344,
+    347
+   ]
+  },
+  {
+   "text": "Cancer ",
+   "bbox": [
+    101,
+    347,
+    144,
+    363
+   ]
+  },
+  {
+   "text": "Moveable En trance Mineral ",
+   "bbox": [
+    172,
+    347,
+    348,
+    363
+   ]
+  },
+  {
+   "text": "Auspicious Even ",
+   "bbox": [
+    364,
+    347,
+    467,
+    363
+   ]
+  },
+  {
+   "text": "North ",
+   "bbox": [
+    498,
+    347,
+    534,
+    363
+   ]
+  },
+  {
+   "text": "Leo ",
+   "bbox": [
+    101,
+    363,
+    126,
+    379
+   ]
+  },
+  {
+   "text": "Fixed ",
+   "bbox": [
+    172,
+    363,
+    208,
+    379
+   ]
+  },
+  {
+   "text": "Outside ",
+   "bbox": [
+    236,
+    363,
+    283,
+    379
+   ]
+  },
+  {
+   "text": "Vegetable Fierce ",
+   "bbox": [
+    300,
+    363,
+    402,
+    379
+   ]
+  },
+  {
+   "text": "Odd ",
+   "bbox": [
+    434,
+    363,
+    462,
+    379
+   ]
+  },
+  {
+   "text": "East ",
+   "bbox": [
+    498,
+    363,
+    526,
+    379
+   ]
+  },
+  {
+   "text": "Virgo ",
+   "bbox": [
+    101,
+    379,
+    136,
+    395
+   ]
+  },
+  {
+   "text": "Dual ",
+   "bbox": [
+    172,
+    379,
+    203,
+    395
+   ]
+  },
+  {
+   "text": "Inside ",
+   "bbox": [
+    236,
+    379,
+    274,
+    395
+   ]
+  },
+  {
+   "text": "Animal ",
+   "bbox": [
+    300,
+    379,
+    345,
+    395
+   ]
+  },
+  {
+   "text": "Auspicious Even ",
+   "bbox": [
+    364,
+    379,
+    467,
+    395
+   ]
+  },
+  {
+   "text": "South ",
+   "bbox": [
+    498,
+    379,
+    534,
+    395
+   ]
+  },
+  {
+   "text": "Libra ",
+   "bbox": [
+    101,
+    395,
+    135,
+    411
+   ]
+  },
+  {
+   "text": "Moveable Entrance Mineral ",
+   "bbox": [
+    172,
+    395,
+    348,
+    411
+   ]
+  },
+  {
+   "text": "Fierce ",
+   "bbox": [
+    364,
+    395,
+    402,
+    411
+   ]
+  },
+  {
+   "text": "Odd ",
+   "bbox": [
+    434,
+    395,
+    462,
+    411
+   ]
+  },
+  {
+   "text": "West ",
+   "bbox": [
+    498,
+    395,
+    529,
+    411
+   ]
+  },
+  {
+   "text": "Scorpio ",
+   "bbox": [
+    101,
+    412,
+    148,
+    427
+   ]
+  },
+  {
+   "text": "Fixed ",
+   "bbox": [
+    172,
+    412,
+    208,
+    427
+   ]
+  },
+  {
+   "text": "Outside ",
+   "bbox": [
+    236,
+    412,
+    283,
+    427
+   ]
+  },
+  {
+   "text": "Vegetable Auspicious Even ",
+   "bbox": [
+    300,
+    412,
+    467,
+    427
+   ]
+  },
+  {
+   "text": "North ",
+   "bbox": [
+    498,
+    412,
+    534,
+    427
+   ]
+  },
+  {
+   "text": "Sagittarius Dual ",
+   "bbox": [
+    101,
+    428,
+    203,
+    443
+   ]
+  },
+  {
+   "text": "Inside ",
+   "bbox": [
+    236,
+    428,
+    274,
+    443
+   ]
+  },
+  {
+   "text": "Animal ",
+   "bbox": [
+    300,
+    428,
+    345,
+    443
+   ]
+  },
+  {
+   "text": "Fierce ",
+   "bbox": [
+    364,
+    428,
+    402,
+    443
+   ]
+  },
+  {
+   "text": "Odd ",
+   "bbox": [
+    434,
+    428,
+    462,
+    443
+   ]
+  },
+  {
+   "text": "East ",
+   "bbox": [
+    498,
+    428,
+    526,
+    443
+   ]
+  },
+  {
+   "text": "Capricorn ",
+   "bbox": [
+    101,
+    444,
+    161,
+    459
+   ]
+  },
+  {
+   "text": "Moveable Entrance Mineral ",
+   "bbox": [
+    172,
+    444,
+    348,
+    459
+   ]
+  },
+  {
+   "text": "Auspicious Even ",
+   "bbox": [
+    364,
+    444,
+    467,
+    459
+   ]
+  },
+  {
+   "text": "South ",
+   "bbox": [
+    498,
+    444,
+    534,
+    459
+   ]
+  },
+  {
+   "text": "Aquarius ",
+   "bbox": [
+    101,
+    460,
+    156,
+    475
+   ]
+  },
+  {
+   "text": "Fixed ",
+   "bbox": [
+    172,
+    460,
+    208,
+    475
+   ]
+  },
+  {
+   "text": "Outside ",
+   "bbox": [
+    236,
+    460,
+    283,
+    475
+   ]
+  },
+  {
+   "text": "Vegetable Fierce ",
+   "bbox": [
+    300,
+    460,
+    402,
+    475
+   ]
+  },
+  {
+   "text": "Odd ",
+   "bbox": [
+    434,
+    460,
+    462,
+    475
+   ]
+  },
+  {
+   "text": "West ",
+   "bbox": [
+    498,
+    460,
+    529,
+    475
+   ]
+  },
+  {
+   "text": "Pisces ",
+   "bbox": [
+    101,
+    476,
+    140,
+    491
+   ]
+  },
+  {
+   "text": "Dual ",
+   "bbox": [
+    172,
+    476,
+    203,
+    491
+   ]
+  },
+  {
+   "text": "Inside ",
+   "bbox": [
+    236,
+    476,
+    274,
+    491
+   ]
+  },
+  {
+   "text": "Animal ",
+   "bbox": [
+    300,
+    476,
+    345,
+    491
+   ]
+  },
+  {
+   "text": "Auspicious Even ",
+   "bbox": [
+    364,
+    476,
+    467,
+    491
+   ]
+  },
+  {
+   "text": "North ",
+   "bbox": [
+    498,
+    476,
+    534,
+    491
+   ]
+  },
+  {
+   "text": "The six houses from the 7th represent the left side limbs of the Kalapurusha, ",
+   "bbox": [
+    121,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "while the other six houses i.e. those reckoned from the Ascendant represent right ",
+   "bbox": [
+    85,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "side limbs.",
+   "bbox": [
+    85,
+    565,
+    146,
+    580
+   ]
+  },
+  {
+   "text": "10. [In a birth chart there are twelve house. Each house has been given ",
+   "bbox": [
+    121,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "several names indicating the various subjects it deals with.]",
+   "bbox": [
+    85,
+    613,
+    418,
+    628
+   ]
+  },
+  {
+   "text": "The names by which the first house or the Ascendant is known are Lagna, ",
+   "bbox": [
+    121,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "Hora, Kalya, Deha, Udaya, Rupa, Seersha, Vartmana (present) and Janma.",
+   "bbox": [
+    85,
+    661,
+    501,
+    677
+   ]
+  },
+  {
+   "text": "The second house deals with Vitta (wealth), Vidya (learning). Swa, ",
+   "bbox": [
+    121,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "Annapana (riches, food and drinks), Bhukti (eating), the right eye, face (Asya), ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "letter or document (Patrika), Speech (Vak) and Kutumba (family) and thus adopts ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "these appellations.",
+   "bbox": [
+    85,
+    758,
+    189,
+    773
+   ]
+  },
+  {
+   "text": "14",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

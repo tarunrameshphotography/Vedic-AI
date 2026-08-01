@@ -1,0 +1,344 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0019",
+ "book_id": "brihat-jataka",
+ "seq": 19,
+ "source_ref": {
+  "pdf_page": 10,
+  "half": "a",
+  "v1_page": "s010a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "46ac436290f63b5fa756b3fd1b05dc6c2f2b1ae9c22d9237f9c085842e131da6",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1302,
+    247,
+    1591,
+    281
+   ]
+  },
+  {
+   "text": "16",
+   "bbox": [
+    379,
+    249,
+    438,
+    279
+   ]
+  },
+  {
+   "text": "Day and Night sign etc.",
+   "bbox": [
+    371,
+    349,
+    985,
+    390
+   ]
+  },
+  {
+   "text": "गोजाश्विकर्किमिथुनास्समृगा निशाख्या:",
+   "bbox": [
+    448,
+    430,
+    991,
+    479
+   ]
+  },
+  {
+   "text": "पृष्ठोदया विमिथुना: कथितास्त एव।",
+   "bbox": [
+    520,
+    489,
+    1053,
+    548
+   ]
+  },
+  {
+   "text": "शीर्षोदया दिनबलाश्च भवन्ति शेषा",
+   "bbox": [
+    448,
+    553,
+    939,
+    605
+   ]
+  },
+  {
+   "text": "लग्नं समेत्युभयतः पृथुरोमयुग्मम् ।। 10 ।।",
+   "bbox": [
+    521,
+    623,
+    1139,
+    675
+   ]
+  },
+  {
+   "text": "Aries, Taurus, Gemini, Cancer, Sagittarius and Capricorn",
+   "bbox": [
+    449,
+    719,
+    1592,
+    758
+   ]
+  },
+  {
+   "text": "are strong when the birth takes place in the night time. These",
+   "bbox": [
+    372,
+    772,
+    1591,
+    812
+   ]
+  },
+  {
+   "text": "six signs with the exception of Gemini are called \"Prishtodaya\"",
+   "bbox": [
+    372,
+    823,
+    1588,
+    864
+   ]
+  },
+  {
+   "text": "signs ie rising with their hind part. Leo, Virgo, Libra and",
+   "bbox": [
+    372,
+    876,
+    1588,
+    916
+   ]
+  },
+  {
+   "text": "Aquarius are considered as strong for people born during the",
+   "bbox": [
+    371,
+    925,
+    1589,
+    971
+   ]
+  },
+  {
+   "text": "day time. These signs together with Gemini are called",
+   "bbox": [
+    371,
+    981,
+    1588,
+    1020
+   ]
+  },
+  {
+   "text": "\"Sheershodaya\" is signs which rise with their head forward.",
+   "bbox": [
+    371,
+    1032,
+    1586,
+    1073
+   ]
+  },
+  {
+   "text": "The sign Pisces is both a sheershodaya and a prishhtodaya.",
+   "bbox": [
+    371,
+    1087,
+    1562,
+    1126
+   ]
+  },
+  {
+   "text": "Benefic and Malefic Nature etc of Signs",
+   "bbox": [
+    372,
+    1182,
+    1410,
+    1231
+   ]
+  },
+  {
+   "text": "क्रूरस्सौम्य: पुरुषवनिते ते चरागद्विदेहा:",
+   "bbox": [
+    444,
+    1267,
+    1007,
+    1317
+   ]
+  },
+  {
+   "text": "प्रागादीशाः कियवृषनृयुक्कर्कटास्सत्रिकोणाः।",
+   "bbox": [
+    444,
+    1331,
+    1054,
+    1382
+   ]
+  },
+  {
+   "text": "मार्तण्डेन्द्वोरयुजि समधे चन्द्रभान्वोश्च होरे",
+   "bbox": [
+    443,
+    1391,
+    1028,
+    1449
+   ]
+  },
+  {
+   "text": "द्रेष्काणाः स्यः स्वभवनसुतत्रित्रिकोणाधिपानाम् ।। 11 ।।",
+   "bbox": [
+    443,
+    1460,
+    1249,
+    1516
+   ]
+  },
+  {
+   "text": "The odd signs <math>(1, 3, 5, 7, 9, 11)</math> are considered male and",
+   "bbox": [
+    445,
+    1556,
+    1591,
+    1600
+   ]
+  },
+  {
+   "text": "aggressive while the even signs <math>(2, 4, 6, 8, 10, 12)</math> are",
+   "bbox": [
+    369,
+    1610,
+    1588,
+    1650
+   ]
+  },
+  {
+   "text": "considered as \"Female Gentle\" signs. The signs are movables,",
+   "bbox": [
+    368,
+    1662,
+    1589,
+    1702
+   ]
+  },
+  {
+   "text": "fixed and mutables in order ie signs 1, 4, 7 and 10 are movable.",
+   "bbox": [
+    368,
+    1715,
+    1589,
+    1755
+   ]
+  },
+  {
+   "text": "Signs 2, 5, 8 and 11 are fixed. Signs 3, 6, 9 and 12 are mutable.",
+   "bbox": [
+    369,
+    1768,
+    1588,
+    1808
+   ]
+  },
+  {
+   "text": "Signs 1, 5, 9 represent the East; 2, 6 and 10 represent the",
+   "bbox": [
+    369,
+    1820,
+    1586,
+    1860
+   ]
+  },
+  {
+   "text": "South; signs 3, 7 and 11 represent the West and the signs 4, 8",
+   "bbox": [
+    368,
+    1874,
+    1586,
+    1914
+   ]
+  },
+  {
+   "text": "and 12 represent the North. In odd signs the Hora of the first",
+   "bbox": [
+    368,
+    1926,
+    1588,
+    1966
+   ]
+  },
+  {
+   "text": "ie 15 degrees (ie when a planet is so situated) belongs to Sun",
+   "bbox": [
+    355,
+    1978,
+    1586,
+    2019
+   ]
+  },
+  {
+   "text": "and the remaining to Moon. In even signs the lordship of the",
+   "bbox": [
+    365,
+    2030,
+    1588,
+    2071
+   ]
+  },
+  {
+   "text": "first 15 degrees goes to Moon while that of the next 15 degrees",
+   "bbox": [
+    365,
+    2083,
+    1588,
+    2122
+   ]
+  },
+  {
+   "text": "goes to Sun. The lord of the first decanate in any sign is the",
+   "bbox": [
+    365,
+    2135,
+    1586,
+    2174
+   ]
+  },
+  {
+   "text": "lord of that sign. The lord of the 2nd decanate will be the lord",
+   "bbox": [
+    365,
+    2188,
+    1588,
+    2227
+   ]
+  },
+  {
+   "text": "of the 5th from that sign and the lord of the 3rd decanate will",
+   "bbox": [
+    365,
+    2238,
+    1586,
+    2282
+   ]
+  },
+  {
+   "text": "be the lord of the 9th from the sign (in which the planet may",
+   "bbox": [
+    363,
+    2289,
+    1587,
+    2335
+   ]
+  },
+  {
+   "text": "be located).",
+   "bbox": [
+    362,
+    2344,
+    592,
+    2380
+   ]
+  }
+ ]
+}

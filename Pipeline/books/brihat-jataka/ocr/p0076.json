@@ -1,0 +1,173 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0076",
+ "book_id": "brihat-jataka",
+ "seq": 76,
+ "source_ref": {
+  "pdf_page": 38,
+  "half": "b",
+  "v1_page": "s038b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "8cd038c47ef33f5faf87c3f5a4f87fb5654829e97479050a1398a7d834cfa1ee",
+ "lines": [
+  {
+   "text": "73",
+   "bbox": [
+    1354,
+    212,
+    1418,
+    245
+   ]
+  },
+  {
+   "text": "Factors for Early Death",
+   "bbox": [
+    206,
+    241,
+    687,
+    301
+   ]
+  },
+  {
+   "text": "the 5th, 7th, 9th, 12th, 1st or the 8th house and is neither",
+   "bbox": [
+    210,
+    305,
+    1428,
+    406
+   ]
+  },
+  {
+   "text": "aspected by nor associated with any of the benefic planets,",
+   "bbox": [
+    211,
+    357,
+    1429,
+    458
+   ]
+  },
+  {
+   "text": "Venus, Mercury and Jupiter in strength, leads to death of the",
+   "bbox": [
+    213,
+    409,
+    1434,
+    513
+   ]
+  },
+  {
+   "text": "child soon after birth.",
+   "bbox": [
+    216,
+    498,
+    655,
+    557
+   ]
+  },
+  {
+   "text": "योगे स्थानङ्गतवति बलिनश्चन्द्रे स्वं वा तनुगृहमथवा।",
+   "bbox": [
+    289,
+    562,
+    1044,
+    643
+   ]
+  },
+  {
+   "text": "पापैदृष्टे बलवति मरणं वर्षस्यान्ते किल मुनिगदितम् ।। 12 ।।",
+   "bbox": [
+    293,
+    616,
+    1198,
+    707
+   ]
+  },
+  {
+   "text": "In the above shlokas where the death of the child is stated",
+   "bbox": [
+    296,
+    697,
+    1441,
+    790
+   ]
+  },
+  {
+   "text": "to be soon after birth as a result of the aspect on Moon of",
+   "bbox": [
+    225,
+    748,
+    1450,
+    850
+   ]
+  },
+  {
+   "text": "malefic planets it takes place within a year of birth in transit",
+   "bbox": [
+    226,
+    802,
+    1450,
+    902
+   ]
+  },
+  {
+   "text": "after birth, the Moon gets into the influence of the malefics etc",
+   "bbox": [
+    229,
+    853,
+    1450,
+    957
+   ]
+  },
+  {
+   "text": "causing the said yoga or when it occupies the same place as in",
+   "bbox": [
+    230,
+    907,
+    1451,
+    1009
+   ]
+  },
+  {
+   "text": "the birth chart or is in the lagna again.",
+   "bbox": [
+    235,
+    981,
+    1028,
+    1059
+   ]
+  },
+  {
+   "text": "इति श्रीवराहमिहिरकृते बृहज्जातके बालाऽरिष्टाध्याय:षष्ठ: ।। 6 ।।",
+   "bbox": [
+    364,
+    1170,
+    1345,
+    1265
+   ]
+  },
+  {
+   "text": "Thus ends the sixth chapter on Factors for Early Death in",
+   "bbox": [
+    317,
+    1254,
+    1464,
+    1354
+   ]
+  },
+  {
+   "text": "Brihat Jatak composed by Varahamihira.",
+   "bbox": [
+    246,
+    1320,
+    1077,
+    1411
+   ]
+  }
+ ]
+}

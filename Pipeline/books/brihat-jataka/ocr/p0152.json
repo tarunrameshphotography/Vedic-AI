@@ -1,0 +1,281 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0152",
+ "book_id": "brihat-jataka",
+ "seq": 152,
+ "source_ref": {
+  "pdf_page": 76,
+  "half": "b",
+  "v1_page": "s076b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "609e80b9c34e1baf13e59f635bb058a7ce3876adaa83b319145d9c94958e49a4",
+ "lines": [
+  {
+   "text": "149",
+   "bbox": [
+    1331,
+    160,
+    1415,
+    192
+   ]
+  },
+  {
+   "text": "Aspects on Moon",
+   "bbox": [
+    196,
+    186,
+    543,
+    239
+   ]
+  },
+  {
+   "text": "(i) Aspected by Mercury: Chief in his own people.",
+   "bbox": [
+    280,
+    253,
+    1332,
+    339
+   ]
+  },
+  {
+   "text": "(ii) Aspected by Jupiter: A king.",
+   "bbox": [
+    284,
+    346,
+    989,
+    415
+   ]
+  },
+  {
+   "text": "(iii) Aspected by Venus: Supports many.",
+   "bbox": [
+    285,
+    419,
+    1148,
+    494
+   ]
+  },
+  {
+   "text": "(iv) Aspected by Saturn, Sun or Mars: Deceitful and",
+   "bbox": [
+    288,
+    486,
+    1432,
+    574
+   ]
+  },
+  {
+   "text": "liar, selfish.",
+   "bbox": [
+    215,
+    575,
+    457,
+    625
+   ]
+  },
+  {
+   "text": "Moon in Capricorn",
+   "bbox": [
+    217,
+    672,
+    720,
+    729
+   ]
+  },
+  {
+   "text": "(i) Aspected by Mercury: A great king.",
+   "bbox": [
+    298,
+    735,
+    1128,
+    809
+   ]
+  },
+  {
+   "text": "(ii) Aspected by Jupiter: A king.",
+   "bbox": [
+    298,
+    817,
+    1005,
+    886
+   ]
+  },
+  {
+   "text": "(iii) Aspected by Venus: A learned man.",
+   "bbox": [
+    300,
+    890,
+    1154,
+    964
+   ]
+  },
+  {
+   "text": "(iv) Aspected by Saturn: Rich.",
+   "bbox": [
+    303,
+    974,
+    964,
+    1043
+   ]
+  },
+  {
+   "text": "<math>(v)</math> Aspected by Sun: Poor.",
+   "bbox": [
+    305,
+    1057,
+    889,
+    1118
+   ]
+  },
+  {
+   "text": "(vi) Aspected by Mars: A king.",
+   "bbox": [
+    310,
+    1133,
+    970,
+    1196
+   ]
+  },
+  {
+   "text": "Moon in Acquarius",
+   "bbox": [
+    235,
+    1244,
+    741,
+    1304
+   ]
+  },
+  {
+   "text": "(i) Aspected by Mercury: A king.",
+   "bbox": [
+    314,
+    1313,
+    1033,
+    1382
+   ]
+  },
+  {
+   "text": "(ii) Aspected by Jupiter: Equal to a king.",
+   "bbox": [
+    315,
+    1384,
+    1196,
+    1461
+   ]
+  },
+  {
+   "text": "(iii) Aspected by Venus: Goes after others' women.",
+   "bbox": [
+    316,
+    1455,
+    1381,
+    1539
+   ]
+  },
+  {
+   "text": "(iv) Aspected by Saturn, Sun or Mars: Adulterous.",
+   "bbox": [
+    321,
+    1533,
+    1414,
+    1617
+   ]
+  },
+  {
+   "text": "<b>Moon in Pisces</b>",
+   "bbox": [
+    246,
+    1663,
+    650,
+    1719
+   ]
+  },
+  {
+   "text": "(i) Aspected by Mercury: Joker.",
+   "bbox": [
+    322,
+    1730,
+    1021,
+    1801
+   ]
+  },
+  {
+   "text": "(ii) Aspected by Jupiter: A king.",
+   "bbox": [
+    327,
+    1810,
+    1035,
+    1876
+   ]
+  },
+  {
+   "text": "(iii) Aspected by Venus: Learned.",
+   "bbox": [
+    327,
+    1888,
+    1053,
+    1954
+   ]
+  },
+  {
+   "text": "(iv) Aspected by Saturn, Sun or Mars: Sinful.",
+   "bbox": [
+    332,
+    1958,
+    1322,
+    2034
+   ]
+  },
+  {
+   "text": "If Moon is located in the \"Hora\" (See shloka 11 of chapter",
+   "bbox": [
+    333,
+    2028,
+    1477,
+    2109
+   ]
+  },
+  {
+   "text": "1) of Sun and the planet in the Hora of Sun aspects her or if she",
+   "bbox": [
+    263,
+    2079,
+    1476,
+    2165
+   ]
+  },
+  {
+   "text": "is located in her own Hora and planets in Moon's Hora aspect",
+   "bbox": [
+    259,
+    2132,
+    1479,
+    2215
+   ]
+  },
+  {
+   "text": "her the results are good. Similarly if the lord of the Dreshkan",
+   "bbox": [
+    264,
+    2181,
+    1479,
+    2271
+   ]
+  },
+  {
+   "text": "(Decante) occupied by Moon aspects the Moon, the results",
+   "bbox": [
+    265,
+    2236,
+    1482,
+    2321
+   ]
+  }
+ ]
+}

@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0221",
+ "book_id": "brihat-jataka",
+ "seq": 221,
+ "source_ref": {
+  "pdf_page": 111,
+  "half": "a",
+  "v1_page": "s111a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "cc39f54708b1320ff2bec893943dcae60209cf38f763a3b8730777ef875bc497",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1215,
+    292,
+    1506,
+    329
+   ]
+  },
+  {
+   "text": "218",
+   "bbox": [
+    290,
+    294,
+    385,
+    330
+   ]
+  },
+  {
+   "text": "(20), Vivaha Kala, (21) Graha karma.",
+   "bbox": [
+    290,
+    396,
+    1035,
+    434
+   ]
+  },
+  {
+   "text": "In this manner work in the three important branches of",
+   "bbox": [
+    365,
+    475,
+    1529,
+    513
+   ]
+  },
+  {
+   "text": "astrology we have composed works for the benefit of astrolo-",
+   "bbox": [
+    277,
+    525,
+    1509,
+    565
+   ]
+  },
+  {
+   "text": "gers.",
+   "bbox": [
+    288,
+    585,
+    391,
+    619
+   ]
+  },
+  {
+   "text": "<i>Notes:</i> Varahamihira gives the names of the chapters in his",
+   "bbox": [
+    365,
+    657,
+    1509,
+    695
+   ]
+  },
+  {
+   "text": "work on yatra. It is called Yatra Patala. He also refers to",
+   "bbox": [
+    287,
+    708,
+    1509,
+    746
+   ]
+  },
+  {
+   "text": "Vivaha Patala which he composed.",
+   "bbox": [
+    290,
+    761,
+    984,
+    800
+   ]
+  },
+  {
+   "text": "पृथुविरचितमन्यै: शास्त्रमेतत्समस्तं",
+   "bbox": [
+    360,
+    836,
+    851,
+    888
+   ]
+  },
+  {
+   "text": "तदनु लघु मयेदं तत्प्रदेशार्थमेव।",
+   "bbox": [
+    360,
+    902,
+    819,
+    954
+   ]
+  },
+  {
+   "text": "कृतमिह हि समर्थे धीविषाणामलत्वे",
+   "bbox": [
+    358,
+    965,
+    880,
+    1020
+   ]
+  },
+  {
+   "text": "मम यदसदुक्तं सज्जनै: क्षम्यतां तत् ।। 7 ।।",
+   "bbox": [
+    359,
+    1032,
+    1016,
+    1084
+   ]
+  },
+  {
+   "text": "Other great Rishis have written extensively on these sub-",
+   "bbox": [
+    364,
+    1125,
+    1508,
+    1171
+   ]
+  },
+  {
+   "text": "jects. I have given only a summary of their works. May the",
+   "bbox": [
+    286,
+    1181,
+    1507,
+    1221
+   ]
+  },
+  {
+   "text": "wise excuse my faults, if any, in my works. My purpose is only",
+   "bbox": [
+    288,
+    1232,
+    1508,
+    1276
+   ]
+  },
+  {
+   "text": "to sharpen and stimulate their intellact.",
+   "bbox": [
+    288,
+    1285,
+    1089,
+    1324
+   ]
+  },
+  {
+   "text": "ग्रन्थस्य यत्प्रचरतोऽस्य विनाशमेति",
+   "bbox": [
+    360,
+    1363,
+    853,
+    1405
+   ]
+  },
+  {
+   "text": "लेख्याद् बहुश्नुतमुखाधिगमक्रमेण।",
+   "bbox": [
+    358,
+    1424,
+    843,
+    1480
+   ]
+  },
+  {
+   "text": "यद्वा मया कुकृतमल्पमिहाकृतं वा",
+   "bbox": [
+    359,
+    1492,
+    845,
+    1543
+   ]
+  },
+  {
+   "text": "कार्यं तदत्र विदुषा परिहत्य रागम्।। 811",
+   "bbox": [
+    357,
+    1557,
+    951,
+    1608
+   ]
+  },
+  {
+   "text": "If the work suffers in any way, the reader must correct the",
+   "bbox": [
+    360,
+    1653,
+    1506,
+    1692
+   ]
+  },
+  {
+   "text": "errors after consulting the learned. I may have committed",
+   "bbox": [
+    284,
+    1706,
+    1505,
+    1745
+   ]
+  },
+  {
+   "text": "errors by negligence or misunderstanding the originals. The",
+   "bbox": [
+    284,
+    1754,
+    1505,
+    1800
+   ]
+  },
+  {
+   "text": "reader must correct them. I have no envy or mean jealousy.",
+   "bbox": [
+    284,
+    1810,
+    1483,
+    1849
+   ]
+  },
+  {
+   "text": "आदित्यदासतनयस्तदवाप्तबोध:",
+   "bbox": [
+    357,
+    1884,
+    803,
+    1931
+   ]
+  },
+  {
+   "text": "कापित्थके सवितृलब्धवरप्रसाद:।",
+   "bbox": [
+    357,
+    1946,
+    832,
+    2001
+   ]
+  },
+  {
+   "text": "आवन्तिको मुनिमतान्यवलोक्य सम्य-",
+   "bbox": [
+    357,
+    2016,
+    897,
+    2067
+   ]
+  },
+  {
+   "text": "ग्घोरां वराहमिहिरो रुचिराञ्चकार।। 9।।",
+   "bbox": [
+    357,
+    2080,
+    945,
+    2130
+   ]
+  },
+  {
+   "text": "Varahamihira, the son of Adityadasa, was instructed by",
+   "bbox": [
+    360,
+    2177,
+    1505,
+    2217
+   ]
+  },
+  {
+   "text": "his father, The grace of the Sun gifted him wisdom. Born in",
+   "bbox": [
+    284,
+    2230,
+    1503,
+    2270
+   ]
+  },
+  {
+   "text": "Kapitha in the region of Avanti, he carefully went through all",
+   "bbox": [
+    284,
+    2282,
+    1505,
+    2322
+   ]
+  },
+  {
+   "text": "the works of the earlier sages on this subject, and he composed",
+   "bbox": [
+    284,
+    2335,
+    1505,
+    2375
+   ]
+  },
+  {
+   "text": "this debetable work.",
+   "bbox": [
+    286,
+    2387,
+    691,
+    2424
+   ]
+  }
+ ]
+}

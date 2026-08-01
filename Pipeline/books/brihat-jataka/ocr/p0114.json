@@ -1,0 +1,344 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0114",
+ "book_id": "brihat-jataka",
+ "seq": 114,
+ "source_ref": {
+  "pdf_page": 57,
+  "half": "b",
+  "v1_page": "s057b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "a93e606aa761c1ddfc03a94cba8b5c1f896cc956f252fd2dc97126fec276ce54",
+ "lines": [
+  {
+   "text": "Nabhas (Heavenly) Yogas",
+   "bbox": [
+    262,
+    236,
+    773,
+    275
+   ]
+  },
+  {
+   "text": "111",
+   "bbox": [
+    1385,
+    238,
+    1462,
+    266
+   ]
+  },
+  {
+   "text": "When the seven planets (Sun, Moon, Mars, Mercury, Jupi-",
+   "bbox": [
+    338,
+    334,
+    1476,
+    375
+   ]
+  },
+  {
+   "text": "ter, Venus and Saturn) occupy any seven places in the horo-",
+   "bbox": [
+    262,
+    384,
+    1476,
+    425
+   ]
+  },
+  {
+   "text": "scope, they create one of the sankhya yogas called \"Vallaki\". If",
+   "bbox": [
+    262,
+    435,
+    1479,
+    475
+   ]
+  },
+  {
+   "text": "the seven planets occupy any six places of the horoscope they",
+   "bbox": [
+    264,
+    486,
+    1476,
+    526
+   ]
+  },
+  {
+   "text": "create \"Daamini Yoga\". If all the seven planets occupy any five",
+   "bbox": [
+    262,
+    536,
+    1473,
+    576
+   ]
+  },
+  {
+   "text": "of the houses in the horoscope, they constitute the yoga called",
+   "bbox": [
+    262,
+    588,
+    1475,
+    628
+   ]
+  },
+  {
+   "text": "\"Paasha\". If they occupy any four it goes under the name of",
+   "bbox": [
+    261,
+    637,
+    1478,
+    678
+   ]
+  },
+  {
+   "text": "\"Kedar\". If they occupy only three houses they constitute",
+   "bbox": [
+    261,
+    689,
+    1475,
+    729
+   ]
+  },
+  {
+   "text": "\"Shool\" yoga. If they occupy only two houses they constitute",
+   "bbox": [
+    261,
+    734,
+    1474,
+    783
+   ]
+  },
+  {
+   "text": "the yoga called \"Yupa\". If all the seven planets occupy only one",
+   "bbox": [
+    261,
+    789,
+    1473,
+    830
+   ]
+  },
+  {
+   "text": "house of the horoscope the yoga created is called \"Gol\". In case",
+   "bbox": [
+    260,
+    840,
+    1473,
+    881
+   ]
+  },
+  {
+   "text": "any \"Aashraya\" yoga is identical with a \"Sankhya\" yoga, the",
+   "bbox": [
+    261,
+    891,
+    1473,
+    931
+   ]
+  },
+  {
+   "text": "results stated for the latter will prevail.",
+   "bbox": [
+    260,
+    942,
+    1051,
+    981
+   ]
+  },
+  {
+   "text": "<b>Results of Nabhas Yogas</b>",
+   "bbox": [
+    258,
+    1041,
+    903,
+    1081
+   ]
+  },
+  {
+   "text": "ईर्ष्यविदेशनिरतोऽध्वरुचिश्च रज्ज्वां",
+   "bbox": [
+    332,
+    1115,
+    812,
+    1162
+   ]
+  },
+  {
+   "text": "मानी धनी च मुशले बहुकृत्यशक्त:।",
+   "bbox": [
+    332,
+    1181,
+    862,
+    1232
+   ]
+  },
+  {
+   "text": "व्यङ्ग स्थिराढचनिपुणो नलज: स्नगुत्थो",
+   "bbox": [
+    331,
+    1242,
+    883,
+    1300
+   ]
+  },
+  {
+   "text": "भोगान्वितो भुजगजो बहुदुःखभाक्स्यात् ।। 11 ।।",
+   "bbox": [
+    332,
+    1309,
+    1023,
+    1363
+   ]
+  },
+  {
+   "text": "One having \"Rajju\" yoga is jealous of others, usually living",
+   "bbox": [
+    333,
+    1400,
+    1472,
+    1442
+   ]
+  },
+  {
+   "text": "in country or province other than that of his birth and is fond",
+   "bbox": [
+    257,
+    1452,
+    1471,
+    1492
+   ]
+  },
+  {
+   "text": "of travels, one having \"Musal\" is honoured, wealthy and ca-",
+   "bbox": [
+    258,
+    1501,
+    1471,
+    1542
+   ]
+  },
+  {
+   "text": "pable of multifarious activities. One born in \"Nala\" yoga loses",
+   "bbox": [
+    258,
+    1553,
+    1471,
+    1593
+   ]
+  },
+  {
+   "text": "an organ of his body, is of resolute mind, rich and efficient in",
+   "bbox": [
+    258,
+    1605,
+    1471,
+    1645
+   ]
+  },
+  {
+   "text": "his undertakings. Srak-a dala yoga, makes the person enjoy",
+   "bbox": [
+    258,
+    1657,
+    1471,
+    1697
+   ]
+  },
+  {
+   "text": "many comforts in life. One born in \"Sarpa\" yoga suffers much",
+   "bbox": [
+    257,
+    1707,
+    1471,
+    1747
+   ]
+  },
+  {
+   "text": "in life.",
+   "bbox": [
+    255,
+    1757,
+    390,
+    1793
+   ]
+  },
+  {
+   "text": "आश्रययोगास्तु विफला भवन्त्यन्यैर्विमिश्रिता:।",
+   "bbox": [
+    326,
+    1827,
+    972,
+    1878
+   ]
+  },
+  {
+   "text": "मिश्रा यैस्ते फलं दद्युरमिश्रा: स्वफलप्रदा:।। 12 ।।",
+   "bbox": [
+    326,
+    1892,
+    1070,
+    1942
+   ]
+  },
+  {
+   "text": "If the \"Aashrya\" yogas are identical with any other type,",
+   "bbox": [
+    329,
+    1979,
+    1469,
+    2021
+   ]
+  },
+  {
+   "text": "that type prevails and the results stated for the other type",
+   "bbox": [
+    255,
+    2028,
+    1469,
+    2074
+   ]
+  },
+  {
+   "text": "accrue.",
+   "bbox": [
+    255,
+    2087,
+    398,
+    2117
+   ]
+  },
+  {
+   "text": "Gadaa etc",
+   "bbox": [
+    255,
+    2179,
+    523,
+    2216
+   ]
+  },
+  {
+   "text": "यज्वार्थभाक्सततमर्थरुचिर्गदायां तद्वृत्तिभुक्छकटज: सरुज: कुदार:।",
+   "bbox": [
+    326,
+    2254,
+    1277,
+    2305
+   ]
+  },
+  {
+   "text": "दूतोऽटन: कलहकृद्विहगे प्रदिप्ट: शृङ्गाटके चिरसुखी कृषिकृद्धलाख्ये।। 13 ।।",
+   "bbox": [
+    326,
+    2315,
+    1453,
+    2370
+   ]
+  }
+ ]
+}

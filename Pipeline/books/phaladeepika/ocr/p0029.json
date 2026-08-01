@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0029",
+ "book_id": "phaladeepika",
+ "seq": 29,
+ "source_ref": {
+  "pdf_page": 29
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "161ca0113921013a0316ac172603198765777816a25adb3ab9e1126fe1d77508",
+ "lines": [
+  {
+   "text": "24° it is middle age and the last 6° comprise the very old age. It is reverse in the ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "case of even signs viz., Taurus, Cancer, Virgo, Scorpio, Capricorn and Pisces.",
+   "bbox": [
+    85,
+    82,
+    519,
+    97
+   ]
+  },
+  {
+   "text": "4. Hora is half of a Rasi. In an odd sign, the halves belong, to the Sun and ",
+   "bbox": [
+    121,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "the Moon and to the Moon and the Sun when the sign is an even one.",
+   "bbox": [
+    85,
+    130,
+    473,
+    145
+   ]
+  },
+  {
+   "text": "The Drekkana or third portions of a sign belong to the lords of the sign itself, ",
+   "bbox": [
+    121,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "of the 5th house and of the 9th house.",
+   "bbox": [
+    85,
+    178,
+    296,
+    194
+   ]
+  },
+  {
+   "text": "The owners of the Dwadasamas or l/12th portion of a sign are counted from ",
+   "bbox": [
+    121,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "that sign.",
+   "bbox": [
+    85,
+    226,
+    136,
+    242
+   ]
+  },
+  {
+   "text": "In an odd sign the Trimsamsas or degrees, that is, l/30th portions belonging ",
+   "bbox": [
+    121,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "to Mars, Saturn, Jupiter, Mercury and Venus are respectively 5, 5, 8, 7 and 5. In an ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "even sign it is reversed. Then Venus. Mercury, Jupiter, Saturn and Mars have 5, 7, ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "8, 5 and 5 degrees respectively.",
+   "bbox": [
+    85,
+    323,
+    260,
+    339
+   ]
+  },
+  {
+   "text": "The first Navamsa in the signs from Aries onwards begins respectively with ",
+   "bbox": [
+    121,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "Aries, Capricorn, Libra and Cancer.",
+   "bbox": [
+    85,
+    371,
+    285,
+    387
+   ]
+  },
+  {
+   "text": "5. In an odd sign in Krura Shastyamsas or inauspicious l/60th portions are ",
+   "bbox": [
+    121,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "1st. 2nd, 8th, 9th. 10th, 11th. 12th. 15th, 18th, 30th, 31st. 32nd. 33rd. 34th, 35th, ",
+   "bbox": [
+    85,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "39th. 40th, 42nd, 43rd, 44th. 48th, 51st. 52nd and 59th. The rest are Saumya or ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "auspicious ones. In the case of an even sign it is necessary, that is, the Shastyamsa ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "portions stated Krura in the odd signs are the Saumya ones in the even signs and ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "vice versa.",
+   "bbox": [
+    85,
+    516,
+    145,
+    532
+   ]
+  },
+  {
+   "text": "6. The Saptamsas or the l/7th portion are in the case of an odd sign, counted ",
+   "bbox": [
+    121,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "regularly from the sign itself. In the case of an even sign, they are counted from 7th ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "sign onwards.",
+   "bbox": [
+    85,
+    589,
+    163,
+    604
+   ]
+  },
+  {
+   "text": "In the case of an odd sign, the Dasamamsas or 1/10th portions are counted ",
+   "bbox": [
+    121,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "from the sign itself. In the case of an even sign, they are counted from the 9th ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "onwards. The lords of the Shodasamsas or the 1/16th portions in the case of an odd ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "sign are those of the 12th sign counted from that sign Brahma, Vishnu, Hora and ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "Ravi. In an even sign this is reversed.",
+   "bbox": [
+    85,
+    709,
+    295,
+    725
+   ]
+  },
+  {
+   "text": "If we have to assess the comparative strength of a planet, we should find out ",
+   "bbox": [
+    121,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "whether he is in a kendra, trikona, in his own sign, in his moolatrikona sign, in his ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "29",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

@@ -1,0 +1,371 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0023",
+ "book_id": "brihat-jataka",
+ "seq": 23,
+ "source_ref": {
+  "pdf_page": 12,
+  "half": "a",
+  "v1_page": "s012a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "8a5321cde45a37570b867d9cefc27c8913531eaf10edb8939289452f950be2d2",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1227,
+    251,
+    1520,
+    285
+   ]
+  },
+  {
+   "text": "20",
+   "bbox": [
+    300,
+    254,
+    366,
+    287
+   ]
+  },
+  {
+   "text": "and no longer returns to its miserable earthly existence.",
+   "bbox": [
+    299,
+    356,
+    1520,
+    395
+   ]
+  },
+  {
+   "text": "Self realisation or moksha then is the highest goal of human",
+   "bbox": [
+    300,
+    408,
+    1520,
+    448
+   ]
+  },
+  {
+   "text": "soul. The same idea is expressed by the Holy Bible when it",
+   "bbox": [
+    299,
+    461,
+    1520,
+    501
+   ]
+  },
+  {
+   "text": "says:",
+   "bbox": [
+    300,
+    520,
+    406,
+    554
+   ]
+  },
+  {
+   "text": "\"Him that overcometh will I make a pillar in the temple",
+   "bbox": [
+    373,
+    592,
+    1522,
+    631
+   ]
+  },
+  {
+   "text": "of my God, and we shall go no more out (Rev 3/12).\" \"No",
+   "bbox": [
+    299,
+    643,
+    1520,
+    684
+   ]
+  },
+  {
+   "text": "more out\" obviously means will no longer take up birth.",
+   "bbox": [
+    297,
+    697,
+    1519,
+    737
+   ]
+  },
+  {
+   "text": "When therefore, astrology says that Sun is exalted in the",
+   "bbox": [
+    298,
+    746,
+    1519,
+    794
+   ]
+  },
+  {
+   "text": "sign Aries ie of the materialistic planet, Mars in the constella-",
+   "bbox": [
+    300,
+    803,
+    1519,
+    843
+   ]
+  },
+  {
+   "text": "tion belonging to Ketu, it states a profound spiritual truth to",
+   "bbox": [
+    300,
+    856,
+    1519,
+    895
+   ]
+  },
+  {
+   "text": "the effect that the human soul even when placed in the tempt-",
+   "bbox": [
+    297,
+    908,
+    1519,
+    948
+   ]
+  },
+  {
+   "text": "ing conditions signified by Mars (Lord of sign Aries), if it is in",
+   "bbox": [
+    296,
+    961,
+    1519,
+    1001
+   ]
+  },
+  {
+   "text": "the spiritual condition of self realisation (Ketu) it has attained",
+   "bbox": [
+    297,
+    1013,
+    1519,
+    1052
+   ]
+  },
+  {
+   "text": "its highest possible excellence. This is clearly a spiritual crite-",
+   "bbox": [
+    296,
+    1065,
+    1519,
+    1105
+   ]
+  },
+  {
+   "text": "rion for the fixation of the sign and degree of the exaltation of",
+   "bbox": [
+    296,
+    1119,
+    1520,
+    1158
+   ]
+  },
+  {
+   "text": "Sun.",
+   "bbox": [
+    295,
+    1170,
+    396,
+    1212
+   ]
+  },
+  {
+   "text": "Moon: Moon is exalted in the 3rd degree of the sign",
+   "bbox": [
+    370,
+    1247,
+    1520,
+    1289
+   ]
+  },
+  {
+   "text": "Taurus, whose constellational lord is Sun. This clearly means",
+   "bbox": [
+    296,
+    1302,
+    1518,
+    1341
+   ]
+  },
+  {
+   "text": "that Moon has to be in the closest contact with the soul",
+   "bbox": [
+    296,
+    1355,
+    1519,
+    1391
+   ]
+  },
+  {
+   "text": "signified by the constellation \"Krittika\". Moon is an emotional",
+   "bbox": [
+    296,
+    1408,
+    1519,
+    1446
+   ]
+  },
+  {
+   "text": "planet denoting human desires and emotions. Its highest evo-",
+   "bbox": [
+    297,
+    1460,
+    1518,
+    1499
+   ]
+  },
+  {
+   "text": "lution naturally consists in the condition when it is devoid of",
+   "bbox": [
+    296,
+    1512,
+    1522,
+    1551
+   ]
+  },
+  {
+   "text": "hankerings after material possessions but is in rapport with",
+   "bbox": [
+    296,
+    1564,
+    1519,
+    1604
+   ]
+  },
+  {
+   "text": "the atman-the self, the soul or the Sun. It will then be able to",
+   "bbox": [
+    296,
+    1618,
+    1518,
+    1656
+   ]
+  },
+  {
+   "text": "overcome the surrounding temptations of a luxurious atmo-",
+   "bbox": [
+    296,
+    1670,
+    1518,
+    1710
+   ]
+  },
+  {
+   "text": "sphere denoted by the sign Taurus whose lord we know is",
+   "bbox": [
+    296,
+    1722,
+    1518,
+    1762
+   ]
+  },
+  {
+   "text": "Venus-the most luxurious and sensuous of planets. Thus the",
+   "bbox": [
+    296,
+    1773,
+    1518,
+    1815
+   ]
+  },
+  {
+   "text": "spiritual test of an exalted mind would be that when it is in",
+   "bbox": [
+    296,
+    1828,
+    1518,
+    1867
+   ]
+  },
+  {
+   "text": "most tempting and alluring sign of the planet Venus it should",
+   "bbox": [
+    296,
+    1881,
+    1516,
+    1920
+   ]
+  },
+  {
+   "text": "be able to remain established in the atman (Krittika). This is",
+   "bbox": [
+    296,
+    1934,
+    1516,
+    1973
+   ]
+  },
+  {
+   "text": "surely again a most reasonable spiritual basis for the exalta-",
+   "bbox": [
+    295,
+    1984,
+    1518,
+    2028
+   ]
+  },
+  {
+   "text": "tion of the planet Moon.",
+   "bbox": [
+    296,
+    2040,
+    783,
+    2079
+   ]
+  },
+  {
+   "text": "Now Samadhi, on all accounts is a condition or state in",
+   "bbox": [
+    368,
+    2118,
+    1518,
+    2156
+   ]
+  },
+  {
+   "text": "which the function of the limbs, emotions and intellect is",
+   "bbox": [
+    293,
+    2170,
+    1519,
+    2209
+   ]
+  },
+  {
+   "text": "stopped and the man gets into a void. The state of \"void\" is",
+   "bbox": [
+    294,
+    2222,
+    1516,
+    2261
+   ]
+  },
+  {
+   "text": "signified by the planet Saturn who is \"empty\". Astrological",
+   "bbox": [
+    291,
+    2275,
+    1518,
+    2314
+   ]
+  },
+  {
+   "text": "students are aware of the fact that the lunar date (Tithi)",
+   "bbox": [
+    290,
+    2324,
+    1513,
+    2365
+   ]
+  }
+ ]
+}

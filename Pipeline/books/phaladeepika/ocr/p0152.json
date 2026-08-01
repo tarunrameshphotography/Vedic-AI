@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0152",
+ "book_id": "phaladeepika",
+ "seq": 152,
+ "source_ref": {
+  "pdf_page": 152
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "515aca22d3814d4ba39001829288e451eab41dac5d60a567be0064e42bc2e739",
+ "lines": [
+  {
+   "text": "that house should be treated as the Lagna and the effects of 12 houses reckoned ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "from there such as, (first form, 2nd wealth) should be examined and declared.",
+   "bbox": [
+    85,
+    82,
+    520,
+    97
+   ]
+  },
+  {
+   "text": "Notes: According to the principle mentioned above if we have to consider ",
+   "bbox": [
+    121,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "about the wife of the son, we will treat the 5th house as Lagna and the 7th house ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "from it, that is the 11th, will signify the wife of the son. Similarly we have to ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "examine about the wife's wealth, the 7th house should be treated as the Lagna and ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "the 2nd from the 7th, that is, 8th house will be the house of wealth for the wife on ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "the same basis about the younger brother's wife we will have to ascertain from the ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "9th house.",
+   "bbox": [
+    85,
+    251,
+    143,
+    266
+   ]
+  },
+  {
+   "text": "21. In the same manner should the effects of the father, the mother, the ",
+   "bbox": [
+    121,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "brother, the maternal uncle, the son, the husband and the servant be determined by ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "treating the signs occupied by their respective Karakas. The meaning of this is that ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "if the effects of the father are to be determined, the sign occupied by the Sun ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "should be treated as the Lagna and the second from that sign all information of the ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "father's brother and the 3rd about mother's brother and so on. For effects of the ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "mother the sign occupied by the Moon, for the effects of the brother the sign ",
+   "bbox": [
+    85,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "occupied by Mercury, for the effects of the son, the sign occupied by Jupiter, for ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "the effects of wife the sign occupied by Venus, for the effects of servant the sign ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "occupied by Saturn, have to be treated as the Lagna.",
+   "bbox": [
+    85,
+    492,
+    377,
+    508
+   ]
+  },
+  {
+   "text": "22 - 24 From the sign occupied by the Sun one ought to determine the ",
+   "bbox": [
+    121,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "appearance of the father of the native. The father's financial position and renown ",
+   "bbox": [
+    85,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "should be ascertained from the 2nd house from the sign occupied by the Sun. His ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "character, brothers etc., should be examined from the 3rd house from that occupied ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "by the Sun. The 4th house reckoned from the Sun will give information about ",
+   "bbox": [
+    85,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "father's happiness and his mother. The intelligence and tranquility of the father has ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "to be determined from the 5th house, his differences, enemies and disease from the ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "6th house, his love and passion from the 7th house, his longevity and death from ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "the 8th house, his virtues, wealth, father's father from the 9th house, his ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "professional pursuits from the 10th house, his financial gains from the 11th house ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "and his losses and expenditure from the 12th house from the sign occupied by the ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "152",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

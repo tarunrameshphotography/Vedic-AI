@@ -1,0 +1,288 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0005",
+ "book_id": "phaladeepika",
+ "seq": 5,
+ "source_ref": {
+  "pdf_page": 5
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "c859ede6ec99ea6fe026700ad26bddb2ea1a96d25d3636894e36aa44490bd685",
+ "lines": [
+  {
+   "text": "The indication of the sources of livelihood or profession by the Sun and ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "other planets. 56-60",
+   "bbox": [
+    85,
+    82,
+    197,
+    97
+   ]
+  },
+  {
+   "text": "<b>Chapter 6: Yogas</b>",
+   "bbox": [
+    121,
+    106,
+    224,
+    121
+   ]
+  },
+  {
+   "text": "Panchamahapurusha yogas viz., Ruchaka, Bhadra, Hansa, Malavya and ",
+   "bbox": [
+    121,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "Sasa. — Sunapha, Anapha and Durudhara -Kemadruma - Papavasl and Papakartarl ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "- Amala - Mahabhagya » Kesari - Sakata - Adhama, Satna and Varlshta -- Vasumatl ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "— Pushkala -- Shubhamala and Ashubhamala -- Lakshml -- Gouri -- Saraswatl -- ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "Srikanta - Srinatha -- Varunchi — Parivartana, Kahala — Raja yoga — Sankhya ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "yogas viz. Veena, Dama, Pasa, Kedara, Sula, Yoga, and Gola — Adhiyoga -- ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "Chamar, Dhenu, Saurya, Jaladhi. Chhatra, Astra, Kama, Asura, Bhagya, Khyatl, ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "Partjata and Musala yogas -- Avayoga, Nisswayoga. Mriti yoga, Kuhu yoga, Sarla ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "yoga, Nlrbhagya yoga, Duryoga, Dartdrayoga and Vimala yoga. 61-89",
+   "bbox": [
+    85,
+    323,
+    480,
+    339
+   ]
+  },
+  {
+   "text": "<b>Chapter 7: Raja yogas</b>",
+   "bbox": [
+    121,
+    371,
+    255,
+    387
+   ]
+  },
+  {
+   "text": "Description of various planetary combinations. 90-100",
+   "bbox": [
+    121,
+    395,
+    428,
+    411
+   ]
+  },
+  {
+   "text": "<b>Chapter 8: Effect of the Sun and other planets In the twelve houses. </b>",
+   "bbox": [
+    121,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "101-116",
+   "bbox": [
+    85,
+    444,
+    131,
+    459
+   ]
+  },
+  {
+   "text": "<b>Chapter 9: Effect of different Ascendants</b>",
+   "bbox": [
+    121,
+    468,
+    367,
+    483
+   ]
+  },
+  {
+   "text": "Effects of planets posited in exaltation, own, friend's, Inimical and debilitation 117-",
+   "bbox": [
+    85,
+    492,
+    553,
+    508
+   ]
+  },
+  {
+   "text": "122",
+   "bbox": [
+    85,
+    516,
+    106,
+    532
+   ]
+  },
+  {
+   "text": "<b>Chapter 10: Matters relating to the 7th house</b>",
+   "bbox": [
+    121,
+    540,
+    392,
+    556
+   ]
+  },
+  {
+   "text": "Planetary dispositions for loss of wife,. issuelessness, possessing a chaste, ",
+   "bbox": [
+    121,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "fortunate and beautiful wife, a crippled wife, liasion with other people's wives, ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "wlfelessness, having two wives, time of marriage. 123-127",
+   "bbox": [
+    85,
+    613,
+    415,
+    628
+   ]
+  },
+  {
+   "text": "<b>Chapter 11: Female Horoscopy</b>",
+   "bbox": [
+    121,
+    637,
+    307,
+    652
+   ]
+  },
+  {
+   "text": "Peculiarities of female's horoscope -- planetary combination for a good ",
+   "bbox": [
+    121,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "husband and sons, masculine featured and sons, masculine featured and ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "uncontrollable woman — planetary combination for widowhood, diseased womb, ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "lack of chastity, becoming a prostitute, being chaste, happiness - Effects of ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "Trimsamsa occupied by the Moon at birth-untoward effects of the birth, a female in ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "5",
+   "bbox": [
+    316,
+    793,
+    322,
+    806
+   ]
+  }
+ ]
+}

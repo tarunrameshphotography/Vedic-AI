@@ -1,0 +1,513 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0134",
+ "book_id": "phaladeepika",
+ "seq": 134,
+ "source_ref": {
+  "pdf_page": 134
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "cc5370ce3d4feee4ca1ebf3d1adb9b11e3d98db6d4ff62c793183e24a2e4bedd",
+ "lines": [
+  {
+   "text": "the other is a dual, moveable or fixed sign and (c) when one of the signs is a dual ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "sign and the other is a fixed, dual or moveable sign respectively.",
+   "bbox": [
+    85,
+    82,
+    445,
+    97
+   ]
+  },
+  {
+   "text": "A ",
+   "bbox": [
+    180,
+    130,
+    193,
+    145
+   ]
+  },
+  {
+   "text": "Lagna Decanate sign ",
+   "bbox": [
+    180,
+    146,
+    301,
+    161
+   ]
+  },
+  {
+   "text": "Moon Decanate sign ",
+   "bbox": [
+    326,
+    146,
+    445,
+    161
+   ]
+  },
+  {
+   "text": "B ",
+   "bbox": [
+    180,
+    165,
+    192,
+    181
+   ]
+  },
+  {
+   "text": "Sign of the Lagna ",
+   "bbox": [
+    180,
+    182,
+    283,
+    197
+   ]
+  },
+  {
+   "text": "Sign of the Moon's ",
+   "bbox": [
+    326,
+    182,
+    435,
+    197
+   ]
+  },
+  {
+   "text": "Navamsa ",
+   "bbox": [
+    180,
+    198,
+    235,
+    214
+   ]
+  },
+  {
+   "text": "Navamsa ",
+   "bbox": [
+    326,
+    198,
+    381,
+    214
+   ]
+  },
+  {
+   "text": "C ",
+   "bbox": [
+    180,
+    214,
+    192,
+    230
+   ]
+  },
+  {
+   "text": "Dwadasamsa sign of the ",
+   "bbox": [
+    180,
+    231,
+    320,
+    246
+   ]
+  },
+  {
+   "text": "Dwadasamsa sign of ",
+   "bbox": [
+    326,
+    231,
+    445,
+    246
+   ]
+  },
+  {
+   "text": "lord of the Lagna. ",
+   "bbox": [
+    180,
+    247,
+    283,
+    263
+   ]
+  },
+  {
+   "text": "the lord of 8th. ",
+   "bbox": [
+    326,
+    247,
+    412,
+    263
+   ]
+  },
+  {
+   "text": "A Moveable ",
+   "bbox": [
+    189,
+    311,
+    262,
+    327
+   ]
+  },
+  {
+   "text": "Moveable ",
+   "bbox": [
+    280,
+    311,
+    340,
+    327
+   ]
+  },
+  {
+   "text": "Deergha ",
+   "bbox": [
+    383,
+    311,
+    434,
+    327
+   ]
+  },
+  {
+   "text": " Moveable ",
+   "bbox": [
+    189,
+    328,
+    262,
+    343
+   ]
+  },
+  {
+   "text": "Fixed ",
+   "bbox": [
+    280,
+    328,
+    316,
+    343
+   ]
+  },
+  {
+   "text": "Madhya ",
+   "bbox": [
+    383,
+    328,
+    432,
+    343
+   ]
+  },
+  {
+   "text": " Moveable ",
+   "bbox": [
+    189,
+    344,
+    262,
+    359
+   ]
+  },
+  {
+   "text": "Dual ",
+   "bbox": [
+    280,
+    344,
+    311,
+    359
+   ]
+  },
+  {
+   "text": "Alpa ",
+   "bbox": [
+    383,
+    344,
+    414,
+    359
+   ]
+  },
+  {
+   "text": "B Fixed ",
+   "bbox": [
+    189,
+    363,
+    238,
+    378
+   ]
+  },
+  {
+   "text": "Dual ",
+   "bbox": [
+    280,
+    363,
+    311,
+    378
+   ]
+  },
+  {
+   "text": "Deergha ",
+   "bbox": [
+    383,
+    363,
+    434,
+    378
+   ]
+  },
+  {
+   "text": " fixed ",
+   "bbox": [
+    189,
+    382,
+    235,
+    398
+   ]
+  },
+  {
+   "text": "moveable ",
+   "bbox": [
+    280,
+    382,
+    338,
+    398
+   ]
+  },
+  {
+   "text": "Madhya ",
+   "bbox": [
+    383,
+    382,
+    432,
+    398
+   ]
+  },
+  {
+   "text": " fixed ",
+   "bbox": [
+    189,
+    399,
+    235,
+    414
+   ]
+  },
+  {
+   "text": "fixed ",
+   "bbox": [
+    280,
+    399,
+    312,
+    414
+   ]
+  },
+  {
+   "text": "Alpa ",
+   "bbox": [
+    383,
+    399,
+    414,
+    414
+   ]
+  },
+  {
+   "text": "C Dual ",
+   "bbox": [
+    189,
+    417,
+    234,
+    433
+   ]
+  },
+  {
+   "text": "Fixed ",
+   "bbox": [
+    280,
+    417,
+    316,
+    433
+   ]
+  },
+  {
+   "text": "Deergha ",
+   "bbox": [
+    383,
+    417,
+    434,
+    433
+   ]
+  },
+  {
+   "text": " Dual ",
+   "bbox": [
+    189,
+    437,
+    234,
+    453
+   ]
+  },
+  {
+   "text": "Dual ",
+   "bbox": [
+    280,
+    437,
+    311,
+    453
+   ]
+  },
+  {
+   "text": "Madhya ",
+   "bbox": [
+    383,
+    437,
+    432,
+    453
+   ]
+  },
+  {
+   "text": " Dual ",
+   "bbox": [
+    189,
+    455,
+    234,
+    470
+   ]
+  },
+  {
+   "text": "Moveable ",
+   "bbox": [
+    280,
+    455,
+    340,
+    470
+   ]
+  },
+  {
+   "text": "Alpa ",
+   "bbox": [
+    383,
+    455,
+    414,
+    470
+   ]
+  },
+  {
+   "text": "15. If the lord of the Lagna and all the benefics be in Kendra the native will ",
+   "bbox": [
+    121,
+    495,
+    556,
+    510
+   ]
+  },
+  {
+   "text": "have Deerghayu",
+   "bbox": [
+    85,
+    519,
+    176,
+    535
+   ]
+  },
+  {
+   "text": "If they be in Panphara house the native will have Madhyayu.",
+   "bbox": [
+    121,
+    543,
+    461,
+    559
+   ]
+  },
+  {
+   "text": "If they be in Apoklima house, the native will have Alpayu.",
+   "bbox": [
+    121,
+    567,
+    449,
+    583
+   ]
+  },
+  {
+   "text": "If the lord of the 8th house and all malefics be posited in Kendra house the ",
+   "bbox": [
+    121,
+    592,
+    556,
+    607
+   ]
+  },
+  {
+   "text": "native will have Alphyu.",
+   "bbox": [
+    85,
+    616,
+    223,
+    631
+   ]
+  },
+  {
+   "text": "If they be posited in Panaphara house, the native will have Madhyayu.",
+   "bbox": [
+    121,
+    640,
+    515,
+    655
+   ]
+  },
+  {
+   "text": "If they be posited in Apoklima house, the native will enjoy Deerghayu.",
+   "bbox": [
+    121,
+    664,
+    518,
+    679
+   ]
+  },
+  {
+   "text": "Find out if the following 3 pairs of planets are mutualy friends, neutrals or ",
+   "bbox": [
+    121,
+    688,
+    556,
+    704
+   ]
+  },
+  {
+   "text": "enemies:—",
+   "bbox": [
+    85,
+    712,
+    149,
+    728
+   ]
+  },
+  {
+   "text": "(a) The lord of the sign in which the Moon is posited and the lord of the 8th ",
+   "bbox": [
+    121,
+    736,
+    556,
+    752
+   ]
+  },
+  {
+   "text": "house from the Moon sign.",
+   "bbox": [
+    85,
+    761,
+    236,
+    776
+   ]
+  },
+  {
+   "text": "134",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0013",
+ "book_id": "brihat-jataka",
+ "seq": 13,
+ "source_ref": {
+  "pdf_page": 7,
+  "half": "a",
+  "v1_page": "s007a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "618ca58d4c94c7d40dea97c097edb929e60b4b4d5be13e128b6117e7d1bdcf6b",
+ "lines": [
+  {
+   "text": "10",
+   "bbox": [
+    293,
+    287,
+    356,
+    320
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1218,
+    292,
+    1506,
+    326
+   ]
+  },
+  {
+   "text": "cal excellence-works written for the purpose of knowing the",
+   "bbox": [
+    287,
+    391,
+    1508,
+    435
+   ]
+  },
+  {
+   "text": "Astrological results and having found them frustrated in their",
+   "bbox": [
+    287,
+    445,
+    1509,
+    485
+   ]
+  },
+  {
+   "text": "attempts to cross the great ocean of natal astrology; I (Varaha",
+   "bbox": [
+    289,
+    493,
+    1507,
+    540
+   ]
+  },
+  {
+   "text": "Mihira Acharya) am writing this treatise composed of many",
+   "bbox": [
+    286,
+    547,
+    1505,
+    591
+   ]
+  },
+  {
+   "text": "poetical constructions, concise but full of meaning.",
+   "bbox": [
+    287,
+    602,
+    1292,
+    642
+   ]
+  },
+  {
+   "text": "Hora in astrology explained:",
+   "bbox": [
+    281,
+    700,
+    1039,
+    752
+   ]
+  },
+  {
+   "text": "होरेत्यहोरात्रविकल्पमेके वाञ्छन्ति पूर्वापरवर्णलोपात्।",
+   "bbox": [
+    357,
+    779,
+    1115,
+    835
+   ]
+  },
+  {
+   "text": "कर्मार्जितं पूर्वभवे सदादि यत्तस्य पक्तिं समभिव्यनक्ति ।। 3 ।।",
+   "bbox": [
+    358,
+    845,
+    1286,
+    902
+   ]
+  },
+  {
+   "text": "Some people are of the opinion that the term \"Hora\" (होरा)",
+   "bbox": [
+    358,
+    938,
+    1504,
+    987
+   ]
+  },
+  {
+   "text": "is derived from the term \"Ahoratra\" (अहोरात्र) by the elimination",
+   "bbox": [
+    281,
+    988,
+    1502,
+    1039
+   ]
+  },
+  {
+   "text": "of the first (37-A) and the last (7 Tra) words. This science of",
+   "bbox": [
+    284,
+    1044,
+    1505,
+    1092
+   ]
+  },
+  {
+   "text": "Hora or astrology denotes, in a very clear manner, the fructi-",
+   "bbox": [
+    280,
+    1096,
+    1501,
+    1146
+   ]
+  },
+  {
+   "text": "fication in this life of the good or a bad merits earned by man",
+   "bbox": [
+    280,
+    1149,
+    1499,
+    1197
+   ]
+  },
+  {
+   "text": "through his actions in his previous birth.",
+   "bbox": [
+    283,
+    1202,
+    1104,
+    1248
+   ]
+  },
+  {
+   "text": "Commentary: From the above statement of Varah Mihir",
+   "bbox": [
+    358,
+    1283,
+    1502,
+    1327
+   ]
+  },
+  {
+   "text": "Acharya it is clear that the fate, good or bad that we meet in",
+   "bbox": [
+    276,
+    1332,
+    1501,
+    1381
+   ]
+  },
+  {
+   "text": "our present life, is not the arbitrary decree of God or the",
+   "bbox": [
+    281,
+    1386,
+    1501,
+    1433
+   ]
+  },
+  {
+   "text": "planets, but is the exact result of what we ourselves have",
+   "bbox": [
+    280,
+    1439,
+    1501,
+    1483
+   ]
+  },
+  {
+   "text": "earned through our deliberate deed in the past life. Thus the",
+   "bbox": [
+    278,
+    1492,
+    1499,
+    1538
+   ]
+  },
+  {
+   "text": "stress is obviously on the necessity or desirability of resorting",
+   "bbox": [
+    279,
+    1548,
+    1501,
+    1588
+   ]
+  },
+  {
+   "text": "to good Karma, of course to the best of our ability, within the",
+   "bbox": [
+    279,
+    1597,
+    1501,
+    1643
+   ]
+  },
+  {
+   "text": "limitations created by ourselves.",
+   "bbox": [
+    279,
+    1653,
+    926,
+    1691
+   ]
+  },
+  {
+   "text": "Signs-Symbolic of Human Limbs",
+   "bbox": [
+    277,
+    1753,
+    1148,
+    1799
+   ]
+  },
+  {
+   "text": "कालाङ्गानि वराङ्गमाननमुरो हत्क्रोडवासोभृतो",
+   "bbox": [
+    351,
+    1836,
+    985,
+    1886
+   ]
+  },
+  {
+   "text": "बस्तिर्व्यञ्जनमूरुजानुयुगले जङ्घे ततोऽङ्घ्रिद्वयम्।",
+   "bbox": [
+    349,
+    1896,
+    1016,
+    1955
+   ]
+  },
+  {
+   "text": "मेषाश्विप्रथमानवर्क्षचरणाश्चक्रस्थिता राशयो",
+   "bbox": [
+    349,
+    1964,
+    971,
+    2011
+   ]
+  },
+  {
+   "text": "राशिक्षेत्रगृहर्क्षभानि भवनं चैकार्थसम्प्रत्यये।। 4 ।।",
+   "bbox": [
+    349,
+    2033,
+    1066,
+    2083
+   ]
+  },
+  {
+   "text": "The time personified is represented by the Zodiac. The",
+   "bbox": [
+    350,
+    2126,
+    1494,
+    2172
+   ]
+  },
+  {
+   "text": "circle of the signs in the zodiac has arisen as the starting sign",
+   "bbox": [
+    271,
+    2177,
+    1494,
+    2224
+   ]
+  },
+  {
+   "text": "and \"Ashvini\" as the starting constellation. Dividing each",
+   "bbox": [
+    273,
+    2227,
+    1492,
+    2277
+   ]
+  },
+  {
+   "text": "constellation (Nakshatra) into four quarters, we have 9 such",
+   "bbox": [
+    271,
+    2280,
+    1492,
+    2329
+   ]
+  },
+  {
+   "text": "quarters in each of the 12 signs. The words \"Rashi\", \"Kshetra\",",
+   "bbox": [
+    270,
+    2334,
+    1486,
+    2380
+   ]
+  }
+ ]
+}

@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0215",
+ "book_id": "phaladeepika",
+ "seq": 215,
+ "source_ref": {
+  "pdf_page": 215
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "6f06e2ddf193bd299a6f5246ec8addf0880ddee865cb2a2f7b7a761cdc1b77bf",
+ "lines": [
+  {
+   "text": "19. When malefic planets occupy the 6 houses counted backwards from the ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "12th, the whole, a half, a third, a fourth, a fifth and sixth respectively of their ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "Ayurdaya is lost. When benefic planets occupy such positions, the loss is half of ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "that incured in the case of malefic ones. When several planets are in a house, only ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "the strongest of them causes a reduction in Ayurdaya. All planets except Mars lose ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "a third of their Ayurdaya when in inimical houses. The number of years contributed ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "by the Lagna according to Satyacharya's view corresponds to the number of ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "navamsas that have risen. Even if the Lagna be strong or of medium strength, the ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "same rule holds.",
+   "bbox": [
+    85,
+    251,
+    177,
+    266
+   ]
+  },
+  {
+   "text": "20. The rule of Satyacharya is prefered (to that laid down by Maya or ",
+   "bbox": [
+    121,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "Jeevasarman). But some make the process inconsistent and unwarantable by a ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "series of multiplications. The dictim of Acharyas (Satya and others) is the ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "following.",
+   "bbox": [
+    85,
+    347,
+    143,
+    363
+   ]
+  },
+  {
+   "text": "(1) When several multiplications crop up, only one that is the niftiest, to be ",
+   "bbox": [
+    121,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "gone through.",
+   "bbox": [
+    85,
+    395,
+    163,
+    411
+   ]
+  },
+  {
+   "text": "For instance when a planet is in his own house, and in his exaltation and in ",
+   "bbox": [
+    121,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "retrograde motion, the Ayurdaya is not to be doubled first and then the result ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "trebled and the second result further trebled. According to the rule, the Ayurdaya ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "should be trebled once for all.",
+   "bbox": [
+    85,
+    492,
+    252,
+    508
+   ]
+  },
+  {
+   "text": "(2) Again, when there are several reductions applicable, only one, that the ",
+   "bbox": [
+    121,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "greatest should be made.",
+   "bbox": [
+    85,
+    540,
+    224,
+    556
+   ]
+  },
+  {
+   "text": "For instance a planet may be in an inimical sign and may be eclipsed by the ",
+   "bbox": [
+    121,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "Sun, it is enough if the reduction by half i.e. Astangata reduction be made.",
+   "bbox": [
+    85,
+    589,
+    501,
+    604
+   ]
+  },
+  {
+   "text": "(this verse is from Brihat Jataka Chapter 13). ",
+   "bbox": [
+    121,
+    613,
+    377,
+    628
+   ]
+  },
+  {
+   "text": "<b>Pindayur Dam</b>",
+   "bbox": [
+    121,
+    637,
+    209,
+    652
+   ]
+  },
+  {
+   "text": "21. If the Sun and other planets are in their deep exaltation, the number ",
+   "bbox": [
+    121,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "Pindayurdaya Year allotted them are as follows — The Sun 19, The Moon 25, ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "Mars 15, Mercury 12, Jupiter 15, Venus 21, and Saturn 20. All the reductions ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "should be gone through as before. When a malefic planet is posited in the lagna, ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "take only the degrees, minutes etc., indicating the lagna leaving out the signs. ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "215",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

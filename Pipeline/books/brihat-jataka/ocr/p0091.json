@@ -1,0 +1,317 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0091",
+ "book_id": "brihat-jataka",
+ "seq": 91,
+ "source_ref": {
+  "pdf_page": 46,
+  "half": "a",
+  "v1_page": "s046a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "0e50f4b6953b609fa78271790759386d652fd191595fee6e55ab13102ed89a63",
+ "lines": [
+  {
+   "text": "88",
+   "bbox": [
+    379,
+    200,
+    445,
+    233
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1299,
+    226,
+    1591,
+    268
+   ]
+  },
+  {
+   "text": "<b>Dasa of Mercury</b>",
+   "bbox": [
+    371,
+    296,
+    818,
+    358
+   ]
+  },
+  {
+   "text": "बौध्यां दौत्यसुहृद्गुरुद्विजधनं विद्वत्प्रशंसा यशो।",
+   "bbox": [
+    444,
+    379,
+    1114,
+    452
+   ]
+  },
+  {
+   "text": "युक्तिद्रव्यसुवर्णवेसरमहीसौभाग्यसौख्याप्तय:।",
+   "bbox": [
+    444,
+    441,
+    1086,
+    516
+   ]
+  },
+  {
+   "text": "हास्योपासनकौशलं मतिचयो धर्म्मक्रियासिद्धय:",
+   "bbox": [
+    441,
+    503,
+    1113,
+    583
+   ]
+  },
+  {
+   "text": "पारुष्यं श्रमबन्धमानसरुजा पीडा च धातुत्रयात्।। 15।।",
+   "bbox": [
+    439,
+    575,
+    1224,
+    653
+   ]
+  },
+  {
+   "text": "In the favourable dasa of Mercury one gets wealth",
+   "bbox": [
+    436,
+    665,
+    1582,
+    753
+   ]
+  },
+  {
+   "text": "through duties of a messenger and also through relatives and",
+   "bbox": [
+    359,
+    718,
+    1576,
+    800
+   ]
+  },
+  {
+   "text": "friends, elders and Brahmins. One gets praise and honour",
+   "bbox": [
+    356,
+    771,
+    1576,
+    853
+   ]
+  },
+  {
+   "text": "from the learned (for one's acts of learning), one uses good",
+   "bbox": [
+    353,
+    822,
+    1572,
+    906
+   ]
+  },
+  {
+   "text": "arguments, gets articles of gold, mules, land, good luck and",
+   "bbox": [
+    353,
+    876,
+    1573,
+    957
+   ]
+  },
+  {
+   "text": "comforts. One developes a jocular spirit, efficiency in action,",
+   "bbox": [
+    352,
+    927,
+    1570,
+    1011
+   ]
+  },
+  {
+   "text": "enhancement of thinking capacity and success in moral under-",
+   "bbox": [
+    352,
+    978,
+    1570,
+    1066
+   ]
+  },
+  {
+   "text": "takings. If the dasa is adverse, one uses curt language, has to",
+   "bbox": [
+    349,
+    1034,
+    1567,
+    1115
+   ]
+  },
+  {
+   "text": "put in much labour, gets into captivity, is worried mentally",
+   "bbox": [
+    347,
+    1086,
+    1566,
+    1171
+   ]
+  },
+  {
+   "text": "and suffers from all the three humours viz wind, bile and",
+   "bbox": [
+    346,
+    1139,
+    1563,
+    1222
+   ]
+  },
+  {
+   "text": "phlegm.",
+   "bbox": [
+    344,
+    1189,
+    513,
+    1247
+   ]
+  },
+  {
+   "text": "Dasa of Jupiter",
+   "bbox": [
+    339,
+    1298,
+    758,
+    1353
+   ]
+  },
+  {
+   "text": "जैव्यां मानगुणोदयो मतिचय: कान्ति: प्रतापोन्नति-",
+   "bbox": [
+    412,
+    1377,
+    1122,
+    1455
+   ]
+  },
+  {
+   "text": "महिात्म्योद्यममन्त्रनीतिनृपतिस्वाध्यायमन्त्रैर्धनम् ।",
+   "bbox": [
+    410,
+    1441,
+    1069,
+    1518
+   ]
+  },
+  {
+   "text": "हेमाश्चात्मजकुञ्जराम्बरचय: प्रीतिश्च सद्भूमिपै:",
+   "bbox": [
+    406,
+    1506,
+    1054,
+    1582
+   ]
+  },
+  {
+   "text": "सूक्ष्म्योहाद्गहनश्रम: श्रवणरुग्वैरं विधर्म्माश्रितै: ।। 16।।",
+   "bbox": [
+    406,
+    1573,
+    1192,
+    1651
+   ]
+  },
+  {
+   "text": "The favourable dasa of Jupiter gives honour and",
+   "bbox": [
+    405,
+    1667,
+    1550,
+    1746
+   ]
+  },
+  {
+   "text": "good moral qualities, wisdom, resplendent appearance, added",
+   "bbox": [
+    326,
+    1717,
+    1547,
+    1800
+   ]
+  },
+  {
+   "text": "influence, perseverance, advisory capacity, legal acumen,",
+   "bbox": [
+    324,
+    1769,
+    1545,
+    1853
+   ]
+  },
+  {
+   "text": "favour from king or government, study of spiritual litera-",
+   "bbox": [
+    323,
+    1822,
+    1543,
+    1905
+   ]
+  },
+  {
+   "text": "ture and acquisition of wealth through these. It also",
+   "bbox": [
+    323,
+    1874,
+    1541,
+    1958
+   ]
+  },
+  {
+   "text": "brings about the acquisition of gold, horses, sons, elephants",
+   "bbox": [
+    321,
+    1926,
+    1538,
+    2010
+   ]
+  },
+  {
+   "text": "and clothes and friendship with high and good kings and",
+   "bbox": [
+    318,
+    1978,
+    1538,
+    2066
+   ]
+  },
+  {
+   "text": "officials. If the dasa is adverse there is great labour for small",
+   "bbox": [
+    318,
+    2033,
+    1537,
+    2116
+   ]
+  },
+  {
+   "text": "results, diseases of ears, and enmity with people of other",
+   "bbox": [
+    314,
+    2085,
+    1537,
+    2168
+   ]
+  },
+  {
+   "text": "religions.",
+   "bbox": [
+    316,
+    2144,
+    507,
+    2183
+   ]
+  }
+ ]
+}

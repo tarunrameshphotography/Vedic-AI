@@ -1,0 +1,353 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0015",
+ "book_id": "brihat-jataka",
+ "seq": 15,
+ "source_ref": {
+  "pdf_page": 8,
+  "half": "a",
+  "v1_page": "s008a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "cd286e6da68d2242ffd619835ae7febd4006fce7bb9811fc0b25dfd0609a72ad",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1164,
+    261,
+    1454,
+    294
+   ]
+  },
+  {
+   "text": "12",
+   "bbox": [
+    242,
+    262,
+    305,
+    296
+   ]
+  },
+  {
+   "text": "Aries by ram, Taurus by an ox, Cancer by the crab, Leo by lion",
+   "bbox": [
+    237,
+    364,
+    1459,
+    404
+   ]
+  },
+  {
+   "text": "and Scorpio by a scorpion.",
+   "bbox": [
+    239,
+    418,
+    764,
+    457
+   ]
+  },
+  {
+   "text": "<i>Commentary:</i> The shapes of the 12 signs as given above",
+   "bbox": [
+    312,
+    496,
+    1456,
+    535
+   ]
+  },
+  {
+   "text": "give a fairly good idea about the general traits of these signs",
+   "bbox": [
+    238,
+    548,
+    1458,
+    587
+   ]
+  },
+  {
+   "text": "and thereby help us in the art of prediction. The ram is known",
+   "bbox": [
+    238,
+    600,
+    1458,
+    639
+   ]
+  },
+  {
+   "text": "for its agility and fighting ability. Hence the sign Aries is a",
+   "bbox": [
+    236,
+    648,
+    1457,
+    696
+   ]
+  },
+  {
+   "text": "mobile sign whose lord Mars is very well known for his martial",
+   "bbox": [
+    238,
+    703,
+    1458,
+    747
+   ]
+  },
+  {
+   "text": "qualities. The bull is famous for its toil and sustained effort.",
+   "bbox": [
+    238,
+    758,
+    1454,
+    797
+   ]
+  },
+  {
+   "text": "People having Taurus as their ascendant are thus capable of",
+   "bbox": [
+    237,
+    810,
+    1456,
+    850
+   ]
+  },
+  {
+   "text": "putting in hard sustained work. Gemini gives the idea of a girl",
+   "bbox": [
+    238,
+    863,
+    1455,
+    903
+   ]
+  },
+  {
+   "text": "and boy. Twins (plurality) hence this sign and its lord Mercury",
+   "bbox": [
+    238,
+    916,
+    1455,
+    955
+   ]
+  },
+  {
+   "text": "have great say in multiple births. Crab is a beautiful symbol of",
+   "bbox": [
+    237,
+    967,
+    1458,
+    1008
+   ]
+  },
+  {
+   "text": "its love for water, its quick movement and its sea side (water)",
+   "bbox": [
+    237,
+    1021,
+    1455,
+    1061
+   ]
+  },
+  {
+   "text": "abode. This would be clear to any one who watches the move-",
+   "bbox": [
+    238,
+    1073,
+    1454,
+    1113
+   ]
+  },
+  {
+   "text": "ments of a crab on a sea shore. Lion is of course an appropriate",
+   "bbox": [
+    236,
+    1124,
+    1454,
+    1168
+   ]
+  },
+  {
+   "text": "symbol of prowess strength and superiority. Virgo is denoted",
+   "bbox": [
+    237,
+    1178,
+    1455,
+    1219
+   ]
+  },
+  {
+   "text": "by a girl and hence the lord of this sign ie Mercury should",
+   "bbox": [
+    237,
+    1232,
+    1455,
+    1273
+   ]
+  },
+  {
+   "text": "normally be taken as a female. Libra ie the balance stands for",
+   "bbox": [
+    237,
+    1285,
+    1464,
+    1325
+   ]
+  },
+  {
+   "text": "justice and truth which Venus lord of this sign of course stands",
+   "bbox": [
+    232,
+    1337,
+    1456,
+    1378
+   ]
+  },
+  {
+   "text": "for. Scorpio-the poisonous insect bent upon harming others by",
+   "bbox": [
+    234,
+    1392,
+    1456,
+    1431
+   ]
+  },
+  {
+   "text": "its stings does fully represent people with this sign as their",
+   "bbox": [
+    235,
+    1442,
+    1455,
+    1483
+   ]
+  },
+  {
+   "text": "ascendant, unless of course, Mars the lord of this sign receives",
+   "bbox": [
+    236,
+    1494,
+    1455,
+    1538
+   ]
+  },
+  {
+   "text": "benefic influence. The horse part of the figure of Sagittarius",
+   "bbox": [
+    237,
+    1549,
+    1454,
+    1588
+   ]
+  },
+  {
+   "text": "suggests easily to us that this sign and its lord Jupiter can in",
+   "bbox": [
+    235,
+    1601,
+    1454,
+    1640
+   ]
+  },
+  {
+   "text": "certain circumstances represent horses. This fact is utilized in",
+   "bbox": [
+    235,
+    1652,
+    1454,
+    1693
+   ]
+  },
+  {
+   "text": "determining link of \"Racing\" in man's carrier. Capricorn sug-",
+   "bbox": [
+    235,
+    1702,
+    1454,
+    1748
+   ]
+  },
+  {
+   "text": "gests its link with water. Acquarius with empty pot denotes",
+   "bbox": [
+    235,
+    1755,
+    1455,
+    1801
+   ]
+  },
+  {
+   "text": "the trait of emptiness, dearth, want, scarcity etc. Pisces of",
+   "bbox": [
+    235,
+    1812,
+    1455,
+    1851
+   ]
+  },
+  {
+   "text": "course hint at their watery abode, their silence and their feet",
+   "bbox": [
+    235,
+    1864,
+    1456,
+    1904
+   ]
+  },
+  {
+   "text": "less nature. Pisces represent feet also.",
+   "bbox": [
+    232,
+    1916,
+    998,
+    1956
+   ]
+  },
+  {
+   "text": "Lords of Signs and their Parts",
+   "bbox": [
+    231,
+    2019,
+    1029,
+    2061
+   ]
+  },
+  {
+   "text": "क्षितिजसितज्ञचन्द्ररविसौम्यसितावनिजा:",
+   "bbox": [
+    305,
+    2096,
+    861,
+    2145
+   ]
+  },
+  {
+   "text": "सुरगुरुमन्दसौरिगुरवश्च गृहांशकपा:।",
+   "bbox": [
+    305,
+    2158,
+    808,
+    2214
+   ]
+  },
+  {
+   "text": "अजमृगतौलिचन्द्रभवनादिनवांशविधि-",
+   "bbox": [
+    305,
+    2223,
+    838,
+    2278
+   ]
+  },
+  {
+   "text": "र्भवनसमांशकाधिपतय: स्वगृहात्क्रमश: । । 6 ।।",
+   "bbox": [
+    308,
+    2293,
+    989,
+    2344
+   ]
+  }
+ ]
+}

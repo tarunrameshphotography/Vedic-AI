@@ -1,0 +1,333 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0221",
+ "book_id": "phaladeepika",
+ "seq": 221,
+ "source_ref": {
+  "pdf_page": 221
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "b5d9c1c1feadafeba970e5610af081e1d412ef478bd7cd5d0d63677718d30798",
+ "lines": [
+  {
+   "text": "<b>The Sun's Ashtakavarga</b>",
+   "bbox": [
+    121,
+    57,
+    267,
+    73
+   ]
+  },
+  {
+   "text": "0000 ",
+   "bbox": [
+    326,
+    87,
+    357,
+    102
+   ]
+  },
+  {
+   "text": "0",
+   "bbox": [
+    251,
+    95,
+    258,
+    110
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    287,
+    95,
+    308,
+    110
+   ]
+  },
+  {
+   "text": "0000",
+   "bbox": [
+    369,
+    95,
+    397,
+    110
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    329,
+    103,
+    350,
+    119
+   ]
+  },
+  {
+   "text": "00000",
+   "bbox": [
+    237,
+    138,
+    272,
+    153
+   ]
+  },
+  {
+   "text": "0000",
+   "bbox": [
+    369,
+    138,
+    397,
+    153
+   ]
+  },
+  {
+   "text": "00000",
+   "bbox": [
+    365,
+    172,
+    400,
+    188
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    244,
+    180,
+    265,
+    196
+   ]
+  },
+  {
+   "text": "L",
+   "bbox": [
+    379,
+    188,
+    387,
+    204
+   ]
+  },
+  {
+   "text": "00000",
+   "bbox": [
+    237,
+    223,
+    272,
+    238
+   ]
+  },
+  {
+   "text": "0000",
+   "bbox": [
+    326,
+    223,
+    354,
+    238
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    372,
+    223,
+    393,
+    238
+   ]
+  },
+  {
+   "text": "3. With reference to Ashtakavarga the Sun has been declared highly ",
+   "bbox": [
+    121,
+    276,
+    556,
+    292
+   ]
+  },
+  {
+   "text": "auspicious in l-2-4-7-8-9-10-11 position from himself. Mark bindus in 3-2-4-7-8-9-",
+   "bbox": [
+    85,
+    301,
+    552,
+    316
+   ]
+  },
+  {
+   "text": "10-11 places. The Sun is auspicious in 3-6-10-11 positions from the Moon, in 1-1-",
+   "bbox": [
+    85,
+    325,
+    553,
+    340
+   ]
+  },
+  {
+   "text": "2-4-7-8-9-10-11 positions from Mars and Saturn, in 5-6-9-11 positions from ",
+   "bbox": [
+    85,
+    349,
+    556,
+    364
+   ]
+  },
+  {
+   "text": "Jupiter, in 6-7-12 positions from Venus, in 6-9-10-11 and 12 positions from ",
+   "bbox": [
+    85,
+    373,
+    556,
+    388
+   ]
+  },
+  {
+   "text": "Mercury and in 3-4-6-10-11-12 from the Lagna. The other positions may be treated ",
+   "bbox": [
+    85,
+    397,
+    556,
+    413
+   ]
+  },
+  {
+   "text": "as inauspicious.",
+   "bbox": [
+    85,
+    421,
+    174,
+    437
+   ]
+  },
+  {
+   "text": "By marking bindu at the positions we will get the Sun's Ashtakavarga. The ",
+   "bbox": [
+    121,
+    445,
+    556,
+    461
+   ]
+  },
+  {
+   "text": "total number of bindus is 48 detailed as under — From the Sun 8, from the Moon ",
+   "bbox": [
+    85,
+    470,
+    556,
+    485
+   ]
+  },
+  {
+   "text": "4, from Mars 8, from Mercury 7, from Jupiter 4, from Venus 3, from Saturn 8, and ",
+   "bbox": [
+    85,
+    494,
+    556,
+    509
+   ]
+  },
+  {
+   "text": "from the Lagna 6.",
+   "bbox": [
+    85,
+    518,
+    185,
+    533
+   ]
+  },
+  {
+   "text": "<b>Moon's Ashtakavarga</b>",
+   "bbox": [
+    121,
+    542,
+    252,
+    558
+   ]
+  },
+  {
+   "text": "4. The Moon is auspicious in 3-6-7-8-10-11 positions from the Sun, in l-3-6-",
+   "bbox": [
+    121,
+    566,
+    553,
+    582
+   ]
+  },
+  {
+   "text": "7-10-11 posiflons from herself, in 2-3-5-6-9-10-11 positions from Mars, in 3-4-5-",
+   "bbox": [
+    85,
+    590,
+    552,
+    606
+   ]
+  },
+  {
+   "text": "7-8-10-11 positions from. Mercury, in 1-2-4-7-8-10-11 Jupiter in 3-4-5-7-9-10-11 ",
+   "bbox": [
+    85,
+    614,
+    556,
+    630
+   ]
+  },
+  {
+   "text": "positions from Venus, in 3-5-6-11 positions from Saturn and in 3-6-10-11 positions ",
+   "bbox": [
+    85,
+    639,
+    556,
+    654
+   ]
+  },
+  {
+   "text": "from the Lagna. The total of the number of auspicious bindus comes to 49 as ",
+   "bbox": [
+    85,
+    663,
+    556,
+    678
+   ]
+  },
+  {
+   "text": "detailed below : -",
+   "bbox": [
+    85,
+    687,
+    183,
+    702
+   ]
+  },
+  {
+   "text": "From the Sun 6. form the Moon 6, from Mars 7, from Mercury 8, from ",
+   "bbox": [
+    121,
+    711,
+    556,
+    727
+   ]
+  },
+  {
+   "text": "Jupiter 7, .from Venus 7, from Saturn 4 and from the Lagna 4.",
+   "bbox": [
+    85,
+    735,
+    432,
+    751
+   ]
+  },
+  {
+   "text": "221",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0217",
+ "book_id": "phaladeepika",
+ "seq": 217,
+ "source_ref": {
+  "pdf_page": 217
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "006a860d79c4a8787224035bc26ba21ff7774c9fbca0a410511a924351ae5f8a",
+ "lines": [
+  {
+   "text": "that who gives longer period, in years of Ayurdaya will have his turn first. When ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "there is equality even in regard to the number of years of Ayurdaya of the planets, ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "that who rises first after being eclipsed by the Sun, gets his dasa prior to others.",
+   "bbox": [
+    85,
+    106,
+    530,
+    121
+   ]
+  },
+  {
+   "text": "If such planets should, however, chance to have equal strength, equal ",
+   "bbox": [
+    121,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "Ayurdaya and equal rising after their conjunction with the Sun. then the planet ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "which is anterior in the general order of precedence among the significations ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "would rule the dasa in question, and this general order of procedure is usually ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "taken to the (1) the lagna, (2) the Sun. (3) the Moon, (4) Mars, (5) Mercury, (6) ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "Jupiter, (7) Venus and (8) Saturn.",
+   "bbox": [
+    85,
+    251,
+    271,
+    266
+   ]
+  },
+  {
+   "text": "And the strength of any planet for this purpose is obtained by multiplying ",
+   "bbox": [
+    121,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "his position by the distance of the planet from his nearest Bhava-Sahdhi and ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "dividing the product by the distance between the Bhavamsa and one of its Sandhis.",
+   "bbox": [
+    85,
+    323,
+    549,
+    339
+   ]
+  },
+  {
+   "text": "28. Amsayurdaya is to be calculated upon the predominance in strength of ",
+   "bbox": [
+    121,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "the lagna. Pindayurdaya upon the Sun's superiority in strength and ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "Naisargikayurdaya when the Moon's power is strongest. We shall now state what ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "should be done when the three (lagna, the Sun and the Moon) are of equal strength.",
+   "bbox": [
+    85,
+    420,
+    551,
+    435
+   ]
+  },
+  {
+   "text": "29. Add the three Ayurdays and divide the sum by 3. The quotient will be the ",
+   "bbox": [
+    121,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "Ayurdaya required. If only two of them are strong, add the two Ayurdayas and take ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "half the result. When the three planets are all weak, adopt the method advocated by ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "Jeevasharma for finding out the Ayurdaya.",
+   "bbox": [
+    85,
+    516,
+    323,
+    532
+   ]
+  },
+  {
+   "text": "30. Kalachkra dasa system has to be resorted to only when the lord of the ",
+   "bbox": [
+    121,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "navamsa occupied by the Moon is strong. The dasa calculation as per nakshatra ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "method is always considered as the best.",
+   "bbox": [
+    85,
+    589,
+    312,
+    604
+   ]
+  },
+  {
+   "text": "31. The full period of life in the case of man and elephant is given as 120 ",
+   "bbox": [
+    121,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "years and 5 days while in horses it is 32 years. It is 25 years in the case of asses ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "and camels and 24 for bulls and buffaloes. Twelve years are allotted for dogs and ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "16 years for sheep and like.",
+   "bbox": [
+    85,
+    685,
+    239,
+    701
+   ]
+  },
+  {
+   "text": "32. This Ayus span of life has been declared by wise men with respect to ",
+   "bbox": [
+    121,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "only those who are engaged in the practice of various actions, who keep their ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "senses under control, who eat wholesome diet, who are devoted to the Vedic class ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "217",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

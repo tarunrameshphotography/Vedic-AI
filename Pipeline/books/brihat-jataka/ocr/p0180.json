@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0180",
+ "book_id": "brihat-jataka",
+ "seq": 180,
+ "source_ref": {
+  "pdf_page": 90,
+  "half": "b",
+  "v1_page": "s090b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "885d4893878dc67bff987b60f7fc91beb74436e63ff0dbb5aad750041f9248cc",
+ "lines": [
+  {
+   "text": "Female Horoscopy",
+   "bbox": [
+    245,
+    228,
+    606,
+    266
+   ]
+  },
+  {
+   "text": "177",
+   "bbox": [
+    1365,
+    230,
+    1449,
+    262
+   ]
+  },
+  {
+   "text": "When the lagna and the sign occupied by the Moon are",
+   "bbox": [
+    320,
+    329,
+    1454,
+    368
+   ]
+  },
+  {
+   "text": "even signs, the woman will be modest; if these are aspected by",
+   "bbox": [
+    245,
+    383,
+    1456,
+    422
+   ]
+  },
+  {
+   "text": "benefics, she is virtuous.",
+   "bbox": [
+    245,
+    437,
+    733,
+    475
+   ]
+  },
+  {
+   "text": "If the lagna and the Moon-sign are odd signs she has a",
+   "bbox": [
+    320,
+    518,
+    1454,
+    557
+   ]
+  },
+  {
+   "text": "masculine form and nature. If these are with or aspected by",
+   "bbox": [
+    245,
+    572,
+    1453,
+    611
+   ]
+  },
+  {
+   "text": "malefics, she will be sinful.",
+   "bbox": [
+    245,
+    626,
+    782,
+    664
+   ]
+  },
+  {
+   "text": "Notes: The even signs are Vrishabha, Karka,",
+   "bbox": [
+    314,
+    709,
+    1453,
+    748
+   ]
+  },
+  {
+   "text": "Kanya, Vrishchika, Makara and Mina. The others are",
+   "bbox": [
+    245,
+    762,
+    1451,
+    801
+   ]
+  },
+  {
+   "text": "odd signs.",
+   "bbox": [
+    245,
+    816,
+    444,
+    854
+   ]
+  },
+  {
+   "text": "If one is an even sign and the other an odd sign, she has",
+   "bbox": [
+    310,
+    897,
+    1454,
+    941
+   ]
+  },
+  {
+   "text": "the mixed characteristics. Similar results follow when",
+   "bbox": [
+    243,
+    952,
+    1454,
+    989
+   ]
+  },
+  {
+   "text": "there are aspects or conjunctions with benefics or malefics,",
+   "bbox": [
+    245,
+    1007,
+    1453,
+    1046
+   ]
+  },
+  {
+   "text": "or both.",
+   "bbox": [
+    245,
+    1058,
+    402,
+    1093
+   ]
+  },
+  {
+   "text": "Varahamihira was writing near the time when the",
+   "bbox": [
+    314,
+    1141,
+    1453,
+    1185
+   ]
+  },
+  {
+   "text": "nirayana and Sayana Zodiacs coincide. It is not possible to",
+   "bbox": [
+    243,
+    1189,
+    1451,
+    1235
+   ]
+  },
+  {
+   "text": "apply the rule given in this verse to modern nirayana charts.",
+   "bbox": [
+    245,
+    1248,
+    1451,
+    1287
+   ]
+  },
+  {
+   "text": "There are many women whose Moon and lagna are in odd",
+   "bbox": [
+    242,
+    1301,
+    1450,
+    1340
+   ]
+  },
+  {
+   "text": "signs and yet they are highly virtuous.",
+   "bbox": [
+    243,
+    1355,
+    1013,
+    1395
+   ]
+  },
+  {
+   "text": "कन्यैव दुष्टा व्रजतीह दास्यं साध्वी समाया कुचरित्रयुक्ता।",
+   "bbox": [
+    313,
+    1434,
+    1138,
+    1485
+   ]
+  },
+  {
+   "text": "भूम्यात्मजर्क्षे क्रमशोऽंकेषु वक्रार्किजीवेन्दुजभार्गवाणाम् ।। 3-11",
+   "bbox": [
+    314,
+    1499,
+    1192,
+    1552
+   ]
+  },
+  {
+   "text": "Take the lagna or moon-sign. If either falls in a house",
+   "bbox": [
+    314,
+    1597,
+    1452,
+    1644
+   ]
+  },
+  {
+   "text": "owned by Kuja (Mesha and Vrishchika), note the trim-",
+   "bbox": [
+    239,
+    1654,
+    1450,
+    1693
+   ]
+  },
+  {
+   "text": "samsha covering the degree of the lagna or of the Moon. If it is",
+   "bbox": [
+    239,
+    1707,
+    1451,
+    1746
+   ]
+  },
+  {
+   "text": "that of Kuja she is immoral even as a virgin, if it is that of",
+   "bbox": [
+    239,
+    1760,
+    1453,
+    1799
+   ]
+  },
+  {
+   "text": "Shani she has the nature of a servant, if that of Guru she is",
+   "bbox": [
+    239,
+    1814,
+    1451,
+    1852
+   ]
+  },
+  {
+   "text": "virtuous, if that of Budha double hearted, if that of Shukra,",
+   "bbox": [
+    239,
+    1864,
+    1450,
+    1908
+   ]
+  },
+  {
+   "text": "sinful.",
+   "bbox": [
+    239,
+    1917,
+    373,
+    1954
+   ]
+  },
+  {
+   "text": "<i>Notes:</i> In odd signs the trimsamshas are governed in the",
+   "bbox": [
+    308,
+    2004,
+    1450,
+    2043
+   ]
+  },
+  {
+   "text": "sequences of Kuja <math>(5^{\\circ})</math>, Shani <math>(5^{\\circ})</math>, Guru <math>(8^{\\circ})</math>, Budha <math>(7^{\\circ})</math> and",
+   "bbox": [
+    239,
+    2056,
+    1449,
+    2098
+   ]
+  },
+  {
+   "text": "Shukra (5<sup>o</sup>). In even signs these are in the sequence of Shukra",
+   "bbox": [
+    239,
+    2111,
+    1449,
+    2150
+   ]
+  },
+  {
+   "text": "<math>(5^{\\circ})</math>, Budha <math>(7^{\\circ})</math>, Guru <math>(8^{\\circ})</math> and Kuja <math>(5^{\\circ})</math>.",
+   "bbox": [
+    239,
+    2164,
+    1029,
+    2203
+   ]
+  },
+  {
+   "text": "The word Kanya means an unmarried girl. It does not",
+   "bbox": [
+    311,
+    2248,
+    1450,
+    2287
+   ]
+  },
+  {
+   "text": "mean one who had no first menses, though this meaning is also",
+   "bbox": [
+    239,
+    2300,
+    1447,
+    2339
+   ]
+  }
+ ]
+}

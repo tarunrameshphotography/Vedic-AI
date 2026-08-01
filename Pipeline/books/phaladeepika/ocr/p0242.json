@@ -1,0 +1,486 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0242",
+ "book_id": "phaladeepika",
+ "seq": 242,
+ "source_ref": {
+  "pdf_page": 242
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "ed89e9b820598e757f62eeb77788e6931a60c572e9c0c927870180b727e4e76f",
+ "lines": [
+  {
+   "text": "Notes — We will illustrate the above by giving an example:",
+   "bbox": [
+    121,
+    57,
+    456,
+    73
+   ]
+  },
+  {
+   "text": "(1) Sun add ",
+   "bbox": [
+    183,
+    82,
+    263,
+    97
+   ]
+  },
+  {
+   "text": "7-26 +",
+   "bbox": [
+    332,
+    82,
+    369,
+    97
+   ]
+  },
+  {
+   "text": "Dhuma ",
+   "bbox": [
+    395,
+    82,
+    440,
+    97
+   ]
+  },
+  {
+   "text": "4-13-20",
+   "bbox": [
+    332,
+    98,
+    376,
+    113
+   ]
+  },
+  {
+   "text": "0-9-20 ",
+   "bbox": [
+    332,
+    114,
+    373,
+    129
+   ]
+  },
+  {
+   "text": "(2) Subtract the figure ",
+   "bbox": [
+    183,
+    130,
+    321,
+    146
+   ]
+  },
+  {
+   "text": "12-0-0 - ",
+   "bbox": [
+    332,
+    130,
+    381,
+    146
+   ]
+  },
+  {
+   "text": "Vyatipata ",
+   "bbox": [
+    395,
+    130,
+    452,
+    146
+   ]
+  },
+  {
+   "text": "of Dhuma from 12 ",
+   "bbox": [
+    214,
+    146,
+    322,
+    162
+   ]
+  },
+  {
+   "text": "0-9-20",
+   "bbox": [
+    332,
+    146,
+    369,
+    162
+   ]
+  },
+  {
+   "text": "signs ",
+   "bbox": [
+    214,
+    163,
+    246,
+    178
+   ]
+  },
+  {
+   "text": "11-20-40 ",
+   "bbox": [
+    332,
+    163,
+    386,
+    178
+   ]
+  },
+  {
+   "text": "(3) Vyatipata + 6 signs 11-20-40 ",
+   "bbox": [
+    183,
+    179,
+    386,
+    195
+   ]
+  },
+  {
+   "text": "Paridhi ",
+   "bbox": [
+    395,
+    179,
+    439,
+    195
+   ]
+  },
+  {
+   "text": "6-0-0",
+   "bbox": [
+    332,
+    195,
+    362,
+    211
+   ]
+  },
+  {
+   "text": "5-20-40 ",
+   "bbox": [
+    332,
+    211,
+    380,
+    227
+   ]
+  },
+  {
+   "text": "(4) Deduct Paridhi ",
+   "bbox": [
+    183,
+    228,
+    302,
+    243
+   ]
+  },
+  {
+   "text": "12-0-0 - ",
+   "bbox": [
+    332,
+    228,
+    381,
+    243
+   ]
+  },
+  {
+   "text": "Indra ",
+   "bbox": [
+    395,
+    228,
+    428,
+    243
+   ]
+  },
+  {
+   "text": "from 12 signs ",
+   "bbox": [
+    214,
+    244,
+    294,
+    260
+   ]
+  },
+  {
+   "text": "5-20-40",
+   "bbox": [
+    332,
+    244,
+    376,
+    260
+   ]
+  },
+  {
+   "text": "Dhanus ",
+   "bbox": [
+    395,
+    244,
+    442,
+    260
+   ]
+  },
+  {
+   "text": "6-9-20 ",
+   "bbox": [
+    332,
+    260,
+    373,
+    276
+   ]
+  },
+  {
+   "text": "(5) Add 16°-40' to ",
+   "bbox": [
+    183,
+    277,
+    300,
+    292
+   ]
+  },
+  {
+   "text": "+ 16-40",
+   "bbox": [
+    332,
+    277,
+    376,
+    292
+   ]
+  },
+  {
+   "text": "Upaketu ",
+   "bbox": [
+    395,
+    277,
+    446,
+    292
+   ]
+  },
+  {
+   "text": "India Dhanus ",
+   "bbox": [
+    214,
+    293,
+    292,
+    308
+   ]
+  },
+  {
+   "text": "6-26-0 ",
+   "bbox": [
+    332,
+    293,
+    373,
+    308
+   ]
+  },
+  {
+   "text": "Add 1 sign to ",
+   "bbox": [
+    214,
+    309,
+    293,
+    324
+   ]
+  },
+  {
+   "text": "+ l-00-0 ",
+   "bbox": [
+    332,
+    309,
+    381,
+    324
+   ]
+  },
+  {
+   "text": "Upaketu ",
+   "bbox": [
+    214,
+    325,
+    265,
+    341
+   ]
+  },
+  {
+   "text": "7-26-0 ",
+   "bbox": [
+    332,
+    342,
+    373,
+    357
+   ]
+  },
+  {
+   "text": "Sun ",
+   "bbox": [
+    395,
+    342,
+    421,
+    357
+   ]
+  },
+  {
+   "text": "6. In the chapter on 'houses' the effects of these have already been described ",
+   "bbox": [
+    121,
+    382,
+    556,
+    398
+   ]
+  },
+  {
+   "text": "in a collective manner. It is only the effects on the houses of those that have been ",
+   "bbox": [
+    85,
+    407,
+    556,
+    422
+   ]
+  },
+  {
+   "text": "left out there, will be described here in detail.",
+   "bbox": [
+    85,
+    431,
+    339,
+    446
+   ]
+  },
+  {
+   "text": "7. Nevertheless, some special effects of Gulika (Mandi) and other Upagrahas ",
+   "bbox": [
+    121,
+    455,
+    556,
+    470
+   ]
+  },
+  {
+   "text": "which have been described by the ancient learneds, are enumerated here iri brief.",
+   "bbox": [
+    85,
+    479,
+    538,
+    494
+   ]
+  },
+  {
+   "text": "8. If Gulika be in the Lagna, the native will be a thief, cruel and devoid of ",
+   "bbox": [
+    121,
+    503,
+    556,
+    519
+   ]
+  },
+  {
+   "text": "politeness. He will not be very fat. He will have defects in his eyes. He will have ",
+   "bbox": [
+    85,
+    527,
+    556,
+    543
+   ]
+  },
+  {
+   "text": "few issues and little intelligence. He will not take interest in the study of Vedas and ",
+   "bbox": [
+    85,
+    551,
+    556,
+    567
+   ]
+  },
+  {
+   "text": "Shastras. He will eat much but will be unhappy . He does not live long. He will be ",
+   "bbox": [
+    85,
+    576,
+    556,
+    591
+   ]
+  },
+  {
+   "text": "of angry temperament, stupid and a coward. He will be lustful and deprived.",
+   "bbox": [
+    85,
+    600,
+    512,
+    615
+   ]
+  },
+  {
+   "text": "9. If Gulika be in the 2nd house, the native will not have a pleasant manner ",
+   "bbox": [
+    121,
+    624,
+    556,
+    639
+   ]
+  },
+  {
+   "text": "of speech. He will be quarrelsome and will ever remain short of wealth and grain. ",
+   "bbox": [
+    85,
+    648,
+    556,
+    664
+   ]
+  },
+  {
+   "text": "He will mostly live away from his native place. He will not stick to his word and ",
+   "bbox": [
+    85,
+    672,
+    556,
+    688
+   ]
+  },
+  {
+   "text": "will be incapable of discussing things in which the use of intellect is necessary.",
+   "bbox": [
+    85,
+    696,
+    528,
+    712
+   ]
+  },
+  {
+   "text": "10. If Gulika be in the 3rd house, the native will be greedy and voitable. He ",
+   "bbox": [
+    121,
+    720,
+    556,
+    736
+   ]
+  },
+  {
+   "text": "will generally like to lead a lonely life. He will be very fond of liquors. He will get ",
+   "bbox": [
+    85,
+    745,
+    556,
+    760
+   ]
+  },
+  {
+   "text": "little happiness from brothers and sisters.",
+   "bbox": [
+    85,
+    769,
+    315,
+    784
+   ]
+  },
+  {
+   "text": "242",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

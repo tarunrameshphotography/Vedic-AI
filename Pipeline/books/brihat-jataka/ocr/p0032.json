@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0032",
+ "book_id": "brihat-jataka",
+ "seq": 32,
+ "source_ref": {
+  "pdf_page": 16,
+  "half": "b",
+  "v1_page": "s016b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "d3afc69aed381cb214a76aaf50aa7ae3fa92ba722d64ba2086effc222cfe3446",
+ "lines": [
+  {
+   "text": "29",
+   "bbox": [
+    1364,
+    216,
+    1422,
+    245
+   ]
+  },
+  {
+   "text": "Planets",
+   "bbox": [
+    205,
+    257,
+    369,
+    292
+   ]
+  },
+  {
+   "text": "Jupiter, the preceptor of the Devas--the planet of morality",
+   "bbox": [
+    287,
+    310,
+    1434,
+    402
+   ]
+  },
+  {
+   "text": "and spirituality owning the ninth house in the natural birth",
+   "bbox": [
+    213,
+    360,
+    1438,
+    458
+   ]
+  },
+  {
+   "text": "chart and very appropriately represents wisdom as distinct",
+   "bbox": [
+    217,
+    413,
+    1439,
+    511
+   ]
+  },
+  {
+   "text": "from learning. Being a planet of plenty it also represents the",
+   "bbox": [
+    218,
+    465,
+    1439,
+    564
+   ]
+  },
+  {
+   "text": "comforts of life. In birth charts where a strong Jupiter is either",
+   "bbox": [
+    219,
+    518,
+    1443,
+    614
+   ]
+  },
+  {
+   "text": "lord of the 4th house or aspects the 4th house and its lord, the",
+   "bbox": [
+    220,
+    571,
+    1443,
+    668
+   ]
+  },
+  {
+   "text": "native possesses all means of comfort, such as a good house,",
+   "bbox": [
+    223,
+    622,
+    1443,
+    719
+   ]
+  },
+  {
+   "text": "conveyance etc.",
+   "bbox": [
+    227,
+    717,
+    545,
+    767
+   ]
+  },
+  {
+   "text": "Venus: This planet owns sign No. 7 which represents the",
+   "bbox": [
+    300,
+    756,
+    1450,
+    849
+   ]
+  },
+  {
+   "text": "organ No. 7 in the body ie the sex organ. It is therefore",
+   "bbox": [
+    230,
+    807,
+    1451,
+    902
+   ]
+  },
+  {
+   "text": "intimately associated with sex and its associations such as",
+   "bbox": [
+    230,
+    859,
+    1454,
+    953
+   ]
+  },
+  {
+   "text": "marriage, wife, enjoyment, luxuries etc.",
+   "bbox": [
+    235,
+    929,
+    1036,
+    1008
+   ]
+  },
+  {
+   "text": "Saturn is farthest away from the 11th of the Sun and",
+   "bbox": [
+    310,
+    990,
+    1458,
+    1085
+   ]
+  },
+  {
+   "text": "is perhaps for that reason devoid of the light of education",
+   "bbox": [
+    235,
+    1042,
+    1460,
+    1140
+   ]
+  },
+  {
+   "text": "and has to engage himself in service of others for its very",
+   "bbox": [
+    241,
+    1094,
+    1459,
+    1193
+   ]
+  },
+  {
+   "text": "existence.",
+   "bbox": [
+    245,
+    1192,
+    444,
+    1233
+   ]
+  },
+  {
+   "text": "<b>Names of Planets</b>",
+   "bbox": [
+    245,
+    1280,
+    706,
+    1343
+   ]
+  },
+  {
+   "text": "हेलिस्सूर्यश्चन्द्रमाशीतरश्मिर्हेम्ना विज्ज्ञो बोधनश्चेन्द्रपुत्र:।",
+   "bbox": [
+    320,
+    1348,
+    1122,
+    1428
+   ]
+  },
+  {
+   "text": "आरो वक्रः क्रूरदृक् चावनेयः कोणो मन्दः सूर्यपुत्रोऽसितश्च।। 2 ।।",
+   "bbox": [
+    323,
+    1404,
+    1286,
+    1497
+   ]
+  },
+  {
+   "text": "Sun is called \"Heli\" Moon is termed as \"Sheet Rashmi\"",
+   "bbox": [
+    328,
+    1490,
+    1471,
+    1580
+   ]
+  },
+  {
+   "text": "(Cool rayed), Budha is known as \"Heman\" \"Vid\" \"Gya\",",
+   "bbox": [
+    253,
+    1542,
+    1472,
+    1638
+   ]
+  },
+  {
+   "text": "\"Bodhana\" and \"Chandraputra\" (Son of Moon). Mars is called",
+   "bbox": [
+    254,
+    1597,
+    1476,
+    1689
+   ]
+  },
+  {
+   "text": "by the names of \"Aar,\" \"Vakra\" (crooked), \"Krurdrik\" (with",
+   "bbox": [
+    257,
+    1651,
+    1478,
+    1742
+   ]
+  },
+  {
+   "text": "fierce eyes) \"Aavaneya\" (son of earth). Saturn's names are",
+   "bbox": [
+    258,
+    1702,
+    1479,
+    1797
+   ]
+  },
+  {
+   "text": "\"Manda\" (inferior) \"Kona\", \"Suryaputra\" (Son of the Sun) and",
+   "bbox": [
+    260,
+    1756,
+    1482,
+    1848
+   ]
+  },
+  {
+   "text": "\"Asit\" (Black).",
+   "bbox": [
+    264,
+    1848,
+    555,
+    1892
+   ]
+  },
+  {
+   "text": "जीवोङ्गिरास्सुरगुरुर्वचसाम्पतीज्य: शुक्रो भृगुर्भुगुसुत:सित आस्फुजिच्च।",
+   "bbox": [
+    341,
+    1898,
+    1348,
+    1978
+   ]
+  },
+  {
+   "text": "राहुस्तमोगुरसुरश्च शिखी च केतुः पर्यायमन्यदुपलभ्य वदेच्च लोकात्।। 3 ।।",
+   "bbox": [
+    339,
+    1949,
+    1449,
+    2048
+   ]
+  },
+  {
+   "text": "Jupiter is called \"Brihaspati\" (The great lord), \"Jeeva\"",
+   "bbox": [
+    345,
+    2042,
+    1490,
+    2133
+   ]
+  },
+  {
+   "text": "(Living soul) \"Angira\", \"Surguru\", \"Vachaspati\", and \"Ijya\".",
+   "bbox": [
+    271,
+    2096,
+    1490,
+    2187
+   ]
+  },
+  {
+   "text": "Shukra's names are \"Bhrigu\", \"Sit\" and \"Aasphujit\". Rahu-",
+   "bbox": [
+    273,
+    2148,
+    1505,
+    2239
+   ]
+  },
+  {
+   "text": "is called \"Tam\", \"Agu\" and \"Asur\" (demon). Ketu is",
+   "bbox": [
+    271,
+    2199,
+    1499,
+    2293
+   ]
+  },
+  {
+   "text": "called \"Shikhi\".",
+   "bbox": [
+    277,
+    2286,
+    593,
+    2338
+   ]
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "schema": 2,
+ "book_id": "brihat-jataka",
+ "corrections": [
+  {
+   "page_id": "brihat-jataka/p0192",
+   "ocr_fingerprint": "8b39b6f2a4b6a8ffcf3c64a1f069cdd91d13363daaa38460cbf1440487e8e487",
+   "find": "।। ४ ।।",
+   "replace": "।। 8 ।।",
+   "expect": 1,
+   "reason": "Verse terminator. The page prints the Latin numeral 8; Surya emitted Devanagari ४ (U+096A, value 4). Confirmed by direct inspection of the page image, and by verse sequence: this line falls between verse 7 and verse 9 of chapter 25.",
+   "verified": "2026-08-01, page image img/bj/s096b.png",
+   "v1_page": "s096b"
+  },
+  {
+   "page_id": "brihat-jataka/p0204",
+   "ocr_fingerprint": "6438f39cf1093f5eab0aba7656a00f52d2b6fae109ae36e26c479f3379822eae",
+   "find": "।। ४ ।।",
+   "replace": "।। 8 ।।",
+   "expect": 1,
+   "reason": "Verse terminator. The page prints the Latin numeral 8; Surya emitted Devanagari ४ (U+096A, value 4). Confirmed by direct inspection of the page image, and by verse sequence: this line falls between verse 7 and verse 9 of chapter 26.",
+   "verified": "2026-08-01, page image img/bj/s102b.png",
+   "v1_page": "s102b"
+  },
+  {
+   "page_id": "brihat-jataka/p0141",
+   "ocr_fingerprint": "041a3a1f1e2cb2f92676275644ab5c50e514c54fdd7562556b16336f64b1ba77",
+   "find": "विषार्जितथन",
+   "replace": "विषार्जितधन",
+   "expect": 1,
+   "reason": "Surya read the printed ध as थ. Verified against the page image at high magnification: the glyph is unambiguously ध. The reading is also fixed by sense -- विषार्जितधनः ('wealth acquired through poison') is the standard compound, while थन is not a Sanskrit word. ध/थ confusion is a known Surya error class.",
+   "verified": "2026-08-01, page image at 3.5x magnification"
+  },
+  {
+   "page_id": "brihat-jataka/p0102",
+   "ocr_fingerprint": "fce045a39bd8fb2326acb59ad707853e377ebb3d50deb372df3f540ef300999b",
+   "find": "द्वचेकाश्रितेषु",
+   "replace": "द्व्येकाश्रितेषु",
+   "expect": 1,
+   "reason": "Surya read the conjunct ्य as च. Verified against the page image at high magnification. The reading is also fixed by sense -- द्व्येक ('two or one') is the required form, and द्वचे is orthographically impossible in Sanskrit. ्य/च confusion is a known Surya error class.",
+   "verified": "2026-08-01, page image at 3.5x magnification"
+  }
+ ]
+}

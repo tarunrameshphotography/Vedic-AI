@@ -1,0 +1,245 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0210",
+ "book_id": "brihat-jataka",
+ "seq": 210,
+ "source_ref": {
+  "pdf_page": 105,
+  "half": "b",
+  "v1_page": "s105b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "d2ab08ca20394be0c9b05d2edddb7a0f1a4920c4a45f04bc518904e27b488a68",
+ "lines": [
+  {
+   "text": "27",
+   "bbox": [
+    791,
+    549,
+    885,
+    603
+   ]
+  },
+  {
+   "text": "द्रेष्काणाध्यायः",
+   "bbox": [
+    695,
+    702,
+    976,
+    758
+   ]
+  },
+  {
+   "text": "<b>Drekkana</b>",
+   "bbox": [
+    641,
+    777,
+    1032,
+    848
+   ]
+  },
+  {
+   "text": "कट्यां सितवस्त्रवेष्टित: कृष्ण: शक्त इवाभिरक्षितुम्।",
+   "bbox": [
+    302,
+    1026,
+    1056,
+    1079
+   ]
+  },
+  {
+   "text": "रौद्र: समुद्यतं धत्ते रक्तविलोचन: पुमान् ।। 1 ।।",
+   "bbox": [
+    302,
+    1089,
+    989,
+    1143
+   ]
+  },
+  {
+   "text": "The first drekkana of Mesha is a man with a white cloth",
+   "bbox": [
+    304,
+    1182,
+    1443,
+    1223
+   ]
+  },
+  {
+   "text": "round his waist. He has dark complexion. He pretends to",
+   "bbox": [
+    227,
+    1240,
+    1443,
+    1279
+   ]
+  },
+  {
+   "text": "protect. He has red eyes and an uplifted axe.",
+   "bbox": [
+    229,
+    1294,
+    1124,
+    1332
+   ]
+  },
+  {
+   "text": "<i>Notes:</i> Each sign in the Zodiac is divided into three equal",
+   "bbox": [
+    299,
+    1371,
+    1444,
+    1409
+   ]
+  },
+  {
+   "text": "parts of ten degrees each. Each part is called a drekkana. The",
+   "bbox": [
+    227,
+    1424,
+    1440,
+    1463
+   ]
+  },
+  {
+   "text": "lords of the drekkanas are the signs 1, 5 and 9 from the",
+   "bbox": [
+    227,
+    1476,
+    1440,
+    1516
+   ]
+  },
+  {
+   "text": "concerned sign. Each Drekkana of a sign is different from its",
+   "bbox": [
+    227,
+    1528,
+    1440,
+    1567
+   ]
+  },
+  {
+   "text": "other two Drekkanas.",
+   "bbox": [
+    227,
+    1581,
+    666,
+    1617
+   ]
+  },
+  {
+   "text": "रक्ताम्बरा भूषणभक्ष्यचित्ता कुम्भाकृतिर्वाजिमुखी तृषार्ता।",
+   "bbox": [
+    301,
+    1659,
+    1087,
+    1710
+   ]
+  },
+  {
+   "text": "एकेन पादेन च मेषमध्ये द्रेष्काणरूपं यवनोपदिष्टम् ।। 2 ।।",
+   "bbox": [
+    298,
+    1716,
+    1162,
+    1772
+   ]
+  },
+  {
+   "text": "The Yavanas describe the second drekkana of Mesha as",
+   "bbox": [
+    301,
+    1817,
+    1440,
+    1851
+   ]
+  },
+  {
+   "text": "a woman with red clothes, fond of food and ornaments. She",
+   "bbox": [
+    224,
+    1870,
+    1440,
+    1908
+   ]
+  },
+  {
+   "text": "has a pot-belly, has a horse-face and is thirsty and single-",
+   "bbox": [
+    223,
+    1922,
+    1439,
+    1961
+   ]
+  },
+  {
+   "text": "footed.",
+   "bbox": [
+    221,
+    1973,
+    363,
+    2009
+   ]
+  },
+  {
+   "text": "<i>Notes:</i> The Yavanas are not foreigners. They were Indian",
+   "bbox": [
+    296,
+    2053,
+    1440,
+    2092
+   ]
+  },
+  {
+   "text": "scholars who tought in the Greek island of Ion. The most",
+   "bbox": [
+    223,
+    2105,
+    1440,
+    2145
+   ]
+  },
+  {
+   "text": "famous of these were Sphhujidhwaja and Meenaraja. The",
+   "bbox": [
+    223,
+    2159,
+    1440,
+    2198
+   ]
+  },
+  {
+   "text": "Yavana Jataka was authored by them. The natives and set-",
+   "bbox": [
+    222,
+    2210,
+    1440,
+    2252
+   ]
+  },
+  {
+   "text": "tlers of Ion were called Ionians. They became Yavana. All the",
+   "bbox": [
+    223,
+    2264,
+    1440,
+    2303
+   ]
+  },
+  {
+   "text": "Greeks are called Yavanas, because the island Ion was an",
+   "bbox": [
+    222,
+    2315,
+    1439,
+    2357
+   ]
+  }
+ ]
+}

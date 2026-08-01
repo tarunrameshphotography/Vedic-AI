@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0041",
+ "book_id": "phaladeepika",
+ "seq": 41,
+ "source_ref": {
+  "pdf_page": 41
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "7afae95e81f966a9fa6fed8ae6306405e88cbe9583c34dc6d4ad73b8c6dfe62b",
+ "lines": [
+  {
+   "text": "<b>Bhava Bala (The strength of houses or Bhavas)</b>",
+   "bbox": [
+    121,
+    57,
+    390,
+    73
+   ]
+  },
+  {
+   "text": "In working out the strength of houses the strength of the following has to be ",
+   "bbox": [
+    121,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "calculated —",
+   "bbox": [
+    85,
+    106,
+    159,
+    121
+   ]
+  },
+  {
+   "text": "(1) The strength of the lord of the house.",
+   "bbox": [
+    121,
+    130,
+    348,
+    145
+   ]
+  },
+  {
+   "text": "(2) The Dik Bala of the house",
+   "bbox": [
+    121,
+    154,
+    288,
+    169
+   ]
+  },
+  {
+   "text": "(3) The strength of the benefic aspects.",
+   "bbox": [
+    121,
+    178,
+    339,
+    194
+   ]
+  },
+  {
+   "text": "<b>Bhava Dik Bala</b>",
+   "bbox": [
+    121,
+    202,
+    215,
+    218
+   ]
+  },
+  {
+   "text": "(a) Gemini, Virgo, Libra and first part of Sagittarius are biped signs. If these ",
+   "bbox": [
+    121,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "signs be in the Lagna, they obtain one Rupa of strength. If they be in the 7th, the ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "strength will be nil. For the intervening houses, the strength has to be worked out ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "proportionately.",
+   "bbox": [
+    85,
+    299,
+    174,
+    314
+   ]
+  },
+  {
+   "text": "(b) Aries, Taurus, Leo, the latter half of Sagittarius and the first half of ",
+   "bbox": [
+    121,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "Capricorn are quadruped signs. If they represent the 10th house, they achieve one ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "Rupa of strength. In the 4th house, their strength will be nil. In between other ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "houses the strength has to be calculated proportionately.",
+   "bbox": [
+    85,
+    395,
+    398,
+    411
+   ]
+  },
+  {
+   "text": "(c) Cancer and Scorpio are Keeta signs. If they represent the 7th house, they ",
+   "bbox": [
+    121,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "get one Rupa of strength. In the first house, their strength will be nil. For the ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "intervening houses, the strength has to be calculated proportionately.",
+   "bbox": [
+    85,
+    468,
+    469,
+    483
+   ]
+  },
+  {
+   "text": "(d) Pisces and the latter half of Capricorn are watery signs (Jala Rasis). If ",
+   "bbox": [
+    121,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "they represent the fourth house, they obtain one Rupa of strength. In the 10th house ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "their strength will be nil. For the intervening houses the strength will have to be ",
+   "bbox": [
+    85,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "calculated proportionately.",
+   "bbox": [
+    85,
+    565,
+    234,
+    580
+   ]
+  },
+  {
+   "text": "<b>Auspicious and Inauspicious Drishti (as per Bold)</b>",
+   "bbox": [
+    121,
+    589,
+    417,
+    604
+   ]
+  },
+  {
+   "text": "If there be more of benefic aspect on a house, deduct quantum of malefic ",
+   "bbox": [
+    121,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "aspect from it and the strength of the lord of the house and add Bhawa Dik Bala to ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "it. The result will be the total strength of the house.",
+   "bbox": [
+    85,
+    661,
+    371,
+    677
+   ]
+  },
+  {
+   "text": "If the malefic aspects are more than the benefic aspects, deduct the quantum ",
+   "bbox": [
+    121,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "of the latter from that of the former. Further deduct the result from the total of the ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "strength of the lord of the house and Bhava Dik Bala. The net result will be the ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "strength of the house (Bhava) concerned.",
+   "bbox": [
+    85,
+    758,
+    315,
+    773
+   ]
+  },
+  {
+   "text": "41",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

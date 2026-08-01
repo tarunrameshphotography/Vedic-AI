@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0043",
+ "book_id": "phaladeepika",
+ "seq": 43,
+ "source_ref": {
+  "pdf_page": 43
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "e7fc074f51bd880572604a69e68f275bd3292d683cfbf4396771b2db9a38ce33",
+ "lines": [
+  {
+   "text": "Mercury, Saturn and the Moon get Ayana bala when they are on the ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "Southern course. The rest are vested with Ayana bala when they are on the northern ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "course.",
+   "bbox": [
+    85,
+    106,
+    125,
+    121
+   ]
+  },
+  {
+   "text": "3. A planet gets Sthana Bala (positional strength) according to position in his ",
+   "bbox": [
+    121,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "sign of exaltation, in his own sign, in his friend's sign or in the six vargas.",
+   "bbox": [
+    85,
+    154,
+    497,
+    169
+   ]
+  },
+  {
+   "text": "A planet obtains one Rupa of strength in a Kendra, 1/2 Rupa in a Panaphara ",
+   "bbox": [
+    121,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "house and 1/4 in an Apoklima house.",
+   "bbox": [
+    85,
+    202,
+    292,
+    218
+   ]
+  },
+  {
+   "text": "The hemaphrodite planets are strong in the middle of the sign (11° to 20°), ",
+   "bbox": [
+    121,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "male planets in the first part of a sign (1° to 10°) and female in the last part of the ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "sign (21° to -30°).",
+   "bbox": [
+    85,
+    275,
+    187,
+    290
+   ]
+  },
+  {
+   "text": "Saturn, Mars, Mercury, Jupiter, Venus, the Moon and the Sun are in their ",
+   "bbox": [
+    121,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "natural or inherent strength (Nalsarglk Bala). This means Mars is stronger than ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "Saturn, Mercury is stronger than Mars, Jupiter is stronger than Mercury, Venus is ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "stronger than Jupiter; the Moon is stronger than Venus and the Sun is stronger than ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "the Moon. The Sun is the strongest and the Saturn is the weakest in inherent ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "strength or Naisargik Bala.",
+   "bbox": [
+    85,
+    420,
+    236,
+    435
+   ]
+  },
+  {
+   "text": "4. Even if a planet be in his sign of debilitation or debilitated Navamsa, he is ",
+   "bbox": [
+    121,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "vested with full strength if he is retrograde and if his rays are full and brilliant.",
+   "bbox": [
+    85,
+    468,
+    524,
+    483
+   ]
+  },
+  {
+   "text": "Like the Moon, a planet will be treated as weak if his rays are eclipsed (on ",
+   "bbox": [
+    121,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "account of being near the Sun) even though he may be posited in his sign of ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "exaltation, in his own or a friend's sign or Navamsa. This means that even if the ",
+   "bbox": [
+    85,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "Moon be in Taurus or Cancer, if she is very near or with the Sun, she will be ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "considered weak. A debilitated Moon when she is full (on Pooran masi night) will ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "be treated as strong. This principle applies to other planets also.",
+   "bbox": [
+    85,
+    613,
+    441,
+    628
+   ]
+  },
+  {
+   "text": "5. All planets are strong when they are posited in their sign of exaltation. ",
+   "bbox": [
+    121,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "The Moon is strong and auspicious when she has her full Paksha Bala. The Sun has ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "his full Dik Bala when he is in the 10th house. The other five non-luminous planets ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "are strong when they are retrograde.",
+   "bbox": [
+    85,
+    709,
+    287,
+    725
+   ]
+  },
+  {
+   "text": "Rahu is strong in Cancer, Taurus, Aries, Aquarius and Scorpio and Ketu is ",
+   "bbox": [
+    121,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "strong in Pisces, Virgo, Taurus and the latter half of Sagittarius and in Partvesha ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "43",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

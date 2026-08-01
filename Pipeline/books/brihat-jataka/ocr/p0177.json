@@ -1,0 +1,317 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0177",
+ "book_id": "brihat-jataka",
+ "seq": 177,
+ "source_ref": {
+  "pdf_page": 89,
+  "half": "a",
+  "v1_page": "s089a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "122c1f3a7ed32d1e13a45d1994ccb6ddad074b82f50eef5b46397e53aaf2569d",
+ "lines": [
+  {
+   "text": "174",
+   "bbox": [
+    347,
+    175,
+    441,
+    210
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1270,
+    198,
+    1559,
+    237
+   ]
+  },
+  {
+   "text": "Mars in 5 or 9 aspected by malefics gives defective organs.",
+   "bbox": [
+    414,
+    275,
+    1561,
+    348
+   ]
+  },
+  {
+   "text": "Notes: Malefic signs are Mesha, Simha, Vrishabha, Makara",
+   "bbox": [
+    410,
+    358,
+    1561,
+    430
+   ]
+  },
+  {
+   "text": "and Kumbha.",
+   "bbox": [
+    337,
+    411,
+    613,
+    449
+   ]
+  },
+  {
+   "text": "व्ययसुतधनधर्मगैरसौम्यैर्भवनसमाननिबन्धनं विकल्प्यम्।",
+   "bbox": [
+    407,
+    483,
+    1196,
+    555
+   ]
+  },
+  {
+   "text": "भुजगनिगडपाशभृददुकाणैर्बलवदसौम्यनिरीक्षितैश्च तद्वत् ।। 16।।",
+   "bbox": [
+    408,
+    545,
+    1303,
+    627
+   ]
+  },
+  {
+   "text": "When malefics are in 2, 5, 9 or 12, the native gets impris-",
+   "bbox": [
+    404,
+    648,
+    1551,
+    723
+   ]
+  },
+  {
+   "text": "onment as per the nature of that house.",
+   "bbox": [
+    327,
+    702,
+    1127,
+    761
+   ]
+  },
+  {
+   "text": "If lagna is in bhujaga or nigada drekkana and is aspected<sup>4</sup>",
+   "bbox": [
+    398,
+    783,
+    1567,
+    858
+   ]
+  },
+  {
+   "text": "by strong malefics he gets imprisonment.",
+   "bbox": [
+    321,
+    832,
+    1149,
+    900
+   ]
+  },
+  {
+   "text": "Notes: If the planets are in Aries, Taurus and Sagittarius",
+   "bbox": [
+    394,
+    919,
+    1568,
+    993
+   ]
+  },
+  {
+   "text": "the native is bound by ropes, chains and the like. If the evil,",
+   "bbox": [
+    316,
+    965,
+    1569,
+    1049
+   ]
+  },
+  {
+   "text": "planets are in Gemini, Virgo, Libra and Kumbha, he will be in",
+   "bbox": [
+    315,
+    1018,
+    1541,
+    1099
+   ]
+  },
+  {
+   "text": "Shackles or fetters. If these are in Cancer, Capricorn and",
+   "bbox": [
+    315,
+    1072,
+    1536,
+    1151
+   ]
+  },
+  {
+   "text": "Pisces, he will be confined in forts. If these are in Scorpio, the",
+   "bbox": [
+    314,
+    1125,
+    1536,
+    1204
+   ]
+  },
+  {
+   "text": "confinement is in an underground cell.",
+   "bbox": [
+    309,
+    1180,
+    1089,
+    1242
+   ]
+  },
+  {
+   "text": "If the birth is in bhujaga or nigada drekkana and if the rasi",
+   "bbox": [
+    385,
+    1259,
+    1535,
+    1334
+   ]
+  },
+  {
+   "text": "represented by these drekkanas is aspected by strong malefics,",
+   "bbox": [
+    305,
+    1307,
+    1532,
+    1387
+   ]
+  },
+  {
+   "text": "the confinement is of the nature of the sign.",
+   "bbox": [
+    306,
+    1359,
+    1189,
+    1431
+   ]
+  },
+  {
+   "text": "Bhujaga drekkanas are the second and third of Cancer, the",
+   "bbox": [
+    379,
+    1440,
+    1525,
+    1517
+   ]
+  },
+  {
+   "text": "first and second of Scorpio and the last of Pisces. Nigada",
+   "bbox": [
+    299,
+    1490,
+    1526,
+    1572
+   ]
+  },
+  {
+   "text": "drekkana is the first of Makara.",
+   "bbox": [
+    302,
+    1547,
+    947,
+    1601
+   ]
+  },
+  {
+   "text": "परुषवचनोऽपस्मारार्तः क्षयी च निशापतौ",
+   "bbox": [
+    373,
+    1626,
+    951,
+    1686
+   ]
+  },
+  {
+   "text": "सरवितनये वक्रालोकं गते परिवेषगे।",
+   "bbox": [
+    372,
+    1689,
+    898,
+    1749
+   ]
+  },
+  {
+   "text": "रवियमकुजै: सौम्याद्रष्टैर्नभस्थलमाश्रितै-",
+   "bbox": [
+    368,
+    1756,
+    940,
+    1819
+   ]
+  },
+  {
+   "text": "र्भृतकमनुज: पूर्वोद्दिप्टैर्वराधममध्यमा: ।। 17।।",
+   "bbox": [
+    368,
+    1817,
+    1027,
+    1891
+   ]
+  },
+  {
+   "text": "When the Moon with a halso around him is with Shani and",
+   "bbox": [
+    368,
+    1913,
+    1513,
+    1986
+   ]
+  },
+  {
+   "text": "aspected by Mars, the native will be harsh. He will suffer from",
+   "bbox": [
+    286,
+    1964,
+    1511,
+    2041
+   ]
+  },
+  {
+   "text": "hysteria and consumption.",
+   "bbox": [
+    284,
+    2016,
+    821,
+    2073
+   ]
+  },
+  {
+   "text": "When the Sun, Saturn and Mars are in the tenth and are",
+   "bbox": [
+    362,
+    2094,
+    1507,
+    2172
+   ]
+  },
+  {
+   "text": "not aspected by the benefics, the native becomes a servant.",
+   "bbox": [
+    280,
+    2143,
+    1511,
+    2225
+   ]
+  },
+  {
+   "text": "When one, two or three of these are in the tenth the native",
+   "bbox": [
+    356,
+    2225,
+    1501,
+    2298
+   ]
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0005",
+ "book_id": "brihat-jataka",
+ "seq": 5,
+ "source_ref": {
+  "pdf_page": 3,
+  "half": "a",
+  "v1_page": "s003a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "19c300e86f1cbf260df540566f510b41ce3e73ac781ef449a8e15350b1400d19",
+ "lines": [
+  {
+   "text": "Published by:",
+   "bbox": [
+    254,
+    249,
+    586,
+    302
+   ]
+  },
+  {
+   "text": "<b>Ranjan Publications</b>",
+   "bbox": [
+    254,
+    306,
+    857,
+    376
+   ]
+  },
+  {
+   "text": "16, Ansari Road, Darya Ganj",
+   "bbox": [
+    257,
+    380,
+    849,
+    432
+   ]
+  },
+  {
+   "text": "New Delhi - 110002 (INDIA)",
+   "bbox": [
+    254,
+    434,
+    821,
+    489
+   ]
+  },
+  {
+   "text": "Ph.: 2327 88 35, 2328 29 98.",
+   "bbox": [
+    254,
+    493,
+    865,
+    545
+   ]
+  },
+  {
+   "text": "email: ranjanpublications@rediffmail.com",
+   "bbox": [
+    252,
+    549,
+    1020,
+    602
+   ]
+  },
+  {
+   "text": "website: www.ranjanbooks.co.in",
+   "bbox": [
+    252,
+    601,
+    839,
+    648
+   ]
+  },
+  {
+   "text": "<b>With the Publishers</b>",
+   "bbox": [
+    251,
+    951,
+    723,
+    993
+   ]
+  },
+  {
+   "text": "ISBN: 81-88230-81-2",
+   "bbox": [
+    250,
+    1310,
+    707,
+    1357
+   ]
+  },
+  {
+   "text": "Edition: 2013",
+   "bbox": [
+    250,
+    1611,
+    517,
+    1652
+   ]
+  },
+  {
+   "text": "Price : Rs 200/-",
+   "bbox": [
+    247,
+    1907,
+    573,
+    1957
+   ]
+  },
+  {
+   "text": "Printed at Rashtriya printers Delhi -95",
+   "bbox": [
+    247,
+    2294,
+    966,
+    2342
+   ]
+  }
+ ]
+}

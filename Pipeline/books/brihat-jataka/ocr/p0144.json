@@ -1,0 +1,317 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0144",
+ "book_id": "brihat-jataka",
+ "seq": 144,
+ "source_ref": {
+  "pdf_page": 72,
+  "half": "b",
+  "v1_page": "s072b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "31302ca6910a4c706e42a5e7e957c6a84da369d113576f209aeb4aefdad88393",
+ "lines": [
+  {
+   "text": "141",
+   "bbox": [
+    1319,
+    216,
+    1401,
+    248
+   ]
+  },
+  {
+   "text": "Planets in Signs",
+   "bbox": [
+    190,
+    244,
+    529,
+    300
+   ]
+  },
+  {
+   "text": "fearless.",
+   "bbox": [
+    194,
+    352,
+    367,
+    398
+   ]
+  },
+  {
+   "text": "परकर्मकुदस्वशिल्पबुद्धि-",
+   "bbox": [
+    271,
+    424,
+    638,
+    482
+   ]
+  },
+  {
+   "text": "र्ऋणवान्विष्टिकरो बुधेऽर्कजर्क्षे।",
+   "bbox": [
+    346,
+    476,
+    792,
+    544
+   ]
+  },
+  {
+   "text": "नृपसत्कृतपण्डिताप्तवाक्यो",
+   "bbox": [
+    274,
+    543,
+    659,
+    619
+   ]
+  },
+  {
+   "text": "नवमेऽन्त्ये जितसेवकोऽन्त्यशिल्प: ।। 11।।",
+   "bbox": [
+    352,
+    605,
+    959,
+    667
+   ]
+  },
+  {
+   "text": "If Mercury occupies Capricorn or Acquarius the native",
+   "bbox": [
+    278,
+    674,
+    1427,
+    769
+   ]
+  },
+  {
+   "text": "works for others (ie employed under others), is poor, an arti-",
+   "bbox": [
+    207,
+    726,
+    1429,
+    826
+   ]
+  },
+  {
+   "text": "san, in debt, acting under orders of others. If Mercury occupies",
+   "bbox": [
+    208,
+    778,
+    1432,
+    878
+   ]
+  },
+  {
+   "text": "Sagittarius or Pisces, the native is favoured by the Govern-",
+   "bbox": [
+    211,
+    831,
+    1434,
+    930
+   ]
+  },
+  {
+   "text": "ment, is learned, speaks very aptly, favourite of the servant",
+   "bbox": [
+    212,
+    884,
+    1437,
+    984
+   ]
+  },
+  {
+   "text": "class and is an efficient artisan.",
+   "bbox": [
+    216,
+    964,
+    855,
+    1027
+   ]
+  },
+  {
+   "text": "Jupiter",
+   "bbox": [
+    222,
+    1091,
+    423,
+    1133
+   ]
+  },
+  {
+   "text": "सेनानीर्बहुवित्तदारतनयो दाता सुभृत्य: क्षमी",
+   "bbox": [
+    295,
+    1149,
+    910,
+    1220
+   ]
+  },
+  {
+   "text": "तेजोदारगुणान्वितः सुरगुरौ ख्यातः पुमान् कौजभे।",
+   "bbox": [
+    297,
+    1208,
+    1003,
+    1289
+   ]
+  },
+  {
+   "text": "कन्याङ्ग ससुखार्थमित्रतनयस्त्यागी प्रिय: शैक्रभे",
+   "bbox": [
+    299,
+    1269,
+    982,
+    1357
+   ]
+  },
+  {
+   "text": "बौधे भूरिपरिच्छदात्मजसुहत्साचिव्ययुक्त: सुखी।। 12।।",
+   "bbox": [
+    300,
+    1339,
+    1105,
+    1417
+   ]
+  },
+  {
+   "text": "If Jupiter occupies Aries or Scorpio, the native becomes a",
+   "bbox": [
+    303,
+    1413,
+    1454,
+    1506
+   ]
+  },
+  {
+   "text": "high officer in the Army, is wealthy, having many wives and",
+   "bbox": [
+    230,
+    1464,
+    1456,
+    1562
+   ]
+  },
+  {
+   "text": "sons. He is munificent, has good servants, is forgiving. He has",
+   "bbox": [
+    233,
+    1518,
+    1458,
+    1613
+   ]
+  },
+  {
+   "text": "an influential personality, has wife and many good qualities",
+   "bbox": [
+    234,
+    1568,
+    1460,
+    1668
+   ]
+  },
+  {
+   "text": "and is famous. If Jupiter occupies Taurus or Libra, he is",
+   "bbox": [
+    236,
+    1622,
+    1461,
+    1718
+   ]
+  },
+  {
+   "text": "wealthy, leads a happy life with much wealth and many",
+   "bbox": [
+    238,
+    1673,
+    1463,
+    1773
+   ]
+  },
+  {
+   "text": "friends and sons. He is munificent and favourite of all. If",
+   "bbox": [
+    239,
+    1727,
+    1469,
+    1821
+   ]
+  },
+  {
+   "text": "Jupiter is in Gemini or Virgo he has plenty number of family",
+   "bbox": [
+    240,
+    1780,
+    1467,
+    1876
+   ]
+  },
+  {
+   "text": "members, sons and relatives. He gets ministership and is",
+   "bbox": [
+    241,
+    1833,
+    1468,
+    1929
+   ]
+  },
+  {
+   "text": "happy.",
+   "bbox": [
+    247,
+    1937,
+    387,
+    1977
+   ]
+  },
+  {
+   "text": "चान्द्रे रत्नसुतस्वदारविभवप्रज्ञासुखैरन्वित:",
+   "bbox": [
+    321,
+    1986,
+    914,
+    2066
+   ]
+  },
+  {
+   "text": "सिंहे स्याद्बलनायक: सुरगुरौ प्रोक्तं च यच्चन्द्रभे।",
+   "bbox": [
+    325,
+    2048,
+    1071,
+    2124
+   ]
+  },
+  {
+   "text": "स्वर्क्षे माण्डलिको नरेन्द्रसचिव: सेनापतिर्वा धनी",
+   "bbox": [
+    327,
+    2109,
+    1026,
+    2191
+   ]
+  },
+  {
+   "text": "कुम्भे कर्कटवत्फलानि मकरे नीचोऽल्पवित्तोऽसुखी।। 13।।",
+   "bbox": [
+    328,
+    2169,
+    1186,
+    2260
+   ]
+  },
+  {
+   "text": "If Jupiter occupies Cancer the native is blessed with jew-",
+   "bbox": [
+    333,
+    2250,
+    1485,
+    2346
+   ]
+  }
+ ]
+}

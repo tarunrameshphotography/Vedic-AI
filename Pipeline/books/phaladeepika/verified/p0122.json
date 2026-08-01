@@ -1,0 +1,22 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0122",
+ "ocr_fingerprint": "da5b4d7b5f5a0da8211f5b3305c3d27dc82c09772c3323b6fc81504a617fc03d",
+ "kind": "chart",
+ "note": "South Indian horoscope chart. Cell labels are taken from the PDF's embedded text layer and cell boundaries from the chart's vector grid, so both are exact rather than read by eye. Proposed by tools/propose_charts.py and checked against the rendered page.",
+ "verified": "2026-08-01",
+ "exclude_lines": [
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "insert_after": 2,
+ "markdown": "**Horoscope chart** (South Indian style, printed page 122)\n\n```\n+-------------+-------------+-------------+-------------+\n|             |             |             | L           |\n+-------------+-------------+-------------+-------------+\n| Rahu        |                           |             |\n+-------------+                           +-------------+\n| Sat         |                           | Ketu        |\n+-------------+-------------+-------------+-------------+\n|             |             | Moon        | Sun         |\n|             |             | Mars        | Merc        |\n|             |             | Ven         | Jup         |\n+-------------+-------------+-------------+-------------+\n```\n\nLagna is in Gemini, so houses are counted from there.\n\n| House | Sign | Planets |\n|---|---|---|\n| 1 (Lagna) | Gemini | — |\n| 2 | Cancer | — |\n| 3 | Leo | Ketu |\n| 4 | Virgo | Sun, Merc, Jup |\n| 5 | Libra | Moon, Mars, Ven |\n| 6 | Scorpio | — |\n| 7 | Sagittarius | — |\n| 8 | Capricorn | Sat |\n| 9 | Aquarius | Rahu |\n| 10 | Pisces | — |\n| 11 | Aries | — |\n| 12 | Taurus | — |"
+}

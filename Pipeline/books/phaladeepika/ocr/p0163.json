@@ -1,0 +1,288 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0163",
+ "book_id": "phaladeepika",
+ "seq": 163,
+ "source_ref": {
+  "pdf_page": 163
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "a25705a1def385aac8ef18eca9d1695ec424bd33d1a9bc34147646e56cd9a042",
+ "lines": [
+  {
+   "text": "<b>Chapter 17</b>",
+   "bbox": [
+    281,
+    57,
+    357,
+    75
+   ]
+  },
+  {
+   "text": "<b>Exit from the world</b>",
+   "bbox": [
+    251,
+    85,
+    387,
+    103
+   ]
+  },
+  {
+   "text": "1. When Saturn in course of his transit passes through the sign and navamsa ",
+   "bbox": [
+    121,
+    137,
+    556,
+    152
+   ]
+  },
+  {
+   "text": "of the lord of 8th or the 12th with respect of any house, that house would be treated ",
+   "bbox": [
+    85,
+    161,
+    556,
+    176
+   ]
+  },
+  {
+   "text": "as having been destroyed. The same will happen when Saturn transits houses that ",
+   "bbox": [
+    85,
+    185,
+    556,
+    201
+   ]
+  },
+  {
+   "text": "are triangular to these two houses.",
+   "bbox": [
+    85,
+    209,
+    276,
+    225
+   ]
+  },
+  {
+   "text": "Saturn as the determinator of death",
+   "bbox": [
+    121,
+    233,
+    318,
+    249
+   ]
+  },
+  {
+   "text": "2. Find out the sign and navamsa occupied by (1) the lord of the 8th house, ",
+   "bbox": [
+    121,
+    257,
+    556,
+    273
+   ]
+  },
+  {
+   "text": "(2) Gulika, (3) Saturn or (4) the lord of the 22nd decanate (counted from that of the ",
+   "bbox": [
+    85,
+    282,
+    556,
+    297
+   ]
+  },
+  {
+   "text": "lagna). When in the course of his transit Saturn passes that sign or navamsa or its ",
+   "bbox": [
+    85,
+    306,
+    556,
+    321
+   ]
+  },
+  {
+   "text": "trikona position, death may take place of the native.",
+   "bbox": [
+    85,
+    330,
+    375,
+    345
+   ]
+  },
+  {
+   "text": "3.-4. The death of the native may take place when Jupiter in course of transit ",
+   "bbox": [
+    121,
+    354,
+    556,
+    370
+   ]
+  },
+  {
+   "text": "passes through the sign or navamsa occupied by any of the following three planets ",
+   "bbox": [
+    85,
+    378,
+    556,
+    394
+   ]
+  },
+  {
+   "text": "or their triangular position",
+   "bbox": [
+    85,
+    402,
+    232,
+    418
+   ]
+  },
+  {
+   "text": "(1) The lord of the decanate that is rising",
+   "bbox": [
+    121,
+    427,
+    350,
+    442
+   ]
+  },
+  {
+   "text": "(2) The lord of the 8th house",
+   "bbox": [
+    121,
+    451,
+    282,
+    466
+   ]
+  },
+  {
+   "text": "(3) The lord of the 22nd decanate",
+   "bbox": [
+    121,
+    475,
+    308,
+    490
+   ]
+  },
+  {
+   "text": "(4) Find out the position of",
+   "bbox": [
+    121,
+    499,
+    272,
+    514
+   ]
+  },
+  {
+   "text": "(i) Dwadasamsa sign of the Sun,",
+   "bbox": [
+    121,
+    523,
+    303,
+    539
+   ]
+  },
+  {
+   "text": "(ii) The navamsa of the lord of the 8th house",
+   "bbox": [
+    121,
+    547,
+    371,
+    563
+   ]
+  },
+  {
+   "text": "(iii) The .navamsa of the lord of the Lagna.",
+   "bbox": [
+    121,
+    571,
+    363,
+    587
+   ]
+  },
+  {
+   "text": "Jupiter or the Sun, when in course of his transit, passes through any of these ",
+   "bbox": [
+    121,
+    596,
+    556,
+    611
+   ]
+  },
+  {
+   "text": "signs or those triangular to them, the death of the native may take place.",
+   "bbox": [
+    85,
+    620,
+    488,
+    635
+   ]
+  },
+  {
+   "text": "Notes — In the above verses it has been indicated that the death may take ",
+   "bbox": [
+    121,
+    644,
+    556,
+    659
+   ]
+  },
+  {
+   "text": "place when Saturn, Jupiter and the Sun transit certain positions. This does not ",
+   "bbox": [
+    85,
+    668,
+    556,
+    684
+   ]
+  },
+  {
+   "text": "mean that death will definitely take place at the time specified as Saturn makes a ",
+   "bbox": [
+    85,
+    692,
+    556,
+    708
+   ]
+  },
+  {
+   "text": "full round of the Zodiac in 30 years, Jupiter in 12 years and the Sun in one year. ",
+   "bbox": [
+    85,
+    716,
+    556,
+    732
+   ]
+  },
+  {
+   "text": "The intention of indicating the eifects of these transits is that if the time of death ",
+   "bbox": [
+    85,
+    740,
+    556,
+    756
+   ]
+  },
+  {
+   "text": "may have to be determined during the dasa of a maraka planet, these transits ",
+   "bbox": [
+    85,
+    765,
+    556,
+    780
+   ]
+  },
+  {
+   "text": "163",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

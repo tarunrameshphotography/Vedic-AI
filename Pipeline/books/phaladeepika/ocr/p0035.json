@@ -1,0 +1,288 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0035",
+ "book_id": "phaladeepika",
+ "seq": 35,
+ "source_ref": {
+  "pdf_page": 35
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "bf3bc21c07c4fd0d7e7382dba23535d1731eab27d6807dc132ea45daab84f017",
+ "lines": [
+  {
+   "text": "<b>Chapter 4</b>",
+   "bbox": [
+    285,
+    57,
+    353,
+    75
+   ]
+  },
+  {
+   "text": "<b>The various kinds of Strengths of Planets and Houses</b>",
+   "bbox": [
+    137,
+    85,
+    501,
+    103
+   ]
+  },
+  {
+   "text": "This Chapter deals with as to how to assess the strength of the planets and ",
+   "bbox": [
+    121,
+    137,
+    556,
+    152
+   ]
+  },
+  {
+   "text": "houses (bhavas). In this connection before mentioning the view of Shri ",
+   "bbox": [
+    85,
+    161,
+    556,
+    176
+   ]
+  },
+  {
+   "text": "Mantreswara, it will be useful to know the views of other ancients.",
+   "bbox": [
+    85,
+    185,
+    459,
+    201
+   ]
+  },
+  {
+   "text": "Six kinds of strength of planets is an important and very instructive ",
+   "bbox": [
+    121,
+    209,
+    556,
+    225
+   ]
+  },
+  {
+   "text": "contribution of Hindu Astrology. According to our sapient learneds the six kinds of ",
+   "bbox": [
+    85,
+    233,
+    556,
+    249
+   ]
+  },
+  {
+   "text": "<b>strengths are (1) Sthan Bala, (2) Drik Bala, (3) Kala Bala, (4) Chesta Bala, (5) </b>",
+   "bbox": [
+    85,
+    257,
+    556,
+    273
+   ]
+  },
+  {
+   "text": "<b>Naisargik Bala, and (6) Ayana Bala.</b>",
+   "bbox": [
+    85,
+    282,
+    297,
+    297
+   ]
+  },
+  {
+   "text": "<b>Sthan Bala — This is of the following twelve kinds:—</b>",
+   "bbox": [
+    121,
+    306,
+    432,
+    321
+   ]
+  },
+  {
+   "text": "<b>(1) Uchcha Bala —A planet at his deep exaltation point, is allotted 1 Rupa </b>",
+   "bbox": [
+    121,
+    330,
+    556,
+    345
+   ]
+  },
+  {
+   "text": "(60 Shastayamsa). If he is at his deep debilitation point, his strength is nil. At the ",
+   "bbox": [
+    85,
+    354,
+    556,
+    370
+   ]
+  },
+  {
+   "text": "intervening positions the strength has to be worked out by the rule of three. This is ",
+   "bbox": [
+    85,
+    378,
+    556,
+    394
+   ]
+  },
+  {
+   "text": "known as Uchcha Bala.",
+   "bbox": [
+    85,
+    402,
+    217,
+    418
+   ]
+  },
+  {
+   "text": "(2) If a planet is in his Moolatrikona Rasi he gets 36 Shastayamsa of ",
+   "bbox": [
+    121,
+    427,
+    556,
+    442
+   ]
+  },
+  {
+   "text": "strength. In the Rasi of Adhimitra he gets 22.5 Shastayamsa and 15 Shastayamsa if ",
+   "bbox": [
+    85,
+    451,
+    556,
+    466
+   ]
+  },
+  {
+   "text": "he is in the sign of a friend. He gets 7.5 Shastayamsa in a neutral Rasi, 3.75 in the ",
+   "bbox": [
+    85,
+    475,
+    556,
+    490
+   ]
+  },
+  {
+   "text": "Rasi of an enemy and 1.875 Shastayamsa in the Rasi of Adhishatru.",
+   "bbox": [
+    85,
+    499,
+    464,
+    514
+   ]
+  },
+  {
+   "text": "(3) He gets 30 Shastayamsa in his own Hora, 22.5 Shastayamsa in the Hora ",
+   "bbox": [
+    121,
+    523,
+    556,
+    539
+   ]
+  },
+  {
+   "text": "of Adhimitra, 15 Shastayamsa in the Hora of a friend, 7.5 Shastayamsa in the Hora ",
+   "bbox": [
+    85,
+    547,
+    556,
+    563
+   ]
+  },
+  {
+   "text": "of a neutral, 3.75 Shastayamsa in the Hora of an enemy and 1.875 Shastayamsa ",
+   "bbox": [
+    85,
+    571,
+    556,
+    587
+   ]
+  },
+  {
+   "text": "only in the Hora of a Adhishatru.",
+   "bbox": [
+    85,
+    596,
+    270,
+    611
+   ]
+  },
+  {
+   "text": "(4) He gets 30 Shastayamsa strength in his own decanate, 22.5 Shastayamsa ",
+   "bbox": [
+    121,
+    620,
+    556,
+    635
+   ]
+  },
+  {
+   "text": "in the decanate of an Adhimitra, 15 Shastayamsa in the decanate of a friend, 7.5 ",
+   "bbox": [
+    85,
+    644,
+    556,
+    659
+   ]
+  },
+  {
+   "text": "Shastayamsa in the decanate of a neutral, 3.75 Shastayamsa in the decanate of an ",
+   "bbox": [
+    85,
+    668,
+    556,
+    684
+   ]
+  },
+  {
+   "text": "enemy and 1,875 Shastayamsa in the decanate of Adhishatru.",
+   "bbox": [
+    85,
+    692,
+    428,
+    708
+   ]
+  },
+  {
+   "text": "(5) He gets 30 Shastayamsa in his own Saptamsa, 22.5 in the Saptamsa of ",
+   "bbox": [
+    121,
+    716,
+    556,
+    732
+   ]
+  },
+  {
+   "text": "Adhimitra, 15 in the Saptamsa of a friend, 7.5 in the Saptamsa of a neutral, 3.75 in ",
+   "bbox": [
+    85,
+    740,
+    556,
+    756
+   ]
+  },
+  {
+   "text": "the Saptamsa of an enemy and 1.875 Shastayamsa in the Saptamsa of an ",
+   "bbox": [
+    85,
+    765,
+    556,
+    780
+   ]
+  },
+  {
+   "text": "35",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0234",
+ "book_id": "phaladeepika",
+ "seq": 234,
+ "source_ref": {
+  "pdf_page": 234
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "4970c7321dd724c5ec750a90075036adf8978b6dd09e41159fd33024e2f531f2",
+ "lines": [
+  {
+   "text": "by 27. The death of the native may be expected when Jupiter or Saturn In the ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "course of his transit passes through the nakshatra (counted from Aswini) indicated ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "by the remainder.",
+   "bbox": [
+    85,
+    106,
+    183,
+    121
+   ]
+  },
+  {
+   "text": "14. In the Ashtakavarga of Saturn add up the number of benefic bindus in ",
+   "bbox": [
+    121,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "the houses from the Lagna to that occupied by Saturn both Inclusive. In the same ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "way add up the benefic bindus in the houses from Saturn to the Lagna both ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "Inclusive. The years indicated by these figures will bring distress, danger or ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "disaster to the native.",
+   "bbox": [
+    85,
+    226,
+    204,
+    242
+   ]
+  },
+  {
+   "text": "15. The figure Indicating the sodhyapinda In the Ashtakavarga of Saturn be ",
+   "bbox": [
+    121,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "multiplied by the figure indicated by the number of benefic bindus in the 8th house ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "form the Lagna. Divide the product by 27. The figure so arrived at will indicate ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "total number of years of the longevity of the native. The time of death may be ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "determined according to principles already described (see verse 13).",
+   "bbox": [
+    85,
+    347,
+    467,
+    363
+   ]
+  },
+  {
+   "text": "<b>Tiikona sodhana</b>",
+   "bbox": [
+    121,
+    371,
+    221,
+    387
+   ]
+  },
+  {
+   "text": "16-17. Note — Now we come to the method of working out trikona ",
+   "bbox": [
+    121,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "sodhana. This, is an important part of the ashtakavarga scheme. Before we come to ",
+   "bbox": [
+    85,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "what Shri Mantreshwara has said about it, we will acquaint the readers with some ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "points which will facilitate the clear understanding of the trikona sodhana.",
+   "bbox": [
+    85,
+    468,
+    501,
+    483
+   ]
+  },
+  {
+   "text": "Aries, Leo and Sagittarius are triangular signs: The other triangular signs are ",
+   "bbox": [
+    121,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "Aries, Virgo and Capricorn; Gemini. Libra and Aquarius and Cancer, Scorpio and ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "Pisces.",
+   "bbox": [
+    85,
+    540,
+    124,
+    556
+   ]
+  },
+  {
+   "text": "We have already described how the Ashtakavarga is prepared there are seven ",
+   "bbox": [
+    121,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "Ashtakavargas viz., those of the Sun, the Moon, Mars. Mercury, Jupiter and Saturn. ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "Trikona sodhana (rectification) is carried out in all the seven Ashtakavargas. For ",
+   "bbox": [
+    85,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "example, if we have to carry out trikona sodhana of the Sun's Ashtakavarga, we ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "should note the number of benefic bindus in all the three triangular signs — Aries, ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "Leo and Sagittarius.",
+   "bbox": [
+    85,
+    685,
+    197,
+    701
+   ]
+  },
+  {
+   "text": "There are 3 benefic bindus in Aries, 5 in Leo and 4 in Sagittarius.",
+   "bbox": [
+    121,
+    709,
+    487,
+    725
+   ]
+  },
+  {
+   "text": "There is great difference of opinion amongst the ancient learneds about the ",
+   "bbox": [
+    121,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "method of trikona sodhana. They are given below:",
+   "bbox": [
+    85,
+    758,
+    367,
+    773
+   ]
+  },
+  {
+   "text": "234",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

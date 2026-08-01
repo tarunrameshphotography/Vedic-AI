@@ -1,0 +1,31 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0200",
+ "ocr_fingerprint": "9b27e0bc87cb91958628557fad9473479065cfd2a278a94993a7d71286cf0dde",
+ "kind": "table",
+ "printed_page": 197,
+ "note": "Three-column table of the six Ritus. Surya emitted the columns out of order. Read by eye. Note the book prints '(Autumn)' against BOTH Sarat and Hemanta; Hemanta is usually given as early winter. Preserved exactly as printed and flagged, not corrected.",
+ "verified": "2026-08-01, by eye against books/brihat-jataka/img/p0200.png",
+ "exclude_lines": [
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35
+ ],
+ "insert_after": 17,
+ "markdown": "*Notes:* The Ritus (seasons) are six. Each is made up of two months thus:\n\n| Ritu | Months | Season |\n|---|---|---|\n| Vasanta | Chaitra, Vaisakha | (Spring) |\n| Grishma | Jyeshtha, Ashadha | (Summer) |\n| Varsha | Sravana, Bhadrapada | (Rains) |\n| Sarat | Asvina, Kartika | (Autumn) |\n| Hemanta | Margasira, Pushya | (Autumn) |\n| Sishira | Magha, Phalguna | (Winter) |"
+}

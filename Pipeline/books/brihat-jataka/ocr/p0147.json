@@ -1,0 +1,209 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0147",
+ "book_id": "brihat-jataka",
+ "seq": 147,
+ "source_ref": {
+  "pdf_page": 74,
+  "half": "a",
+  "v1_page": "s074a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "1cae68ccf8081b84cbdd08fc68a1462546707268c5f69723e312f540e17568e0",
+ "lines": [
+  {
+   "text": "144",
+   "bbox": [
+    343,
+    268,
+    430,
+    301
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1263,
+    268,
+    1555,
+    301
+   ]
+  },
+  {
+   "text": "If Saturn occupies Sagittarius or Pisces, the native meets",
+   "bbox": [
+    414,
+    370,
+    1557,
+    408
+   ]
+  },
+  {
+   "text": "his end in a good manner (peacefully etc). He is a trusted",
+   "bbox": [
+    341,
+    423,
+    1557,
+    462
+   ]
+  },
+  {
+   "text": "servant of the government, and is blessed with a good wife and",
+   "bbox": [
+    342,
+    476,
+    1557,
+    515
+   ]
+  },
+  {
+   "text": "son and is wealthy. He is head of a village or a unit of army. In",
+   "bbox": [
+    342,
+    528,
+    1557,
+    567
+   ]
+  },
+  {
+   "text": "case Saturn occupies Capricorn or Acquarius, the native runs",
+   "bbox": [
+    341,
+    579,
+    1557,
+    619
+   ]
+  },
+  {
+   "text": "after wealth and women belonging to others. He is chief of a",
+   "bbox": [
+    341,
+    633,
+    1557,
+    673
+   ]
+  },
+  {
+   "text": "village or the unit of Army. He has unattractive eyes, is always",
+   "bbox": [
+    338,
+    686,
+    1557,
+    725
+   ]
+  },
+  {
+   "text": "dirty, gets wealth and power constantly and enjoys life.",
+   "bbox": [
+    339,
+    739,
+    1444,
+    778
+   ]
+  },
+  {
+   "text": "शिशिरकरसमागमेक्षणानां सदृशफलं प्रवदन्ति लग्नजातम्।",
+   "bbox": [
+    410,
+    815,
+    1229,
+    865
+   ]
+  },
+  {
+   "text": "फलमधिकमिदं यदत्र भावाद्धवनभनाथगुणैर्विचिन्तनीया: ।। 20।।",
+   "bbox": [
+    409,
+    872,
+    1328,
+    929
+   ]
+  },
+  {
+   "text": "The good and bad results of any lagna (Ascendant) are like",
+   "bbox": [
+    411,
+    968,
+    1555,
+    1015
+   ]
+  },
+  {
+   "text": "those given by Moon in association with or under the aspect of",
+   "bbox": [
+    336,
+    1025,
+    1560,
+    1064
+   ]
+  },
+  {
+   "text": "other planets. Over and above the results of the lagna and the",
+   "bbox": [
+    338,
+    1078,
+    1555,
+    1118
+   ]
+  },
+  {
+   "text": "Chandra lagna, those given by other houses and their lords",
+   "bbox": [
+    338,
+    1131,
+    1555,
+    1172
+   ]
+  },
+  {
+   "text": "should also be taken into consideration in interpreting a birth",
+   "bbox": [
+    336,
+    1184,
+    1552,
+    1223
+   ]
+  },
+  {
+   "text": "chart.",
+   "bbox": [
+    336,
+    1237,
+    461,
+    1273
+   ]
+  },
+  {
+   "text": "इति श्रीवराहमिहिरकृते बृहज्जातके ग्रहराशिशीलाध्यायोऽष्टदश:।। 18।।",
+   "bbox": [
+    424,
+    1437,
+    1459,
+    1489
+   ]
+  },
+  {
+   "text": "Thus ends the eighteenth chapter on Planets in Signs in",
+   "bbox": [
+    411,
+    1530,
+    1554,
+    1570
+   ]
+  },
+  {
+   "text": "Brihat Jatak composed by Varahamihira.",
+   "bbox": [
+    335,
+    1584,
+    1158,
+    1624
+   ]
+  }
+ ]
+}

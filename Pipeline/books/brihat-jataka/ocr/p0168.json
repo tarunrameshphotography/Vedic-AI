@@ -1,0 +1,209 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0168",
+ "book_id": "brihat-jataka",
+ "seq": 168,
+ "source_ref": {
+  "pdf_page": 84,
+  "half": "b",
+  "v1_page": "s084b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "ce3101d6cab5a68ee7f357f6224bc9fdcd07272689154594a6369c76403b1c82",
+ "lines": [
+  {
+   "text": "165",
+   "bbox": [
+    1326,
+    275,
+    1418,
+    315
+   ]
+  },
+  {
+   "text": "Miscellaneous",
+   "bbox": [
+    204,
+    286,
+    488,
+    323
+   ]
+  },
+  {
+   "text": "<b>Time for Transit Effects</b>",
+   "bbox": [
+    204,
+    388,
+    832,
+    427
+   ]
+  },
+  {
+   "text": "दिनकररुधिरौ प्रवेशकाले गुरुभृगुजौ भवनस्य मध्ययातौ।",
+   "bbox": [
+    277,
+    459,
+    1075,
+    523
+   ]
+  },
+  {
+   "text": "रविसुतशशिनौ विनिर्गमस्थौ शशितनय: फलदस्तु सर्वकालम् ।। 6।।",
+   "bbox": [
+    277,
+    522,
+    1249,
+    585
+   ]
+  },
+  {
+   "text": "Mars and Sun give their transit results at the time of their",
+   "bbox": [
+    278,
+    613,
+    1426,
+    671
+   ]
+  },
+  {
+   "text": "entry into a sign. Jupiter, Venus when they have reached the",
+   "bbox": [
+    205,
+    668,
+    1421,
+    723
+   ]
+  },
+  {
+   "text": "middle of the sign concerned. Saturn and Moon when they",
+   "bbox": [
+    208,
+    720,
+    1423,
+    775
+   ]
+  },
+  {
+   "text": "leave the transited sign, while Mercury gives its results",
+   "bbox": [
+    206,
+    771,
+    1438,
+    830
+   ]
+  },
+  {
+   "text": "throughout its stay in a sign.",
+   "bbox": [
+    209,
+    833,
+    792,
+    880
+   ]
+  },
+  {
+   "text": "इति श्रीवराहमिहिरकृते बृहज्जातके प्रकीर्णाध्यायो द्वाविंश: ।। 22 ।।",
+   "bbox": [
+    325,
+    1029,
+    1304,
+    1091
+   ]
+  },
+  {
+   "text": "Thus ends the twenty second chapter on Miscellaneous in",
+   "bbox": [
+    283,
+    1124,
+    1425,
+    1177
+   ]
+  },
+  {
+   "text": "Brihat Jatak composed by Varahamihira.",
+   "bbox": [
+    209,
+    1180,
+    968,
+    1231
+   ]
+  },
+  {
+   "text": "",
+   "bbox": [
+    512,
+    1261,
+    1182,
+    1299
+   ]
+  },
+  {
+   "text": "the contract of the contract of the contract of the contract of the contract of",
+   "bbox": [
+    583,
+    1346,
+    1288,
+    1393
+   ]
+  },
+  {
+   "text": "a postal state charge of the company of the second state point of the",
+   "bbox": [
+    266,
+    1511,
+    1353,
+    1563
+   ]
+  },
+  {
+   "text": "denote a control dell'altre la control della viene del",
+   "bbox": [
+    492,
+    1692,
+    1230,
+    1733
+   ]
+  },
+  {
+   "text": "“一个一个一个一个字，我是一个小时，一个小时，一个小时间，也会把自己的时间，你的",
+   "bbox": [
+    253,
+    1798,
+    1386,
+    1838
+   ]
+  },
+  {
+   "text": "and production of the later teachers in the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract of the co",
+   "bbox": [
+    260,
+    1849,
+    1151,
+    1893
+   ]
+  },
+  {
+   "text": "an kabupatèn Kaléndhang Kabupatèn Pangkaluman Kabupatèn Ka",
+   "bbox": [
+    334,
+    1906,
+    1142,
+    1938
+   ]
+  },
+  {
+   "text": "كإطلاح المساريخ ويتحرج والتناقل والمستدرج",
+   "bbox": [
+    283,
+    1950,
+    1154,
+    1996
+   ]
+  }
+ ]
+}

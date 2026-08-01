@@ -1,0 +1,344 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0065",
+ "book_id": "brihat-jataka",
+ "seq": 65,
+ "source_ref": {
+  "pdf_page": 33,
+  "half": "a",
+  "v1_page": "s033a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "e0eca1b6730e1335591051e29419b2e70817e366b5454ecda640a0861b6a6341",
+ "lines": [
+  {
+   "text": "62",
+   "bbox": [
+    429,
+    264,
+    494,
+    297
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1350,
+    296,
+    1644,
+    347
+   ]
+  },
+  {
+   "text": "<b>Delivery House</b>",
+   "bbox": [
+    419,
+    361,
+    831,
+    427
+   ]
+  },
+  {
+   "text": "पापेक्षिते तुहिनगावुदये कुजेऽस्ते",
+   "bbox": [
+    488,
+    443,
+    947,
+    519
+   ]
+  },
+  {
+   "text": "त्यक्तो विनश्यति कुजार्कजयोस्तथाये।",
+   "bbox": [
+    488,
+    507,
+    1032,
+    586
+   ]
+  },
+  {
+   "text": "सौम्येऽपि पश्यति तथाविधहस्तमेति",
+   "bbox": [
+    484,
+    570,
+    992,
+    645
+   ]
+  },
+  {
+   "text": "ं सौम्येतरेषु परहस्तगतोऽप्यनायुः।। 15 ।।",
+   "bbox": [
+    443,
+    633,
+    1076,
+    719
+   ]
+  },
+  {
+   "text": "If the planets representing father as significator ie Sun",
+   "bbox": [
+    478,
+    731,
+    1629,
+    825
+   ]
+  },
+  {
+   "text": "and Saturn are strong and influence the lagna and the Moon,",
+   "bbox": [
+    402,
+    777,
+    1626,
+    880
+   ]
+  },
+  {
+   "text": "birth of the native takes place in the house of paternal rela-",
+   "bbox": [
+    398,
+    830,
+    1623,
+    932
+   ]
+  },
+  {
+   "text": "tions such as of father and the younger and elder brothers of",
+   "bbox": [
+    396,
+    883,
+    1625,
+    985
+   ]
+  },
+  {
+   "text": "father. Similarly if significator for mother and her side ie Moon",
+   "bbox": [
+    392,
+    935,
+    1619,
+    1038
+   ]
+  },
+  {
+   "text": "and Venus are strong and influence the lagna and the Moon,",
+   "bbox": [
+    391,
+    989,
+    1618,
+    1090
+   ]
+  },
+  {
+   "text": "birth takes place in the mother's house or in the house of her",
+   "bbox": [
+    390,
+    1041,
+    1615,
+    1143
+   ]
+  },
+  {
+   "text": "sisters. If benefics are occupying their signs of debilitation,",
+   "bbox": [
+    386,
+    1094,
+    1612,
+    1196
+   ]
+  },
+  {
+   "text": "birth takes place underneath the trees. If the benefics are in",
+   "bbox": [
+    385,
+    1148,
+    1609,
+    1244
+   ]
+  },
+  {
+   "text": "debilitation and the lagna and Moon are aspected by less than",
+   "bbox": [
+    383,
+    1198,
+    1608,
+    1300
+   ]
+  },
+  {
+   "text": "three planets, the birth takes place in a place devoid of human",
+   "bbox": [
+    380,
+    1249,
+    1605,
+    1352
+   ]
+  },
+  {
+   "text": "habitation.",
+   "bbox": [
+    382,
+    1307,
+    603,
+    1353
+   ]
+  },
+  {
+   "text": "पितृमातृगृहेषु तद्बलात्तरुसालादिषु नीचगै: शुभै:।",
+   "bbox": [
+    449,
+    1386,
+    1157,
+    1470
+   ]
+  },
+  {
+   "text": "यदि नैकगतैस्तु विक्षितौ लग्नेन्दू विजने प्रसूयते।। 16 ।।",
+   "bbox": [
+    443,
+    1442,
+    1279,
+    1543
+   ]
+  },
+  {
+   "text": "If in the chart Moon occupies the sign and navamsha of",
+   "bbox": [
+    442,
+    1542,
+    1599,
+    1642
+   ]
+  },
+  {
+   "text": "Saturn or if she is placed in the 4th house in watery sign under",
+   "bbox": [
+    362,
+    1592,
+    1592,
+    1693
+   ]
+  },
+  {
+   "text": "aspect of Saturn or in association with it the birth takes place",
+   "bbox": [
+    361,
+    1645,
+    1586,
+    1745
+   ]
+  },
+  {
+   "text": "in darkness and if the planets (Moon etc) are in debilitation,",
+   "bbox": [
+    357,
+    1696,
+    1583,
+    1799
+   ]
+  },
+  {
+   "text": "birth takes place on the ground (not in bed). The delivery of the",
+   "bbox": [
+    356,
+    1749,
+    1582,
+    1852
+   ]
+  },
+  {
+   "text": "child follows the pattern of the manner of the rising of the sign",
+   "bbox": [
+    354,
+    1802,
+    1580,
+    1903
+   ]
+  },
+  {
+   "text": "in the ascendant ie if it is a \"Sheershodaya\" sign, the child is",
+   "bbox": [
+    350,
+    1852,
+    1576,
+    1958
+   ]
+  },
+  {
+   "text": "born with his head facing upwards, if it is prishtodya, it is with",
+   "bbox": [
+    350,
+    1907,
+    1575,
+    2008
+   ]
+  },
+  {
+   "text": "face downwards, if in ubhayodaya, in a slanting position. If",
+   "bbox": [
+    345,
+    1958,
+    1579,
+    2064
+   ]
+  },
+  {
+   "text": "malefic planets occupy the house 4th and 7th from the Moon",
+   "bbox": [
+    344,
+    2010,
+    1570,
+    2116
+   ]
+  },
+  {
+   "text": "the delivery is troublesome for the mother.",
+   "bbox": [
+    344,
+    2065,
+    1204,
+    2151
+   ]
+  },
+  {
+   "text": "मन्दर्क्षांशे शशिनि हिबुके मन्ददृष्टेऽब्जगे वा",
+   "bbox": [
+    414,
+    2147,
+    1048,
+    2228
+   ]
+  },
+  {
+   "text": "तद्ययुक्ते वा तमसि शयनं नीचसंस्थैश्च भूमौ।",
+   "bbox": [
+    410,
+    2205,
+    1056,
+    2295
+   ]
+  },
+  {
+   "text": "यद्वद्राशिर्व्रजति हरिजं गर्भमोक्षस्तु तद्वत्",
+   "bbox": [
+    409,
+    2274,
+    971,
+    2356
+   ]
+  },
+  {
+   "text": "पापैश्चन्द्रात्स्मरसुखगतैः क्लेशमाहुर्जनन्याः।। 17 ।।",
+   "bbox": [
+    405,
+    2340,
+    1143,
+    2430
+   ]
+  }
+ ]
+}

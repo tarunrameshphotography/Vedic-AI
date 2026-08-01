@@ -1,0 +1,290 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0043",
+ "book_id": "brihat-jataka",
+ "seq": 43,
+ "source_ref": {
+  "pdf_page": 22,
+  "half": "a",
+  "v1_page": "s022a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "ca923fd3b6f2e755e97aa2c5d73ada9b7482423a8f60aa3bf09edb6cab45462e",
+ "lines": [
+  {
+   "text": "40",
+   "bbox": [
+    371,
+    188,
+    434,
+    218
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1290,
+    216,
+    1586,
+    263
+   ]
+  },
+  {
+   "text": "If the planets happen to be of equal strength in mathematical",
+   "bbox": [
+    361,
+    283,
+    1586,
+    377
+   ]
+  },
+  {
+   "text": "calculation their relative strength is decided on the basis of",
+   "bbox": [
+    360,
+    332,
+    1587,
+    430
+   ]
+  },
+  {
+   "text": "their natural strength. In this scheme Saturn is the weakest of",
+   "bbox": [
+    356,
+    387,
+    1587,
+    480
+   ]
+  },
+  {
+   "text": "all planets. Mars is stronger than Saturn, Mercury is stronger",
+   "bbox": [
+    348,
+    438,
+    1582,
+    534
+   ]
+  },
+  {
+   "text": "than Mars, Jupiter is stronger than Mercury, Venus is stron-",
+   "bbox": [
+    354,
+    491,
+    1578,
+    587
+   ]
+  },
+  {
+   "text": "ger than Jupiter, Moon is stronger than Venus and Sun is",
+   "bbox": [
+    347,
+    545,
+    1576,
+    638
+   ]
+  },
+  {
+   "text": "stronger than Moon.",
+   "bbox": [
+    351,
+    602,
+    769,
+    656
+   ]
+  },
+  {
+   "text": "इति श्रीवराहमिहिरकृते बृहज्जातके ग्रहयोनिप्रभेदाध्याय: द्वितीय: ।।2।।",
+   "bbox": [
+    465,
+    807,
+    1442,
+    895
+   ]
+  },
+  {
+   "text": "Thus ends the second chapter on Planets in Brihat Jatak",
+   "bbox": [
+    415,
+    894,
+    1564,
+    982
+   ]
+  },
+  {
+   "text": "composed by Varahamihira.",
+   "bbox": [
+    339,
+    946,
+    899,
+    1005
+   ]
+  },
+  {
+   "text": "",
+   "bbox": [
+    404,
+    1208,
+    1513,
+    1278
+   ]
+  },
+  {
+   "text": "temperature and construction of the control of the control of the control of the control of the control of the",
+   "bbox": [
+    348,
+    1258,
+    1574,
+    1326
+   ]
+  },
+  {
+   "text": "and with the first participants put to be the first participants for the first study.",
+   "bbox": [
+    351,
+    1308,
+    1572,
+    1377
+   ]
+  },
+  {
+   "text": "计数据 医中央性皮肤 计数据 计一个字 医神经病 医阿尔伯氏试验检尿病 医心包",
+   "bbox": [
+    353,
+    1362,
+    1572,
+    1426
+   ]
+  },
+  {
+   "text": "<b>The Control</b>",
+   "bbox": [
+    770,
+    1425,
+    990,
+    1464
+   ]
+  },
+  {
+   "text": "in the control of the College",
+   "bbox": [
+    1121,
+    1537,
+    1568,
+    1577
+   ]
+  },
+  {
+   "text": "v modelni koji",
+   "bbox": [
+    951,
+    1617,
+    1299,
+    1658
+   ]
+  },
+  {
+   "text": "a shekara ta 1999",
+   "bbox": [
+    945,
+    1671,
+    1309,
+    1735
+   ]
+  },
+  {
+   "text": ". . . . . . . . . . . . . . . . . . . . ",
+   "bbox": [
+    902,
+    1816,
+    1498,
+    1862
+   ]
+  },
+  {
+   "text": "an order in August 1974 for May 21, 21, 21, 21, 22, 23, 24, 2007 policy of contract 1974 for 2011 for",
+   "bbox": [
+    338,
+    1885,
+    1497,
+    1954
+   ]
+  },
+  {
+   "text": "and a fact of the second state of the state of the control of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the ",
+   "bbox": [
+    343,
+    1941,
+    1559,
+    2005
+   ]
+  },
+  {
+   "text": "والمواجهة المتعارض المتناسبة والمتواطئ والمستوحد موالدا والمتناقص والموارد",
+   "bbox": [
+    346,
+    1992,
+    1558,
+    2060
+   ]
+  },
+  {
+   "text": "which and the copy of the set with a control of the plants of",
+   "bbox": [
+    336,
+    2040,
+    1562,
+    2114
+   ]
+  },
+  {
+   "text": "التواطيع والمساحد والمستحيل المتحاولات والمتحدث والمتحدث",
+   "bbox": [
+    319,
+    2093,
+    1563,
+    2165
+   ]
+  },
+  {
+   "text": "Company for the annual providence paint of all an international company in",
+   "bbox": [
+    337,
+    2149,
+    1553,
+    2217
+   ]
+  },
+  {
+   "text": "والمتواجب والمستنقط والمتواطئ ويستعمل والمتحا والمتنازل والمستنقذ فالمتمارين فلينسخ",
+   "bbox": [
+    335,
+    2202,
+    1555,
+    2274
+   ]
+  },
+  {
+   "text": "handle pages to see a children of the colorador of the first building of the color",
+   "bbox": [
+    341,
+    2253,
+    1546,
+    2327
+   ]
+  },
+  {
+   "text": "in some you got a state of the state of the last mean couple, the bring security",
+   "bbox": [
+    403,
+    2310,
+    1545,
+    2374
+   ]
+  }
+ ]
+}

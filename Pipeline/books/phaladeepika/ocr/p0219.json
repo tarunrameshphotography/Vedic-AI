@@ -1,0 +1,288 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0219",
+ "book_id": "phaladeepika",
+ "seq": 219,
+ "source_ref": {
+  "pdf_page": 219
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "4715d415f1c2c0e7000ec0f94c8d8eb2358d463fb7f8a9b8bd23be1dbfafea3e",
+ "lines": [
+  {
+   "text": "<b>Chapter 23</b>",
+   "bbox": [
+    281,
+    57,
+    357,
+    75
+   ]
+  },
+  {
+   "text": "<b>Ashtakavarga</b>",
+   "bbox": [
+    271,
+    85,
+    367,
+    103
+   ]
+  },
+  {
+   "text": "The planets are always round the orbit influencing persons favourably and ",
+   "bbox": [
+    121,
+    137,
+    556,
+    152
+   ]
+  },
+  {
+   "text": "unfavourably. These influences are known as transit effects. Generally the transit ",
+   "bbox": [
+    85,
+    161,
+    556,
+    176
+   ]
+  },
+  {
+   "text": "effects are gauged from the sign in which the Moon is posited, for example, there ",
+   "bbox": [
+    85,
+    185,
+    556,
+    201
+   ]
+  },
+  {
+   "text": "is inauspicions effect of the transit of Jupiter in the 4th house and 6th house from ",
+   "bbox": [
+    85,
+    209,
+    556,
+    225
+   ]
+  },
+  {
+   "text": "the Moon while his transit to the 5th house from the Moon produces auspicious ",
+   "bbox": [
+    85,
+    233,
+    556,
+    249
+   ]
+  },
+  {
+   "text": "effects.",
+   "bbox": [
+    85,
+    257,
+    126,
+    273
+   ]
+  },
+  {
+   "text": "In the consideration of transit effects the planet's natal position remains the ",
+   "bbox": [
+    121,
+    282,
+    556,
+    297
+   ]
+  },
+  {
+   "text": "same. It is only when the transit effects are to be ascertained their present position ",
+   "bbox": [
+    85,
+    306,
+    556,
+    321
+   ]
+  },
+  {
+   "text": "is taken into account. This information is available in Panchanga or Ephemeris. As ",
+   "bbox": [
+    85,
+    330,
+    556,
+    345
+   ]
+  },
+  {
+   "text": "has been said ahove, it is usual to assess the transit effects of a planet from his ",
+   "bbox": [
+    85,
+    354,
+    556,
+    370
+   ]
+  },
+  {
+   "text": "position from the Moon. The question arises as to whether Jupiter who gives evil ",
+   "bbox": [
+    85,
+    378,
+    556,
+    394
+   ]
+  },
+  {
+   "text": "effects from his position from the Moon but if Jupiter is well placed from the other ",
+   "bbox": [
+    85,
+    402,
+    556,
+    418
+   ]
+  },
+  {
+   "text": "planets in the natal chart, will he still produce the same evil effects. Take the ",
+   "bbox": [
+    85,
+    427,
+    556,
+    442
+   ]
+  },
+  {
+   "text": "reverse of it. Suppose that Jupter in his transit is at an auspicious place from the ",
+   "bbox": [
+    85,
+    451,
+    556,
+    466
+   ]
+  },
+  {
+   "text": "natal Moon but is not in auspicious position from the natal Sun, Mars, Mercury, ",
+   "bbox": [
+    85,
+    475,
+    556,
+    490
+   ]
+  },
+  {
+   "text": "Jupiter, Venus and Saturn and the Lagna. Will the Jupiter be treated as auspicious? ",
+   "bbox": [
+    85,
+    499,
+    556,
+    514
+   ]
+  },
+  {
+   "text": "The intention of mentioning all this is that there is a system under which the effects ",
+   "bbox": [
+    85,
+    523,
+    556,
+    539
+   ]
+  },
+  {
+   "text": "of planets are ascertained by the position in transit not only from their position ",
+   "bbox": [
+    85,
+    547,
+    556,
+    563
+   ]
+  },
+  {
+   "text": "from the Moon but also with reference to the Lagna and all other planets with ",
+   "bbox": [
+    85,
+    571,
+    556,
+    587
+   ]
+  },
+  {
+   "text": "referense to their placement in the natal chart. This is called the Ashtakavarga ",
+   "bbox": [
+    85,
+    596,
+    556,
+    611
+   ]
+  },
+  {
+   "text": "System.",
+   "bbox": [
+    85,
+    620,
+    130,
+    635
+   ]
+  },
+  {
+   "text": "Ashtaka means eight. These eight are the Lagna and the seven planets. The ",
+   "bbox": [
+    121,
+    644,
+    556,
+    659
+   ]
+  },
+  {
+   "text": "planet which is in an auspicious position from more of the eight viz., Lagna and ",
+   "bbox": [
+    85,
+    668,
+    556,
+    684
+   ]
+  },
+  {
+   "text": "the seven planets, should be considered beneficial in his effects.",
+   "bbox": [
+    85,
+    692,
+    443,
+    708
+   ]
+  },
+  {
+   "text": "1. In order to ascertain the good and had effects by the several planets in ",
+   "bbox": [
+    121,
+    716,
+    556,
+    732
+   ]
+  },
+  {
+   "text": "their transit through the signs of the Zodiac, the Ashtakavarga system has been ",
+   "bbox": [
+    85,
+    740,
+    556,
+    756
+   ]
+  },
+  {
+   "text": "very highly spoken of the great sages and I now set forth the mode of ",
+   "bbox": [
+    85,
+    765,
+    556,
+    780
+   ]
+  },
+  {
+   "text": "219",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

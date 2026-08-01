@@ -1,0 +1,344 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0204",
+ "book_id": "brihat-jataka",
+ "seq": 204,
+ "source_ref": {
+  "pdf_page": 102,
+  "half": "b",
+  "v1_page": "s102b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "6438f39cf1093f5eab0aba7656a00f52d2b6fae109ae36e26c479f3379822eae",
+ "lines": [
+  {
+   "text": "<b>Rubus</b>",
+   "bbox": [
+    1552,
+    136,
+    1596,
+    153
+   ]
+  },
+  {
+   "text": "201",
+   "bbox": [
+    1263,
+    206,
+    1354,
+    243
+   ]
+  },
+  {
+   "text": "Unknown Horoscopes",
+   "bbox": [
+    151,
+    250,
+    585,
+    311
+   ]
+  },
+  {
+   "text": "Moon and place the Moon there. This does not apply if the",
+   "bbox": [
+    152,
+    299,
+    1371,
+    418
+   ]
+  },
+  {
+   "text": "Moon at the time of query is in Mina. In such a case the Moon",
+   "bbox": [
+    155,
+    347,
+    1375,
+    470
+   ]
+  },
+  {
+   "text": "at birth was in Mina.",
+   "bbox": [
+    159,
+    446,
+    595,
+    509
+   ]
+  },
+  {
+   "text": "If there is a doubt about the position of the Moon, what are",
+   "bbox": [
+    236,
+    476,
+    1380,
+    590
+   ]
+  },
+  {
+   "text": "we to do?",
+   "bbox": [
+    166,
+    586,
+    363,
+    634
+   ]
+  },
+  {
+   "text": "At the time of query, note if any animal or food is seen, or",
+   "bbox": [
+    242,
+    598,
+    1388,
+    721
+   ]
+  },
+  {
+   "text": "is brought. Note whether the appearance of the questioner",
+   "bbox": [
+    169,
+    649,
+    1389,
+    774
+   ]
+  },
+  {
+   "text": "suggests the nature of the animals. The sign resembling any of",
+   "bbox": [
+    172,
+    701,
+    1394,
+    822
+   ]
+  },
+  {
+   "text": "these will be one occupied by the Moon at birth. Cattle will",
+   "bbox": [
+    176,
+    751,
+    1394,
+    874
+   ]
+  },
+  {
+   "text": "refer to Vrishabha. Cats and dogs suggest Simha.",
+   "bbox": [
+    177,
+    819,
+    1168,
+    918
+   ]
+  },
+  {
+   "text": "होरानवांशप्रतिमं विलग्नं लग्नाद्रविर्यावति वा दृकाणे।",
+   "bbox": [
+    254,
+    901,
+    1021,
+    1000
+   ]
+  },
+  {
+   "text": "तस्माद्वदेत्तावति वा विलग्नं प्रष्टुः प्रसूताविति शास्त्रमाह।। 7 ।।",
+   "bbox": [
+    259,
+    962,
+    1182,
+    1064
+   ]
+  },
+  {
+   "text": "The rising navamsha at the time of the question will be the",
+   "bbox": [
+    265,
+    1035,
+    1409,
+    1150
+   ]
+  },
+  {
+   "text": "lagna at birth.",
+   "bbox": [
+    193,
+    1137,
+    493,
+    1197
+   ]
+  },
+  {
+   "text": "Count from the lagna drekkana at the query time to the",
+   "bbox": [
+    272,
+    1155,
+    1417,
+    1274
+   ]
+  },
+  {
+   "text": "drekkana occupied by the Sun. Count this from the lagna at",
+   "bbox": [
+    199,
+    1210,
+    1421,
+    1329
+   ]
+  },
+  {
+   "text": "query time and we get the lagna of the querist at his birth.",
+   "bbox": [
+    201,
+    1261,
+    1420,
+    1379
+   ]
+  },
+  {
+   "text": "This is a second method.",
+   "bbox": [
+    204,
+    1353,
+    703,
+    1417
+   ]
+  },
+  {
+   "text": "Notes: If the drekkana number exceeds twelve, dedut mul-",
+   "bbox": [
+    280,
+    1389,
+    1428,
+    1502
+   ]
+  },
+  {
+   "text": "tiples of tweve.",
+   "bbox": [
+    210,
+    1493,
+    522,
+    1548
+   ]
+  },
+  {
+   "text": "जन्मादिशेल्लग्नगवीयी वा छायाङ्गुलघ्नेऽर्कहतेऽवशिष्टम्।",
+   "bbox": [
+    284,
+    1535,
+    1131,
+    1632
+   ]
+  },
+  {
+   "text": "आसीनसुप्तोत्थिततिष्ठताभं जायासुखाज्ञोदयगं प्रदिष्टम् ।। ४ ।।",
+   "bbox": [
+    288,
+    1593,
+    1186,
+    1700
+   ]
+  },
+  {
+   "text": "Take the longitude of the planet in the lagna, or that of",
+   "bbox": [
+    296,
+    1672,
+    1445,
+    1785
+   ]
+  },
+  {
+   "text": "the most powerful one in the chart. Multiply it by Chhay-",
+   "bbox": [
+    224,
+    1720,
+    1446,
+    1839
+   ]
+  },
+  {
+   "text": "angula and divide it by twelve. The remainder counted",
+   "bbox": [
+    224,
+    1771,
+    1448,
+    1888
+   ]
+  },
+  {
+   "text": "from Mesha gives the lagna at birth or the lagna will be the",
+   "bbox": [
+    229,
+    1821,
+    1449,
+    1940
+   ]
+  },
+  {
+   "text": "seventh, fourth, tenth or lagna depending on whether the",
+   "bbox": [
+    231,
+    1872,
+    1452,
+    1991
+   ]
+  },
+  {
+   "text": "questioner is sitting, lying down, rising or standing respec-",
+   "bbox": [
+    235,
+    1925,
+    1455,
+    2043
+   ]
+  },
+  {
+   "text": "tively.",
+   "bbox": [
+    240,
+    2040,
+    375,
+    2086
+   ]
+  },
+  {
+   "text": "Notes: Convert the longitude into minutes. Lavel the place",
+   "bbox": [
+    312,
+    2057,
+    1464,
+    2169
+   ]
+  },
+  {
+   "text": "by water and fix a stick which must be twelve angulas.",
+   "bbox": [
+    243,
+    2117,
+    1352,
+    2220
+   ]
+  },
+  {
+   "text": "Yava is a barley grain. Eight yavas make one angula. Four",
+   "bbox": [
+    322,
+    2185,
+    1471,
+    2297
+   ]
+  },
+  {
+   "text": "angulas form a fist, and six mushtis (fists) make a hasta",
+   "bbox": [
+    249,
+    2234,
+    1472,
+    2356
+   ]
+  }
+ ]
+}

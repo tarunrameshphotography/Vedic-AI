@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0206",
+ "book_id": "brihat-jataka",
+ "seq": 206,
+ "source_ref": {
+  "pdf_page": 103,
+  "half": "b",
+  "v1_page": "s103b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "a80c998b805ecb2cddf3f0a812a5824b3e389d66138293e0cbeadd6ca72cf71e",
+ "lines": [
+  {
+   "text": "203",
+   "bbox": [
+    1393,
+    335,
+    1483,
+    368
+   ]
+  },
+  {
+   "text": "<b>Unknown Horoscopes</b>",
+   "bbox": [
+    270,
+    336,
+    702,
+    373
+   ]
+  },
+  {
+   "text": "bhavas can also be indicated alongwith the stars falling in",
+   "bbox": [
+    269,
+    437,
+    1489,
+    475
+   ]
+  },
+  {
+   "text": "them.",
+   "bbox": [
+    269,
+    489,
+    389,
+    523
+   ]
+  },
+  {
+   "text": "<i>Notes:</i> The other houses mentioned are significant. We are",
+   "bbox": [
+    342,
+    565,
+    1484,
+    603
+   ]
+  },
+  {
+   "text": "enable to know the constellations of the person's relations",
+   "bbox": [
+    267,
+    617,
+    1484,
+    656
+   ]
+  },
+  {
+   "text": "likewise, children, brothers and foes.",
+   "bbox": [
+    269,
+    670,
+    1004,
+    708
+   ]
+  },
+  {
+   "text": "The product obtained in the previous verses is to be",
+   "bbox": [
+    343,
+    748,
+    1484,
+    787
+   ]
+  },
+  {
+   "text": "multiplied by seven. To this we add nine when the rising lagna",
+   "bbox": [
+    267,
+    799,
+    1484,
+    839
+   ]
+  },
+  {
+   "text": "is a movable sign. If it is a common sign, nine has to be",
+   "bbox": [
+    267,
+    851,
+    1483,
+    895
+   ]
+  },
+  {
+   "text": "subtracted. If it is a fixed sign there is no addition or subtrac-",
+   "bbox": [
+    267,
+    905,
+    1483,
+    945
+   ]
+  },
+  {
+   "text": "tion.",
+   "bbox": [
+    267,
+    958,
+    363,
+    992
+   ]
+  },
+  {
+   "text": "Bhattotpala offers a different view. If the lagna at query is",
+   "bbox": [
+    343,
+    1036,
+    1484,
+    1075
+   ]
+  },
+  {
+   "text": "the first drekkana, nine must be added. If it is the third",
+   "bbox": [
+    267,
+    1088,
+    1484,
+    1127
+   ]
+  },
+  {
+   "text": "drekkana nine must be subtracted. If it is the second",
+   "bbox": [
+    267,
+    1141,
+    1481,
+    1178
+   ]
+  },
+  {
+   "text": "drekkana, there is no addition or subtraction. Then divide the",
+   "bbox": [
+    267,
+    1191,
+    1483,
+    1231
+   ]
+  },
+  {
+   "text": "total by 27. The remainder gives the star when counted from",
+   "bbox": [
+    267,
+    1246,
+    1481,
+    1285
+   ]
+  },
+  {
+   "text": "Asvini.",
+   "bbox": [
+    266,
+    1299,
+    410,
+    1334
+   ]
+  },
+  {
+   "text": "Others argue that the grand total before adding or",
+   "bbox": [
+    341,
+    1377,
+    1483,
+    1416
+   ]
+  },
+  {
+   "text": "subtracting must be divided by 27. To this remainder we are",
+   "bbox": [
+    266,
+    1430,
+    1480,
+    1468
+   ]
+  },
+  {
+   "text": "to add or subtract nine or do nothing and count from",
+   "bbox": [
+    264,
+    1481,
+    1481,
+    1525
+   ]
+  },
+  {
+   "text": "Asvini.",
+   "bbox": [
+    266,
+    1536,
+    410,
+    1569
+   ]
+  },
+  {
+   "text": "In the case of the relations we have to consult likewise. The",
+   "bbox": [
+    338,
+    1612,
+    1480,
+    1648
+   ]
+  },
+  {
+   "text": "house or houses concerned.",
+   "bbox": [
+    263,
+    1665,
+    811,
+    1700
+   ]
+  },
+  {
+   "text": "वर्षर्तमासतिथयो द्युनिशं ह्युडूनि",
+   "bbox": [
+    334,
+    1735,
+    787,
+    1793
+   ]
+  },
+  {
+   "text": "वेलोदयर्क्षनवभागविकल्पनाः स्यु:।",
+   "bbox": [
+    335,
+    1804,
+    824,
+    1854
+   ]
+  },
+  {
+   "text": "भूयो दशादिगुणिता: स्वविकल्पभक्ता",
+   "bbox": [
+    336,
+    1870,
+    868,
+    1922
+   ]
+  },
+  {
+   "text": "वर्षादयो नवकदानविशोधनाभ्याम् ।। 11 ।।",
+   "bbox": [
+    336,
+    1936,
+    955,
+    1985
+   ]
+  },
+  {
+   "text": "Multiply the total arrived at in verse 9 and 10. Add or",
+   "bbox": [
+    338,
+    2032,
+    1481,
+    2071
+   ]
+  },
+  {
+   "text": "subtract from it. Divide it by the figures given. We can then",
+   "bbox": [
+    263,
+    2083,
+    1480,
+    2122
+   ]
+  },
+  {
+   "text": "arrive the year, season, months, lunar months, night or day,",
+   "bbox": [
+    261,
+    2135,
+    1480,
+    2175
+   ]
+  },
+  {
+   "text": "constellation, time, lagna, navamsha and the like.",
+   "bbox": [
+    261,
+    2188,
+    1259,
+    2228
+   ]
+  },
+  {
+   "text": "<i>Notes:</i> Convert the degrees of the rising sign into minutes.",
+   "bbox": [
+    332,
+    2267,
+    1480,
+    2307
+   ]
+  },
+  {
+   "text": "Multiply it by the figures of that lagna and any planet which",
+   "bbox": [
+    260,
+    2314,
+    1480,
+    2360
+   ]
+  },
+  {
+   "text": "may be there. Place this total at four different places. Multiply",
+   "bbox": [
+    259,
+    2363,
+    1477,
+    2414
+   ]
+  }
+ ]
+}

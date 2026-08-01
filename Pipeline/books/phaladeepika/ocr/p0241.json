@@ -1,0 +1,288 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0241",
+ "book_id": "phaladeepika",
+ "seq": 241,
+ "source_ref": {
+  "pdf_page": 241
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "ff43516503cf107ac054b881ce8e150e9fdf5a6a437ebbb4b3a845fcc16e0742",
+ "lines": [
+  {
+   "text": "<b>Chapter 25</b>",
+   "bbox": [
+    281,
+    57,
+    357,
+    75
+   ]
+  },
+  {
+   "text": "<b>Calculation of the positions of Gulika</b>",
+   "bbox": [
+    192,
+    85,
+    446,
+    103
+   ]
+  },
+  {
+   "text": "<b>and other Upagrahas and their effects</b>",
+   "bbox": [
+    190,
+    113,
+    448,
+    130
+   ]
+  },
+  {
+   "text": "1. The author in this verse pays obeisance to all the upgrahas viz., (1) Mandi ",
+   "bbox": [
+    121,
+    164,
+    556,
+    180
+   ]
+  },
+  {
+   "text": "(Gulika), (2) Yamakantaka. (3) Ardhaprahara, (4) Kala, (5) Dhooma, (6) Patha or ",
+   "bbox": [
+    85,
+    188,
+    556,
+    204
+   ]
+  },
+  {
+   "text": "Vyatlpatl, (7) Parldhi, (8) Indra Dhanus and (9) Ketu or Upketu.",
+   "bbox": [
+    85,
+    213,
+    443,
+    228
+   ]
+  },
+  {
+   "text": "2. When the duration of the day is 30 ghatikas, the positions of Mandi or ",
+   "bbox": [
+    121,
+    237,
+    556,
+    252
+   ]
+  },
+  {
+   "text": "Gulika on the week days counting from Sunday onwards is at the end of 26, 22, 18, ",
+   "bbox": [
+    85,
+    261,
+    556,
+    276
+   ]
+  },
+  {
+   "text": "14, 10, 6, 2 ghatikasa (from Sunrise) during day time. These figures have to be ",
+   "bbox": [
+    85,
+    285,
+    556,
+    301
+   ]
+  },
+  {
+   "text": "proportionately increased or diminished according to the duration of the day ",
+   "bbox": [
+    85,
+    309,
+    556,
+    325
+   ]
+  },
+  {
+   "text": "chosen is greater or less than 30 ghatikas. At night (from Sunset) the positions of ",
+   "bbox": [
+    85,
+    333,
+    556,
+    349
+   ]
+  },
+  {
+   "text": "the lord of the seven muhurtas are counted not from the lord of the week day ",
+   "bbox": [
+    85,
+    358,
+    556,
+    373
+   ]
+  },
+  {
+   "text": "chosen; but that of the 5th. The position of mandi at night will be different on the ",
+   "bbox": [
+    85,
+    382,
+    556,
+    397
+   ]
+  },
+  {
+   "text": "week days viz., at the end of 10, 6, 2, 26, 22, 18 and 14 respectively.",
+   "bbox": [
+    85,
+    406,
+    468,
+    421
+   ]
+  },
+  {
+   "text": "3. The position of Yamakantaka during day time on week days is at the end ",
+   "bbox": [
+    121,
+    430,
+    556,
+    445
+   ]
+  },
+  {
+   "text": "of ghatikas 18, 14,10. 6, 2, 26 and 22; of Ardhapranara, at the end of Ghatikas 14, ",
+   "bbox": [
+    85,
+    454,
+    556,
+    470
+   ]
+  },
+  {
+   "text": "10, 6, 2, 26, 22 and 18.",
+   "bbox": [
+    85,
+    478,
+    214,
+    494
+   ]
+  },
+  {
+   "text": "4. The position of Kala on the week days counting from Sunday onwards is ",
+   "bbox": [
+    121,
+    502,
+    556,
+    518
+   ]
+  },
+  {
+   "text": "at the end of Ghatikas 2, 26. 22, 13, 14, 10 and 6, respectively during day time. ",
+   "bbox": [
+    85,
+    527,
+    556,
+    542
+   ]
+  },
+  {
+   "text": "These figures have, as already stated for Mandi, to be proportionately changed and ",
+   "bbox": [
+    85,
+    551,
+    556,
+    566
+   ]
+  },
+  {
+   "text": "their exact positions fixed as in the case of Lagna.",
+   "bbox": [
+    85,
+    575,
+    365,
+    590
+   ]
+  },
+  {
+   "text": "5. The position of Dhuma is ascertained by adding 4 signs, 13° and 20' to the ",
+   "bbox": [
+    121,
+    599,
+    556,
+    615
+   ]
+  },
+  {
+   "text": "longitude of the Sun. The position of Vyatlpata will be found if the longitude of ",
+   "bbox": [
+    85,
+    623,
+    556,
+    639
+   ]
+  },
+  {
+   "text": "Dhuma is substracted from 12 signs. The position of Paridhi (or Parivesha) can be ",
+   "bbox": [
+    85,
+    647,
+    556,
+    663
+   ]
+  },
+  {
+   "text": "found by adding 6 signs to the figure of Vyatipata. The position of Indra Dhanus ",
+   "bbox": [
+    85,
+    671,
+    556,
+    687
+   ]
+  },
+  {
+   "text": "(or Indra Chapti) is calculated by substracting longitude of Paridhi from 12 signs. ",
+   "bbox": [
+    85,
+    696,
+    556,
+    711
+   ]
+  },
+  {
+   "text": "The position of Upaketu is to be found out by adding 16 degrees and 40 minutes to ",
+   "bbox": [
+    85,
+    720,
+    556,
+    735
+   ]
+  },
+  {
+   "text": "the figure of Indra Dhanus. Upaketu increased by one sign wil give the longitude ",
+   "bbox": [
+    85,
+    744,
+    556,
+    759
+   ]
+  },
+  {
+   "text": "of the Sun.",
+   "bbox": [
+    85,
+    768,
+    146,
+    784
+   ]
+  },
+  {
+   "text": "241",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

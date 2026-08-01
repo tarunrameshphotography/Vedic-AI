@@ -1,0 +1,231 @@
+{
+ "schema": 2,
+ "book_id": "brihat-jataka",
+ "calibration": {
+  "decision": "calibrated",
+  "threshold": 43.5,
+  "gap_lower": 25.0,
+  "gap_upper": 62.0,
+  "gap_width": 37.0,
+  "required_margin": 15,
+  "hallucinated_population": {
+   "n": 123,
+   "max": 25.0
+  },
+  "real_population": {
+   "n": 7468,
+   "min": 62.0
+  },
+  "min_spread": 2.0,
+  "max_spread": 235.0
+ },
+ "pages": {
+  "brihat-jataka/p0001": {
+   "ocr_fingerprint": "5884ffd872b91e88ac84399c078c5406d40a922640c120ef56a90ecdf6d234b1",
+   "drop": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "n": 8
+  },
+  "brihat-jataka/p0008": {
+   "ocr_fingerprint": "20dd1f354a4f5301566da808d2a31888be25662e838f0caccb75f453fed418fb",
+   "drop": [
+    22
+   ],
+   "n": 23
+  },
+  "brihat-jataka/p0033": {
+   "ocr_fingerprint": "ba0c0ee03f1a72b280c279711e746e2fd9bfef3201bc4fef5207dc4dd9c2c04d",
+   "drop": [
+    38
+   ],
+   "n": 39
+  },
+  "brihat-jataka/p0043": {
+   "ocr_fingerprint": "ca923fd3b6f2e755e97aa2c5d73ada9b7482423a8f60aa3bf09edb6cab45462e",
+   "drop": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+   ],
+   "n": 30
+  },
+  "brihat-jataka/p0070": {
+   "ocr_fingerprint": "2c6f466772c158714fb3b756870946cdb56c5054068e00220742f9a849c8a2c5",
+   "drop": [
+    35,
+    36
+   ],
+   "n": 37
+  },
+  "brihat-jataka/p0124": {
+   "ocr_fingerprint": "6e1991ac1cd667bc69ca6d30a09d9c843ce9ce50c4807af5efdfa802e67ac705",
+   "drop": [
+    33
+   ],
+   "n": 34
+  },
+  "brihat-jataka/p0125": {
+   "ocr_fingerprint": "2a086b76fed8e785afccb5fab4c95fe7e31efeec553d72183f9fe88259f0afbb",
+   "drop": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+   ],
+   "n": 33
+  },
+  "brihat-jataka/p0133": {
+   "ocr_fingerprint": "622b356b1f40d0551bd92dc4999571192c2dc055785d063e4e530ec1fc9413ce",
+   "drop": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33
+   ],
+   "n": 34
+  },
+  "brihat-jataka/p0139": {
+   "ocr_fingerprint": "6df635c1bc2ef5310a1c4dfc70d73a74157842c0697bab01438348248bdd551d",
+   "drop": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+   ],
+   "n": 32
+  },
+  "brihat-jataka/p0168": {
+   "ocr_fingerprint": "ce3101d6cab5a68ee7f357f6224bc9fdcd07272689154594a6369c76403b1c82",
+   "drop": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "n": 21
+  },
+  "brihat-jataka/p0203": {
+   "ocr_fingerprint": "198e41555f555843cf2caab4fdf08e3ba77ce156011c084f383b1fadf59ec67e",
+   "drop": [
+    35
+   ],
+   "n": 36
+  },
+  "brihat-jataka/p0209": {
+   "ocr_fingerprint": "d63226a1ce6948781091d48c9c2aa427c3f553eaea0fdaf5ed3175802659137f",
+   "drop": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+   ],
+   "n": 36
+  },
+  "brihat-jataka/p0212": {
+   "ocr_fingerprint": "83869ba5a1811103463a234c9ca6ef65d9958468caeddf09a298665be547711d",
+   "drop": [
+    33
+   ],
+   "n": 34
+  },
+  "brihat-jataka/p0229": {
+   "ocr_fingerprint": "de839520beb83f20b044c7fcbd1f863174cabda59defd83fb44d30edd9f5931f",
+   "drop": [
+    0
+   ],
+   "n": 1
+  }
+ }
+}

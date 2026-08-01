@@ -1,0 +1,378 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0239",
+ "book_id": "phaladeepika",
+ "seq": 239,
+ "source_ref": {
+  "pdf_page": 239
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "a29139be101b6879d7ed8c991c8a564cd42e5d4e37e616e183ad0117f98b0de9",
+ "lines": [
+  {
+   "text": "(4) By one third if the planet occupies house in the visible half of the ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "horizon.",
+   "bbox": [
+    85,
+    82,
+    131,
+    97
+   ]
+  },
+  {
+   "text": "(5) By one third if a planet gets defeated in planetary war or occupies a ",
+   "bbox": [
+    121,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "position within the Pata range of the Sun and the Moon.",
+   "bbox": [
+    85,
+    130,
+    398,
+    145
+   ]
+  },
+  {
+   "text": "31-32. When several reductions have to be made in the case of a single ",
+   "bbox": [
+    121,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "planet, only one and that the greatest should be made. All the figures should then ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "be added up and the sum total should be multiplied by 324.",
+   "bbox": [
+    85,
+    202,
+    417,
+    218
+   ]
+  },
+  {
+   "text": "The product should then be divided by 365. The quotient will be the correct ",
+   "bbox": [
+    121,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "rectified Ayus contributed severally by the planets and may be shown in years, ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "months, days etc., and will be their dasa periods.",
+   "bbox": [
+    85,
+    275,
+    357,
+    290
+   ]
+  },
+  {
+   "text": "33. The dasa periods of each of the serveral planets should be calculated in ",
+   "bbox": [
+    121,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "this manner. According to the author the method of calculating the dasa periods by ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "the Ashtakavarga process is the best of all.",
+   "bbox": [
+    85,
+    347,
+    323,
+    363
+   ]
+  },
+  {
+   "text": "34-35. In the sarvashtakavarga the figures indicating the number of benefic ",
+   "bbox": [
+    121,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "Hindus in the 12 houses reckoned from —",
+   "bbox": [
+    85,
+    395,
+    323,
+    411
+   ]
+  },
+  {
+   "text": "(1) The Sun are 3,3,3,3,2,3,4,5,3,5,7,2 = 43 ",
+   "bbox": [
+    182,
+    420,
+    449,
+    435
+   ]
+  },
+  {
+   "text": "(2) The Moon 2,3,5,2,2,5,2,2,2,3,7,1 ",
+   "bbox": [
+    182,
+    436,
+    398,
+    451
+   ]
+  },
+  {
+   "text": "= 36 ",
+   "bbox": [
+    413,
+    436,
+    449,
+    451
+   ]
+  },
+  {
+   "text": "(3) Mars 4,5,3,5,2,3,4,4,4,6,7.2 ",
+   "bbox": [
+    182,
+    452,
+    368,
+    467
+   ]
+  },
+  {
+   "text": "= 49 ",
+   "bbox": [
+    413,
+    452,
+    449,
+    467
+   ]
+  },
+  {
+   "text": "(4) Mercury 3,1,5,2,6,6,1.2,5,5,7,3 ",
+   "bbox": [
+    182,
+    468,
+    388,
+    483
+   ]
+  },
+  {
+   "text": "= 46 ",
+   "bbox": [
+    413,
+    468,
+    449,
+    483
+   ]
+  },
+  {
+   "text": "(5) Jupiter 2.2,1,2,3,4,2,4,2,4,7,3 ",
+   "bbox": [
+    182,
+    484,
+    378,
+    500
+   ]
+  },
+  {
+   "text": "= 36 ",
+   "bbox": [
+    413,
+    484,
+    449,
+    500
+   ]
+  },
+  {
+   "text": "(6) Venus 2,2,3,3,3,4,4,2,3,4,3,4,3,6,3 = 40 ",
+   "bbox": [
+    182,
+    500,
+    449,
+    516
+   ]
+  },
+  {
+   "text": "(7) Saturn 3,2,4.4,4,3,3,4,4,4,6,1 ",
+   "bbox": [
+    182,
+    516,
+    376,
+    532
+   ]
+  },
+  {
+   "text": "= 42 ",
+   "bbox": [
+    413,
+    516,
+    449,
+    532
+   ]
+  },
+  {
+   "text": "(8) Lagna 5,3,5,5,2.6,1,2,2,6,7,1 ",
+   "bbox": [
+    182,
+    532,
+    375,
+    548
+   ]
+  },
+  {
+   "text": "= 45 ",
+   "bbox": [
+    413,
+    532,
+    449,
+    548
+   ]
+  },
+  {
+   "text": "Total Sarvashtakavarga figure ",
+   "bbox": [
+    210,
+    548,
+    381,
+    564
+   ]
+  },
+  {
+   "text": "= 537 ",
+   "bbox": [
+    413,
+    548,
+    456,
+    564
+   ]
+  },
+  {
+   "text": "36. The Ashtakavarga system considered as the most effective for all ",
+   "bbox": [
+    121,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "undertakings. There is no other way to determine the good or bad result of any of ",
+   "bbox": [
+    85,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "the event at any time.",
+   "bbox": [
+    85,
+    637,
+    205,
+    652
+   ]
+  },
+  {
+   "text": "37. The signs which have 30 or more benefic bindus always prove benefic. ",
+   "bbox": [
+    121,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "The effect will be medium or benefic for bindus between 25 and 30. The houses ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "containing less than 25 will cause misery.",
+   "bbox": [
+    85,
+    709,
+    318,
+    725
+   ]
+  },
+  {
+   "text": "38. The native will acquire wealth and will be happy if in his nativity, the ",
+   "bbox": [
+    121,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "number of benefic bindus in the 11th house of the sarvashtaka-varga exceeds the ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "239",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

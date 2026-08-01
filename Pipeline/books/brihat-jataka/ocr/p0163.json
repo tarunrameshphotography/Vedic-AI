@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0163",
+ "book_id": "brihat-jataka",
+ "seq": 163,
+ "source_ref": {
+  "pdf_page": 82,
+  "half": "a",
+  "v1_page": "s082a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "f84281ee749b6e7416353e1e841fb5e14307abec433562fecdba5c8ad82bb6a2",
+ "lines": [
+  {
+   "text": "160",
+   "bbox": [
+    326,
+    239,
+    416,
+    273
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1244,
+    240,
+    1535,
+    273
+   ]
+  },
+  {
+   "text": "<b>Decanates of Moon</b>",
+   "bbox": [
+    322,
+    340,
+    820,
+    377
+   ]
+  },
+  {
+   "text": "कल्याणरूपगुणमात्मसुह्रद्दुकाणे चन्द्रोऽन्यगस्तदधिनाथगुणं करोति ।",
+   "bbox": [
+    395,
+    422,
+    1338,
+    473
+   ]
+  },
+  {
+   "text": "व्यालोद्यतायुधचतुश्चरणाण्डजेषु तीक्ष्णोऽतिहिंसगुरुतल्परतोऽटनश्च ।। 6 ।।",
+   "bbox": [
+    395,
+    486,
+    1424,
+    540
+   ]
+  },
+  {
+   "text": "If Moon is located in a decanate belonging to herself or to",
+   "bbox": [
+    399,
+    591,
+    1536,
+    629
+   ]
+  },
+  {
+   "text": "her friend, the person born will have nice qualities and very",
+   "bbox": [
+    322,
+    642,
+    1536,
+    682
+   ]
+  },
+  {
+   "text": "good appearance. Moon located in other signs and decanates",
+   "bbox": [
+    323,
+    695,
+    1538,
+    735
+   ]
+  },
+  {
+   "text": "would give medium results if she occupies the decante of a",
+   "bbox": [
+    323,
+    748,
+    1536,
+    789
+   ]
+  },
+  {
+   "text": "temporal friend. If it occupies the decanate of a planet that is",
+   "bbox": [
+    321,
+    799,
+    1538,
+    845
+   ]
+  },
+  {
+   "text": "her temporal enemy, the results regarding qualities and ap-",
+   "bbox": [
+    320,
+    856,
+    1535,
+    896
+   ]
+  },
+  {
+   "text": "pearance would be of the lowest order. If the decanate occupied",
+   "bbox": [
+    321,
+    906,
+    1535,
+    952
+   ]
+  },
+  {
+   "text": "by her is \"Sarpa\" the native will have aggressive tempera-",
+   "bbox": [
+    323,
+    962,
+    1535,
+    1001
+   ]
+  },
+  {
+   "text": "ment. If the decante occupied is \"Udyat Ayudha\", he is ever",
+   "bbox": [
+    320,
+    1012,
+    1538,
+    1058
+   ]
+  },
+  {
+   "text": "ready to attack others by weapons. If she is in the animal",
+   "bbox": [
+    319,
+    1066,
+    1538,
+    1107
+   ]
+  },
+  {
+   "text": "decanate, he may have sex relations with the wife of his Guru.",
+   "bbox": [
+    320,
+    1122,
+    1535,
+    1160
+   ]
+  },
+  {
+   "text": "If it is a \"Bird\" decanate he wanders much in life.",
+   "bbox": [
+    321,
+    1171,
+    1305,
+    1215
+   ]
+  },
+  {
+   "text": "Navamsha",
+   "bbox": [
+    319,
+    1282,
+    596,
+    1318
+   ]
+  },
+  {
+   "text": "स्तेनो भोक्ता पण्डिताढचो नरेन्द्र: क्लीब:शूरो विष्टिकद्दासवृत्ति:।",
+   "bbox": [
+    392,
+    1366,
+    1309,
+    1417
+   ]
+  },
+  {
+   "text": "पापो हिंस्रोऽभीश्च वर्गोत्तमांशेष्वेपामीशा राशिवद् द्वादशांशै: ।। 7।।",
+   "bbox": [
+    392,
+    1427,
+    1341,
+    1481
+   ]
+  },
+  {
+   "text": "One having Aries navamsha in lagna has stealing habits.",
+   "bbox": [
+    393,
+    1528,
+    1536,
+    1574
+   ]
+  },
+  {
+   "text": "If there is the navamsha of Taurus, he enjoys a happy life. If",
+   "bbox": [
+    318,
+    1581,
+    1539,
+    1627
+   ]
+  },
+  {
+   "text": "it is of Gemini, one is learned. If there is the navamsha of",
+   "bbox": [
+    314,
+    1638,
+    1539,
+    1677
+   ]
+  },
+  {
+   "text": "Cancer he is rich, if it is of Leo, one is a king. If it is of Virgo,",
+   "bbox": [
+    319,
+    1692,
+    1536,
+    1732
+   ]
+  },
+  {
+   "text": "one is a eunuch. If it is of Libra one is valiant. If it is Scorpio",
+   "bbox": [
+    319,
+    1746,
+    1535,
+    1785
+   ]
+  },
+  {
+   "text": "one is a poor burden bearer. If it is in Sagittarius one is servile.",
+   "bbox": [
+    319,
+    1800,
+    1535,
+    1839
+   ]
+  },
+  {
+   "text": "If it is Capricorn one is sinful. If it is in Acquarius one is cruel",
+   "bbox": [
+    317,
+    1851,
+    1536,
+    1895
+   ]
+  },
+  {
+   "text": "and if in Pisces one is fearless. These results are for ascendants",
+   "bbox": [
+    317,
+    1907,
+    1533,
+    1942
+   ]
+  },
+  {
+   "text": "other than \"Vargottam\". In the case of Vargottam Navamshas",
+   "bbox": [
+    319,
+    1962,
+    1535,
+    2001
+   ]
+  },
+  {
+   "text": "being present in the lagnas, the persons would be leaders in",
+   "bbox": [
+    316,
+    2013,
+    1535,
+    2055
+   ]
+  },
+  {
+   "text": "their respective fields. For example if the Aries lagna is",
+   "bbox": [
+    314,
+    2068,
+    1533,
+    2107
+   ]
+  },
+  {
+   "text": "Vargottam (having Aries Navamsha), the person born would",
+   "bbox": [
+    317,
+    2117,
+    1535,
+    2163
+   ]
+  },
+  {
+   "text": "be leader of thieves. If the birth is in Vargottam Taurus lagna",
+   "bbox": [
+    313,
+    2175,
+    1533,
+    2214
+   ]
+  },
+  {
+   "text": "he will excel others in matters of enjoyments and so on.",
+   "bbox": [
+    313,
+    2225,
+    1426,
+    2269
+   ]
+  }
+ ]
+}

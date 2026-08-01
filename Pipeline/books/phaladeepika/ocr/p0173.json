@@ -1,0 +1,180 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0173",
+ "book_id": "phaladeepika",
+ "seq": 173,
+ "source_ref": {
+  "pdf_page": 173
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "7a6d8788994749949435fa86cfd7e93b3e3b4233de53c88a9aeaf903efcaead6",
+ "lines": [
+  {
+   "text": "In the same manner should be predicted the effects resulting from the Sun in ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "the several navamsas being aspected by the Moon and other planets.",
+   "bbox": [
+    85,
+    82,
+    467,
+    97
+   ]
+  },
+  {
+   "text": "16. What has been declared in verses 12-15 as effects of navamsa due to the ",
+   "bbox": [
+    121,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "Moon being posited in the navamsas of the Sun and other planets, should be ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "understood to be the effects derived from the navamsa division. The effects that ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "have been mentioned as resulting from the Moon in the several signs being ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "aspected by the different planets should be applicable in the case of Dwadasamsa ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "also.",
+   "bbox": [
+    85,
+    226,
+    111,
+    242
+   ]
+  },
+  {
+   "text": "17. The good effects declared above will be full or medium or little ",
+   "bbox": [
+    121,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "according as the Moon occupies a Vargottama position, his own navamsa or the ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "navamsa of another planet. In the case of bad effects it will be the reverse. Again, if ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "the lord of navamsa occupied by the Moon be strong, the effects described for the ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "Moon in several signs and aspected by the several planets will be multiplied and ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "only their effects due to the Moon occupying the particular navamsa subject to the ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "particular planetary aspect will come to pass.",
+   "bbox": [
+    85,
+    395,
+    338,
+    411
+   ]
+  },
+  {
+   "text": "Thus ends the eighteenth chapter on \"Conjunction of two Planets\" in ",
+   "bbox": [
+    121,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "Phaladeepika composed by Mantreswara.",
+   "bbox": [
+    85,
+    444,
+    320,
+    459
+   ]
+  },
+  {
+   "text": "173",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

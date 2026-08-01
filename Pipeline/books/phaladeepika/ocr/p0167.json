@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0167",
+ "book_id": "phaladeepika",
+ "seq": 167,
+ "source_ref": {
+  "pdf_page": 167
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "8fc0024ea1455bc3b28d0c3d129d0d9dd158b9fbfd70ea0712799520277c692d",
+ "lines": [
+  {
+   "text": "of the Moon at the time of birth or its trikona position or through the Lagna sign, ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "the 8th house or the 12th house.",
+   "bbox": [
+    85,
+    82,
+    264,
+    97
+   ]
+  },
+  {
+   "text": "20. The death of the native may take place when",
+   "bbox": [
+    121,
+    106,
+    392,
+    121
+   ]
+  },
+  {
+   "text": "(1) The Sun in the course of his transit passes through the sign occupied by ",
+   "bbox": [
+    121,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "the lord of the 8th house.",
+   "bbox": [
+    85,
+    154,
+    225,
+    169
+   ]
+  },
+  {
+   "text": "(2) The Moon in the course of her transit passes through thesign occupied by ",
+   "bbox": [
+    121,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "the Sun or through the nakshatra occupied by the lord of the 8th house.",
+   "bbox": [
+    85,
+    202,
+    483,
+    218
+   ]
+  },
+  {
+   "text": "21. If it is a case of night birth find out in which sign Gulika is posited. The ",
+   "bbox": [
+    121,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "death of the native takes place when Saturn in the course of his transit passes ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "through the trikona position of that sign. In the case of day birth the death of the ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "native may take place when Saturn in the course of his transit passes through the ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "sign 7th to that occupied by Gulika.",
+   "bbox": [
+    85,
+    323,
+    285,
+    339
+   ]
+  },
+  {
+   "text": "22. Add the longitudes of Jupiter and Rahu. The native will face danger of ",
+   "bbox": [
+    121,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "death when Jupiter in the course of his transit passes through the sign denoted by ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "the sum of the two longitudes or its trikona position.",
+   "bbox": [
+    85,
+    395,
+    378,
+    411
+   ]
+  },
+  {
+   "text": "23. The death of the native takes place when Saturn in the course of his ",
+   "bbox": [
+    121,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "transit passes through the house occupied by the lord of the decanate of the 8th ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "house.",
+   "bbox": [
+    85,
+    468,
+    121,
+    483
+   ]
+  },
+  {
+   "text": "The death of the native may also take place when Saturn in the course of his ",
+   "bbox": [
+    121,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "transit passes through the navamsa sign occupied by the lord of the 8th house ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "reckoned from the Lagna.",
+   "bbox": [
+    85,
+    540,
+    230,
+    556
+   ]
+  },
+  {
+   "text": "24. There is likelihood of the death of the native when Saturn in the course ",
+   "bbox": [
+    121,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "of his transit passes through the sign and navamsa occupied by him at birth or its ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "trines.",
+   "bbox": [
+    85,
+    613,
+    120,
+    628
+   ]
+  },
+  {
+   "text": "The same may happen when Saturn in the course of his transit passes ",
+   "bbox": [
+    121,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "through the sign or navamsa occupied by the lord of sign in which the Moon is ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "posited or its trines.",
+   "bbox": [
+    85,
+    685,
+    196,
+    701
+   ]
+  },
+  {
+   "text": "Death of the native may also take place when Saturn in the course of his ",
+   "bbox": [
+    121,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "transit passes through the sign or navamsa occupied by the lord of the 6th from the ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "Lagna and its trines.",
+   "bbox": [
+    85,
+    758,
+    199,
+    773
+   ]
+  },
+  {
+   "text": "167",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

@@ -1,0 +1,254 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0044",
+ "book_id": "brihat-jataka",
+ "seq": 44,
+ "source_ref": {
+  "pdf_page": 22,
+  "half": "b",
+  "v1_page": "s022b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "f1271d97455c7d3a3e095262e17ab908b967f96b04b2a8e4898876b9c33495a1",
+ "lines": [
+  {
+   "text": "3",
+   "bbox": [
+    862,
+    505,
+    903,
+    544
+   ]
+  },
+  {
+   "text": "वियोनिजन्माध्यायः",
+   "bbox": [
+    709,
+    647,
+    1053,
+    696
+   ]
+  },
+  {
+   "text": "<b>Non-Human Births</b>",
+   "bbox": [
+    508,
+    719,
+    1254,
+    796
+   ]
+  },
+  {
+   "text": "क्रूरग्रहैस्तु बलिभिर्विबलैश्च सौम्यै: क्लीबे चतुष्टयगतेतदवेक्षणाद्वा।",
+   "bbox": [
+    348,
+    967,
+    1280,
+    1022
+   ]
+  },
+  {
+   "text": "चन्द्रोपगद्विरसभागसमानरूपं सत्त्वं वदेद्यदि भवेत्सवियोनिसंज्ञ: ।। 1 ।।",
+   "bbox": [
+    348,
+    1030,
+    1350,
+    1084
+   ]
+  },
+  {
+   "text": "If in the birth chart, the malefic planets are very strong",
+   "bbox": [
+    349,
+    1130,
+    1486,
+    1170
+   ]
+  },
+  {
+   "text": "and the benefics are very weak and the impotent planets ie",
+   "bbox": [
+    277,
+    1181,
+    1485,
+    1225
+   ]
+  },
+  {
+   "text": "Saturn and Mercury occupy the kendra position or these impo-",
+   "bbox": [
+    277,
+    1237,
+    1485,
+    1276
+   ]
+  },
+  {
+   "text": "tent planets aspect Moon or the lagna, it should be declared as",
+   "bbox": [
+    277,
+    1289,
+    1486,
+    1329
+   ]
+  },
+  {
+   "text": "a non-human birth provided in addition the Moon occupies a",
+   "bbox": [
+    276,
+    1341,
+    1486,
+    1380
+   ]
+  },
+  {
+   "text": "dwadashamsha denoting a non-human being, the species of",
+   "bbox": [
+    277,
+    1394,
+    1489,
+    1434
+   ]
+  },
+  {
+   "text": "the non-human being should be determined from the form of",
+   "bbox": [
+    276,
+    1446,
+    1490,
+    1485
+   ]
+  },
+  {
+   "text": "the dwadashamsha sign involved (Aries for ram, Taurus for",
+   "bbox": [
+    274,
+    1495,
+    1488,
+    1541
+   ]
+  },
+  {
+   "text": "ox, Leo for lion etc).",
+   "bbox": [
+    277,
+    1552,
+    679,
+    1591
+   ]
+  },
+  {
+   "text": "पापाबलिन: स्वभागगा: पारक्ये विबलाश्च शेभना:।",
+   "bbox": [
+    346,
+    1622,
+    1060,
+    1674
+   ]
+  },
+  {
+   "text": "लग्नं च वियोनिसंज्ञकं दृष्ट्वाऽत्रापि वियोनिमादिशेत्।। 2 ।।",
+   "bbox": [
+    346,
+    1692,
+    1223,
+    1742
+   ]
+  },
+  {
+   "text": "If in the birth chart the malefic planets are strong and",
+   "bbox": [
+    348,
+    1786,
+    1485,
+    1826
+   ]
+  },
+  {
+   "text": "occupy their own navamshas and the benefic are on the con-",
+   "bbox": [
+    274,
+    1839,
+    1483,
+    1878
+   ]
+  },
+  {
+   "text": "trary, weak and occupying navamshas other than their own,",
+   "bbox": [
+    274,
+    1892,
+    1483,
+    1932
+   ]
+  },
+  {
+   "text": "and the ascendant sign is non human, even then the birth",
+   "bbox": [
+    274,
+    1945,
+    1483,
+    1984
+   ]
+  },
+  {
+   "text": "should be declared as non-human.",
+   "bbox": [
+    273,
+    1997,
+    954,
+    2033
+   ]
+  },
+  {
+   "text": "<i>Commentary:</i> From a reading of the two shlokas it seems",
+   "bbox": [
+    348,
+    2076,
+    1483,
+    2115
+   ]
+  },
+  {
+   "text": "there are two main conditions that denote non-human births.",
+   "bbox": [
+    271,
+    2125,
+    1485,
+    2164
+   ]
+  },
+  {
+   "text": "The first condition is that the natural benefic planets should be",
+   "bbox": [
+    272,
+    2180,
+    1483,
+    2219
+   ]
+  },
+  {
+   "text": "extremely weak by as many ways as possible including their",
+   "bbox": [
+    272,
+    2231,
+    1485,
+    2271
+   ]
+  },
+  {
+   "text": "adverse position in the navamsha chart, and the natural",
+   "bbox": [
+    270,
+    2286,
+    1485,
+    2324
+   ]
+  }
+ ]
+}

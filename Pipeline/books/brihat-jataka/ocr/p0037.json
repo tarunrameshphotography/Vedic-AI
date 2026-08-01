@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0037",
+ "book_id": "brihat-jataka",
+ "seq": 37,
+ "source_ref": {
+  "pdf_page": 19,
+  "half": "a",
+  "v1_page": "s019a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "0578045e942a5a027227928ec5228f142d9f1be4489a3d6720b64ad7c2edc0d1",
+ "lines": [
+  {
+   "text": "34",
+   "bbox": [
+    356,
+    180,
+    422,
+    214
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1277,
+    195,
+    1573,
+    232
+   ]
+  },
+  {
+   "text": "Saturn is lazy with honey coloured eyes, thin and tall. He",
+   "bbox": [
+    429,
+    283,
+    1581,
+    342
+   ]
+  },
+  {
+   "text": "is a nervous planet ie governs the nerves. His teeth are big and",
+   "bbox": [
+    351,
+    334,
+    1570,
+    392
+   ]
+  },
+  {
+   "text": "hair are hard and dry. His nature is windy. The tissues repro-",
+   "bbox": [
+    351,
+    383,
+    1567,
+    446
+   ]
+  },
+  {
+   "text": "sented by the planets are bones by Sun, blood by Moon, mar-",
+   "bbox": [
+    351,
+    438,
+    1567,
+    497
+   ]
+  },
+  {
+   "text": "row of the bones by Mars, skin by Mercury, fat by Jupiter and",
+   "bbox": [
+    348,
+    489,
+    1567,
+    551
+   ]
+  },
+  {
+   "text": "semen by Venus.",
+   "bbox": [
+    349,
+    542,
+    690,
+    588
+   ]
+  },
+  {
+   "text": "Abode and Clothes of Planets",
+   "bbox": [
+    346,
+    641,
+    1119,
+    697
+   ]
+  },
+  {
+   "text": "देवाम्ब्वग्निविहारकोशशयनक्षित्युत्करेशाः क्रमा-",
+   "bbox": [
+    417,
+    725,
+    1102,
+    785
+   ]
+  },
+  {
+   "text": "द्वस्त्रं स्थूलमभुक्तामग्निकहृतं मध्यं दुढं स्फाटितम्।",
+   "bbox": [
+    415,
+    792,
+    1133,
+    852
+   ]
+  },
+  {
+   "text": "ताम्रं स्यान्मणिहेमशुक्तिरजतान्यकांतु मुक्तायसी",
+   "bbox": [
+    415,
+    854,
+    1086,
+    920
+   ]
+  },
+  {
+   "text": "द्रेष्काणैः शिशिरादयः शशुरुचज्ञग्वादिषूद्यत्सु चा। 12 ।।",
+   "bbox": [
+    414,
+    919,
+    1237,
+    988
+   ]
+  },
+  {
+   "text": "The places most frequented by the planets are places of",
+   "bbox": [
+    413,
+    1014,
+    1561,
+    1076
+   ]
+  },
+  {
+   "text": "worship by Sun, watery resorts by Moon, Firy places by Mars",
+   "bbox": [
+    339,
+    1066,
+    1556,
+    1129
+   ]
+  },
+  {
+   "text": "Pleasure and playing grounds by Mercury, treasuries, banks",
+   "bbox": [
+    336,
+    1116,
+    1554,
+    1184
+   ]
+  },
+  {
+   "text": "and other houses of finance by Jupiter, Pleasures of the bed",
+   "bbox": [
+    339,
+    1172,
+    1554,
+    1232
+   ]
+  },
+  {
+   "text": "and sleeping rooms by Venus, Waste land by Saturn. The cloth",
+   "bbox": [
+    335,
+    1225,
+    1553,
+    1284
+   ]
+  },
+  {
+   "text": "relating to Sun is coarse, of Moon it is new, of Mars it is a cloth",
+   "bbox": [
+    333,
+    1275,
+    1551,
+    1341
+   ]
+  },
+  {
+   "text": "whose corner is burnt, wet of Mercury, one neither old nor new",
+   "bbox": [
+    333,
+    1330,
+    1550,
+    1392
+   ]
+  },
+  {
+   "text": "for Jupiter, strong for Venus, very old for Saturn. Sun governs",
+   "bbox": [
+    332,
+    1383,
+    1550,
+    1444
+   ]
+  },
+  {
+   "text": "copper, Moon governs gems, Mars governs gold, Mercury gov-",
+   "bbox": [
+    328,
+    1434,
+    1549,
+    1498
+   ]
+  },
+  {
+   "text": "erns alloys, Jupiter rules silver, Venus rules pearls and Saturn",
+   "bbox": [
+    329,
+    1483,
+    1546,
+    1554
+   ]
+  },
+  {
+   "text": "rules iron. Saturn is related to the season shishir (Mid Janu-",
+   "bbox": [
+    328,
+    1540,
+    1546,
+    1598
+   ]
+  },
+  {
+   "text": "ary to Mid March), Venus to vasant (spring), Mars to summer,",
+   "bbox": [
+    328,
+    1593,
+    1544,
+    1653
+   ]
+  },
+  {
+   "text": "Moon to the rainy season, Mercury to sharad (mid September",
+   "bbox": [
+    326,
+    1643,
+    1544,
+    1707
+   ]
+  },
+  {
+   "text": "to mid November), Jupiter to hemant ie mid November to mid",
+   "bbox": [
+    323,
+    1697,
+    1543,
+    1760
+   ]
+  },
+  {
+   "text": "January and Sun also summer.",
+   "bbox": [
+    323,
+    1748,
+    952,
+    1801
+   ]
+  },
+  {
+   "text": "<b>Aspects of Planets</b>",
+   "bbox": [
+    321,
+    1852,
+    805,
+    1904
+   ]
+  },
+  {
+   "text": "त्रिदशत्रिकोणचतुरस्रसप्तमानवलोकयन्ति चरणाभिवृद्धित:।",
+   "bbox": [
+    397,
+    1933,
+    1212,
+    1996
+   ]
+  },
+  {
+   "text": "रविजामरेज्यरुधिरा: परे च ये क्रमशो भवन्ति किल वीक्षणेऽधिका:।। 13 ।।",
+   "bbox": [
+    395,
+    1992,
+    1497,
+    2067
+   ]
+  },
+  {
+   "text": "A planet aspects ie throws its influence on the 3rd and 10th",
+   "bbox": [
+    391,
+    2091,
+    1537,
+    2151
+   ]
+  },
+  {
+   "text": "place with 1/4th of its total aspect. It aspects the place 5th and",
+   "bbox": [
+    316,
+    2142,
+    1538,
+    2204
+   ]
+  },
+  {
+   "text": "9th from it with half of its aspect, it influences the place 4th",
+   "bbox": [
+    316,
+    2192,
+    1537,
+    2258
+   ]
+  },
+  {
+   "text": "and 8th from it with 3/4th of its power of aspect. All planets",
+   "bbox": [
+    316,
+    2245,
+    1534,
+    2307
+   ]
+  }
+ ]
+}

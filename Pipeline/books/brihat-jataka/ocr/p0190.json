@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0190",
+ "book_id": "brihat-jataka",
+ "seq": 190,
+ "source_ref": {
+  "pdf_page": 95,
+  "half": "b",
+  "v1_page": "s095b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "15354d727aca7c48101e5b2d0db6c705c3a2e5384d27cba2df23da55c7402beb",
+ "lines": [
+  {
+   "text": "187",
+   "bbox": [
+    1292,
+    159,
+    1377,
+    193
+   ]
+  },
+  {
+   "text": "Death",
+   "bbox": [
+    163,
+    204,
+    296,
+    245
+   ]
+  },
+  {
+   "text": "The part of the body is that suggested by Kalapurusha.",
+   "bbox": [
+    242,
+    252,
+    1388,
+    351
+   ]
+  },
+  {
+   "text": "Starting from Mesha these are the head, face, chest, heart,",
+   "bbox": [
+    170,
+    301,
+    1391,
+    406
+   ]
+  },
+  {
+   "text": "belly, waist, lower abdomen, genitals, thighs, knees, buttocks",
+   "bbox": [
+    171,
+    353,
+    1393,
+    455
+   ]
+  },
+  {
+   "text": "and feet. Only when there are no planets in the eighth, we",
+   "bbox": [
+    172,
+    403,
+    1395,
+    507
+   ]
+  },
+  {
+   "text": "have to consider the aspects on the eighth.",
+   "bbox": [
+    176,
+    473,
+    1034,
+    554
+   ]
+  },
+  {
+   "text": "Sun in 8th from lagna-fire, Moon-water, Mars-weapons,",
+   "bbox": [
+    253,
+    533,
+    1399,
+    628
+   ]
+  },
+  {
+   "text": "Mercury-fever, Guru-Complicated disease, Shukra-thirst,",
+   "bbox": [
+    178,
+    581,
+    1402,
+    681
+   ]
+  },
+  {
+   "text": "Shani-hunger.",
+   "bbox": [
+    186,
+    679,
+    494,
+    723
+   ]
+  },
+  {
+   "text": "शैलाग्राभिहतस्य सूर्यकुजयोर्मृत्युः खबन्धुस्थ्योः",
+   "bbox": [
+    259,
+    727,
+    927,
+    817
+   ]
+  },
+  {
+   "text": "कूपे मन्दशशाङ्कभूमितनयैर्बन्ध्वस्त कर्मस्थितै:।",
+   "bbox": [
+    260,
+    785,
+    926,
+    883
+   ]
+  },
+  {
+   "text": "कन्यायां स्वजनाद्धिमोष्णकरयोः पापग्रहैदृष्टयोः",
+   "bbox": [
+    264,
+    858,
+    937,
+    941
+   ]
+  },
+  {
+   "text": "स्यातां यद्युभयोदयेऽर्कशशिनौ तोये तदा मज्जित: ।। 2 ।।",
+   "bbox": [
+    267,
+    916,
+    1092,
+    1008
+   ]
+  },
+  {
+   "text": "When the Sun and Mars are in 4 or 10, death is by",
+   "bbox": [
+    271,
+    997,
+    1419,
+    1092
+   ]
+  },
+  {
+   "text": "stones.",
+   "bbox": [
+    199,
+    1102,
+    344,
+    1138
+   ]
+  },
+  {
+   "text": "If Shani, Moon and Mars are in 4, 7 and 10 respectively",
+   "bbox": [
+    274,
+    1123,
+    1423,
+    1220
+   ]
+  },
+  {
+   "text": "death is by falling into a well.",
+   "bbox": [
+    203,
+    1202,
+    806,
+    1268
+   ]
+  },
+  {
+   "text": "If the Sun and Moon are in Kanya aspected by malefics he",
+   "bbox": [
+    280,
+    1249,
+    1429,
+    1344
+   ]
+  },
+  {
+   "text": "is killed by his own people.",
+   "bbox": [
+    208,
+    1329,
+    754,
+    1395
+   ]
+  },
+  {
+   "text": "If the lagna is a common sign with the Sun and the Moon",
+   "bbox": [
+    285,
+    1374,
+    1433,
+    1473
+   ]
+  },
+  {
+   "text": "in it, the native dies by drowning.",
+   "bbox": [
+    211,
+    1449,
+    900,
+    1523
+   ]
+  },
+  {
+   "text": "मन्दे कर्कटगे जलोदरकृतो मृत्युर्मृगाङ्के मृगे",
+   "bbox": [
+    289,
+    1525,
+    909,
+    1606
+   ]
+  },
+  {
+   "text": "शस्त्राग्निप्रभवः शशिन्यशुभयोर्मध्ये कुजर्क्षे स्थिते।",
+   "bbox": [
+    296,
+    1589,
+    1006,
+    1666
+   ]
+  },
+  {
+   "text": "कन्यायां रुधिरोत्थशोषजनितस्तद्वत्स्थिते शीतगौ",
+   "bbox": [
+    295,
+    1651,
+    963,
+    1733
+   ]
+  },
+  {
+   "text": "सौरर्क्षे यदि तद्वदेव हिमगौ रज्ज्वग्निपातै:कृत: ।। 3 ।।",
+   "bbox": [
+    300,
+    1713,
+    1086,
+    1801
+   ]
+  },
+  {
+   "text": "Shani in Cancer and Moon in Makara brings death by",
+   "bbox": [
+    302,
+    1787,
+    1449,
+    1885
+   ]
+  },
+  {
+   "text": "jalodara.",
+   "bbox": [
+    228,
+    1887,
+    410,
+    1933
+   ]
+  },
+  {
+   "text": "When the Moon is in a sign owned by Kuja and between",
+   "bbox": [
+    306,
+    1913,
+    1456,
+    2010
+   ]
+  },
+  {
+   "text": "malefics, death is from weapons or fire.",
+   "bbox": [
+    233,
+    1987,
+    1026,
+    2060
+   ]
+  },
+  {
+   "text": "When the Moon is in Kanya and between malefics, death is",
+   "bbox": [
+    312,
+    2040,
+    1461,
+    2136
+   ]
+  },
+  {
+   "text": "by complications in blood or by consumption.",
+   "bbox": [
+    238,
+    2110,
+    1138,
+    2188
+   ]
+  },
+  {
+   "text": "When the Moon is in a sign owned by Shani and is between",
+   "bbox": [
+    318,
+    2170,
+    1465,
+    2267
+   ]
+  },
+  {
+   "text": "malefics, death is by ropes, fire or fall.",
+   "bbox": [
+    240,
+    2244,
+    1015,
+    2319
+   ]
+  }
+ ]
+}

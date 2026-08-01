@@ -1,0 +1,344 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0209",
+ "book_id": "brihat-jataka",
+ "seq": 209,
+ "source_ref": {
+  "pdf_page": 105,
+  "half": "a",
+  "v1_page": "s105a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "d63226a1ce6948781091d48c9c2aa427c3f553eaea0fdaf5ed3175802659137f",
+ "lines": [
+  {
+   "text": "206",
+   "bbox": [
+    366,
+    167,
+    463,
+    200
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1291,
+    216,
+    1590,
+    269
+   ]
+  },
+  {
+   "text": "the same direction as the questioner, add two. We get 212.",
+   "bbox": [
+    352,
+    262,
+    1590,
+    384
+   ]
+  },
+  {
+   "text": "Divided by 27, we get 23 as the remainder. Counting from",
+   "bbox": [
+    350,
+    310,
+    1586,
+    437
+   ]
+  },
+  {
+   "text": "Dhanishtha we get Jyeshtha.",
+   "bbox": [
+    350,
+    367,
+    948,
+    447
+   ]
+  },
+  {
+   "text": "इति नष्टजातकमिदं बहुप्रकारं मया विनिर्दिष्टम्।",
+   "bbox": [
+    417,
+    449,
+    1125,
+    544
+   ]
+  },
+  {
+   "text": "ग्राह्यमद: सच्छिष्यै: परीक्ष्य यत्नाद्यथा भवति।। 17 ।।",
+   "bbox": [
+    414,
+    506,
+    1220,
+    614
+   ]
+  },
+  {
+   "text": "We have given different methods regarding lost horo-",
+   "bbox": [
+    411,
+    603,
+    1569,
+    721
+   ]
+  },
+  {
+   "text": "scopes. A good student should accept that method which he",
+   "bbox": [
+    330,
+    648,
+    1564,
+    775
+   ]
+  },
+  {
+   "text": "finds to be correct after painful calculations, hard work and",
+   "bbox": [
+    326,
+    701,
+    1560,
+    825
+   ]
+  },
+  {
+   "text": "experience.",
+   "bbox": [
+    324,
+    760,
+    563,
+    816
+   ]
+  },
+  {
+   "text": "इति श्रीवराहमिहिरकृते बृहज्जातके नष्टजातकाध्याय: षड्विंश: 112611",
+   "bbox": [
+    427,
+    964,
+    1430,
+    1082
+   ]
+  },
+  {
+   "text": "Thus ends the twenty-sixth chapter on Unknown Horo-",
+   "bbox": [
+    381,
+    1050,
+    1540,
+    1171
+   ]
+  },
+  {
+   "text": "scopes in Brihat Jatak composed by Varahamihira.",
+   "bbox": [
+    302,
+    1098,
+    1332,
+    1210
+   ]
+  },
+  {
+   "text": "计分类性 医血管切除术 医血管切除术 医血管切除术 医动脉",
+   "bbox": [
+    516,
+    1200,
+    1465,
+    1281
+   ]
+  },
+  {
+   "text": "计数据文件 网络阿拉克斯",
+   "bbox": [
+    277,
+    1283,
+    748,
+    1355
+   ]
+  },
+  {
+   "text": "<b>CONTRACTOR</b> AND IN",
+   "bbox": [
+    245,
+    1333,
+    754,
+    1413
+   ]
+  },
+  {
+   "text": "a ban in is to be come",
+   "bbox": [
+    1094,
+    1376,
+    1507,
+    1445
+   ]
+  },
+  {
+   "text": "<b>《大学》中，其中的一个人的文化，以及《大学》中的《大学》中，以及《大学》中的《</b>",
+   "bbox": [
+    267,
+    1386,
+    1512,
+    1504
+   ]
+  },
+  {
+   "text": "and the same states and the same of the construction of the construction of the construction of the construction of the construction of the construction of the construction of the construction of the construction of the co",
+   "bbox": [
+    284,
+    1435,
+    1511,
+    1558
+   ]
+  },
+  {
+   "text": "and the first stage in the stage of the",
+   "bbox": [
+    290,
+    1495,
+    882,
+    1577
+   ]
+  },
+  {
+   "text": "a na matangan sa kala",
+   "bbox": [
+    1098,
+    1545,
+    1515,
+    1604
+   ]
+  },
+  {
+   "text": "Hanger, bygger and a bird of the control of the party of the control of the control of the control of the control of",
+   "bbox": [
+    280,
+    1577,
+    1432,
+    1678
+   ]
+  },
+  {
+   "text": "1990年，1992年19月11日，1992年19月11日，1992年1月11日，1992年11月",
+   "bbox": [
+    238,
+    1633,
+    1235,
+    1723
+   ]
+  },
+  {
+   "text": "te strill closel Thanks in the most of",
+   "bbox": [
+    688,
+    1698,
+    1396,
+    1784
+   ]
+  },
+  {
+   "text": "",
+   "bbox": [
+    252,
+    1706,
+    1199,
+    1875
+   ]
+  },
+  {
+   "text": "ومستحير المتواطن والمتحرك والمتحدث والمتحدث والمتحدث المتحدث والمتحدث",
+   "bbox": [
+    266,
+    1819,
+    1361,
+    1932
+   ]
+  },
+  {
+   "text": "وموارد والمتحدث والمراكب والمتحدث والمتحدث والمتحدث والمتحدث",
+   "bbox": [
+    253,
+    1869,
+    1482,
+    2031
+   ]
+  },
+  {
+   "text": "4. 이 사이트 아이는 사이에서 2014년 2016년에 대한 사이트 시대에 대한 사이트 사이트 3000",
+   "bbox": [
+    271,
+    1965,
+    1491,
+    2077
+   ]
+  },
+  {
+   "text": "1000mm 정도 보다 2010mm 정도 2010mm 이 2010mm 이 1000mm 이 1000mm 이 1000mm 이 1000mm 이 1000mm 이 1000mm 이 1000mm 이 1000mm",
+   "bbox": [
+    253,
+    2015,
+    1491,
+    2127
+   ]
+  },
+  {
+   "text": "an international control of the AMERICAN and State and Action",
+   "bbox": [
+    254,
+    2064,
+    1482,
+    2196
+   ]
+  },
+  {
+   "text": "month the website perfect to",
+   "bbox": [
+    265,
+    2157,
+    836,
+    2230
+   ]
+  },
+  {
+   "text": "til i brette er",
+   "bbox": [
+    1142,
+    2174,
+    1450,
+    2213
+   ]
+  },
+  {
+   "text": "一项“三日元”的现在分词无论是一个一个可能的说明，这是某些不够的",
+   "bbox": [
+    195,
+    2209,
+    1390,
+    2292
+   ]
+  },
+  {
+   "text": "months 그는 누가 나라 우리나라에 대해 가지 않고 나라 나라 그 사람들이 잘 알아보고 있다. 그 그의 물",
+   "bbox": [
+    297,
+    2254,
+    1518,
+    2356
+   ]
+  },
+  {
+   "text": "",
+   "bbox": [
+    325,
+    2299,
+    1070,
+    2394
+   ]
+  }
+ ]
+}

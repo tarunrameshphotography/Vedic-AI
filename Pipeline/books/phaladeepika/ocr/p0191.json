@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0191",
+ "book_id": "phaladeepika",
+ "seq": 191,
+ "source_ref": {
+  "pdf_page": 191
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "44def88ec28b701b82f9d15abf90ad537ee9f0d72d699661e64940cc8ac91b38",
+ "lines": [
+  {
+   "text": "44. Find out what all planets are related (Chapter 25, verse 30) to the ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "particular planet whose dasa is under consideration. Note also the planets if any ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "which are similarly circumstanced (whether for good or bad) i.e. holding a position ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "coordinate to the one under reference. It is only in the antar dasas of these planets ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "that the original planet will in his main dasa manifest his effect.",
+   "bbox": [
+    85,
+    154,
+    441,
+    169
+   ]
+  },
+  {
+   "text": "45. The lords of kendras and trikonas, even if they themselves be capable of ",
+   "bbox": [
+    121,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "causing evil (owning to their having lordships of evil house), become yogakarakas ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "by their mere relationship and make the native prosperous.",
+   "bbox": [
+    85,
+    226,
+    414,
+    242
+   ]
+  },
+  {
+   "text": "Notes — For example for the Aries Ascendant both Saturn lord of the 10th a ",
+   "bbox": [
+    121,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "kendra and also of 11th (for which he beccmes a papi) and Jupiter is lord of the 9th ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "a trikona and the 6th a dusthana. But they get related with each other (vide Chapter ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "15, verse 30) they become yogakarakas and thus auspicious in the nature.",
+   "bbox": [
+    85,
+    323,
+    496,
+    339
+   ]
+  },
+  {
+   "text": "46. If out of the lords of the 5th and 9th any one of them gets related to a ",
+   "bbox": [
+    121,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "strong planet owning a kendra, he becomes a yogakaraka, (capable of promoting ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "the property of the native).",
+   "bbox": [
+    85,
+    395,
+    235,
+    411
+   ]
+  },
+  {
+   "text": "47. If the lord of a kendra be associated with any of the lords of the 5th or ",
+   "bbox": [
+    121,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "the 9th, they both become yogakarakas.",
+   "bbox": [
+    85,
+    444,
+    307,
+    459
+   ]
+  },
+  {
+   "text": "If the lord of a kendra while being related to lord of one trikona, be also ",
+   "bbox": [
+    121,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "related to the lord of the other trikona, a most powerful Raja Yoga will be the ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "result.",
+   "bbox": [
+    85,
+    516,
+    120,
+    532
+   ]
+  },
+  {
+   "text": "Notes — Here it will be relevant to point out that if the same planet owns a ",
+   "bbox": [
+    121,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "kendra and a trikona, he becomes a yogakaraka for that ascendant. For the Taurus ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "Ascendant Saturn is lord of 9th and 10th. Therefore he will be a yogakaraka. For ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "the Cancer and Leo Ascendants Mars owns the 5th and the 10th and the 4th and 9th ",
+   "bbox": [
+    85,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "respectively. Thus Mars is a yogakaraka for these Ascendants. Saturn is a ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "Yogakaraka for the Libra ascendant being the lord of the 4th and the 5th. Venus is ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "yogakaraka for the Capricorn and Aquarius ascendants being lords of the 5th and ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "the 10th and the 4th and the 9th respectively.",
+   "bbox": [
+    85,
+    709,
+    336,
+    725
+   ]
+  },
+  {
+   "text": "48. Though the planets may be themselves (natural malefics) but If they are ",
+   "bbox": [
+    121,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "related to a yogakaraka (planet producing prosperity) good effects will be ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "191",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

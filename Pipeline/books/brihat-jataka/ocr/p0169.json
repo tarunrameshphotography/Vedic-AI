@@ -1,0 +1,245 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0169",
+ "book_id": "brihat-jataka",
+ "seq": 169,
+ "source_ref": {
+  "pdf_page": 85,
+  "half": "a",
+  "v1_page": "s085a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "d64432f9cfda00c447177106f66bff00926c8d50a74efc09a496368ce8cc126a",
+ "lines": [
+  {
+   "text": "23",
+   "bbox": [
+    872,
+    589,
+    964,
+    639
+   ]
+  },
+  {
+   "text": "अनिष्टाध्यायः",
+   "bbox": [
+    785,
+    741,
+    1045,
+    791
+   ]
+  },
+  {
+   "text": "<b>Anishta or Misfortune</b>",
+   "bbox": [
+    472,
+    811,
+    1363,
+    888
+   ]
+  },
+  {
+   "text": "लग्नात्पुत्रकलत्रभे शुभपतिप्राप्तेऽथवाऽऽलोकिते",
+   "bbox": [
+    382,
+    1062,
+    1029,
+    1117
+   ]
+  },
+  {
+   "text": "चन्द्राद्वा यदि संपदस्ति हि तयोर्ज्ञेयोऽन्यथा सम्भव:।",
+   "bbox": [
+    382,
+    1125,
+    1116,
+    1178
+   ]
+  },
+  {
+   "text": "पाथोनोदयगे रवौ रविसुतो मीनस्थितो दारहा",
+   "bbox": [
+    382,
+    1194,
+    1027,
+    1248
+   ]
+  },
+  {
+   "text": "पुत्रस्थानगतश्च पुत्रमरणं पुत्रोऽवनेर्यच्छति।। 1।।",
+   "bbox": [
+    380,
+    1253,
+    1075,
+    1314
+   ]
+  },
+  {
+   "text": "When the fifth and seventh houses from Chandra lagna",
+   "bbox": [
+    387,
+    1356,
+    1534,
+    1395
+   ]
+  },
+  {
+   "text": "are occupied or aspected by benefics or by their owners, these",
+   "bbox": [
+    307,
+    1407,
+    1531,
+    1447
+   ]
+  },
+  {
+   "text": "houses will prosper; otherwise they will suffer.",
+   "bbox": [
+    307,
+    1458,
+    1237,
+    1497
+   ]
+  },
+  {
+   "text": "If Kanya rises with the Sun while Shani is in Mina, the",
+   "bbox": [
+    382,
+    1523,
+    1531,
+    1562
+   ]
+  },
+  {
+   "text": "wife will be lost. If in this combination Kuja is in fifth there will",
+   "bbox": [
+    307,
+    1574,
+    1529,
+    1613
+   ]
+  },
+  {
+   "text": "be loss of children.",
+   "bbox": [
+    307,
+    1625,
+    683,
+    1659
+   ]
+  },
+  {
+   "text": "Notes: The fifth house refers to children and the seventh to",
+   "bbox": [
+    382,
+    1701,
+    1529,
+    1740
+   ]
+  },
+  {
+   "text": "the partner. When these houses are associated with malefics",
+   "bbox": [
+    307,
+    1754,
+    1529,
+    1792
+   ]
+  },
+  {
+   "text": "there will be no children (fifth house) or no partner (seventh",
+   "bbox": [
+    307,
+    1805,
+    1529,
+    1843
+   ]
+  },
+  {
+   "text": "house). This view is applicable to all houses. In the fourth",
+   "bbox": [
+    303,
+    1855,
+    1529,
+    1895
+   ]
+  },
+  {
+   "text": "chapter Varahamihira discussed the legitimacy or otherwise of",
+   "bbox": [
+    306,
+    1907,
+    1532,
+    1946
+   ]
+  },
+  {
+   "text": "the child. Combinations for various kinds of children are given",
+   "bbox": [
+    306,
+    1957,
+    1528,
+    1996
+   ]
+  },
+  {
+   "text": "in the Saravali.",
+   "bbox": [
+    305,
+    2008,
+    624,
+    2044
+   ]
+  },
+  {
+   "text": "उग्रग्रहै: सितचतुरस्त्रसंस्थितमध्यस्थिते भृगुतनयेऽथवोग्रयो:।",
+   "bbox": [
+    376,
+    2081,
+    1222,
+    2133
+   ]
+  },
+  {
+   "text": "सौम्यग्रहैरसहितसंनिरीक्षिते जायावधोदहननिपातपाशज: ।। 2।।",
+   "bbox": [
+    379,
+    2141,
+    1258,
+    2196
+   ]
+  },
+  {
+   "text": "If cruel (ugra) planets are in the fourth and eighth",
+   "bbox": [
+    382,
+    2240,
+    1528,
+    2279
+   ]
+  },
+  {
+   "text": "from Venus, or if Venus has malefics on both sides, or if Venus",
+   "bbox": [
+    302,
+    2291,
+    1528,
+    2329
+   ]
+  },
+  {
+   "text": "is neither with nor aspected by benefies-the wife dies by fire,",
+   "bbox": [
+    303,
+    2343,
+    1525,
+    2381
+   ]
+  }
+ ]
+}

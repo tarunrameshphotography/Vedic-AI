@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0151",
+ "book_id": "phaladeepika",
+ "seq": 151,
+ "source_ref": {
+  "pdf_page": 151
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "592ff35b1d6e8908d93d6eea22f8f0a018e21498800e39cf9047f7cf068177cd",
+ "lines": [
+  {
+   "text": "fortune be made from the Sun. The Moon signifies the native's character of heart, ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "understanding, royal favour, mother and prosperity. From Mars one should ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "ascertain his own courage, disease, characteristic, qualities, younger brothers, ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "lands, enemies and paternal blood relations. Mercury is concerned with learning, ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "relatives in general, discrimination, maternal uncle, friends, and speech.",
+   "bbox": [
+    85,
+    154,
+    488,
+    169
+   ]
+  },
+  {
+   "text": "16. The native should ascertain about his genius, wealth, physical ",
+   "bbox": [
+    121,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "development, sons and knowledge through Jupiter. One should seek the ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "jurisdiction of Venus to know about his wife, vehicles, ornaments, love affairs and ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "pleasures from spouse. Saturn will furnish information about native's span of life, ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "livelihood, the cause of death, his adversity and his servants. Rahu signifies ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "paternal grand-father and Ketu maternal grand-father.",
+   "bbox": [
+    85,
+    299,
+    385,
+    314
+   ]
+  },
+  {
+   "text": "17. The signification of the kanaka of the houses commencing from the ",
+   "bbox": [
+    121,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "Lagna are (1) the Sun, (2) Jupiter, (3) Mars, (4) the Moon and Mercury, (5) Jupiter, ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "(6) Venus, (7) Saturn, (8) the Sun and Jupiter, (9) Jupiter, the Sun, Mercury and ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "Saturn, (10) Jupiter and (11) Saturn.",
+   "bbox": [
+    85,
+    395,
+    287,
+    411
+   ]
+  },
+  {
+   "text": "18. If one is to assess the effects of a planet, he should carefully note in ",
+   "bbox": [
+    121,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "which of the 12 houses beginning with the Lagna, he is posited and whether it is ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "his own sign, his sign of exaltation, his friend's sign or is an inimical sign. ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "According to Satyacharya, the benefics occupying a house promote its growth and ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "the malefics so posited cause the decay of the house. This is reversed in the case of ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "the 6th, 8th and 12th houses.",
+   "bbox": [
+    85,
+    540,
+    246,
+    556
+   ]
+  },
+  {
+   "text": "19. If malefics occupy the 6th, 8th or 12th house from the Lagna, they ",
+   "bbox": [
+    121,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "intensify the evil effects of those houses. Benefics in these houses cause the ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "destruction of these houses. In other words the evil effects arising out of these ",
+   "bbox": [
+    85,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "houses are destroyed.",
+   "bbox": [
+    85,
+    637,
+    205,
+    652
+   ]
+  },
+  {
+   "text": "Notes — Although according to Shri Mantreshwara, the benefics destroy or ",
+   "bbox": [
+    121,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "alleviate the evil effects of the 6th, 8th and 12th houses but being posited there ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "they themselves get afflicted and harm the houses they own arid do not produce ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "beneficial results in their dasas and antar dasas.",
+   "bbox": [
+    85,
+    734,
+    350,
+    749
+   ]
+  },
+  {
+   "text": "20. In order to assess or judge the effects of a house in the case of nativity, ",
+   "bbox": [
+    121,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "151",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

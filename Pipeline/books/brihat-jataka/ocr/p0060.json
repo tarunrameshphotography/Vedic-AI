@@ -1,0 +1,245 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0060",
+ "book_id": "brihat-jataka",
+ "seq": 60,
+ "source_ref": {
+  "pdf_page": 30,
+  "half": "b",
+  "v1_page": "s030b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "597daa0114f0114bfbdef640665addfd1474085cfc8ba47e00f6ff4043b0024a",
+ "lines": [
+  {
+   "text": "5",
+   "bbox": [
+    847,
+    406,
+    894,
+    454
+   ]
+  },
+  {
+   "text": "जन्म-काल-लक्षणाध्यायः",
+   "bbox": [
+    637,
+    546,
+    1107,
+    604
+   ]
+  },
+  {
+   "text": "<b>Birth Conditions</b>",
+   "bbox": [
+    549,
+    611,
+    1205,
+    695
+   ]
+  },
+  {
+   "text": "If in the birth chart, the ascendant is not under the aspect",
+   "bbox": [
+    348,
+    822,
+    1491,
+    901
+   ]
+  },
+  {
+   "text": "of Moon and the Sun occupies a movable sign in the 8th, 9th,",
+   "bbox": [
+    274,
+    874,
+    1487,
+    951
+   ]
+  },
+  {
+   "text": "11th or 12th house, the father of the native will be in some",
+   "bbox": [
+    278,
+    922,
+    1491,
+    1004
+   ]
+  },
+  {
+   "text": "other country or province and will not be present at house at",
+   "bbox": [
+    279,
+    974,
+    1492,
+    1053
+   ]
+  },
+  {
+   "text": "the time of the child's birth.",
+   "bbox": [
+    279,
+    1041,
+    838,
+    1100
+   ]
+  },
+  {
+   "text": "पितुर्जातः परोक्षस्य लग्नमिन्दावपश्यति।",
+   "bbox": [
+    354,
+    1114,
+    918,
+    1178
+   ]
+  },
+  {
+   "text": "विदेशस्थस्य चरभे मध्याद्भ्रप्टे दिवाकरे।। 1 ।।",
+   "bbox": [
+    355,
+    1168,
+    1059,
+    1241
+   ]
+  },
+  {
+   "text": "Father is not present in the house at delivery time also",
+   "bbox": [
+    355,
+    1241,
+    1497,
+    1318
+   ]
+  },
+  {
+   "text": "when the ascendant is occupied by Saturn and the 7th by Mars",
+   "bbox": [
+    285,
+    1289,
+    1499,
+    1371
+   ]
+  },
+  {
+   "text": "or when the Moon is located in between Mercury and Venus.",
+   "bbox": [
+    285,
+    1341,
+    1499,
+    1420
+   ]
+  },
+  {
+   "text": "उदयस्थेऽपि वा मन्दे कुजे वास्तमुपागते।",
+   "bbox": [
+    359,
+    1424,
+    943,
+    1494
+   ]
+  },
+  {
+   "text": "स्थिते चान्तःक्षपानाथे शशाङ्कसुतशुक्रयो:।। 2 ।।",
+   "bbox": [
+    361,
+    1487,
+    1059,
+    1555
+   ]
+  },
+  {
+   "text": "<b>Serpentine Influence</b>",
+   "bbox": [
+    290,
+    1598,
+    846,
+    1660
+   ]
+  },
+  {
+   "text": "शशाङ्के पापलग्ने वा वृश्चिकेशत्रिभागगे।",
+   "bbox": [
+    365,
+    1669,
+    929,
+    1733
+   ]
+  },
+  {
+   "text": "शुभै: स्वायस्थितैर्जात: सर्पस्तद्वेप्टितोऽपि वा।। 3 ।।",
+   "bbox": [
+    368,
+    1724,
+    1114,
+    1801
+   ]
+  },
+  {
+   "text": "If the Moon or an ascendant belonging to a malefic planet",
+   "bbox": [
+    371,
+    1803,
+    1514,
+    1884
+   ]
+  },
+  {
+   "text": "is located in Scorpio decante of Mars and the benefic planets",
+   "bbox": [
+    296,
+    1855,
+    1514,
+    1933
+   ]
+  },
+  {
+   "text": "are located in the 2nd and 11th houses of the horoscope, the",
+   "bbox": [
+    299,
+    1902,
+    1514,
+    1985
+   ]
+  },
+  {
+   "text": "person born is a serpent or one enveloped by a serpent.",
+   "bbox": [
+    301,
+    1957,
+    1400,
+    2034
+   ]
+  },
+  {
+   "text": "<b>Bastard Birth</b>",
+   "bbox": [
+    303,
+    2070,
+    670,
+    2126
+   ]
+  },
+  {
+   "text": "चतुष्पदगते भानौ शेषैर्वीर्य्यसमन्वितै:।",
+   "bbox": [
+    377,
+    2143,
+    913,
+    2206
+   ]
+  },
+  {
+   "text": "द्वितनुस्थैश्च यमलौ भवत: कोशवेष्टितौ।। 4 ।।",
+   "bbox": [
+    378,
+    2198,
+    1056,
+    2273
+   ]
+  }
+ ]
+}

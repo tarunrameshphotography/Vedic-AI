@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0050",
+ "book_id": "brihat-jataka",
+ "seq": 50,
+ "source_ref": {
+  "pdf_page": 25,
+  "half": "b",
+  "v1_page": "s025b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "116494a15985c9608473935a42ca99b627e0910075bfacf54feec5ffcbd4e114",
+ "lines": [
+  {
+   "text": "47",
+   "bbox": [
+    1424,
+    205,
+    1479,
+    233
+   ]
+  },
+  {
+   "text": "On Conception etc.",
+   "bbox": [
+    274,
+    207,
+    648,
+    244
+   ]
+  },
+  {
+   "text": "In the case of conception in day time Sun should be treated",
+   "bbox": [
+    347,
+    304,
+    1489,
+    343
+   ]
+  },
+  {
+   "text": "as father, Venus as mother, Saturn as paternal uncle, Moon as",
+   "bbox": [
+    274,
+    353,
+    1486,
+    392
+   ]
+  },
+  {
+   "text": "aunt (Mother's sister). If the conception is during night Saturn",
+   "bbox": [
+    277,
+    403,
+    1487,
+    443
+   ]
+  },
+  {
+   "text": "should be taken as father, Moon mother, Sun as paternal uncle",
+   "bbox": [
+    277,
+    453,
+    1487,
+    492
+   ]
+  },
+  {
+   "text": "and Venus as the said aunt. In day conception Sun in odd sign",
+   "bbox": [
+    274,
+    503,
+    1486,
+    543
+   ]
+  },
+  {
+   "text": "signifies good to father. In night conception the same ie odd",
+   "bbox": [
+    277,
+    553,
+    1487,
+    593
+   ]
+  },
+  {
+   "text": "sign is good to the paternal uncle. In the case of day time",
+   "bbox": [
+    277,
+    604,
+    1486,
+    644
+   ]
+  },
+  {
+   "text": "conception, if Venus occupies an even sign, it is conducive to",
+   "bbox": [
+    274,
+    654,
+    1486,
+    695
+   ]
+  },
+  {
+   "text": "mother. The night time conception if in that sign it is condu-",
+   "bbox": [
+    274,
+    704,
+    1486,
+    748
+   ]
+  },
+  {
+   "text": "cive to the said aunt. Saturn is conducive to father, if the",
+   "bbox": [
+    273,
+    756,
+    1486,
+    796
+   ]
+  },
+  {
+   "text": "conception is in night. If he occupies an odd sign, he is condu-",
+   "bbox": [
+    273,
+    807,
+    1486,
+    847
+   ]
+  },
+  {
+   "text": "cive to paternal uncle, in case conception is in day time. Moon",
+   "bbox": [
+    273,
+    858,
+    1487,
+    898
+   ]
+  },
+  {
+   "text": "is conducive to mother if in the case of night conception it",
+   "bbox": [
+    273,
+    909,
+    1486,
+    948
+   ]
+  },
+  {
+   "text": "occupies an even sign. Similarly it is conducive to the said aunt",
+   "bbox": [
+    273,
+    959,
+    1487,
+    999
+   ]
+  },
+  {
+   "text": "if it is in even sign in the case of day conception.",
+   "bbox": [
+    273,
+    1010,
+    1243,
+    1049
+   ]
+  },
+  {
+   "text": "Yogas for Woman's Death",
+   "bbox": [
+    274,
+    1112,
+    937,
+    1154
+   ]
+  },
+  {
+   "text": "अभिलपद्धिरुदयर्क्षमसद्धिर्मरणमेति शुभदुष्टिमयाते।",
+   "bbox": [
+    345,
+    1184,
+    1059,
+    1241
+   ]
+  },
+  {
+   "text": "उदयराशिसहिते च यमे स्त्री विगलितोडुपतिभूसुतदृष्टे।। 6।।",
+   "bbox": [
+    344,
+    1250,
+    1220,
+    1308
+   ]
+  },
+  {
+   "text": "If at the conception time, malefic planets are about to enter",
+   "bbox": [
+    347,
+    1349,
+    1486,
+    1386
+   ]
+  },
+  {
+   "text": "the ascendant without any benefic aspect or if Saturn occupies",
+   "bbox": [
+    271,
+    1398,
+    1486,
+    1438
+   ]
+  },
+  {
+   "text": "the ascendant and is aspected by Mars and a weak Moon the",
+   "bbox": [
+    273,
+    1449,
+    1483,
+    1489
+   ]
+  },
+  {
+   "text": "woman dies.",
+   "bbox": [
+    272,
+    1499,
+    520,
+    1536
+   ]
+  },
+  {
+   "text": "Another Yoga for her Death",
+   "bbox": [
+    268,
+    1604,
+    999,
+    1644
+   ]
+  },
+  {
+   "text": "पापद्वयमध्यसंस्थितौ लग्नेन्दू न च सौम्यवीक्षितौ।",
+   "bbox": [
+    340,
+    1680,
+    1039,
+    1732
+   ]
+  },
+  {
+   "text": "युगपत्पृथगेव वा वदेन्नारी गर्भयुता विपद्यते।। 7।।",
+   "bbox": [
+    342,
+    1744,
+    1055,
+    1796
+   ]
+  },
+  {
+   "text": "If at the time of conception, Moon and the ascendant are",
+   "bbox": [
+    345,
+    1840,
+    1482,
+    1879
+   ]
+  },
+  {
+   "text": "both hemmed in between malefics and the Moon and the",
+   "bbox": [
+    268,
+    1886,
+    1482,
+    1928
+   ]
+  },
+  {
+   "text": "ascendant are not aspected by any benefic planet, death takes",
+   "bbox": [
+    270,
+    1941,
+    1482,
+    1980
+   ]
+  },
+  {
+   "text": "place of the woman conceiving alone or simultaneously with",
+   "bbox": [
+    271,
+    1986,
+    1482,
+    2033
+   ]
+  },
+  {
+   "text": "whom she has conceived.",
+   "bbox": [
+    270,
+    2040,
+    769,
+    2076
+   ]
+  },
+  {
+   "text": "क्रूरैः शशिनश्चतुर्थगैर्लग्नाद्वा निधनाश्रिते कुजे।",
+   "bbox": [
+    341,
+    2113,
+    969,
+    2165
+   ]
+  },
+  {
+   "text": "चन्ध्वन्तगयोः कुजार्कयोः क्षीणेन्दौ निधनाय पूर्ववत् ।। 811",
+   "bbox": [
+    342,
+    2174,
+    1170,
+    2226
+   ]
+  },
+  {
+   "text": "If malefic planets occupy the 4th house either from Moon",
+   "bbox": [
+    345,
+    2270,
+    1482,
+    2308
+   ]
+  }
+ ]
+}

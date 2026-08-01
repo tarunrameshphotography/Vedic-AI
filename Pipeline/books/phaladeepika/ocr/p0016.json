@@ -1,0 +1,153 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0016",
+ "book_id": "phaladeepika",
+ "seq": 16,
+ "source_ref": {
+  "pdf_page": 16
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "e4effdee068ab27a1132ef9ea48b5d83446fa40a19f42c2d39bca84390c4ea91",
+ "lines": [
+  {
+   "text": "spy, last rites, poverty, sins, bad expenditure and imprisonment or confinement.",
+   "bbox": [
+    85,
+    57,
+    529,
+    73
+   ]
+  },
+  {
+   "text": "Described above are the designations of the twelve houses or the subject ",
+   "bbox": [
+    121,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "matters to be examined from them. The 3rd, the 6th, the 8th and 12th are known as ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "Leena Sthanas (hidden houses).",
+   "bbox": [
+    85,
+    130,
+    263,
+    145
+   ]
+  },
+  {
+   "text": "17. The 6th, the 8th and 12th houses are also called Dusthanas (evil houses). ",
+   "bbox": [
+    121,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "The remaining houses are considered good and auspicious. The 1st, 4th, 7th and ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "the 10th houses are termed as Kendra, Kantaka or Chatushtaya.",
+   "bbox": [
+    85,
+    202,
+    440,
+    218
+   ]
+  },
+  {
+   "text": "18. The 2nd, the 5th, the 8th and 11th houses from the Ascendant are called ",
+   "bbox": [
+    121,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "Panaphara houses. The 3rd, the 6th, the 9th and the 12th are termed as Apoklima ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "houses. The 4th and the 8th are also known as Chaturasra houses. The 3rd, the 6th, ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "the 10th and 11th are Upachaya houses. The 5th and 9th are called trines (Trikona ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "houses). The trines have been considered as very auspicious houses.",
+   "bbox": [
+    85,
+    323,
+    466,
+    339
+   ]
+  },
+  {
+   "text": "Thus ends the first chapter on \"Definitions\" in Phaladeepika composed by ",
+   "bbox": [
+    121,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "Mantreswara.",
+   "bbox": [
+    85,
+    371,
+    164,
+    387
+   ]
+  },
+  {
+   "text": "16",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

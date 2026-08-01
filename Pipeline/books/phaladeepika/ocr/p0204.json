@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0204",
+ "book_id": "phaladeepika",
+ "seq": 204,
+ "source_ref": {
+  "pdf_page": 204
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "cb9500b2d7e56dffac71bf6f89e4be54ada8a332d396589d55949fe98ed08921",
+ "lines": [
+  {
+   "text": "47. Distress to or from kinsmen, mental tension, sickness, danger from ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "theives, illness of a preceptor or an elder, stomach disorders, trouble from the king, ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "increase in troubles from enemies and loss of wealth will be likely results in the ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "antar dasa of Rahu in the dasa of Jupiter.",
+   "bbox": [
+    85,
+    130,
+    313,
+    145
+   ]
+  },
+  {
+   "text": "<b>Effects of antar dasas in the dasa of Saturn</b>",
+   "bbox": [
+    121,
+    154,
+    378,
+    169
+   ]
+  },
+  {
+   "text": "48. Gains in agricutural activities, acquisition of more buffaloes and ",
+   "bbox": [
+    121,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "servants, gain of wealth from a person of Sudra community acquistlon of a woman ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "old in age, Increase in sinful deeds and lethargy, will be the effects for the native in ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "the antar dasa of Saturn in his own dasa.",
+   "bbox": [
+    85,
+    251,
+    311,
+    266
+   ]
+  },
+  {
+   "text": "49. Increase in good fortune, honour form the king, victory over enemies, ",
+   "bbox": [
+    121,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "company of females, success and company of friends, suffering from diseases ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "caused by the three humours and sickness to brothers and children, will be the ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "characteristic features of the antar dasa of Mercury in the dasa of Saturn.",
+   "bbox": [
+    85,
+    347,
+    492,
+    363
+   ]
+  },
+  {
+   "text": "50. Suffering from trouble caused by wind and fire, trouble from enemies, ",
+   "bbox": [
+    121,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "constant quarrels with wife and children, danger from snakes and inauspicious ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "happenings will be the effects for the native in the antar dasa of Ketu in the dasa of ",
+   "bbox": [
+    85,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "Jupiter.",
+   "bbox": [
+    85,
+    444,
+    126,
+    459
+   ]
+  },
+  {
+   "text": "51. Effects like happiness from wife, children and friends, Increase of wealth ",
+   "bbox": [
+    121,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "due to agriculture and trade by sea voyages and becoming widely renowned, will ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "be experienced in the antar dasa of Venus in the dasa of Saturn.",
+   "bbox": [
+    85,
+    516,
+    439,
+    532
+   ]
+  },
+  {
+   "text": "52. Death or constant danger from enemies, sickness to preceptor or an ",
+   "bbox": [
+    121,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "elder, stomach disorder, eye troubles and loss of wealth and rains will be the ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "features of the antar dasa of the Sun in the dasa of Saturn.",
+   "bbox": [
+    85,
+    589,
+    408,
+    604
+   ]
+  },
+  {
+   "text": "53. Death of the native or loss of wife, troubles, to friends, danger from ",
+   "bbox": [
+    121,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "diseases arising from water and wind and likelihood of falling sick, will be the ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "effects for the native in the antar dasa of the Moon in the dasa of Saturn.",
+   "bbox": [
+    85,
+    661,
+    490,
+    677
+   ]
+  },
+  {
+   "text": "54. Effects like loss of position, quarrels with relations suffering from fever, ",
+   "bbox": [
+    121,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "trouble from fire, weapon and poison, increase in the number of enemies, trouble ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "from hernia and eye disease, will be derived in the antar dasa of Mars in the dasa ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "of Saturn.",
+   "bbox": [
+    85,
+    758,
+    140,
+    773
+   ]
+  },
+  {
+   "text": "204",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

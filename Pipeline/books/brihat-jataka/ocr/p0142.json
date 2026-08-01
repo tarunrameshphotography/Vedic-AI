@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0142",
+ "book_id": "brihat-jataka",
+ "seq": 142,
+ "source_ref": {
+  "pdf_page": 71,
+  "half": "b",
+  "v1_page": "s071b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "bcec51dc2ed6cc5a030c9fb32283924f1a700951f4f433d0246eefe57599c50e",
+ "lines": [
+  {
+   "text": "139",
+   "bbox": [
+    1365,
+    248,
+    1454,
+    282
+   ]
+  },
+  {
+   "text": "Planets in Signs",
+   "bbox": [
+    247,
+    251,
+    580,
+    289
+   ]
+  },
+  {
+   "text": "<b>Mars</b>",
+   "bbox": [
+    247,
+    352,
+    384,
+    388
+   ]
+  },
+  {
+   "text": "नरपतिसत्कृताऽटनश्चमूपवणिक्सधनान्",
+   "bbox": [
+    318,
+    432,
+    838,
+    482
+   ]
+  },
+  {
+   "text": "क्षततनुश्चौरभूरिविषयांश्च कुज: स्वगृहे।",
+   "bbox": [
+    320,
+    491,
+    872,
+    547
+   ]
+  },
+  {
+   "text": "युवतिजितान्सुहृत्सु विषमान्परदाररतान्",
+   "bbox": [
+    317,
+    558,
+    853,
+    613
+   ]
+  },
+  {
+   "text": "कहकसुवेषभीरुपरुषान् सितभे जनयेत्।। 5।।",
+   "bbox": [
+    317,
+    622,
+    963,
+    676
+   ]
+  },
+  {
+   "text": "If Mars occupies any of its own signs Aries or Scorpio, the",
+   "bbox": [
+    318,
+    716,
+    1455,
+    762
+   ]
+  },
+  {
+   "text": "man gets honour from the Government of the day. He is much",
+   "bbox": [
+    247,
+    772,
+    1454,
+    812
+   ]
+  },
+  {
+   "text": "travelled, an official of the Army trader and a wealthy person.",
+   "bbox": [
+    247,
+    824,
+    1454,
+    864
+   ]
+  },
+  {
+   "text": "He has injury on his body, is a thief. He is over sexed. In case",
+   "bbox": [
+    244,
+    876,
+    1454,
+    917
+   ]
+  },
+  {
+   "text": "Mars occupies signs of Venus in Taurus or Libra he is under",
+   "bbox": [
+    244,
+    929,
+    1457,
+    969
+   ]
+  },
+  {
+   "text": "the influence of his wife, is opposed to friends and is adulter-",
+   "bbox": [
+    245,
+    978,
+    1454,
+    1024
+   ]
+  },
+  {
+   "text": "ous. He knows magic tricks, is well dressed, timid and meets",
+   "bbox": [
+    243,
+    1035,
+    1454,
+    1075
+   ]
+  },
+  {
+   "text": "cold treatment to others.",
+   "bbox": [
+    243,
+    1088,
+    736,
+    1124
+   ]
+  },
+  {
+   "text": "बौधेऽसहस्तनयवान् विसुहत्कृतज्ञो",
+   "bbox": [
+    316,
+    1161,
+    794,
+    1218
+   ]
+  },
+  {
+   "text": "गान्धर्वयुद्धकुशल: कृपणोऽभयोऽर्थी।",
+   "bbox": [
+    390,
+    1229,
+    899,
+    1280
+   ]
+  },
+  {
+   "text": "चान्द्रेऽर्थवान् सलिलयानसमर्जितस्व:",
+   "bbox": [
+    315,
+    1292,
+    828,
+    1344
+   ]
+  },
+  {
+   "text": "प्राज्ञश्च भूमितनये विकल: खलश्चा। 611",
+   "bbox": [
+    389,
+    1354,
+    1013,
+    1423
+   ]
+  },
+  {
+   "text": "If Mars occupies any of the signs of Mercury ie 3 or 6 he",
+   "bbox": [
+    317,
+    1454,
+    1455,
+    1494
+   ]
+  },
+  {
+   "text": "has an influential personality, gets sons but is bereft of friends",
+   "bbox": [
+    241,
+    1506,
+    1454,
+    1546
+   ]
+  },
+  {
+   "text": "and is grateful, knows the art of music and war, is miser,",
+   "bbox": [
+    243,
+    1558,
+    1452,
+    1599
+   ]
+  },
+  {
+   "text": "fearless and wealthy. If Mars occupies Cancer he gets wealth",
+   "bbox": [
+    241,
+    1611,
+    1454,
+    1652
+   ]
+  },
+  {
+   "text": "through vocations like Navy, Merchantships etc. He is intelli-",
+   "bbox": [
+    241,
+    1663,
+    1454,
+    1707
+   ]
+  },
+  {
+   "text": "gent, may lose a limb and is a bad person.",
+   "bbox": [
+    241,
+    1717,
+    1080,
+    1757
+   ]
+  },
+  {
+   "text": "निःस्वः क्लेशसहो वनान्तरचरः सिंहेऽल्पदारात्मजो",
+   "bbox": [
+    315,
+    1792,
+    1029,
+    1838
+   ]
+  },
+  {
+   "text": "जैवे नैकरिपुनरेन्द्रसचिव: ख्यातोऽभयोऽल्पात्मज:।",
+   "bbox": [
+    311,
+    1856,
+    1026,
+    1907
+   ]
+  },
+  {
+   "text": "दुःखार्तो विधनोऽटनोऽनृतरतस्तीक्ष्णश्च कम्भस्थिते",
+   "bbox": [
+    311,
+    1920,
+    1010,
+    1971
+   ]
+  },
+  {
+   "text": "भौमे भूरिधनात्मजो मृगगते भूपोऽथवा तत्सम: ।। 7।।",
+   "bbox": [
+    314,
+    1984,
+    1065,
+    2037
+   ]
+  },
+  {
+   "text": "If Mars occupies Leo the native is without wealth, is ca-",
+   "bbox": [
+    314,
+    2083,
+    1448,
+    2121
+   ]
+  },
+  {
+   "text": "pable of bearing much trouble, moves in jungles and has very",
+   "bbox": [
+    237,
+    2135,
+    1452,
+    2174
+   ]
+  },
+  {
+   "text": "few wives and sons. If Mars occupies Sagittarius or Pisces, the",
+   "bbox": [
+    237,
+    2187,
+    1452,
+    2226
+   ]
+  },
+  {
+   "text": "native has many enemies. Is a minister to the king (Govern-",
+   "bbox": [
+    238,
+    2239,
+    1452,
+    2279
+   ]
+  },
+  {
+   "text": "ment). Is famous, fearless and with very few sons. If Mars",
+   "bbox": [
+    237,
+    2292,
+    1452,
+    2331
+   ]
+  }
+ ]
+}

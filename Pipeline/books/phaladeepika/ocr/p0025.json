@@ -1,0 +1,594 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0025",
+ "book_id": "phaladeepika",
+ "seq": 25,
+ "source_ref": {
+  "pdf_page": 25
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "045fc8bc1a1c50667f1756fc6f5c3eae57491ba03dd4e5ffc4bc3b9241073030",
+ "lines": [
+  {
+   "text": "28. The grains ruled by various planets are as under :—",
+   "bbox": [
+    121,
+    57,
+    432,
+    73
+   ]
+  },
+  {
+   "text": "Sun - Wheat, Moon – rice, Mars - Dhal, Mercury - Green Gram, Jupiter - ",
+   "bbox": [
+    121,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "Bengal gram, Venus - Cow gram, Saturn – Sesamum, Rahu - Black gram, and Ketu ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "- horse gram.",
+   "bbox": [
+    85,
+    130,
+    159,
+    145
+   ]
+  },
+  {
+   "text": "The countries related to the various planets are —",
+   "bbox": [
+    121,
+    154,
+    400,
+    169
+   ]
+  },
+  {
+   "text": "Sun ",
+   "bbox": [
+    248,
+    178,
+    273,
+    194
+   ]
+  },
+  {
+   "text": "Kalinga ",
+   "bbox": [
+    301,
+    178,
+    349,
+    194
+   ]
+  },
+  {
+   "text": "Moon ",
+   "bbox": [
+    248,
+    194,
+    285,
+    210
+   ]
+  },
+  {
+   "text": "Yavana ",
+   "bbox": [
+    301,
+    194,
+    346,
+    210
+   ]
+  },
+  {
+   "text": "Mars ",
+   "bbox": [
+    248,
+    210,
+    280,
+    226
+   ]
+  },
+  {
+   "text": "Avanti ",
+   "bbox": [
+    301,
+    210,
+    342,
+    226
+   ]
+  },
+  {
+   "text": "Mercury Magadha ",
+   "bbox": [
+    248,
+    226,
+    357,
+    242
+   ]
+  },
+  {
+   "text": "Jupiter ",
+   "bbox": [
+    248,
+    243,
+    289,
+    258
+   ]
+  },
+  {
+   "text": "Sindhu ",
+   "bbox": [
+    301,
+    243,
+    344,
+    258
+   ]
+  },
+  {
+   "text": "Venus ",
+   "bbox": [
+    248,
+    259,
+    286,
+    274
+   ]
+  },
+  {
+   "text": "Keekata ",
+   "bbox": [
+    301,
+    259,
+    350,
+    274
+   ]
+  },
+  {
+   "text": "Saturn ",
+   "bbox": [
+    248,
+    275,
+    288,
+    290
+   ]
+  },
+  {
+   "text": "Saurashtra ",
+   "bbox": [
+    301,
+    275,
+    364,
+    290
+   ]
+  },
+  {
+   "text": "Rahu ",
+   "bbox": [
+    248,
+    291,
+    281,
+    306
+   ]
+  },
+  {
+   "text": "Ambara ",
+   "bbox": [
+    301,
+    291,
+    350,
+    306
+   ]
+  },
+  {
+   "text": "Ketu ",
+   "bbox": [
+    248,
+    307,
+    278,
+    322
+   ]
+  },
+  {
+   "text": "Parvata ",
+   "bbox": [
+    301,
+    307,
+    347,
+    322
+   ]
+  },
+  {
+   "text": "29. The gems allotted to the various planets are as under - Sun - Ruby, Moon ",
+   "bbox": [
+    121,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "- Pure spotless pearl. Mars - Coral, Mercury - Emerald shaped like Garuda, Jupiter ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "- Yellow sapphire, Venus - Diamond, Saturn - stainless Sapphire, Rahu - Gomedha ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "and Ketu - Cat's eye.",
+   "bbox": [
+    85,
+    420,
+    202,
+    435
+   ]
+  },
+  {
+   "text": "Notes — The purpose of indicating the gems ruled by the various planets is ",
+   "bbox": [
+    121,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "to use them for alleviating the miseries caused by their malevolence and to ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "accelerate their good effects. For fuller details in this regard refer to our book ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "\"Gems and Astrology\" published by Rajan Publications.",
+   "bbox": [
+    85,
+    516,
+    399,
+    532
+   ]
+  },
+  {
+   "text": "30-32. The substances assigned to the planets from the Sun to Saturn, ",
+   "bbox": [
+    121,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "articles of their apparel and their tastes are as follows. The clothes will be of the ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "same color as belongs to the planets.",
+   "bbox": [
+    85,
+    589,
+    290,
+    604
+   ]
+  },
+  {
+   "text": "Planet ",
+   "bbox": [
+    163,
+    613,
+    201,
+    628
+   ]
+  },
+  {
+   "text": "Substances Colors of apparel ",
+   "bbox": [
+    222,
+    613,
+    393,
+    628
+   ]
+  },
+  {
+   "text": "Tastes ",
+   "bbox": [
+    408,
+    613,
+    447,
+    628
+   ]
+  },
+  {
+   "text": "Sun ",
+   "bbox": [
+    163,
+    629,
+    188,
+    644
+   ]
+  },
+  {
+   "text": "Copper ",
+   "bbox": [
+    222,
+    629,
+    266,
+    644
+   ]
+  },
+  {
+   "text": "Saffron colored ",
+   "bbox": [
+    292,
+    629,
+    383,
+    644
+   ]
+  },
+  {
+   "text": "Pungent ",
+   "bbox": [
+    408,
+    629,
+    458,
+    644
+   ]
+  },
+  {
+   "text": "Moon ",
+   "bbox": [
+    163,
+    645,
+    200,
+    661
+   ]
+  },
+  {
+   "text": "bell-metal White colored ",
+   "bbox": [
+    222,
+    645,
+    375,
+    661
+   ]
+  },
+  {
+   "text": "Saltish ",
+   "bbox": [
+    408,
+    645,
+    450,
+    661
+   ]
+  },
+  {
+   "text": "Mars ",
+   "bbox": [
+    163,
+    661,
+    195,
+    677
+   ]
+  },
+  {
+   "text": "Copper ",
+   "bbox": [
+    222,
+    661,
+    266,
+    677
+   ]
+  },
+  {
+   "text": "Red ",
+   "bbox": [
+    292,
+    661,
+    318,
+    677
+   ]
+  },
+  {
+   "text": "Bitter ",
+   "bbox": [
+    408,
+    661,
+    444,
+    677
+   ]
+  },
+  {
+   "text": "Mercury Ore ",
+   "bbox": [
+    163,
+    677,
+    246,
+    693
+   ]
+  },
+  {
+   "text": "Green ",
+   "bbox": [
+    292,
+    677,
+    330,
+    693
+   ]
+  },
+  {
+   "text": "Mixed ",
+   "bbox": [
+    408,
+    677,
+    448,
+    693
+   ]
+  },
+  {
+   "text": "Jupiter ",
+   "bbox": [
+    163,
+    693,
+    204,
+    709
+   ]
+  },
+  {
+   "text": "Cold ",
+   "bbox": [
+    222,
+    693,
+    252,
+    709
+   ]
+  },
+  {
+   "text": "Yellow ",
+   "bbox": [
+    292,
+    693,
+    336,
+    709
+   ]
+  },
+  {
+   "text": "Sweet ",
+   "bbox": [
+    408,
+    693,
+    446,
+    709
+   ]
+  },
+  {
+   "text": "Venus ",
+   "bbox": [
+    163,
+    709,
+    200,
+    725
+   ]
+  },
+  {
+   "text": "Silver ",
+   "bbox": [
+    222,
+    709,
+    259,
+    725
+   ]
+  },
+  {
+   "text": "White ",
+   "bbox": [
+    292,
+    709,
+    330,
+    725
+   ]
+  },
+  {
+   "text": "Sour ",
+   "bbox": [
+    408,
+    709,
+    438,
+    725
+   ]
+  },
+  {
+   "text": "Saturn ",
+   "bbox": [
+    163,
+    726,
+    203,
+    741
+   ]
+  },
+  {
+   "text": "Iron ",
+   "bbox": [
+    222,
+    726,
+    248,
+    741
+   ]
+  },
+  {
+   "text": "Black (old) ",
+   "bbox": [
+    292,
+    726,
+    359,
+    741
+   ]
+  },
+  {
+   "text": "Astringent ",
+   "bbox": [
+    408,
+    726,
+    471,
+    741
+   ]
+  },
+  {
+   "text": "The clothes of Mars are slightly burnt and those of Saturn are like a rag (old ",
+   "bbox": [
+    121,
+    766,
+    556,
+    781
+   ]
+  },
+  {
+   "text": "25",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

@@ -1,0 +1,288 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0232",
+ "book_id": "phaladeepika",
+ "seq": 232,
+ "source_ref": {
+  "pdf_page": 232
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "e129daa8e0e6c43081c2630bcad6d3d9546bdaebb4fb1c27b0d92ff351aabf7e",
+ "lines": [
+  {
+   "text": "<b>Chapter 24</b>",
+   "bbox": [
+    281,
+    57,
+    357,
+    75
+   ]
+  },
+  {
+   "text": "<b>Effects of Ashtakavarga according to Horasara</b>",
+   "bbox": [
+    158,
+    85,
+    480,
+    103
+   ]
+  },
+  {
+   "text": "Note — Horasara is a recognised work on Hindu Astrology written by ",
+   "bbox": [
+    121,
+    137,
+    556,
+    152
+   ]
+  },
+  {
+   "text": "Prithuyasas, son of Varahamlhira. Its English translation done by Mr. R. ",
+   "bbox": [
+    85,
+    161,
+    556,
+    176
+   ]
+  },
+  {
+   "text": "Santhanam has been published by Ranjan Publications, the Publishers of this book.",
+   "bbox": [
+    85,
+    185,
+    551,
+    201
+   ]
+  },
+  {
+   "text": "1. The 9th sign reckoned from the sign occupied by the Sun is called the ",
+   "bbox": [
+    121,
+    209,
+    556,
+    225
+   ]
+  },
+  {
+   "text": "house of lather. Multiply the benefic bindus in that house by the figure denoting ",
+   "bbox": [
+    85,
+    233,
+    556,
+    249
+   ]
+  },
+  {
+   "text": "the Sodhyapinda",
+   "bbox": [
+    85,
+    257,
+    179,
+    273
+   ]
+  },
+  {
+   "text": "Note — After the trikona and ekadhipatya reductions have been made in any ",
+   "bbox": [
+    121,
+    282,
+    556,
+    297
+   ]
+  },
+  {
+   "text": "Ashtaka Varga, the sum-total of all the remaining figures is called the sodhyapinda ",
+   "bbox": [
+    85,
+    306,
+    556,
+    321
+   ]
+  },
+  {
+   "text": "in that Ashtakavarga (vide verse 3 infra).",
+   "bbox": [
+    85,
+    330,
+    314,
+    345
+   ]
+  },
+  {
+   "text": "2. The figure so arrived at should be divided by 27. When Saturn passes ",
+   "bbox": [
+    121,
+    354,
+    556,
+    370
+   ]
+  },
+  {
+   "text": "through the nakshatra represented by treat figure, in course of his transit, ",
+   "bbox": [
+    85,
+    378,
+    556,
+    394
+   ]
+  },
+  {
+   "text": "something untoward will happen to the father of the native.",
+   "bbox": [
+    85,
+    402,
+    417,
+    418
+   ]
+  },
+  {
+   "text": "3. Or when Saturn in the course of his transit passes through the nakshatra in ",
+   "bbox": [
+    121,
+    427,
+    556,
+    442
+   ]
+  },
+  {
+   "text": "trine to the nakshatra aforesaid, the death of the father or a similar elderly relation ",
+   "bbox": [
+    85,
+    451,
+    556,
+    466
+   ]
+  },
+  {
+   "text": "may be expected. The sum-total of the figures remaining after the 2 reductions is ",
+   "bbox": [
+    85,
+    475,
+    556,
+    490
+   ]
+  },
+  {
+   "text": "known a sodhyapinda.",
+   "bbox": [
+    85,
+    499,
+    211,
+    514
+   ]
+  },
+  {
+   "text": "4. The death of the father takes place in the dasa of the lord of the navamsa ",
+   "bbox": [
+    121,
+    523,
+    556,
+    539
+   ]
+  },
+  {
+   "text": "in which the lord of the 4th house is posited. The same may happen to the father or ",
+   "bbox": [
+    85,
+    547,
+    556,
+    563
+   ]
+  },
+  {
+   "text": "a similar elderly relative of the native in the dasa of the lord of the 4th house.",
+   "bbox": [
+    85,
+    571,
+    517,
+    587
+   ]
+  },
+  {
+   "text": "5-6. Add 8 to the sodhyapinda of the Sun's Ashtakavarga and divide the ",
+   "bbox": [
+    121,
+    596,
+    556,
+    611
+   ]
+  },
+  {
+   "text": "figure so arrived at by 12. When the Sun passes in the course of his transit through ",
+   "bbox": [
+    85,
+    620,
+    556,
+    635
+   ]
+  },
+  {
+   "text": "the sign represented by the remainder (counted from Aries) or its triangular sign, ",
+   "bbox": [
+    85,
+    644,
+    556,
+    659
+   ]
+  },
+  {
+   "text": "the death of the father may be expected. A wise man should thus fix up with the ",
+   "bbox": [
+    85,
+    668,
+    556,
+    684
+   ]
+  },
+  {
+   "text": "helptof all the other planets the demise in other cases.",
+   "bbox": [
+    85,
+    692,
+    385,
+    708
+   ]
+  },
+  {
+   "text": "7. Multiply the number of benefic bindus in the sign 4th from the Moon. In ",
+   "bbox": [
+    121,
+    716,
+    556,
+    732
+   ]
+  },
+  {
+   "text": "the Ashtakavarga of the Moon, by the figure of the sodhyapinda in the ",
+   "bbox": [
+    85,
+    740,
+    556,
+    756
+   ]
+  },
+  {
+   "text": "Ashtakavarga of the Moon. Divide the product by 27. When Saturn in the course of ",
+   "bbox": [
+    85,
+    765,
+    556,
+    780
+   ]
+  },
+  {
+   "text": "232",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

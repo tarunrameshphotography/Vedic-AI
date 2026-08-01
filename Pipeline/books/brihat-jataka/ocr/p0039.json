@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0039",
+ "book_id": "brihat-jataka",
+ "seq": 39,
+ "source_ref": {
+  "pdf_page": 20,
+  "half": "a",
+  "v1_page": "s020a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "558cfb58a21b29d5bd0d5e173e2d270f53cae28b7b5b026f79ee5169a58167b9",
+ "lines": [
+  {
+   "text": "36",
+   "bbox": [
+    382,
+    190,
+    449,
+    222
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1307,
+    218,
+    1601,
+    264
+   ]
+  },
+  {
+   "text": "signs fall in the 2nd, 12th, 5th, 9th, 4th or 8th or it happens to",
+   "bbox": [
+    373,
+    286,
+    1601,
+    376
+   ]
+  },
+  {
+   "text": "be the exaltation sign of the treating planets.",
+   "bbox": [
+    371,
+    338,
+    1284,
+    418
+   ]
+  },
+  {
+   "text": "Commentary: Example 1: Suppose we want to ascertain",
+   "bbox": [
+    445,
+    418,
+    1597,
+    506
+   ]
+  },
+  {
+   "text": "as to how Saturn treats Venus. The mool trikon sign of Saturn",
+   "bbox": [
+    369,
+    467,
+    1594,
+    557
+   ]
+  },
+  {
+   "text": "ie acquarius should be taken as the reference point. Now",
+   "bbox": [
+    363,
+    517,
+    1591,
+    609
+   ]
+  },
+  {
+   "text": "Venus owns sign Nos. 2 and 7. Sign No. 2 is 4th from 11 while",
+   "bbox": [
+    362,
+    568,
+    1590,
+    663
+   ]
+  },
+  {
+   "text": "sign No. 7 is 9th from it. Since the 4th and 9th positions have",
+   "bbox": [
+    362,
+    621,
+    1588,
+    713
+   ]
+  },
+  {
+   "text": "both been declared as friendly in the above sloka Saturn would",
+   "bbox": [
+    359,
+    674,
+    1585,
+    766
+   ]
+  },
+  {
+   "text": "treat Venus as its friend.",
+   "bbox": [
+    358,
+    728,
+    867,
+    783
+   ]
+  },
+  {
+   "text": "Example 2: How does Jupiter treat Saturn?",
+   "bbox": [
+    428,
+    805,
+    1329,
+    885
+   ]
+  },
+  {
+   "text": "The mool trikon sign of Jupiter is Sagittarius (9), Saturn",
+   "bbox": [
+    428,
+    884,
+    1579,
+    968
+   ]
+  },
+  {
+   "text": "owns signs 10 and 11. Sign No. 10 is second from 9, hence",
+   "bbox": [
+    349,
+    930,
+    1575,
+    1021
+   ]
+  },
+  {
+   "text": "friendly but sign No 11 is 3rd from it. The third position is not",
+   "bbox": [
+    345,
+    979,
+    1575,
+    1076
+   ]
+  },
+  {
+   "text": "friendly, hence Jupiter will treat Saturn as a neutral. For",
+   "bbox": [
+    346,
+    1036,
+    1572,
+    1124
+   ]
+  },
+  {
+   "text": "fecility of reference the table showing friendship etc between",
+   "bbox": [
+    343,
+    1086,
+    1569,
+    1178
+   ]
+  },
+  {
+   "text": "planets is given on the next page.",
+   "bbox": [
+    341,
+    1136,
+    1023,
+    1216
+   ]
+  },
+  {
+   "text": "Planetary Friendship etc According to",
+   "bbox": [
+    338,
+    1246,
+    1351,
+    1328
+   ]
+  },
+  {
+   "text": "Satyacharya",
+   "bbox": [
+    335,
+    1302,
+    672,
+    1356
+   ]
+  },
+  {
+   "text": "शत्रू मन्दसितौ समश्च शशिजो मित्राणि शेषा रवे-",
+   "bbox": [
+    407,
+    1382,
+    1121,
+    1463
+   ]
+  },
+  {
+   "text": "स्तीक्षणांशुर्हिमरश्मिजश्च सुहृदौ शेषा: समा: शीतगो:।",
+   "bbox": [
+    405,
+    1448,
+    1167,
+    1528
+   ]
+  },
+  {
+   "text": "जीवेन्दूष्णकराः कुजस्य सुहृदौ ज्ञोऽरिः सितार्की समौ",
+   "bbox": [
+    401,
+    1511,
+    1163,
+    1597
+   ]
+  },
+  {
+   "text": "मित्रे सूर्यसितौ बुधस्य हिमगु: शत्रु: समाश्चापरे।। 16 ।।",
+   "bbox": [
+    398,
+    1576,
+    1222,
+    1668
+   ]
+  },
+  {
+   "text": "Sun treats Saturn and Venus as enemies, Mercury as a",
+   "bbox": [
+    396,
+    1671,
+    1548,
+    1756
+   ]
+  },
+  {
+   "text": "neutral, Moon, Jupiter and Mars as its friends. Moon treats",
+   "bbox": [
+    313,
+    1721,
+    1545,
+    1809
+   ]
+  },
+  {
+   "text": "Sun and Mercury as friends; Mars, Jupiter and Saturn as",
+   "bbox": [
+    314,
+    1770,
+    1544,
+    1863
+   ]
+  },
+  {
+   "text": "neutrals and none as enemy. Mars treats Jupiter, Moon and",
+   "bbox": [
+    314,
+    1823,
+    1539,
+    1915
+   ]
+  },
+  {
+   "text": "Sun as friends; Mercury as enemy; Venus and Saturn as",
+   "bbox": [
+    311,
+    1875,
+    1539,
+    1967
+   ]
+  },
+  {
+   "text": "neutrals. Mercury treats Sun and Venus as friends; Moon as",
+   "bbox": [
+    310,
+    1928,
+    1538,
+    2014
+   ]
+  },
+  {
+   "text": "its enemy; Mars, Jupiter and Saturn as neutral.",
+   "bbox": [
+    307,
+    1980,
+    1276,
+    2058
+   ]
+  },
+  {
+   "text": "सूरे: सौम्यसितावरी रविसुतो मध्योऽपरे त्वन्यथा",
+   "bbox": [
+    380,
+    2057,
+    1068,
+    2137
+   ]
+  },
+  {
+   "text": "सौम्यार्को सुहृदौ समौ कुजगुरू शुक्रस्य शेषावरी।",
+   "bbox": [
+    375,
+    2113,
+    1095,
+    2210
+   ]
+  },
+  {
+   "text": "शुक्रज्ञौ सुहृदौ सम: सुरगुरु: सौरस्य चान्येऽरय:",
+   "bbox": [
+    374,
+    2184,
+    1061,
+    2268
+   ]
+  },
+  {
+   "text": "ये प्रोक्ता: सुहृदस्त्रिकोणभवनात् तेऽमी मया कोर्तिता: ।। 17 ।।",
+   "bbox": [
+    371,
+    2247,
+    1285,
+    2339
+   ]
+  }
+ ]
+}

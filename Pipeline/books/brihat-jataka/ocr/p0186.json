@@ -1,0 +1,317 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0186",
+ "book_id": "brihat-jataka",
+ "seq": 186,
+ "source_ref": {
+  "pdf_page": 93,
+  "half": "b",
+  "v1_page": "s093b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "609e08085641bfcc427eb763bebed58f6752b1108f101d53dbd4904ea3d75eb8",
+ "lines": [
+  {
+   "text": "183",
+   "bbox": [
+    1378,
+    219,
+    1466,
+    252
+   ]
+  },
+  {
+   "text": "<b>Female Horoscopy</b>",
+   "bbox": [
+    256,
+    220,
+    624,
+    257
+   ]
+  },
+  {
+   "text": "मदनवशगतो मृदुश्च चान्द्रे त्रिदशगुरौ गुणवाञ्जितेन्द्रियश्च।",
+   "bbox": [
+    331,
+    317,
+    1113,
+    368
+   ]
+  },
+  {
+   "text": "अतिमृदुरतिकर्मकृच्च सिंहे भवति गृहेऽस्तमयस्थितेऽंशके वा।। 12 ।।",
+   "bbox": [
+    331,
+    381,
+    1325,
+    432
+   ]
+  },
+  {
+   "text": "When the seventh house is Cancer, the husband will be",
+   "bbox": [
+    334,
+    475,
+    1466,
+    514
+   ]
+  },
+  {
+   "text": "passionate, but mild.",
+   "bbox": [
+    257,
+    527,
+    672,
+    565
+   ]
+  },
+  {
+   "text": "When the seventh is owned by Guru, the husband will be",
+   "bbox": [
+    335,
+    601,
+    1465,
+    641
+   ]
+  },
+  {
+   "text": "good and controls his passions.",
+   "bbox": [
+    256,
+    653,
+    870,
+    691
+   ]
+  },
+  {
+   "text": "If the seventh is Simha, the husband will be mild and",
+   "bbox": [
+    332,
+    730,
+    1464,
+    768
+   ]
+  },
+  {
+   "text": "hardworking.",
+   "bbox": [
+    256,
+    781,
+    526,
+    817
+   ]
+  },
+  {
+   "text": "<i>Notes:</i> The seventh house may be from lagna or",
+   "bbox": [
+    326,
+    858,
+    1465,
+    898
+   ]
+  },
+  {
+   "text": "from navamsha lagna. The more powerful sign indicates the",
+   "bbox": [
+    254,
+    909,
+    1462,
+    948
+   ]
+  },
+  {
+   "text": "results.",
+   "bbox": [
+    256,
+    959,
+    409,
+    993
+   ]
+  },
+  {
+   "text": "ईर्ष्यान्विता सुखपरा शशिशुक्रलग्ने",
+   "bbox": [
+    327,
+    1033,
+    817,
+    1086
+   ]
+  },
+  {
+   "text": "ज्ञेन्द्रोः कलासु निपुण सुखिता गुणाढचा।",
+   "bbox": [
+    326,
+    1096,
+    911,
+    1151
+   ]
+  },
+  {
+   "text": "शुक्रज्ञयोस्तु सुभगा रुचिरा कलाज्ञा",
+   "bbox": [
+    326,
+    1163,
+    826,
+    1217
+   ]
+  },
+  {
+   "text": "त्रिष्वप्यनेकवसुसौख्यगुणा शुभेषु ।। 13 ।।",
+   "bbox": [
+    326,
+    1225,
+    939,
+    1284
+   ]
+  },
+  {
+   "text": "When Moon and Venus are in lagna, the woman is after",
+   "bbox": [
+    331,
+    1319,
+    1465,
+    1366
+   ]
+  },
+  {
+   "text": "happiness, though she is jealous.",
+   "bbox": [
+    251,
+    1374,
+    911,
+    1413
+   ]
+  },
+  {
+   "text": "When Moon and Mercury are in lagna, she is skilled in fine",
+   "bbox": [
+    328,
+    1451,
+    1464,
+    1490
+   ]
+  },
+  {
+   "text": "arts, happy and has a good character.",
+   "bbox": [
+    251,
+    1501,
+    1003,
+    1540
+   ]
+  },
+  {
+   "text": "When Venus and Mercury are in lagna, she is beautiful,",
+   "bbox": [
+    328,
+    1577,
+    1461,
+    1616
+   ]
+  },
+  {
+   "text": "beloved and versed in fine arts.",
+   "bbox": [
+    251,
+    1627,
+    881,
+    1661
+   ]
+  },
+  {
+   "text": "When three benefics are in lagna, she has much wealth,",
+   "bbox": [
+    328,
+    1701,
+    1461,
+    1745
+   ]
+  },
+  {
+   "text": "great happiness and good character.",
+   "bbox": [
+    251,
+    1754,
+    972,
+    1792
+   ]
+  },
+  {
+   "text": "<i>Notes:</i> Jupiter is also a benefic. Thus (i) Moon, Venus and",
+   "bbox": [
+    322,
+    1831,
+    1462,
+    1870
+   ]
+  },
+  {
+   "text": "Mercury; (ii) Jupiter, Mercury and Venus; (iii) Jupiter, full",
+   "bbox": [
+    251,
+    1883,
+    1462,
+    1923
+   ]
+  },
+  {
+   "text": "Moon, Mercury; (iv) Jupiter, full Moon, Venus – and other",
+   "bbox": [
+    251,
+    1937,
+    1462,
+    1976
+   ]
+  },
+  {
+   "text": "combinations also are to be considered.",
+   "bbox": [
+    251,
+    1988,
+    1025,
+    2025
+   ]
+  },
+  {
+   "text": "क्रूरेऽष्टमे विधवता निधनेश्वराऽंशे यस्य स्थितो वयसि तस्य समे प्रदिष्टा।",
+   "bbox": [
+    321,
+    2063,
+    1352,
+    2111
+   ]
+  },
+  {
+   "text": "सत्स्वर्क्षगेषु मरणं स्वयमेव तस्या: कन्याऽलिगोहरिषु चाल्पसुतत्वमिन्दौ।।14।।",
+   "bbox": [
+    321,
+    2127,
+    1437,
+    2178
+   ]
+  },
+  {
+   "text": "The woman becomes a widow at the age indicated by the",
+   "bbox": [
+    321,
+    2223,
+    1461,
+    2262
+   ]
+  },
+  {
+   "text": "lord of the amsha occupied by the lord of the eighth house,",
+   "bbox": [
+    244,
+    2275,
+    1459,
+    2314
+   ]
+  }
+ ]
+}

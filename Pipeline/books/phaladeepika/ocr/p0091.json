@@ -1,0 +1,171 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0091",
+ "book_id": "phaladeepika",
+ "seq": 91,
+ "source_ref": {
+  "pdf_page": 91
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "8f845f897a326faec412d41f91a5d86b8091c8148d29f69e9770ece1ef16c93d",
+ "lines": [
+  {
+   "text": "reference to the Moon or the Lagna, the debilitation gets cancelled and the ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "Neechabhanga Raja Yoga so formed will produce an emperor revered by other ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "Kings.",
+   "bbox": [
+    85,
+    106,
+    122,
+    121
+   ]
+  },
+  {
+   "text": "Nates — Thus there are five kinds of Neechabhanga Raja Yogas as ",
+   "bbox": [
+    121,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "described below:—",
+   "bbox": [
+    85,
+    154,
+    194,
+    169
+   ]
+  },
+  {
+   "text": "(1) The lord of the depression sign or the planet that is exalted in that sign, is ",
+   "bbox": [
+    121,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "in a Kendra position from the Lagna or the Moon.",
+   "bbox": [
+    85,
+    202,
+    365,
+    218
+   ]
+  },
+  {
+   "text": "(2) The lord of the sign of debilitation and the lord of the exaltation sign of ",
+   "bbox": [
+    121,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "the debilitation planet are mutually in Kendra positions.",
+   "bbox": [
+    85,
+    251,
+    398,
+    266
+   ]
+  },
+  {
+   "text": "(3) The planet in the sign of debilitation is aspected by the lord of that sign.",
+   "bbox": [
+    121,
+    275,
+    543,
+    290
+   ]
+  },
+  {
+   "text": "(4) The lord of the sign of debilitation or the lord of the exaltation sign of the ",
+   "bbox": [
+    121,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "planet in debilitation, is in Kendra from the Lagna or the Moon.",
+   "bbox": [
+    85,
+    323,
+    442,
+    339
+   ]
+  },
+  {
+   "text": "(5) The planet in his sign of debilitation is in Kendra with reference to the ",
+   "bbox": [
+    121,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "Lagna or the Moon.",
+   "bbox": [
+    85,
+    371,
+    196,
+    387
+   ]
+  },
+  {
+   "text": "Thus ends the seventh chapter on \"Maharaja Yogas\" in Phaladeepika ",
+   "bbox": [
+    121,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "composed by Mantreswara.",
+   "bbox": [
+    85,
+    420,
+    240,
+    435
+   ]
+  },
+  {
+   "text": "91",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

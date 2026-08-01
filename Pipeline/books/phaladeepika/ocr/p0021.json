@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0021",
+ "book_id": "phaladeepika",
+ "seq": 21,
+ "source_ref": {
+  "pdf_page": 21
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "916f408053004866dfc8cc8ae94a1604310b99d9f1f2053ad7c8df0b5fd9446c",
+ "lines": [
+  {
+   "text": "The Moon has jurisdiction over the temple of Goddess Durga, places ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "inhabited by women, places where water, medicinal herbs, honey and wine are ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "available and the North-Western quarter.",
+   "bbox": [
+    85,
+    106,
+    312,
+    121
+   ]
+  },
+  {
+   "text": "The places concerned with Mars are the battle field, those where there is ",
+   "bbox": [
+    121,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "fire, those inhabited by thieves and low people and the Southern quarter.",
+   "bbox": [
+    85,
+    154,
+    491,
+    169
+   ]
+  },
+  {
+   "text": "The governance of Mercury extends to places where there is a temple of ",
+   "bbox": [
+    121,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "Lord Vishnu, those frequented by men of learning, those of recreation, those where ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "Mathematics is practiced and the Northern quarter.",
+   "bbox": [
+    85,
+    226,
+    369,
+    242
+   ]
+  },
+  {
+   "text": "16. Jupiter has jurisdiction over treasury, peepal trees, places, inhabited by ",
+   "bbox": [
+    121,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "gods and Brahmins, and the North-Eastern quarter.",
+   "bbox": [
+    85,
+    275,
+    370,
+    290
+   ]
+  },
+  {
+   "text": "The places coming under the administration of Venus are abodes of ",
+   "bbox": [
+    121,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "courtesans, the harem, bed rooms, dining halls, and the South-Eastern quarter.",
+   "bbox": [
+    85,
+    323,
+    522,
+    339
+   ]
+  },
+  {
+   "text": "Saturn rules over places inhabited by low class people, temple of Shasta (a ",
+   "bbox": [
+    121,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "deity), those which are full of filth and the Western quarter.",
+   "bbox": [
+    85,
+    371,
+    417,
+    387
+   ]
+  },
+  {
+   "text": "The places belonging to Rahu and Ketu are the ant-hills, the dark holes of ",
+   "bbox": [
+    121,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "serpents and the South-Western quarter.",
+   "bbox": [
+    85,
+    420,
+    308,
+    435
+   ]
+  },
+  {
+   "text": "17-20. A worshipper of Lord Shiva, a physician (Vaidya), a king, one who ",
+   "bbox": [
+    121,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "performs yajna, a minister, tiger, deer and chako (the ruddy goose) are the ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "significations of the Sun.",
+   "bbox": [
+    85,
+    492,
+    225,
+    508
+   ]
+  },
+  {
+   "text": "The Moon rules over worship of Shasta (a deity) females, a washerman, a ",
+   "bbox": [
+    121,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "cultivator, an animal living in water, a hare, an antelope crane, birds known as ",
+   "bbox": [
+    85,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "Bagula and Chakor.",
+   "bbox": [
+    85,
+    565,
+    196,
+    580
+   ]
+  },
+  {
+   "text": "Mars has jurisdiction over a cook (in the kitchen), an armed person, a ",
+   "bbox": [
+    121,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "goldsmith, a ram, a cock, a jackal, a monkey, a vulture and a thief.",
+   "bbox": [
+    85,
+    613,
+    456,
+    628
+   ]
+  },
+  {
+   "text": "Mercury is concerned with a milkman, a person of learning, an artisan, an ",
+   "bbox": [
+    121,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "expert accountant, a devotee of Lord Vishnu, Garuda, a Chataka, a parrot and a cat.",
+   "bbox": [
+    85,
+    661,
+    551,
+    677
+   ]
+  },
+  {
+   "text": "An astrologer, a minister, a Brahmin, a preceptor, a sanyasi, and important ",
+   "bbox": [
+    121,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "personage, a pigeon, a horse and swan belong to Jupiter.",
+   "bbox": [
+    85,
+    709,
+    400,
+    725
+   ]
+  },
+  {
+   "text": "A wealthy man, a songster, a Vaishya (businessman), a sensualist, a dancer, a ",
+   "bbox": [
+    121,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "weaver, a prostitute, a peacock, a cow, a buffaloe and a parrot are represented by ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "21",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

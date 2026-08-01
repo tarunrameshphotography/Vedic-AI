@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0115",
+ "book_id": "brihat-jataka",
+ "seq": 115,
+ "source_ref": {
+  "pdf_page": 58,
+  "half": "a",
+  "v1_page": "s058a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "94a8589948a0a02b8a472b9cba5e3edfb3383cb1ed869e1b8386f9df4902dc6e",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1312,
+    219,
+    1604,
+    252
+   ]
+  },
+  {
+   "text": "112",
+   "bbox": [
+    389,
+    221,
+    480,
+    256
+   ]
+  },
+  {
+   "text": "One with \"Gadaa\" yoga is engaged in performing religious",
+   "bbox": [
+    461,
+    325,
+    1605,
+    364
+   ]
+  },
+  {
+   "text": "sacrificial rituals in earning and in enjoying wealth, one with",
+   "bbox": [
+    384,
+    376,
+    1605,
+    415
+   ]
+  },
+  {
+   "text": "\"shakat\" yoga earns from shakat ie by driving cart etc, is",
+   "bbox": [
+    384,
+    429,
+    1602,
+    469
+   ]
+  },
+  {
+   "text": "diseased and his wife is a bad woman. One with \"Vihag\" yoga,",
+   "bbox": [
+    384,
+    482,
+    1601,
+    521
+   ]
+  },
+  {
+   "text": "acts as a messenger, is a wanderer and easily engaged in",
+   "bbox": [
+    384,
+    535,
+    1602,
+    574
+   ]
+  },
+  {
+   "text": "quarrel. One with Shringashtak yoga has long lasting com-",
+   "bbox": [
+    384,
+    587,
+    1601,
+    627
+   ]
+  },
+  {
+   "text": "forts, one born in \"Hal\" yoga is engaged in agricultural",
+   "bbox": [
+    383,
+    635,
+    1604,
+    683
+   ]
+  },
+  {
+   "text": "persuits.",
+   "bbox": [
+    384,
+    695,
+    562,
+    733
+   ]
+  },
+  {
+   "text": "Vajra etc",
+   "bbox": [
+    383,
+    800,
+    627,
+    840
+   ]
+  },
+  {
+   "text": "वज्रेऽन्त्यपूर्वसुखिन: सुभगोऽतिशूरो",
+   "bbox": [
+    455,
+    874,
+    940,
+    927
+   ]
+  },
+  {
+   "text": "वीर्यान्वितोऽप्यथ यवे सुखितो वयोऽन्त:।",
+   "bbox": [
+    455,
+    936,
+    1032,
+    995
+   ]
+  },
+  {
+   "text": "विख्यातकीर्त्यमितसौख्यगुणश्च पद्मे",
+   "bbox": [
+    455,
+    1001,
+    949,
+    1058
+   ]
+  },
+  {
+   "text": "वाप्यां तनुस्थिरसुखो निधिकृत्र दाता।। 14 ।।",
+   "bbox": [
+    456,
+    1069,
+    1118,
+    1124
+   ]
+  },
+  {
+   "text": "One born in \"Vajra\" yoga is happy and comfortable in old",
+   "bbox": [
+    460,
+    1167,
+    1601,
+    1209
+   ]
+  },
+  {
+   "text": "and early age, beloved of all the highly valiant. One born in",
+   "bbox": [
+    383,
+    1218,
+    1601,
+    1259
+   ]
+  },
+  {
+   "text": "\"Yava\" yoga is powerful but unhappy in early and middle age",
+   "bbox": [
+    380,
+    1271,
+    1601,
+    1312
+   ]
+  },
+  {
+   "text": "and happy in old age, one born in \"Padma\" yoga is highly",
+   "bbox": [
+    383,
+    1321,
+    1601,
+    1368
+   ]
+  },
+  {
+   "text": "famous, highly happy and comfortable and possesses many",
+   "bbox": [
+    380,
+    1378,
+    1600,
+    1418
+   ]
+  },
+  {
+   "text": "qualities. One born in \"Vapi\" yoga is happy for any consider-",
+   "bbox": [
+    381,
+    1427,
+    1600,
+    1474
+   ]
+  },
+  {
+   "text": "able period at a time, accumulates wealth but is not charitable",
+   "bbox": [
+    383,
+    1484,
+    1601,
+    1524
+   ]
+  },
+  {
+   "text": "in disposition.",
+   "bbox": [
+    379,
+    1538,
+    666,
+    1576
+   ]
+  },
+  {
+   "text": "Yupa etc",
+   "bbox": [
+    380,
+    1643,
+    617,
+    1682
+   ]
+  },
+  {
+   "text": "त्यागात्मवान् क्रतुवरैर्यजते च यूपे",
+   "bbox": [
+    452,
+    1718,
+    933,
+    1770
+   ]
+  },
+  {
+   "text": "हिंस्रोऽथ गुप्त्यधिकृत: शरकृच्छराख्ये।",
+   "bbox": [
+    452,
+    1780,
+    1003,
+    1834
+   ]
+  },
+  {
+   "text": "नीचोऽलस: सुखधनैर्वियुतश्च शक्तौ",
+   "bbox": [
+    452,
+    1845,
+    951,
+    1900
+   ]
+  },
+  {
+   "text": "दण्डे प्रियैविरहितः पुरुषोऽन्त्यवृत्तिः।। 15 ।।",
+   "bbox": [
+    452,
+    1911,
+    1109,
+    1965
+   ]
+  },
+  {
+   "text": "A person born in \"Yupa\" yoga is magnificient, active, and",
+   "bbox": [
+    454,
+    2010,
+    1601,
+    2051
+   ]
+  },
+  {
+   "text": "engaged in many good works. One born in \"Shar\" yoga is",
+   "bbox": [
+    379,
+    2063,
+    1600,
+    2102
+   ]
+  },
+  {
+   "text": "inclined to kill, has control over a jail and is a manufacturer of",
+   "bbox": [
+    379,
+    2115,
+    1601,
+    2155
+   ]
+  },
+  {
+   "text": "weapons. One born in \"Shakti\" yoga is engaged in mean acts,",
+   "bbox": [
+    379,
+    2167,
+    1600,
+    2208
+   ]
+  },
+  {
+   "text": "lazy, bereft of comforts and wealth. One born in \"Danda\" yoga",
+   "bbox": [
+    378,
+    2216,
+    1598,
+    2262
+   ]
+  },
+  {
+   "text": "is devoid of dear relatives and earns by low work.",
+   "bbox": [
+    377,
+    2269,
+    1370,
+    2313
+   ]
+  }
+ ]
+}

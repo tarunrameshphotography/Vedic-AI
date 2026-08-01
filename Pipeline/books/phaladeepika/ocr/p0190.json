@@ -1,0 +1,225 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0190",
+ "book_id": "phaladeepika",
+ "seq": 190,
+ "source_ref": {
+  "pdf_page": 190
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "11dc6d6635a0509cd3da7566ff08ebfaa4abd15c8d37f07db07ded72bb00c550",
+ "lines": [
+  {
+   "text": "L",
+   "bbox": [
+    400,
+    159,
+    408,
+    174
+   ]
+  },
+  {
+   "text": "RAHU",
+   "bbox": [
+    327,
+    264,
+    367,
+    280
+   ]
+  },
+  {
+   "text": "VEN",
+   "bbox": [
+    333,
+    280,
+    361,
+    296
+   ]
+  },
+  {
+   "text": "40. The 2nd and 7th houses are maraka (death producing) houses. If the ",
+   "bbox": [
+    121,
+    333,
+    556,
+    348
+   ]
+  },
+  {
+   "text": "lords of these houses or planets posited therein, are powerful they cause death ",
+   "bbox": [
+    85,
+    357,
+    556,
+    373
+   ]
+  },
+  {
+   "text": "duing their dasa. If the lord of the 8th or 12th house be very weak, death is likely to ",
+   "bbox": [
+    85,
+    381,
+    556,
+    397
+   ]
+  },
+  {
+   "text": "take place in the an tar dasa of any of the two.",
+   "bbox": [
+    85,
+    405,
+    343,
+    421
+   ]
+  },
+  {
+   "text": "41. The dasa of a planet who is lord of a kendra will be adverse if he ",
+   "bbox": [
+    121,
+    430,
+    556,
+    445
+   ]
+  },
+  {
+   "text": "happens to be a benefic natural benefic and auspicious or favourable if he is a ",
+   "bbox": [
+    85,
+    454,
+    556,
+    469
+   ]
+  },
+  {
+   "text": "(natural) malefic. The dasa of all the planets who are trikonas (1,5,9) will be ",
+   "bbox": [
+    85,
+    478,
+    556,
+    493
+   ]
+  },
+  {
+   "text": "favourable. The lords of the 3rd, 6th and 11th houses, even if benefics, they will ",
+   "bbox": [
+    85,
+    502,
+    556,
+    518
+   ]
+  },
+  {
+   "text": "always produce evil effects during their dasas. The lord of the 8th house, if he also ",
+   "bbox": [
+    85,
+    526,
+    556,
+    542
+   ]
+  },
+  {
+   "text": "is the lord of the lagna will be auspicious and will produce good effects in his dasa. ",
+   "bbox": [
+    85,
+    550,
+    556,
+    566
+   ]
+  },
+  {
+   "text": "The Sun and the Moon even if they own the 8th house give only good effects. ",
+   "bbox": [
+    85,
+    574,
+    556,
+    590
+   ]
+  },
+  {
+   "text": "(They do not suffer from the stigma of being lords of the 8th house.) These are the ",
+   "bbox": [
+    85,
+    599,
+    556,
+    614
+   ]
+  },
+  {
+   "text": "effects of several dasas according to Parasara's opinion.",
+   "bbox": [
+    85,
+    623,
+    396,
+    638
+   ]
+  },
+  {
+   "text": "42. If (1) the lord of a trikona be in a kendra, (2) the lord of a kendra be in a ",
+   "bbox": [
+    121,
+    647,
+    556,
+    662
+   ]
+  },
+  {
+   "text": "trikona, they will both prove auspicious. If the dasa of one and the an tar dasa of ",
+   "bbox": [
+    85,
+    671,
+    556,
+    687
+   ]
+  },
+  {
+   "text": "the ohter be in operation, the effects will be very favourable. They will help each ",
+   "bbox": [
+    85,
+    695,
+    556,
+    711
+   ]
+  },
+  {
+   "text": "other, cooperate to make the period auspicious.",
+   "bbox": [
+    85,
+    719,
+    349,
+    735
+   ]
+  },
+  {
+   "text": "43. No planet produces good or bad effects to the native in accordance with ",
+   "bbox": [
+    121,
+    744,
+    556,
+    759
+   ]
+  },
+  {
+   "text": "the house he owns during his dasa and his own antar dasa.",
+   "bbox": [
+    85,
+    768,
+    411,
+    783
+   ]
+  },
+  {
+   "text": "190",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

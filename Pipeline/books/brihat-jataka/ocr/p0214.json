@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0214",
+ "book_id": "brihat-jataka",
+ "seq": 214,
+ "source_ref": {
+  "pdf_page": 107,
+  "half": "b",
+  "v1_page": "s107b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "f7b589ff1f297a381ae3f5a3c43de28a2dd0df1607447849d0e899e275d2fa77",
+ "lines": [
+  {
+   "text": "211",
+   "bbox": [
+    1421,
+    119,
+    1509,
+    154
+   ]
+  },
+  {
+   "text": "Drekkana",
+   "bbox": [
+    302,
+    142,
+    505,
+    183
+   ]
+  },
+  {
+   "text": "The second drekkana of Kanya is a man with a pen. He",
+   "bbox": [
+    379,
+    216,
+    1519,
+    286
+   ]
+  },
+  {
+   "text": "has a dark complexion. The head is tied by a cloth. He",
+   "bbox": [
+    304,
+    265,
+    1522,
+    340
+   ]
+  },
+  {
+   "text": "counts profits and loss. His body is full of thick hair. He has",
+   "bbox": [
+    304,
+    314,
+    1522,
+    392
+   ]
+  },
+  {
+   "text": "a big bow.",
+   "bbox": [
+    307,
+    393,
+    517,
+    439
+   ]
+  },
+  {
+   "text": "गौरी सुधौतार्द्रदुकूलगुप्ता समुच्छिता कुम्भकटच्छुहस्ता।",
+   "bbox": [
+    379,
+    455,
+    1165,
+    523
+   ]
+  },
+  {
+   "text": "देवालयं स्त्री प्रयाता प्रवृत्ता वदन्ति कन्यान्त्यगतं त्रिभागम् ।। 18 ।।",
+   "bbox": [
+    380,
+    513,
+    1356,
+    588
+   ]
+  },
+  {
+   "text": "The third drekkana of Kanya is a woman in yellow",
+   "bbox": [
+    386,
+    599,
+    1528,
+    671
+   ]
+  },
+  {
+   "text": "colour. She is covered by a white silk cloth. She is tall. She has",
+   "bbox": [
+    310,
+    647,
+    1529,
+    724
+   ]
+  },
+  {
+   "text": "a pot and a spoon. She goes to a temple with great religious",
+   "bbox": [
+    311,
+    698,
+    1529,
+    776
+   ]
+  },
+  {
+   "text": "piety.",
+   "bbox": [
+    314,
+    781,
+    434,
+    823
+   ]
+  },
+  {
+   "text": "वीथ्यान्तरापणगत: पुरुषस्तुलावा-",
+   "bbox": [
+    390,
+    851,
+    864,
+    905
+   ]
+  },
+  {
+   "text": "नुन्मानमानकुशल: प्रतिमानहस्त:।",
+   "bbox": [
+    391,
+    914,
+    865,
+    972
+   ]
+  },
+  {
+   "text": "भाण्डं विचिन्तयति तस्य च मूल्यमेत-",
+   "bbox": [
+    393,
+    976,
+    950,
+    1033
+   ]
+  },
+  {
+   "text": "द्रूपं वदन्ति यवना: प्रथमं तुलाया: ।। 19 ।।",
+   "bbox": [
+    392,
+    1040,
+    1031,
+    1103
+   ]
+  },
+  {
+   "text": "The first drekkana of Tula, say the Yavanas, is a man",
+   "bbox": [
+    396,
+    1116,
+    1537,
+    1188
+   ]
+  },
+  {
+   "text": "seated in a shop in the middle of the road. He holds the scales,",
+   "bbox": [
+    323,
+    1164,
+    1534,
+    1241
+   ]
+  },
+  {
+   "text": "is clever in weighing and measuring with small scales (bal-",
+   "bbox": [
+    322,
+    1216,
+    1541,
+    1294
+   ]
+  },
+  {
+   "text": "ances). He weighs gold, diamonds. He thinks of his capital and",
+   "bbox": [
+    323,
+    1265,
+    1542,
+    1345
+   ]
+  },
+  {
+   "text": "the prices of his articles.",
+   "bbox": [
+    325,
+    1336,
+    820,
+    1389
+   ]
+  },
+  {
+   "text": "कलशं परिगृह्य विनिष्पतितुं समभीप्सति गृध्रमुख: पुरुष:।",
+   "bbox": [
+    399,
+    1404,
+    1223,
+    1475
+   ]
+  },
+  {
+   "text": "क्षुधितस्तृपितश्च कलत्रसुतान् मनसैति तुलाधरमध्यगत: ।। 20 ।।",
+   "bbox": [
+    402,
+    1463,
+    1312,
+    1543
+   ]
+  },
+  {
+   "text": "The second drekkana of Tula is a man with the face of a",
+   "bbox": [
+    405,
+    1550,
+    1547,
+    1619
+   ]
+  },
+  {
+   "text": "vulture. He is hungry and thirsty. He holds a pot which is",
+   "bbox": [
+    327,
+    1601,
+    1550,
+    1676
+   ]
+  },
+  {
+   "text": "about to fall. He thinks of his wife and children.",
+   "bbox": [
+    332,
+    1658,
+    1292,
+    1724
+   ]
+  },
+  {
+   "text": "विभीषयंतिष्ठति रत्नचित्रितो वने मृगान् काञ्चनतूर्ण वर्मभृत्।",
+   "bbox": [
+    406,
+    1736,
+    1263,
+    1811
+   ]
+  },
+  {
+   "text": "फलामिषं वानररूपभूत्ररस्तुलावसाने यवनैरुदाहृत: ।। 21 ।।",
+   "bbox": [
+    407,
+    1800,
+    1262,
+    1875
+   ]
+  },
+  {
+   "text": "The third drekkana of Tula, say the Yavanas, is a man",
+   "bbox": [
+    410,
+    1888,
+    1556,
+    1956
+   ]
+  },
+  {
+   "text": "decorated with gems. He has a golden guitar and armour. He",
+   "bbox": [
+    335,
+    1936,
+    1556,
+    2010
+   ]
+  },
+  {
+   "text": "frightens the animals in the forest. He is like a monkey. He",
+   "bbox": [
+    335,
+    1987,
+    1558,
+    2060
+   ]
+  },
+  {
+   "text": "holds fruits and flesh in his hands.",
+   "bbox": [
+    338,
+    2051,
+    1037,
+    2106
+   ]
+  },
+  {
+   "text": "वस्त्रैविंहीनाभरणैश्च नारी महासमुद्रात्समुपैति कूलम्।",
+   "bbox": [
+    413,
+    2128,
+    1153,
+    2189
+   ]
+  },
+  {
+   "text": "स्थानच्युता सर्पनिबद्धपादा मनोरमा वृश्चिकराशिपूर्व: ।। 22 ।।",
+   "bbox": [
+    414,
+    2186,
+    1293,
+    2258
+   ]
+  }
+ ]
+}

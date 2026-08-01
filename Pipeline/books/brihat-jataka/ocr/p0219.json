@@ -1,0 +1,209 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0219",
+ "book_id": "brihat-jataka",
+ "seq": 219,
+ "source_ref": {
+  "pdf_page": 110,
+  "half": "a",
+  "v1_page": "s110a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "ede52939db76802c6b36d8750bab94b55ea89e41861a9b5d52fde9ba8704c346",
+ "lines": [
+  {
+   "text": "28",
+   "bbox": [
+    716,
+    453,
+    814,
+    506
+   ]
+  },
+  {
+   "text": "उपसंहाराध्यायः",
+   "bbox": [
+    615,
+    610,
+    908,
+    659
+   ]
+  },
+  {
+   "text": "<b>Concluding Chapter</b>",
+   "bbox": [
+    361,
+    679,
+    1163,
+    760
+   ]
+  },
+  {
+   "text": "राशिप्रभेदो ग्रहयोनिभेदो वियोनिजन्माऽथ निषेककाल:।",
+   "bbox": [
+    223,
+    919,
+    998,
+    981
+   ]
+  },
+  {
+   "text": "जन्माऽथ सद्यो मरणं अथाऽऽयुर्दशाविपाकोऽष्टकवर्गसंज्ञ: ।। 111",
+   "bbox": [
+    220,
+    989,
+    1120,
+    1047
+   ]
+  },
+  {
+   "text": "The first chapter is Rasi Prabheda,",
+   "bbox": [
+    222,
+    1080,
+    928,
+    1132
+   ]
+  },
+  {
+   "text": "the second Graha yoni Bheda,",
+   "bbox": [
+    220,
+    1158,
+    826,
+    1214
+   ]
+  },
+  {
+   "text": "the third Viyoni Janma,",
+   "bbox": [
+    220,
+    1240,
+    709,
+    1287
+   ]
+  },
+  {
+   "text": "the fourth Niheka kala,",
+   "bbox": [
+    220,
+    1319,
+    699,
+    1363
+   ]
+  },
+  {
+   "text": "the fifth Janma,",
+   "bbox": [
+    219,
+    1399,
+    551,
+    1438
+   ]
+  },
+  {
+   "text": "the sixth Balarishta,",
+   "bbox": [
+    217,
+    1473,
+    638,
+    1519
+   ]
+  },
+  {
+   "text": "the seventh Ayuradaya,",
+   "bbox": [
+    214,
+    1552,
+    701,
+    1599
+   ]
+  },
+  {
+   "text": "the eighth Dasa Vikara, and",
+   "bbox": [
+    214,
+    1629,
+    790,
+    1678
+   ]
+  },
+  {
+   "text": "the ninth Ashtaka Varga",
+   "bbox": [
+    214,
+    1707,
+    724,
+    1753
+   ]
+  },
+  {
+   "text": "कर्माजीवो राजयोगा: खयोगाश्चान्द्रा योगा द्विग्रहाद्याश्च योगा:।",
+   "bbox": [
+    213,
+    1781,
+    1071,
+    1838
+   ]
+  },
+  {
+   "text": "प्रव्रज्याऽथो राशिशीलानि दृष्टिर्भावस्तस्मादाश्रयोऽथ प्रकोर्ण: ।। 2।।",
+   "bbox": [
+    212,
+    1852,
+    1159,
+    1909
+   ]
+  },
+  {
+   "text": "The tenth chapter is Karmajiva,",
+   "bbox": [
+    213,
+    1940,
+    860,
+    1991
+   ]
+  },
+  {
+   "text": "the eleventh Raja Yoga,",
+   "bbox": [
+    212,
+    2023,
+    693,
+    2063
+   ]
+  },
+  {
+   "text": "the twelfth Nabhasa Yoga,",
+   "bbox": [
+    208,
+    2095,
+    750,
+    2146
+   ]
+  },
+  {
+   "text": "the thirteenth Chandra Yogas,",
+   "bbox": [
+    207,
+    2176,
+    840,
+    2225
+   ]
+  },
+  {
+   "text": "the fourteenth Dwigraha Yogas,",
+   "bbox": [
+    206,
+    2251,
+    852,
+    2302
+   ]
+  }
+ ]
+}

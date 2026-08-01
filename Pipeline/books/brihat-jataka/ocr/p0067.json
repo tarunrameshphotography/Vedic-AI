@@ -1,0 +1,353 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0067",
+ "book_id": "brihat-jataka",
+ "seq": 67,
+ "source_ref": {
+  "pdf_page": 34,
+  "half": "a",
+  "v1_page": "s034a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "49183097f21b1aaad0b1f9972c220e701ef5c2653736b7b18c5d665a723b7f2b",
+ "lines": [
+  {
+   "text": "64",
+   "bbox": [
+    358,
+    285,
+    421,
+    319
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1280,
+    285,
+    1574,
+    319
+   ]
+  },
+  {
+   "text": "मेषकुलीरतुलालिघटै: प्रागुत्तरतो गुरुसौम्यगृहेषु।",
+   "bbox": [
+    428,
+    385,
+    1098,
+    436
+   ]
+  },
+  {
+   "text": "पश्चिमतश्च वृषेण निवासो दक्षिणभागकरौ मृगसिंहौ।। 20 ।।",
+   "bbox": [
+    430,
+    446,
+    1286,
+    499
+   ]
+  },
+  {
+   "text": "The sign 1 and 2 represent the east, 3 the south-east, 4 and",
+   "bbox": [
+    430,
+    545,
+    1575,
+    583
+   ]
+  },
+  {
+   "text": "5 south, 6 south-west, 7 and 8 west, 9 north-west, 10 and 11",
+   "bbox": [
+    355,
+    597,
+    1571,
+    636
+   ]
+  },
+  {
+   "text": "north and 12 north-east. The direction of the delivery room (or",
+   "bbox": [
+    355,
+    651,
+    1574,
+    689
+   ]
+  },
+  {
+   "text": "place) in the house would be in the direction represented by",
+   "bbox": [
+    355,
+    704,
+    1573,
+    742
+   ]
+  },
+  {
+   "text": "the sign in the ascendant. The bed occupied by the woman",
+   "bbox": [
+    355,
+    754,
+    1573,
+    798
+   ]
+  },
+  {
+   "text": "delivering the child should be presumed on the basis of the",
+   "bbox": [
+    355,
+    809,
+    1573,
+    848
+   ]
+  },
+  {
+   "text": "house of the horoscope as under:",
+   "bbox": [
+    354,
+    862,
+    1007,
+    901
+   ]
+  },
+  {
+   "text": "प्राच्यादिगृहे क्रियादयो द्वौ द्वौ कोणगता द्विमूर्त्तय:।",
+   "bbox": [
+    427,
+    935,
+    1135,
+    987
+   ]
+  },
+  {
+   "text": "शय्यास्वपि वास्तुवद्वदेत्पादै: षट्त्रिनवान्त्यसंस्थितै: ।। 21 ।।",
+   "bbox": [
+    427,
+    998,
+    1285,
+    1054
+   ]
+  },
+  {
+   "text": "1st and 2nd houses represent the whole of the bed side",
+   "bbox": [
+    433,
+    1096,
+    1573,
+    1137
+   ]
+  },
+  {
+   "text": "under the head, the 3rd stands for the leg of the charpoy on the",
+   "bbox": [
+    354,
+    1150,
+    1568,
+    1189
+   ]
+  },
+  {
+   "text": "right side near the head, the 4th and 5th houses represent the",
+   "bbox": [
+    354,
+    1201,
+    1570,
+    1240
+   ]
+  },
+  {
+   "text": "whole length of the right side, the 6th house stands for the leg",
+   "bbox": [
+    354,
+    1254,
+    1573,
+    1293
+   ]
+  },
+  {
+   "text": "on the right side in the direction of the feet, the 7<sup>th</sup> and 8<sup>th</sup>",
+   "bbox": [
+    354,
+    1308,
+    1573,
+    1346
+   ]
+  },
+  {
+   "text": "houses represent the whole length of the charpoy on the side of",
+   "bbox": [
+    352,
+    1360,
+    1574,
+    1399
+   ]
+  },
+  {
+   "text": "the feet, the 9th house stands for the leg of the charpoy on the",
+   "bbox": [
+    352,
+    1411,
+    1570,
+    1453
+   ]
+  },
+  {
+   "text": "left side of the feet. The 10th and 11th houses represent the",
+   "bbox": [
+    352,
+    1465,
+    1570,
+    1504
+   ]
+  },
+  {
+   "text": "entire length of the charpoy on the left and the 12th house",
+   "bbox": [
+    351,
+    1519,
+    1570,
+    1558
+   ]
+  },
+  {
+   "text": "stands for the 4th leg of the charpoy on the left near the head",
+   "bbox": [
+    352,
+    1571,
+    1570,
+    1611
+   ]
+  },
+  {
+   "text": "(The idea is to locate the broken portion of the charpoy by the",
+   "bbox": [
+    354,
+    1623,
+    1570,
+    1663
+   ]
+  },
+  {
+   "text": "houses occupied by malefic planet etc).",
+   "bbox": [
+    351,
+    1677,
+    1122,
+    1716
+   ]
+  },
+  {
+   "text": "चन्द्रलग्नान्तर्गतैर्ग्रहै: स्युरुपसूतिका:।",
+   "bbox": [
+    422,
+    1747,
+    938,
+    1805
+   ]
+  },
+  {
+   "text": "बहिरन्तश्च चक्रार्थे दृश्यादृश्येऽन्यथापरे।। 22 11",
+   "bbox": [
+    421,
+    1812,
+    1132,
+    1868
+   ]
+  },
+  {
+   "text": "The number of women attending etc on the mother of the",
+   "bbox": [
+    423,
+    1913,
+    1570,
+    1953
+   ]
+  },
+  {
+   "text": "child should be determined from the number of planets located",
+   "bbox": [
+    348,
+    1966,
+    1570,
+    2005
+   ]
+  },
+  {
+   "text": "in between the lagna and the Moon. Out of this number, those",
+   "bbox": [
+    348,
+    2018,
+    1568,
+    2057
+   ]
+  },
+  {
+   "text": "in the delivery room will be represented by the number of",
+   "bbox": [
+    348,
+    2071,
+    1570,
+    2110
+   ]
+  },
+  {
+   "text": "planets in the half of the zodiac from the lagna to the 7th house",
+   "bbox": [
+    348,
+    2119,
+    1567,
+    2165
+   ]
+  },
+  {
+   "text": "while those outside would be represented by the planets in the",
+   "bbox": [
+    348,
+    2175,
+    1565,
+    2214
+   ]
+  },
+  {
+   "text": "other half. Some teachers are of the contrary opinion that the",
+   "bbox": [
+    348,
+    2224,
+    1565,
+    2266
+   ]
+  },
+  {
+   "text": "half of the zodiac comprised of houses seven to the ascendant",
+   "bbox": [
+    348,
+    2276,
+    1567,
+    2318
+   ]
+  },
+  {
+   "text": "represents the number of women in the delivery room. (This is",
+   "bbox": [
+    348,
+    2329,
+    1564,
+    2368
+   ]
+  },
+  {
+   "text": "of course not the opinion recognised by Varaha Mihira).",
+   "bbox": [
+    348,
+    2380,
+    1458,
+    2422
+   ]
+  }
+ ]
+}

@@ -1,0 +1,317 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0154",
+ "book_id": "brihat-jataka",
+ "seq": 154,
+ "source_ref": {
+  "pdf_page": 77,
+  "half": "b",
+  "v1_page": "s077b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "8acc6edf2bb1eb7fc752d049c72f9b9c72e7f66d39faa8167c02003b3a30d16c",
+ "lines": [
+  {
+   "text": "151",
+   "bbox": [
+    1351,
+    159,
+    1434,
+    193
+   ]
+  },
+  {
+   "text": "Aspects on Moon",
+   "bbox": [
+    221,
+    172,
+    567,
+    221
+   ]
+  },
+  {
+   "text": "aspected by Sun the native is known for his power, if aspected",
+   "bbox": [
+    229,
+    257,
+    1443,
+    320
+   ]
+  },
+  {
+   "text": "by Mars a lecturer on military strategy, by Mercury well up in",
+   "bbox": [
+    229,
+    312,
+    1444,
+    371
+   ]
+  },
+  {
+   "text": "jokes, if by Jupiter a minister, if by Venus a eunuch and if by",
+   "bbox": [
+    226,
+    361,
+    1443,
+    429
+   ]
+  },
+  {
+   "text": "Saturn religious.",
+   "bbox": [
+    232,
+    433,
+    575,
+    477
+   ]
+  },
+  {
+   "text": "If Moon occupies the navamsha sign of Capricorn or",
+   "bbox": [
+    305,
+    493,
+    1445,
+    557
+   ]
+  },
+  {
+   "text": "Acquarius and is aspected by Sun, the native has very little",
+   "bbox": [
+    230,
+    547,
+    1445,
+    609
+   ]
+  },
+  {
+   "text": "progeny. If aspected by Mars meets with much trouble in",
+   "bbox": [
+    232,
+    598,
+    1446,
+    661
+   ]
+  },
+  {
+   "text": "acquiring wealth, if by Mercury he is proud, if by Jupiter one",
+   "bbox": [
+    234,
+    650,
+    1445,
+    714
+   ]
+  },
+  {
+   "text": "living in conformity with his station in life, if by Venus he is",
+   "bbox": [
+    234,
+    701,
+    1446,
+    769
+   ]
+  },
+  {
+   "text": "the beloved of bad women and if by Saturn he is a miser. She",
+   "bbox": [
+    234,
+    754,
+    1446,
+    822
+   ]
+  },
+  {
+   "text": "in various navamshas and aspected by various planets will",
+   "bbox": [
+    234,
+    809,
+    1449,
+    873
+   ]
+  },
+  {
+   "text": "give results like the Moon in various navamshas and aspected",
+   "bbox": [
+    235,
+    864,
+    1449,
+    924
+   ]
+  },
+  {
+   "text": "by various planets as already stated.",
+   "bbox": [
+    236,
+    922,
+    970,
+    979
+   ]
+  },
+  {
+   "text": "The good results stated for the occupation by Moon of the",
+   "bbox": [
+    310,
+    993,
+    1452,
+    1057
+   ]
+  },
+  {
+   "text": "various navamshas is the best when Moon is in Vargottam (ie",
+   "bbox": [
+    235,
+    1047,
+    1452,
+    1110
+   ]
+  },
+  {
+   "text": "when she is in Cancer and also occupies the navamsha of",
+   "bbox": [
+    236,
+    1101,
+    1456,
+    1162
+   ]
+  },
+  {
+   "text": "Cancer), is of middling effect if she is in any sign other than",
+   "bbox": [
+    240,
+    1152,
+    1452,
+    1218
+   ]
+  },
+  {
+   "text": "Cancer but in her own navamsha.",
+   "bbox": [
+    242,
+    1219,
+    921,
+    1260
+   ]
+  },
+  {
+   "text": "It is still less when she occupies a sign and a navamsha",
+   "bbox": [
+    313,
+    1285,
+    1456,
+    1342
+   ]
+  },
+  {
+   "text": "other than her own. The bad results stated for the occupation",
+   "bbox": [
+    240,
+    1335,
+    1456,
+    1397
+   ]
+  },
+  {
+   "text": "by Moon of the navamshas would be opposite in extent ie when",
+   "bbox": [
+    240,
+    1388,
+    1457,
+    1449
+   ]
+  },
+  {
+   "text": "Sun occupies a sign and navamsha other than of her own it",
+   "bbox": [
+    242,
+    1439,
+    1459,
+    1503
+   ]
+  },
+  {
+   "text": "gives the worst results, if she occupies her own navamsha in a",
+   "bbox": [
+    242,
+    1492,
+    1459,
+    1556
+   ]
+  },
+  {
+   "text": "sign other than Cancer it will be less. It would be least bad if",
+   "bbox": [
+    245,
+    1546,
+    1462,
+    1607
+   ]
+  },
+  {
+   "text": "Moon occupies her own navamsha in Cancer. In case the lord",
+   "bbox": [
+    242,
+    1599,
+    1459,
+    1660
+   ]
+  },
+  {
+   "text": "of the navamsha sign in which Moon is placed is strongest, it",
+   "bbox": [
+    245,
+    1650,
+    1460,
+    1714
+   ]
+  },
+  {
+   "text": "would give its own results in preference to the results stated",
+   "bbox": [
+    245,
+    1706,
+    1460,
+    1765
+   ]
+  },
+  {
+   "text": "for lords of the lagna or Moon signs.",
+   "bbox": [
+    242,
+    1764,
+    973,
+    1820
+   ]
+  },
+  {
+   "text": "इति श्रीवराहमिहिरकृते बृहज्जातके दृष्टिफलाध्यायोऽएकोनविंश: 111911",
+   "bbox": [
+    356,
+    1964,
+    1349,
+    2024
+   ]
+  },
+  {
+   "text": "Thus ends the nineteenth chapter on Aspects on Moon in",
+   "bbox": [
+    322,
+    2049,
+    1465,
+    2110
+   ]
+  },
+  {
+   "text": "Brihat Jatak composed by Varahamihira.",
+   "bbox": [
+    249,
+    2106,
+    1073,
+    2164
+   ]
+  }
+ ]
+}

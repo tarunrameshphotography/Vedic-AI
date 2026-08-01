@@ -1,0 +1,245 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0122",
+ "book_id": "brihat-jataka",
+ "seq": 122,
+ "source_ref": {
+  "pdf_page": 61,
+  "half": "b",
+  "v1_page": "s061b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "1dd133237e2d6538c0ad700c6d4bde4c08f6baf1bd036b3fc1fb5a35db579a41",
+ "lines": [
+  {
+   "text": "119",
+   "bbox": [
+    1417,
+    171,
+    1505,
+    206
+   ]
+  },
+  {
+   "text": "Yogas for Moon",
+   "bbox": [
+    296,
+    193,
+    612,
+    239
+   ]
+  },
+  {
+   "text": "परविभवपरिच्छदोपभोक्ता रवितनयो बहुकार्य्यकृद् गणेश:।",
+   "bbox": [
+    369,
+    277,
+    1203,
+    343
+   ]
+  },
+  {
+   "text": "अशुभकृदुडुपोऽहि दृश्यमूर्तिर्गलिततनुश्च शुभोन्यथान्यदूह्यम् ।। 8 ।।",
+   "bbox": [
+    370,
+    337,
+    1303,
+    410
+   ]
+  },
+  {
+   "text": "If the yoga is created by Saturn, he enjoys other's wealth,",
+   "bbox": [
+    375,
+    427,
+    1512,
+    498
+   ]
+  },
+  {
+   "text": "house, clothes, conveyance, engages himself in many activities",
+   "bbox": [
+    298,
+    478,
+    1518,
+    553
+   ]
+  },
+  {
+   "text": "and is the leader of a group of people. If the birth is during day",
+   "bbox": [
+    300,
+    529,
+    1516,
+    605
+   ]
+  },
+  {
+   "text": "time and the Moon is in the visible half of the horoscope",
+   "bbox": [
+    301,
+    582,
+    1518,
+    657
+   ]
+  },
+  {
+   "text": "(descendant to ascendent 7th to 1st) she gives bad results ie",
+   "bbox": [
+    301,
+    634,
+    1518,
+    710
+   ]
+  },
+  {
+   "text": "the person is miserable and poor. If in the invisible half it gives",
+   "bbox": [
+    302,
+    690,
+    1519,
+    760
+   ]
+  },
+  {
+   "text": "good results ie comforts and riches.",
+   "bbox": [
+    304,
+    753,
+    1008,
+    812
+   ]
+  },
+  {
+   "text": "लग्नादतीव वसुमान् वसुमाञ्छशाङ्का-",
+   "bbox": [
+    379,
+    842,
+    915,
+    894
+   ]
+  },
+  {
+   "text": "त्सौम्यग्रहैरुपचयोपगतै: समस्तै:।",
+   "bbox": [
+    381,
+    900,
+    846,
+    952
+   ]
+  },
+  {
+   "text": "द्वाभ्यां सामोऽल्पवसुमांश्च तदुनताया-",
+   "bbox": [
+    381,
+    967,
+    892,
+    1026
+   ]
+  },
+  {
+   "text": "मन्येष्वसत्स्वपि फलेष्विदमुत्कटेन।। 9 ।।",
+   "bbox": [
+    381,
+    1028,
+    996,
+    1089
+   ]
+  },
+  {
+   "text": "In case the entire lot of the natural benefic planets is",
+   "bbox": [
+    387,
+    1109,
+    1528,
+    1178
+   ]
+  },
+  {
+   "text": "located in the upchaya houses (3rd, 6th, 10th and 11th) from",
+   "bbox": [
+    312,
+    1160,
+    1529,
+    1234
+   ]
+  },
+  {
+   "text": "both the ascendant and the Moon the man is extremely rich. If",
+   "bbox": [
+    312,
+    1214,
+    1535,
+    1284
+   ]
+  },
+  {
+   "text": "two of the benefics are so located he is highly rich. If only one",
+   "bbox": [
+    312,
+    1264,
+    1530,
+    1337
+   ]
+  },
+  {
+   "text": "is in these houses he is only moderately rich. This yoga has",
+   "bbox": [
+    312,
+    1317,
+    1534,
+    1389
+   ]
+  },
+  {
+   "text": "over-riding powers in as much as it makes a man rich even if",
+   "bbox": [
+    313,
+    1370,
+    1540,
+    1444
+   ]
+  },
+  {
+   "text": "he is born in Kemdrum yoga etc.",
+   "bbox": [
+    313,
+    1435,
+    976,
+    1494
+   ]
+  },
+  {
+   "text": "इति श्रीवराहमिहिरकृते बृहज्जातके चन्द्राधियोगाध्यायस्त्रयोदश: ।।13।।",
+   "bbox": [
+    434,
+    1629,
+    1418,
+    1703
+   ]
+  },
+  {
+   "text": "Thus ends the thirteenth chapter on Yogas for Moon in",
+   "bbox": [
+    394,
+    1718,
+    1542,
+    1782
+   ]
+  },
+  {
+   "text": "Brihat Jatak composed by Varahamihira.",
+   "bbox": [
+    319,
+    1776,
+    1147,
+    1839
+   ]
+  }
+ ]
+}

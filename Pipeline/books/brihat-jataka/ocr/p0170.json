@@ -1,0 +1,317 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0170",
+ "book_id": "brihat-jataka",
+ "seq": 170,
+ "source_ref": {
+  "pdf_page": 85,
+  "half": "b",
+  "v1_page": "s085b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "48392d3fb48bc87ed4448ccf20908483cc5b000910fa8fa312d5c94d995893b4",
+ "lines": [
+  {
+   "text": "167",
+   "bbox": [
+    1342,
+    223,
+    1426,
+    257
+   ]
+  },
+  {
+   "text": "Anishta or Misfortune",
+   "bbox": [
+    222,
+    257,
+    672,
+    316
+   ]
+  },
+  {
+   "text": "fall or ropers.",
+   "bbox": [
+    232,
+    373,
+    507,
+    415
+   ]
+  },
+  {
+   "text": "Notes: Cruel planets are Kuja, Shani and Rahu. Sun is a",
+   "bbox": [
+    307,
+    400,
+    1445,
+    503
+   ]
+  },
+  {
+   "text": "mere malefic (papa) one. The death of the wife referred to is",
+   "bbox": [
+    234,
+    450,
+    1448,
+    563
+   ]
+  },
+  {
+   "text": "that which takes place when the husband is alive.",
+   "bbox": [
+    234,
+    515,
+    1233,
+    614
+   ]
+  },
+  {
+   "text": "लग्नाद्वचयारिगतयो: शशितिग्मरश्म्यो:",
+   "bbox": [
+    315,
+    619,
+    854,
+    694
+   ]
+  },
+  {
+   "text": "पत्न्या सहैकनयनस्य वदन्ति जन्म।",
+   "bbox": [
+    390,
+    677,
+    901,
+    756
+   ]
+  },
+  {
+   "text": "द्यूनस्थयोर्नवमपञ्चमसंस्थयोर्वा",
+   "bbox": [
+    319,
+    753,
+    740,
+    826
+   ]
+  },
+  {
+   "text": "शुक्रार्कयोर्विकलदारमुशन्ति जातम् ।। 311",
+   "bbox": [
+    396,
+    808,
+    990,
+    887
+   ]
+  },
+  {
+   "text": "The husband and the wife will have one eye each when the",
+   "bbox": [
+    326,
+    880,
+    1463,
+    983
+   ]
+  },
+  {
+   "text": "Sun and the Moon are in the sixth and twelth houses from",
+   "bbox": [
+    252,
+    933,
+    1467,
+    1040
+   ]
+  },
+  {
+   "text": "lagna. When the Sun and Venus occupy the fifth or seventh or",
+   "bbox": [
+    254,
+    987,
+    1469,
+    1094
+   ]
+  },
+  {
+   "text": "the ninth, the wife has a defective limb or limbs.",
+   "bbox": [
+    256,
+    1049,
+    1227,
+    1148
+   ]
+  },
+  {
+   "text": "कोणोदये भृगुतनयेऽस्तचक्रसन्धौ",
+   "bbox": [
+    335,
+    1155,
+    790,
+    1230
+   ]
+  },
+  {
+   "text": "बन्ध्यापतिर्यदि न सुतर्क्षमिष्टयुक्तम।",
+   "bbox": [
+    411,
+    1216,
+    922,
+    1293
+   ]
+  },
+  {
+   "text": "पापग्रहैर्व्ययमदलग्नराशिसंस्थै:",
+   "bbox": [
+    340,
+    1288,
+    773,
+    1354
+   ]
+  },
+  {
+   "text": "क्षीणे शशिन्यसुतकलत्रजन्मधीस्थे।। 4।।",
+   "bbox": [
+    419,
+    1343,
+    1001,
+    1419
+   ]
+  },
+  {
+   "text": "Shani in lagna, Shukra in the seventh when it is",
+   "bbox": [
+    347,
+    1414,
+    1490,
+    1518
+   ]
+  },
+  {
+   "text": "gandanta, and the fifth has no benefics - this combination",
+   "bbox": [
+    272,
+    1467,
+    1493,
+    1574
+   ]
+  },
+  {
+   "text": "makes the person's wife barren. If malefics are in 7 and 12, and",
+   "bbox": [
+    274,
+    1520,
+    1494,
+    1627
+   ]
+  },
+  {
+   "text": "a weak Moon is in the fifth, the person has neither wife nor",
+   "bbox": [
+    279,
+    1573,
+    1498,
+    1683
+   ]
+  },
+  {
+   "text": "son.",
+   "bbox": [
+    282,
+    1690,
+    371,
+    1725
+   ]
+  },
+  {
+   "text": "Notes: Chakra Sandhi or Gandanta signifies the last",
+   "bbox": [
+    355,
+    1708,
+    1505,
+    1813
+   ]
+  },
+  {
+   "text": "navamshas of Karka, Vrishchika and Mina. Shukra has to",
+   "bbox": [
+    285,
+    1761,
+    1504,
+    1869
+   ]
+  },
+  {
+   "text": "occupy one of these navamashas and the sign must be the",
+   "bbox": [
+    289,
+    1816,
+    1505,
+    1921
+   ]
+  },
+  {
+   "text": "seventh from Lagna. Shani must be in lagna. There should be",
+   "bbox": [
+    290,
+    1868,
+    1512,
+    1978
+   ]
+  },
+  {
+   "text": "no benefics in the fifth.",
+   "bbox": [
+    292,
+    1959,
+    760,
+    2020
+   ]
+  },
+  {
+   "text": "The second combination denying wife and children wants",
+   "bbox": [
+    370,
+    2002,
+    1516,
+    2110
+   ]
+  },
+  {
+   "text": "all the benefics in the seventh and the weak Moon must be in",
+   "bbox": [
+    296,
+    2056,
+    1516,
+    2163
+   ]
+  },
+  {
+   "text": "the fifth. The Moon is weak from the eighth day (tithi) of the",
+   "bbox": [
+    298,
+    2109,
+    1520,
+    2219
+   ]
+  },
+  {
+   "text": "dark fortnight (Krishna Paksha) to the eighth lunar day of the",
+   "bbox": [
+    302,
+    2164,
+    1522,
+    2268
+   ]
+  },
+  {
+   "text": "bright fortnight (Shukla Paksha).",
+   "bbox": [
+    304,
+    2243,
+    982,
+    2323
+   ]
+  }
+ ]
+}

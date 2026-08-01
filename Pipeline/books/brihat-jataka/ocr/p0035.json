@@ -1,0 +1,443 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0035",
+ "book_id": "brihat-jataka",
+ "seq": 35,
+ "source_ref": {
+  "pdf_page": 18,
+  "half": "a",
+  "v1_page": "s018a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "edd977783e470332046b8e690ce35e247cc688a3a7c4da2d7a870575ed2dbaed",
+ "lines": [
+  {
+   "text": "32",
+   "bbox": [
+    315,
+    213,
+    381,
+    248
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1242,
+    214,
+    1534,
+    247
+   ]
+  },
+  {
+   "text": "course after their own nature. Here is the horoscope of an",
+   "bbox": [
+    312,
+    319,
+    1535,
+    356
+   ]
+  },
+  {
+   "text": "actually impotent man.",
+   "bbox": [
+    314,
+    371,
+    782,
+    408
+   ]
+  },
+  {
+   "text": "First of all mark a most",
+   "bbox": [
+    1015,
+    446,
+    1535,
+    482
+   ]
+  },
+  {
+   "text": "Lagna",
+   "bbox": [
+    647,
+    486,
+    734,
+    515
+   ]
+  },
+  {
+   "text": "important fact that the lagna",
+   "bbox": [
+    942,
+    498,
+    1532,
+    539
+   ]
+  },
+  {
+   "text": "Jupiter",
+   "bbox": [
+    497,
+    522,
+    595,
+    552
+   ]
+  },
+  {
+   "text": "Moon",
+   "bbox": [
+    649,
+    522,
+    728,
+    547
+   ]
+  },
+  {
+   "text": "Mars",
+   "bbox": [
+    814,
+    525,
+    884,
+    554
+   ]
+  },
+  {
+   "text": "contains Moon, with the re-",
+   "bbox": [
+    944,
+    552,
+    1534,
+    591
+   ]
+  },
+  {
+   "text": "Rahu",
+   "bbox": [
+    652,
+    557,
+    728,
+    583
+   ]
+  },
+  {
+   "text": "sult that the yogas good or",
+   "bbox": [
+    944,
+    604,
+    1534,
+    643
+   ]
+  },
+  {
+   "text": "bad would be formed with re-",
+   "bbox": [
+    944,
+    655,
+    1532,
+    691
+   ]
+  },
+  {
+   "text": "spect to both the lagna and",
+   "bbox": [
+    942,
+    709,
+    1532,
+    748
+   ]
+  },
+  {
+   "text": "the chandra lagna, thereby",
+   "bbox": [
+    941,
+    762,
+    1531,
+    801
+   ]
+  },
+  {
+   "text": "giving certainty to the yoga",
+   "bbox": [
+    941,
+    815,
+    1531,
+    854
+   ]
+  },
+  {
+   "text": "formed and the results indi-",
+   "bbox": [
+    939,
+    866,
+    1531,
+    903
+   ]
+  },
+  {
+   "text": "cated. Now Venus the karaka",
+   "bbox": [
+    939,
+    920,
+    1531,
+    955
+   ]
+  },
+  {
+   "text": "Ketu",
+   "bbox": [
+    509,
+    944,
+    577,
+    969
+   ]
+  },
+  {
+   "text": "or significator of \"Veerya\" or",
+   "bbox": [
+    939,
+    973,
+    1529,
+    1012
+   ]
+  },
+  {
+   "text": "Mercury",
+   "bbox": [
+    782,
+    976,
+    901,
+    1008
+   ]
+  },
+  {
+   "text": "venus",
+   "bbox": [
+    499,
+    980,
+    584,
+    1005
+   ]
+  },
+  {
+   "text": "Sun",
+   "bbox": [
+    658,
+    981,
+    724,
+    1011
+   ]
+  },
+  {
+   "text": "Saturn",
+   "bbox": [
+    498,
+    1016,
+    588,
+    1041
+   ]
+  },
+  {
+   "text": "semen is occupying the house",
+   "bbox": [
+    939,
+    1023,
+    1530,
+    1067
+   ]
+  },
+  {
+   "text": "of semen itself which is 7th",
+   "bbox": [
+    939,
+    1077,
+    1529,
+    1113
+   ]
+  },
+  {
+   "text": "from both lagna and chandra lagna. In that position it is",
+   "bbox": [
+    309,
+    1130,
+    1531,
+    1171
+   ]
+  },
+  {
+   "text": "influenced by Saturn and Rahu (who always acts as Saturn)--",
+   "bbox": [
+    311,
+    1180,
+    1529,
+    1222
+   ]
+  },
+  {
+   "text": "the important planets leading to impotency. It would be seen",
+   "bbox": [
+    311,
+    1235,
+    1528,
+    1274
+   ]
+  },
+  {
+   "text": "that Mars the lord of the house of sex is occupying the impo-",
+   "bbox": [
+    311,
+    1286,
+    1529,
+    1326
+   ]
+  },
+  {
+   "text": "tent sign of Mercury. Thus the 7th house, the lord of the 7th",
+   "bbox": [
+    311,
+    1339,
+    1528,
+    1379
+   ]
+  },
+  {
+   "text": "house and the significator of the 7th house (Venus) have on",
+   "bbox": [
+    309,
+    1392,
+    1528,
+    1431
+   ]
+  },
+  {
+   "text": "them no other influence except of impotent planets, making",
+   "bbox": [
+    309,
+    1444,
+    1531,
+    1485
+   ]
+  },
+  {
+   "text": "the yoga a certainty.",
+   "bbox": [
+    309,
+    1497,
+    728,
+    1538
+   ]
+  },
+  {
+   "text": "<b>Caste etc of Planets</b>",
+   "bbox": [
+    309,
+    1602,
+    832,
+    1639
+   ]
+  },
+  {
+   "text": "वृधसूर्यसुतौ नपुंसकाख्यौ शशिशुक्रौ युवती नराश्च शेषा:।",
+   "bbox": [
+    380,
+    1674,
+    1191,
+    1734
+   ]
+  },
+  {
+   "text": "शिखिभूखपयोमरुद्रणानां वशिनो भूमिसुतादय: क्रमेण।। 6 ।।",
+   "bbox": [
+    382,
+    1744,
+    1261,
+    1796
+   ]
+  },
+  {
+   "text": "Venus and Jupiter both stand for the Brahmins, Sun and",
+   "bbox": [
+    385,
+    1836,
+    1527,
+    1878
+   ]
+  },
+  {
+   "text": "Mars represent the Kshatriyas ie the soldierly class, Moon",
+   "bbox": [
+    305,
+    1889,
+    1526,
+    1928
+   ]
+  },
+  {
+   "text": "represents the trading class. Mercury represents the Shudras",
+   "bbox": [
+    305,
+    1937,
+    1527,
+    1981
+   ]
+  },
+  {
+   "text": "and Saturn stands for the people outside the community.",
+   "bbox": [
+    307,
+    1990,
+    1525,
+    2029
+   ]
+  },
+  {
+   "text": "Moon, Sun and Jupiter have satvic nature (virtue), Mercury",
+   "bbox": [
+    305,
+    2040,
+    1525,
+    2079
+   ]
+  },
+  {
+   "text": "and Venus have rajasik nature (ambition) while Mars and",
+   "bbox": [
+    305,
+    2092,
+    1524,
+    2130
+   ]
+  },
+  {
+   "text": "Saturn represent tamas (inertia).",
+   "bbox": [
+    304,
+    2142,
+    972,
+    2180
+   ]
+  },
+  {
+   "text": "Commentary: Maharshi Parashar states:",
+   "bbox": [
+    381,
+    2217,
+    1191,
+    2255
+   ]
+  },
+  {
+   "text": "\"शशिसौम्यौ वैश्यवर्णौ शनि शूद्रो द्विजोत्तम\"",
+   "bbox": [
+    377,
+    2286,
+    1021,
+    2344
+   ]
+  }
+ ]
+}

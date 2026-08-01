@@ -1,0 +1,162 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0072",
+ "book_id": "phaladeepika",
+ "seq": 72,
+ "source_ref": {
+  "pdf_page": 72
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "b9d5f462be34d21186d2f3f813d6996d7e9c1acb4d59eeb44793739f0773206c",
+ "lines": [
+  {
+   "text": "If the lord of the sign in which the Lord of Lagna is posited, be in his sign of ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "exaltation, of own sign identical with kendra or trikona, the Yoga so arising is ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "known as Parvata Yoga.",
+   "bbox": [
+    85,
+    106,
+    219,
+    121
+   ]
+  },
+  {
+   "text": "In this example horoscope the lord of the Lagna. Mars is posited in ",
+   "bbox": [
+    121,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "Sagittarius (9th house). Lord of the 9th house Jupiter is in the 4th (a Kendra) in his ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "sign of exaltation causing Parvata Yoga.",
+   "bbox": [
+    85,
+    178,
+    310,
+    194
+   ]
+  },
+  {
+   "text": "Lagna",
+   "bbox": [
+    273,
+    247,
+    308,
+    262
+   ]
+  },
+  {
+   "text": "Jupiter",
+   "bbox": [
+    385,
+    304,
+    423,
+    319
+   ]
+  },
+  {
+   "text": "Mars",
+   "bbox": [
+    219,
+    417,
+    248,
+    433
+   ]
+  },
+  {
+   "text": "36. The person with Kahala Yoga at birth will be prosperous, noble, ",
+   "bbox": [
+    121,
+    478,
+    556,
+    493
+   ]
+  },
+  {
+   "text": "benevolent, kind and propitious. He will be very popular in the public.",
+   "bbox": [
+    85,
+    502,
+    479,
+    518
+   ]
+  },
+  {
+   "text": "The person born with Parvata Yoga will always be wealthy and happy. He ",
+   "bbox": [
+    121,
+    526,
+    556,
+    542
+   ]
+  },
+  {
+   "text": "Will perfrom acts which will afford by lasting benefit to others (like construction ",
+   "bbox": [
+    85,
+    550,
+    556,
+    566
+   ]
+  },
+  {
+   "text": "of Dharmashalas, hospitals, temples, reservoirs, etc.). He will become the ruler of ",
+   "bbox": [
+    85,
+    574,
+    556,
+    590
+   ]
+  },
+  {
+   "text": "the Earth.",
+   "bbox": [
+    85,
+    599,
+    140,
+    614
+   ]
+  },
+  {
+   "text": "72",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

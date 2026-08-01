@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0036",
+ "book_id": "phaladeepika",
+ "seq": 36,
+ "source_ref": {
+  "pdf_page": 36
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "43628992811c7cf22009ae00b768d29129fa3b3da83861b47ad2330129ec37ba",
+ "lines": [
+  {
+   "text": "Adhishatru.",
+   "bbox": [
+    85,
+    57,
+    151,
+    73
+   ]
+  },
+  {
+   "text": "(6) He gets 30 Shastayamsa of strength in his own Navamsa. 22.5 in the ",
+   "bbox": [
+    121,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "Navamsa of an Adhimitra, 15 in the Navamsa of a friend. 7.5 in the Navamsa of a ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "neutral, 3.75 in the Navamsa of an enemy and only 1.875 in the Navamsa of an ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "Adhishatru.",
+   "bbox": [
+    85,
+    154,
+    151,
+    169
+   ]
+  },
+  {
+   "text": "(7) A planet gets 30 Shastayamsa of strength if he is in own Dwadasamsa, ",
+   "bbox": [
+    121,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "22.5 in the Dwadasamsa of his Adhimitra, 15 in the Dwadasamsa of a friend, 7.5 in ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "the Dwadasamsa of his neutral, 3.75 in the Dwadasamsa of his enemy and 1.875 in ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "the Dwadasamsa of his Adhishatru.",
+   "bbox": [
+    85,
+    251,
+    283,
+    266
+   ]
+  },
+  {
+   "text": "(8) A planet gets 30 Shastayamsa in his own Trimsamsa, 22.5 in the ",
+   "bbox": [
+    121,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "Trimsamsa of his Adhimitra, 15 in the Trimsamsa of his friend, 7.5 in the ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "Trimsamsa of his neutral, 3.75 in the Trimsamsa of his enemy and 1.875 in the ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "Trimsamsa of his Adhishatru.",
+   "bbox": [
+    85,
+    347,
+    250,
+    363
+   ]
+  },
+  {
+   "text": "(9) (a) The Sun, Mars, Mercury and Saturn amongst those five whoever is in ",
+   "bbox": [
+    121,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "an Oja Rasi (viz. Aries, Gemini, Leo, Libra, Sagittarius and Aquarius) gets 15 ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "Shastayamsa.",
+   "bbox": [
+    85,
+    420,
+    161,
+    435
+   ]
+  },
+  {
+   "text": "(b) Amongst the Moon and Venus, whoever is in Yugma (Taurus, Cancer, ",
+   "bbox": [
+    121,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "Virgo, Scorpio, Capricorn or Pisces) Navamsa, gets 15 Shastayamsas.",
+   "bbox": [
+    85,
+    468,
+    476,
+    483
+   ]
+  },
+  {
+   "text": "(11) A planet in Kendra Rasi gets 1 Rupa (60 Shastayamsa). That in a ",
+   "bbox": [
+    121,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "Panaphara Rasi gets 30 Shastayamsa and on an Apoklima Rasi gets 15 ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "Shastayamsa.",
+   "bbox": [
+    85,
+    540,
+    161,
+    556
+   ]
+  },
+  {
+   "text": "(12) (a) Amongst the Sun, Mars and Jupiter whoever is in the first Drekkana ",
+   "bbox": [
+    121,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "gets 15 Shastayamsa of strength. In other Drekkanas they get no strength at all.",
+   "bbox": [
+    85,
+    589,
+    528,
+    604
+   ]
+  },
+  {
+   "text": "(b) Amongst Saturn and Mercury, whoever is in the 2nd Drekkana, gets 15 ",
+   "bbox": [
+    121,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "Shastayamsa of strength.",
+   "bbox": [
+    85,
+    637,
+    225,
+    652
+   ]
+  },
+  {
+   "text": "(c) Amongst the Moon and Venus, whoever is in the last Drekkana. gets 15 ",
+   "bbox": [
+    121,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "Shastayamsa of strength.",
+   "bbox": [
+    85,
+    685,
+    225,
+    701
+   ]
+  },
+  {
+   "text": "These 12 combinations are known as Sthan Bala. In Sanskrit they are called, ",
+   "bbox": [
+    121,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "<b>(1) Uchcha Bala, (2) — (8) Saptavarga Bala, (9) Oja Yugma Rasi Bala. (10) </b>",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "<b>Oja-Yugma navamsa Bala, (11) Kendradi Bala and (12) Dreshtakana Bala. </b>",
+   "bbox": [
+    85,
+    758,
+    532,
+    773
+   ]
+  },
+  {
+   "text": "36",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0181",
+ "book_id": "brihat-jataka",
+ "seq": 181,
+ "source_ref": {
+  "pdf_page": 91,
+  "half": "a",
+  "v1_page": "s091a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "17a6f206736e5e74d6b0abc87d3dbe5d900015471cc30a7ba902a78c3781d425",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1175,
+    238,
+    1468,
+    271
+   ]
+  },
+  {
+   "text": "178",
+   "bbox": [
+    255,
+    239,
+    348,
+    271
+   ]
+  },
+  {
+   "text": "possible. We do not accept this second meaning. The word",
+   "bbox": [
+    254,
+    341,
+    1471,
+    380
+   ]
+  },
+  {
+   "text": "Kanya means 'even when not married.'",
+   "bbox": [
+    249,
+    394,
+    1031,
+    432
+   ]
+  },
+  {
+   "text": "The trimsamshas are to be carefully examined. In odd",
+   "bbox": [
+    328,
+    472,
+    1469,
+    519
+   ]
+  },
+  {
+   "text": "signs the trimsamshas fall in the signs Mesha (Kuja), Makar",
+   "bbox": [
+    252,
+    528,
+    1469,
+    570
+   ]
+  },
+  {
+   "text": "(Shani), Dhanush (Guru), Mithuna (Budha) and Vrishabha",
+   "bbox": [
+    252,
+    584,
+    1471,
+    623
+   ]
+  },
+  {
+   "text": "(Shukra). In even signs they fall in Tula (Shukra), Kanya",
+   "bbox": [
+    252,
+    637,
+    1468,
+    678
+   ]
+  },
+  {
+   "text": "(Budha), Mina (Guru), Kumbha (Shani) and Vrishchika",
+   "bbox": [
+    252,
+    692,
+    1469,
+    730
+   ]
+  },
+  {
+   "text": "(Kuja).",
+   "bbox": [
+    254,
+    743,
+    397,
+    782
+   ]
+  },
+  {
+   "text": "It is not merely the lord of the trimsamsha that has to be",
+   "bbox": [
+    327,
+    828,
+    1466,
+    867
+   ]
+  },
+  {
+   "text": "considered. We have also to examine the sign owned by that",
+   "bbox": [
+    248,
+    883,
+    1469,
+    921
+   ]
+  },
+  {
+   "text": "lord.",
+   "bbox": [
+    249,
+    934,
+    351,
+    968
+   ]
+  },
+  {
+   "text": "Still we confess that an examination of a woman's chart",
+   "bbox": [
+    325,
+    1015,
+    1469,
+    1054
+   ]
+  },
+  {
+   "text": "on the basis of the trimsamsha of her lagna and Moon,",
+   "bbox": [
+    248,
+    1069,
+    1467,
+    1111
+   ]
+  },
+  {
+   "text": "leaves no woman safe, if we apply blindly the rules stated.",
+   "bbox": [
+    248,
+    1125,
+    1464,
+    1164
+   ]
+  },
+  {
+   "text": "Greatest caution is necessary, as Bhattotpala himself ob-",
+   "bbox": [
+    248,
+    1178,
+    1466,
+    1218
+   ]
+  },
+  {
+   "text": "served.",
+   "bbox": [
+    248,
+    1230,
+    399,
+    1265
+   ]
+  },
+  {
+   "text": "दुष्टा पुनर्भू: सगुणा कलाज्ञा ख्याता गुणैश्चासुरपूजितर्से।",
+   "bbox": [
+    319,
+    1310,
+    1101,
+    1362
+   ]
+  },
+  {
+   "text": "स्यात् कापटी क्लीबसमा सती च बौधे गुणाढचा प्रविकीर्णकामा।। 4 ।।",
+   "bbox": [
+    321,
+    1374,
+    1378,
+    1428
+   ]
+  },
+  {
+   "text": "If lagna or the Moon are in the signs owned by Shukra and",
+   "bbox": [
+    322,
+    1478,
+    1466,
+    1517
+   ]
+  },
+  {
+   "text": "are in the trimsamsha of the planets mentioned earlier, she is",
+   "bbox": [
+    248,
+    1529,
+    1464,
+    1568
+   ]
+  },
+  {
+   "text": "sinful, married a second time, virtuous, skilful in fine arts and",
+   "bbox": [
+    248,
+    1582,
+    1464,
+    1622
+   ]
+  },
+  {
+   "text": "famous respectively.",
+   "bbox": [
+    245,
+    1636,
+    655,
+    1673
+   ]
+  },
+  {
+   "text": "If the lagna or the Moon is in Mithuna or Kanya, the",
+   "bbox": [
+    322,
+    1720,
+    1465,
+    1759
+   ]
+  },
+  {
+   "text": "trimsamsha of the five respectively indicate she is deceitful,",
+   "bbox": [
+    248,
+    1768,
+    1465,
+    1814
+   ]
+  },
+  {
+   "text": "inpotent, virtuous, good and adulterous.",
+   "bbox": [
+    244,
+    1825,
+    1045,
+    1864
+   ]
+  },
+  {
+   "text": "<i>Notes:</i> Both even and odd signs are taken into consider-",
+   "bbox": [
+    318,
+    1908,
+    1465,
+    1947
+   ]
+  },
+  {
+   "text": "ation. Shukra and Kuja, are given identical results, and so the",
+   "bbox": [
+    244,
+    1960,
+    1464,
+    2000
+   ]
+  },
+  {
+   "text": "results of Budha and Shani. This approach is followed later.",
+   "bbox": [
+    242,
+    2013,
+    1459,
+    2053
+   ]
+  },
+  {
+   "text": "This is highly questionable. Shukra trimsamsha in Vrishabha",
+   "bbox": [
+    243,
+    2060,
+    1464,
+    2110
+   ]
+  },
+  {
+   "text": "and Kuja's in Tula cannot give the same results. It is for this",
+   "bbox": [
+    244,
+    2114,
+    1462,
+    2161
+   ]
+  },
+  {
+   "text": "reason that we have questioned the very validity of the predic-",
+   "bbox": [
+    242,
+    2171,
+    1459,
+    2210
+   ]
+  },
+  {
+   "text": "tions based on the trimsamshas.",
+   "bbox": [
+    244,
+    2221,
+    886,
+    2256
+   ]
+  },
+  {
+   "text": "In the text the results of the trimsamshas are given in the",
+   "bbox": [
+    318,
+    2305,
+    1461,
+    2344
+   ]
+  }
+ ]
+}

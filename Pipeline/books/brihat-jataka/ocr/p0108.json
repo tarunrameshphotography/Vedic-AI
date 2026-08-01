@@ -1,0 +1,317 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0108",
+ "book_id": "brihat-jataka",
+ "seq": 108,
+ "source_ref": {
+  "pdf_page": 54,
+  "half": "b",
+  "v1_page": "s054b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "152f46e177068641f40c054c042e5bc03c5fd64fbed0c8dc07e265277e4b1066",
+ "lines": [
+  {
+   "text": "105",
+   "bbox": [
+    1330,
+    232,
+    1419,
+    267
+   ]
+  },
+  {
+   "text": "Rajayogas",
+   "bbox": [
+    212,
+    285,
+    419,
+    334
+   ]
+  },
+  {
+   "text": "signs are responsible for the acquisition also of the ruling",
+   "bbox": [
+    214,
+    324,
+    1433,
+    442
+   ]
+  },
+  {
+   "text": "powers.",
+   "bbox": [
+    222,
+    446,
+    375,
+    488
+   ]
+  },
+  {
+   "text": "Commentary: Since it is stated that the ruling powers",
+   "bbox": [
+    292,
+    461,
+    1439,
+    576
+   ]
+  },
+  {
+   "text": "are acquired interalia, during the dasa of the lord of the",
+   "bbox": [
+    224,
+    515,
+    1442,
+    633
+   ]
+  },
+  {
+   "text": "10th house, it is obvious that the 10th house is as important",
+   "bbox": [
+    230,
+    568,
+    1445,
+    685
+   ]
+  },
+  {
+   "text": "as the 1st in the matter of gaining ruling powers. We",
+   "bbox": [
+    227,
+    621,
+    1446,
+    739
+   ]
+  },
+  {
+   "text": "can legitimately, therefore, draw the conclusion that in all",
+   "bbox": [
+    230,
+    674,
+    1449,
+    793
+   ]
+  },
+  {
+   "text": "Rajayogas mentioned in this chapter, the ruling powers",
+   "bbox": [
+    234,
+    729,
+    1451,
+    846
+   ]
+  },
+  {
+   "text": "will accrue when both the 10th house and lagna are strong",
+   "bbox": [
+    236,
+    782,
+    1456,
+    896
+   ]
+  },
+  {
+   "text": "apart from the other nice location of planets. Lagna alone,",
+   "bbox": [
+    236,
+    834,
+    1459,
+    950
+   ]
+  },
+  {
+   "text": "if strong, would give riches and high status, but not ruling",
+   "bbox": [
+    237,
+    889,
+    1462,
+    1004
+   ]
+  },
+  {
+   "text": "powers.",
+   "bbox": [
+    245,
+    1008,
+    403,
+    1050
+   ]
+  },
+  {
+   "text": "मेघूरणायतनुगा: शशिमन्दजीवा:<br>ज्ञारौ धने सितरवी हिबुके नरेन्द्र:।",
+   "bbox": [
+    310,
+    1064,
+    822,
+    1214
+   ]
+  },
+  {
+   "text": "वक्रासितौ शशिसुरेज्यसितार्कसौम्या:",
+   "bbox": [
+    322,
+    1185,
+    848,
+    1283
+   ]
+  },
+  {
+   "text": "होरासुखास्तशुभखाप्तिगता: प्रजेश: ।। 18 ।।",
+   "bbox": [
+    326,
+    1254,
+    980,
+    1344
+   ]
+  },
+  {
+   "text": "If the sign in lagna belongs to Jupiter, Venus or Mercury",
+   "bbox": [
+    330,
+    1325,
+    1479,
+    1433
+   ]
+  },
+  {
+   "text": "(ie <math>9, 12, 2, 7, 3</math> or <math>6</math>), Saturn is in the 7th house, Sun is in the",
+   "bbox": [
+    261,
+    1374,
+    1484,
+    1494
+   ]
+  },
+  {
+   "text": "10th, the person born in such a yoga will have enjoyments in",
+   "bbox": [
+    266,
+    1428,
+    1486,
+    1546
+   ]
+  },
+  {
+   "text": "life even when he is not rich. If the kendras are very strong (by",
+   "bbox": [
+    266,
+    1484,
+    1487,
+    1599
+   ]
+  },
+  {
+   "text": "the aspect on the signs there of their lords) but malefic planets",
+   "bbox": [
+    268,
+    1534,
+    1492,
+    1656
+   ]
+  },
+  {
+   "text": "occupy kendras and are located in the signs of natural",
+   "bbox": [
+    271,
+    1589,
+    1497,
+    1709
+   ]
+  },
+  {
+   "text": "malefics, the native becomes rich and the leader of low class",
+   "bbox": [
+    273,
+    1643,
+    1498,
+    1763
+   ]
+  },
+  {
+   "text": "people such as the fishermen and thieves.",
+   "bbox": [
+    277,
+    1720,
+    1119,
+    1812
+   ]
+  },
+  {
+   "text": "Commentary: The lordship of the lagna by a benefic planet",
+   "bbox": [
+    356,
+    1780,
+    1509,
+    1894
+   ]
+  },
+  {
+   "text": "as stipulated in the shloka would ease life to some extent. The",
+   "bbox": [
+    283,
+    1833,
+    1510,
+    1949
+   ]
+  },
+  {
+   "text": "location of Saturn in the 7th house, where it would be in",
+   "bbox": [
+    287,
+    1887,
+    1512,
+    2004
+   ]
+  },
+  {
+   "text": "kendra as well as strong in directional strength would make",
+   "bbox": [
+    288,
+    1939,
+    1514,
+    2057
+   ]
+  },
+  {
+   "text": "Saturn strong. A strong Saturn gives no dukha vide Swalpa",
+   "bbox": [
+    293,
+    1992,
+    1518,
+    2111
+   ]
+  },
+  {
+   "text": "Jatak.",
+   "bbox": [
+    296,
+    2110,
+    431,
+    2152
+   ]
+  },
+  {
+   "text": "कर्मलग्नयुतपाकदशायां राज्यलब्धिरथवा प्रबलस्य।",
+   "bbox": [
+    373,
+    2159,
+    1106,
+    2247
+   ]
+  },
+  {
+   "text": "शत्रुनीचगृहजातदशायां छिद्रसंश्रयदशा परिकल्प्या।। 19 11",
+   "bbox": [
+    375,
+    2212,
+    1233,
+    2316
+   ]
+  }
+ ]
+}

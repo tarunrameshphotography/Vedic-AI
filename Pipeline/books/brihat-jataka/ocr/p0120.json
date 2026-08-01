@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0120",
+ "book_id": "brihat-jataka",
+ "seq": 120,
+ "source_ref": {
+  "pdf_page": 60,
+  "half": "b",
+  "v1_page": "s060b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "84de0f204b30f0dc3c2b5f202881a96306c2332884ae2139aae04307209d18cc",
+ "lines": [
+  {
+   "text": "Yogas for Moon",
+   "bbox": [
+    256,
+    196,
+    572,
+    238
+   ]
+  },
+  {
+   "text": "poverty. Hence it is essential that the houses 6th, 7th and 8th",
+   "bbox": [
+    259,
+    286,
+    1466,
+    338
+   ]
+  },
+  {
+   "text": "from Moon should all be occupied by benefics.",
+   "bbox": [
+    260,
+    341,
+    1163,
+    392
+   ]
+  },
+  {
+   "text": "हित्वार्कं सुनफानफादुरुधुरा: स्वान्त्योभयस्थैग्रहै:",
+   "bbox": [
+    329,
+    419,
+    1007,
+    476
+   ]
+  },
+  {
+   "text": "शीतांशो: कथितोऽन्यथा तु बहुभि: केमद्रुमोन्यैस्त्वसौ।",
+   "bbox": [
+    330,
+    480,
+    1087,
+    541
+   ]
+  },
+  {
+   "text": "केन्द्रे शीतकरेऽथवा ग्रहयुते केमद्रुमो नेष्यते",
+   "bbox": [
+    329,
+    551,
+    946,
+    603
+   ]
+  },
+  {
+   "text": "केचित्केन्द्रनवांशकेष्वपि वदन्त्युक्तिः प्रसिद्धा न ते।। 3 ।।",
+   "bbox": [
+    331,
+    616,
+    1171,
+    665
+   ]
+  },
+  {
+   "text": "If the 2nd house from Moon is occupied by any planet,",
+   "bbox": [
+    335,
+    705,
+    1467,
+    753
+   ]
+  },
+  {
+   "text": "except Sun the Yoga called \"Sunfa\" is created. If the 12th",
+   "bbox": [
+    259,
+    755,
+    1467,
+    808
+   ]
+  },
+  {
+   "text": "house from her is occupied by planets other than the Sun, it is",
+   "bbox": [
+    260,
+    807,
+    1467,
+    860
+   ]
+  },
+  {
+   "text": "called \"Anfa\". If both the 2nd and 12th houses from Moon are",
+   "bbox": [
+    260,
+    861,
+    1467,
+    909
+   ]
+  },
+  {
+   "text": "occupied by planets, other than Sun the yoga constituted is",
+   "bbox": [
+    260,
+    913,
+    1467,
+    966
+   ]
+  },
+  {
+   "text": "called \"Durudhara\". In case none of these two houses is occu-",
+   "bbox": [
+    261,
+    966,
+    1469,
+    1016
+   ]
+  },
+  {
+   "text": "pied by any planet, there arises the yoga called \"Kemdrum\"",
+   "bbox": [
+    263,
+    1019,
+    1469,
+    1072
+   ]
+  },
+  {
+   "text": "(which is a bad yoga causing poverty). If, however, there is any",
+   "bbox": [
+    264,
+    1074,
+    1470,
+    1124
+   ]
+  },
+  {
+   "text": "planet, other than the Sun or Moon, in the kendra from the",
+   "bbox": [
+    264,
+    1127,
+    1470,
+    1178
+   ]
+  },
+  {
+   "text": "lagna, the kemdrum yoga is not caused. Kendrum is also",
+   "bbox": [
+    264,
+    1178,
+    1471,
+    1230
+   ]
+  },
+  {
+   "text": "absent if either the Moon or the lagna is with any planet (other",
+   "bbox": [
+    266,
+    1231,
+    1471,
+    1284
+   ]
+  },
+  {
+   "text": "than the Sun). There are some who consider that Kemdrum is",
+   "bbox": [
+    266,
+    1283,
+    1471,
+    1334
+   ]
+  },
+  {
+   "text": "caused if there are no planets located in the kendras from",
+   "bbox": [
+    264,
+    1334,
+    1472,
+    1389
+   ]
+  },
+  {
+   "text": "Moon. Similarly they are of the opinion that if there are no",
+   "bbox": [
+    266,
+    1390,
+    1471,
+    1441
+   ]
+  },
+  {
+   "text": "planets in the 2nd and 12th of the sign in navamsha occupied",
+   "bbox": [
+    266,
+    1441,
+    1474,
+    1492
+   ]
+  },
+  {
+   "text": "by Moon, kemdrum is caused, but this opinion is not widely",
+   "bbox": [
+    264,
+    1493,
+    1473,
+    1545
+   ]
+  },
+  {
+   "text": "recognised.",
+   "bbox": [
+    266,
+    1559,
+    493,
+    1597
+   ]
+  },
+  {
+   "text": "Commentary: Although the location of planets in the",
+   "bbox": [
+    340,
+    1626,
+    1481,
+    1676
+   ]
+  },
+  {
+   "text": "12th house is also stated to be of some good, it appears that",
+   "bbox": [
+    267,
+    1679,
+    1478,
+    1727
+   ]
+  },
+  {
+   "text": "really good results particularly in the financial sphere flow",
+   "bbox": [
+    264,
+    1729,
+    1476,
+    1781
+   ]
+  },
+  {
+   "text": "only from the location of benefics in the 2nd house from Moon,",
+   "bbox": [
+    267,
+    1784,
+    1474,
+    1832
+   ]
+  },
+  {
+   "text": "the reason being that Moon acts as lagna and hence any",
+   "bbox": [
+    267,
+    1837,
+    1476,
+    1887
+   ]
+  },
+  {
+   "text": "benefic planet in the second from it would naturally be condu-",
+   "bbox": [
+    267,
+    1888,
+    1477,
+    1939
+   ]
+  },
+  {
+   "text": "cive to wealth.",
+   "bbox": [
+    266,
+    1949,
+    563,
+    1985
+   ]
+  },
+  {
+   "text": "त्रिंशत्सरूपा सुनफानफाख्या: पष्टित्रये दौरुधुरा: प्रभेदा:।",
+   "bbox": [
+    340,
+    2018,
+    1140,
+    2074
+   ]
+  },
+  {
+   "text": "इच्छाविकल्पै: क्रमशोऽभिनीय नीते निवृत्ति: पुनरन्यनीति: ।। 4 ।।",
+   "bbox": [
+    339,
+    2080,
+    1279,
+    2138
+   ]
+  },
+  {
+   "text": "There are 31 varieties of each of Sunfa and Anfa yogas.",
+   "bbox": [
+    342,
+    2181,
+    1478,
+    2220
+   ]
+  },
+  {
+   "text": "Similarly there are 180 varieties of Durudhara. These variet-",
+   "bbox": [
+    266,
+    2229,
+    1478,
+    2276
+   ]
+  }
+ ]
+}

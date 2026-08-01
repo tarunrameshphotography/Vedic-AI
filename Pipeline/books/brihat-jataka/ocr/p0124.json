@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0124",
+ "book_id": "brihat-jataka",
+ "seq": 124,
+ "source_ref": {
+  "pdf_page": 62,
+  "half": "b",
+  "v1_page": "s062b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "6e1991ac1cd667bc69ca6d30a09d9c843ce9ce50c4807af5efdfa802e67ac705",
+ "lines": [
+  {
+   "text": "Combination of Planets",
+   "bbox": [
+    242,
+    261,
+    703,
+    297
+   ]
+  },
+  {
+   "text": "121",
+   "bbox": [
+    1358,
+    261,
+    1439,
+    294
+   ]
+  },
+  {
+   "text": "the native speeks clearly with full explanation, is wealthy,",
+   "bbox": [
+    244,
+    362,
+    1446,
+    400
+   ]
+  },
+  {
+   "text": "Inmous and beloved of all. If it is with Jupiter, he is prominent",
+   "bbox": [
+    244,
+    410,
+    1448,
+    456
+   ]
+  },
+  {
+   "text": "In his family, victorious over enemies, with wavering mind and",
+   "bbox": [
+    242,
+    463,
+    1446,
+    507
+   ]
+  },
+  {
+   "text": "wealthy. If it is with Venus, he is efficient in jobs relating",
+   "bbox": [
+    241,
+    515,
+    1448,
+    559
+   ]
+  },
+  {
+   "text": "clothes, (ie their sale, repair, manufacture, dyeing etc). If it is",
+   "bbox": [
+    238,
+    569,
+    1446,
+    608
+   ]
+  },
+  {
+   "text": "with Saturn, his mother is <i>punarbhu</i> ie she marries, loses her",
+   "bbox": [
+    239,
+    622,
+    1448,
+    661
+   ]
+  },
+  {
+   "text": "husband and marries again.",
+   "bbox": [
+    238,
+    674,
+    791,
+    713
+   ]
+  },
+  {
+   "text": "Mars with other Planets",
+   "bbox": [
+    238,
+    774,
+    864,
+    818
+   ]
+  },
+  {
+   "text": "मलादिस्नेहकूटैर्व्यवहरति वणिग्बाहुयोद्धा ससौम्ये",
+   "bbox": [
+    302,
+    852,
+    1002,
+    909
+   ]
+  },
+  {
+   "text": "पुर्य्यध्यक्ष: सजीवे भवति नरपति: प्राप्तवित्तो द्विजो वा।",
+   "bbox": [
+    301,
+    919,
+    1090,
+    973
+   ]
+  },
+  {
+   "text": "गोपो मल्लोऽथ दक्ष: परयुवतिरतो द्यूतकृत्सासुरेज्ये",
+   "bbox": [
+    301,
+    985,
+    1015,
+    1039
+   ]
+  },
+  {
+   "text": "दुःखार्त्तोऽसत्यसन्धः ससवितृतनये भूमिजे निन्दितश्च।। 3 ।।",
+   "bbox": [
+    301,
+    1051,
+    1152,
+    1106
+   ]
+  },
+  {
+   "text": "If Mars is with Mercury the native deals in pickles, herbs,",
+   "bbox": [
+    304,
+    1148,
+    1442,
+    1188
+   ]
+  },
+  {
+   "text": "skin of trees, flowers, leaves rosin, oils and artificial articles",
+   "bbox": [
+    232,
+    1196,
+    1445,
+    1244
+   ]
+  },
+  {
+   "text": "and wrestling, if it is with Jupiter one becomes prominent,",
+   "bbox": [
+    231,
+    1253,
+    1443,
+    1294
+   ]
+  },
+  {
+   "text": "even a king, a Brahmin or a rich person, if it is with Venus, one",
+   "bbox": [
+    229,
+    1306,
+    1443,
+    1345
+   ]
+  },
+  {
+   "text": "is a wrestler, a rearer of cows, indulging in other women, a",
+   "bbox": [
+    228,
+    1359,
+    1443,
+    1399
+   ]
+  },
+  {
+   "text": "gambler or a thug. If it is with Saturn one is miserable, lier and",
+   "bbox": [
+    228,
+    1411,
+    1443,
+    1451
+   ]
+  },
+  {
+   "text": "engaged in unbecoming deeds.",
+   "bbox": [
+    226,
+    1463,
+    835,
+    1502
+   ]
+  },
+  {
+   "text": "Mercury with other Planets",
+   "bbox": [
+    226,
+    1567,
+    952,
+    1608
+   ]
+  },
+  {
+   "text": "सौम्ये रङ्गचरो वृहस्पतियुते गीतप्रियो नृत्यवान्",
+   "bbox": [
+    295,
+    1644,
+    960,
+    1695
+   ]
+  },
+  {
+   "text": "वाग्मी भूगणपोसितेन मृदुना मायापटुर्लङ्गक:।",
+   "bbox": [
+    295,
+    1706,
+    938,
+    1760
+   ]
+  },
+  {
+   "text": "सद्विद्यो धनदारवान् बहुगुण: शुक्रेण युक्ते गुरौ",
+   "bbox": [
+    297,
+    1771,
+    956,
+    1825
+   ]
+  },
+  {
+   "text": "ज्ञेय: श्मश्रुकरोऽसितेन घटकृज्जातोन्नकारोऽपि वा।। 4 ।।",
+   "bbox": [
+    295,
+    1834,
+    1117,
+    1891
+   ]
+  },
+  {
+   "text": "If Mercury is with Jupiter, one is a wrestler, lover of music",
+   "bbox": [
+    298,
+    1936,
+    1442,
+    1975
+   ]
+  },
+  {
+   "text": "and dance, if it is with Venus one is clever in speech and leader",
+   "bbox": [
+    222,
+    1988,
+    1440,
+    2027
+   ]
+  },
+  {
+   "text": "of men. If it is with Saturn one is clever in deceiving others and",
+   "bbox": [
+    222,
+    2040,
+    1439,
+    2078
+   ]
+  },
+  {
+   "text": "a transgresser of good laws.",
+   "bbox": [
+    222,
+    2092,
+    778,
+    2130
+   ]
+  },
+  {
+   "text": "(ii) If Jupiter is with Venus one is highly educated, rich",
+   "bbox": [
+    294,
+    2166,
+    1442,
+    2213
+   ]
+  },
+  {
+   "text": "with many qualities and has a good wife. If it is with Saturn",
+   "bbox": [
+    220,
+    2222,
+    1439,
+    2266
+   ]
+  },
+  {
+   "text": "one is a barber, a potter or a cook.",
+   "bbox": [
+    220,
+    2275,
+    908,
+    2314
+   ]
+  },
+  {
+   "text": "<math>-100</math>",
+   "bbox": [
+    1574,
+    2304,
+    1618,
+    2317
+   ]
+  }
+ ]
+}

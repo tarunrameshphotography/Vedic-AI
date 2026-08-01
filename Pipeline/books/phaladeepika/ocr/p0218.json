@@ -1,0 +1,81 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0218",
+ "book_id": "phaladeepika",
+ "seq": 218,
+ "source_ref": {
+  "pdf_page": 218
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "8852a9afee1d05165a89dedbcb78c0b9c54db8bfcc79f9ccc8045e311c7545f6",
+ "lines": [
+  {
+   "text": "and the gods and who preserve the landmark of character and conduct peculiar to ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "their high family.",
+   "bbox": [
+    85,
+    82,
+    182,
+    97
+   ]
+  },
+  {
+   "text": "Notes — This chapter is based entirely on the translation of this chapter of ",
+   "bbox": [
+    121,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "Phaladeepika by Shri V. Subrahmanya Sastri.",
+   "bbox": [
+    85,
+    130,
+    339,
+    145
+   ]
+  },
+  {
+   "text": "Thus ends the twenty second chapter on \"Kalachakra Dasa etc\" in ",
+   "bbox": [
+    121,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "Phaladeepika composed by Mantreswara.",
+   "bbox": [
+    85,
+    178,
+    320,
+    194
+   ]
+  },
+  {
+   "text": "218",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

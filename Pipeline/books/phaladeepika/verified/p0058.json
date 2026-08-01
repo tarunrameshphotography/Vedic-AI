@@ -1,0 +1,24 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0058",
+ "ocr_fingerprint": "eff12bae6c8f294b848b6ba23c1a77cbca33b4090fa2f55ed790d9db98814162",
+ "kind": "chart",
+ "note": "South Indian horoscope chart. Cell labels are taken from the PDF's embedded text layer and cell boundaries from the chart's vector grid, so both are exact rather than read by eye. Proposed by tools/propose_charts.py and checked against the rendered page.",
+ "verified": "2026-08-01",
+ "exclude_lines": [
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19
+ ],
+ "insert_after": 7,
+ "markdown": "**Horoscope chart: Jawahar Lal Nehru Malavya Yoga** (South Indian style, printed page 58)\n\n```\n+-------------+-------------+-------------+-------------+\n|             |             |             | Rahu        |\n+-------------+-------------+-------------+-------------+\n|             |                           | Moon        |\n+-------------+                           +-------------+\n|             |                           | Saturn      |\n+-------------+-------------+-------------+-------------+\n| Jupiter     | Sun         | Mercury     | Mars        |\n| Ketu        |             | Venus       |             |\n+-------------+-------------+-------------+-------------+\n```\n\nNo lagna marker is printed on this chart, so house numbers are **not** assigned. Signs follow the fixed South Indian cell positions.\n\n| Sign | Planets |\n|---|---|\n| Gemini | Rahu |\n| Cancer | Moon |\n| Leo | Saturn |\n| Virgo | Mars |\n| Libra | Mercury, Venus |\n| Scorpio | Sun |\n| Sagittarius | Jupiter, Ketu |"
+}

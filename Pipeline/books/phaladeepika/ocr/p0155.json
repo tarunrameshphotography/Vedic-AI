@@ -1,0 +1,288 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0155",
+ "book_id": "phaladeepika",
+ "seq": 155,
+ "source_ref": {
+  "pdf_page": 155
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "a141989f83457135c23c91d7b763823cc8871638eb1644099a10be663bbb859b",
+ "lines": [
+  {
+   "text": "<b>Chapter 16</b>",
+   "bbox": [
+    281,
+    57,
+    357,
+    75
+   ]
+  },
+  {
+   "text": "<b>General Effects of the Twelve Houses</b>",
+   "bbox": [
+    192,
+    85,
+    446,
+    103
+   ]
+  },
+  {
+   "text": "1. The body of the native is built corresponding to the lord of the Navamsa ",
+   "bbox": [
+    121,
+    137,
+    556,
+    152
+   ]
+  },
+  {
+   "text": "Lagna or the strongest planet in nativity. His complexion will be according to the ",
+   "bbox": [
+    85,
+    161,
+    556,
+    176
+   ]
+  },
+  {
+   "text": "lord of the house occupied by the Moon. His body and limbs will be in propotion ",
+   "bbox": [
+    85,
+    185,
+    556,
+    201
+   ]
+  },
+  {
+   "text": "to the rising sign (Lagna) and other signs which are described as forming the head ",
+   "bbox": [
+    85,
+    209,
+    556,
+    225
+   ]
+  },
+  {
+   "text": "and other portions of Kalapurusha.",
+   "bbox": [
+    85,
+    233,
+    280,
+    249
+   ]
+  },
+  {
+   "text": "2. If the lord of the Lagna occupies a kendra or trikona, be uneclipsed and in ",
+   "bbox": [
+    121,
+    257,
+    556,
+    273
+   ]
+  },
+  {
+   "text": "his sign of exaltation or own sign and the Lagna be occupied by benefics, while the ",
+   "bbox": [
+    85,
+    282,
+    556,
+    297
+   ]
+  },
+  {
+   "text": "lord of the 8th be in a house other than kendra, the native will be long lived, ",
+   "bbox": [
+    85,
+    306,
+    556,
+    321
+   ]
+  },
+  {
+   "text": "wealthy, praiseworthy, equipped with virtues, honoured by the king, fortunate, ",
+   "bbox": [
+    85,
+    330,
+    556,
+    345
+   ]
+  },
+  {
+   "text": "possesses beautiful limbs and strong body, fearless, religious minded and having a ",
+   "bbox": [
+    85,
+    354,
+    556,
+    370
+   ]
+  },
+  {
+   "text": "happy family.",
+   "bbox": [
+    85,
+    378,
+    162,
+    394
+   ]
+  },
+  {
+   "text": "3. If the lord of Lagna be related to an auspicious planet, the native will ",
+   "bbox": [
+    121,
+    402,
+    556,
+    418
+   ]
+  },
+  {
+   "text": "reside in a good village and amidst noble associations. If the lord of the Lagna be ",
+   "bbox": [
+    85,
+    427,
+    556,
+    442
+   ]
+  },
+  {
+   "text": "associated with a planet vested with strength, the native will live under the ",
+   "bbox": [
+    85,
+    451,
+    556,
+    466
+   ]
+  },
+  {
+   "text": "patronage of a renowned king.",
+   "bbox": [
+    85,
+    475,
+    256,
+    490
+   ]
+  },
+  {
+   "text": "When the lord of Lagna be posited in his sign of exaltation, the person will ",
+   "bbox": [
+    121,
+    499,
+    556,
+    514
+   ]
+  },
+  {
+   "text": "become a king (but he should not be in 6th, 8th, or 12th).",
+   "bbox": [
+    85,
+    523,
+    404,
+    539
+   ]
+  },
+  {
+   "text": "If the lord of the Lagna be in a moveable sign, the native will contiune to ",
+   "bbox": [
+    121,
+    547,
+    556,
+    563
+   ]
+  },
+  {
+   "text": "move from place to place.",
+   "bbox": [
+    85,
+    571,
+    231,
+    587
+   ]
+  },
+  {
+   "text": "If the lord of the lagna be in a fixed sign, the native will live permanently at ",
+   "bbox": [
+    121,
+    596,
+    556,
+    611
+   ]
+  },
+  {
+   "text": "one place.",
+   "bbox": [
+    85,
+    620,
+    142,
+    635
+   ]
+  },
+  {
+   "text": "If the lord of the Lagna be in a dual sign, the native will live for some time ",
+   "bbox": [
+    121,
+    644,
+    556,
+    659
+   ]
+  },
+  {
+   "text": "at one place while at other times he will move from place to place.",
+   "bbox": [
+    85,
+    668,
+    458,
+    684
+   ]
+  },
+  {
+   "text": "4. If at birth, the lord of Lagna be with brilliant rays, the native becomes ",
+   "bbox": [
+    121,
+    692,
+    556,
+    708
+   ]
+  },
+  {
+   "text": "famous. If the lord of Lagna occupies an auspicious position, the native will be ",
+   "bbox": [
+    85,
+    716,
+    556,
+    732
+   ]
+  },
+  {
+   "text": "happy and prosperous. If, however, the lord of Lagna be placed in a dusthana, be in ",
+   "bbox": [
+    85,
+    740,
+    556,
+    756
+   ]
+  },
+  {
+   "text": "his sign of debilitation or in the sign of a malefic, the native will be miserable and ",
+   "bbox": [
+    85,
+    765,
+    556,
+    780
+   ]
+  },
+  {
+   "text": "155",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

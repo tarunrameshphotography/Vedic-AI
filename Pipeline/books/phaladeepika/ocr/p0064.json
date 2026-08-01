@@ -1,0 +1,288 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0064",
+ "book_id": "phaladeepika",
+ "seq": 64,
+ "source_ref": {
+  "pdf_page": 64
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "a472f9ff72d0533cb6168daae19c4d009af9c034bbb9d009acb0b9a92dc615d6",
+ "lines": [
+  {
+   "text": "Moon is in the 6th house from Jupiter but Sakata Yoga gets concelled as the Moon ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "is in a Kendra from the Lagna (in the Lagna itself).",
+   "bbox": [
+    85,
+    82,
+    371,
+    97
+   ]
+  },
+  {
+   "text": "Rahu",
+   "bbox": [
+    389,
+    150,
+    419,
+    166
+   ]
+  },
+  {
+   "text": "Lagna",
+   "bbox": [
+    387,
+    199,
+    422,
+    215
+   ]
+  },
+  {
+   "text": "Moon",
+   "bbox": [
+    387,
+    215,
+    421,
+    231
+   ]
+  },
+  {
+   "text": "Saturn",
+   "bbox": [
+    386,
+    264,
+    422,
+    279
+   ]
+  },
+  {
+   "text": "Jupiter",
+   "bbox": [
+    214,
+    312,
+    253,
+    328
+   ]
+  },
+  {
+   "text": "Venus ",
+   "bbox": [
+    330,
+    312,
+    368,
+    328
+   ]
+  },
+  {
+   "text": "Sun",
+   "bbox": [
+    279,
+    320,
+    301,
+    336
+   ]
+  },
+  {
+   "text": "Mars",
+   "bbox": [
+    390,
+    320,
+    418,
+    336
+   ]
+  },
+  {
+   "text": "Ketu",
+   "bbox": [
+    220,
+    329,
+    247,
+    344
+   ]
+  },
+  {
+   "text": "Mercury",
+   "bbox": [
+    323,
+    329,
+    371,
+    344
+   ]
+  },
+  {
+   "text": "18. The person born with Varishta Yoga, will be wealthy, will possess ",
+   "bbox": [
+    121,
+    381,
+    556,
+    397
+   ]
+  },
+  {
+   "text": "vehicles, will achieve fame, will enjoy happiness, will acquire knowledge and will ",
+   "bbox": [
+    85,
+    405,
+    556,
+    421
+   ]
+  },
+  {
+   "text": "have intellectual equipment, modesty, ability, learning and will be generous. The ",
+   "bbox": [
+    85,
+    430,
+    556,
+    445
+   ]
+  },
+  {
+   "text": "effects will be of a medium nature in Sama Yoga and very little in Adhama Yoga.",
+   "bbox": [
+    85,
+    454,
+    539,
+    469
+   ]
+  },
+  {
+   "text": "19. Vasumati Yoga is formed when all the benefic planets occupy upachaya ",
+   "bbox": [
+    121,
+    478,
+    556,
+    493
+   ]
+  },
+  {
+   "text": "houses (3, 6, 10, 11) from the Lagna or the Moon.",
+   "bbox": [
+    85,
+    502,
+    365,
+    518
+   ]
+  },
+  {
+   "text": "Amala yoga is formed when benefics occupy the 10th house reckoned from ",
+   "bbox": [
+    121,
+    526,
+    556,
+    542
+   ]
+  },
+  {
+   "text": "the Lagna or the Moon.",
+   "bbox": [
+    85,
+    550,
+    217,
+    566
+   ]
+  },
+  {
+   "text": "If the lords of the signs occupied by the Lagna and the Moon be together in a ",
+   "bbox": [
+    121,
+    574,
+    556,
+    590
+   ]
+  },
+  {
+   "text": "Kendra or be in the house of an Adhimitra and a planet endowed with strength ",
+   "bbox": [
+    85,
+    599,
+    556,
+    614
+   ]
+  },
+  {
+   "text": "aspects the Lagna, the planetary disposition so formed is known as Pushkala yoga.",
+   "bbox": [
+    85,
+    623,
+    547,
+    638
+   ]
+  },
+  {
+   "text": "20. The person born with Vasumati yoga will always remain at his house ",
+   "bbox": [
+    121,
+    647,
+    556,
+    662
+   ]
+  },
+  {
+   "text": "(perhaps this means that he will not go out of his native land) and he will be very ",
+   "bbox": [
+    85,
+    671,
+    556,
+    687
+   ]
+  },
+  {
+   "text": "wealthy.",
+   "bbox": [
+    85,
+    695,
+    132,
+    711
+   ]
+  },
+  {
+   "text": "The person born with Amala yoga will possess lands, will be wealthy, will ",
+   "bbox": [
+    121,
+    719,
+    556,
+    735
+   ]
+  },
+  {
+   "text": "be blessed with sons and will be famous, prosperous and wise.",
+   "bbox": [
+    85,
+    744,
+    435,
+    759
+   ]
+  },
+  {
+   "text": "The native of Pushkala yoga will be reverred by kings, will be renowned and ",
+   "bbox": [
+    121,
+    768,
+    556,
+    783
+   ]
+  },
+  {
+   "text": "64",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

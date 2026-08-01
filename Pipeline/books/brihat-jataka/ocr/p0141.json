@@ -1,0 +1,317 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0141",
+ "book_id": "brihat-jataka",
+ "seq": 141,
+ "source_ref": {
+  "pdf_page": 71,
+  "half": "a",
+  "v1_page": "s071a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "041a3a1f1e2cb2f92676275644ab5c50e514c54fdd7562556b16336f64b1ba77",
+ "lines": [
+  {
+   "text": "138",
+   "bbox": [
+    375,
+    198,
+    464,
+    232
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1296,
+    225,
+    1588,
+    265
+   ]
+  },
+  {
+   "text": "troublesome travels and labour.",
+   "bbox": [
+    362,
+    296,
+    1000,
+    352
+   ]
+  },
+  {
+   "text": "One having Sun in Leo: Is fond of jungles, mountains,",
+   "bbox": [
+    441,
+    376,
+    1588,
+    456
+   ]
+  },
+  {
+   "text": "cowsheds, is powerful but foolish.",
+   "bbox": [
+    359,
+    428,
+    1030,
+    488
+   ]
+  },
+  {
+   "text": "One having Sun in Virgo: Is engaged in writing",
+   "bbox": [
+    435,
+    507,
+    1585,
+    586
+   ]
+  },
+  {
+   "text": "work, literature, mathematics. He is womenish in appear-",
+   "bbox": [
+    356,
+    557,
+    1581,
+    638
+   ]
+  },
+  {
+   "text": "ance.",
+   "bbox": [
+    358,
+    621,
+    465,
+    649
+   ]
+  },
+  {
+   "text": "जातस्तौलिनि शौण्डिकोऽध्वनिरतो हैरण्यको नीचकृ-",
+   "bbox": [
+    425,
+    683,
+    1181,
+    763
+   ]
+  },
+  {
+   "text": "त्क्रूर: साहसिको विषार्जितथन: शास्त्रान्तगोऽलिस्थिते।",
+   "bbox": [
+    425,
+    753,
+    1185,
+    826
+   ]
+  },
+  {
+   "text": "सत्पूज्यो धनवान् धनुर्द्धरगते तीक्ष्णो भिषक्कारुको",
+   "bbox": [
+    422,
+    815,
+    1136,
+    892
+   ]
+  },
+  {
+   "text": "नीचोऽज्ञ: कुवणिङ् मृगेऽल्पधनवाल्लुब्धोऽन्यभाग्ये रत: ।। 3।।",
+   "bbox": [
+    419,
+    881,
+    1313,
+    963
+   ]
+  },
+  {
+   "text": "One having Sun in Libra: Is engaged in preparing li-",
+   "bbox": [
+    419,
+    976,
+    1567,
+    1056
+   ]
+  },
+  {
+   "text": "quor, constant travelling, is a goldsmith, involved in unbecom-",
+   "bbox": [
+    340,
+    1029,
+    1566,
+    1107
+   ]
+  },
+  {
+   "text": "ing deeds.",
+   "bbox": [
+    340,
+    1089,
+    547,
+    1125
+   ]
+  },
+  {
+   "text": "One having Sun in Scorpio: Is cruel, courageous and",
+   "bbox": [
+    414,
+    1162,
+    1560,
+    1239
+   ]
+  },
+  {
+   "text": "earns through the sale of poisonous articles.",
+   "bbox": [
+    332,
+    1212,
+    1219,
+    1281
+   ]
+  },
+  {
+   "text": "One having Sun in Sagittarius: Is honoured by good",
+   "bbox": [
+    411,
+    1291,
+    1557,
+    1370
+   ]
+  },
+  {
+   "text": "people, is wealthy, fierce, a doctor.",
+   "bbox": [
+    328,
+    1340,
+    1024,
+    1404
+   ]
+  },
+  {
+   "text": "नीचो घटे तनयभाग्यपरिच्युतोऽस्व-",
+   "bbox": [
+    401,
+    1416,
+    909,
+    1487
+   ]
+  },
+  {
+   "text": "स्तोयोत्थपण्यविभवो वनिताऽऽदुतोऽन्त्ये।",
+   "bbox": [
+    476,
+    1483,
+    1035,
+    1554
+   ]
+  },
+  {
+   "text": "नक्षत्रमानवतनुप्रतिमे विभागे",
+   "bbox": [
+    401,
+    1559,
+    796,
+    1609
+   ]
+  },
+  {
+   "text": "लक्ष्मादिशेतुहिनरश्मिदिनेशयुक्ते ।। 4।।",
+   "bbox": [
+    470,
+    1616,
+    1047,
+    1689
+   ]
+  },
+  {
+   "text": "One having Sun in Capricorn: Acts in a manner unbe-",
+   "bbox": [
+    395,
+    1709,
+    1543,
+    1788
+   ]
+  },
+  {
+   "text": "coming of his position, is foolish. Engaged in unbecoming",
+   "bbox": [
+    314,
+    1759,
+    1543,
+    1840
+   ]
+  },
+  {
+   "text": "trade, has loss of wealth and is greedy.",
+   "bbox": [
+    314,
+    1811,
+    1099,
+    1879
+   ]
+  },
+  {
+   "text": "One having Sun in Acquarius: Is engaged in unbecom-",
+   "bbox": [
+    389,
+    1893,
+    1537,
+    1970
+   ]
+  },
+  {
+   "text": "ing actions. He becomes bereft of sons and good luck.",
+   "bbox": [
+    308,
+    1940,
+    1375,
+    2018
+   ]
+  },
+  {
+   "text": "One having Sun in Pisces: Earns through articles con-",
+   "bbox": [
+    384,
+    2021,
+    1531,
+    2100
+   ]
+  },
+  {
+   "text": "nected with water such as pearls. He gets respect from women.",
+   "bbox": [
+    305,
+    2070,
+    1530,
+    2152
+   ]
+  },
+  {
+   "text": "In case the Sun and Moon are located in the same sign, marks",
+   "bbox": [
+    304,
+    2121,
+    1528,
+    2205
+   ]
+  },
+  {
+   "text": "like moles etc appear in the organ of the body represented by",
+   "bbox": [
+    302,
+    2175,
+    1527,
+    2257
+   ]
+  },
+  {
+   "text": "the sign in which they are together.",
+   "bbox": [
+    302,
+    2229,
+    1024,
+    2291
+   ]
+  }
+ ]
+}

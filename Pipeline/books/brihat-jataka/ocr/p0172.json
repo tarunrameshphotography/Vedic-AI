@@ -1,0 +1,533 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0172",
+ "book_id": "brihat-jataka",
+ "seq": 172,
+ "source_ref": {
+  "pdf_page": 86,
+  "half": "b",
+  "v1_page": "s086b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "788a331c13172820a93e2bce5e73f3c6cb85e72821a1233b1148cc5c469a6e59",
+ "lines": [
+  {
+   "text": "169",
+   "bbox": [
+    1303,
+    255,
+    1392,
+    288
+   ]
+  },
+  {
+   "text": "Anishta or Misfortune",
+   "bbox": [
+    180,
+    262,
+    624,
+    299
+   ]
+  },
+  {
+   "text": "enth lord is with Shukra in the fourth aspected by Shani.",
+   "bbox": [
+    180,
+    357,
+    1391,
+    403
+   ]
+  },
+  {
+   "text": "These factors indicate her loose moral life.",
+   "bbox": [
+    180,
+    411,
+    1022,
+    451
+   ]
+  },
+  {
+   "text": "Chandra, Kuja",
+   "bbox": [
+    887,
+    495,
+    1270,
+    534
+   ]
+  },
+  {
+   "text": "and",
+   "bbox": [
+    1297,
+    495,
+    1392,
+    529
+   ]
+  },
+  {
+   "text": "Ravi",
+   "bbox": [
+    502,
+    534,
+    575,
+    560
+   ]
+  },
+  {
+   "text": "Shani must be conjunct",
+   "bbox": [
+    813,
+    544,
+    1395,
+    588
+   ]
+  },
+  {
+   "text": "Guru",
+   "bbox": [
+    356,
+    571,
+    436,
+    599
+   ]
+  },
+  {
+   "text": "<b>Budha</b>",
+   "bbox": [
+    502,
+    573,
+    604,
+    600
+   ]
+  },
+  {
+   "text": "aspected by Shukra. This",
+   "bbox": [
+    814,
+    599,
+    1392,
+    639
+   ]
+  },
+  {
+   "text": "Shukra",
+   "bbox": [
+    502,
+    613,
+    613,
+    641
+   ]
+  },
+  {
+   "text": "Shukra must be in any of the",
+   "bbox": [
+    815,
+    651,
+    1392,
+    690
+   ]
+  },
+  {
+   "text": "Vargas of Shani or Kuja.",
+   "bbox": [
+    814,
+    704,
+    1392,
+    743
+   ]
+  },
+  {
+   "text": "Lagna",
+   "bbox": [
+    205,
+    729,
+    307,
+    761
+   ]
+  },
+  {
+   "text": "Rahu",
+   "bbox": [
+    661,
+    736,
+    748,
+    766
+   ]
+  },
+  {
+   "text": "Then the husband and the",
+   "bbox": [
+    815,
+    754,
+    1393,
+    795
+   ]
+  },
+  {
+   "text": "wife become the adulterous.",
+   "bbox": [
+    814,
+    810,
+    1374,
+    845
+   ]
+  },
+  {
+   "text": "Moon",
+   "bbox": [
+    654,
+    850,
+    743,
+    882
+   ]
+  },
+  {
+   "text": "Ketu",
+   "bbox": [
+    208,
+    876,
+    282,
+    905
+   ]
+  },
+  {
+   "text": "In the third chart male",
+   "bbox": [
+    890,
+    887,
+    1394,
+    923
+   ]
+  },
+  {
+   "text": "Kuja",
+   "bbox": [
+    657,
+    894,
+    730,
+    927
+   ]
+  },
+  {
+   "text": "and non-male planets Ravi",
+   "bbox": [
+    816,
+    942,
+    1395,
+    981
+   ]
+  },
+  {
+   "text": "and Buddh have Shani in the",
+   "bbox": [
+    816,
+    994,
+    1392,
+    1030
+   ]
+  },
+  {
+   "text": "Shani",
+   "bbox": [
+    356,
+    1040,
+    446,
+    1069
+   ]
+  },
+  {
+   "text": "seventh from them. Guru as-",
+   "bbox": [
+    816,
+    1046,
+    1392,
+    1083
+   ]
+  },
+  {
+   "text": "pects Shani. Kuja aspects the",
+   "bbox": [
+    186,
+    1158,
+    771,
+    1195
+   ]
+  },
+  {
+   "text": "Kuja",
+   "bbox": [
+    1252,
+    1182,
+    1325,
+    1221
+   ]
+  },
+  {
+   "text": "sun",
+   "bbox": [
+    959,
+    1197,
+    1023,
+    1217
+   ]
+  },
+  {
+   "text": "seventh. She lost her husband",
+   "bbox": [
+    185,
+    1207,
+    768,
+    1244
+   ]
+  },
+  {
+   "text": "Shukra",
+   "bbox": [
+    1101,
+    1207,
+    1211,
+    1237
+   ]
+  },
+  {
+   "text": "Guru",
+   "bbox": [
+    1250,
+    1227,
+    1328,
+    1255
+   ]
+  },
+  {
+   "text": "Budha",
+   "bbox": [
+    957,
+    1230,
+    1056,
+    1257
+   ]
+  },
+  {
+   "text": "and after a few years she mar-",
+   "bbox": [
+    182,
+    1262,
+    771,
+    1300
+   ]
+  },
+  {
+   "text": "ried another.",
+   "bbox": [
+    182,
+    1313,
+    446,
+    1348
+   ]
+  },
+  {
+   "text": "Chandra",
+   "bbox": [
+    1254,
+    1342,
+    1381,
+    1370
+   ]
+  },
+  {
+   "text": "Rahu",
+   "bbox": [
+    805,
+    1360,
+    891,
+    1390
+   ]
+  },
+  {
+   "text": "Lagna",
+   "bbox": [
+    1256,
+    1386,
+    1353,
+    1418
+   ]
+  },
+  {
+   "text": "Chandra,",
+   "bbox": [
+    555,
+    1392,
+    772,
+    1428
+   ]
+  },
+  {
+   "text": "When",
+   "bbox": [
+    364,
+    1393,
+    508,
+    1427
+   ]
+  },
+  {
+   "text": "6.",
+   "bbox": [
+    259,
+    1396,
+    305,
+    1424
+   ]
+  },
+  {
+   "text": "Shukra and malefics are in",
+   "bbox": [
+    183,
+    1444,
+    768,
+    1480
+   ]
+  },
+  {
+   "text": "the tenth, seventh and fourth",
+   "bbox": [
+    182,
+    1498,
+    769,
+    1536
+   ]
+  },
+  {
+   "text": "Ketu",
+   "bbox": [
+    1264,
+    1506,
+    1339,
+    1535
+   ]
+  },
+  {
+   "text": "respectively, there is the ex-",
+   "bbox": [
+    183,
+    1551,
+    772,
+    1590
+   ]
+  },
+  {
+   "text": "tinction of the family.",
+   "bbox": [
+    182,
+    1603,
+    615,
+    1642
+   ]
+  },
+  {
+   "text": "Shani",
+   "bbox": [
+    1107,
+    1666,
+    1198,
+    1698
+   ]
+  },
+  {
+   "text": "When Shani in a Kendra",
+   "bbox": [
+    259,
+    1681,
+    771,
+    1717
+   ]
+  },
+  {
+   "text": "aspects the house shown by",
+   "bbox": [
+    185,
+    1735,
+    769,
+    1774
+   ]
+  },
+  {
+   "text": "the drekkana of the house oc-",
+   "bbox": [
+    182,
+    1786,
+    771,
+    1822
+   ]
+  },
+  {
+   "text": "cupied by Budha, the native becomes a sculptor (Silpi).",
+   "bbox": [
+    183,
+    1838,
+    1260,
+    1880
+   ]
+  },
+  {
+   "text": "वंशच्छेत्ता खमदसुखगैश्चन्द्रदैत्येज्यपापै:",
+   "bbox": [
+    256,
+    1909,
+    806,
+    1967
+   ]
+  },
+  {
+   "text": "शिल्पी त्र्यंशे शशिसुतयुते केन्द्रसंस्थाकिंदुष्टे।",
+   "bbox": [
+    257,
+    1977,
+    897,
+    2031
+   ]
+  },
+  {
+   "text": "दास्यां जातो दितिसुतगुरौ रिष्फगे सौरभागे",
+   "bbox": [
+    256,
+    2036,
+    859,
+    2099
+   ]
+  },
+  {
+   "text": "नीचेऽकेन्द्वोर्मदनगतयोर्द्प्टयो: सूर्यजेन।। 611",
+   "bbox": [
+    257,
+    2109,
+    887,
+    2161
+   ]
+  },
+  {
+   "text": "When Shukra in the twelfth is in the navamsha of Shani,",
+   "bbox": [
+    261,
+    2202,
+    1395,
+    2240
+   ]
+  },
+  {
+   "text": "the native is the son of a servant maid.",
+   "bbox": [
+    185,
+    2256,
+    966,
+    2290
+   ]
+  }
+ ]
+}

@@ -1,0 +1,362 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0054",
+ "book_id": "brihat-jataka",
+ "seq": 54,
+ "source_ref": {
+  "pdf_page": 27,
+  "half": "b",
+  "v1_page": "s027b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "7d89fdf397e74532e46e1a9a47627b540551c480635af2dedc4671f06b0d3b16",
+ "lines": [
+  {
+   "text": "51",
+   "bbox": [
+    1449,
+    279,
+    1507,
+    311
+   ]
+  },
+  {
+   "text": "On Conception etc.",
+   "bbox": [
+    308,
+    302,
+    681,
+    340
+   ]
+  },
+  {
+   "text": "for twins (on the same basis of parity) is that the ascendant",
+   "bbox": [
+    305,
+    378,
+    1519,
+    450
+   ]
+  },
+  {
+   "text": "and Moon should be in even signs (to give a female) but be",
+   "bbox": [
+    306,
+    429,
+    1518,
+    502
+   ]
+  },
+  {
+   "text": "aspected by males (to give male birth too). There will be three",
+   "bbox": [
+    309,
+    481,
+    1518,
+    555
+   ]
+  },
+  {
+   "text": "births in case the lagna and the planets occupy mutable signs",
+   "bbox": [
+    310,
+    533,
+    1522,
+    607
+   ]
+  },
+  {
+   "text": "and are also aspected by Mercury who should be in his own",
+   "bbox": [
+    311,
+    586,
+    1521,
+    659
+   ]
+  },
+  {
+   "text": "navamsha (Gemini and Virgo). The sex composition of the",
+   "bbox": [
+    311,
+    639,
+    1522,
+    712
+   ]
+  },
+  {
+   "text": "triple births would be as under:",
+   "bbox": [
+    311,
+    705,
+    947,
+    759
+   ]
+  },
+  {
+   "text": "(a) If the planets occupy the navamsha of Gemini or Sag-",
+   "bbox": [
+    386,
+    760,
+    1525,
+    828
+   ]
+  },
+  {
+   "text": "ittarius (mutable but male) and the aspecting Mercury",
+   "bbox": [
+    462,
+    812,
+    1525,
+    878
+   ]
+  },
+  {
+   "text": "occupies the navamsha of Gemini (male), all the three",
+   "bbox": [
+    465,
+    864,
+    1527,
+    930
+   ]
+  },
+  {
+   "text": "would be males.",
+   "bbox": [
+    468,
+    933,
+    790,
+    973
+   ]
+  },
+  {
+   "text": "(b) If the planets occupy the navamsha of Virgo or Pisces",
+   "bbox": [
+    389,
+    981,
+    1530,
+    1052
+   ]
+  },
+  {
+   "text": "(mutable but females) and the aspecting Mercury occu-",
+   "bbox": [
+    467,
+    1035,
+    1528,
+    1101
+   ]
+  },
+  {
+   "text": "pies the navamsha of Virgo (female), all the three",
+   "bbox": [
+    470,
+    1088,
+    1530,
+    1154
+   ]
+  },
+  {
+   "text": "would be females.",
+   "bbox": [
+    471,
+    1154,
+    828,
+    1202
+   ]
+  },
+  {
+   "text": "(c) If the planets occupy the navamsha of Gemini or Sag-",
+   "bbox": [
+    397,
+    1202,
+    1534,
+    1276
+   ]
+  },
+  {
+   "text": "ittarius and the aspecting Mercury occupies the",
+   "bbox": [
+    468,
+    1256,
+    1531,
+    1325
+   ]
+  },
+  {
+   "text": "navamsha of Virgo, there will be two girls and one boy.",
+   "bbox": [
+    472,
+    1309,
+    1531,
+    1377
+   ]
+  },
+  {
+   "text": "(d) If the planets occupy the navamsha of Virgo or Pisces",
+   "bbox": [
+    392,
+    1375,
+    1539,
+    1446
+   ]
+  },
+  {
+   "text": "and the aspecting Mercury occupies the navamsha of",
+   "bbox": [
+    472,
+    1426,
+    1543,
+    1498
+   ]
+  },
+  {
+   "text": "Gemini, there will be two boys and one girl.",
+   "bbox": [
+    474,
+    1487,
+    1349,
+    1545
+   ]
+  },
+  {
+   "text": "2. It would be relevant to make mention of another prin-",
+   "bbox": [
+    398,
+    1560,
+    1538,
+    1626
+   ]
+  },
+  {
+   "text": "ciple applicable to the multiple births. Multiple births are",
+   "bbox": [
+    323,
+    1612,
+    1541,
+    1683
+   ]
+  },
+  {
+   "text": "obviously not only in number more than the usual one, they",
+   "bbox": [
+    325,
+    1665,
+    1542,
+    1734
+   ]
+  },
+  {
+   "text": "also denote the simultaneous birth of co-sisters or brothers.",
+   "bbox": [
+    328,
+    1716,
+    1555,
+    1787
+   ]
+  },
+  {
+   "text": "Mercury being a planet of multiplicity has to be a constituent",
+   "bbox": [
+    327,
+    1770,
+    1545,
+    1840
+   ]
+  },
+  {
+   "text": "factor in any yoga for multiple births. The part of co-born",
+   "bbox": [
+    328,
+    1822,
+    1545,
+    1893
+   ]
+  },
+  {
+   "text": "would be played by the 3rd house, its lord and the significator",
+   "bbox": [
+    328,
+    1875,
+    1545,
+    1947
+   ]
+  },
+  {
+   "text": "for co-borns ie Mars. Thus we have to ensure the association of",
+   "bbox": [
+    329,
+    1930,
+    1548,
+    1992
+   ]
+  },
+  {
+   "text": "co-borns with the self of the native by seeing that there is a",
+   "bbox": [
+    328,
+    1981,
+    1548,
+    2052
+   ]
+  },
+  {
+   "text": "link between the lagna and or its lord with the 3rd house, its",
+   "bbox": [
+    330,
+    2035,
+    1549,
+    2103
+   ]
+  },
+  {
+   "text": "lord and Mars not excluding of course Mercury. This is a",
+   "bbox": [
+    331,
+    2086,
+    1548,
+    2155
+   ]
+  },
+  {
+   "text": "reasonable view and one supported by shloka No. 2210 at page",
+   "bbox": [
+    333,
+    2139,
+    1550,
+    2208
+   ]
+  },
+  {
+   "text": "218 of \"Deva Keralam\" which says:",
+   "bbox": [
+    334,
+    2203,
+    1041,
+    2255
+   ]
+  },
+  {
+   "text": "मंगलांशे परे भागे बुध संयुत वीक्षिते",
+   "bbox": [
+    408,
+    2278,
+    943,
+    2347
+   ]
+  },
+  {
+   "text": "यमलद्वययोग: स्यादुत्तरांशे न संशय:",
+   "bbox": [
+    410,
+    2340,
+    938,
+    2410
+   ]
+  }
+ ]
+}

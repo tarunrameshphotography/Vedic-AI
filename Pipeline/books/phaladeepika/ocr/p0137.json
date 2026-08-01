@@ -1,0 +1,288 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0137",
+ "book_id": "phaladeepika",
+ "seq": 137,
+ "source_ref": {
+  "pdf_page": 137
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "92b3027d83f3d8ce54e24719ee0f2fd3f831bd5ae5615c005b664f9dcdc304f6",
+ "lines": [
+  {
+   "text": "<b>Chapter 14</b>",
+   "bbox": [
+    281,
+    57,
+    357,
+    75
+   ]
+  },
+  {
+   "text": "<b>Diseases, Death, Past and Future births</b>",
+   "bbox": [
+    185,
+    85,
+    453,
+    103
+   ]
+  },
+  {
+   "text": "This chapter deals with planetary dispositions about diseases, death, ",
+   "bbox": [
+    121,
+    137,
+    556,
+    152
+   ]
+  },
+  {
+   "text": "previous births and future births.",
+   "bbox": [
+    85,
+    161,
+    268,
+    176
+   ]
+  },
+  {
+   "text": "1. All matters relating to diseases should be ascertained from (a) the planets ",
+   "bbox": [
+    121,
+    185,
+    556,
+    201
+   ]
+  },
+  {
+   "text": "in the 6th house, (b) the planets in the 8th house (c) the planets in the 12th house, ",
+   "bbox": [
+    85,
+    209,
+    556,
+    225
+   ]
+  },
+  {
+   "text": "(d) the lord of the 6th house and (e) the planets associated with the lord of the 6th ",
+   "bbox": [
+    85,
+    233,
+    556,
+    249
+   ]
+  },
+  {
+   "text": "house. The particular disease may be predicted if the same happens to be indicated ",
+   "bbox": [
+    85,
+    257,
+    556,
+    273
+   ]
+  },
+  {
+   "text": "by two, three or more independent planetary dispositions.",
+   "bbox": [
+    85,
+    282,
+    408,
+    297
+   ]
+  },
+  {
+   "text": "2. The Sun is the significator for following diseases and troubles (1) bile, (2) ",
+   "bbox": [
+    121,
+    306,
+    556,
+    321
+   ]
+  },
+  {
+   "text": "high fever, (3) burning in the body, (4) epilepsy, (5) heart diseases, (6) eye troubles ",
+   "bbox": [
+    85,
+    330,
+    556,
+    345
+   ]
+  },
+  {
+   "text": "(7) stomach troubles, (8) skin diseases (9) lecorrhea, (10) danger from enemies, ",
+   "bbox": [
+    85,
+    354,
+    556,
+    370
+   ]
+  },
+  {
+   "text": "(11) danger from wood, fire, weapon and poison, (12) distress from wife and sons, ",
+   "bbox": [
+    85,
+    378,
+    556,
+    394
+   ]
+  },
+  {
+   "text": "(13) danger from thieves or quadrupeds, (14) danger from snakes (15) danger from ",
+   "bbox": [
+    85,
+    402,
+    556,
+    418
+   ]
+  },
+  {
+   "text": "the king, the God Yama and God Shiva.",
+   "bbox": [
+    85,
+    427,
+    308,
+    442
+   ]
+  },
+  {
+   "text": "3. The Moon's significations in this chapter are (1) Excessive sleepiness or ",
+   "bbox": [
+    121,
+    451,
+    556,
+    466
+   ]
+  },
+  {
+   "text": "sleeplessness, (2) laziess, (3) phelgmatic affliction, (4) dysentry or diarrhoea, (5) ",
+   "bbox": [
+    85,
+    475,
+    556,
+    490
+   ]
+  },
+  {
+   "text": "carbuncle, (6) typhoid fever, (7) danger from horned or watery animals or ",
+   "bbox": [
+    85,
+    499,
+    556,
+    514
+   ]
+  },
+  {
+   "text": "creatures, (8) loss of appetite, (9) indigestion (10) tastelessness, (11) trouble from ",
+   "bbox": [
+    85,
+    523,
+    556,
+    539
+   ]
+  },
+  {
+   "text": "women (12) jaundice, (13) impurity of blood, (14) danger from water, (15) mental ",
+   "bbox": [
+    85,
+    547,
+    556,
+    563
+   ]
+  },
+  {
+   "text": "fatigue (16) fear from Balagrahas, the Goddess Durga. kinnaras, the God yama, ",
+   "bbox": [
+    85,
+    571,
+    556,
+    587
+   ]
+  },
+  {
+   "text": "snakes, and female Yaksha.",
+   "bbox": [
+    85,
+    596,
+    238,
+    611
+   ]
+  },
+  {
+   "text": "4. Mars can be the cause of following diseases and troubles (1) Excessive ",
+   "bbox": [
+    121,
+    620,
+    556,
+    635
+   ]
+  },
+  {
+   "text": "thirst, (2) morbid irritation due to billious fever, (3) fear or danger from fire, poison ",
+   "bbox": [
+    85,
+    644,
+    556,
+    659
+   ]
+  },
+  {
+   "text": "or weapon, (4) leprosy, (5) eye trebles, (6) appendicitis, (7) epilepsy, (8) injury to ",
+   "bbox": [
+    85,
+    668,
+    556,
+    684
+   ]
+  },
+  {
+   "text": "the marrow, (9) itch in the body, (10) roughness of the body, (11) bodily ",
+   "bbox": [
+    85,
+    692,
+    556,
+    708
+   ]
+  },
+  {
+   "text": "deformities, (12) fear from the king, fire and thieves, (13) quarrels with brothers, ",
+   "bbox": [
+    85,
+    716,
+    556,
+    732
+   ]
+  },
+  {
+   "text": "sons or enemies, (14) fighting with the enemies, (15) diseases in the upper part of ",
+   "bbox": [
+    85,
+    740,
+    556,
+    756
+   ]
+  },
+  {
+   "text": "the body and (16) fear from evil spirits, gandharva and frightful demon.",
+   "bbox": [
+    85,
+    765,
+    487,
+    780
+   ]
+  },
+  {
+   "text": "137",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

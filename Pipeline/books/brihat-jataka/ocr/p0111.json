@@ -1,0 +1,317 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0111",
+ "book_id": "brihat-jataka",
+ "seq": 111,
+ "source_ref": {
+  "pdf_page": 56,
+  "half": "a",
+  "v1_page": "s056a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "a59762f761345e721267921c087c0466b23c410c403d6e65ba56841af1790d53",
+ "lines": [
+  {
+   "text": "108",
+   "bbox": [
+    408,
+    237,
+    498,
+    272
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1331,
+    263,
+    1622,
+    303
+   ]
+  },
+  {
+   "text": "(छत्र), 9. Ardha Chandram (अर्द्ध चन्द्र), 10. Shakatam (शकट),",
+   "bbox": [
+    398,
+    331,
+    1623,
+    412
+   ]
+  },
+  {
+   "text": "11. Ambujam (अंबुज), 12. Pakshi (पक्षी), 13. Nau (नौ),",
+   "bbox": [
+    398,
+    383,
+    1620,
+    466
+   ]
+  },
+  {
+   "text": "14. Chakram (चक्र), 15. Vajram (वज), 16. Halam (हल),",
+   "bbox": [
+    394,
+    438,
+    1619,
+    519
+   ]
+  },
+  {
+   "text": "17. Karmukam (कार्मुकम्), 18. Kutam (कूट), 19. Vapi (वापी),",
+   "bbox": [
+    394,
+    488,
+    1618,
+    572
+   ]
+  },
+  {
+   "text": "20. Shringashtak (शृंगाष्टक).",
+   "bbox": [
+    393,
+    546,
+    917,
+    602
+   ]
+  },
+  {
+   "text": "The names of Sankhya Yogas are:",
+   "bbox": [
+    466,
+    628,
+    1150,
+    687
+   ]
+  },
+  {
+   "text": "1. Veena, (वीना) 2. Vardamah (वरदाम), 3. Pashah (पाश),",
+   "bbox": [
+    461,
+    698,
+    1611,
+    783
+   ]
+  },
+  {
+   "text": "4. Kedar (केदार), 5. Shool (शूल), 6. Yugam (युग), 7. Gol (गोल).",
+   "bbox": [
+    382,
+    747,
+    1542,
+    835
+   ]
+  },
+  {
+   "text": "The names of Ashraya Yogas are:",
+   "bbox": [
+    458,
+    837,
+    1135,
+    898
+   ]
+  },
+  {
+   "text": "1. Rajju (रज्जु), 2. Nala (नल), 3. Moosal (मुसल), 4. Srak (स्रक),",
+   "bbox": [
+    457,
+    911,
+    1602,
+    992
+   ]
+  },
+  {
+   "text": "5. Sarpa (सप).",
+   "bbox": [
+    380,
+    967,
+    656,
+    1008
+   ]
+  },
+  {
+   "text": "9, 10 and 8 multiplied respectively by 3, 3 and 4 give 27, 30",
+   "bbox": [
+    450,
+    1040,
+    1601,
+    1123
+   ]
+  },
+  {
+   "text": "and 32 as the number of Nabhas Yogas in different combina-",
+   "bbox": [
+    374,
+    1094,
+    1595,
+    1174
+   ]
+  },
+  {
+   "text": "tions of 2, 3 or 4 of the Aakriti; Ashraya etc. The Yavanacharya",
+   "bbox": [
+    371,
+    1148,
+    1596,
+    1228
+   ]
+  },
+  {
+   "text": "has held them to be of 1800 types, but in this book these have",
+   "bbox": [
+    369,
+    1197,
+    1594,
+    1282
+   ]
+  },
+  {
+   "text": "been dealt with in 32 essential numbers.",
+   "bbox": [
+    369,
+    1253,
+    1186,
+    1314
+   ]
+  },
+  {
+   "text": "Ashraya and Dala Yogas",
+   "bbox": [
+    362,
+    1356,
+    1010,
+    1419
+   ]
+  },
+  {
+   "text": "योगा व्रजन्त्याश्रयजा: समत्वं यवाब्जवज्राण्डजगोलकाद्यै:।",
+   "bbox": [
+    438,
+    1441,
+    1263,
+    1507
+   ]
+  },
+  {
+   "text": "केन्द्रोपगै: प्रोक्तफलौ दलाख्यावित्याहुरन्ये न पृथक्फलौ तौ।। 3 ।।",
+   "bbox": [
+    432,
+    1502,
+    1422,
+    1584
+   ]
+  },
+  {
+   "text": "If all the planets occupy movable signs it constitutes",
+   "bbox": [
+    431,
+    1596,
+    1583,
+    1674
+   ]
+  },
+  {
+   "text": "\"Rajju\" (रज्जु) Yoga. If all of them occupy fixed signs it is called",
+   "bbox": [
+    353,
+    1641,
+    1579,
+    1731
+   ]
+  },
+  {
+   "text": "Musal (मूसल) and if all the planets occupy duel signs they",
+   "bbox": [
+    352,
+    1694,
+    1578,
+    1784
+   ]
+  },
+  {
+   "text": "constitute \"Nala\" (नल) Yoga. Amongst the two \"dala\" Yogas,",
+   "bbox": [
+    352,
+    1749,
+    1576,
+    1835
+   ]
+  },
+  {
+   "text": "one called Srak or Mala is constituted when all the benefic",
+   "bbox": [
+    352,
+    1802,
+    1573,
+    1884
+   ]
+  },
+  {
+   "text": "planets occupy the kendras and there is no malefic in any",
+   "bbox": [
+    347,
+    1858,
+    1572,
+    1938
+   ]
+  },
+  {
+   "text": "kendra. These three yogas were treated by Satyacharya as",
+   "bbox": [
+    346,
+    1910,
+    1570,
+    1992
+   ]
+  },
+  {
+   "text": "Aashraya Yogas. The two yogas Srak & Sarpa have been",
+   "bbox": [
+    345,
+    1961,
+    1569,
+    2046
+   ]
+  },
+  {
+   "text": "mentioned by Parashara.",
+   "bbox": [
+    342,
+    2018,
+    853,
+    2072
+   ]
+  },
+  {
+   "text": "5. Aakriti Yogas",
+   "bbox": [
+    339,
+    2118,
+    763,
+    2177
+   ]
+  },
+  {
+   "text": "आसन्नकेन्द्रभवनद्वयगैर्गदाख्यस्तन्वस्तगेपुशकटं विहग: खबन्ध्वो:।",
+   "bbox": [
+    409,
+    2195,
+    1349,
+    2280
+   ]
+  },
+  {
+   "text": "शृङ्गाटकं नवमपञ्चमलग्नसंस्थैर्लग्नान्यगैर्हलमिति प्रवदन्ति तज्ज्ञा:।। 4 ।।",
+   "bbox": [
+    409,
+    2259,
+    1473,
+    2347
+   ]
+  }
+ ]
+}

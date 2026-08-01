@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0121",
+ "book_id": "brihat-jataka",
+ "seq": 121,
+ "source_ref": {
+  "pdf_page": 61,
+  "half": "a",
+  "v1_page": "s061a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "bba781050e09530b65085b5a1fd9bd5c134f17ee39266ce52f5debc099aecf6b",
+ "lines": [
+  {
+   "text": "118",
+   "bbox": [
+    383,
+    229,
+    471,
+    265
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1297,
+    229,
+    1584,
+    263
+   ]
+  },
+  {
+   "text": "ies are obtained by permutation of the planets in the various",
+   "bbox": [
+    378,
+    335,
+    1587,
+    375
+   ]
+  },
+  {
+   "text": "positions in the said houses (2nd and 12th from Moon).",
+   "bbox": [
+    379,
+    387,
+    1470,
+    426
+   ]
+  },
+  {
+   "text": "स्वयमधिगतवित्त: पार्थिवस्तत्समो वा",
+   "bbox": [
+    451,
+    461,
+    974,
+    509
+   ]
+  },
+  {
+   "text": "भवति हि सुनफायां धीधनख्यातिमांश्च।",
+   "bbox": [
+    450,
+    528,
+    997,
+    577
+   ]
+  },
+  {
+   "text": "प्रभुरगदशरीर: शीलवान् ख्यातकीर्ति-",
+   "bbox": [
+    448,
+    590,
+    980,
+    642
+   ]
+  },
+  {
+   "text": "विषयसुखसुवेषो निर्वृतश्चानफायाम् ।। 5 ।।",
+   "bbox": [
+    447,
+    655,
+    1059,
+    710
+   ]
+  },
+  {
+   "text": "A person born in \"Sunfa\" acquires wealth through his own",
+   "bbox": [
+    448,
+    754,
+    1586,
+    794
+   ]
+  },
+  {
+   "text": "efforts. He is a king or equal to a king in status endowed with",
+   "bbox": [
+    375,
+    806,
+    1586,
+    846
+   ]
+  },
+  {
+   "text": "intelligence, wealth and fame. One born in \"Anfa\" rules over",
+   "bbox": [
+    375,
+    858,
+    1587,
+    898
+   ]
+  },
+  {
+   "text": "others, is devoid of disease, is of good character, with good",
+   "bbox": [
+    376,
+    910,
+    1584,
+    951
+   ]
+  },
+  {
+   "text": "name around, enjoys comforts of life, dresses well and is free",
+   "bbox": [
+    378,
+    964,
+    1586,
+    1003
+   ]
+  },
+  {
+   "text": "from worries.",
+   "bbox": [
+    373,
+    1015,
+    640,
+    1052
+   ]
+  },
+  {
+   "text": "उत्पन्नभोगसुखभुग्धनवाहनाढच-",
+   "bbox": [
+    446,
+    1092,
+    918,
+    1148
+   ]
+  },
+  {
+   "text": "स्त्यागान्वितो दुरुधुराप्रभवः सुभृत्यः।",
+   "bbox": [
+    447,
+    1151,
+    964,
+    1215
+   ]
+  },
+  {
+   "text": "केमद्रुमे मलिनदु:खितनीचनिस्वा:",
+   "bbox": [
+    445,
+    1224,
+    917,
+    1276
+   ]
+  },
+  {
+   "text": "प्रेष्या: खलाश्च नृपतेरपि वंशजाता: ।। 6 ।।",
+   "bbox": [
+    445,
+    1287,
+    1060,
+    1340
+   ]
+  },
+  {
+   "text": "A person born with \"Durudhara\" yoga is born with a silver",
+   "bbox": [
+    447,
+    1381,
+    1587,
+    1427
+   ]
+  },
+  {
+   "text": "spoon in his mouth, is very rich and possesses conveyances, is",
+   "bbox": [
+    372,
+    1435,
+    1584,
+    1476
+   ]
+  },
+  {
+   "text": "liberal and has many servants. A man born with \"Kemdrum\"",
+   "bbox": [
+    372,
+    1489,
+    1584,
+    1529
+   ]
+  },
+  {
+   "text": "on the other hand, is dirty, miserable, mean, poor, servile and",
+   "bbox": [
+    372,
+    1541,
+    1584,
+    1582
+   ]
+  },
+  {
+   "text": "wicked even if he is born in a royal family.",
+   "bbox": [
+    372,
+    1594,
+    1223,
+    1635
+   ]
+  },
+  {
+   "text": "प्रोत्साहशौर्यधनसाहसवान् महीज:",
+   "bbox": [
+    443,
+    1671,
+    922,
+    1720
+   ]
+  },
+  {
+   "text": "सौम्यः पटुः सुवचनो निपुणः कलासु।",
+   "bbox": [
+    444,
+    1733,
+    988,
+    1788
+   ]
+  },
+  {
+   "text": "जीवोर्थिधर्म्मसुखभुङ् नृपपूजितश्च",
+   "bbox": [
+    441,
+    1797,
+    909,
+    1851
+   ]
+  },
+  {
+   "text": "कामी भृगुर्बहुधनो विषयोपभोक्ता।। 7 ।।",
+   "bbox": [
+    442,
+    1863,
+    1043,
+    1920
+   ]
+  },
+  {
+   "text": "In the yogas if the yoga is brought about by Mars,",
+   "bbox": [
+    445,
+    1962,
+    1586,
+    2002
+   ]
+  },
+  {
+   "text": "the person is full of ambition, bravery and wealth. If by",
+   "bbox": [
+    367,
+    2012,
+    1584,
+    2056
+   ]
+  },
+  {
+   "text": "Mercury, he is clever, with good power of speech and an expert",
+   "bbox": [
+    368,
+    2066,
+    1586,
+    2106
+   ]
+  },
+  {
+   "text": "in the arts. If by Jupiter he enjoys wealth and comforts, is",
+   "bbox": [
+    368,
+    2118,
+    1584,
+    2159
+   ]
+  },
+  {
+   "text": "religious and in the good books of the king (or the Govt of the",
+   "bbox": [
+    368,
+    2170,
+    1584,
+    2211
+   ]
+  },
+  {
+   "text": "day). If by Venus he is given to sex, is very rich, and lives in",
+   "bbox": [
+    368,
+    2222,
+    1586,
+    2263
+   ]
+  },
+  {
+   "text": "luxury.",
+   "bbox": [
+    368,
+    2278,
+    518,
+    2315
+   ]
+  }
+ ]
+}

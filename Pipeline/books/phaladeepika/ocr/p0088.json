@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0088",
+ "book_id": "phaladeepika",
+ "seq": 88,
+ "source_ref": {
+  "pdf_page": 88
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "07200e7e42259e4ff0406adc02aba4920c37b87892d3c7ac6503ecadac910c8e",
+ "lines": [
+  {
+   "text": "King.",
+   "bbox": [
+    85,
+    57,
+    117,
+    73
+   ]
+  },
+  {
+   "text": "(b) If Jupiter occupies a sign other than Capricorn identical with Lagna, the ",
+   "bbox": [
+    121,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "native becomes a King with many elephants under his charge.",
+   "bbox": [
+    85,
+    106,
+    432,
+    121
+   ]
+  },
+  {
+   "text": "(c) A King will be born if in a nativity the lord of the Lagna vested with full ",
+   "bbox": [
+    121,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "strength occupies a Kendra.",
+   "bbox": [
+    85,
+    154,
+    241,
+    169
+   ]
+  },
+  {
+   "text": "(4) If at birth Mercury with full strength is posited in Kendra and is aspected ",
+   "bbox": [
+    121,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "by Jupiter, the native becomes so influential that the Kings act according to his ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "advice.",
+   "bbox": [
+    85,
+    226,
+    125,
+    242
+   ]
+  },
+  {
+   "text": "21. Two Yogas are described in this Verse as described below —",
+   "bbox": [
+    121,
+    251,
+    482,
+    266
+   ]
+  },
+  {
+   "text": "(1) Even one planet posited in his sign of exaltation aspected by a friendly ",
+   "bbox": [
+    121,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "planet enables the native to become a king. If such a planet be also associated with ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "a friendly planet, the native will become extremely rich and prosperous.",
+   "bbox": [
+    85,
+    323,
+    488,
+    339
+   ]
+  },
+  {
+   "text": "(2) If the Sun be in his own Navamsa and the Moon be in his own sign, the ",
+   "bbox": [
+    121,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "native becomes a King possessing many horses and elephants.",
+   "bbox": [
+    85,
+    371,
+    434,
+    387
+   ]
+  },
+  {
+   "text": "Note — In the Yoga mentioned at (2) above, it should be necessary for the ",
+   "bbox": [
+    121,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "Rasi of the Sun and the Navamsa of the Moon to be strong. The strength of a ",
+   "bbox": [
+    85,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "horoscope depends to a great extent on the strength of the Sun and the Moon.",
+   "bbox": [
+    85,
+    444,
+    518,
+    459
+   ]
+  },
+  {
+   "text": "22. There are again two Raja Yogas in this verse as described below: —",
+   "bbox": [
+    121,
+    468,
+    523,
+    483
+   ]
+  },
+  {
+   "text": "(1) Should the Moon with full rays be in Pisces aspected by a friendly ",
+   "bbox": [
+    121,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "planet, the native will become a king with pre-eminent position and delighting the ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "world.",
+   "bbox": [
+    85,
+    540,
+    121,
+    556
+   ]
+  },
+  {
+   "text": "(2) Should the Moon be full and be in his sign of exaltation the native will ",
+   "bbox": [
+    121,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "become a very generous, charitable and praiseworthy King.",
+   "bbox": [
+    85,
+    589,
+    418,
+    604
+   ]
+  },
+  {
+   "text": "23. Should the Moon be in the Navamasa of an Adhimitra aspected fully by ",
+   "bbox": [
+    121,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "Venus. The native will become a very wealthy King.",
+   "bbox": [
+    85,
+    637,
+    379,
+    652
+   ]
+  },
+  {
+   "text": "Should the Moon in the above position be aspected by Jupiter, the person ",
+   "bbox": [
+    121,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "born will become a King reigning over the entire Earth.",
+   "bbox": [
+    85,
+    685,
+    396,
+    701
+   ]
+  },
+  {
+   "text": "24. The following are 4 Raja yogas declared by those versed in the science ",
+   "bbox": [
+    121,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "of Astrology —",
+   "bbox": [
+    85,
+    734,
+    173,
+    749
+   ]
+  },
+  {
+   "text": "(1) Malefics posited in the 3rd, 6th and 11th house counted from",
+   "bbox": [
+    121,
+    758,
+    482,
+    773
+   ]
+  },
+  {
+   "text": "88",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

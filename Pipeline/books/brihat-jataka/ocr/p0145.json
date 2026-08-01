@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0145",
+ "book_id": "brihat-jataka",
+ "seq": 145,
+ "source_ref": {
+  "pdf_page": 73,
+  "half": "a",
+  "v1_page": "s073a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "91299557737c9e8deb251af4c4563cf4aec9778c0d09fa5addaac443352b0d1e",
+ "lines": [
+  {
+   "text": "142",
+   "bbox": [
+    372,
+    248,
+    463,
+    283
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1296,
+    248,
+    1586,
+    282
+   ]
+  },
+  {
+   "text": "els, sons, wealth, wife, power, intelligence and comforts. If",
+   "bbox": [
+    366,
+    348,
+    1592,
+    390
+   ]
+  },
+  {
+   "text": "Jupiter is in Leo he is a commander in the Army and has all",
+   "bbox": [
+    367,
+    401,
+    1588,
+    439
+   ]
+  },
+  {
+   "text": "what has been stated as for Jupiter occupying Cancer. If",
+   "bbox": [
+    367,
+    453,
+    1590,
+    492
+   ]
+  },
+  {
+   "text": "Jupiter is in his own sign 9 or 12 the native is the head of a",
+   "bbox": [
+    367,
+    505,
+    1588,
+    545
+   ]
+  },
+  {
+   "text": "district etc or a minister of the government or commander of",
+   "bbox": [
+    367,
+    557,
+    1590,
+    596
+   ]
+  },
+  {
+   "text": "the army and wealthy. If Jupiter is in Acquarius, the results",
+   "bbox": [
+    367,
+    610,
+    1586,
+    649
+   ]
+  },
+  {
+   "text": "are as stated for Jupiter in Cancer. If Jupiter is in Capricorn,",
+   "bbox": [
+    368,
+    663,
+    1586,
+    702
+   ]
+  },
+  {
+   "text": "(Neecha), the native performs unbecoming actions. He has",
+   "bbox": [
+    367,
+    716,
+    1586,
+    755
+   ]
+  },
+  {
+   "text": "very little wealth and leads a miserable life.",
+   "bbox": [
+    367,
+    769,
+    1249,
+    808
+   ]
+  },
+  {
+   "text": "Venus",
+   "bbox": [
+    368,
+    871,
+    534,
+    909
+   ]
+  },
+  {
+   "text": "परयुवतिरतस्तदर्थवादैर्हतविभव: कुलपांसन: कुजर्के।",
+   "bbox": [
+    440,
+    947,
+    1177,
+    1001
+   ]
+  },
+  {
+   "text": "स्वबलमतिधनो नरेन्द्रपूज्य: स्वजनविभु: प्रथितोऽभय: सिते स्वे।। 1411",
+   "bbox": [
+    440,
+    1008,
+    1467,
+    1071
+   ]
+  },
+  {
+   "text": "If Venus occupies Aries or Scorpio-signs of Mars- the",
+   "bbox": [
+    442,
+    1110,
+    1586,
+    1150
+   ]
+  },
+  {
+   "text": "native becomes adulterous and loses his wealth as a result of",
+   "bbox": [
+    367,
+    1162,
+    1588,
+    1202
+   ]
+  },
+  {
+   "text": "cases arising out of that adultery. He brings bad name to his",
+   "bbox": [
+    367,
+    1216,
+    1585,
+    1255
+   ]
+  },
+  {
+   "text": "family. If it is in Taurus or Libra the native earns by dint of his",
+   "bbox": [
+    365,
+    1268,
+    1585,
+    1307
+   ]
+  },
+  {
+   "text": "own efforts and intelligence. He is in the good books of the",
+   "bbox": [
+    367,
+    1321,
+    1582,
+    1361
+   ]
+  },
+  {
+   "text": "government. He is chief among his kinsmen, is famous and",
+   "bbox": [
+    365,
+    1373,
+    1582,
+    1413
+   ]
+  },
+  {
+   "text": "fearless.",
+   "bbox": [
+    364,
+    1427,
+    536,
+    1462
+   ]
+  },
+  {
+   "text": "नृपकृत्यकरोऽर्थवान् कलाविन्मिथुनं षष्ठगते च नीचकर्म्मा।",
+   "bbox": [
+    439,
+    1502,
+    1273,
+    1553
+   ]
+  },
+  {
+   "text": "रविजर्क्षगतेऽमरारिपूज्ये सुभगः स्त्रीविजितो रतः कुनार्याम् ।। 15।।",
+   "bbox": [
+    437,
+    1563,
+    1369,
+    1618
+   ]
+  },
+  {
+   "text": "If Venus occupies Gemini, the native is engaged in the",
+   "bbox": [
+    439,
+    1663,
+    1580,
+    1702
+   ]
+  },
+  {
+   "text": "service of the king (Government), is wealthy, is fond of fine",
+   "bbox": [
+    362,
+    1715,
+    1580,
+    1754
+   ]
+  },
+  {
+   "text": "arts and musical instruments. If it is in Virgo, he engages",
+   "bbox": [
+    364,
+    1768,
+    1582,
+    1808
+   ]
+  },
+  {
+   "text": "himself in unbecoming deeds. If Venus occupies Capricorn or",
+   "bbox": [
+    362,
+    1821,
+    1582,
+    1860
+   ]
+  },
+  {
+   "text": "Acquarius, the native is favourite of the general public, is",
+   "bbox": [
+    361,
+    1874,
+    1580,
+    1912
+   ]
+  },
+  {
+   "text": "under the influence of his wife and runs after women of ill",
+   "bbox": [
+    361,
+    1925,
+    1580,
+    1961
+   ]
+  },
+  {
+   "text": "repute.",
+   "bbox": [
+    361,
+    1981,
+    511,
+    2017
+   ]
+  },
+  {
+   "text": "द्विभार्य्योऽर्थी भीरुः प्रबलमदशोकश्च शशिभे",
+   "bbox": [
+    434,
+    2051,
+    1046,
+    2097
+   ]
+  },
+  {
+   "text": "हरौ योषाप्तार्थ: प्रवरयुवतिर्मन्दतनय:।",
+   "bbox": [
+    434,
+    2115,
+    973,
+    2168
+   ]
+  },
+  {
+   "text": "गणै: पूज्य: सस्वस्तुरगसहिते दानवगुरौ",
+   "bbox": [
+    434,
+    2178,
+    1002,
+    2233
+   ]
+  },
+  {
+   "text": "झपे विद्वानाढचो नृपजनितपूजोऽतिसुभग: ।। 1611",
+   "bbox": [
+    434,
+    2242,
+    1159,
+    2299
+   ]
+  },
+  {
+   "text": "If Venus occupies Cancer the native has two wives, is",
+   "bbox": [
+    436,
+    2338,
+    1576,
+    2386
+   ]
+  }
+ ]
+}

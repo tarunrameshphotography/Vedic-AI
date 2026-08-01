@@ -1,0 +1,540 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0050",
+ "book_id": "phaladeepika",
+ "seq": 50,
+ "source_ref": {
+  "pdf_page": 50
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "641b6c8872b8842cbca8d15a0d315d982d6bff667194d5df86de0aa4a7fbd4e8",
+ "lines": [
+  {
+   "text": "planet be less than the strength number given above, he will be considered weak. ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "In this manner the strength of each planet should be taken into account before ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "making prediction.",
+   "bbox": [
+    85,
+    106,
+    191,
+    121
+   ]
+  },
+  {
+   "text": "Notes: It has already been indicated above what should be the strength of a ",
+   "bbox": [
+    121,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "planet under Shad Bala scheme, to be declared strong. Now we consider it useful ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "to describe the views of other authorities as to when he should be declared strong ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "on the basis of the five kinds of strength viz. (1) Sthan Bala, (2) Dik Bala, (3) ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "Chesta Bala, (4) Kala Bala and (5) Ayana Bala. We have not mentioned Naisargika ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "Bala because it is always the same in every birth chart. The following table shows ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "how much strength is required for the various planets to be declared strong:",
+   "bbox": [
+    85,
+    275,
+    508,
+    290
+   ]
+  },
+  {
+   "text": "Planet ",
+   "bbox": [
+    174,
+    324,
+    213,
+    339
+   ]
+  },
+  {
+   "text": "Sthan Dik ",
+   "bbox": [
+    229,
+    324,
+    291,
+    339
+   ]
+  },
+  {
+   "text": "Chesta Kala Ayana Total ",
+   "bbox": [
+    302,
+    324,
+    464,
+    339
+   ]
+  },
+  {
+   "text": "RS ",
+   "bbox": [
+    229,
+    347,
+    250,
+    362
+   ]
+  },
+  {
+   "text": "RS ",
+   "bbox": [
+    266,
+    347,
+    287,
+    362
+   ]
+  },
+  {
+   "text": "RS ",
+   "bbox": [
+    302,
+    347,
+    323,
+    362
+   ]
+  },
+  {
+   "text": "RS ",
+   "bbox": [
+    348,
+    347,
+    369,
+    362
+   ]
+  },
+  {
+   "text": "RS ",
+   "bbox": [
+    385,
+    347,
+    406,
+    362
+   ]
+  },
+  {
+   "text": "RS ",
+   "bbox": [
+    431,
+    347,
+    452,
+    362
+   ]
+  },
+  {
+   "text": "Sun ",
+   "bbox": [
+    174,
+    369,
+    200,
+    385
+   ]
+  },
+  {
+   "text": "2-45 0-35 0-50 ",
+   "bbox": [
+    229,
+    369,
+    331,
+    385
+   ]
+  },
+  {
+   "text": "1-52 0-30 ",
+   "bbox": [
+    348,
+    369,
+    414,
+    385
+   ]
+  },
+  {
+   "text": "6-32 ",
+   "bbox": [
+    431,
+    369,
+    461,
+    385
+   ]
+  },
+  {
+   "text": "Moon ",
+   "bbox": [
+    174,
+    389,
+    212,
+    405
+   ]
+  },
+  {
+   "text": "2-13 0-50 0-30 ",
+   "bbox": [
+    229,
+    389,
+    331,
+    405
+   ]
+  },
+  {
+   "text": "1-40 0-40 ",
+   "bbox": [
+    348,
+    389,
+    414,
+    405
+   ]
+  },
+  {
+   "text": "5-53 ",
+   "bbox": [
+    431,
+    389,
+    461,
+    405
+   ]
+  },
+  {
+   "text": "Mars ",
+   "bbox": [
+    174,
+    407,
+    207,
+    422
+   ]
+  },
+  {
+   "text": "1-16 0-30 0-40 ",
+   "bbox": [
+    229,
+    407,
+    331,
+    422
+   ]
+  },
+  {
+   "text": "1-7 ",
+   "bbox": [
+    348,
+    407,
+    370,
+    422
+   ]
+  },
+  {
+   "text": "0-20 ",
+   "bbox": [
+    385,
+    407,
+    414,
+    422
+   ]
+  },
+  {
+   "text": "4-13 ",
+   "bbox": [
+    431,
+    407,
+    461,
+    422
+   ]
+  },
+  {
+   "text": "Mercury 2-45 0-35 0-50 ",
+   "bbox": [
+    174,
+    424,
+    331,
+    440
+   ]
+  },
+  {
+   "text": "1-52 0-30 ",
+   "bbox": [
+    348,
+    424,
+    414,
+    440
+   ]
+  },
+  {
+   "text": "6-32 ",
+   "bbox": [
+    431,
+    424,
+    461,
+    440
+   ]
+  },
+  {
+   "text": "Jupiter ",
+   "bbox": [
+    174,
+    443,
+    216,
+    458
+   ]
+  },
+  {
+   "text": "2-45 0-35 0-50 ",
+   "bbox": [
+    229,
+    443,
+    331,
+    458
+   ]
+  },
+  {
+   "text": "1-52 0-30 ",
+   "bbox": [
+    348,
+    443,
+    414,
+    458
+   ]
+  },
+  {
+   "text": "6-32 ",
+   "bbox": [
+    431,
+    443,
+    461,
+    458
+   ]
+  },
+  {
+   "text": "Venus ",
+   "bbox": [
+    174,
+    460,
+    212,
+    476
+   ]
+  },
+  {
+   "text": "2-13 0-50 0-30 ",
+   "bbox": [
+    229,
+    460,
+    331,
+    476
+   ]
+  },
+  {
+   "text": "1-40 0-40 ",
+   "bbox": [
+    348,
+    460,
+    414,
+    476
+   ]
+  },
+  {
+   "text": "5-53 ",
+   "bbox": [
+    431,
+    460,
+    461,
+    476
+   ]
+  },
+  {
+   "text": "Saturn ",
+   "bbox": [
+    174,
+    477,
+    215,
+    492
+   ]
+  },
+  {
+   "text": "1-36 0-30 0-40 ",
+   "bbox": [
+    229,
+    477,
+    331,
+    492
+   ]
+  },
+  {
+   "text": "1-7 ",
+   "bbox": [
+    348,
+    477,
+    370,
+    492
+   ]
+  },
+  {
+   "text": "0-20 ",
+   "bbox": [
+    385,
+    477,
+    414,
+    492
+   ]
+  },
+  {
+   "text": "4-13 ",
+   "bbox": [
+    431,
+    477,
+    461,
+    492
+   ]
+  },
+  {
+   "text": "24. To ascertain the strength of the Lagna and other house add one Rupa to ",
+   "bbox": [
+    121,
+    517,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "the strength of the lord of the Bhava concerned. Further add to them the Dik Bala ",
+   "bbox": [
+    85,
+    541,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "and Drig Bala of that house. The sum total would be the Bhava Bala required.",
+   "bbox": [
+    85,
+    565,
+    521,
+    581
+   ]
+  },
+  {
+   "text": "Notes: If the Bhava is aspected or associated with its lord, Jupiter. Venus or ",
+   "bbox": [
+    121,
+    589,
+    556,
+    605
+   ]
+  },
+  {
+   "text": "Mercury or be aspected by Jupiter or Mercury, the strength so obtained should also ",
+   "bbox": [
+    85,
+    613,
+    556,
+    629
+   ]
+  },
+  {
+   "text": "be taken into account in determining the strength of a house (See verse 6 of this ",
+   "bbox": [
+    85,
+    638,
+    556,
+    653
+   ]
+  },
+  {
+   "text": "Chapter).",
+   "bbox": [
+    85,
+    662,
+    138,
+    677
+   ]
+  },
+  {
+   "text": "Thus ends the fourth chapter on \"Determination of Shadabalas\" in ",
+   "bbox": [
+    121,
+    686,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "Phaladeeplka composed by Mantreswara.",
+   "bbox": [
+    85,
+    710,
+    320,
+    726
+   ]
+  },
+  {
+   "text": "50",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

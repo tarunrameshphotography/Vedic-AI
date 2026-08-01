@@ -1,0 +1,200 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0197",
+ "book_id": "brihat-jataka",
+ "seq": 197,
+ "source_ref": {
+  "pdf_page": 99,
+  "half": "a",
+  "v1_page": "s099a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "40f66440da0d71878aa9cfb8e3611fd2f8c4048a95eb371a412e2d23f606be43",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1194,
+    229,
+    1486,
+    262
+   ]
+  },
+  {
+   "text": "194",
+   "bbox": [
+    271,
+    241,
+    363,
+    274
+   ]
+  },
+  {
+   "text": "the eighth is Mithuna, we have Hell.",
+   "bbox": [
+    269,
+    336,
+    1008,
+    382
+   ]
+  },
+  {
+   "text": "All this is conjectural. How can a benefic like Budha refer",
+   "bbox": [
+    344,
+    413,
+    1492,
+    464
+   ]
+  },
+  {
+   "text": "to Hell? How can the seer refer to the world of animals? It is",
+   "bbox": [
+    269,
+    465,
+    1492,
+    513
+   ]
+  },
+  {
+   "text": "better to reject the views given in this concluding verse.",
+   "bbox": [
+    269,
+    517,
+    1390,
+    570
+   ]
+  },
+  {
+   "text": "इति श्रीवराहमिहिरकृते वृहज्जातके निर्याणाध्याय: पञ्चविश: 112511",
+   "bbox": [
+    401,
+    719,
+    1360,
+    776
+   ]
+  },
+  {
+   "text": "Thus ends the twenty-fifth chapter on Death in Brihat",
+   "bbox": [
+    347,
+    808,
+    1492,
+    859
+   ]
+  },
+  {
+   "text": "Jatak composed by Varahamihira.",
+   "bbox": [
+    269,
+    866,
+    955,
+    912
+   ]
+  },
+  {
+   "text": "<b>RANJAN'S</b>",
+   "bbox": [
+    756,
+    1169,
+    1023,
+    1203
+   ]
+  },
+  {
+   "text": "<b>Advanced Ephemeris</b>",
+   "bbox": [
+    285,
+    1263,
+    1497,
+    1366
+   ]
+  },
+  {
+   "text": "for",
+   "bbox": [
+    820,
+    1421,
+    951,
+    1477
+   ]
+  },
+  {
+   "text": "1991 A.D. to 2000 A.D.",
+   "bbox": [
+    318,
+    1517,
+    1440,
+    1610
+   ]
+  },
+  {
+   "text": "This book is useful for the Savant of Astrology, Pan-",
+   "bbox": [
+    304,
+    1673,
+    1477,
+    1719
+   ]
+  },
+  {
+   "text": "chang maker, Astrologer, Computer practicing and re-",
+   "bbox": [
+    304,
+    1726,
+    1474,
+    1777
+   ]
+  },
+  {
+   "text": "search scholars etc.",
+   "bbox": [
+    305,
+    1789,
+    710,
+    1828
+   ]
+  },
+  {
+   "text": "で 327 88 35",
+   "bbox": [
+    1199,
+    1894,
+    1451,
+    1940
+   ]
+  },
+  {
+   "text": "Contact or write to:",
+   "bbox": [
+    319,
+    1903,
+    709,
+    1936
+   ]
+  },
+  {
+   "text": "<b>RANJAN PUBLICATIONS</b>",
+   "bbox": [
+    366,
+    1987,
+    1405,
+    2056
+   ]
+  },
+  {
+   "text": "16, Ansari Road, Darya Ganj, New Delhi-110 002",
+   "bbox": [
+    398,
+    2072,
+    1392,
+    2120
+   ]
+  }
+ ]
+}

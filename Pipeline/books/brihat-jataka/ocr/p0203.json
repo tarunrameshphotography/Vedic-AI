@@ -1,0 +1,344 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0203",
+ "book_id": "brihat-jataka",
+ "seq": 203,
+ "source_ref": {
+  "pdf_page": 102,
+  "half": "a",
+  "v1_page": "s102a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "198e41555f555843cf2caab4fdf08e3ba77ce156011c084f383b1fadf59ec67e",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1173,
+    275,
+    1463,
+    308
+   ]
+  },
+  {
+   "text": "200",
+   "bbox": [
+    248,
+    276,
+    341,
+    310
+   ]
+  },
+  {
+   "text": "durations apply to a place near Ujjain. He completed his",
+   "bbox": [
+    248,
+    376,
+    1465,
+    423
+   ]
+  },
+  {
+   "text": "commentary on this text in Saka 888 which is 966 A.D.",
+   "bbox": [
+    248,
+    429,
+    1349,
+    473
+   ]
+  },
+  {
+   "text": "केचिच्छशांकाध्युषितान्नवांशाच्छुक्लान्त्यसंज्ञं कथयन्ति मासम्।",
+   "bbox": [
+    318,
+    508,
+    1200,
+    558
+   ]
+  },
+  {
+   "text": "लग्नत्रिकोणोत्तमवीर्ययुक्तं भं प्रोच्यतेऽङ्गालभनादिभिर्वा।। 5 ।।",
+   "bbox": [
+    318,
+    565,
+    1198,
+    623
+   ]
+  },
+  {
+   "text": "According to some, the lunar month is determined by the",
+   "bbox": [
+    321,
+    663,
+    1465,
+    709
+   ]
+  },
+  {
+   "text": "sign occupied by the Moon in Navamsha. The position of the",
+   "bbox": [
+    248,
+    717,
+    1463,
+    761
+   ]
+  },
+  {
+   "text": "Moon must be determined as per the most powerful one among",
+   "bbox": [
+    246,
+    772,
+    1465,
+    811
+   ]
+  },
+  {
+   "text": "lagna, trikona and the touching of the part of the body by the",
+   "bbox": [
+    248,
+    824,
+    1463,
+    863
+   ]
+  },
+  {
+   "text": "questioner.",
+   "bbox": [
+    248,
+    878,
+    473,
+    914
+   ]
+  },
+  {
+   "text": "<i>Notes:</i> Note the position of the Moon in the navamsha at",
+   "bbox": [
+    318,
+    955,
+    1465,
+    994
+   ]
+  },
+  {
+   "text": "the time of the query. The lunar month is that in which this",
+   "bbox": [
+    246,
+    1004,
+    1463,
+    1050
+   ]
+  },
+  {
+   "text": "nakshatra appears at the full Moon day. The month must be",
+   "bbox": [
+    246,
+    1060,
+    1463,
+    1100
+   ]
+  },
+  {
+   "text": "determined according to the movements of Guru given in",
+   "bbox": [
+    246,
+    1109,
+    1463,
+    1155
+   ]
+  },
+  {
+   "text": "Brihat Samhita, 8.1-2.",
+   "bbox": [
+    246,
+    1166,
+    696,
+    1203
+   ]
+  },
+  {
+   "text": "If the Moon is in the last navamsha of Mesha, it is Krittika,",
+   "bbox": [
+    318,
+    1244,
+    1463,
+    1283
+   ]
+  },
+  {
+   "text": "and on the full Moon day of Kartika, the Moon will be in that",
+   "bbox": [
+    243,
+    1294,
+    1463,
+    1336
+   ]
+  },
+  {
+   "text": "constellation.",
+   "bbox": [
+    243,
+    1348,
+    514,
+    1382
+   ]
+  },
+  {
+   "text": "The second line of this verse clearly states that the lunar",
+   "bbox": [
+    318,
+    1426,
+    1463,
+    1464
+   ]
+  },
+  {
+   "text": "month begins after amavasya (the dark Moon night).",
+   "bbox": [
+    242,
+    1479,
+    1298,
+    1517
+   ]
+  },
+  {
+   "text": "Find the strongest among lagna and its trines. Place the",
+   "bbox": [
+    318,
+    1558,
+    1460,
+    1596
+   ]
+  },
+  {
+   "text": "Moon there.",
+   "bbox": [
+    242,
+    1610,
+    493,
+    1644
+   ]
+  },
+  {
+   "text": "यावान् गत: शीतकरो विलग्नाच्चन्द्राद्वदेत्तावति जन्मराशिम्।",
+   "bbox": [
+    317,
+    1685,
+    1165,
+    1734
+   ]
+  },
+  {
+   "text": "मीनोदये मीनयुगं प्रदिष्टं भक्ष्याहताकाररुतैश्च चिन्त्यम् ।। 6 ।।",
+   "bbox": [
+    317,
+    1748,
+    1197,
+    1799
+   ]
+  },
+  {
+   "text": "Note the number of signs from the lagna at the time of",
+   "bbox": [
+    317,
+    1846,
+    1463,
+    1885
+   ]
+  },
+  {
+   "text": "question to the sign occupied by the Moon then. The position of",
+   "bbox": [
+    242,
+    1898,
+    1463,
+    1937
+   ]
+  },
+  {
+   "text": "the Moon will be in that sign which is equal to this number. If",
+   "bbox": [
+    242,
+    1948,
+    1463,
+    1992
+   ]
+  },
+  {
+   "text": "the Moon is in Mina, that will be the sign of the Moon at the",
+   "bbox": [
+    242,
+    2003,
+    1459,
+    2042
+   ]
+  },
+  {
+   "text": "time of birth. On the basis of the articles of food, animals and",
+   "bbox": [
+    242,
+    2054,
+    1460,
+    2092
+   ]
+  },
+  {
+   "text": "sounds at the time of the query also we can determine the",
+   "bbox": [
+    242,
+    2106,
+    1459,
+    2145
+   ]
+  },
+  {
+   "text": "position of the Moon at birth.",
+   "bbox": [
+    242,
+    2157,
+    834,
+    2196
+   ]
+  },
+  {
+   "text": "<i>Notes:</i> Determine the lagna at the time of question and",
+   "bbox": [
+    317,
+    2236,
+    1462,
+    2274
+   ]
+  },
+  {
+   "text": "note the position of the Moon at that time. Note how many",
+   "bbox": [
+    242,
+    2286,
+    1460,
+    2324
+   ]
+  },
+  {
+   "text": "signs are from lagna to the Moon. Count the same from the",
+   "bbox": [
+    242,
+    2336,
+    1460,
+    2374
+   ]
+  },
+  {
+   "text": "the contract of the contract of the contract of the contract of",
+   "bbox": [
+    463,
+    2401,
+    863,
+    2416
+   ]
+  }
+ ]
+}

@@ -1,0 +1,288 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0092",
+ "book_id": "phaladeepika",
+ "seq": 92,
+ "source_ref": {
+  "pdf_page": 92
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "07d638e47b72ce97120b1e7084c175dac132d460a75e6b7feb06d475dc29deb0",
+ "lines": [
+  {
+   "text": "<b>Chapter 8</b>",
+   "bbox": [
+    285,
+    57,
+    353,
+    75
+   ]
+  },
+  {
+   "text": "<b>Effects of planets in different houses</b>",
+   "bbox": [
+    195,
+    85,
+    443,
+    103
+   ]
+  },
+  {
+   "text": "<b>The Sun</b>",
+   "bbox": [
+    121,
+    137,
+    171,
+    152
+   ]
+  },
+  {
+   "text": "1-4. If the Sun be In the 1st house at birth, the native will have scanty hair. ",
+   "bbox": [
+    121,
+    161,
+    556,
+    176
+   ]
+  },
+  {
+   "text": "He will be lazy, of hot disposition, impetuous and tall In stature. He will have ",
+   "bbox": [
+    85,
+    185,
+    556,
+    201
+   ]
+  },
+  {
+   "text": "soiled eyes and a lean and thin body. He will be cruel, impatient and valourous. ",
+   "bbox": [
+    85,
+    209,
+    556,
+    225
+   ]
+  },
+  {
+   "text": "The Sun in the 1st house with Cancer as the Lagna will give the native cataract in ",
+   "bbox": [
+    85,
+    233,
+    556,
+    249
+   ]
+  },
+  {
+   "text": "the eyes with the Lagna as Aries, the Sun in the 1st house will cause eye disease. In ",
+   "bbox": [
+    85,
+    257,
+    556,
+    273
+   ]
+  },
+  {
+   "text": "Leo Lagna the Sun will cause night blindness. If the Lagna be Libra and the Sun ",
+   "bbox": [
+    85,
+    282,
+    556,
+    297
+   ]
+  },
+  {
+   "text": "occupies it, the native will be devoid of wealth and suffer from loss of children.",
+   "bbox": [
+    85,
+    306,
+    530,
+    321
+   ]
+  },
+  {
+   "text": "When the Sun is in the 2nd house at birth, the person concerned will be ",
+   "bbox": [
+    121,
+    330,
+    556,
+    345
+   ]
+  },
+  {
+   "text": "without any learning; he will be shameless and will be stammering.",
+   "bbox": [
+    85,
+    354,
+    463,
+    370
+   ]
+  },
+  {
+   "text": "Should the Sun occupy the 3rd house, the native will be powerful, valiant, ",
+   "bbox": [
+    121,
+    378,
+    556,
+    394
+   ]
+  },
+  {
+   "text": "wealthy and generous. He will have inimical relations with his kinsmen.",
+   "bbox": [
+    85,
+    402,
+    490,
+    418
+   ]
+  },
+  {
+   "text": "If the Sun be in 4th house, the native will be bereft of happiness and ",
+   "bbox": [
+    121,
+    427,
+    556,
+    442
+   ]
+  },
+  {
+   "text": "comfort, relations, lands, friends and house. He will be in Government service and ",
+   "bbox": [
+    85,
+    451,
+    556,
+    466
+   ]
+  },
+  {
+   "text": "will squander away his ancestral property.",
+   "bbox": [
+    85,
+    475,
+    321,
+    490
+   ]
+  },
+  {
+   "text": "When the Sun is in the 5th house from the Lagna, the person concerned will ",
+   "bbox": [
+    121,
+    499,
+    556,
+    514
+   ]
+  },
+  {
+   "text": "be short tempered and will be deprived of happiness, wealth and children. He will ",
+   "bbox": [
+    85,
+    523,
+    556,
+    539
+   ]
+  },
+  {
+   "text": "be intelligent and wander in forest regions.",
+   "bbox": [
+    85,
+    547,
+    325,
+    563
+   ]
+  },
+  {
+   "text": "If the Sun be in the 6th house, the native will become a king. He will earn ",
+   "bbox": [
+    121,
+    571,
+    556,
+    587
+   ]
+  },
+  {
+   "text": "renown and will be equipped with praiseworthy qualities. He will be wealthy and ",
+   "bbox": [
+    85,
+    596,
+    556,
+    611
+   ]
+  },
+  {
+   "text": "capable of overcoming his enemies.",
+   "bbox": [
+    85,
+    620,
+    286,
+    635
+   ]
+  },
+  {
+   "text": "When the Sun is in the 7th at birth, the person concerned will suffer from the ",
+   "bbox": [
+    121,
+    644,
+    556,
+    659
+   ]
+  },
+  {
+   "text": "wrath of the king. He will have deformed body and will have no wife. He will ",
+   "bbox": [
+    85,
+    668,
+    556,
+    684
+   ]
+  },
+  {
+   "text": "suffer humiliation from others.",
+   "bbox": [
+    85,
+    692,
+    258,
+    708
+   ]
+  },
+  {
+   "text": "With the Sun in the 8th house, the person born will be deprived of his wealth ",
+   "bbox": [
+    121,
+    716,
+    556,
+    732
+   ]
+  },
+  {
+   "text": "and friends. He will be short-lived and suffer from defective eyesight. He can be ",
+   "bbox": [
+    85,
+    740,
+    556,
+    756
+   ]
+  },
+  {
+   "text": "blind also.",
+   "bbox": [
+    85,
+    765,
+    143,
+    780
+   ]
+  },
+  {
+   "text": "92",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

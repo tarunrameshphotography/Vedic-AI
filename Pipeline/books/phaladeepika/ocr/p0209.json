@@ -1,0 +1,288 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0209",
+ "book_id": "phaladeepika",
+ "seq": 209,
+ "source_ref": {
+  "pdf_page": 209
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "b49402fb311a61d96b3bf1c65ad0e6884e0066747b28b483511c76bbd9702425",
+ "lines": [
+  {
+   "text": "<b>Chapter 22</b>",
+   "bbox": [
+    281,
+    57,
+    357,
+    75
+   ]
+  },
+  {
+   "text": "<b>Kalachakra dasa</b>",
+   "bbox": [
+    261,
+    85,
+    377,
+    103
+   ]
+  },
+  {
+   "text": "1. (A) Three nakshatras from Aswini, viz. Aswini, Bharani and Krittika ",
+   "bbox": [
+    121,
+    137,
+    556,
+    152
+   ]
+  },
+  {
+   "text": "comprise of 12 quarters. Aries, Taurus, Gemini and Cancer are the four navamsa of ",
+   "bbox": [
+    85,
+    161,
+    556,
+    176
+   ]
+  },
+  {
+   "text": "Aswini. Leo, Virgo, Libra and Scorpio will be the four navamsa of Bharani. ",
+   "bbox": [
+    85,
+    185,
+    556,
+    201
+   ]
+  },
+  {
+   "text": "Sagittarius Capricorn, Aquarius and Pisces will be the four navamsas of Krittika. In ",
+   "bbox": [
+    85,
+    209,
+    556,
+    225
+   ]
+  },
+  {
+   "text": "this order (Apasavya or Apradakhina order) divide the three nakshatras by the 12 ",
+   "bbox": [
+    85,
+    233,
+    556,
+    249
+   ]
+  },
+  {
+   "text": "navamsas.",
+   "bbox": [
+    85,
+    257,
+    143,
+    273
+   ]
+  },
+  {
+   "text": "(B) There will be 12 navamsa of three nakshatras from Rohini viz., Rohlni, ",
+   "bbox": [
+    121,
+    282,
+    556,
+    297
+   ]
+  },
+  {
+   "text": "Mrigasira and Aridra counting them in reverse order from Scorpio i.e. Scorpio, ",
+   "bbox": [
+    85,
+    306,
+    556,
+    321
+   ]
+  },
+  {
+   "text": "Libra, Virgo, Leo, Cancer, Gemini, Taurus, Aries, Pisces, Aquarius, Capricorn and ",
+   "bbox": [
+    85,
+    330,
+    556,
+    345
+   ]
+  },
+  {
+   "text": "Sagittarius, divide them by the 12 navamsas. Scorpio will be the navamsa of the ",
+   "bbox": [
+    85,
+    354,
+    556,
+    370
+   ]
+  },
+  {
+   "text": "first quarter of Rohini, Libra will be the navamsa of 2nd quarter of Rohini and so ",
+   "bbox": [
+    85,
+    378,
+    556,
+    394
+   ]
+  },
+  {
+   "text": "on ultimately finding that in this order Sagittarius will be the navamsa of the fourth ",
+   "bbox": [
+    85,
+    402,
+    556,
+    418
+   ]
+  },
+  {
+   "text": "quarter of Aridra. (This is known as Savya—reverse, Apradakhina or anticlockwise ",
+   "bbox": [
+    85,
+    427,
+    556,
+    442
+   ]
+  },
+  {
+   "text": "order).",
+   "bbox": [
+    85,
+    451,
+    123,
+    466
+   ]
+  },
+  {
+   "text": "2. These are the trends of nakshatras reckoned in their order (from Aswini) ",
+   "bbox": [
+    121,
+    475,
+    556,
+    490
+   ]
+  },
+  {
+   "text": "to be distinguished as Apasavya and Savya. The years assigned to a planet ",
+   "bbox": [
+    85,
+    499,
+    556,
+    514
+   ]
+  },
+  {
+   "text": "constitute the dasa period of the sign owned by that planet. This is the peculiarity ",
+   "bbox": [
+    85,
+    523,
+    556,
+    539
+   ]
+  },
+  {
+   "text": "in the' Kalachakra system, say the wise.",
+   "bbox": [
+    85,
+    547,
+    308,
+    563
+   ]
+  },
+  {
+   "text": "3. The Sun's dasa period is 5 years (Leo is the sign owned by the Sun, ",
+   "bbox": [
+    121,
+    571,
+    556,
+    587
+   ]
+  },
+  {
+   "text": "therefore dasa period of Leo will be 5 years). The dasa period of the Moon is 21 ",
+   "bbox": [
+    85,
+    596,
+    556,
+    611
+   ]
+  },
+  {
+   "text": "years (the dasa of Cancer owned by the Moon will be the same). The dasa of Mars ",
+   "bbox": [
+    85,
+    620,
+    556,
+    635
+   ]
+  },
+  {
+   "text": "will be of 7 years (the dasa of Aries and Scorpio will be the same). The dasa of ",
+   "bbox": [
+    85,
+    644,
+    556,
+    659
+   ]
+  },
+  {
+   "text": "Mercury will be 9 years (the dasa period of Gemini and Virgo owned by Mercury ",
+   "bbox": [
+    85,
+    668,
+    556,
+    684
+   ]
+  },
+  {
+   "text": "will be the same). The dasa of Jupiter will be 10 years (the dasa of Sagittarius and ",
+   "bbox": [
+    85,
+    692,
+    556,
+    708
+   ]
+  },
+  {
+   "text": "Pisces owned by Jupiter will be the same). The dasa of Venus will be of 16 years ",
+   "bbox": [
+    85,
+    716,
+    556,
+    732
+   ]
+  },
+  {
+   "text": "(the dasa period of Taurus and Libra owned by Venus will be the same). The dasa ",
+   "bbox": [
+    85,
+    740,
+    556,
+    756
+   ]
+  },
+  {
+   "text": "of Saturn will be of 4 years (the dasa period of Capricorn and Aquarius owned by ",
+   "bbox": [
+    85,
+    765,
+    556,
+    780
+   ]
+  },
+  {
+   "text": "209",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

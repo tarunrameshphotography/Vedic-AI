@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0068",
+ "book_id": "phaladeepika",
+ "seq": 68,
+ "source_ref": {
+  "pdf_page": 68
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "12af3eb55d1ab28bb8ab230413668313631457cc25839996d7ed6aae66c58735",
+ "lines": [
+  {
+   "text": "Lagna in the 7th and the Lord of the 7th in Lagna, (5) the Lord of the Lagna in the ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "10th. and the Lord of the 10th in the Lagna, (7) the lord of the Lagna in the 11th ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "and the lord of the 11th in the Lagna, (8) the lord of the 2nd in the 4th and the lord ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "of the 4th in the 2nd, (9) the lord of the 2nd in the 5th and the lord of the 5th in the ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "2nd, (10) the lord of the 2nd in the 7th and the lord of the 7th in the 2nd, (11) the ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "lord of the 2nd in the 9th and the lord of the 9th in the 2nd. (12) the lord of the 2nd ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "in the 10th and the lord of the 10th in the 2nd, (13) the lord of the 2nd in the 11th ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "and the lord of the 11th the 2nd, (14) the lord of the 4th in the 5th and the lord of ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "the 5th in the 4th (15) the lord of 4th in the 7th and the lord of the 7th in the 4th. ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "(16) the lord of the 4th in the 9th and the lord of the 10th in the 4th, (17) the lord of ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "4th in the 11th and the lord of 11th in the 4th, (19) the lord of the 5th in the 7th and ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "the lord of the 7th in the 5th, (20) the lord of the 5th in the 9th and the lord of the ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "the 9th in the 4th, (17) the Lord of the 4th in the 10th and the lord of 9th in the 5th, ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "(21) the lord of the 5th in the 10th and the lord of the 10th in the 5th. (22) the lord ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "of the 5th in the 11th and the lord of the 11th in the 5th. (23) the lord of the 7th in ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "the 9th and the lord of 9th in the 7th. (24) the lord of the 7th in the 10th and the ",
+   "bbox": [
+    85,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "lord of 10th in the 7th. (25) the lord of 7th in the 11th and the lord of the 11th in ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "the 7th, (20) the lord of the 9th in the 10th and the lord of the 10th in the 9th, (27) ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "the lord of the 9th in the 11th and the lord of the 11th in the 9th (28) the lord of the ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "10th in the 11th and the lord of the 11th in the 10th.",
+   "bbox": [
+    85,
+    516,
+    374,
+    532
+   ]
+  },
+  {
+   "text": "30. Dainya Yogas:",
+   "bbox": [
+    121,
+    540,
+    224,
+    556
+   ]
+  },
+  {
+   "text": "(1) The lord of the 6th in the Lagna and the lord of Lagna in the 6th, (2) the ",
+   "bbox": [
+    121,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "lord of the 6th in the 2nd and the lord of the 2nd in the 6th, (3) the lord of the 6th ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "in the 3rd and lord of the 3rd in the 6th, (4) the lord of the 6th in the 4th and the ",
+   "bbox": [
+    85,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "lord of the 4th in the 6th, (5) the lord of the 6th in the 5th and the lord of the 5th in ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "the 6th, (6) the lord of the 6th in the 7th and the lord of the 7th in the 6th, (7) the ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "lord of the 6th in the 8th and the lord of the 8th in the 6th, (8) the lord of the 6th in ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "the 9th and the lord of the 9th in the 6th, (9) the lord of the 6th in the 10th and the ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "lord of 10th in the 6th, (10) the lord of 6th in the 11th and the lord of the 11th in ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "the 6th, (11) the lord of the 6th in the 12th and the lord of the 12th in the 6th. (12) ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "68",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

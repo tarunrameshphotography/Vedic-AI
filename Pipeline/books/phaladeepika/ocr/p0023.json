@@ -1,0 +1,729 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0023",
+ "book_id": "phaladeepika",
+ "seq": 23,
+ "source_ref": {
+  "pdf_page": 23
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "738b60f9ba0887294c6bf46f331d86df003da2137bff617ad571a4a3fdc77f4f",
+ "lines": [
+  {
+   "text": "amongst the planets as posited in a particular birth chart. The planets posited in the ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "2nd, 3rd, 4th, 10th, 11th and 12th from a particular planet are his friends for the ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "time being. The 1st, 5th, 6th, 7th, 8th and 9th from him become his enemies for the ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "time being. After taking into account the natural relationship, we come to know ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "what their actual relationship is in a particular birth chart. This is done in the ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "following manner :",
+   "bbox": [
+    85,
+    178,
+    192,
+    194
+   ]
+  },
+  {
+   "text": "1. Natural friend ",
+   "bbox": [
+    144,
+    202,
+    248,
+    218
+   ]
+  },
+  {
+   "text": "+ Temporary friend ",
+   "bbox": [
+    271,
+    202,
+    384,
+    218
+   ]
+  },
+  {
+   "text": "= Best friend ",
+   "bbox": [
+    399,
+    202,
+    476,
+    218
+   ]
+  },
+  {
+   "text": "(Naisargik mitra) ",
+   "bbox": [
+    165,
+    218,
+    265,
+    234
+   ]
+  },
+  {
+   "text": "(Tatkalik Mitra) ",
+   "bbox": [
+    271,
+    218,
+    364,
+    234
+   ]
+  },
+  {
+   "text": "(Adhimitra) ",
+   "bbox": [
+    399,
+    218,
+    469,
+    234
+   ]
+  },
+  {
+   "text": "2. Natural friend ",
+   "bbox": [
+    144,
+    234,
+    248,
+    250
+   ]
+  },
+  {
+   "text": "+ Temporary enemy ",
+   "bbox": [
+    271,
+    234,
+    388,
+    250
+   ]
+  },
+  {
+   "text": "= Neutral ",
+   "bbox": [
+    399,
+    234,
+    456,
+    250
+   ]
+  },
+  {
+   "text": "(Naisargik Mitra) ",
+   "bbox": [
+    165,
+    251,
+    267,
+    266
+   ]
+  },
+  {
+   "text": "(Tatkalik Shatru ",
+   "bbox": [
+    271,
+    251,
+    365,
+    266
+   ]
+  },
+  {
+   "text": "(Sama) ",
+   "bbox": [
+    399,
+    251,
+    443,
+    266
+   ]
+  },
+  {
+   "text": "3. Natural enemy ",
+   "bbox": [
+    144,
+    267,
+    251,
+    282
+   ]
+  },
+  {
+   "text": "+ Temporary enemy ",
+   "bbox": [
+    271,
+    267,
+    388,
+    282
+   ]
+  },
+  {
+   "text": "= Bitter enemy ",
+   "bbox": [
+    399,
+    267,
+    486,
+    282
+   ]
+  },
+  {
+   "text": "(Naisargik ",
+   "bbox": [
+    165,
+    283,
+    227,
+    298
+   ]
+  },
+  {
+   "text": "(Tatakalik Shatru) ",
+   "bbox": [
+    271,
+    283,
+    376,
+    298
+   ]
+  },
+  {
+   "text": "(Adhishatru) ",
+   "bbox": [
+    399,
+    283,
+    474,
+    298
+   ]
+  },
+  {
+   "text": "Shatru) ",
+   "bbox": [
+    165,
+    299,
+    210,
+    314
+   ]
+  },
+  {
+   "text": "4. Natural enemy ",
+   "bbox": [
+    144,
+    315,
+    251,
+    330
+   ]
+  },
+  {
+   "text": "+ Temporary friend ",
+   "bbox": [
+    271,
+    315,
+    384,
+    330
+   ]
+  },
+  {
+   "text": "= Neutral ",
+   "bbox": [
+    399,
+    315,
+    456,
+    330
+   ]
+  },
+  {
+   "text": "(Naisargik ",
+   "bbox": [
+    165,
+    331,
+    227,
+    347
+   ]
+  },
+  {
+   "text": "(Tatkalik Mitra) ",
+   "bbox": [
+    271,
+    331,
+    364,
+    347
+   ]
+  },
+  {
+   "text": "(Sama) ",
+   "bbox": [
+    399,
+    331,
+    443,
+    347
+   ]
+  },
+  {
+   "text": "Shatru) ",
+   "bbox": [
+    165,
+    347,
+    210,
+    363
+   ]
+  },
+  {
+   "text": "5. Natural neutral ",
+   "bbox": [
+    144,
+    363,
+    253,
+    379
+   ]
+  },
+  {
+   "text": "+ (Temporary Friend ",
+   "bbox": [
+    271,
+    363,
+    392,
+    379
+   ]
+  },
+  {
+   "text": "= Friend (Mitra) ",
+   "bbox": [
+    399,
+    363,
+    494,
+    379
+   ]
+  },
+  {
+   "text": "(Naisargik Sama) ",
+   "bbox": [
+    165,
+    379,
+    267,
+    395
+   ]
+  },
+  {
+   "text": "(Tatkalik Mitra) ",
+   "bbox": [
+    271,
+    379,
+    364,
+    395
+   ]
+  },
+  {
+   "text": "6. Natural neutral ",
+   "bbox": [
+    144,
+    395,
+    253,
+    411
+   ]
+  },
+  {
+   "text": "+ Temporary enemy ",
+   "bbox": [
+    271,
+    395,
+    388,
+    411
+   ]
+  },
+  {
+   "text": "= Enemy ",
+   "bbox": [
+    399,
+    395,
+    454,
+    411
+   ]
+  },
+  {
+   "text": "(Naisargik Sama) ",
+   "bbox": [
+    165,
+    412,
+    267,
+    427
+   ]
+  },
+  {
+   "text": "(Tatkalik Shatru) ",
+   "bbox": [
+    271,
+    412,
+    370,
+    427
+   ]
+  },
+  {
+   "text": "(Shatru) ",
+   "bbox": [
+    399,
+    412,
+    448,
+    427
+   ]
+  },
+  {
+   "text": "All planets cast a quarter glance at the 3rd and 10th houses, half a glance at ",
+   "bbox": [
+    121,
+    452,
+    556,
+    467
+   ]
+  },
+  {
+   "text": "the 5th and 9th houses, three-quarters of a glance at the 4th and 8th houses and full ",
+   "bbox": [
+    85,
+    476,
+    556,
+    491
+   ]
+  },
+  {
+   "text": "glance at the 7th house. However, the aspects of Saturn on the 3rd and 10th houses ",
+   "bbox": [
+    85,
+    500,
+    556,
+    516
+   ]
+  },
+  {
+   "text": "from him, of Jupiter on the 5th and 9th houses from him and of Mars on the 4th ",
+   "bbox": [
+    85,
+    524,
+    556,
+    540
+   ]
+  },
+  {
+   "text": "and 8th houses are also treated as full aspects.",
+   "bbox": [
+    85,
+    548,
+    342,
+    564
+   ]
+  },
+  {
+   "text": "24. The following table shows the periods, castes, gunas (Satwa, Rajas, and ",
+   "bbox": [
+    121,
+    573,
+    556,
+    588
+   ]
+  },
+  {
+   "text": "Tamas) and the seasons governed by the various planets according to this verse.",
+   "bbox": [
+    85,
+    597,
+    532,
+    612
+   ]
+  },
+  {
+   "text": "Planet ",
+   "bbox": [
+    172,
+    621,
+    211,
+    636
+   ]
+  },
+  {
+   "text": "Period ",
+   "bbox": [
+    229,
+    621,
+    269,
+    636
+   ]
+  },
+  {
+   "text": "Caste ",
+   "bbox": [
+    300,
+    621,
+    334,
+    636
+   ]
+  },
+  {
+   "text": "Guna ",
+   "bbox": [
+    364,
+    621,
+    397,
+    636
+   ]
+  },
+  {
+   "text": "Season ",
+   "bbox": [
+    413,
+    621,
+    456,
+    636
+   ]
+  },
+  {
+   "text": "Sun ",
+   "bbox": [
+    172,
+    637,
+    197,
+    652
+   ]
+  },
+  {
+   "text": "Half a year Kshatriya Satwik Grishma ",
+   "bbox": [
+    229,
+    637,
+    465,
+    652
+   ]
+  },
+  {
+   "text": "Moon ",
+   "bbox": [
+    172,
+    653,
+    209,
+    669
+   ]
+  },
+  {
+   "text": "2 Ghatikas Vaishya ",
+   "bbox": [
+    229,
+    653,
+    348,
+    669
+   ]
+  },
+  {
+   "text": "Satwlk Varsha ",
+   "bbox": [
+    364,
+    653,
+    455,
+    669
+   ]
+  },
+  {
+   "text": "Mars ",
+   "bbox": [
+    172,
+    669,
+    204,
+    685
+   ]
+  },
+  {
+   "text": "One day ",
+   "bbox": [
+    229,
+    669,
+    279,
+    685
+   ]
+  },
+  {
+   "text": "Kshatriya Tamsik Grishma ",
+   "bbox": [
+    300,
+    669,
+    465,
+    685
+   ]
+  },
+  {
+   "text": "Mercury 2 months ",
+   "bbox": [
+    172,
+    685,
+    284,
+    701
+   ]
+  },
+  {
+   "text": "Sudra ",
+   "bbox": [
+    300,
+    685,
+    336,
+    701
+   ]
+  },
+  {
+   "text": "Rajsik Sharad ",
+   "bbox": [
+    364,
+    685,
+    456,
+    701
+   ]
+  },
+  {
+   "text": "Jupiter ",
+   "bbox": [
+    172,
+    701,
+    214,
+    717
+   ]
+  },
+  {
+   "text": "1 month ",
+   "bbox": [
+    229,
+    701,
+    279,
+    717
+   ]
+  },
+  {
+   "text": "Brahmin ",
+   "bbox": [
+    300,
+    701,
+    352,
+    717
+   ]
+  },
+  {
+   "text": "Satwik Hemanta ",
+   "bbox": [
+    364,
+    701,
+    467,
+    717
+   ]
+  },
+  {
+   "text": "Venus ",
+   "bbox": [
+    172,
+    717,
+    210,
+    733
+   ]
+  },
+  {
+   "text": "15 days ",
+   "bbox": [
+    229,
+    717,
+    276,
+    733
+   ]
+  },
+  {
+   "text": "Brahmin ",
+   "bbox": [
+    300,
+    717,
+    352,
+    733
+   ]
+  },
+  {
+   "text": "Rajsik Vasanta ",
+   "bbox": [
+    364,
+    717,
+    460,
+    733
+   ]
+  },
+  {
+   "text": "Saturn ",
+   "bbox": [
+    172,
+    734,
+    212,
+    749
+   ]
+  },
+  {
+   "text": "One year ",
+   "bbox": [
+    229,
+    734,
+    283,
+    749
+   ]
+  },
+  {
+   "text": "Outcaste ",
+   "bbox": [
+    300,
+    734,
+    352,
+    749
+   ]
+  },
+  {
+   "text": "Tamsik Shishir ",
+   "bbox": [
+    364,
+    734,
+    456,
+    749
+   ]
+  },
+  {
+   "text": "23",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

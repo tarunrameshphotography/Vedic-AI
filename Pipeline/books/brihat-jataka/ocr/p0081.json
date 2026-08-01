@@ -1,0 +1,344 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0081",
+ "book_id": "brihat-jataka",
+ "seq": 81,
+ "source_ref": {
+  "pdf_page": 41,
+  "half": "a",
+  "v1_page": "s041a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "c025e7355ae496a3939dc6b54ede5ce1a6ab83f5f620a939695bb77f6b860087",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1267,
+    268,
+    1561,
+    303
+   ]
+  },
+  {
+   "text": "78",
+   "bbox": [
+    346,
+    270,
+    412,
+    306
+   ]
+  },
+  {
+   "text": "According to the rule advocated by Satyacharya, the longi-",
+   "bbox": [
+    418,
+    372,
+    1562,
+    411
+   ]
+  },
+  {
+   "text": "tude of a planet (signs minutes etc) should be converted into",
+   "bbox": [
+    344,
+    424,
+    1562,
+    463
+   ]
+  },
+  {
+   "text": "minutes and divided by 200. The quotient if more than 12",
+   "bbox": [
+    343,
+    477,
+    1562,
+    517
+   ]
+  },
+  {
+   "text": "should be divided by twelve and the remainder gives the",
+   "bbox": [
+    344,
+    529,
+    1561,
+    570
+   ]
+  },
+  {
+   "text": "longevity in years months etc for the planet concerned.",
+   "bbox": [
+    344,
+    582,
+    1439,
+    622
+   ]
+  },
+  {
+   "text": "स्वतुङ्गवक्रोपगतैस्त्रिसंगुणं द्विरुत्तमस्वांशकभत्रिभागगै:।",
+   "bbox": [
+    413,
+    651,
+    1172,
+    709
+   ]
+  },
+  {
+   "text": "इयान्विशेषस्तु भदन्तभाषिते समानमन्यत्प्रथमेऽप्युदीरितम् ।। 11।।",
+   "bbox": [
+    415,
+    719,
+    1331,
+    771
+   ]
+  },
+  {
+   "text": "According to the method of Satyacharya the following",
+   "bbox": [
+    415,
+    815,
+    1562,
+    859
+   ]
+  },
+  {
+   "text": "additional modifications are necessary in the number of years",
+   "bbox": [
+    341,
+    870,
+    1559,
+    909
+   ]
+  },
+  {
+   "text": "worked out for the various planets. A planet located in its sign",
+   "bbox": [
+    341,
+    924,
+    1559,
+    964
+   ]
+  },
+  {
+   "text": "of exaltation or in retrogression will have thrice the number of",
+   "bbox": [
+    343,
+    977,
+    1564,
+    1016
+   ]
+  },
+  {
+   "text": "years that it gets under the rules. Similarly a planet in",
+   "bbox": [
+    338,
+    1030,
+    1559,
+    1070
+   ]
+  },
+  {
+   "text": "vargottam or in its own navamsha, in his own sign or in his",
+   "bbox": [
+    338,
+    1083,
+    1559,
+    1123
+   ]
+  },
+  {
+   "text": "own decanate will have his number of years doubled. The rest",
+   "bbox": [
+    340,
+    1135,
+    1561,
+    1175
+   ]
+  },
+  {
+   "text": "of the process (see shlokas 1 and 4), remains the same (see also",
+   "bbox": [
+    341,
+    1185,
+    1558,
+    1226
+   ]
+  },
+  {
+   "text": "shloka No 13).",
+   "bbox": [
+    340,
+    1240,
+    631,
+    1276
+   ]
+  },
+  {
+   "text": "किन्त्वत्र भांशप्रतिमं ददाति वीर्यान्विता राशिसमं च होरा।",
+   "bbox": [
+    414,
+    1316,
+    1239,
+    1362
+   ]
+  },
+  {
+   "text": "क्रूरोदये चापचय: स नात्र कार्यं च नाब्दै: प्रथमोपदिष्टै:।। 12।।",
+   "bbox": [
+    412,
+    1379,
+    1346,
+    1432
+   ]
+  },
+  {
+   "text": "But here two points have to be borne in mind. Firstly if (as",
+   "bbox": [
+    414,
+    1474,
+    1558,
+    1518
+   ]
+  },
+  {
+   "text": "a result of the aspect of the lord of the lagna on the lagna etc)",
+   "bbox": [
+    338,
+    1529,
+    1556,
+    1568
+   ]
+  },
+  {
+   "text": "the lagna is stronger than the navamsha in the lagna, the",
+   "bbox": [
+    338,
+    1583,
+    1555,
+    1621
+   ]
+  },
+  {
+   "text": "signs already risen as counted from Aries should be taken as",
+   "bbox": [
+    338,
+    1635,
+    1555,
+    1674
+   ]
+  },
+  {
+   "text": "the number of years contributed by the lagna and the months",
+   "bbox": [
+    337,
+    1684,
+    1555,
+    1730
+   ]
+  },
+  {
+   "text": "etc worked out by the longitude in degrees etc in the lagna. If",
+   "bbox": [
+    336,
+    1742,
+    1558,
+    1781
+   ]
+  },
+  {
+   "text": "the navamsha in the lagna is stronger, the number of",
+   "bbox": [
+    335,
+    1793,
+    1559,
+    1834
+   ]
+  },
+  {
+   "text": "navamshas elapsed will give the whole number of years and",
+   "bbox": [
+    337,
+    1847,
+    1555,
+    1885
+   ]
+  },
+  {
+   "text": "the fraction of it the months etc in proportion. Secondly the",
+   "bbox": [
+    337,
+    1899,
+    1556,
+    1938
+   ]
+  },
+  {
+   "text": "rule that malefic planets in the lagna reduce the number of",
+   "bbox": [
+    334,
+    1951,
+    1559,
+    1990
+   ]
+  },
+  {
+   "text": "years (see shloka 4) will not apply.",
+   "bbox": [
+    334,
+    2001,
+    1027,
+    2042
+   ]
+  },
+  {
+   "text": "सत्योपदेशो वरमत्र किन्तु कुर्वन्त्ययोग्यं बहवर्गणाभि:।",
+   "bbox": [
+    408,
+    2074,
+    1182,
+    2130
+   ]
+  },
+  {
+   "text": "आचार्यकत्वं च बहुघ्नतायामेकं तु यद्धरि तदेव कार्यम्।। 13।।",
+   "bbox": [
+    409,
+    2137,
+    1324,
+    2198
+   ]
+  },
+  {
+   "text": "The injuction of Satyacharya in the matter of calculation of",
+   "bbox": [
+    409,
+    2237,
+    1559,
+    2276
+   ]
+  },
+  {
+   "text": "longevity is very nice, but some people object to it by saying",
+   "bbox": [
+    333,
+    2291,
+    1556,
+    2331
+   ]
+  },
+  {
+   "text": "that in cases where one and the same planet is exalted in his",
+   "bbox": [
+    333,
+    2344,
+    1554,
+    2383
+   ]
+  }
+ ]
+}

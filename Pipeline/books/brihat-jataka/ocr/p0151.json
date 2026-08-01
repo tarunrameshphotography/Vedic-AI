@@ -1,0 +1,272 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0151",
+ "book_id": "brihat-jataka",
+ "seq": 151,
+ "source_ref": {
+  "pdf_page": 76,
+  "half": "a",
+  "v1_page": "s076a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "9892d08224515bb03ecd92fb96a4847f949f6ef8771f50a4ba522e56dcfc166b",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1198,
+    251,
+    1487,
+    285
+   ]
+  },
+  {
+   "text": "148",
+   "bbox": [
+    278,
+    252,
+    366,
+    286
+   ]
+  },
+  {
+   "text": "<math>(i)</math> Aspected by Mercury: A king.",
+   "bbox": [
+    349,
+    355,
+    1060,
+    396
+   ]
+  },
+  {
+   "text": "(ii) Aspected by Jupiter: Commander-in-chief of Army.",
+   "bbox": [
+    347,
+    431,
+    1489,
+    475
+   ]
+  },
+  {
+   "text": "<i>(iii)</i> Aspected by Venus: Efficient alround.",
+   "bbox": [
+    347,
+    511,
+    1239,
+    550
+   ]
+  },
+  {
+   "text": "(iv) Aspected by Saturn, Mars or Sun: Lives on wife's",
+   "bbox": [
+    347,
+    589,
+    1492,
+    628
+   ]
+  },
+  {
+   "text": "earning.",
+   "bbox": [
+    273,
+    645,
+    441,
+    682
+   ]
+  },
+  {
+   "text": "Moon in Libra",
+   "bbox": [
+    273,
+    744,
+    648,
+    783
+   ]
+  },
+  {
+   "text": "सक्रोधोनरपतिसम्मतो निधीश: सिंहांशे प्रभुरसुतोऽतिहिस्रकर्मा।",
+   "bbox": [
+    346,
+    825,
+    1221,
+    875
+   ]
+  },
+  {
+   "text": "जीवांशे प्रथितबलो रणोपदेष्टा हास्यज्ञ: सचिवविकामवृद्धशील: ।। 7 ।।",
+   "bbox": [
+    346,
+    888,
+    1380,
+    939
+   ]
+  },
+  {
+   "text": "(i) Aspected by Mercury: A king.",
+   "bbox": [
+    349,
+    983,
+    1059,
+    1023
+   ]
+  },
+  {
+   "text": "(<i>ii</i>) Aspected by Jupiter: Goldsmith.",
+   "bbox": [
+    349,
+    1062,
+    1121,
+    1100
+   ]
+  },
+  {
+   "text": "<i>(iii)</i> Aspected by Venus: A trader.",
+   "bbox": [
+    349,
+    1140,
+    1070,
+    1179
+   ]
+  },
+  {
+   "text": "(iv) Aspected by Saturn, Sun or Mars: Killer of ani-",
+   "bbox": [
+    347,
+    1216,
+    1489,
+    1258
+   ]
+  },
+  {
+   "text": "mals.",
+   "bbox": [
+    271,
+    1271,
+    382,
+    1306
+   ]
+  },
+  {
+   "text": "Moon in Scorpio",
+   "bbox": [
+    271,
+    1370,
+    706,
+    1417
+   ]
+  },
+  {
+   "text": "अल्पापत्यो दु:खित: सत्यपि स्वे मानासक्त: कर्मणि स्वेऽनुरक्त:।",
+   "bbox": [
+    345,
+    1451,
+    1257,
+    1501
+   ]
+  },
+  {
+   "text": "दुष्टस्त्रीक: कृपणश्चार्किभागे चन्द्रे भानौ तद्वदिन्द्वादिदृष्टे।। 8 ।।",
+   "bbox": [
+    343,
+    1514,
+    1273,
+    1567
+   ]
+  },
+  {
+   "text": "(i) Aspected by Mercury: Son of two fathers (probably",
+   "bbox": [
+    347,
+    1612,
+    1487,
+    1650
+   ]
+  },
+  {
+   "text": "one has adopted him).",
+   "bbox": [
+    270,
+    1664,
+    715,
+    1702
+   ]
+  },
+  {
+   "text": "(<i>ii</i>) Aspected by Jupiter: With humility.",
+   "bbox": [
+    347,
+    1742,
+    1195,
+    1780
+   ]
+  },
+  {
+   "text": "<i>(iii)</i> Aspected by Venus: Dhobi.",
+   "bbox": [
+    347,
+    1820,
+    1019,
+    1858
+   ]
+  },
+  {
+   "text": "(iv) Aspected by Saturn: Loses some limb.",
+   "bbox": [
+    347,
+    1897,
+    1234,
+    1936
+   ]
+  },
+  {
+   "text": "<math>(v)</math> Aspected by Sun: Poor.",
+   "bbox": [
+    347,
+    1973,
+    923,
+    2015
+   ]
+  },
+  {
+   "text": "<math>(vi)</math> Aspected by Mars: A king.",
+   "bbox": [
+    347,
+    2054,
+    1003,
+    2092
+   ]
+  },
+  {
+   "text": "Moon in Sagittarius",
+   "bbox": [
+    268,
+    2153,
+    795,
+    2201
+   ]
+  },
+  {
+   "text": "वर्गोत्तमस्वपरगेषु शुभं यदुक्तं तत्पुष्टमध्यलघुताऽशुभमुत्क्रमेण।",
+   "bbox": [
+    343,
+    2234,
+    1214,
+    2284
+   ]
+  },
+  {
+   "text": "वीर्यान्वितोशकपतिर्निरुणद्धि पूर्वं राशीक्षणस्य फलमंशफलं ददाति।। 9 ।।",
+   "bbox": [
+    343,
+    2294,
+    1405,
+    2348
+   ]
+  }
+ ]
+}

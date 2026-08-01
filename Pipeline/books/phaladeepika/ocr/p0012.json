@@ -1,0 +1,630 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0012",
+ "book_id": "phaladeepika",
+ "seq": 12,
+ "source_ref": {
+  "pdf_page": 12
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "0e62a73669a32837bfd3c58860bc016ddcb10a51bc196a75f9f4fbe3ba723768",
+ "lines": [
+  {
+   "text": "Leo - The Sun ",
+   "bbox": [
+    121,
+    57,
+    205,
+    73
+   ]
+  },
+  {
+   "text": "Aquarius - Saturn",
+   "bbox": [
+    265,
+    57,
+    365,
+    73
+   ]
+  },
+  {
+   "text": "Virgo - Mercury ",
+   "bbox": [
+    121,
+    82,
+    216,
+    97
+   ]
+  },
+  {
+   "text": "Pisces - Jupiter",
+   "bbox": [
+    265,
+    82,
+    350,
+    97
+   ]
+  },
+  {
+   "text": "The signs of exaltation and fall of the seven planets from the Sun onwards ",
+   "bbox": [
+    121,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "are as under —",
+   "bbox": [
+    85,
+    130,
+    170,
+    145
+   ]
+  },
+  {
+   "text": "Planet ",
+   "bbox": [
+    194,
+    154,
+    232,
+    169
+   ]
+  },
+  {
+   "text": "Sign of exaltation ",
+   "bbox": [
+    259,
+    154,
+    362,
+    169
+   ]
+  },
+  {
+   "text": "Sign of fall ",
+   "bbox": [
+    378,
+    154,
+    445,
+    169
+   ]
+  },
+  {
+   "text": "The Sun ",
+   "bbox": [
+    194,
+    170,
+    244,
+    186
+   ]
+  },
+  {
+   "text": "Aries ",
+   "bbox": [
+    259,
+    170,
+    293,
+    186
+   ]
+  },
+  {
+   "text": "Libra ",
+   "bbox": [
+    378,
+    170,
+    412,
+    186
+   ]
+  },
+  {
+   "text": "The Moon Taurus ",
+   "bbox": [
+    194,
+    186,
+    300,
+    202
+   ]
+  },
+  {
+   "text": "Scorpio ",
+   "bbox": [
+    378,
+    186,
+    425,
+    202
+   ]
+  },
+  {
+   "text": "Mars ",
+   "bbox": [
+    194,
+    202,
+    226,
+    218
+   ]
+  },
+  {
+   "text": "Capricorn ",
+   "bbox": [
+    259,
+    202,
+    318,
+    218
+   ]
+  },
+  {
+   "text": "Cancer ",
+   "bbox": [
+    378,
+    202,
+    422,
+    218
+   ]
+  },
+  {
+   "text": "Mercury ",
+   "bbox": [
+    194,
+    218,
+    245,
+    234
+   ]
+  },
+  {
+   "text": "Virgo ",
+   "bbox": [
+    259,
+    218,
+    294,
+    234
+   ]
+  },
+  {
+   "text": "Pisces ",
+   "bbox": [
+    378,
+    218,
+    417,
+    234
+   ]
+  },
+  {
+   "text": "Jupiter ",
+   "bbox": [
+    194,
+    234,
+    235,
+    250
+   ]
+  },
+  {
+   "text": "Cancer ",
+   "bbox": [
+    259,
+    234,
+    302,
+    250
+   ]
+  },
+  {
+   "text": "Capricorn ",
+   "bbox": [
+    378,
+    234,
+    438,
+    250
+   ]
+  },
+  {
+   "text": "Venus ",
+   "bbox": [
+    194,
+    251,
+    231,
+    266
+   ]
+  },
+  {
+   "text": "Pisces ",
+   "bbox": [
+    259,
+    251,
+    297,
+    266
+   ]
+  },
+  {
+   "text": "Virgo ",
+   "bbox": [
+    378,
+    251,
+    413,
+    266
+   ]
+  },
+  {
+   "text": "Saturn ",
+   "bbox": [
+    194,
+    267,
+    234,
+    282
+   ]
+  },
+  {
+   "text": "Libra ",
+   "bbox": [
+    259,
+    267,
+    293,
+    282
+   ]
+  },
+  {
+   "text": "Aries ",
+   "bbox": [
+    378,
+    267,
+    412,
+    282
+   ]
+  },
+  {
+   "text": "This means that the seventh or the opposite sign from the sign of exaltation ",
+   "bbox": [
+    121,
+    307,
+    556,
+    322
+   ]
+  },
+  {
+   "text": "of a planet, is the sign of fall or debilitation.",
+   "bbox": [
+    85,
+    331,
+    331,
+    347
+   ]
+  },
+  {
+   "text": "Notes— There is great difference of opinion amongst the ancient learneds ",
+   "bbox": [
+    121,
+    355,
+    556,
+    371
+   ]
+  },
+  {
+   "text": "about the exaltation and debilitation signs of Rahu and Ketu. Mantreswara has ",
+   "bbox": [
+    85,
+    379,
+    556,
+    395
+   ]
+  },
+  {
+   "text": "expressed no opinion in that regard. According to Sarvarth Chintamani the ",
+   "bbox": [
+    85,
+    404,
+    556,
+    419
+   ]
+  },
+  {
+   "text": "exaltation sign of Rahu is Gemini and his sign of debilitation is Sagittarius. ",
+   "bbox": [
+    85,
+    428,
+    556,
+    443
+   ]
+  },
+  {
+   "text": "Reverse is the case with Ketu. According to Brihat Parasara Hora Sastra Taurus ",
+   "bbox": [
+    85,
+    452,
+    556,
+    467
+   ]
+  },
+  {
+   "text": "and Scorpio are respectively the exaltation signs of Rahu and Ketu and the signs ",
+   "bbox": [
+    85,
+    476,
+    556,
+    491
+   ]
+  },
+  {
+   "text": "opposite to them are their signs of debilitation.",
+   "bbox": [
+    85,
+    500,
+    346,
+    516
+   ]
+  },
+  {
+   "text": "The highest points of exaltation and the lowest points of debilitation of the ",
+   "bbox": [
+    121,
+    524,
+    556,
+    540
+   ]
+  },
+  {
+   "text": "various planets are as under:",
+   "bbox": [
+    85,
+    548,
+    245,
+    564
+   ]
+  },
+  {
+   "text": "Planet ",
+   "bbox": [
+    112,
+    573,
+    150,
+    588
+   ]
+  },
+  {
+   "text": "Highest points of exaltation",
+   "bbox": [
+    183,
+    573,
+    338,
+    588
+   ]
+  },
+  {
+   "text": "Lowest point of debilitation",
+   "bbox": [
+    353,
+    573,
+    509,
+    588
+   ]
+  },
+  {
+   "text": "(Deep exaltation) ",
+   "bbox": [
+    183,
+    589,
+    284,
+    604
+   ]
+  },
+  {
+   "text": "(Deep fall) ",
+   "bbox": [
+    353,
+    589,
+    417,
+    604
+   ]
+  },
+  {
+   "text": "The Sun ",
+   "bbox": [
+    112,
+    605,
+    162,
+    620
+   ]
+  },
+  {
+   "text": "Aries 10th degree ",
+   "bbox": [
+    183,
+    605,
+    286,
+    620
+   ]
+  },
+  {
+   "text": "Libra 10th degree ",
+   "bbox": [
+    353,
+    605,
+    456,
+    620
+   ]
+  },
+  {
+   "text": "The Moon Taurus 3rd degree ",
+   "bbox": [
+    112,
+    621,
+    287,
+    636
+   ]
+  },
+  {
+   "text": "Scorpio 3rd degree ",
+   "bbox": [
+    353,
+    621,
+    463,
+    636
+   ]
+  },
+  {
+   "text": "Mars ",
+   "bbox": [
+    112,
+    637,
+    144,
+    652
+   ]
+  },
+  {
+   "text": "Capricorn 28th degree ",
+   "bbox": [
+    183,
+    637,
+    312,
+    652
+   ]
+  },
+  {
+   "text": "Cancer 28th degree ",
+   "bbox": [
+    353,
+    637,
+    465,
+    652
+   ]
+  },
+  {
+   "text": "Mercury ",
+   "bbox": [
+    112,
+    653,
+    164,
+    669
+   ]
+  },
+  {
+   "text": "Virgo 15th degree ",
+   "bbox": [
+    183,
+    653,
+    287,
+    669
+   ]
+  },
+  {
+   "text": "Pisces 15th degree ",
+   "bbox": [
+    353,
+    653,
+    461,
+    669
+   ]
+  },
+  {
+   "text": "Jupiter ",
+   "bbox": [
+    112,
+    669,
+    154,
+    685
+   ]
+  },
+  {
+   "text": "Cancer 5th degree ",
+   "bbox": [
+    183,
+    669,
+    288,
+    685
+   ]
+  },
+  {
+   "text": "Capricorn 5th degree ",
+   "bbox": [
+    353,
+    669,
+    475,
+    685
+   ]
+  },
+  {
+   "text": "Venus ",
+   "bbox": [
+    112,
+    685,
+    150,
+    701
+   ]
+  },
+  {
+   "text": "Pisces 27th degree ",
+   "bbox": [
+    183,
+    685,
+    290,
+    701
+   ]
+  },
+  {
+   "text": "Virgo 27th degree ",
+   "bbox": [
+    353,
+    685,
+    457,
+    701
+   ]
+  },
+  {
+   "text": "Saturn ",
+   "bbox": [
+    112,
+    701,
+    152,
+    717
+   ]
+  },
+  {
+   "text": "Libra 20th degree ",
+   "bbox": [
+    183,
+    701,
+    286,
+    717
+   ]
+  },
+  {
+   "text": "Aries 20th degree ",
+   "bbox": [
+    353,
+    701,
+    456,
+    717
+   ]
+  },
+  {
+   "text": "Notes — For example Jupiter at the 5th degree of Cancer will be in deep ",
+   "bbox": [
+    121,
+    742,
+    556,
+    757
+   ]
+  },
+  {
+   "text": "exaltation. Then he moves downwards from that point and gets into deep debilition ",
+   "bbox": [
+    85,
+    766,
+    556,
+    781
+   ]
+  },
+  {
+   "text": "12",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

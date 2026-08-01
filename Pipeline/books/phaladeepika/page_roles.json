@@ -1,0 +1,12 @@
+{
+ "schema": 2,
+ "book_id": "phaladeepika",
+ "_comment": "Front and back matter audited page by page on 2026-08-01. Unlike Brihat Jataka, this edition carries no covers, no advertisements for other titles and no promotional blurbs in its text layer. p0001 is the title page, p0002-p0003 the translator's preface, p0004-p0009 the table of contents, and p0265 the concluding chapter -- all genuine parts of the work and all retained. Nothing is excluded from this book.",
+ "exclude": {},
+ "keep_note": {
+  "p0001": "Title page - retained.",
+  "p0002-p0003": "Translator's preface - retained as part of the work.",
+  "p0004-p0009": "Table of Contents - retained.",
+  "p0010-p0265": "Body text, chapters 1-28."
+ }
+}

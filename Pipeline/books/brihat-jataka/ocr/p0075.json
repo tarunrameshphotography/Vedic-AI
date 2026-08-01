@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0075",
+ "book_id": "brihat-jataka",
+ "seq": 75,
+ "source_ref": {
+  "pdf_page": 38,
+  "half": "a",
+  "v1_page": "s038a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "9132f77819fb15eed1550bac865b620f54d05a0a4b2a5dd1cf2ac0ee890892cf",
+ "lines": [
+  {
+   "text": "72",
+   "bbox": [
+    311,
+    265,
+    377,
+    300
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1236,
+    265,
+    1528,
+    299
+   ]
+  },
+  {
+   "text": "case the lagna is occupied by a ksheen Moon and the 7th and",
+   "bbox": [
+    310,
+    370,
+    1526,
+    409
+   ]
+  },
+  {
+   "text": "8th houses are occupied by malefic planets, the child dies soon",
+   "bbox": [
+    310,
+    422,
+    1528,
+    461
+   ]
+  },
+  {
+   "text": "along with his mother, provided Moon is not aspected by strong",
+   "bbox": [
+    310,
+    474,
+    1529,
+    513
+   ]
+  },
+  {
+   "text": "benefics.",
+   "bbox": [
+    310,
+    527,
+    485,
+    560
+   ]
+  },
+  {
+   "text": "राश्यन्तगे सद्धिरवीक्ष्यमाणे चन्द्रे त्रिकोणोपगतैश्च पापै:।",
+   "bbox": [
+    384,
+    600,
+    1162,
+    648
+   ]
+  },
+  {
+   "text": "प्राणै: प्रयात्याशु शिशुर्वियोगमस्ते च पापैस्तुहिनांशुलग्ने।। 8 ।।",
+   "bbox": [
+    381,
+    661,
+    1299,
+    715
+   ]
+  },
+  {
+   "text": "Moon located in the last navamsha of any sign unaspected",
+   "bbox": [
+    385,
+    761,
+    1528,
+    799
+   ]
+  },
+  {
+   "text": "by any benefic planet and with the kona houses (5th and 9th)",
+   "bbox": [
+    308,
+    811,
+    1526,
+    852
+   ]
+  },
+  {
+   "text": "occupied by malefics, causes very early death of the child.",
+   "bbox": [
+    310,
+    864,
+    1525,
+    904
+   ]
+  },
+  {
+   "text": "Similar is the death if Moon in the lagna is aspected by malefic",
+   "bbox": [
+    307,
+    918,
+    1526,
+    957
+   ]
+  },
+  {
+   "text": "planets.",
+   "bbox": [
+    308,
+    972,
+    472,
+    1010
+   ]
+  },
+  {
+   "text": "अशुभसहिते ग्रस्ते चन्द्रे कुजे निधनाश्रिते",
+   "bbox": [
+    381,
+    1047,
+    962,
+    1098
+   ]
+  },
+  {
+   "text": "जननिसुतयोर्मृत्युर्लग्ने रवौ तु सशस्त्रजः।",
+   "bbox": [
+    381,
+    1104,
+    958,
+    1164
+   ]
+  },
+  {
+   "text": "उदयति रवौ शीतांशौ वा त्रिकोणविनाशगै-",
+   "bbox": [
+    380,
+    1168,
+    999,
+    1226
+   ]
+  },
+  {
+   "text": "र्निधनमशुभैर्वीयोपेतै: शुभैर्न युतेक्षिते।। 9 ।।",
+   "bbox": [
+    382,
+    1240,
+    1017,
+    1294
+   ]
+  },
+  {
+   "text": "If Moon and Rahu occupy the lagna with Saturn and Mars",
+   "bbox": [
+    384,
+    1338,
+    1528,
+    1377
+   ]
+  },
+  {
+   "text": "occupying the 8th house, the mother and the child die soon. In",
+   "bbox": [
+    307,
+    1391,
+    1525,
+    1430
+   ]
+  },
+  {
+   "text": "case the said Moon is with Sun also the death is caused by a",
+   "bbox": [
+    305,
+    1442,
+    1526,
+    1482
+   ]
+  },
+  {
+   "text": "weapon. If the lagna is occupied by Sun or Moon and the trinal",
+   "bbox": [
+    308,
+    1495,
+    1526,
+    1534
+   ]
+  },
+  {
+   "text": "houses (5th and 9th) and the 8th are occupied by malefics and",
+   "bbox": [
+    307,
+    1549,
+    1523,
+    1588
+   ]
+  },
+  {
+   "text": "none of these is aspected by a strong benefic planet the child",
+   "bbox": [
+    307,
+    1601,
+    1525,
+    1641
+   ]
+  },
+  {
+   "text": "dies soon after birth.",
+   "bbox": [
+    308,
+    1653,
+    725,
+    1689
+   ]
+  },
+  {
+   "text": "असितरविशशाङ्कभूमिजैर्व्ययनवमोदयनैधनाश्रित: ।",
+   "bbox": [
+    378,
+    1726,
+    1064,
+    1779
+   ]
+  },
+  {
+   "text": "भवति मरणमाशु देहिनां यदि बलिना गुरुणा न वीक्षिता: ।। 10 ।।",
+   "bbox": [
+    381,
+    1792,
+    1341,
+    1844
+   ]
+  },
+  {
+   "text": "If Saturn is in the 12th house, Sun in the 9th, Moon in the",
+   "bbox": [
+    381,
+    1891,
+    1526,
+    1928
+   ]
+  },
+  {
+   "text": "lagna and Mars in the 8th and none of them is aspected by a",
+   "bbox": [
+    305,
+    1939,
+    1526,
+    1983
+   ]
+  },
+  {
+   "text": "\"strong\" Jupiter, the person born dies soon after birth. (It is",
+   "bbox": [
+    307,
+    1994,
+    1526,
+    2034
+   ]
+  },
+  {
+   "text": "implied that if Jupiter aspecting these is weak, the yoga for",
+   "bbox": [
+    304,
+    2046,
+    1525,
+    2085
+   ]
+  },
+  {
+   "text": "early death remains).",
+   "bbox": [
+    305,
+    2099,
+    739,
+    2138
+   ]
+  },
+  {
+   "text": "सुतमदननवान्त्यलग्नरन्ध्रेष्वशुभयुतो मरणाय शीतरश्मि:।",
+   "bbox": [
+    379,
+    2172,
+    1168,
+    2225
+   ]
+  },
+  {
+   "text": "भगुसुतशशिपुत्रदेवपूज्यैर्यदि बलिभिर्न युतोऽवलोकितो वा।। 11 ।।",
+   "bbox": [
+    379,
+    2233,
+    1331,
+    2288
+   ]
+  },
+  {
+   "text": "If (a weak) Moon, conjoined to a malefic planet is located in",
+   "bbox": [
+    381,
+    2330,
+    1522,
+    2370
+   ]
+  }
+ ]
+}

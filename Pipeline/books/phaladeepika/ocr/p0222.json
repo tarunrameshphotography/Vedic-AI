@@ -1,0 +1,387 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0222",
+ "book_id": "phaladeepika",
+ "seq": 222,
+ "source_ref": {
+  "pdf_page": 222
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "4e0df1dbf86e2e22c81b0b5a92644389a912106b94a26cdc94f1b66b98821840",
+ "lines": [
+  {
+   "text": "0000",
+   "bbox": [
+    241,
+    71,
+    269,
+    86
+   ]
+  },
+  {
+   "text": "0000 00000",
+   "bbox": [
+    283,
+    71,
+    357,
+    86
+   ]
+  },
+  {
+   "text": "0000",
+   "bbox": [
+    369,
+    71,
+    397,
+    86
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    244,
+    113,
+    265,
+    129
+   ]
+  },
+  {
+   "text": "000 ",
+   "bbox": [
+    244,
+    148,
+    269,
+    163
+   ]
+  },
+  {
+   "text": "L 00 ",
+   "bbox": [
+    370,
+    148,
+    399,
+    163
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    244,
+    164,
+    265,
+    179
+   ]
+  },
+  {
+   "text": "0000",
+   "bbox": [
+    369,
+    164,
+    397,
+    179
+   ]
+  },
+  {
+   "text": "000 ",
+   "bbox": [
+    372,
+    190,
+    397,
+    206
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    244,
+    198,
+    265,
+    214
+   ]
+  },
+  {
+   "text": "0",
+   "bbox": [
+    294,
+    198,
+    301,
+    214
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    329,
+    198,
+    350,
+    214
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    372,
+    207,
+    393,
+    222
+   ]
+  },
+  {
+   "text": "5. Mars is benefice in 3-5-6-10-11 positions from the Sun, in 3-6-11 ",
+   "bbox": [
+    121,
+    252,
+    556,
+    268
+   ]
+  },
+  {
+   "text": "positions from the Moon, in 1-2-4-7-8-10-11 positions from himself, in 3-5-6-11 ",
+   "bbox": [
+    85,
+    276,
+    556,
+    292
+   ]
+  },
+  {
+   "text": "positions from Mercury, in 6-8-11-12 positions from Jupiter in 6-8-11-12 portions ",
+   "bbox": [
+    85,
+    301,
+    556,
+    316
+   ]
+  },
+  {
+   "text": "from Jupiter, in 6-8-11-l2 posidonsfrom Venus, in 1-4-7-8-9-10-11 positions from ",
+   "bbox": [
+    85,
+    325,
+    556,
+    340
+   ]
+  },
+  {
+   "text": "Saturn and in 1-3-6-10-11 positions from the Lagna.",
+   "bbox": [
+    85,
+    349,
+    378,
+    364
+   ]
+  },
+  {
+   "text": "<b>Mars Ashtakavarga</b>",
+   "bbox": [
+    121,
+    373,
+    240,
+    388
+   ]
+  },
+  {
+   "text": "00",
+   "bbox": [
+    248,
+    411,
+    262,
+    426
+   ]
+  },
+  {
+   "text": "0000",
+   "bbox": [
+    283,
+    411,
+    311,
+    426
+   ]
+  },
+  {
+   "text": "0000",
+   "bbox": [
+    326,
+    411,
+    354,
+    426
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    372,
+    411,
+    393,
+    426
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    244,
+    453,
+    265,
+    469
+   ]
+  },
+  {
+   "text": "00",
+   "bbox": [
+    376,
+    453,
+    390,
+    469
+   ]
+  },
+  {
+   "text": "L ",
+   "bbox": [
+    379,
+    488,
+    391,
+    503
+   ]
+  },
+  {
+   "text": "0000",
+   "bbox": [
+    241,
+    496,
+    269,
+    511
+   ]
+  },
+  {
+   "text": "00000",
+   "bbox": [
+    365,
+    504,
+    400,
+    519
+   ]
+  },
+  {
+   "text": "00",
+   "bbox": [
+    248,
+    538,
+    262,
+    554
+   ]
+  },
+  {
+   "text": "00",
+   "bbox": [
+    290,
+    538,
+    304,
+    554
+   ]
+  },
+  {
+   "text": "0000",
+   "bbox": [
+    326,
+    538,
+    354,
+    554
+   ]
+  },
+  {
+   "text": "0000",
+   "bbox": [
+    369,
+    538,
+    397,
+    554
+   ]
+  },
+  {
+   "text": "The total number of benefic bindus received by Mars are 39 as detailed ",
+   "bbox": [
+    121,
+    592,
+    556,
+    607
+   ]
+  },
+  {
+   "text": "below. From the Sun 5, from the Moon 3, from himself 7, from Mercury 4, from ",
+   "bbox": [
+    85,
+    616,
+    556,
+    632
+   ]
+  },
+  {
+   "text": "Jupiter 4, from Venus 4, from Saturn 7, and from the Lagna 5.",
+   "bbox": [
+    85,
+    640,
+    432,
+    656
+   ]
+  },
+  {
+   "text": "<b>Mercury's Ashtakavarga</b>",
+   "bbox": [
+    121,
+    664,
+    270,
+    680
+   ]
+  },
+  {
+   "text": "6. Mercury is benefic in 5-6-9-11-12 places from the Sun, in 2-4-6-8-10-11 ",
+   "bbox": [
+    121,
+    689,
+    556,
+    704
+   ]
+  },
+  {
+   "text": "places from the Moon, in 1-2-4-7-8-9-10-11 places from Mars, in 1-3-5-6-7-10-11-",
+   "bbox": [
+    85,
+    713,
+    553,
+    728
+   ]
+  },
+  {
+   "text": "12 places from himself, in 6-8-11-12 places from Jupiter, in 1-2-3-4-5-8-9-11 ",
+   "bbox": [
+    85,
+    737,
+    556,
+    752
+   ]
+  },
+  {
+   "text": "places from Venus, in 1-2-4-7-8-9-10-11 places from Saturn and in 1-2-4-6-8-10-",
+   "bbox": [
+    85,
+    761,
+    553,
+    777
+   ]
+  },
+  {
+   "text": "222",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

@@ -1,0 +1,371 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0021",
+ "book_id": "brihat-jataka",
+ "seq": 21,
+ "source_ref": {
+  "pdf_page": 11,
+  "half": "a",
+  "v1_page": "s011a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "63f1668d7674032632370271bac09e750d616daaddc339fe3de08019c7f0e4f4",
+ "lines": [
+  {
+   "text": "18",
+   "bbox": [
+    339,
+    207,
+    403,
+    240
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1263,
+    220,
+    1555,
+    256
+   ]
+  },
+  {
+   "text": "excellence of the martial planet Mars. What are the conditions",
+   "bbox": [
+    332,
+    307,
+    1556,
+    368
+   ]
+  },
+  {
+   "text": "that should denote the highest attainments of a soldier that",
+   "bbox": [
+    333,
+    360,
+    1556,
+    419
+   ]
+  },
+  {
+   "text": "Mars undoubtedly is? These conditions require that the soldier",
+   "bbox": [
+    328,
+    412,
+    1553,
+    471
+   ]
+  },
+  {
+   "text": "even when surrounded entirely by enemies should be able to",
+   "bbox": [
+    328,
+    464,
+    1550,
+    525
+   ]
+  },
+  {
+   "text": "retain to the fullest measure, his qualities of courage and",
+   "bbox": [
+    327,
+    516,
+    1550,
+    577
+   ]
+  },
+  {
+   "text": "bravery as a soldier. This is exactly what exaltations of Mars",
+   "bbox": [
+    327,
+    569,
+    1549,
+    629
+   ]
+  },
+  {
+   "text": "in astrology signifies. Capricorn the sign in which Mars is",
+   "bbox": [
+    325,
+    621,
+    1549,
+    682
+   ]
+  },
+  {
+   "text": "exalted is the sign of his worse enemy \"Saturn\". Hence to be in",
+   "bbox": [
+    324,
+    673,
+    1547,
+    735
+   ]
+  },
+  {
+   "text": "the enemy's camp entirely, as it were and yet to be fully in his",
+   "bbox": [
+    322,
+    727,
+    1546,
+    787
+   ]
+  },
+  {
+   "text": "elements (by being in his own constellation) is truly a test and",
+   "bbox": [
+    321,
+    779,
+    1545,
+    840
+   ]
+  },
+  {
+   "text": "a criterion for the highest excellence of a soldier.",
+   "bbox": [
+    321,
+    832,
+    1298,
+    889
+   ]
+  },
+  {
+   "text": "Mercury: From the table above, it would be seen that the",
+   "bbox": [
+    395,
+    911,
+    1545,
+    972
+   ]
+  },
+  {
+   "text": "planet Mercury is exalted in the sign Virgo in a degree whose",
+   "bbox": [
+    319,
+    962,
+    1543,
+    1025
+   ]
+  },
+  {
+   "text": "constellational lord is Moon. Mercury we know is a planet of",
+   "bbox": [
+    317,
+    1014,
+    1553,
+    1080
+   ]
+  },
+  {
+   "text": "intellect par excellence. Intellect is the highest possession of",
+   "bbox": [
+    315,
+    1065,
+    1545,
+    1133
+   ]
+  },
+  {
+   "text": "man-one that distinguishes man from animals. It is a most",
+   "bbox": [
+    315,
+    1120,
+    1540,
+    1184
+   ]
+  },
+  {
+   "text": "prized possession and yet it is lacking in certain respect. What",
+   "bbox": [
+    316,
+    1169,
+    1540,
+    1239
+   ]
+  },
+  {
+   "text": "it lacks is most evident in the present day conditions of the",
+   "bbox": [
+    314,
+    1226,
+    1539,
+    1292
+   ]
+  },
+  {
+   "text": "human society where man has achieved marvels - space",
+   "bbox": [
+    311,
+    1280,
+    1535,
+    1342
+   ]
+  },
+  {
+   "text": "travel, television, radio etc. but has, at the same time invented",
+   "bbox": [
+    311,
+    1326,
+    1539,
+    1400
+   ]
+  },
+  {
+   "text": "atom bombs that can efface humanity from earth. More than",
+   "bbox": [
+    310,
+    1385,
+    1535,
+    1446
+   ]
+  },
+  {
+   "text": "intellect the present day civilization therefore needs the capac-",
+   "bbox": [
+    309,
+    1438,
+    1533,
+    1500
+   ]
+  },
+  {
+   "text": "ity for human sympathy and compassion signified by the",
+   "bbox": [
+    307,
+    1492,
+    1533,
+    1551
+   ]
+  },
+  {
+   "text": "planet Moon. Thus Mercury while retaining its qualities of",
+   "bbox": [
+    305,
+    1544,
+    1539,
+    1603
+   ]
+  },
+  {
+   "text": "brain signified by its own sign Virgo, has to imbibe the spirit of",
+   "bbox": [
+    307,
+    1595,
+    1537,
+    1659
+   ]
+  },
+  {
+   "text": "compassion and regard signified by the Moon's constellation of",
+   "bbox": [
+    304,
+    1648,
+    1534,
+    1711
+   ]
+  },
+  {
+   "text": "\"Hasta\" in order to be in its best.",
+   "bbox": [
+    307,
+    1701,
+    976,
+    1751
+   ]
+  },
+  {
+   "text": "Jupiter: This planet, as would be seen from the table, is",
+   "bbox": [
+    378,
+    1783,
+    1527,
+    1839
+   ]
+  },
+  {
+   "text": "exalted in the sign Cancer and in a constellation belonging to",
+   "bbox": [
+    301,
+    1834,
+    1526,
+    1892
+   ]
+  },
+  {
+   "text": "the planet Saturn. Jupiter is the planet of plenty. It is",
+   "bbox": [
+    301,
+    1884,
+    1526,
+    1947
+   ]
+  },
+  {
+   "text": "significator of wealth of which he has more than plenty. He",
+   "bbox": [
+    299,
+    1936,
+    1525,
+    1999
+   ]
+  },
+  {
+   "text": "does not need wealth for his excellence. Too much of wealth",
+   "bbox": [
+    298,
+    1990,
+    1523,
+    2048
+   ]
+  },
+  {
+   "text": "may corrupt him rather. He is a moral and spiritual planet.",
+   "bbox": [
+    298,
+    2041,
+    1520,
+    2105
+   ]
+  },
+  {
+   "text": "He rather desires to rise above wealth and attain to",
+   "bbox": [
+    298,
+    2095,
+    1522,
+    2154
+   ]
+  },
+  {
+   "text": "“Samadhi”.",
+   "bbox": [
+    302,
+    2151,
+    531,
+    2187
+   ]
+  },
+  {
+   "text": "The constellations falling in the degrees of exaltation and",
+   "bbox": [
+    373,
+    2226,
+    1523,
+    2284
+   ]
+  },
+  {
+   "text": "the lords (planets) are also shown in the table below for refer-",
+   "bbox": [
+    297,
+    2277,
+    1517,
+    2336
+   ]
+  }
+ ]
+}

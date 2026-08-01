@@ -1,0 +1,317 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0018",
+ "book_id": "brihat-jataka",
+ "seq": 18,
+ "source_ref": {
+  "pdf_page": 9,
+  "half": "b",
+  "v1_page": "s009b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "440fce0d909c2da99b5b858d8b48c996f490fc20f65f03e5d841724e87338116",
+ "lines": [
+  {
+   "text": "On Signs",
+   "bbox": [
+    285,
+    184,
+    475,
+    224
+   ]
+  },
+  {
+   "text": "15",
+   "bbox": [
+    1435,
+    184,
+    1497,
+    219
+   ]
+  },
+  {
+   "text": "The ends of Cancer, Scorpio and Pisces are called",
+   "bbox": [
+    360,
+    286,
+    1497,
+    325
+   ]
+  },
+  {
+   "text": "\"Sandhies\" or junction points. These are points where a sign",
+   "bbox": [
+    285,
+    334,
+    1496,
+    381
+   ]
+  },
+  {
+   "text": "and a constellation end simultaneously. The end of Cancer is",
+   "bbox": [
+    287,
+    390,
+    1496,
+    428
+   ]
+  },
+  {
+   "text": "also the end of the constellation Ashlesha. The end of the sign",
+   "bbox": [
+    285,
+    443,
+    1497,
+    481
+   ]
+  },
+  {
+   "text": "Scorpio is also the end of the constellation Jyeshta. The end of",
+   "bbox": [
+    285,
+    494,
+    1500,
+    533
+   ]
+  },
+  {
+   "text": "Pisces is also the end of the constellation Revati.",
+   "bbox": [
+    285,
+    548,
+    1246,
+    582
+   ]
+  },
+  {
+   "text": "<i>Commentary:</i> Birth when the longitudes of the Ascendant",
+   "bbox": [
+    358,
+    627,
+    1497,
+    664
+   ]
+  },
+  {
+   "text": "and the Moon fall in these sandhies (or gandantas as they are",
+   "bbox": [
+    284,
+    678,
+    1496,
+    717
+   ]
+  },
+  {
+   "text": "called) is considered to be dangerous to life, as in that event the",
+   "bbox": [
+    284,
+    731,
+    1496,
+    769
+   ]
+  },
+  {
+   "text": "Ascendant and Moon each standing for the longevity of man",
+   "bbox": [
+    284,
+    784,
+    1496,
+    823
+   ]
+  },
+  {
+   "text": "gets weakened resulting in death, unless of course, the lagna",
+   "bbox": [
+    284,
+    834,
+    1496,
+    878
+   ]
+  },
+  {
+   "text": "and the Moon are strongly aspected by benefics.",
+   "bbox": [
+    284,
+    890,
+    1240,
+    929
+   ]
+  },
+  {
+   "text": "More than one Name for Signs",
+   "bbox": [
+    282,
+    993,
+    1078,
+    1033
+   ]
+  },
+  {
+   "text": "क्रियताबुरिजितुमकुलीरलेयपाथोनजूककौर्प्याख्या:।",
+   "bbox": [
+    355,
+    1065,
+    1051,
+    1123
+   ]
+  },
+  {
+   "text": "तौक्षिक आकोकेरो हृद्रोगश्चान्त्यभञ्चेत्थम् ।। 8 ।।",
+   "bbox": [
+    354,
+    1130,
+    1081,
+    1186
+   ]
+  },
+  {
+   "text": "Aries is called Kriya, Taurus is called Tavuri, Gemini is",
+   "bbox": [
+    356,
+    1230,
+    1497,
+    1269
+   ]
+  },
+  {
+   "text": "called Jitum, Cancer is called Kuleer, Leo is called Leya, Virgo",
+   "bbox": [
+    281,
+    1281,
+    1494,
+    1320
+   ]
+  },
+  {
+   "text": "is called Pathone, Libra is called Jook, Scorpio is called",
+   "bbox": [
+    279,
+    1335,
+    1496,
+    1373
+   ]
+  },
+  {
+   "text": "Kaurpya, Sagittarius is called Taukshik, Capricorn is called",
+   "bbox": [
+    279,
+    1387,
+    1494,
+    1427
+   ]
+  },
+  {
+   "text": "Aako keru, Acquaricus is called Hridroga and Pisces is called",
+   "bbox": [
+    279,
+    1439,
+    1496,
+    1479
+   ]
+  },
+  {
+   "text": "Antyabham.",
+   "bbox": [
+    279,
+    1493,
+    529,
+    1531
+   ]
+  },
+  {
+   "text": "\"Vargottam Defined\"",
+   "bbox": [
+    279,
+    1597,
+    828,
+    1638
+   ]
+  },
+  {
+   "text": "देष्क्राणहोरानवभागसंज्ञास्त्रिंशांशकद्वादशसंज्ञिताश्च",
+   "bbox": [
+    351,
+    1674,
+    1032,
+    1722
+   ]
+  },
+  {
+   "text": "क्षेत्रं च यद्यस्य स तस्य वर्गो होरेति लग्नं भवनस्य चार्द्धम् ।। 9 ।।",
+   "bbox": [
+    351,
+    1739,
+    1329,
+    1790
+   ]
+  },
+  {
+   "text": "Vargas ie the divisions of signs are (9) Dreshkan (Decante",
+   "bbox": [
+    353,
+    1835,
+    1493,
+    1875
+   ]
+  },
+  {
+   "text": "ie 1/3rd part of a sign). Hora (Half of a sign), Navamsha (1/9th",
+   "bbox": [
+    277,
+    1888,
+    1494,
+    1927
+   ]
+  },
+  {
+   "text": "part of a sign) Trimshamsha (1/30th part of a sign),",
+   "bbox": [
+    278,
+    1940,
+    1493,
+    1979
+   ]
+  },
+  {
+   "text": "Dwadashamsha (1/12th part of a sign). A planet located in a",
+   "bbox": [
+    278,
+    1992,
+    1494,
+    2032
+   ]
+  },
+  {
+   "text": "particular sign and having the varga also of the same sign is",
+   "bbox": [
+    278,
+    2041,
+    1491,
+    2087
+   ]
+  },
+  {
+   "text": "called \"Vargottam\". The term \"Hora\" means Ascendant as well",
+   "bbox": [
+    277,
+    2097,
+    1491,
+    2135
+   ]
+  },
+  {
+   "text": "as the half of any sign (half of 30 degrees).",
+   "bbox": [
+    276,
+    2146,
+    1127,
+    2188
+   ]
+  }
+ ]
+}

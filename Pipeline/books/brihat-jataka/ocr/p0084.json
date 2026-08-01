@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0084",
+ "book_id": "brihat-jataka",
+ "seq": 84,
+ "source_ref": {
+  "pdf_page": 42,
+  "half": "b",
+  "v1_page": "s042b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "c4cc4d4b0cdd097fe2f4dd793c5149f926731887d90253b5afc359947ccfea3b",
+ "lines": [
+  {
+   "text": "<b>Ruling and Sub Ruling Periods</b>",
+   "bbox": [
+    277,
+    260,
+    910,
+    302
+   ]
+  },
+  {
+   "text": "dence in the matter.",
+   "bbox": [
+    278,
+    364,
+    679,
+    399
+   ]
+  },
+  {
+   "text": "एकर्कगोर्ज्द्धमपहत्य ददाति तु स्वं",
+   "bbox": [
+    349,
+    439,
+    826,
+    489
+   ]
+  },
+  {
+   "text": "त्र्यंशं त्रिकोणगृहगः स्मरगः स्वरांशम्।",
+   "bbox": [
+    349,
+    500,
+    895,
+    553
+   ]
+  },
+  {
+   "text": "पादं फलस्य चतुरस्रगत: सहोरा",
+   "bbox": [
+    346,
+    565,
+    809,
+    620
+   ]
+  },
+  {
+   "text": "स्त्वेवं परस्परगता: परिपाचयन्ति।। 3।।",
+   "bbox": [
+    347,
+    631,
+    917,
+    678
+   ]
+  },
+  {
+   "text": "A planet located with the dasa lord takes half of the period",
+   "bbox": [
+    347,
+    728,
+    1487,
+    768
+   ]
+  },
+  {
+   "text": "of dasa lord and shows it as its sub-period, a planet in 5th or",
+   "bbox": [
+    276,
+    778,
+    1488,
+    822
+   ]
+  },
+  {
+   "text": "9th from the dasa lord has 1/3rd of the period of dasa as its sub",
+   "bbox": [
+    276,
+    831,
+    1487,
+    875
+   ]
+  },
+  {
+   "text": "period. A planet 7th from the dasa lord has 1/7th of the period",
+   "bbox": [
+    276,
+    886,
+    1486,
+    925
+   ]
+  },
+  {
+   "text": "of the dasa lord as its sub-period. A planet in 4th or 8th from",
+   "bbox": [
+    276,
+    938,
+    1487,
+    979
+   ]
+  },
+  {
+   "text": "the dasa lord has 1/4th of the dasa lord's period as its",
+   "bbox": [
+    276,
+    989,
+    1486,
+    1033
+   ]
+  },
+  {
+   "text": "sub-period. Thus planets including the lagna have their sub-",
+   "bbox": [
+    276,
+    1045,
+    1487,
+    1084
+   ]
+  },
+  {
+   "text": "periods. In case there are more than one planets in a house,",
+   "bbox": [
+    276,
+    1097,
+    1487,
+    1137
+   ]
+  },
+  {
+   "text": "the strongest of them all alone will have its sub-period. The",
+   "bbox": [
+    276,
+    1149,
+    1484,
+    1188
+   ]
+  },
+  {
+   "text": "order of the sub-periods will be - first the dasa lord, then the",
+   "bbox": [
+    276,
+    1197,
+    1486,
+    1243
+   ]
+  },
+  {
+   "text": "one with it, next 7th one in 5th or 9th from it, then the one in",
+   "bbox": [
+    275,
+    1253,
+    1486,
+    1292
+   ]
+  },
+  {
+   "text": "7th from it and last of all the planet in 4th or 8th from the dasa",
+   "bbox": [
+    275,
+    1307,
+    1489,
+    1346
+   ]
+  },
+  {
+   "text": "lord.",
+   "bbox": [
+    272,
+    1361,
+    371,
+    1395
+   ]
+  },
+  {
+   "text": "स्थानान्यथैतानि सवर्णयित्वा सर्वाण्यधश्छेदविवर्जितानि।",
+   "bbox": [
+    345,
+    1431,
+    1131,
+    1479
+   ]
+  },
+  {
+   "text": "दशाब्दपिण्डे गुणका यथांशं छेदस्तदैक्यैन दशाप्रभेद:।। 4।।",
+   "bbox": [
+    345,
+    1496,
+    1206,
+    1549
+   ]
+  },
+  {
+   "text": "Having determined the fractions of the main ruling period",
+   "bbox": [
+    347,
+    1595,
+    1486,
+    1634
+   ]
+  },
+  {
+   "text": "for the various planets located in the houses enumerated",
+   "bbox": [
+    270,
+    1648,
+    1484,
+    1687
+   ]
+  },
+  {
+   "text": "with reference to the dasa lord, their proportion of the main",
+   "bbox": [
+    270,
+    1698,
+    1483,
+    1742
+   ]
+  },
+  {
+   "text": "ruling periods should be worked out. These will be their sub-",
+   "bbox": [
+    272,
+    1752,
+    1486,
+    1791
+   ]
+  },
+  {
+   "text": "periods.",
+   "bbox": [
+    272,
+    1807,
+    432,
+    1844
+   ]
+  },
+  {
+   "text": "Commentary: Suppose a planet has six years as the period of",
+   "bbox": [
+    350,
+    1883,
+    1489,
+    1923
+   ]
+  },
+  {
+   "text": "its dasa (main) and there is a planet located with it in the same",
+   "bbox": [
+    270,
+    1936,
+    1482,
+    1975
+   ]
+  },
+  {
+   "text": "sign but not in the stipulated houses, their respective portions",
+   "bbox": [
+    272,
+    1988,
+    1483,
+    2028
+   ]
+  },
+  {
+   "text": "will be denoted by the fractions 1/1 and 1/2. Each multiplied by",
+   "bbox": [
+    272,
+    2040,
+    1482,
+    2081
+   ]
+  },
+  {
+   "text": "2, the denominator gives 2 and 1. Hence the main dasa lord",
+   "bbox": [
+    270,
+    2094,
+    1482,
+    2133
+   ]
+  },
+  {
+   "text": "will have 2/3rd and the sub-period lord 1/3rd of the whole",
+   "bbox": [
+    270,
+    2145,
+    1483,
+    2185
+   ]
+  },
+  {
+   "text": "period of the dasa lord.",
+   "bbox": [
+    270,
+    2200,
+    735,
+    2238
+   ]
+  },
+  {
+   "text": "(ii) If there is a planet in the 5th or 9th from the dasa lord",
+   "bbox": [
+    346,
+    2277,
+    1483,
+    2316
+   ]
+  },
+  {
+   "text": "and there are no planets in the other stipulated houses, the",
+   "bbox": [
+    269,
+    2329,
+    1480,
+    2368
+   ]
+  }
+ ]
+}

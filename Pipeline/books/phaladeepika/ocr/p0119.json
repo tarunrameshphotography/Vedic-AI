@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0119",
+ "book_id": "phaladeepika",
+ "seq": 119,
+ "source_ref": {
+  "pdf_page": 119
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "0c4b760f7106c2a5658c59b1138fc61e1f6540a3bc8b288e4206c092b3fd4427",
+ "lines": [
+  {
+   "text": "be repining.",
+   "bbox": [
+    85,
+    57,
+    152,
+    73
+   ]
+  },
+  {
+   "text": "If the Moon or Lagna, whichever is stronger, be in Cancer, in the trimsamsa ",
+   "bbox": [
+    121,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "of Mars she will be self willed and uncontrolled, in the trimsamsa of Saturn she ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "will kill her husband, in the trimsamsa of Jupiter, she will be endowed with ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "distinguished qualities, in the trimsamsa of Mercury, she will be skilled in arts and ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "in the trimsamsa of Venus, she will be full of virtues.",
+   "bbox": [
+    85,
+    178,
+    381,
+    194
+   ]
+  },
+  {
+   "text": "If the Moon or the Lagna, whichever is stronger, be in Sagittarius or Pisces ",
+   "bbox": [
+    121,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "in the trimsamsa of Mars, she will be maid servant, in the trimsamsa of Saturn she ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "will be enamoured of persons other than her husband. In the trimsamsa of Jupiter ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "she will possess many good qualities, in the trimsamsa of Saturn she will have ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "little desire for sexual intercourse, in the trimsamsa of Jupiter, she will be endowed ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "with many good qualities, in the trimsamsa of Mercury she will be skilled in the ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "arts, and in the trimsamsa of Venus she will be very chaste.",
+   "bbox": [
+    85,
+    347,
+    416,
+    363
+   ]
+  },
+  {
+   "text": "If the Moon or the Lagna, whichever is stronger, be in the Capricorn or ",
+   "bbox": [
+    121,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "Aquarius, in the trimsamsa of Mars, she will be a maid servant; in the trimsamsa of ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "Saturn, she will be enamoured of persons other than her husband; in the trimsamsa ",
+   "bbox": [
+    85,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "of Jupiter, she will keep her husband under her control; in the trimsamsa of ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "Mercury she will be unchaste and in the trimsamsa of Venus she will be issueless ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "and poor.",
+   "bbox": [
+    85,
+    492,
+    137,
+    508
+   ]
+  },
+  {
+   "text": "If the Moon or the Lagna, whichever is stronger, be in Leo, in the trimsamsa ",
+   "bbox": [
+    121,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "of Mars she will be a wicked wife; in the trimsamsa of Saturn she will be without ",
+   "bbox": [
+    85,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "any character; in the trimsamsa of Jupiter she will be wife of king or landlord; in ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "the trimsamsa of Mercury she will be masculine in her behaviour and in the ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "trimsamsa of Venus she will have attachment for a person other than her husband.",
+   "bbox": [
+    85,
+    613,
+    543,
+    628
+   ]
+  },
+  {
+   "text": "9. The elder brother of the husband, the mother-in-law, father-in-law and ",
+   "bbox": [
+    121,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "younger brother will die (soon after the marriage), if the girl is born in Jyestha, ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "Ashlesha, Moola and Vishakha nakshatras respectively.",
+   "bbox": [
+    85,
+    685,
+    395,
+    701
+   ]
+  },
+  {
+   "text": "The girls born in Chitra, Ardra, Satabhisha, Jyestha, Moola, Kritika or ",
+   "bbox": [
+    121,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "Pushyami nakshatras will become, barrens, widows, mothers whose children do ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "not survive, cast away by husbands or poor.",
+   "bbox": [
+    85,
+    758,
+    330,
+    773
+   ]
+  },
+  {
+   "text": "119",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

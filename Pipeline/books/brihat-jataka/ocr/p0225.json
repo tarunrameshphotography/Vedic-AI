@@ -1,0 +1,344 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0225",
+ "book_id": "brihat-jataka",
+ "seq": 225,
+ "source_ref": {
+  "pdf_page": 113,
+  "half": "a",
+  "v1_page": "s113a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "969961f328a5210d5fc3a031e7bd59de321cb4cf6429b3a9a4cb3c90c621d426",
+ "lines": [
+  {
+   "text": "RAHU-KETU, The Mystic Axis",
+   "bbox": [
+    331,
+    157,
+    1470,
+    225
+   ]
+  },
+  {
+   "text": "-D.P. Saxena",
+   "bbox": [
+    1214,
+    249,
+    1517,
+    285
+   ]
+  },
+  {
+   "text": "As the names suggest Rahu-Ketu are the two parts of",
+   "bbox": [
+    364,
+    303,
+    1516,
+    350
+   ]
+  },
+  {
+   "text": "the python that horrifies every one on our planet earth.",
+   "bbox": [
+    289,
+    358,
+    1515,
+    405
+   ]
+  },
+  {
+   "text": "Rahu-Ketu invigorate the energies of the houses for the good",
+   "bbox": [
+    290,
+    412,
+    1517,
+    462
+   ]
+  },
+  {
+   "text": "or bad they are placed in the Natal Chart. They are actually",
+   "bbox": [
+    289,
+    471,
+    1518,
+    517
+   ]
+  },
+  {
+   "text": "the points of soul magnetism, who by their placement show",
+   "bbox": [
+    289,
+    527,
+    1515,
+    575
+   ]
+  },
+  {
+   "text": "how the force of past Karmas furthers the cycle of life",
+   "bbox": [
+    289,
+    582,
+    1516,
+    629
+   ]
+  },
+  {
+   "text": "process by pulling it towards the future. The planets ruling",
+   "bbox": [
+    289,
+    639,
+    1518,
+    687
+   ]
+  },
+  {
+   "text": "the signs of Rahu Ketu axis are called the Karmik Control",
+   "bbox": [
+    289,
+    697,
+    1514,
+    743
+   ]
+  },
+  {
+   "text": "Planets. The sign of Ketu represents the incoming from past",
+   "bbox": [
+    289,
+    752,
+    1515,
+    800
+   ]
+  },
+  {
+   "text": "lives or Karmik control. The planet ruling the sign of Rahu",
+   "bbox": [
+    289,
+    809,
+    1514,
+    857
+   ]
+  },
+  {
+   "text": "shows how the Karmik distribution in this life will occured.",
+   "bbox": [
+    290,
+    867,
+    1512,
+    907
+   ]
+  },
+  {
+   "text": "Besides this Rahu-Ketu also form Raja yoga combinations.",
+   "bbox": [
+    289,
+    924,
+    1512,
+    970
+   ]
+  },
+  {
+   "text": "The present work is the most comprehensive treatise for",
+   "bbox": [
+    289,
+    977,
+    1512,
+    1028
+   ]
+  },
+  {
+   "text": "interpretation of Rahu Ketu. The work is enriched by",
+   "bbox": [
+    284,
+    1035,
+    1514,
+    1082
+   ]
+  },
+  {
+   "text": "practical example horoscopes.",
+   "bbox": [
+    287,
+    1090,
+    930,
+    1141
+   ]
+  },
+  {
+   "text": "Rs. 150/-",
+   "bbox": [
+    1305,
+    1154,
+    1505,
+    1190
+   ]
+  },
+  {
+   "text": "<b>Planetary Combinations</b>",
+   "bbox": [
+    427,
+    1210,
+    1362,
+    1286
+   ]
+  },
+  {
+   "text": "in Astrology",
+   "bbox": [
+    574,
+    1310,
+    1214,
+    1391
+   ]
+  },
+  {
+   "text": "-Prof. O.P. Verma",
+   "bbox": [
+    1112,
+    1410,
+    1512,
+    1446
+   ]
+  },
+  {
+   "text": "Combinations of various planets form the essence of",
+   "bbox": [
+    362,
+    1461,
+    1511,
+    1512
+   ]
+  },
+  {
+   "text": "predictive astrology as practised in India. The Yogas or",
+   "bbox": [
+    284,
+    1516,
+    1511,
+    1563
+   ]
+  },
+  {
+   "text": "planetary combinations speak about the inherited physical",
+   "bbox": [
+    286,
+    1570,
+    1515,
+    1618
+   ]
+  },
+  {
+   "text": "and psychological tendencies which manifest as success or",
+   "bbox": [
+    284,
+    1624,
+    1512,
+    1673
+   ]
+  },
+  {
+   "text": "failure in life. Combinations get modified by the aspects of",
+   "bbox": [
+    284,
+    1680,
+    1512,
+    1728
+   ]
+  },
+  {
+   "text": "various planets and different signs in which various Yogas",
+   "bbox": [
+    284,
+    1731,
+    1512,
+    1784
+   ]
+  },
+  {
+   "text": "or planetary combinations fall in.",
+   "bbox": [
+    283,
+    1789,
+    994,
+    1836
+   ]
+  },
+  {
+   "text": "A large number of horoscopes from real life has been",
+   "bbox": [
+    362,
+    1845,
+    1514,
+    1891
+   ]
+  },
+  {
+   "text": "given to felicitate the reader in comprehending the intrinsic",
+   "bbox": [
+    284,
+    1899,
+    1511,
+    1946
+   ]
+  },
+  {
+   "text": "character of the combination. Various citations from",
+   "bbox": [
+    284,
+    1952,
+    1512,
+    1998
+   ]
+  },
+  {
+   "text": "western astrology will further the knowledge of the reader.",
+   "bbox": [
+    283,
+    2009,
+    1511,
+    2056
+   ]
+  },
+  {
+   "text": "The book contains general Yogas as well the Yogas that",
+   "bbox": [
+    284,
+    2063,
+    1512,
+    2112
+   ]
+  },
+  {
+   "text": "pertain to the 12 houses of the horoscope. An enlightening",
+   "bbox": [
+    284,
+    2118,
+    1512,
+    2166
+   ]
+  },
+  {
+   "text": "Treaties of its kind.",
+   "bbox": [
+    286,
+    2175,
+    690,
+    2213
+   ]
+  },
+  {
+   "text": "Rs. 150/-",
+   "bbox": [
+    1303,
+    2228,
+    1507,
+    2272
+   ]
+  }
+ ]
+}

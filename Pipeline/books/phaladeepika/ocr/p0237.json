@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0237",
+ "book_id": "phaladeepika",
+ "seq": 237,
+ "source_ref": {
+  "pdf_page": 237
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "d8efd7ee5035a06faabcc26f1980d2985f3ed166bf077ee2b33c6a83020de75f",
+ "lines": [
+  {
+   "text": "the number of benefic bindus be less than that in each of the remaining two, or ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "equal to that in each of the other two or be zero, the same will have to be ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "substracted from the number of benefic bindus in each of the three signs of the ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "group chosen.",
+   "bbox": [
+    85,
+    130,
+    164,
+    145
+   ]
+  },
+  {
+   "text": "(2) If a sign in a triangular group has the least number of bindus, the other ",
+   "bbox": [
+    121,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "two signs must have their benefic bindus altered into this least number. If a sign ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "has no benefic bindus, the remaining signs of the same group will keep their ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "figures unaltered. If all the signs of a triangular group have the same number of ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "benefic bindus they must all be removed (i.e., replaced by zero).",
+   "bbox": [
+    85,
+    251,
+    445,
+    266
+   ]
+  },
+  {
+   "text": "<b>Ekadhipatya Sodhana</b>",
+   "bbox": [
+    121,
+    275,
+    254,
+    290
+   ]
+  },
+  {
+   "text": "18. Ekadhipatya sodhana should be undertaken after carrying out the trikona ",
+   "bbox": [
+    121,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "sodhana. When both the houses owned by a planet contain benefic bindus, then ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "only this rectification would be called for.",
+   "bbox": [
+    85,
+    347,
+    320,
+    363
+   ]
+  },
+  {
+   "text": "19. Of the two signs having a common lord, if one alone be occupied and ",
+   "bbox": [
+    121,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "contain a less number of benefic bindus than the number in the other, the figure in ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "the latter is to be made equal to the former.",
+   "bbox": [
+    85,
+    420,
+    325,
+    435
+   ]
+  },
+  {
+   "text": "20. If one of the two signs owned by the same planet be occupied and has ",
+   "bbox": [
+    121,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "more benefic bindus than the other, remove the figure in the latter. If two signs ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "only one of which is occupied, contain the same number of benefic bindus, the ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "figure in the unoccupied sign should be removed.",
+   "bbox": [
+    85,
+    516,
+    362,
+    532
+   ]
+  },
+  {
+   "text": "21. If both the signs owned by a planet be unoccupied and have the same ",
+   "bbox": [
+    121,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "number of benefic bindus, the figures of both should be removed. If both the signs ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "owned by a planet, be occupied by planets, no rectification will be necessary.",
+   "bbox": [
+    85,
+    589,
+    517,
+    604
+   ]
+  },
+  {
+   "text": "22. No rectification is called for if one of the two signs (whether occupied or ",
+   "bbox": [
+    121,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "unoccupied), contain no benefic dots. If both the signs be unoccupied and have an ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "unequal number of benefic bindus the greater figure is to be replaced by the lesser ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "one.",
+   "bbox": [
+    85,
+    685,
+    109,
+    701
+   ]
+  },
+  {
+   "text": "23. The net figure after the two rectifications in the several signs are ",
+   "bbox": [
+    121,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "required to be multiplied each into its sign factors (Rasi mana). The net figures in ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "the signs that are associated with the Sun and other planets are to be multiplied by ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "237",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

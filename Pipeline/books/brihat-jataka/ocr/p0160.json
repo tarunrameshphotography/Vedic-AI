@@ -1,0 +1,245 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0160",
+ "book_id": "brihat-jataka",
+ "seq": 160,
+ "source_ref": {
+  "pdf_page": 80,
+  "half": "b",
+  "v1_page": "s080b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "c6cbc546a2fc7ceee4c968a6ed6ebfaa8e8ff8a17f8d624fbaa874fe5b9a56c7",
+ "lines": [
+  {
+   "text": "21",
+   "bbox": [
+    764,
+    496,
+    845,
+    551
+   ]
+  },
+  {
+   "text": "आश्रययोगाध्यायः",
+   "bbox": [
+    645,
+    650,
+    968,
+    700
+   ]
+  },
+  {
+   "text": "<b>Planets in Vargas</b>",
+   "bbox": [
+    445,
+    718,
+    1172,
+    808
+   ]
+  },
+  {
+   "text": "कुलसमकुलमुख्यबन्धुपूज्याधनिसुखिभोगिनृपा: स्वभैकवृद्धचा।",
+   "bbox": [
+    280,
+    956,
+    1160,
+    1051
+   ]
+  },
+  {
+   "text": "परविभवसुहत्स्वबन्धुपोष्या गणपबलेशनृपाश्च मित्रभेषु ।। 1।।",
+   "bbox": [
+    282,
+    1026,
+    1139,
+    1102
+   ]
+  },
+  {
+   "text": "If only one of the planets is located in its own sign the",
+   "bbox": [
+    285,
+    1112,
+    1429,
+    1193
+   ]
+  },
+  {
+   "text": "native has the status only of the family in which he is born. If",
+   "bbox": [
+    212,
+    1168,
+    1432,
+    1241
+   ]
+  },
+  {
+   "text": "two planets are so located (in dignity), one is promi-",
+   "bbox": [
+    213,
+    1223,
+    1430,
+    1294
+   ]
+  },
+  {
+   "text": "nent amongst his own relatives. If three planets are in dignity",
+   "bbox": [
+    212,
+    1275,
+    1431,
+    1347
+   ]
+  },
+  {
+   "text": "one is respected by his relatives. If four planets are in dignity",
+   "bbox": [
+    215,
+    1326,
+    1432,
+    1401
+   ]
+  },
+  {
+   "text": "one is rich. If five are in dignity one leads a happy life. If",
+   "bbox": [
+    215,
+    1381,
+    1436,
+    1454
+   ]
+  },
+  {
+   "text": "six planets are in dignity one is almost like a king and if",
+   "bbox": [
+    217,
+    1433,
+    1439,
+    1508
+   ]
+  },
+  {
+   "text": "seven are in dignity he is actually a king (and wields ruling",
+   "bbox": [
+    217,
+    1483,
+    1439,
+    1563
+   ]
+  },
+  {
+   "text": "powers).",
+   "bbox": [
+    218,
+    1566,
+    392,
+    1610
+   ]
+  },
+  {
+   "text": "(ii) If there is only one planet in a friendly sign one lives",
+   "bbox": [
+    292,
+    1616,
+    1439,
+    1690
+   ]
+  },
+  {
+   "text": "on the wealth of others. If two, he is helped by friends, if three",
+   "bbox": [
+    219,
+    1668,
+    1439,
+    1744
+   ]
+  },
+  {
+   "text": "gets help from his relatives, if four he is helped by his brothers,",
+   "bbox": [
+    220,
+    1721,
+    1440,
+    1797
+   ]
+  },
+  {
+   "text": "if five he has sway over a group of people, if six planets occupy",
+   "bbox": [
+    222,
+    1775,
+    1443,
+    1849
+   ]
+  },
+  {
+   "text": "their friendly signs he is a commander of the armies and if",
+   "bbox": [
+    222,
+    1827,
+    1446,
+    1903
+   ]
+  },
+  {
+   "text": "there are seven such planets the native becomes a king (ie has",
+   "bbox": [
+    224,
+    1880,
+    1446,
+    1955
+   ]
+  },
+  {
+   "text": "highest status).",
+   "bbox": [
+    226,
+    1958,
+    540,
+    2002
+   ]
+  },
+  {
+   "text": "जनयति नृपमेकोऽप्युच्चगो मित्रदृष्ट:",
+   "bbox": [
+    303,
+    2029,
+    820,
+    2087
+   ]
+  },
+  {
+   "text": "प्रचुरधनसमेतं मित्रयोगाश्च सिद्धम्।",
+   "bbox": [
+    303,
+    2084,
+    819,
+    2156
+   ]
+  },
+  {
+   "text": "विधनविसुखमूढव्याधितो बन्धतप्तो",
+   "bbox": [
+    304,
+    2156,
+    808,
+    2217
+   ]
+  },
+  {
+   "text": "वधदुरितसमेत: शत्रुनीचक्षीगेषु ।। 211",
+   "bbox": [
+    306,
+    2223,
+    834,
+    2282
+   ]
+  }
+ ]
+}

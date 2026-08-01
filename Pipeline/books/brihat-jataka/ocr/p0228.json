@@ -1,0 +1,200 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0228",
+ "book_id": "brihat-jataka",
+ "seq": 228,
+ "source_ref": {
+  "pdf_page": 114,
+  "half": "b",
+  "v1_page": "s114b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "669b6b9c2380c87656a998a0e0901b304c00ebab6c47c66ef9f8b55a4b87de39",
+ "lines": [
+  {
+   "text": "About the Author",
+   "bbox": [
+    788,
+    334,
+    1326,
+    407
+   ]
+  },
+  {
+   "text": "Prof P.S. Sastri M.A. Ph.D. D.Litt",
+   "bbox": [
+    729,
+    458,
+    1465,
+    518
+   ]
+  },
+  {
+   "text": "born on 22nd January 1920 is an M.A. in",
+   "bbox": [
+    659,
+    520,
+    1463,
+    581
+   ]
+  },
+  {
+   "text": "English, Sanskrit, Telugu and Philosophy,",
+   "bbox": [
+    661,
+    581,
+    1463,
+    642
+   ]
+  },
+  {
+   "text": "has Ph.D degrees in Rigveda, aesthetics and",
+   "bbox": [
+    661,
+    642,
+    1465,
+    704
+   ]
+  },
+  {
+   "text": "coleridge and D.Litt in Indian Philosophy.",
+   "bbox": [
+    662,
+    704,
+    1428,
+    765
+   ]
+  },
+  {
+   "text": "Formerly a Professor and Head of the",
+   "bbox": [
+    736,
+    766,
+    1467,
+    825
+   ]
+  },
+  {
+   "text": "Department of English, University of",
+   "bbox": [
+    665,
+    829,
+    1472,
+    888
+   ]
+  },
+  {
+   "text": "Nagpur (Retired 1980) and was president",
+   "bbox": [
+    664,
+    889,
+    1472,
+    951
+   ]
+  },
+  {
+   "text": "All India Teachers Conference Varanasi",
+   "bbox": [
+    665,
+    952,
+    1469,
+    1007
+   ]
+  },
+  {
+   "text": "(1950). He authored nearly Sixty Books on",
+   "bbox": [
+    665,
+    1013,
+    1470,
+    1073
+   ]
+  },
+  {
+   "text": "literature and Philosophy, English and",
+   "bbox": [
+    670,
+    1075,
+    1473,
+    1135
+   ]
+  },
+  {
+   "text": "Telugu. He translated Astrological classics",
+   "bbox": [
+    670,
+    1136,
+    1473,
+    1196
+   ]
+  },
+  {
+   "text": "and authored works like:-",
+   "bbox": [
+    673,
+    1205,
+    1139,
+    1254
+   ]
+  },
+  {
+   "text": "* Jaimini Sutram",
+   "bbox": [
+    679,
+    1298,
+    1001,
+    1339
+   ]
+  },
+  {
+   "text": "* Uttara Kalamrita",
+   "bbox": [
+    681,
+    1374,
+    1043,
+    1411
+   ]
+  },
+  {
+   "text": "* Brihat Jataka ·",
+   "bbox": [
+    679,
+    1447,
+    995,
+    1489
+   ]
+  },
+  {
+   "text": "* Rectification of Birth Time",
+   "bbox": [
+    678,
+    1516,
+    1212,
+    1567
+   ]
+  },
+  {
+   "text": "* Secrets of Astakavarga",
+   "bbox": [
+    679,
+    1592,
+    1131,
+    1642
+   ]
+  },
+  {
+   "text": "* Text Book of Scientific Hindu Astrology",
+   "bbox": [
+    679,
+    1673,
+    1427,
+    1729
+   ]
+  }
+ ]
+}

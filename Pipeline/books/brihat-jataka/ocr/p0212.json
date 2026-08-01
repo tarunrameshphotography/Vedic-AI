@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0212",
+ "book_id": "brihat-jataka",
+ "seq": 212,
+ "source_ref": {
+  "pdf_page": 106,
+  "half": "b",
+  "v1_page": "s106b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "83869ba5a1811103463a234c9ca6ef65d9958468caeddf09a298665be547711d",
+ "lines": [
+  {
+   "text": "Drekkana",
+   "bbox": [
+    256,
+    233,
+    460,
+    267
+   ]
+  },
+  {
+   "text": "209",
+   "bbox": [
+    1386,
+    233,
+    1478,
+    266
+   ]
+  },
+  {
+   "text": "सूच्याश्रयं समभिवाञ्छति कर्म नारी रूपान्विताभरणकार्यकृतादरा च।",
+   "bbox": [
+    331,
+    331,
+    1307,
+    385
+   ]
+  },
+  {
+   "text": "हीनप्रजोच्छितभुजर्तुमती त्रिभाग माद्यं तृतीयभवनस्य वदन्ति तज्ज्ञा: ।। 7 ।।",
+   "bbox": [
+    331,
+    394,
+    1415,
+    450
+   ]
+  },
+  {
+   "text": "The first drekkana of Mithuna is a woman fond of needle",
+   "bbox": [
+    333,
+    490,
+    1478,
+    525
+   ]
+  },
+  {
+   "text": "work and ornaments. She is beautiful and without children.",
+   "bbox": [
+    256,
+    541,
+    1478,
+    577
+   ]
+  },
+  {
+   "text": "Her hands are lifted up and has attained puberty.",
+   "bbox": [
+    256,
+    592,
+    1258,
+    632
+   ]
+  },
+  {
+   "text": "उद्यानसंस्थ: कवची धनुष्माञ्छूरोऽस्त्रधारी गरुडाननश्च।",
+   "bbox": [
+    329,
+    667,
+    1103,
+    721
+   ]
+  },
+  {
+   "text": "क्रीडात्मजाऽलङ्करणार्थचिन्तां करोति मध्ये मिथुनस्य राशे:।। 8 ।।",
+   "bbox": [
+    328,
+    731,
+    1277,
+    784
+   ]
+  },
+  {
+   "text": "The second drekkana of Mithuna (ruled by Tula) is a man",
+   "bbox": [
+    332,
+    824,
+    1475,
+    868
+   ]
+  },
+  {
+   "text": "in an armour with a bow. He lives in a garden and is armed",
+   "bbox": [
+    253,
+    876,
+    1474,
+    917
+   ]
+  },
+  {
+   "text": "with weapons. He has a face like that of Garuda. He is fond of",
+   "bbox": [
+    256,
+    928,
+    1480,
+    968
+   ]
+  },
+  {
+   "text": "play, children, ornaments and wealth.",
+   "bbox": [
+    254,
+    975,
+    1018,
+    1022
+   ]
+  },
+  {
+   "text": "Notes: This is a masculine, bird drekkana.",
+   "bbox": [
+    327,
+    1055,
+    1176,
+    1095
+   ]
+  },
+  {
+   "text": "भूषितो वरुणवद्बहुरत्नो बद्धतूणकवच: सधनुष्क:।",
+   "bbox": [
+    328,
+    1131,
+    1057,
+    1184
+   ]
+  },
+  {
+   "text": "नृत्यवादितकलासु च विद्वान् काव्यकृत्मिथुनराश्यवसाने।। 9 ।।",
+   "bbox": [
+    327,
+    1194,
+    1233,
+    1249
+   ]
+  },
+  {
+   "text": "The third drekkana of Mithuna is a man ornamented,",
+   "bbox": [
+    328,
+    1291,
+    1477,
+    1330
+   ]
+  },
+  {
+   "text": "having gems and is armoured with bow and arrows. He is",
+   "bbox": [
+    252,
+    1342,
+    1474,
+    1381
+   ]
+  },
+  {
+   "text": "skilled in dancing, drumming and arts. He is a poet.",
+   "bbox": [
+    252,
+    1393,
+    1302,
+    1432
+   ]
+  },
+  {
+   "text": "पत्रमूलफलभृद्द्विपकाय: कानने मलयग: शरभाङ्घ्र:।",
+   "bbox": [
+    325,
+    1467,
+    1099,
+    1519
+   ]
+  },
+  {
+   "text": "क्रोडतुल्यवदनो हयकण्ठ: कर्कटे प्रथमरूपमुशन्ति।। 10 ।।",
+   "bbox": [
+    324,
+    1530,
+    1196,
+    1584
+   ]
+  },
+  {
+   "text": "The first drekkana of Karka is a man having fruits, roots",
+   "bbox": [
+    327,
+    1623,
+    1474,
+    1670
+   ]
+  },
+  {
+   "text": "and leaves. He has the body of an elephant. He resides in",
+   "bbox": [
+    250,
+    1679,
+    1471,
+    1719
+   ]
+  },
+  {
+   "text": "sandal trees in the forest. His legs are like those of Sarabha",
+   "bbox": [
+    251,
+    1728,
+    1471,
+    1770
+   ]
+  },
+  {
+   "text": "and neck like that of a horse.",
+   "bbox": [
+    252,
+    1779,
+    842,
+    1815
+   ]
+  },
+  {
+   "text": "पद्मार्चिता मूर्द्धनि भोगियुक्ता स्त्रीकर्कशाऽरण्यगता विरौति।",
+   "bbox": [
+    321,
+    1855,
+    1158,
+    1907
+   ]
+  },
+  {
+   "text": "शाखां पलाशस्य समाश्रिता च मध्ये स्थिता कर्कटकस्य राशे:।। 11 ।।",
+   "bbox": [
+    324,
+    1921,
+    1357,
+    1968
+   ]
+  },
+  {
+   "text": "The second drekkana of Karka is a woman whose head is",
+   "bbox": [
+    322,
+    2014,
+    1471,
+    2050
+   ]
+  },
+  {
+   "text": "worshipped hy lotus flowers. She has serpents. She has full-",
+   "bbox": [
+    247,
+    2063,
+    1470,
+    2107
+   ]
+  },
+  {
+   "text": "blown youthfulness, lives in the forest on the branches of",
+   "bbox": [
+    247,
+    2115,
+    1474,
+    2155
+   ]
+  },
+  {
+   "text": "palasa trees. She is crying.",
+   "bbox": [
+    246,
+    2168,
+    790,
+    2207
+   ]
+  },
+  {
+   "text": "भार्याभरणार्थमर्णवं नौस्थो गच्छति सर्पवेष्टित:।",
+   "bbox": [
+    321,
+    2241,
+    992,
+    2288
+   ]
+  },
+  {
+   "text": "हेमैश्च युतो विभूषणैश्चिपिटास्योऽन्त्यगतश्च कर्कटे।। 12 ।।",
+   "bbox": [
+    318,
+    2308,
+    1149,
+    2361
+   ]
+  },
+  {
+   "text": "",
+   "bbox": [
+    834,
+    2401,
+    876,
+    2416
+   ]
+  }
+ ]
+}

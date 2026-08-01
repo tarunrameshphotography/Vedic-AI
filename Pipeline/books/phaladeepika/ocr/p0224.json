@@ -1,0 +1,387 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0224",
+ "book_id": "phaladeepika",
+ "seq": 224,
+ "source_ref": {
+  "pdf_page": 224
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "c99221b2d34395819da057d79478abb7ad35389e7c63205ec1634e6ba7988d79",
+ "lines": [
+  {
+   "text": "8. Venus is benefic is 8-11-12 places from the Sun, in 1-2-3-4-5-8-9-11-12 ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "places from the Moon, in 3-4-6-9-11-12 places from Mars, in 3-S-6-9-11 places ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "from Mercury, in 5-8-9-10-11 places from Jupiter, in 1-2-3-4-5-8-9-10-11 places ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "from himself, in 3-4-5-8-9-10-11 places from Saturn and in -2-3-4-5-8-9-11 places ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "from the Lagna.",
+   "bbox": [
+    85,
+    154,
+    175,
+    169
+   ]
+  },
+  {
+   "text": "Thus the total number of benefic bindus received by Venus is 52 as detailed ",
+   "bbox": [
+    121,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "below;",
+   "bbox": [
+    85,
+    202,
+    123,
+    218
+   ]
+  },
+  {
+   "text": "<b>Ashtakavarga of Venus</b>",
+   "bbox": [
+    121,
+    226,
+    260,
+    242
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    372,
+    256,
+    393,
+    271
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    244,
+    264,
+    265,
+    280
+   ]
+  },
+  {
+   "text": "0000",
+   "bbox": [
+    283,
+    264,
+    311,
+    280
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    329,
+    264,
+    350,
+    280
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    372,
+    272,
+    393,
+    288
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    244,
+    299,
+    265,
+    314
+   ]
+  },
+  {
+   "text": "00000",
+   "bbox": [
+    365,
+    307,
+    400,
+    322
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    244,
+    315,
+    265,
+    330
+   ]
+  },
+  {
+   "text": "L ",
+   "bbox": [
+    377,
+    341,
+    389,
+    357
+   ]
+  },
+  {
+   "text": "0000",
+   "bbox": [
+    241,
+    349,
+    269,
+    365
+   ]
+  },
+  {
+   "text": "00000",
+   "bbox": [
+    365,
+    357,
+    400,
+    373
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    244,
+    392,
+    265,
+    407
+   ]
+  },
+  {
+   "text": "0000 00000",
+   "bbox": [
+    283,
+    392,
+    357,
+    407
+   ]
+  },
+  {
+   "text": "0000",
+   "bbox": [
+    369,
+    392,
+    397,
+    407
+   ]
+  },
+  {
+   "text": "From the Sun 3, from the Moon 9, from Mars 6. from Mercury 5, from ",
+   "bbox": [
+    121,
+    445,
+    556,
+    461
+   ]
+  },
+  {
+   "text": "Jupiter 5, from himself 9. from Saturn 7 and from the Lagna 8.",
+   "bbox": [
+    85,
+    470,
+    436,
+    485
+   ]
+  },
+  {
+   "text": "<b>Saturn's Ashtakavarga</b>",
+   "bbox": [
+    121,
+    494,
+    259,
+    509
+   ]
+  },
+  {
+   "text": "00",
+   "bbox": [
+    248,
+    531,
+    262,
+    547
+   ]
+  },
+  {
+   "text": "00",
+   "bbox": [
+    290,
+    531,
+    304,
+    547
+   ]
+  },
+  {
+   "text": "0000",
+   "bbox": [
+    326,
+    531,
+    354,
+    547
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    372,
+    531,
+    393,
+    547
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    244,
+    574,
+    265,
+    589
+   ]
+  },
+  {
+   "text": "L 00 ",
+   "bbox": [
+    370,
+    608,
+    399,
+    624
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    244,
+    616,
+    265,
+    632
+   ]
+  },
+  {
+   "text": "00000",
+   "bbox": [
+    365,
+    624,
+    400,
+    640
+   ]
+  },
+  {
+   "text": "000 ",
+   "bbox": [
+    372,
+    651,
+    397,
+    666
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    287,
+    659,
+    308,
+    674
+   ]
+  },
+  {
+   "text": "0000",
+   "bbox": [
+    326,
+    659,
+    354,
+    674
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    372,
+    667,
+    393,
+    683
+   ]
+  },
+  {
+   "text": "9. Saturn is benefic in 1-2-4-7-8-10-11 places from the Sun, in 3-6-11 places ",
+   "bbox": [
+    121,
+    713,
+    556,
+    728
+   ]
+  },
+  {
+   "text": "from the Moon, in 3-5-6-10-11-12 places from Mars, in 6-8-9-10-11-12 places ",
+   "bbox": [
+    85,
+    737,
+    556,
+    752
+   ]
+  },
+  {
+   "text": "from Mercury, in 5-6-11-12 places from Jupiter, in 6-11-12 places from Venus, in ",
+   "bbox": [
+    85,
+    761,
+    556,
+    777
+   ]
+  },
+  {
+   "text": "224",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

@@ -1,0 +1,344 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0078",
+ "book_id": "brihat-jataka",
+ "seq": 78,
+ "source_ref": {
+  "pdf_page": 39,
+  "half": "b",
+  "v1_page": "s039b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "880c74889d837de6b238fe68fa9d28d8a63db68f75f81ed0a3e08d754d62043c",
+ "lines": [
+  {
+   "text": "Span of Life",
+   "bbox": [
+    308,
+    283,
+    555,
+    323
+   ]
+  },
+  {
+   "text": "75",
+   "bbox": [
+    1455,
+    285,
+    1518,
+    317
+   ]
+  },
+  {
+   "text": "elapsed in the lagna contributes as many years and the degree",
+   "bbox": [
+    308,
+    384,
+    1521,
+    423
+   ]
+  },
+  {
+   "text": "of the ascendant contribute a proportion of a year. The follow-",
+   "bbox": [
+    308,
+    436,
+    1519,
+    475
+   ]
+  },
+  {
+   "text": "ing further modifications are also necessary. With the excep-",
+   "bbox": [
+    308,
+    488,
+    1519,
+    527
+   ]
+  },
+  {
+   "text": "tion of a planet in retrogression all planets occupying an",
+   "bbox": [
+    308,
+    540,
+    1522,
+    580
+   ]
+  },
+  {
+   "text": "inimical sign lose one third of their maximum value. In case a",
+   "bbox": [
+    306,
+    591,
+    1519,
+    631
+   ]
+  },
+  {
+   "text": "planet has lost its lustre as a result of being combust (ie",
+   "bbox": [
+    308,
+    646,
+    1519,
+    685
+   ]
+  },
+  {
+   "text": "conjoined to Sun), it loses half of its stipulated value but as an",
+   "bbox": [
+    306,
+    698,
+    1519,
+    737
+   ]
+  },
+  {
+   "text": "exception when Venus or Saturn are combust they do not lose",
+   "bbox": [
+    306,
+    751,
+    1518,
+    791
+   ]
+  },
+  {
+   "text": "any thing in consequence.",
+   "bbox": [
+    306,
+    804,
+    823,
+    844
+   ]
+  },
+  {
+   "text": "सर्वार्द्धत्रिचरणपञ्चषष्ठभागाः क्षीयन्ते व्ययभवनादसत्सु वामम्।",
+   "bbox": [
+    375,
+    877,
+    1249,
+    930
+   ]
+  },
+  {
+   "text": "· सत्स्वर्द्धं हृसति तथैकराशिगानामेकोऽंशं हरति बली तथाह सत्य:।। 3।।",
+   "bbox": [
+    342,
+    943,
+    1403,
+    994
+   ]
+  },
+  {
+   "text": "A natural malefic planet located in the 12th house loses the",
+   "bbox": [
+    377,
+    1041,
+    1519,
+    1080
+   ]
+  },
+  {
+   "text": "whole of its number of years <math>(19, 25, 15 \\text{ etc})</math> for Sun etc",
+   "bbox": [
+    302,
+    1093,
+    1518,
+    1133
+   ]
+  },
+  {
+   "text": "respectively. One in the 11th house loses its half, one in 10th",
+   "bbox": [
+    302,
+    1145,
+    1516,
+    1185
+   ]
+  },
+  {
+   "text": "house loses its 1/3rd, one in the 9th house loses its one fourth,",
+   "bbox": [
+    303,
+    1196,
+    1515,
+    1237
+   ]
+  },
+  {
+   "text": "one in the 8th loses one fifth, and one located in the 7th house",
+   "bbox": [
+    302,
+    1251,
+    1516,
+    1290
+   ]
+  },
+  {
+   "text": "loses one sixth of its value in years. In case the planet located",
+   "bbox": [
+    302,
+    1301,
+    1516,
+    1345
+   ]
+  },
+  {
+   "text": "in any of the houses, 12th to 7th is a natural benefic, it loses",
+   "bbox": [
+    302,
+    1356,
+    1516,
+    1396
+   ]
+  },
+  {
+   "text": "only half ie <math>1/2</math>, <math>1/4</math>, <math>1/6</math>, <math>1/8</math>, <math>1/10</math>, <math>1/12</math> of its maximum value",
+   "bbox": [
+    302,
+    1408,
+    1515,
+    1448
+   ]
+  },
+  {
+   "text": "respectively in these houses. In case any one of these six",
+   "bbox": [
+    300,
+    1460,
+    1516,
+    1502
+   ]
+  },
+  {
+   "text": "houses is occupied by two or more than two planets, whether",
+   "bbox": [
+    301,
+    1514,
+    1515,
+    1554
+   ]
+  },
+  {
+   "text": "malefics or benefics or mixed ones, only one of them who is the",
+   "bbox": [
+    299,
+    1567,
+    1513,
+    1607
+   ]
+  },
+  {
+   "text": "strongest will lose as a malefic or a benefic. This is the opinion",
+   "bbox": [
+    299,
+    1619,
+    1513,
+    1658
+   ]
+  },
+  {
+   "text": "of Satyacharya. (A weak Moon and a Mercury conjoined to a",
+   "bbox": [
+    298,
+    1671,
+    1515,
+    1711
+   ]
+  },
+  {
+   "text": "malefic is normally considered as a malefic, but in this context:",
+   "bbox": [
+    298,
+    1724,
+    1528,
+    1763
+   ]
+  },
+  {
+   "text": "these two planets would be treated as natural benefics and",
+   "bbox": [
+    298,
+    1777,
+    1515,
+    1816
+   ]
+  },
+  {
+   "text": "would lose as benefics if placed in the stipulated houses).",
+   "bbox": [
+    297,
+    1826,
+    1430,
+    1872
+   ]
+  },
+  {
+   "text": "Malefic in Lagna",
+   "bbox": [
+    295,
+    1931,
+    738,
+    1973
+   ]
+  },
+  {
+   "text": "सार्द्धोदितोदितनवांशहतात्समस्ता-",
+   "bbox": [
+    368,
+    2008,
+    838,
+    2056
+   ]
+  },
+  {
+   "text": "द्धागोष्टयुक्तशतसङ्खचमुपैति नाशम्।",
+   "bbox": [
+    366,
+    2067,
+    886,
+    2130
+   ]
+  },
+  {
+   "text": "क्रूरे विलग्नसहिते विधिना त्वनेन",
+   "bbox": [
+    367,
+    2138,
+    851,
+    2190
+   ]
+  },
+  {
+   "text": "सौम्येक्षिते दलमत: प्रलयं प्रयाति।। 4।।",
+   "bbox": [
+    366,
+    2198,
+    949,
+    2255
+   ]
+  },
+  {
+   "text": "Count the complete whole number of navamshas in the",
+   "bbox": [
+    368,
+    2300,
+    1515,
+    2340
+   ]
+  },
+  {
+   "text": "lagna. (For example if the longitude of lagna is 8'-6°-50' the",
+   "bbox": [
+    290,
+    2352,
+    1512,
+    2393
+   ]
+  }
+ ]
+}

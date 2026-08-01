@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0213",
+ "book_id": "phaladeepika",
+ "seq": 213,
+ "source_ref": {
+  "pdf_page": 213
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "42392b9485c110c3da0197b4957c3e2661b0c579c0c53bbfb63fceedefd14aae",
+ "lines": [
+  {
+   "text": "nakshatra pada occupied by the Moon at the time of birth, being so much of the ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "sign Mahadasha as corresponds to the Ghatlkas that yet remain of the nakshatra ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "pada and the order of Mahadashas follows the natural order of the nakshatra pada ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "reckoned from the aforesaid one. This is the opinion, say the sages, held by some ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "learneds in Astrology.",
+   "bbox": [
+    85,
+    154,
+    207,
+    169
+   ]
+  },
+  {
+   "text": "11. There are number of formulas each composed of a number of mnemonic ",
+   "bbox": [
+    121,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "syllables, refering to the several nakshatra padas beginning with the first pada of ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "Aswini and giving signs in a certain order. It is with reference to the order of sign ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "in these formulas that the rasi Mahadashas of which a life is to consist should be ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "determined. The Vakyakrama, men of one school say, should be adhered to.",
+   "bbox": [
+    85,
+    275,
+    508,
+    290
+   ]
+  },
+  {
+   "text": "12. In the order of sign Vakyakrama, the function at the end of Cancer, ",
+   "bbox": [
+    121,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "Scorpio and Pisces give rise to (1) Manduka gati, (2) Aswa or Turaga gati and (3) ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "Simhavalokana respectively and the dasas of those intervals cause woeful effects.",
+   "bbox": [
+    85,
+    347,
+    542,
+    363
+   ]
+  },
+  {
+   "text": "13. The sub-period of any of the planets constituting a Mahadasha is thus ",
+   "bbox": [
+    121,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "obtained. Find out the mnemonic syllable (out of the nine syllables) composing a ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "formula whose sub-period is wanted and find out the owner of the sign signified by ",
+   "bbox": [
+    85,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "that syllable. Multiply the number of years assigned to this planet by the number of ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "years fixed for the planet whose Mahadasha is under consideration and divide the ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "product by the total of years constituting the entire Ayus of the formula chakra. The ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "quotient in years etc., will represent the sub-period required.",
+   "bbox": [
+    85,
+    516,
+    423,
+    532
+   ]
+  },
+  {
+   "text": "14. The total number of years indicated by the Sun of nine mnemonical ",
+   "bbox": [
+    121,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "syllables of any formula represent the number In years of Parama Ayus for that ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "formula. Thus the Parama Ayus in years for the 12 Rasiamsas reckoned from Aries ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "in an Apasavya Chakra will be 100, 85, 83, 86 repeated thrice while those for the ",
+   "bbox": [
+    85,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "12 Rasiamsas reckoned from Scorpio in a Savya Chakra will be the same but in the ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "reverse order, that is 86, 83, 85 and 100 repeated thrice.",
+   "bbox": [
+    85,
+    661,
+    396,
+    677
+   ]
+  },
+  {
+   "text": "<b>Utpanna, Adhana and Kshema Mahadashas</b>",
+   "bbox": [
+    121,
+    685,
+    385,
+    701
+   ]
+  },
+  {
+   "text": "15. Whatever effects have been declared by me in the case of several ",
+   "bbox": [
+    121,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "Mahadashas (dasas), the same should be stated by wise astrologer in the cases of ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "these dasas also.",
+   "bbox": [
+    85,
+    758,
+    177,
+    773
+   ]
+  },
+  {
+   "text": "213",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

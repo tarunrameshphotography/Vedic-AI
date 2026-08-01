@@ -1,0 +1,353 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0085",
+ "book_id": "brihat-jataka",
+ "seq": 85,
+ "source_ref": {
+  "pdf_page": 43,
+  "half": "a",
+  "v1_page": "s043a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "e7388e36f76e3b2af1bc5359d611090fb4c5170695022dd5b28e26e0d8888a26",
+ "lines": [
+  {
+   "text": "82",
+   "bbox": [
+    301,
+    232,
+    369,
+    265
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1226,
+    232,
+    1518,
+    265
+   ]
+  },
+  {
+   "text": "fractions showing the respective shares of dasa lord and the",
+   "bbox": [
+    301,
+    332,
+    1521,
+    371
+   ]
+  },
+  {
+   "text": "other planet would be 1/1 and 1/3 multiplied by denominator 3,",
+   "bbox": [
+    304,
+    384,
+    1521,
+    423
+   ]
+  },
+  {
+   "text": "the proportion will be 3 and 1 ie <math>3/4</math>th and <math>1/4</math>th of the total",
+   "bbox": [
+    304,
+    436,
+    1518,
+    476
+   ]
+  },
+  {
+   "text": "period of the main dasa lord.",
+   "bbox": [
+    302,
+    489,
+    879,
+    528
+   ]
+  },
+  {
+   "text": "<i>(iii)</i> If there is planet in the 4th or 8th from the dasa",
+   "bbox": [
+    377,
+    569,
+    1522,
+    607
+   ]
+  },
+  {
+   "text": "lord and none in the other stipulated houses, the propor-",
+   "bbox": [
+    301,
+    615,
+    1518,
+    662
+   ]
+  },
+  {
+   "text": "tion will be indicated by fractions 1/1 and 1/4 which means 4 to",
+   "bbox": [
+    302,
+    672,
+    1516,
+    711
+   ]
+  },
+  {
+   "text": "1 ie 4/5th and 1/5th respectively of the total period of the dasa",
+   "bbox": [
+    305,
+    726,
+    1519,
+    764
+   ]
+  },
+  {
+   "text": "<math>_{\\mathrm{lord.}}</math>",
+   "bbox": [
+    301,
+    778,
+    399,
+    812
+   ]
+  },
+  {
+   "text": "<math>(iv)</math> If there is a planet located in 7th from the dasa lord",
+   "bbox": [
+    375,
+    857,
+    1518,
+    896
+   ]
+  },
+  {
+   "text": "and none in the other stipulated houses, the proportion as",
+   "bbox": [
+    299,
+    909,
+    1516,
+    949
+   ]
+  },
+  {
+   "text": "between main and sub period lord will be 1/1 and 1/7 ie 7 to 1",
+   "bbox": [
+    299,
+    961,
+    1516,
+    1000
+   ]
+  },
+  {
+   "text": "or 7/8th and 1/8th respectively.",
+   "bbox": [
+    299,
+    1014,
+    921,
+    1052
+   ]
+  },
+  {
+   "text": "<math>(v)</math> If there is a planet with the dasa lord and also in 5th",
+   "bbox": [
+    372,
+    1092,
+    1519,
+    1131
+   ]
+  },
+  {
+   "text": "or 9th from it but none in 4th, 8th or 7th from it, the proportion",
+   "bbox": [
+    299,
+    1142,
+    1517,
+    1188
+   ]
+  },
+  {
+   "text": "would be <math>1/1</math>, <math>1/2</math> and <math>1/3</math> which gives 6, 3 and 2 out of 11, hence",
+   "bbox": [
+    299,
+    1196,
+    1515,
+    1237
+   ]
+  },
+  {
+   "text": "the dasa of the three planets ie the main dasa, lord, one with",
+   "bbox": [
+    299,
+    1249,
+    1516,
+    1288
+   ]
+  },
+  {
+   "text": "dasa lord and one in the trine to dasa lord would be 6/11th,",
+   "bbox": [
+    299,
+    1301,
+    1516,
+    1339
+   ]
+  },
+  {
+   "text": "3/11th and 2/11th respectively of the total period of the dasa",
+   "bbox": [
+    299,
+    1356,
+    1516,
+    1396
+   ]
+  },
+  {
+   "text": "lord.",
+   "bbox": [
+    297,
+    1408,
+    399,
+    1443
+   ]
+  },
+  {
+   "text": "<math>(vi)</math> If a planet is with the dasa lord and one in 4th or",
+   "bbox": [
+    369,
+    1489,
+    1516,
+    1526
+   ]
+  },
+  {
+   "text": "8th from it, but none in trine from it then the proportion",
+   "bbox": [
+    295,
+    1540,
+    1514,
+    1579
+   ]
+  },
+  {
+   "text": "would be indicated by fractions <math>1/1</math>, <math>1/2</math> and <math>1/4</math> ie 4, 2 and 1 or",
+   "bbox": [
+    295,
+    1592,
+    1515,
+    1631
+   ]
+  },
+  {
+   "text": "4/7th, 2/7th and 1/7th respectively of the total period of dasa",
+   "bbox": [
+    295,
+    1642,
+    1515,
+    1686
+   ]
+  },
+  {
+   "text": "lord.",
+   "bbox": [
+    294,
+    1697,
+    395,
+    1731
+   ]
+  },
+  {
+   "text": "(<i>vii</i>) If a planet is with the dasa lord and also one in",
+   "bbox": [
+    369,
+    1776,
+    1515,
+    1815
+   ]
+  },
+  {
+   "text": "7th from it, but none in other stipulated house, the propor-",
+   "bbox": [
+    294,
+    1825,
+    1512,
+    1871
+   ]
+  },
+  {
+   "text": "tion would be denoted by <math>1/1</math>, <math>1/2</math>, <math>1/7</math> ie 14, 7 and 2 or",
+   "bbox": [
+    294,
+    1881,
+    1512,
+    1920
+   ]
+  },
+  {
+   "text": "14/23rd, 7/23rd and 2/23rd of the total period of the main dasa",
+   "bbox": [
+    295,
+    1933,
+    1514,
+    1972
+   ]
+  },
+  {
+   "text": "lord.",
+   "bbox": [
+    294,
+    1985,
+    392,
+    2019
+   ]
+  },
+  {
+   "text": "(<i>viii</i>) If there are planets in trines from the dasa lord and",
+   "bbox": [
+    368,
+    2066,
+    1512,
+    2105
+   ]
+  },
+  {
+   "text": "in none of the other stipulated houses the proportion would be",
+   "bbox": [
+    291,
+    2117,
+    1511,
+    2155
+   ]
+  },
+  {
+   "text": "<math>1/1</math>, <math>1/3</math> and <math>1/3</math> ie 3, 1, 1 or <math>3/5</math>th, <math>1/5</math>th and <math>1/5</math>th respectively",
+   "bbox": [
+    294,
+    2169,
+    1512,
+    2208
+   ]
+  },
+  {
+   "text": "for main dasa lord etc.",
+   "bbox": [
+    289,
+    2221,
+    748,
+    2256
+   ]
+  },
+  {
+   "text": "<math>(ix)</math> If a planet is in one of the trines from the dasa lord and",
+   "bbox": [
+    368,
+    2299,
+    1514,
+    2337
+   ]
+  }
+ ]
+}

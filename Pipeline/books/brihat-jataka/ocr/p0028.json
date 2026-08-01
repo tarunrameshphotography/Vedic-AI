@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0028",
+ "book_id": "brihat-jataka",
+ "seq": 28,
+ "source_ref": {
+  "pdf_page": 14,
+  "half": "b",
+  "v1_page": "s014b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "568fccb277e4ab772f5e7a6fa3cb06750465a7ff6ae8d4c1b376de24d919128a",
+ "lines": [
+  {
+   "text": "25",
+   "bbox": [
+    1451,
+    212,
+    1512,
+    245
+   ]
+  },
+  {
+   "text": "On Signs",
+   "bbox": [
+    306,
+    233,
+    495,
+    274
+   ]
+  },
+  {
+   "text": "\"Sut\" (Son) and \"Trikona\" (Trine), the 10th is also called",
+   "bbox": [
+    305,
+    310,
+    1516,
+    379
+   ]
+  },
+  {
+   "text": "\"Meshooran\", \"Dashama\" and \"Karma\".",
+   "bbox": [
+    307,
+    371,
+    1097,
+    432
+   ]
+  },
+  {
+   "text": "Sources of Strength vis-a-vis Signs",
+   "bbox": [
+    309,
+    473,
+    1210,
+    537
+   ]
+  },
+  {
+   "text": "होरास्वामिगुरुज्ञवीक्षितयुता नान्यैश्च वीर्य्योत्कटा",
+   "bbox": [
+    379,
+    552,
+    1041,
+    625
+   ]
+  },
+  {
+   "text": "केन्द्रस्था द्विपदादयोऽहि निशि च प्राप्ते च सन्ध्याद्वये।",
+   "bbox": [
+    381,
+    619,
+    1148,
+    680
+   ]
+  },
+  {
+   "text": "पूर्वार्द्धे विषयादय: कृतगुणा मानं प्रतीपं च तद्-",
+   "bbox": [
+    382,
+    686,
+    1072,
+    750
+   ]
+  },
+  {
+   "text": "दक्षिक्यं सहजं तपश्च नवमं त्र्याद्य त्रिकोणं च तत्।। 19 ।।",
+   "bbox": [
+    384,
+    749,
+    1263,
+    813
+   ]
+  },
+  {
+   "text": "If the ascendant is associated with or is aspected by its lord",
+   "bbox": [
+    388,
+    832,
+    1529,
+    901
+   ]
+  },
+  {
+   "text": "(ie by the lord of the sign contained in it) and is also associated",
+   "bbox": [
+    315,
+    884,
+    1529,
+    957
+   ]
+  },
+  {
+   "text": "with or aspected by Jupiter and Mercury, but not influenced",
+   "bbox": [
+    316,
+    936,
+    1529,
+    1011
+   ]
+  },
+  {
+   "text": "(by association or aspect) by any malefic planet, the ascendant",
+   "bbox": [
+    316,
+    988,
+    1534,
+    1064
+   ]
+  },
+  {
+   "text": "is considered as very strong (and therefore highly conducive to",
+   "bbox": [
+    315,
+    1043,
+    1532,
+    1115
+   ]
+  },
+  {
+   "text": "the traits denoted by the ascendant such as longevity, wealth",
+   "bbox": [
+    319,
+    1096,
+    1535,
+    1170
+   ]
+  },
+  {
+   "text": "and honour). \"Human\" signs, if in Kendras, are strong. These",
+   "bbox": [
+    321,
+    1153,
+    1533,
+    1217
+   ]
+  },
+  {
+   "text": "are also strong if the birth takes place during the day time. In",
+   "bbox": [
+    319,
+    1200,
+    1536,
+    1274
+   ]
+  },
+  {
+   "text": "the case of births during the night the \"Animal\" signs are",
+   "bbox": [
+    321,
+    1254,
+    1535,
+    1323
+   ]
+  },
+  {
+   "text": "considered as strong. Similarly in the case of births in twi-",
+   "bbox": [
+    321,
+    1304,
+    1539,
+    1379
+   ]
+  },
+  {
+   "text": "lights, signs 4, 8, 11, 12 and the second half of Capricorn are",
+   "bbox": [
+    321,
+    1357,
+    1539,
+    1431
+   ]
+  },
+  {
+   "text": "considered as in strength. The measure of the first six signs of",
+   "bbox": [
+    322,
+    1411,
+    1541,
+    1481
+   ]
+  },
+  {
+   "text": "the Zodiac may be had by multiplying with, the figures 5, 6, 7,",
+   "bbox": [
+    324,
+    1463,
+    1541,
+    1536
+   ]
+  },
+  {
+   "text": "8, 9 and 10 ie by 20, 24, 28, 32, 36 and 40 respectively. (This",
+   "bbox": [
+    325,
+    1514,
+    1541,
+    1590
+   ]
+  },
+  {
+   "text": "measure is intended to give an idea as to the relative duration",
+   "bbox": [
+    326,
+    1569,
+    1542,
+    1642
+   ]
+  },
+  {
+   "text": "in time of the signs Aries to Virgo as also of their relative",
+   "bbox": [
+    326,
+    1622,
+    1542,
+    1695
+   ]
+  },
+  {
+   "text": "length in order to determine the length of the various parts of",
+   "bbox": [
+    328,
+    1675,
+    1547,
+    1748
+   ]
+  },
+  {
+   "text": "the body and do not, of course, stand for the duration of signs",
+   "bbox": [
+    328,
+    1729,
+    1545,
+    1799
+   ]
+  },
+  {
+   "text": "at any latitude on earth). The duration of signs Libra to Pisces",
+   "bbox": [
+    329,
+    1782,
+    1545,
+    1851
+   ]
+  },
+  {
+   "text": "will be in the reverse order ie 40, 36, 32, 28, 24 and 20",
+   "bbox": [
+    331,
+    1834,
+    1548,
+    1903
+   ]
+  },
+  {
+   "text": "respectively. The 3rd house is also called \"Sahaj\" (Brothers),",
+   "bbox": [
+    331,
+    1889,
+    1549,
+    1953
+   ]
+  },
+  {
+   "text": "the 9th has the additional name of \"Tapas\". The 9th house is",
+   "bbox": [
+    332,
+    1938,
+    1549,
+    2006
+   ]
+  },
+  {
+   "text": "also called \"Tri Trikona\".",
+   "bbox": [
+    334,
+    2005,
+    837,
+    2054
+   ]
+  },
+  {
+   "text": "The Colour of the Signs",
+   "bbox": [
+    332,
+    2105,
+    960,
+    2162
+   ]
+  },
+  {
+   "text": "रक्त: श्वेत:शुकतनुनिभ: पाटलो धूम्रपाण्डु-",
+   "bbox": [
+    411,
+    2183,
+    1030,
+    2251
+   ]
+  },
+  {
+   "text": "श्चित्र: कृष्ण: कनकसदृश: पिङ्गल: कर्बुरश्च।",
+   "bbox": [
+    412,
+    2245,
+    1049,
+    2311
+   ]
+  }
+ ]
+}

@@ -1,0 +1,173 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0117",
+ "book_id": "brihat-jataka",
+ "seq": 117,
+ "source_ref": {
+  "pdf_page": 59,
+  "half": "a",
+  "v1_page": "s059a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "3d5694eabda0eb0a18c5222d2c8a46444442a30a4bcd1e910d45614fea201ce2",
+ "lines": [
+  {
+   "text": "114",
+   "bbox": [
+    361,
+    294,
+    453,
+    328
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1284,
+    301,
+    1578,
+    334
+   ]
+  },
+  {
+   "text": "of use to many. One born in \"Shool\" yoga is valiant and suffers",
+   "bbox": [
+    358,
+    394,
+    1580,
+    448
+   ]
+  },
+  {
+   "text": "from injury, given to persuit of wealth but is not rich.",
+   "bbox": [
+    355,
+    451,
+    1431,
+    493
+   ]
+  },
+  {
+   "text": "Yuga, Gol etc",
+   "bbox": [
+    352,
+    550,
+    708,
+    597
+   ]
+  },
+  {
+   "text": "धनविरहित: पाखण्डी वा युगे त्वथ गोलके",
+   "bbox": [
+    427,
+    628,
+    1060,
+    688
+   ]
+  },
+  {
+   "text": "विधनमालिनो ज्ञानोपेत: कुशिल्प्यलसोऽटन:।",
+   "bbox": [
+    429,
+    696,
+    1062,
+    751
+   ]
+  },
+  {
+   "text": "इति निगदिता योगा: सार्द्धं फलैरिह नाभसा।",
+   "bbox": [
+    428,
+    760,
+    1063,
+    813
+   ]
+  },
+  {
+   "text": "नियतफलदाश्चिन्त्या होते समस्तदशास्वपि।। 19 ।।",
+   "bbox": [
+    428,
+    826,
+    1186,
+    880
+   ]
+  },
+  {
+   "text": "One born in \"Yuga\" yoga is devoid of health and a deceiver,",
+   "bbox": [
+    426,
+    921,
+    1571,
+    971
+   ]
+  },
+  {
+   "text": "one born in \"Gol\" yoga is poor, unclean, without knowledge,",
+   "bbox": [
+    350,
+    971,
+    1571,
+    1024
+   ]
+  },
+  {
+   "text": "engaged in petty artisan work and lazy. Thus I have explained",
+   "bbox": [
+    347,
+    1024,
+    1572,
+    1077
+   ]
+  },
+  {
+   "text": "Nabhas yogas with their results. These results are experienced",
+   "bbox": [
+    346,
+    1077,
+    1571,
+    1129
+   ]
+  },
+  {
+   "text": "as stated in the dasas of planets.",
+   "bbox": [
+    346,
+    1129,
+    1007,
+    1178
+   ]
+  },
+  {
+   "text": "इति श्रीवराहमिहिरकृते बृहज्जातके नाभस् योगाध्याय: द्वादश: ।।12।।",
+   "bbox": [
+    467,
+    1335,
+    1443,
+    1393
+   ]
+  },
+  {
+   "text": "Thus ends the twelfth chapter on Nabhas yogas in Brihat",
+   "bbox": [
+    420,
+    1420,
+    1567,
+    1478
+   ]
+  },
+  {
+   "text": "Jatak composed by Varahamihira.",
+   "bbox": [
+    341,
+    1474,
+    1029,
+    1524
+   ]
+  }
+ ]
+}

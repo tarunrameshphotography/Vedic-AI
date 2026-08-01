@@ -1,0 +1,578 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0022",
+ "book_id": "brihat-jataka",
+ "seq": 22,
+ "source_ref": {
+  "pdf_page": 11,
+  "half": "b",
+  "v1_page": "s011b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "993385f85e6e4ad1e7153adcd628a01ca81c0544a82fa756acc22f8a625a825c",
+ "lines": [
+  {
+   "text": "19",
+   "bbox": [
+    1486,
+    250,
+    1548,
+    285
+   ]
+  },
+  {
+   "text": "On Signs",
+   "bbox": [
+    336,
+    251,
+    527,
+    291
+   ]
+  },
+  {
+   "text": "ence in the comments that follow:",
+   "bbox": [
+    335,
+    352,
+    1008,
+    387
+   ]
+  },
+  {
+   "text": "Degree of",
+   "bbox": [
+    936,
+    429,
+    1135,
+    469
+   ]
+  },
+  {
+   "text": "Lord of the",
+   "bbox": [
+    1234,
+    430,
+    1464,
+    469
+   ]
+  },
+  {
+   "text": "Planets",
+   "bbox": [
+    335,
+    431,
+    491,
+    465
+   ]
+  },
+  {
+   "text": "Constellation",
+   "bbox": [
+    535,
+    431,
+    800,
+    465
+   ]
+  },
+  {
+   "text": "Constellation",
+   "bbox": [
+    1236,
+    482,
+    1504,
+    517
+   ]
+  },
+  {
+   "text": "Exaltation",
+   "bbox": [
+    936,
+    483,
+    1148,
+    517
+   ]
+  },
+  {
+   "text": "falling",
+   "bbox": [
+    534,
+    484,
+    676,
+    522
+   ]
+  },
+  {
+   "text": "Ashvini",
+   "bbox": [
+    561,
+    560,
+    723,
+    595
+   ]
+  },
+  {
+   "text": "Aries 10th",
+   "bbox": [
+    885,
+    561,
+    1101,
+    594
+   ]
+  },
+  {
+   "text": "Sun",
+   "bbox": [
+    335,
+    562,
+    425,
+    595
+   ]
+  },
+  {
+   "text": "Ketu",
+   "bbox": [
+    1310,
+    562,
+    1419,
+    595
+   ]
+  },
+  {
+   "text": "Krittika",
+   "bbox": [
+    561,
+    620,
+    730,
+    655
+   ]
+  },
+  {
+   "text": "Taurus 3rd",
+   "bbox": [
+    886,
+    620,
+    1114,
+    656
+   ]
+  },
+  {
+   "text": "Moon",
+   "bbox": [
+    335,
+    621,
+    451,
+    654
+   ]
+  },
+  {
+   "text": "Sun",
+   "bbox": [
+    1312,
+    622,
+    1402,
+    655
+   ]
+  },
+  {
+   "text": "Dhanishtha",
+   "bbox": [
+    561,
+    681,
+    802,
+    717
+   ]
+  },
+  {
+   "text": "Capricorn 28th",
+   "bbox": [
+    886,
+    682,
+    1190,
+    720
+   ]
+  },
+  {
+   "text": "Mars",
+   "bbox": [
+    1309,
+    682,
+    1423,
+    717
+   ]
+  },
+  {
+   "text": "Mars",
+   "bbox": [
+    335,
+    683,
+    445,
+    717
+   ]
+  },
+  {
+   "text": "Moon",
+   "bbox": [
+    1310,
+    742,
+    1429,
+    777
+   ]
+  },
+  {
+   "text": "Mercury",
+   "bbox": [
+    334,
+    743,
+    514,
+    783
+   ]
+  },
+  {
+   "text": "Hasta",
+   "bbox": [
+    560,
+    743,
+    691,
+    777
+   ]
+  },
+  {
+   "text": "Virgo 15th",
+   "bbox": [
+    886,
+    744,
+    1104,
+    782
+   ]
+  },
+  {
+   "text": "Cancer 5th",
+   "bbox": [
+    886,
+    802,
+    1112,
+    840
+   ]
+  },
+  {
+   "text": "Saturn",
+   "bbox": [
+    1311,
+    802,
+    1459,
+    840
+   ]
+  },
+  {
+   "text": "Jupiter",
+   "bbox": [
+    333,
+    805,
+    488,
+    844
+   ]
+  },
+  {
+   "text": "Pushya",
+   "bbox": [
+    562,
+    805,
+    716,
+    843
+   ]
+  },
+  {
+   "text": "Pisces 27th",
+   "bbox": [
+    884,
+    863,
+    1116,
+    900
+   ]
+  },
+  {
+   "text": "Venus",
+   "bbox": [
+    335,
+    864,
+    468,
+    899
+   ]
+  },
+  {
+   "text": "Revati",
+   "bbox": [
+    562,
+    865,
+    700,
+    900
+   ]
+  },
+  {
+   "text": "Mercury",
+   "bbox": [
+    1310,
+    866,
+    1488,
+    904
+   ]
+  },
+  {
+   "text": "Rahu",
+   "bbox": [
+    1312,
+    926,
+    1426,
+    962
+   ]
+  },
+  {
+   "text": "Saturn",
+   "bbox": [
+    335,
+    927,
+    481,
+    962
+   ]
+  },
+  {
+   "text": "Swati",
+   "bbox": [
+    561,
+    927,
+    683,
+    962
+   ]
+  },
+  {
+   "text": "Libra 20th",
+   "bbox": [
+    886,
+    927,
+    1103,
+    962
+   ]
+  },
+  {
+   "text": "In the tables above, no degrees of exaltation or debilitation",
+   "bbox": [
+    409,
+    1018,
+    1547,
+    1057
+   ]
+  },
+  {
+   "text": "have been given for Rahu and ketu. Obviously for the reason",
+   "bbox": [
+    333,
+    1071,
+    1545,
+    1109
+   ]
+  },
+  {
+   "text": "that Rahu and Ketu are not material bodies and they generally",
+   "bbox": [
+    335,
+    1119,
+    1545,
+    1165
+   ]
+  },
+  {
+   "text": "act under the influence of the planets by whom they may be",
+   "bbox": [
+    335,
+    1176,
+    1544,
+    1215
+   ]
+  },
+  {
+   "text": "aspected or with whom they may be associated. So far as we",
+   "bbox": [
+    333,
+    1228,
+    1545,
+    1268
+   ]
+  },
+  {
+   "text": "are aware it is the great Varahmihir who has for the first time",
+   "bbox": [
+    333,
+    1281,
+    1548,
+    1320
+   ]
+  },
+  {
+   "text": "given to the world the respective degrees of the signs of their",
+   "bbox": [
+    330,
+    1334,
+    1548,
+    1373
+   ]
+  },
+  {
+   "text": "exaltation. The allotment of these degrees as exaltation de-",
+   "bbox": [
+    330,
+    1387,
+    1547,
+    1427
+   ]
+  },
+  {
+   "text": "grees is not arbitrary but is based on sound spiritual philoso-",
+   "bbox": [
+    330,
+    1440,
+    1548,
+    1480
+   ]
+  },
+  {
+   "text": "phy and common sense. No author to our knowledge has dealt",
+   "bbox": [
+    330,
+    1493,
+    1549,
+    1532
+   ]
+  },
+  {
+   "text": "with the philosophical aspect of the exaltation of planets. We",
+   "bbox": [
+    330,
+    1546,
+    1547,
+    1585
+   ]
+  },
+  {
+   "text": "will attempt to do so in the following lines:",
+   "bbox": [
+    330,
+    1599,
+    1186,
+    1637
+   ]
+  },
+  {
+   "text": "<math>Sun:</math> From the table given above, it is seen that Sun is",
+   "bbox": [
+    402,
+    1677,
+    1545,
+    1716
+   ]
+  },
+  {
+   "text": "exalted in Aries in a degree whose lord is Ketu. Sun is to the",
+   "bbox": [
+    329,
+    1729,
+    1545,
+    1769
+   ]
+  },
+  {
+   "text": "universe as the human soul is to the body. It is the sustainer--",
+   "bbox": [
+    329,
+    1782,
+    1545,
+    1821
+   ]
+  },
+  {
+   "text": "The Atman--The Self, the highest state for the soul ie the state",
+   "bbox": [
+    329,
+    1833,
+    1545,
+    1877
+   ]
+  },
+  {
+   "text": "of liberation or salvation and as we know from astrology it is",
+   "bbox": [
+    329,
+    1885,
+    1545,
+    1929
+   ]
+  },
+  {
+   "text": "signified by Ketu who is the maraka or significator of <i>moksha</i>",
+   "bbox": [
+    329,
+    1940,
+    1545,
+    1979
+   ]
+  },
+  {
+   "text": "or liberation.",
+   "bbox": [
+    329,
+    1992,
+    593,
+    2026
+   ]
+  },
+  {
+   "text": "Recording of Gita",
+   "bbox": [
+    325,
+    2095,
+    799,
+    2136
+   ]
+  },
+  {
+   "text": "The attainment of higher states of existence signified",
+   "bbox": [
+    401,
+    2177,
+    1545,
+    2216
+   ]
+  },
+  {
+   "text": "by heavenly abode such as the \"Brahma loka\" involves the",
+   "bbox": [
+    325,
+    2228,
+    1542,
+    2268
+   ]
+  },
+  {
+   "text": "return of the human soul of its earthly abode, but having",
+   "bbox": [
+    323,
+    2281,
+    1544,
+    2320
+   ]
+  },
+  {
+   "text": "attained to self realisation, the human soul attains the highest",
+   "bbox": [
+    326,
+    2334,
+    1544,
+    2373
+   ]
+  }
+ ]
+}

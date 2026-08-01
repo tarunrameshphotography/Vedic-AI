@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0135",
+ "book_id": "phaladeepika",
+ "seq": 135,
+ "source_ref": {
+  "pdf_page": 135
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "14bd5d0bbd46f0dbe47fbb92e81855d8fad1fc1742176a9a0122cc753aabb48e",
+ "lines": [
+  {
+   "text": "(b) The lord of the Lagna and the lord of the 8th house.",
+   "bbox": [
+    121,
+    57,
+    430,
+    73
+   ]
+  },
+  {
+   "text": "(c) The lord of the Lagna and the Sun.",
+   "bbox": [
+    121,
+    82,
+    335,
+    97
+   ]
+  },
+  {
+   "text": "The native will enjoy Deerghayu if they are mutually friends. He will have ",
+   "bbox": [
+    121,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "Madhyayu if they are mutually neutrals and will have Alpayu if they are mutually ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "enemies.",
+   "bbox": [
+    85,
+    154,
+    135,
+    169
+   ]
+  },
+  {
+   "text": "16. The native will be longlived (enjoy Deerghayu) if —",
+   "bbox": [
+    121,
+    178,
+    438,
+    194
+   ]
+  },
+  {
+   "text": "(1) The lord of the Lagna be stronger than the lord of the 8th house,",
+   "bbox": [
+    121,
+    202,
+    500,
+    218
+   ]
+  },
+  {
+   "text": "(2) The lord of the rising Navamsa be stronger than the lord of the 8th from ",
+   "bbox": [
+    121,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "Navamsa Lagna,",
+   "bbox": [
+    85,
+    251,
+    179,
+    266
+   ]
+  },
+  {
+   "text": "(3) If the lord of the sign occupied by the Moon be stronger than the lord of ",
+   "bbox": [
+    121,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "the 8th from the Moon,",
+   "bbox": [
+    85,
+    299,
+    215,
+    314
+   ]
+  },
+  {
+   "text": "(4) If the lord of the Moon's Navamsa be stronger than Ihe lord of the 8th ",
+   "bbox": [
+    121,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "from it.",
+   "bbox": [
+    85,
+    347,
+    127,
+    363
+   ]
+  },
+  {
+   "text": "If otherwise, the reverse will be the result.",
+   "bbox": [
+    121,
+    371,
+    357,
+    387
+   ]
+  },
+  {
+   "text": "17. If the lord of the 8th house endowed with greater strength than the lord ",
+   "bbox": [
+    121,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "of the lagna, be posited in Kendra and malefics occupy the 8th and the 12th, the ",
+   "bbox": [
+    85,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "native will be shortlived even if he gets medicum life or prolog his life to the full ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "period, his life will be the vicissitudes of happiness and misery.",
+   "bbox": [
+    85,
+    468,
+    440,
+    483
+   ]
+  },
+  {
+   "text": "18. Add the longitudes of the Sun, the Moon, Jupiter and Saturn. For ",
+   "bbox": [
+    121,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "example the following are the longitudes given in a horoscope.",
+   "bbox": [
+    85,
+    516,
+    437,
+    532
+   ]
+  },
+  {
+   "text": "Sun - 7-26, Moon - 11-20, Jupiter - 6-14, Saturn - 0-17, 26 or 2-7 that 7 ",
+   "bbox": [
+    121,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "degrees of Gemini.",
+   "bbox": [
+    85,
+    565,
+    192,
+    580
+   ]
+  },
+  {
+   "text": "If the native has alpayu the end of his life will come when Saturn in transit ",
+   "bbox": [
+    121,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "reaches the first cycle of 7 degrees of Gemini.",
+   "bbox": [
+    85,
+    613,
+    343,
+    628
+   ]
+  },
+  {
+   "text": "19. If the lord of the Lagna be associated with a maleifc and be eclipsed by ",
+   "bbox": [
+    121,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "the Sun's rays, or be in his sign of debilitation or in an inimical sign, the death of ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "the native will have to be pronounced, when the same lord in his transit happens to ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "occupy the 6th, 8th or 12th or the Lagna or be some how connected with it. The ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "same event may also be deduced from the Navamsa Lagna, the decanate Lagna or ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "the sign in which the Moon be posited.",
+   "bbox": [
+    85,
+    758,
+    303,
+    773
+   ]
+  },
+  {
+   "text": "135",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

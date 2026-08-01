@@ -1,0 +1,612 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0013",
+ "book_id": "phaladeepika",
+ "seq": 13,
+ "source_ref": {
+  "pdf_page": 13
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "b4dcd51f3c56ae3d05e61433181a96bfbe4c55526b1681097b3e434f5963911d",
+ "lines": [
+  {
+   "text": "when he reaches 5th degree of Capricorn.",
+   "bbox": [
+    85,
+    57,
+    318,
+    73
+   ]
+  },
+  {
+   "text": "7. The Moolatrikona signs of the planets the Sun onward are Leo, Taurus, ",
+   "bbox": [
+    121,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "Aries, Virgo, Sagittarius, Libra and Aquarius respectively. Below are given the ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "portions of the own sign and Moolatrikona from the Sun onwards :—",
+   "bbox": [
+    85,
+    130,
+    474,
+    145
+   ]
+  },
+  {
+   "text": "Planet ",
+   "bbox": [
+    131,
+    154,
+    170,
+    169
+   ]
+  },
+  {
+   "text": "Sign ",
+   "bbox": [
+    204,
+    154,
+    234,
+    169
+   ]
+  },
+  {
+   "text": "Moola trikona portion Own sign portion ",
+   "bbox": [
+    274,
+    154,
+    505,
+    169
+   ]
+  },
+  {
+   "text": "The Sun ",
+   "bbox": [
+    131,
+    170,
+    182,
+    186
+   ]
+  },
+  {
+   "text": "Leo ",
+   "bbox": [
+    204,
+    170,
+    230,
+    186
+   ]
+  },
+  {
+   "text": "0° - 20° ",
+   "bbox": [
+    274,
+    170,
+    321,
+    186
+   ]
+  },
+  {
+   "text": "21° - 30° ",
+   "bbox": [
+    404,
+    170,
+    458,
+    186
+   ]
+  },
+  {
+   "text": "The Moon Taurus ",
+   "bbox": [
+    131,
+    186,
+    246,
+    202
+   ]
+  },
+  {
+   "text": "4° - 30° ",
+   "bbox": [
+    274,
+    186,
+    321,
+    202
+   ]
+  },
+  {
+   "text": "- ",
+   "bbox": [
+    404,
+    186,
+    412,
+    202
+   ]
+  },
+  {
+   "text": "Mars ",
+   "bbox": [
+    131,
+    202,
+    163,
+    218
+   ]
+  },
+  {
+   "text": "Aries ",
+   "bbox": [
+    204,
+    202,
+    238,
+    218
+   ]
+  },
+  {
+   "text": "0° - 2° ",
+   "bbox": [
+    274,
+    202,
+    314,
+    218
+   ]
+  },
+  {
+   "text": "13° - 30° ",
+   "bbox": [
+    404,
+    202,
+    458,
+    218
+   ]
+  },
+  {
+   "text": "Mercury ",
+   "bbox": [
+    131,
+    218,
+    183,
+    234
+   ]
+  },
+  {
+   "text": "Virgo ",
+   "bbox": [
+    204,
+    218,
+    239,
+    234
+   ]
+  },
+  {
+   "text": "16° - 20° ",
+   "bbox": [
+    274,
+    218,
+    328,
+    234
+   ]
+  },
+  {
+   "text": "21° - 30° ",
+   "bbox": [
+    404,
+    218,
+    458,
+    234
+   ]
+  },
+  {
+   "text": "Jupiter ",
+   "bbox": [
+    131,
+    234,
+    173,
+    250
+   ]
+  },
+  {
+   "text": "Sagittarius 0° - 10° ",
+   "bbox": [
+    204,
+    234,
+    321,
+    250
+   ]
+  },
+  {
+   "text": "11° - 30° ",
+   "bbox": [
+    404,
+    234,
+    458,
+    250
+   ]
+  },
+  {
+   "text": "Venus ",
+   "bbox": [
+    131,
+    251,
+    169,
+    266
+   ]
+  },
+  {
+   "text": "Libra ",
+   "bbox": [
+    204,
+    251,
+    238,
+    266
+   ]
+  },
+  {
+   "text": "0° - 5° ",
+   "bbox": [
+    274,
+    251,
+    314,
+    266
+   ]
+  },
+  {
+   "text": "6° - 30° ",
+   "bbox": [
+    404,
+    251,
+    451,
+    266
+   ]
+  },
+  {
+   "text": "Saturn ",
+   "bbox": [
+    131,
+    267,
+    171,
+    282
+   ]
+  },
+  {
+   "text": "Aquarius ",
+   "bbox": [
+    204,
+    267,
+    259,
+    282
+   ]
+  },
+  {
+   "text": "0° - 20° ",
+   "bbox": [
+    274,
+    267,
+    321,
+    282
+   ]
+  },
+  {
+   "text": "21° - 30° ",
+   "bbox": [
+    404,
+    267,
+    458,
+    282
+   ]
+  },
+  {
+   "text": "The various signs have been classified as biped or human signs, reptile or ",
+   "bbox": [
+    121,
+    307,
+    556,
+    322
+   ]
+  },
+  {
+   "text": "(Keeta) or centipeds, watery or quadruped (Chatuspada) as detailed below :",
+   "bbox": [
+    85,
+    331,
+    508,
+    347
+   ]
+  },
+  {
+   "text": "Human ",
+   "bbox": [
+    178,
+    355,
+    222,
+    371
+   ]
+  },
+  {
+   "text": "Quadruped Centiped ",
+   "bbox": [
+    249,
+    355,
+    380,
+    371
+   ]
+  },
+  {
+   "text": "Watery ",
+   "bbox": [
+    393,
+    355,
+    437,
+    371
+   ]
+  },
+  {
+   "text": "Gemini ",
+   "bbox": [
+    178,
+    371,
+    223,
+    387
+   ]
+  },
+  {
+   "text": "Aries ",
+   "bbox": [
+    249,
+    371,
+    283,
+    387
+   ]
+  },
+  {
+   "text": "Scorpio ",
+   "bbox": [
+    326,
+    371,
+    373,
+    387
+   ]
+  },
+  {
+   "text": "Cancer ",
+   "bbox": [
+    393,
+    371,
+    436,
+    387
+   ]
+  },
+  {
+   "text": "Virgo ",
+   "bbox": [
+    178,
+    387,
+    213,
+    403
+   ]
+  },
+  {
+   "text": "Taurus ",
+   "bbox": [
+    249,
+    387,
+    291,
+    403
+   ]
+  },
+  {
+   "text": "Capricorn ",
+   "bbox": [
+    393,
+    387,
+    452,
+    403
+   ]
+  },
+  {
+   "text": "(later half) ",
+   "bbox": [
+    393,
+    404,
+    456,
+    419
+   ]
+  },
+  {
+   "text": "Libra ",
+   "bbox": [
+    178,
+    420,
+    211,
+    435
+   ]
+  },
+  {
+   "text": "Pisces ",
+   "bbox": [
+    326,
+    420,
+    364,
+    435
+   ]
+  },
+  {
+   "text": "Sagittarius",
+   "bbox": [
+    178,
+    436,
+    237,
+    451
+   ]
+  },
+  {
+   "text": "Leo ",
+   "bbox": [
+    249,
+    436,
+    274,
+    451
+   ]
+  },
+  {
+   "text": "(first half) ",
+   "bbox": [
+    178,
+    452,
+    238,
+    467
+   ]
+  },
+  {
+   "text": "Sagittarius ",
+   "bbox": [
+    249,
+    468,
+    313,
+    483
+   ]
+  },
+  {
+   "text": "(later half) ",
+   "bbox": [
+    249,
+    484,
+    312,
+    500
+   ]
+  },
+  {
+   "text": "Aquarius ",
+   "bbox": [
+    178,
+    500,
+    232,
+    516
+   ]
+  },
+  {
+   "text": "Capricorn ",
+   "bbox": [
+    249,
+    500,
+    309,
+    516
+   ]
+  },
+  {
+   "text": "(first half) ",
+   "bbox": [
+    249,
+    516,
+    310,
+    532
+   ]
+  },
+  {
+   "text": "8. The signs which rise with their back (Prishtodaya) are Taurus. Cancer, ",
+   "bbox": [
+    121,
+    556,
+    556,
+    572
+   ]
+  },
+  {
+   "text": "Aries and Capricorn. The signs which rise both from their back and front ",
+   "bbox": [
+    85,
+    581,
+    556,
+    596
+   ]
+  },
+  {
+   "text": "(Ubhayodaya) are Gemini and Pisces. The rest appear with their heads are called ",
+   "bbox": [
+    85,
+    605,
+    556,
+    620
+   ]
+  },
+  {
+   "text": "Sirsodaya signs.",
+   "bbox": [
+    85,
+    629,
+    176,
+    644
+   ]
+  },
+  {
+   "text": "The Prishtodaya signs Taurus, Cancer, Sagittarius, Aries and Capricorn and ",
+   "bbox": [
+    121,
+    653,
+    556,
+    669
+   ]
+  },
+  {
+   "text": "the Ubhayodaya sign Gemini fall under the jurisdiction of the Moon and are ",
+   "bbox": [
+    85,
+    677,
+    556,
+    693
+   ]
+  },
+  {
+   "text": "termed as nocturnal (strong at night). The other signs are governed by the Sun and ",
+   "bbox": [
+    85,
+    701,
+    556,
+    717
+   ]
+  },
+  {
+   "text": "are known as diurnal signs (strong during day time).",
+   "bbox": [
+    85,
+    726,
+    378,
+    741
+   ]
+  },
+  {
+   "text": "Count from the sign last passed by the Sun. The first sign is called Urdhawa ",
+   "bbox": [
+    121,
+    750,
+    556,
+    765
+   ]
+  },
+  {
+   "text": "13",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

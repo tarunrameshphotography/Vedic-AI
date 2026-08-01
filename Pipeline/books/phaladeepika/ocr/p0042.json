@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0042",
+ "book_id": "phaladeepika",
+ "seq": 42,
+ "source_ref": {
+  "pdf_page": 42
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "2c8d82e4a1d705a289fc6d3e493bfe8295b0a40b59390716dfef2170af89f9cd",
+ "lines": [
+  {
+   "text": "Please refer to Jataka Padhati by Bhu Deva for determining the quantums of ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "malefic and benefic aspects. Keshavi Jataka and Sripati Padhati will also be ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "helpful.",
+   "bbox": [
+    85,
+    106,
+    128,
+    121
+   ]
+  },
+  {
+   "text": "Now we come to Shri Mantreswara's views on this subject as given in the ",
+   "bbox": [
+    121,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "following verses in Chapter 4 of Phaladeepika.",
+   "bbox": [
+    85,
+    154,
+    348,
+    169
+   ]
+  },
+  {
+   "text": "1. A planet is said to possess six kinds of strength which are in the following ",
+   "bbox": [
+    121,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "order —",
+   "bbox": [
+    85,
+    202,
+    132,
+    218
+   ]
+  },
+  {
+   "text": "(1) Kalay or temporal.",
+   "bbox": [
+    121,
+    226,
+    246,
+    242
+   ]
+  },
+  {
+   "text": "(2) Chesta Bala or motional strength.",
+   "bbox": [
+    121,
+    251,
+    329,
+    266
+   ]
+  },
+  {
+   "text": "(3) Uchcha or that derived from its exaltation position.",
+   "bbox": [
+    121,
+    275,
+    427,
+    290
+   ]
+  },
+  {
+   "text": "(4) Dik or directional strength",
+   "bbox": [
+    121,
+    299,
+    289,
+    314
+   ]
+  },
+  {
+   "text": "(5) Ayana or that derived from declination (north or south).",
+   "bbox": [
+    121,
+    323,
+    452,
+    339
+   ]
+  },
+  {
+   "text": "(6) Sthana Bala or positional strength.",
+   "bbox": [
+    121,
+    347,
+    334,
+    363
+   ]
+  },
+  {
+   "text": "Mars, the Moon and Venus are strong during the night time. Mercury is ",
+   "bbox": [
+    121,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "strong all the 24 hours. The rest viz., the Sun, Jupiter and Saturn are strong during ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "the day time.",
+   "bbox": [
+    85,
+    420,
+    158,
+    435
+   ]
+  },
+  {
+   "text": "The benefics are strong during the bright half of the month (Shukla Paksha) ",
+   "bbox": [
+    121,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "and the malefics are strong during the dark half of the month (Krishna Paksha).",
+   "bbox": [
+    85,
+    468,
+    529,
+    483
+   ]
+  },
+  {
+   "text": "Planets when they are lords of the year, month, day and house get 1/4, 1/2, ",
+   "bbox": [
+    121,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "3/4, and 1 Rupa of strength respectively. ",
+   "bbox": [
+    85,
+    516,
+    315,
+    532
+   ]
+  },
+  {
+   "text": "2. The Moon gets Chesta Bala when it is full. The Sun gets this strength ",
+   "bbox": [
+    121,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "when he is on the northern course. The other planets get Chesta Bala when they are ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "in retrograde motion.",
+   "bbox": [
+    85,
+    589,
+    204,
+    604
+   ]
+  },
+  {
+   "text": "The planets are victorious in the planetary course when they are in the north ",
+   "bbox": [
+    121,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "and are not combust. A planet is said to possess full Uchcha Bala when he is in ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "deep exaltation position.",
+   "bbox": [
+    85,
+    661,
+    222,
+    677
+   ]
+  },
+  {
+   "text": "As regards directional strength or Dik Bala the Sun and Mars get this ",
+   "bbox": [
+    121,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "strength when they are in the 10th house. Mercury and Jupiter get directional ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "strength when they are in the 1st house (Lagna), Saturn gets this strength in the 7th ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "house and the Moon and Venus in the 4th house.",
+   "bbox": [
+    85,
+    758,
+    356,
+    773
+   ]
+  },
+  {
+   "text": "42",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

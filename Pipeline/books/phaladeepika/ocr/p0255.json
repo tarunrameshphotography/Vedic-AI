@@ -1,0 +1,468 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0255",
+ "book_id": "phaladeepika",
+ "seq": 255,
+ "source_ref": {
+  "pdf_page": 255
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "97345ec46e216608684694f50910d5e4fa4b0a138da4be94b65f8afac4f095b2",
+ "lines": [
+  {
+   "text": "(a) 1st, 2nd, 3rd - head",
+   "bbox": [
+    145,
+    58,
+    272,
+    73
+   ]
+  },
+  {
+   "text": "sorrow",
+   "bbox": [
+    364,
+    58,
+    402,
+    73
+   ]
+  },
+  {
+   "text": "(b) 4rd, 5th, 6th - face",
+   "bbox": [
+    145,
+    74,
+    268,
+    89
+   ]
+  },
+  {
+   "text": "financial gain",
+   "bbox": [
+    364,
+    74,
+    440,
+    89
+   ]
+  },
+  {
+   "text": "(c) 7th. 8th. 9th, 10th, 11th, 12th",
+   "bbox": [
+    145,
+    90,
+    327,
+    106
+   ]
+  },
+  {
+   "text": "success",
+   "bbox": [
+    364,
+    90,
+    406,
+    106
+   ]
+  },
+  {
+   "text": "- two hands",
+   "bbox": [
+    145,
+    106,
+    210,
+    122
+   ]
+  },
+  {
+   "text": "(d) 13th. 14th, 15th, 16th, 17th - belly influx of wealth",
+   "bbox": [
+    145,
+    122,
+    453,
+    138
+   ]
+  },
+  {
+   "text": "(e) 18th. 19th - generative organs",
+   "bbox": [
+    145,
+    138,
+    332,
+    154
+   ]
+  },
+  {
+   "text": "loss of wealth",
+   "bbox": [
+    364,
+    138,
+    441,
+    154
+   ]
+  },
+  {
+   "text": "(f) 20th, 21st, 22nd, 23rd, 24th, 25th, ",
+   "bbox": [
+    145,
+    154,
+    356,
+    170
+   ]
+  },
+  {
+   "text": "honour and gain of ",
+   "bbox": [
+    364,
+    154,
+    473,
+    170
+   ]
+  },
+  {
+   "text": "26th 27th two feet",
+   "bbox": [
+    145,
+    171,
+    247,
+    186
+   ]
+  },
+  {
+   "text": "reputation",
+   "bbox": [
+    364,
+    171,
+    420,
+    186
+   ]
+  },
+  {
+   "text": "39-40. The transits of Saturn, Raha and Ketu",
+   "bbox": [
+    121,
+    211,
+    372,
+    226
+   ]
+  },
+  {
+   "text": "Distribution amongst Limbs",
+   "bbox": [
+    144,
+    235,
+    302,
+    250
+   ]
+  },
+  {
+   "text": "Effects",
+   "bbox": [
+    363,
+    235,
+    403,
+    250
+   ]
+  },
+  {
+   "text": "(a) 1st - face",
+   "bbox": [
+    144,
+    260,
+    214,
+    276
+   ]
+  },
+  {
+   "text": "grief",
+   "bbox": [
+    363,
+    260,
+    390,
+    276
+   ]
+  },
+  {
+   "text": "(b) 2nd, 3rd. 4th. 5th - right hand",
+   "bbox": [
+    144,
+    277,
+    329,
+    292
+   ]
+  },
+  {
+   "text": "happiness",
+   "bbox": [
+    363,
+    277,
+    418,
+    292
+   ]
+  },
+  {
+   "text": "(c) 6th, 7th, 8th - right leg",
+   "bbox": [
+    144,
+    292,
+    285,
+    308
+   ]
+  },
+  {
+   "text": "travel",
+   "bbox": [
+    363,
+    293,
+    395,
+    308
+   ]
+  },
+  {
+   "text": "(d) 9th, 10th, 11th - left leg",
+   "bbox": [
+    144,
+    309,
+    296,
+    324
+   ]
+  },
+  {
+   "text": "loss of wealth",
+   "bbox": [
+    363,
+    309,
+    441,
+    324
+   ]
+  },
+  {
+   "text": "(e) 12th, 13th, 14th, 15th - left hand",
+   "bbox": [
+    144,
+    325,
+    345,
+    340
+   ]
+  },
+  {
+   "text": "acquisition of wealth",
+   "bbox": [
+    363,
+    325,
+    481,
+    340
+   ]
+  },
+  {
+   "text": "(f) 16th, 17th, 18th, 19th, 20th - belly sexual",
+   "bbox": [
+    144,
+    341,
+    399,
+    356
+   ]
+  },
+  {
+   "text": "(g) 21st, 22nd, 23rd - head",
+   "bbox": [
+    144,
+    357,
+    293,
+    373
+   ]
+  },
+  {
+   "text": "happiness",
+   "bbox": [
+    363,
+    357,
+    418,
+    373
+   ]
+  },
+  {
+   "text": "(h) 24th, 25th - eyes",
+   "bbox": [
+    144,
+    373,
+    257,
+    389
+   ]
+  },
+  {
+   "text": "happiness",
+   "bbox": [
+    363,
+    373,
+    418,
+    389
+   ]
+  },
+  {
+   "text": "(i) 26th, 27th - back",
+   "bbox": [
+    144,
+    389,
+    255,
+    405
+   ]
+  },
+  {
+   "text": "danger to life.",
+   "bbox": [
+    363,
+    389,
+    441,
+    405
+   ]
+  },
+  {
+   "text": "41. The planets who in the course ot their transits pass through signs ",
+   "bbox": [
+    121,
+    429,
+    556,
+    445
+   ]
+  },
+  {
+   "text": "containing more benefic dots (Bindhus) in the Ashtakavarga, always produce good ",
+   "bbox": [
+    85,
+    454,
+    556,
+    469
+   ]
+  },
+  {
+   "text": "effects, even when such signs happen to be the 6th, 8th or 12th. Effects of Latta ",
+   "bbox": [
+    85,
+    478,
+    556,
+    493
+   ]
+  },
+  {
+   "text": "and Sarvatobhadra",
+   "bbox": [
+    85,
+    502,
+    190,
+    517
+   ]
+  },
+  {
+   "text": "42-44. In finding out the transit effects at any particular time-(a) The 12th ",
+   "bbox": [
+    121,
+    526,
+    556,
+    542
+   ]
+  },
+  {
+   "text": "nakshatra from the nakshatra occupied by the Sun,",
+   "bbox": [
+    85,
+    550,
+    368,
+    566
+   ]
+  },
+  {
+   "text": "(b) the 3rd nakshatra from the nakshatra occupied by Mars,",
+   "bbox": [
+    121,
+    574,
+    453,
+    590
+   ]
+  },
+  {
+   "text": "(c) the 6th nakshatra from the nakshatra occupied by Jupiter, and",
+   "bbox": [
+    121,
+    599,
+    484,
+    614
+   ]
+  },
+  {
+   "text": "(d) the 8th nakshatra from that occupied by Saturn, are called lattas.",
+   "bbox": [
+    121,
+    623,
+    501,
+    638
+   ]
+  },
+  {
+   "text": "(a) the 5th nakshatra from that occupied by Venus,",
+   "bbox": [
+    121,
+    647,
+    404,
+    662
+   ]
+  },
+  {
+   "text": "(b) the 7th from that occupied by Mercury,",
+   "bbox": [
+    121,
+    671,
+    361,
+    686
+   ]
+  },
+  {
+   "text": "(c) the 8th from that occupied by Rahu, and",
+   "bbox": [
+    121,
+    695,
+    366,
+    711
+   ]
+  },
+  {
+   "text": "(d) the 22nd from that occupied by the Moon",
+   "bbox": [
+    121,
+    719,
+    374,
+    735
+   ]
+  },
+  {
+   "text": "are called Prushtalatta or rear lattas. If when thus counting the Janma ",
+   "bbox": [
+    121,
+    743,
+    556,
+    759
+   ]
+  },
+  {
+   "text": "Nakshatra happens to come as the Latta star, the native will suffer from illness and ",
+   "bbox": [
+    85,
+    768,
+    556,
+    783
+   ]
+  },
+  {
+   "text": "255",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

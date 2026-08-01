@@ -1,0 +1,362 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0031",
+ "book_id": "brihat-jataka",
+ "seq": 31,
+ "source_ref": {
+  "pdf_page": 16,
+  "half": "a",
+  "v1_page": "s016a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "e23a1469027bd26ac48226dedf7a7375a515a792158d63f465b82c506399a582",
+ "lines": [
+  {
+   "text": "28",
+   "bbox": [
+    385,
+    250,
+    451,
+    284
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1312,
+    250,
+    1603,
+    285
+   ]
+  },
+  {
+   "text": "vowels to the Sun as distinct from the consonants for according",
+   "bbox": [
+    382,
+    356,
+    1607,
+    393
+   ]
+  },
+  {
+   "text": "to vowels to the Sun as distinct from the consonants for accord-",
+   "bbox": [
+    385,
+    407,
+    1606,
+    443
+   ]
+  },
+  {
+   "text": "ing to grammar vowels are the soul of the consonants. In the",
+   "bbox": [
+    382,
+    459,
+    1606,
+    498
+   ]
+  },
+  {
+   "text": "human system the most vital part is the \"heart\" which there-",
+   "bbox": [
+    383,
+    512,
+    1606,
+    551
+   ]
+  },
+  {
+   "text": "fore, gets represented in astrology by the planet Sun. It is the",
+   "bbox": [
+    380,
+    564,
+    1606,
+    604
+   ]
+  },
+  {
+   "text": "atma or soul that keeps the whole human system going, hence",
+   "bbox": [
+    385,
+    616,
+    1607,
+    655
+   ]
+  },
+  {
+   "text": "any person who acts as a pivot in any system would be repre-",
+   "bbox": [
+    385,
+    670,
+    1603,
+    709
+   ]
+  },
+  {
+   "text": "sented by the Sun. In the circle of the family the father is the",
+   "bbox": [
+    383,
+    721,
+    1604,
+    762
+   ]
+  },
+  {
+   "text": "pivot of the whole family. Father therefore, gets represented",
+   "bbox": [
+    385,
+    775,
+    1604,
+    815
+   ]
+  },
+  {
+   "text": "by the Sun in the divine science of astrology.",
+   "bbox": [
+    382,
+    827,
+    1281,
+    867
+   ]
+  },
+  {
+   "text": "Moon is mind and very appropriately so, for like mind it",
+   "bbox": [
+    456,
+    904,
+    1606,
+    948
+   ]
+  },
+  {
+   "text": "has the greatest velosity in the solar system. Quick movement",
+   "bbox": [
+    383,
+    958,
+    1604,
+    998
+   ]
+  },
+  {
+   "text": "like that of the Moon is also a trait of mind. The veda declares",
+   "bbox": [
+    383,
+    1009,
+    1604,
+    1047
+   ]
+  },
+  {
+   "text": "\"Chandrama manso jatah\" ie Moon was born of the emotional",
+   "bbox": [
+    382,
+    1064,
+    1604,
+    1104
+   ]
+  },
+  {
+   "text": "content of the cosmos. Moon has a borrowed light. Our emo-",
+   "bbox": [
+    380,
+    1116,
+    1603,
+    1155
+   ]
+  },
+  {
+   "text": "tions are also impressions that do not properly or permanently",
+   "bbox": [
+    383,
+    1169,
+    1601,
+    1209
+   ]
+  },
+  {
+   "text": "belong to us. We store them by association like the Moon.",
+   "bbox": [
+    382,
+    1221,
+    1601,
+    1261
+   ]
+  },
+  {
+   "text": "Hence the Moon represents the astral or emotional side of",
+   "bbox": [
+    380,
+    1273,
+    1606,
+    1313
+   ]
+  },
+  {
+   "text": "man's nature. In the case of a lunatic there is a shock to",
+   "bbox": [
+    380,
+    1327,
+    1601,
+    1362
+   ]
+  },
+  {
+   "text": "emotions as one of the causes of lunacy, hence in the matter of",
+   "bbox": [
+    379,
+    1381,
+    1604,
+    1420
+   ]
+  },
+  {
+   "text": "causing a yoga for madness, Moon has to play a very important",
+   "bbox": [
+    379,
+    1433,
+    1603,
+    1473
+   ]
+  },
+  {
+   "text": "role in company, of course, with other relevant factors such as",
+   "bbox": [
+    379,
+    1487,
+    1603,
+    1526
+   ]
+  },
+  {
+   "text": "those representing the brain.",
+   "bbox": [
+    380,
+    1540,
+    967,
+    1578
+   ]
+  },
+  {
+   "text": "Mars is red in colour. The red colour stands for \"Ambition\"",
+   "bbox": [
+    453,
+    1617,
+    1600,
+    1653
+   ]
+  },
+  {
+   "text": "and \"Activity\" \"अजामेका लोहितशुक्लकृष्णाम्\".",
+   "bbox": [
+    378,
+    1659,
+    1167,
+    1709
+   ]
+  },
+  {
+   "text": "In this vedic mantra the quality \"Rajas\" is represented by",
+   "bbox": [
+    451,
+    1748,
+    1601,
+    1788
+   ]
+  },
+  {
+   "text": "the colour \"Red\"--a symbol of power of muscles and of blood for",
+   "bbox": [
+    379,
+    1801,
+    1603,
+    1841
+   ]
+  },
+  {
+   "text": "which the planet Mars stands. Executive power, push, initia-",
+   "bbox": [
+    379,
+    1854,
+    1600,
+    1893
+   ]
+  },
+  {
+   "text": "tive, courage, etc--the qualities of an ambitious life are all",
+   "bbox": [
+    379,
+    1907,
+    1600,
+    1945
+   ]
+  },
+  {
+   "text": "represented by Mars.",
+   "bbox": [
+    378,
+    1959,
+    809,
+    1997
+   ]
+  },
+  {
+   "text": "Mercury is an intellectual planet, very learned and en-",
+   "bbox": [
+    453,
+    2038,
+    1598,
+    2077
+   ]
+  },
+  {
+   "text": "lightened. It is therefore, natural that he would have speech as",
+   "bbox": [
+    378,
+    2089,
+    1600,
+    2128
+   ]
+  },
+  {
+   "text": "one of the main instruments of expression. Mercury when lord",
+   "bbox": [
+    378,
+    2143,
+    1600,
+    2182
+   ]
+  },
+  {
+   "text": "of the house of speech ie the second occupies the house of",
+   "bbox": [
+    377,
+    2193,
+    1601,
+    2237
+   ]
+  },
+  {
+   "text": "scantiness ie 6th and is associated with \"Scanty\" planets like",
+   "bbox": [
+    379,
+    2247,
+    1598,
+    2286
+   ]
+  },
+  {
+   "text": "Saturn and Rahu denotes defect in or even loss of speech.",
+   "bbox": [
+    379,
+    2299,
+    1532,
+    2338
+   ]
+  }
+ ]
+}

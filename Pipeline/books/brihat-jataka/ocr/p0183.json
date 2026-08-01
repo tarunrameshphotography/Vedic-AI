@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0183",
+ "book_id": "brihat-jataka",
+ "seq": 183,
+ "source_ref": {
+  "pdf_page": 92,
+  "half": "a",
+  "v1_page": "s092a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "4e6f2cc0e9d89739d7f708aa7317d8a84bb2c612d51c3ed909d3e8bacc8213f6",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1196,
+    222,
+    1490,
+    257
+   ]
+  },
+  {
+   "text": "180",
+   "bbox": [
+    272,
+    224,
+    365,
+    258
+   ]
+  },
+  {
+   "text": "<i>Notes:</i> If the lagna is in one trimsamsha and the Moon",
+   "bbox": [
+    341,
+    327,
+    1491,
+    366
+   ]
+  },
+  {
+   "text": "in another, the results have to be modified. Of the lagna",
+   "bbox": [
+    266,
+    376,
+    1491,
+    417
+   ]
+  },
+  {
+   "text": "and the Moon, if one is weak and the other stronger,",
+   "bbox": [
+    268,
+    428,
+    1488,
+    466
+   ]
+  },
+  {
+   "text": "the results get modified. Then again there are other factors",
+   "bbox": [
+    266,
+    479,
+    1488,
+    518
+   ]
+  },
+  {
+   "text": "to be considered. These include lagna, fifth and seventh",
+   "bbox": [
+    266,
+    527,
+    1490,
+    571
+   ]
+  },
+  {
+   "text": "houses, their lords, their placements and their mutual rela-",
+   "bbox": [
+    266,
+    578,
+    1488,
+    620
+   ]
+  },
+  {
+   "text": "tionships.",
+   "bbox": [
+    268,
+    632,
+    466,
+    668
+   ]
+  },
+  {
+   "text": "दुक्संस्थावसितसितौ परस्परांशे शैक्रे वा यदि घटराशिसम्भवोऽंश:।",
+   "bbox": [
+    339,
+    705,
+    1280,
+    757
+   ]
+  },
+  {
+   "text": "स्त्रीभि: स्त्री मदनविषानलं प्रदीप्तं संशान्ति नयति नराकृतिस्थिताभि: ।। 7 ।।",
+   "bbox": [
+    341,
+    773,
+    1451,
+    821
+   ]
+  },
+  {
+   "text": "(a) Shani and Shukra must exchange their navamshas and",
+   "bbox": [
+    341,
+    861,
+    1490,
+    899
+   ]
+  },
+  {
+   "text": "have mutual aspects; (b) Lagna must be in Tula or Vrishabha",
+   "bbox": [
+    265,
+    911,
+    1490,
+    952
+   ]
+  },
+  {
+   "text": "with Kumbha navamsha rising – then the woman gets satis-",
+   "bbox": [
+    265,
+    964,
+    1488,
+    1003
+   ]
+  },
+  {
+   "text": "faction of sex from females behaving like men.",
+   "bbox": [
+    262,
+    1015,
+    1194,
+    1054
+   ]
+  },
+  {
+   "text": "<i>Notes:</i> Here are yogas for lesbians. Mutual aspects be-",
+   "bbox": [
+    338,
+    1091,
+    1488,
+    1129
+   ]
+  },
+  {
+   "text": "tween the navamshas owned by Shani and Shukra are pos-",
+   "bbox": [
+    265,
+    1140,
+    1488,
+    1179
+   ]
+  },
+  {
+   "text": "sible only if we take into consideration the aspects involving 3",
+   "bbox": [
+    265,
+    1182,
+    1487,
+    1233
+   ]
+  },
+  {
+   "text": "and 11, 4 and 10, 5 and 9 and such houses.",
+   "bbox": [
+    265,
+    1240,
+    1131,
+    1278
+   ]
+  },
+  {
+   "text": "There is a variant reading मद विषयानल.",
+   "bbox": [
+    341,
+    1324,
+    1102,
+    1364
+   ]
+  },
+  {
+   "text": "शून्ये कापुरुषोऽबलेऽस्तभवने सौम्यग्रहावीक्षिते",
+   "bbox": [
+    336,
+    1399,
+    985,
+    1453
+   ]
+  },
+  {
+   "text": "क्लीबोऽस्ते बुधमन्दयोश्चरगृहे नित्यं प्रवासान्वित:।",
+   "bbox": [
+    335,
+    1464,
+    1039,
+    1518
+   ]
+  },
+  {
+   "text": "उत्सृष्टा तरणौ कुजे तु विधवा बाल्येऽस्तराशिस्थिते",
+   "bbox": [
+    335,
+    1531,
+    1072,
+    1582
+   ]
+  },
+  {
+   "text": "कन्यैवाशुभवीक्षितेऽर्कतनये द्यूने जराङ्गच्छति।। 8 ।।",
+   "bbox": [
+    335,
+    1596,
+    1086,
+    1652
+   ]
+  },
+  {
+   "text": "When the seventh house is without strength, has no",
+   "bbox": [
+    339,
+    1693,
+    1484,
+    1731
+   ]
+  },
+  {
+   "text": "planet, and is not aspected by any benefic, the husband will be",
+   "bbox": [
+    261,
+    1743,
+    1484,
+    1782
+   ]
+  },
+  {
+   "text": "mean.",
+   "bbox": [
+    261,
+    1798,
+    387,
+    1826
+   ]
+  },
+  {
+   "text": "If Budha and Shani are in the seventh, the husband will be",
+   "bbox": [
+    337,
+    1870,
+    1484,
+    1908
+   ]
+  },
+  {
+   "text": "impotent.",
+   "bbox": [
+    259,
+    1922,
+    457,
+    1958
+   ]
+  },
+  {
+   "text": "If the seventh is a movable sign, the husband will always",
+   "bbox": [
+    337,
+    1998,
+    1484,
+    2037
+   ]
+  },
+  {
+   "text": "be travelling.",
+   "bbox": [
+    259,
+    2050,
+    529,
+    2087
+   ]
+  },
+  {
+   "text": "When the Sun is in the seventh aspected by malefics, she",
+   "bbox": [
+    337,
+    2127,
+    1482,
+    2165
+   ]
+  },
+  {
+   "text": "will be rejected by her husband.",
+   "bbox": [
+    258,
+    2177,
+    902,
+    2215
+   ]
+  },
+  {
+   "text": "Mars in the seventh aspected by malefics makes her a",
+   "bbox": [
+    334,
+    2251,
+    1487,
+    2290
+   ]
+  },
+  {
+   "text": "widow early in life.",
+   "bbox": [
+    258,
+    2302,
+    649,
+    2340
+   ]
+  }
+ ]
+}

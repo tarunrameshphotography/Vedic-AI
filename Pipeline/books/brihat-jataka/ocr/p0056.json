@@ -1,0 +1,344 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0056",
+ "book_id": "brihat-jataka",
+ "seq": 56,
+ "source_ref": {
+  "pdf_page": 28,
+  "half": "b",
+  "v1_page": "s028b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "b104f6c73e425f923475bc0b60a627335bfe47a38da9da01a3f08bfdcbd596b8",
+ "lines": [
+  {
+   "text": "53",
+   "bbox": [
+    1448,
+    160,
+    1511,
+    192
+   ]
+  },
+  {
+   "text": "On Conception etc.",
+   "bbox": [
+    301,
+    175,
+    677,
+    213
+   ]
+  },
+  {
+   "text": "Months of Pregnaney",
+   "bbox": [
+    300,
+    267,
+    866,
+    319
+   ]
+  },
+  {
+   "text": "कललघनाङ्कुरास्थिचर्माङ्गजचेतनताः",
+   "bbox": [
+    375,
+    333,
+    904,
+    389
+   ]
+  },
+  {
+   "text": "सितकुजजीवसूर्यचन्द्रार्किबुधा: परत:।",
+   "bbox": [
+    374,
+    394,
+    909,
+    458
+   ]
+  },
+  {
+   "text": "उदयपचन्द्रसूर्यनाथा: क्रमशो गदिता",
+   "bbox": [
+    376,
+    455,
+    885,
+    517
+   ]
+  },
+  {
+   "text": "भवति शुभाशुभं च मासाधिपते: सदृशम्।। 16।।",
+   "bbox": [
+    379,
+    525,
+    1082,
+    578
+   ]
+  },
+  {
+   "text": "The pregnancy in its first month is in the form of matter",
+   "bbox": [
+    379,
+    589,
+    1520,
+    650
+   ]
+  },
+  {
+   "text": "which is a combination of semen, rajas etc. It is more liquid",
+   "bbox": [
+    303,
+    642,
+    1520,
+    700
+   ]
+  },
+  {
+   "text": "than solid. Its lord is Venus. In the second month the matter",
+   "bbox": [
+    304,
+    691,
+    1521,
+    748
+   ]
+  },
+  {
+   "text": "solidifies and is then governed by Mars. In the 3rd month it",
+   "bbox": [
+    304,
+    741,
+    1523,
+    803
+   ]
+  },
+  {
+   "text": "sprouts out into arms and feet. The lord of this month is",
+   "bbox": [
+    304,
+    791,
+    1521,
+    853
+   ]
+  },
+  {
+   "text": "Jupiter (expansion). In the 4th month there is the develop-",
+   "bbox": [
+    303,
+    842,
+    1523,
+    903
+   ]
+  },
+  {
+   "text": "ment of bones. This month is governed by Sun. In the 5th",
+   "bbox": [
+    306,
+    893,
+    1524,
+    953
+   ]
+  },
+  {
+   "text": "month skin of the body is formed. The lord of this month is",
+   "bbox": [
+    307,
+    941,
+    1524,
+    1007
+   ]
+  },
+  {
+   "text": "Moon. In the 6th month hair of the body comes out. This month",
+   "bbox": [
+    309,
+    994,
+    1526,
+    1054
+   ]
+  },
+  {
+   "text": "is governed by Saturn. In the 7th month there is much of",
+   "bbox": [
+    307,
+    1044,
+    1527,
+    1107
+   ]
+  },
+  {
+   "text": "awareness. This month is governed by Mercury. The lords of",
+   "bbox": [
+    309,
+    1095,
+    1529,
+    1159
+   ]
+  },
+  {
+   "text": "the 8th, 9th and 10th months are the ascendant, Moon and the",
+   "bbox": [
+    310,
+    1144,
+    1525,
+    1210
+   ]
+  },
+  {
+   "text": "Sun respectively. The heavy affliction of any planet denotes",
+   "bbox": [
+    310,
+    1197,
+    1526,
+    1258
+   ]
+  },
+  {
+   "text": "the trouble to pregnancy in the month indicated for that",
+   "bbox": [
+    310,
+    1247,
+    1527,
+    1311
+   ]
+  },
+  {
+   "text": "planet.",
+   "bbox": [
+    312,
+    1319,
+    456,
+    1358
+   ]
+  },
+  {
+   "text": "<b>Abnormal Development</b>",
+   "bbox": [
+    312,
+    1397,
+    930,
+    1445
+   ]
+  },
+  {
+   "text": "त्रिकोणगे ज्ञे विबलैस्ततोऽपरैर्मुखाङ्घ्रिहस्तैद्विगुणस्तदा भवेत्।",
+   "bbox": [
+    386,
+    1460,
+    1248,
+    1520
+   ]
+  },
+  {
+   "text": "अवाग्गवीन्दावशुभैर्भसन्धिगै: शुभेक्षितेचेत्कुरुते गिरञ्चिरात्।। 17।।",
+   "bbox": [
+    388,
+    1528,
+    1322,
+    1583
+   ]
+  },
+  {
+   "text": "If Mercury is strong in the 5th or 9th house and the",
+   "bbox": [
+    389,
+    1604,
+    1530,
+    1666
+   ]
+  },
+  {
+   "text": "remaining planets are weak, the child born will have 2 heads,",
+   "bbox": [
+    314,
+    1656,
+    1529,
+    1719
+   ]
+  },
+  {
+   "text": "four arms and 4 feet. If Moon is weak in Taurus and malefic",
+   "bbox": [
+    314,
+    1709,
+    1530,
+    1766
+   ]
+  },
+  {
+   "text": "planets occupy the sandhies (the last navasha of Cancer, Scor-",
+   "bbox": [
+    316,
+    1763,
+    1530,
+    1826
+   ]
+  },
+  {
+   "text": "pio or Pisces) the native loses speech. If there is good aspect",
+   "bbox": [
+    317,
+    1817,
+    1534,
+    1878
+   ]
+  },
+  {
+   "text": "also on Moon, he picks up speech after much time.",
+   "bbox": [
+    316,
+    1873,
+    1327,
+    1930
+   ]
+  },
+  {
+   "text": "Yoga for Hunch Backed etc",
+   "bbox": [
+    319,
+    1965,
+    1036,
+    2016
+   ]
+  },
+  {
+   "text": "सौम्यक्षांशे रविजरुधिरौ चेत्सदन्तोऽत्र जात:",
+   "bbox": [
+    392,
+    2040,
+    997,
+    2095
+   ]
+  },
+  {
+   "text": "कुव्ज: स्वर्क्षे शशिनि तनुगे मन्दमाहेयदृष्टे।",
+   "bbox": [
+    393,
+    2107,
+    1009,
+    2165
+   ]
+  },
+  {
+   "text": "पंगुमीने यमशशिकुजैर्वीक्षिते लग्नसंस्थे",
+   "bbox": [
+    392,
+    2172,
+    946,
+    2230
+   ]
+  },
+  {
+   "text": "सन्धौ पापे शशिनि च जड: स्यात्र चेत्सौम्यदृष्टि:।।। 18।।",
+   "bbox": [
+    394,
+    2238,
+    1258,
+    2291
+   ]
+  }
+ ]
+}

@@ -1,0 +1,362 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0153",
+ "book_id": "brihat-jataka",
+ "seq": 153,
+ "source_ref": {
+  "pdf_page": 77,
+  "half": "a",
+  "v1_page": "s077a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "7237a299a2bb9e9eefc21c94d09310bd81c7c58213d90c65284cb7d60b453e9c",
+ "lines": [
+  {
+   "text": "150",
+   "bbox": [
+    265,
+    181,
+    357,
+    215
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1192,
+    181,
+    1484,
+    213
+   ]
+  },
+  {
+   "text": "given will be nice. The principle should be extended to",
+   "bbox": [
+    257,
+    279,
+    1485,
+    326
+   ]
+  },
+  {
+   "text": "Navamsha and Ashtamsha and Trimshamsha. These planets",
+   "bbox": [
+    254,
+    335,
+    1487,
+    374
+   ]
+  },
+  {
+   "text": "if in the friendly sign of Moon give still better results by their",
+   "bbox": [
+    231,
+    388,
+    1485,
+    428
+   ]
+  },
+  {
+   "text": "aspect on Moon. In the case of Dwadashamsha the results",
+   "bbox": [
+    263,
+    442,
+    1485,
+    480
+   ]
+  },
+  {
+   "text": "should be declared as for Moon in the 12 signs, thus the result",
+   "bbox": [
+    261,
+    494,
+    1485,
+    533
+   ]
+  },
+  {
+   "text": "of the aspect of Sun etc on Moon in Navamsha should also be",
+   "bbox": [
+    261,
+    547,
+    1484,
+    586
+   ]
+  },
+  {
+   "text": "taken into account.",
+   "bbox": [
+    261,
+    599,
+    650,
+    635
+   ]
+  },
+  {
+   "text": "Navamsha Results",
+   "bbox": [
+    260,
+    703,
+    749,
+    739
+   ]
+  },
+  {
+   "text": "If Moon occupies the Navamsha of Mars ie sign Aries or",
+   "bbox": [
+    334,
+    785,
+    1484,
+    824
+   ]
+  },
+  {
+   "text": "Scorpio and is aspected by Sun, the native becomes the protec-",
+   "bbox": [
+    260,
+    838,
+    1482,
+    876
+   ]
+  },
+  {
+   "text": "tor of the city ie is high police officer. If aspected by Mars one",
+   "bbox": [
+    258,
+    890,
+    1481,
+    929
+   ]
+  },
+  {
+   "text": "becomes prone to taking life of others, if aspected by Mercury",
+   "bbox": [
+    258,
+    943,
+    1481,
+    982
+   ]
+  },
+  {
+   "text": "an expert in wrestling. If by Jupiter, a king. If by Venus,",
+   "bbox": [
+    260,
+    994,
+    1481,
+    1038
+   ]
+  },
+  {
+   "text": "wealthy. If by Saturn quarrelsome. If Moon is in the navamsha",
+   "bbox": [
+    255,
+    1049,
+    1482,
+    1089
+   ]
+  },
+  {
+   "text": "signs of Venus ie Taurus or Libra and is aspected by Sun, the",
+   "bbox": [
+    258,
+    1102,
+    1480,
+    1142
+   ]
+  },
+  {
+   "text": "native is a fool. If by Mars adulterous, if by Mercury one",
+   "bbox": [
+    260,
+    1154,
+    1478,
+    1194
+   ]
+  },
+  {
+   "text": "familiar with literature, if by Jupiter a creator himself of good",
+   "bbox": [
+    255,
+    1207,
+    1480,
+    1247
+   ]
+  },
+  {
+   "text": "literature, if by Venus indulging in luxuries and if by Saturn",
+   "bbox": [
+    255,
+    1260,
+    1478,
+    1299
+   ]
+  },
+  {
+   "text": "adulterous.",
+   "bbox": [
+    256,
+    1309,
+    489,
+    1347
+   ]
+  },
+  {
+   "text": "If Moon occupies the Navamsha sign of Mercury ie Gemini",
+   "bbox": [
+    331,
+    1389,
+    1481,
+    1433
+   ]
+  },
+  {
+   "text": "or Virgo and is aspected by Sun, he is a wrestler. If aspected by",
+   "bbox": [
+    255,
+    1440,
+    1478,
+    1487
+   ]
+  },
+  {
+   "text": "Mars, a thief, if by Mercury a good poet, if by Jupiter a",
+   "bbox": [
+    255,
+    1496,
+    1480,
+    1536
+   ]
+  },
+  {
+   "text": "minister, if by Venus, one familiar with music (vocal), if",
+   "bbox": [
+    255,
+    1550,
+    1482,
+    1590
+   ]
+  },
+  {
+   "text": "aspected by Saturn, one is engaged in handicraft etc. If Moon",
+   "bbox": [
+    255,
+    1602,
+    1478,
+    1643
+   ]
+  },
+  {
+   "text": "occupies her own Navamsha ie Cancer and is aspected by Sun",
+   "bbox": [
+    255,
+    1654,
+    1477,
+    1696
+   ]
+  },
+  {
+   "text": "the native has a weak constitution. If by Mars he is much",
+   "bbox": [
+    251,
+    1705,
+    1478,
+    1751
+   ]
+  },
+  {
+   "text": "greedy, if by Mercury a person that practises austerities, if by",
+   "bbox": [
+    254,
+    1757,
+    1478,
+    1804
+   ]
+  },
+  {
+   "text": "Jupiter a prominent person, if by Venus one brought up or",
+   "bbox": [
+    254,
+    1815,
+    1478,
+    1854
+   ]
+  },
+  {
+   "text": "nourished by women and if by Saturn he is involved in much",
+   "bbox": [
+    254,
+    1865,
+    1477,
+    1909
+   ]
+  },
+  {
+   "text": "labour.",
+   "bbox": [
+    254,
+    1918,
+    401,
+    1954
+   ]
+  },
+  {
+   "text": "If Moon located in Leo Navamsha is aspected by Sun the",
+   "bbox": [
+    330,
+    1995,
+    1475,
+    2037
+   ]
+  },
+  {
+   "text": "native becomes full of anger. If aspected by Mars-a favourite",
+   "bbox": [
+    254,
+    2049,
+    1475,
+    2089
+   ]
+  },
+  {
+   "text": "of the government. If by Mercury-an owner of treasures. If by",
+   "bbox": [
+    254,
+    2101,
+    1474,
+    2142
+   ]
+  },
+  {
+   "text": "Jupiter-a man in authority, if by Venus he is without a son, if",
+   "bbox": [
+    252,
+    2152,
+    1477,
+    2196
+   ]
+  },
+  {
+   "text": "by Saturn he is one engaged in highly cruel acts. In case Moon",
+   "bbox": [
+    254,
+    2206,
+    1474,
+    2246
+   ]
+  },
+  {
+   "text": "is located in the navamsha sign of Sagittarius or Pisces and is",
+   "bbox": [
+    253,
+    2257,
+    1474,
+    2297
+   ]
+  }
+ ]
+}

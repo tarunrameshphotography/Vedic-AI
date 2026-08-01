@@ -1,0 +1,308 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0211",
+ "book_id": "brihat-jataka",
+ "seq": 211,
+ "source_ref": {
+  "pdf_page": 106,
+  "half": "a",
+  "v1_page": "s106a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "87d0a561f9486c7154e11bd347af2dc5af342d16af105491ae9645c9c532c0ac",
+ "lines": [
+  {
+   "text": "208",
+   "bbox": [
+    356,
+    183,
+    448,
+    216
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1280,
+    219,
+    1573,
+    267
+   ]
+  },
+  {
+   "text": "important cultural and maritime centre.",
+   "bbox": [
+    346,
+    282,
+    1159,
+    360
+   ]
+  },
+  {
+   "text": "The second drekkana of Mesha is quadruped and femi-",
+   "bbox": [
+    417,
+    362,
+    1569,
+    457
+   ]
+  },
+  {
+   "text": "nine and it is governed by Simha. Since it has the face of a",
+   "bbox": [
+    339,
+    406,
+    1565,
+    511
+   ]
+  },
+  {
+   "text": "horse it is called quadruped. Others call it Khaga (bird)",
+   "bbox": [
+    335,
+    457,
+    1563,
+    565
+   ]
+  },
+  {
+   "text": "क्रूरः कलाज्ञः कपिलः क्रियार्थी भग्नव्रतोऽभ्युद्यतदण्डहस्तः।",
+   "bbox": [
+    405,
+    595,
+    1261,
+    687
+   ]
+  },
+  {
+   "text": "रक्तानि वस्त्राणि बिभर्ति चण्डो मेषे तृतीय: कथितस्त्रिभाग:।। 3 ।।",
+   "bbox": [
+    401,
+    656,
+    1389,
+    762
+   ]
+  },
+  {
+   "text": "The third drekkana of Mesha is a cruel man, skilled in fine",
+   "bbox": [
+    397,
+    752,
+    1548,
+    851
+   ]
+  },
+  {
+   "text": "arts, yellowish, fond of work and unprincipled. He has a stick",
+   "bbox": [
+    320,
+    804,
+    1547,
+    903
+   ]
+  },
+  {
+   "text": "lifted up and has purple clothes.",
+   "bbox": [
+    318,
+    857,
+    972,
+    932
+   ]
+  },
+  {
+   "text": "कुञ्चितलूनकचा घटदेहा दग्धपटा तृषिताशनचित्ता।",
+   "bbox": [
+    390,
+    934,
+    1110,
+    1028
+   ]
+  },
+  {
+   "text": "आभरणान्यभिवाञ्छति नारी रूपमिदं वृषभे प्रथमस्य।। 4 ।।",
+   "bbox": [
+    385,
+    1001,
+    1261,
+    1095
+   ]
+  },
+  {
+   "text": "The first drekkana of Vrishabha is a woman with torn",
+   "bbox": [
+    381,
+    1096,
+    1531,
+    1186
+   ]
+  },
+  {
+   "text": "ringlets. She has a pot-belly, burnt cloth, fond of food and",
+   "bbox": [
+    304,
+    1145,
+    1530,
+    1244
+   ]
+  },
+  {
+   "text": "ornaments. She is thirsty.",
+   "bbox": [
+    301,
+    1198,
+    833,
+    1262
+   ]
+  },
+  {
+   "text": "क्षेत्रधान्यगृहधेनुकलाज्ञो लाङ्गले सशकटे कुशलश्च।",
+   "bbox": [
+    373,
+    1278,
+    1100,
+    1361
+   ]
+  },
+  {
+   "text": "स्कन्धमुद्वहति गोपातितुल्यं क्षुत्परोऽजवदनो मलवासा:।। 5 ।।",
+   "bbox": [
+    368,
+    1337,
+    1259,
+    1436
+   ]
+  },
+  {
+   "text": "The second drekkana of Vrishabha (governed by Kanya)",
+   "bbox": [
+    365,
+    1434,
+    1519,
+    1531
+   ]
+  },
+  {
+   "text": "represents a man having a knowledge of the land, grains,",
+   "bbox": [
+    286,
+    1482,
+    1516,
+    1585
+   ]
+  },
+  {
+   "text": "houses, cows, ploughing, carts and arts. He is hungry, sheep-",
+   "bbox": [
+    282,
+    1535,
+    1511,
+    1637
+   ]
+  },
+  {
+   "text": "faced, wears dirty clothes, and his shoulders are like the hump",
+   "bbox": [
+    281,
+    1589,
+    1508,
+    1689
+   ]
+  },
+  {
+   "text": "of an ox.",
+   "bbox": [
+    281,
+    1643,
+    464,
+    1691
+   ]
+  },
+  {
+   "text": "द्विपसमकाय: पाण्डुरदंष्ट्र: शरभसमाङ्घ्रि: पिङ्गलमूर्ति:।",
+   "bbox": [
+    352,
+    1719,
+    1155,
+    1817
+   ]
+  },
+  {
+   "text": "अविमृगलोमाव्याकुलचित्तो वृषभवनस्य प्रान्तगतोऽयम् ।। 6 ।।",
+   "bbox": [
+    345,
+    1783,
+    1239,
+    1880
+   ]
+  },
+  {
+   "text": "The third drekkana of Vrishabha is a man with an el-",
+   "bbox": [
+    343,
+    1879,
+    1495,
+    1974
+   ]
+  },
+  {
+   "text": "ephant like body. He has white teeth, and his legs are like that",
+   "bbox": [
+    263,
+    1928,
+    1495,
+    2031
+   ]
+  },
+  {
+   "text": "of Sharabha. He has yellowish colour and is clever in captur-",
+   "bbox": [
+    262,
+    1980,
+    1495,
+    2083
+   ]
+  },
+  {
+   "text": "ing goats and deer.",
+   "bbox": [
+    259,
+    2037,
+    652,
+    2097
+   ]
+  },
+  {
+   "text": "Notes: Sarabha is an animal. The lion is said to be afraid of",
+   "bbox": [
+    329,
+    2116,
+    1490,
+    2209
+   ]
+  },
+  {
+   "text": "it. It has eight legs of huge size and strength. Deer is a mild",
+   "bbox": [
+    252,
+    2163,
+    1480,
+    2264
+   ]
+  },
+  {
+   "text": "animal. This is a masculine, quadruped drekkana.",
+   "bbox": [
+    252,
+    2215,
+    1262,
+    2307
+   ]
+  }
+ ]
+}

@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0051",
+ "book_id": "brihat-jataka",
+ "seq": 51,
+ "source_ref": {
+  "pdf_page": 26,
+  "half": "a",
+  "v1_page": "s026a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "b0d1b9712dc1a34dd092b136120d5e5bb77ad88b3dd133c8662d95cfa0506fe8",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1299,
+    243,
+    1589,
+    275
+   ]
+  },
+  {
+   "text": "48",
+   "bbox": [
+    373,
+    244,
+    435,
+    274
+   ]
+  },
+  {
+   "text": "or from the ascendant and the Mars in each case is located in",
+   "bbox": [
+    371,
+    341,
+    1592,
+    377
+   ]
+  },
+  {
+   "text": "the 8th house or if Mars and the Sun occupy the 4th and the",
+   "bbox": [
+    371,
+    391,
+    1588,
+    430
+   ]
+  },
+  {
+   "text": "12th houses respectively and the Moon is weak, the woman",
+   "bbox": [
+    374,
+    442,
+    1591,
+    482
+   ]
+  },
+  {
+   "text": "loses her life and the pregnancy.",
+   "bbox": [
+    370,
+    492,
+    1025,
+    532
+   ]
+  },
+  {
+   "text": "उदयास्तगयो: कुजार्कयोर्निधनं शस्त्रकृतं वदेत्तथा।",
+   "bbox": [
+    442,
+    566,
+    1150,
+    616
+   ]
+  },
+  {
+   "text": "मासाधिपतौ निपीडिते तत्कालं स्रवणं समादिशेत् ।। 9।।",
+   "bbox": [
+    442,
+    629,
+    1249,
+    682
+   ]
+  },
+  {
+   "text": "If the ascendant and the 7th house are occupied by Mars",
+   "bbox": [
+    445,
+    725,
+    1589,
+    764
+   ]
+  },
+  {
+   "text": "and Sun respectively the death of the woman takes place as a",
+   "bbox": [
+    371,
+    776,
+    1588,
+    816
+   ]
+  },
+  {
+   "text": "result of injury from some instrument and if the lord of a",
+   "bbox": [
+    368,
+    826,
+    1588,
+    866
+   ]
+  },
+  {
+   "text": "particular month during conception is heavily afflicted, loss of",
+   "bbox": [
+    370,
+    872,
+    1595,
+    919
+   ]
+  },
+  {
+   "text": "pregnancy during that month should be declared (for monthly",
+   "bbox": [
+    370,
+    922,
+    1616,
+    969
+   ]
+  },
+  {
+   "text": "state during pregnancy see sholka No 16).",
+   "bbox": [
+    370,
+    977,
+    1213,
+    1017
+   ]
+  },
+  {
+   "text": "<b>Maturing Delivery</b>",
+   "bbox": [
+    365,
+    1076,
+    859,
+    1125
+   ]
+  },
+  {
+   "text": "शशाङ्कलग्नोपगतै: शुभग्रहैत्रिकोणजायार्थसुखास्पदस्थितै:।",
+   "bbox": [
+    443,
+    1155,
+    1248,
+    1214
+   ]
+  },
+  {
+   "text": "तृतीयलाभर्क्षगतैश्च पापकै: सुखी तु गर्भो रविणा निरीक्षित:।। 10।।",
+   "bbox": [
+    442,
+    1223,
+    1403,
+    1276
+   ]
+  },
+  {
+   "text": "If the Moon and the ascendant is in association with",
+   "bbox": [
+    442,
+    1318,
+    1589,
+    1354
+   ]
+  },
+  {
+   "text": "benefic planets, benefics occupy the 5th, 9th, 7th, 2nd, 4th or",
+   "bbox": [
+    367,
+    1368,
+    1588,
+    1406
+   ]
+  },
+  {
+   "text": "10th from the Moon or the ascendant and there are malefics in",
+   "bbox": [
+    371,
+    1416,
+    1588,
+    1455
+   ]
+  },
+  {
+   "text": "the 3rd and 11th houses from the Moon and the ascendant, the",
+   "bbox": [
+    367,
+    1469,
+    1588,
+    1508
+   ]
+  },
+  {
+   "text": "pregnancy matures without troubles, with Sun aspecting",
+   "bbox": [
+    367,
+    1520,
+    1589,
+    1559
+   ]
+  },
+  {
+   "text": "lagna or Moon.",
+   "bbox": [
+    368,
+    1571,
+    675,
+    1608
+   ]
+  },
+  {
+   "text": "Sex of Child",
+   "bbox": [
+    367,
+    1671,
+    692,
+    1711
+   ]
+  },
+  {
+   "text": "ओजर्से पुरुषांशकेषु बलिभिर्लग्नार्कगुर्विन्दुभि:",
+   "bbox": [
+    440,
+    1747,
+    1085,
+    1805
+   ]
+  },
+  {
+   "text": "पुंजन्म प्रवदेत्समांशकगतैर्युग्मेषु तैर्योषित:।",
+   "bbox": [
+    441,
+    1815,
+    1040,
+    1868
+   ]
+  },
+  {
+   "text": "गुर्वकौ विषमे नरं शशिसितौ वक्रश्च युग्मे स्त्रियं",
+   "bbox": [
+    441,
+    1880,
+    1128,
+    1934
+   ]
+  },
+  {
+   "text": "द्वचङ्गस्था बुधवीक्षणाच्च यमलौ कुर्वन्ति पक्षे स्वके।। 11।।",
+   "bbox": [
+    439,
+    1945,
+    1315,
+    2002
+   ]
+  },
+  {
+   "text": "If at the time of conception the ascendant, Moon and",
+   "bbox": [
+    442,
+    2041,
+    1594,
+    2081
+   ]
+  },
+  {
+   "text": "Jupiter are strong and occupy odd navamsha in odd signs, the",
+   "bbox": [
+    363,
+    2090,
+    1589,
+    2129
+   ]
+  },
+  {
+   "text": "birth will be of a male. Similarly if the same three are located",
+   "bbox": [
+    364,
+    2141,
+    1585,
+    2180
+   ]
+  },
+  {
+   "text": "in even signs and even navamshas the birth will be of a female,",
+   "bbox": [
+    360,
+    2191,
+    1586,
+    2230
+   ]
+  },
+  {
+   "text": "or if Jupiter and Sun are strong in odd sign the birth would be",
+   "bbox": [
+    366,
+    2242,
+    1584,
+    2281
+   ]
+  },
+  {
+   "text": "of a male. If Moon, Venus and Mars occupy even signs the",
+   "bbox": [
+    366,
+    2293,
+    1584,
+    2332
+   ]
+  },
+  {
+   "text": "birth will be of a female. In case Jupiter, Sun, Venus and Mars",
+   "bbox": [
+    366,
+    2346,
+    1582,
+    2384
+   ]
+  }
+ ]
+}

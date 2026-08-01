@@ -1,0 +1,389 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0064",
+ "book_id": "brihat-jataka",
+ "seq": 64,
+ "source_ref": {
+  "pdf_page": 32,
+  "half": "b",
+  "v1_page": "s032b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "9950c42b6c5f957f69170b9cb10dc4cf4ebc39563518970d7dbd240fd9d072e4",
+ "lines": [
+  {
+   "text": "żа",
+   "bbox": [
+    0,
+    229,
+    41,
+    264
+   ]
+  },
+  {
+   "text": "ìľ",
+   "bbox": [
+    0,
+    338,
+    36,
+    366
+   ]
+  },
+  {
+   "text": "<b>Birth Conditions</b>",
+   "bbox": [
+    260,
+    342,
+    603,
+    376
+   ]
+  },
+  {
+   "text": "61",
+   "bbox": [
+    1409,
+    345,
+    1465,
+    373
+   ]
+  },
+  {
+   "text": "Ιe",
+   "bbox": [
+    0,
+    392,
+    35,
+    422
+   ]
+  },
+  {
+   "text": "`S",
+   "bbox": [
+    0,
+    442,
+    30,
+    474
+   ]
+  },
+  {
+   "text": "(ii) If it is aspected by Moon and Venus the birth takes",
+   "bbox": [
+    335,
+    444,
+    1473,
+    483
+   ]
+  },
+  {
+   "text": "place in a beautiful and charming place.",
+   "bbox": [
+    260,
+    496,
+    1065,
+    534
+   ]
+  },
+  {
+   "text": "g",
+   "bbox": [
+    0,
+    498,
+    32,
+    535
+   ]
+  },
+  {
+   "text": "<i>(iii)</i> If it is aspected by Jupiter, birth takes place near a",
+   "bbox": [
+    335,
+    574,
+    1475,
+    614
+   ]
+  },
+  {
+   "text": "sacrificial altar (or other place related to religious rituals).",
+   "bbox": [
+    260,
+    628,
+    1419,
+    666
+   ]
+  },
+  {
+   "text": "<math>(iv)</math> If it is aspected by Sun, the birth takes place in a",
+   "bbox": [
+    334,
+    704,
+    1473,
+    743
+   ]
+  },
+  {
+   "text": "palace, (govt. house etc) a temple or a cowshed.",
+   "bbox": [
+    259,
+    756,
+    1199,
+    796
+   ]
+  },
+  {
+   "text": "<math>(v)</math> If it is aspected by Mercury the birth takes place in a",
+   "bbox": [
+    332,
+    836,
+    1472,
+    875
+   ]
+  },
+  {
+   "text": "place connected with trade.",
+   "bbox": [
+    257,
+    888,
+    805,
+    926
+   ]
+  },
+  {
+   "text": "राश्यंशसमानगोचरे मार्गे जन्म चरे स्थिरे गृहे।",
+   "bbox": [
+    331,
+    964,
+    987,
+    1013
+   ]
+  },
+  {
+   "text": "स्वर्क्षांशगते स्वमन्दिरे बलयोगात्फलमंशकर्क्षयो: ।। 13 ।।",
+   "bbox": [
+    331,
+    1027,
+    1154,
+    1077
+   ]
+  },
+  {
+   "text": "The place of birth is determined from the navamsha ob-",
+   "bbox": [
+    332,
+    1125,
+    1469,
+    1164
+   ]
+  },
+  {
+   "text": "taining in the lagna. If the sign of the navamsha is movable,",
+   "bbox": [
+    256,
+    1178,
+    1467,
+    1218
+   ]
+  },
+  {
+   "text": "the birth is in the way, if it is fixed one birth is in the house",
+   "bbox": [
+    256,
+    1230,
+    1469,
+    1270
+   ]
+  },
+  {
+   "text": "itself. If the lagna is vargottam ie when the navamsha is of the",
+   "bbox": [
+    254,
+    1282,
+    1469,
+    1321
+   ]
+  },
+  {
+   "text": "same sign as the lagna then also birth is in the house. As",
+   "bbox": [
+    256,
+    1334,
+    1470,
+    1374
+   ]
+  },
+  {
+   "text": "between the sign in the lagna and the navamsha in it, the",
+   "bbox": [
+    256,
+    1388,
+    1469,
+    1427
+   ]
+  },
+  {
+   "text": "results should be declared on the basis of the stronger of the",
+   "bbox": [
+    254,
+    1440,
+    1469,
+    1480
+   ]
+  },
+  {
+   "text": "two.",
+   "bbox": [
+    254,
+    1495,
+    348,
+    1528
+   ]
+  },
+  {
+   "text": "आरार्कजयोस्त्रिकोणगे चन्द्रेऽस्ते च विसृज्यतेऽम्बया।",
+   "bbox": [
+    328,
+    1567,
+    1069,
+    1618
+   ]
+  },
+  {
+   "text": "दृष्टेऽमरराजमन्त्रिणा दीर्घायस्सुखभाक् च स स्मृत:।। 14 ।।",
+   "bbox": [
+    328,
+    1630,
+    1198,
+    1684
+   ]
+  },
+  {
+   "text": "If Mars and Saturn are located in the 5th or 9t and Moon",
+   "bbox": [
+    328,
+    1728,
+    1469,
+    1763
+   ]
+  },
+  {
+   "text": "is in the 7th house, the child born is separated from its mother.",
+   "bbox": [
+    250,
+    1780,
+    1466,
+    1821
+   ]
+  },
+  {
+   "text": "In case the Moon in such a condition is aspected by Jupiter, the",
+   "bbox": [
+    253,
+    1834,
+    1467,
+    1873
+   ]
+  },
+  {
+   "text": "child even if forsaken by its mother lives in comfort for long.",
+   "bbox": [
+    250,
+    1885,
+    1460,
+    1927
+   ]
+  },
+  {
+   "text": "In the case of lagna contains Moon aspected by a malefic",
+   "bbox": [
+    329,
+    1965,
+    1469,
+    2003
+   ]
+  },
+  {
+   "text": "and with Mars in the 7th house, the child is given up by its",
+   "bbox": [
+    253,
+    2017,
+    1467,
+    2056
+   ]
+  },
+  {
+   "text": "mother and dies.",
+   "bbox": [
+    250,
+    2068,
+    591,
+    2104
+   ]
+  },
+  {
+   "text": "If the lagna contains Moon, aspected by a benefic",
+   "bbox": [
+    414,
+    2149,
+    1467,
+    2188
+   ]
+  },
+  {
+   "text": "(ii)",
+   "bbox": [
+    325,
+    2153,
+    410,
+    2182
+   ]
+  },
+  {
+   "text": "planet with Saturn and Mars occupying the 11th house, for-",
+   "bbox": [
+    250,
+    2201,
+    1465,
+    2241
+   ]
+  },
+  {
+   "text": "saken child is rescued by the party represented by the benefic",
+   "bbox": [
+    250,
+    2253,
+    1467,
+    2293
+   ]
+  },
+  {
+   "text": "planet aspecting. If the yoga at clause (ii) above is formed but",
+   "bbox": [
+    249,
+    2306,
+    1467,
+    2346
+   ]
+  },
+  {
+   "text": "there is malefic aspect also on the Moon, the child even when",
+   "bbox": [
+    249,
+    2358,
+    1463,
+    2398
+   ]
+  },
+  {
+   "text": "rescued dies.",
+   "bbox": [
+    244,
+    2406,
+    503,
+    2443
+   ]
+  }
+ ]
+}

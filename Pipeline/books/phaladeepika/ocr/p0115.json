@@ -1,0 +1,279 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0115",
+ "book_id": "phaladeepika",
+ "seq": 115,
+ "source_ref": {
+  "pdf_page": 115
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "0cb7fcb8595848f206d5920d3e039b248c7cad86892ae8292c4f55fa6f831f43",
+ "lines": [
+  {
+   "text": "<b>Chapter 11</b>",
+   "bbox": [
+    281,
+    57,
+    357,
+    75
+   ]
+  },
+  {
+   "text": "<b>Female Horoscopy</b>",
+   "bbox": [
+    255,
+    85,
+    382,
+    103
+   ]
+  },
+  {
+   "text": "1. Whatever effects have been declared for men, they are entirely appicable ",
+   "bbox": [
+    121,
+    137,
+    556,
+    152
+   ]
+  },
+  {
+   "text": "to women too, or to their husbands. The woman's prosperity and happiness have to ",
+   "bbox": [
+    85,
+    161,
+    556,
+    176
+   ]
+  },
+  {
+   "text": "be deducted from the 8th house (from the Lagna or the Moon whichever is ",
+   "bbox": [
+    85,
+    185,
+    556,
+    201
+   ]
+  },
+  {
+   "text": "stronger). Consideration of children should be made from the 9th house and ",
+   "bbox": [
+    85,
+    209,
+    556,
+    225
+   ]
+  },
+  {
+   "text": "matters relating to her appearance, looks etc., should be examined from the Langa. ",
+   "bbox": [
+    85,
+    233,
+    556,
+    249
+   ]
+  },
+  {
+   "text": "It is from the 7th house that her welfare (power of influencing the husband) and the ",
+   "bbox": [
+    85,
+    257,
+    556,
+    273
+   ]
+  },
+  {
+   "text": "(nature of the husband) should be assessed, while her association with other men ",
+   "bbox": [
+    85,
+    282,
+    556,
+    297
+   ]
+  },
+  {
+   "text": "and chastity should be assessed from an examination of the 4th house. Benefics in ",
+   "bbox": [
+    85,
+    306,
+    556,
+    321
+   ]
+  },
+  {
+   "text": "these houses produce good results while malefics in the above houses are ",
+   "bbox": [
+    85,
+    330,
+    556,
+    345
+   ]
+  },
+  {
+   "text": "productive of evil unless they happen to own the house in which the effect will be ",
+   "bbox": [
+    85,
+    354,
+    556,
+    370
+   ]
+  },
+  {
+   "text": "good.",
+   "bbox": [
+    85,
+    378,
+    117,
+    394
+   ]
+  },
+  {
+   "text": "Notes — This is a very important verse of this chapter. It will, therefore, be ",
+   "bbox": [
+    121,
+    402,
+    556,
+    418
+   ]
+  },
+  {
+   "text": "useful for the readers to know what other authorities have said in this regard.",
+   "bbox": [
+    85,
+    427,
+    515,
+    442
+   ]
+  },
+  {
+   "text": "<b>Saravali</b>",
+   "bbox": [
+    121,
+    451,
+    171,
+    466
+   ]
+  },
+  {
+   "text": "From the 8th house her widowhood can be deducted while the ascendant ",
+   "bbox": [
+    121,
+    475,
+    556,
+    490
+   ]
+  },
+  {
+   "text": "deals with her physique, the 7th house with her husband's good fortunes and the ",
+   "bbox": [
+    85,
+    499,
+    556,
+    514
+   ]
+  },
+  {
+   "text": "5th house with her offspring.",
+   "bbox": [
+    85,
+    523,
+    247,
+    539
+   ]
+  },
+  {
+   "text": "<b>Brihat Jataka</b>",
+   "bbox": [
+    121,
+    547,
+    204,
+    563
+   ]
+  },
+  {
+   "text": "Of the effects that have been described till now in the case of male ",
+   "bbox": [
+    121,
+    571,
+    556,
+    587
+   ]
+  },
+  {
+   "text": "horoscopes, all those that may be found in (female horoscope) suitable to females ",
+   "bbox": [
+    85,
+    596,
+    556,
+    611
+   ]
+  },
+  {
+   "text": "should be declared as applicable to them alone; the rest should be ascribed to their ",
+   "bbox": [
+    85,
+    620,
+    556,
+    635
+   ]
+  },
+  {
+   "text": "husbands. Hie death of the husband is to be declared through the 8th place (from ",
+   "bbox": [
+    85,
+    644,
+    556,
+    659
+   ]
+  },
+  {
+   "text": "the Langa or the Moon whichever is stronger). Matters relating to her appearance, ",
+   "bbox": [
+    85,
+    668,
+    556,
+    684
+   ]
+  },
+  {
+   "text": "beauty etc., should be determined from the Lagna and the sign occupied by the ",
+   "bbox": [
+    85,
+    692,
+    556,
+    708
+   ]
+  },
+  {
+   "text": "Moon. It is from the 7th place (from the Lagna or the Moon whichever is stronger) ",
+   "bbox": [
+    85,
+    716,
+    556,
+    732
+   ]
+  },
+  {
+   "text": "that her welfare (happiness) and the (nature of the husband) should be assertained.",
+   "bbox": [
+    85,
+    740,
+    546,
+    756
+   ]
+  },
+  {
+   "text": "115",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

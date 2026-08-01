@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0187",
+ "book_id": "brihat-jataka",
+ "seq": 187,
+ "source_ref": {
+  "pdf_page": 94,
+  "half": "a",
+  "v1_page": "s094a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "be5c2749d7ad19f46147ebbd96910c3ea37859a222ba16331ccf698efab8dc59",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1163,
+    228,
+    1452,
+    261
+   ]
+  },
+  {
+   "text": "184",
+   "bbox": [
+    236,
+    231,
+    387,
+    264
+   ]
+  },
+  {
+   "text": "when there is malefic in the eighth.",
+   "bbox": [
+    236,
+    331,
+    949,
+    370
+   ]
+  },
+  {
+   "text": "When benefics occupy the second, she dies before her",
+   "bbox": [
+    312,
+    408,
+    1455,
+    447
+   ]
+  },
+  {
+   "text": "husband.",
+   "bbox": [
+    238,
+    459,
+    421,
+    495
+   ]
+  },
+  {
+   "text": "When the Moon is in Taurus, Leo, Virgo or Scorpio, she",
+   "bbox": [
+    311,
+    546,
+    1455,
+    584
+   ]
+  },
+  {
+   "text": "has a few children.",
+   "bbox": [
+    233,
+    598,
+    618,
+    633
+   ]
+  },
+  {
+   "text": "<i>Notes:</i> Some argued that the ages of the planets must be",
+   "bbox": [
+    306,
+    682,
+    1455,
+    721
+   ]
+  },
+  {
+   "text": "those given in 8.9. The ages given are-",
+   "bbox": [
+    233,
+    736,
+    1006,
+    774
+   ]
+  },
+  {
+   "text": "Moon-1 year; Kuja-2 years; Budha-9 years; Shukra-20",
+   "bbox": [
+    306,
+    819,
+    1454,
+    857
+   ]
+  },
+  {
+   "text": "years; Guru-18 years; Ravi-20 years and Shani-50 years.",
+   "bbox": [
+    233,
+    872,
+    1362,
+    910
+   ]
+  },
+  {
+   "text": "The text has Vayasi. This refers to the period and",
+   "bbox": [
+    308,
+    954,
+    1455,
+    993
+   ]
+  },
+  {
+   "text": "sub-periods, and not to the ages of the planets. Find the",
+   "bbox": [
+    233,
+    1008,
+    1454,
+    1048
+   ]
+  },
+  {
+   "text": "period or the sub-period of the lord of the Navamsha",
+   "bbox": [
+    235,
+    1061,
+    1454,
+    1101
+   ]
+  },
+  {
+   "text": "occupied by the lord of the eighth. Then determine the",
+   "bbox": [
+    233,
+    1114,
+    1454,
+    1156
+   ]
+  },
+  {
+   "text": "widowhood during that period after her marriage. The text",
+   "bbox": [
+    233,
+    1167,
+    1452,
+    1209
+   ]
+  },
+  {
+   "text": "clearly states वयसि तस्य समे। The age is equal to that of the",
+   "bbox": [
+    230,
+    1209,
+    1451,
+    1265
+   ]
+  },
+  {
+   "text": "planet owning the lord of the navamsha occupied by the lord of",
+   "bbox": [
+    235,
+    1273,
+    1455,
+    1317
+   ]
+  },
+  {
+   "text": "the eighth house. Bhattotpala introduced the expression 'after",
+   "bbox": [
+    233,
+    1329,
+    1452,
+    1368
+   ]
+  },
+  {
+   "text": "marriage', this is correct. But possibly his interpretation refers",
+   "bbox": [
+    233,
+    1381,
+    1448,
+    1421
+   ]
+  },
+  {
+   "text": "to the dasas as per amsha or Pinda ayurdayas. Varahamihir",
+   "bbox": [
+    232,
+    1436,
+    1451,
+    1475
+   ]
+  },
+  {
+   "text": "now here refers to the Vimshottari dasa system. The word",
+   "bbox": [
+    232,
+    1490,
+    1451,
+    1528
+   ]
+  },
+  {
+   "text": "same means years.",
+   "bbox": [
+    230,
+    1546,
+    612,
+    1581
+   ]
+  },
+  {
+   "text": "सौरे मध्यबले बलेन रहितै: शीतांशुशुक्रेन्दुजै:",
+   "bbox": [
+    304,
+    1618,
+    949,
+    1676
+   ]
+  },
+  {
+   "text": "शेषैर्वीर्यसमन्वितै: पुरुषिणी यद्योजराश्युद्गम:।",
+   "bbox": [
+    304,
+    1684,
+    958,
+    1743
+   ]
+  },
+  {
+   "text": "जीवारास्फुजिदैन्दवेषु बलिषु प्राग्लग्नराशौ समे",
+   "bbox": [
+    304,
+    1754,
+    966,
+    1809
+   ]
+  },
+  {
+   "text": "विख्याता भुवि नैकशास्त्रकुशला स्त्री ब्रह्मवादिन्यपि।। 15 ।।",
+   "bbox": [
+    305,
+    1823,
+    1188,
+    1877
+   ]
+  },
+  {
+   "text": "When Shani has moderate strength, and when Shukra,",
+   "bbox": [
+    306,
+    1924,
+    1448,
+    1968
+   ]
+  },
+  {
+   "text": "Budha and Chandra are powerless and others are power-",
+   "bbox": [
+    228,
+    1980,
+    1448,
+    2019
+   ]
+  },
+  {
+   "text": "ful, and when the lagna is an odd sign, the woman will be",
+   "bbox": [
+    226,
+    2033,
+    1448,
+    2072
+   ]
+  },
+  {
+   "text": "adulterous.",
+   "bbox": [
+    228,
+    2085,
+    457,
+    2120
+   ]
+  },
+  {
+   "text": "If the lagna is an even sign, and if Guru, Kuja, Shukra and",
+   "bbox": [
+    305,
+    2168,
+    1448,
+    2207
+   ]
+  },
+  {
+   "text": "Budha are powerful, she becomes famous, learned in many",
+   "bbox": [
+    228,
+    2221,
+    1448,
+    2259
+   ]
+  },
+  {
+   "text": "Shastras and a Brahmavadini (Philosopher).",
+   "bbox": [
+    226,
+    2272,
+    1117,
+    2311
+   ]
+  }
+ ]
+}

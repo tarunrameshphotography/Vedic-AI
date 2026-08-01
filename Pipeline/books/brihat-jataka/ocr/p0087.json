@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0087",
+ "book_id": "brihat-jataka",
+ "seq": 87,
+ "source_ref": {
+  "pdf_page": 44,
+  "half": "a",
+  "v1_page": "s044a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "58ec2a500e195d6fb2436e2290308c6aa5e5b85f6b786c040cd2796f5a53dcab",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1239,
+    240,
+    1532,
+    274
+   ]
+  },
+  {
+   "text": "84",
+   "bbox": [
+    311,
+    241,
+    381,
+    274
+   ]
+  },
+  {
+   "text": "भ्रष्टस्य तुङ्गादवरोहिसञ्ज्ञा मध्या भवेत्सा सुहृदुच्चभांशे।",
+   "bbox": [
+    386,
+    338,
+    1189,
+    388
+   ]
+  },
+  {
+   "text": "आरोहिणी निम्नपरिच्युतस्य नीचारिभांशेष्वधमा भवेत्सा।। 611",
+   "bbox": [
+    386,
+    402,
+    1279,
+    454
+   ]
+  },
+  {
+   "text": "A planet located in a position in between his point of",
+   "bbox": [
+    386,
+    499,
+    1537,
+    538
+   ]
+  },
+  {
+   "text": "highest exhaltation (see shloka 13 of chapter 1) and that",
+   "bbox": [
+    311,
+    551,
+    1534,
+    590
+   ]
+  },
+  {
+   "text": "of highest debilitation is termed \"Avrohi\" (getting down),",
+   "bbox": [
+    311,
+    603,
+    1532,
+    642
+   ]
+  },
+  {
+   "text": "while one located in between his highest debilitation point",
+   "bbox": [
+    311,
+    650,
+    1533,
+    698
+   ]
+  },
+  {
+   "text": "and highest exaltation points is called \"Aarohi\" (mounting",
+   "bbox": [
+    311,
+    708,
+    1532,
+    747
+   ]
+  },
+  {
+   "text": "up). If an \"Avrohi\" planet is occupying the navamsha sign",
+   "bbox": [
+    310,
+    760,
+    1531,
+    799
+   ]
+  },
+  {
+   "text": "of his friend or his own exaltation sign in navamsha he",
+   "bbox": [
+    311,
+    812,
+    1531,
+    853
+   ]
+  },
+  {
+   "text": "gives medium results while a planet that is \"Aarohi\" and",
+   "bbox": [
+    311,
+    866,
+    1531,
+    905
+   ]
+  },
+  {
+   "text": "located in the debilitation or inimical sign in navamsha gives",
+   "bbox": [
+    311,
+    919,
+    1530,
+    958
+   ]
+  },
+  {
+   "text": "worst results in dasa. Thus an \"Aarohi\" planet gives good",
+   "bbox": [
+    311,
+    972,
+    1530,
+    1012
+   ]
+  },
+  {
+   "text": "results and an \"Avrohi\" bad results so far as this facet alone is",
+   "bbox": [
+    308,
+    1024,
+    1530,
+    1059
+   ]
+  },
+  {
+   "text": "concerned.",
+   "bbox": [
+    310,
+    1080,
+    529,
+    1113
+   ]
+  },
+  {
+   "text": "नीचारिभांशे समवस्थितस्य शस्ते गृहे मिश्रफला प्रदिष्टा।",
+   "bbox": [
+    384,
+    1153,
+    1194,
+    1203
+   ]
+  },
+  {
+   "text": "सञ्ज्ञानुरूपाणि फलान्यथैषां दशासु वक्ष्यामि यथोपयोगम्।। 7।।",
+   "bbox": [
+    381,
+    1216,
+    1298,
+    1270
+   ]
+  },
+  {
+   "text": "The dasa results of a planet that is strong by exaltation or",
+   "bbox": [
+    386,
+    1314,
+    1530,
+    1353
+   ]
+  },
+  {
+   "text": "by occupation of mool trikon sign, own sign or a friendly sign",
+   "bbox": [
+    307,
+    1366,
+    1530,
+    1405
+   ]
+  },
+  {
+   "text": "but who occupies a navamsha that is its debelitation",
+   "bbox": [
+    307,
+    1417,
+    1528,
+    1458
+   ]
+  },
+  {
+   "text": "navamsha or one belonging to its enemy, gives mixed results ie",
+   "bbox": [
+    307,
+    1471,
+    1527,
+    1511
+   ]
+  },
+  {
+   "text": "both good and bad. The planets give their results according as",
+   "bbox": [
+    307,
+    1520,
+    1525,
+    1566
+   ]
+  },
+  {
+   "text": "they are full, medium, mixed or worst. These details I will",
+   "bbox": [
+    307,
+    1577,
+    1527,
+    1616
+   ]
+  },
+  {
+   "text": "narrative when dealing subsequently with the appropriate",
+   "bbox": [
+    305,
+    1628,
+    1527,
+    1672
+   ]
+  },
+  {
+   "text": "dasas of planets.",
+   "bbox": [
+    307,
+    1683,
+    643,
+    1722
+   ]
+  },
+  {
+   "text": "उभयेऽधममध्यपूजिता द्रेष्काणैश्चरभेषु चोत्क्रमात्।",
+   "bbox": [
+    378,
+    1756,
+    1062,
+    1808
+   ]
+  },
+  {
+   "text": "अशुभेष्टसमा: स्थिरक्रमाद्धोराया: परिकल्पिता दशा।। 8।।",
+   "bbox": [
+    380,
+    1821,
+    1215,
+    1875
+   ]
+  },
+  {
+   "text": "If the lagna is mutable, the lords of the first, second and",
+   "bbox": [
+    381,
+    1919,
+    1525,
+    1958
+   ]
+  },
+  {
+   "text": "third decanates will give worst, medium and best results re-",
+   "bbox": [
+    306,
+    1972,
+    1524,
+    2011
+   ]
+  },
+  {
+   "text": "spectively. If the sign in lagna is movable, the result will be",
+   "bbox": [
+    306,
+    2024,
+    1524,
+    2064
+   ]
+  },
+  {
+   "text": "reversed ie lord of 1st to 3rd decanates will give best, medium",
+   "bbox": [
+    306,
+    2077,
+    1524,
+    2116
+   ]
+  },
+  {
+   "text": "and worst results. If the lagna is a fixed sign the results for the",
+   "bbox": [
+    306,
+    2129,
+    1525,
+    2169
+   ]
+  },
+  {
+   "text": "three decanates would be worst, best and medium respec-",
+   "bbox": [
+    306,
+    2182,
+    1522,
+    2221
+   ]
+  },
+  {
+   "text": "tively.",
+   "bbox": [
+    304,
+    2235,
+    434,
+    2270
+   ]
+  }
+ ]
+}

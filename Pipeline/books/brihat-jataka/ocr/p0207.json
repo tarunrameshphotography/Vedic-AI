@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0207",
+ "book_id": "brihat-jataka",
+ "seq": 207,
+ "source_ref": {
+  "pdf_page": 104,
+  "half": "a",
+  "v1_page": "s104a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "bd9e350fb32abea0428f50f821104af47c4a7931b1e4ec241bb07239a0af10cd",
+ "lines": [
+  {
+   "text": "204",
+   "bbox": [
+    266,
+    299,
+    361,
+    333
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1193,
+    299,
+    1486,
+    332
+   ]
+  },
+  {
+   "text": "these four separately by 10, 8,7 and 5. Then add or subtract",
+   "bbox": [
+    266,
+    402,
+    1491,
+    441
+   ]
+  },
+  {
+   "text": "nine as required. The total is to be divided by 120. The result",
+   "bbox": [
+    266,
+    454,
+    1489,
+    493
+   ]
+  },
+  {
+   "text": "gives the years. Divide it by six and get the Ritu. Divide it by",
+   "bbox": [
+    265,
+    507,
+    1488,
+    547
+   ]
+  },
+  {
+   "text": "two we get the month. Divide it by 27 to get the constellation.",
+   "bbox": [
+    266,
+    560,
+    1488,
+    600
+   ]
+  },
+  {
+   "text": "Divide it by 15 to have the lunar day.",
+   "bbox": [
+    265,
+    613,
+    1023,
+    652
+   ]
+  },
+  {
+   "text": "विज्ञेया दशकेष्वब्दा ऋतुमासास्तथैव च।",
+   "bbox": [
+    336,
+    686,
+    924,
+    738
+   ]
+  },
+  {
+   "text": "अष्टकेष्वपि मासाद्धौँ तिथयश्च तथा स्मृता: ।। 12 ।।",
+   "bbox": [
+    339,
+    748,
+    1098,
+    802
+   ]
+  },
+  {
+   "text": "The total multiplied by ten gives the years, season and",
+   "bbox": [
+    340,
+    842,
+    1488,
+    889
+   ]
+  },
+  {
+   "text": "months. Multiplied by eight, we get the fortnight and the",
+   "bbox": [
+    265,
+    899,
+    1488,
+    939
+   ]
+  },
+  {
+   "text": "lunar day.",
+   "bbox": [
+    265,
+    952,
+    479,
+    991
+   ]
+  },
+  {
+   "text": "<i>Notes:</i> The total multiplied by ten and divided by 120 gives",
+   "bbox": [
+    336,
+    1030,
+    1488,
+    1070
+   ]
+  },
+  {
+   "text": "the total length of life. The remainder is the age in the years of",
+   "bbox": [
+    265,
+    1080,
+    1491,
+    1124
+   ]
+  },
+  {
+   "text": "the querist. Divide the total by six to get the season, by two to",
+   "bbox": [
+    265,
+    1135,
+    1485,
+    1174
+   ]
+  },
+  {
+   "text": "have the month.",
+   "bbox": [
+    265,
+    1186,
+    599,
+    1221
+   ]
+  },
+  {
+   "text": "Multiply the total by eight. Divide it by two. If the remain-",
+   "bbox": [
+    336,
+    1267,
+    1486,
+    1306
+   ]
+  },
+  {
+   "text": "der is one, the birth is in the first half of the lunar month. If",
+   "bbox": [
+    263,
+    1318,
+    1489,
+    1357
+   ]
+  },
+  {
+   "text": "there is no remainder, the birth is in the dark fortnight. Divide",
+   "bbox": [
+    265,
+    1372,
+    1486,
+    1411
+   ]
+  },
+  {
+   "text": "it by 15 and the remainder gives the lunar day.",
+   "bbox": [
+    262,
+    1425,
+    1215,
+    1464
+   ]
+  },
+  {
+   "text": "दिवारात्रिप्रसूतिं च नक्षत्रानयनं तथा।",
+   "bbox": [
+    335,
+    1502,
+    854,
+    1550
+   ]
+  },
+  {
+   "text": "सप्तकेष्वपि वर्गेषु नित्यमेवोपलक्षयेत् ।। 13 ।।",
+   "bbox": [
+    335,
+    1563,
+    1018,
+    1614
+   ]
+  },
+  {
+   "text": "From the total multiplied by seven get constellation and",
+   "bbox": [
+    336,
+    1659,
+    1485,
+    1699
+   ]
+  },
+  {
+   "text": "the time of the birth in the day or night.",
+   "bbox": [
+    262,
+    1712,
+    1075,
+    1750
+   ]
+  },
+  {
+   "text": "<i>Notes:</i> Multiply the total by seven. Divide it by two. If the",
+   "bbox": [
+    335,
+    1790,
+    1483,
+    1830
+   ]
+  },
+  {
+   "text": "remainder is one, birth is in the day time. If there is no",
+   "bbox": [
+    265,
+    1843,
+    1482,
+    1883
+   ]
+  },
+  {
+   "text": "remainder, it is in the night. The total divided by 27 gives a",
+   "bbox": [
+    260,
+    1896,
+    1482,
+    1935
+   ]
+  },
+  {
+   "text": "remainder which has to be counted from Asvini. This gives the",
+   "bbox": [
+    259,
+    1948,
+    1483,
+    1988
+   ]
+  },
+  {
+   "text": "nakshatra at birth.",
+   "bbox": [
+    259,
+    2001,
+    647,
+    2036
+   ]
+  },
+  {
+   "text": "वेलामथ विलग्नं च होरामंशकमेव च।",
+   "bbox": [
+    333,
+    2075,
+    893,
+    2122
+   ]
+  },
+  {
+   "text": "पञ्चकेषु विजानीयान्नप्टजातकसिद्धये।। 14 ।।",
+   "bbox": [
+    333,
+    2141,
+    1005,
+    2191
+   ]
+  },
+  {
+   "text": "Multiply the total by five. We get the time of birth, lagna,",
+   "bbox": [
+    335,
+    2231,
+    1483,
+    2277
+   ]
+  },
+  {
+   "text": "amsha, hora and the like.",
+   "bbox": [
+    259,
+    2287,
+    781,
+    2325
+   ]
+  },
+  {
+   "text": "<i>Notes:</i> If the person was born in the day time, divide the",
+   "bbox": [
+    335,
+    2364,
+    1483,
+    2403
+   ]
+  }
+ ]
+}

@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0092",
+ "book_id": "brihat-jataka",
+ "seq": 92,
+ "source_ref": {
+  "pdf_page": 46,
+  "half": "b",
+  "v1_page": "s046b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "62f9b7470aed11be175d514a09f92d044f863e18403241b704c2b61cc4ca6d66",
+ "lines": [
+  {
+   "text": "89",
+   "bbox": [
+    1409,
+    242,
+    1473,
+    274
+   ]
+  },
+  {
+   "text": "<b>Ruling and Sub Ruling Periods</b>",
+   "bbox": [
+    263,
+    244,
+    897,
+    281
+   ]
+  },
+  {
+   "text": "Dasa of Venus",
+   "bbox": [
+    268,
+    342,
+    640,
+    379
+   ]
+  },
+  {
+   "text": "शौक्रचां गीतरतिप्रमोदसुरभिर्द्रव्यात्रपानाम्बर-",
+   "bbox": [
+    334,
+    421,
+    958,
+    472
+   ]
+  },
+  {
+   "text": "स्त्रीरत्नद्युतिमन्मथोपकरणज्ञानेष्टमित्रागमा:।",
+   "bbox": [
+    335,
+    479,
+    931,
+    538
+   ]
+  },
+  {
+   "text": "कौशल्यं क्रयविक्रये कृषिनिधिप्राप्तिर्धनस्यागमो",
+   "bbox": [
+    333,
+    549,
+    1007,
+    602
+   ]
+  },
+  {
+   "text": "बृन्दोर्वीशनिषादधर्मरहितैर्वैरं शुच: स्नेहत:।। 17।।",
+   "bbox": [
+    332,
+    614,
+    1055,
+    668
+   ]
+  },
+  {
+   "text": "During the favourable dasa of Venus, one is absorbed in",
+   "bbox": [
+    334,
+    711,
+    1474,
+    751
+   ]
+  },
+  {
+   "text": "music, great enjoyments and pleasures and gets various ar-",
+   "bbox": [
+    263,
+    762,
+    1473,
+    802
+   ]
+  },
+  {
+   "text": "ticles including the food and drinks and wearing of good",
+   "bbox": [
+    263,
+    808,
+    1471,
+    855
+   ]
+  },
+  {
+   "text": "clothes. One gets a wife and a jewel, one shines in this period",
+   "bbox": [
+    262,
+    863,
+    1471,
+    902
+   ]
+  },
+  {
+   "text": "and acquires accessories to sexual enjoyment such as an artis-",
+   "bbox": [
+    262,
+    913,
+    1471,
+    953
+   ]
+  },
+  {
+   "text": "tic bed, scents, flowers etc, one has contacts with friends,",
+   "bbox": [
+    263,
+    963,
+    1476,
+    1003
+   ]
+  },
+  {
+   "text": "efficiency in the sale and purchase of commodities, acquisition",
+   "bbox": [
+    261,
+    1014,
+    1473,
+    1053
+   ]
+  },
+  {
+   "text": "of underground wealth. If the dasa is adverse, one engages",
+   "bbox": [
+    261,
+    1064,
+    1476,
+    1104
+   ]
+  },
+  {
+   "text": "himself in the enmity of group of people, the Govt and its",
+   "bbox": [
+    262,
+    1116,
+    1473,
+    1156
+   ]
+  },
+  {
+   "text": "officials with low type of people and with people having no",
+   "bbox": [
+    262,
+    1166,
+    1470,
+    1208
+   ]
+  },
+  {
+   "text": "faith in religion. He also suffers through his love.",
+   "bbox": [
+    259,
+    1217,
+    1245,
+    1257
+   ]
+  },
+  {
+   "text": "Dasa of Saturn",
+   "bbox": [
+    261,
+    1321,
+    653,
+    1359
+   ]
+  },
+  {
+   "text": "सौरीं प्राप्य खरोप्ट्रपक्षिमहिषीवृद्धाङ्गनावाप्तय:",
+   "bbox": [
+    331,
+    1396,
+    983,
+    1453
+   ]
+  },
+  {
+   "text": "श्रेणीग्रामपुराधिकारजनिता पूजा कुधान्यागम:।",
+   "bbox": [
+    331,
+    1461,
+    973,
+    1518
+   ]
+  },
+  {
+   "text": "श्लेष्मेर्घ्यानिलकोपमोहमलिनव्यापत्तितन्द्राश्रमान्",
+   "bbox": [
+    332,
+    1527,
+    983,
+    1576
+   ]
+  },
+  {
+   "text": "भृत्यापत्यकलत्रभर्त्सनमपि प्राप्नोति च व्यङ्गताम् ।। 1811",
+   "bbox": [
+    332,
+    1593,
+    1144,
+    1646
+   ]
+  },
+  {
+   "text": "During the favourable dasa of Saturn the native acquires",
+   "bbox": [
+    333,
+    1689,
+    1471,
+    1729
+   ]
+  },
+  {
+   "text": "asses, camels, birds, buffalos and old women. One also gets",
+   "bbox": [
+    259,
+    1740,
+    1471,
+    1780
+   ]
+  },
+  {
+   "text": "power over and wins the respect of people of his own class and",
+   "bbox": [
+    259,
+    1790,
+    1471,
+    1831
+   ]
+  },
+  {
+   "text": "wields power over a village or a city. He gets lower types of",
+   "bbox": [
+    258,
+    1841,
+    1474,
+    1881
+   ]
+  },
+  {
+   "text": "grains. If the dasa is adverse, he gets into trouble as a result of",
+   "bbox": [
+    258,
+    1892,
+    1476,
+    1932
+   ]
+  },
+  {
+   "text": "phlegm, arthritis or the like, is jealous of others. He experi-",
+   "bbox": [
+    258,
+    1943,
+    1470,
+    1983
+   ]
+  },
+  {
+   "text": "ences laziness and undergoes hard labour. He is chastised by",
+   "bbox": [
+    256,
+    1994,
+    1470,
+    2034
+   ]
+  },
+  {
+   "text": "servants, wife, progeny and has pain etc in the limbs.",
+   "bbox": [
+    256,
+    2045,
+    1325,
+    2086
+   ]
+  },
+  {
+   "text": "दशासु शस्तासु शुभानि कुर्वन्त्यनिष्टसञ्ज्ञास्वशुभानि चैवम्।",
+   "bbox": [
+    327,
+    2115,
+    1180,
+    2172
+   ]
+  },
+  {
+   "text": "मिश्रासु मिश्राणि दशाफलानि होराफलं लग्नपते: समानम्।। 1911",
+   "bbox": [
+    327,
+    2181,
+    1273,
+    2237
+   ]
+  },
+  {
+   "text": "During the course of favourable dasas (ie of planets strong",
+   "bbox": [
+    327,
+    2275,
+    1470,
+    2319
+   ]
+  },
+  {
+   "text": "in upchaya houses, exalted, in their own signs, in friendly",
+   "bbox": [
+    252,
+    2326,
+    1468,
+    2366
+   ]
+  }
+ ]
+}

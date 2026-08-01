@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0211",
+ "book_id": "phaladeepika",
+ "seq": 211,
+ "source_ref": {
+  "pdf_page": 211
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "82140ace90494bbed5667f687414bea9b83ea1841971e0473c4614e6bf419f94",
+ "lines": [
+  {
+   "text": "Taurus-Venus (6) Gemini-Mercury (7) Cancer-Moon (8) Leo-Sun and (9) Virgo-",
+   "bbox": [
+    85,
+    57,
+    553,
+    73
+   ]
+  },
+  {
+   "text": "Mercury.",
+   "bbox": [
+    85,
+    82,
+    136,
+    97
+   ]
+  },
+  {
+   "text": "For those born in the 3rd pada of Bharani, the 9 dasas will be (1) Libra-",
+   "bbox": [
+    121,
+    106,
+    552,
+    121
+   ]
+  },
+  {
+   "text": "Venus (2) Scorpio-Mai's (3) Sagittarius-Jupiter (4) Capricorn-Saturn (5) Aquarius-",
+   "bbox": [
+    85,
+    130,
+    553,
+    145
+   ]
+  },
+  {
+   "text": "Saturn (6) Pisces-Jupiter (7) Scorpio-Mars (8) Libra-Venus and (9) Sagittarius-",
+   "bbox": [
+    85,
+    154,
+    553,
+    169
+   ]
+  },
+  {
+   "text": "Jupiter.",
+   "bbox": [
+    85,
+    178,
+    126,
+    194
+   ]
+  },
+  {
+   "text": "For those born in 4th pada of Bharani the 9 dasas will be in the following ",
+   "bbox": [
+    121,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "order (1) Cancer-Moon (2) Leo-Sun (3) Gemini-Mercury (4) Taurus-Venus (5) ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "Aries-Mars (6) Pisces-Jupiter (7) Aquarius-Saturn (8) Capricorn-Saturn and (9) ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "Sagittarius-Jupiter.",
+   "bbox": [
+    85,
+    275,
+    190,
+    290
+   ]
+  },
+  {
+   "text": "7. The formula for Aswini and Bharani are described above. The four ",
+   "bbox": [
+    121,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "formulas given for the four padas of Aswini will also respectively apply to the four ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "padas of Krittika in the Apasavya pradakshina triad. Formulas for Rohini and ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "Mrigasira in the Savya triad are stafed in the next two verses and the four formulas ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "given for the four padas of Mrigasira should also be used again for the four padas ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "of Aridra.",
+   "bbox": [
+    85,
+    420,
+    140,
+    435
+   ]
+  },
+  {
+   "text": "8. For those born In the first pada of Rohini the 9 dasas will be in the ",
+   "bbox": [
+    121,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "following order (1) Sagittarius-Jupiter (2) Capricorn-Saturn (3) Aquarius-Saturn ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "(4) Pisces-Jupiter (5) Aries-Mars (6) Taurus-Venus (7) Gemini-Mercury (8) Leo-",
+   "bbox": [
+    85,
+    492,
+    553,
+    508
+   ]
+  },
+  {
+   "text": "Sun (9) Cancer-Moon.",
+   "bbox": [
+    85,
+    516,
+    211,
+    532
+   ]
+  },
+  {
+   "text": "For the 2nd pada of Rohinl the order of 9 dasas will be as follows (1) Virgo-",
+   "bbox": [
+    121,
+    540,
+    552,
+    556
+   ]
+  },
+  {
+   "text": "Mercury (2) Libra-Venus (3) Scorpio-Mars (4) Pisces-Jupiter (5) Aquarius-Saturn ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "(6) Capricorn-Saturn (7) Sagittarius-Jupiter (8) Scorpio-Mars and (9) Libra-Venus.",
+   "bbox": [
+    85,
+    589,
+    548,
+    604
+   ]
+  },
+  {
+   "text": "For those born in the 3rd pada of Rohini, the order of the 9 dasas will be (1) ",
+   "bbox": [
+    121,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "Virgo-Mercury (2) Leo-Sun (3) Cancer-Moon (4) Gemini-Mercury (5) Taurus-",
+   "bbox": [
+    85,
+    637,
+    552,
+    652
+   ]
+  },
+  {
+   "text": "Venus (6) Aries-Mars (7) Sagittarius-Jupiter (8) Capricorn-Saturn (9) Aquarius-",
+   "bbox": [
+    85,
+    661,
+    553,
+    677
+   ]
+  },
+  {
+   "text": "Saturn.",
+   "bbox": [
+    85,
+    685,
+    125,
+    701
+   ]
+  },
+  {
+   "text": "For those born in the 4th pada of Rohini, the order of the 9 dasas will be (1) ",
+   "bbox": [
+    121,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "Pisces-Jupiter (2) Aries-Mars (3) Taurus-Venus (4) Gemini-Mercury (5) Leo-Sun ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "(6) Cancer-Moon (7) Virgo-Mercury (8) Libra-Venus (9) Scorpio-Mars.",
+   "bbox": [
+    85,
+    758,
+    486,
+    773
+   ]
+  },
+  {
+   "text": "211",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0205",
+ "book_id": "brihat-jataka",
+ "seq": 205,
+ "source_ref": {
+  "pdf_page": 103,
+  "half": "a",
+  "v1_page": "s103a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "080e64d5a53a3291b120af72f3a0703f886f527691037a0faa96b7fa616d1177",
+ "lines": [
+  {
+   "text": "202",
+   "bbox": [
+    380,
+    246,
+    474,
+    280
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1307,
+    285,
+    1602,
+    332
+   ]
+  },
+  {
+   "text": "(hand). A hand is about eighteen inches. One angula corre-",
+   "bbox": [
+    371,
+    340,
+    1600,
+    447
+   ]
+  },
+  {
+   "text": "sponds to three-fourth of an inch. Twelve angulas are about",
+   "bbox": [
+    367,
+    391,
+    1600,
+    499
+   ]
+  },
+  {
+   "text": "nine inches.",
+   "bbox": [
+    369,
+    449,
+    619,
+    498
+   ]
+  },
+  {
+   "text": "Note the shadow cast by the stick. Multiply the minutes of",
+   "bbox": [
+    438,
+    528,
+    1598,
+    626
+   ]
+  },
+  {
+   "text": "the planet by the length of the shadow, and divide the product.",
+   "bbox": [
+    361,
+    575,
+    1599,
+    679
+   ]
+  },
+  {
+   "text": "by twelve.",
+   "bbox": [
+    360,
+    631,
+    575,
+    681
+   ]
+  },
+  {
+   "text": "गोसिंहौ जितुमाष्टमौ क्रियतुले कन्यामृगौ च क्रमा-",
+   "bbox": [
+    427,
+    705,
+    1170,
+    799
+   ]
+  },
+  {
+   "text": "त्संवग्यां दशकाष्टसप्तविषयै: शेषा: स्वसंख्यागुणा:।",
+   "bbox": [
+    427,
+    769,
+    1183,
+    865
+   ]
+  },
+  {
+   "text": "जीवारास्फुजिदैन्दवा: प्रथमवच्छेषा ग्रहा: सौम्यव-",
+   "bbox": [
+    422,
+    837,
+    1146,
+    927
+   ]
+  },
+  {
+   "text": "द्राशीनां नियतो विधिर्प्रहयुतैः कार्याश्च तद्वर्गणा। 9 ।।",
+   "bbox": [
+    421,
+    903,
+    1207,
+    997
+   ]
+  },
+  {
+   "text": "The signs (a) Taurus and Leo, (b) Gemini and Scorpio,",
+   "bbox": [
+    416,
+    999,
+    1571,
+    1101
+   ]
+  },
+  {
+   "text": "(c) Aries and Libra and (d) Virgo and Capricorn must be",
+   "bbox": [
+    333,
+    1047,
+    1566,
+    1154
+   ]
+  },
+  {
+   "text": "multiplied by 10, 8, 7 and 5 respectively. The remaining signs",
+   "bbox": [
+    316,
+    1097,
+    1565,
+    1210
+   ]
+  },
+  {
+   "text": "are to be multiplied by their own number which is counted",
+   "bbox": [
+    332,
+    1152,
+    1561,
+    1256
+   ]
+  },
+  {
+   "text": "from Mesha,",
+   "bbox": [
+    329,
+    1207,
+    599,
+    1261
+   ]
+  },
+  {
+   "text": "The multiplying factors are - for Guru ten, for Mars eight,",
+   "bbox": [
+    403,
+    1286,
+    1556,
+    1389
+   ]
+  },
+  {
+   "text": "for Venus seven and for Budha five. The multiplier for the",
+   "bbox": [
+    320,
+    1336,
+    1553,
+    1439
+   ]
+  },
+  {
+   "text": "Sun, Moon and Shani is five.",
+   "bbox": [
+    321,
+    1391,
+    912,
+    1459
+   ]
+  },
+  {
+   "text": "This must be done with signs. If a planet is in lagna, it",
+   "bbox": [
+    392,
+    1469,
+    1548,
+    1571
+   ]
+  },
+  {
+   "text": "must also undergo this procedure.",
+   "bbox": [
+    315,
+    1519,
+    1006,
+    1598
+   ]
+  },
+  {
+   "text": "Note: Reduce the degrees of the rising sign at query with",
+   "bbox": [
+    380,
+    1600,
+    1542,
+    1702
+   ]
+  },
+  {
+   "text": "minutes. Then multiply it by the factors given.",
+   "bbox": [
+    309,
+    1650,
+    1253,
+    1740
+   ]
+  },
+  {
+   "text": "If a planet like Guru occupies the lagna, first multiply the",
+   "bbox": [
+    379,
+    1731,
+    1552,
+    1832
+   ]
+  },
+  {
+   "text": "lagna by its number and then multiply the product by the",
+   "bbox": [
+    300,
+    1779,
+    1531,
+    1883
+   ]
+  },
+  {
+   "text": "number given to Guru. Keep the result at one place.",
+   "bbox": [
+    297,
+    1831,
+    1354,
+    1930
+   ]
+  },
+  {
+   "text": "सप्ताहतं त्रिघनभाजितशेषमृक्षं दत्त्वाऽथवा नवविशोध्य नवाऽथवास्मात्।",
+   "bbox": [
+    368,
+    1914,
+    1371,
+    2013
+   ]
+  },
+  {
+   "text": "एवं कलत्रसहजात्मजशत्रुभेभ्यः प्रष्टुर्वदेदुदयराशिवशेन तेषाम् ।। 10 ।।",
+   "bbox": [
+    365,
+    1977,
+    1385,
+    2079
+   ]
+  },
+  {
+   "text": "The product thus obtained must be multiplied by seven.",
+   "bbox": [
+    362,
+    2070,
+    1512,
+    2169
+   ]
+  },
+  {
+   "text": "After adding to or subtracting nine from this total, divide it by",
+   "bbox": [
+    281,
+    2117,
+    1512,
+    2224
+   ]
+  },
+  {
+   "text": "27. The remainder shows the star at the time of birth. It is",
+   "bbox": [
+    280,
+    2169,
+    1512,
+    2275
+   ]
+  },
+  {
+   "text": "counted from Ashvini.",
+   "bbox": [
+    279,
+    2226,
+    731,
+    2284
+   ]
+  },
+  {
+   "text": "From the lagna at query, the seventh, third, fifth and sixth",
+   "bbox": [
+    340,
+    2304,
+    1502,
+    2403
+   ]
+  }
+ ]
+}

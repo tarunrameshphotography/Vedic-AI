@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0164",
+ "book_id": "phaladeepika",
+ "seq": 164,
+ "source_ref": {
+  "pdf_page": 164
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "cfd33c2da8529ebc909993f98b8afd820613c12ed3117f1eba89d1e604374189",
+ "lines": [
+  {
+   "text": "should be taken into account.",
+   "bbox": [
+    85,
+    57,
+    249,
+    73
+   ]
+  },
+  {
+   "text": "5. The death of the native takes place when the Moon in course of his transit ",
+   "bbox": [
+    121,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "passes the sign occupied by the lord of the 8th or the Sun or a sign triangular to ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "them. All that has been stated in the above verses should be examined with ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "reference to the Lagna as well as the sign occupied by the Moon (Chandra Lagna).",
+   "bbox": [
+    85,
+    154,
+    547,
+    169
+   ]
+  },
+  {
+   "text": "6. Subtract the longitude of Yamakantaka from the longitude of the lord of ",
+   "bbox": [
+    121,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "the Lagna, subtract the longitude of Saturn from that of the Moon. The death of the ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "native will take place when Jupiter in the course of his transit passes through the ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "sign and its navamsa indicated by each of these differences or their trikona ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "position.",
+   "bbox": [
+    85,
+    275,
+    134,
+    290
+   ]
+  },
+  {
+   "text": "Subtract the longitude of Mars from that of Rahu. When Jupiter in the course ",
+   "bbox": [
+    121,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "of his transit passes through the navamsa or the sign thus indicate by the ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "difference, the death of the brother may take place.",
+   "bbox": [
+    85,
+    347,
+    370,
+    363
+   ]
+  },
+  {
+   "text": "7. Subtract the longitude of the Sun from that of the Yamakantaka, the ",
+   "bbox": [
+    121,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "remainder may be marked as (A). When Jupiter in the course of his transit passes ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "through the sign and navamsa indicated by (A) and the trikona position from it, the ",
+   "bbox": [
+    85,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "death of the native's father may take place.",
+   "bbox": [
+    85,
+    444,
+    324,
+    459
+   ]
+  },
+  {
+   "text": "Subtract the longitude of Mandi or Gulika from the longitude of the ",
+   "bbox": [
+    121,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "Yamakantaka. Mark the difference as (A). When Jupiter in the course of his transit ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "passes the sign or navamsa indication or its trikona position, the death of the ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "native's father may take place.",
+   "bbox": [
+    85,
+    540,
+    254,
+    556
+   ]
+  },
+  {
+   "text": "Subtract the longitude of the Moon from that of the Sun and Mark it (B). ",
+   "bbox": [
+    121,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "When Saturn in the course of his transit passes through the sign and or navamsa ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "indicated by (B) or the trikona position from them, the death of the native's mother ",
+   "bbox": [
+    85,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "may take place.",
+   "bbox": [
+    85,
+    637,
+    172,
+    652
+   ]
+  },
+  {
+   "text": "Subtract the longitude of Mandi from the longitude of the Moon and mark it ",
+   "bbox": [
+    121,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "(C). When Saturn in the course of his tranist passes through the sign or navamsa ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "indicated by (C) and the trikona position from them, the death of the native's ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "mother may take place.",
+   "bbox": [
+    85,
+    734,
+    216,
+    749
+   ]
+  },
+  {
+   "text": "8. Subtract the longitude of the lord of the nakshatra fifth from the Janma ",
+   "bbox": [
+    121,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "164",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

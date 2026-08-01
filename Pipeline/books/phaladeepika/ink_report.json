@@ -1,0 +1,12 @@
+{
+ "schema": 2,
+ "book_id": "phaladeepika",
+ "calibration": {
+  "decision": "not-applicable",
+  "reason": "producer(s) ['pdf_text'] do not read pixels with a model, so blank-region fabrication is impossible; no contrast scan is meaningful",
+  "producers": [
+   "pdf_text"
+  ]
+ },
+ "pages": {}
+}

@@ -1,0 +1,279 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0145",
+ "book_id": "phaladeepika",
+ "seq": 145,
+ "source_ref": {
+  "pdf_page": 145
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "689f56a84fcc961dab8925719624253627713494d2dc90fdf8a2d2b7d4542cb2",
+ "lines": [
+  {
+   "text": "<b>Chapter 15</b>",
+   "bbox": [
+    281,
+    57,
+    357,
+    75
+   ]
+  },
+  {
+   "text": "<b>Assessment of houses</b>",
+   "bbox": [
+    247,
+    85,
+    391,
+    103
+   ]
+  },
+  {
+   "text": "1. The houses occupied and aspected by benefic planets or their own lords, ",
+   "bbox": [
+    121,
+    137,
+    556,
+    152
+   ]
+  },
+  {
+   "text": "or planets owning auspicious houses produce completely beneficiary results ",
+   "bbox": [
+    85,
+    161,
+    556,
+    176
+   ]
+  },
+  {
+   "text": "provided that they are not associated with or aspected by malefics. The same will ",
+   "bbox": [
+    85,
+    185,
+    556,
+    201
+   ]
+  },
+  {
+   "text": "be the result in the case of malefics if they happen to be lords of such houses. ",
+   "bbox": [
+    85,
+    209,
+    556,
+    225
+   ]
+  },
+  {
+   "text": "These good effects will be ensured in the case of all the planets when they are in ",
+   "bbox": [
+    85,
+    233,
+    556,
+    249
+   ]
+  },
+  {
+   "text": "the signs of debilitation, combust and in inimical signs.",
+   "bbox": [
+    85,
+    257,
+    395,
+    273
+   ]
+  },
+  {
+   "text": "2. It is the view of learned Astrologers that the strength of a house such as ",
+   "bbox": [
+    121,
+    282,
+    556,
+    297
+   ]
+  },
+  {
+   "text": "the Lagna should be adequate and the house sufficiently beneficial if the 1st, 2nd, ",
+   "bbox": [
+    85,
+    306,
+    556,
+    321
+   ]
+  },
+  {
+   "text": "4th, 5th, 7th, 9th and 10th from that house are occupied by auspicious planets or ",
+   "bbox": [
+    85,
+    330,
+    556,
+    345
+   ]
+  },
+  {
+   "text": "the lord of the house is free from the occupation by and aspect of malefics. The ",
+   "bbox": [
+    85,
+    354,
+    556,
+    370
+   ]
+  },
+  {
+   "text": "house concerned should be considered to deteriorate in its effects if the above ",
+   "bbox": [
+    85,
+    378,
+    556,
+    394
+   ]
+  },
+  {
+   "text": "houses are not so occupied and aspected. The effects will be mixed if such ",
+   "bbox": [
+    85,
+    402,
+    556,
+    418
+   ]
+  },
+  {
+   "text": "positions are influenced by occupation or aspect by both benefics and malefics.",
+   "bbox": [
+    85,
+    427,
+    529,
+    442
+   ]
+  },
+  {
+   "text": "3. If the lord of a house be (1) posited in the 8th house, (2) eclipsed by the ",
+   "bbox": [
+    121,
+    451,
+    556,
+    466
+   ]
+  },
+  {
+   "text": "Sun's rays, (3) in his sign of debilitation or (4) in an inimical sign and be devoid of ",
+   "bbox": [
+    85,
+    475,
+    556,
+    490
+   ]
+  },
+  {
+   "text": "association or aspect of benefics, the effects of that house are totally destroyed. ",
+   "bbox": [
+    85,
+    499,
+    556,
+    514
+   ]
+  },
+  {
+   "text": "Some are of the view that the house in question will also suffer if its lord is in the ",
+   "bbox": [
+    85,
+    523,
+    556,
+    539
+   ]
+  },
+  {
+   "text": "8th from the Lagna also.",
+   "bbox": [
+    85,
+    547,
+    222,
+    563
+   ]
+  },
+  {
+   "text": "If any benefic being in his sign of debilitation, is in inimical sign or combust ",
+   "bbox": [
+    121,
+    571,
+    556,
+    587
+   ]
+  },
+  {
+   "text": "occupied any house, unaspected by any oenefic, he will destroy the good effects of ",
+   "bbox": [
+    85,
+    596,
+    556,
+    611
+   ]
+  },
+  {
+   "text": "the house owned by him. If a malefic being in his sign of debilitaton, combust or in ",
+   "bbox": [
+    85,
+    620,
+    556,
+    635
+   ]
+  },
+  {
+   "text": "his inimical sign unaspected by any benefic will harm the effects of that house. For ",
+   "bbox": [
+    85,
+    644,
+    556,
+    659
+   ]
+  },
+  {
+   "text": "example see the horoscope —",
+   "bbox": [
+    85,
+    668,
+    253,
+    684
+   ]
+  },
+  {
+   "text": "Here Mars occupies the 5th in his sign of debilitation. Inspite of the aspect ",
+   "bbox": [
+    121,
+    692,
+    556,
+    708
+   ]
+  },
+  {
+   "text": "of Jupiter on Mars on the 5th house the native lost two sons and himself suffered ",
+   "bbox": [
+    85,
+    716,
+    556,
+    732
+   ]
+  },
+  {
+   "text": "from a serious disease Jalodara.",
+   "bbox": [
+    85,
+    740,
+    263,
+    756
+   ]
+  },
+  {
+   "text": "145",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

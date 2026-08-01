@@ -1,0 +1,407 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0188",
+ "book_id": "brihat-jataka",
+ "seq": 188,
+ "source_ref": {
+  "pdf_page": 94,
+  "half": "b",
+  "v1_page": "s094b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "d0985ea5ca5b4bcbcedb705580ddb73131a96aead74381bd115ce54072901c58",
+ "lines": [
+  {
+   "text": "185",
+   "bbox": [
+    1277,
+    188,
+    1368,
+    222
+   ]
+  },
+  {
+   "text": "Female Horoscopy",
+   "bbox": [
+    162,
+    221,
+    529,
+    263
+   ]
+  },
+  {
+   "text": "Notes: In this chart",
+   "bbox": [
+    857,
+    286,
+    1375,
+    339
+   ]
+  },
+  {
+   "text": "lagna is an odd sign. Budha",
+   "bbox": [
+    789,
+    337,
+    1375,
+    403
+   ]
+  },
+  {
+   "text": "Moon",
+   "bbox": [
+    345,
+    363,
+    430,
+    391
+   ]
+  },
+  {
+   "text": "Ketu",
+   "bbox": [
+    491,
+    370,
+    565,
+    400
+   ]
+  },
+  {
+   "text": "and Shukra is an enemy's",
+   "bbox": [
+    791,
+    390,
+    1375,
+    453
+   ]
+  },
+  {
+   "text": "Kuja",
+   "bbox": [
+    347,
+    403,
+    421,
+    436
+   ]
+  },
+  {
+   "text": "house are powerless. Ravi,",
+   "bbox": [
+    792,
+    444,
+    1377,
+    506
+   ]
+  },
+  {
+   "text": "Guru and Kuja are strong.",
+   "bbox": [
+    795,
+    497,
+    1376,
+    558
+   ]
+  },
+  {
+   "text": "This woman had a loose char-",
+   "bbox": [
+    795,
+    547,
+    1381,
+    607
+   ]
+  },
+  {
+   "text": "acter.",
+   "bbox": [
+    798,
+    622,
+    916,
+    659
+   ]
+  },
+  {
+   "text": "A malefic in the seventh",
+   "bbox": [
+    871,
+    680,
+    1386,
+    736
+   ]
+  },
+  {
+   "text": "makes the woman renounce",
+   "bbox": [
+    800,
+    739,
+    1386,
+    790
+   ]
+  },
+  {
+   "text": "the world (Sanyasa); and this",
+   "bbox": [
+    802,
+    788,
+    1388,
+    848
+   ]
+  },
+  {
+   "text": "Shukra",
+   "bbox": [
+    197,
+    801,
+    306,
+    831
+   ]
+  },
+  {
+   "text": "Guru",
+   "bbox": [
+    494,
+    819,
+    575,
+    847
+   ]
+  },
+  {
+   "text": "Shani",
+   "bbox": [
+    651,
+    837,
+    740,
+    867
+   ]
+  },
+  {
+   "text": "Rahu",
+   "bbox": [
+    359,
+    840,
+    444,
+    869
+   ]
+  },
+  {
+   "text": "is indicated by the planet in",
+   "bbox": [
+    802,
+    840,
+    1391,
+    899
+   ]
+  },
+  {
+   "text": "<b>Budha</b>",
+   "bbox": [
+    197,
+    841,
+    298,
+    871
+   ]
+  },
+  {
+   "text": "Lagna",
+   "bbox": [
+    497,
+    861,
+    592,
+    893
+   ]
+  },
+  {
+   "text": "Ravi",
+   "bbox": [
+    197,
+    884,
+    272,
+    912
+   ]
+  },
+  {
+   "text": "the ninth.",
+   "bbox": [
+    809,
+    905,
+    1012,
+    947
+   ]
+  },
+  {
+   "text": "पापेऽस्ते नवमगतग्रहस्य तुल्यां प्रव्रज्यां युवतिरुपैत्यसंशयेन।",
+   "bbox": [
+    257,
+    977,
+    1098,
+    1062
+   ]
+  },
+  {
+   "text": "उद्वाहे वरणविधौ प्रदानकाले पृच्छायामपि सकलं विधेयमेतत्।। 16 ।।",
+   "bbox": [
+    259,
+    1036,
+    1272,
+    1126
+   ]
+  },
+  {
+   "text": "These results are to be given during the wedding, during",
+   "bbox": [
+    264,
+    1126,
+    1401,
+    1212
+   ]
+  },
+  {
+   "text": "the search for a bride, or when a query is made.",
+   "bbox": [
+    189,
+    1189,
+    1148,
+    1264
+   ]
+  },
+  {
+   "text": "Notes: The results given earlier hold good when there are",
+   "bbox": [
+    263,
+    1256,
+    1405,
+    1342
+   ]
+  },
+  {
+   "text": "malefics in the seventh and when there are no planets in the",
+   "bbox": [
+    191,
+    1308,
+    1406,
+    1398
+   ]
+  },
+  {
+   "text": "ninth. The results given earlier cannot be predicted when the",
+   "bbox": [
+    194,
+    1360,
+    1408,
+    1450
+   ]
+  },
+  {
+   "text": "ninth has planets. The kind of Sanyasa is determined by the",
+   "bbox": [
+    195,
+    1412,
+    1410,
+    1503
+   ]
+  },
+  {
+   "text": "planet in the eighth, as per chapter 15.1",
+   "bbox": [
+    195,
+    1479,
+    1003,
+    1558
+   ]
+  },
+  {
+   "text": "Powerful Kuja: Buddhist, Sakya",
+   "bbox": [
+    272,
+    1556,
+    920,
+    1622
+   ]
+  },
+  {
+   "text": "Powerful Budha: Ajivika-Yama or Ekodanda",
+   "bbox": [
+    276,
+    1620,
+    1164,
+    1696
+   ]
+  },
+  {
+   "text": "Guru: Sanyasa with yellowish rose coloured dress",
+   "bbox": [
+    280,
+    1686,
+    1273,
+    1771
+   ]
+  },
+  {
+   "text": "Moon: Viddha or Kapalika",
+   "bbox": [
+    280,
+    1776,
+    810,
+    1837
+   ]
+  },
+  {
+   "text": "Shukra: Chakra",
+   "bbox": [
+    283,
+    1856,
+    612,
+    1906
+   ]
+  },
+  {
+   "text": "Shani: Nirgrantha, Digambara",
+   "bbox": [
+    285,
+    1919,
+    903,
+    1982
+   ]
+  },
+  {
+   "text": "Ravi: Vanyana, lives on fruits and bulbs.",
+   "bbox": [
+    286,
+    1980,
+    1100,
+    2056
+   ]
+  },
+  {
+   "text": "इति श्रीवराहमिहिरकृते बृहज्जातके स्त्रीजातकाध्याय: चतुर्विश: 112411",
+   "bbox": [
+    331,
+    2137,
+    1314,
+    2223
+   ]
+  },
+  {
+   "text": "Thus ends the twenty-fourth chapter on Female",
+   "bbox": [
+    287,
+    2207,
+    1436,
+    2291
+   ]
+  },
+  {
+   "text": "· Horoscopy in Brihat Jatak composed by Varahamihira.",
+   "bbox": [
+    202,
+    2264,
+    1315,
+    2346
+   ]
+  }
+ ]
+}

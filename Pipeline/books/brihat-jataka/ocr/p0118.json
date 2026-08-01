@@ -1,0 +1,236 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0118",
+ "book_id": "brihat-jataka",
+ "seq": 118,
+ "source_ref": {
+  "pdf_page": 59,
+  "half": "b",
+  "v1_page": "s059b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "265a687a05742126abac5484be40fb43e143469ff4c6a66e9c660e0a4e151679",
+ "lines": [
+  {
+   "text": "13",
+   "bbox": [
+    814,
+    583,
+    889,
+    637
+   ]
+  },
+  {
+   "text": "चन्द्रयोगाध्याय:",
+   "bbox": [
+    705,
+    740,
+    992,
+    792
+   ]
+  },
+  {
+   "text": "<b>Yogas for Moon</b>",
+   "bbox": [
+    531,
+    814,
+    1164,
+    893
+   ]
+  },
+  {
+   "text": "अधमसमवरिष्ठान्यर्ककेन्द्रादिसंस्थे",
+   "bbox": [
+    316,
+    1059,
+    797,
+    1115
+   ]
+  },
+  {
+   "text": "शशिनि विनयवित्तज्ञानधीनैपुणानि।",
+   "bbox": [
+    317,
+    1125,
+    800,
+    1180
+   ]
+  },
+  {
+   "text": "अहनि निशि च चन्द्रे स्वेऽधिमित्रांशके वा",
+   "bbox": [
+    316,
+    1194,
+    922,
+    1241
+   ]
+  },
+  {
+   "text": "सुरगुरुसितदृष्टे वित्तवान् स्यात्सुखी चा। 1 ।।",
+   "bbox": [
+    317,
+    1259,
+    994,
+    1313
+   ]
+  },
+  {
+   "text": "When Moon is located in Kendra (1st, 4th, 7th and 10th)",
+   "bbox": [
+    322,
+    1357,
+    1458,
+    1396
+   ]
+  },
+  {
+   "text": "from the Sun, the person has the least of good manners, wealth",
+   "bbox": [
+    243,
+    1408,
+    1457,
+    1448
+   ]
+  },
+  {
+   "text": "knowledge, efficiency in action (due to influence of Sun on",
+   "bbox": [
+    244,
+    1459,
+    1456,
+    1505
+   ]
+  },
+  {
+   "text": "her). When she is in houses (2nd, 5th, 8th and 11th) from the",
+   "bbox": [
+    244,
+    1515,
+    1456,
+    1555
+   ]
+  },
+  {
+   "text": "Sun these qualities etc are possessed by the native in small",
+   "bbox": [
+    241,
+    1568,
+    1457,
+    1607
+   ]
+  },
+  {
+   "text": "measure. In case she occupies 3rd, 6th, 9th and 12th from the",
+   "bbox": [
+    244,
+    1618,
+    1456,
+    1662
+   ]
+  },
+  {
+   "text": "Sun, these are acquired in good measure. In the case of a day",
+   "bbox": [
+    243,
+    1673,
+    1456,
+    1712
+   ]
+  },
+  {
+   "text": "birth, when Moon is located in her own or a friendly navamsha",
+   "bbox": [
+    241,
+    1726,
+    1457,
+    1765
+   ]
+  },
+  {
+   "text": "and is aspected by Jupiter or when it is a night birth, and she",
+   "bbox": [
+    241,
+    1778,
+    1456,
+    1818
+   ]
+  },
+  {
+   "text": "is similarly situated in navamsha and aspected by Venus, the",
+   "bbox": [
+    241,
+    1831,
+    1456,
+    1871
+   ]
+  },
+  {
+   "text": "native becomes wealthy and leads a comfortable life.",
+   "bbox": [
+    241,
+    1883,
+    1285,
+    1923
+   ]
+  },
+  {
+   "text": "Commentary: Moon is one of the greatest, if not the great-",
+   "bbox": [
+    314,
+    1962,
+    1454,
+    2002
+   ]
+  },
+  {
+   "text": "est, factors of wealth. Its strength is conducive to wealth as",
+   "bbox": [
+    239,
+    2015,
+    1456,
+    2055
+   ]
+  },
+  {
+   "text": "would be borne out also by the following shlokas.",
+   "bbox": [
+    240,
+    2068,
+    1217,
+    2108
+   ]
+  },
+  {
+   "text": "Adhiyoga of Moon",
+   "bbox": [
+    237,
+    2172,
+    715,
+    2213
+   ]
+  },
+  {
+   "text": "सौम्यै: स्मरारिनिधनेष्वधियोग इन्दो-",
+   "bbox": [
+    309,
+    2243,
+    834,
+    2297
+   ]
+  },
+  {
+   "text": "स्तस्मिंश्चमूपसचिवक्षितिपालजन्म।",
+   "bbox": [
+    311,
+    2316,
+    782,
+    2363
+   ]
+  }
+ ]
+}

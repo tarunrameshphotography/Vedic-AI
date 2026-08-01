@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0124",
+ "book_id": "phaladeepika",
+ "seq": 124,
+ "source_ref": {
+  "pdf_page": 124
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "8d624c45476025dcf3949f988433da38f33a49a29708f5ed98d2f86816b17005",
+ "lines": [
+  {
+   "text": "11. If the 5th house or its lord be in a male sign or navamsa or be associated ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "with and aspected by male planets, the native will have all male issues. There will ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "be birth of daughter if the 5th or its lord be in a female sign or navamsa or be ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "associated with or aspected by female planets.",
+   "bbox": [
+    85,
+    130,
+    344,
+    145
+   ]
+  },
+  {
+   "text": "12. Conception may take place when the Sun and Venus in a male's nativity ",
+   "bbox": [
+    121,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "and Mars and Venus in the case of a female's nativity are vested with adequate ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "strength and pass their signs or navamsas identical with an upachaya house.",
+   "bbox": [
+    85,
+    202,
+    509,
+    218
+   ]
+  },
+  {
+   "text": "13. The number of issues is to be ascertained by examining the number of ",
+   "bbox": [
+    121,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "planets in the 5th house and at the sometime that are not (1) inimical (2) in their ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "sign of debilitation and (3) in inimical navamsa. The same could also be ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "ascertained by study of the number of planets similarly situated but in conjunction ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "with the lord of the 5th house.",
+   "bbox": [
+    85,
+    323,
+    254,
+    339
+   ]
+  },
+  {
+   "text": "The study of benefic dots of planets in the 5th house from Jupiter or the ",
+   "bbox": [
+    121,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "navamsa occupied by the Sun, also enables one to guess the number of issues. ln ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "this verse is explained the method of ascertaining female and male nativities ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "whettor they are physically capable of producing children.",
+   "bbox": [
+    85,
+    420,
+    412,
+    435
+   ]
+  },
+  {
+   "text": "14. In the case of a female nativity add the longitudes (spast) of the Moon, ",
+   "bbox": [
+    121,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "Mars and Jupiter. If the result comes to an even sign and even navamsa, the ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "strength of fecundity in the female for producing issues is assured. If it is mixed ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "(i.e. sign male and navamsa female or vice versa), she will be able to produce ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "children after great effort.",
+   "bbox": [
+    85,
+    540,
+    230,
+    556
+   ]
+  },
+  {
+   "text": "In the case of a male nativity if the sum total of the longitudes of the Sun, ",
+   "bbox": [
+    121,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "Venus and Jupiter denotes an odd sign and an odd navamsa, it is Indicative of the ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "strong physical capacity of the male to produce children and in case one of the two ",
+   "bbox": [
+    85,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "(sign and navamsa) be even, the result will be mixed.",
+   "bbox": [
+    85,
+    637,
+    383,
+    652
+   ]
+  },
+  {
+   "text": "Notes — If in the case of female nativity the sum total denotes odd sign and ",
+   "bbox": [
+    121,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "odd navamsa, and in a male's nativity the result signifies even sign and even ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "navamsa, their physical capacity to produce children will be almost nil or very ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "weak.",
+   "bbox": [
+    85,
+    734,
+    118,
+    749
+   ]
+  },
+  {
+   "text": "15. Subtract five times the longitude of the Sun from five times the ",
+   "bbox": [
+    121,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "124",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

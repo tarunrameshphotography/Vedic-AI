@@ -1,0 +1,353 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0069",
+ "book_id": "brihat-jataka",
+ "seq": 69,
+ "source_ref": {
+  "pdf_page": 35,
+  "half": "a",
+  "v1_page": "s035a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "75231569537c5f287d62b5f53447273ea12dd0d646108698614a8bc791e220dc",
+ "lines": [
+  {
+   "text": "66",
+   "bbox": [
+    348,
+    268,
+    413,
+    301
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1270,
+    268,
+    1561,
+    302
+   ]
+  },
+  {
+   "text": "nose, 5th and 9th as cheeks, 6th and 8th as chin and the 7th as",
+   "bbox": [
+    348,
+    370,
+    1564,
+    411
+   ]
+  },
+  {
+   "text": "face. These organs will always be of the right side and the left",
+   "bbox": [
+    348,
+    424,
+    1564,
+    464
+   ]
+  },
+  {
+   "text": "side respectively, according as they are in the half from the",
+   "bbox": [
+    348,
+    477,
+    1561,
+    517
+   ]
+  },
+  {
+   "text": "lagna to 7th or from 7th to the lagna. If there is the 2nd",
+   "bbox": [
+    348,
+    529,
+    1561,
+    568
+   ]
+  },
+  {
+   "text": "decanate in the lagna, the 1st house will represent the throat,",
+   "bbox": [
+    348,
+    583,
+    1560,
+    621
+   ]
+  },
+  {
+   "text": "2nd and 12th house shoulders, 3rd and 11th arms, 4th and",
+   "bbox": [
+    347,
+    635,
+    1560,
+    673
+   ]
+  },
+  {
+   "text": "10th as sides, 5th and 9th as heart, 6th and 8th belly and 7th",
+   "bbox": [
+    350,
+    688,
+    1563,
+    727
+   ]
+  },
+  {
+   "text": "as the navel. If there be 3rd decanate in the lagna, the lagna",
+   "bbox": [
+    347,
+    740,
+    1563,
+    779
+   ]
+  },
+  {
+   "text": "will be treated as the region below navel, 2nd and 12th as",
+   "bbox": [
+    344,
+    794,
+    1563,
+    833
+   ]
+  },
+  {
+   "text": "organs of generation and rectum, 3rd and 11th as testicles, 4th",
+   "bbox": [
+    345,
+    847,
+    1561,
+    886
+   ]
+  },
+  {
+   "text": "and 10th as hips, 5th and 9th as knees, 6th and 8th as the",
+   "bbox": [
+    348,
+    899,
+    1560,
+    938
+   ]
+  },
+  {
+   "text": "longer leg and 7th as the feet.",
+   "bbox": [
+    347,
+    951,
+    945,
+    991
+   ]
+  },
+  {
+   "text": "तस्मिन्यापयुते व्रणं शुभयुते दृष्टे च लक्ष्मादिशे-",
+   "bbox": [
+    417,
+    1025,
+    1101,
+    1080
+   ]
+  },
+  {
+   "text": "त्स्वर्धांशे स्थिरसंयुतेषु सहज: स्यादन्यथाऽऽगन्तुक:।",
+   "bbox": [
+    420,
+    1088,
+    1144,
+    1143
+   ]
+  },
+  {
+   "text": "मन्देऽश्मानिलजोऽग्निशस्त्रविषजो भौमे बुधे भूभवः",
+   "bbox": [
+    420,
+    1150,
+    1124,
+    1214
+   ]
+  },
+  {
+   "text": "सूर्ये काप्ठचतुष्पदेन हिमगौ शृङ्गचब्जजोऽन्यै: शुभम् ।। 25 ।।",
+   "bbox": [
+    417,
+    1220,
+    1308,
+    1275
+   ]
+  },
+  {
+   "text": "The sign containing malefic planet denotes wound in the",
+   "bbox": [
+    420,
+    1318,
+    1560,
+    1357
+   ]
+  },
+  {
+   "text": "part of the body concerned (see the previous shloka) if it is also",
+   "bbox": [
+    342,
+    1371,
+    1560,
+    1410
+   ]
+  },
+  {
+   "text": "influenced by association or aspect by benefics it denotes moles",
+   "bbox": [
+    342,
+    1422,
+    1558,
+    1462
+   ]
+  },
+  {
+   "text": "etc. If the planet is in his own sign or navamsha or is in a fixed",
+   "bbox": [
+    342,
+    1475,
+    1560,
+    1515
+   ]
+  },
+  {
+   "text": "sign or its navamsha the mole etc is from birth, otherwise it",
+   "bbox": [
+    342,
+    1527,
+    1558,
+    1567
+   ]
+  },
+  {
+   "text": "would be a later development. If the planet responsible for the",
+   "bbox": [
+    342,
+    1581,
+    1558,
+    1620
+   ]
+  },
+  {
+   "text": "mole or other mark is Saturn it would be caused by stone or",
+   "bbox": [
+    341,
+    1634,
+    1558,
+    1673
+   ]
+  },
+  {
+   "text": "wind, if Mars by fire weapons or poison, if Mercury by earth,",
+   "bbox": [
+    342,
+    1686,
+    1558,
+    1726
+   ]
+  },
+  {
+   "text": "if Sun by wood, if Moon by a normal animal (through horns) or",
+   "bbox": [
+    340,
+    1739,
+    1557,
+    1779
+   ]
+  },
+  {
+   "text": "by watery animals.",
+   "bbox": [
+    341,
+    1792,
+    726,
+    1830
+   ]
+  },
+  {
+   "text": "Any four planets including Mercury as one of them will",
+   "bbox": [
+    413,
+    1871,
+    1557,
+    1910
+   ]
+  },
+  {
+   "text": "bring about (in their dasa) hurt or other mark in the right or",
+   "bbox": [
+    338,
+    1923,
+    1556,
+    1963
+   ]
+  },
+  {
+   "text": "left part of the body and in the organ involved. If the planet is",
+   "bbox": [
+    338,
+    1976,
+    1556,
+    2016
+   ]
+  },
+  {
+   "text": "malefic and occupies the 6th house it causes injury etc to the",
+   "bbox": [
+    338,
+    2029,
+    1554,
+    2068
+   ]
+  },
+  {
+   "text": "organ denoted by the sign in the 6th house. In case the malefic",
+   "bbox": [
+    337,
+    2081,
+    1556,
+    2120
+   ]
+  },
+  {
+   "text": "planet responsible for the injury mark etc is located in his own",
+   "bbox": [
+    337,
+    2134,
+    1554,
+    2174
+   ]
+  },
+  {
+   "text": "sign or navamsha or is associated with a benefic planet, the",
+   "bbox": [
+    336,
+    2182,
+    1554,
+    2229
+   ]
+  },
+  {
+   "text": "mark will be from the very birth. Otherwise it will be got in",
+   "bbox": [
+    337,
+    2239,
+    1556,
+    2279
+   ]
+  },
+  {
+   "text": "later life.",
+   "bbox": [
+    338,
+    2292,
+    528,
+    2327
+   ]
+  }
+ ]
+}

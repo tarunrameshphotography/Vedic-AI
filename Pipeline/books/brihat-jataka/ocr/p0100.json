@@ -1,0 +1,263 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0100",
+ "book_id": "brihat-jataka",
+ "seq": 100,
+ "source_ref": {
+  "pdf_page": 50,
+  "half": "b",
+  "v1_page": "s050b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "97e2cfd628884835d46bad496b788b5f820348a94c39920134df1be193ed48fc",
+ "lines": [
+  {
+   "text": "ka",
+   "bbox": [
+    0,
+    254,
+    53,
+    291
+   ]
+  },
+  {
+   "text": "10",
+   "bbox": [
+    840,
+    536,
+    915,
+    587
+   ]
+  },
+  {
+   "text": "कर्माजीवाध्याय:",
+   "bbox": [
+    726,
+    682,
+    1025,
+    741
+   ]
+  },
+  {
+   "text": "<b>Nature of Profession</b>",
+   "bbox": [
+    463,
+    763,
+    1288,
+    834
+   ]
+  },
+  {
+   "text": "अर्थाप्ति: पितृमातृसपत्नशत्रुमित्रभ्रातृस्त्रीभृतकजनाद्दिवाकराद्यै:।",
+   "bbox": [
+    346,
+    1012,
+    1205,
+    1064
+   ]
+  },
+  {
+   "text": "होरेन्द्वोर्दशमगतैर्विकल्पनीया भेन्द्वकस्पिदपतिगांशनाथवृत्या।। 1 ॥",
+   "bbox": [
+    343,
+    1072,
+    1269,
+    1130
+   ]
+  },
+  {
+   "text": "The planets located in the 10th house from the Lagna or",
+   "bbox": [
+    346,
+    1171,
+    1477,
+    1212
+   ]
+  },
+  {
+   "text": "the Moon denote by their nature the profession a man follows.",
+   "bbox": [
+    272,
+    1228,
+    1477,
+    1266
+   ]
+  },
+  {
+   "text": "If the planet in the 10th house is Sun income comes from the",
+   "bbox": [
+    272,
+    1279,
+    1477,
+    1318
+   ]
+  },
+  {
+   "text": "father, if it is Moon from mother, if Mars from enemies, if",
+   "bbox": [
+    271,
+    1333,
+    1479,
+    1371
+   ]
+  },
+  {
+   "text": "Mercury from friends, if Jupiter from the brother (elder), if",
+   "bbox": [
+    271,
+    1384,
+    1479,
+    1423
+   ]
+  },
+  {
+   "text": "Venus from the wife, if Saturn from servants. If planets are",
+   "bbox": [
+    272,
+    1438,
+    1477,
+    1476
+   ]
+  },
+  {
+   "text": "located in the 10th house from both the lagna and the Moon,",
+   "bbox": [
+    271,
+    1490,
+    1476,
+    1529
+   ]
+  },
+  {
+   "text": "both will constitute source of income in their respective dasas.",
+   "bbox": [
+    271,
+    1543,
+    1473,
+    1581
+   ]
+  },
+  {
+   "text": "If there are many planets in the 10th house all will give their",
+   "bbox": [
+    271,
+    1595,
+    1476,
+    1634
+   ]
+  },
+  {
+   "text": "result in their respective dasas. If no planet occupies the 10th",
+   "bbox": [
+    271,
+    1648,
+    1476,
+    1687
+   ]
+  },
+  {
+   "text": "house, then the lord of the Navamsha sign of the lords of the",
+   "bbox": [
+    269,
+    1701,
+    1474,
+    1740
+   ]
+  },
+  {
+   "text": "10th house from the lagna, Moon and Sun will determine the",
+   "bbox": [
+    272,
+    1754,
+    1474,
+    1793
+   ]
+  },
+  {
+   "text": "nature of profession.",
+   "bbox": [
+    271,
+    1808,
+    680,
+    1847
+   ]
+  },
+  {
+   "text": "अर्कांशे तृणकनकोर्णभेपजाद्यैश्चन्द्रांशे कृषिजलजाङ्गनाश्रयाच्च।",
+   "bbox": [
+    339,
+    1881,
+    1200,
+    1934
+   ]
+  },
+  {
+   "text": "धात्वग्निप्रहरणसाहसै: कुजांशे लिपिगणितादिकाव्यशिल्पै: ।। 2 ।।",
+   "bbox": [
+    341,
+    1944,
+    1285,
+    1999
+   ]
+  },
+  {
+   "text": "If the aforesaid Navamsha (of the lord of the 10th",
+   "bbox": [
+    341,
+    2043,
+    1473,
+    2081
+   ]
+  },
+  {
+   "text": "house from Lagna, Sun or Moon) lord is Sun the living will",
+   "bbox": [
+    265,
+    2097,
+    1473,
+    2136
+   ]
+  },
+  {
+   "text": "be by dealing in straws, gold, wool and medicines etc. If",
+   "bbox": [
+    265,
+    2149,
+    1473,
+    2188
+   ]
+  },
+  {
+   "text": "the said lord is Moon the living is from agriculture,",
+   "bbox": [
+    265,
+    2201,
+    1472,
+    2240
+   ]
+  },
+  {
+   "text": "conch, pearls and the like, through the help of the women",
+   "bbox": [
+    262,
+    2253,
+    1470,
+    2292
+   ]
+  },
+  {
+   "text": "folk. If it is Mars, income will be from metals, profes-",
+   "bbox": [
+    259,
+    2305,
+    1469,
+    2344
+   ]
+  }
+ ]
+}

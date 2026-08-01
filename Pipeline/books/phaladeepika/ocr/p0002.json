@@ -1,0 +1,288 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0002",
+ "book_id": "phaladeepika",
+ "seq": 2,
+ "source_ref": {
+  "pdf_page": 2
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "860c3dc7bb849b0fb35b33a2d536f86134cc761cb78f32ce5c61efc53e6bcdcf",
+ "lines": [
+  {
+   "text": "<b>Preface</b>",
+   "bbox": [
+    293,
+    57,
+    345,
+    75
+   ]
+  },
+  {
+   "text": "Shri Mantreswara's 'Phaladeeplka' holds a most distinguished position ",
+   "bbox": [
+    121,
+    109,
+    556,
+    125
+   ]
+  },
+  {
+   "text": "amongst the great ancient astrological classics alongwith Brihat Parasara Hora ",
+   "bbox": [
+    85,
+    133,
+    556,
+    149
+   ]
+  },
+  {
+   "text": "Sastra, Varahmihira's Brihat Jataka and Vaidya Natha's Jataka Parijata. It deals in a ",
+   "bbox": [
+    85,
+    157,
+    556,
+    173
+   ]
+  },
+  {
+   "text": "most comprehensive and authoritative manner with almost all the astrological ",
+   "bbox": [
+    85,
+    182,
+    556,
+    197
+   ]
+  },
+  {
+   "text": "aspects of human life. There can be said to be nothing that this great work has ",
+   "bbox": [
+    85,
+    206,
+    556,
+    221
+   ]
+  },
+  {
+   "text": "omitted from its purview.",
+   "bbox": [
+    85,
+    230,
+    227,
+    245
+   ]
+  },
+  {
+   "text": "Some of the important subjects dealt with in a lucid manner in the book are: ",
+   "bbox": [
+    121,
+    254,
+    556,
+    270
+   ]
+  },
+  {
+   "text": "description and characteristic features of the various signs, planets and bhavas ",
+   "bbox": [
+    85,
+    278,
+    556,
+    294
+   ]
+  },
+  {
+   "text": "(houses), the various kinds of strengths of planets and their awasthas with their ",
+   "bbox": [
+    85,
+    302,
+    556,
+    318
+   ]
+  },
+  {
+   "text": "effects, sources of livelihood, yogas or planetary combinations leading to affluence ",
+   "bbox": [
+    85,
+    326,
+    556,
+    342
+   ]
+  },
+  {
+   "text": "and poverty, effects of planets in different houses, effects of different Ascendants, ",
+   "bbox": [
+    85,
+    351,
+    556,
+    366
+   ]
+  },
+  {
+   "text": "Female horoscopy, matters relating to matrimony and progeny determination of ",
+   "bbox": [
+    85,
+    375,
+    556,
+    390
+   ]
+  },
+  {
+   "text": "longevity, judgment of houses, various kinds of Dasas and their effects, ",
+   "bbox": [
+    85,
+    399,
+    556,
+    414
+   ]
+  },
+  {
+   "text": "Ashtakavarga and its importance in the judging of effects of transit of planets, ",
+   "bbox": [
+    85,
+    423,
+    556,
+    439
+   ]
+  },
+  {
+   "text": "transit effects of planets and constellations, and description and influence of ",
+   "bbox": [
+    85,
+    447,
+    556,
+    463
+   ]
+  },
+  {
+   "text": "upagrahas.",
+   "bbox": [
+    85,
+    471,
+    145,
+    487
+   ]
+  },
+  {
+   "text": "The author of this book Shri Mantreswara is believed to have lived in the ",
+   "bbox": [
+    121,
+    496,
+    556,
+    511
+   ]
+  },
+  {
+   "text": "13th century when this valuable work must have been compiled. It is said that he ",
+   "bbox": [
+    85,
+    520,
+    556,
+    535
+   ]
+  },
+  {
+   "text": "belonged to a family of Namboodari Brahmins and he was born in tirinevelley ",
+   "bbox": [
+    85,
+    544,
+    556,
+    559
+   ]
+  },
+  {
+   "text": "District of the erstwhile Madras Presidency (now known as Tamil Nadu). He was a ",
+   "bbox": [
+    85,
+    568,
+    556,
+    583
+   ]
+  },
+  {
+   "text": "devotee of Sukuntlambki Devi. As a young man his name was Markandeya ",
+   "bbox": [
+    85,
+    592,
+    556,
+    608
+   ]
+  },
+  {
+   "text": "Bhattadri. To attain knowledge he is said to have travelled to far off places like ",
+   "bbox": [
+    85,
+    616,
+    556,
+    632
+   ]
+  },
+  {
+   "text": "Badrika Ashram in Himalayas and Mithila Pradesh - By sheer dint of hard work ",
+   "bbox": [
+    85,
+    640,
+    556,
+    656
+   ]
+  },
+  {
+   "text": "and devotion, he became well versed in the Vedanta philosophy and in the ",
+   "bbox": [
+    85,
+    665,
+    556,
+    680
+   ]
+  },
+  {
+   "text": "knowledge of other sastras, and by severe observance of fast, penance and ",
+   "bbox": [
+    85,
+    689,
+    556,
+    704
+   ]
+  },
+  {
+   "text": "meditation, he became gifted with divine knowledge and assumed the name of ",
+   "bbox": [
+    85,
+    713,
+    556,
+    728
+   ]
+  },
+  {
+   "text": "Mantreswara. His knowledge of Astrology was profound and the reference in his ",
+   "bbox": [
+    85,
+    737,
+    556,
+    753
+   ]
+  },
+  {
+   "text": "book to Parasara, Varahamihira and other learned astrologers indicates that he had ",
+   "bbox": [
+    85,
+    761,
+    556,
+    777
+   ]
+  },
+  {
+   "text": "2",
+   "bbox": [
+    316,
+    793,
+    322,
+    806
+   ]
+  }
+ ]
+}

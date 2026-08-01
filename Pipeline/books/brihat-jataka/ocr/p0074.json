@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0074",
+ "book_id": "brihat-jataka",
+ "seq": 74,
+ "source_ref": {
+  "pdf_page": 37,
+  "half": "b",
+  "v1_page": "s037b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "29d2d93c769c829612eafe299e8db90d0bb808fbe772a94a1a50e371b7974bd6",
+ "lines": [
+  {
+   "text": "71",
+   "bbox": [
+    1430,
+    167,
+    1487,
+    196
+   ]
+  },
+  {
+   "text": "Factors for Early Death",
+   "bbox": [
+    281,
+    189,
+    760,
+    247
+   ]
+  },
+  {
+   "text": "ity their affliction by malefics would cause loss of longevity.",
+   "bbox": [
+    285,
+    256,
+    1499,
+    351
+   ]
+  },
+  {
+   "text": "Planets in kendra always influence 7th lagna, hence when the",
+   "bbox": [
+    287,
+    307,
+    1501,
+    404
+   ]
+  },
+  {
+   "text": "kendras are devoid of benefics, this would be an additional",
+   "bbox": [
+    289,
+    362,
+    1504,
+    453
+   ]
+  },
+  {
+   "text": "cause for lessening of longevity, since the lagna would be",
+   "bbox": [
+    291,
+    414,
+    1505,
+    509
+   ]
+  },
+  {
+   "text": "devoid of benefic influence.",
+   "bbox": [
+    292,
+    493,
+    838,
+    552
+   ]
+  },
+  {
+   "text": "क्रूरसंयुत: शशी स्मरान्त्यमृत्युलग्नग:।",
+   "bbox": [
+    367,
+    571,
+    911,
+    639
+   ]
+  },
+  {
+   "text": "कण्टकाद्वहि: शुभैरवीक्षितश्च मृत्युद: ।। 5 ।।",
+   "bbox": [
+    368,
+    625,
+    1014,
+    707
+   ]
+  },
+  {
+   "text": "If Moon posited in the 7th, 12th, 8th or the 1st house is",
+   "bbox": [
+    372,
+    701,
+    1514,
+    795
+   ]
+  },
+  {
+   "text": "with a malefic planet but is not under the aspect of any benefic,",
+   "bbox": [
+    301,
+    754,
+    1514,
+    848
+   ]
+  },
+  {
+   "text": "who should all be located out of kendras, the child dies soon",
+   "bbox": [
+    302,
+    810,
+    1518,
+    898
+   ]
+  },
+  {
+   "text": "after birth.",
+   "bbox": [
+    306,
+    898,
+    533,
+    945
+   ]
+  },
+  {
+   "text": "शशिन्यरिविनाशगे निधनमाशुपापेक्षिते",
+   "bbox": [
+    382,
+    966,
+    910,
+    1030
+   ]
+  },
+  {
+   "text": "शुभैरथ समाप्टक दलमतश्च मिश्रै: स्थिति:।",
+   "bbox": [
+    457,
+    1019,
+    1072,
+    1095
+   ]
+  },
+  {
+   "text": "असद्भिरवलोकिते बलिभिरत्र मासं शुभे",
+   "bbox": [
+    385,
+    1089,
+    952,
+    1165
+   ]
+  },
+  {
+   "text": "कलत्रसहिते च पापविजिते विलग्नाधिपे।। 6 11",
+   "bbox": [
+    458,
+    1150,
+    1165,
+    1226
+   ]
+  },
+  {
+   "text": "If Moon occupies the 6th or 8th house and is also aspected",
+   "bbox": [
+    391,
+    1230,
+    1532,
+    1318
+   ]
+  },
+  {
+   "text": "by malefic planets the child dies soon after birth. If the Moon",
+   "bbox": [
+    315,
+    1279,
+    1535,
+    1372
+   ]
+  },
+  {
+   "text": "in the position stated above is aspected purely by benefics, he",
+   "bbox": [
+    318,
+    1332,
+    1535,
+    1424
+   ]
+  },
+  {
+   "text": "lives only for 8 years. If the aspect is mixed ie of both benefics",
+   "bbox": [
+    320,
+    1383,
+    1537,
+    1478
+   ]
+  },
+  {
+   "text": "and malefics he gets half of it ie 4 years life. If natural benefics",
+   "bbox": [
+    321,
+    1435,
+    1540,
+    1530
+   ]
+  },
+  {
+   "text": "(Jupiter, Venus and Mercury) occupy the 6th or the 8th house",
+   "bbox": [
+    324,
+    1489,
+    1541,
+    1582
+   ]
+  },
+  {
+   "text": "and are aspected by strong malefics the child will live for only",
+   "bbox": [
+    325,
+    1540,
+    1544,
+    1636
+   ]
+  },
+  {
+   "text": "one month. If the lord of the lagna occupies the 7th house and",
+   "bbox": [
+    325,
+    1593,
+    1547,
+    1688
+   ]
+  },
+  {
+   "text": "is defeated in war, then too the child lives for only a month.",
+   "bbox": [
+    327,
+    1648,
+    1528,
+    1740
+   ]
+  },
+  {
+   "text": "लग्ने क्षीणे शशिनि निधनं रन्ध्रकेन्द्रेषु पापै:",
+   "bbox": [
+    402,
+    1741,
+    1026,
+    1824
+   ]
+  },
+  {
+   "text": "पापान्त:स्थे निधनहिबुकद्यूनयुक्ते च चन्द्रे।",
+   "bbox": [
+    404,
+    1809,
+    1016,
+    1887
+   ]
+  },
+  {
+   "text": "एवं लग्ने भवति मदनच्छिद्रसंस्थैश्च पापे",
+   "bbox": [
+    407,
+    1873,
+    988,
+    1948
+   ]
+  },
+  {
+   "text": "मात्रा सार्दे यदि न च शुभैर्वीक्षित: शक्तिभृद्धि: ।। 7 ।।",
+   "bbox": [
+    410,
+    1935,
+    1225,
+    2016
+   ]
+  },
+  {
+   "text": "The child dies soon after birth if there is ksheen Moon",
+   "bbox": [
+    416,
+    2013,
+    1559,
+    2099
+   ]
+  },
+  {
+   "text": "(a Moon within 72 degrees from the Sun) in the lagna",
+   "bbox": [
+    338,
+    2067,
+    1561,
+    2157
+   ]
+  },
+  {
+   "text": "and there are malefic planets in the 8th and kendra (1st,",
+   "bbox": [
+    342,
+    2116,
+    1563,
+    2210
+   ]
+  },
+  {
+   "text": "4th, 7th and 10th) houses. Similar is the result if Moon is",
+   "bbox": [
+    344,
+    2168,
+    1564,
+    2262
+   ]
+  },
+  {
+   "text": "hemmed in between malefics in the 4th, 7th or 8th house. In",
+   "bbox": [
+    346,
+    2222,
+    1565,
+    2313
+   ]
+  }
+ ]
+}

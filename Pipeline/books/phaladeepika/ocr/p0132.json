@@ -1,0 +1,441 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0132",
+ "book_id": "phaladeepika",
+ "seq": 132,
+ "source_ref": {
+  "pdf_page": 132
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "36d0f20b86df4dc0074adbca2de1cd0dda26c0e7454e60f1e84f697c8ea62bd5",
+ "lines": [
+  {
+   "text": "uncle will die if the birth be in the fourth quarter of these nakshatra.",
+   "bbox": [
+    85,
+    57,
+    465,
+    73
+   ]
+  },
+  {
+   "text": "If the Ascendant is not connected with benefic planets and birth takes place ",
+   "bbox": [
+    121,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "in Moola or Ashlesha nakshatras the results will be as follows:—",
+   "bbox": [
+    85,
+    106,
+    449,
+    121
+   ]
+  },
+  {
+   "text": "Moola first ",
+   "bbox": [
+    174,
+    154,
+    240,
+    169
+   ]
+  },
+  {
+   "text": "Ashlesha fourth ",
+   "bbox": [
+    278,
+    154,
+    370,
+    169
+   ]
+  },
+  {
+   "text": "Death of the ",
+   "bbox": [
+    375,
+    154,
+    448,
+    169
+   ]
+  },
+  {
+   "text": "quarter ",
+   "bbox": [
+    174,
+    170,
+    217,
+    186
+   ]
+  },
+  {
+   "text": "quarter ",
+   "bbox": [
+    278,
+    170,
+    321,
+    186
+   ]
+  },
+  {
+   "text": "father ",
+   "bbox": [
+    375,
+    170,
+    411,
+    186
+   ]
+  },
+  {
+   "text": "Moola second ",
+   "bbox": [
+    174,
+    186,
+    256,
+    202
+   ]
+  },
+  {
+   "text": "Ashlesha third ",
+   "bbox": [
+    278,
+    186,
+    362,
+    202
+   ]
+  },
+  {
+   "text": "Death of the ",
+   "bbox": [
+    375,
+    186,
+    448,
+    202
+   ]
+  },
+  {
+   "text": "quarter ",
+   "bbox": [
+    174,
+    202,
+    217,
+    218
+   ]
+  },
+  {
+   "text": "quarter ",
+   "bbox": [
+    278,
+    202,
+    321,
+    218
+   ]
+  },
+  {
+   "text": "mother ",
+   "bbox": [
+    375,
+    202,
+    418,
+    218
+   ]
+  },
+  {
+   "text": "Moola third ",
+   "bbox": [
+    174,
+    218,
+    244,
+    234
+   ]
+  },
+  {
+   "text": "Ashlesha ",
+   "bbox": [
+    278,
+    218,
+    332,
+    234
+   ]
+  },
+  {
+   "text": "Extinction of ",
+   "bbox": [
+    375,
+    218,
+    452,
+    234
+   ]
+  },
+  {
+   "text": "quarter ",
+   "bbox": [
+    174,
+    234,
+    217,
+    250
+   ]
+  },
+  {
+   "text": "second quarter ",
+   "bbox": [
+    278,
+    234,
+    363,
+    250
+   ]
+  },
+  {
+   "text": "the family ",
+   "bbox": [
+    375,
+    234,
+    436,
+    250
+   ]
+  },
+  {
+   "text": "Moola fourth ",
+   "bbox": [
+    174,
+    255,
+    252,
+    271
+   ]
+  },
+  {
+   "text": "Ashlesha first ",
+   "bbox": [
+    278,
+    255,
+    358,
+    271
+   ]
+  },
+  {
+   "text": "Wealthy and ",
+   "bbox": [
+    375,
+    255,
+    449,
+    271
+   ]
+  },
+  {
+   "text": "quarter ",
+   "bbox": [
+    174,
+    271,
+    217,
+    287
+   ]
+  },
+  {
+   "text": "quarter ",
+   "bbox": [
+    278,
+    271,
+    321,
+    287
+   ]
+  },
+  {
+   "text": "prosperous. ",
+   "bbox": [
+    375,
+    271,
+    444,
+    287
+   ]
+  },
+  {
+   "text": "9. If the birth takes place at the time of Sandhi (junction) of the signs and if ",
+   "bbox": [
+    121,
+    312,
+    556,
+    327
+   ]
+  },
+  {
+   "text": "the signs be not aspected by or associated with benefics the child born dies soon ",
+   "bbox": [
+    85,
+    336,
+    556,
+    351
+   ]
+  },
+  {
+   "text": "after birth.",
+   "bbox": [
+    85,
+    360,
+    144,
+    375
+   ]
+  },
+  {
+   "text": "If the birth occurs in Gandanta the death takes place either of the parents or ",
+   "bbox": [
+    121,
+    384,
+    556,
+    400
+   ]
+  },
+  {
+   "text": "the native himself. If, however, the native survives he becomes splendourous like a ",
+   "bbox": [
+    85,
+    408,
+    556,
+    424
+   ]
+  },
+  {
+   "text": "king (The sandhis between Pisces and Aries, Cancer and Leo and Scorpio and ",
+   "bbox": [
+    85,
+    432,
+    556,
+    448
+   ]
+  },
+  {
+   "text": "Sagittarius are called gandanta). The person, who is born in Sandhi associated with ",
+   "bbox": [
+    85,
+    457,
+    556,
+    472
+   ]
+  },
+  {
+   "text": "or aspected by malefics will not see Sunrise. The same result may be expected if ",
+   "bbox": [
+    85,
+    481,
+    556,
+    496
+   ]
+  },
+  {
+   "text": "the Moon at birth attains tne fateful degree in any sign and is at the same time ",
+   "bbox": [
+    85,
+    505,
+    556,
+    520
+   ]
+  },
+  {
+   "text": "posited in a Kendra or the 8th house.",
+   "bbox": [
+    85,
+    529,
+    291,
+    545
+   ]
+  },
+  {
+   "text": "10. Jf the degrees attained by the Moon in Aries and the other sign be ",
+   "bbox": [
+    121,
+    553,
+    556,
+    569
+   ]
+  },
+  {
+   "text": "respectively 26, 12, 13, 25, 24, 11, 26, 14, 13, 25, 5 and 12, they indicate death.",
+   "bbox": [
+    85,
+    577,
+    530,
+    593
+   ]
+  },
+  {
+   "text": "11. The following are (also) respectively deemed as Mrityubhagas or fateful ",
+   "bbox": [
+    121,
+    601,
+    556,
+    617
+   ]
+  },
+  {
+   "text": "degrees of the Lagna in the several signs from Aries onwards 8, 9, 22, 22, 25, 14, ",
+   "bbox": [
+    85,
+    626,
+    556,
+    641
+   ]
+  },
+  {
+   "text": "4, 23, 18, 20, 21, and 10.",
+   "bbox": [
+    85,
+    650,
+    224,
+    665
+   ]
+  },
+  {
+   "text": "12. The child born dies soon after birth in the following planetary ",
+   "bbox": [
+    121,
+    674,
+    556,
+    689
+   ]
+  },
+  {
+   "text": "dispositions :—",
+   "bbox": [
+    85,
+    698,
+    173,
+    714
+   ]
+  },
+  {
+   "text": "(1) If malefics be in the Kendra or the 8th.",
+   "bbox": [
+    121,
+    722,
+    358,
+    738
+   ]
+  },
+  {
+   "text": "(2) If the Ascendant and the 8th are occupied by malefics.",
+   "bbox": [
+    121,
+    746,
+    445,
+    762
+   ]
+  },
+  {
+   "text": "132",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

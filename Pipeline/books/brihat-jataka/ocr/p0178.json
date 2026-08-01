@@ -1,0 +1,218 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0178",
+ "book_id": "brihat-jataka",
+ "seq": 178,
+ "source_ref": {
+  "pdf_page": 89,
+  "half": "b",
+  "v1_page": "s089b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "ae395dc0b1edf77577606761c6547f801e3dc38c839557b4ea679b156af6631c",
+ "lines": [
+  {
+   "text": "175",
+   "bbox": [
+    1317,
+    211,
+    1405,
+    244
+   ]
+  },
+  {
+   "text": "Anishta or Misfortune",
+   "bbox": [
+    197,
+    214,
+    644,
+    252
+   ]
+  },
+  {
+   "text": "is an inferior, ordinary or superior servant respectively.",
+   "bbox": [
+    201,
+    314,
+    1303,
+    354
+   ]
+  },
+  {
+   "text": "Notes: The halso is called parivesha. It is a round white",
+   "bbox": [
+    272,
+    389,
+    1407,
+    435
+   ]
+  },
+  {
+   "text": "circle round the Moon. It denotes rainy weather.",
+   "bbox": [
+    200,
+    445,
+    1162,
+    484
+   ]
+  },
+  {
+   "text": "When there is only one planet in the tenth the native",
+   "bbox": [
+    275,
+    519,
+    1408,
+    566
+   ]
+  },
+  {
+   "text": "becomes servant. If there are two, he becomes a higher ser-",
+   "bbox": [
+    201,
+    573,
+    1406,
+    613
+   ]
+  },
+  {
+   "text": "vant. If there are three he is an ordinary servant.",
+   "bbox": [
+    201,
+    626,
+    1186,
+    668
+   ]
+  },
+  {
+   "text": "इति श्रीवराहमिहिरकृते बृहज्जातकेऽनिष्टाध्यायस्त्रयोविंश: ।। 23।।",
+   "bbox": [
+    333,
+    824,
+    1271,
+    884
+   ]
+  },
+  {
+   "text": "<math>C^{\\prime}</math>",
+   "bbox": [
+    1405,
+    856,
+    1440,
+    890
+   ]
+  },
+  {
+   "text": "Thus ends the twenty-third chapter on Anishta or Misfortune",
+   "bbox": [
+    272,
+    923,
+    1437,
+    967
+   ]
+  },
+  {
+   "text": "in Brihat Jatak composed by Varahamihira.",
+   "bbox": [
+    195,
+    979,
+    1005,
+    1019
+   ]
+  },
+  {
+   "text": "<b>Excellent Work of Utmost Importance</b>",
+   "bbox": [
+    293,
+    1194,
+    1305,
+    1254
+   ]
+  },
+  {
+   "text": "<b>Secrets</b>",
+   "bbox": [
+    622,
+    1286,
+    968,
+    1357
+   ]
+  },
+  {
+   "text": "OŤ",
+   "bbox": [
+    761,
+    1401,
+    831,
+    1441
+   ]
+  },
+  {
+   "text": "Ashtaka Varga",
+   "bbox": [
+    466,
+    1472,
+    1120,
+    1564
+   ]
+  },
+  {
+   "text": "Dr. P.S. Sastri",
+   "bbox": [
+    616,
+    1589,
+    978,
+    1638
+   ]
+  },
+  {
+   "text": "Recommended for every student of Astrology",
+   "bbox": [
+    243,
+    1673,
+    1348,
+    1733
+   ]
+  },
+  {
+   "text": "₹ 327 88 35",
+   "bbox": [
+    1110,
+    1771,
+    1353,
+    1811
+   ]
+  },
+  {
+   "text": "Contact or write to:",
+   "bbox": [
+    230,
+    1773,
+    616,
+    1810
+   ]
+  },
+  {
+   "text": "<b>RANJAN PUBLICATIONS</b>",
+   "bbox": [
+    284,
+    1850,
+    1307,
+    1916
+   ]
+  },
+  {
+   "text": "16, Ansari Road, Darya Ganj, New Delhi-110 002",
+   "bbox": [
+    311,
+    1940,
+    1289,
+    1982
+   ]
+  }
+ ]
+}

@@ -1,0 +1,236 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0123",
+ "book_id": "brihat-jataka",
+ "seq": 123,
+ "source_ref": {
+  "pdf_page": 62,
+  "half": "a",
+  "v1_page": "s062a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "aac349799d99b28c65cadf339b0b2d85acb26c75f7f297c830067ebad32a3723",
+ "lines": [
+  {
+   "text": "14",
+   "bbox": [
+    949,
+    473,
+    1025,
+    520
+   ]
+  },
+  {
+   "text": "द्विग्रहयोगाध्याय:",
+   "bbox": [
+    827,
+    616,
+    1138,
+    674
+   ]
+  },
+  {
+   "text": "<b>Combination of Planets</b>",
+   "bbox": [
+    504,
+    682,
+    1457,
+    779
+   ]
+  },
+  {
+   "text": "Sun with other Planets",
+   "bbox": [
+    364,
+    925,
+    976,
+    984
+   ]
+  },
+  {
+   "text": "तिग्मांशुर्जनयत्यथेन्दुसहितो यन्त्राश्मकारं नरं",
+   "bbox": [
+    435,
+    1009,
+    1064,
+    1081
+   ]
+  },
+  {
+   "text": "भौमेनाघरतं बुधेन निपुणं धीकीर्तिसौख्यान्वितम् ।",
+   "bbox": [
+    435,
+    1069,
+    1117,
+    1146
+   ]
+  },
+  {
+   "text": "क्रूरं वाक्पतिनान्यकार्यनिरतं शुक्रेण रङ्गायुधै-",
+   "bbox": [
+    430,
+    1131,
+    1069,
+    1217
+   ]
+  },
+  {
+   "text": "र्लब्धस्वं रविजेन धातुकुशलं भाण्डप्रकारेषु वा।। 1 ।।",
+   "bbox": [
+    428,
+    1203,
+    1220,
+    1285
+   ]
+  },
+  {
+   "text": "Sun with Moon makes a person employ himself in machine",
+   "bbox": [
+    427,
+    1299,
+    1573,
+    1378
+   ]
+  },
+  {
+   "text": "work or in the sale etc of utensils. If it is with Mars the man",
+   "bbox": [
+    347,
+    1350,
+    1570,
+    1426
+   ]
+  },
+  {
+   "text": "engages in crime. If with Mercury he is efficient in every way",
+   "bbox": [
+    346,
+    1400,
+    1570,
+    1484
+   ]
+  },
+  {
+   "text": "and also intelligent, famous and happy. If it is with Jupiter he",
+   "bbox": [
+    345,
+    1452,
+    1567,
+    1536
+   ]
+  },
+  {
+   "text": "is of a fierce temperament and always engaged in the service",
+   "bbox": [
+    341,
+    1505,
+    1566,
+    1588
+   ]
+  },
+  {
+   "text": "of others. If it is with Venus the man is engaged in wrestling",
+   "bbox": [
+    340,
+    1557,
+    1566,
+    1642
+   ]
+  },
+  {
+   "text": "or as a dealer in weapons. If it is with Saturn the man deals in",
+   "bbox": [
+    339,
+    1607,
+    1561,
+    1697
+   ]
+  },
+  {
+   "text": "metals and utensils etc.",
+   "bbox": [
+    339,
+    1665,
+    816,
+    1716
+   ]
+  },
+  {
+   "text": "Moon with other Planets",
+   "bbox": [
+    334,
+    1768,
+    989,
+    1826
+   ]
+  },
+  {
+   "text": "कूटस्त्र्यासवकुम्भपण्यमशिवं मातुः सवक्रः शशी",
+   "bbox": [
+    407,
+    1852,
+    1099,
+    1921
+   ]
+  },
+  {
+   "text": "सज्ञ: प्रश्रितवाक्यमर्थनिपुणं सौभाग्यकोर्त्यान्वितम्।",
+   "bbox": [
+    405,
+    1912,
+    1113,
+    1989
+   ]
+  },
+  {
+   "text": "विक्रान्तं कुलमुख्यमस्थिरमतिं वित्तेश्वरं साङ्गिरा",
+   "bbox": [
+    402,
+    1979,
+    1089,
+    2053
+   ]
+  },
+  {
+   "text": "वस्त्राणां ससित: क्रियादिकुशलं सार्कि: पुनर्भूसुतम् ।। 2 ।।",
+   "bbox": [
+    400,
+    2045,
+    1254,
+    2126
+   ]
+  },
+  {
+   "text": "If Moon is with Mars, the native engages in highly diplo-",
+   "bbox": [
+    395,
+    2140,
+    1543,
+    2218
+   ]
+  },
+  {
+   "text": "matic actions and in selling wine. This combination is not",
+   "bbox": [
+    317,
+    2188,
+    1543,
+    2271
+   ]
+  },
+  {
+   "text": "conducive to the long life of his mother. If it is with Mercury",
+   "bbox": [
+    317,
+    2241,
+    1540,
+    2323
+   ]
+  }
+ ]
+}

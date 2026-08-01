@@ -1,0 +1,245 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0048",
+ "book_id": "brihat-jataka",
+ "seq": 48,
+ "source_ref": {
+  "pdf_page": 24,
+  "half": "b",
+  "v1_page": "s024b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "3a047edf3874cfa2d04fd05220388f8595e7d708a41c4a3d4a16b2c9707f40d0",
+ "lines": [
+  {
+   "text": "निषेकाध्यायः",
+   "bbox": [
+    755,
+    650,
+    1004,
+    700
+   ]
+  },
+  {
+   "text": "<b>On Conception Etc.</b>",
+   "bbox": [
+    491,
+    721,
+    1271,
+    812
+   ]
+  },
+  {
+   "text": "<b>Monthly Course and Cohabitation</b>",
+   "bbox": [
+    274,
+    962,
+    1162,
+    1010
+   ]
+  },
+  {
+   "text": "कुजेन्दुहेतु प्रतिमासमार्तवं गते तु पीडर्क्षमनुष्णदीधितौ।",
+   "bbox": [
+    345,
+    1044,
+    1112,
+    1097
+   ]
+  },
+  {
+   "text": "अतोन्यथास्थे शुभपुंग्रहेक्षिते नरेण संयोगमुपैति कामिनी।। 1।।",
+   "bbox": [
+    348,
+    1104,
+    1226,
+    1161
+   ]
+  },
+  {
+   "text": "Mars and Moon are the cause for the bringing about",
+   "bbox": [
+    346,
+    1204,
+    1487,
+    1242
+   ]
+  },
+  {
+   "text": "monthly course in women. When in the case of a woman her",
+   "bbox": [
+    274,
+    1253,
+    1484,
+    1292
+   ]
+  },
+  {
+   "text": "Moon occupies a house that is other than the 3rd, 6th, 10th or",
+   "bbox": [
+    272,
+    1302,
+    1484,
+    1342
+   ]
+  },
+  {
+   "text": "11th from her natal Moon and is aspected by Mars in transit at",
+   "bbox": [
+    276,
+    1355,
+    1484,
+    1395
+   ]
+  },
+  {
+   "text": "the menses time she is capable of conceiving. In such a case if",
+   "bbox": [
+    272,
+    1405,
+    1487,
+    1445
+   ]
+  },
+  {
+   "text": "the man has his Moon in his upachaya houses ie 3rd, 6th, 10th",
+   "bbox": [
+    271,
+    1456,
+    1483,
+    1496
+   ]
+  },
+  {
+   "text": "or 11th from his natal Moon and is aspected by Jupiter their",
+   "bbox": [
+    270,
+    1501,
+    1486,
+    1551
+   ]
+  },
+  {
+   "text": "union brings about pregnancy. This of course does not apply to",
+   "bbox": [
+    271,
+    1558,
+    1483,
+    1598
+   ]
+  },
+  {
+   "text": "a sterile, impotent, aged or too young a person.",
+   "bbox": [
+    271,
+    1609,
+    1210,
+    1649
+   ]
+  },
+  {
+   "text": "<b>Manner of Cohabitation</b>",
+   "bbox": [
+    271,
+    1714,
+    899,
+    1753
+   ]
+  },
+  {
+   "text": "यथौस्तराशिर्मिथुनं समैति तथैव वाच्यो मिथुनप्रयोग:।",
+   "bbox": [
+    343,
+    1789,
+    1096,
+    1842
+   ]
+  },
+  {
+   "text": "असद्ग्रहालोकितसंयुतेऽस्ते सरोप इप्टैस्सविलासहास: ।। 2।।",
+   "bbox": [
+    343,
+    1851,
+    1206,
+    1909
+   ]
+  },
+  {
+   "text": "The manner of the cohabitation between persons of the",
+   "bbox": [
+    345,
+    1950,
+    1481,
+    1989
+   ]
+  },
+  {
+   "text": "type referred to in the previous sholka is determined from the",
+   "bbox": [
+    269,
+    2001,
+    1481,
+    2040
+   ]
+  },
+  {
+   "text": "sign in the 7th house at the time of cohabitation in the manner",
+   "bbox": [
+    269,
+    2050,
+    1481,
+    2090
+   ]
+  },
+  {
+   "text": "in which the animal appropriate to the said sign cohabitates.",
+   "bbox": [
+    268,
+    2100,
+    1480,
+    2142
+   ]
+  },
+  {
+   "text": "The cohabitation is in anger, if the 7th house is associated with",
+   "bbox": [
+    268,
+    2150,
+    1481,
+    2190
+   ]
+  },
+  {
+   "text": "or aspected by a malefic planet. It is on the other hand accom-",
+   "bbox": [
+    266,
+    2202,
+    1480,
+    2242
+   ]
+  },
+  {
+   "text": "panied with pleasure jokes etc if the 7th house is associated",
+   "bbox": [
+    268,
+    2253,
+    1480,
+    2293
+   ]
+  },
+  {
+   "text": "with or aspected by a benefic planet.",
+   "bbox": [
+    265,
+    2305,
+    1000,
+    2344
+   ]
+  }
+ ]
+}

@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0128",
+ "book_id": "phaladeepika",
+ "seq": 128,
+ "source_ref": {
+  "pdf_page": 128
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "c29152ec3a2a33df976a2bbfb62b2842ffb1b2c1d74a4e1383d1c35b388b99b8",
+ "lines": [
+  {
+   "text": "represented by the owner of the nakshatra resulting from the sum total of the ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "longitudes of the above plantes and in the sub-period of any of the following ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "planets will the birth of a son (children) take place—",
+   "bbox": [
+    85,
+    106,
+    381,
+    121
+   ]
+  },
+  {
+   "text": "(1) The planet occupying the 5th house,",
+   "bbox": [
+    121,
+    130,
+    344,
+    145
+   ]
+  },
+  {
+   "text": "(2) the planet aspecting the 5th house and",
+   "bbox": [
+    121,
+    154,
+    354,
+    169
+   ]
+  },
+  {
+   "text": "(3) the lord of the 5th.",
+   "bbox": [
+    121,
+    178,
+    245,
+    194
+   ]
+  },
+  {
+   "text": "28. Find out which amongst the (1) lord of the 5th house, (2) the lord of the ",
+   "bbox": [
+    121,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "sign occupied by the lord of the 5th house and (3) the lord of the navamsa of the ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "lord of the 5th house (4) the lord of the sign occupied by jupiter and (5) the lord of ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "the navamsa occupied by Jupiter is a strong planet. The birth of a son (children) ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "may be expected in the major or sub-period of this strong planet.",
+   "bbox": [
+    85,
+    299,
+    448,
+    314
+   ]
+  },
+  {
+   "text": "29. Find out the sign of 5th from Jupiter and the sign and navamsa of its ",
+   "bbox": [
+    121,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "lord. When Jupiter in transit is triangular to that sign or navamsa, the birth of a son ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "(children) may be predicted.",
+   "bbox": [
+    85,
+    371,
+    244,
+    387
+   ]
+  },
+  {
+   "text": "According ta other authorities on the subject, a learned man ought to ",
+   "bbox": [
+    121,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "investigate indications of the birth of children from the positions of the planet at ",
+   "bbox": [
+    85,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "the time of the birth of the native.",
+   "bbox": [
+    85,
+    444,
+    273,
+    459
+   ]
+  },
+  {
+   "text": "30. Find out the lord of the nakshatra occupied by the Moon and that of the ",
+   "bbox": [
+    121,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "5th from it. Add the longitudes of the two plantes. When Jupiter passes in transit ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "through the sign represented by this result or through one of its triangular ones, the ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "birth of a son is possible.",
+   "bbox": [
+    85,
+    540,
+    225,
+    556
+   ]
+  },
+  {
+   "text": "31. The birth of a son (child) is likely to take place when the Sun In his ",
+   "bbox": [
+    121,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "transit passes the third sign representing the Nisheka Lagna or transits a sign ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "triangular to the Adhana Lagna.",
+   "bbox": [
+    85,
+    613,
+    263,
+    628
+   ]
+  },
+  {
+   "text": "32. If the birth of a son takes place In a Lagna which is 5th or 9th to the ",
+   "bbox": [
+    121,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "Adhana, it should be understood that such a birth Is due to virtuous deeds ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "performed in the previous births.",
+   "bbox": [
+    85,
+    685,
+    269,
+    701
+   ]
+  },
+  {
+   "text": "If the Adhana Lagna is occupied or aspected by benefics, the person born ",
+   "bbox": [
+    121,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "will be longlived, wealthy and happy.",
+   "bbox": [
+    85,
+    734,
+    295,
+    749
+   ]
+  },
+  {
+   "text": "33. Find out the exact Dwadasamsa of the Mars at the time of Adhana and ",
+   "bbox": [
+    121,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "128",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

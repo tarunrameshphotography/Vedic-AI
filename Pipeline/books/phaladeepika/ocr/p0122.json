@@ -1,0 +1,288 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0122",
+ "book_id": "phaladeepika",
+ "seq": 122,
+ "source_ref": {
+  "pdf_page": 122
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "da5b4d7b5f5a0da8211f5b3305c3d27dc82c09772c3323b6fc81504a617fc03d",
+ "lines": [
+  {
+   "text": "in our experience. Please see in this connection the following horoscope.",
+   "bbox": [
+    85,
+    57,
+    493,
+    73
+   ]
+  },
+  {
+   "text": "Here the 5th lord Venus is a benefic. He occupies his own house with Mars ",
+   "bbox": [
+    121,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "and Moon (waning) both malefics. The native is blessed with children.",
+   "bbox": [
+    85,
+    106,
+    481,
+    121
+   ]
+  },
+  {
+   "text": "L",
+   "bbox": [
+    400,
+    175,
+    408,
+    190
+   ]
+  },
+  {
+   "text": "Rahu",
+   "bbox": [
+    219,
+    231,
+    248,
+    247
+   ]
+  },
+  {
+   "text": "Sat",
+   "bbox": [
+    225,
+    288,
+    242,
+    303
+   ]
+  },
+  {
+   "text": "Ketu",
+   "bbox": [
+    390,
+    288,
+    418,
+    303
+   ]
+  },
+  {
+   "text": "Moon ",
+   "bbox": [
+    330,
+    329,
+    367,
+    344
+   ]
+  },
+  {
+   "text": "Sun ",
+   "bbox": [
+    393,
+    329,
+    418,
+    344
+   ]
+  },
+  {
+   "text": "Mars ",
+   "bbox": [
+    333,
+    345,
+    365,
+    360
+   ]
+  },
+  {
+   "text": "Merc",
+   "bbox": [
+    389,
+    345,
+    419,
+    360
+   ]
+  },
+  {
+   "text": "Ven",
+   "bbox": [
+    336,
+    361,
+    358,
+    376
+   ]
+  },
+  {
+   "text": "Jup",
+   "bbox": [
+    394,
+    361,
+    414,
+    376
+   ]
+  },
+  {
+   "text": "4. The native will have a child late to life after a great effect under the ",
+   "bbox": [
+    121,
+    405,
+    556,
+    421
+   ]
+  },
+  {
+   "text": "following circumstances:",
+   "bbox": [
+    85,
+    430,
+    226,
+    445
+   ]
+  },
+  {
+   "text": "(1) When the Sun be in the 5th in a childless sign and Saturn and Mars be in ",
+   "bbox": [
+    121,
+    454,
+    556,
+    469
+   ]
+  },
+  {
+   "text": "the 8th and the Ascendant respectively.",
+   "bbox": [
+    85,
+    478,
+    304,
+    493
+   ]
+  },
+  {
+   "text": "(2) When the 5th house falls in a childless sign and Saturn, Jupiter, and Mars ",
+   "bbox": [
+    121,
+    502,
+    556,
+    518
+   ]
+  },
+  {
+   "text": "be to the Ascendant, the 8th and 12th respectively.",
+   "bbox": [
+    85,
+    526,
+    367,
+    542
+   ]
+  },
+  {
+   "text": "(3) When there be the Moon in the 11th, a malefic the 5th from Jupiter be ",
+   "bbox": [
+    121,
+    550,
+    556,
+    566
+   ]
+  },
+  {
+   "text": "occupied by a malefic and the several planets occupy the Ascendant.",
+   "bbox": [
+    85,
+    574,
+    469,
+    590
+   ]
+  },
+  {
+   "text": "(2) When the 5th house falls in a childless sign and Saturn. Jupiter, and Mars ",
+   "bbox": [
+    121,
+    599,
+    556,
+    614
+   ]
+  },
+  {
+   "text": "be in the Ascendant, the 8th and 12th respectively.",
+   "bbox": [
+    85,
+    623,
+    367,
+    638
+   ]
+  },
+  {
+   "text": "(3) When there be the Moon in the 11th. a malefic in the 5th from Jupiter be ",
+   "bbox": [
+    121,
+    647,
+    556,
+    662
+   ]
+  },
+  {
+   "text": "occupied by a malefic and the several planets occupy the Ascendant.",
+   "bbox": [
+    85,
+    671,
+    469,
+    687
+   ]
+  },
+  {
+   "text": "5. The native will have children after second marriage if Mars or Venus ",
+   "bbox": [
+    121,
+    695,
+    556,
+    711
+   ]
+  },
+  {
+   "text": "alone occupies the 5th house identical with Cancer.",
+   "bbox": [
+    85,
+    719,
+    372,
+    735
+   ]
+  },
+  {
+   "text": "Saturn alone in Cancer in the 5th house gives many sons. Mercury alone in ",
+   "bbox": [
+    121,
+    744,
+    556,
+    759
+   ]
+  },
+  {
+   "text": "Cancer in the 5th house gives very few sons.",
+   "bbox": [
+    85,
+    768,
+    335,
+    783
+   ]
+  },
+  {
+   "text": "122",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

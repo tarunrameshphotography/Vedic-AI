@@ -1,0 +1,218 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0166",
+ "book_id": "brihat-jataka",
+ "seq": 166,
+ "source_ref": {
+  "pdf_page": 83,
+  "half": "b",
+  "v1_page": "s083b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "564e4b49c6c9338a8ac58f56fd80bc0304ece1d5d991f2c0f563cfd115325bb7",
+ "lines": [
+  {
+   "text": "22",
+   "bbox": [
+    747,
+    436,
+    842,
+    490
+   ]
+  },
+  {
+   "text": "प्रकीर्णाध्याय:",
+   "bbox": [
+    666,
+    583,
+    930,
+    644
+   ]
+  },
+  {
+   "text": "<b>Miscellaneous</b>",
+   "bbox": [
+    510,
+    652,
+    1097,
+    746
+   ]
+  },
+  {
+   "text": "Definition of \"Karaka\"",
+   "bbox": [
+    203,
+    935,
+    800,
+    1007
+   ]
+  },
+  {
+   "text": "स्वर्धतुङ्गमूलत्रिकोणगाः कण्टकेषु यावन्त आश्रिताः।",
+   "bbox": [
+    279,
+    1012,
+    1022,
+    1094
+   ]
+  },
+  {
+   "text": "सर्व एव तेऽन्योन्यकारकाः कर्मगस्तु तेषां विशेषतः।। 1।।",
+   "bbox": [
+    280,
+    1068,
+    1116,
+    1158
+   ]
+  },
+  {
+   "text": "If planets are exalted, are in Mool Trikon sign or in their",
+   "bbox": [
+    283,
+    1147,
+    1429,
+    1245
+   ]
+  },
+  {
+   "text": "own signs and are at the same time mutually in kendras, they",
+   "bbox": [
+    210,
+    1204,
+    1432,
+    1303
+   ]
+  },
+  {
+   "text": "are said to be mutual \"Karakas\", of these. The planet in the",
+   "bbox": [
+    213,
+    1255,
+    1434,
+    1356
+   ]
+  },
+  {
+   "text": "10th kendra from the other is particularly so.",
+   "bbox": [
+    218,
+    1323,
+    1133,
+    1405
+   ]
+  },
+  {
+   "text": "<b>Example of Karaka</b>",
+   "bbox": [
+    218,
+    1440,
+    731,
+    1512
+   ]
+  },
+  {
+   "text": "कर्कटोदयगते यथोडुपे स्वोच्चगा:कुजयमार्कसूरय:।",
+   "bbox": [
+    293,
+    1511,
+    1027,
+    1594
+   ]
+  },
+  {
+   "text": "कारका निगदिता: परस्परं लग्नगस्य सकलोऽम्बराम्बुग:।। 211",
+   "bbox": [
+    299,
+    1569,
+    1202,
+    1655
+   ]
+  },
+  {
+   "text": "If Moon is in lagna in Cancer and Mars, Saturn, Sun and",
+   "bbox": [
+    302,
+    1651,
+    1447,
+    1745
+   ]
+  },
+  {
+   "text": "Jupiter occupy their respective exaltation signs in kendras",
+   "bbox": [
+    227,
+    1702,
+    1449,
+    1802
+   ]
+  },
+  {
+   "text": "these planets would be considered mutually in kendras (so also",
+   "bbox": [
+    229,
+    1757,
+    1450,
+    1852
+   ]
+  },
+  {
+   "text": "will be the case if the planets in kendras are in their Mool",
+   "bbox": [
+    232,
+    1808,
+    1454,
+    1907
+   ]
+  },
+  {
+   "text": "Trikon signs or in their own signs). For the planet in lagna",
+   "bbox": [
+    234,
+    1860,
+    1455,
+    1959
+   ]
+  },
+  {
+   "text": "those in the 4th and 10th house will be specially karakas.",
+   "bbox": [
+    236,
+    1917,
+    1393,
+    2009
+   ]
+  },
+  {
+   "text": "Another type of Karaka",
+   "bbox": [
+    240,
+    2041,
+    871,
+    2116
+   ]
+  },
+  {
+   "text": "स्वत्रिकोणोच्चगो हेतुरन्योन्यं रदि कर्मग:।",
+   "bbox": [
+    316,
+    2118,
+    932,
+    2198
+   ]
+  },
+  {
+   "text": "सुहत्सद्गुणसम्पन्न: कारकश्चापि स स्मृत: ।। 3।।",
+   "bbox": [
+    321,
+    2178,
+    1044,
+    2263
+   ]
+  }
+ ]
+}

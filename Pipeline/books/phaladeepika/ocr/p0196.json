@@ -1,0 +1,288 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0196",
+ "book_id": "phaladeepika",
+ "seq": 196,
+ "source_ref": {
+  "pdf_page": 196
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "0ccc24a6c50b15a8e41bc9513c241d88f20b7fa9cff9d3c9d8a1c695602921f1",
+ "lines": [
+  {
+   "text": "<b>Chapter 21</b>",
+   "bbox": [
+    281,
+    57,
+    357,
+    75
+   ]
+  },
+  {
+   "text": "<b>Divisions of a sign</b>",
+   "bbox": [
+    257,
+    85,
+    381,
+    103
+   ]
+  },
+  {
+   "text": "1. In this chapter is explained the method of calculating the antar dasa and ",
+   "bbox": [
+    121,
+    137,
+    556,
+    152
+   ]
+  },
+  {
+   "text": "pratyantar dasa. There are antar dasas of all the nine planets in a dasa. For ",
+   "bbox": [
+    85,
+    161,
+    556,
+    176
+   ]
+  },
+  {
+   "text": "example, in the dasa of the Sun there will be the antar dasas of the Sun and all the ",
+   "bbox": [
+    85,
+    185,
+    556,
+    201
+   ]
+  },
+  {
+   "text": "other planets. The first antar dasa is of the same planet who is the lord of the dasa. ",
+   "bbox": [
+    85,
+    209,
+    556,
+    225
+   ]
+  },
+  {
+   "text": "For example, in the dasa of Jupiter the order of antar dasas will be Jupiter, Saturn, ",
+   "bbox": [
+    85,
+    233,
+    556,
+    249
+   ]
+  },
+  {
+   "text": "Mercury, Ketu, Venus, the Sun, the Moon, Mars and Rahu. In the dasa of Venus the ",
+   "bbox": [
+    85,
+    257,
+    556,
+    273
+   ]
+  },
+  {
+   "text": "order of antar dasa will be venus, the Sun, the Moon, Mars, Rahu, Jupiter, Saturn, ",
+   "bbox": [
+    85,
+    282,
+    556,
+    297
+   ]
+  },
+  {
+   "text": "Mercury and Ketu.",
+   "bbox": [
+    85,
+    306,
+    191,
+    321
+   ]
+  },
+  {
+   "text": "As there are nine antar dasas in a dasa, there are nine pratyantar dasas in an ",
+   "bbox": [
+    121,
+    330,
+    556,
+    345
+   ]
+  },
+  {
+   "text": "antar dasa. The first pratyantar dasa will be of the lord of antar dasa.",
+   "bbox": [
+    85,
+    354,
+    467,
+    370
+   ]
+  },
+  {
+   "text": "Whatever has been here described as effects of any planet, all this should ",
+   "bbox": [
+    121,
+    378,
+    556,
+    394
+   ]
+  },
+  {
+   "text": "occur in the planet's dasa, in his antar dasa and in his pratyantar dasa.",
+   "bbox": [
+    85,
+    402,
+    473,
+    418
+   ]
+  },
+  {
+   "text": "2. The period of antar dasa in a dasa should be calculated by the rule of ",
+   "bbox": [
+    121,
+    427,
+    556,
+    442
+   ]
+  },
+  {
+   "text": "three. Suppose if we have to know the duration of antar dasa of the Sun in the dasa ",
+   "bbox": [
+    85,
+    451,
+    556,
+    466
+   ]
+  },
+  {
+   "text": "of Venus we should proceed as explained below. In 120 years the Sun's portion is ",
+   "bbox": [
+    85,
+    475,
+    556,
+    490
+   ]
+  },
+  {
+   "text": "of 6years. In 1 year the Sun's portion will be (6/120)*1. Therefore, in 20 years the ",
+   "bbox": [
+    85,
+    499,
+    556,
+    514
+   ]
+  },
+  {
+   "text": "Sun will have Antar Dasa of (6*1/120)*20 = 1 year.",
+   "bbox": [
+    85,
+    523,
+    375,
+    539
+   ]
+  },
+  {
+   "text": "The Sun's dasa is of 6 years and the dasa of Venus is of 20 years. Therefore ",
+   "bbox": [
+    121,
+    547,
+    556,
+    563
+   ]
+  },
+  {
+   "text": "the figures of 20 and 6 have been taken above. The pratyantar dasa in any case can ",
+   "bbox": [
+    85,
+    571,
+    556,
+    587
+   ]
+  },
+  {
+   "text": "also be calculated in the same manner. We have found out that in the dasa of Venus ",
+   "bbox": [
+    85,
+    596,
+    556,
+    611
+   ]
+  },
+  {
+   "text": "the duration of Sun's an tar dasa is 1 year. Now let us find out how much will be ",
+   "bbox": [
+    85,
+    620,
+    556,
+    635
+   ]
+  },
+  {
+   "text": "the duration of pratyantar dasa of the Sun in his antar dasas.",
+   "bbox": [
+    85,
+    644,
+    420,
+    659
+   ]
+  },
+  {
+   "text": "In 120 years the duration is 6 years",
+   "bbox": [
+    121,
+    668,
+    318,
+    684
+   ]
+  },
+  {
+   "text": "In 1 year it will be (6*1/120) = 1/20 years",
+   "bbox": [
+    121,
+    692,
+    356,
+    708
+   ]
+  },
+  {
+   "text": "(1/20)*360 days = 18 days.",
+   "bbox": [
+    121,
+    716,
+    274,
+    732
+   ]
+  },
+  {
+   "text": "Thus in the dasa of Venus, the duration of the pratyantar dasa of the Sun in ",
+   "bbox": [
+    121,
+    740,
+    556,
+    756
+   ]
+  },
+  {
+   "text": "his antar dasa will be 18 days.",
+   "bbox": [
+    85,
+    765,
+    253,
+    780
+   ]
+  },
+  {
+   "text": "196",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

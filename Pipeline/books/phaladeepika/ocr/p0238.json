@@ -1,0 +1,531 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0238",
+ "book_id": "phaladeepika",
+ "seq": 238,
+ "source_ref": {
+  "pdf_page": 238
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "e4b0a5135bdf236b408e2c39f19aa3c5f36e82b384492925d2a898bfbeb37073",
+ "lines": [
+  {
+   "text": "the appropriate planetary factors (or Grahamana).",
+   "bbox": [
+    85,
+    57,
+    363,
+    73
+   ]
+  },
+  {
+   "text": "The multipliers of the signs and planets 25. The multipliers of the various ",
+   "bbox": [
+    121,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "signs are as under",
+   "bbox": [
+    85,
+    106,
+    185,
+    121
+   ]
+  },
+  {
+   "text": "Aries ",
+   "bbox": [
+    205,
+    154,
+    239,
+    169
+   ]
+  },
+  {
+   "text": "7 ",
+   "bbox": [
+    265,
+    154,
+    276,
+    169
+   ]
+  },
+  {
+   "text": "Libra ",
+   "bbox": [
+    321,
+    154,
+    355,
+    169
+   ]
+  },
+  {
+   "text": "7 ",
+   "bbox": [
+    406,
+    154,
+    417,
+    169
+   ]
+  },
+  {
+   "text": "Taurus ",
+   "bbox": [
+    205,
+    170,
+    246,
+    186
+   ]
+  },
+  {
+   "text": "10 ",
+   "bbox": [
+    265,
+    170,
+    283,
+    186
+   ]
+  },
+  {
+   "text": "Scorpio ",
+   "bbox": [
+    321,
+    170,
+    368,
+    186
+   ]
+  },
+  {
+   "text": "8 ",
+   "bbox": [
+    406,
+    170,
+    417,
+    186
+   ]
+  },
+  {
+   "text": "Gemini ",
+   "bbox": [
+    205,
+    186,
+    251,
+    202
+   ]
+  },
+  {
+   "text": "8 ",
+   "bbox": [
+    265,
+    186,
+    276,
+    202
+   ]
+  },
+  {
+   "text": "Sagittarius ",
+   "bbox": [
+    321,
+    186,
+    385,
+    202
+   ]
+  },
+  {
+   "text": "9 ",
+   "bbox": [
+    406,
+    186,
+    417,
+    202
+   ]
+  },
+  {
+   "text": "Cancer ",
+   "bbox": [
+    205,
+    202,
+    248,
+    218
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    265,
+    202,
+    276,
+    218
+   ]
+  },
+  {
+   "text": "Capricorn ",
+   "bbox": [
+    321,
+    202,
+    381,
+    218
+   ]
+  },
+  {
+   "text": "5 ",
+   "bbox": [
+    406,
+    202,
+    417,
+    218
+   ]
+  },
+  {
+   "text": "Leo ",
+   "bbox": [
+    205,
+    218,
+    230,
+    234
+   ]
+  },
+  {
+   "text": "10 ",
+   "bbox": [
+    265,
+    218,
+    283,
+    234
+   ]
+  },
+  {
+   "text": "Aquarius ",
+   "bbox": [
+    321,
+    218,
+    376,
+    234
+   ]
+  },
+  {
+   "text": "11 ",
+   "bbox": [
+    406,
+    218,
+    423,
+    234
+   ]
+  },
+  {
+   "text": "Virgo ",
+   "bbox": [
+    205,
+    234,
+    240,
+    250
+   ]
+  },
+  {
+   "text": "5 ",
+   "bbox": [
+    265,
+    234,
+    276,
+    250
+   ]
+  },
+  {
+   "text": "Pisces ",
+   "bbox": [
+    321,
+    234,
+    360,
+    250
+   ]
+  },
+  {
+   "text": "12 ",
+   "bbox": [
+    406,
+    234,
+    424,
+    250
+   ]
+  },
+  {
+   "text": "These are called sign or rasi multipliers. The multipliers in respect of the ",
+   "bbox": [
+    121,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "planets are different.",
+   "bbox": [
+    85,
+    299,
+    200,
+    314
+   ]
+  },
+  {
+   "text": "26. The multipliers of the various planets are as under:",
+   "bbox": [
+    121,
+    323,
+    427,
+    339
+   ]
+  },
+  {
+   "text": "Sun ",
+   "bbox": [
+    205,
+    371,
+    230,
+    387
+   ]
+  },
+  {
+   "text": "5 ",
+   "bbox": [
+    267,
+    371,
+    278,
+    387
+   ]
+  },
+  {
+   "text": "Jupiter ",
+   "bbox": [
+    318,
+    371,
+    360,
+    387
+   ]
+  },
+  {
+   "text": "10 ",
+   "bbox": [
+    399,
+    371,
+    416,
+    387
+   ]
+  },
+  {
+   "text": "Moon ",
+   "bbox": [
+    205,
+    387,
+    242,
+    403
+   ]
+  },
+  {
+   "text": "5 ",
+   "bbox": [
+    267,
+    387,
+    278,
+    403
+   ]
+  },
+  {
+   "text": "Venus ",
+   "bbox": [
+    318,
+    387,
+    356,
+    403
+   ]
+  },
+  {
+   "text": "7 ",
+   "bbox": [
+    399,
+    387,
+    409,
+    403
+   ]
+  },
+  {
+   "text": "Mars ",
+   "bbox": [
+    205,
+    404,
+    237,
+    419
+   ]
+  },
+  {
+   "text": "8 ",
+   "bbox": [
+    267,
+    404,
+    278,
+    419
+   ]
+  },
+  {
+   "text": "Saturn ",
+   "bbox": [
+    318,
+    404,
+    358,
+    419
+   ]
+  },
+  {
+   "text": "5 ",
+   "bbox": [
+    399,
+    404,
+    409,
+    419
+   ]
+  },
+  {
+   "text": "Mercury 5 ",
+   "bbox": [
+    205,
+    420,
+    278,
+    435
+   ]
+  },
+  {
+   "text": "The multiplication by the planet or Graha factors should be effected ",
+   "bbox": [
+    121,
+    460,
+    556,
+    475
+   ]
+  },
+  {
+   "text": "separately and should be treated as distinct from the sign or rasi. Multiplication.",
+   "bbox": [
+    85,
+    484,
+    532,
+    500
+   ]
+  },
+  {
+   "text": "27. After multiplying and then adding the two products, the total should ",
+   "bbox": [
+    121,
+    508,
+    556,
+    524
+   ]
+  },
+  {
+   "text": "again be multiplied by 7 and divided by 27. The quotient obtained will be the Ayus ",
+   "bbox": [
+    85,
+    532,
+    556,
+    548
+   ]
+  },
+  {
+   "text": "(span of life) in years contributed by that planet.",
+   "bbox": [
+    85,
+    556,
+    355,
+    572
+   ]
+  },
+  {
+   "text": "28. The remainder multiplied by 12 and divided by 27 will indicate the ",
+   "bbox": [
+    121,
+    581,
+    556,
+    596
+   ]
+  },
+  {
+   "text": "months. The remaindec after this operation should be multiplied by 30 and divided ",
+   "bbox": [
+    85,
+    605,
+    556,
+    620
+   ]
+  },
+  {
+   "text": "by 27 to get the days and to get the Ghatikas etc., 27 years constitute a mandala ",
+   "bbox": [
+    85,
+    629,
+    556,
+    644
+   ]
+  },
+  {
+   "text": "Some reductions have to be made further.",
+   "bbox": [
+    85,
+    653,
+    318,
+    669
+   ]
+  },
+  {
+   "text": "29-30. The period contributed by a planet has to be reduced as follows:",
+   "bbox": [
+    121,
+    677,
+    519,
+    693
+   ]
+  },
+  {
+   "text": "(1) By half if the planet is in conjuction with another planet.",
+   "bbox": [
+    121,
+    701,
+    458,
+    717
+   ]
+  },
+  {
+   "text": "(2) By half if the planet is in his sign of debilitation or combust.",
+   "bbox": [
+    121,
+    726,
+    479,
+    741
+   ]
+  },
+  {
+   "text": "(3) By one third if the planet occupies an inimical sign",
+   "bbox": [
+    121,
+    750,
+    427,
+    765
+   ]
+  },
+  {
+   "text": "238",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

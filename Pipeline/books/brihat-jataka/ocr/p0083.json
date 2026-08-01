@@ -1,0 +1,245 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0083",
+ "book_id": "brihat-jataka",
+ "seq": 83,
+ "source_ref": {
+  "pdf_page": 42,
+  "half": "a",
+  "v1_page": "s042a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "90ef16ab4eac85b7e34aa0c2a2d606ffb9264c90fb303837c62f4e927bf90c42",
+ "lines": [
+  {
+   "text": "8",
+   "bbox": [
+    1004,
+    496,
+    1051,
+    537
+   ]
+  },
+  {
+   "text": "दशान्तर्दशाध्यायः",
+   "bbox": [
+    856,
+    634,
+    1185,
+    702
+   ]
+  },
+  {
+   "text": "<b>Ruling and Sub Ruling</b>",
+   "bbox": [
+    544,
+    692,
+    1483,
+    819
+   ]
+  },
+  {
+   "text": "<b>Periods</b>",
+   "bbox": [
+    851,
+    797,
+    1173,
+    890
+   ]
+  },
+  {
+   "text": "उदयरविशशाङ्कप्राणिकेन्द्रादिसंस्था:",
+   "bbox": [
+    463,
+    1031,
+    963,
+    1111
+   ]
+  },
+  {
+   "text": "प्रथमवयसि मध्येऽन्त्ये च दद्युः फलानि।",
+   "bbox": [
+    459,
+    1088,
+    1045,
+    1179
+   ]
+  },
+  {
+   "text": "नहिन फलविपाक: केन्द्रसंस्थाद्यभावे",
+   "bbox": [
+    458,
+    1161,
+    992,
+    1237
+   ]
+  },
+  {
+   "text": "भवति हि फलपक्ति: पूर्वमापोक्लिमेऽपि।। 1।।",
+   "bbox": [
+    452,
+    1226,
+    1141,
+    1316
+   ]
+  },
+  {
+   "text": "The first ruling period in this dasa system belongs to",
+   "bbox": [
+    446,
+    1321,
+    1599,
+    1421
+   ]
+  },
+  {
+   "text": "lagna, Sun or Moon, whichever of the three is the strongest.",
+   "bbox": [
+    368,
+    1366,
+    1593,
+    1476
+   ]
+  },
+  {
+   "text": "Next in order will be the dasa of the planets in Kendra from",
+   "bbox": [
+    364,
+    1419,
+    1591,
+    1527
+   ]
+  },
+  {
+   "text": "the dasa lord, then will come the dasa of the planets placed in",
+   "bbox": [
+    363,
+    1472,
+    1591,
+    1582
+   ]
+  },
+  {
+   "text": "cadent houses from the dasa lord and last of all the dasa of the",
+   "bbox": [
+    359,
+    1526,
+    1586,
+    1629
+   ]
+  },
+  {
+   "text": "planets in the ascendant house from the dasa lord. If there are",
+   "bbox": [
+    357,
+    1579,
+    1585,
+    1683
+   ]
+  },
+  {
+   "text": "no planets in kendras from any dasa lords, those in cadent",
+   "bbox": [
+    353,
+    1631,
+    1583,
+    1738
+   ]
+  },
+  {
+   "text": "house will have their dasa and in case there are no planets",
+   "bbox": [
+    352,
+    1683,
+    1579,
+    1790
+   ]
+  },
+  {
+   "text": "even in cadent houses from a particular dasa lord the planets",
+   "bbox": [
+    347,
+    1735,
+    1578,
+    1843
+   ]
+  },
+  {
+   "text": "in succeedant house will have their dasa.",
+   "bbox": [
+    348,
+    1788,
+    1178,
+    1872
+   ]
+  },
+  {
+   "text": "आयु: कृतं ये न हि यत्तदेव कल्प्या दशा सा प्रबलस्य पूर्वा।",
+   "bbox": [
+    415,
+    1867,
+    1312,
+    1968
+   ]
+  },
+  {
+   "text": "साम्ये बहूनां बहुवर्षदस्य तेषां च साम्ये प्रथमोदितस्य।। 2।।",
+   "bbox": [
+    411,
+    1930,
+    1296,
+    2033
+   ]
+  },
+  {
+   "text": "If more than one planet is situated in a sign, the planet",
+   "bbox": [
+    409,
+    2028,
+    1564,
+    2131
+   ]
+  },
+  {
+   "text": "who has contributed the greatest number of years to life and is",
+   "bbox": [
+    330,
+    2074,
+    1559,
+    2186
+   ]
+  },
+  {
+   "text": "strong will have the dasa first. When planets are of equal",
+   "bbox": [
+    328,
+    2129,
+    1557,
+    2239
+   ]
+  },
+  {
+   "text": "merits in regard to both of these criteria the one who comes out",
+   "bbox": [
+    326,
+    2182,
+    1556,
+    2289
+   ]
+  },
+  {
+   "text": "of the range of combustion of the Sun earlier will have prece-",
+   "bbox": [
+    323,
+    2231,
+    1559,
+    2346
+   ]
+  }
+ ]
+}

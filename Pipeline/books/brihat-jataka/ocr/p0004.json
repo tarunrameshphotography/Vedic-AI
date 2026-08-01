@@ -1,0 +1,128 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0004",
+ "book_id": "brihat-jataka",
+ "seq": 4,
+ "source_ref": {
+  "pdf_page": 2,
+  "half": "b",
+  "v1_page": "s002b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "ba63e0d1cb53c989a47978eb9266cb9183319e7a6dcfce4583f87a43e3ef57fd",
+ "lines": [
+  {
+   "text": "BRIHAT",
+   "bbox": [
+    378,
+    251,
+    1221,
+    400
+   ]
+  },
+  {
+   "text": "JATAKA",
+   "bbox": [
+    323,
+    423,
+    1252,
+    594
+   ]
+  },
+  {
+   "text": "BY",
+   "bbox": [
+    736,
+    653,
+    861,
+    706
+   ]
+  },
+  {
+   "text": "<b>VARAHAMIHIRA</b>",
+   "bbox": [
+    484,
+    741,
+    1101,
+    798
+   ]
+  },
+  {
+   "text": "(बृहज्जातकम्)",
+   "bbox": [
+    536,
+    861,
+    1050,
+    955
+   ]
+  },
+  {
+   "text": "Text with Translation and Notes",
+   "bbox": [
+    409,
+    1235,
+    1191,
+    1274
+   ]
+  },
+  {
+   "text": "By",
+   "bbox": [
+    760,
+    1371,
+    836,
+    1417
+   ]
+  },
+  {
+   "text": "PROF. P.S. SASTRI",
+   "bbox": [
+    549,
+    1430,
+    1040,
+    1470
+   ]
+  },
+  {
+   "text": "M.A., M.Lit., Ph.D., D.Lit.",
+   "bbox": [
+    491,
+    1492,
+    1092,
+    1533
+   ]
+  },
+  {
+   "text": "<b>RANJAN PUBLICATIONS</b>",
+   "bbox": [
+    299,
+    2166,
+    1293,
+    2228
+   ]
+  },
+  {
+   "text": "16, Ansari Road, Daryaganj",
+   "bbox": [
+    422,
+    2253,
+    1162,
+    2301
+   ]
+  },
+  {
+   "text": "New Delhi-110002 (INDIA)",
+   "bbox": [
+    434,
+    2305,
+    1151,
+    2355
+   ]
+  }
+ ]
+}

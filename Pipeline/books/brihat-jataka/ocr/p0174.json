@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0174",
+ "book_id": "brihat-jataka",
+ "seq": 174,
+ "source_ref": {
+  "pdf_page": 87,
+  "half": "b",
+  "v1_page": "s087b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "c9b8fc9633ae2f7400aa2ccb518384ac14f4125edb9076f21d53b98e151ce63e",
+ "lines": [
+  {
+   "text": "171",
+   "bbox": [
+    1316,
+    255,
+    1397,
+    287
+   ]
+  },
+  {
+   "text": "Anishta or Misfortune",
+   "bbox": [
+    189,
+    276,
+    643,
+    335
+   ]
+  },
+  {
+   "text": "asthma, consumption, enlargement of spleen, or tumours in",
+   "bbox": [
+    196,
+    349,
+    1412,
+    439
+   ]
+  },
+  {
+   "text": "the abdomen.",
+   "bbox": [
+    198,
+    437,
+    474,
+    479
+   ]
+  },
+  {
+   "text": "When Sun and Moon exchange their signs in Rasi or",
+   "bbox": [
+    277,
+    482,
+    1416,
+    567
+   ]
+  },
+  {
+   "text": "Amsha, the native has Consumption.",
+   "bbox": [
+    201,
+    552,
+    940,
+    621
+   ]
+  },
+  {
+   "text": "When the Sun and the Moon join in Karka or Sinha he",
+   "bbox": [
+    281,
+    617,
+    1419,
+    705
+   ]
+  },
+  {
+   "text": "becomes emaciated.",
+   "bbox": [
+    208,
+    701,
+    602,
+    751
+   ]
+  },
+  {
+   "text": "Notes: The second combination violates the statement of",
+   "bbox": [
+    282,
+    754,
+    1426,
+    835
+   ]
+  },
+  {
+   "text": "Gargi. That is, the Sun and Moon must exchange houses in",
+   "bbox": [
+    209,
+    805,
+    1425,
+    893
+   ]
+  },
+  {
+   "text": "Rasi or in Navamsha to give rise to consumption. That the",
+   "bbox": [
+    210,
+    856,
+    1427,
+    948
+   ]
+  },
+  {
+   "text": "exchange must be both in Rasi and Amsha is rejected by",
+   "bbox": [
+    211,
+    909,
+    1427,
+    1000
+   ]
+  },
+  {
+   "text": "Bhattotpala, who followed Gargi.",
+   "bbox": [
+    215,
+    982,
+    873,
+    1052
+   ]
+  },
+  {
+   "text": "चन्द्रेऽश्चिमध्यझपकर्किमृगाजभागे",
+   "bbox": [
+    292,
+    1067,
+    744,
+    1131
+   ]
+  },
+  {
+   "text": "कष्ठी समन्दरुधिरे तदवेक्षिते वा।",
+   "bbox": [
+    366,
+    1119,
+    849,
+    1189
+   ]
+  },
+  {
+   "text": "यातैस्त्रिकोणमलिकर्किवृपैर्मृगे च",
+   "bbox": [
+    295,
+    1187,
+    755,
+    1268
+   ]
+  },
+  {
+   "text": "कृष्ठी च पापसहितैरवलोकितैर्वा।। 9।।",
+   "bbox": [
+    372,
+    1253,
+    951,
+    1323
+   ]
+  },
+  {
+   "text": "When the Moon is in the fifth amsha of Dhanush or in",
+   "bbox": [
+    304,
+    1335,
+    1443,
+    1419
+   ]
+  },
+  {
+   "text": "the amshas of Mesha, Karka, Makara or Mina, and is with",
+   "bbox": [
+    224,
+    1389,
+    1445,
+    1477
+   ]
+  },
+  {
+   "text": "or aspected by Shani or Kuja, the native suffers from lep-",
+   "bbox": [
+    229,
+    1443,
+    1445,
+    1529
+   ]
+  },
+  {
+   "text": "rosy.",
+   "bbox": [
+    232,
+    1543,
+    337,
+    1578
+   ]
+  },
+  {
+   "text": "When Vrishabha, Karka, Vrishchika or Makara is one of",
+   "bbox": [
+    309,
+    1576,
+    1453,
+    1659
+   ]
+  },
+  {
+   "text": "the trikonas aspected or with malefics, the native suffers from",
+   "bbox": [
+    234,
+    1628,
+    1450,
+    1716
+   ]
+  },
+  {
+   "text": "leprosy.",
+   "bbox": [
+    237,
+    1721,
+    398,
+    1765
+   ]
+  },
+  {
+   "text": "Notes: In the first combination if there is the aspect of a",
+   "bbox": [
+    312,
+    1765,
+    1456,
+    1847
+   ]
+  },
+  {
+   "text": "benefic the native suffers only eruptions or irritation.",
+   "bbox": [
+    240,
+    1822,
+    1307,
+    1903
+   ]
+  },
+  {
+   "text": "When Dhanush, Cancer, Scorpio or Capricorn is the fifth",
+   "bbox": [
+    316,
+    1895,
+    1462,
+    1977
+   ]
+  },
+  {
+   "text": "or ninth from any lagna having aspect of conjunction with a",
+   "bbox": [
+    242,
+    1945,
+    1462,
+    2035
+   ]
+  },
+  {
+   "text": "malefic, the native suffers form leprosy.",
+   "bbox": [
+    245,
+    2013,
+    1037,
+    2085
+   ]
+  },
+  {
+   "text": "निधनारिधनव्ययस्थिता रविचन्द्रारयमा यथा तथा।",
+   "bbox": [
+    322,
+    2097,
+    1020,
+    2157
+   ]
+  },
+  {
+   "text": "बलवद्ग्रहदोपकारणैर्मनुजानां जनयन्त्यनेत्रताम् ।। 10।।",
+   "bbox": [
+    323,
+    2153,
+    1098,
+    2228
+   ]
+  },
+  {
+   "text": "Sun, Moon, Kuja and Shani in houses 2, 6, 8 and 12",
+   "bbox": [
+    327,
+    2231,
+    1469,
+    2317
+   ]
+  },
+  {
+   "text": "in anyway make the native lose his sight by the aggravation",
+   "bbox": [
+    251,
+    2285,
+    1472,
+    2373
+   ]
+  },
+  {
+   "text": "of the dhatu indicated by the most powerful one of",
+   "bbox": [
+    253,
+    2338,
+    1475,
+    2426
+   ]
+  }
+ ]
+}

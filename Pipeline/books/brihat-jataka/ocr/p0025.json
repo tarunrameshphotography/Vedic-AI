@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0025",
+ "book_id": "brihat-jataka",
+ "seq": 25,
+ "source_ref": {
+  "pdf_page": 13,
+  "half": "a",
+  "v1_page": "s013a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "5fe1b954758a0c84bb4aedb77d24cb6a57aa46426b9a124932fccc1cc76465ee",
+ "lines": [
+  {
+   "text": "22",
+   "bbox": [
+    279,
+    208,
+    345,
+    242
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1206,
+    209,
+    1498,
+    242
+   ]
+  },
+  {
+   "text": "and a true practical human experience. Since the nature of",
+   "bbox": [
+    278,
+    311,
+    1504,
+    349
+   ]
+  },
+  {
+   "text": "this philosophy is Indian in conception, it follows that the basic",
+   "bbox": [
+    278,
+    362,
+    1499,
+    402
+   ]
+  },
+  {
+   "text": "or fundamental idea of the manner of exaltation of the planets",
+   "bbox": [
+    278,
+    415,
+    1499,
+    454
+   ]
+  },
+  {
+   "text": "had its origin in India.",
+   "bbox": [
+    277,
+    468,
+    737,
+    507
+   ]
+  },
+  {
+   "text": "Vargottam and Mool Trikon Signs",
+   "bbox": [
+    278,
+    571,
+    1168,
+    613
+   ]
+  },
+  {
+   "text": "वर्गोत्तमाश्चरगृहादिषु पूर्वमध्य",
+   "bbox": [
+    349,
+    646,
+    759,
+    704
+   ]
+  },
+  {
+   "text": "पर्यन्ततः शुभफला नवभागसंज्ञाः।",
+   "bbox": [
+    349,
+    711,
+    829,
+    766
+   ]
+  },
+  {
+   "text": "सिंहो वृष: प्रथमषष्ठहयाङ्गतौलि-",
+   "bbox": [
+    351,
+    777,
+    834,
+    830
+   ]
+  },
+  {
+   "text": "कुम्भस्त्रिकोणभवनानि भवन्ति सूर्यात् ।। 14 ।।",
+   "bbox": [
+    349,
+    845,
+    1025,
+    898
+   ]
+  },
+  {
+   "text": "If say the planet in a sign occupies the Navamsha of that",
+   "bbox": [
+    352,
+    941,
+    1499,
+    981
+   ]
+  },
+  {
+   "text": "very sign the planet is said to be \"Vargottam\", (for example if",
+   "bbox": [
+    274,
+    991,
+    1498,
+    1033
+   ]
+  },
+  {
+   "text": "a planet has the longitude 4-16-0 this would mean that he is",
+   "bbox": [
+    275,
+    1045,
+    1494,
+    1085
+   ]
+  },
+  {
+   "text": "occupying the Navamsha of Leo in the sign Leo). The planet",
+   "bbox": [
+    277,
+    1099,
+    1496,
+    1139
+   ]
+  },
+  {
+   "text": "would be considered as \"Vargottam\". In the movable, fixed and",
+   "bbox": [
+    275,
+    1152,
+    1494,
+    1192
+   ]
+  },
+  {
+   "text": "mutable signs the 1st, 5th and the last Navamsa is respectively",
+   "bbox": [
+    275,
+    1204,
+    1495,
+    1245
+   ]
+  },
+  {
+   "text": "the \"Vargottam\" Navamsa. The signs Leo, Taurus, Aries,",
+   "bbox": [
+    274,
+    1257,
+    1495,
+    1297
+   ]
+  },
+  {
+   "text": "Virgo, Sagittarius, Libra and Acquarius are respectively the",
+   "bbox": [
+    274,
+    1310,
+    1494,
+    1350
+   ]
+  },
+  {
+   "text": "Mool Trikona signs of Sun, Moon, Mars, Mercury, Jupiter,",
+   "bbox": [
+    272,
+    1363,
+    1491,
+    1402
+   ]
+  },
+  {
+   "text": "Venus and Saturn.",
+   "bbox": [
+    272,
+    1415,
+    657,
+    1450
+   ]
+  },
+  {
+   "text": "Commentary: For a planet to be \"Vargottam\" is a source of",
+   "bbox": [
+    348,
+    1492,
+    1499,
+    1536
+   ]
+  },
+  {
+   "text": "strength to that planet and often results in the good of the",
+   "bbox": [
+    271,
+    1547,
+    1492,
+    1587
+   ]
+  },
+  {
+   "text": "person having it.",
+   "bbox": [
+    271,
+    1599,
+    615,
+    1636
+   ]
+  },
+  {
+   "text": "शुभं वर्गोत्तमे जन्म वेशिस्थाने च सद्ग्रहे",
+   "bbox": [
+    344,
+    1672,
+    934,
+    1724
+   ]
+  },
+  {
+   "text": "अशून्येषु च केन्द्रेषु कारकाख्य ग्रहेषु च (SC-9/6)",
+   "bbox": [
+    343,
+    1732,
+    1100,
+    1792
+   ]
+  },
+  {
+   "text": "A birth with a Vargottam planet in the birth chart is",
+   "bbox": [
+    345,
+    1833,
+    1492,
+    1879
+   ]
+  },
+  {
+   "text": "conducive to good. It is also so when the house next to the Sun",
+   "bbox": [
+    271,
+    1889,
+    1491,
+    1928
+   ]
+  },
+  {
+   "text": "is occupied by a natural benefic. So also is the case when the",
+   "bbox": [
+    271,
+    1940,
+    1489,
+    1980
+   ]
+  },
+  {
+   "text": "kendras (Angular houses) in the horoscope are not vacant.",
+   "bbox": [
+    271,
+    1992,
+    1488,
+    2033
+   ]
+  },
+  {
+   "text": "Lastly the birth chart signifies good luck if there is karaka",
+   "bbox": [
+    271,
+    2045,
+    1488,
+    2086
+   ]
+  },
+  {
+   "text": "yoga ie if there are in the kendras planets in exaltation or in",
+   "bbox": [
+    271,
+    2098,
+    1488,
+    2137
+   ]
+  },
+  {
+   "text": "their own signs located also in kendras mutually. The impor-",
+   "bbox": [
+    269,
+    2149,
+    1489,
+    2188
+   ]
+  },
+  {
+   "text": "tance of the Mool Trikona sign cannot also be overrated. One",
+   "bbox": [
+    271,
+    2201,
+    1489,
+    2241
+   ]
+  },
+  {
+   "text": "of the uses to which these signs are put is to determine the",
+   "bbox": [
+    271,
+    2253,
+    1489,
+    2293
+   ]
+  }
+ ]
+}

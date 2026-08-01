@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0210",
+ "book_id": "phaladeepika",
+ "seq": 210,
+ "source_ref": {
+  "pdf_page": 210
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "c564b790908e6c8e9f26a5fa0638d5124f1031f2e506b63f77877f3956a27c06",
+ "lines": [
+  {
+   "text": "Saturn will be the same). The effects of kalachakra dasa are to be declared on the ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "basis of the sign whose dasa be in progress and its lord.",
+   "bbox": [
+    85,
+    82,
+    395,
+    97
+   ]
+  },
+  {
+   "text": "4. In this kalachakra system consisting of dasas. An tar dasas, etc., I shall ",
+   "bbox": [
+    121,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "now expound the formula for the several nakshatra padas from Aswini onwards. ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "Every such formula consists of nine syllables indicating by their number (as per ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "katapayadi memories) the particular rasyapaharas composing the dasa of the ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "nakshatra pada under consideration and consequently by total life period ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "appertaining thereto by means of the years allotted to the several owners of the ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "signs.",
+   "bbox": [
+    85,
+    251,
+    117,
+    266
+   ]
+  },
+  {
+   "text": "5. For those born in the first pada of Aswini the following will be the 9 dasas ",
+   "bbox": [
+    121,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "(1) Aries-Mars (2) Taurus-Venus (3) Gemini-Mercury (4) Cancer-Moon (5) Leo-",
+   "bbox": [
+    85,
+    299,
+    553,
+    314
+   ]
+  },
+  {
+   "text": "Sun, (6) Virgo-Mercury (7) Libra-Venus (8) Scorpio-Mars and (9) Sagittarius-",
+   "bbox": [
+    85,
+    323,
+    552,
+    339
+   ]
+  },
+  {
+   "text": "Jupiter.",
+   "bbox": [
+    85,
+    347,
+    126,
+    363
+   ]
+  },
+  {
+   "text": "For those born in the 2nd pada of Aswini, the following will be the 9 dasas ",
+   "bbox": [
+    121,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "(1) Capricorn-Saturn (2) Aquarius-Saturn (3) Pisces-Jupiter (4) Scorpio-Mars (5) ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "Libra-Venus (6) Virgo-Mercury (7) Cancer-Moon (8) Leo-Sun and (9) Gemini-",
+   "bbox": [
+    85,
+    420,
+    553,
+    435
+   ]
+  },
+  {
+   "text": "Mercury.",
+   "bbox": [
+    85,
+    444,
+    136,
+    459
+   ]
+  },
+  {
+   "text": "For those born in the third pada of Aswini, the 9 dasas will be as follows — ",
+   "bbox": [
+    121,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "(1) Taurus-Venus (2) Aries-Mars (3) Pisces-Jupiter (4) Aquarius-Saturn (5) ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "Capricorn-Saturn (6) Sagittarius-Jupiter (7) Aries-Mars (8) Taurus-Venus and (9) ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "Gemini-Mercury.",
+   "bbox": [
+    85,
+    540,
+    183,
+    556
+   ]
+  },
+  {
+   "text": "For those born in the 4th pada of Aswlni the 9 dasas will be as follow (1) ",
+   "bbox": [
+    121,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "Cancer-Moon (2) Leo-Sun (3) Virgo-Mercury (4) Libra-Venus (5) Scorpio-Mars ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "(6) Sagittarius-Jupiter (7) Capricorn-Saturn (8) Aquarius-Saturn and (9) Pisces-",
+   "bbox": [
+    85,
+    613,
+    553,
+    628
+   ]
+  },
+  {
+   "text": "Jupiter.",
+   "bbox": [
+    85,
+    637,
+    126,
+    652
+   ]
+  },
+  {
+   "text": "6. For those born in the first pada of Bharanl the 9 dasas will be as follow (1) ",
+   "bbox": [
+    121,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "Scorpio-Mars (2) Libra-Venus (3) Virgo-Mercury (4) Cancer-Moon (5) Leo-Sun ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "(6) Gemini-Mercury (7) Taurus-Venus (8) Aries-Mars and (9) Pisces-Jupiter.",
+   "bbox": [
+    85,
+    709,
+    514,
+    725
+   ]
+  },
+  {
+   "text": "For those born in the 2nd pada of Bharani, the 9 dasas will be as follow (1) ",
+   "bbox": [
+    121,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "Aquarius-Saturn (2) Capricorn-Saturn (3) Sagittarius-Jupiter (4) Aries-Mars (5) ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "210",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

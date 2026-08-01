@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0073",
+ "book_id": "phaladeepika",
+ "seq": 73,
+ "source_ref": {
+  "pdf_page": 73
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "ee430b7b0ff32f8bf1f783fc56d170201da41f9afac634250e19b827f97d56c1",
+ "lines": [
+  {
+   "text": "L",
+   "bbox": [
+    400,
+    78,
+    408,
+    93
+   ]
+  },
+  {
+   "text": "Sun ",
+   "bbox": [
+    223,
+    127,
+    248,
+    142
+   ]
+  },
+  {
+   "text": "Jup",
+   "bbox": [
+    394,
+    135,
+    414,
+    150
+   ]
+  },
+  {
+   "text": "Rahu",
+   "bbox": [
+    219,
+    143,
+    248,
+    158
+   ]
+  },
+  {
+   "text": "Ven ",
+   "bbox": [
+    223,
+    175,
+    248,
+    191
+   ]
+  },
+  {
+   "text": "Moon ",
+   "bbox": [
+    387,
+    183,
+    424,
+    199
+   ]
+  },
+  {
+   "text": "Mars ",
+   "bbox": [
+    219,
+    191,
+    252,
+    207
+   ]
+  },
+  {
+   "text": "Ketu",
+   "bbox": [
+    390,
+    199,
+    418,
+    215
+   ]
+  },
+  {
+   "text": "Mercury",
+   "bbox": [
+    210,
+    207,
+    258,
+    223
+   ]
+  },
+  {
+   "text": "Sat",
+   "bbox": [
+    338,
+    248,
+    356,
+    264
+   ]
+  },
+  {
+   "text": "This is the horoscope of Shri Morarji Desai former Prime Minister of India. ",
+   "bbox": [
+    121,
+    309,
+    556,
+    324
+   ]
+  },
+  {
+   "text": "The Lord of the Lagna Mercury is in Capricorn (8th House). The Lord of the 8th ",
+   "bbox": [
+    85,
+    333,
+    556,
+    348
+   ]
+  },
+  {
+   "text": "house Saturn is exalted in the 5th causing Parvata Yoga.",
+   "bbox": [
+    85,
+    357,
+    398,
+    373
+   ]
+  },
+  {
+   "text": "37. The conjunction or association of the lords of 9th and the 10th house in ",
+   "bbox": [
+    121,
+    381,
+    556,
+    397
+   ]
+  },
+  {
+   "text": "any auspicious house consitutes Raja Yoga.",
+   "bbox": [
+    85,
+    405,
+    328,
+    421
+   ]
+  },
+  {
+   "text": "If the lords of a Kendra and Trikona are similarly placed (that is, they ",
+   "bbox": [
+    121,
+    430,
+    556,
+    445
+   ]
+  },
+  {
+   "text": "occupy together an auspicious house), the Yoga so formed is called Shankha Yoga.",
+   "bbox": [
+    85,
+    454,
+    548,
+    469
+   ]
+  },
+  {
+   "text": "38. The person with Raja yoga will be a king or equal to a king. When sets ",
+   "bbox": [
+    121,
+    478,
+    556,
+    493
+   ]
+  },
+  {
+   "text": "out on a journey he will be greeted by bands like Bheri and sounds of Conch etc. ",
+   "bbox": [
+    85,
+    502,
+    556,
+    518
+   ]
+  },
+  {
+   "text": "He will have a Royal Umbrella over his head and will be accompanied by ",
+   "bbox": [
+    85,
+    526,
+    556,
+    542
+   ]
+  },
+  {
+   "text": "elephants, horses, and palanquins etc. Bards and minstrels will recite poems in his ",
+   "bbox": [
+    85,
+    550,
+    556,
+    566
+   ]
+  },
+  {
+   "text": "praise, He will be presented gifts by eminent persons.",
+   "bbox": [
+    85,
+    574,
+    385,
+    590
+   ]
+  },
+  {
+   "text": "The person born with Shankha Yoga will enjoy all comforts in the company ",
+   "bbox": [
+    121,
+    599,
+    556,
+    614
+   ]
+  },
+  {
+   "text": "of many beautiful women.",
+   "bbox": [
+    85,
+    623,
+    233,
+    638
+   ]
+  },
+  {
+   "text": "39-41 (1) When the seven planets from Sun to Saturn occupy seven separate ",
+   "bbox": [
+    121,
+    647,
+    556,
+    662
+   ]
+  },
+  {
+   "text": "signs the Yoga so arising is known as Vallaki. This is also called Veena Yoga. The ",
+   "bbox": [
+    85,
+    671,
+    556,
+    687
+   ]
+  },
+  {
+   "text": "person born in this Yoga is fond of dancing, singing and playing on musical ",
+   "bbox": [
+    85,
+    695,
+    556,
+    711
+   ]
+  },
+  {
+   "text": "instrumets and is wealthy.",
+   "bbox": [
+    85,
+    719,
+    230,
+    735
+   ]
+  },
+  {
+   "text": "(2) When all the seven planets are in six signs, they form Dharma Yoga. The ",
+   "bbox": [
+    121,
+    744,
+    556,
+    759
+   ]
+  },
+  {
+   "text": "person born with this Yoga will be generous, a king and benefactor.",
+   "bbox": [
+    85,
+    768,
+    462,
+    783
+   ]
+  },
+  {
+   "text": "73",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

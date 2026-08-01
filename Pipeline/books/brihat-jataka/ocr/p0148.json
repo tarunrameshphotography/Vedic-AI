@@ -1,0 +1,209 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0148",
+ "book_id": "brihat-jataka",
+ "seq": 148,
+ "source_ref": {
+  "pdf_page": 74,
+  "half": "b",
+  "v1_page": "s074b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "6c7c442eb0e2d2b4b1db3edef0bc502226f6eaa0c4628b55b1fbb5ac4665baa4",
+ "lines": [
+  {
+   "text": "19",
+   "bbox": [
+    808,
+    472,
+    882,
+    528
+   ]
+  },
+  {
+   "text": "दुष्टिफलाध्यायः",
+   "bbox": [
+    699,
+    625,
+    1003,
+    696
+   ]
+  },
+  {
+   "text": "<b>Aspects on Moon</b>",
+   "bbox": [
+    501,
+    681,
+    1206,
+    791
+   ]
+  },
+  {
+   "text": "<b>Moon in Aries</b>",
+   "bbox": [
+    258,
+    982,
+    633,
+    1042
+   ]
+  },
+  {
+   "text": "चन्द्रे भूपबुधौ नृपोपमगुणी स्तेनोऽधनश्चाजगे",
+   "bbox": [
+    333,
+    1049,
+    949,
+    1137
+   ]
+  },
+  {
+   "text": "निस्वः स्तेननृमान्यभूपधनिनः प्रेष्यः कुजाद्यैर्गवि।",
+   "bbox": [
+    335,
+    1095,
+    1028,
+    1203
+   ]
+  },
+  {
+   "text": "नस्थेऽयोव्यवहारिपार्थिवबुधाभीस्तन्तुवायोऽधनः",
+   "bbox": [
+    338,
+    1182,
+    984,
+    1259
+   ]
+  },
+  {
+   "text": "स्वर्क्षे यौध कविज्ञभूमिपतयोऽयोजीवि दृग्रोगिणौ।। 1 ।।",
+   "bbox": [
+    341,
+    1235,
+    1142,
+    1328
+   ]
+  },
+  {
+   "text": "(i) Aspected by Mars: Makes one a king (holding high",
+   "bbox": [
+    344,
+    1313,
+    1493,
+    1415
+   ]
+  },
+  {
+   "text": "status in life).",
+   "bbox": [
+    275,
+    1411,
+    558,
+    1464
+   ]
+  },
+  {
+   "text": "(ii) Aspected by Mercury: A learned man.",
+   "bbox": [
+    351,
+    1458,
+    1246,
+    1546
+   ]
+  },
+  {
+   "text": "(iii) Aspected by Jupiter: Of high status. Almost equal",
+   "bbox": [
+    355,
+    1521,
+    1500,
+    1624
+   ]
+  },
+  {
+   "text": "to a king.",
+   "bbox": [
+    283,
+    1625,
+    480,
+    1673
+   ]
+  },
+  {
+   "text": "(iv) Aspected by Venus: Of good qualities.",
+   "bbox": [
+    358,
+    1667,
+    1254,
+    1753
+   ]
+  },
+  {
+   "text": "<math>(v)</math> Aspected by Saturn: Thief.",
+   "bbox": [
+    361,
+    1755,
+    1028,
+    1830
+   ]
+  },
+  {
+   "text": "(vi) Aspected by Sun: Poor.",
+   "bbox": [
+    367,
+    1838,
+    964,
+    1904
+   ]
+  },
+  {
+   "text": "<b>Moon in Taurus</b>",
+   "bbox": [
+    295,
+    1949,
+    721,
+    2011
+   ]
+  },
+  {
+   "text": "ज्योतिर्ज्ञाढचनरेन्द्रनापितनृपक्ष्मेशा बुधाद्यैर्हरौ",
+   "bbox": [
+    371,
+    2019,
+    991,
+    2101
+   ]
+  },
+  {
+   "text": "तद्वद्भूषचमूपनैपुणयुताः षष्ठेऽशुभे स्त्र्याश्रयः।",
+   "bbox": [
+    373,
+    2077,
+    1017,
+    2168
+   ]
+  },
+  {
+   "text": "जूके भूपसुवर्णकारवणिज: शेषेक्षिते नैकृती",
+   "bbox": [
+    375,
+    2145,
+    990,
+    2231
+   ]
+  },
+  {
+   "text": "कीटे युग्मपिता नतश्च रजको व्यङ्गोऽधनो भूपति: ।। 2 ।।",
+   "bbox": [
+    378,
+    2204,
+    1198,
+    2295
+   ]
+  }
+ ]
+}

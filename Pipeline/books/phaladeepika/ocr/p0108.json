@@ -1,0 +1,279 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0108",
+ "book_id": "phaladeepika",
+ "seq": 108,
+ "source_ref": {
+  "pdf_page": 108
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "0384a231cbe246a88d350e356c929ae6d4483f10e0395f26299f3c20fec98f97",
+ "lines": [
+  {
+   "text": "Sun ",
+   "bbox": [
+    279,
+    62,
+    305,
+    77
+   ]
+  },
+  {
+   "text": "Mars ",
+   "bbox": [
+    219,
+    70,
+    252,
+    85
+   ]
+  },
+  {
+   "text": "Merc ",
+   "bbox": [
+    276,
+    78,
+    309,
+    93
+   ]
+  },
+  {
+   "text": "Sat",
+   "bbox": [
+    338,
+    78,
+    356,
+    93
+   ]
+  },
+  {
+   "text": "Rahu",
+   "bbox": [
+    219,
+    86,
+    248,
+    101
+   ]
+  },
+  {
+   "text": "Ven",
+   "bbox": [
+    279,
+    94,
+    301,
+    110
+   ]
+  },
+  {
+   "text": "Moon",
+   "bbox": [
+    387,
+    135,
+    421,
+    150
+   ]
+  },
+  {
+   "text": "Jup",
+   "bbox": [
+    224,
+    248,
+    243,
+    264
+   ]
+  },
+  {
+   "text": "L",
+   "bbox": [
+    343,
+    248,
+    351,
+    264
+   ]
+  },
+  {
+   "text": "Ketu",
+   "bbox": [
+    390,
+    248,
+    418,
+    264
+   ]
+  },
+  {
+   "text": "He is aspected by Sun lord of the 3rd and the 6th. Therefore the Sun is deprived of ",
+   "bbox": [
+    85,
+    309,
+    556,
+    324
+   ]
+  },
+  {
+   "text": "auspiciousness. Although the Moon lord of the 10th is in his own sign, she is ",
+   "bbox": [
+    85,
+    333,
+    556,
+    348
+   ]
+  },
+  {
+   "text": "aspected by Saturn from the 8th house. Thus no good can be expected from the ",
+   "bbox": [
+    85,
+    357,
+    556,
+    373
+   ]
+  },
+  {
+   "text": "Moon. For these reasons the native could not become a great men equal to a king.",
+   "bbox": [
+    85,
+    381,
+    543,
+    397
+   ]
+  },
+  {
+   "text": "Jup",
+   "bbox": [
+    224,
+    442,
+    243,
+    458
+   ]
+  },
+  {
+   "text": "Ketu",
+   "bbox": [
+    277,
+    450,
+    304,
+    466
+   ]
+  },
+  {
+   "text": "Ven",
+   "bbox": [
+    223,
+    458,
+    244,
+    474
+   ]
+  },
+  {
+   "text": "L",
+   "bbox": [
+    229,
+    491,
+    238,
+    506
+   ]
+  },
+  {
+   "text": "Sun ",
+   "bbox": [
+    223,
+    507,
+    248,
+    522
+   ]
+  },
+  {
+   "text": "Merc.",
+   "bbox": [
+    217,
+    523,
+    250,
+    538
+   ]
+  },
+  {
+   "text": "Moon",
+   "bbox": [
+    217,
+    564,
+    250,
+    579
+   ]
+  },
+  {
+   "text": "Mars ",
+   "bbox": [
+    333,
+    612,
+    365,
+    628
+   ]
+  },
+  {
+   "text": "Sat",
+   "bbox": [
+    281,
+    620,
+    299,
+    636
+   ]
+  },
+  {
+   "text": "Rahu",
+   "bbox": [
+    332,
+    628,
+    362,
+    644
+   ]
+  },
+  {
+   "text": "This is the horoscope of Abraham Lincoln former President of the United ",
+   "bbox": [
+    121,
+    681,
+    556,
+    697
+   ]
+  },
+  {
+   "text": "States of America. He was a great man, very learned and a political leader with all ",
+   "bbox": [
+    85,
+    705,
+    556,
+    721
+   ]
+  },
+  {
+   "text": "the name and fame one can achieve. He held the most powerful position of the ",
+   "bbox": [
+    85,
+    729,
+    556,
+    745
+   ]
+  },
+  {
+   "text": "Head of State of the United States of American. In his horoscope Venus lord of the ",
+   "bbox": [
+    85,
+    753,
+    556,
+    769
+   ]
+  },
+  {
+   "text": "108",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

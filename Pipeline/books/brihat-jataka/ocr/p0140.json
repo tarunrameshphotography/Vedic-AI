@@ -1,0 +1,236 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0140",
+ "book_id": "brihat-jataka",
+ "seq": 140,
+ "source_ref": {
+  "pdf_page": 70,
+  "half": "b",
+  "v1_page": "s070b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "8bbe6c4b41a10551e7aff3c7312042a85d9b25ebb6f964bc6a13b3da23521603",
+ "lines": [
+  {
+   "text": "18",
+   "bbox": [
+    822,
+    482,
+    899,
+    535
+   ]
+  },
+  {
+   "text": "ग्रहराशिशीलाध्यायः",
+   "bbox": [
+    673,
+    636,
+    1044,
+    689
+   ]
+  },
+  {
+   "text": "<b>Planets in Signs</b>",
+   "bbox": [
+    522,
+    712,
+    1196,
+    788
+   ]
+  },
+  {
+   "text": "प्रथिश्चतुरोऽटनोऽल्पवित्त:",
+   "bbox": [
+    327,
+    956,
+    663,
+    1009
+   ]
+  },
+  {
+   "text": "क्रियगे त्वायुधभृद्वितुङ्गभागे।",
+   "bbox": [
+    401,
+    1018,
+    798,
+    1079
+   ]
+  },
+  {
+   "text": "गवि वस्त्रसुगन्धपण्यजीवी",
+   "bbox": [
+    326,
+    1084,
+    699,
+    1143
+   ]
+  },
+  {
+   "text": "वनिताद्विट् कुशलश्च गेयवाद्ये।। 1।।",
+   "bbox": [
+    401,
+    1155,
+    935,
+    1212
+   ]
+  },
+  {
+   "text": "One having Sun in Aries: Is famous, clever, widely",
+   "bbox": [
+    327,
+    1252,
+    1468,
+    1290
+   ]
+  },
+  {
+   "text": "travelled with loss of wealth, earns through weapons. This is",
+   "bbox": [
+    252,
+    1304,
+    1467,
+    1343
+   ]
+  },
+  {
+   "text": "so when the Sun occupies a point other than its exhaltation",
+   "bbox": [
+    252,
+    1356,
+    1465,
+    1396
+   ]
+  },
+  {
+   "text": "degree (10th) in Aries (in case it occupies the exaltation degree",
+   "bbox": [
+    252,
+    1408,
+    1464,
+    1448
+   ]
+  },
+  {
+   "text": "the trait of lesser value such as \"loss of wealth\" etc will not be",
+   "bbox": [
+    252,
+    1460,
+    1464,
+    1497
+   ]
+  },
+  {
+   "text": "there).",
+   "bbox": [
+    252,
+    1513,
+    386,
+    1549
+   ]
+  },
+  {
+   "text": "One having Sun in Taurus: Earns his living through",
+   "bbox": [
+    327,
+    1591,
+    1465,
+    1630
+   ]
+  },
+  {
+   "text": "cloth scented goods, general merchandise. He is opposed to",
+   "bbox": [
+    250,
+    1645,
+    1464,
+    1684
+   ]
+  },
+  {
+   "text": "women, is efficient in singing and in instrumental music.",
+   "bbox": [
+    249,
+    1697,
+    1387,
+    1737
+   ]
+  },
+  {
+   "text": "One having Sun in Gemini: Is learned, knows astrology",
+   "bbox": [
+    327,
+    1774,
+    1464,
+    1813
+   ]
+  },
+  {
+   "text": "and is wealthy.",
+   "bbox": [
+    249,
+    1827,
+    557,
+    1864
+   ]
+  },
+  {
+   "text": "विद्याज्यौतिषवित्तवान्मिथुनगे भानौ कुलीरे स्थिते",
+   "bbox": [
+    321,
+    1899,
+    1005,
+    1953
+   ]
+  },
+  {
+   "text": "तीक्ष्णोऽस्व: परकार्य्यकृच्छ्रमपथक्लेशैश्च संयुज्यते।",
+   "bbox": [
+    320,
+    1963,
+    1044,
+    2017
+   ]
+  },
+  {
+   "text": "सिंहस्थे वनशैलगोकुलरतिर्वीय्यन्वितो ज्ञ: पुमान्",
+   "bbox": [
+    320,
+    2029,
+    1012,
+    2081
+   ]
+  },
+  {
+   "text": "कन्यास्थे लिपिलेख्यकाव्यगणितज्ञानान्वित: स्त्रीवपु: ।। 211",
+   "bbox": [
+    319,
+    2092,
+    1159,
+    2149
+   ]
+  },
+  {
+   "text": "One having Sun in Cancer: Is fierce in temper, without",
+   "bbox": [
+    322,
+    2191,
+    1464,
+    2230
+   ]
+  },
+  {
+   "text": "wealth, engaged in doing jobs for others and spends his time in",
+   "bbox": [
+    247,
+    2243,
+    1461,
+    2282
+   ]
+  }
+ ]
+}

@@ -1,0 +1,389 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0066",
+ "book_id": "brihat-jataka",
+ "seq": 66,
+ "source_ref": {
+  "pdf_page": 33,
+  "half": "b",
+  "v1_page": "s033b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "28e9b919407a8f560979c410facbd8c4ae83ffdb951119044c421b74dbbd5b76",
+ "lines": [
+  {
+   "text": "<b>Birth Conditions</b>",
+   "bbox": [
+    292,
+    291,
+    633,
+    325
+   ]
+  },
+  {
+   "text": "63",
+   "bbox": [
+    1443,
+    291,
+    1505,
+    323
+   ]
+  },
+  {
+   "text": "żа",
+   "bbox": [
+    0,
+    308,
+    40,
+    343
+   ]
+  },
+  {
+   "text": "In case where there is no electricity and an oil lamp is",
+   "bbox": [
+    365,
+    390,
+    1511,
+    434
+   ]
+  },
+  {
+   "text": "used, the oil of the lamp is denoted by Moon (ie Moon in the",
+   "bbox": [
+    292,
+    444,
+    1520,
+    485
+   ]
+  },
+  {
+   "text": "beginning of the sign occupied by it denotes that the oil is",
+   "bbox": [
+    292,
+    496,
+    1508,
+    537
+   ]
+  },
+  {
+   "text": "almost full, if in middle of it, the oil is half consumed and so or",
+   "bbox": [
+    292,
+    548,
+    1508,
+    588
+   ]
+  },
+  {
+   "text": "the wick is represented by the sign in the ascendant (ie if the",
+   "bbox": [
+    292,
+    599,
+    1509,
+    646
+   ]
+  },
+  {
+   "text": "longitude of the ascendant is in the beginning very little of it",
+   "bbox": [
+    292,
+    654,
+    1508,
+    694
+   ]
+  },
+  {
+   "text": "has been consumed, if it is in the middle, half of the wick has",
+   "bbox": [
+    292,
+    708,
+    1508,
+    748
+   ]
+  },
+  {
+   "text": "been consumed and so on). If the sign occupied by the Sun is",
+   "bbox": [
+    292,
+    759,
+    1508,
+    803
+   ]
+  },
+  {
+   "text": "Ĺ.",
+   "bbox": [
+    0,
+    788,
+    21,
+    817
+   ]
+  },
+  {
+   "text": "movable the lamp was in motion, if in a fixed sign it was stable,",
+   "bbox": [
+    290,
+    814,
+    1507,
+    854
+   ]
+  },
+  {
+   "text": ",",
+   "bbox": [
+    0,
+    844,
+    20,
+    890
+   ]
+  },
+  {
+   "text": "if in mutable sign it was somewhat in motion. The house in",
+   "bbox": [
+    289,
+    866,
+    1507,
+    906
+   ]
+  },
+  {
+   "text": "-<br>f",
+   "bbox": [
+    0,
+    891,
+    23,
+    971
+   ]
+  },
+  {
+   "text": "which the delivery takes place has its gate facing the direction",
+   "bbox": [
+    292,
+    919,
+    1507,
+    959
+   ]
+  },
+  {
+   "text": "represented by the strongest planet in the kendra, or if there",
+   "bbox": [
+    287,
+    972,
+    1507,
+    1013
+   ]
+  },
+  {
+   "text": "are no planets in kendras the one represented by the strongest",
+   "bbox": [
+    290,
+    1025,
+    1508,
+    1065
+   ]
+  },
+  {
+   "text": "planet in the horoscope.",
+   "bbox": [
+    290,
+    1078,
+    772,
+    1117
+   ]
+  },
+  {
+   "text": "स्नेह: शशाङ्कादुदयाच्च वर्त्तिर्दीपोऽर्कयुक्तर्क्षवशाच्चराद्यै:।",
+   "bbox": [
+    365,
+    1146,
+    1167,
+    1210
+   ]
+  },
+  {
+   "text": "द्वारञ्च च तद्वास्तुनिकेन्द्रसंस्थैर्ज्ञेयंग्रहैर्वीर्य्यसमन्वितैर्वा।। 18 ।।",
+   "bbox": [
+    361,
+    1213,
+    1242,
+    1267
+   ]
+  },
+  {
+   "text": "If Saturn is the strongest planet, the house is good but old",
+   "bbox": [
+    364,
+    1313,
+    1507,
+    1352
+   ]
+  },
+  {
+   "text": "one, if Mars, it is burnt (in part), if Moon, it is new, if Sun, it",
+   "bbox": [
+    287,
+    1367,
+    1507,
+    1406
+   ]
+  },
+  {
+   "text": "is mainly made of timber and is not strong, if Mercury, it is the",
+   "bbox": [
+    286,
+    1420,
+    1505,
+    1459
+   ]
+  },
+  {
+   "text": "product of the labours of many artisans, if Venus it is new,",
+   "bbox": [
+    287,
+    1473,
+    1504,
+    1512
+   ]
+  },
+  {
+   "text": "charming and beautiful, if Jupiter, it is strong. The strongest",
+   "bbox": [
+    286,
+    1525,
+    1507,
+    1564
+   ]
+  },
+  {
+   "text": "etc planet that indicates the house should be examined. The",
+   "bbox": [
+    286,
+    1577,
+    1506,
+    1619
+   ]
+  },
+  {
+   "text": "number of planets adjoining it show the number of houses",
+   "bbox": [
+    286,
+    1632,
+    1505,
+    1671
+   ]
+  },
+  {
+   "text": "adjoining the house of delivery.",
+   "bbox": [
+    286,
+    1685,
+    914,
+    1723
+   ]
+  },
+  {
+   "text": "जीर्णं संस्कृतमर्कजे क्षितिसुते दग्धं नवं शीतगौ",
+   "bbox": [
+    357,
+    1758,
+    1030,
+    1809
+   ]
+  },
+  {
+   "text": "काप्ठाढचं न दुढं रवौ शशिसुते तत्रैकशिल्पोद्धवम्।",
+   "bbox": [
+    358,
+    1819,
+    1102,
+    1876
+   ]
+  },
+  {
+   "text": "रम्यं चित्रयुतं नवं च भूगुजे जीवे दृढं मन्दिरं",
+   "bbox": [
+    355,
+    1888,
+    1009,
+    1942
+   ]
+  },
+  {
+   "text": "चक्रस्थैश्च यथोपदेशरचनां सामन्तपूर्वां वदेत्।। 19 ।।",
+   "bbox": [
+    357,
+    1953,
+    1122,
+    2007
+   ]
+  },
+  {
+   "text": "The signs 1, 4, 7, 8 or 11 in the ascendant (or the navamsha)",
+   "bbox": [
+    360,
+    2052,
+    1503,
+    2091
+   ]
+  },
+  {
+   "text": "of these signs if in the ascendant) denote birth in the east of the",
+   "bbox": [
+    286,
+    2105,
+    1501,
+    2144
+   ]
+  },
+  {
+   "text": "centre of the house, if there are the signs <math>3, 6, 9</math> or <math>12</math> (or their",
+   "bbox": [
+    284,
+    2157,
+    1505,
+    2197
+   ]
+  },
+  {
+   "text": "navamsha) the birth in the northern direction. If sign No. 2 or",
+   "bbox": [
+    286,
+    2208,
+    1503,
+    2250
+   ]
+  },
+  {
+   "text": "its navamsha is involved, the birth is in the western direction",
+   "bbox": [
+    284,
+    2262,
+    1503,
+    2300
+   ]
+  },
+  {
+   "text": "and if the signs (or their navamsha) in lagna are 5 and 10, the",
+   "bbox": [
+    286,
+    2313,
+    1501,
+    2355
+   ]
+  },
+  {
+   "text": "birth takes place in the southern direction.",
+   "bbox": [
+    284,
+    2362,
+    1138,
+    2411
+   ]
+  }
+ ]
+}

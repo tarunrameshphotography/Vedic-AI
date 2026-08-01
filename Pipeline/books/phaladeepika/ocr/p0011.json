@@ -1,0 +1,423 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0011",
+ "book_id": "phaladeepika",
+ "seq": 11,
+ "source_ref": {
+  "pdf_page": 11
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "3f81331585e42c3d2b2c8a54004e327cb56b5da028f5d06546bf78c168740e10",
+ "lines": [
+  {
+   "text": "Third house",
+   "bbox": [
+    121,
+    57,
+    188,
+    73
+   ]
+  },
+  {
+   "text": "— the breast",
+   "bbox": [
+    337,
+    57,
+    409,
+    73
+   ]
+  },
+  {
+   "text": "Fourth house",
+   "bbox": [
+    121,
+    82,
+    195,
+    97
+   ]
+  },
+  {
+   "text": "— the heart",
+   "bbox": [
+    337,
+    82,
+    403,
+    97
+   ]
+  },
+  {
+   "text": "Fifth house",
+   "bbox": [
+    121,
+    106,
+    185,
+    121
+   ]
+  },
+  {
+   "text": "— the belly",
+   "bbox": [
+    337,
+    106,
+    403,
+    121
+   ]
+  },
+  {
+   "text": "Sixth house",
+   "bbox": [
+    121,
+    130,
+    187,
+    145
+   ]
+  },
+  {
+   "text": "— the waist",
+   "bbox": [
+    337,
+    130,
+    405,
+    145
+   ]
+  },
+  {
+   "text": "Seventh house",
+   "bbox": [
+    121,
+    154,
+    202,
+    169
+   ]
+  },
+  {
+   "text": "— the groins",
+   "bbox": [
+    337,
+    154,
+    410,
+    169
+   ]
+  },
+  {
+   "text": "Eighth house",
+   "bbox": [
+    121,
+    178,
+    195,
+    194
+   ]
+  },
+  {
+   "text": "— the private parts (Sexual organs)",
+   "bbox": [
+    337,
+    178,
+    536,
+    194
+   ]
+  },
+  {
+   "text": "Ninth house",
+   "bbox": [
+    121,
+    202,
+    189,
+    218
+   ]
+  },
+  {
+   "text": "— the two thighs",
+   "bbox": [
+    337,
+    202,
+    434,
+    218
+   ]
+  },
+  {
+   "text": "Tenth house",
+   "bbox": [
+    121,
+    226,
+    189,
+    242
+   ]
+  },
+  {
+   "text": "— the two knees",
+   "bbox": [
+    337,
+    226,
+    432,
+    242
+   ]
+  },
+  {
+   "text": "Eleventh house",
+   "bbox": [
+    121,
+    251,
+    207,
+    266
+   ]
+  },
+  {
+   "text": "— the two calves",
+   "bbox": [
+    337,
+    251,
+    435,
+    266
+   ]
+  },
+  {
+   "text": "Twelfth house",
+   "bbox": [
+    121,
+    275,
+    201,
+    290
+   ]
+  },
+  {
+   "text": "— the two feet",
+   "bbox": [
+    337,
+    275,
+    421,
+    290
+   ]
+  },
+  {
+   "text": "The end portions of the signs Cancer, Scorpio and Pisces are known as Rasi-",
+   "bbox": [
+    121,
+    299,
+    553,
+    314
+   ]
+  },
+  {
+   "text": "Sandhisj. There are other learneds who apply this term to the end portions of all ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "signs.",
+   "bbox": [
+    85,
+    347,
+    117,
+    363
+   ]
+  },
+  {
+   "text": "Notes — The house which is occupied or aspected by benefits or whose lord ",
+   "bbox": [
+    121,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "is bestowed with strength, the part of the body represented by that house will be ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "strong and well built. If the lord of a house be weak or be occupied or otherwise ",
+   "bbox": [
+    85,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "afflicted by a malefic, the corresponding part of the body will be weak or diseased.",
+   "bbox": [
+    85,
+    444,
+    549,
+    459
+   ]
+  },
+  {
+   "text": "5. The dwelling of the twelve signs Aries, Taurus, Gemini, Cancer, Leo, ",
+   "bbox": [
+    121,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "Virgo, Libra, Scorpio, Sagittarius, Capricorn, Aquarius and Pisces are — (1) forest ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "(2) agricultural land with water (3) bedroom (4) chasm with water (5) mountain (6) ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "land with water and food crops (7) house of a Vaishya (8) cavity or a hole (9) ",
+   "bbox": [
+    85,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "residence of the king (10) watery forests (11) the spot frequented or used by potters ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "and (12) water, in that order.",
+   "bbox": [
+    85,
+    589,
+    244,
+    604
+   ]
+  },
+  {
+   "text": "Notes — Generally this information proves useful in queries regarding theft ",
+   "bbox": [
+    121,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "of articles or missing persons etc.",
+   "bbox": [
+    85,
+    637,
+    273,
+    652
+   ]
+  },
+  {
+   "text": "6. The lords of the twelve signs are as under:",
+   "bbox": [
+    121,
+    661,
+    372,
+    677
+   ]
+  },
+  {
+   "text": "Aries – Mars",
+   "bbox": [
+    121,
+    685,
+    194,
+    701
+   ]
+  },
+  {
+   "text": "Libra - Venus",
+   "bbox": [
+    265,
+    685,
+    341,
+    701
+   ]
+  },
+  {
+   "text": "Taurus – Venus",
+   "bbox": [
+    121,
+    709,
+    207,
+    725
+   ]
+  },
+  {
+   "text": "Scorpio - Mars",
+   "bbox": [
+    265,
+    709,
+    349,
+    725
+   ]
+  },
+  {
+   "text": "Gemini - Mercury ",
+   "bbox": [
+    121,
+    734,
+    226,
+    749
+   ]
+  },
+  {
+   "text": "Sagittarius - Jupiter",
+   "bbox": [
+    265,
+    734,
+    375,
+    749
+   ]
+  },
+  {
+   "text": "Cancer - The Moon",
+   "bbox": [
+    121,
+    758,
+    231,
+    773
+   ]
+  },
+  {
+   "text": "Capricorn - Saturn",
+   "bbox": [
+    265,
+    758,
+    369,
+    773
+   ]
+  },
+  {
+   "text": "11",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

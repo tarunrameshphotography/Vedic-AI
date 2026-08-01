@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0188",
+ "book_id": "phaladeepika",
+ "seq": 188,
+ "source_ref": {
+  "pdf_page": 188
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "32915c23123a9bc0c7a0e54d0e1c3f06bc9ad12e8607734fcd5ff26d37375672",
+ "lines": [
+  {
+   "text": "occupied by the lord of the 8th house. And the lord of the 22nd decamate from the ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "lagna and the lord of decanate of the lagna. The death of the native takes place ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "when Jupiter in the course of his transit passes through any of the following places ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "—",
+   "bbox": [
+    85,
+    130,
+    99,
+    145
+   ]
+  },
+  {
+   "text": "(1) the sign occupied by the lord of the 8th house, (2) the navamsa occupied ",
+   "bbox": [
+    121,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "by the lord of the 8th house, (3) in trlkona position to (1) and (2).",
+   "bbox": [
+    85,
+    178,
+    450,
+    194
+   ]
+  },
+  {
+   "text": "33. If Jupiter, the lord of the house occupied by the Moon and the lord of the ",
+   "bbox": [
+    121,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "lagna be posited in kendra at birth, the middle portion of the life will be happy. ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "Planets in shirshodaya, ubhayodaya and prishtodaya signs give their results in the ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "beginning, in the middle and in the end respectively.",
+   "bbox": [
+    85,
+    275,
+    378,
+    290
+   ]
+  },
+  {
+   "text": "34. If the lord of the dasa be endowed with strength at the time of birth ",
+   "bbox": [
+    121,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "passes in the course of his transit through his sign of exaltation, his own sign or a ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "friend's sign, promotes the growth of the house reckoned from the lagna.",
+   "bbox": [
+    85,
+    347,
+    492,
+    363
+   ]
+  },
+  {
+   "text": "Notes — Suppose Rahu is endowed with full strength in a nativity, his dasa ",
+   "bbox": [
+    121,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "is in progress when in the course of his transit he will pass through the 11th house ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "counted from the lagna the native will have gains of wealth. When he passes ",
+   "bbox": [
+    85,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "through the 10th in transit, the native will get promotion in his position. When it ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "will pass through the 9th the native will have dawn of fortune.",
+   "bbox": [
+    85,
+    468,
+    434,
+    483
+   ]
+  },
+  {
+   "text": "35. When a planet who's dasa is in progress be weak at birth, be eclipsed by ",
+   "bbox": [
+    121,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "the Sun's rays, be in his sign of debilitation or be in a inimical sign, he will during ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "the course of transit through any house, cause its total destruction.",
+   "bbox": [
+    85,
+    540,
+    455,
+    556
+   ]
+  },
+  {
+   "text": "Notes — Suppose the lagna is Virgo and Saturn is posited in the 8th house in ",
+   "bbox": [
+    121,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "his sign of debilitation. During the dasa of Saturn, if in the course of his transit he ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "passes through the sign Leo which is an inimical sign identical with the 12th ",
+   "bbox": [
+    85,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "house, the 12th house will produce very evil effects during that period.",
+   "bbox": [
+    85,
+    637,
+    481,
+    652
+   ]
+  },
+  {
+   "text": "36. The effects will be good and auspicious, when in the course of his ",
+   "bbox": [
+    121,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "transit, the Moon passes through (1) the exaltation house of the lord of the dasa, (2) ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "the houses friendly to the lord of the dasa and (3) the 3rd, 5th, 6th, 7th, 9th, 10th ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "and 11th houses reckoned from the lord of the dasa.",
+   "bbox": [
+    85,
+    734,
+    375,
+    749
+   ]
+  },
+  {
+   "text": "Notes — If any person wants, to know whether the Moon will give ",
+   "bbox": [
+    121,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "188",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

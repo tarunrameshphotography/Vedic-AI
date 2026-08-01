@@ -1,0 +1,434 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0227",
+ "book_id": "brihat-jataka",
+ "seq": 227,
+ "source_ref": {
+  "pdf_page": 114,
+  "half": "a",
+  "v1_page": "s114a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "89e647dcd12e5f233f3f171da49c512577e181b7dbc9f64a6d0cc447342ec1d1",
+ "lines": [
+  {
+   "text": "Vedanga Jyotisham",
+   "bbox": [
+    485,
+    194,
+    1456,
+    293
+   ]
+  },
+  {
+   "text": "Exhaustive commentary by:",
+   "bbox": [
+    979,
+    336,
+    1549,
+    374
+   ]
+  },
+  {
+   "text": "Dr. Suresh Chandra Mishra, Jyotish Acharya",
+   "bbox": [
+    619,
+    386,
+    1550,
+    425
+   ]
+  },
+  {
+   "text": "Vedanga Jyotisham (VJ) is the most ancient work on the",
+   "bbox": [
+    374,
+    453,
+    1550,
+    494
+   ]
+  },
+  {
+   "text": "discipline called Vedic astrology. This petite composition was",
+   "bbox": [
+    323,
+    498,
+    1549,
+    547
+   ]
+  },
+  {
+   "text": "sermonized by sage Lagadha about 3500 years ago in the",
+   "bbox": [
+    322,
+    549,
+    1550,
+    596
+   ]
+  },
+  {
+   "text": "Vedanga period.",
+   "bbox": [
+    326,
+    606,
+    669,
+    646
+   ]
+  },
+  {
+   "text": "The text of the work separately pertains to the Rigveda",
+   "bbox": [
+    397,
+    651,
+    1555,
+    699
+   ]
+  },
+  {
+   "text": "and Yajurveda, together is known as VJ.",
+   "bbox": [
+    324,
+    705,
+    1138,
+    747
+   ]
+  },
+  {
+   "text": "The Atharva Jyotisha is entirely different, thus, not",
+   "bbox": [
+    400,
+    752,
+    1553,
+    798
+   ]
+  },
+  {
+   "text": "considered a part and parcel of the VJ.",
+   "bbox": [
+    321,
+    804,
+    1106,
+    850
+   ]
+  },
+  {
+   "text": "It was customary for Vedic Brahmanas to recite the text",
+   "bbox": [
+    400,
+    854,
+    1553,
+    900
+   ]
+  },
+  {
+   "text": "of VJ, once a day till the 20<sup>th</sup> century.",
+   "bbox": [
+    322,
+    907,
+    1074,
+    948
+   ]
+  },
+  {
+   "text": "Like the Vedas, the work has been handed down through",
+   "bbox": [
+    402,
+    974,
+    1552,
+    1012
+   ]
+  },
+  {
+   "text": "oral transmission only.",
+   "bbox": [
+    324,
+    1025,
+    811,
+    1064
+   ]
+  },
+  {
+   "text": "The Rig. VJ has never been separately explained, while",
+   "bbox": [
+    430,
+    1071,
+    1552,
+    1118
+   ]
+  },
+  {
+   "text": "O",
+   "bbox": [
+    367,
+    1081,
+    407,
+    1111
+   ]
+  },
+  {
+   "text": "the oldest commentary on the Yajur VJ is accredited to",
+   "bbox": [
+    439,
+    1120,
+    1549,
+    1169
+   ]
+  },
+  {
+   "text": "Somakara, supposed to have lived around the age of",
+   "bbox": [
+    441,
+    1173,
+    1553,
+    1217
+   ]
+  },
+  {
+   "text": "Buddha.",
+   "bbox": [
+    442,
+    1227,
+    622,
+    1262
+   ]
+  },
+  {
+   "text": "<b>O</b> The Teeka of Somakara reveals the existence of some",
+   "bbox": [
+    368,
+    1273,
+    1551,
+    1315
+   ]
+  },
+  {
+   "text": "other Teekas anterior to his time, which are yet to be",
+   "bbox": [
+    439,
+    1327,
+    1552,
+    1367
+   ]
+  },
+  {
+   "text": "traced.",
+   "bbox": [
+    438,
+    1380,
+    591,
+    1412
+   ]
+  },
+  {
+   "text": "<math>\\odot</math> Thereafter, in the 19<sup>th</sup> century only, the VJ attracted the",
+   "bbox": [
+    367,
+    1429,
+    1553,
+    1470
+   ]
+  },
+  {
+   "text": "attention of western as well as of far superior Indian",
+   "bbox": [
+    441,
+    1477,
+    1552,
+    1518
+   ]
+  },
+  {
+   "text": "scholars.",
+   "bbox": [
+    439,
+    1531,
+    624,
+    1564
+   ]
+  },
+  {
+   "text": "<b>3</b> 525 Shlokas speak volumes.",
+   "bbox": [
+    367,
+    1580,
+    998,
+    1620
+   ]
+  },
+  {
+   "text": "The VJ, an adjunct to the Vedas is now right on in its bi-",
+   "bbox": [
+    432,
+    1627,
+    1553,
+    1671
+   ]
+  },
+  {
+   "text": "<math>\\mathbf{C}</math>",
+   "bbox": [
+    367,
+    1634,
+    428,
+    1667
+   ]
+  },
+  {
+   "text": "lingual presentment.",
+   "bbox": [
+    439,
+    1681,
+    859,
+    1722
+   ]
+  },
+  {
+   "text": "A highly significant entity in the realm of Vedic",
+   "bbox": [
+    430,
+    1726,
+    1552,
+    1774
+   ]
+  },
+  {
+   "text": "<math>\\circ</math>",
+   "bbox": [
+    367,
+    1736,
+    429,
+    1768
+   ]
+  },
+  {
+   "text": "astrology.",
+   "bbox": [
+    441,
+    1782,
+    652,
+    1822
+   ]
+  },
+  {
+   "text": "Fully supported by Parashara in his early sermons.",
+   "bbox": [
+    435,
+    1826,
+    1501,
+    1875
+   ]
+  },
+  {
+   "text": "<math>\\circ</math>",
+   "bbox": [
+    367,
+    1838,
+    412,
+    1868
+   ]
+  },
+  {
+   "text": "Followed by Veda-Vyasa and sage Garga, etc.",
+   "bbox": [
+    430,
+    1875,
+    1373,
+    1926
+   ]
+  },
+  {
+   "text": "O",
+   "bbox": [
+    367,
+    1886,
+    412,
+    1920
+   ]
+  },
+  {
+   "text": "The rules cited herein, surprisingly still give precise",
+   "bbox": [
+    433,
+    1927,
+    1552,
+    1976
+   ]
+  },
+  {
+   "text": "o",
+   "bbox": [
+    367,
+    1936,
+    410,
+    1969
+   ]
+  },
+  {
+   "text": "results.",
+   "bbox": [
+    436,
+    1984,
+    600,
+    2018
+   ]
+  },
+  {
+   "text": "• Remained in vogue for centuries.",
+   "bbox": [
+    367,
+    2035,
+    1111,
+    2074
+   ]
+  },
+  {
+   "text": "*A FULL-FLEDGED AND DULY REFINED",
+   "bbox": [
+    478,
+    2110,
+    1394,
+    2149
+   ]
+  },
+  {
+   "text": "TEXT WITH EXHAUSTIVE COMMENTARY*",
+   "bbox": [
+    458,
+    2159,
+    1417,
+    2206
+   ]
+  },
+  {
+   "text": "Now uniquely available for the first time",
+   "bbox": [
+    506,
+    2238,
+    1369,
+    2278
+   ]
+  },
+  {
+   "text": "Rs. 200/-",
+   "bbox": [
+    1356,
+    2286,
+    1538,
+    2325
+   ]
+  },
+  {
+   "text": "H. B. Rs. 300/-",
+   "bbox": [
+    324,
+    2292,
+    620,
+    2330
+   ]
+  }
+ ]
+}

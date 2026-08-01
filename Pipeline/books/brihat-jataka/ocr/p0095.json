@@ -1,0 +1,218 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0095",
+ "book_id": "brihat-jataka",
+ "seq": 95,
+ "source_ref": {
+  "pdf_page": 48,
+  "half": "a",
+  "v1_page": "s048a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "e5caa38565373524f597d68c8bec9e736c0817ab84b70c449458f1f782930c51",
+ "lines": [
+  {
+   "text": "अष्टकवर्गाध्याय:",
+   "bbox": [
+    823,
+    672,
+    1140,
+    722
+   ]
+  },
+  {
+   "text": "<b>Ashtak Varga</b>",
+   "bbox": [
+    702,
+    742,
+    1256,
+    830
+   ]
+  },
+  {
+   "text": "स्वादर्क: प्रथमायबन्धुनिधनद्वचाज्ञातपो द्यूनगो",
+   "bbox": [
+    442,
+    984,
+    1079,
+    1048
+   ]
+  },
+  {
+   "text": "वक्रात्स्वादिव तद्वदेव रविजाच्छुक्रात्स्मरान्त्यारिषु।",
+   "bbox": [
+    440,
+    1049,
+    1139,
+    1115
+   ]
+  },
+  {
+   "text": "जीवाद्धर्मसुतायशत्रुषु दशत्र्यायारिग: शीतगो-",
+   "bbox": [
+    440,
+    1118,
+    1071,
+    1177
+   ]
+  },
+  {
+   "text": "स्तेष्वेवान्त्यतप: सुतेषु च बुधाल्लग्नात्सबन्ध्वन्त्यग:।। 1 ।।",
+   "bbox": [
+    437,
+    1177,
+    1308,
+    1255
+   ]
+  },
+  {
+   "text": "Ashtak varga is a system of assessing the strength and",
+   "bbox": [
+    434,
+    1276,
+    1585,
+    1338
+   ]
+  },
+  {
+   "text": "results of planets mainly in transit. As its name suggests it is",
+   "bbox": [
+    358,
+    1326,
+    1583,
+    1392
+   ]
+  },
+  {
+   "text": "comprised of 8 factors ie the 7 planets from Sun to Saturn and",
+   "bbox": [
+    358,
+    1378,
+    1581,
+    1446
+   ]
+  },
+  {
+   "text": "the lagna. In this system planets give good results when",
+   "bbox": [
+    357,
+    1430,
+    1580,
+    1499
+   ]
+  },
+  {
+   "text": "located in certain specified houses counted from their own",
+   "bbox": [
+    354,
+    1483,
+    1577,
+    1551
+   ]
+  },
+  {
+   "text": "natal position and from other planets and the lagna. The",
+   "bbox": [
+    352,
+    1535,
+    1578,
+    1605
+   ]
+  },
+  {
+   "text": "author, therefore proceeds to specify these good houses for the",
+   "bbox": [
+    352,
+    1588,
+    1577,
+    1658
+   ]
+  },
+  {
+   "text": "assessment purposes.",
+   "bbox": [
+    354,
+    1646,
+    788,
+    1692
+   ]
+  },
+  {
+   "text": "Sun",
+   "bbox": [
+    349,
+    1749,
+    463,
+    1786
+   ]
+  },
+  {
+   "text": "When in transit is located in the following number of",
+   "bbox": [
+    425,
+    1827,
+    1577,
+    1893
+   ]
+  },
+  {
+   "text": "houses counted from its position in the natal chart gives good",
+   "bbox": [
+    347,
+    1877,
+    1570,
+    1945
+   ]
+  },
+  {
+   "text": "results:",
+   "bbox": [
+    345,
+    1935,
+    504,
+    1971
+   ]
+  },
+  {
+   "text": "From Natal Moon: if it is situated in 10, 3, 11 and 6.",
+   "bbox": [
+    416,
+    2008,
+    1498,
+    2076
+   ]
+  },
+  {
+   "text": "From Natal Mars: 1, 11, 4, 8, 2, 10, 9 and 7.",
+   "bbox": [
+    416,
+    2085,
+    1321,
+    2153
+   ]
+  },
+  {
+   "text": "From Natal Mercury: 10, 3, 11, 6, 12, 9 and 5.",
+   "bbox": [
+    415,
+    2164,
+    1373,
+    2228
+   ]
+  },
+  {
+   "text": "From Natal Jupiter: 9, 5, 11 and 6.",
+   "bbox": [
+    412,
+    2242,
+    1149,
+    2301
+   ]
+  }
+ ]
+}

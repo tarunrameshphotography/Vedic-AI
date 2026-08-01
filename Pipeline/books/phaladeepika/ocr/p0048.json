@@ -1,0 +1,540 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0048",
+ "book_id": "phaladeepika",
+ "seq": 48,
+ "source_ref": {
+  "pdf_page": 48
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "68245cecbbf0f518652a129ff5fa2c991e7fd5e139fc5701e7a84aa441413883",
+ "lines": [
+  {
+   "text": "(6) ",
+   "bbox": [
+    137,
+    57,
+    156,
+    73
+   ]
+  },
+  {
+   "text": "1-20-0 ",
+   "bbox": [
+    172,
+    57,
+    213,
+    73
+   ]
+  },
+  {
+   "text": "(21) 4-40-0 ",
+   "bbox": [
+    229,
+    57,
+    305,
+    73
+   ]
+  },
+  {
+   "text": "(36) 8-0-0 ",
+   "bbox": [
+    321,
+    57,
+    390,
+    73
+   ]
+  },
+  {
+   "text": "(51) 11-20-0 ",
+   "bbox": [
+    413,
+    57,
+    496,
+    73
+   ]
+  },
+  {
+   "text": "(7) ",
+   "bbox": [
+    137,
+    76,
+    156,
+    91
+   ]
+  },
+  {
+   "text": "1-33-20 (22) 4-53-20 (37) 8-13-20 (52) 11-33-20 ",
+   "bbox": [
+    172,
+    76,
+    503,
+    91
+   ]
+  },
+  {
+   "text": "(8) ",
+   "bbox": [
+    137,
+    94,
+    156,
+    109
+   ]
+  },
+  {
+   "text": "1-46-40 (23) 5-6-40 ",
+   "bbox": [
+    172,
+    94,
+    305,
+    109
+   ]
+  },
+  {
+   "text": "(38) 8-26-40 (53) 11-46-40 ",
+   "bbox": [
+    321,
+    94,
+    503,
+    109
+   ]
+  },
+  {
+   "text": "(9) ",
+   "bbox": [
+    137,
+    112,
+    156,
+    128
+   ]
+  },
+  {
+   "text": "2-0-0 ",
+   "bbox": [
+    172,
+    112,
+    206,
+    128
+   ]
+  },
+  {
+   "text": "(24) 5-20-0 ",
+   "bbox": [
+    229,
+    112,
+    305,
+    128
+   ]
+  },
+  {
+   "text": "(39) 8-40-0 ",
+   "bbox": [
+    321,
+    112,
+    397,
+    128
+   ]
+  },
+  {
+   "text": "(54) 12-0-0 ",
+   "bbox": [
+    413,
+    112,
+    489,
+    128
+   ]
+  },
+  {
+   "text": "(10) 2-13-20 (25) 5-33-20 (40) 8-53-20 (55) 12-13-20 ",
+   "bbox": [
+    137,
+    130,
+    503,
+    146
+   ]
+  },
+  {
+   "text": "(11) 2-26-40 (26) 5-46-40 (41) 9-6-40 ",
+   "bbox": [
+    137,
+    149,
+    397,
+    164
+   ]
+  },
+  {
+   "text": "(56) 12-26-40 ",
+   "bbox": [
+    413,
+    149,
+    503,
+    164
+   ]
+  },
+  {
+   "text": "(12) 2-40-0 ",
+   "bbox": [
+    137,
+    167,
+    213,
+    182
+   ]
+  },
+  {
+   "text": "(27) 6-0-0 ",
+   "bbox": [
+    229,
+    167,
+    298,
+    182
+   ]
+  },
+  {
+   "text": "(42) 9-20-0 ",
+   "bbox": [
+    321,
+    167,
+    397,
+    182
+   ]
+  },
+  {
+   "text": "(57) 12-40-0 ",
+   "bbox": [
+    413,
+    167,
+    496,
+    182
+   ]
+  },
+  {
+   "text": "(13) 2-53-20 (28) 6-13-20 (43) 9-33-20 (58) 12-53-20 ",
+   "bbox": [
+    137,
+    185,
+    503,
+    201
+   ]
+  },
+  {
+   "text": "(14) 3-6-40 ",
+   "bbox": [
+    137,
+    203,
+    213,
+    219
+   ]
+  },
+  {
+   "text": "(29) 6-26-40 (44) 9-46-40 (59) 13-6-40 ",
+   "bbox": [
+    229,
+    203,
+    496,
+    219
+   ]
+  },
+  {
+   "text": "(15) 3-20-0 ",
+   "bbox": [
+    137,
+    222,
+    213,
+    237
+   ]
+  },
+  {
+   "text": "(30) 6-40-0 ",
+   "bbox": [
+    229,
+    222,
+    305,
+    237
+   ]
+  },
+  {
+   "text": "(45) 10-0-0 ",
+   "bbox": [
+    321,
+    222,
+    397,
+    237
+   ]
+  },
+  {
+   "text": "(60) 13-20-0 ",
+   "bbox": [
+    413,
+    222,
+    496,
+    237
+   ]
+  },
+  {
+   "text": "For example in a nativity the longitude of the Moon (Chandraspasta) is 11-",
+   "bbox": [
+    121,
+    262,
+    553,
+    277
+   ]
+  },
+  {
+   "text": "20-37-21 and the stretch of Revti Nakshatra being from 11-16-40 to 12-0-0:",
+   "bbox": [
+    85,
+    286,
+    510,
+    302
+   ]
+  },
+  {
+   "text": "Longitude of the Moon 11-20-37",
+   "bbox": [
+    121,
+    310,
+    306,
+    326
+   ]
+  },
+  {
+   "text": "Commencement of Revti 11-16-40",
+   "bbox": [
+    121,
+    334,
+    316,
+    350
+   ]
+  },
+  {
+   "text": "Elapsed portion of Revti 3-57-21",
+   "bbox": [
+    121,
+    358,
+    306,
+    374
+   ]
+  },
+  {
+   "text": "By referring to the above table we will find that the 17th part ended at 3-46-",
+   "bbox": [
+    121,
+    383,
+    552,
+    398
+   ]
+  },
+  {
+   "text": "40 and the 18th part will end at 4-0-0. Therefore by the elapsing of 17th part the ",
+   "bbox": [
+    85,
+    407,
+    556,
+    422
+   ]
+  },
+  {
+   "text": "effect of its Chandrakriya viz one. Who studies vedas' will be taken into account ",
+   "bbox": [
+    85,
+    431,
+    556,
+    446
+   ]
+  },
+  {
+   "text": "which means that the native will be a learned person.",
+   "bbox": [
+    85,
+    455,
+    382,
+    471
+   ]
+  },
+  {
+   "text": "<b>Chandra Avastha</b>",
+   "bbox": [
+    121,
+    479,
+    225,
+    495
+   ]
+  },
+  {
+   "text": "For finding out Chandra Avastha the stretch of a Nakshatra has to be divided ",
+   "bbox": [
+    121,
+    503,
+    556,
+    519
+   ]
+  },
+  {
+   "text": "into 12 parts. Thus one part will come to 1-6-40.",
+   "bbox": [
+    85,
+    528,
+    357,
+    543
+   ]
+  },
+  {
+   "text": "D M S ",
+   "bbox": [
+    215,
+    552,
+    256,
+    567
+   ]
+  },
+  {
+   "text": "D M S ",
+   "bbox": [
+    300,
+    552,
+    341,
+    567
+   ]
+  },
+  {
+   "text": "D M S ",
+   "bbox": [
+    385,
+    552,
+    426,
+    567
+   ]
+  },
+  {
+   "text": "(1) 1-6-40 ",
+   "bbox": [
+    194,
+    573,
+    256,
+    588
+   ]
+  },
+  {
+   "text": "(5) 5-33-20 (9) 10-0- 0 ",
+   "bbox": [
+    275,
+    573,
+    429,
+    588
+   ]
+  },
+  {
+   "text": "(2) 2-13-20 ",
+   "bbox": [
+    194,
+    597,
+    263,
+    612
+   ]
+  },
+  {
+   "text": "(6) 6-40-0 ",
+   "bbox": [
+    275,
+    597,
+    340,
+    612
+   ]
+  },
+  {
+   "text": "(10) 11-6- 40 ",
+   "bbox": [
+    356,
+    597,
+    436,
+    612
+   ]
+  },
+  {
+   "text": "(3) 3-20-0 ",
+   "bbox": [
+    194,
+    617,
+    256,
+    632
+   ]
+  },
+  {
+   "text": "(7) 7-46-40 (11) 12-13-20 ",
+   "bbox": [
+    275,
+    617,
+    440,
+    632
+   ]
+  },
+  {
+   "text": "(4) 4-26-40 ",
+   "bbox": [
+    194,
+    635,
+    263,
+    651
+   ]
+  },
+  {
+   "text": "(8) 8-53-20 (12) 13-20- 0 ",
+   "bbox": [
+    275,
+    635,
+    436,
+    651
+   ]
+  },
+  {
+   "text": "For example the elapsed portion of Revti Nakshatra Is 3°-57'-21\". The third ",
+   "bbox": [
+    121,
+    676,
+    556,
+    691
+   ]
+  },
+  {
+   "text": "part ends at 3°-20-0 The 4th part will end at 4°-26'-40\". Therefore the effect of 4th ",
+   "bbox": [
+    85,
+    700,
+    556,
+    715
+   ]
+  },
+  {
+   "text": "part will be taken into account which is 'distinguished for becoming a ruler'.",
+   "bbox": [
+    85,
+    724,
+    510,
+    739
+   ]
+  },
+  {
+   "text": "<b>Chandravela</b>",
+   "bbox": [
+    121,
+    748,
+    199,
+    764
+   ]
+  },
+  {
+   "text": "48",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0042",
+ "book_id": "brihat-jataka",
+ "seq": 42,
+ "source_ref": {
+  "pdf_page": 21,
+  "half": "b",
+  "v1_page": "s021b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "60553f6e01a559a88da5cfa1bcdfbb62e3957d1e5b53fef61c6eb2dfb56f5c4e",
+ "lines": [
+  {
+   "text": "39",
+   "bbox": [
+    1404,
+    239,
+    1466,
+    269
+   ]
+  },
+  {
+   "text": "Planets",
+   "bbox": [
+    259,
+    277,
+    410,
+    310
+   ]
+  },
+  {
+   "text": "strength if it occupies the 7th house. Similarly Venus and",
+   "bbox": [
+    255,
+    332,
+    1475,
+    425
+   ]
+  },
+  {
+   "text": "Moon when situated in the 4th house of any birth chart get",
+   "bbox": [
+    258,
+    383,
+    1479,
+    477
+   ]
+  },
+  {
+   "text": "directional strength.",
+   "bbox": [
+    263,
+    471,
+    673,
+    524
+   ]
+  },
+  {
+   "text": "Commentary: The directional strength of planets becomes",
+   "bbox": [
+    338,
+    517,
+    1480,
+    603
+   ]
+  },
+  {
+   "text": "zero in the 7th house from that specified. In the intermediary",
+   "bbox": [
+    265,
+    563,
+    1483,
+    657
+   ]
+  },
+  {
+   "text": "positions it is of course proportional in value.",
+   "bbox": [
+    267,
+    629,
+    1169,
+    703
+   ]
+  },
+  {
+   "text": "<b>Cheshta Strength</b>",
+   "bbox": [
+    273,
+    749,
+    737,
+    806
+   ]
+  },
+  {
+   "text": "उद्गयने रविशीतमयूखो वक्रसमागमगा: परिशेषा:।",
+   "bbox": [
+    345,
+    813,
+    1076,
+    896
+   ]
+  },
+  {
+   "text": "विपुलकरायधि चोत्तरसंस्थाक्षेष्टितवीर्य्ययुताः परिकल्प्याः ।। 20 ।।",
+   "bbox": [
+    347,
+    872,
+    1304,
+    956
+   ]
+  },
+  {
+   "text": "When the Sun is in uttarayan ie in signs 10, 11, 12, 1, 2 or",
+   "bbox": [
+    354,
+    954,
+    1497,
+    1046
+   ]
+  },
+  {
+   "text": "3 both Moon and Sun are endowed with the cheshta strength.",
+   "bbox": [
+    277,
+    1005,
+    1492,
+    1093
+   ]
+  },
+  {
+   "text": "Mars etc when located with Moon are said to be in samagam.",
+   "bbox": [
+    279,
+    1059,
+    1496,
+    1143
+   ]
+  },
+  {
+   "text": "In that condition they get this cheshta strength. Mars etc",
+   "bbox": [
+    280,
+    1102,
+    1501,
+    1200
+   ]
+  },
+  {
+   "text": "when in retrogression are also endowed with cheshta strength.",
+   "bbox": [
+    283,
+    1157,
+    1496,
+    1243
+   ]
+  },
+  {
+   "text": "The victor in the planetary war also gets chesta strength.",
+   "bbox": [
+    283,
+    1204,
+    1500,
+    1298
+   ]
+  },
+  {
+   "text": "Planets with Mars are considered in war. Of them the planet",
+   "bbox": [
+    286,
+    1256,
+    1507,
+    1346
+   ]
+  },
+  {
+   "text": "that has more northern declination and is also endowed with",
+   "bbox": [
+    286,
+    1307,
+    1508,
+    1393
+   ]
+  },
+  {
+   "text": "many rays due to his being away from the Sun becomes the",
+   "bbox": [
+    287,
+    1355,
+    1508,
+    1449
+   ]
+  },
+  {
+   "text": "victor.",
+   "bbox": [
+    292,
+    1452,
+    426,
+    1491
+   ]
+  },
+  {
+   "text": "Time Strength",
+   "bbox": [
+    292,
+    1545,
+    680,
+    1600
+   ]
+  },
+  {
+   "text": "निशिशशिकुजसौराः, सर्वदा ज्ञोऽहि चान्ये",
+   "bbox": [
+    367,
+    1610,
+    962,
+    1691
+   ]
+  },
+  {
+   "text": "बहुलसितगता: स्यु: क्रूरसौम्या: क्रमेण।",
+   "bbox": [
+    370,
+    1678,
+    949,
+    1754
+   ]
+  },
+  {
+   "text": "द्वचयनदिवसहोरामासपै: कालवीर्व्यं",
+   "bbox": [
+    371,
+    1742,
+    887,
+    1816
+   ]
+  },
+  {
+   "text": "शरुबुगुशुचराद्या वृद्धितो वीर्यवन्त: ।। 21 ।।",
+   "bbox": [
+    376,
+    1807,
+    1018,
+    1884
+   ]
+  },
+  {
+   "text": "For people born during the night Moon, Mars and Saturn",
+   "bbox": [
+    378,
+    1887,
+    1524,
+    1968
+   ]
+  },
+  {
+   "text": "get kala bala. Mercury is strong always irrespective of the",
+   "bbox": [
+    305,
+    1938,
+    1526,
+    2024
+   ]
+  },
+  {
+   "text": "time of birth. The remaining planets ie Sun, Venus and Jupi-",
+   "bbox": [
+    306,
+    1987,
+    1528,
+    2079
+   ]
+  },
+  {
+   "text": "ter are strong in day births. The malefic planets Sun, Mars,",
+   "bbox": [
+    309,
+    2041,
+    1530,
+    2131
+   ]
+  },
+  {
+   "text": "Saturn get strength in cases of birth in the dark fortnight of",
+   "bbox": [
+    312,
+    2092,
+    1532,
+    2183
+   ]
+  },
+  {
+   "text": "Moon, whereas benefics ie Moon, Mercury, Jupiter and Venus",
+   "bbox": [
+    312,
+    2144,
+    1532,
+    2235
+   ]
+  },
+  {
+   "text": "get strengthened in the bright fortnight. Planets having their",
+   "bbox": [
+    312,
+    2200,
+    1533,
+    2283
+   ]
+  },
+  {
+   "text": "year ayan a half year (uttarayan or dakshinayan) day, time",
+   "bbox": [
+    315,
+    2249,
+    1536,
+    2339
+   ]
+  },
+  {
+   "text": "hora, month at the time of birth get strengthened by kala bala.",
+   "bbox": [
+    319,
+    2302,
+    1537,
+    2390
+   ]
+  }
+ ]
+}

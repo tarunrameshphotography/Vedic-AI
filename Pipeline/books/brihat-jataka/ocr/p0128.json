@@ -1,0 +1,452 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0128",
+ "book_id": "brihat-jataka",
+ "seq": 128,
+ "source_ref": {
+  "pdf_page": 64,
+  "half": "b",
+  "v1_page": "s064b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "31be7986d174f5505c90f9cee9e44e14e0a626b29384ecf119002b5a455961cb",
+ "lines": [
+  {
+   "text": "Renunciation",
+   "bbox": [
+    244,
+    299,
+    528,
+    337
+   ]
+  },
+  {
+   "text": "125",
+   "bbox": [
+    1384,
+    305,
+    1469,
+    335
+   ]
+  },
+  {
+   "text": "being the dominant influence of Saturn on factors denoting",
+   "bbox": [
+    261,
+    406,
+    1478,
+    443
+   ]
+  },
+  {
+   "text": "mind. Although in the Shlokas under consideration only Moon",
+   "bbox": [
+    261,
+    456,
+    1476,
+    496
+   ]
+  },
+  {
+   "text": "has been mentioned. It is implied that for dispassion to be",
+   "bbox": [
+    261,
+    510,
+    1475,
+    550
+   ]
+  },
+  {
+   "text": "complete, the 4th house and its lord (mind) should also be",
+   "bbox": [
+    261,
+    561,
+    1472,
+    601
+   ]
+  },
+  {
+   "text": "under the dominant influence of Saturn, whether by associa-",
+   "bbox": [
+    261,
+    615,
+    1474,
+    653
+   ]
+  },
+  {
+   "text": "tion or aspect. As regards the question of leaving the home and",
+   "bbox": [
+    261,
+    668,
+    1472,
+    707
+   ]
+  },
+  {
+   "text": "hearth, it is essential that there should be \"separative\" influ-",
+   "bbox": [
+    261,
+    719,
+    1474,
+    759
+   ]
+  },
+  {
+   "text": "ence on the houses denoting residence (4th house), family",
+   "bbox": [
+    258,
+    771,
+    1474,
+    813
+   ]
+  },
+  {
+   "text": "(2nd) and bhoga (12th house). The separative influence would",
+   "bbox": [
+    260,
+    823,
+    1474,
+    867
+   ]
+  },
+  {
+   "text": "be caused by the aspect etc of Sun, Saturn, Rahu and the Lords",
+   "bbox": [
+    258,
+    878,
+    1472,
+    917
+   ]
+  },
+  {
+   "text": "of the signs occupied by these planets. In actual experience we",
+   "bbox": [
+    258,
+    930,
+    1471,
+    970
+   ]
+  },
+  {
+   "text": "have found that sanyas is caused by the fulfilment of the two",
+   "bbox": [
+    256,
+    982,
+    1474,
+    1022
+   ]
+  },
+  {
+   "text": "essential conditions rather than by the configuration of four or",
+   "bbox": [
+    255,
+    1036,
+    1474,
+    1075
+   ]
+  },
+  {
+   "text": "more planets.",
+   "bbox": [
+    256,
+    1089,
+    532,
+    1128
+   ]
+  },
+  {
+   "text": "For example in the case of",
+   "bbox": [
+    332,
+    1166,
+    850,
+    1203
+   ]
+  },
+  {
+   "text": "Sun",
+   "bbox": [
+    1023,
+    1218,
+    1089,
+    1247
+   ]
+  },
+  {
+   "text": "Adi Shankaracharya we do",
+   "bbox": [
+    255,
+    1219,
+    838,
+    1259
+   ]
+  },
+  {
+   "text": "Mars",
+   "bbox": [
+    866,
+    1248,
+    951,
+    1280
+   ]
+  },
+  {
+   "text": "Moon",
+   "bbox": [
+    1321,
+    1253,
+    1409,
+    1281
+   ]
+  },
+  {
+   "text": "<b>Mercury</b>",
+   "bbox": [
+    1023,
+    1259,
+    1152,
+    1291
+   ]
+  },
+  {
+   "text": "Rahu",
+   "bbox": [
+    1168,
+    1260,
+    1258,
+    1290
+   ]
+  },
+  {
+   "text": "not find the configuration of",
+   "bbox": [
+    255,
+    1270,
+    841,
+    1310
+   ]
+  },
+  {
+   "text": "Venus",
+   "bbox": [
+    1025,
+    1300,
+    1123,
+    1330
+   ]
+  },
+  {
+   "text": "four or more planets but the",
+   "bbox": [
+    255,
+    1325,
+    841,
+    1364
+   ]
+  },
+  {
+   "text": "dominant influence of Sat-",
+   "bbox": [
+    255,
+    1377,
+    840,
+    1414
+   ]
+  },
+  {
+   "text": "Jupiter",
+   "bbox": [
+    871,
+    1406,
+    981,
+    1441
+   ]
+  },
+  {
+   "text": "urn-the planet for renuncia-",
+   "bbox": [
+    255,
+    1431,
+    840,
+    1469
+   ]
+  },
+  {
+   "text": "tion-is present on Moon and",
+   "bbox": [
+    255,
+    1483,
+    840,
+    1521
+   ]
+  },
+  {
+   "text": "the 4th house from Moon.",
+   "bbox": [
+    255,
+    1536,
+    838,
+    1571
+   ]
+  },
+  {
+   "text": "There is also the separative",
+   "bbox": [
+    254,
+    1587,
+    839,
+    1629
+   ]
+  },
+  {
+   "text": "influence of Sun on Mercury",
+   "bbox": [
+    253,
+    1642,
+    838,
+    1680
+   ]
+  },
+  {
+   "text": "Lord of the 12th house and on",
+   "bbox": [
+    252,
+    1693,
+    840,
+    1730
+   ]
+  },
+  {
+   "text": "Saturn",
+   "bbox": [
+    872,
+    1713,
+    976,
+    1746
+   ]
+  },
+  {
+   "text": "Ketu",
+   "bbox": [
+    1025,
+    1716,
+    1098,
+    1746
+   ]
+  },
+  {
+   "text": "Venus Lord of the 4th house.",
+   "bbox": [
+    255,
+    1746,
+    838,
+    1783
+   ]
+  },
+  {
+   "text": "Sun himself as Lord of the",
+   "bbox": [
+    255,
+    1798,
+    837,
+    1834
+   ]
+  },
+  {
+   "text": "2nd house being hemmed in between Rahu and Mars. Let us",
+   "bbox": [
+    252,
+    1851,
+    1471,
+    1891
+   ]
+  },
+  {
+   "text": "take the case of another great sanyasin-Swami Shivanand.",
+   "bbox": [
+    250,
+    1904,
+    1469,
+    1943
+   ]
+  },
+  {
+   "text": "Here also there is no configuration of 4 or more planets in one",
+   "bbox": [
+    250,
+    1955,
+    1471,
+    1997
+   ]
+  },
+  {
+   "text": "sign, but the conditions of Vairagya and renunciation are",
+   "bbox": [
+    250,
+    2010,
+    1469,
+    2049
+   ]
+  },
+  {
+   "text": "fulfilled.",
+   "bbox": [
+    249,
+    2061,
+    423,
+    2097
+   ]
+  },
+  {
+   "text": "Mark the influence of Saturn, not only on Moon, but also",
+   "bbox": [
+    325,
+    2139,
+    1471,
+    2179
+   ]
+  },
+  {
+   "text": "on Mars, the lord of the sign occupied by Moon. Again mark",
+   "bbox": [
+    249,
+    2192,
+    1469,
+    2231
+   ]
+  },
+  {
+   "text": "the full aspect of Saturn on Venus lord of the 4th house (Mind)",
+   "bbox": [
+    249,
+    2241,
+    1469,
+    2285
+   ]
+  },
+  {
+   "text": "and his square on the same house. Again from the Chandra",
+   "bbox": [
+    249,
+    2295,
+    1469,
+    2334
+   ]
+  },
+  {
+   "text": "Lagna Saturn also influences the 4th house, its lord and Moon.",
+   "bbox": [
+    249,
+    2348,
+    1463,
+    2386
+   ]
+  }
+ ]
+}

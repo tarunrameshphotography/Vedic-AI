@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0194",
+ "book_id": "brihat-jataka",
+ "seq": 194,
+ "source_ref": {
+  "pdf_page": 97,
+  "half": "b",
+  "v1_page": "s097b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "ae25bef488c1b05d7fb151b33f81756481614be674a5ac9f8a0a38daa1c7d410",
+ "lines": [
+  {
+   "text": "191",
+   "bbox": [
+    1271,
+    231,
+    1352,
+    264
+   ]
+  },
+  {
+   "text": "Death",
+   "bbox": [
+    153,
+    269,
+    278,
+    306
+   ]
+  },
+  {
+   "text": "of the two-lord of the 22nd drekkana and the lord of the",
+   "bbox": [
+    150,
+    323,
+    1367,
+    413
+   ]
+  },
+  {
+   "text": "eighth house.",
+   "bbox": [
+    157,
+    415,
+    431,
+    464
+   ]
+  },
+  {
+   "text": "होरानवांशकपयुक्तसमानभूमौ",
+   "bbox": [
+    232,
+    487,
+    635,
+    542
+   ]
+  },
+  {
+   "text": "योगेक्षणादिभिरत: परिकल्प्यमेतत्।",
+   "bbox": [
+    234,
+    545,
+    722,
+    607
+   ]
+  },
+  {
+   "text": "मोहस्तु मृत्युसमयेऽनुदितांशतुल्य:",
+   "bbox": [
+    235,
+    609,
+    704,
+    679
+   ]
+  },
+  {
+   "text": "स्वेशेक्षिते द्विगुणितस्त्रिगुण: शुभैश्च।। 12 ।।",
+   "bbox": [
+    237,
+    668,
+    875,
+    743
+   ]
+  },
+  {
+   "text": "Death takes place in areas similar to the sign occupied by",
+   "bbox": [
+    241,
+    744,
+    1380,
+    829
+   ]
+  },
+  {
+   "text": "the navamsha lord at birth.",
+   "bbox": [
+    167,
+    820,
+    721,
+    876
+   ]
+  },
+  {
+   "text": "Other details must be known from the conjunctions and",
+   "bbox": [
+    248,
+    874,
+    1385,
+    958
+   ]
+  },
+  {
+   "text": "planetary aspects.",
+   "bbox": [
+    172,
+    961,
+    541,
+    1013
+   ]
+  },
+  {
+   "text": "The time of death is to be known from the number of",
+   "bbox": [
+    250,
+    1006,
+    1394,
+    1089
+   ]
+  },
+  {
+   "text": "navamshas yet to rise after birth. If the lord of lagna aspects it,",
+   "bbox": [
+    177,
+    1059,
+    1391,
+    1149
+   ]
+  },
+  {
+   "text": "the time must be doubled. If it is aspected by benefics, the time",
+   "bbox": [
+    177,
+    1111,
+    1395,
+    1202
+   ]
+  },
+  {
+   "text": "must be trepled.",
+   "bbox": [
+    180,
+    1200,
+    512,
+    1251
+   ]
+  },
+  {
+   "text": "Notes: The navamsha lagna has an owner. Find the place",
+   "bbox": [
+    252,
+    1242,
+    1402,
+    1332
+   ]
+  },
+  {
+   "text": "occupied by him. This sign gets modified by the aspects on it,",
+   "bbox": [
+    183,
+    1291,
+    1402,
+    1389
+   ]
+  },
+  {
+   "text": "association of planets with it and Moon. The places indicated",
+   "bbox": [
+    183,
+    1344,
+    1407,
+    1442
+   ]
+  },
+  {
+   "text": "by the signs are:",
+   "bbox": [
+    188,
+    1437,
+    527,
+    1486
+   ]
+  },
+  {
+   "text": "Mesha-frequented by goats, Vrishabha-grazing lawn,",
+   "bbox": [
+    264,
+    1477,
+    1409,
+    1567
+   ]
+  },
+  {
+   "text": "Mithuna-house, Karkataka-well or watery place, Simha-",
+   "bbox": [
+    188,
+    1528,
+    1409,
+    1620
+   ]
+  },
+  {
+   "text": "wilderness, Kanya-well, Tula-places of merchandise,",
+   "bbox": [
+    190,
+    1581,
+    1415,
+    1675
+   ]
+  },
+  {
+   "text": "Vrishchika-low places, Dhanush-frequented by horses,",
+   "bbox": [
+    193,
+    1632,
+    1412,
+    1730
+   ]
+  },
+  {
+   "text": "Makara-marshy places, Kumbha-house, Mina-swamps.",
+   "bbox": [
+    196,
+    1691,
+    1346,
+    1782
+   ]
+  },
+  {
+   "text": "When there is a conflict between the yogas given in chap-",
+   "bbox": [
+    277,
+    1771,
+    1419,
+    1854
+   ]
+  },
+  {
+   "text": "ter 23 and here, we have to follow chapter 23. Otherwise we",
+   "bbox": [
+    199,
+    1819,
+    1420,
+    1911
+   ]
+  },
+  {
+   "text": "have to go by this chapter.",
+   "bbox": [
+    202,
+    1901,
+    738,
+    1961
+   ]
+  },
+  {
+   "text": "We have to consider the following factors:",
+   "bbox": [
+    282,
+    1964,
+    1116,
+    2037
+   ]
+  },
+  {
+   "text": "(a) The nature of the sign occupied by the lord of the",
+   "bbox": [
+    281,
+    2026,
+    1427,
+    2120
+   ]
+  },
+  {
+   "text": "navamsha rising.",
+   "bbox": [
+    210,
+    2117,
+    560,
+    2166
+   ]
+  },
+  {
+   "text": "(b) The nature of the navamsha sign occupied by the lord",
+   "bbox": [
+    283,
+    2157,
+    1428,
+    2249
+   ]
+  },
+  {
+   "text": "of the navamsha.",
+   "bbox": [
+    215,
+    2247,
+    564,
+    2294
+   ]
+  },
+  {
+   "text": "(c) Planets in the sign occupied by the lord of the",
+   "bbox": [
+    287,
+    2290,
+    1433,
+    2380
+   ]
+  }
+ ]
+}

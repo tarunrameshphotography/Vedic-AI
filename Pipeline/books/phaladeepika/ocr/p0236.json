@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0236",
+ "book_id": "phaladeepika",
+ "seq": 236,
+ "source_ref": {
+  "pdf_page": 236
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "504d10d5c15814cc5bfb8378daeb6802ac3befa90728b0b9c05abb8d1268d560",
+ "lines": [
+  {
+   "text": "(b) No change is necessary in the figures of the other signs if one of the ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "signs has 0 bindus.",
+   "bbox": [
+    85,
+    82,
+    191,
+    97
+   ]
+  },
+  {
+   "text": "(e) If the figures of all the three signs are the same, then that figure should ",
+   "bbox": [
+    121,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "be deducted from the feaures of all the seris, that result having been that all the ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "signs will have Zero as remainders.",
+   "bbox": [
+    85,
+    154,
+    283,
+    169
+   ]
+  },
+  {
+   "text": "Above view is that of Parasara. Now we give another view in regard to ",
+   "bbox": [
+    121,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "trikona sodhana.",
+   "bbox": [
+    85,
+    202,
+    178,
+    218
+   ]
+  },
+  {
+   "text": "Suppose we have to do trikona sodhana in the Sun's Ashtakavarga. Aries has ",
+   "bbox": [
+    121,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "3 bindus, Leo 5 and Sagittarius 4. The smallest figure is 3. Therefore according to ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "this view the figures of all the three signs should be adopted as 3.",
+   "bbox": [
+    85,
+    275,
+    451,
+    290
+   ]
+  },
+  {
+   "text": "Taurus has 7 bindus, Virgo 3 and Capricorn 3. 3 being the smallest figure, ",
+   "bbox": [
+    121,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "this may be adopted for all the three signs.",
+   "bbox": [
+    85,
+    323,
+    323,
+    339
+   ]
+  },
+  {
+   "text": "In the Sun's Ashtakavarga, Gemini has 4, Libra 4 and Aquarius 5. 4 should ",
+   "bbox": [
+    121,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "be adopted for all these three signs.",
+   "bbox": [
+    85,
+    371,
+    283,
+    387
+   ]
+  },
+  {
+   "text": "Cancer has 4, Scorpio 5 and Pisces 1 bindus. Here the figure 1 should be ",
+   "bbox": [
+    121,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "adopted for all the three signs.",
+   "bbox": [
+    85,
+    420,
+    255,
+    435
+   ]
+  },
+  {
+   "text": "The above is the view of Shri Balabhadra as given in his book Hora Ratna.",
+   "bbox": [
+    121,
+    444,
+    540,
+    459
+   ]
+  },
+  {
+   "text": "Now we give the view of Shri Mantreshwara as laid down in verses 16-17.",
+   "bbox": [
+    121,
+    468,
+    540,
+    483
+   ]
+  },
+  {
+   "text": "(1) Of the three signs in a trikona group, find which sign contains the least ",
+   "bbox": [
+    121,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "number of benefic bindus. The figures in the other two sings should be reduced to ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "that extent. If there be no bindus in any sign, no such reduction will be necessary in ",
+   "bbox": [
+    85,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "the other two signs of the triangular group.",
+   "bbox": [
+    85,
+    565,
+    325,
+    580
+   ]
+  },
+  {
+   "text": "(2) If there be no bindus in two of the signs of a group, remove the figures in ",
+   "bbox": [
+    121,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "the third. When all the three signs of a group have the same number of bindus, ",
+   "bbox": [
+    85,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "remove all.",
+   "bbox": [
+    85,
+    637,
+    148,
+    652
+   ]
+  },
+  {
+   "text": "Notes — Here it will be relevant to quote the views of Jataka Parijat also (1) ",
+   "bbox": [
+    121,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "In the Ashtakavarga of any one of the Sun and other planets take the signs by the ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "triangular groups (i) Aries, Leo, Sagittarius, (ii) Taurus, Virgo, Capricorn (iii) ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "Gemini, Libra, Aquarius and (iv) (Cancer, Scorpio and Pisces; and examine the ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "benefic bindus in the 3 signs composing any group. If in any one sign of a group, ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "236",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

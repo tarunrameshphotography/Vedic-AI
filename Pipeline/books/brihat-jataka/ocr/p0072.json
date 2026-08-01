@@ -1,0 +1,227 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0072",
+ "book_id": "brihat-jataka",
+ "seq": 72,
+ "source_ref": {
+  "pdf_page": 36,
+  "half": "b",
+  "v1_page": "s036b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "457049e8780cba2ade2c8052e4d935d41b91e827a811f6a96877c6ab688bd824",
+ "lines": [
+  {
+   "text": "बालारिष्टाध्यायः",
+   "bbox": [
+    674,
+    720,
+    995,
+    776
+   ]
+  },
+  {
+   "text": "<b>Factors for Early Death</b>",
+   "bbox": [
+    359,
+    782,
+    1313,
+    888
+   ]
+  },
+  {
+   "text": "सन्ध्यायां हिमदीधितिहोरा पापैर्भान्तगतैर्निधनाय।",
+   "bbox": [
+    308,
+    1038,
+    989,
+    1113
+   ]
+  },
+  {
+   "text": "प्रत्येकं शशिपापसमेतै: केन्द्रैर्वा स विनाशमुपैति।। 1 ।।",
+   "bbox": [
+    310,
+    1100,
+    1116,
+    1178
+   ]
+  },
+  {
+   "text": "A child born at the Sandhya (Twi light--ie the duration",
+   "bbox": [
+    310,
+    1182,
+    1456,
+    1268
+   ]
+  },
+  {
+   "text": "of 36 minutes following the removal from sight of the middle.",
+   "bbox": [
+    238,
+    1238,
+    1472,
+    1321
+   ]
+  },
+  {
+   "text": "of the solar disc) time in the hora of Moon (see shloka 11",
+   "bbox": [
+    241,
+    1291,
+    1456,
+    1371
+   ]
+  },
+  {
+   "text": "of chapter 1) and with malefic planets located at the end",
+   "bbox": [
+    241,
+    1345,
+    1460,
+    1423
+   ]
+  },
+  {
+   "text": "of signs, does not survive. Similarly with Moon located",
+   "bbox": [
+    242,
+    1397,
+    1462,
+    1477
+   ]
+  },
+  {
+   "text": "with a malefic planet and all the kendras from Moon and",
+   "bbox": [
+    243,
+    1448,
+    1463,
+    1530
+   ]
+  },
+  {
+   "text": "the lagna occupied by malefic planets the child dies soon",
+   "bbox": [
+    243,
+    1503,
+    1464,
+    1583
+   ]
+  },
+  {
+   "text": "after birth.",
+   "bbox": [
+    248,
+    1585,
+    476,
+    1627
+   ]
+  },
+  {
+   "text": "Commentary: The cause of short life in this case is obvi-",
+   "bbox": [
+    323,
+    1634,
+    1469,
+    1711
+   ]
+  },
+  {
+   "text": "ously due to the birth taking place at junction point in time",
+   "bbox": [
+    251,
+    1688,
+    1470,
+    1764
+   ]
+  },
+  {
+   "text": "when malefics also occupy those lifeless points.",
+   "bbox": [
+    251,
+    1746,
+    1191,
+    1816
+   ]
+  },
+  {
+   "text": "चक्रस्य पूर्वापरभागगेषु क्रूरेषु सौम्येषु च कोटलग्ने।",
+   "bbox": [
+    327,
+    1829,
+    1067,
+    1898
+   ]
+  },
+  {
+   "text": "क्षिप्रं विनाशं समुपैति जात: पापैर्विलग्नास्तमयाभितैश्च।। 2 ।।",
+   "bbox": [
+    328,
+    1886,
+    1213,
+    1966
+   ]
+  },
+  {
+   "text": "If the lagna be Cancer or Scorpio and the first six houses",
+   "bbox": [
+    333,
+    1977,
+    1479,
+    2051
+   ]
+  },
+  {
+   "text": "are occupied by malefic planets while the benefics are in the",
+   "bbox": [
+    258,
+    2026,
+    1479,
+    2110
+   ]
+  },
+  {
+   "text": "other half. This is a yoga for early death of the native. If the",
+   "bbox": [
+    259,
+    2080,
+    1481,
+    2163
+   ]
+  },
+  {
+   "text": "malefic planets occupy the lagna and the 7th house or if they",
+   "bbox": [
+    260,
+    2134,
+    1483,
+    2215
+   ]
+  },
+  {
+   "text": "surround these two houses this also constitutes a yoga for",
+   "bbox": [
+    262,
+    2188,
+    1485,
+    2267
+   ]
+  },
+  {
+   "text": "short life.",
+   "bbox": [
+    264,
+    2270,
+    465,
+    2314
+   ]
+  }
+ ]
+}

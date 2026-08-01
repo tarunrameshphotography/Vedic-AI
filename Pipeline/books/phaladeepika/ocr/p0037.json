@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0037",
+ "book_id": "phaladeepika",
+ "seq": 37,
+ "source_ref": {
+  "pdf_page": 37
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "19cc1f551f1f2f39b1ea300eca0c775a93b3df490e3285649fcd619a76cffd61",
+ "lines": [
+  {
+   "text": "<b>Drik bala (Directional strength)</b>",
+   "bbox": [
+    121,
+    57,
+    303,
+    73
+   ]
+  },
+  {
+   "text": "(a) Amongst the Sun and Mars, whoever Is the 10th Bhava madhya (South) ",
+   "bbox": [
+    121,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "gets 1 Rupja strength. Their strength is nil if they are located in the 4th Bhava ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "madhya. In the intervening locations, the strength has to be calculated ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "proportionately.",
+   "bbox": [
+    85,
+    154,
+    174,
+    169
+   ]
+  },
+  {
+   "text": "(b) Amongst the Moon and Venus, whoever is in 4th Bhava madhya (North) ",
+   "bbox": [
+    121,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "gets 1 Rupa of strength. Their strength is nil if they are located in the 10th Bhava ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "madhya. In the intervening locations their strength has to be calculated ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "proportionately.",
+   "bbox": [
+    85,
+    251,
+    174,
+    266
+   ]
+  },
+  {
+   "text": "(c) Amongst Mercury and Jupiter, whoever is in the Bhava madhya of the ",
+   "bbox": [
+    121,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "1st Bhava (Lagna) (East) get 1 Rupa of strength. Their strength is nil if located in ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "7th Bhava madhya (West).",
+   "bbox": [
+    85,
+    323,
+    234,
+    339
+   ]
+  },
+  {
+   "text": "(d) If Saturn is in the 7th Bhava madhya, he gets 1 Rupa of strength. In the ",
+   "bbox": [
+    121,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "1st Bhava madhya his strength is nil. In the intervening locations the strength has ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "to be calculated proportionately.",
+   "bbox": [
+    85,
+    395,
+    266,
+    411
+   ]
+  },
+  {
+   "text": "<b>Kala Bala</b>",
+   "bbox": [
+    121,
+    420,
+    181,
+    435
+   ]
+  },
+  {
+   "text": "This is admixture of the kinds of strength as described below: —",
+   "bbox": [
+    121,
+    444,
+    484,
+    459
+   ]
+  },
+  {
+   "text": "(1) (a) The Sun, Jupiter and Venus get 1 Rupa of strength exactly at mid-",
+   "bbox": [
+    121,
+    468,
+    552,
+    483
+   ]
+  },
+  {
+   "text": "noon. Exactly at mid-night they are devoid of any strength. For the intervening ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "periods the strength has to be calculated proportionately.",
+   "bbox": [
+    85,
+    516,
+    402,
+    532
+   ]
+  },
+  {
+   "text": "(b) The Moon, Mars and Saturn get one Rupa of strength if the birth is ",
+   "bbox": [
+    121,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "exactly at mid-night. Exactly at mid-noon, their strength is nil. For the intervening ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "periods, the strength has to be calculated proportionately.",
+   "bbox": [
+    85,
+    589,
+    405,
+    604
+   ]
+  },
+  {
+   "text": "(c) Mercury gets one Rupa of strength if the birth be at any time during the ",
+   "bbox": [
+    121,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "day time.",
+   "bbox": [
+    85,
+    637,
+    137,
+    652
+   ]
+  },
+  {
+   "text": "(2) (a) When the Sun and the Moon are at a distance of 180° from each ",
+   "bbox": [
+    121,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "other, the benefics get one Rupa of strength. When they are together the benefics ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "get no strength at all. For the intervening distances, the strength has to be ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "calculated proportionately.",
+   "bbox": [
+    85,
+    734,
+    234,
+    749
+   ]
+  },
+  {
+   "text": "The Moon, Mercury, Jupiter and Venus are benefics. Keshavi Jatak is of the ",
+   "bbox": [
+    121,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "37",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

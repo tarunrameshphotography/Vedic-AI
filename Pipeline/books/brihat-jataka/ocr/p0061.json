@@ -1,0 +1,461 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0061",
+ "book_id": "brihat-jataka",
+ "seq": 61,
+ "source_ref": {
+  "pdf_page": 31,
+  "half": "a",
+  "v1_page": "s031a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "a26374d0e0c2f527cc3e3fcec56909b4e8feb446340cdc7839222ec258492c45",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1258,
+    229,
+    1550,
+    262
+   ]
+  },
+  {
+   "text": "58",
+   "bbox": [
+    332,
+    230,
+    399,
+    263
+   ]
+  },
+  {
+   "text": "If Jupiter aspects neither the lagna nor the Moon, or if",
+   "bbox": [
+    407,
+    331,
+    1556,
+    370
+   ]
+  },
+  {
+   "text": "there is no aspect of Jupiter on Sun and Moon located in one",
+   "bbox": [
+    332,
+    381,
+    1552,
+    421
+   ]
+  },
+  {
+   "text": "sign, the birth should be declared without doubt as bastard. It",
+   "bbox": [
+    332,
+    427,
+    1553,
+    475
+   ]
+  },
+  {
+   "text": "is also a bastard birth if Sun and Moon are in the company of",
+   "bbox": [
+    331,
+    483,
+    1555,
+    522
+   ]
+  },
+  {
+   "text": "malefics.",
+   "bbox": [
+    331,
+    534,
+    512,
+    568
+   ]
+  },
+  {
+   "text": "<i>Commentary:</i> From a perusal of the above shloka it would",
+   "bbox": [
+    406,
+    604,
+    1553,
+    643
+   ]
+  },
+  {
+   "text": "be observed that the influence of Jupiter is highly validating in",
+   "bbox": [
+    332,
+    654,
+    1550,
+    695
+   ]
+  },
+  {
+   "text": "character. If a strong Jupiter influences by association or",
+   "bbox": [
+    329,
+    706,
+    1552,
+    746
+   ]
+  },
+  {
+   "text": "aspect the factor trying to create a bastard birth, it validates",
+   "bbox": [
+    332,
+    756,
+    1550,
+    796
+   ]
+  },
+  {
+   "text": "the birth as from one's own father. It may, however, be added",
+   "bbox": [
+    331,
+    802,
+    1550,
+    848
+   ]
+  },
+  {
+   "text": "from our experience that a Jupiter who is under heavy afflic-",
+   "bbox": [
+    328,
+    857,
+    1549,
+    896
+   ]
+  },
+  {
+   "text": "tion (say in 4 or more ways) ceases to be a validating factor and",
+   "bbox": [
+    331,
+    906,
+    1550,
+    947
+   ]
+  },
+  {
+   "text": "on the contrary acts as a malefic to enhance the undesirable",
+   "bbox": [
+    331,
+    958,
+    1549,
+    998
+   ]
+  },
+  {
+   "text": "effects of the other planets bringing about a bastard birth. The",
+   "bbox": [
+    329,
+    1009,
+    1549,
+    1049
+   ]
+  },
+  {
+   "text": "following is the birth chart of a boy born from a man other than",
+   "bbox": [
+    328,
+    1059,
+    1550,
+    1100
+   ]
+  },
+  {
+   "text": "the legitimate husband of his mother.",
+   "bbox": [
+    332,
+    1110,
+    1083,
+    1150
+   ]
+  },
+  {
+   "text": "Inspite of the fact that",
+   "bbox": [
+    1032,
+    1184,
+    1556,
+    1225
+   ]
+  },
+  {
+   "text": "Jupiter is located with Sun,",
+   "bbox": [
+    959,
+    1237,
+    1549,
+    1276
+   ]
+  },
+  {
+   "text": "<b>Mars</b>",
+   "bbox": [
+    501,
+    1250,
+    587,
+    1280
+   ]
+  },
+  {
+   "text": "Saturn",
+   "bbox": [
+    646,
+    1252,
+    753,
+    1281
+   ]
+  },
+  {
+   "text": "Ketu",
+   "bbox": [
+    800,
+    1252,
+    875,
+    1282
+   ]
+  },
+  {
+   "text": "the significator of father and",
+   "bbox": [
+    962,
+    1287,
+    1550,
+    1327
+   ]
+  },
+  {
+   "text": "is fully aspecting Saturn lord",
+   "bbox": [
+    960,
+    1338,
+    1550,
+    1378
+   ]
+  },
+  {
+   "text": "Sun",
+   "bbox": [
+    344,
+    1360,
+    415,
+    1390
+   ]
+  },
+  {
+   "text": "of the sign occupied by Sun as",
+   "bbox": [
+    963,
+    1389,
+    1549,
+    1429
+   ]
+  },
+  {
+   "text": "Jupiter",
+   "bbox": [
+    344,
+    1402,
+    451,
+    1434
+   ]
+  },
+  {
+   "text": "also, the lord of the sign occu-",
+   "bbox": [
+    962,
+    1439,
+    1549,
+    1479
+   ]
+  },
+  {
+   "text": "Mercury",
+   "bbox": [
+    344,
+    1443,
+    473,
+    1475
+   ]
+  },
+  {
+   "text": "pied by Moon, the birth is",
+   "bbox": [
+    962,
+    1490,
+    1549,
+    1530
+   ]
+  },
+  {
+   "text": "Moon",
+   "bbox": [
+    348,
+    1538,
+    438,
+    1567
+   ]
+  },
+  {
+   "text": "bastard. The Phenomenon, as",
+   "bbox": [
+    962,
+    1541,
+    1549,
+    1580
+   ]
+  },
+  {
+   "text": "Venus",
+   "bbox": [
+    350,
+    1580,
+    447,
+    1608
+   ]
+  },
+  {
+   "text": "we have said, is due to the",
+   "bbox": [
+    960,
+    1592,
+    1549,
+    1631
+   ]
+  },
+  {
+   "text": "heavy affliction of Jupiter.",
+   "bbox": [
+    960,
+    1642,
+    1549,
+    1682
+   ]
+  },
+  {
+   "text": "Firstly Jupiter owns the sign",
+   "bbox": [
+    960,
+    1692,
+    1547,
+    1733
+   ]
+  },
+  {
+   "text": "Rahu",
+   "bbox": [
+    344,
+    1711,
+    431,
+    1743
+   ]
+  },
+  {
+   "text": "occupied by Rahu, secondly it",
+   "bbox": [
+    959,
+    1743,
+    1549,
+    1784
+   ]
+  },
+  {
+   "text": "is with Mercury lord of the",
+   "bbox": [
+    957,
+    1794,
+    1549,
+    1835
+   ]
+  },
+  {
+   "text": "sign occupied by two malefics viz Saturn and Ketu. Thirdly it",
+   "bbox": [
+    326,
+    1846,
+    1549,
+    1885
+   ]
+  },
+  {
+   "text": "is aspected by the 9th aspect of Ketu who is throwing its own",
+   "bbox": [
+    324,
+    1896,
+    1549,
+    1936
+   ]
+  },
+  {
+   "text": "influence on Jupiter also conveys that of Saturn with which it",
+   "bbox": [
+    323,
+    1943,
+    1549,
+    1989
+   ]
+  },
+  {
+   "text": "is associated. Thus Jupiter is here under as many as four",
+   "bbox": [
+    324,
+    1997,
+    1549,
+    2037
+   ]
+  },
+  {
+   "text": "malefic influences, apart from occupying a malefic sign of",
+   "bbox": [
+    325,
+    2047,
+    1552,
+    2087
+   ]
+  },
+  {
+   "text": "Saturn. Such a Jupiter has not only ceased to be a good and",
+   "bbox": [
+    325,
+    2097,
+    1549,
+    2137
+   ]
+  },
+  {
+   "text": "validating factor but is, on the contrary, turned into a malefic",
+   "bbox": [
+    325,
+    2149,
+    1549,
+    2188
+   ]
+  },
+  {
+   "text": "and a foreign element acting adversely on the birth factors it",
+   "bbox": [
+    324,
+    2198,
+    1549,
+    2238
+   ]
+  },
+  {
+   "text": "aspects.",
+   "bbox": [
+    324,
+    2254,
+    488,
+    2291
+   ]
+  }
+ ]
+}

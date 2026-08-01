@@ -1,0 +1,560 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0017",
+ "book_id": "brihat-jataka",
+ "seq": 17,
+ "source_ref": {
+  "pdf_page": 9,
+  "half": "a",
+  "v1_page": "s009a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "614dcd5c901483d88db174db0d7058e5037742f4cd2323919845640fe725494c",
+ "lines": [
+  {
+   "text": "14",
+   "bbox": [
+    281,
+    185,
+    335,
+    213
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1202,
+    194,
+    1498,
+    231
+   ]
+  },
+  {
+   "text": "particular Navamsa in any sign is to multiply the sign in the",
+   "bbox": [
+    270,
+    283,
+    1498,
+    340
+   ]
+  },
+  {
+   "text": "longitude by 9, add the requisite number for the Navamsa and",
+   "bbox": [
+    270,
+    332,
+    1498,
+    389
+   ]
+  },
+  {
+   "text": "divide the result by 12. If it is more than 12, the remainder will",
+   "bbox": [
+    270,
+    383,
+    1495,
+    440
+   ]
+  },
+  {
+   "text": "be the sign belonging to Navamsa involved and the lord of the",
+   "bbox": [
+    269,
+    436,
+    1493,
+    491
+   ]
+  },
+  {
+   "text": "Navamsa will be the lord of that sign.",
+   "bbox": [
+    266,
+    487,
+    1028,
+    538
+   ]
+  },
+  {
+   "text": "Example: Find out the Navamsa lord of the",
+   "bbox": [
+    339,
+    558,
+    1493,
+    613
+   ]
+  },
+  {
+   "text": "Longitude <math>5^s-14^o-0</math>. Multiply 5 by <math>9 = 45 + \\text{ digits}</math>",
+   "bbox": [
+    262,
+    605,
+    1492,
+    664
+   ]
+  },
+  {
+   "text": "representing the 5th Navamsa comprises of 14 degrees <math>= 5.45</math>",
+   "bbox": [
+    263,
+    654,
+    1491,
+    716
+   ]
+  },
+  {
+   "text": "<math>+5 = 50 \\div 12</math> leave 2. Hence the Navamsa is Taurus and its",
+   "bbox": [
+    262,
+    707,
+    1491,
+    763
+   ]
+  },
+  {
+   "text": "lord Venus.",
+   "bbox": [
+    263,
+    761,
+    501,
+    799
+   ]
+  },
+  {
+   "text": "Example: Find out the Navamsa Lagna when the Longi-",
+   "bbox": [
+    333,
+    827,
+    1486,
+    887
+   ]
+  },
+  {
+   "text": "tude of Lagna is <math>10^{\\circ} - 17^{\\circ} - 20</math>. Here <math>10 \\times 9 = 90 + 6</math> (for <math>17^{\\circ} - 20</math>)",
+   "bbox": [
+    260,
+    877,
+    1489,
+    936
+   ]
+  },
+  {
+   "text": "<math>= 96 \\div 12</math> leaves 0 ie Pisces. Hence the Navamsa Lagna would",
+   "bbox": [
+    259,
+    926,
+    1489,
+    987
+   ]
+  },
+  {
+   "text": "be Pisces <math>(12)</math>.",
+   "bbox": [
+    261,
+    986,
+    547,
+    1022
+   ]
+  },
+  {
+   "text": "Lords of Trimshamshas (1/30th of a sign)",
+   "bbox": [
+    256,
+    1082,
+    1327,
+    1143
+   ]
+  },
+  {
+   "text": "कुजरविजगुरुज्ञशुक्रभागा: पवनसमीरणकौर्पिजूकलेया:।",
+   "bbox": [
+    332,
+    1161,
+    1106,
+    1224
+   ]
+  },
+  {
+   "text": "अयुजि युजि तु भे विपर्ययस्थाः शशिभवनालिझषान्तमृक्षसन्धिः ।। 7 ।।",
+   "bbox": [
+    329,
+    1228,
+    1359,
+    1292
+   ]
+  },
+  {
+   "text": "In odd signs <math>(1, 3, 5, 7, 9, 11)</math>, the lord of the first five",
+   "bbox": [
+    329,
+    1321,
+    1479,
+    1377
+   ]
+  },
+  {
+   "text": "degrees will be Mars, the next 5 degrees ie from 6 to 10 the lord",
+   "bbox": [
+    253,
+    1372,
+    1476,
+    1426
+   ]
+  },
+  {
+   "text": "will be Saturn. The next 8 degrees ie from 11 to 18 the lord will",
+   "bbox": [
+    253,
+    1422,
+    1475,
+    1477
+   ]
+  },
+  {
+   "text": "be Jupiter, of the next 7 ie 19 to 25 degrees the lord will be",
+   "bbox": [
+    252,
+    1472,
+    1473,
+    1528
+   ]
+  },
+  {
+   "text": "Mercury and the last 5 degrees ie from 26 to 30 the lordship",
+   "bbox": [
+    250,
+    1523,
+    1473,
+    1579
+   ]
+  },
+  {
+   "text": "will go to Venus. In the case of the even signs (2, 4, 6, 8, 10 and",
+   "bbox": [
+    250,
+    1572,
+    1472,
+    1631
+   ]
+  },
+  {
+   "text": "12) the order is reversed ie the lord of the first five degrees will",
+   "bbox": [
+    252,
+    1624,
+    1473,
+    1681
+   ]
+  },
+  {
+   "text": "be Venus, of next 7 Mercury, of next 8 Jupiter, of next 5 Saturn",
+   "bbox": [
+    247,
+    1677,
+    1472,
+    1730
+   ]
+  },
+  {
+   "text": "and of the last 5 Mars. This is reflected in the table below:",
+   "bbox": [
+    247,
+    1726,
+    1422,
+    1780
+   ]
+  },
+  {
+   "text": "Odd Sign Lords",
+   "bbox": [
+    691,
+    1810,
+    1020,
+    1854
+   ]
+  },
+  {
+   "text": "Mars",
+   "bbox": [
+    294,
+    1866,
+    410,
+    1906
+   ]
+  },
+  {
+   "text": "Saturn",
+   "bbox": [
+    531,
+    1874,
+    677,
+    1908
+   ]
+  },
+  {
+   "text": "Jupiter",
+   "bbox": [
+    778,
+    1876,
+    937,
+    1913
+   ]
+  },
+  {
+   "text": "Mercury",
+   "bbox": [
+    1015,
+    1878,
+    1198,
+    1917
+   ]
+  },
+  {
+   "text": "Venus",
+   "bbox": [
+    1293,
+    1880,
+    1429,
+    1919
+   ]
+  },
+  {
+   "text": "<math>5^{\\circ}</math>",
+   "bbox": [
+    328,
+    1931,
+    377,
+    1964
+   ]
+  },
+  {
+   "text": "<math>5^{\\circ}</math>",
+   "bbox": [
+    581,
+    1935,
+    626,
+    1967
+   ]
+  },
+  {
+   "text": "8<sup>o</sup>",
+   "bbox": [
+    832,
+    1938,
+    877,
+    1970
+   ]
+  },
+  {
+   "text": "7°",
+   "bbox": [
+    1084,
+    1940,
+    1130,
+    1973
+   ]
+  },
+  {
+   "text": "<math>5^{\\circ}</math>",
+   "bbox": [
+    1336,
+    1944,
+    1382,
+    1977
+   ]
+  },
+  {
+   "text": "1 to 5",
+   "bbox": [
+    291,
+    1995,
+    410,
+    2031
+   ]
+  },
+  {
+   "text": "6 to 10",
+   "bbox": [
+    531,
+    1999,
+    676,
+    2034
+   ]
+  },
+  {
+   "text": "11 to 18",
+   "bbox": [
+    772,
+    2002,
+    939,
+    2036
+   ]
+  },
+  {
+   "text": "19 to 25",
+   "bbox": [
+    1023,
+    2005,
+    1187,
+    2039
+   ]
+  },
+  {
+   "text": "26 to 30",
+   "bbox": [
+    1272,
+    2007,
+    1444,
+    2043
+   ]
+  },
+  {
+   "text": "Even Sign Lords",
+   "bbox": [
+    679,
+    2085,
+    1024,
+    2133
+   ]
+  },
+  {
+   "text": "Venus",
+   "bbox": [
+    284,
+    2148,
+    414,
+    2183
+   ]
+  },
+  {
+   "text": "Mercury",
+   "bbox": [
+    512,
+    2150,
+    688,
+    2189
+   ]
+  },
+  {
+   "text": "Jupiter",
+   "bbox": [
+    775,
+    2154,
+    930,
+    2191
+   ]
+  },
+  {
+   "text": "Saturn",
+   "bbox": [
+    1029,
+    2157,
+    1175,
+    2192
+   ]
+  },
+  {
+   "text": "Mars",
+   "bbox": [
+    1297,
+    2159,
+    1411,
+    2194
+   ]
+  },
+  {
+   "text": "<math>5^\\circ</math>",
+   "bbox": [
+    323,
+    2208,
+    371,
+    2243
+   ]
+  },
+  {
+   "text": "<math>7^\\mathrm{o}</math>",
+   "bbox": [
+    578,
+    2211,
+    623,
+    2245
+   ]
+  },
+  {
+   "text": "8<sup>o</sup>",
+   "bbox": [
+    829,
+    2214,
+    874,
+    2248
+   ]
+  },
+  {
+   "text": "<math>5^{\\circ}</math>",
+   "bbox": [
+    1078,
+    2217,
+    1124,
+    2250
+   ]
+  },
+  {
+   "text": "<math>5^{\\rm o}</math>",
+   "bbox": [
+    1331,
+    2219,
+    1381,
+    2252
+   ]
+  },
+  {
+   "text": "<math>1</math> to <math>5</math>",
+   "bbox": [
+    290,
+    2272,
+    406,
+    2308
+   ]
+  },
+  {
+   "text": "6 to 12",
+   "bbox": [
+    526,
+    2276,
+    673,
+    2311
+   ]
+  },
+  {
+   "text": "13 to 20",
+   "bbox": [
+    769,
+    2277,
+    934,
+    2312
+   ]
+  },
+  {
+   "text": "21 to 25",
+   "bbox": [
+    1015,
+    2281,
+    1183,
+    2316
+   ]
+  },
+  {
+   "text": "26 to 30",
+   "bbox": [
+    1267,
+    2284,
+    1440,
+    2319
+   ]
+  }
+ ]
+}

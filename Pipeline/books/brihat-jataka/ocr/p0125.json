@@ -1,0 +1,317 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0125",
+ "book_id": "brihat-jataka",
+ "seq": 125,
+ "source_ref": {
+  "pdf_page": 63,
+  "half": "a",
+  "v1_page": "s063a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "2a086b76fed8e785afccb5fab4c95fe7e31efeec553d72183f9fe88259f0afbb",
+ "lines": [
+  {
+   "text": "122",
+   "bbox": [
+    463,
+    173,
+    557,
+    208
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1385,
+    206,
+    1673,
+    248
+   ]
+  },
+  {
+   "text": "Venus with other Planets",
+   "bbox": [
+    453,
+    270,
+    1127,
+    336
+   ]
+  },
+  {
+   "text": "असितसितसमागमेऽल्पचक्षुर्युवतिसमाश्रयसम्प्रवृद्धवित्त:।",
+   "bbox": [
+    523,
+    355,
+    1303,
+    434
+   ]
+  },
+  {
+   "text": "भवति च लिपिपुस्तचित्रवेत्ता कथितफलै: परतो विकल्पनीया:।। 5 ।।",
+   "bbox": [
+    520,
+    408,
+    1543,
+    511
+   ]
+  },
+  {
+   "text": "If Venus is with Saturn the man has short sight and his",
+   "bbox": [
+    516,
+    507,
+    1667,
+    599
+   ]
+  },
+  {
+   "text": "wealth increases as a result of contract or service with women.",
+   "bbox": [
+    441,
+    559,
+    1664,
+    645
+   ]
+  },
+  {
+   "text": "He is clever in writing books or in painting etc. If two planets",
+   "bbox": [
+    439,
+    611,
+    1662,
+    702
+   ]
+  },
+  {
+   "text": "are located in different houses even then the said results hold",
+   "bbox": [
+    437,
+    659,
+    1658,
+    754
+   ]
+  },
+  {
+   "text": "good.",
+   "bbox": [
+    435,
+    719,
+    550,
+    765
+   ]
+  },
+  {
+   "text": "इति श्रीवराहमिहिरकृते बृहज्जातके द्विग्रहयोगाध्यायश्चतुर्दश: ।। 14 ।।",
+   "bbox": [
+    503,
+    788,
+    1554,
+    890
+   ]
+  },
+  {
+   "text": "Thus ends the fourteenth chapter on Combination of Plan-",
+   "bbox": [
+    503,
+    889,
+    1652,
+    977
+   ]
+  },
+  {
+   "text": "ets in Brihat Jatak composed by Varahamihira.",
+   "bbox": [
+    425,
+    939,
+    1379,
+    1015
+   ]
+  },
+  {
+   "text": "○ A 「A 」 A (0) (A ) A (4) 「 「 「 「 」 A 」 「 」 - A 」 「 」 A",
+   "bbox": [
+    673,
+    1166,
+    1599,
+    1258
+   ]
+  },
+  {
+   "text": "a de canto de Margaret de Margaret e de consegueix de consegueix de la consegueix de la consegueix de la consegueix",
+   "bbox": [
+    303,
+    1210,
+    1534,
+    1302
+   ]
+  },
+  {
+   "text": "<b>这个问题，我们是一个人的人，我们的人们的人们，我们的人们的人们的人们的人们的人们。</b>",
+   "bbox": [
+    383,
+    1269,
+    1638,
+    1355
+   ]
+  },
+  {
+   "text": "and the set of the same of the contribution of the contribution of the contribution of the contribution of the",
+   "bbox": [
+    330,
+    1317,
+    1634,
+    1409
+   ]
+  },
+  {
+   "text": "and the state of the control of the state of the state of the state of the state of the state of the state of",
+   "bbox": [
+    310,
+    1370,
+    1636,
+    1461
+   ]
+  },
+  {
+   "text": "and a period. Specialists a scriptists of the",
+   "bbox": [
+    310,
+    1432,
+    1114,
+    1485
+   ]
+  },
+  {
+   "text": "- Control Search Management mayors in Det months for an informational Detail in 2014 (2014)",
+   "bbox": [
+    314,
+    1478,
+    1598,
+    1562
+   ]
+  },
+  {
+   "text": "and the same of the late state the state of the distinguished of",
+   "bbox": [
+    303,
+    1534,
+    1202,
+    1598
+   ]
+  },
+  {
+   "text": "- 19 - 4 - 20 - 20 - 20 - 20 - 20 - 20 - 20 ",
+   "bbox": [
+    221,
+    1576,
+    1519,
+    1652
+   ]
+  },
+  {
+   "text": "dent i de la finita la finita del constituir en la finita del constituir en la finita del constituir en la finita del c",
+   "bbox": [
+    203,
+    1630,
+    1518,
+    1710
+   ]
+  },
+  {
+   "text": "<u>i ing katapatèn Jawa salah sa</u>",
+   "bbox": [
+    910,
+    1719,
+    1514,
+    1773
+   ]
+  },
+  {
+   "text": "in the contribution of the Contribution of the Contribution of the Contribution of the Contribution of the Contribution of the Contribution of the Contribution of the Contribution of the Contribution of the Contribution of",
+   "bbox": [
+    165,
+    1728,
+    1524,
+    1848
+   ]
+  },
+  {
+   "text": "<b>我们的人们的人们的人们的人们的人们的人们的人们的人们的人们的人</b>",
+   "bbox": [
+    364,
+    1829,
+    1516,
+    1931
+   ]
+  },
+  {
+   "text": "→ panthing company(分析符), DDMAT (分析符) ; U → 例 HTML comp = 0",
+   "bbox": [
+    354,
+    1891,
+    1548,
+    1986
+   ]
+  },
+  {
+   "text": "<b>Address that a common the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract of the con</b>",
+   "bbox": [
+    356,
+    1949,
+    1549,
+    2039
+   ]
+  },
+  {
+   "text": "지수는 아이의 기사가 한국 사람이 아니라 이 사람이 아니라 이 사람이 있는 것이 아니라 그 사람이 있다.",
+   "bbox": [
+    375,
+    2020,
+    1551,
+    2088
+   ]
+  },
+  {
+   "text": "<b>“我们会不会的，这样的，我们的人们的人们的人们的人们的</b>。”",
+   "bbox": [
+    334,
+    2083,
+    1522,
+    2177
+   ]
+  },
+  {
+   "text": "nt a a bheat, a cuanair",
+   "bbox": [
+    364,
+    2130,
+    925,
+    2180
+   ]
+  },
+  {
+   "text": "一定的第三人称形式 医中枢性神经性神经病 医神经病 医血管切除术",
+   "bbox": [
+    315,
+    2160,
+    1537,
+    2221
+   ]
+  },
+  {
+   "text": "- 그래서 1994년 - 1994년 - 2월 10일, 대학교 정부 및 정보 등 등 등 10일 이상 등",
+   "bbox": [
+    255,
+    2211,
+    1540,
+    2277
+   ]
+  }
+ ]
+}

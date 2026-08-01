@@ -1,0 +1,182 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0003",
+ "book_id": "brihat-jataka",
+ "seq": 3,
+ "source_ref": {
+  "pdf_page": 2,
+  "half": "a",
+  "v1_page": "s002a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "8bd261f376ff8cd27a2573563c8d96b20157ed21e659935b9d2a3cd60b2e6294",
+ "lines": [
+  {
+   "text": "About the Book",
+   "bbox": [
+    496,
+    337,
+    986,
+    400
+   ]
+  },
+  {
+   "text": "A Unique text by India's greatest",
+   "bbox": [
+    399,
+    445,
+    1116,
+    492
+   ]
+  },
+  {
+   "text": "astronomer and astrologer Varaha",
+   "bbox": [
+    323,
+    516,
+    1116,
+    563
+   ]
+  },
+  {
+   "text": "Mihira known in India, Egypt, Greece",
+   "bbox": [
+    323,
+    589,
+    1116,
+    637
+   ]
+  },
+  {
+   "text": "and elsewhere. This work laid the solid",
+   "bbox": [
+    324,
+    661,
+    1115,
+    702
+   ]
+  },
+  {
+   "text": "foundations of Indian astrology.",
+   "bbox": [
+    323,
+    733,
+    1116,
+    780
+   ]
+  },
+  {
+   "text": "Special combinations, indications for",
+   "bbox": [
+    323,
+    805,
+    1118,
+    852
+   ]
+  },
+  {
+   "text": "asceticism, rectification of Birth time,",
+   "bbox": [
+    326,
+    880,
+    1119,
+    922
+   ]
+  },
+  {
+   "text": "female horoscopy, Ashtaka varga and",
+   "bbox": [
+    323,
+    950,
+    1116,
+    998
+   ]
+  },
+  {
+   "text": "unknown birth horoscopes are",
+   "bbox": [
+    323,
+    1022,
+    1118,
+    1069
+   ]
+  },
+  {
+   "text": "explained in detail.",
+   "bbox": [
+    323,
+    1094,
+    717,
+    1142
+   ]
+  },
+  {
+   "text": "The chapter on the decanates is",
+   "bbox": [
+    399,
+    1182,
+    1116,
+    1228
+   ]
+  },
+  {
+   "text": "unique. It is a source-book for all",
+   "bbox": [
+    324,
+    1252,
+    1112,
+    1301
+   ]
+  },
+  {
+   "text": "vedic astrology principles. The",
+   "bbox": [
+    324,
+    1322,
+    1118,
+    1372
+   ]
+  },
+  {
+   "text": "commentrator has discussed the text",
+   "bbox": [
+    323,
+    1395,
+    1116,
+    1441
+   ]
+  },
+  {
+   "text": "on the basis of his own vast experience.",
+   "bbox": [
+    323,
+    1467,
+    1106,
+    1516
+   ]
+  },
+  {
+   "text": "This is essential for beginners as",
+   "bbox": [
+    397,
+    1548,
+    1114,
+    1601
+   ]
+  },
+  {
+   "text": "well as for practitioners.",
+   "bbox": [
+    324,
+    1618,
+    830,
+    1670
+   ]
+  }
+ ]
+}

@@ -1,0 +1,236 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0218",
+ "book_id": "brihat-jataka",
+ "seq": 218,
+ "source_ref": {
+  "pdf_page": 109,
+  "half": "b",
+  "v1_page": "s109b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "d48849f54a767145a09ac198c699d4e761728fe2caef1a67d2bec4fe60817eb5",
+ "lines": [
+  {
+   "text": "215",
+   "bbox": [
+    1432,
+    264,
+    1526,
+    299
+   ]
+  },
+  {
+   "text": "Drekkana",
+   "bbox": [
+    314,
+    284,
+    515,
+    319
+   ]
+  },
+  {
+   "text": "3, Mithuna 2 and 3, Karka 1 and 3, all the three of Simha,",
+   "bbox": [
+    313,
+    360,
+    1531,
+    424
+   ]
+  },
+  {
+   "text": "second of Kanya, all the three of Tula, the third of Vrishchika,",
+   "bbox": [
+    316,
+    410,
+    1529,
+    478
+   ]
+  },
+  {
+   "text": "first and third of Dhanush, first and third of Makara and",
+   "bbox": [
+    316,
+    464,
+    1530,
+    532
+   ]
+  },
+  {
+   "text": "Kumbha and Mina. The rest are female Drekkanas.",
+   "bbox": [
+    316,
+    522,
+    1347,
+    580
+   ]
+  },
+  {
+   "text": "Quadruped drekkanas are: Mesha 2, Vrishabha 2 and 3,",
+   "bbox": [
+    392,
+    596,
+    1534,
+    659
+   ]
+  },
+  {
+   "text": "Karka 1, Simha 1 and 3, Tula 3, Vrishchika 3, Dhanush 1.",
+   "bbox": [
+    317,
+    648,
+    1531,
+    714
+   ]
+  },
+  {
+   "text": "Serpent Drekkanas are Karka 3, Vrishichika 1 and 2, and",
+   "bbox": [
+    319,
+    699,
+    1532,
+    767
+   ]
+  },
+  {
+   "text": "Mina 3. Armed drekkana is Mithuna 3.",
+   "bbox": [
+    319,
+    763,
+    1101,
+    814
+   ]
+  },
+  {
+   "text": "Bird drekkanas are Mithuna 2, Simha 1, Tula 2.",
+   "bbox": [
+    396,
+    838,
+    1364,
+    894
+   ]
+  },
+  {
+   "text": "इति श्रीवराहमिहिरकृते बृहज्जातके द्रेष्काणाध्याय: सप्तविश: ।।27।।",
+   "bbox": [
+    452,
+    1040,
+    1409,
+    1102
+   ]
+  },
+  {
+   "text": "Thus ends the twenty-seventh chapter on Drekkana in",
+   "bbox": [
+    401,
+    1123,
+    1542,
+    1191
+   ]
+  },
+  {
+   "text": "Brihat Jatak composed by Varahamihira.",
+   "bbox": [
+    326,
+    1181,
+    1148,
+    1242
+   ]
+  },
+  {
+   "text": "<b>Special Offer</b>",
+   "bbox": [
+    592,
+    1380,
+    1287,
+    1478
+   ]
+  },
+  {
+   "text": "If you enjoyed this book and would like to",
+   "bbox": [
+    382,
+    1564,
+    1505,
+    1634
+   ]
+  },
+  {
+   "text": "have our catalogue of over 1000 titles on",
+   "bbox": [
+    385,
+    1627,
+    1505,
+    1696
+   ]
+  },
+  {
+   "text": "Astrology and other occult sciences, just send",
+   "bbox": [
+    385,
+    1686,
+    1507,
+    1759
+   ]
+  },
+  {
+   "text": "your name and address and Rs 5/- Postage",
+   "bbox": [
+    385,
+    1749,
+    1510,
+    1820
+   ]
+  },
+  {
+   "text": "stamps (US $ I for overseas customers) as",
+   "bbox": [
+    385,
+    1813,
+    1511,
+    1881
+   ]
+  },
+  {
+   "text": "handling cost to:",
+   "bbox": [
+    387,
+    1895,
+    816,
+    1945
+   ]
+  },
+  {
+   "text": "<b>Ranjan Publications</b>",
+   "bbox": [
+    469,
+    2010,
+    1436,
+    2108
+   ]
+  },
+  {
+   "text": "16, Ansari Road, Darya Ganj,",
+   "bbox": [
+    598,
+    2125,
+    1314,
+    2181
+   ]
+  },
+  {
+   "text": "New Delhi-110002 (INDIA).",
+   "bbox": [
+    628,
+    2190,
+    1278,
+    2249
+   ]
+  }
+ ]
+}

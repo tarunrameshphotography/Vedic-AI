@@ -1,0 +1,315 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0059",
+ "book_id": "phaladeepika",
+ "seq": 59,
+ "source_ref": {
+  "pdf_page": 59
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "9bb7e0917a22ca2d775a8ca5a591275e6d3aa9dd161841aeb9ce7a810a2a81c5",
+ "lines": [
+  {
+   "text": "Rahu",
+   "bbox": [
+    219,
+    78,
+    248,
+    93
+   ]
+  },
+  {
+   "text": "Lagna",
+   "bbox": [
+    273,
+    78,
+    308,
+    93
+   ]
+  },
+  {
+   "text": "Moon",
+   "bbox": [
+    330,
+    78,
+    364,
+    93
+   ]
+  },
+  {
+   "text": "<b>Sardar Patel</b>",
+   "bbox": [
+    281,
+    123,
+    356,
+    138
+   ]
+  },
+  {
+   "text": "<b>Sasa and </b>",
+   "bbox": [
+    292,
+    155,
+    349,
+    170
+   ]
+  },
+  {
+   "text": "<b>Ruchaka Yogas</b>",
+   "bbox": [
+    273,
+    171,
+    364,
+    187
+   ]
+  },
+  {
+   "text": "Mars ",
+   "bbox": [
+    219,
+    183,
+    252,
+    199
+   ]
+  },
+  {
+   "text": "Saturn",
+   "bbox": [
+    215,
+    199,
+    252,
+    215
+   ]
+  },
+  {
+   "text": "Sun",
+   "bbox": [
+    336,
+    232,
+    358,
+    247
+   ]
+  },
+  {
+   "text": "Merc.",
+   "bbox": [
+    330,
+    248,
+    364,
+    264
+   ]
+  },
+  {
+   "text": "Ketu",
+   "bbox": [
+    390,
+    248,
+    418,
+    264
+   ]
+  },
+  {
+   "text": "Jup.Ven",
+   "bbox": [
+    325,
+    264,
+    369,
+    280
+   ]
+  },
+  {
+   "text": "There are other kinds of Kemadruma Yogas mentioned in Jataka Parijata ",
+   "bbox": [
+    121,
+    309,
+    556,
+    324
+   ]
+  },
+  {
+   "text": "which are as follows :-",
+   "bbox": [
+    85,
+    333,
+    213,
+    348
+   ]
+  },
+  {
+   "text": "(1) The Moon in Lagna or the 7th but not aspected by Jupiter.",
+   "bbox": [
+    121,
+    357,
+    466,
+    373
+   ]
+  },
+  {
+   "text": "(2) All the planets devoid of strength and less Bindus in Ashtakavarga.",
+   "bbox": [
+    121,
+    381,
+    516,
+    397
+   ]
+  },
+  {
+   "text": "(3) The Moon in case of a night birth if in fall or in enemy's Rasi/Navamsa ",
+   "bbox": [
+    121,
+    405,
+    556,
+    421
+   ]
+  },
+  {
+   "text": "and aspected by the 10th lord.",
+   "bbox": [
+    85,
+    430,
+    253,
+    445
+   ]
+  },
+  {
+   "text": "(4) The Moon in Scorpio Navamsa joining a malefic and aspected by Lagna ",
+   "bbox": [
+    121,
+    454,
+    556,
+    469
+   ]
+  },
+  {
+   "text": "lord.",
+   "bbox": [
+    85,
+    478,
+    111,
+    493
+   ]
+  },
+  {
+   "text": "(5) The waning Moon in Neecha Rasi for a night birth. As regards Anapha, ",
+   "bbox": [
+    121,
+    502,
+    556,
+    518
+   ]
+  },
+  {
+   "text": "Sunapha and Durudhara Yogas according to Saravali by all possible permutations ",
+   "bbox": [
+    85,
+    526,
+    556,
+    542
+   ]
+  },
+  {
+   "text": "and transmutations, one can see 30 kinds of Sunapha yoga, 30 kinds of Anapha and ",
+   "bbox": [
+    85,
+    550,
+    556,
+    566
+   ]
+  },
+  {
+   "text": "180 kinds of Durudhara yogas. For details please consult English translation and ",
+   "bbox": [
+    85,
+    574,
+    556,
+    590
+   ]
+  },
+  {
+   "text": "commentary of Saravali published by Ranjan Publications.",
+   "bbox": [
+    85,
+    599,
+    414,
+    614
+   ]
+  },
+  {
+   "text": "6. The person with Sunapha Yoga at birth will be a monarch or his equal ",
+   "bbox": [
+    121,
+    623,
+    556,
+    638
+   ]
+  },
+  {
+   "text": "with self acquired property and respected and renounced for his intellectual ability ",
+   "bbox": [
+    85,
+    647,
+    556,
+    662
+   ]
+  },
+  {
+   "text": "and riches. The person born with Anapha Yoga will be powerful, will enjoy good ",
+   "bbox": [
+    85,
+    671,
+    556,
+    687
+   ]
+  },
+  {
+   "text": "health and will have sweet temperament. He will be famous and all worldly ",
+   "bbox": [
+    85,
+    695,
+    556,
+    711
+   ]
+  },
+  {
+   "text": "comforts will be available to him. He will be well dressed contented and happy.",
+   "bbox": [
+    85,
+    719,
+    531,
+    735
+   ]
+  },
+  {
+   "text": "7. The native with Durudhara Yoga will enjoy all comforts of life as may ",
+   "bbox": [
+    121,
+    744,
+    556,
+    759
+   ]
+  },
+  {
+   "text": "become available to a ruler and will own abundant wealth and vehicles. He will be ",
+   "bbox": [
+    85,
+    768,
+    556,
+    783
+   ]
+  },
+  {
+   "text": "59",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

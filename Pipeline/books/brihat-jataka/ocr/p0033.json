@@ -1,0 +1,371 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0033",
+ "book_id": "brihat-jataka",
+ "seq": 33,
+ "source_ref": {
+  "pdf_page": 17,
+  "half": "a",
+  "v1_page": "s017a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "ba0c0ee03f1a72b280c279711e746e2fd9bfef3201bc4fef5207dc4dd9c2c04d",
+ "lines": [
+  {
+   "text": "30",
+   "bbox": [
+    373,
+    257,
+    439,
+    289
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1298,
+    257,
+    1587,
+    290
+   ]
+  },
+  {
+   "text": "<b>Colours of Planets</b>",
+   "bbox": [
+    371,
+    359,
+    855,
+    397
+   ]
+  },
+  {
+   "text": "रक्तश्यामो भास्करो गौर इन्दुर्नात्युच्चाङ्गो रक्तगौरश्च वक्र:।",
+   "bbox": [
+    443,
+    438,
+    1272,
+    493
+   ]
+  },
+  {
+   "text": "दूर्वाश्यामो ज्ञो गुरुर्गौरगात्रश्श्यामश्शुक्रो भास्करि: कृष्णदेह: ।। 4 ।।",
+   "bbox": [
+    442,
+    500,
+    1416,
+    556
+   ]
+  },
+  {
+   "text": "Sun is darkish red, Moon is highly fair in colour, Mars is",
+   "bbox": [
+    446,
+    600,
+    1589,
+    639
+   ]
+  },
+  {
+   "text": "not of much size and is reddish white, Mercury is green like",
+   "bbox": [
+    368,
+    651,
+    1586,
+    691
+   ]
+  },
+  {
+   "text": "grass, Jupiter is very fair, Venus is brown, Saturn is dark.",
+   "bbox": [
+    367,
+    706,
+    1540,
+    745
+   ]
+  },
+  {
+   "text": "The lord of the copper coloured things is Sun, of white",
+   "bbox": [
+    443,
+    784,
+    1587,
+    825
+   ]
+  },
+  {
+   "text": "things the lord is Moon, of highly red is Mars. Green things are",
+   "bbox": [
+    367,
+    835,
+    1586,
+    875
+   ]
+  },
+  {
+   "text": "represented by Mercury, yellow by Jupiter, variegated by",
+   "bbox": [
+    367,
+    884,
+    1585,
+    931
+   ]
+  },
+  {
+   "text": "Venus, dark things by Saturn. The devata of Sun is \"Agni\"",
+   "bbox": [
+    367,
+    940,
+    1584,
+    981
+   ]
+  },
+  {
+   "text": "(fire), that of Moon is Ambu or water, that of Mars is Kumar",
+   "bbox": [
+    365,
+    994,
+    1586,
+    1033
+   ]
+  },
+  {
+   "text": "(the commander-in-chief of the celetial armies), that of Mer-",
+   "bbox": [
+    365,
+    1047,
+    1584,
+    1085
+   ]
+  },
+  {
+   "text": "cury is Vishnu, that of Jupiter is Indra, that of Venus is",
+   "bbox": [
+    365,
+    1098,
+    1586,
+    1138
+   ]
+  },
+  {
+   "text": "\"Shachi\" (consort of Indra) that of Saturn is Brahma. The lord",
+   "bbox": [
+    367,
+    1151,
+    1583,
+    1189
+   ]
+  },
+  {
+   "text": "of east is Sun, of south east is Venus, of the south is Mars, of",
+   "bbox": [
+    365,
+    1205,
+    1589,
+    1244
+   ]
+  },
+  {
+   "text": "the south west is Rahu, of the west is Saturn, of north west is",
+   "bbox": [
+    365,
+    1257,
+    1587,
+    1297
+   ]
+  },
+  {
+   "text": "Moon, of the north is Mercury and of the north east is Jupiter.",
+   "bbox": [
+    365,
+    1310,
+    1584,
+    1350
+   ]
+  },
+  {
+   "text": "Sun, Mars, Saturn and the Moon (within less than 72 degrees",
+   "bbox": [
+    365,
+    1362,
+    1586,
+    1401
+   ]
+  },
+  {
+   "text": "distance from Sun) are treated as natural malefics. Moon other",
+   "bbox": [
+    365,
+    1414,
+    1586,
+    1452
+   ]
+  },
+  {
+   "text": "than of the nature referred to above, Mercury, Jupiter and",
+   "bbox": [
+    364,
+    1468,
+    1584,
+    1507
+   ]
+  },
+  {
+   "text": "Venus are natural benefics. In the case of Mercury however, if",
+   "bbox": [
+    364,
+    1520,
+    1587,
+    1559
+   ]
+  },
+  {
+   "text": "it is in association with malefics it is treated as a malefic, if",
+   "bbox": [
+    360,
+    1573,
+    1587,
+    1612
+   ]
+  },
+  {
+   "text": "with benefics a benefic.",
+   "bbox": [
+    361,
+    1626,
+    834,
+    1661
+   ]
+  },
+  {
+   "text": "<i>Commentary:</i> It would be observed that the \"Devatas\" of",
+   "bbox": [
+    438,
+    1706,
+    1587,
+    1745
+   ]
+  },
+  {
+   "text": "the various planets closely correspond in traits to those of the",
+   "bbox": [
+    360,
+    1754,
+    1583,
+    1800
+   ]
+  },
+  {
+   "text": "planets. For example the devata of Mercury is stated to be",
+   "bbox": [
+    360,
+    1810,
+    1582,
+    1850
+   ]
+  },
+  {
+   "text": "\"Vishnu\". Now we know from mythology, Gita etc that unself-",
+   "bbox": [
+    360,
+    1863,
+    1582,
+    1903
+   ]
+  },
+  {
+   "text": "ish service of humanity particularly of people with divine",
+   "bbox": [
+    360,
+    1915,
+    1580,
+    1956
+   ]
+  },
+  {
+   "text": "qualities, is the special role of Vishnu in his various incarna-",
+   "bbox": [
+    360,
+    1969,
+    1580,
+    2008
+   ]
+  },
+  {
+   "text": "tions. Thus Mercury like Vishnu represents unselfish service",
+   "bbox": [
+    360,
+    2019,
+    1582,
+    2063
+   ]
+  },
+  {
+   "text": "without regard for personal benefit. If therefore when Mercury",
+   "bbox": [
+    360,
+    2073,
+    1582,
+    2112
+   ]
+  },
+  {
+   "text": "becomes the lord of the house of spirituality (9th house) and is",
+   "bbox": [
+    360,
+    2123,
+    1582,
+    2169
+   ]
+  },
+  {
+   "text": "in association etc with the ascendant or its lord, the native",
+   "bbox": [
+    358,
+    2179,
+    1582,
+    2218
+   ]
+  },
+  {
+   "text": "imbibes thoroughly the spirit of unselfish service in his deeds.",
+   "bbox": [
+    358,
+    2232,
+    1583,
+    2272
+   ]
+  },
+  {
+   "text": "The horoscope of Mahatma Gandhi (given here) affords a",
+   "bbox": [
+    358,
+    2285,
+    1583,
+    2325
+   ]
+  },
+  {
+   "text": "typitcal example of such service. Mark the association of Mer-",
+   "bbox": [
+    358,
+    2337,
+    1580,
+    2376
+   ]
+  },
+  {
+   "text": "<b>COMPANY</b>",
+   "bbox": [
+    401,
+    2401,
+    449,
+    2413
+   ]
+  }
+ ]
+}

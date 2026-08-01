@@ -1,0 +1,344 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0071",
+ "book_id": "brihat-jataka",
+ "seq": 71,
+ "source_ref": {
+  "pdf_page": 36,
+  "half": "a",
+  "v1_page": "s036a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "0e173ce3842a2fef48d2b080e64bcb80246c5fa2bd73055f70221dd8164cb69e",
+ "lines": [
+  {
+   "text": "68",
+   "bbox": [
+    370,
+    229,
+    437,
+    262
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1302,
+    229,
+    1591,
+    264
+   ]
+  },
+  {
+   "text": "night--Lat of Delhi <math>28.39</math> (N) Long -77.13 (E)",
+   "bbox": [
+    370,
+    332,
+    1265,
+    372
+   ]
+  },
+  {
+   "text": "Ĵ.",
+   "bbox": [
+    1420,
+    409,
+    1438,
+    435
+   ]
+  },
+  {
+   "text": "<math>\\circ</math>",
+   "bbox": [
+    1256,
+    416,
+    1285,
+    445
+   ]
+  },
+  {
+   "text": "S",
+   "bbox": [
+    1106,
+    417,
+    1134,
+    445
+   ]
+  },
+  {
+   "text": "Lagna ascendant at birth",
+   "bbox": [
+    520,
+    486,
+    1035,
+    530
+   ]
+  },
+  {
+   "text": "<math>\\mathbf{1}</math>",
+   "bbox": [
+    1105,
+    487,
+    1135,
+    522
+   ]
+  },
+  {
+   "text": "1",
+   "bbox": [
+    1254,
+    488,
+    1283,
+    521
+   ]
+  },
+  {
+   "text": "9",
+   "bbox": [
+    1408,
+    490,
+    1438,
+    523
+   ]
+  },
+  {
+   "text": "3",
+   "bbox": [
+    1099,
+    564,
+    1135,
+    600
+   ]
+  },
+  {
+   "text": "Longitude of Sun at birth",
+   "bbox": [
+    520,
+    565,
+    1040,
+    603
+   ]
+  },
+  {
+   "text": "11",
+   "bbox": [
+    1231,
+    565,
+    1285,
+    602
+   ]
+  },
+  {
+   "text": "35",
+   "bbox": [
+    1382,
+    566,
+    1443,
+    602
+   ]
+  },
+  {
+   "text": "Longitude of Moon at birth",
+   "bbox": [
+    518,
+    641,
+    1069,
+    683
+   ]
+  },
+  {
+   "text": "13",
+   "bbox": [
+    1229,
+    642,
+    1286,
+    678
+   ]
+  },
+  {
+   "text": "3",
+   "bbox": [
+    1099,
+    643,
+    1135,
+    676
+   ]
+  },
+  {
+   "text": "14",
+   "bbox": [
+    1385,
+    644,
+    1441,
+    678
+   ]
+  },
+  {
+   "text": "Since Moon is below horizon, we will have to take its",
+   "bbox": [
+    444,
+    721,
+    1591,
+    760
+   ]
+  },
+  {
+   "text": "distance from the ascendant <math>(1-1-9)</math>. This distance is 73<math>^{\\circ}</math> 5',",
+   "bbox": [
+    366,
+    774,
+    1589,
+    813
+   ]
+  },
+  {
+   "text": "which divided by 12 gives quotient as 6. Since Moon is of the",
+   "bbox": [
+    366,
+    825,
+    1590,
+    869
+   ]
+  },
+  {
+   "text": "bright half and below horizon, we will have to add 6 days to 273",
+   "bbox": [
+    366,
+    879,
+    1588,
+    919
+   ]
+  },
+  {
+   "text": "days. Total ie 279 days is the period before birth when concep-",
+   "bbox": [
+    366,
+    932,
+    1589,
+    972
+   ]
+  },
+  {
+   "text": "tion took place. This works out to 23rd Oct, 1964. On",
+   "bbox": [
+    365,
+    986,
+    1589,
+    1025
+   ]
+  },
+  {
+   "text": "23.10.1964 the siderial time at noon according to Lahiri was",
+   "bbox": [
+    365,
+    1037,
+    1589,
+    1078
+   ]
+  },
+  {
+   "text": "14 <math>h</math> 4 <math>m</math> 52 sec or say 14 hours and 5 minutes. Since",
+   "bbox": [
+    368,
+    1091,
+    1588,
+    1130
+   ]
+  },
+  {
+   "text": "conception has to correspond to the Moon at birth, let us see",
+   "bbox": [
+    365,
+    1143,
+    1586,
+    1182
+   ]
+  },
+  {
+   "text": "what siderial time 3 <math>h</math> 13 <math>m</math> 14 sec represents. According to",
+   "bbox": [
+    366,
+    1196,
+    1587,
+    1234
+   ]
+  },
+  {
+   "text": "page 48 of the table of ascendants of Lahiri this ascendant is at",
+   "bbox": [
+    365,
+    1246,
+    1588,
+    1286
+   ]
+  },
+  {
+   "text": "1 hour 52 mins of siderial time. The siderial time for noon of",
+   "bbox": [
+    366,
+    1300,
+    1589,
+    1338
+   ]
+  },
+  {
+   "text": "23.10.1964 is 14 hours 5 mins. Difference between 14-5 and",
+   "bbox": [
+    365,
+    1354,
+    1585,
+    1390
+   ]
+  },
+  {
+   "text": "1-52' is 12 hours and 13 minutes, thus conception was at <math>12 =</math>",
+   "bbox": [
+    365,
+    1408,
+    1585,
+    1447
+   ]
+  },
+  {
+   "text": "<math>5 + 7</math> Lnt which converted to IST comes to 12-40 A.M.",
+   "bbox": [
+    365,
+    1460,
+    1447,
+    1497
+   ]
+  },
+  {
+   "text": "इति श्रीवराहमिहिरकृते बृहज्जातके जन्मकाललक्षणाध्याय: पञ्चम: ।।5।।",
+   "bbox": [
+    462,
+    1659,
+    1482,
+    1715
+   ]
+  },
+  {
+   "text": "Thus ends the fifth chapter on Birth Conditions in Brihat",
+   "bbox": [
+    439,
+    1752,
+    1587,
+    1792
+   ]
+  },
+  {
+   "text": "Jatak composed by Varahamihira.",
+   "bbox": [
+    359,
+    1805,
+    1046,
+    1845
+   ]
+  }
+ ]
+}

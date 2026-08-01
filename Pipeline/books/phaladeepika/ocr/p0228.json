@@ -1,0 +1,783 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0228",
+ "book_id": "phaladeepika",
+ "seq": 228,
+ "source_ref": {
+  "pdf_page": 228
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "ce6c75f7e13bfed59413f03be2bdbe9191eca36f5977050771616a252fa2ee24",
+ "lines": [
+  {
+   "text": "14. After the preparation of the Ashtakavarga of any planet, it should be seen ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "which house contains the highest number of bindus and what house it is from the ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "house occupied by the karaka planet which is to be treated as the Lagna or the first ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "house. When a planet — malefic or benefic in the course of his transit passes ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "through that house, he enchances its good effects. The reverse will be the case ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "when the planet in the course of his transit passes through a house containing few ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "or no benefic bindus.",
+   "bbox": [
+    85,
+    202,
+    203,
+    218
+   ]
+  },
+  {
+   "text": "15. When a number of planets in course of their transits pass through a ",
+   "bbox": [
+    121,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "house containing a good number of benefic bindus in the Ashtakavarga of a planet, ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "they produce substantially good results of the house, the countig being reckoned ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "from the house occupied by the karaka planet whose Ashtakavarga is under ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "consideration. The previous verse gives the time of position of benefic bindus in a ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "house. We give below the Prastar Ashtakavarga of Saturn",
+   "bbox": [
+    85,
+    347,
+    406,
+    363
+   ]
+  },
+  {
+   "text": "<b>Ashatakavarga chakra of Saturn</b>",
+   "bbox": [
+    121,
+    371,
+    317,
+    387
+   ]
+  },
+  {
+   "text": "ARS TRS GMN CR ",
+   "bbox": [
+    184,
+    396,
+    284,
+    407
+   ]
+  },
+  {
+   "text": "LEO VRG LBR SCP SAG CAP AQR PSC ",
+   "bbox": [
+    296,
+    396,
+    509,
+    407
+   ]
+  },
+  {
+   "text": "Saturn ",
+   "bbox": [
+    125,
+    415,
+    165,
+    430
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    240,
+    415,
+    251,
+    430
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    296,
+    415,
+    306,
+    430
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    324,
+    415,
+    335,
+    430
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    463,
+    415,
+    473,
+    430
+   ]
+  },
+  {
+   "text": "Jupiter ",
+   "bbox": [
+    125,
+    431,
+    167,
+    446
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    296,
+    431,
+    306,
+    446
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    324,
+    431,
+    335,
+    446
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    463,
+    431,
+    473,
+    446
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    489,
+    431,
+    499,
+    446
+   ]
+  },
+  {
+   "text": "Mars ",
+   "bbox": [
+    125,
+    447,
+    157,
+    462
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    184,
+    447,
+    194,
+    462
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    296,
+    447,
+    306,
+    462
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    324,
+    447,
+    335,
+    462
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    353,
+    447,
+    363,
+    462
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    434,
+    447,
+    445,
+    462
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    489,
+    447,
+    499,
+    462
+   ]
+  },
+  {
+   "text": "Sun ",
+   "bbox": [
+    125,
+    463,
+    150,
+    478
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    212,
+    463,
+    222,
+    478
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    240,
+    463,
+    251,
+    478
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    296,
+    463,
+    306,
+    478
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    324,
+    463,
+    335,
+    478
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    381,
+    463,
+    392,
+    478
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    406,
+    463,
+    416,
+    478
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    463,
+    463,
+    473,
+    478
+   ]
+  },
+  {
+   "text": "Venus ",
+   "bbox": [
+    125,
+    479,
+    163,
+    495
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    184,
+    479,
+    194,
+    495
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    212,
+    479,
+    222,
+    495
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    324,
+    479,
+    335,
+    495
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    353,
+    479,
+    363,
+    495
+   ]
+  },
+  {
+   "text": "Mercury  ",
+   "bbox": [
+    125,
+    495,
+    187,
+    511
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    212,
+    495,
+    222,
+    511
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    269,
+    495,
+    279,
+    511
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    296,
+    495,
+    306,
+    511
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    324,
+    495,
+    335,
+    511
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    353,
+    495,
+    363,
+    511
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    381,
+    495,
+    392,
+    511
+   ]
+  },
+  {
+   "text": "Moon ",
+   "bbox": [
+    125,
+    511,
+    162,
+    527
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    212,
+    511,
+    222,
+    527
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    296,
+    511,
+    306,
+    527
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    434,
+    511,
+    445,
+    527
+   ]
+  },
+  {
+   "text": "Lagna ",
+   "bbox": [
+    125,
+    527,
+    164,
+    543
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    212,
+    527,
+    222,
+    543
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    240,
+    527,
+    251,
+    543
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    296,
+    527,
+    306,
+    543
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    353,
+    527,
+    363,
+    543
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    381,
+    527,
+    392,
+    543
+   ]
+  },
+  {
+   "text": "0 ",
+   "bbox": [
+    434,
+    527,
+    445,
+    543
+   ]
+  },
+  {
+   "text": "2 ",
+   "bbox": [
+    184,
+    544,
+    194,
+    560
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    212,
+    544,
+    222,
+    560
+   ]
+  },
+  {
+   "text": "3 ",
+   "bbox": [
+    240,
+    544,
+    251,
+    560
+   ]
+  },
+  {
+   "text": "1 ",
+   "bbox": [
+    269,
+    544,
+    279,
+    560
+   ]
+  },
+  {
+   "text": "7 ",
+   "bbox": [
+    296,
+    544,
+    306,
+    560
+   ]
+  },
+  {
+   "text": "6 ",
+   "bbox": [
+    324,
+    544,
+    335,
+    560
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    353,
+    544,
+    363,
+    560
+   ]
+  },
+  {
+   "text": "3 ",
+   "bbox": [
+    381,
+    544,
+    392,
+    560
+   ]
+  },
+  {
+   "text": "1 ",
+   "bbox": [
+    406,
+    544,
+    416,
+    560
+   ]
+  },
+  {
+   "text": "3 ",
+   "bbox": [
+    434,
+    544,
+    445,
+    560
+   ]
+  },
+  {
+   "text": "3 ",
+   "bbox": [
+    463,
+    544,
+    473,
+    560
+   ]
+  },
+  {
+   "text": "2 ",
+   "bbox": [
+    489,
+    544,
+    499,
+    560
+   ]
+  },
+  {
+   "text": "Saturn remains In a sign for 2 1/2 years. When will he produce his good or ",
+   "bbox": [
+    121,
+    584,
+    556,
+    600
+   ]
+  },
+  {
+   "text": "bad effects. One way to find out this has been given in verse.",
+   "bbox": [
+    85,
+    609,
+    426,
+    624
+   ]
+  },
+  {
+   "text": "16-19. To ascertain the same draw a table of 96 squares and suppose we ",
+   "bbox": [
+    121,
+    633,
+    556,
+    648
+   ]
+  },
+  {
+   "text": "have to find out the effects of Saturn's transit, prepare a table for Saturn as given ",
+   "bbox": [
+    85,
+    657,
+    556,
+    672
+   ]
+  },
+  {
+   "text": "above. It has been stated that in preparing Saturn's Ashtakavarga benefic bindus ",
+   "bbox": [
+    85,
+    681,
+    556,
+    697
+   ]
+  },
+  {
+   "text": "will fall in 1-2-4-7-10-11 house from the Sun. The Sun is in Scorpio, so from ",
+   "bbox": [
+    85,
+    705,
+    556,
+    721
+   ]
+  },
+  {
+   "text": "Scorpio the 1-2-4-7-10-11 houses will fall in Sagittarius, Aquarius, Taurus, ",
+   "bbox": [
+    85,
+    729,
+    556,
+    745
+   ]
+  },
+  {
+   "text": "Gemini, Leo and Virgo. Put benefic bindus in these places. Similar benefic bindus ",
+   "bbox": [
+    85,
+    753,
+    556,
+    769
+   ]
+  },
+  {
+   "text": "228",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

@@ -1,0 +1,398 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0230",
+ "book_id": "brihat-jataka",
+ "seq": 230,
+ "source_ref": {
+  "pdf_page": 115,
+  "half": "b",
+  "v1_page": "s115b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "dc27759b0123c554dc4f275db679a8f52dae1a44fea34ae7d8af1ca5b0d14dc3",
+ "lines": [
+  {
+   "text": "<b>TEXT BOOK OF</b>",
+   "bbox": [
+    621,
+    341,
+    1089,
+    398
+   ]
+  },
+  {
+   "text": "<b>Scientific Hindu Astrology</b>",
+   "bbox": [
+    421,
+    425,
+    1292,
+    496
+   ]
+  },
+  {
+   "text": "Prof. P.S. Sastri",
+   "bbox": [
+    1133,
+    512,
+    1435,
+    546
+   ]
+  },
+  {
+   "text": "For many years there has been a",
+   "bbox": [
+    736,
+    559,
+    1433,
+    605
+   ]
+  },
+  {
+   "text": "That Hook of",
+   "bbox": [
+    354,
+    611,
+    459,
+    625
+   ]
+  },
+  {
+   "text": "persistent demand for an up to date",
+   "bbox": [
+    665,
+    614,
+    1434,
+    655
+   ]
+  },
+  {
+   "text": "senamb",
+   "bbox": [
+    337,
+    638,
+    456,
+    652
+   ]
+  },
+  {
+   "text": "comprehensive text-book of Astrology",
+   "bbox": [
+    665,
+    665,
+    1434,
+    706
+   ]
+  },
+  {
+   "text": "<b>HINUUR</b>",
+   "bbox": [
+    305,
+    670,
+    385,
+    689
+   ]
+  },
+  {
+   "text": "Daare Housin of",
+   "bbox": [
+    455,
+    685,
+    566,
+    701
+   ]
+  },
+  {
+   "text": "<b>SCIENTIFIC</b>",
+   "bbox": [
+    437,
+    711,
+    586,
+    728
+   ]
+  },
+  {
+   "text": "based on scientific treatment of the",
+   "bbox": [
+    666,
+    716,
+    1435,
+    755
+   ]
+  },
+  {
+   "text": "YOU ASTROLOGY",
+   "bbox": [
+    437,
+    741,
+    614,
+    763
+   ]
+  },
+  {
+   "text": "subject. This book is complete in itself,",
+   "bbox": [
+    666,
+    769,
+    1435,
+    809
+   ]
+  },
+  {
+   "text": "<math>m_{\\text{min}}</math> (2)",
+   "bbox": [
+    529,
+    776,
+    605,
+    798
+   ]
+  },
+  {
+   "text": "includes every aspect of Astrology and",
+   "bbox": [
+    665,
+    820,
+    1437,
+    861
+   ]
+  },
+  {
+   "text": "does away with the necessity of",
+   "bbox": [
+    668,
+    871,
+    1438,
+    912
+   ]
+  },
+  {
+   "text": "purchasing any additional volume as text",
+   "bbox": [
+    665,
+    923,
+    1437,
+    964
+   ]
+  },
+  {
+   "text": "restaur, or share or cause on",
+   "bbox": [
+    427,
+    953,
+    607,
+    967
+   ]
+  },
+  {
+   "text": "book.",
+   "bbox": [
+    668,
+    974,
+    776,
+    1011
+   ]
+  },
+  {
+   "text": "The present work in the beginning emphasises on relation of",
+   "bbox": [
+    353,
+    1026,
+    1440,
+    1067
+   ]
+  },
+  {
+   "text": "Astrology to science and philosophy and thus establishes the",
+   "bbox": [
+    277,
+    1076,
+    1437,
+    1117
+   ]
+  },
+  {
+   "text": "validity of Astrology. There is added stress on the importance of",
+   "bbox": [
+    278,
+    1125,
+    1437,
+    1172
+   ]
+  },
+  {
+   "text": "aspects and value of Uranus, Neptune and Pluto in modern times",
+   "bbox": [
+    281,
+    1180,
+    1434,
+    1221
+   ]
+  },
+  {
+   "text": "as new horizons have evolved in the fields of employment and",
+   "bbox": [
+    278,
+    1231,
+    1435,
+    1272
+   ]
+  },
+  {
+   "text": "social values. The work includes exhaustive chapters on",
+   "bbox": [
+    278,
+    1282,
+    1435,
+    1324
+   ]
+  },
+  {
+   "text": "longevity determination, scientific determination of bhavas,",
+   "bbox": [
+    278,
+    1334,
+    1437,
+    1375
+   ]
+  },
+  {
+   "text": "principles of judgement, Yogas, Astro medical diagnosis,",
+   "bbox": [
+    277,
+    1383,
+    1435,
+    1429
+   ]
+  },
+  {
+   "text": "Transits, Ashtaka Varga and elements of Jaimini System.",
+   "bbox": [
+    278,
+    1437,
+    1301,
+    1478
+   ]
+  },
+  {
+   "text": "A number of example horoscopes confirm the validity of",
+   "bbox": [
+    350,
+    1485,
+    1443,
+    1532
+   ]
+  },
+  {
+   "text": "the principles especially in chapters on professions and",
+   "bbox": [
+    277,
+    1537,
+    1440,
+    1583
+   ]
+  },
+  {
+   "text": "diseases. The sanctity and intrinsic character of Hindu",
+   "bbox": [
+    277,
+    1591,
+    1437,
+    1632
+   ]
+  },
+  {
+   "text": "Astrology has been maintained through out which makes the",
+   "bbox": [
+    278,
+    1639,
+    1435,
+    1686
+   ]
+  },
+  {
+   "text": "book equally indispensable for the beginners as well as scholars",
+   "bbox": [
+    275,
+    1691,
+    1434,
+    1737
+   ]
+  },
+  {
+   "text": "of Astrology.",
+   "bbox": [
+    277,
+    1746,
+    523,
+    1786
+   ]
+  },
+  {
+   "text": "Over 900 big size pages.",
+   "bbox": [
+    279,
+    1822,
+    779,
+    1874
+   ]
+  },
+  {
+   "text": "2 Volume Set",
+   "bbox": [
+    1152,
+    1828,
+    1434,
+    1868
+   ]
+  },
+  {
+   "text": "<b>RANJAN PUBLICATIONS</b>",
+   "bbox": [
+    347,
+    2246,
+    1361,
+    2318
+   ]
+  },
+  {
+   "text": "16, Ansari Road, Daryaganj,",
+   "bbox": [
+    468,
+    2346,
+    1241,
+    2397
+   ]
+  },
+  {
+   "text": "New Delhi-110002, Ph.: 23278835",
+   "bbox": [
+    373,
+    2409,
+    1329,
+    2457
+   ]
+  },
+  {
+   "text": "email: ranjanpublications@rediffmail.com",
+   "bbox": [
+    287,
+    2469,
+    1416,
+    2517
+   ]
+  },
+  {
+   "text": "website:www.ranjanbooks.co.in.",
+   "bbox": [
+    423,
+    2528,
+    1278,
+    2575
+   ]
+  }
+ ]
+}

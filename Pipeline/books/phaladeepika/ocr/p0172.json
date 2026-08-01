@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0172",
+ "book_id": "phaladeepika",
+ "seq": 172,
+ "source_ref": {
+  "pdf_page": 172
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "7a7caa6f00f799e4de1f58a43b2e980d67d5dbe8fc17ebdbe351913fdacfe8f2",
+ "lines": [
+  {
+   "text": "the Sun, Mars, Mercury, Jupiter, Venus and Saturn, the native will respectively ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "become (1) a watchman, (2) one fond of killing, (3) one skilled in fighting, (4) a ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "king, (5) wealthy and (6) quarrelsome.",
+   "bbox": [
+    85,
+    106,
+    301,
+    121
+   ]
+  },
+  {
+   "text": "When at birth the Moon be in the navamsa of Venus and be aspected by the ",
+   "bbox": [
+    121,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "Sun, Mars, Mercury, Jupiter, Venus and Saturn, the person concerned will ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "respectivery become (1) stupid, (2) one addicted to other people's wives (3) a ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "talented poet, (4) a talented composer of poems, (5) one engaged in collecting ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "articles of comforts and luxury, (6) one having illicit connections with women.",
+   "bbox": [
+    85,
+    226,
+    526,
+    242
+   ]
+  },
+  {
+   "text": "13. If at birth the Moon be occupying the navamsa of Mercury and be ",
+   "bbox": [
+    121,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "aspected by the Sun, Mars, Mercury, Jupiter, Venus and Saturn, the person ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "concerned will respectivery become (1) an actor, (2) a thief, (3) a poet (4) a ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "minister, (5) one versed in singing and (6) skilled in arts.",
+   "bbox": [
+    85,
+    323,
+    403,
+    339
+   ]
+  },
+  {
+   "text": "If the Moon at birth he posited in his own navamsa and be aspected by the ",
+   "bbox": [
+    121,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "Sun, Mars, Mercury, Jupiter, Venus and Saturn, the person concerned will ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "respectivery become (1) short statured, (2) greedy (3) one who practises penance, ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "(4) one who occupies a high position (5) one who works as a subordinate to a ",
+   "bbox": [
+    85,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "woman, (6) one who keeps himself engaged in his work.",
+   "bbox": [
+    85,
+    444,
+    402,
+    459
+   ]
+  },
+  {
+   "text": "14. If at birth the Moon occupies the navamsa of the Sun and be aspected by ",
+   "bbox": [
+    121,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "the Sun, Mars, Mercury, Jupiter, Venus and Saturn, the person will respectivery ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "become (1) angry, (2) a favourite of the king, (3) owner of a treasure (wealthy), (4) ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "a holder of a high position, (5) childless, (6) violent and cruel.",
+   "bbox": [
+    85,
+    540,
+    433,
+    556
+   ]
+  },
+  {
+   "text": "If at birth, the Moon occupies the navamsa of Jupiter and be aspected by the ",
+   "bbox": [
+    121,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "Sun, Mars, Mercury, Jupiter, Venus and Saturn the person will respectively become ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "(1) renowned for his strength and power. (2) commander, (3) witty, (4) minister (5) ",
+   "bbox": [
+    85,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "free from lust, (6) possessing habits and, nature of old and aged persdns (another ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "interpretion of the words (...) has been made as Virtuously disposed.",
+   "bbox": [
+    85,
+    661,
+    467,
+    677
+   ]
+  },
+  {
+   "text": "15. When the Moon occupies the navamsa of Saturn and be aspected by the ",
+   "bbox": [
+    121,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "Sun, Mars, Mercury, Jupiter, Venus and Saturn, the person born will respectively ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "become (1) possessor of limited progeny, (2) unhappy, (3) arrogant, (4) involved in ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "his own work, (5) favourite of a wicked woman and (6) angry.",
+   "bbox": [
+    85,
+    758,
+    434,
+    773
+   ]
+  },
+  {
+   "text": "172",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

@@ -1,0 +1,162 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0195",
+ "book_id": "phaladeepika",
+ "seq": 195,
+ "source_ref": {
+  "pdf_page": 195
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "b507528ecb499f524ee868ccb371b1f9ad794dca0e19592a7c10c8ccba70de16",
+ "lines": [
+  {
+   "text": "particularly mentioned for causing the death of the person when he transits through ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "the Rasi and the Navamsa occupied by the Lord of the eighth house or its ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "triangular position. The reader will note that Jupiter is the only planet who is ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "exalted in the eighth house from his own sign. It only shows the magnanimity of ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "the planet who is defined to exhibit his full lustre even when he is posited in a bad ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "house as the 8th house. This is because he is a Philosopher.",
+   "bbox": [
+    85,
+    178,
+    416,
+    194
+   ]
+  },
+  {
+   "text": "Sloka 41. — The Sun and the Moon are declared to be auspicious even when ",
+   "bbox": [
+    121,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "they own the 8th house. i.e. for the people born in Makara and Dhanus they are ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "respectively auspicious. This is because the Sun becomes the creater for person ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "born in Makara, while the Moon becomes the owner of the house in which lord of ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "Dhauns (Jupiter) is exalted. It is therefore relevant that both these planets should ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "prove auspicous to persons torn In Makara Lagna and Dhanus Lagna respectively.",
+   "bbox": [
+    85,
+    323,
+    545,
+    339
+   ]
+  },
+  {
+   "text": "Sloka 54. — The lord of a Kendra and Kona is termed the Yogakaraka.",
+   "bbox": [
+    121,
+    347,
+    518,
+    363
+   ]
+  },
+  {
+   "text": "Thus ends the twentieth chapter on \"Dasas of Bhava Lords and their ",
+   "bbox": [
+    121,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "Bhukties\" in Phaladeepika composed by Mantreswara.",
+   "bbox": [
+    85,
+    395,
+    392,
+    411
+   ]
+  },
+  {
+   "text": "195",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

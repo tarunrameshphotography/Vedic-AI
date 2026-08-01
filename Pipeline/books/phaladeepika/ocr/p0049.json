@@ -1,0 +1,585 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0049",
+ "book_id": "phaladeepika",
+ "seq": 49,
+ "source_ref": {
+  "pdf_page": 49
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "1f28097e9c202eea6d4ec2abeb399070270baa06482a77b4eb18c3de9a537463",
+ "lines": [
+  {
+   "text": "For finding out the Chandravela the stretch of a Nakshatra viz 13°-20' has to ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "be divided into 36 parts. One part will thus come to 13'-13\"-20\"",
+   "bbox": [
+    85,
+    82,
+    442,
+    97
+   ]
+  },
+  {
+   "text": "DMS ",
+   "bbox": [
+    179,
+    106,
+    213,
+    121
+   ]
+  },
+  {
+   "text": "DMS ",
+   "bbox": [
+    301,
+    106,
+    335,
+    121
+   ]
+  },
+  {
+   "text": "DMS ",
+   "bbox": [
+    416,
+    106,
+    450,
+    121
+   ]
+  },
+  {
+   "text": "(1) ",
+   "bbox": [
+    148,
+    122,
+    168,
+    138
+   ]
+  },
+  {
+   "text": "0-22-13-20 ",
+   "bbox": [
+    179,
+    122,
+    246,
+    138
+   ]
+  },
+  {
+   "text": "(13) 4-48-53-20 (25) 9- 15-33-20 ",
+   "bbox": [
+    263,
+    122,
+    486,
+    138
+   ]
+  },
+  {
+   "text": "(2) ",
+   "bbox": [
+    148,
+    144,
+    168,
+    159
+   ]
+  },
+  {
+   "text": "0-44-26-40 ",
+   "bbox": [
+    179,
+    144,
+    246,
+    159
+   ]
+  },
+  {
+   "text": "(14) 5-11-6-40 ",
+   "bbox": [
+    263,
+    144,
+    360,
+    159
+   ]
+  },
+  {
+   "text": "(26) 9-37-46-40 ",
+   "bbox": [
+    378,
+    144,
+    483,
+    159
+   ]
+  },
+  {
+   "text": "(3) ",
+   "bbox": [
+    148,
+    162,
+    168,
+    177
+   ]
+  },
+  {
+   "text": "1-6-40- 0 ",
+   "bbox": [
+    179,
+    162,
+    235,
+    177
+   ]
+  },
+  {
+   "text": "(15) 5-13-20-0 ",
+   "bbox": [
+    263,
+    162,
+    360,
+    177
+   ]
+  },
+  {
+   "text": "(27) 10-0-0-0 ",
+   "bbox": [
+    378,
+    162,
+    469,
+    177
+   ]
+  },
+  {
+   "text": "(4) ",
+   "bbox": [
+    148,
+    181,
+    168,
+    196
+   ]
+  },
+  {
+   "text": "1-28-53-20 ",
+   "bbox": [
+    179,
+    181,
+    246,
+    196
+   ]
+  },
+  {
+   "text": "(16) 5-55-13-20 (28) 10-22-13-20 ",
+   "bbox": [
+    263,
+    181,
+    490,
+    196
+   ]
+  },
+  {
+   "text": "(5) ",
+   "bbox": [
+    148,
+    199,
+    168,
+    215
+   ]
+  },
+  {
+   "text": "1-57-6-40 ",
+   "bbox": [
+    179,
+    199,
+    238,
+    215
+   ]
+  },
+  {
+   "text": "(17) 6-17-46-40 (29) 10-49-26-40 ",
+   "bbox": [
+    263,
+    199,
+    490,
+    215
+   ]
+  },
+  {
+   "text": "(6) ",
+   "bbox": [
+    148,
+    217,
+    168,
+    233
+   ]
+  },
+  {
+   "text": "2-13-20- 0 ",
+   "bbox": [
+    179,
+    217,
+    242,
+    233
+   ]
+  },
+  {
+   "text": "(18) 6-40-0- 0 ",
+   "bbox": [
+    263,
+    217,
+    357,
+    233
+   ]
+  },
+  {
+   "text": "(30) 11-6-40-0 ",
+   "bbox": [
+    378,
+    217,
+    475,
+    233
+   ]
+  },
+  {
+   "text": "(7) ",
+   "bbox": [
+    148,
+    236,
+    168,
+    252
+   ]
+  },
+  {
+   "text": "2-35-33-20 ",
+   "bbox": [
+    179,
+    236,
+    246,
+    252
+   ]
+  },
+  {
+   "text": "(19) 6-2-13-20 ",
+   "bbox": [
+    263,
+    236,
+    360,
+    252
+   ]
+  },
+  {
+   "text": "(31) 11-28-53-20 ",
+   "bbox": [
+    378,
+    236,
+    489,
+    252
+   ]
+  },
+  {
+   "text": "(8) ",
+   "bbox": [
+    148,
+    254,
+    168,
+    270
+   ]
+  },
+  {
+   "text": "2-57-46-40 ",
+   "bbox": [
+    179,
+    254,
+    246,
+    270
+   ]
+  },
+  {
+   "text": "(20) 7-24-26-40 (32) 11-51-6-40 ",
+   "bbox": [
+    263,
+    254,
+    482,
+    270
+   ]
+  },
+  {
+   "text": "(9) ",
+   "bbox": [
+    148,
+    273,
+    168,
+    288
+   ]
+  },
+  {
+   "text": "3-20-0-0 ",
+   "bbox": [
+    179,
+    273,
+    232,
+    288
+   ]
+  },
+  {
+   "text": "(21) 7- 46-40- 0 (33) 12-13-20-0 ",
+   "bbox": [
+    263,
+    273,
+    483,
+    288
+   ]
+  },
+  {
+   "text": "(10) 3-42-13-20 ",
+   "bbox": [
+    148,
+    289,
+    246,
+    304
+   ]
+  },
+  {
+   "text": "(22) 8-8-53-20 ",
+   "bbox": [
+    263,
+    289,
+    361,
+    304
+   ]
+  },
+  {
+   "text": "(34) 12-35-33-20 ",
+   "bbox": [
+    379,
+    289,
+    490,
+    304
+   ]
+  },
+  {
+   "text": "(11) 4-4-26-40 ",
+   "bbox": [
+    148,
+    305,
+    239,
+    320
+   ]
+  },
+  {
+   "text": "(23) 8-31-6-40 ",
+   "bbox": [
+    263,
+    305,
+    361,
+    320
+   ]
+  },
+  {
+   "text": "(35) 12-57-46-40 ",
+   "bbox": [
+    379,
+    305,
+    490,
+    320
+   ]
+  },
+  {
+   "text": "(12) 4-26-40-0 ",
+   "bbox": [
+    148,
+    323,
+    239,
+    338
+   ]
+  },
+  {
+   "text": "(24) 8-53-20-0 ",
+   "bbox": [
+    263,
+    323,
+    361,
+    338
+   ]
+  },
+  {
+   "text": "(36) 13-20-0-0 ",
+   "bbox": [
+    379,
+    323,
+    476,
+    338
+   ]
+  },
+  {
+   "text": "For example if the elapsed portion of Revati Nakshatra is 3°-57'-21\". Part 10 ",
+   "bbox": [
+    121,
+    363,
+    556,
+    378
+   ]
+  },
+  {
+   "text": "ends 3°-42'-13\"-20\". Part 11 ends 4°-4'-26\"-40\". Therefore it falls in 11th part. The ",
+   "bbox": [
+    85,
+    387,
+    556,
+    403
+   ]
+  },
+  {
+   "text": "effects of this 'taking poison' which means the nature is fed up with life and wants ",
+   "bbox": [
+    85,
+    411,
+    556,
+    427
+   ]
+  },
+  {
+   "text": "to get rid of it.",
+   "bbox": [
+    85,
+    435,
+    166,
+    451
+   ]
+  },
+  {
+   "text": "20. The Chandrakriya, Chandra Avastha and Chandravela described above ",
+   "bbox": [
+    121,
+    459,
+    556,
+    475
+   ]
+  },
+  {
+   "text": "will be found very useful and effective in the case of a birth, muhurta and a quary. ",
+   "bbox": [
+    85,
+    484,
+    556,
+    499
+   ]
+  },
+  {
+   "text": "One ought therefore to pay particular attention to them before making any ",
+   "bbox": [
+    85,
+    508,
+    556,
+    523
+   ]
+  },
+  {
+   "text": "prediction.",
+   "bbox": [
+    85,
+    532,
+    145,
+    547
+   ]
+  },
+  {
+   "text": "21. Paksha Bala (fortnightly strength) is of special importance to the Moon ",
+   "bbox": [
+    121,
+    556,
+    556,
+    572
+   ]
+  },
+  {
+   "text": "and Sthana Bala is of some importance to the other planets. When this strength ",
+   "bbox": [
+    85,
+    580,
+    556,
+    596
+   ]
+  },
+  {
+   "text": "added to other kinds of strength of a planet, it will add more strength to that planet. ",
+   "bbox": [
+    85,
+    604,
+    556,
+    620
+   ]
+  },
+  {
+   "text": "There are many such types of strength.",
+   "bbox": [
+    85,
+    629,
+    303,
+    644
+   ]
+  },
+  {
+   "text": "<b>Number of Bala Pinda</b>",
+   "bbox": [
+    121,
+    653,
+    255,
+    668
+   ]
+  },
+  {
+   "text": "22. The Sun is said to be strong where he obtains 6.5 Rupas of strength. The ",
+   "bbox": [
+    121,
+    677,
+    556,
+    692
+   ]
+  },
+  {
+   "text": "Moon is strong with 6 Rupas, Mars with 5 Rupas, Mercury with 7 Rupas, Jupiter ",
+   "bbox": [
+    85,
+    701,
+    556,
+    716
+   ]
+  },
+  {
+   "text": "with 8.5 Rupas, Venus with 5.5 Rupas.",
+   "bbox": [
+    85,
+    725,
+    302,
+    741
+   ]
+  },
+  {
+   "text": "23. Saturn is declared strong with 5 Rupas of strength. If Shadbala Pinda of ",
+   "bbox": [
+    121,
+    749,
+    556,
+    765
+   ]
+  },
+  {
+   "text": "49",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

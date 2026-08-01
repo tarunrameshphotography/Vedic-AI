@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0026",
+ "book_id": "brihat-jataka",
+ "seq": 26,
+ "source_ref": {
+  "pdf_page": 13,
+  "half": "b",
+  "v1_page": "s013b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "37f1cc0769a5928f13d72be0579eb6dbff5ba8a7c79fd6e125f5e6bb351c236f",
+ "lines": [
+  {
+   "text": "23",
+   "bbox": [
+    1426,
+    219,
+    1492,
+    251
+   ]
+  },
+  {
+   "text": "On Signs",
+   "bbox": [
+    282,
+    226,
+    474,
+    265
+   ]
+  },
+  {
+   "text": "mutual friendship etc. of the planets (See shloka 15 of chapter",
+   "bbox": [
+    283,
+    315,
+    1494,
+    365
+   ]
+  },
+  {
+   "text": "II). Another point of great importance and practical uses is",
+   "bbox": [
+    283,
+    366,
+    1494,
+    417
+   ]
+  },
+  {
+   "text": "that the planets give chiefly the results of the house in which",
+   "bbox": [
+    283,
+    418,
+    1494,
+    469
+   ]
+  },
+  {
+   "text": "their Mool Trikon sign falls. For example, take the ascendant",
+   "bbox": [
+    283,
+    473,
+    1494,
+    521
+   ]
+  },
+  {
+   "text": "\"Taurus\" where the planet Venus owns two houses viz the first",
+   "bbox": [
+    283,
+    524,
+    1494,
+    575
+   ]
+  },
+  {
+   "text": "and the 6th since Libra--The Mool Trikona sign of Venus falls",
+   "bbox": [
+    283,
+    579,
+    1494,
+    625
+   ]
+  },
+  {
+   "text": "in the 6th house--a bad house in the Horoscope, Venus will",
+   "bbox": [
+    282,
+    629,
+    1494,
+    680
+   ]
+  },
+  {
+   "text": "give bad results of the 6th house and not the good results of the",
+   "bbox": [
+    283,
+    684,
+    1494,
+    732
+   ]
+  },
+  {
+   "text": "first house. That is why Venus has been declared a \"Malefic\"",
+   "bbox": [
+    282,
+    735,
+    1493,
+    787
+   ]
+  },
+  {
+   "text": "planet for people with Taurus ascendant by Parashar by",
+   "bbox": [
+    283,
+    788,
+    1493,
+    840
+   ]
+  },
+  {
+   "text": "saying \"जीवशुक्रेन्दवा पापा\" (Parasara Hora Sastra 34/23).",
+   "bbox": [
+    282,
+    840,
+    1399,
+    887
+   ]
+  },
+  {
+   "text": "<b>Synonyms for Houses</b>",
+   "bbox": [
+    283,
+    949,
+    848,
+    996
+   ]
+  },
+  {
+   "text": "होरादयस्तनकुटुम्बसहोत्थबन्धुपुत्रारिपत्निमरणानि शुभास्पदाया:।",
+   "bbox": [
+    355,
+    1029,
+    1244,
+    1080
+   ]
+  },
+  {
+   "text": "रिष्फाख्यमित्युपचयान्यरिकर्मलाभदुश्चिक्यसञ्ज्ञितगृहाणि न नित्यमेके।। 15 ।।",
+   "bbox": [
+    356,
+    1088,
+    1465,
+    1146
+   ]
+  },
+  {
+   "text": "The first house is termed \"Hora\", \"Udaya\" and \"Tanu\".",
+   "bbox": [
+    359,
+    1181,
+    1492,
+    1230
+   ]
+  },
+  {
+   "text": "The second is called \"Kutumba\" (Family). The third is called",
+   "bbox": [
+    283,
+    1235,
+    1495,
+    1285
+   ]
+  },
+  {
+   "text": "\"Sahotha\" (Brothers), the 4th is \"Bandhu\" (Relatives), the 5th",
+   "bbox": [
+    282,
+    1288,
+    1495,
+    1337
+   ]
+  },
+  {
+   "text": "is termed \"Putra\" (Son), the 6th is \"Ari\" (Enemy), the 7th is",
+   "bbox": [
+    283,
+    1340,
+    1494,
+    1390
+   ]
+  },
+  {
+   "text": "\"Patni\" (Wife), the 8th is \"Marana\" (Death), the 9th is called",
+   "bbox": [
+    283,
+    1393,
+    1495,
+    1440
+   ]
+  },
+  {
+   "text": "\"Shubha\" (Good or Religious), the 10th is \"Aaspad\" (Position)",
+   "bbox": [
+    284,
+    1446,
+    1494,
+    1493
+   ]
+  },
+  {
+   "text": "the 11th is \"Aaya\" (Gains) and the 12th is called \"Rishpha\"",
+   "bbox": [
+    283,
+    1497,
+    1494,
+    1547
+   ]
+  },
+  {
+   "text": "(Loss). The \"Upachaya\" (Gainful or accumulative) houses are",
+   "bbox": [
+    285,
+    1551,
+    1495,
+    1598
+   ]
+  },
+  {
+   "text": "the 3rd, 6th, 10th and 11th. Some authors are of the opinion",
+   "bbox": [
+    284,
+    1603,
+    1497,
+    1651
+   ]
+  },
+  {
+   "text": "that these four houses cannot be termed \"Upachaya\" or accu-",
+   "bbox": [
+    286,
+    1656,
+    1495,
+    1703
+   ]
+  },
+  {
+   "text": "mulative, since they do not always give good results.",
+   "bbox": [
+    285,
+    1710,
+    1332,
+    1757
+   ]
+  },
+  {
+   "text": "Other names for Houses",
+   "bbox": [
+    285,
+    1819,
+    916,
+    1856
+   ]
+  },
+  {
+   "text": "कल्पस्वविक्रमगृहप्रतिभाक्षतानि चित्तोत्थरन्ध्रगुरुमानभवव्ययानि।",
+   "bbox": [
+    355,
+    1897,
+    1248,
+    1946
+   ]
+  },
+  {
+   "text": "लग्नाच्चतुर्थनिधने चतुरस्रसंज्ञे द्यूनं च सप्तमगृहं दशमर्क्षमाज्ञा।। 16 ।।",
+   "bbox": [
+    356,
+    1951,
+    1381,
+    2015
+   ]
+  },
+  {
+   "text": "The first house is also named as \"Kalpa\" (Body), the second",
+   "bbox": [
+    358,
+    2050,
+    1498,
+    2096
+   ]
+  },
+  {
+   "text": "is called \"Sewa\" (Wealth), the 3rd is \"Vikram\" (Bravery), the",
+   "bbox": [
+    258,
+    2100,
+    1495,
+    2150
+   ]
+  },
+  {
+   "text": "4th is \"Griha\" (House or residence), the 5th is \"Pratibha\"",
+   "bbox": [
+    284,
+    2154,
+    1497,
+    2200
+   ]
+  },
+  {
+   "text": "(Prowess or intellectual acumen), the 6th is \"Kshat\" (Injury),",
+   "bbox": [
+    285,
+    2210,
+    1496,
+    2249
+   ]
+  },
+  {
+   "text": "the 7th is \"Chittotha\" (Cupid--sex), the 8th is \"Randhra\" (Sin),",
+   "bbox": [
+    284,
+    2257,
+    1497,
+    2304
+   ]
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0229",
+ "book_id": "brihat-jataka",
+ "seq": 229,
+ "source_ref": {
+  "pdf_page": 115,
+  "half": "a",
+  "v1_page": "s115a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "de839520beb83f20b044c7fcbd1f863174cabda59defd83fb44d30edd9f5931f",
+ "lines": [
+  {
+   "text": "",
+   "bbox": [
+    612,
+    2434,
+    1472,
+    2592
+   ]
+  }
+ ]
+}

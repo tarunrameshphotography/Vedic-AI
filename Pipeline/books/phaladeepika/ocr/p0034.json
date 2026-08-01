@@ -1,0 +1,63 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0034",
+ "book_id": "phaladeepika",
+ "seq": 34,
+ "source_ref": {
+  "pdf_page": 34
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "0dd7069ca40d8eb9067d069be7733e8c7f132d2d7fa592e065adb16f8cfb0d13",
+ "lines": [
+  {
+   "text": "The planets in good avasthas yield favourable effects in their Dasas and ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "Antardasas. The reverse is the case with planets in adverse avasthas.",
+   "bbox": [
+    85,
+    82,
+    468,
+    97
+   ]
+  },
+  {
+   "text": "Thus ends the third chapter on \"Divisions of the Zodiac\" in Phaladeepika ",
+   "bbox": [
+    121,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "composed by Mantreswara.",
+   "bbox": [
+    85,
+    130,
+    240,
+    145
+   ]
+  },
+  {
+   "text": "34",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

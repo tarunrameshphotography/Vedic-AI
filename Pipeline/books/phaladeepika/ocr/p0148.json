@@ -1,0 +1,243 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0148",
+ "book_id": "phaladeepika",
+ "seq": 148,
+ "source_ref": {
+  "pdf_page": 148
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "ff4891550ef8988bf3395c3b58aec434a98fd805abd69b6ea534a034dcccb297",
+ "lines": [
+  {
+   "text": "Sat",
+   "bbox": [
+    281,
+    78,
+    299,
+    93
+   ]
+  },
+  {
+   "text": "L",
+   "bbox": [
+    400,
+    191,
+    408,
+    207
+   ]
+  },
+  {
+   "text": "Jup",
+   "bbox": [
+    224,
+    248,
+    243,
+    264
+   ]
+  },
+  {
+   "text": "Sun",
+   "bbox": [
+    279,
+    248,
+    301,
+    264
+   ]
+  },
+  {
+   "text": "8. The following planets in their dasa and antar dasa cause destruction of the ",
+   "bbox": [
+    121,
+    309,
+    556,
+    324
+   ]
+  },
+  {
+   "text": "house.",
+   "bbox": [
+    85,
+    333,
+    121,
+    348
+   ]
+  },
+  {
+   "text": "(1) The lord of the 3rd house from the Lagna",
+   "bbox": [
+    121,
+    357,
+    372,
+    373
+   ]
+  },
+  {
+   "text": "(2) The lord of the 3rd house from the Moon",
+   "bbox": [
+    121,
+    381,
+    371,
+    397
+   ]
+  },
+  {
+   "text": "(3) The planet occupying the 8th house.",
+   "bbox": [
+    121,
+    405,
+    344,
+    421
+   ]
+  },
+  {
+   "text": "(4) The planet which aspects the 8th house.",
+   "bbox": [
+    121,
+    430,
+    364,
+    445
+   ]
+  },
+  {
+   "text": "(5) Saturn",
+   "bbox": [
+    121,
+    454,
+    177,
+    469
+   ]
+  },
+  {
+   "text": "(6) The lord of the 22nd decanate",
+   "bbox": [
+    121,
+    478,
+    308,
+    493
+   ]
+  },
+  {
+   "text": "(7) The lord of the house occupied by Mandi,",
+   "bbox": [
+    121,
+    502,
+    376,
+    518
+   ]
+  },
+  {
+   "text": "(8) The lord of the sign and navamsa in which the above 7 planets are ",
+   "bbox": [
+    121,
+    526,
+    556,
+    542
+   ]
+  },
+  {
+   "text": "posited.",
+   "bbox": [
+    85,
+    550,
+    129,
+    566
+   ]
+  },
+  {
+   "text": "(9) Rahu, if he be weak by occupying the 8th or 12th house or by being ",
+   "bbox": [
+    121,
+    574,
+    556,
+    590
+   ]
+  },
+  {
+   "text": "associated with or aspected by madefies.",
+   "bbox": [
+    85,
+    599,
+    313,
+    614
+   ]
+  },
+  {
+   "text": "Notes — In this verse it has not been made clear which house will become ",
+   "bbox": [
+    121,
+    623,
+    556,
+    638
+   ]
+  },
+  {
+   "text": "the victim of destruction but in the previous verse it has been stated that houses ",
+   "bbox": [
+    85,
+    647,
+    556,
+    662
+   ]
+  },
+  {
+   "text": "occupied by malefics, those surrounded on both sides by malefics, get damaged. ",
+   "bbox": [
+    85,
+    671,
+    556,
+    687
+   ]
+  },
+  {
+   "text": "The same principle should apply to this verse.",
+   "bbox": [
+    85,
+    695,
+    343,
+    711
+   ]
+  },
+  {
+   "text": "9. Whichever house is occupied by the lord of the Lagna gains in prosperity ",
+   "bbox": [
+    121,
+    719,
+    556,
+    735
+   ]
+  },
+  {
+   "text": "and well being i.e. it becomes very beneficient and produces very good effects.",
+   "bbox": [
+    85,
+    744,
+    528,
+    759
+   ]
+  },
+  {
+   "text": "The good effects of only such houses are enhanced if their lords are ",
+   "bbox": [
+    121,
+    768,
+    556,
+    783
+   ]
+  },
+  {
+   "text": "148",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

@@ -1,0 +1,596 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0020",
+ "book_id": "brihat-jataka",
+ "seq": 20,
+ "source_ref": {
+  "pdf_page": 10,
+  "half": "b",
+  "v1_page": "s010b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "ee0556ca20231612727605a219ef946af94f58f72a695c593b6c3eacbd94036c",
+ "lines": [
+  {
+   "text": "17",
+   "bbox": [
+    1394,
+    209,
+    1448,
+    239
+   ]
+  },
+  {
+   "text": "On Signs",
+   "bbox": [
+    246,
+    240,
+    440,
+    284
+   ]
+  },
+  {
+   "text": "Different definition of Hora etc",
+   "bbox": [
+    248,
+    319,
+    1065,
+    383
+   ]
+  },
+  {
+   "text": "केचित्तु होरां प्रथमां भपस्य वाञ्छन्ति लाभाधिपतेर्द्वितीयाम्।",
+   "bbox": [
+    321,
+    395,
+    1160,
+    475
+   ]
+  },
+  {
+   "text": "द्रेष्काणसंज्ञामपि वर्णयन्ति स्वद्वादशैकादशराशिपानाम्।। 12 ।।",
+   "bbox": [
+    324,
+    457,
+    1223,
+    538
+   ]
+  },
+  {
+   "text": "Some Acharyas define Hora as the Lord of the same sign",
+   "bbox": [
+    330,
+    543,
+    1466,
+    625
+   ]
+  },
+  {
+   "text": "for the first half and the lord of the 11th from that sign as that",
+   "bbox": [
+    254,
+    596,
+    1469,
+    678
+   ]
+  },
+  {
+   "text": "of the 2nd half. Similarly some take the decante lords as the",
+   "bbox": [
+    257,
+    649,
+    1469,
+    731
+   ]
+  },
+  {
+   "text": "lord of the sign, the lord of the 12th from the sign and the lord",
+   "bbox": [
+    257,
+    700,
+    1472,
+    785
+   ]
+  },
+  {
+   "text": "of the 11th from the sign respectively. (But such a definition is",
+   "bbox": [
+    260,
+    753,
+    1473,
+    837
+   ]
+  },
+  {
+   "text": "not generally accepted).",
+   "bbox": [
+    262,
+    831,
+    736,
+    886
+   ]
+  },
+  {
+   "text": "<b>Exaltation and Debilitation of Planets</b>",
+   "bbox": [
+    266,
+    915,
+    1258,
+    989
+   ]
+  },
+  {
+   "text": "अजवृषभमृगाङ्गनाकुलीरा झषवणिजौ च दिवाकरादितुङ्गाः।",
+   "bbox": [
+    338,
+    998,
+    1171,
+    1078
+   ]
+  },
+  {
+   "text": "दशशिखिमनुयुक्तिथीन्द्रियांशैस्त्रिनवकविंशतिभिश्च तेऽस्तनीचा:।। 13।।",
+   "bbox": [
+    341,
+    1052,
+    1351,
+    1145
+   ]
+  },
+  {
+   "text": "Sun is most exalted in the 10th degree of Aries. Moon is",
+   "bbox": [
+    344,
+    1147,
+    1485,
+    1227
+   ]
+  },
+  {
+   "text": "exalted in the 3rd degree of Taurus. Mars in the 28th degree of",
+   "bbox": [
+    273,
+    1196,
+    1492,
+    1286
+   ]
+  },
+  {
+   "text": "Capricorn, Mercury in 15th degree of Virgo, Jupiter in the 5th",
+   "bbox": [
+    274,
+    1250,
+    1490,
+    1336
+   ]
+  },
+  {
+   "text": "degree of Cancer, Venus in the 27th degree of Pisces and",
+   "bbox": [
+    274,
+    1304,
+    1492,
+    1386
+   ]
+  },
+  {
+   "text": "Saturn in the 20th degree of Libra. These planets are consid-",
+   "bbox": [
+    275,
+    1355,
+    1492,
+    1439
+   ]
+  },
+  {
+   "text": "ered as the most debilitated 180 degrees away from the degree",
+   "bbox": [
+    276,
+    1408,
+    1494,
+    1488
+   ]
+  },
+  {
+   "text": "of exaltation.",
+   "bbox": [
+    281,
+    1492,
+    546,
+    1533
+   ]
+  },
+  {
+   "text": "Commentary: For facility of reference, the meaning of the",
+   "bbox": [
+    354,
+    1539,
+    1499,
+    1618
+   ]
+  },
+  {
+   "text": "shloka is shown below in a tabular form:",
+   "bbox": [
+    283,
+    1605,
+    1097,
+    1666
+   ]
+  },
+  {
+   "text": "Moon Mars Mer. Jupiter Venus Saturn",
+   "bbox": [
+    641,
+    1667,
+    1470,
+    1735
+   ]
+  },
+  {
+   "text": "Planets",
+   "bbox": [
+    283,
+    1701,
+    427,
+    1739
+   ]
+  },
+  {
+   "text": "Sun",
+   "bbox": [
+    509,
+    1701,
+    601,
+    1733
+   ]
+  },
+  {
+   "text": "7",
+   "bbox": [
+    1407,
+    1744,
+    1428,
+    1769
+   ]
+  },
+  {
+   "text": "12",
+   "bbox": [
+    1198,
+    1750,
+    1247,
+    1783
+   ]
+  },
+  {
+   "text": "<math>6\\phantom{1}6</math>",
+   "bbox": [
+    927,
+    1758,
+    957,
+    1789
+   ]
+  },
+  {
+   "text": "4",
+   "bbox": [
+    1091,
+    1758,
+    1123,
+    1783
+   ]
+  },
+  {
+   "text": "10",
+   "bbox": [
+    809,
+    1761,
+    860,
+    1795
+   ]
+  },
+  {
+   "text": "2",
+   "bbox": [
+    694,
+    1766,
+    723,
+    1797
+   ]
+  },
+  {
+   "text": "Exalta-",
+   "bbox": [
+    288,
+    1774,
+    429,
+    1807
+   ]
+  },
+  {
+   "text": "tion sign",
+   "bbox": [
+    292,
+    1821,
+    455,
+    1857
+   ]
+  },
+  {
+   "text": "20",
+   "bbox": [
+    1387,
+    1849,
+    1439,
+    1882
+   ]
+  },
+  {
+   "text": "27",
+   "bbox": [
+    1196,
+    1854,
+    1249,
+    1888
+   ]
+  },
+  {
+   "text": "5",
+   "bbox": [
+    1093,
+    1858,
+    1126,
+    1891
+   ]
+  },
+  {
+   "text": "15",
+   "bbox": [
+    911,
+    1863,
+    965,
+    1897
+   ]
+  },
+  {
+   "text": "28",
+   "bbox": [
+    810,
+    1867,
+    864,
+    1899
+   ]
+  },
+  {
+   "text": "<math>\\overline{\\mathbf{3}}</math>",
+   "bbox": [
+    694,
+    1869,
+    725,
+    1901
+   ]
+  },
+  {
+   "text": "10",
+   "bbox": [
+    509,
+    1875,
+    564,
+    1908
+   ]
+  },
+  {
+   "text": "Exalta-",
+   "bbox": [
+    292,
+    1878,
+    438,
+    1912
+   ]
+  },
+  {
+   "text": "tion degree",
+   "bbox": [
+    294,
+    1925,
+    500,
+    1962
+   ]
+  },
+  {
+   "text": "1",
+   "bbox": [
+    1413,
+    1953,
+    1436,
+    1980
+   ]
+  },
+  {
+   "text": "6",
+   "bbox": [
+    1221,
+    1958,
+    1253,
+    1988
+   ]
+  },
+  {
+   "text": "10",
+   "bbox": [
+    1080,
+    1962,
+    1129,
+    1994
+   ]
+  },
+  {
+   "text": "12",
+   "bbox": [
+    915,
+    1966,
+    968,
+    1999
+   ]
+  },
+  {
+   "text": "8",
+   "bbox": [
+    695,
+    1970,
+    730,
+    2004
+   ]
+  },
+  {
+   "text": "4",
+   "bbox": [
+    835,
+    1970,
+    863,
+    2000
+   ]
+  },
+  {
+   "text": "<math>\\overline{7}</math>",
+   "bbox": [
+    532,
+    1976,
+    561,
+    2006
+   ]
+  },
+  {
+   "text": "Debilita-",
+   "bbox": [
+    293,
+    1977,
+    460,
+    2015
+   ]
+  },
+  {
+   "text": "tion sign",
+   "bbox": [
+    295,
+    2028,
+    462,
+    2064
+   ]
+  },
+  {
+   "text": "20",
+   "bbox": [
+    1394,
+    2055,
+    1444,
+    2087
+   ]
+  },
+  {
+   "text": "27",
+   "bbox": [
+    1203,
+    2060,
+    1253,
+    2093
+   ]
+  },
+  {
+   "text": "5",
+   "bbox": [
+    1100,
+    2065,
+    1132,
+    2095
+   ]
+  },
+  {
+   "text": "15",
+   "bbox": [
+    917,
+    2069,
+    971,
+    2103
+   ]
+  },
+  {
+   "text": "28",
+   "bbox": [
+    816,
+    2072,
+    872,
+    2105
+   ]
+  },
+  {
+   "text": "3",
+   "bbox": [
+    698,
+    2076,
+    730,
+    2107
+   ]
+  },
+  {
+   "text": "10",
+   "bbox": [
+    518,
+    2080,
+    570,
+    2114
+   ]
+  },
+  {
+   "text": "Debilita-",
+   "bbox": [
+    296,
+    2084,
+    461,
+    2118
+   ]
+  },
+  {
+   "text": "tion degree",
+   "bbox": [
+    298,
+    2136,
+    505,
+    2173
+   ]
+  },
+  {
+   "text": "Mars: According to the table given above, Mars is exalted",
+   "bbox": [
+    370,
+    2176,
+    1520,
+    2255
+   ]
+  },
+  {
+   "text": "in the sign Capricorn and in a constellation whose lord is Mars",
+   "bbox": [
+    296,
+    2226,
+    1519,
+    2310
+   ]
+  },
+  {
+   "text": "himself. This is a statement that shows the conditions of",
+   "bbox": [
+    299,
+    2279,
+    1524,
+    2358
+   ]
+  }
+ ]
+}

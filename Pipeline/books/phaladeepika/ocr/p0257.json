@@ -1,0 +1,270 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0257",
+ "book_id": "phaladeepika",
+ "seq": 257,
+ "source_ref": {
+  "pdf_page": 257
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "34512937f54226df282104ba68c14df5c9eca0ba1d1c3148f90d47f2189560a9",
+ "lines": [
+  {
+   "text": "corner squares commencing from the outer most corner in the North-East, thus ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "filling up in rotation the 4 corners of each of the 4 sets of squares. Fill up the 28 ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "vacant squares of the outermost comer beginning from the North-East by the 28 ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "asterism with krittika, so that each side will contain 7 asterism.",
+   "bbox": [
+    85,
+    130,
+    438,
+    145
+   ]
+  },
+  {
+   "text": "The 5 vacant squares of each side of the next row may be filled by a, ba, ka, ",
+   "bbox": [
+    121,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "ha, da in the East, by ma, da, pa, ra, ta in the South, na, ya, ma, ja, kha in the West ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "and na, sa, ta, ca, la in the North. There now remain 12 squares, 3 on each side in ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "the next Inner row. These may be allotted to the 12 signs beginning with Vrishabha ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "in the East in regular order.",
+   "bbox": [
+    85,
+    251,
+    238,
+    266
+   ]
+  },
+  {
+   "text": "The 5 inner squares still remaining Vacant may be allotted to the 5 groups of ",
+   "bbox": [
+    121,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "Tithy * Nanda, Bhadra, Jaya, Rikta and Purna as shown in the chakra.",
+   "bbox": [
+    85,
+    299,
+    477,
+    314
+   ]
+  },
+  {
+   "text": "The seven week days may be entered in the squares thus : Tuesday and ",
+   "bbox": [
+    121,
+    404,
+    556,
+    420
+   ]
+  },
+  {
+   "text": "Sunday in the square containing the Nanda group, Wednesday and Monday in the ",
+   "bbox": [
+    85,
+    429,
+    556,
+    444
+   ]
+  },
+  {
+   "text": "Bhadra group; Thursday in the Jaya group; Friday in the Rikta and Saturday in the ",
+   "bbox": [
+    85,
+    453,
+    556,
+    468
+   ]
+  },
+  {
+   "text": "Purna.",
+   "bbox": [
+    85,
+    477,
+    121,
+    492
+   ]
+  },
+  {
+   "text": "Saturn, the Sun, Rahu, Ketu and Mars are malefics. The rest are benefic. ",
+   "bbox": [
+    121,
+    501,
+    556,
+    517
+   ]
+  },
+  {
+   "text": "Mercury is malefic wher associated with malefics, so also is the waning Moon.",
+   "bbox": [
+    85,
+    525,
+    528,
+    541
+   ]
+  },
+  {
+   "text": "In whichever aslant a planet may be posited, three Vedhas arise from the ",
+   "bbox": [
+    121,
+    549,
+    556,
+    565
+   ]
+  },
+  {
+   "text": "same by its aspect - one in the left, one in the first and on in the right.",
+   "bbox": [
+    85,
+    574,
+    474,
+    589
+   ]
+  },
+  {
+   "text": "In the two sides whether in the right or left, the Vedha may be with a star, a ",
+   "bbox": [
+    121,
+    598,
+    556,
+    613
+   ]
+  },
+  {
+   "text": "consonant, a Rasi or Vowel and not with others. For, it has been clearly stated in ",
+   "bbox": [
+    85,
+    622,
+    556,
+    637
+   ]
+  },
+  {
+   "text": "the Rajavijaya thus :",
+   "bbox": [
+    85,
+    646,
+    200,
+    661
+   ]
+  },
+  {
+   "text": "A planet posited in Krittika may have Vedha with the following viz., (1) ",
+   "bbox": [
+    121,
+    670,
+    556,
+    686
+   ]
+  },
+  {
+   "text": "Bharani, (2) the Vowel (3) Vrishabna, (4) Nanda, (5) Bhadra. (6) Tula, (7) the ",
+   "bbox": [
+    85,
+    694,
+    556,
+    710
+   ]
+  },
+  {
+   "text": "consonant (8) Visakha and Sravana.",
+   "bbox": [
+    85,
+    718,
+    286,
+    734
+   ]
+  },
+  {
+   "text": "Similarly a planet in Rohini will have Vedha with (1) the Vowel (2) Aswini, ",
+   "bbox": [
+    121,
+    743,
+    556,
+    758
+   ]
+  },
+  {
+   "text": "(3) the consonant (4) Mithuna, (5) the Vowel (6) Kanya, (7) the consonant (8) ",
+   "bbox": [
+    85,
+    767,
+    556,
+    782
+   ]
+  },
+  {
+   "text": "257",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

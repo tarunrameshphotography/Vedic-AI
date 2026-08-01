@@ -1,0 +1,189 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0104",
+ "book_id": "phaladeepika",
+ "seq": 104,
+ "source_ref": {
+  "pdf_page": 104
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "0e57ec4c5654b8376f10254e6990f91f55a6c76471a8dd66fac4c4131f046cc5",
+ "lines": [
+  {
+   "text": "similar to Mars in giving effects (Shani-vat Rahu, Kuja-vat Ketu).",
+   "bbox": [
+    85,
+    57,
+    455,
+    73
+   ]
+  },
+  {
+   "text": "Notes—For example (1) if the Lagna point (Lagna Bhava-Madhya) is 1 ",
+   "bbox": [
+    121,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "degree and the longitude of the Saturn posited in the 5th house is also 1 degree, ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "Saturn will give the full effect of the 5th house.",
+   "bbox": [
+    85,
+    130,
+    350,
+    145
+   ]
+  },
+  {
+   "text": "(2) If the Lagna point is 29 degrees and Saturn's longitude in the 5th house is ",
+   "bbox": [
+    121,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "1 degree, Saturn will produce very little effect of the same house.",
+   "bbox": [
+    85,
+    178,
+    451,
+    194
+   ]
+  },
+  {
+   "text": "35. This verse is Intended to further explain the principle laid down in verse ",
+   "bbox": [
+    121,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "34. Find out how far away is the planet in the house whose effects are to be ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "assessed, from the Bhavamadhya of that house. The more it is nearer to the Bhava-",
+   "bbox": [
+    85,
+    251,
+    553,
+    266
+   ]
+  },
+  {
+   "text": "Madhya, the lesser will be the effects produced.",
+   "bbox": [
+    85,
+    275,
+    353,
+    290
+   ]
+  },
+  {
+   "text": "Notes — Described above are the general effects of planets in different ",
+   "bbox": [
+    121,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "houses. These effects get modified by several factors such as the houses they own, ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "aspects on them, conjunction of other planets with them, the signs in which they ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "are posited, the position of their disposition etc.",
+   "bbox": [
+    85,
+    371,
+    351,
+    387
+   ]
+  },
+  {
+   "text": "For detailed information in this respect please refer to our English ",
+   "bbox": [
+    121,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "translation of 'Bhrigu Sutras' published by Ranjan Publications.",
+   "bbox": [
+    85,
+    420,
+    440,
+    435
+   ]
+  },
+  {
+   "text": "Thus ends the eighth chapter on \"The Effects of the Planets in 12 Bhavas\" In ",
+   "bbox": [
+    121,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "Phaladeepika composed by Mantreswara.",
+   "bbox": [
+    85,
+    468,
+    320,
+    483
+   ]
+  },
+  {
+   "text": "104",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

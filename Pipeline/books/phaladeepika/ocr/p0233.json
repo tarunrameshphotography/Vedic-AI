@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0233",
+ "book_id": "phaladeepika",
+ "seq": 233,
+ "source_ref": {
+  "pdf_page": 233
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "db848c707087e9395222fce1366eefd21fd9007b29c23b11bf295faf14094472",
+ "lines": [
+  {
+   "text": "his transit passes through the nakshatra represented by the remainder (counted ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "from Aswini) or its triangular nakshatra, the death of the mother may be expected.",
+   "bbox": [
+    85,
+    82,
+    545,
+    97
+   ]
+  },
+  {
+   "text": "8. Note the position in navamsas of the lords of the 4th and the 8th houses ",
+   "bbox": [
+    121,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "from the Moon. The death of the mother of the native takes place, when the Sun in ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "the course of his transit passes through a position triangular to those, the death of ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "the mother may be expected.",
+   "bbox": [
+    85,
+    178,
+    246,
+    194
+   ]
+  },
+  {
+   "text": "Note the position of the navamsas of the lord of the 4th and the 8th houses ",
+   "bbox": [
+    121,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "from the Lagna. The death of the father takes place when the Sun in the course of ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "his transit passes through a position triangular to these navamsa signs.",
+   "bbox": [
+    85,
+    251,
+    478,
+    266
+   ]
+  },
+  {
+   "text": "9. In the Ashtakavarga of Mars, note the number of benefic bindus in the ",
+   "bbox": [
+    121,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "sign 3rd to the sign occupied by Mars. The native will have the same number of ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "brothers.",
+   "bbox": [
+    85,
+    323,
+    134,
+    339
+   ]
+  },
+  {
+   "text": "In the Ashtakavarga of Mercury, note the number of benefic bindus in the ",
+   "bbox": [
+    121,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "house 4th to that occupied by Mercury. The native will have the same number of ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "relations or maternal uncles.",
+   "bbox": [
+    85,
+    395,
+    244,
+    411
+   ]
+  },
+  {
+   "text": "10. In the Ashtakavarga of Jupiter, the number of children will be the same ",
+   "bbox": [
+    121,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "as the number of benefic bindus in the house 5th to that occupied by Jupiter. From ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "that number take away as many benefic bindus of planets as are occupying ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "inimical or depression houses. The remainder will represent the number of children ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "the native may expect.",
+   "bbox": [
+    85,
+    516,
+    211,
+    532
+   ]
+  },
+  {
+   "text": "11. In the Ashtakavarga of Jupiter add up all the benefic bindus remaining ",
+   "bbox": [
+    121,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "after the trikona and ekadhipatya sodhana and from this sum deduct the number of ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "bindus in the malefic signs. The number of the children the native will have will be ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "represented by the remainder.",
+   "bbox": [
+    85,
+    613,
+    251,
+    628
+   ]
+  },
+  {
+   "text": "12. In the Ashtakavarga of Venus note the sign containing the largest number ",
+   "bbox": [
+    121,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "of benefic bindus. If the wile of the native be born in the direction of the quarter ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "indicated by that sign, increase of progeny through her is assumed. If the number ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "of benefic bindus be meagre, wealth or progeny through her will be poor.",
+   "bbox": [
+    85,
+    709,
+    495,
+    725
+   ]
+  },
+  {
+   "text": "13. In the Ashtakavarga of Saturn, multiply the sodhyapinda figure by the ",
+   "bbox": [
+    121,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "number of benefic bindus In the house 8th from the Lagna and divide the product ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "233",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

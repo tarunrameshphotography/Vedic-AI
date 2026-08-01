@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0160",
+ "book_id": "phaladeepika",
+ "seq": 160,
+ "source_ref": {
+  "pdf_page": 160
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "8e28ac9261a1a72b98368262c96417637868e4a97524250120b70dfd208c131f",
+ "lines": [
+  {
+   "text": "25. If Saturn being lord of the 9th, be in a moveable sign unaspected by ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "benefics and the Sun be in a dusthana, the native (the child born) is brought up by a ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "person other than his father.",
+   "bbox": [
+    85,
+    106,
+    241,
+    121
+   ]
+  },
+  {
+   "text": "26. If the 9th house being in a moveable sign is associated with or aspected ",
+   "bbox": [
+    121,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "by Saturn and if the lord of the 12th house be strong, the child born is sure to be ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "adopted by another.",
+   "bbox": [
+    85,
+    178,
+    195,
+    194
+   ]
+  },
+  {
+   "text": "27. If the 10th house be conjoined with a benefic and the lord of 10th with ",
+   "bbox": [
+    121,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "full strength be posited in a kendra or trikora identical with his own sign or his sign ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "of exaltation, or if the lord of the Lagna equipped with strength be posited in the ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "10th, the native will be fortunate like a king, will be longlived and widely ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "renowned and will perform virtuous actions.",
+   "bbox": [
+    85,
+    299,
+    334,
+    314
+   ]
+  },
+  {
+   "text": "28. If the 10th house is occupied by the Sun and Mars, the native will be a ",
+   "bbox": [
+    121,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "very influential and mighty personage. If at the same time lord of the 10th be ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "posited in an auspicious position, the person concerned will be capable of ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "accomplishing great undertakings with much valour and heroism. If the 10th house ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "be occupied by benefics he will undertake commendable ventures for the good of ",
+   "bbox": [
+    85,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "the people. But the native will indulge in nefarious activities if the 10th is occupied ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "by Saturn, Rahu or Ketu.",
+   "bbox": [
+    85,
+    468,
+    225,
+    483
+   ]
+  },
+  {
+   "text": "29. Predict the acquisition or gain of articles connected with the (1) house ",
+   "bbox": [
+    121,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "the lord of which is conjoined with the lord of the 11th, (2) the house in which the ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "lord of the 11th be posited and (3) the houses lords of which occupy the 11th.",
+   "bbox": [
+    85,
+    540,
+    518,
+    556
+   ]
+  },
+  {
+   "text": "Notes — For example the lord of the 11th is posited in the 5th, or the Jord of ",
+   "bbox": [
+    121,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "the 5th occupies the 11th, or the lords of the 5th and the 11th are conjoined ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "together, with such disposition of the lords of the 5th and 11th, the prediction ",
+   "bbox": [
+    85,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "should be that there will be gain or acquisition of learning and children and profit ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "in speculation because these are all signified by the 5th house.",
+   "bbox": [
+    85,
+    661,
+    433,
+    677
+   ]
+  },
+  {
+   "text": "30. Predict loss of the articles or significations connected with the (1) house ",
+   "bbox": [
+    121,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "the lord of which occupies the 12th house and (2) the house in which the lord of ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "the 12th be posited.",
+   "bbox": [
+    85,
+    734,
+    195,
+    749
+   ]
+  },
+  {
+   "text": "Notes — For example the lord of the 4th occupies the 12th. This will cause ",
+   "bbox": [
+    121,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "160",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

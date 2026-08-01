@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0116",
+ "book_id": "phaladeepika",
+ "seq": 116,
+ "source_ref": {
+  "pdf_page": 116
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "f78698cee1226276216ecb21b179da75b1743a1c16d5b7a216918f16576869f7",
+ "lines": [
+  {
+   "text": "<b>Jataka Parijata</b>",
+   "bbox": [
+    121,
+    57,
+    214,
+    73
+   ]
+  },
+  {
+   "text": "Whatever effect may accrue from the horoscope of female that is applicable ",
+   "bbox": [
+    121,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "only to men, should be ascribed to the husband. The good and evil affecting their ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "person should be calculated from the Moon and the Lagna whichever of them is ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "stronger. It is from the 7th place from the Lagna or the Moon that all that is worthy ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "or unworthy in the husband should be ascertained and the death of the husband is ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "foretold through the 8th bhava (from the Lagna or the Moon). All this should be ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "well weighted by the strength or weakness of the planets, benefic and malefic, ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "before an announcement is made.",
+   "bbox": [
+    85,
+    251,
+    273,
+    266
+   ]
+  },
+  {
+   "text": "Of the Lagna and the Moon, find which is stronger. It is well reference to the ",
+   "bbox": [
+    121,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "luck, beauty and strenght of women should be announced. Children and wealth in ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "abundance should be declared through the 9th bhava therefrom. Wedded happiness ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "or otherwise should be gathered from the 8th bhava; husband's fortune from the ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "7th. Some astrologers opine that the well being or the reverse of the husband can ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "be determined from the 9th bhava.",
+   "bbox": [
+    85,
+    395,
+    278,
+    411
+   ]
+  },
+  {
+   "text": "Some hold that widowhood is found out through the 8th bhava. Beauty, fame ",
+   "bbox": [
+    121,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "and fortune through the Lagna, the son through the 5th, ascertain as well exceeding ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "tranquility of women through the planets occupying the 9th bhava. All else ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "whether due to the bhavas or yogas are the same in regard to both men and women.",
+   "bbox": [
+    85,
+    492,
+    552,
+    508
+   ]
+  },
+  {
+   "text": "<b>Brihat Parasara Hora Shastra</b>",
+   "bbox": [
+    121,
+    516,
+    302,
+    532
+   ]
+  },
+  {
+   "text": "The physique of the woman should be ascertained from the Lagna, offspring ",
+   "bbox": [
+    121,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "from the 5th, happiness of the husband from the 7th and widowhood from 6th. ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "Those effects which are not applicable to women should be ascertained to their ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "husbands.",
+   "bbox": [
+    85,
+    613,
+    141,
+    628
+   ]
+  },
+  {
+   "text": "We would like to comment on two of the various matters described above.",
+   "bbox": [
+    121,
+    637,
+    537,
+    652
+   ]
+  },
+  {
+   "text": "(1) Whether the effects not applicable to women should be ascertained to ",
+   "bbox": [
+    121,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "their husbands.",
+   "bbox": [
+    85,
+    685,
+    170,
+    701
+   ]
+  },
+  {
+   "text": "(2) From which house should we examine matters relating to children.",
+   "bbox": [
+    121,
+    709,
+    515,
+    725
+   ]
+  },
+  {
+   "text": "As regards (1) the time have now completely changed and women now ",
+   "bbox": [
+    121,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "enjoy equal opportunities in all fields. Now women are holding high posts in the ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "116",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

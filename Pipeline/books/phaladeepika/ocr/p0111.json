@@ -1,0 +1,288 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0111",
+ "book_id": "phaladeepika",
+ "seq": 111,
+ "source_ref": {
+  "pdf_page": 111
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "ea55ce3945b65348be5f7ba3562033098a734c822e23e0c34e77c09e4d2b5164",
+ "lines": [
+  {
+   "text": "<b>Chapter 10</b>",
+   "bbox": [
+    281,
+    57,
+    357,
+    75
+   ]
+  },
+  {
+   "text": "<b>Matters relating to the 7th House</b>",
+   "bbox": [
+    206,
+    85,
+    432,
+    103
+   ]
+  },
+  {
+   "text": "1. The 5th and 7th houses from the lagna or the Moon be flourished if they ",
+   "bbox": [
+    121,
+    137,
+    556,
+    152
+   ]
+  },
+  {
+   "text": "are associated with or aspected by benefics or their lords, if it is not so, they will ",
+   "bbox": [
+    85,
+    161,
+    556,
+    176
+   ]
+  },
+  {
+   "text": "not be fruitful.",
+   "bbox": [
+    85,
+    185,
+    166,
+    201
+   ]
+  },
+  {
+   "text": "If there be malefics in the 12th, 4th and 8th houses or if Venus be hemmed in ",
+   "bbox": [
+    121,
+    209,
+    556,
+    225
+   ]
+  },
+  {
+   "text": "between two malefics or if Venus be associated or aspected by malefics the native ",
+   "bbox": [
+    85,
+    233,
+    556,
+    249
+   ]
+  },
+  {
+   "text": "will lose his wife (his wife will die).",
+   "bbox": [
+    85,
+    257,
+    288,
+    273
+   ]
+  },
+  {
+   "text": "2. If the lord of the 7th house occupies the 5th, the native will lose his wife ",
+   "bbox": [
+    121,
+    282,
+    556,
+    297
+   ]
+  },
+  {
+   "text": "or he will become sonless. If the lord of the 5th or the 8th be in the 7th, the wife of ",
+   "bbox": [
+    85,
+    306,
+    556,
+    321
+   ]
+  },
+  {
+   "text": "the native does not survive. If the weak Moon be in the 5th and the malefics ",
+   "bbox": [
+    85,
+    330,
+    556,
+    345
+   ]
+  },
+  {
+   "text": "occupy the Ascendant, 7th and 12th houses the person concerned will be without ",
+   "bbox": [
+    85,
+    354,
+    556,
+    370
+   ]
+  },
+  {
+   "text": "wife and children. If the Sun and Rahu occupy the 7th house, the native will suffer ",
+   "bbox": [
+    85,
+    378,
+    556,
+    394
+   ]
+  },
+  {
+   "text": "loss of wealth through association with women.",
+   "bbox": [
+    85,
+    402,
+    352,
+    418
+   ]
+  },
+  {
+   "text": "3. The native loses his wife if there are any of the following disposition of ",
+   "bbox": [
+    121,
+    427,
+    556,
+    442
+   ]
+  },
+  {
+   "text": "planets present at brith:—",
+   "bbox": [
+    85,
+    451,
+    230,
+    466
+   ]
+  },
+  {
+   "text": "(a) Venus in Scorpio in the 7th house.",
+   "bbox": [
+    121,
+    475,
+    332,
+    490
+   ]
+  },
+  {
+   "text": "(b) Mercury in Taurus in the 7th house.",
+   "bbox": [
+    121,
+    499,
+    341,
+    514
+   ]
+  },
+  {
+   "text": "(c) Jupiter in Capricorn in the 7th house.",
+   "bbox": [
+    121,
+    523,
+    348,
+    539
+   ]
+  },
+  {
+   "text": "(d) Saturn in Pisces in the 7th house.",
+   "bbox": [
+    121,
+    547,
+    327,
+    563
+   ]
+  },
+  {
+   "text": "(e) Mars in Pisces in the 7th house.",
+   "bbox": [
+    121,
+    571,
+    318,
+    587
+   ]
+  },
+  {
+   "text": "However, if Mars and Saturn occupy the 7th house identical with Cancer the ",
+   "bbox": [
+    121,
+    596,
+    556,
+    611
+   ]
+  },
+  {
+   "text": "native will be blessed with a wife who is beautiful and of good character.",
+   "bbox": [
+    85,
+    620,
+    494,
+    635
+   ]
+  },
+  {
+   "text": "4. The native is deprived of his wife if the 7th house or its lord be associated ",
+   "bbox": [
+    121,
+    644,
+    556,
+    659
+   ]
+  },
+  {
+   "text": "with or aspected by malefics, hemmed in beetween malefics, be in his sign of ",
+   "bbox": [
+    85,
+    668,
+    556,
+    684
+   ]
+  },
+  {
+   "text": "debilition or an inimical sign or be eclipsed by the Sun's rays.",
+   "bbox": [
+    85,
+    692,
+    430,
+    708
+   ]
+  },
+  {
+   "text": "The native will lose his wife or will have a crippled wife, when Venus in ",
+   "bbox": [
+    121,
+    716,
+    556,
+    732
+   ]
+  },
+  {
+   "text": "conjunction with malefic occupies the 7th, 5th or 9th house.",
+   "bbox": [
+    85,
+    740,
+    421,
+    756
+   ]
+  },
+  {
+   "text": "The native will have illicit relations with other people's wives if Venus be in ",
+   "bbox": [
+    121,
+    765,
+    556,
+    780
+   ]
+  },
+  {
+   "text": "111",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

@@ -1,0 +1,380 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0224",
+ "book_id": "brihat-jataka",
+ "seq": 224,
+ "source_ref": {
+  "pdf_page": 112,
+  "half": "b",
+  "v1_page": "s112b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "37d09b3dc03de0fd994e6d9043873b027a5e1f98cb18914e2ba69befe6af6114",
+ "lines": [
+  {
+   "text": "<b>Principles of Palmistry (Self Instructor)</b>",
+   "bbox": [
+    322,
+    241,
+    1468,
+    312
+   ]
+  },
+  {
+   "text": "Prof. O.P. Verma",
+   "bbox": [
+    1148,
+    335,
+    1506,
+    372
+   ]
+  },
+  {
+   "text": "Man is the most complete creation of God on our planet",
+   "bbox": [
+    362,
+    393,
+    1509,
+    439
+   ]
+  },
+  {
+   "text": "Earth having the discriminating curious mind, so developed",
+   "bbox": [
+    288,
+    448,
+    1508,
+    490
+   ]
+  },
+  {
+   "text": "various methods of delineating the future. Some men adopt",
+   "bbox": [
+    288,
+    501,
+    1509,
+    543
+   ]
+  },
+  {
+   "text": "the astrological methods while others study the hand. Also",
+   "bbox": [
+    288,
+    554,
+    1509,
+    596
+   ]
+  },
+  {
+   "text": "there is science of omens to predict the immediate course of",
+   "bbox": [
+    288,
+    607,
+    1506,
+    648
+   ]
+  },
+  {
+   "text": "events. Most of them have evolved through the incomplete",
+   "bbox": [
+    287,
+    658,
+    1506,
+    704
+   ]
+  },
+  {
+   "text": "conscious mind and chances of error are always there. Human",
+   "bbox": [
+    288,
+    714,
+    1509,
+    755
+   ]
+  },
+  {
+   "text": "hand is the most natural gift having direct link with the human",
+   "bbox": [
+    288,
+    767,
+    1508,
+    809
+   ]
+  },
+  {
+   "text": "subconscious mind, the store houses the past and future of a",
+   "bbox": [
+    288,
+    816,
+    1505,
+    865
+   ]
+  },
+  {
+   "text": "man.",
+   "bbox": [
+    288,
+    882,
+    388,
+    909
+   ]
+  },
+  {
+   "text": "This work \"Learn Palmistry the Easy way\" is a sincere",
+   "bbox": [
+    359,
+    928,
+    1506,
+    968
+   ]
+  },
+  {
+   "text": "effort for easing out the study Palmistry. The perfection in",
+   "bbox": [
+    288,
+    977,
+    1507,
+    1023
+   ]
+  },
+  {
+   "text": "hand reading comes through clear cut comprehension of the",
+   "bbox": [
+    286,
+    1027,
+    1508,
+    1079
+   ]
+  },
+  {
+   "text": "laws of hand reading which involves concentration of mind",
+   "bbox": [
+    288,
+    1085,
+    1506,
+    1127
+   ]
+  },
+  {
+   "text": "and comparative study. The present work has two parts. First",
+   "bbox": [
+    287,
+    1137,
+    1509,
+    1183
+   ]
+  },
+  {
+   "text": "one deals with construction of hand which to a great extent",
+   "bbox": [
+    287,
+    1188,
+    1509,
+    1234
+   ]
+  },
+  {
+   "text": "speak about one's characteristics, disease propensities and",
+   "bbox": [
+    288,
+    1244,
+    1509,
+    1285
+   ]
+  },
+  {
+   "text": "occupational probabilities. The second part deals in study of",
+   "bbox": [
+    288,
+    1298,
+    1511,
+    1340
+   ]
+  },
+  {
+   "text": "lines, the prophetic aspect of the hand called Cheiromancy",
+   "bbox": [
+    286,
+    1346,
+    1512,
+    1395
+   ]
+  },
+  {
+   "text": "largely dependent on the frame work provided by",
+   "bbox": [
+    288,
+    1403,
+    1511,
+    1445
+   ]
+  },
+  {
+   "text": "Cheirogonomy. The number of hand prints will facilitate the",
+   "bbox": [
+    288,
+    1454,
+    1509,
+    1500
+   ]
+  },
+  {
+   "text": "reader to comprehend the principles lucidly.",
+   "bbox": [
+    288,
+    1511,
+    1185,
+    1553
+   ]
+  },
+  {
+   "text": "2 Vol. Set Rs. 400/-",
+   "bbox": [
+    1122,
+    1592,
+    1506,
+    1634
+   ]
+  },
+  {
+   "text": "<b>Planetary Aspects in Astrology</b>",
+   "bbox": [
+    384,
+    1652,
+    1405,
+    1731
+   ]
+  },
+  {
+   "text": "١",
+   "bbox": [
+    192,
+    1700,
+    208,
+    1724
+   ]
+  },
+  {
+   "text": "Prof. O.P. Verma",
+   "bbox": [
+    1122,
+    1752,
+    1508,
+    1793
+   ]
+  },
+  {
+   "text": "Planetary aspects are the combined influence of two or",
+   "bbox": [
+    358,
+    1809,
+    1507,
+    1856
+   ]
+  },
+  {
+   "text": "more planets on a native on earth. They are harmonious or",
+   "bbox": [
+    287,
+    1863,
+    1506,
+    1903
+   ]
+  },
+  {
+   "text": "inharmonious according to lordships, natural significations",
+   "bbox": [
+    285,
+    1912,
+    1509,
+    1954
+   ]
+  },
+  {
+   "text": "and characteristics of the planets involved. Their intensity",
+   "bbox": [
+    287,
+    1964,
+    1509,
+    2005
+   ]
+  },
+  {
+   "text": "varies according to strength of planets in a particular chart.",
+   "bbox": [
+    287,
+    2014,
+    1505,
+    2056
+   ]
+  },
+  {
+   "text": "Aspects operate like conjunctions of planets.",
+   "bbox": [
+    288,
+    2064,
+    1178,
+    2106
+   ]
+  },
+  {
+   "text": "This treatise on planetary aspects is the first of its kind,",
+   "bbox": [
+    361,
+    2115,
+    1509,
+    2156
+   ]
+  },
+  {
+   "text": "equipped with Vedic interpretation of conjunctions and aspects",
+   "bbox": [
+    284,
+    2160,
+    1509,
+    2211
+   ]
+  },
+  {
+   "text": "of planets along with exhaustive interpretation of conjunctions",
+   "bbox": [
+    287,
+    2217,
+    1509,
+    2257
+   ]
+  },
+  {
+   "text": "and aspect from the view point of modern fast changing trends",
+   "bbox": [
+    286,
+    2264,
+    1509,
+    2312
+   ]
+  },
+  {
+   "text": "and culture of the society.",
+   "bbox": [
+    288,
+    2317,
+    815,
+    2358
+   ]
+  },
+  {
+   "text": "Rs. 150",
+   "bbox": [
+    1351,
+    2318,
+    1505,
+    2354
+   ]
+  }
+ ]
+}

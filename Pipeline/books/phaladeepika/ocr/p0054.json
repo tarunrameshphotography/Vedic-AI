@@ -1,0 +1,135 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0054",
+ "book_id": "phaladeepika",
+ "seq": 54,
+ "source_ref": {
+  "pdf_page": 54
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "26e42f01d18136b95a5db01b88ec9adf3885bdc0f10d1cee64c4bc521c101fe7",
+ "lines": [
+  {
+   "text": "sculpture, wooden materials, and by serving under a butcher.",
+   "bbox": [
+    85,
+    57,
+    425,
+    73
+   ]
+  },
+  {
+   "text": "9. If the lord of Navamsa be strong, there will be accrual of wealth without ",
+   "bbox": [
+    121,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "any obstacle or exertion. If it be weak, very little earning may be expected. The ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "country from which the accrual of wealth will be Indicated by the sign representing ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "the 10th house or the Navamsa occupied by the lord of the 10th house. If the sign ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "be occupied or aspected by its lord, the source of income will be found in his own ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "country. The same will happen when the Navamsa occupied by the lord of the 10th ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "house by a fixed sign. If the sign of the 10th house be occupied or aspected by ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "planet other than its lord, the person concerned will earn in the place other than his ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "native land.",
+   "bbox": [
+    85,
+    275,
+    150,
+    290
+   ]
+  },
+  {
+   "text": "Thus ends the fifth chapter an \"Profession & Livelihood\" in Phaladeepika ",
+   "bbox": [
+    121,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "composed by Mantreswara.",
+   "bbox": [
+    85,
+    323,
+    240,
+    339
+   ]
+  },
+  {
+   "text": "54",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

@@ -1,0 +1,279 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0147",
+ "book_id": "phaladeepika",
+ "seq": 147,
+ "source_ref": {
+  "pdf_page": 147
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "b8dc4700064a1d09a7ed641b18f7410efbe2fffd4590c123ff234c8f8290d0a0",
+ "lines": [
+  {
+   "text": "5. If the lord of the house under examination is in the 6th, 8th or 12th from ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "the Lagna, that house is destroyed. The same will be the results if that house is ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "occupied by the Lords of the 6th. 8th or 12th. The house concerned will, however, ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "flourish if it is aspected by a benefic.",
+   "bbox": [
+    85,
+    130,
+    292,
+    145
+   ]
+  },
+  {
+   "text": "6. A house suffers annihilation in the following circumstances :—",
+   "bbox": [
+    121,
+    154,
+    489,
+    169
+   ]
+  },
+  {
+   "text": "(1) If the house, its lord and karaka be bereft of strength.",
+   "bbox": [
+    121,
+    178,
+    438,
+    194
+   ]
+  },
+  {
+   "text": "(2) If the house, its lord and karaka are hemmed in between malefics or be ",
+   "bbox": [
+    121,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "associated with or aspected by malefics and be devoid of any influence of benefics.",
+   "bbox": [
+    85,
+    226,
+    552,
+    242
+   ]
+  },
+  {
+   "text": "(3) If malefics occupy the 4th, 5th, 8th, 9th and 12th houses from that house.",
+   "bbox": [
+    121,
+    251,
+    550,
+    266
+   ]
+  },
+  {
+   "text": "There will be no doubt about the annihilation of the house if any of the two ",
+   "bbox": [
+    121,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "or three conditions' mentioned above synchronise.",
+   "bbox": [
+    85,
+    299,
+    366,
+    314
+   ]
+  },
+  {
+   "text": "Notes — For example, in a male's nativity we have to examine the 7th ",
+   "bbox": [
+    121,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "house. If the 7th house be without any strength, the lord of 7th be posited betwixt ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "malefics, and malefics occupy the 4th and 8th house from Venus, the first wife of ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "the native will definitely meet with her death.",
+   "bbox": [
+    85,
+    395,
+    340,
+    411
+   ]
+  },
+  {
+   "text": "7. If the lord of the 8th house, the lord of 22nd decanate and lords of 6th, 7th ",
+   "bbox": [
+    121,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "and 8th from a house be without strength, they will cause harm to the house (its ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "effects) in their dasa, and antar dasa.",
+   "bbox": [
+    85,
+    468,
+    289,
+    483
+   ]
+  },
+  {
+   "text": "A house will flourish in the dasa of the following planets :—",
+   "bbox": [
+    121,
+    492,
+    461,
+    508
+   ]
+  },
+  {
+   "text": "(1) Malefics posited in the 3rd, 6th and 11th from that house.",
+   "bbox": [
+    121,
+    516,
+    462,
+    532
+   ]
+  },
+  {
+   "text": "(2) Benefits posited in the 1st, 4th, 5th, 7th, 9th, and 10th from that house.",
+   "bbox": [
+    121,
+    540,
+    537,
+    556
+   ]
+  },
+  {
+   "text": "(3) Planets which are friendly to the lord of that hosue.",
+   "bbox": [
+    121,
+    565,
+    428,
+    580
+   ]
+  },
+  {
+   "text": "Provided that the planets mentioned above are not devoid of strength.",
+   "bbox": [
+    121,
+    589,
+    510,
+    604
+   ]
+  },
+  {
+   "text": "Notes — For example see the following horoscope — Here if we examine ",
+   "bbox": [
+    121,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "the position of the Lagna we will find that Saturn is an enemy of the Sun (lord of ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "the Lagna). Therefore there will be physical distress in the dasa and antar dasa of ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "Saturn. Jupiter is a friend of the Sun. Therefore there will be physical felicity in the ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "dasa and antar dasa of Jupiter.",
+   "bbox": [
+    85,
+    709,
+    253,
+    725
+   ]
+  },
+  {
+   "text": "147",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

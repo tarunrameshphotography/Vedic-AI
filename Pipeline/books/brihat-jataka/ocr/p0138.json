@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0138",
+ "book_id": "brihat-jataka",
+ "seq": 138,
+ "source_ref": {
+  "pdf_page": 69,
+  "half": "b",
+  "v1_page": "s069b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "f5a2c85e0ff089682126b1329f150f9630bc7978b09a1f3371e3171f8898c4f2",
+ "lines": [
+  {
+   "text": "135",
+   "bbox": [
+    1326,
+    161,
+    1413,
+    195
+   ]
+  },
+  {
+   "text": "Moon in Different Signs",
+   "bbox": [
+    206,
+    179,
+    694,
+    237
+   ]
+  },
+  {
+   "text": "Moon in Capricorn",
+   "bbox": [
+    212,
+    279,
+    713,
+    339
+   ]
+  },
+  {
+   "text": "नित्यं लालयति स्वदारतनयान्धर्मध्वजोऽध: कृश:",
+   "bbox": [
+    284,
+    346,
+    977,
+    426
+   ]
+  },
+  {
+   "text": "स्वक्ष: क्षामकटिर्गृहीतवचन: सौभाग्ययुक्तोऽलस:।",
+   "bbox": [
+    287,
+    409,
+    984,
+    491
+   ]
+  },
+  {
+   "text": "शीतालुर्मनुजोऽटनश्च मकरे सत्त्वाधिक: काव्यकृ-",
+   "bbox": [
+    288,
+    476,
+    983,
+    555
+   ]
+  },
+  {
+   "text": "ल्लुब्धोऽगम्यजराङ्गनासु निरत: सन्त्यक्तलज्जोऽघृण: ।। 10 ।।",
+   "bbox": [
+    292,
+    535,
+    1172,
+    623
+   ]
+  },
+  {
+   "text": "One born with Moon in Capricorn is ever loving his wife",
+   "bbox": [
+    298,
+    621,
+    1431,
+    706
+   ]
+  },
+  {
+   "text": "and sons, shows himself outwardly as religious, is thin below",
+   "bbox": [
+    224,
+    672,
+    1432,
+    762
+   ]
+  },
+  {
+   "text": "the waist, has good looking eyes, possesses a thin waist and",
+   "bbox": [
+    223,
+    724,
+    1433,
+    816
+   ]
+  },
+  {
+   "text": "acts favourably to requests. He is fortunate and lazy, subject to",
+   "bbox": [
+    226,
+    777,
+    1436,
+    867
+   ]
+  },
+  {
+   "text": "suffering from cold, much travelled, powerful and taking inter-",
+   "bbox": [
+    228,
+    830,
+    1437,
+    921
+   ]
+  },
+  {
+   "text": "est in literature, greedy, sexually attached to old women,",
+   "bbox": [
+    229,
+    882,
+    1437,
+    975
+   ]
+  },
+  {
+   "text": "shameless and pitiless.",
+   "bbox": [
+    231,
+    964,
+    694,
+    1020
+   ]
+  },
+  {
+   "text": "करभगल: शिरालु: खरलोमशदीर्घतनु:",
+   "bbox": [
+    305,
+    1037,
+    854,
+    1108
+   ]
+  },
+  {
+   "text": "पृथुचरणोरुपृष्ठजघनास्यकटिर्जरठ:।",
+   "bbox": [
+    309,
+    1100,
+    811,
+    1175
+   ]
+  },
+  {
+   "text": "परवनितार्थपापनिरत: क्षयवृद्धियुत:",
+   "bbox": [
+    312,
+    1174,
+    797,
+    1232
+   ]
+  },
+  {
+   "text": "प्रियकुसुमानुलेपनसुहृद्घटजोध्वसह: ।। 11 ।।",
+   "bbox": [
+    311,
+    1227,
+    972,
+    1303
+   ]
+  },
+  {
+   "text": "If Moon is in Aquarius at the time of a person's birth, he/",
+   "bbox": [
+    317,
+    1307,
+    1454,
+    1386
+   ]
+  },
+  {
+   "text": "she will have long neck like that of a camel, strong nerves all",
+   "bbox": [
+    244,
+    1353,
+    1455,
+    1445
+   ]
+  },
+  {
+   "text": "over the bdy, tall and rough form covered with hair, broad feet",
+   "bbox": [
+    246,
+    1406,
+    1457,
+    1496
+   ]
+  },
+  {
+   "text": "thighs, legs, face and belly. He will be hard-hearted and desire",
+   "bbox": [
+    247,
+    1459,
+    1456,
+    1549
+   ]
+  },
+  {
+   "text": "other's wives, commit sinful deeds. He will be fond of flowers",
+   "bbox": [
+    250,
+    1509,
+    1459,
+    1602
+   ]
+  },
+  {
+   "text": "and perfumes. He will be able to endure the stress of walking",
+   "bbox": [
+    252,
+    1567,
+    1462,
+    1651
+   ]
+  },
+  {
+   "text": "long distances on the roads.",
+   "bbox": [
+    252,
+    1638,
+    813,
+    1707
+   ]
+  },
+  {
+   "text": "जलपरधनभोक्ता दारवासोऽनुरक्त:",
+   "bbox": [
+    328,
+    1722,
+    791,
+    1785
+   ]
+  },
+  {
+   "text": "समरुचिरशरीरस्तुङ्गनासो बृहत्क:।",
+   "bbox": [
+    331,
+    1788,
+    815,
+    1847
+   ]
+  },
+  {
+   "text": "अभिभवति सपत्नान्स्त्रीजितश्चारुदृष्टि-",
+   "bbox": [
+    332,
+    1845,
+    868,
+    1918
+   ]
+  },
+  {
+   "text": "र्द्युतिनिधिधनभोगीपण्डितश्चान्त्यराशौ।। 12 ।।",
+   "bbox": [
+    334,
+    1906,
+    987,
+    1982
+   ]
+  },
+  {
+   "text": "The person born with Moon in Meena will get money by",
+   "bbox": [
+    338,
+    1984,
+    1473,
+    2074
+   ]
+  },
+  {
+   "text": "dealing with things grown in water - such that pearls, fish,",
+   "bbox": [
+    264,
+    2039,
+    1472,
+    2125
+   ]
+  },
+  {
+   "text": "coral etc. He will usrup other's wealth, will be fond of his wife",
+   "bbox": [
+    265,
+    2091,
+    1475,
+    2177
+   ]
+  },
+  {
+   "text": "and children. He will have proportionate body and limbs,",
+   "bbox": [
+    268,
+    2142,
+    1477,
+    2232
+   ]
+  },
+  {
+   "text": "projected nose and big head. He will defeat his enemies, but",
+   "bbox": [
+    268,
+    2197,
+    1479,
+    2281
+   ]
+  }
+ ]
+}

@@ -1,0 +1,180 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0009",
+ "book_id": "phaladeepika",
+ "seq": 9,
+ "source_ref": {
+  "pdf_page": 9
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "47f04d64fcc556c76b0f493c87c3cabed2ade52a6b9eb766f231414e09b4b2ac",
+ "lines": [
+  {
+   "text": "<b>Chapter 25: Gullka and other Upagrahas</b>",
+   "bbox": [
+    121,
+    57,
+    368,
+    73
+   ]
+  },
+  {
+   "text": "The names of Upagrahas viz. Gullka or Mandl, Yamakantaka, Ardhaprahara, ",
+   "bbox": [
+    121,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "Kala, Dhuma, Vyatipata, Parldhl, Indra Dhanus and Ketu or Upketu - Calculation ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "of their position and their effects. 289-294",
+   "bbox": [
+    85,
+    130,
+    322,
+    145
+   ]
+  },
+  {
+   "text": "<b>Chapter 26: Effects of transits of various planets and constallatlons </b>",
+   "bbox": [
+    121,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "<b>(Nakshatras)</b>",
+   "bbox": [
+    85,
+    178,
+    163,
+    194
+   ]
+  },
+  {
+   "text": "Houses reckoned from the nine planets in which they produce good effects ",
+   "bbox": [
+    121,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "In the course of transit — Description of Vedha places from the various planets ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "-transit effects to be reckoned from the sign occupied by the Moon - Effects of ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "transit of the planets through the twelve houses — Effects of transits of Nakshatras ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "- Saptasalaka diagram- Effects of Lattas-Preparatlon of Sarvatobhadra chakram ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "and Its Importance - Information extracted from Hora Ratna about Sarvatobhadra ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "chakram – Diagram of Samastobhadra chakram. 295-325",
+   "bbox": [
+    85,
+    347,
+    406,
+    363
+   ]
+  },
+  {
+   "text": "<b>Chapter 27: Yogas leading to ascetlsm</b>",
+   "bbox": [
+    121,
+    371,
+    347,
+    387
+   ]
+  },
+  {
+   "text": "Planetary combination leading to ascetlsm -- the order of ascetlsm to be ",
+   "bbox": [
+    121,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "taken up as a result of the influence of the seven planets. 326-327",
+   "bbox": [
+    85,
+    420,
+    452,
+    435
+   ]
+  },
+  {
+   "text": "<b>Chapter 28: Conclusion 328</b>",
+   "bbox": [
+    121,
+    444,
+    288,
+    459
+   ]
+  },
+  {
+   "text": "9",
+   "bbox": [
+    316,
+    793,
+    322,
+    806
+   ]
+  }
+ ]
+}

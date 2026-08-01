@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0131",
+ "book_id": "phaladeepika",
+ "seq": 131,
+ "source_ref": {
+  "pdf_page": 131
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "af73a0afc0cefc4f520d5232a24b6bac1bedd57385dacb8abd6cca4d87436d4b",
+ "lines": [
+  {
+   "text": "that afflict him till the 20th year are said to be due to Yogarishta (evils produced by ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "planetary dispositions). When the longevity extends to 32, it is called alpayus or ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "short life. It is called Madhyamayus or middle age when the span of life extends to ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "70 years. It is Poornayus when the period of life extends to 100 years.",
+   "bbox": [
+    85,
+    130,
+    476,
+    145
+   ]
+  },
+  {
+   "text": "7. A hundred years is generally recognised as the span of life for human ",
+   "bbox": [
+    121,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "beings. The division of this period Into three portions constitutes respectively the ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "Alpayu, Madhyamayu and Poornayu and this is recognised universally.",
+   "bbox": [
+    85,
+    202,
+    484,
+    218
+   ]
+  },
+  {
+   "text": "8. If the birth occurs in the evil yogas - Dinamrityu, Dinaroga or ",
+   "bbox": [
+    121,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "Vishaghatikala, the child will die immediately after birth.",
+   "bbox": [
+    85,
+    251,
+    406,
+    266
+   ]
+  },
+  {
+   "text": "Notes— Described below are the Dinamrityu, Dinaroga and Vishagatikala ",
+   "bbox": [
+    121,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "Yogas.",
+   "bbox": [
+    85,
+    299,
+    123,
+    314
+   ]
+  },
+  {
+   "text": "Dina mrityu— There is this yoga when the birth is during the day in the first ",
+   "bbox": [
+    121,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "quarter of Dhanishta and hasta, in the 2nd quarter of Uttarabhadra and Ashlesha, ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "and the fourth quarter of Bharani and Moola. These yogas do not cause any evil ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "effect if the birth is during the night.",
+   "bbox": [
+    85,
+    395,
+    289,
+    411
+   ]
+  },
+  {
+   "text": "Dinaroga — There is this yoga when the birth occurs during the day in the ",
+   "bbox": [
+    121,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "first quarter of Ashlesha and Uttarabhadra, in the second quarter of Bharani and ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "Moola, in the third quarter of Uttaraphalguni and Sravana and in the fourth quarter ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "of Swati and Mrigashira. These yogas will cause no evil effects if the birth occurs ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "during the night.",
+   "bbox": [
+    85,
+    516,
+    178,
+    532
+   ]
+  },
+  {
+   "text": "Vishagatikala — Every nakshatra has ghatikas of Vishagatikala as under —",
+   "bbox": [
+    121,
+    540,
+    544,
+    556
+   ]
+  },
+  {
+   "text": "Aswin 50-54, Bharani 24-28, Krittika 30-34, Rohini 40-44, Mrigashira 14-",
+   "bbox": [
+    121,
+    565,
+    553,
+    580
+   ]
+  },
+  {
+   "text": "18, Aridra 21-25, Punarvasu 30-34, Pushyami 20-24, Ashlesha 32-36, Makha 30-",
+   "bbox": [
+    85,
+    589,
+    553,
+    604
+   ]
+  },
+  {
+   "text": "34, Poorvaphalguni 20-24, Uttaraphalguni 18-22, Hasta 21-25, Chlttra 20-24, ",
+   "bbox": [
+    85,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "Swati 14-18, Visakha 14-18., Anuradha 10-14, Jyestha 14-18, Mcx)la 56-60, ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "Poorvashada 24-281 Uttarashada 20-24, Saravana 10-14, Dhanista 10-14, ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "Shatabhlsha 18-22, Poorvabhadra 16-20, Uttarabhadra 24-28 and Revati 30-34.",
+   "bbox": [
+    85,
+    685,
+    530,
+    701
+   ]
+  },
+  {
+   "text": "If the birth occurs in the first quarter of Pushyami, Poorvashada and Chittra, ",
+   "bbox": [
+    121,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "the father of the native dies. If it be in the second quarter, the mother dies. The ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "child will himself die if the birth takes place in the third quarter. The maternal ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "131",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

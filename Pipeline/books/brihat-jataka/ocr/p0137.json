@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0137",
+ "book_id": "brihat-jataka",
+ "seq": 137,
+ "source_ref": {
+  "pdf_page": 69,
+  "half": "a",
+  "v1_page": "s069a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "5b8548ea83d4418940745819f7f8b550ea5e7c9ba41865f4e56f3db44d743413",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1231,
+    224,
+    1522,
+    258
+   ]
+  },
+  {
+   "text": "134",
+   "bbox": [
+    309,
+    225,
+    399,
+    260
+   ]
+  },
+  {
+   "text": "One born with Moon in Libra is devoted to the service of",
+   "bbox": [
+    382,
+    328,
+    1529,
+    362
+   ]
+  },
+  {
+   "text": "deity, Brahmins and sadhus, is intelligent, clean in dealings",
+   "bbox": [
+    306,
+    382,
+    1525,
+    420
+   ]
+  },
+  {
+   "text": "and under the influence of his wife. He has a tall and thin body",
+   "bbox": [
+    306,
+    433,
+    1525,
+    472
+   ]
+  },
+  {
+   "text": "with thin nose, prone to disease, fond of travelling, and",
+   "bbox": [
+    306,
+    486,
+    1522,
+    525
+   ]
+  },
+  {
+   "text": "wealthy, liable, to loss of some limb, efficient in the sale and",
+   "bbox": [
+    306,
+    539,
+    1522,
+    578
+   ]
+  },
+  {
+   "text": "purchase of commodities. Apart from his birth name he is later",
+   "bbox": [
+    306,
+    591,
+    1525,
+    630
+   ]
+  },
+  {
+   "text": "known by the name of some deity. He does good to his family",
+   "bbox": [
+    304,
+    645,
+    1522,
+    683
+   ]
+  },
+  {
+   "text": "and relatives but is forsaken by them.",
+   "bbox": [
+    306,
+    698,
+    1062,
+    737
+   ]
+  },
+  {
+   "text": "Moon in Scorpio",
+   "bbox": [
+    303,
+    803,
+    740,
+    842
+   ]
+  },
+  {
+   "text": "पृथुलनयनवक्षा वृत्तजङ्गोरुजान्-",
+   "bbox": [
+    378,
+    877,
+    827,
+    933
+   ]
+  },
+  {
+   "text": "र्जनकगुरुवियुक्त: शैशवे व्याधितश्च।",
+   "bbox": [
+    376,
+    941,
+    904,
+    995
+   ]
+  },
+  {
+   "text": "नरपतिकुलपूज्य: पिङ्गल: क्रूरचेप्टो",
+   "bbox": [
+    376,
+    1007,
+    881,
+    1061
+   ]
+  },
+  {
+   "text": "झषकुलिशखगाङ्कश्छन्नपापोऽलिजात:।। 8 ।।",
+   "bbox": [
+    378,
+    1075,
+    1017,
+    1127
+   ]
+  },
+  {
+   "text": "One born with Moon in Scorpio, has big eyes and chest",
+   "bbox": [
+    379,
+    1169,
+    1523,
+    1211
+   ]
+  },
+  {
+   "text": "with round legs, devoid of father and preceptors, subject to",
+   "bbox": [
+    301,
+    1222,
+    1520,
+    1262
+   ]
+  },
+  {
+   "text": "disease in infancy, favoured by the government. He has a",
+   "bbox": [
+    301,
+    1275,
+    1522,
+    1315
+   ]
+  },
+  {
+   "text": "yellow body and is engaged in cruel deeds. He has marks of",
+   "bbox": [
+    301,
+    1328,
+    1526,
+    1368
+   ]
+  },
+  {
+   "text": "fish, thunderbolt, bird in hands and feet and is sinful in",
+   "bbox": [
+    301,
+    1376,
+    1522,
+    1422
+   ]
+  },
+  {
+   "text": "private (not openly).",
+   "bbox": [
+    301,
+    1434,
+    711,
+    1472
+   ]
+  },
+  {
+   "text": "Moon in Sagittarius",
+   "bbox": [
+    301,
+    1537,
+    829,
+    1579
+   ]
+  },
+  {
+   "text": "व्यादीर्घास्यशिरोधर: पितृधनस्त्यागी कविर्वीर्ययवान्",
+   "bbox": [
+    375,
+    1615,
+    1106,
+    1667
+   ]
+  },
+  {
+   "text": "वक्ता स्थूलरदश्रवोधरनस: कर्मोद्यत: शिल्पवित्।",
+   "bbox": [
+    375,
+    1679,
+    1057,
+    1732
+   ]
+  },
+  {
+   "text": "कुब्जांस:कुनखी समांसलभुज: प्रागल्भ्यवान् धर्मविद्",
+   "bbox": [
+    375,
+    1746,
+    1127,
+    1797
+   ]
+  },
+  {
+   "text": "बन्धद्विट् न बलात्समेति च वशं साम्नैकसाध्योऽश्वज:।। 9 ।।",
+   "bbox": [
+    373,
+    1811,
+    1254,
+    1861
+   ]
+  },
+  {
+   "text": "One born with Moon in Sagittarius has a thick face and",
+   "bbox": [
+    376,
+    1907,
+    1520,
+    1946
+   ]
+  },
+  {
+   "text": "neck. He has paternal wealth and is generous in charity. He is",
+   "bbox": [
+    300,
+    1959,
+    1520,
+    1999
+   ]
+  },
+  {
+   "text": "wise, powerful and a good speaker. His lips, teeth, ears and",
+   "bbox": [
+    300,
+    2012,
+    1519,
+    2052
+   ]
+  },
+  {
+   "text": "nose are thick. He is industrious and knows some art (handi-",
+   "bbox": [
+    300,
+    2064,
+    1519,
+    2101
+   ]
+  },
+  {
+   "text": "craft, painting etc), has hunch in the region of shoulders and",
+   "bbox": [
+    299,
+    2118,
+    1518,
+    2157
+   ]
+  },
+  {
+   "text": "bad nails. His arms are full of flesh. He is wise and religious",
+   "bbox": [
+    300,
+    2170,
+    1519,
+    2209
+   ]
+  },
+  {
+   "text": "but opposed to his relatives. He is invulnerable through force",
+   "bbox": [
+    297,
+    2223,
+    1519,
+    2262
+   ]
+  },
+  {
+   "text": "and can be tackled through love and reconciliation.",
+   "bbox": [
+    299,
+    2275,
+    1318,
+    2314
+   ]
+  }
+ ]
+}

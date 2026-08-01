@@ -1,0 +1,639 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0174",
+ "book_id": "phaladeepika",
+ "seq": 174,
+ "source_ref": {
+  "pdf_page": 174
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "b4a83e734e7439609f36ba72f99fe020748bf0fe986a3ca5c7042c127960ebdc",
+ "lines": [
+  {
+   "text": "<b>Chapter 19</b>",
+   "bbox": [
+    281,
+    57,
+    357,
+    75
+   ]
+  },
+  {
+   "text": "<b>Dasas and their effects</b>",
+   "bbox": [
+    242,
+    85,
+    396,
+    103
+   ]
+  },
+  {
+   "text": "1. The nine planets who were worshipped in many ways with devotion for a ",
+   "bbox": [
+    121,
+    137,
+    556,
+    152
+   ]
+  },
+  {
+   "text": "long time by sage Parasara, having been pleased bestowed upon him the ",
+   "bbox": [
+    85,
+    161,
+    556,
+    176
+   ]
+  },
+  {
+   "text": "knowledge of accurately determining their effects (on births in this world). Being ",
+   "bbox": [
+    85,
+    185,
+    556,
+    201
+   ]
+  },
+  {
+   "text": "convinced after many tests that they are unfailing, I take out the essence from the ",
+   "bbox": [
+    85,
+    209,
+    556,
+    225
+   ]
+  },
+  {
+   "text": "astrological scripts containing his famous sayings and set forth the famous Maha ",
+   "bbox": [
+    85,
+    233,
+    556,
+    249
+   ]
+  },
+  {
+   "text": "Dasa.",
+   "bbox": [
+    85,
+    257,
+    117,
+    273
+   ]
+  },
+  {
+   "text": "2. Count the stars from Krittika in groups of nine. The planets presiding over ",
+   "bbox": [
+    121,
+    282,
+    556,
+    297
+   ]
+  },
+  {
+   "text": "the dasas belonging to the nine nakshatras composing each group are respectively ",
+   "bbox": [
+    85,
+    306,
+    556,
+    321
+   ]
+  },
+  {
+   "text": "the Sun, the Moon, Mars, Rahu, Jupiter, Saturn, Mercury, Ketu and Venus and the ",
+   "bbox": [
+    85,
+    330,
+    556,
+    345
+   ]
+  },
+  {
+   "text": "span of their dasa periods are respectively 6, 10, 7, 18, 16, 19, 17, 7 and 20 year.",
+   "bbox": [
+    85,
+    354,
+    535,
+    370
+   ]
+  },
+  {
+   "text": "Notes — The following table clarifies what has been mentioned above:—",
+   "bbox": [
+    121,
+    378,
+    534,
+    394
+   ]
+  },
+  {
+   "text": "Nakshatra ",
+   "bbox": [
+    136,
+    403,
+    196,
+    418
+   ]
+  },
+  {
+   "text": "Nakshatra ",
+   "bbox": [
+    210,
+    403,
+    270,
+    418
+   ]
+  },
+  {
+   "text": "Nakshatra ",
+   "bbox": [
+    284,
+    403,
+    344,
+    418
+   ]
+  },
+  {
+   "text": "Lord of ",
+   "bbox": [
+    358,
+    403,
+    404,
+    418
+   ]
+  },
+  {
+   "text": "Dasa period",
+   "bbox": [
+    432,
+    403,
+    499,
+    418
+   ]
+  },
+  {
+   "text": "Nakshatra ",
+   "bbox": [
+    358,
+    419,
+    418,
+    434
+   ]
+  },
+  {
+   "text": "Krittika ",
+   "bbox": [
+    136,
+    436,
+    183,
+    451
+   ]
+  },
+  {
+   "text": "U. Phalguni U. Ashada ",
+   "bbox": [
+    210,
+    436,
+    346,
+    451
+   ]
+  },
+  {
+   "text": "Sun ",
+   "bbox": [
+    358,
+    436,
+    383,
+    451
+   ]
+  },
+  {
+   "text": "6 ",
+   "bbox": [
+    432,
+    436,
+    442,
+    451
+   ]
+  },
+  {
+   "text": "Rohini ",
+   "bbox": [
+    136,
+    452,
+    178,
+    468
+   ]
+  },
+  {
+   "text": "Hasta ",
+   "bbox": [
+    210,
+    452,
+    245,
+    468
+   ]
+  },
+  {
+   "text": "Sravan ",
+   "bbox": [
+    284,
+    452,
+    326,
+    468
+   ]
+  },
+  {
+   "text": "Moon ",
+   "bbox": [
+    358,
+    452,
+    394,
+    468
+   ]
+  },
+  {
+   "text": "10 ",
+   "bbox": [
+    432,
+    452,
+    449,
+    468
+   ]
+  },
+  {
+   "text": "Mrigasira ",
+   "bbox": [
+    136,
+    469,
+    194,
+    484
+   ]
+  },
+  {
+   "text": "Chlttra ",
+   "bbox": [
+    210,
+    469,
+    252,
+    484
+   ]
+  },
+  {
+   "text": "Dhanista ",
+   "bbox": [
+    284,
+    469,
+    337,
+    484
+   ]
+  },
+  {
+   "text": "Mars ",
+   "bbox": [
+    358,
+    469,
+    390,
+    484
+   ]
+  },
+  {
+   "text": "7 ",
+   "bbox": [
+    432,
+    469,
+    442,
+    484
+   ]
+  },
+  {
+   "text": "Aridra ",
+   "bbox": [
+    136,
+    485,
+    176,
+    501
+   ]
+  },
+  {
+   "text": "Swati ",
+   "bbox": [
+    210,
+    485,
+    245,
+    501
+   ]
+  },
+  {
+   "text": "Satabhlsha Rahu ",
+   "bbox": [
+    284,
+    485,
+    391,
+    501
+   ]
+  },
+  {
+   "text": "18 ",
+   "bbox": [
+    432,
+    485,
+    449,
+    501
+   ]
+  },
+  {
+   "text": "Punarvasu ",
+   "bbox": [
+    136,
+    502,
+    198,
+    517
+   ]
+  },
+  {
+   "text": "Visakha ",
+   "bbox": [
+    210,
+    502,
+    258,
+    517
+   ]
+  },
+  {
+   "text": "P. Bhadra ",
+   "bbox": [
+    284,
+    502,
+    341,
+    517
+   ]
+  },
+  {
+   "text": "Jupiter ",
+   "bbox": [
+    358,
+    502,
+    399,
+    517
+   ]
+  },
+  {
+   "text": "16 ",
+   "bbox": [
+    432,
+    502,
+    449,
+    517
+   ]
+  },
+  {
+   "text": "Pushyami ",
+   "bbox": [
+    136,
+    519,
+    195,
+    534
+   ]
+  },
+  {
+   "text": "Anuradha ",
+   "bbox": [
+    210,
+    519,
+    268,
+    534
+   ]
+  },
+  {
+   "text": "U. Bhadra ",
+   "bbox": [
+    284,
+    519,
+    345,
+    534
+   ]
+  },
+  {
+   "text": "Saturn ",
+   "bbox": [
+    358,
+    519,
+    398,
+    534
+   ]
+  },
+  {
+   "text": "19 ",
+   "bbox": [
+    432,
+    519,
+    449,
+    534
+   ]
+  },
+  {
+   "text": "Ashlesha ",
+   "bbox": [
+    136,
+    535,
+    191,
+    551
+   ]
+  },
+  {
+   "text": "Jyestha ",
+   "bbox": [
+    210,
+    535,
+    254,
+    551
+   ]
+  },
+  {
+   "text": "Revti ",
+   "bbox": [
+    284,
+    535,
+    318,
+    551
+   ]
+  },
+  {
+   "text": "Mercury ",
+   "bbox": [
+    358,
+    535,
+    409,
+    551
+   ]
+  },
+  {
+   "text": "17 ",
+   "bbox": [
+    432,
+    535,
+    449,
+    551
+   ]
+  },
+  {
+   "text": "Magha ",
+   "bbox": [
+    136,
+    552,
+    178,
+    567
+   ]
+  },
+  {
+   "text": "Moola ",
+   "bbox": [
+    210,
+    552,
+    250,
+    567
+   ]
+  },
+  {
+   "text": "Aswini ",
+   "bbox": [
+    284,
+    552,
+    328,
+    567
+   ]
+  },
+  {
+   "text": "Ketu ",
+   "bbox": [
+    358,
+    552,
+    388,
+    567
+   ]
+  },
+  {
+   "text": "7 ",
+   "bbox": [
+    432,
+    552,
+    442,
+    567
+   ]
+  },
+  {
+   "text": "P. Phalguni P. Ashada ",
+   "bbox": [
+    136,
+    568,
+    268,
+    584
+   ]
+  },
+  {
+   "text": "Bhara ",
+   "bbox": [
+    284,
+    568,
+    321,
+    584
+   ]
+  },
+  {
+   "text": "Venus ",
+   "bbox": [
+    358,
+    568,
+    395,
+    584
+   ]
+  },
+  {
+   "text": "10 ",
+   "bbox": [
+    432,
+    568,
+    449,
+    584
+   ]
+  },
+  {
+   "text": "3. Now is described the method of finding the remainder of the dasa of ",
+   "bbox": [
+    121,
+    609,
+    556,
+    625
+   ]
+  },
+  {
+   "text": "planet at the time of birth. Find out the nakshatra in which the Moon is posited at ",
+   "bbox": [
+    85,
+    633,
+    556,
+    649
+   ]
+  },
+  {
+   "text": "birth and for how many ghatikas it will remain after birth in that nakshatra. ",
+   "bbox": [
+    85,
+    657,
+    556,
+    673
+   ]
+  },
+  {
+   "text": "Multiply those ghatikas by the total period of the dasa and divide it by 60. The ",
+   "bbox": [
+    85,
+    682,
+    556,
+    697
+   ]
+  },
+  {
+   "text": "quotient will represent the period in years still to elapse. Any remainder remaining ",
+   "bbox": [
+    85,
+    706,
+    556,
+    721
+   ]
+  },
+  {
+   "text": "may be converted into months by multiplying by 30 and dividing by 60 and so on.",
+   "bbox": [
+    85,
+    730,
+    546,
+    745
+   ]
+  },
+  {
+   "text": "Notes — This is clarified below by an example. Suppose at the time of birth ",
+   "bbox": [
+    121,
+    754,
+    556,
+    770
+   ]
+  },
+  {
+   "text": "174",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

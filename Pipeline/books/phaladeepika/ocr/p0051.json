@@ -1,0 +1,279 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0051",
+ "book_id": "phaladeepika",
+ "seq": 51,
+ "source_ref": {
+  "pdf_page": 51
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "2da421fe5f4f6076356cecca4e0285b4095d1fe8a409a06126624537e804f00f",
+ "lines": [
+  {
+   "text": "<b>Chapter 5</b>",
+   "bbox": [
+    285,
+    57,
+    353,
+    75
+   ]
+  },
+  {
+   "text": "<b>Source of livelihood</b>",
+   "bbox": [
+    252,
+    85,
+    386,
+    103
+   ]
+  },
+  {
+   "text": "1. Which planet helps to acquire wealth? Which planet is in the 10th to the ",
+   "bbox": [
+    121,
+    137,
+    556,
+    152
+   ]
+  },
+  {
+   "text": "Lagna or Moon whoever is stronger? The source of acquisition of wealth will be ",
+   "bbox": [
+    85,
+    161,
+    556,
+    176
+   ]
+  },
+  {
+   "text": "father if the planet be the Sun. mother if the planet be the Moon, an enemy in case ",
+   "bbox": [
+    85,
+    185,
+    556,
+    201
+   ]
+  },
+  {
+   "text": "of Mars, a friend in case of Mercury, a brother in case of Jupiter, a wife in case of ",
+   "bbox": [
+    85,
+    209,
+    556,
+    225
+   ]
+  },
+  {
+   "text": "Venus and a servant in case of Saturn.",
+   "bbox": [
+    85,
+    233,
+    297,
+    249
+   ]
+  },
+  {
+   "text": "The profession of the native will be that assigned to the lord of the Navamsa ",
+   "bbox": [
+    121,
+    257,
+    556,
+    273
+   ]
+  },
+  {
+   "text": "occupied by the lord of the 10th house from the Lagna, from the Moon and the Sun ",
+   "bbox": [
+    85,
+    282,
+    556,
+    297
+   ]
+  },
+  {
+   "text": "(severally) whoever is the strongest.",
+   "bbox": [
+    85,
+    306,
+    288,
+    321
+   ]
+  },
+  {
+   "text": "Notes — It will be seen in the verse that the source of acquisition of wealth ",
+   "bbox": [
+    121,
+    330,
+    556,
+    345
+   ]
+  },
+  {
+   "text": "has been limited to relations and some other persons. In ancient times when this ",
+   "bbox": [
+    85,
+    354,
+    556,
+    370
+   ]
+  },
+  {
+   "text": "work was written, the sources of income were limited. In modern times the ",
+   "bbox": [
+    85,
+    378,
+    556,
+    394
+   ]
+  },
+  {
+   "text": "situation is quite different. For example, it is stated that in case of the Sun the ",
+   "bbox": [
+    85,
+    402,
+    556,
+    418
+   ]
+  },
+  {
+   "text": "accrual of wealth could be from father. No doubt, the Sun governs and is ",
+   "bbox": [
+    85,
+    427,
+    556,
+    442
+   ]
+  },
+  {
+   "text": "significator should be taken into consideration for determining the source of ",
+   "bbox": [
+    85,
+    451,
+    556,
+    466
+   ]
+  },
+  {
+   "text": "income. The same could apply to other planets. For example, if there be a strong ",
+   "bbox": [
+    85,
+    475,
+    556,
+    490
+   ]
+  },
+  {
+   "text": "Moon in the 10th from the lagna. the income can be predicted from white coloured ",
+   "bbox": [
+    85,
+    499,
+    556,
+    514
+   ]
+  },
+  {
+   "text": "articles (milk, pearls, silk, white clothes etc.), from articles coming out of water, ",
+   "bbox": [
+    85,
+    523,
+    556,
+    539
+   ]
+  },
+  {
+   "text": "from silver, from business with foreign lands etc.",
+   "bbox": [
+    85,
+    547,
+    360,
+    563
+   ]
+  },
+  {
+   "text": "For the other part of the verse we will try to explain its meaning through a ",
+   "bbox": [
+    121,
+    571,
+    556,
+    587
+   ]
+  },
+  {
+   "text": "chart.",
+   "bbox": [
+    85,
+    596,
+    117,
+    611
+   ]
+  },
+  {
+   "text": "The Lagna is Leo. The Sun is in Scorpio. The Moon is in Pisces. Taurus is ",
+   "bbox": [
+    121,
+    620,
+    556,
+    635
+   ]
+  },
+  {
+   "text": "the sign 10th to the Lagna. Suppose the lord of this house Venus is in Libra 5 ",
+   "bbox": [
+    85,
+    644,
+    556,
+    659
+   ]
+  },
+  {
+   "text": "degrees. Then Venus would be in Scorpio Navamsas in Libra. The Navamsa of ",
+   "bbox": [
+    85,
+    668,
+    556,
+    684
+   ]
+  },
+  {
+   "text": "Scorpio falls between 3°-30' to 6°-40'. The lord of Scorpio Navamsa is Mars. ",
+   "bbox": [
+    85,
+    692,
+    556,
+    708
+   ]
+  },
+  {
+   "text": "Therefore, we will take that the source of livelihood (profession) would be in any ",
+   "bbox": [
+    85,
+    716,
+    556,
+    732
+   ]
+  },
+  {
+   "text": "of the significations of Mars.",
+   "bbox": [
+    85,
+    740,
+    247,
+    756
+   ]
+  },
+  {
+   "text": "51",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

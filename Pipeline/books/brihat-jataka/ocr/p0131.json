@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0131",
+ "book_id": "brihat-jataka",
+ "seq": 131,
+ "source_ref": {
+  "pdf_page": 66,
+  "half": "a",
+  "v1_page": "s066a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "3b14d8f2efdb0f3fd601b4d6783b4cdc7cfde0f13d401deca3ab21e6a9f56759",
+ "lines": [
+  {
+   "text": "128",
+   "bbox": [
+    392,
+    250,
+    479,
+    284
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1313,
+    267,
+    1602,
+    305
+   ]
+  },
+  {
+   "text": "One born with Moon in \"Punarvasu\" nakshatra controls",
+   "bbox": [
+    459,
+    353,
+    1604,
+    410
+   ]
+  },
+  {
+   "text": "his sense organs, is happy, of good character, with no good",
+   "bbox": [
+    381,
+    403,
+    1601,
+    469
+   ]
+  },
+  {
+   "text": "memory, diseased, feeling thirsty too often, but satisfied with",
+   "bbox": [
+    381,
+    452,
+    1601,
+    523
+   ]
+  },
+  {
+   "text": "even little (success or money).",
+   "bbox": [
+    381,
+    509,
+    979,
+    559
+   ]
+  },
+  {
+   "text": "शान्तात्मा सुभग: पण्डितो धनी धर्मसंयुत: पुष्ये।",
+   "bbox": [
+    452,
+    586,
+    1150,
+    648
+   ]
+  },
+  {
+   "text": "शठ: सर्वभक्ष: पाप: कृतघ्नधूर्त्तश्च भौजङ्गे।। 5 ।।",
+   "bbox": [
+    450,
+    644,
+    1190,
+    715
+   ]
+  },
+  {
+   "text": "One born with Moon in \"Pushya\" Nakshatra, possesses a",
+   "bbox": [
+    450,
+    743,
+    1595,
+    806
+   ]
+  },
+  {
+   "text": "composed personality, is good looking, learned and wealthy.",
+   "bbox": [
+    374,
+    792,
+    1591,
+    861
+   ]
+  },
+  {
+   "text": "He takes good interest in religion. One born in \"Ashlesha\" is",
+   "bbox": [
+    373,
+    846,
+    1591,
+    912
+   ]
+  },
+  {
+   "text": "self centred, has no campunctions in eating anything and",
+   "bbox": [
+    370,
+    898,
+    1591,
+    966
+   ]
+  },
+  {
+   "text": "everything, is sinful, ungrateful and deceitful.",
+   "bbox": [
+    369,
+    952,
+    1290,
+    1011
+   ]
+  },
+  {
+   "text": "बहुभृत्यधनो भोगी सुरपतिृभक्तो महोद्यम: पित्र्ये।",
+   "bbox": [
+    441,
+    1028,
+    1143,
+    1096
+   ]
+  },
+  {
+   "text": "प्रियवाग्दाता द्युतिमानटनो नृपसेवको भाग्ये। । 6 ।।",
+   "bbox": [
+    440,
+    1094,
+    1194,
+    1160
+   ]
+  },
+  {
+   "text": "One born with Moon in \"Magha\" nakshatra, has many",
+   "bbox": [
+    439,
+    1178,
+    1588,
+    1258
+   ]
+  },
+  {
+   "text": "servants, much wealth and wide family. He enjoys life and is",
+   "bbox": [
+    363,
+    1238,
+    1585,
+    1304
+   ]
+  },
+  {
+   "text": "devoted to the devas and the father and is highly active. One",
+   "bbox": [
+    363,
+    1291,
+    1584,
+    1357
+   ]
+  },
+  {
+   "text": "born in \"Poorva Phalguni\" talks sweetly, is generous, pos-",
+   "bbox": [
+    360,
+    1342,
+    1582,
+    1411
+   ]
+  },
+  {
+   "text": "sesses a shining personality, always on the move, and a ser-",
+   "bbox": [
+    358,
+    1394,
+    1581,
+    1465
+   ]
+  },
+  {
+   "text": "vant of the Raja (Government).",
+   "bbox": [
+    357,
+    1448,
+    984,
+    1504
+   ]
+  },
+  {
+   "text": "सुभगोविद्याप्तधनो भोगी सुखाभाग्द्वितीयफाल्गुन्याम्।",
+   "bbox": [
+    430,
+    1527,
+    1172,
+    1593
+   ]
+  },
+  {
+   "text": "उत्साही धृष्ट: पानपोऽधृणी तस्करो हस्ते।। 7 ।।",
+   "bbox": [
+    427,
+    1592,
+    1143,
+    1656
+   ]
+  },
+  {
+   "text": "One born with the Moon in \"Uttara Phalguni\" is favourite",
+   "bbox": [
+    427,
+    1686,
+    1575,
+    1749
+   ]
+  },
+  {
+   "text": "of all, earns through the use of education (by teaching etc),",
+   "bbox": [
+    351,
+    1736,
+    1574,
+    1802
+   ]
+  },
+  {
+   "text": "given to enjoyments and leads a comfortable life. One born in",
+   "bbox": [
+    350,
+    1788,
+    1569,
+    1854
+   ]
+  },
+  {
+   "text": "\"Hasta\" Nakshatra, is full of fervour, shameless, takes drinks,",
+   "bbox": [
+    348,
+    1839,
+    1571,
+    1908
+   ]
+  },
+  {
+   "text": "is hated and is a thief.",
+   "bbox": [
+    347,
+    1892,
+    804,
+    1939
+   ]
+  },
+  {
+   "text": "चित्राम्बरमाल्यधरः सुलोचनाङ्गश्च भवति चित्रायाम्।",
+   "bbox": [
+    420,
+    1974,
+    1155,
+    2033
+   ]
+  },
+  {
+   "text": "दान्तो वणिक्कृपालुः प्रियवाग्धर्माश्रितः स्वातौ।। 8 ।।",
+   "bbox": [
+    417,
+    2032,
+    1190,
+    2106
+   ]
+  },
+  {
+   "text": "One born with the Moon in \"Chitra\" nakshatra wears",
+   "bbox": [
+    416,
+    2129,
+    1565,
+    2191
+   ]
+  },
+  {
+   "text": "variety of clothes and garlands, he has good looking eyes and",
+   "bbox": [
+    340,
+    2183,
+    1562,
+    2246
+   ]
+  },
+  {
+   "text": "body. On born in \"Swati\" has control over his limbs, is engaged",
+   "bbox": [
+    340,
+    2232,
+    1563,
+    2301
+   ]
+  },
+  {
+   "text": "in trade, is compassionate, sweet tongued and lives a religious",
+   "bbox": [
+    335,
+    2285,
+    1563,
+    2354
+   ]
+  },
+  {
+   "text": "life.",
+   "bbox": [
+    339,
+    2342,
+    421,
+    2379
+   ]
+  }
+ ]
+}

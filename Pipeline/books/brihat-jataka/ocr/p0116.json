@@ -1,0 +1,308 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0116",
+ "book_id": "brihat-jataka",
+ "seq": 116,
+ "source_ref": {
+  "pdf_page": 58,
+  "half": "b",
+  "v1_page": "s058b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "0457d89eba58e53c4da62c3f32eb541cd8a08fca234aeec076c3c97a1fe9261f",
+ "lines": [
+  {
+   "text": "Nabhas (Heavenly) Yogas",
+   "bbox": [
+    269,
+    262,
+    785,
+    312
+   ]
+  },
+  {
+   "text": "Nau etc",
+   "bbox": [
+    274,
+    372,
+    483,
+    409
+   ]
+  },
+  {
+   "text": "कीर्त्या युतश्चलसुख: कृपणश्च नौज:",
+   "bbox": [
+    346,
+    436,
+    855,
+    506
+   ]
+  },
+  {
+   "text": "कूटेऽनृतप्लवनबन्धनपश्च जात:।",
+   "bbox": [
+    348,
+    503,
+    795,
+    566
+   ]
+  },
+  {
+   "text": "छत्रोद्धवः स्वजनसौख्यकरोऽन्त्यसौख्यः",
+   "bbox": [
+    350,
+    567,
+    905,
+    625
+   ]
+  },
+  {
+   "text": "शूरश्च कार्मुकभव: प्रथमाऽन्त्यसौख्य: ।। 16 ।।",
+   "bbox": [
+    352,
+    628,
+    1022,
+    698
+   ]
+  },
+  {
+   "text": "One born in \"Nau\" yoga is famous, with ups and downs in",
+   "bbox": [
+    354,
+    709,
+    1497,
+    786
+   ]
+  },
+  {
+   "text": "life and is miser. One born in \"Kut\" yoga tells lies and is in",
+   "bbox": [
+    283,
+    763,
+    1498,
+    839
+   ]
+  },
+  {
+   "text": "charge of a jail or other places of captivity. One born in",
+   "bbox": [
+    283,
+    816,
+    1498,
+    891
+   ]
+  },
+  {
+   "text": "\"Chhatra\" yoga brings comforts to his people and is happy in",
+   "bbox": [
+    284,
+    867,
+    1500,
+    945
+   ]
+  },
+  {
+   "text": "old age. One born in \"Chaap\" yoga is valiant in battle and leads",
+   "bbox": [
+    284,
+    921,
+    1500,
+    998
+   ]
+  },
+  {
+   "text": "happy life in early and old age.",
+   "bbox": [
+    285,
+    990,
+    912,
+    1048
+   ]
+  },
+  {
+   "text": "Ardha Chandra etc",
+   "bbox": [
+    289,
+    1094,
+    795,
+    1149
+   ]
+  },
+  {
+   "text": "अर्द्धेन्दुज: सुभग-कान्तवपु: प्रधान-",
+   "bbox": [
+    362,
+    1183,
+    871,
+    1233
+   ]
+  },
+  {
+   "text": "स्तोयालये नरपतिप्रतिमस्तु भोगी।",
+   "bbox": [
+    363,
+    1240,
+    844,
+    1298
+   ]
+  },
+  {
+   "text": "चक्रे नरेन्द्रमुकुटद्युतिरञ्जिताङ्घ्रि-",
+   "bbox": [
+    365,
+    1307,
+    836,
+    1366
+   ]
+  },
+  {
+   "text": "वीणोद्भवश्च निपुण: प्रियगीतनृत्य: ।। 17 11",
+   "bbox": [
+    366,
+    1368,
+    1002,
+    1431
+   ]
+  },
+  {
+   "text": "One born in \"Ardha Chandra\" yoga is wealthy and popu-",
+   "bbox": [
+    370,
+    1450,
+    1511,
+    1518
+   ]
+  },
+  {
+   "text": "lar, with attractive features and prominent amongst men. One",
+   "bbox": [
+    296,
+    1500,
+    1512,
+    1574
+   ]
+  },
+  {
+   "text": "born in \"Samudra\" yoga is affluent and powerful like a king,",
+   "bbox": [
+    298,
+    1550,
+    1513,
+    1629
+   ]
+  },
+  {
+   "text": "has many enjoyments in life. One born in \"Chakra\" yoga is",
+   "bbox": [
+    297,
+    1602,
+    1516,
+    1681
+   ]
+  },
+  {
+   "text": "highly respected even by kings. One born with \"Veena\" yoga is",
+   "bbox": [
+    299,
+    1654,
+    1517,
+    1734
+   ]
+  },
+  {
+   "text": "efficient in actions and fond of music and dance.",
+   "bbox": [
+    300,
+    1713,
+    1266,
+    1781
+   ]
+  },
+  {
+   "text": "Daamini etc",
+   "bbox": [
+    304,
+    1836,
+    627,
+    1883
+   ]
+  },
+  {
+   "text": "दाताऽन्यकार्यनिरतः पशुपश्च दाम्नि",
+   "bbox": [
+    376,
+    1913,
+    861,
+    1971
+   ]
+  },
+  {
+   "text": "पाशे धनार्जनविशीलसुभृत्यबन्धुः।",
+   "bbox": [
+    379,
+    1982,
+    854,
+    2033
+   ]
+  },
+  {
+   "text": "केदारज: कृषिकर: सुबहुपभोज्य:",
+   "bbox": [
+    378,
+    2040,
+    859,
+    2099
+   ]
+  },
+  {
+   "text": "शूर: क्षती धनरुचिर्विधनश्च शूले।। 18 ।।",
+   "bbox": [
+    381,
+    2103,
+    990,
+    2169
+   ]
+  },
+  {
+   "text": "One born in \"Daamini\" yoga is engaged in doing good to",
+   "bbox": [
+    383,
+    2184,
+    1527,
+    2257
+   ]
+  },
+  {
+   "text": "others, liberal, and rearer of animals. One born in \"Paash\"",
+   "bbox": [
+    308,
+    2235,
+    1527,
+    2312
+   ]
+  },
+  {
+   "text": "yoga earns by unfair means alongwith his servants and rela-",
+   "bbox": [
+    308,
+    2288,
+    1530,
+    2362
+   ]
+  },
+  {
+   "text": "tives. One born in \"Kedar\" yoga engages in agriculture and is",
+   "bbox": [
+    311,
+    2339,
+    1530,
+    2420
+   ]
+  }
+ ]
+}

@@ -1,0 +1,549 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0022",
+ "book_id": "phaladeepika",
+ "seq": 22,
+ "source_ref": {
+  "pdf_page": 22
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "42fee968b68216a6900d7c642cd955494408a81506673111ba199720f5ddf658",
+ "lines": [
+  {
+   "text": "Venus.",
+   "bbox": [
+    85,
+    57,
+    123,
+    73
+   ]
+  },
+  {
+   "text": "Saturn has influence over a seller or buyer of oil. servant, a mean person, a ",
+   "bbox": [
+    121,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "hunter, a blacksmith, an elephant, a crow and a cuckoo.",
+   "bbox": [
+    85,
+    106,
+    395,
+    121
+   ]
+  },
+  {
+   "text": "A Buddhist, a snake catcher, a donkey, a wolf, a camel, a serpent or snake, ",
+   "bbox": [
+    121,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "mosquitoes, a bug, insects, an owl and a place of darkness are signified by Rahu ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "and Ketu.",
+   "bbox": [
+    85,
+    178,
+    140,
+    194
+   ]
+  },
+  {
+   "text": "21-22. In these verses has been described the friendship, enmity and ",
+   "bbox": [
+    121,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "neutrality of the various planets to each other. This is summarized in the table ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "given below:",
+   "bbox": [
+    85,
+    251,
+    158,
+    266
+   ]
+  },
+  {
+   "text": "Planet ",
+   "bbox": [
+    177,
+    275,
+    215,
+    291
+   ]
+  },
+  {
+   "text": "Friend ",
+   "bbox": [
+    237,
+    275,
+    277,
+    291
+   ]
+  },
+  {
+   "text": "Neutral ",
+   "bbox": [
+    309,
+    275,
+    355,
+    291
+   ]
+  },
+  {
+   "text": "Enemy ",
+   "bbox": [
+    392,
+    275,
+    435,
+    291
+   ]
+  },
+  {
+   "text": "Sun ",
+   "bbox": [
+    177,
+    292,
+    202,
+    307
+   ]
+  },
+  {
+   "text": "Moon, ",
+   "bbox": [
+    237,
+    292,
+    277,
+    307
+   ]
+  },
+  {
+   "text": "Mercury ",
+   "bbox": [
+    309,
+    292,
+    361,
+    307
+   ]
+  },
+  {
+   "text": "Venus ",
+   "bbox": [
+    392,
+    292,
+    429,
+    307
+   ]
+  },
+  {
+   "text": "Mars ",
+   "bbox": [
+    237,
+    308,
+    269,
+    323
+   ]
+  },
+  {
+   "text": "Saturn ",
+   "bbox": [
+    392,
+    308,
+    432,
+    323
+   ]
+  },
+  {
+   "text": "Jupiter ",
+   "bbox": [
+    237,
+    324,
+    278,
+    340
+   ]
+  },
+  {
+   "text": "Moon ",
+   "bbox": [
+    177,
+    341,
+    214,
+    356
+   ]
+  },
+  {
+   "text": "Sun",
+   "bbox": [
+    237,
+    341,
+    258,
+    356
+   ]
+  },
+  {
+   "text": "Mars, ",
+   "bbox": [
+    309,
+    341,
+    345,
+    356
+   ]
+  },
+  {
+   "text": "----- ",
+   "bbox": [
+    392,
+    341,
+    418,
+    356
+   ]
+  },
+  {
+   "text": "Mercury ",
+   "bbox": [
+    237,
+    357,
+    288,
+    372
+   ]
+  },
+  {
+   "text": "Mercury ",
+   "bbox": [
+    309,
+    357,
+    361,
+    372
+   ]
+  },
+  {
+   "text": "Venus, Saturn ",
+   "bbox": [
+    309,
+    373,
+    390,
+    388
+   ]
+  },
+  {
+   "text": "Mars ",
+   "bbox": [
+    177,
+    389,
+    209,
+    405
+   ]
+  },
+  {
+   "text": "Sun, Moon, ",
+   "bbox": [
+    237,
+    389,
+    306,
+    405
+   ]
+  },
+  {
+   "text": "Venus, Saturn Mercury ",
+   "bbox": [
+    309,
+    389,
+    443,
+    405
+   ]
+  },
+  {
+   "text": "Jupiter ",
+   "bbox": [
+    237,
+    406,
+    278,
+    421
+   ]
+  },
+  {
+   "text": "Mercury Sun, Venus Mars, Jupiter ",
+   "bbox": [
+    177,
+    422,
+    386,
+    438
+   ]
+  },
+  {
+   "text": "Moon ",
+   "bbox": [
+    392,
+    422,
+    429,
+    438
+   ]
+  },
+  {
+   "text": "Saturn ",
+   "bbox": [
+    309,
+    438,
+    349,
+    454
+   ]
+  },
+  {
+   "text": "Jupiter ",
+   "bbox": [
+    177,
+    455,
+    218,
+    470
+   ]
+  },
+  {
+   "text": "Sun, Moon, ",
+   "bbox": [
+    237,
+    455,
+    306,
+    470
+   ]
+  },
+  {
+   "text": "Saturn ",
+   "bbox": [
+    309,
+    455,
+    349,
+    470
+   ]
+  },
+  {
+   "text": "Mercury ",
+   "bbox": [
+    392,
+    455,
+    443,
+    470
+   ]
+  },
+  {
+   "text": "Mars ",
+   "bbox": [
+    237,
+    471,
+    269,
+    486
+   ]
+  },
+  {
+   "text": "Venus ",
+   "bbox": [
+    392,
+    471,
+    429,
+    486
+   ]
+  },
+  {
+   "text": "Venus ",
+   "bbox": [
+    177,
+    488,
+    214,
+    503
+   ]
+  },
+  {
+   "text": "Mercury, ",
+   "bbox": [
+    237,
+    488,
+    291,
+    503
+   ]
+  },
+  {
+   "text": "Mars, Jupiter Sun, Moon ",
+   "bbox": [
+    309,
+    488,
+    457,
+    503
+   ]
+  },
+  {
+   "text": "Saturn ",
+   "bbox": [
+    237,
+    504,
+    277,
+    519
+   ]
+  },
+  {
+   "text": "Saturn ",
+   "bbox": [
+    177,
+    520,
+    217,
+    536
+   ]
+  },
+  {
+   "text": "Mercury, ",
+   "bbox": [
+    237,
+    520,
+    291,
+    536
+   ]
+  },
+  {
+   "text": "Jupiter ",
+   "bbox": [
+    309,
+    520,
+    351,
+    536
+   ]
+  },
+  {
+   "text": "Sun, Moon ",
+   "bbox": [
+    392,
+    520,
+    457,
+    536
+   ]
+  },
+  {
+   "text": "Venus ",
+   "bbox": [
+    237,
+    536,
+    274,
+    552
+   ]
+  },
+  {
+   "text": "Mars ",
+   "bbox": [
+    392,
+    536,
+    424,
+    552
+   ]
+  },
+  {
+   "text": "23. Planets are mutually friendly for the time being when they occupy the ",
+   "bbox": [
+    121,
+    577,
+    556,
+    593
+   ]
+  },
+  {
+   "text": "2nd, 3rd, 4th, 10th, 11th and 12th houses from one another. (This means that ",
+   "bbox": [
+    85,
+    601,
+    556,
+    617
+   ]
+  },
+  {
+   "text": "planets occupying the 1st, 5th, 6th 7th, 8th, and 9th from one another are mutually ",
+   "bbox": [
+    85,
+    625,
+    556,
+    641
+   ]
+  },
+  {
+   "text": "inimical). After taking into account the natural friendship and enmity, it should be ",
+   "bbox": [
+    85,
+    650,
+    556,
+    665
+   ]
+  },
+  {
+   "text": "deduced whether they are friendly, very friendly, neutral, inimical and very ",
+   "bbox": [
+    85,
+    674,
+    556,
+    689
+   ]
+  },
+  {
+   "text": "inimical to one another.",
+   "bbox": [
+    85,
+    698,
+    217,
+    713
+   ]
+  },
+  {
+   "text": "Note — Apart from the neutral or natural friendship and enmity amongst the ",
+   "bbox": [
+    121,
+    722,
+    556,
+    737
+   ]
+  },
+  {
+   "text": "planets, account is taken of the for the time being (Tatkalik) enmity and friendship ",
+   "bbox": [
+    85,
+    746,
+    556,
+    762
+   ]
+  },
+  {
+   "text": "22",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

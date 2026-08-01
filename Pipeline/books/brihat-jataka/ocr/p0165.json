@@ -1,0 +1,236 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0165",
+ "book_id": "brihat-jataka",
+ "seq": 165,
+ "source_ref": {
+  "pdf_page": 83,
+  "half": "a",
+  "v1_page": "s083a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "027a24a79ec455f92a9bf135d8b1f5424223c35338b1e680d228d08203fb0fc0",
+ "lines": [
+  {
+   "text": "162",
+   "bbox": [
+    284,
+    176,
+    378,
+    210
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1206,
+    176,
+    1497,
+    209
+   ]
+  },
+  {
+   "text": "in the trimshamsha of Saturn one is of unpleasant tempera-",
+   "bbox": [
+    278,
+    278,
+    1497,
+    316
+   ]
+  },
+  {
+   "text": "ment, if Moon occupies it one has killing instincts. If Sun is in",
+   "bbox": [
+    280,
+    328,
+    1497,
+    367
+   ]
+  },
+  {
+   "text": "the trimshamsha of Jupiter, one has many good qualities and",
+   "bbox": [
+    281,
+    381,
+    1497,
+    421
+   ]
+  },
+  {
+   "text": "if Moon be there one is rich. If Sun is in the Trimshamsha of",
+   "bbox": [
+    278,
+    432,
+    1502,
+    469
+   ]
+  },
+  {
+   "text": "Mercury one leads a happy life. If Moon is there one is learned.",
+   "bbox": [
+    278,
+    482,
+    1495,
+    529
+   ]
+  },
+  {
+   "text": "If Sun is in the trimshamsha of Venus one possesses a hand-",
+   "bbox": [
+    280,
+    536,
+    1497,
+    580
+   ]
+  },
+  {
+   "text": "some body and if Moon is there one is beloved of all.",
+   "bbox": [
+    280,
+    591,
+    1318,
+    630
+   ]
+  },
+  {
+   "text": "इति श्रीवसहमिहिरकृते बृहज्जातके आश्रययोगाध्याय: एकविंश । 121।।",
+   "bbox": [
+    398,
+    792,
+    1375,
+    841
+   ]
+  },
+  {
+   "text": "Thus ends the twenty-first chapter on Planets in Vargas in",
+   "bbox": [
+    355,
+    882,
+    1497,
+    920
+   ]
+  },
+  {
+   "text": "Brihat Jatak composed by Varahamihira.",
+   "bbox": [
+    277,
+    931,
+    1104,
+    970
+   ]
+  },
+  {
+   "text": "<b>ANCIENT WORK</b>",
+   "bbox": [
+    566,
+    1046,
+    1198,
+    1107
+   ]
+  },
+  {
+   "text": "<b>BRIHAT PARASARA</b>",
+   "bbox": [
+    343,
+    1193,
+    1421,
+    1263
+   ]
+  },
+  {
+   "text": "<b>HORA SASTRA</b>",
+   "bbox": [
+    461,
+    1314,
+    1299,
+    1387
+   ]
+  },
+  {
+   "text": "The greatest work by the father of",
+   "bbox": [
+    393,
+    1477,
+    1373,
+    1536
+   ]
+  },
+  {
+   "text": "Hindu Astrology",
+   "bbox": [
+    645,
+    1553,
+    1118,
+    1605
+   ]
+  },
+  {
+   "text": "Maharshi PARASARA",
+   "bbox": [
+    478,
+    1643,
+    1292,
+    1712
+   ]
+  },
+  {
+   "text": "(With 4000 Sanskrit Slokas, English",
+   "bbox": [
+    437,
+    1786,
+    1326,
+    1832
+   ]
+  },
+  {
+   "text": "Translation and Exhaustive notes, over",
+   "bbox": [
+    400,
+    1848,
+    1365,
+    1892
+   ]
+  },
+  {
+   "text": "1000 Pages) (2 Vol. Set)",
+   "bbox": [
+    729,
+    1907,
+    1417,
+    1963
+   ]
+  },
+  {
+   "text": "Ask for your copy:",
+   "bbox": [
+    327,
+    1978,
+    682,
+    2017
+   ]
+  },
+  {
+   "text": "RANJAN PUBLICATIONS",
+   "bbox": [
+    386,
+    2044,
+    1386,
+    2119
+   ]
+  },
+  {
+   "text": "16, Ansari Road, New Delhi-110002.",
+   "bbox": [
+    466,
+    2143,
+    1298,
+    2196
+   ]
+  }
+ ]
+}

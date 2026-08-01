@@ -1,0 +1,162 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0027",
+ "book_id": "phaladeepika",
+ "seq": 27,
+ "source_ref": {
+  "pdf_page": 27
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "517fd51616b19cfe5551be2464dcc574a94eff86257229dfb8e40894d3687fdb",
+ "lines": [
+  {
+   "text": "Mars is eclipsed when he is 17° away from the Sun. Mercury in direct motion is ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "eclipsed when he is 14° away from the Sun. Retrograde Mercury is eclipsed when ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "he is 12° away form the Sun. Jupiter, Venus and Saturn are said to be eclipsed if ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "they are 11°, 10° and 15° respectively away from the Sun. A retrograde Venus is ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "eclipsed if he is 8° away from the Sun.",
+   "bbox": [
+    85,
+    154,
+    302,
+    169
+   ]
+  },
+  {
+   "text": "37. The various kinds of trees and plants signified by the different planets ",
+   "bbox": [
+    121,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "are as follows :—",
+   "bbox": [
+    85,
+    202,
+    184,
+    218
+   ]
+  },
+  {
+   "text": "Sun - Strong and tall, Moon and Venus - Creeping plants, Rahu and Ketu - ",
+   "bbox": [
+    121,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "Clump of a tree or bush Mars and Saturn - Thorny trees, Jupiter - Fruit bearing ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "trees. Mercury - Fruitless trees.",
+   "bbox": [
+    85,
+    275,
+    260,
+    290
+   ]
+  },
+  {
+   "text": "The trees which blossom and which supply some kind of juice belong to the ",
+   "bbox": [
+    121,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "Moon and Venus. The trees which are juiceless or weak come under the ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "jurisdiction of Saturn. Saal trees are ruled by Rahu.",
+   "bbox": [
+    85,
+    347,
+    372,
+    363
+   ]
+  },
+  {
+   "text": "Thus ends the second chapter on \"Planets and their Varieties\" In ",
+   "bbox": [
+    121,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "Phaladeepika composed by Mantreswara.",
+   "bbox": [
+    85,
+    395,
+    320,
+    411
+   ]
+  },
+  {
+   "text": "27",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

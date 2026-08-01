@@ -1,0 +1,299 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0220",
+ "book_id": "brihat-jataka",
+ "seq": 220,
+ "source_ref": {
+  "pdf_page": 110,
+  "half": "b",
+  "v1_page": "s110b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "ac8de93ff677c504160830bed71c5dbc851a93fc89f197a0d78854b76a2f923f",
+ "lines": [
+  {
+   "text": "217",
+   "bbox": [
+    1388,
+    213,
+    1491,
+    252
+   ]
+  },
+  {
+   "text": "Concluding Chapter",
+   "bbox": [
+    271,
+    221,
+    674,
+    261
+   ]
+  },
+  {
+   "text": "the fifteenth Pravrajya Yoga,",
+   "bbox": [
+    343,
+    324,
+    927,
+    363
+   ]
+  },
+  {
+   "text": "the sixteenth Rasi Shila,",
+   "bbox": [
+    343,
+    402,
+    839,
+    440
+   ]
+  },
+  {
+   "text": "the seventeenth Drishti Phala,",
+   "bbox": [
+    343,
+    481,
+    960,
+    519
+   ]
+  },
+  {
+   "text": "the eighteenth Bhavadhyaya,",
+   "bbox": [
+    343,
+    560,
+    934,
+    599
+   ]
+  },
+  {
+   "text": "the nineteenth Asraya, and",
+   "bbox": [
+    343,
+    637,
+    893,
+    676
+   ]
+  },
+  {
+   "text": "the twentieth Prakirna.",
+   "bbox": [
+    346,
+    713,
+    821,
+    749
+   ]
+  },
+  {
+   "text": "नेष्टा योगा जातक भामिनीनां निर्याणं स्यान्नष्टजन्मा दुकाण:।",
+   "bbox": [
+    341,
+    789,
+    1207,
+    838
+   ]
+  },
+  {
+   "text": "अध्यायानां विंशति: पञ्चयुक्ता जन्मन्येतद्यात्रिकं चाभिधास्ये।। 3।।",
+   "bbox": [
+    341,
+    853,
+    1306,
+    904
+   ]
+  },
+  {
+   "text": "The twenty first is Anishtayoga,",
+   "bbox": [
+    343,
+    948,
+    990,
+    987
+   ]
+  },
+  {
+   "text": "the twenty second Stri Jataka,",
+   "bbox": [
+    341,
+    1028,
+    960,
+    1068
+   ]
+  },
+  {
+   "text": "the twenty third Niryana,",
+   "bbox": [
+    343,
+    1107,
+    864,
+    1146
+   ]
+  },
+  {
+   "text": "the twenty fourth Nashtajataka, and",
+   "bbox": [
+    344,
+    1183,
+    1082,
+    1224
+   ]
+  },
+  {
+   "text": "the twenty fifth Drekkana.",
+   "bbox": [
+    343,
+    1264,
+    884,
+    1302
+   ]
+  },
+  {
+   "text": "This is Hora Sastra. I have composed 25 chapters. I will",
+   "bbox": [
+    342,
+    1336,
+    1487,
+    1382
+   ]
+  },
+  {
+   "text": "name the other chapters relating to travelling.",
+   "bbox": [
+    268,
+    1394,
+    1198,
+    1433
+   ]
+  },
+  {
+   "text": "Notes: We have 28 chapters. The Rasi Shila (16th) is divided",
+   "bbox": [
+    342,
+    1468,
+    1486,
+    1515
+   ]
+  },
+  {
+   "text": "into three. We have followed Bhattotpala.",
+   "bbox": [
+    266,
+    1521,
+    1100,
+    1568
+   ]
+  },
+  {
+   "text": "प्रश्नास्तिथिर्भं दिवस: क्षणश्च चन्द्रो विलग्नं त्वथ लग्नभेद:।",
+   "bbox": [
+    341,
+    1604,
+    1194,
+    1646
+   ]
+  },
+  {
+   "text": "शुद्धिर्ग्रहाणामथचापवादो विमिश्रकाख्यं तनुवेपनं च।। 4।।",
+   "bbox": [
+    341,
+    1667,
+    1168,
+    1717
+   ]
+  },
+  {
+   "text": "अत: परं गुह्यकपूजनं स्यात् स्वप्नं तत: स्नानविधि: प्रदिष्ट:।",
+   "bbox": [
+    340,
+    1734,
+    1216,
+    1784
+   ]
+  },
+  {
+   "text": "यज्ञो ग्रहाणामथ निर्गमश्च क्रमाच्च दिष्ट: शकुनोपदेश: ।। 5।।",
+   "bbox": [
+    339,
+    1796,
+    1225,
+    1852
+   ]
+  },
+  {
+   "text": "विवाहकाल: करणं ग्रहाणां प्रोक्तं पृथक् तद्विपुला च शाखा।",
+   "bbox": [
+    341,
+    1866,
+    1213,
+    1915
+   ]
+  },
+  {
+   "text": "स्कन्धैस्त्रिभिज्यौतिषसंग्रहोऽयं मया कृतो दैवविदां हिताय।। 6।।",
+   "bbox": [
+    340,
+    1928,
+    1252,
+    1979
+   ]
+  },
+  {
+   "text": "(1) Prasna Prabheda, (2) Tithi Bala, (3), Nakshatra",
+   "bbox": [
+    341,
+    2024,
+    1486,
+    2064
+   ]
+  },
+  {
+   "text": "Bhedana, (4) Diwasa Bala, (5) Varabala, (6) Muhurta,",
+   "bbox": [
+    266,
+    2073,
+    1489,
+    2119
+   ]
+  },
+  {
+   "text": "(7) Chandra bala, (8) Lagna Nischaya, (9) lagna Bheda,",
+   "bbox": [
+    267,
+    2130,
+    1486,
+    2170
+   ]
+  },
+  {
+   "text": "(10) Graha Siddhi, (11) Apavada, (12) Vimisra, (13) Tahu",
+   "bbox": [
+    266,
+    2181,
+    1484,
+    2225
+   ]
+  },
+  {
+   "text": "Vepana, (14) Worship of Guhyaka, (15) Svapna, (16) Snana",
+   "bbox": [
+    267,
+    2236,
+    1484,
+    2276
+   ]
+  },
+  {
+   "text": "Vidhi, (17) Graha Yojna, (18) Nirgama, (19) Shakuna,",
+   "bbox": [
+    266,
+    2284,
+    1486,
+    2333
+   ]
+  }
+ ]
+}

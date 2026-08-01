@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0040",
+ "book_id": "brihat-jataka",
+ "seq": 40,
+ "source_ref": {
+  "pdf_page": 20,
+  "half": "b",
+  "v1_page": "s020b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "efa260d4b600035a592c0826375049d175b34f5524c685f040666a5f9d7cf58b",
+ "lines": [
+  {
+   "text": "Planets",
+   "bbox": [
+    302,
+    257,
+    455,
+    293
+   ]
+  },
+  {
+   "text": "37",
+   "bbox": [
+    1449,
+    259,
+    1505,
+    292
+   ]
+  },
+  {
+   "text": "Jupiter treats Mercury and Venus as enemy; Saturn as",
+   "bbox": [
+    374,
+    358,
+    1512,
+    397
+   ]
+  },
+  {
+   "text": "neutral; Sun, Moon and Mars as friends. Venus treats Mer-",
+   "bbox": [
+    303,
+    407,
+    1512,
+    446
+   ]
+  },
+  {
+   "text": "cury as friend; Mars and Jupiter as neutral; Sun, Mars and",
+   "bbox": [
+    300,
+    454,
+    1511,
+    500
+   ]
+  },
+  {
+   "text": "Moon as enemies. Saturn treats Venus and Mercury as",
+   "bbox": [
+    300,
+    510,
+    1511,
+    548
+   ]
+  },
+  {
+   "text": "friends; Jupiter as neutral and Sun, Moon and Mars as en-",
+   "bbox": [
+    297,
+    559,
+    1511,
+    600
+   ]
+  },
+  {
+   "text": "emies. The relationship inter se of planets stated by",
+   "bbox": [
+    299,
+    609,
+    1511,
+    649
+   ]
+  },
+  {
+   "text": "Satyacharya (see sloka 15 ante) as a principle has been elabo-",
+   "bbox": [
+    299,
+    659,
+    1511,
+    701
+   ]
+  },
+  {
+   "text": "rated by me.",
+   "bbox": [
+    297,
+    711,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "Temporal Friendship etc",
+   "bbox": [
+    297,
+    813,
+    947,
+    855
+   ]
+  },
+  {
+   "text": "अन्योऽन्यस्य धनव्ययायसहजव्यापारबन्धुस्थिता-",
+   "bbox": [
+    369,
+    888,
+    1050,
+    941
+   ]
+  },
+  {
+   "text": "स्तत्काले सुहृदस्स्वतुङ्गभवनेऽप्येकेऽरयस्त्वन्यथा।",
+   "bbox": [
+    371,
+    955,
+    1049,
+    1008
+   ]
+  },
+  {
+   "text": "द्वचकानुक्तभपान्सुहृत्समरिपून्सचिन्त्यनैसर्गिकां-",
+   "bbox": [
+    369,
+    1018,
+    1025,
+    1074
+   ]
+  },
+  {
+   "text": "स्त्काले च पुनस्तु तानधिसुहन्मित्रादिभि: कल्पयेत् ।। 18।।",
+   "bbox": [
+    369,
+    1086,
+    1209,
+    1139
+   ]
+  },
+  {
+   "text": "Planets that happen to be located in the 2nd, 3rd, 4th,",
+   "bbox": [
+    369,
+    1183,
+    1508,
+    1222
+   ]
+  },
+  {
+   "text": "12th, 11th and 10th from one another become temporary",
+   "bbox": [
+    297,
+    1236,
+    1508,
+    1275
+   ]
+  },
+  {
+   "text": "friends. \"A planet located in the exaltation sign of another",
+   "bbox": [
+    297,
+    1288,
+    1511,
+    1327
+   ]
+  },
+  {
+   "text": "becomes a temporary friend of the latter\" is the opinion of some",
+   "bbox": [
+    297,
+    1338,
+    1508,
+    1382
+   ]
+  },
+  {
+   "text": "others. Situated otherwise than above they become mutually",
+   "bbox": [
+    297,
+    1391,
+    1508,
+    1433
+   ]
+  },
+  {
+   "text": "temporary enemies. A planet which is friend of another one in",
+   "bbox": [
+    296,
+    1446,
+    1508,
+    1485
+   ]
+  },
+  {
+   "text": "natural relationship when becoming a temporary friend also",
+   "bbox": [
+    297,
+    1499,
+    1510,
+    1538
+   ]
+  },
+  {
+   "text": "becomes an adhi friend ie great friend. Similarly a neutral",
+   "bbox": [
+    296,
+    1548,
+    1508,
+    1595
+   ]
+  },
+  {
+   "text": "planet in temporary friendly relation becomes a friend, while",
+   "bbox": [
+    293,
+    1605,
+    1507,
+    1644
+   ]
+  },
+  {
+   "text": "a neutral becoming enemy in temporary relationship becomes",
+   "bbox": [
+    293,
+    1658,
+    1508,
+    1698
+   ]
+  },
+  {
+   "text": "an enemy.",
+   "bbox": [
+    291,
+    1715,
+    507,
+    1750
+   ]
+  },
+  {
+   "text": "<b>Planetary Strength</b>",
+   "bbox": [
+    291,
+    1815,
+    801,
+    1856
+   ]
+  },
+  {
+   "text": "स्वोच्चसुहत्स्वत्रिकोणनवांशै: स्थानबलं स्वगृहोपगतैश्च।",
+   "bbox": [
+    365,
+    1886,
+    1143,
+    1942
+   ]
+  },
+  {
+   "text": "दिक्षु बुधाङ्गिरसौ रविभौमौ सूर्य्यसुत: सितशीतकरौ च।। 19 ।।",
+   "bbox": [
+    364,
+    1951,
+    1280,
+    2007
+   ]
+  },
+  {
+   "text": "A planet located in its sign of exaltation, in a friendly sign,",
+   "bbox": [
+    367,
+    2052,
+    1507,
+    2092
+   ]
+  },
+  {
+   "text": "in its own mool trikon sign or in its own sign is considered as",
+   "bbox": [
+    289,
+    2103,
+    1508,
+    2144
+   ]
+  },
+  {
+   "text": "endowed with positional strength. Mercury and Jupiter if",
+   "bbox": [
+    290,
+    2157,
+    1511,
+    2196
+   ]
+  },
+  {
+   "text": "located in the ascendant get directional strength. This type of",
+   "bbox": [
+    290,
+    2208,
+    1511,
+    2247
+   ]
+  },
+  {
+   "text": "strength is got by Sun and Mars when they happen to be",
+   "bbox": [
+    290,
+    2261,
+    1507,
+    2300
+   ]
+  },
+  {
+   "text": "located in the 10th house. Saturn is endowed with directional",
+   "bbox": [
+    287,
+    2312,
+    1508,
+    2348
+   ]
+  }
+ ]
+}

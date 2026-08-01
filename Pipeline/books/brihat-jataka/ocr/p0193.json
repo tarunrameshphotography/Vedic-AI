@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0193",
+ "book_id": "brihat-jataka",
+ "seq": 193,
+ "source_ref": {
+  "pdf_page": 97,
+  "half": "a",
+  "v1_page": "s097a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "0f04f833ca11d0639ec765366efcf1a851fa2cd4bdc08916f4d77d83d7544e98",
+ "lines": [
+  {
+   "text": "190",
+   "bbox": [
+    286,
+    292,
+    380,
+    327
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1213,
+    294,
+    1503,
+    327
+   ]
+  },
+  {
+   "text": "<i>Notes:</i> The conveyance can refer to an animal like a horse.",
+   "bbox": [
+    357,
+    396,
+    1503,
+    434
+   ]
+  },
+  {
+   "text": "If the Moon is in the tenth and the Sun is in the seventh, the",
+   "bbox": [
+    282,
+    445,
+    1503,
+    489
+   ]
+  },
+  {
+   "text": "Moon is not weak. He will be weak in the first three degrees of",
+   "bbox": [
+    282,
+    500,
+    1509,
+    540
+   ]
+  },
+  {
+   "text": "Scorpio.",
+   "bbox": [
+    283,
+    555,
+    448,
+    592
+   ]
+  },
+  {
+   "text": "वीर्यान्वितक्रवीक्षिते क्षीणेन्दौ निधनस्थितेऽर्कजे।",
+   "bbox": [
+    356,
+    625,
+    1021,
+    675
+   ]
+  },
+  {
+   "text": "गुह्योद्धवरोगपीडया मृत्यु: स्यात्क्रमिशस्त्रदाहज: ।। 9 ।।",
+   "bbox": [
+    356,
+    690,
+    1161,
+    743
+   ]
+  },
+  {
+   "text": "When a powerful Mars aspects a weak Moon who is with",
+   "bbox": [
+    361,
+    787,
+    1503,
+    831
+   ]
+  },
+  {
+   "text": "Shani in the eighth, the person dies from worms, fire or",
+   "bbox": [
+    280,
+    842,
+    1503,
+    882
+   ]
+  },
+  {
+   "text": "instruments involved in a surgical treatment of the private",
+   "bbox": [
+    280,
+    894,
+    1503,
+    934
+   ]
+  },
+  {
+   "text": "parts.",
+   "bbox": [
+    280,
+    951,
+    406,
+    987
+   ]
+  },
+  {
+   "text": "अस्ते रवौ सरुधिरे निधनेऽर्कपुत्रे",
+   "bbox": [
+    353,
+    1018,
+    816,
+    1077
+   ]
+  },
+  {
+   "text": "क्षीणे रसातलगते हिमगौ खगान्त:।",
+   "bbox": [
+    356,
+    1082,
+    854,
+    1136
+   ]
+  },
+  {
+   "text": "लग्नात्मजाष्टमतप:स्विनभौममन्द",
+   "bbox": [
+    356,
+    1155,
+    819,
+    1203
+   ]
+  },
+  {
+   "text": "चन्द्रैस्तु शैलशिखराशनिकुडचपातै:।। 10 ।।",
+   "bbox": [
+    353,
+    1215,
+    1005,
+    1270
+   ]
+  },
+  {
+   "text": "The Sun must be with Kuja in the seventh, Shani is to be",
+   "bbox": [
+    356,
+    1316,
+    1500,
+    1357
+   ]
+  },
+  {
+   "text": "in the eighth and weak Moon is to be in the fourth. Then the",
+   "bbox": [
+    276,
+    1368,
+    1499,
+    1407
+   ]
+  },
+  {
+   "text": "death is from birds.",
+   "bbox": [
+    279,
+    1421,
+    676,
+    1456
+   ]
+  },
+  {
+   "text": "If the Sun, Kuja, Shani and Moon are respectively in",
+   "bbox": [
+    354,
+    1501,
+    1501,
+    1539
+   ]
+  },
+  {
+   "text": "houses 1, 5, 8 and 9, the native dies by falling from the top of",
+   "bbox": [
+    276,
+    1553,
+    1503,
+    1592
+   ]
+  },
+  {
+   "text": "a mountain, or from a wall, or by lightning.",
+   "bbox": [
+    276,
+    1606,
+    1152,
+    1644
+   ]
+  },
+  {
+   "text": "द्वाविंश: कथितस्तु कारणं द्रेष्काणो निधनस्य सूरिभि:।",
+   "bbox": [
+    349,
+    1680,
+    1128,
+    1731
+   ]
+  },
+  {
+   "text": "तस्याधिपतिर्भवोऽपि वा निर्याणं स्वगुणै: प्रयच्छति।। 11 ।।",
+   "bbox": [
+    350,
+    1742,
+    1218,
+    1795
+   ]
+  },
+  {
+   "text": "The scholars in astrology argue that the twenty second",
+   "bbox": [
+    354,
+    1841,
+    1499,
+    1880
+   ]
+  },
+  {
+   "text": "drekkana indicates the nature of death. Death is caused by the",
+   "bbox": [
+    275,
+    1893,
+    1497,
+    1931
+   ]
+  },
+  {
+   "text": "nature of the lord of drekkana or by the nature of the owner of",
+   "bbox": [
+    275,
+    1945,
+    1501,
+    1984
+   ]
+  },
+  {
+   "text": "the sign having that drekkana.",
+   "bbox": [
+    276,
+    1999,
+    900,
+    2036
+   ]
+  },
+  {
+   "text": "<i>Notes:</i> This refers to cases where there is no planet in",
+   "bbox": [
+    349,
+    2078,
+    1500,
+    2116
+   ]
+  },
+  {
+   "text": "the eighth, where the eighth is not aspected by any planet,",
+   "bbox": [
+    275,
+    2130,
+    1497,
+    2169
+   ]
+  },
+  {
+   "text": "and where the previously mentioned combinations do not",
+   "bbox": [
+    272,
+    2183,
+    1497,
+    2221
+   ]
+  },
+  {
+   "text": "apply.",
+   "bbox": [
+    275,
+    2237,
+    409,
+    2274
+   ]
+  },
+  {
+   "text": "The eighth house begins with the twenty second drekkana",
+   "bbox": [
+    350,
+    2312,
+    1496,
+    2350
+   ]
+  },
+  {
+   "text": "from the lagna drekkana. We have to determine the stronger",
+   "bbox": [
+    272,
+    2365,
+    1491,
+    2403
+   ]
+  }
+ ]
+}

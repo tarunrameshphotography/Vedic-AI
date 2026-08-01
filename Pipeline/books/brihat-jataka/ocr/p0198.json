@@ -1,0 +1,245 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0198",
+ "book_id": "brihat-jataka",
+ "seq": 198,
+ "source_ref": {
+  "pdf_page": 99,
+  "half": "b",
+  "v1_page": "s099b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "560539b8aeec559f7f04f25680df55f212b22129c0c4c6d79971c19d1790cb24",
+ "lines": [
+  {
+   "text": "26",
+   "bbox": [
+    773,
+    437,
+    873,
+    495
+   ]
+  },
+  {
+   "text": "नव्टजातकाव्यायः",
+   "bbox": [
+    666,
+    595,
+    992,
+    654
+   ]
+  },
+  {
+   "text": "<b>Unknown Horoscopes</b>",
+   "bbox": [
+    391,
+    652,
+    1277,
+    762
+   ]
+  },
+  {
+   "text": "आधानजन्मापरिबोधकाले सम्पृच्छतो जन्म वदेद्विलग्नात्।",
+   "bbox": [
+    309,
+    900,
+    1115,
+    998
+   ]
+  },
+  {
+   "text": "पूर्वापरार्धे भवनस्य विद्याद्धानावुदग्दक्षिणगे प्रसूतिम् ।। 1 ।।",
+   "bbox": [
+    310,
+    962,
+    1167,
+    1060
+   ]
+  },
+  {
+   "text": "If a person does not know his time of birth or the time of",
+   "bbox": [
+    317,
+    1036,
+    1465,
+    1149
+   ]
+  },
+  {
+   "text": "conception, the lagna has to be determined as per the lagna",
+   "bbox": [
+    244,
+    1087,
+    1467,
+    1204
+   ]
+  },
+  {
+   "text": "rising at the time of query. The birth will be in Uttarayana if",
+   "bbox": [
+    246,
+    1138,
+    1469,
+    1251
+   ]
+  },
+  {
+   "text": "the first hora rises, and the Dakshinayana if the second hora",
+   "bbox": [
+    248,
+    1192,
+    1471,
+    1302
+   ]
+  },
+  {
+   "text": "rises.",
+   "bbox": [
+    254,
+    1304,
+    370,
+    1343
+   ]
+  },
+  {
+   "text": "Notes: Uttarayana is from the entry of Sun into Makara to",
+   "bbox": [
+    327,
+    1320,
+    1476,
+    1426
+   ]
+  },
+  {
+   "text": "his departure from Mithuna. The rest is Dakshinayana.",
+   "bbox": [
+    257,
+    1374,
+    1375,
+    1481
+   ]
+  },
+  {
+   "text": "लग्नत्रिकोणेषु गुरुस्त्रिभगैर्विकल्प्य वर्षाणि वयोऽनुमानात्।",
+   "bbox": [
+    333,
+    1465,
+    1151,
+    1561
+   ]
+  },
+  {
+   "text": "ग्रीष्मोऽर्कलम्ने कथितास्तु शैर्षैरन्यायनर्तावृतुरर्कचारात्।। 2 ।।",
+   "bbox": [
+    336,
+    1523,
+    1212,
+    1624
+   ]
+  },
+  {
+   "text": "Note the rising drekkana in the lagna at the time of the",
+   "bbox": [
+    340,
+    1604,
+    1489,
+    1709
+   ]
+  },
+  {
+   "text": "question. Guru's position in 1, 5 or 9 is determined by the",
+   "bbox": [
+    269,
+    1658,
+    1493,
+    1761
+   ]
+  },
+  {
+   "text": "appearance of the questioner.",
+   "bbox": [
+    275,
+    1738,
+    870,
+    1812
+   ]
+  },
+  {
+   "text": "If the Sun is in lagna, the birth is in the season of Grishma.",
+   "bbox": [
+    351,
+    1781,
+    1497,
+    1886
+   ]
+  },
+  {
+   "text": "For other planets in lagna determine the season. If the season",
+   "bbox": [
+    277,
+    1832,
+    1500,
+    1940
+   ]
+  },
+  {
+   "text": "(Ritu) falls in a wrong ayana, it must be rectified according to",
+   "bbox": [
+    281,
+    1881,
+    1501,
+    1994
+   ]
+  },
+  {
+   "text": "the position of the Sun.",
+   "bbox": [
+    283,
+    1975,
+    760,
+    2037
+   ]
+  },
+  {
+   "text": "Note: If at the time the query is made, the first",
+   "bbox": [
+    357,
+    2012,
+    1509,
+    2120
+   ]
+  },
+  {
+   "text": "drekkana rises, Guru would be in lagna, if it is the second",
+   "bbox": [
+    287,
+    2067,
+    1509,
+    2173
+   ]
+  },
+  {
+   "text": "drekkana, Guru is in the fifth, and if it is the third, Guru is in",
+   "bbox": [
+    291,
+    2116,
+    1513,
+    2228
+   ]
+  },
+  {
+   "text": "the ninth.",
+   "bbox": [
+    296,
+    2222,
+    505,
+    2271
+   ]
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "schema": 2,
+ "book_id": "brihat-jataka",
+ "_comment": "Pages excluded from the corpus, with the reason. Per the project owner's decision of 2026-08-01: publisher covers, advertisements for other titles, and the promotional 'About the Book' / 'About the Author' blurbs are not part of the work and are excluded, but are recorded here and in Reports/conversion_report.md so that nothing is dropped silently. Genuine front matter -- title page, imprint, the translator's Introduction, and the Contents -- is retained.",
+ "exclude": {
+  "brihat-jataka/p0001": {
+   "ocr_fingerprint": "5884ffd872b91e88ac84399c078c5406d40a922640c120ef56a90ecdf6d234b1",
+   "reason": "Back cover (closed book). Low-contrast board; Surya produced only hallucinated text, no real content.",
+   "v1_page": "s001a"
+  },
+  "brihat-jataka/p0002": {
+   "ocr_fingerprint": "7b231be2542043d7e3e12f24cd31f5e39b4f7f5ee11541d4c4a530653cd9d725",
+   "reason": "Front cover.",
+   "v1_page": "s001b"
+  },
+  "brihat-jataka/p0003": {
+   "ocr_fingerprint": "8bd261f376ff8cd27a2573563c8d96b20157ed21e659935b9d2a3cd60b2e6294",
+   "reason": "Publisher blurb, 'About the Book'.",
+   "v1_page": "s002a"
+  },
+  "brihat-jataka/p0227": {
+   "ocr_fingerprint": "89e647dcd12e5f233f3f171da49c512577e181b7dbc9f64a6d0cc447342ec1d1",
+   "reason": "Advertisement for another title: 'Vedanga Jyotisham'.",
+   "v1_page": "s114a"
+  },
+  "brihat-jataka/p0228": {
+   "ocr_fingerprint": "669b6b9c2380c87656a998a0e0901b304c00ebab6c47c66ef9f8b55a4b87de39",
+   "reason": "Publisher blurb, 'About the Author'.",
+   "v1_page": "s114b"
+  },
+  "brihat-jataka/p0223": {
+   "ocr_fingerprint": "cca34e495f29d7352d65b2b11974c87d81c3b302ce846ff37fd4fb8ca65b1407",
+   "reason": "Advertisement for other titles: 'Saravali' and others.",
+   "v1_page": "s112a"
+  },
+  "brihat-jataka/p0224": {
+   "ocr_fingerprint": "37d09b3dc03de0fd994e6d9043873b027a5e1f98cb18914e2ba69befe6af6114",
+   "reason": "Advertisement: 'Principles of Palmistry'.",
+   "v1_page": "s112b"
+  },
+  "brihat-jataka/p0225": {
+   "ocr_fingerprint": "969961f328a5210d5fc3a031e7bd59de321cb4cf6429b3a9a4cb3c90c621d426",
+   "reason": "Advertisement: 'Rahu-Ketu, The Mystic Axis'.",
+   "v1_page": "s113a"
+  },
+  "brihat-jataka/p0226": {
+   "ocr_fingerprint": "0ecc6ffefdad1c6ee97332ac24a2e18f3ed491656990e5a13b34bbf14060656a",
+   "reason": "Advertisement: 'Text Book of Scientific Hindu Astrology'.",
+   "v1_page": "s113b"
+  },
+  "brihat-jataka/p0229": {
+   "ocr_fingerprint": "de839520beb83f20b044c7fcbd1f863174cabda59defd83fb44d30edd9f5931f",
+   "reason": "Blank page (no text layer, no ink).",
+   "v1_page": "s115a"
+  },
+  "brihat-jataka/p0230": {
+   "ocr_fingerprint": "dc27759b0123c554dc4f275db679a8f52dae1a44fea34ae7d8af1ca5b0d14dc3",
+   "reason": "Back cover advertisement: 'Text Book of Scientific Hindu Astrology'.",
+   "v1_page": "s115b"
+  }
+ },
+ "keep_note": {
+  "s002b": "Title page - retained.",
+  "s003a": "Publisher imprint - retained.",
+  "s003b-s004b": "Translator's Introduction - retained as part of the work.",
+  "s005a-s006a": "Contents - retained."
+ }
+}

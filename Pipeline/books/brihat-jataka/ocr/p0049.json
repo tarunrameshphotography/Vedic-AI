@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0049",
+ "book_id": "brihat-jataka",
+ "seq": 49,
+ "source_ref": {
+  "pdf_page": 25,
+  "half": "a",
+  "v1_page": "s025a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "8fc3dfcbe5941aed616665ef60a74597e24bbde02afd4a9857d5a70c3e4cec49",
+ "lines": [
+  {
+   "text": "46",
+   "bbox": [
+    373,
+    214,
+    439,
+    244
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1300,
+    232,
+    1592,
+    270
+   ]
+  },
+  {
+   "text": "<b>Possibility of Pregnancy</b>",
+   "bbox": [
+    368,
+    309,
+    1014,
+    373
+   ]
+  },
+  {
+   "text": "रवीन्दुशुक्रावनिजै: स्वभागगैर्गुरौ त्रिकोणोदयसंस्थिऽपि वा।",
+   "bbox": [
+    441,
+    388,
+    1266,
+    461
+   ]
+  },
+  {
+   "text": "भवत्यपत्यं हि विबीजिनामिमे करा हिमांशोर्विदृशामिवाफला: ।। 3।।",
+   "bbox": [
+    442,
+    454,
+    1426,
+    529
+   ]
+  },
+  {
+   "text": "If Sun, Moon, Venus and Mars are located in their own",
+   "bbox": [
+    438,
+    542,
+    1588,
+    610
+   ]
+  },
+  {
+   "text": "navamsha or if Jupiter is located in the 1st, 5th or the 9th",
+   "bbox": [
+    362,
+    589,
+    1585,
+    663
+   ]
+  },
+  {
+   "text": "house, pregnancy takes place. These yogas are of course of no",
+   "bbox": [
+    362,
+    642,
+    1583,
+    714
+   ]
+  },
+  {
+   "text": "avail to impotent people like the rays of Moon, to the blind.",
+   "bbox": [
+    361,
+    694,
+    1550,
+    763
+   ]
+  },
+  {
+   "text": "Note: Varaha Mihira has stated in Swalp Jatak in this",
+   "bbox": [
+    431,
+    766,
+    1583,
+    836
+   ]
+  },
+  {
+   "text": "connection as under:",
+   "bbox": [
+    358,
+    818,
+    774,
+    860
+   ]
+  },
+  {
+   "text": "बलयुतौ स्वगृहांशेष्वर्कसितावुपचयजार्क्षगौ पुंसाम्।",
+   "bbox": [
+    426,
+    887,
+    1137,
+    957
+   ]
+  },
+  {
+   "text": "स्त्रीणां वा कुजचन्द्रौ यदा तदा गर्भसम्भवो भवति।।",
+   "bbox": [
+    427,
+    952,
+    1178,
+    1022
+   ]
+  },
+  {
+   "text": "ie if in the case of males Sun and Venus are strong in their",
+   "bbox": [
+    425,
+    1040,
+    1576,
+    1108
+   ]
+  },
+  {
+   "text": "own navamshas ie 3rd, 6th, 10th or 11th house from their",
+   "bbox": [
+    351,
+    1088,
+    1573,
+    1157
+   ]
+  },
+  {
+   "text": "natal Sun and in the case of females when Mars and Moon are",
+   "bbox": [
+    351,
+    1137,
+    1570,
+    1207
+   ]
+  },
+  {
+   "text": "so located from their natal Moon the pregnancy does take",
+   "bbox": [
+    346,
+    1181,
+    1571,
+    1263
+   ]
+  },
+  {
+   "text": "place.",
+   "bbox": [
+    346,
+    1241,
+    470,
+    1283
+   ]
+  },
+  {
+   "text": "Women Delivering Child",
+   "bbox": [
+    346,
+    1337,
+    988,
+    1396
+   ]
+  },
+  {
+   "text": "दिवाकरेन्द्रो: स्मरगौ कुजार्कजौ गदप्रदौ पुंगलयोषितोस्तदा।",
+   "bbox": [
+    414,
+    1408,
+    1249,
+    1488
+   ]
+  },
+  {
+   "text": "व्ययस्वर्गौ मृत्युकरौ युतौ तथा तदेकदृष्ट्या मरणाय कल्पितौ।। 4।।",
+   "bbox": [
+    413,
+    1476,
+    1397,
+    1554
+   ]
+  },
+  {
+   "text": "If Mars and Saturn are located in the 7th from the Sun,",
+   "bbox": [
+    412,
+    1566,
+    1560,
+    1635
+   ]
+  },
+  {
+   "text": "they denote disease to the man, while if they occupy the 7th",
+   "bbox": [
+    335,
+    1614,
+    1558,
+    1687
+   ]
+  },
+  {
+   "text": "from Moon they indicate disease to the woman. In case Mars",
+   "bbox": [
+    333,
+    1665,
+    1558,
+    1734
+   ]
+  },
+  {
+   "text": "and Saturn are located in the 2nd and 12th house from the Sun",
+   "bbox": [
+    333,
+    1715,
+    1553,
+    1781
+   ]
+  },
+  {
+   "text": "they denote death of man. Similarly when in 2nd and 12th",
+   "bbox": [
+    333,
+    1766,
+    1553,
+    1836
+   ]
+  },
+  {
+   "text": "from Moon they denote death of woman. When one of these",
+   "bbox": [
+    329,
+    1815,
+    1552,
+    1887
+   ]
+  },
+  {
+   "text": "malefic planets (Mars and Saturn) is located with the Sun and",
+   "bbox": [
+    329,
+    1866,
+    1550,
+    1937
+   ]
+  },
+  {
+   "text": "the other aspects it, they cause death of man. Similarly death",
+   "bbox": [
+    327,
+    1917,
+    1550,
+    1988
+   ]
+  },
+  {
+   "text": "of the woman is caused if one of them is with Moon and the",
+   "bbox": [
+    327,
+    1964,
+    1549,
+    2037
+   ]
+  },
+  {
+   "text": "other aspects her.",
+   "bbox": [
+    329,
+    2025,
+    687,
+    2063
+   ]
+  },
+  {
+   "text": "Father etc how Affected",
+   "bbox": [
+    322,
+    2114,
+    958,
+    2173
+   ]
+  },
+  {
+   "text": "दिवार्कशुक्रौ पितृमातृसंज्ञकौ शनैश्चरेन्दू निशि तद्विपर्यात्।",
+   "bbox": [
+    396,
+    2188,
+    1193,
+    2265
+   ]
+  },
+  {
+   "text": "पितृव्यमातृष्वसृसंज्ञितौ तु तावथौजयुग्मर्क्षगतो तयोः शुभौ।। 5।।",
+   "bbox": [
+    396,
+    2251,
+    1309,
+    2329
+   ]
+  }
+ ]
+}

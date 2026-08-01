@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0212",
+ "book_id": "phaladeepika",
+ "seq": 212,
+ "source_ref": {
+  "pdf_page": 212
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "86790937d36b68eeb820b9b5f37fc8314805a65ce3f035f7a71e765538c653fb",
+ "lines": [
+  {
+   "text": "9. For those born in the first pada of Mrigasira the order of the 9 dasas will ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "be (1) Pisces-Jupiter (2) Aquarius-Saturn (3) Capricorn-Saturn (4) Sagittarius-",
+   "bbox": [
+    85,
+    82,
+    552,
+    97
+   ]
+  },
+  {
+   "text": "Jupiter (5) Scorpio-Mars (6) Libra-Venus (7) Virgo-Mercury (8) Leo-Sun and (9) ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "Cancer-Moon.",
+   "bbox": [
+    85,
+    130,
+    166,
+    145
+   ]
+  },
+  {
+   "text": "For the 2nd pada of Mrigasira the 9 dasas will be as follow (1) Gemini-",
+   "bbox": [
+    121,
+    154,
+    552,
+    169
+   ]
+  },
+  {
+   "text": "Mercury (2) Taurus-Venus (3) Aries-Mars (4) Sagittarius-Jupiter (5) Capricorn-",
+   "bbox": [
+    85,
+    178,
+    553,
+    194
+   ]
+  },
+  {
+   "text": "Saturn (6) Aquarius-Saturn (7) Pisces-Jupiter (8) Aries-Mars and (9) Taurus-Venus.",
+   "bbox": [
+    85,
+    202,
+    551,
+    218
+   ]
+  },
+  {
+   "text": "For the 3rd pada of Mrigasira the 9 dasas will be in the following order— ",
+   "bbox": [
+    121,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "(1) Gemini-Mercury (2) Leo-Sun (3) Cancer-Moon (4) Virgo-Mercury (5) Libra-",
+   "bbox": [
+    85,
+    251,
+    553,
+    266
+   ]
+  },
+  {
+   "text": "Venus (6) Scorpio-Mars (7) Pisces-Jupiter (8) Aquarius-Saturn (9) Capricorn-",
+   "bbox": [
+    85,
+    275,
+    553,
+    290
+   ]
+  },
+  {
+   "text": "Saturn.",
+   "bbox": [
+    85,
+    299,
+    125,
+    314
+   ]
+  },
+  {
+   "text": "For the 4th pada of Mrigasira the order of the 9 dasas will be as follow — ",
+   "bbox": [
+    121,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "(1) Sagittarius-Jupiter (2) Scorpio-Mars (3) Libra-Venus (4) Virgo-Mercury (5) ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "Leo-Sun (6) Cancer-Moon (7) Gemini-Mercury (8) Taurus-Venus and (9) Aries-",
+   "bbox": [
+    85,
+    371,
+    553,
+    387
+   ]
+  },
+  {
+   "text": "Mars.",
+   "bbox": [
+    85,
+    395,
+    117,
+    411
+   ]
+  },
+  {
+   "text": "Described an order of dasas for the 4 padas of Aswini, BHarani, Rohini and ",
+   "bbox": [
+    121,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "Mrigasira, there are In all 27 nakshatras. For the remaining 23 nakshatras (each has ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "four padas) the order of their dasas will be the same as for the above four ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "nakshatras as explained below:—",
+   "bbox": [
+    85,
+    492,
+    273,
+    508
+   ]
+  },
+  {
+   "text": "(a) The order of the dasas of the four padas of Krittika. Punarvasu, Ashlesha, ",
+   "bbox": [
+    121,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "Hasta, Swati, Moola, Uttarashada, Poorvabhadra and Revati will be the same as for ",
+   "bbox": [
+    85,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "Aswini.",
+   "bbox": [
+    85,
+    565,
+    129,
+    580
+   ]
+  },
+  {
+   "text": "(b) The order of the dasas of the four padas of Pushyami, Chittra, ",
+   "bbox": [
+    121,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "Poorvashada, Uttarabhadra will be the same as for Bharani.",
+   "bbox": [
+    85,
+    613,
+    418,
+    628
+   ]
+  },
+  {
+   "text": "(c) The order of the dasas of the four padas of Magha, Visakha and Sravana ",
+   "bbox": [
+    121,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "will be the same as for Rohinl.",
+   "bbox": [
+    85,
+    661,
+    257,
+    677
+   ]
+  },
+  {
+   "text": "(d) The order of the dasas of the four padas of Aridra, Poorva-phalguni, ",
+   "bbox": [
+    121,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "Uttaraphalguni, Anuradha, Jyestha, Dhanishta and Shatabhisha will be the same as ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "for Mrigasira.",
+   "bbox": [
+    85,
+    734,
+    163,
+    749
+   ]
+  },
+  {
+   "text": "10. The initial Mahadasha of a life belongs to the lord of the sign owning the ",
+   "bbox": [
+    121,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "212",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

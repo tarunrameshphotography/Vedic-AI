@@ -1,0 +1,117 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0154",
+ "book_id": "phaladeepika",
+ "seq": 154,
+ "source_ref": {
+  "pdf_page": 154
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "4230ef46c4a4148d05a40f1d59bf4d6515217dc7fbdfba7f9851d42a13778665",
+ "lines": [
+  {
+   "text": "native will be blessed with children.",
+   "bbox": [
+    85,
+    57,
+    287,
+    73
+   ]
+  },
+  {
+   "text": "30. The following are the five recognised connections or relations between ",
+   "bbox": [
+    121,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "two planets —",
+   "bbox": [
+    85,
+    106,
+    167,
+    121
+   ]
+  },
+  {
+   "text": "(1) When they occupy mutually each other's sign.",
+   "bbox": [
+    121,
+    130,
+    399,
+    145
+   ]
+  },
+  {
+   "text": "(2) When they are conjoined.",
+   "bbox": [
+    121,
+    154,
+    284,
+    169
+   ]
+  },
+  {
+   "text": "(3) When there is mutual aspect between them.",
+   "bbox": [
+    121,
+    178,
+    384,
+    194
+   ]
+  },
+  {
+   "text": "(4) When they are in Kendra position with respect to each other.",
+   "bbox": [
+    121,
+    202,
+    480,
+    218
+   ]
+  },
+  {
+   "text": "(5) When they are in Trikona position with reference to each other.",
+   "bbox": [
+    121,
+    226,
+    495,
+    242
+   ]
+  },
+  {
+   "text": "Thus ends the fifteenth chapter on \"The Effects oJBhavas in Phaladeepika ",
+   "bbox": [
+    121,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "composed by Mantreswara.",
+   "bbox": [
+    85,
+    275,
+    240,
+    290
+   ]
+  },
+  {
+   "text": "154",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

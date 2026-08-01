@@ -1,0 +1,425 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0200",
+ "book_id": "brihat-jataka",
+ "seq": 200,
+ "source_ref": {
+  "pdf_page": 100,
+  "half": "b",
+  "v1_page": "s100b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "9b27e0bc87cb91958628557fad9473479065cfd2a278a94993a7d71286cf0dde",
+ "lines": [
+  {
+   "text": "197",
+   "bbox": [
+    1324,
+    238,
+    1410,
+    272
+   ]
+  },
+  {
+   "text": "<b>Unknown Horoscopes</b>",
+   "bbox": [
+    205,
+    262,
+    637,
+    306
+   ]
+  },
+  {
+   "text": "seventh; neck or lips, eighth; eyes or brows, ninth; head or",
+   "bbox": [
+    205,
+    334,
+    1420,
+    417
+   ]
+  },
+  {
+   "text": "forehead, tenth.",
+   "bbox": [
+    209,
+    416,
+    531,
+    463
+   ]
+  },
+  {
+   "text": "These are the ten parts of the body. Guru takes roughly",
+   "bbox": [
+    282,
+    465,
+    1423,
+    543
+   ]
+  },
+  {
+   "text": "twelve years to cover the signs of the zodiac. Hence twelve is to",
+   "bbox": [
+    210,
+    515,
+    1423,
+    598
+   ]
+  },
+  {
+   "text": "be divided by ten. For each part of the body we get one year,",
+   "bbox": [
+    212,
+    567,
+    1423,
+    652
+   ]
+  },
+  {
+   "text": "two months and twelve days. If he touches the sixth part, Guru",
+   "bbox": [
+    213,
+    621,
+    1426,
+    703
+   ]
+  },
+  {
+   "text": "will be in the eighth house.",
+   "bbox": [
+    214,
+    695,
+    762,
+    753
+   ]
+  },
+  {
+   "text": "चन्द्रज्ञजीवाः परिवर्तनीयाः शुक्रारमन्दैरयने विलोमे।",
+   "bbox": [
+    287,
+    761,
+    1017,
+    841
+   ]
+  },
+  {
+   "text": "द्रेष्क्राणभागे प्रथमे तु पूर्वो मासोऽनुपाताच्च तिथिर्विकल्प्या ।। 3 ।।",
+   "bbox": [
+    289,
+    825,
+    1263,
+    906
+   ]
+  },
+  {
+   "text": "When a Ritu (season)falls in an incorrect ayana, replace",
+   "bbox": [
+    295,
+    914,
+    1435,
+    993
+   ]
+  },
+  {
+   "text": "the Moon, Budha and Guru by Shukra, Kuja and Shani re-",
+   "bbox": [
+    220,
+    969,
+    1433,
+    1047
+   ]
+  },
+  {
+   "text": "spectively.",
+   "bbox": [
+    223,
+    1051,
+    436,
+    1098
+   ]
+  },
+  {
+   "text": "When the first half of a drekkana rises, fix the first month",
+   "bbox": [
+    299,
+    1100,
+    1440,
+    1174
+   ]
+  },
+  {
+   "text": "of the season and the day is to be found out proportionately.",
+   "bbox": [
+    224,
+    1154,
+    1423,
+    1231
+   ]
+  },
+  {
+   "text": "Notes: The Ritus (seasons) are six. Each is made up of two",
+   "bbox": [
+    299,
+    1229,
+    1443,
+    1308
+   ]
+  },
+  {
+   "text": "months thus:",
+   "bbox": [
+    227,
+    1313,
+    499,
+    1357
+   ]
+  },
+  {
+   "text": "(Spring)",
+   "bbox": [
+    1131,
+    1371,
+    1303,
+    1412
+   ]
+  },
+  {
+   "text": "Chaitra, Vaisakha",
+   "bbox": [
+    656,
+    1375,
+    1025,
+    1428
+   ]
+  },
+  {
+   "text": "Vasanta",
+   "bbox": [
+    308,
+    1395,
+    479,
+    1431
+   ]
+  },
+  {
+   "text": "(Summer)",
+   "bbox": [
+    1132,
+    1449,
+    1341,
+    1488
+   ]
+  },
+  {
+   "text": "Jyeshtha, Ashadha",
+   "bbox": [
+    656,
+    1454,
+    1045,
+    1507
+   ]
+  },
+  {
+   "text": "Grishma",
+   "bbox": [
+    308,
+    1473,
+    489,
+    1509
+   ]
+  },
+  {
+   "text": "(Rains)",
+   "bbox": [
+    1133,
+    1529,
+    1286,
+    1566
+   ]
+  },
+  {
+   "text": "Sravana, Bhadrapada",
+   "bbox": [
+    658,
+    1532,
+    1100,
+    1585
+   ]
+  },
+  {
+   "text": "Varsha",
+   "bbox": [
+    309,
+    1552,
+    466,
+    1589
+   ]
+  },
+  {
+   "text": "(Autumn)",
+   "bbox": [
+    1135,
+    1604,
+    1339,
+    1651
+   ]
+  },
+  {
+   "text": "Asvina, Kartika",
+   "bbox": [
+    660,
+    1614,
+    986,
+    1665
+   ]
+  },
+  {
+   "text": "Sarat",
+   "bbox": [
+    312,
+    1633,
+    445,
+    1668
+   ]
+  },
+  {
+   "text": "(Autumn)",
+   "bbox": [
+    1137,
+    1684,
+    1339,
+    1726
+   ]
+  },
+  {
+   "text": "Margasira, Pushya",
+   "bbox": [
+    661,
+    1691,
+    1047,
+    1743
+   ]
+  },
+  {
+   "text": "Hemanta",
+   "bbox": [
+    312,
+    1707,
+    506,
+    1749
+   ]
+  },
+  {
+   "text": "(Winter)",
+   "bbox": [
+    1142,
+    1765,
+    1318,
+    1803
+   ]
+  },
+  {
+   "text": "Magha, Phalguna",
+   "bbox": [
+    662,
+    1769,
+    1025,
+    1823
+   ]
+  },
+  {
+   "text": "Sishira",
+   "bbox": [
+    315,
+    1788,
+    468,
+    1825
+   ]
+  },
+  {
+   "text": "Ayanas are two: Uttara and Dakshina. These have been",
+   "bbox": [
+    312,
+    1834,
+    1462,
+    1913
+   ]
+  },
+  {
+   "text": "explained earlier. Sishira, Vasanta and Grishma Ritus come in",
+   "bbox": [
+    240,
+    1889,
+    1459,
+    1968
+   ]
+  },
+  {
+   "text": "uttarayana. This is roughly from January 14 to July 16 of",
+   "bbox": [
+    241,
+    1941,
+    1462,
+    2023
+   ]
+  },
+  {
+   "text": "every year. That is, the solar months of Makara and Kumbha,",
+   "bbox": [
+    241,
+    1994,
+    1461,
+    2077
+   ]
+  },
+  {
+   "text": "Mina and Mesha, and Vrishabha and Mithuna form the three",
+   "bbox": [
+    243,
+    2047,
+    1462,
+    2129
+   ]
+  },
+  {
+   "text": "seasons.",
+   "bbox": [
+    249,
+    2141,
+    416,
+    2171
+   ]
+  },
+  {
+   "text": "Earlier it was stated that Vasanta covers Mesha and",
+   "bbox": [
+    324,
+    2179,
+    1465,
+    2254
+   ]
+  },
+  {
+   "text": "Vrishabha. Here it is given as Mina and Mesha. This is when",
+   "bbox": [
+    249,
+    2233,
+    1467,
+    2311
+   ]
+  },
+  {
+   "text": "a season (Ritu) falls in an incorrect ayana. The seasons are",
+   "bbox": [
+    252,
+    2286,
+    1466,
+    2363
+   ]
+  }
+ ]
+}

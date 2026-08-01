@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0068",
+ "book_id": "brihat-jataka",
+ "seq": 68,
+ "source_ref": {
+  "pdf_page": 34,
+  "half": "b",
+  "v1_page": "s034b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "004a15925b418c86c557eb8a24e3e39cbcff6d3a570e1e30810be31c3599e632",
+ "lines": [
+  {
+   "text": "65",
+   "bbox": [
+    1423,
+    201,
+    1482,
+    233
+   ]
+  },
+  {
+   "text": "<b>Birth Conditions</b>",
+   "bbox": [
+    279,
+    221,
+    618,
+    267
+   ]
+  },
+  {
+   "text": "Body of the Child",
+   "bbox": [
+    281,
+    315,
+    741,
+    377
+   ]
+  },
+  {
+   "text": "लग्ननवांशपतुल्यतनुः स्याद्वीर्य्ययुतग्रहतुल्यतनुर्वा।",
+   "bbox": [
+    352,
+    388,
+    1043,
+    459
+   ]
+  },
+  {
+   "text": "चन्द्रसमेतनवांशपवर्णः कादिविलग्नविभक्तभगात्रः ।। 23 ।।",
+   "bbox": [
+    355,
+    446,
+    1201,
+    521
+   ]
+  },
+  {
+   "text": "The body of the child born will have the characteristics of",
+   "bbox": [
+    358,
+    532,
+    1501,
+    609
+   ]
+  },
+  {
+   "text": "the planet who is the lord of the navamsha of the lagna, or it",
+   "bbox": [
+    286,
+    586,
+    1496,
+    662
+   ]
+  },
+  {
+   "text": "would be like the strongest planet in the horoscope. The colour",
+   "bbox": [
+    287,
+    636,
+    1498,
+    718
+   ]
+  },
+  {
+   "text": "of the body would be after the colour of the planet that is lord",
+   "bbox": [
+    287,
+    690,
+    1499,
+    768
+   ]
+  },
+  {
+   "text": "of the navamsha occupied by Moon. The health or disease of",
+   "bbox": [
+    289,
+    742,
+    1502,
+    823
+   ]
+  },
+  {
+   "text": "the limbs of the body should be determined by study of the",
+   "bbox": [
+    289,
+    793,
+    1502,
+    876
+   ]
+  },
+  {
+   "text": "various houses of the horoscope representing head, face, shoul-",
+   "bbox": [
+    290,
+    847,
+    1502,
+    926
+   ]
+  },
+  {
+   "text": "ders, chest etc (like signs) in order 1st to 12th.",
+   "bbox": [
+    293,
+    908,
+    1219,
+    980
+   ]
+  },
+  {
+   "text": "Commentary: In shloka No. 4 of chapter 1, we have already",
+   "bbox": [
+    369,
+    981,
+    1506,
+    1056
+   ]
+  },
+  {
+   "text": "seen that the sign Aries to Pisces represent the 12 portions of",
+   "bbox": [
+    293,
+    1033,
+    1512,
+    1110
+   ]
+  },
+  {
+   "text": "the body from head to foot. The same limbs are here said to be",
+   "bbox": [
+    296,
+    1083,
+    1509,
+    1165
+   ]
+  },
+  {
+   "text": "represented by the corresponding houses in the horoscope. We",
+   "bbox": [
+    299,
+    1138,
+    1508,
+    1217
+   ]
+  },
+  {
+   "text": "have thus four factors which would denote a limb. For ex-",
+   "bbox": [
+    299,
+    1186,
+    1509,
+    1265
+   ]
+  },
+  {
+   "text": "ample, the chest would be represented <math>(i)</math> by sign No. 4, <math>(ii)</math> by",
+   "bbox": [
+    299,
+    1243,
+    1512,
+    1318
+   ]
+  },
+  {
+   "text": "lord of the sign No. 4 ie Moon, <math>(iii)</math> by the house No. 4 and <math>(iv)</math>",
+   "bbox": [
+    299,
+    1296,
+    1512,
+    1370
+   ]
+  },
+  {
+   "text": "by the lord of the house number four.",
+   "bbox": [
+    300,
+    1359,
+    1048,
+    1422
+   ]
+  },
+  {
+   "text": "If all these four factors are afflicted by malefic planets",
+   "bbox": [
+    375,
+    1426,
+    1518,
+    1499
+   ]
+  },
+  {
+   "text": "say by Saturn and Rahu through their aspect etc, the per-",
+   "bbox": [
+    305,
+    1479,
+    1519,
+    1552
+   ]
+  },
+  {
+   "text": "son will have chronic trouble in his chest in the form of TB",
+   "bbox": [
+    305,
+    1532,
+    1519,
+    1603
+   ]
+  },
+  {
+   "text": "etc.",
+   "bbox": [
+    307,
+    1622,
+    384,
+    1655
+   ]
+  },
+  {
+   "text": "<b>Limbs and Decantes</b>",
+   "bbox": [
+    307,
+    1706,
+    840,
+    1761
+   ]
+  },
+  {
+   "text": "कं दुक्श्नोत्रनसाकपोलहनवो वक्त्रश्च होरादय-",
+   "bbox": [
+    381,
+    1780,
+    1030,
+    1850
+   ]
+  },
+  {
+   "text": "स्ते कण्ठांसक् बाहुपार्श्वहृदयक्रोडानि नाभिस्तत:।",
+   "bbox": [
+    384,
+    1848,
+    1070,
+    1914
+   ]
+  },
+  {
+   "text": "बस्ति शिश्नगुदे ततश्च वृषवाणावूरू ततो जानुनी",
+   "bbox": [
+    385,
+    1908,
+    1069,
+    1981
+   ]
+  },
+  {
+   "text": "जङ्घाङ्घ्रीत्युभयत्र वाममुदितैर्द्रेष्काणभागैस्त्रिघा।। 24 ।।",
+   "bbox": [
+    386,
+    1970,
+    1191,
+    2047
+   ]
+  },
+  {
+   "text": "The first, second and the third decante in the ascendant",
+   "bbox": [
+    390,
+    2056,
+    1533,
+    2131
+   ]
+  },
+  {
+   "text": "denote respectively the parts of the upper, middle and lower",
+   "bbox": [
+    316,
+    2109,
+    1534,
+    2187
+   ]
+  },
+  {
+   "text": "portion of the body as under - If there is the first decante in",
+   "bbox": [
+    316,
+    2161,
+    1535,
+    2238
+   ]
+  },
+  {
+   "text": "the lagna, the lagna will be treated as head the 2nd and the",
+   "bbox": [
+    316,
+    2213,
+    1535,
+    2291
+   ]
+  },
+  {
+   "text": "12th houses as eyes, 3rd and 11th as ears, 4th and 10th as",
+   "bbox": [
+    321,
+    2267,
+    1536,
+    2341
+   ]
+  }
+ ]
+}

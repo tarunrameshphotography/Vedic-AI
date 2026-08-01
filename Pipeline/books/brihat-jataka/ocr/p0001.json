@@ -1,0 +1,92 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0001",
+ "book_id": "brihat-jataka",
+ "seq": 1,
+ "source_ref": {
+  "pdf_page": 1,
+  "half": "a",
+  "v1_page": "s001a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "5884ffd872b91e88ac84399c078c5406d40a922640c120ef56a90ecdf6d234b1",
+ "lines": [
+  {
+   "text": "<u> 1989 - Andrea Station Andrea Station and American Station Andrea Sta</u>",
+   "bbox": [
+    570,
+    343,
+    1233,
+    372
+   ]
+  },
+  {
+   "text": "<u> De Santa Carlos de Santa Carlos de Santa Carlos de Santa Carlos de Santa Carlos de Santa Carlos de Santa Carlos de Santa Carlos de Santa Carlos de Santa Carlos de Santa Carlos de Santa Carlos de Santa Carlos de Santa Car</u>",
+   "bbox": [
+    247,
+    386,
+    1117,
+    428
+   ]
+  },
+  {
+   "text": "",
+   "bbox": [
+    157,
+    407,
+    1012,
+    495
+   ]
+  },
+  {
+   "text": "and the company of the company of",
+   "bbox": [
+    965,
+    459,
+    1494,
+    509
+   ]
+  },
+  {
+   "text": "Andrew Company",
+   "bbox": [
+    380,
+    573,
+    863,
+    641
+   ]
+  },
+  {
+   "text": "the control of the control of the control of",
+   "bbox": [
+    382,
+    646,
+    1012,
+    699
+   ]
+  },
+  {
+   "text": "the company of the company of the",
+   "bbox": [
+    421,
+    841,
+    1127,
+    883
+   ]
+  },
+  {
+   "text": "<u> San Salaman a San Salaman a Salaman a Salaman a Salaman a Salaman a Salaman a Salaman a Salaman a Salaman a S</u>",
+   "bbox": [
+    408,
+    858,
+    716,
+    882
+   ]
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0001",
+ "book_id": "phaladeepika",
+ "seq": 1,
+ "source_ref": {
+  "pdf_page": 1
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "6e0546378b7673d7c9f509f71347b5bee6bfd7117839c0364595490521896877",
+ "lines": [
+  {
+   "text": "<b>MANTRESWARA'S</b>",
+   "bbox": [
+    230,
+    202,
+    408,
+    225
+   ]
+  },
+  {
+   "text": "<b>PHALA DEEPIKA</b>",
+   "bbox": [
+    236,
+    237,
+    401,
+    259
+   ]
+  },
+  {
+   "text": "<b>English Translation, Commentary</b>",
+   "bbox": [
+    220,
+    368,
+    417,
+    383
+   ]
+  },
+  {
+   "text": "<b>and annotation by Dr. G. S. Kapoor</b>",
+   "bbox": [
+    216,
+    392,
+    421,
+    408
+   ]
+  }
+ ]
+}

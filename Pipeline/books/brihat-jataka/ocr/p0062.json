@@ -1,0 +1,308 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0062",
+ "book_id": "brihat-jataka",
+ "seq": 62,
+ "source_ref": {
+  "pdf_page": 31,
+  "half": "b",
+  "v1_page": "s031b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "6180b0aaf7c059e5f1e0bf25d5e4d253e34dd666eb58664a030ab1a94902d52c",
+ "lines": [
+  {
+   "text": "59",
+   "bbox": [
+    1355,
+    170,
+    1414,
+    199
+   ]
+  },
+  {
+   "text": "<b>Birth Conditions</b>",
+   "bbox": [
+    205,
+    195,
+    543,
+    244
+   ]
+  },
+  {
+   "text": "<b>Birth as Twins</b>",
+   "bbox": [
+    209,
+    295,
+    600,
+    348
+   ]
+  },
+  {
+   "text": "छागे सिंहे वृषे लग्ने तत्स्थे सौरेऽथवा कुजे।",
+   "bbox": [
+    280,
+    364,
+    917,
+    439
+   ]
+  },
+  {
+   "text": "राश्यंशसदृशे गात्रे जायते नालवेष्टित: ।। 5 ।।",
+   "bbox": [
+    282,
+    426,
+    955,
+    502
+   ]
+  },
+  {
+   "text": "If the Sun is located in an animal sign <math>(1, 2, 5,</math> the latter",
+   "bbox": [
+    287,
+    504,
+    1434,
+    589
+   ]
+  },
+  {
+   "text": "portion of Sagittarius or the 1st half of Capricorn) and the rest",
+   "bbox": [
+    215,
+    553,
+    1435,
+    645
+   ]
+  },
+  {
+   "text": "of the planets are strong and located in mutable signs, there",
+   "bbox": [
+    217,
+    605,
+    1435,
+    699
+   ]
+  },
+  {
+   "text": "are twins in the womb.",
+   "bbox": [
+    220,
+    688,
+    681,
+    742
+   ]
+  },
+  {
+   "text": "न लग्नमिन्दुञ्च गुरुर्निरीक्षते न वा शशाङ्कं रविणा समागतम्।",
+   "bbox": [
+    294,
+    747,
+    1176,
+    832
+   ]
+  },
+  {
+   "text": "सपापकोऽर्केण युतोऽथवा शशी परेण जातं प्रवदन्ति निश्चयात्।। 6 ।।",
+   "bbox": [
+    295,
+    804,
+    1311,
+    899
+   ]
+  },
+  {
+   "text": "In lagna, Aries, Taurus or Leo if there is either Mars or",
+   "bbox": [
+    301,
+    892,
+    1446,
+    987
+   ]
+  },
+  {
+   "text": "Saturn, the native will be enveloped by a cord.",
+   "bbox": [
+    228,
+    958,
+    1165,
+    1038
+   ]
+  },
+  {
+   "text": "The limb represented by the sign of the navamsha in the",
+   "bbox": [
+    305,
+    1025,
+    1452,
+    1115
+   ]
+  },
+  {
+   "text": "lagna will be so enveloped.",
+   "bbox": [
+    233,
+    1107,
+    766,
+    1164
+   ]
+  },
+  {
+   "text": "Arrest or Imprisonment of Father",
+   "bbox": [
+    235,
+    1192,
+    1123,
+    1273
+   ]
+  },
+  {
+   "text": "क्रूरर्क्षगतावशोभनौ सूर्य्याद्यूननवात्मजस्थितौ।",
+   "bbox": [
+    308,
+    1280,
+    928,
+    1356
+   ]
+  },
+  {
+   "text": "बद्धस्तु पिता विदेशग: स्वे वा राशिवशादथो पथि।। 7 ।।",
+   "bbox": [
+    312,
+    1339,
+    1159,
+    1419
+   ]
+  },
+  {
+   "text": "If the two malefics Mars and Saturn occupy together a",
+   "bbox": [
+    317,
+    1422,
+    1464,
+    1507
+   ]
+  },
+  {
+   "text": "malefic sign (1, 5, 8, 10 or 11) and or located in the 5th, 9th or",
+   "bbox": [
+    240,
+    1469,
+    1464,
+    1565
+   ]
+  },
+  {
+   "text": "7th from Sun, the father of the native should be deemed to be",
+   "bbox": [
+    244,
+    1524,
+    1464,
+    1617
+   ]
+  },
+  {
+   "text": "in bondage in another country. If the Sun is occupying a",
+   "bbox": [
+    246,
+    1576,
+    1468,
+    1672
+   ]
+  },
+  {
+   "text": "movable sign, he is in bondage in the other country, if in a",
+   "bbox": [
+    246,
+    1629,
+    1470,
+    1723
+   ]
+  },
+  {
+   "text": "fixed sign he is in bondage in his own country and if in a",
+   "bbox": [
+    246,
+    1684,
+    1474,
+    1776
+   ]
+  },
+  {
+   "text": "mutable sign he is in bondage on the way.",
+   "bbox": [
+    252,
+    1752,
+    1099,
+    1827
+   ]
+  },
+  {
+   "text": "<b>Birth Surroundings etc</b>",
+   "bbox": [
+    254,
+    1866,
+    872,
+    1929
+   ]
+  },
+  {
+   "text": "पूर्णे शशिनि स्वराशिगे सौम्ये लग्नगते शुभे सुखे।",
+   "bbox": [
+    328,
+    1934,
+    1053,
+    2014
+   ]
+  },
+  {
+   "text": "लग्ने जलजेऽस्तगेऽपि वा चन्द्रे पोतगता प्रसूयते।। 8 ।।",
+   "bbox": [
+    330,
+    1996,
+    1137,
+    2077
+   ]
+  },
+  {
+   "text": "If full Moon occupies her own sign Cancer, Mercury occu-",
+   "bbox": [
+    336,
+    2076,
+    1483,
+    2167
+   ]
+  },
+  {
+   "text": "pies the lagna and Jupiter 4th house, the birth takes place in",
+   "bbox": [
+    263,
+    2126,
+    1486,
+    2221
+   ]
+  },
+  {
+   "text": "a boat (ie above water). Similar birth takes place, if there is a",
+   "bbox": [
+    265,
+    2177,
+    1489,
+    2274
+   ]
+  },
+  {
+   "text": "watery sign in the lagna and Moon occupies the 7th house.",
+   "bbox": [
+    268,
+    2232,
+    1448,
+    2326
+   ]
+  }
+ ]
+}

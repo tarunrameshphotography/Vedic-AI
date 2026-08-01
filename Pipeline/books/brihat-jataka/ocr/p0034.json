@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0034",
+ "book_id": "brihat-jataka",
+ "seq": 34,
+ "source_ref": {
+  "pdf_page": 17,
+  "half": "b",
+  "v1_page": "s017b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "220b091b34ccefa209436cb6436d76cb154ed3e73390530ae6b921be77047e31",
+ "lines": [
+  {
+   "text": "31",
+   "bbox": [
+    1426,
+    217,
+    1484,
+    250
+   ]
+  },
+  {
+   "text": "Planets",
+   "bbox": [
+    280,
+    236,
+    435,
+    271
+   ]
+  },
+  {
+   "text": "cury lord of the 9th with the lagna and the lord thereof ie",
+   "bbox": [
+    281,
+    314,
+    1496,
+    382
+   ]
+  },
+  {
+   "text": "Venus.",
+   "bbox": [
+    285,
+    391,
+    426,
+    427
+   ]
+  },
+  {
+   "text": "Jupiter",
+   "bbox": [
+    919,
+    499,
+    1017,
+    531
+   ]
+  },
+  {
+   "text": "Rahu",
+   "bbox": [
+    1080,
+    644,
+    1154,
+    672
+   ]
+  },
+  {
+   "text": "Moon",
+   "bbox": [
+    1080,
+    805,
+    1159,
+    832
+   ]
+  },
+  {
+   "text": "Ketu",
+   "bbox": [
+    636,
+    814,
+    704,
+    840
+   ]
+  },
+  {
+   "text": "Mars",
+   "bbox": [
+    936,
+    910,
+    999,
+    934
+   ]
+  },
+  {
+   "text": "Mercury",
+   "bbox": [
+    922,
+    941,
+    1015,
+    966
+   ]
+  },
+  {
+   "text": "Saturn",
+   "bbox": [
+    775,
+    959,
+    865,
+    987
+   ]
+  },
+  {
+   "text": "Sun",
+   "bbox": [
+    1093,
+    963,
+    1154,
+    991
+   ]
+  },
+  {
+   "text": "Venus",
+   "bbox": [
+    930,
+    970,
+    1008,
+    994
+   ]
+  },
+  {
+   "text": "Lagna",
+   "bbox": [
+    932,
+    1003,
+    1010,
+    1028
+   ]
+  },
+  {
+   "text": "Mercury is also fully aspecting Jupiter, lord of the 9th",
+   "bbox": [
+    365,
+    1080,
+    1508,
+    1141
+   ]
+  },
+  {
+   "text": "house from the chandra lagna also representing religion and",
+   "bbox": [
+    293,
+    1132,
+    1506,
+    1195
+   ]
+  },
+  {
+   "text": "higher living.",
+   "bbox": [
+    296,
+    1205,
+    567,
+    1245
+   ]
+  },
+  {
+   "text": "The Mahatma-true to his title did nothing to accumulate",
+   "bbox": [
+    368,
+    1265,
+    1509,
+    1323
+   ]
+  },
+  {
+   "text": "any thing for himself or for his family thus establishing the",
+   "bbox": [
+    294,
+    1317,
+    1509,
+    1378
+   ]
+  },
+  {
+   "text": "fact that his life long service to the country was thoroughly",
+   "bbox": [
+    294,
+    1368,
+    1509,
+    1432
+   ]
+  },
+  {
+   "text": "unselfish in nature.",
+   "bbox": [
+    296,
+    1437,
+    696,
+    1478
+   ]
+  },
+  {
+   "text": "<b>Sexual and other Features of Planets</b>",
+   "bbox": [
+    297,
+    1529,
+    1271,
+    1585
+   ]
+  },
+  {
+   "text": "वर्णास्ताम्रसितातिरक्तहरितव्यापीतचित्रासिता",
+   "bbox": [
+    371,
+    1618,
+    980,
+    1668
+   ]
+  },
+  {
+   "text": "वह्रचम्ब्वग्निजकेशवेन्द्रशचिकाः सूर्यादिनाथाः क्रमात्।",
+   "bbox": [
+    372,
+    1679,
+    1137,
+    1739
+   ]
+  },
+  {
+   "text": "प्रागाद्या रविशुक्रलोहिततम: सौरेन्दुवित्सूरय:",
+   "bbox": [
+    372,
+    1745,
+    997,
+    1805
+   ]
+  },
+  {
+   "text": "क्षीणेन्द्रर्कमहीसतार्कतनया: पापा बुधस्तैर्युत:।। 5 ।।",
+   "bbox": [
+    374,
+    1814,
+    1120,
+    1867
+   ]
+  },
+  {
+   "text": "Mercury and Saturn are termed as \"Eunuchs\" ie impotent",
+   "bbox": [
+    375,
+    1898,
+    1519,
+    1957
+   ]
+  },
+  {
+   "text": "planets. Moon and Venus are female planets. The remaining",
+   "bbox": [
+    300,
+    1951,
+    1520,
+    2010
+   ]
+  },
+  {
+   "text": "planets ie Sun, Mars, Jupiter are male planets. Fire is repre-",
+   "bbox": [
+    300,
+    2001,
+    1519,
+    2065
+   ]
+  },
+  {
+   "text": "sented by Mars, Earth by Mercury, ether by Jupiter, water by",
+   "bbox": [
+    301,
+    2053,
+    1520,
+    2117
+   ]
+  },
+  {
+   "text": "Venus and air by Saturn.",
+   "bbox": [
+    306,
+    2119,
+    816,
+    2168
+   ]
+  },
+  {
+   "text": "Commentary: Mercury and Saturn have been classified as",
+   "bbox": [
+    379,
+    2185,
+    1523,
+    2245
+   ]
+  },
+  {
+   "text": "\"Impotent\" planets. Through their combined and exclusive",
+   "bbox": [
+    303,
+    2237,
+    1526,
+    2298
+   ]
+  },
+  {
+   "text": "influence on the sex factors they make a man impotent of",
+   "bbox": [
+    306,
+    2289,
+    1528,
+    2350
+   ]
+  }
+ ]
+}

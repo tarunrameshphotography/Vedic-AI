@@ -1,0 +1,299 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0150",
+ "book_id": "brihat-jataka",
+ "seq": 150,
+ "source_ref": {
+  "pdf_page": 75,
+  "half": "b",
+  "v1_page": "s075b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "04e2bfadf184da5378297d4dfe2e8a303df855452aa3cb872df64ca003146e32",
+ "lines": [
+  {
+   "text": "Aspects on Moon",
+   "bbox": [
+    276,
+    284,
+    619,
+    322
+   ]
+  },
+  {
+   "text": "147",
+   "bbox": [
+    1404,
+    285,
+    1481,
+    314
+   ]
+  },
+  {
+   "text": "(iv) Aspected by Venus: A king.",
+   "bbox": [
+    355,
+    385,
+    1041,
+    425
+   ]
+  },
+  {
+   "text": "<math>(v)</math> Aspected by Saturn: Dealer in weapons.",
+   "bbox": [
+    355,
+    461,
+    1277,
+    502
+   ]
+  },
+  {
+   "text": "(<i>vi</i>) Aspected by Sun: Diseased in the eyes.",
+   "bbox": [
+    351,
+    540,
+    1264,
+    579
+   ]
+  },
+  {
+   "text": "Commentary: It would have been observed from above that",
+   "bbox": [
+    354,
+    616,
+    1494,
+    655
+   ]
+  },
+  {
+   "text": "the results of planets aspecting their own signs in the Chandra",
+   "bbox": [
+    279,
+    669,
+    1491,
+    709
+   ]
+  },
+  {
+   "text": "lagna (and lagna) are of the best quality. Moon in Aries",
+   "bbox": [
+    280,
+    720,
+    1491,
+    764
+   ]
+  },
+  {
+   "text": "aspected by Mars lord of Aries or in Taurus aspected by Venus",
+   "bbox": [
+    280,
+    775,
+    1491,
+    814
+   ]
+  },
+  {
+   "text": "lord of Taurus or in Gemini aspected by Mercury lord or",
+   "bbox": [
+    277,
+    828,
+    1491,
+    868
+   ]
+  },
+  {
+   "text": "Gemini has given the highest status viz of a king. As stated in",
+   "bbox": [
+    279,
+    881,
+    1491,
+    921
+   ]
+  },
+  {
+   "text": "the last shloka of the preceding chapter the interpretation of a",
+   "bbox": [
+    276,
+    930,
+    1491,
+    976
+   ]
+  },
+  {
+   "text": "chart has always to be carried out with reference both to the",
+   "bbox": [
+    274,
+    987,
+    1490,
+    1027
+   ]
+  },
+  {
+   "text": "lagna and the Chandra lagna-both being treated as ascen-",
+   "bbox": [
+    276,
+    1036,
+    1488,
+    1082
+   ]
+  },
+  {
+   "text": "dants.",
+   "bbox": [
+    274,
+    1091,
+    405,
+    1125
+   ]
+  },
+  {
+   "text": "Moon in Leo",
+   "bbox": [
+    277,
+    1189,
+    606,
+    1236
+   ]
+  },
+  {
+   "text": "आरक्षिको वधरुचि: कुशलो नियुद्धे",
+   "bbox": [
+    348,
+    1274,
+    859,
+    1324
+   ]
+  },
+  {
+   "text": "भूपोऽर्थवान् कलहकृत् क्षितिजांशसंस्थे।",
+   "bbox": [
+    350,
+    1336,
+    901,
+    1389
+   ]
+  },
+  {
+   "text": "मूर्खोन्यदारनिरत: सुकवि: सितांशे",
+   "bbox": [
+    348,
+    1404,
+    831,
+    1456
+   ]
+  },
+  {
+   "text": "सत्काव्यकृत्सुखपरोऽन्यकलत्रगश्च।। 5 ।।",
+   "bbox": [
+    347,
+    1469,
+    940,
+    1525
+   ]
+  },
+  {
+   "text": "(i) Aspected by Mercury: Astrologer.",
+   "bbox": [
+    348,
+    1564,
+    1132,
+    1606
+   ]
+  },
+  {
+   "text": "(ii) Aspected by Jupiter: Wealthy.",
+   "bbox": [
+    347,
+    1642,
+    1085,
+    1684
+   ]
+  },
+  {
+   "text": "(iii) Aspected by Venus: A king.",
+   "bbox": [
+    347,
+    1720,
+    1037,
+    1761
+   ]
+  },
+  {
+   "text": "(iv) Aspected by Saturn: A barber.",
+   "bbox": [
+    347,
+    1798,
+    1089,
+    1839
+   ]
+  },
+  {
+   "text": "<math>(v)</math> Aspected by Sun: A king.",
+   "bbox": [
+    345,
+    1876,
+    967,
+    1917
+   ]
+  },
+  {
+   "text": "(<i>vi</i>) Aspected by Mars: A king.",
+   "bbox": [
+    345,
+    1956,
+    1005,
+    1996
+   ]
+  },
+  {
+   "text": "Moon in Virgo:",
+   "bbox": [
+    269,
+    2058,
+    662,
+    2099
+   ]
+  },
+  {
+   "text": "बौधे हि रङ्गचरचौरकवीन्द्रमन्त्री-",
+   "bbox": [
+    338,
+    2134,
+    817,
+    2187
+   ]
+  },
+  {
+   "text": "गेयज्ञशिल्पनिपुण: शशिनिस्थितेंऽशे।",
+   "bbox": [
+    341,
+    2200,
+    859,
+    2252
+   ]
+  },
+  {
+   "text": "स्वांशेऽल्पगात्रधनलुब्धतपस्विमुख्य:",
+   "bbox": [
+    338,
+    2262,
+    843,
+    2323
+   ]
+  },
+  {
+   "text": "स्त्रीपोप्यकृत्यनिरतश्च निरीक्ष्यमाणे।। 6 ।।",
+   "bbox": [
+    339,
+    2333,
+    943,
+    2383
+   ]
+  }
+ ]
+}

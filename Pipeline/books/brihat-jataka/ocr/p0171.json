@@ -1,0 +1,425 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0171",
+ "book_id": "brihat-jataka",
+ "seq": 171,
+ "source_ref": {
+  "pdf_page": 86,
+  "half": "a",
+  "v1_page": "s086a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "b402f57af2b4ad5ba69f791efbea7246756bdfce388abcf1d424f5421cca7c65",
+ "lines": [
+  {
+   "text": "168",
+   "bbox": [
+    294,
+    222,
+    383,
+    256
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1212,
+    250,
+    1507,
+    291
+   ]
+  },
+  {
+   "text": "For the first combination the native is said to be the",
+   "bbox": [
+    357,
+    320,
+    1509,
+    401
+   ]
+  },
+  {
+   "text": "husband of a barren. But he may have children by another",
+   "bbox": [
+    281,
+    372,
+    1505,
+    455
+   ]
+  },
+  {
+   "text": "woman who is not legally wedded to him.",
+   "bbox": [
+    280,
+    424,
+    1106,
+    496
+   ]
+  },
+  {
+   "text": "असितकुजयोर्वर्गेऽस्तस्थे सिते तदवेक्षिते",
+   "bbox": [
+    351,
+    513,
+    911,
+    576
+   ]
+  },
+  {
+   "text": "परयुवतिगस्तौ चेत्सेन्दू स्त्रिया सह पुंश्चल:।",
+   "bbox": [
+    423,
+    573,
+    1039,
+    654
+   ]
+  },
+  {
+   "text": "भृगुजशशिनोरस्तेऽभार्यो नरो विसुतोऽपि वा",
+   "bbox": [
+    349,
+    640,
+    948,
+    717
+   ]
+  },
+  {
+   "text": "परिणततन् नृस्त्र्योर्द्रष्टौ शुभै: प्रमदापती।। 5।।",
+   "bbox": [
+    418,
+    708,
+    1085,
+    789
+   ]
+  },
+  {
+   "text": "Shukra should be in the seventh in the Vargas of Shani or",
+   "bbox": [
+    344,
+    806,
+    1491,
+    887
+   ]
+  },
+  {
+   "text": "Kuja and aspected by them. Then the native is fond of other",
+   "bbox": [
+    263,
+    855,
+    1487,
+    941
+   ]
+  },
+  {
+   "text": "woman.",
+   "bbox": [
+    266,
+    918,
+    424,
+    950
+   ]
+  },
+  {
+   "text": "Shani and Kuja with the Moon in the seventh must have",
+   "bbox": [
+    337,
+    995,
+    1482,
+    1078
+   ]
+  },
+  {
+   "text": "the aspect of Shukra. Then the native and his wife will be",
+   "bbox": [
+    257,
+    1045,
+    1480,
+    1128
+   ]
+  },
+  {
+   "text": "adulterous.",
+   "bbox": [
+    258,
+    1099,
+    487,
+    1145
+   ]
+  },
+  {
+   "text": "When Shukra and Chandra have Shani and Kuja in the",
+   "bbox": [
+    328,
+    1176,
+    1478,
+    1273
+   ]
+  },
+  {
+   "text": "seventh, the native is without wife and children.",
+   "bbox": [
+    251,
+    1232,
+    1224,
+    1307
+   ]
+  },
+  {
+   "text": "When a female and a male planets are together and have",
+   "bbox": [
+    322,
+    1320,
+    1471,
+    1399
+   ]
+  },
+  {
+   "text": "Shani and Kuja in the seventh and if these are aspected by",
+   "bbox": [
+    244,
+    1365,
+    1470,
+    1455
+   ]
+  },
+  {
+   "text": "benefics, the native gets married late in life.",
+   "bbox": [
+    243,
+    1419,
+    1135,
+    1498
+   ]
+  },
+  {
+   "text": "Notes: Some authorities observe that when Shukra and",
+   "bbox": [
+    315,
+    1508,
+    1464,
+    1585
+   ]
+  },
+  {
+   "text": "Moon are together and have in the seventh from them Shani",
+   "bbox": [
+    238,
+    1558,
+    1464,
+    1643
+   ]
+  },
+  {
+   "text": "and Kuja who is aspected only by malefics, the native has a",
+   "bbox": [
+    236,
+    1611,
+    1460,
+    1697
+   ]
+  },
+  {
+   "text": "wife in his old age. The first",
+   "bbox": [
+    868,
+    1685,
+    1459,
+    1747
+   ]
+  },
+  {
+   "text": "chart has Shani in lagna op-",
+   "bbox": [
+    867,
+    1739,
+    1454,
+    1800
+   ]
+  },
+  {
+   "text": "Ketu",
+   "bbox": [
+    555,
+    1753,
+    631,
+    1786
+   ]
+  },
+  {
+   "text": "Shukra",
+   "bbox": [
+    254,
+    1763,
+    374,
+    1800
+   ]
+  },
+  {
+   "text": "Moon",
+   "bbox": [
+    409,
+    1767,
+    496,
+    1797
+   ]
+  },
+  {
+   "text": "posed to Shukra. The fourth",
+   "bbox": [
+    866,
+    1792,
+    1453,
+    1852
+   ]
+  },
+  {
+   "text": "Kuja",
+   "bbox": [
+    555,
+    1799,
+    630,
+    1831
+   ]
+  },
+  {
+   "text": "house is aspected by Kuja.",
+   "bbox": [
+    864,
+    1847,
+    1450,
+    1906
+   ]
+  },
+  {
+   "text": "His seventh lord and his sev-",
+   "bbox": [
+    863,
+    1899,
+    1447,
+    1952
+   ]
+  },
+  {
+   "text": "Ravi",
+   "bbox": [
+    251,
+    1918,
+    325,
+    1946
+   ]
+  },
+  {
+   "text": "enth house are hammed in",
+   "bbox": [
+    861,
+    1950,
+    1447,
+    2009
+   ]
+  },
+  {
+   "text": "between malefics. He had a",
+   "bbox": [
+    861,
+    2005,
+    1445,
+    2060
+   ]
+  },
+  {
+   "text": "loose sexlife. The second",
+   "bbox": [
+    857,
+    2056,
+    1443,
+    2114
+   ]
+  },
+  {
+   "text": "Budha",
+   "bbox": [
+    247,
+    2073,
+    356,
+    2110
+   ]
+  },
+  {
+   "text": "chart is that of a notorious",
+   "bbox": [
+    855,
+    2109,
+    1441,
+    2168
+   ]
+  },
+  {
+   "text": "woman. The seventh has",
+   "bbox": [
+    854,
+    2163,
+    1440,
+    2219
+   ]
+  },
+  {
+   "text": "Kuja and Chandra aspected",
+   "bbox": [
+    849,
+    2216,
+    1438,
+    2275
+   ]
+  },
+  {
+   "text": "Shani",
+   "bbox": [
+    697,
+    2218,
+    795,
+    2250
+   ]
+  },
+  {
+   "text": "Rahu",
+   "bbox": [
+    407,
+    2228,
+    492,
+    2257
+   ]
+  },
+  {
+   "text": "Guru",
+   "bbox": [
+    542,
+    2231,
+    623,
+    2261
+   ]
+  },
+  {
+   "text": "by Shani. Kuja also aspects",
+   "bbox": [
+    850,
+    2266,
+    1440,
+    2330
+   ]
+  },
+  {
+   "text": "lagna and its lord. The sev-",
+   "bbox": [
+    851,
+    2319,
+    1436,
+    2381
+   ]
+  }
+ ]
+}

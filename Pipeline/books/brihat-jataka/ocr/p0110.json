@@ -1,0 +1,227 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0110",
+ "book_id": "brihat-jataka",
+ "seq": 110,
+ "source_ref": {
+  "pdf_page": 55,
+  "half": "b",
+  "v1_page": "s055b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "1cc81eda88cf7960dc4193dcb195d7cb67ad2ed34d658dccd9323a24ec6753c3",
+ "lines": [
+  {
+   "text": "<math>\\cdot</math> 12",
+   "bbox": [
+    765,
+    513,
+    882,
+    565
+   ]
+  },
+  {
+   "text": "नाभस् योगाध्यायः",
+   "bbox": [
+    690,
+    668,
+    1006,
+    729
+   ]
+  },
+  {
+   "text": "<b>Nabhas (Heavenly) Yogas</b>",
+   "bbox": [
+    322,
+    713,
+    1385,
+    841
+   ]
+  },
+  {
+   "text": "नवदिग्वसवस्त्रिकाग्निवेदैर्गुणिता द्वित्रिचतुर्विकल्पजा: स्यु:।",
+   "bbox": [
+    324,
+    980,
+    1167,
+    1064
+   ]
+  },
+  {
+   "text": "यवनैस्त्रिगुणाहिषट्शती सा कथिता विस्तरतोऽत्र तत्समासत:।। 1 ।।",
+   "bbox": [
+    325,
+    1032,
+    1319,
+    1131
+   ]
+  },
+  {
+   "text": "The common heading \"Nabhas\" includes three main types",
+   "bbox": [
+    328,
+    1111,
+    1483,
+    1221
+   ]
+  },
+  {
+   "text": "of yogas:",
+   "bbox": [
+    261,
+    1226,
+    445,
+    1268
+   ]
+  },
+  {
+   "text": "(a) Aakriti (आकृति) Yogas-dealing with the position of",
+   "bbox": [
+    333,
+    1249,
+    1494,
+    1346
+   ]
+  },
+  {
+   "text": "planets in different houses.",
+   "bbox": [
+    264,
+    1331,
+    819,
+    1402
+   ]
+  },
+  {
+   "text": "(b) Aashraya (आश्रय) Yogas-dealing with the position of",
+   "bbox": [
+    339,
+    1378,
+    1498,
+    1481
+   ]
+  },
+  {
+   "text": "planet in different signs.",
+   "bbox": [
+    269,
+    1467,
+    770,
+    1531
+   ]
+  },
+  {
+   "text": "(c) Sankhya (संख्या) Yogas-dealing with the question of the",
+   "bbox": [
+    344,
+    1512,
+    1499,
+    1608
+   ]
+  },
+  {
+   "text": "number of houses occupied by all the planets.",
+   "bbox": [
+    275,
+    1580,
+    1192,
+    1662
+   ]
+  },
+  {
+   "text": "रज्जुर्मुशलं नलश्चराद्यै: सत्यश्चाश्रयजाञ्जगाद योगान्।",
+   "bbox": [
+    348,
+    1658,
+    1082,
+    1748
+   ]
+  },
+  {
+   "text": "केन्द्रै: सदसद्युतैर्दलाख्यौ स्रक्सपौँ कथितौ पराशरेण।। 2 ।।",
+   "bbox": [
+    350,
+    1717,
+    1222,
+    1811
+   ]
+  },
+  {
+   "text": "The number of Aakriti Yogas is 20, that of Ashraya Yogas",
+   "bbox": [
+    355,
+    1798,
+    1510,
+    1901
+   ]
+  },
+  {
+   "text": "is 5 and that of Sankhya Yogas is 7. Thus there are in all 32",
+   "bbox": [
+    281,
+    1851,
+    1514,
+    1957
+   ]
+  },
+  {
+   "text": "Nabhas Yogas.",
+   "bbox": [
+    287,
+    1951,
+    593,
+    2002
+   ]
+  },
+  {
+   "text": "For a better understanding the names of these Yogas are",
+   "bbox": [
+    361,
+    1985,
+    1521,
+    2082
+   ]
+  },
+  {
+   "text": "given below:",
+   "bbox": [
+    289,
+    2082,
+    552,
+    2135
+   ]
+  },
+  {
+   "text": "Names of \"Aakriti\" Yogas:",
+   "bbox": [
+    367,
+    2145,
+    906,
+    2211
+   ]
+  },
+  {
+   "text": "1. Yupa (यूप), 2. Ishu (इपु), 3. Shakti (शक्ति) 4. Yavah (यव),",
+   "bbox": [
+    370,
+    2184,
+    1528,
+    2297
+   ]
+  },
+  {
+   "text": "5. Dandam (दण्ड), 6. Gada (गदा), 7. Samudra (समुद्र), 8. Chhatram",
+   "bbox": [
+    296,
+    2240,
+    1531,
+    2350
+   ]
+  }
+ ]
+}

@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0143",
+ "book_id": "brihat-jataka",
+ "seq": 143,
+ "source_ref": {
+  "pdf_page": 72,
+  "half": "a",
+  "v1_page": "s072a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "b2431a345c1da015c6014cc96923f79f72dee41b0a0e0fef741df3174e35eb73",
+ "lines": [
+  {
+   "text": "140",
+   "bbox": [
+    329,
+    225,
+    419,
+    260
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1249,
+    225,
+    1543,
+    258
+   ]
+  },
+  {
+   "text": "occupies Acquarius the native is afflicted with troubles. Is",
+   "bbox": [
+    326,
+    328,
+    1545,
+    366
+   ]
+  },
+  {
+   "text": "poor, wanders, engages in lies and is fierce. If Mars is located",
+   "bbox": [
+    326,
+    380,
+    1546,
+    419
+   ]
+  },
+  {
+   "text": "in Capricorn, the native has much wealth and many sons. He",
+   "bbox": [
+    322,
+    432,
+    1543,
+    471
+   ]
+  },
+  {
+   "text": "is either a king or one equal to a king in status.",
+   "bbox": [
+    321,
+    485,
+    1281,
+    524
+   ]
+  },
+  {
+   "text": "Mercury",
+   "bbox": [
+    322,
+    588,
+    551,
+    627
+   ]
+  },
+  {
+   "text": "द्यूतर्णपानरतनास्तिकचौरनि:स्वा:",
+   "bbox": [
+    396,
+    663,
+    847,
+    715
+   ]
+  },
+  {
+   "text": "कुस्त्रीककूटकुदसत्यरता: कुजर्से।",
+   "bbox": [
+    468,
+    729,
+    940,
+    782
+   ]
+  },
+  {
+   "text": "आचार्यभूरिसुतदारधनार्जनेप्टा:",
+   "bbox": [
+    396,
+    794,
+    817,
+    848
+   ]
+  },
+  {
+   "text": "शौक्रे वदान्यगुरुभक्तिरताश्च सौम्ये।। 8।।",
+   "bbox": [
+    470,
+    859,
+    1058,
+    913
+   ]
+  },
+  {
+   "text": "If Mercury occupies Aries or Scorpio, the native engages",
+   "bbox": [
+    399,
+    958,
+    1543,
+    997
+   ]
+  },
+  {
+   "text": "himself in gambling. Takes on debts, is drunkard, an athiest,",
+   "bbox": [
+    322,
+    1010,
+    1543,
+    1049
+   ]
+  },
+  {
+   "text": "thief and devoid of wealth. He has a bad wife. He tells lies and",
+   "bbox": [
+    322,
+    1061,
+    1543,
+    1098
+   ]
+  },
+  {
+   "text": "is engaged in subtle and cunning actions. If Mercury occupies",
+   "bbox": [
+    322,
+    1117,
+    1542,
+    1155
+   ]
+  },
+  {
+   "text": "Taurus or Libra, the native becomes a teacher. He has many",
+   "bbox": [
+    322,
+    1168,
+    1540,
+    1208
+   ]
+  },
+  {
+   "text": "wives and sons, is engaged in earning wealth, is liberal and is",
+   "bbox": [
+    321,
+    1215,
+    1543,
+    1263
+   ]
+  },
+  {
+   "text": "devoted to the Guru.",
+   "bbox": [
+    321,
+    1272,
+    739,
+    1308
+   ]
+  },
+  {
+   "text": "विकत्थन: शास्त्रकलाविदग्ध: प्रियंवद: सौख्यरतस्तृतीये।",
+   "bbox": [
+    394,
+    1348,
+    1200,
+    1399
+   ]
+  },
+  {
+   "text": "जलार्जितस्वः स्वजनस्य शत्रुः शशाङ्कजे शीतकरर्क्षयुक्ते ।। 9।।",
+   "bbox": [
+    394,
+    1413,
+    1322,
+    1466
+   ]
+  },
+  {
+   "text": "If Mercury occupies Gemini, the native is very well in",
+   "bbox": [
+    396,
+    1509,
+    1542,
+    1548
+   ]
+  },
+  {
+   "text": "speech, efficient in religious and other literature as well as in",
+   "bbox": [
+    321,
+    1561,
+    1542,
+    1601
+   ]
+  },
+  {
+   "text": "arts. He speaks sweetly and is happy. If Mercury occupies",
+   "bbox": [
+    321,
+    1615,
+    1540,
+    1655
+   ]
+  },
+  {
+   "text": "Cancer the native derives income through watery occupations.",
+   "bbox": [
+    319,
+    1668,
+    1539,
+    1707
+   ]
+  },
+  {
+   "text": "He is enemy to his own people.",
+   "bbox": [
+    318,
+    1720,
+    944,
+    1760
+   ]
+  },
+  {
+   "text": "स्त्रीद्वेष्यो विधनसुखात्मजोऽटनोज्ञ:",
+   "bbox": [
+    392,
+    1796,
+    865,
+    1845
+   ]
+  },
+  {
+   "text": "स्त्रीलोल: स्वपरिभवोऽर्कराशिगे ज्ञे।",
+   "bbox": [
+    466,
+    1854,
+    968,
+    1909
+   ]
+  },
+  {
+   "text": "त्यागी ज्ञ: प्रचुरगुण: सुखी क्षमावान्",
+   "bbox": [
+    389,
+    1928,
+    917,
+    1979
+   ]
+  },
+  {
+   "text": "युक्तिज्ञो विगतभयश्च षष्ठराशौ।। 10।।",
+   "bbox": [
+    465,
+    1992,
+    1027,
+    2043
+   ]
+  },
+  {
+   "text": "If Mercury occupies Leo, the native is opposed to women.",
+   "bbox": [
+    392,
+    2087,
+    1537,
+    2126
+   ]
+  },
+  {
+   "text": "Is devoid of wealth, happiness and song, wanders much, is",
+   "bbox": [
+    316,
+    2139,
+    1545,
+    2179
+   ]
+  },
+  {
+   "text": "foolish, is given to sex and meets a defeat at the hands of his",
+   "bbox": [
+    315,
+    2191,
+    1540,
+    2231
+   ]
+  },
+  {
+   "text": "own people. If Mercury occupies Virgo, he is munificent, has",
+   "bbox": [
+    316,
+    2245,
+    1542,
+    2284
+   ]
+  },
+  {
+   "text": "many qualities, is happy and forgiving, clever in argument and",
+   "bbox": [
+    316,
+    2296,
+    1540,
+    2335
+   ]
+  }
+ ]
+}

@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0197",
+ "book_id": "phaladeepika",
+ "seq": 197,
+ "source_ref": {
+  "pdf_page": 197
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "12acdab3a1e95f4c37aac84fc39f37bc024191ac5d19c4c1be61bc7bb35540e4",
+ "lines": [
+  {
+   "text": "These informations are available in readymade tables in the various ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "Panchangas which can be usefully utilised.",
+   "bbox": [
+    85,
+    82,
+    326,
+    97
+   ]
+  },
+  {
+   "text": "Notes — Shri V. Subrahmaniam Sastry has explained the method of ",
+   "bbox": [
+    121,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "calculation as under :—",
+   "bbox": [
+    85,
+    130,
+    218,
+    145
+   ]
+  },
+  {
+   "text": "\"Multiply the years of maha dasa by the years of the planet whose antar dasa ",
+   "bbox": [
+    121,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "is required. Divide the period by 120. The quotient will represent the years of antar ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "dasa. Multiply the remainder by 12 and divide the result by 120. The quotient will ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "represent the months, multiply the remainder by 30 and divide by 120. The ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "quotient will give the days and so on. The same process should be adopted for ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "calculating the sub-divisions. In any dasa the order of the antar dasa is similar to ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "that in the dasa of the first antar dasa commencing with that of its lord.\"",
+   "bbox": [
+    85,
+    299,
+    487,
+    314
+   ]
+  },
+  {
+   "text": "There is an easy method by mean of which the antar dasa can be ",
+   "bbox": [
+    121,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "independently calculated. This may be helpful at times when the antar dasa tables ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "are not readily available.",
+   "bbox": [
+    85,
+    371,
+    223,
+    387
+   ]
+  },
+  {
+   "text": "Multiply the number of years of dasa period of the planet by the number of ",
+   "bbox": [
+    121,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "years of dasa of the period of the planet antar dasa is required. The last figure in ",
+   "bbox": [
+    85,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "the product always represents the decimal of a month and the rest represents the ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "total number of months. Then cutting of the last digit of the product, multiuply it ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "by 3 and keep that figure as days. Suppose we want to find out the antar dasa of ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "Mercury in the dasa of Saturn. Multiply the dasa period of Mercury 17 years by ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "that of Saturn viz. 19 years i.e. 19*17 = 323. By adopting the above method the ",
+   "bbox": [
+    85,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "antar dasa of Mercury will be 32 months and 9 days i.e. 2 years 8 months 9 days.",
+   "bbox": [
+    85,
+    565,
+    539,
+    580
+   ]
+  },
+  {
+   "text": "<b>Effects of antar dasas in the dasa of the Sun.</b>",
+   "bbox": [
+    121,
+    589,
+    385,
+    604
+   ]
+  },
+  {
+   "text": "3. During the antar dasa of the Sun in his dasa. the person born will achieve ",
+   "bbox": [
+    121,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "renown by the beneficience of the king. He will acquire wealth and wander about ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "in mountain and forest regions and will suffer from fever and heat troubles. He ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "may lose his father. Notes — The good effects may be expected when the Sun be ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "well placed and the evil effects will occur when the Sun is adversely posited.",
+   "bbox": [
+    85,
+    709,
+    516,
+    725
+   ]
+  },
+  {
+   "text": "4. Effects like destruction of enemies, relief from distress, influx of wealth, ",
+   "bbox": [
+    121,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "acquisition of agricultural lands, building a house and meeting with friends are the ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "197",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

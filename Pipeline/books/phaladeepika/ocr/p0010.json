@@ -1,0 +1,288 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0010",
+ "book_id": "phaladeepika",
+ "seq": 10,
+ "source_ref": {
+  "pdf_page": 10
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "cdf32a00eceb422b8d8faf7423e8a317aaf4e6978817787b599c112cec1ccc91",
+ "lines": [
+  {
+   "text": "<b>\"PHALA DEEPIKA\"</b>",
+   "bbox": [
+    235,
+    57,
+    403,
+    77
+   ]
+  },
+  {
+   "text": "<b>Chapter 1</b>",
+   "bbox": [
+    285,
+    113,
+    353,
+    130
+   ]
+  },
+  {
+   "text": "<b>Information and characteristic features</b>",
+   "bbox": [
+    184,
+    140,
+    454,
+    158
+   ]
+  },
+  {
+   "text": "<b>of the Signs (Rasis) and the houses (Bhavas)</b>",
+   "bbox": [
+    169,
+    168,
+    469,
+    186
+   ]
+  },
+  {
+   "text": "1. May the Supreme Divine Light (the Sun) who once above the horizon ",
+   "bbox": [
+    121,
+    220,
+    556,
+    235
+   ]
+  },
+  {
+   "text": "remains on end in view for six months (solar) to the pole dwelling Celestials, for ",
+   "bbox": [
+    85,
+    244,
+    556,
+    259
+   ]
+  },
+  {
+   "text": "half a month (Lunar) to the Moon dwelling manes and for 12 hours (entire day ",
+   "bbox": [
+    85,
+    268,
+    556,
+    283
+   ]
+  },
+  {
+   "text": "time) to the earth dwelling mortals and some times changes his direction to the ",
+   "bbox": [
+    85,
+    292,
+    556,
+    307
+   ]
+  },
+  {
+   "text": "north (Uttarayan) and some-times to the south (Dakshinayan), bless us with ",
+   "bbox": [
+    85,
+    316,
+    556,
+    332
+   ]
+  },
+  {
+   "text": "unlimited prosperity, good luck, splendor and beatitude.",
+   "bbox": [
+    85,
+    340,
+    398,
+    356
+   ]
+  },
+  {
+   "text": "2. I, the astrologer Mantreswara, first offer my respectful obeisance to ",
+   "bbox": [
+    121,
+    364,
+    556,
+    380
+   ]
+  },
+  {
+   "text": "Saraswati, the Goddess of speech and learning, to my family deity, to my ",
+   "bbox": [
+    85,
+    389,
+    556,
+    404
+   ]
+  },
+  {
+   "text": "preceptors, to the nine planets (the Sun, the Moon, Mars, Mercury, Jupiter, Venus, ",
+   "bbox": [
+    85,
+    413,
+    556,
+    428
+   ]
+  },
+  {
+   "text": "Saturn, Rahu and Ketu) to Lord Ganesha and Lord Shiva who bestow knowledge ",
+   "bbox": [
+    85,
+    437,
+    556,
+    452
+   ]
+  },
+  {
+   "text": "of the past, present and. future, and then give here for the benefit of astrologers a ",
+   "bbox": [
+    85,
+    461,
+    556,
+    477
+   ]
+  },
+  {
+   "text": "lucid version in a simple manner of the teachings of sages Atri and Parasara.",
+   "bbox": [
+    85,
+    485,
+    513,
+    501
+   ]
+  },
+  {
+   "text": "3. The first thing is to ascertain the exact time of birth of the native minutely ",
+   "bbox": [
+    121,
+    509,
+    556,
+    525
+   ]
+  },
+  {
+   "text": "in Ghatikas, Vighatikas etc., on the basis of tool measurement or by the gnomonic ",
+   "bbox": [
+    85,
+    533,
+    556,
+    549
+   ]
+  },
+  {
+   "text": "shadow and other apparatus. Then the positions of the planets (longitude) in Rasi ",
+   "bbox": [
+    85,
+    558,
+    556,
+    573
+   ]
+  },
+  {
+   "text": "(sign), amsa (degrees), Kala (minutes), and Vikala should be worked out by actual ",
+   "bbox": [
+    85,
+    582,
+    556,
+    597
+   ]
+  },
+  {
+   "text": "observation and mathematical instruments. The assessment of results should be ",
+   "bbox": [
+    85,
+    606,
+    556,
+    621
+   ]
+  },
+  {
+   "text": "made thereafter by taking into account the longitudes of the various houses ",
+   "bbox": [
+    85,
+    630,
+    556,
+    646
+   ]
+  },
+  {
+   "text": "(Bhavaspast) and the strength of the houses and the planets.",
+   "bbox": [
+    85,
+    654,
+    420,
+    670
+   ]
+  },
+  {
+   "text": "4. Assuming that the horoscope represents the Kalapurusha, then the parts of ",
+   "bbox": [
+    121,
+    678,
+    556,
+    694
+   ]
+  },
+  {
+   "text": "the body beginning with the Ascendant (Lagna) will be as under:",
+   "bbox": [
+    85,
+    703,
+    448,
+    718
+   ]
+  },
+  {
+   "text": "First house (Lagna-Ascendant)",
+   "bbox": [
+    121,
+    727,
+    295,
+    742
+   ]
+  },
+  {
+   "text": "— the head",
+   "bbox": [
+    337,
+    727,
+    402,
+    742
+   ]
+  },
+  {
+   "text": "Second house",
+   "bbox": [
+    121,
+    751,
+    199,
+    766
+   ]
+  },
+  {
+   "text": "— the face",
+   "bbox": [
+    337,
+    751,
+    399,
+    766
+   ]
+  },
+  {
+   "text": "10",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

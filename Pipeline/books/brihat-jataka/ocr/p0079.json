@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0079",
+ "book_id": "brihat-jataka",
+ "seq": 79,
+ "source_ref": {
+  "pdf_page": 40,
+  "half": "a",
+  "v1_page": "s040a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "ce2dd93bbfe0601a7b831f9da62364948414de87c7a70df382572ba7fd45cb93",
+ "lines": [
+  {
+   "text": "76",
+   "bbox": [
+    368,
+    222,
+    442,
+    261
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1294,
+    264,
+    1588,
+    313
+   ]
+  },
+  {
+   "text": "whole number of navamshas in lagna would be two constituted",
+   "bbox": [
+    358,
+    320,
+    1588,
+    422
+   ]
+  },
+  {
+   "text": "by 6°-40' of the degree portion). Add to this number the fraction",
+   "bbox": [
+    356,
+    370,
+    1585,
+    475
+   ]
+  },
+  {
+   "text": "of a navamsha denoted by degree etc, left over by the whole",
+   "bbox": [
+    352,
+    418,
+    1583,
+    531
+   ]
+  },
+  {
+   "text": "number of navamshas (in this case <math>6-50</math> minus, <math>6-40</math> mins = 10",
+   "bbox": [
+    350,
+    476,
+    1578,
+    579
+   ]
+  },
+  {
+   "text": "minutes). Multiply the result by the No. of years contributed",
+   "bbox": [
+    349,
+    528,
+    1575,
+    632
+   ]
+  },
+  {
+   "text": "by a natural malefic in lagna and divide it by 108 (the total No.",
+   "bbox": [
+    345,
+    581,
+    1573,
+    684
+   ]
+  },
+  {
+   "text": "of navamshas in the 12 signs). The result would be the number",
+   "bbox": [
+    342,
+    631,
+    1573,
+    739
+   ]
+  },
+  {
+   "text": "of years lost by the natural malefic located in the lagna. If the",
+   "bbox": [
+    339,
+    685,
+    1568,
+    793
+   ]
+  },
+  {
+   "text": "natural malefic planet in lagna is aspected by a benefic it will",
+   "bbox": [
+    337,
+    740,
+    1567,
+    843
+   ]
+  },
+  {
+   "text": "lose only half of the above calculated loss in years.",
+   "bbox": [
+    333,
+    790,
+    1352,
+    887
+   ]
+  },
+  {
+   "text": "Note: In case there are two or more than two natural",
+   "bbox": [
+    406,
+    873,
+    1562,
+    971
+   ]
+  },
+  {
+   "text": "malefic planets in the lagna, the process of calculation of the",
+   "bbox": [
+    327,
+    921,
+    1556,
+    1026
+   ]
+  },
+  {
+   "text": "loss should be undertaken only in respect of a single malefic",
+   "bbox": [
+    326,
+    973,
+    1555,
+    1080
+   ]
+  },
+  {
+   "text": "planet that is nearest to the longitude of the lagna.",
+   "bbox": [
+    323,
+    1027,
+    1355,
+    1122
+   ]
+  },
+  {
+   "text": "<b>Maximum Longevity of Men and Animals</b>",
+   "bbox": [
+    317,
+    1128,
+    1402,
+    1233
+   ]
+  },
+  {
+   "text": "समा: षष्टिर्द्विघ्नी मनुजकरिणां पञ्च च निशा",
+   "bbox": [
+    392,
+    1218,
+    1061,
+    1301
+   ]
+  },
+  {
+   "text": "हयानां द्वात्रिंशत् खरकरभयो: पञ्चककृति:।",
+   "bbox": [
+    388,
+    1280,
+    1022,
+    1365
+   ]
+  },
+  {
+   "text": "विरूपा साप्यायुर्वृषमहिषयोर्द्वादश शुनां",
+   "bbox": [
+    385,
+    1343,
+    943,
+    1429
+   ]
+  },
+  {
+   "text": "स्मृतं छागादीनां दशकसहिता षट् च परमम् ।। 5 ।।",
+   "bbox": [
+    379,
+    1410,
+    1167,
+    1508
+   ]
+  },
+  {
+   "text": "The maximum longevity of man and the elephant is 120",
+   "bbox": [
+    376,
+    1504,
+    1527,
+    1604
+   ]
+  },
+  {
+   "text": "years and 5 days. That for horses is 32 years. For asses and",
+   "bbox": [
+    294,
+    1551,
+    1526,
+    1658
+   ]
+  },
+  {
+   "text": "camels it is 25 years, for cows, oxen and buffalows it is 24",
+   "bbox": [
+    294,
+    1602,
+    1523,
+    1712
+   ]
+  },
+  {
+   "text": "years, for dogs it is 12 years, for goats, rams etc it is 16 years.",
+   "bbox": [
+    290,
+    1656,
+    1519,
+    1764
+   ]
+  },
+  {
+   "text": "(This extent of longevity is to be used for astrological calcula-",
+   "bbox": [
+    290,
+    1710,
+    1517,
+    1817
+   ]
+  },
+  {
+   "text": "tions).",
+   "bbox": [
+    288,
+    1766,
+    426,
+    1815
+   ]
+  },
+  {
+   "text": "अनिमिषपरमांशके विलग्ने शशितनये गवि पञ्चवर्गलिप्ते।",
+   "bbox": [
+    358,
+    1842,
+    1183,
+    1934
+   ]
+  },
+  {
+   "text": "भवति हि परमायुष: प्रमाणं यदि सहिता: सकला: स्वतुङ्गभेषु।। 6।।",
+   "bbox": [
+    354,
+    1910,
+    1359,
+    2012
+   ]
+  },
+  {
+   "text": "If the longitude of lagna contains the 9th navamsha",
+   "bbox": [
+    348,
+    2003,
+    1504,
+    2103
+   ]
+  },
+  {
+   "text": "of Pisces, Mercury is in the first navamsha with only 25",
+   "bbox": [
+    271,
+    2049,
+    1500,
+    2155
+   ]
+  },
+  {
+   "text": "minutes and the rest of the planets (Sun, Moon, Mars, Jupiter,",
+   "bbox": [
+    269,
+    2101,
+    1497,
+    2207
+   ]
+  },
+  {
+   "text": "Venus and Saturn) are occupying their degree of exaltation",
+   "bbox": [
+    268,
+    2152,
+    1493,
+    2260
+   ]
+  },
+  {
+   "text": "in their respective exaltation signs, one gets the maximum",
+   "bbox": [
+    264,
+    2201,
+    1492,
+    2314
+   ]
+  },
+  {
+   "text": "longevity.",
+   "bbox": [
+    264,
+    2260,
+    470,
+    2312
+   ]
+  }
+ ]
+}

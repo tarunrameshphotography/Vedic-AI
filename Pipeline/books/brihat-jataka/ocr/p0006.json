@@ -1,0 +1,281 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0006",
+ "book_id": "brihat-jataka",
+ "seq": 6,
+ "source_ref": {
+  "pdf_page": 3,
+  "half": "b",
+  "v1_page": "s003b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "bab127c4ecdb897c6f523dd5b12984701bc408f4303b8b23bed82598c79287ca",
+ "lines": [
+  {
+   "text": "<b>Introduction</b>",
+   "bbox": [
+    659,
+    492,
+    1154,
+    560
+   ]
+  },
+  {
+   "text": "Varahamihira was born in Kapittha in the region of mod-",
+   "bbox": [
+    376,
+    741,
+    1516,
+    781
+   ]
+  },
+  {
+   "text": "ern Ujjain. The town Ujjain was made famous by",
+   "bbox": [
+    301,
+    789,
+    1515,
+    837
+   ]
+  },
+  {
+   "text": "Vikramaditya and by Kalidasa's reference to Mahakalanatha.",
+   "bbox": [
+    303,
+    846,
+    1515,
+    885
+   ]
+  },
+  {
+   "text": "According to some scholars Varahamihira belonged to the first",
+   "bbox": [
+    301,
+    899,
+    1516,
+    938
+   ]
+  },
+  {
+   "text": "century before Christ, while others place his time in fifth",
+   "bbox": [
+    301,
+    952,
+    1515,
+    990
+   ]
+  },
+  {
+   "text": "century A.D.",
+   "bbox": [
+    301,
+    1004,
+    559,
+    1041
+   ]
+  },
+  {
+   "text": "Grantha Samuchchaya, Yatra Patala, and Vivaha Patala",
+   "bbox": [
+    376,
+    1083,
+    1516,
+    1121
+   ]
+  },
+  {
+   "text": "were his last works. Pancha Siddhantika, Laghu Jataka,",
+   "bbox": [
+    301,
+    1135,
+    1510,
+    1175
+   ]
+  },
+  {
+   "text": "Brihat Jataka and Brihat Samhita are his most famous works.",
+   "bbox": [
+    301,
+    1186,
+    1512,
+    1223
+   ]
+  },
+  {
+   "text": "Written in a highly cryptic style, <i>Brihat Jataka</i> is a difficult",
+   "bbox": [
+    301,
+    1242,
+    1516,
+    1280
+   ]
+  },
+  {
+   "text": "text, although commentary by Bhatta Utpala has made these",
+   "bbox": [
+    300,
+    1294,
+    1513,
+    1333
+   ]
+  },
+  {
+   "text": "works distinct to us.",
+   "bbox": [
+    300,
+    1347,
+    710,
+    1382
+   ]
+  },
+  {
+   "text": "Varahamihira refers to Maya, Yavana, Manittha,",
+   "bbox": [
+    372,
+    1428,
+    1516,
+    1466
+   ]
+  },
+  {
+   "text": "Parasara, Satyakirti, Saktipurva, Jivantha, Vishnugupta,",
+   "bbox": [
+    297,
+    1479,
+    1515,
+    1518
+   ]
+  },
+  {
+   "text": "Devaswamai and others referred to their texts.",
+   "bbox": [
+    299,
+    1530,
+    1234,
+    1566
+   ]
+  },
+  {
+   "text": "Satyakirti is referred to many times. He is called Bhadanta",
+   "bbox": [
+    372,
+    1609,
+    1516,
+    1647
+   ]
+  },
+  {
+   "text": "in 7.12. This is a word applied to a Buddhist monk. Manittha",
+   "bbox": [
+    296,
+    1661,
+    1515,
+    1700
+   ]
+  },
+  {
+   "text": "is an Egyptian astrologer. The Yavanas are the natives of and",
+   "bbox": [
+    296,
+    1714,
+    1513,
+    1752
+   ]
+  },
+  {
+   "text": "settlers in the Greek island of Ion. The Ionians were taught",
+   "bbox": [
+    297,
+    1764,
+    1515,
+    1808
+   ]
+  },
+  {
+   "text": "Astronomy and Astrology by Indian Scholars. The famous ones",
+   "bbox": [
+    296,
+    1820,
+    1512,
+    1859
+   ]
+  },
+  {
+   "text": "were Sphujidhvaja and Mina Raja whose works are",
+   "bbox": [
+    296,
+    1873,
+    1512,
+    1912
+   ]
+  },
+  {
+   "text": "Vridhayavana Jataka, and Yavana Jataka. They were Saura",
+   "bbox": [
+    297,
+    1926,
+    1513,
+    1964
+   ]
+  },
+  {
+   "text": "Brahamanas.",
+   "bbox": [
+    296,
+    1977,
+    567,
+    2012
+   ]
+  },
+  {
+   "text": "In <i>Brihat Samhita</i> he calls the Yavanas (natives of Ion)",
+   "bbox": [
+    369,
+    2056,
+    1512,
+    2092
+   ]
+  },
+  {
+   "text": "Mlechchhas and states that this science of Astrology was well",
+   "bbox": [
+    294,
+    2110,
+    1512,
+    2149
+   ]
+  },
+  {
+   "text": "preserved by them. Here they are being worshipped as our",
+   "bbox": [
+    294,
+    2161,
+    1510,
+    2200
+   ]
+  },
+  {
+   "text": "Rishis. The Greek words appearing in the text and the",
+   "bbox": [
+    296,
+    2213,
+    1513,
+    2252
+   ]
+  },
+  {
+   "text": "references to the Egyptian Manatha (Manittha) show that",
+   "bbox": [
+    291,
+    2266,
+    1515,
+    2305
+   ]
+  }
+ ]
+}

@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0156",
+ "book_id": "brihat-jataka",
+ "seq": 156,
+ "source_ref": {
+  "pdf_page": 78,
+  "half": "b",
+  "v1_page": "s078b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "f5cd8c4b416fc70357820bbb05d627a2f58251e3a8fe234bcf74a0c4bd726b69",
+ "lines": [
+  {
+   "text": "Planets in Houses",
+   "bbox": [
+    216,
+    254,
+    577,
+    288
+   ]
+  },
+  {
+   "text": "153",
+   "bbox": [
+    1343,
+    256,
+    1431,
+    289
+   ]
+  },
+  {
+   "text": "धर्मे सुतार्थसुखभाक् सुखशौर्यभाक् खे",
+   "bbox": [
+    288,
+    352,
+    833,
+    404
+   ]
+  },
+  {
+   "text": "लाभे प्रभूतधनवान् पतितश्च रिष्फे।। 3।।",
+   "bbox": [
+    360,
+    414,
+    962,
+    468
+   ]
+  },
+  {
+   "text": "Sun in the 7th house makes one defeated at the hands of",
+   "bbox": [
+    290,
+    511,
+    1432,
+    546
+   ]
+  },
+  {
+   "text": "women. In the 8th it makes one have very little number of sons",
+   "bbox": [
+    215,
+    565,
+    1431,
+    604
+   ]
+  },
+  {
+   "text": "and is diseased in the eyes. If in the 9th he has wealth and son.",
+   "bbox": [
+    213,
+    617,
+    1428,
+    657
+   ]
+  },
+  {
+   "text": "If in the 10th he is happy and valiant. If in the 11th he gets",
+   "bbox": [
+    215,
+    670,
+    1431,
+    711
+   ]
+  },
+  {
+   "text": "very rich and if in the 12th he falls from power.",
+   "bbox": [
+    213,
+    723,
+    1166,
+    762
+   ]
+  },
+  {
+   "text": "Moon",
+   "bbox": [
+    213,
+    824,
+    361,
+    861
+   ]
+  },
+  {
+   "text": "मूकोन्मत्तजडान्धहीनबधिरप्रेप्या: शशाङ्कोदये",
+   "bbox": [
+    282,
+    902,
+    903,
+    953
+   ]
+  },
+  {
+   "text": "स्वर्क्षाऽजोच्चगते धनी बहुसुत: सस्व: कुटुम्बी धने।",
+   "bbox": [
+    358,
+    960,
+    1099,
+    1026
+   ]
+  },
+  {
+   "text": "हिंस्रो भ्रातृगते सुखे सतनये तत्प्रोक्तभावान्वितो",
+   "bbox": [
+    284,
+    1033,
+    941,
+    1087
+   ]
+  },
+  {
+   "text": "नैकारिर्मृदुकायवह्निमदनस्तीक्ष्णोऽलसश्चारिगे।। 4।।",
+   "bbox": [
+    357,
+    1094,
+    1063,
+    1153
+   ]
+  },
+  {
+   "text": "If Moon occupies any sign other than Aries, Taurus and",
+   "bbox": [
+    284,
+    1187,
+    1428,
+    1236
+   ]
+  },
+  {
+   "text": "Cancer in the lagna the native becomes dumb, mentally de-",
+   "bbox": [
+    210,
+    1249,
+    1428,
+    1288
+   ]
+  },
+  {
+   "text": "ranged, dull, blind, of low status or deaf. If however, she is",
+   "bbox": [
+    209,
+    1302,
+    1426,
+    1340
+   ]
+  },
+  {
+   "text": "placed in Aries, Cancer or Taurus, he becomes rich with many",
+   "bbox": [
+    209,
+    1354,
+    1428,
+    1393
+   ]
+  },
+  {
+   "text": "sons. If Moon is in the 2nd house, one has a large family. If in",
+   "bbox": [
+    209,
+    1405,
+    1429,
+    1447
+   ]
+  },
+  {
+   "text": "the 3rd one is prone to kill others. In the 4th house it makes",
+   "bbox": [
+    207,
+    1458,
+    1428,
+    1500
+   ]
+  },
+  {
+   "text": "one happy. In 5th it is conducive for getting one son only. If in",
+   "bbox": [
+    208,
+    1511,
+    1428,
+    1551
+   ]
+  },
+  {
+   "text": "sixth one gets many enemies and is of delicate health, with less",
+   "bbox": [
+    207,
+    1561,
+    1428,
+    1607
+   ]
+  },
+  {
+   "text": "of appetite and sexual power, fierce and lazy.",
+   "bbox": [
+    208,
+    1618,
+    1113,
+    1657
+   ]
+  },
+  {
+   "text": "ईर्ष्युस्तीव्रमदो मदे बहुमतिव्याध्यर्दितश्चाप्टमे",
+   "bbox": [
+    279,
+    1690,
+    899,
+    1745
+   ]
+  },
+  {
+   "text": "सौभाग्यात्मजमित्रबन्धुधनभाग्धर्मस्थिते शीतगौ।",
+   "bbox": [
+    278,
+    1753,
+    936,
+    1807
+   ]
+  },
+  {
+   "text": "निष्पत्तिं समुपैति धर्मधनधीशौर्यैर्यत: कर्मगे",
+   "bbox": [
+    278,
+    1818,
+    887,
+    1872
+   ]
+  },
+  {
+   "text": "ख्यातो भावगुणान्वितो भगवते क्षुद्रोऽङ्गहीनो व्यये।। 5।।",
+   "bbox": [
+    278,
+    1884,
+    1084,
+    1941
+   ]
+  },
+  {
+   "text": "If Moon is in the 7th house one is jealous, over sexed, and",
+   "bbox": [
+    279,
+    1984,
+    1426,
+    2024
+   ]
+  },
+  {
+   "text": "highly intelligent. If in the 8th one is afflicted with disease. If",
+   "bbox": [
+    203,
+    2037,
+    1426,
+    2076
+   ]
+  },
+  {
+   "text": "she is in the 9th one is favourite of all, rich and blessed with a",
+   "bbox": [
+    202,
+    2090,
+    1426,
+    2128
+   ]
+  },
+  {
+   "text": "son, friends and relatives. If Moon is in the 10th house, one is",
+   "bbox": [
+    202,
+    2141,
+    1425,
+    2179
+   ]
+  },
+  {
+   "text": "successful in one's undertakings and is religious, wealthy,",
+   "bbox": [
+    203,
+    2193,
+    1422,
+    2235
+   ]
+  },
+  {
+   "text": "intelligent and valiant. If she is in the 11th one is famous and",
+   "bbox": [
+    202,
+    2246,
+    1425,
+    2285
+   ]
+  },
+  {
+   "text": "with good income. In the 12th Moon makes one low in status",
+   "bbox": [
+    202,
+    2300,
+    1426,
+    2339
+   ]
+  },
+  {
+   "text": "and liable to lose a limb.",
+   "bbox": [
+    203,
+    2350,
+    697,
+    2386
+   ]
+  }
+ ]
+}

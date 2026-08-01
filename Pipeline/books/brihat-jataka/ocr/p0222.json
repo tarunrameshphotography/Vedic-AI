@@ -1,0 +1,146 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0222",
+ "book_id": "brihat-jataka",
+ "seq": 222,
+ "source_ref": {
+  "pdf_page": 111,
+  "half": "b",
+  "v1_page": "s111b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "140b2fad717c9004a3842625a263e1ec944f329928c48942f4cdd7ecf5553376",
+ "lines": [
+  {
+   "text": "219",
+   "bbox": [
+    1382,
+    279,
+    1476,
+    315
+   ]
+  },
+  {
+   "text": "Concluding Chapter",
+   "bbox": [
+    261,
+    295,
+    670,
+    345
+   ]
+  },
+  {
+   "text": "Notes: Avanti is modern Ujjain. Varahamihira worshipped",
+   "bbox": [
+    337,
+    377,
+    1480,
+    448
+   ]
+  },
+  {
+   "text": "Savita, a form of the Sun involved in the Gayatri Mantra.",
+   "bbox": [
+    261,
+    427,
+    1479,
+    503
+   ]
+  },
+  {
+   "text": "Savita is the Awakener, the Illuminator.",
+   "bbox": [
+    264,
+    490,
+    1075,
+    556
+   ]
+  },
+  {
+   "text": "दिनकरमुनिगुरुचरणप्रणिपातकृतप्रसादमति नेदम्।",
+   "bbox": [
+    339,
+    568,
+    1026,
+    637
+   ]
+  },
+  {
+   "text": "शास्त्रमुपसंगृहीत नमोऽस्तु पूर्वप्रणेतृभ्य: ।। 10।।",
+   "bbox": [
+    339,
+    630,
+    1023,
+    702
+   ]
+  },
+  {
+   "text": "After my intellect or mind was elevated by my prostrations",
+   "bbox": [
+    340,
+    716,
+    1488,
+    787
+   ]
+  },
+  {
+   "text": "(obeisance) at the feet of the Sun-God, the maharshis and my",
+   "bbox": [
+    269,
+    768,
+    1488,
+    840
+   ]
+  },
+  {
+   "text": "teacher, I composed this work I bow to the ancient teachers of",
+   "bbox": [
+    270,
+    821,
+    1492,
+    895
+   ]
+  },
+  {
+   "text": "this science.",
+   "bbox": [
+    273,
+    901,
+    520,
+    939
+   ]
+  },
+  {
+   "text": "इति श्रीवराहमिहिरकृते बृहज्जातके उपसंहाराध्यायोऽष्टविंश: ।। 28।।",
+   "bbox": [
+    385,
+    1080,
+    1379,
+    1157
+   ]
+  },
+  {
+   "text": "Thus ends the twenty-eighth chapter - Concluding Chapter -",
+   "bbox": [
+    350,
+    1169,
+    1494,
+    1245
+   ]
+  },
+  {
+   "text": "in Brihat Jatak composed by Varahamihira.",
+   "bbox": [
+    274,
+    1232,
+    1089,
+    1298
+   ]
+  }
+ ]
+}

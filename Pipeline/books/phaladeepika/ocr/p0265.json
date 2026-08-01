@@ -1,0 +1,144 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0265",
+ "book_id": "phaladeepika",
+ "seq": 265,
+ "source_ref": {
+  "pdf_page": 265
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "380efe6dfe320ab21020450f08f537da85b80c9a4b3dd4c4675cdceb4c0c8071",
+ "lines": [
+  {
+   "text": "<b>Chapter 28</b>",
+   "bbox": [
+    281,
+    82,
+    357,
+    99
+   ]
+  },
+  {
+   "text": "<b>Concluding Chapter</b>",
+   "bbox": [
+    249,
+    109,
+    389,
+    127
+   ]
+  },
+  {
+   "text": "1-4. In these verses the author enumerates the number of chapters and the ",
+   "bbox": [
+    121,
+    161,
+    556,
+    176
+   ]
+  },
+  {
+   "text": "subjects dealt with In them. This information has been given in full detail in the ",
+   "bbox": [
+    85,
+    185,
+    556,
+    201
+   ]
+  },
+  {
+   "text": "Table of Contents.",
+   "bbox": [
+    85,
+    209,
+    188,
+    225
+   ]
+  },
+  {
+   "text": "5-6. In these verses the author pays obeisance to Goddess Sukun who ",
+   "bbox": [
+    121,
+    233,
+    556,
+    249
+   ]
+  },
+  {
+   "text": "bestows on her devotees all that they desire. He says that he has been able to ",
+   "bbox": [
+    85,
+    257,
+    556,
+    273
+   ]
+  },
+  {
+   "text": "complete this work by her grace. It has also been mentioned that Shri ",
+   "bbox": [
+    85,
+    282,
+    556,
+    297
+   ]
+  },
+  {
+   "text": "Mantreshwara an astrologer and a Brahmin was born in Tirunveli - a district in the ",
+   "bbox": [
+    85,
+    306,
+    556,
+    321
+   ]
+  },
+  {
+   "text": "south of present Tamil Nadu State for the enjoyment and benefit of other ",
+   "bbox": [
+    85,
+    330,
+    556,
+    345
+   ]
+  },
+  {
+   "text": "astrologers.",
+   "bbox": [
+    85,
+    354,
+    150,
+    370
+   ]
+  },
+  {
+   "text": "Thus ends the twenty eighths chapter on \"Upasamhara\" in Phaladeepika ",
+   "bbox": [
+    121,
+    378,
+    556,
+    394
+   ]
+  },
+  {
+   "text": "composed by Mantreswara.",
+   "bbox": [
+    85,
+    402,
+    240,
+    418
+   ]
+  },
+  {
+   "text": "265",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

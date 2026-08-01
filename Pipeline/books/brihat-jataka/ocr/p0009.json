@@ -1,0 +1,362 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0009",
+ "book_id": "brihat-jataka",
+ "seq": 9,
+ "source_ref": {
+  "pdf_page": 5,
+  "half": "a",
+  "v1_page": "s005a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "8cc7b5d47ecf826cf4e7ed76a015e807a9e83043e5253af75e9c0eb1510449d1",
+ "lines": [
+  {
+   "text": "<b>Contents</b>",
+   "bbox": [
+    686,
+    517,
+    1047,
+    590
+   ]
+  },
+  {
+   "text": "1. राशिप्रभेदाध्याय: On Signs",
+   "bbox": [
+    271,
+    665,
+    775,
+    717
+   ]
+  },
+  {
+   "text": "Explanation of technical terms. Definition of As-",
+   "bbox": [
+    334,
+    729,
+    1325,
+    773
+   ]
+  },
+  {
+   "text": "trology. Hora, Signs and organs. Ownerships.",
+   "bbox": [
+    333,
+    776,
+    1322,
+    823
+   ]
+  },
+  {
+   "text": "Vargas. Hora, Drekkana. Exaltation and Debilita-",
+   "bbox": [
+    335,
+    828,
+    1323,
+    868
+   ]
+  },
+  {
+   "text": "tion. House and signs, colours.",
+   "bbox": [
+    332,
+    877,
+    952,
+    916
+   ]
+  },
+  {
+   "text": "2. ग्रहयोनिप्रभेदाध्याय: Planets",
+   "bbox": [
+    265,
+    933,
+    785,
+    988
+   ]
+  },
+  {
+   "text": "27",
+   "bbox": [
+    1418,
+    954,
+    1472,
+    986
+   ]
+  },
+  {
+   "text": "Nature of the Planets. Divisions. Caste and sex.",
+   "bbox": [
+    330,
+    1000,
+    1319,
+    1047
+   ]
+  },
+  {
+   "text": "Aspects. Friends, foes and neutrals. Temporary",
+   "bbox": [
+    330,
+    1054,
+    1320,
+    1098
+   ]
+  },
+  {
+   "text": "relationships. Shadbala.",
+   "bbox": [
+    329,
+    1102,
+    816,
+    1141
+   ]
+  },
+  {
+   "text": "वियोनिजन्माध्याय: Non Human Births",
+   "bbox": [
+    328,
+    1162,
+    1000,
+    1218
+   ]
+  },
+  {
+   "text": "41",
+   "bbox": [
+    1419,
+    1179,
+    1469,
+    1214
+   ]
+  },
+  {
+   "text": "Different kinds of births. Animal births. Birth of",
+   "bbox": [
+    329,
+    1224,
+    1326,
+    1271
+   ]
+  },
+  {
+   "text": "birds and plants.",
+   "bbox": [
+    329,
+    1278,
+    670,
+    1317
+   ]
+  },
+  {
+   "text": "4. निषेकाध्याय: On Conception",
+   "bbox": [
+    263,
+    1341,
+    834,
+    1390
+   ]
+  },
+  {
+   "text": "45",
+   "bbox": [
+    1413,
+    1354,
+    1474,
+    1389
+   ]
+  },
+  {
+   "text": "Consumation of Marriage. Mars and Moon and",
+   "bbox": [
+    327,
+    1401,
+    1316,
+    1449
+   ]
+  },
+  {
+   "text": "Menstruation. When conception occurs. Effect the",
+   "bbox": [
+    324,
+    1450,
+    1315,
+    1498
+   ]
+  },
+  {
+   "text": "births have. Abortion. Easy delivery. Birth of eu-",
+   "bbox": [
+    326,
+    1500,
+    1315,
+    1546
+   ]
+  },
+  {
+   "text": "nuchs, triplets, Sex determined. Multiple Births.",
+   "bbox": [
+    325,
+    1553,
+    1317,
+    1592
+   ]
+  },
+  {
+   "text": "Duration of pregnancy.",
+   "bbox": [
+    325,
+    1602,
+    795,
+    1640
+   ]
+  },
+  {
+   "text": "5. जन्मकाललक्षणाध्याय: Birth Conditions",
+   "bbox": [
+    261,
+    1670,
+    997,
+    1711
+   ]
+  },
+  {
+   "text": "57",
+   "bbox": [
+    1412,
+    1677,
+    1468,
+    1710
+   ]
+  },
+  {
+   "text": "Indications from the time of Birth. Where abouts of",
+   "bbox": [
+    325,
+    1728,
+    1319,
+    1765
+   ]
+  },
+  {
+   "text": "the father. Illegitimate births. Nature of the birth",
+   "bbox": [
+    323,
+    1776,
+    1315,
+    1820
+   ]
+  },
+  {
+   "text": "place. forsaken child. Birth rectification. Birth",
+   "bbox": [
+    325,
+    1827,
+    1313,
+    1867
+   ]
+  },
+  {
+   "text": "chamber. Divisions of the body. Evil conjunctions.",
+   "bbox": [
+    323,
+    1871,
+    1311,
+    1919
+   ]
+  },
+  {
+   "text": "6. बालारिप्टाध्याय: Factors for Early Death",
+   "bbox": [
+    258,
+    1938,
+    1054,
+    1990
+   ]
+  },
+  {
+   "text": "69",
+   "bbox": [
+    1411,
+    1950,
+    1469,
+    1984
+   ]
+  },
+  {
+   "text": "Early death. Contrivations for early death. Impor-",
+   "bbox": [
+    320,
+    1993,
+    1311,
+    2044
+   ]
+  },
+  {
+   "text": "tance of Jupiter. Antidotes.",
+   "bbox": [
+    319,
+    2047,
+    865,
+    2091
+   ]
+  },
+  {
+   "text": "7. आयुर्दायाध्याय: Span of Life",
+   "bbox": [
+    259,
+    2117,
+    806,
+    2159
+   ]
+  },
+  {
+   "text": "74",
+   "bbox": [
+    1408,
+    2124,
+    1471,
+    2159
+   ]
+  },
+  {
+   "text": "Number of years given by the planets. Reductions.",
+   "bbox": [
+    319,
+    2172,
+    1309,
+    2219
+   ]
+  },
+  {
+   "text": "Years given by lagna. chakrapata Krurodaya re-",
+   "bbox": [
+    322,
+    2223,
+    1309,
+    2265
+   ]
+  },
+  {
+   "text": "ductions. Astangata and other reductions. Longev-",
+   "bbox": [
+    318,
+    2272,
+    1309,
+    2311
+   ]
+  },
+  {
+   "text": "ity of animals. Full longivity. Canflicting theories.",
+   "bbox": [
+    317,
+    2319,
+    1303,
+    2361
+   ]
+  }
+ ]
+}

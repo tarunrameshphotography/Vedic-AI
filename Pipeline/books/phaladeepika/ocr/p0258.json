@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0258",
+ "book_id": "phaladeepika",
+ "seq": 258,
+ "source_ref": {
+  "pdf_page": 258
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "eef188ad9965cea252fd9b5af5d6b64dad1d631e106c717277099af3647901fc",
+ "lines": [
+  {
+   "text": "Swati and Abhijit.",
+   "bbox": [
+    85,
+    57,
+    187,
+    73
+   ]
+  },
+  {
+   "text": "In the same way a planet quartered in Mrigasira may have Vedha with (1) ",
+   "bbox": [
+    121,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "Kataka (2) the consonant (3) Simha, (4) the consonant (5) Chittra, (6) Revati, (7) ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "the consonant (8) the Vowel (...) and (9) Uttarashada.",
+   "bbox": [
+    85,
+    130,
+    382,
+    145
+   ]
+  },
+  {
+   "text": "When a planet is retrograde in motion, the aspect is towards the right. It is ",
+   "bbox": [
+    121,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "on the left when the motion is direct (swift). When it is mean one, it is towards the ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "front. This is with reierence to the five planets from Mars onwards.",
+   "bbox": [
+    85,
+    202,
+    461,
+    218
+   ]
+  },
+  {
+   "text": "In the case of Rahu and Ketu which are always retrograde the Vedha will be ",
+   "bbox": [
+    121,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "on the right and in the case of the Sun and the Moon which move direct and have ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "no retrograde motion, the Vedha will be on the left.",
+   "bbox": [
+    85,
+    275,
+    372,
+    290
+   ]
+  },
+  {
+   "text": "Owing to there being no uniformity in motion among the other planets, three ",
+   "bbox": [
+    121,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "kinds of vedhas have been mentioned. Malefics when retrograde will cause intense ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "evil if they are in Vedha position, while benefics will do immense good. Malefics ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "and benefics which in rapid motion partake of the nature of the planets they are ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "associated with, when the four asterism Ardra, Hasta Poorvashada and ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "Uttarabhadrapaha which occupy the four central position of the outer most border ",
+   "bbox": [
+    85,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "are passed over (transitted) by a planet the following four triplets viz. (1) (...) (2) ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "(...) (3) (...) and (4) (...) are respectively hit (have Vedhas).",
+   "bbox": [
+    85,
+    468,
+    411,
+    483
+   ]
+  },
+  {
+   "text": "In the case of the pairs (1) (...) (2) (...) (3) (...) and (4) (...) if one letter of any ",
+   "bbox": [
+    121,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "pair be hit (has Vedha), the other'should also be considered as hit. A Saumya Vedha ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "is one that is caused by a benefic.",
+   "bbox": [
+    85,
+    540,
+    273,
+    556
+   ]
+  },
+  {
+   "text": "If there be Vedha in one of the pairs if similar vowels, the other vowel of the ",
+   "bbox": [
+    121,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "pair should also be considered as hit. The same should be made in the case of the ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "Anuswara and Visarga (vowels).",
+   "bbox": [
+    85,
+    613,
+    267,
+    628
+   ]
+  },
+  {
+   "text": "When a planet in transit is in the last or the first quarter of two asterisms ",
+   "bbox": [
+    121,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "(forming the juncture) in any four comers of the square, there is Vedha of the four ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "vowels, (...) and Purna tithi in regular order commencing with that vowel ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "intervening at the particular juncture occupied by the planet, the effects arising ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "from these are: agitation or excitement from the first, fear from the second, loss ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "from the third and disease from the fourth and death for the fifth.",
+   "bbox": [
+    85,
+    758,
+    449,
+    773
+   ]
+  },
+  {
+   "text": "258",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

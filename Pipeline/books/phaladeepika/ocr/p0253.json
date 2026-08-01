@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0253",
+ "book_id": "phaladeepika",
+ "seq": 253,
+ "source_ref": {
+  "pdf_page": 253
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "e6f716ace53cd4e8a42d699e3850531f0a6df9a1af2ed490390f0a3edc669912",
+ "lines": [
+  {
+   "text": "30. The planets fail to assert their full effects in the course of their transit in ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "the following circumstances :—",
+   "bbox": [
+    85,
+    82,
+    264,
+    97
+   ]
+  },
+  {
+   "text": "(a) If a planet yielding adverse effects is aspected by a benefic, his evil ",
+   "bbox": [
+    121,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "effects are cancelled.",
+   "bbox": [
+    85,
+    130,
+    203,
+    145
+   ]
+  },
+  {
+   "text": "(b) A benefic planet is deprived of his benefical effects if he is aspected by a ",
+   "bbox": [
+    121,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "malefic.",
+   "bbox": [
+    85,
+    178,
+    131,
+    194
+   ]
+  },
+  {
+   "text": "(c) A planet loses his capability to do good If he is aspected by an Inimical ",
+   "bbox": [
+    121,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "planet or planets.",
+   "bbox": [
+    85,
+    226,
+    181,
+    242
+   ]
+  },
+  {
+   "text": "31. If a planet in the course of his transit Is placed in an evil house identical ",
+   "bbox": [
+    121,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "with his own or exalted sign, does not yield adverse effects. If he be placed in an ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "auspicious house identical with his own sign or exalted sign, full beneficial results ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "may be expected from him.",
+   "bbox": [
+    85,
+    323,
+    239,
+    339
+   ]
+  },
+  {
+   "text": "32. Favourable planets if in the course of their transh are placed in their sign ",
+   "bbox": [
+    121,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "of debilitation, or in an inimical or be eclipsed by the Sun's rays lose their power to ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "produce good effects. If the planets in the above circumstances get placed in an ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "evil house, they yield very adverse effects.",
+   "bbox": [
+    85,
+    420,
+    324,
+    435
+   ]
+  },
+  {
+   "text": "33. If the Sun, Mars, Jupiter and Saturn happen to occupy, in the course of ",
+   "bbox": [
+    121,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "their transit, the 1st, 8th or 10th house reckoned from the Moon sign, they cause ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "danger to the life of the native, fall from position and loss of wealth.",
+   "bbox": [
+    85,
+    492,
+    467,
+    508
+   ]
+  },
+  {
+   "text": "34. In the course of their transit, the Moon in the 8th, Mars in the 7th, Rahu ",
+   "bbox": [
+    121,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "in the 9th, Mercury in the 4th, Jupiter in the 3rd, Venus in the 6th, Saturn in the 1st ",
+   "bbox": [
+    85,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "and the Sun in the 5th, from the natal Moon, cause loss of honour and wealth, and ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "danger to life.",
+   "bbox": [
+    85,
+    589,
+    163,
+    604
+   ]
+  },
+  {
+   "text": "<b>Planets and Limbs</b>",
+   "bbox": [
+    121,
+    613,
+    232,
+    628
+   ]
+  },
+  {
+   "text": "In the following six verses, the author describes how the 27 nakshatras ",
+   "bbox": [
+    121,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "reckoned from the Janma Nakshatra (birth star) are distributed among the various ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "parts of the body of the native during the course of the transit of each of the planets ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "from the Sun onwards. Their effects have also been mentioned.",
+   "bbox": [
+    85,
+    709,
+    439,
+    725
+   ]
+  },
+  {
+   "text": "35. The following table shows the distribution of the 27 nakshatras reckoned ",
+   "bbox": [
+    121,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "from the Janma Nakshatra and the relative effects in the course of the transit of the ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "253",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

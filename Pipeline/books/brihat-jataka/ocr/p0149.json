@@ -1,0 +1,290 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0149",
+ "book_id": "brihat-jataka",
+ "seq": 149,
+ "source_ref": {
+  "pdf_page": 75,
+  "half": "a",
+  "v1_page": "s075a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "4b2a006978aa2fd1e19bd3cc82d1ff00d6cc3945ef7a1a8519ff74e12aa6f4da",
+ "lines": [
+  {
+   "text": "146",
+   "bbox": [
+    361,
+    216,
+    452,
+    251
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1282,
+    248,
+    1577,
+    295
+   ]
+  },
+  {
+   "text": "Aspected by Mars: Poor.",
+   "bbox": [
+    487,
+    319,
+    1026,
+    385
+   ]
+  },
+  {
+   "text": "(i)",
+   "bbox": [
+    431,
+    326,
+    483,
+    358
+   ]
+  },
+  {
+   "text": "(ii) Aspected by Mercury: Thief.",
+   "bbox": [
+    423,
+    396,
+    1129,
+    466
+   ]
+  },
+  {
+   "text": "Aspected by Jupiter: Honoured by men (also by",
+   "bbox": [
+    524,
+    478,
+    1568,
+    562
+   ]
+  },
+  {
+   "text": "(iii)",
+   "bbox": [
+    425,
+    481,
+    507,
+    514
+   ]
+  },
+  {
+   "text": "Govt).",
+   "bbox": [
+    344,
+    523,
+    478,
+    569
+   ]
+  },
+  {
+   "text": "(iv) Aspected by Venus: A king (of high status).",
+   "bbox": [
+    415,
+    601,
+    1422,
+    686
+   ]
+  },
+  {
+   "text": "(v) Aspected by Saturn: Wealthy.",
+   "bbox": [
+    411,
+    681,
+    1137,
+    752
+   ]
+  },
+  {
+   "text": "(vi) Aspected by Sun: A servant.",
+   "bbox": [
+    410,
+    759,
+    1111,
+    830
+   ]
+  },
+  {
+   "text": "Moon in Gemini",
+   "bbox": [
+    329,
+    860,
+    757,
+    916
+   ]
+  },
+  {
+   "text": "ज्ञात्युर्वीशजनाश्रयश्च तुरगे पापै: सदम्भ: शठ-",
+   "bbox": [
+    401,
+    946,
+    1058,
+    1019
+   ]
+  },
+  {
+   "text": "धात्युर्वीशनरेन्द्रपण्डितधनी द्रव्योनभूपो मृगे।",
+   "bbox": [
+    397,
+    1008,
+    1023,
+    1085
+   ]
+  },
+  {
+   "text": "भूपो भूपसमोऽन्यदारनिरत: शेषैश्च कुम्भस्थिते",
+   "bbox": [
+    396,
+    1073,
+    1032,
+    1153
+   ]
+  },
+  {
+   "text": "हास्यज्ञो नृपतिर्बुधश्च झषगे पापाश्च पापेक्षिते।। 3 ।।",
+   "bbox": [
+    392,
+    1141,
+    1142,
+    1225
+   ]
+  },
+  {
+   "text": "<math>(i)</math> Aspected by Mars: A dealer in iron (and its products).",
+   "bbox": [
+    387,
+    1230,
+    1536,
+    1324
+   ]
+  },
+  {
+   "text": "(ii) Aspected by Mercury: A king.",
+   "bbox": [
+    386,
+    1311,
+    1120,
+    1384
+   ]
+  },
+  {
+   "text": "(iii) Aspected by Jupiter: A learned man.",
+   "bbox": [
+    381,
+    1386,
+    1270,
+    1470
+   ]
+  },
+  {
+   "text": "(iv) Aspected by Venus: Fearless.",
+   "bbox": [
+    380,
+    1464,
+    1104,
+    1542
+   ]
+  },
+  {
+   "text": "<math>(v)</math> Aspected by Saturn: A weaver.",
+   "bbox": [
+    375,
+    1545,
+    1123,
+    1618
+   ]
+  },
+  {
+   "text": "(vi) Aspected by Sun: Poor.",
+   "bbox": [
+    374,
+    1623,
+    971,
+    1691
+   ]
+  },
+  {
+   "text": "Moon in Cancer",
+   "bbox": [
+    291,
+    1723,
+    721,
+    1779
+   ]
+  },
+  {
+   "text": "होरेशर्क्षदलाश्रितैः शुभकरो दृष्टः शशी तद्गत-",
+   "bbox": [
+    363,
+    1803,
+    1016,
+    1882
+   ]
+  },
+  {
+   "text": "स्त्र्यंशे तत्पतिभि: सुहृद्धवनगैर्वा वीक्षित: शस्यते।",
+   "bbox": [
+    363,
+    1869,
+    1070,
+    1950
+   ]
+  },
+  {
+   "text": "यत्प्रोक्तं प्रतिराशिवीक्षणफलं तद्द्वादशांशे स्मृतं",
+   "bbox": [
+    358,
+    1933,
+    1024,
+    2018
+   ]
+  },
+  {
+   "text": "सूर्याद्यैरवलोकितेऽपि शशिनि ज्ञेयं नवांशेष्वत:।। 4 ।।",
+   "bbox": [
+    356,
+    2001,
+    1138,
+    2086
+   ]
+  },
+  {
+   "text": "(i) Aspected by Mars: A soldier.",
+   "bbox": [
+    351,
+    2089,
+    1039,
+    2169
+   ]
+  },
+  {
+   "text": "(ii) Aspected by Mercury: A poet.",
+   "bbox": [
+    349,
+    2169,
+    1077,
+    2246
+   ]
+  },
+  {
+   "text": "(iii) Aspected by Jupiter: A learned wiseman.",
+   "bbox": [
+    346,
+    2247,
+    1317,
+    2332
+   ]
+  }
+ ]
+}

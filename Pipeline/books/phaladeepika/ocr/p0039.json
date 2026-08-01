@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0039",
+ "book_id": "phaladeepika",
+ "seq": 39,
+ "source_ref": {
+  "pdf_page": 39
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "50ba2eccd3d1f3f69bd54a43612327d9b6194b1e71c23acca54b30479e2e88c5",
+ "lines": [
+  {
+   "text": "(6) The lord of the day in which birth takes place, gets 45 Shastayamsa of ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "strength.",
+   "bbox": [
+    85,
+    82,
+    134,
+    97
+   ]
+  },
+  {
+   "text": "(7) The planet in whose hora the birth takes place gets one Rupa of strength.",
+   "bbox": [
+    121,
+    106,
+    548,
+    121
+   ]
+  },
+  {
+   "text": "<b>Ayana Bala</b>",
+   "bbox": [
+    121,
+    130,
+    190,
+    145
+   ]
+  },
+  {
+   "text": "(8) From the centre line of the sky some planets are in the north. Then they ",
+   "bbox": [
+    121,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "are said to have northern declination. If they are in the South they are said to have ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "southern declination. One exactly on the centre line has no declination.",
+   "bbox": [
+    85,
+    202,
+    483,
+    218
+   ]
+  },
+  {
+   "text": "(a) If the Sun, Moon, Jupiter and Venus have 24° of northern declination ",
+   "bbox": [
+    121,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "they get 1 Rupa of Ayana Bala. This strength is nil if they have 24° of southern ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "declination. For the intervening declinations, the strength has to be looked ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "proportionately.",
+   "bbox": [
+    85,
+    299,
+    174,
+    314
+   ]
+  },
+  {
+   "text": "(b) The Moon and Saturn get one Rupa of Ayana Bala when they have 24° of ",
+   "bbox": [
+    121,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "Southern declinations. For the intervening declinations, the strength has to be ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "worked out proportionately.",
+   "bbox": [
+    85,
+    371,
+    241,
+    387
+   ]
+  },
+  {
+   "text": "(c) Mercury has been given special consideration in this respect. He gets 30 ",
+   "bbox": [
+    121,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "Shastayamsa of Ayana Bala if his declination is 0 degree. The strength increases ",
+   "bbox": [
+    85,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "with the increase in declination from 0°-24° and he will get one Rupa of Ayana ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "Bala when he has 24° of northern declination. He also gets one Rupa of strength ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "when his southern declination is 24°. For the intervening degrees of northern and ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "southern declinations, the strength has to be calculated proportionately.",
+   "bbox": [
+    85,
+    516,
+    483,
+    532
+   ]
+  },
+  {
+   "text": "(d) The Ayan Bala obtained by the Sun is to be doubled because the Sun is ",
+   "bbox": [
+    121,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "always direct and never retrograde. As he does not get any Chesta Bala, his Ayana ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "Bala is doubled.",
+   "bbox": [
+    85,
+    589,
+    176,
+    604
+   ]
+  },
+  {
+   "text": "<b>Yudha Bala</b>",
+   "bbox": [
+    121,
+    613,
+    191,
+    628
+   ]
+  },
+  {
+   "text": "(9) This is the ninth kind of strength under the heading 'Kala Bala'. Besides ",
+   "bbox": [
+    121,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "the Sun and the Moon if amongst the other planets (Mars, Mercury, Jupiter, Venus ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "and Saturn) any two be in the same Rasi, degree and minute, they are considered to ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "be at war. For the method to work out Yudha Bala, refer to Sripati Padhati, Keshavi ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "Jataka or Brihat Parasara Hora Shastra.",
+   "bbox": [
+    85,
+    734,
+    304,
+    749
+   ]
+  },
+  {
+   "text": "<b>Chesta Bala</b>",
+   "bbox": [
+    121,
+    758,
+    193,
+    773
+   ]
+  },
+  {
+   "text": "39",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

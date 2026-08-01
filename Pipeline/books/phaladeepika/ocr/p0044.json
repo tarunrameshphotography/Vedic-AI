@@ -1,0 +1,387 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0044",
+ "book_id": "phaladeepika",
+ "seq": 44,
+ "source_ref": {
+  "pdf_page": 44
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "2394a7b25fc8e571d4a6662ac8bc09a1dfcb446825eb11c01de5a725405bbde4",
+ "lines": [
+  {
+   "text": "and Indrachapa when the Sun and the Moon are together in the same sign.",
+   "bbox": [
+    85,
+    57,
+    500,
+    73
+   ]
+  },
+  {
+   "text": "Notes. It will be useful to know at this stage now the position of Partvesha ",
+   "bbox": [
+    121,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "and Indrachapa is worked out.",
+   "bbox": [
+    85,
+    106,
+    254,
+    121
+   ]
+  },
+  {
+   "text": "(1) Add 4 Rasis 13 degrees and 20 minutes to the longitude of the Sun ",
+   "bbox": [
+    121,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "(Surya) Spasta. The result will be Dhooma.",
+   "bbox": [
+    85,
+    154,
+    328,
+    169
+   ]
+  },
+  {
+   "text": "(2) By deducting 12 Rasis from Dhooma we get Vyatipata.",
+   "bbox": [
+    121,
+    178,
+    450,
+    194
+   ]
+  },
+  {
+   "text": "(3) Add 6 Rasis to the longitude of Vyatipata, we will get Partvesha.",
+   "bbox": [
+    121,
+    202,
+    502,
+    218
+   ]
+  },
+  {
+   "text": "(4) By deducting 12 Rasis from the longitude of Parivesha, we will get ",
+   "bbox": [
+    121,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "Indrachapa.",
+   "bbox": [
+    85,
+    251,
+    151,
+    266
+   ]
+  },
+  {
+   "text": "For example at birth the Sun's longitude is 7-26°-ll'-38\". (1) Longitude of the ",
+   "bbox": [
+    121,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "Sun",
+   "bbox": [
+    85,
+    299,
+    107,
+    314
+   ]
+  },
+  {
+   "text": "7-26-11-38",
+   "bbox": [
+    307,
+    323,
+    369,
+    339
+   ]
+  },
+  {
+   "text": "+ ",
+   "bbox": [
+    236,
+    339,
+    247,
+    355
+   ]
+  },
+  {
+   "text": "4-13-20 ",
+   "bbox": [
+    307,
+    339,
+    355,
+    355
+   ]
+  },
+  {
+   "text": "Dhooma",
+   "bbox": [
+    236,
+    356,
+    284,
+    371
+   ]
+  },
+  {
+   "text": "0-9-31-38",
+   "bbox": [
+    307,
+    356,
+    363,
+    371
+   ]
+  },
+  {
+   "text": "(-) ",
+   "bbox": [
+    236,
+    372,
+    253,
+    387
+   ]
+  },
+  {
+   "text": "12-0-0-0",
+   "bbox": [
+    307,
+    372,
+    356,
+    387
+   ]
+  },
+  {
+   "text": "0-9-31-38 ",
+   "bbox": [
+    307,
+    388,
+    366,
+    403
+   ]
+  },
+  {
+   "text": "Vyatipata ",
+   "bbox": [
+    236,
+    405,
+    292,
+    420
+   ]
+  },
+  {
+   "text": "11-20-28-22",
+   "bbox": [
+    307,
+    405,
+    376,
+    420
+   ]
+  },
+  {
+   "text": "(-) ",
+   "bbox": [
+    236,
+    421,
+    253,
+    436
+   ]
+  },
+  {
+   "text": "11-20-28-32",
+   "bbox": [
+    307,
+    421,
+    376,
+    436
+   ]
+  },
+  {
+   "text": "6-0-0-0 ",
+   "bbox": [
+    307,
+    437,
+    352,
+    452
+   ]
+  },
+  {
+   "text": "Partvesha ",
+   "bbox": [
+    236,
+    453,
+    294,
+    469
+   ]
+  },
+  {
+   "text": "5-20-28-22",
+   "bbox": [
+    307,
+    453,
+    370,
+    469
+   ]
+  },
+  {
+   "text": "(-) ",
+   "bbox": [
+    236,
+    469,
+    253,
+    485
+   ]
+  },
+  {
+   "text": "12-0-0-0",
+   "bbox": [
+    307,
+    469,
+    356,
+    485
+   ]
+  },
+  {
+   "text": "5-20-28-22 ",
+   "bbox": [
+    307,
+    486,
+    373,
+    501
+   ]
+  },
+  {
+   "text": "Indrachapa 6-9-31-38 ",
+   "bbox": [
+    236,
+    502,
+    366,
+    518
+   ]
+  },
+  {
+   "text": "6. The first house gets one Rupa of strength if it is a triped sign. If it be ",
+   "bbox": [
+    121,
+    542,
+    556,
+    558
+   ]
+  },
+  {
+   "text": "Vrischika it gets 1 /4 Rupa as its strength. In any other sign the strength will be 1/2 ",
+   "bbox": [
+    85,
+    567,
+    556,
+    582
+   ]
+  },
+  {
+   "text": "Rupa.",
+   "bbox": [
+    85,
+    591,
+    118,
+    606
+   ]
+  },
+  {
+   "text": "The strength of the Ascendant (Lagna) is equal to that of its Lord and is very ",
+   "bbox": [
+    121,
+    615,
+    556,
+    630
+   ]
+  },
+  {
+   "text": "powerful when the lord occupies an Upachaya house (3, 6, 10, 11). It is also very ",
+   "bbox": [
+    85,
+    639,
+    556,
+    654
+   ]
+  },
+  {
+   "text": "powerful when it .is aspected by its lord Jupiter or Mercury or when it is occupied ",
+   "bbox": [
+    85,
+    663,
+    556,
+    679
+   ]
+  },
+  {
+   "text": "by Venus and is at the same time without the conjunction or aspect of any other ",
+   "bbox": [
+    85,
+    687,
+    556,
+    703
+   ]
+  },
+  {
+   "text": "planet.",
+   "bbox": [
+    85,
+    711,
+    123,
+    727
+   ]
+  },
+  {
+   "text": "The day signs are strong in births during day time and the night signs in ",
+   "bbox": [
+    121,
+    736,
+    556,
+    751
+   ]
+  },
+  {
+   "text": "birth during night time.",
+   "bbox": [
+    85,
+    760,
+    216,
+    775
+   ]
+  },
+  {
+   "text": "44",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

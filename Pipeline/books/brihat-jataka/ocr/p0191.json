@@ -1,0 +1,317 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0191",
+ "book_id": "brihat-jataka",
+ "seq": 191,
+ "source_ref": {
+  "pdf_page": 96,
+  "half": "a",
+  "v1_page": "s096a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "c0efeca8c2ea0a7195664744740e32bb1f3ff8a6bb40890da84b23cd0c2a8b26",
+ "lines": [
+  {
+   "text": "188",
+   "bbox": [
+    347,
+    217,
+    438,
+    250
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1269,
+    251,
+    1567,
+    293
+   ]
+  },
+  {
+   "text": "Notes: Jalodara is a form of dropsy or ascites.",
+   "bbox": [
+    411,
+    318,
+    1328,
+    399
+   ]
+  },
+  {
+   "text": "When it is said that the Moon should be between malefics,",
+   "bbox": [
+    411,
+    392,
+    1562,
+    483
+   ]
+  },
+  {
+   "text": "it can refer also to the malefics in the same sign.",
+   "bbox": [
+    331,
+    440,
+    1315,
+    524
+   ]
+  },
+  {
+   "text": "लग्नाद्धीनवमस्थयोरशुभयोः सौम्यग्रहादृष्टयो-",
+   "bbox": [
+    402,
+    519,
+    1051,
+    598
+   ]
+  },
+  {
+   "text": "द्रेष्काणैश्च ससर्पपाशनिगडैश्छिद्रस्थितैर्बन्धनात्।",
+   "bbox": [
+    398,
+    580,
+    1061,
+    663
+   ]
+  },
+  {
+   "text": "कन्यायामशुभान्वितेऽस्तमयगे चन्द्रे सिते मेषगे",
+   "bbox": [
+    397,
+    650,
+    1055,
+    727
+   ]
+  },
+  {
+   "text": "सूर्ये लग्नगते च विद्धि मरणं स्त्रीहेतुकं मन्दिरे।। 4 ।।",
+   "bbox": [
+    394,
+    715,
+    1200,
+    799
+   ]
+  },
+  {
+   "text": "When the fifth and the ninth houses have malefics who are",
+   "bbox": [
+    395,
+    810,
+    1545,
+    892
+   ]
+  },
+  {
+   "text": "not aspected by benefics, death is from bondage.",
+   "bbox": [
+    314,
+    855,
+    1283,
+    941
+   ]
+  },
+  {
+   "text": "When the drekkana rising in the eighth is Sarpa or",
+   "bbox": [
+    387,
+    937,
+    1543,
+    1029
+   ]
+  },
+  {
+   "text": "Nigada, similar death takes place.",
+   "bbox": [
+    308,
+    985,
+    997,
+    1059
+   ]
+  },
+  {
+   "text": "When the Sun is in lagna and the seventh is Virgo having",
+   "bbox": [
+    381,
+    1066,
+    1537,
+    1157
+   ]
+  },
+  {
+   "text": "the Moon with a Malefic, while Venus is in Aries, death is due",
+   "bbox": [
+    301,
+    1114,
+    1532,
+    1206
+   ]
+  },
+  {
+   "text": "to female agency in his house.",
+   "bbox": [
+    302,
+    1167,
+    910,
+    1231
+   ]
+  },
+  {
+   "text": "Notes: The second and third drekkanas in Karkataka, the",
+   "bbox": [
+    369,
+    1249,
+    1527,
+    1335
+   ]
+  },
+  {
+   "text": "first two in Vrishchika, the third in Mina are Sarpa",
+   "bbox": [
+    291,
+    1296,
+    1526,
+    1389
+   ]
+  },
+  {
+   "text": "Drekkanas. The first drekkana of Makara is Nigada",
+   "bbox": [
+    291,
+    1346,
+    1525,
+    1439
+   ]
+  },
+  {
+   "text": "Drekkana.",
+   "bbox": [
+    291,
+    1398,
+    513,
+    1445
+   ]
+  },
+  {
+   "text": "शूलोद्धिन्नतनुः सुखेऽवनिसुते सूर्येऽपि वा खे यमे",
+   "bbox": [
+    361,
+    1481,
+    1070,
+    1560
+   ]
+  },
+  {
+   "text": "सप्रक्षीणहिमांशुभिश्च युगपत्पापैस्त्रिकोणाद्यगै:।",
+   "bbox": [
+    358,
+    1541,
+    1008,
+    1625
+   ]
+  },
+  {
+   "text": "बन्धुस्थे च रवौ वियत्यवनिजे क्षीणेन्दुसंवीक्षिते",
+   "bbox": [
+    354,
+    1605,
+    1032,
+    1696
+   ]
+  },
+  {
+   "text": "काष्ठेनाभिहतः प्रयाति मरणं सूर्यात्मजेनेक्षिते ।। 5 ।।",
+   "bbox": [
+    354,
+    1680,
+    1120,
+    1759
+   ]
+  },
+  {
+   "text": "When the Sun and Mars are in the fourth and Shani is in",
+   "bbox": [
+    353,
+    1773,
+    1508,
+    1861
+   ]
+  },
+  {
+   "text": "the tenth, the native gets crucified.",
+   "bbox": [
+    272,
+    1821,
+    984,
+    1893
+   ]
+  },
+  {
+   "text": "When malefics and weak Moon are in lagna, the fifth, or",
+   "bbox": [
+    346,
+    1901,
+    1503,
+    1993
+   ]
+  },
+  {
+   "text": "the ninth, the same result follows.",
+   "bbox": [
+    267,
+    1954,
+    961,
+    2020
+   ]
+  },
+  {
+   "text": "When the Sun is in the fourth and Mars is in the tenth",
+   "bbox": [
+    342,
+    2032,
+    1495,
+    2122
+   ]
+  },
+  {
+   "text": "aspected by the weak Moon, the native is crucified.",
+   "bbox": [
+    261,
+    2080,
+    1293,
+    2168
+   ]
+  },
+  {
+   "text": "If the above combination has the aspect of Shani, death",
+   "bbox": [
+    331,
+    2162,
+    1491,
+    2255
+   ]
+  },
+  {
+   "text": "comes after a heavy beating.",
+   "bbox": [
+    255,
+    2218,
+    837,
+    2279
+   ]
+  },
+  {
+   "text": "Notes: Varahamihira has given the aspects in 2.13. Planets",
+   "bbox": [
+    325,
+    2302,
+    1485,
+    2388
+   ]
+  }
+ ]
+}

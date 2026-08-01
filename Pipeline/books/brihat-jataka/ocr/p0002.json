@@ -1,0 +1,74 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0002",
+ "book_id": "brihat-jataka",
+ "seq": 2,
+ "source_ref": {
+  "pdf_page": 1,
+  "half": "b",
+  "v1_page": "s001b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "7b231be2542043d7e3e12f24cd31f5e39b4f7f5ee11541d4c4a530653cd9d725",
+ "lines": [
+  {
+   "text": "Acharya Varahamihira's",
+   "bbox": [
+    410,
+    241,
+    1467,
+    354
+   ]
+  },
+  {
+   "text": "<b>BRIHAT JATAK</b>",
+   "bbox": [
+    209,
+    447,
+    1690,
+    707
+   ]
+  },
+  {
+   "text": "( बृहज्जातक)",
+   "bbox": [
+    662,
+    781,
+    1219,
+    899
+   ]
+  },
+  {
+   "text": "Prof. P.S. Sastri",
+   "bbox": [
+    1169,
+    1025,
+    1631,
+    1086
+   ]
+  },
+  {
+   "text": "AN IMMORTAL SOURCE BOOK OF",
+   "bbox": [
+    278,
+    2275,
+    1667,
+    2385
+   ]
+  },
+  {
+   "text": "HINDU PREDICTIVE ASTROLOGY",
+   "bbox": [
+    276,
+    2375,
+    1659,
+    2475
+   ]
+  }
+ ]
+}

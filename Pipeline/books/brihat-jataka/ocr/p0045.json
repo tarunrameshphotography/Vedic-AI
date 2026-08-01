@@ -1,0 +1,317 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0045",
+ "book_id": "brihat-jataka",
+ "seq": 45,
+ "source_ref": {
+  "pdf_page": 23,
+  "half": "a",
+  "v1_page": "s023a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "06eca78ddc40bd65758ce6e3c1d96f281add5b639359e6261ac02e3183c1d5d1",
+ "lines": [
+  {
+   "text": "42",
+   "bbox": [
+    356,
+    227,
+    419,
+    261
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1280,
+    242,
+    1573,
+    283
+   ]
+  },
+  {
+   "text": "malefics should be as strong as possible including their strong",
+   "bbox": [
+    351,
+    328,
+    1574,
+    391
+   ]
+  },
+  {
+   "text": "position in the navamsha chart. The second condition is that",
+   "bbox": [
+    351,
+    381,
+    1574,
+    440
+   ]
+  },
+  {
+   "text": "the impotent planets should be in kendras or otherwise influ-",
+   "bbox": [
+    351,
+    433,
+    1573,
+    495
+   ]
+  },
+  {
+   "text": "ence the lagna or the chandra lagna. If these two conditions",
+   "bbox": [
+    346,
+    483,
+    1572,
+    551
+   ]
+  },
+  {
+   "text": "are satisfied, the birth can be a non-human one, provided of",
+   "bbox": [
+    346,
+    537,
+    1573,
+    603
+   ]
+  },
+  {
+   "text": "course, the lagna or chandra lagna (denoting birth) is associ-",
+   "bbox": [
+    345,
+    591,
+    1567,
+    654
+   ]
+  },
+  {
+   "text": "ated with a dwadashamsha denoting non-human birth.",
+   "bbox": [
+    345,
+    642,
+    1447,
+    706
+   ]
+  },
+  {
+   "text": "<b>Limbs of Animals</b>",
+   "bbox": [
+    342,
+    747,
+    803,
+    795
+   ]
+  },
+  {
+   "text": "क्रिय: शिरो वक्रगले द्वितीय:",
+   "bbox": [
+    416,
+    826,
+    837,
+    875
+   ]
+  },
+  {
+   "text": "पादांसकं पृष्ठमुरोऽथ पार्श्वे।",
+   "bbox": [
+    414,
+    881,
+    821,
+    941
+   ]
+  },
+  {
+   "text": "कक्षिस्त्वपानाघ्रचंथ मेढ्रमुष्कौ",
+   "bbox": [
+    414,
+    938,
+    834,
+    997
+   ]
+  },
+  {
+   "text": "स्फिक्पुच्छमित्याह चतुष्पदाङ्गे।। 3 ।।",
+   "bbox": [
+    414,
+    998,
+    971,
+    1064
+   ]
+  },
+  {
+   "text": "In the case of the animal bodies the sign Aries represents",
+   "bbox": [
+    410,
+    1090,
+    1559,
+    1154
+   ]
+  },
+  {
+   "text": "the head, Taurus mouth and neck, Gemini legs and shoulders,",
+   "bbox": [
+    333,
+    1139,
+    1555,
+    1207
+   ]
+  },
+  {
+   "text": "Cancer the back, chest extending to back, Virgo is hind most",
+   "bbox": [
+    334,
+    1191,
+    1556,
+    1260
+   ]
+  },
+  {
+   "text": "part of the belly concerned with birth of young ones, Libra the",
+   "bbox": [
+    333,
+    1245,
+    1553,
+    1313
+   ]
+  },
+  {
+   "text": "base of the tail, Scorpio is rectum, Sagittarius the hind feet,",
+   "bbox": [
+    332,
+    1299,
+    1551,
+    1365
+   ]
+  },
+  {
+   "text": "Capricorn the generative organ and testicles, Acquarius sides",
+   "bbox": [
+    331,
+    1354,
+    1551,
+    1416
+   ]
+  },
+  {
+   "text": "of belly and Pisces the tail proper.",
+   "bbox": [
+    328,
+    1405,
+    1013,
+    1460
+   ]
+  },
+  {
+   "text": "<b>Colour of Animal born</b>",
+   "bbox": [
+    328,
+    1508,
+    918,
+    1561
+   ]
+  },
+  {
+   "text": "लग्नांशकाद्ग्रहयोगेक्षणाद्वा वर्णान्वदेद्बलयुक्ताद्वियोनौ।",
+   "bbox": [
+    398,
+    1592,
+    1165,
+    1654
+   ]
+  },
+  {
+   "text": "दृष्टचा समानान् प्रवदेच्च संख्यया रेखां वदेत्स्मरसंस्थैश्च पृष्ठे।। 4 ।।",
+   "bbox": [
+    395,
+    1654,
+    1414,
+    1726
+   ]
+  },
+  {
+   "text": "The colour of the body of the animal should be ascertained",
+   "bbox": [
+    397,
+    1751,
+    1543,
+    1810
+   ]
+  },
+  {
+   "text": "from the colour of the navamsha sign in the lagna or from the",
+   "bbox": [
+    316,
+    1801,
+    1543,
+    1867
+   ]
+  },
+  {
+   "text": "colour of the planet associated with or aspecting the lagna,",
+   "bbox": [
+    316,
+    1855,
+    1540,
+    1917
+   ]
+  },
+  {
+   "text": "whichever is stronger. The number of planets located in the",
+   "bbox": [
+    316,
+    1904,
+    1539,
+    1972
+   ]
+  },
+  {
+   "text": "7th house and aspecting the ascendant determine the number",
+   "bbox": [
+    316,
+    1959,
+    1540,
+    2021
+   ]
+  },
+  {
+   "text": "of lines (such as on dogs) on the back of the animal.",
+   "bbox": [
+    316,
+    2011,
+    1349,
+    2071
+   ]
+  },
+  {
+   "text": "<b>Birth of Birds</b>",
+   "bbox": [
+    314,
+    2116,
+    682,
+    2155
+   ]
+  },
+  {
+   "text": "खगे दृकाणे बलसंयुतेन वा ग्रहेण युक्ते चरभांशकोदये।",
+   "bbox": [
+    384,
+    2192,
+    1188,
+    2260
+   ]
+  },
+  {
+   "text": "बुधांशके वा विहगा: स्थलाम्बुजा: शनैश्चरेन्द्वीक्षणयोगसम्भवा:।। 5 ।।",
+   "bbox": [
+    384,
+    2255,
+    1386,
+    2327
+   ]
+  }
+ ]
+}

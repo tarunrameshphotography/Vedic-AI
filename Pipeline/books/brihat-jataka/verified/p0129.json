@@ -1,0 +1,22 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0129",
+ "ocr_fingerprint": "a5cb235e107f8241781376f74d2a01f46d5c31447eef7d6ebbce013e3f3df8e3",
+ "kind": "chart",
+ "printed_page": 126,
+ "note": "South Indian horoscope chart illustrating a yoga for renunciation. Surya read the cell labels as loose words and interleaved them with the commentary that wraps to the right of the chart. Read by eye. The reading is confirmed by the commentary beside it: with the Lagna in Cancer, Venus rules the 4th (Libra), Sun the 2nd (Leo) and Mercury the 12th (Gemini) -- exactly as the text says.",
+ "verified": "2026-08-01, by eye against books/brihat-jataka/img/",
+ "exclude_lines": [
+  3,
+  7,
+  8,
+  10,
+  13,
+  14,
+  16,
+  19,
+  20
+ ],
+ "insert_after": 2,
+ "markdown": "**Birth chart — a yoga for renunciation** (South Indian style)\n\n```\n+-------------+-------------+-------------+-------------+\n|             | Moon        |             |             |\n+-------------+-------------+-------------+-------------+\n|             |                           | Sat         |\n|             |                           | Mars  L     |\n|             |                           | Rahu        |\n+-------------+                           +-------------+\n| Ketu        |                           | Sun         |\n|             |                           | Mercury     |\n+-------------+-------------+-------------+-------------+\n|             |             | Jupiter     | Venus       |\n+-------------+-------------+-------------+-------------+\n```\n\nLagna is in Cancer, so houses are counted from there.\n\n| House | Sign | Planets |\n|---|---|---|\n| 1 (Lagna) | Cancer | Saturn, Mars, Rahu |\n| 2 | Leo | Sun, Mercury |\n| 3 | Virgo | Venus |\n| 4 | Libra | Jupiter |\n| 7 | Capricorn | Ketu |\n| 10 | Aries | Moon |\n\nAll other houses are empty."
+}

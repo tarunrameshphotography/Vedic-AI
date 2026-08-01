@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0006",
+ "book_id": "phaladeepika",
+ "seq": 6,
+ "source_ref": {
+  "pdf_page": 6
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "246d25c933c2421c3f3fd76b787df27e07ec3df827bc5f5f14b3a4abd7a536d7",
+ "lines": [
+  {
+   "text": "certain Nakshatras — Circumstances favourable for conception. 128-134",
+   "bbox": [
+    85,
+    57,
+    494,
+    73
+   ]
+  },
+  {
+   "text": "<b>Chapter 12: Birth of children (the 5th house)</b>",
+   "bbox": [
+    121,
+    82,
+    389,
+    97
+   ]
+  },
+  {
+   "text": "Planetary combinations for acquisition of children issuelessness, loss of ",
+   "bbox": [
+    121,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "children, limited progeny, having a child late In life, having a son from the second ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "wife, extinction of family, having a son by adoption, male and female children, ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "number of Issues and having children with great efforts -- Inauspicious Tithis for ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "births and their adverse effects and remedial measures for the same -- Method for ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "finding out the Dasa and Antardasa — Effects of transit of planets on the birth of ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "children. 135-145",
+   "bbox": [
+    85,
+    251,
+    185,
+    266
+   ]
+  },
+  {
+   "text": "<b>Chapter 13: Determination of longevity Essentials at the time of birth</b>",
+   "bbox": [
+    121,
+    275,
+    535,
+    290
+   ]
+  },
+  {
+   "text": "Early death due to own signs or those of father and mother and remedial ",
+   "bbox": [
+    121,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "measures Balarishta, yogarishta, Alpayus (short life), Madhyamayus, ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "circumstances In which father or mother or both will die after the birth of a child -- ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "Evil yogas viz. Dinamrityu, Dinaroga or Vlshaghatlka, death soon after birth -- ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "fateful degrees of the Moon which cause early death. The decanate Rasls of the ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "Lagna and the Moon, Navamsa Rasls of the lord of the Lagna and lord of the sign ",
+   "bbox": [
+    85,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "occupied by the Moon and the Dwadasamsa Rasls of the lord of Lagna and the lord ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "of 8th house -- Planetary combinations of long, medium and short life -- Evil ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "effects by a strong Jupiter posited In the Lagna, happy long life If Jupiter and lord ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "of the Lagna are posited In Kendra. 146-156",
+   "bbox": [
+    85,
+    516,
+    334,
+    532
+   ]
+  },
+  {
+   "text": "<b>Chapter 14: Diseases, death and past and future births</b>",
+   "bbox": [
+    121,
+    540,
+    447,
+    556
+   ]
+  },
+  {
+   "text": "Description of diseases by the various planets - Planetary combinations for ",
+   "bbox": [
+    121,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "occurrence of different kinds of diseases - Manner In which a person meets with ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "his death -Description of planets and Rasis and the diseases caused by them. ",
+   "bbox": [
+    85,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "Planetary combinations for happy and troublesome deaths and going to heaven or ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "hell -- Planets which give information about past and future births. 157-166",
+   "bbox": [
+    85,
+    661,
+    508,
+    677
+   ]
+  },
+  {
+   "text": "<b>Chapter 15: Assessment of houses</b>",
+   "bbox": [
+    121,
+    685,
+    322,
+    701
+   ]
+  },
+  {
+   "text": "Circumstances in which the various houses are strong and when they are ",
+   "bbox": [
+    121,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "weak -circumstances causing total destruction of a house-Description of planets ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "causing destruction of the house during their Dasa period -- Good effects of lord of ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "6",
+   "bbox": [
+    316,
+    793,
+    322,
+    806
+   ]
+  }
+ ]
+}

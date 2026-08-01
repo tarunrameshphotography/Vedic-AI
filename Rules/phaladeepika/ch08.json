@@ -1,0 +1,5082 @@
+{
+  "book_id": "phaladeepika",
+  "chapter": 8,
+  "cards": [
+    {
+      "id": "PD.08.Sun.01",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "1-4",
+        "page_anchor": "phaladeepika/p0092",
+        "tier": 1,
+        "quote": "If the Sun be In the 1st house at birth, the native will have scanty hair. He will be lazy, of hot disposition, impetuous and tall In stature. He will have soiled eyes and a lean and thin body. He will be cruel, impatient and valourous. The Sun in the 1st house with Cancer as the Lagna will give the native cataract in the eyes with the Lagna as Aries, the Sun in the 1st house will cause eye disease. In Leo Lagna the Sun will cause night blindness. If the Lagna be Libra and the Sun occupies it, the native will be devoid of wealth and suffer from loss of children.",
+        "quote_display": "If the Sun be In the 1st house at birth, the native will have scanty hair. He will be lazy, of hot disposition, impetuous and tall In stature. He will have soiled eyes and a lean and thin body. He will be cruel, impatient and valourous. The Sun in the 1st house with Cancer as the Lagna will give the native cataract in the eyes with the Lagna as Aries, the Sun in the 1st house will cause eye disease. In Leo Lagna the Sun will cause night blindness. If the Lagna be Libra and the Sun occupies it, the native will be devoid of wealth and suffer from loss of children.",
+        "quote_sha256": "4664e1a8083368fe2e9443975e65a51966957c249c2fbe63434bbd5b0e2b5ef3",
+        "char_span": [
+          179309,
+          179877
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Sun",
+              "house": 1
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Sun",
+        "house": 1
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Sun.02",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "1-4",
+        "page_anchor": "phaladeepika/p0092",
+        "tier": 1,
+        "quote": "When the Sun is in the 2nd house at birth, the person concerned will be without any learning; he will be shameless and will be stammering.",
+        "quote_display": "When the Sun is in the 2nd house at birth, the person concerned will be without any learning; he will be shameless and will be stammering.",
+        "quote_sha256": "1af56d93febd4c06801f730bd245295cb345a960d9e2faaca3a6f875de43b78a",
+        "char_span": [
+          179881,
+          180019
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Sun",
+              "house": 2
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Sun",
+        "house": 2
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Sun.03",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "1-4",
+        "page_anchor": "phaladeepika/p0092",
+        "tier": 1,
+        "quote": "Should the Sun occupy the 3rd house, the native will be powerful, valiant, wealthy and generous. He will have inimical relations with his kinsmen.",
+        "quote_display": "Should the Sun occupy the 3rd house, the native will be powerful, valiant, wealthy and generous. He will have inimical relations with his kinsmen.",
+        "quote_sha256": "8f9a8815747f94635123db1cda5e57a2b6ce5d9a06db65e210235c0c683b887c",
+        "char_span": [
+          180023,
+          180169
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Sun",
+              "house": 3
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Sun",
+        "house": 3
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Sun.04",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "1-4",
+        "page_anchor": "phaladeepika/p0092",
+        "tier": 1,
+        "quote": "If the Sun be in 4th house, the native will be bereft of happiness and comfort, relations, lands, friends and house. He will be in Government service and will squander away his ancestral property.",
+        "quote_display": "If the Sun be in 4th house, the native will be bereft of happiness and comfort, relations, lands, friends and house. He will be in Government service and will squander away his ancestral property.",
+        "quote_sha256": "343a739ceeb6594077b1cfad9606e16aac70a4e2928494d190cace9f7cc0af37",
+        "char_span": [
+          180173,
+          180369
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Sun",
+              "house": 4
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Sun",
+        "house": 4
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Sun.05",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "1-4",
+        "page_anchor": "phaladeepika/p0092",
+        "tier": 1,
+        "quote": "When the Sun is in the 5th house from the Lagna, the person concerned will be short tempered and will be deprived of happiness, wealth and children. He will be intelligent and wander in forest regions.",
+        "quote_display": "When the Sun is in the 5th house from the Lagna, the person concerned will be short tempered and will be deprived of happiness, wealth and children. He will be intelligent and wander in forest regions.",
+        "quote_sha256": "ee1cb9df1d343b675acccbc1b65af03648bfe73d05f320a24e347446be044885",
+        "char_span": [
+          180373,
+          180574
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Sun",
+              "house": 5
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Sun",
+        "house": 5
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Sun.06",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "1-4",
+        "page_anchor": "phaladeepika/p0092",
+        "tier": 1,
+        "quote": "If the Sun be in the 6th house, the native will become a king. He will earn renown and will be equipped with praiseworthy qualities. He will be wealthy and capable of overcoming his enemies.",
+        "quote_display": "If the Sun be in the 6th house, the native will become a king. He will earn renown and will be equipped with praiseworthy qualities. He will be wealthy and capable of overcoming his enemies.",
+        "quote_sha256": "d1cb373990cff9b33dad3ba6c599abdedcae8e80582a7204a11e9ebdd91fbba5",
+        "char_span": [
+          180578,
+          180768
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Sun",
+              "house": 6
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Sun",
+        "house": 6
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Sun.07",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "1-4",
+        "page_anchor": "phaladeepika/p0092",
+        "tier": 1,
+        "quote": "When the Sun is in the 7th at birth, the person concerned will suffer from the wrath of the king. He will have deformed body and will have no wife. He will suffer humiliation from others.",
+        "quote_display": "When the Sun is in the 7th at birth, the person concerned will suffer from the wrath of the king. He will have deformed body and will have no wife. He will suffer humiliation from others.",
+        "quote_sha256": "9d2ce914eeb67bca6d7ee700860cfab3320d8d728444ec4b8a31a7d13359fc14",
+        "char_span": [
+          180772,
+          180959
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Sun",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Sun",
+        "house": 7
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Sun.08",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "1-4",
+        "page_anchor": "phaladeepika/p0092",
+        "tier": 1,
+        "quote": "With the Sun in the 8th house, the person born will be deprived of his wealth and friends. He will be short-lived and suffer from defective eyesight. He can be blind also.",
+        "quote_display": "With the Sun in the 8th house, the person born will be deprived of his wealth and friends. He will be short-lived and suffer from defective eyesight. He can be blind also.",
+        "quote_sha256": "cedd4960bf1b2e7070907ded1d006ff06bad4c8b23d5f8e760b1b7d520192ce0",
+        "char_span": [
+          180963,
+          181134
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Sun",
+              "house": 8
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Sun",
+        "house": 8
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Sun.09",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "1-4",
+        "page_anchor": "phaladeepika/p0093",
+        "tier": 1,
+        "quote": "Should the Sun be In 9th house at birth, the person concerned is likely to suffer from the loss of his father, but he will not be deprived of children and relations. He will have due respect foi gods and Brahmins.",
+        "quote_display": "Should the Sun be In 9th house at birth, the person concerned is likely to suffer from the loss of his father, but he will not be deprived of children and relations. He will have due respect foi gods and Brahmins.",
+        "quote_sha256": "a8fdf42898b6e40a2c5308a8f1803466231aa90b5c5aa730263b8be0273da472",
+        "char_span": [
+          181466,
+          181679
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Sun",
+              "house": 9
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Sun",
+        "house": 9
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Sun.10",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "1-4",
+        "page_anchor": "phaladeepika/p0093",
+        "tier": 1,
+        "quote": "With the Sun in the 10th house, the native will be blessed with sons and will enjoy the comfort of conveyances. He will receive praise for his good conduct and will have Intelligence, wealth, strength and fame. He will be a king.",
+        "quote_display": "With the Sun in the 10th house, the native will be blessed with sons and will enjoy the comfort of conveyances. He will receive praise for his good conduct and will have Intelligence, wealth, strength and fame. He will be a king.",
+        "quote_sha256": "8145b883d9df5321e6a197908dd845296beb2628bac4d570c3d8465aada2dbd1",
+        "char_span": [
+          181683,
+          181912
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Sun",
+              "house": 10
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Sun",
+        "house": 10
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Sun.11",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "1-4",
+        "page_anchor": "phaladeepika/p0093",
+        "tier": 1,
+        "quote": "The Sun in the 11th house makes the native very wealthy and long lived. He will be a king with ever lasting happiness.",
+        "quote_display": "The Sun in the 11th house makes the native very wealthy and long lived. He will be a king with ever lasting happiness.",
+        "quote_sha256": "c44b2ca85dd1076901d6d0b9779fba53c9d73219a6e241945562ccca9f8fb2f9",
+        "char_span": [
+          182208,
+          182326
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Sun",
+              "house": 11
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Sun",
+        "house": 11
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Sun.12",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "1-4",
+        "page_anchor": "phaladeepika/p0093",
+        "tier": 1,
+        "quote": "Should the Sun be in the 12th house at birth the native will have inimical relations with his father. His eyesight will be defective and he will be devoid of wealth and children.",
+        "quote_display": "Should the Sun be in the 12th house at birth the native will have inimical relations with his father. His eyesight will be defective and he will be devoid of wealth and children.",
+        "quote_sha256": "3193ac56f446d3bd997476a4cb6ad8dd51a7e3c25d8e3f8154235ff6cfce26b4",
+        "char_span": [
+          182330,
+          182508
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Sun",
+              "house": 12
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Sun",
+        "house": 12
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Moon.01",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "5-7",
+        "page_anchor": "phaladeepika/p0093",
+        "tier": 1,
+        "quote": "If at birth the Moon be waxing and be posited in the first house (the lagna), the native will possess a strong constitution and will be longlived. He will be powerful, fearless and wealthy. The effects will be quite reverse if the Moon be waning.",
+        "quote_display": "If at birth the Moon be waxing and be posited in the first house (the lagna), the native will possess a strong constitution and will be longlived. He will be powerful, fearless and wealthy. The effects will be quite reverse if the Moon be waning.",
+        "quote_sha256": "4ed91af1d5c6b0284e8a4b5108d81758f2744f1ec039e22db378dbbfc0d9a5e6",
+        "char_span": [
+          182533,
+          182779
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Moon",
+              "house": 1
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Moon",
+        "house": 1
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Moon.02",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "5-7",
+        "page_anchor": "phaladeepika/p0093",
+        "tier": 1,
+        "quote": "If the Moon be posited in the 2nd house, the person born will be a man of learning, sweet in speech and wealthy. He will have a defective limb and be sensuous.",
+        "quote_display": "If the Moon be posited in the 2nd house, the person born will be a man of learning, sweet in speech and wealthy. He will have a defective limb and be sensuous.",
+        "quote_sha256": "8fcc50daffd6f9b73314d4f48e5c9ebd02fcb44e5b4af43968ea992968e1d6f6",
+        "char_span": [
+          182783,
+          182942
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Moon",
+              "house": 2
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Moon",
+        "house": 2
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Moon.03",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "5-7",
+        "page_anchor": "phaladeepika/p0093",
+        "tier": 1,
+        "quote": "If the Moon be in the 3rd house at birth the person born will have brothers. He will be lascivious, powerful and strong but very miserfy.",
+        "quote_display": "If the Moon be in the 3rd house at birth the person born will have brothers. He will be lascivious, powerful and strong but very miserfy.",
+        "quote_sha256": "0e1d07088fda8f0cbab5f2a064a31e7c873782c57ebe9844ebe51c2ac0496e24",
+        "char_span": [
+          182946,
+          183083
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Moon",
+              "house": 3
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Moon",
+        "house": 3
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Moon.04",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "5-7",
+        "page_anchor": "phaladeepika/p0093",
+        "tier": 1,
+        "quote": "Should the Moon be placed in the 4th house, the person concerned will be\r\n\r\n<!-- page phaladeepika/p0094 -->\r\nhappy, will be indulging in sensual pleasures He will be generous in gifts, will have good friends, will have comforts of conveyances and will enjoy a high reputation (Moon gets Digbala in the 4th).",
+        "quote_display": "Should the Moon be placed in the 4th house, the person concerned will be happy, will be indulging in sensual pleasures He will be generous in gifts, will have good friends, will have comforts of conveyances and will enjoy a high reputation (Moon gets Digbala in the 4th).",
+        "quote_sha256": "a7aabc253328fb6eb12272853a66a3428fd58deceba1849a4f1faf0ca838db73",
+        "char_span": [
+          183087,
+          183395
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Moon",
+              "house": 4
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Moon",
+        "house": 4
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Moon.05",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "5-7",
+        "page_anchor": "phaladeepika/p0094",
+        "tier": 1,
+        "quote": "If the Moon be in the 5th house at birth the person will walk gently, will be brilliant and will have good sons. Such a person becomes Minister of a king.",
+        "quote_display": "If the Moon be in the 5th house at birth the person will walk gently, will be brilliant and will have good sons. Such a person becomes Minister of a king.",
+        "quote_sha256": "d90b4c54f5c13c7dc04666a81431029dd3bd6762c7de2b21cd9e0aa13bfe2510",
+        "char_span": [
+          183399,
+          183553
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Moon",
+              "house": 5
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Moon",
+        "house": 5
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Moon.06",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "5-7",
+        "page_anchor": "phaladeepika/p0094",
+        "tier": 1,
+        "quote": "If the Moon be in the sixth house the person born will be short lived, will be stupid and sufferer of stomach ailments. He will aslo face humiliation.",
+        "quote_display": "If the Moon be in the sixth house the person born will be short lived, will be stupid and sufferer of stomach ailments. He will aslo face humiliation.",
+        "quote_sha256": "f8085c2a7de457632c3deabe9c1e1583bc2c062327d2eb414aa0135e16e35f5f",
+        "char_span": [
+          183557,
+          183707
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Moon",
+              "house": 6
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Moon",
+        "house": 6
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Moon.07",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "5-7",
+        "page_anchor": "phaladeepika/p0094",
+        "tier": 1,
+        "quote": "Should the Moon be housed in the 7th at birth, the person concerned will be beautiful in his looks, and will be loved by a faithful and illustrious wife.",
+        "quote_display": "Should the Moon be housed in the 7th at birth, the person concerned will be beautiful in his looks, and will be loved by a faithful and illustrious wife.",
+        "quote_sha256": "1d13f69e6d9ebb0c82cb91da06b654b4e48551ecce24d8d3d78a8b6936910f3f",
+        "char_span": [
+          183711,
+          183864
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Moon",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Moon",
+        "house": 7
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Moon.08",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "5-7",
+        "page_anchor": "phaladeepika/p0094",
+        "tier": 1,
+        "quote": "When the Moon occupies the 8th house at birth, the person concerned will be sickly and shortlived.",
+        "quote_display": "When the Moon occupies the 8th house at birth, the person concerned will be sickly and shortlived.",
+        "quote_sha256": "9dafab9f296eadc8f5012f3730af6fc1b561468fee9f783df0655a9e6f569914",
+        "char_span": [
+          183868,
+          183966
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Moon",
+              "house": 8
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Moon",
+        "house": 8
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Moon.09",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "5-7",
+        "page_anchor": "phaladeepika/p0094",
+        "tier": 1,
+        "quote": "Should the Moon happen to be in the 9th house, the person born will be wealthy, virtuous and will be blessed with children.",
+        "quote_display": "Should the Moon happen to be in the 9th house, the person born will be wealthy, virtuous and will be blessed with children.",
+        "quote_sha256": "c1e90bf11c7b57beacc53ce8755fa11ad8710eb5173665fbbe1107720aeb2613",
+        "char_span": [
+          183970,
+          184093
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Moon",
+              "house": 9
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Moon",
+        "house": 9
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Moon.10",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "5-7",
+        "page_anchor": "phaladeepika/p0094",
+        "tier": 1,
+        "quote": "The Moon in 10th house at birth makes the native victorious over his enemies, and achieve success in all his ventures. He will be engaged in pious deeds and will be a supporter of good people.",
+        "quote_display": "The Moon in 10th house at birth makes the native victorious over his enemies, and achieve success in all his ventures. He will be engaged in pious deeds and will be a supporter of good people.",
+        "quote_sha256": "2863ccdd4aeaa1441c9457c644e8e78eee1f40eae263e5604a803bdcdce14a42",
+        "char_span": [
+          184097,
+          184289
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Moon",
+              "house": 10
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Moon",
+        "house": 10
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Moon.11",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "5-7",
+        "page_anchor": "phaladeepika/p0094",
+        "tier": 1,
+        "quote": "Should the Moon occupy the 11th house at birth, the person concerned will be high minded, longlived and wealthy and will be blessed with children. He will also have comforts of servants.",
+        "quote_display": "Should the Moon occupy the 11th house at birth, the person concerned will be high minded, longlived and wealthy and will be blessed with children. He will also have comforts of servants.",
+        "quote_sha256": "76a6548f6d8ed5e805685c73c5b8f1077b4fc31752ec26a02906ff8a6ba98e1a",
+        "char_span": [
+          184293,
+          184479
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Moon",
+              "house": 11
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Moon",
+        "house": 11
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Moon.12",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "5-7",
+        "page_anchor": "phaladeepika/p0094",
+        "tier": 1,
+        "quote": "When the Moon is placed in the 12th house, the native is indolent, humiliated and unhappy. Others have animosity against him.",
+        "quote_display": "When the Moon is placed in the 12th house, the native is indolent, humiliated and unhappy. Others have animosity against him.",
+        "quote_sha256": "ff7fe20f78c3f82b92590145b0e1abd8d83cdc9867b7e51a5cba32c04c84e35f",
+        "char_span": [
+          184483,
+          184608
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Moon",
+              "house": 12
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Moon",
+        "house": 12
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Mars.01",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "8-10",
+        "page_anchor": "phaladeepika/p0094",
+        "tier": 1,
+        "quote": "If Mars occupies the 1st house or the Lagna, the native will be very cruel but valourous. He will be short lived and his body will get bruised.",
+        "quote_display": "If Mars occupies the 1st house or the Lagna, the native will be very cruel but valourous. He will be short lived and his body will get bruised.",
+        "quote_sha256": "fbfb76b1022e82a7c53949b24d2cc29e83b26260bb83230621517c7dcc1d8b78",
+        "char_span": [
+          184630,
+          184773
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mars",
+              "house": 1
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Mars",
+        "house": 1
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Mars.02",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "8-10",
+        "page_anchor": "phaladeepika/p0094",
+        "tier": 1,
+        "quote": "When Mars is posited in the 2nd house at birth, the native will not be good looking and will not be clever in speaking. He will have tearing and will be devoid of wealth. He will be serving low people.",
+        "quote_display": "When Mars is posited in the 2nd house at birth, the native will not be good looking and will not be clever in speaking. He will have tearing and will be devoid of wealth. He will be serving low people.",
+        "quote_sha256": "bfa361bb1996e8a55772ec220896ff3f970f97ed6120896146f15176c5b86dc2",
+        "char_span": [
+          184777,
+          184978
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mars",
+              "house": 2
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Mars",
+        "house": 2
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Mars.03",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "8-10",
+        "page_anchor": "phaladeepika/p0094",
+        "tier": 1,
+        "quote": "Should Mars be in the 3rd house at birth, the person concerned will be equipped with qualities, will be powerful, happy and brave. He will be not subdued by others. But he will be deprived of the happiness of brothers.",
+        "quote_display": "Should Mars be in the 3rd house at birth, the person concerned will be equipped with qualities, will be powerful, happy and brave. He will be not subdued by others. But he will be deprived of the happiness of brothers.",
+        "quote_sha256": "0ffe35d9cb233da225d2b5149c39ba14620b1236f6acf5d3d4281e0b6e74322b",
+        "char_span": [
+          184982,
+          185200
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mars",
+              "house": 3
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Mars",
+        "house": 3
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Mars.04",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "8-10",
+        "page_anchor": "phaladeepika/p0095",
+        "tier": 1,
+        "quote": "When Mars is placed in the 4th house, the native will be bereft of mother, friends, happiness, conveyances and lands.",
+        "quote_display": "When Mars is placed in the 4th house, the native will be bereft of mother, friends, happiness, conveyances and lands.",
+        "quote_sha256": "56785c9e3d586badb3b222a5e2b40f1060e6af438c845f560f6bf7e2dd868bc0",
+        "char_span": [
+          185238,
+          185355
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mars",
+              "house": 4
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Mars",
+        "house": 4
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Mars.05",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "8-10",
+        "page_anchor": "phaladeepika/p0095",
+        "tier": 1,
+        "quote": "The person concerned will have no children and will face many disasters, should the Mars happen to occupy the 5th house at birth. The native will be a talebearer and without enough intelligence.",
+        "quote_display": "The person concerned will have no children and will face many disasters, should the Mars happen to occupy the 5th house at birth. The native will be a talebearer and without enough intelligence.",
+        "quote_sha256": "cdbde64709d4b4ec8a65cc4673109ac3e50dec2223a704c27d28d24ab65111e0",
+        "char_span": [
+          185359,
+          185553
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mars",
+              "house": 5
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Mars",
+        "house": 5
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Mars.06",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "8-10",
+        "page_anchor": "phaladeepika/p0095",
+        "tier": 1,
+        "quote": "Should Mars happen to occupy the 6th house at birth, the person concerned will be wealthy, generous, capable of vanquishing his enemies and will have splendour like that of a king. Mars in the 6th makes the native very sensuous.",
+        "quote_display": "Should Mars happen to occupy the 6th house at birth, the person concerned will be wealthy, generous, capable of vanquishing his enemies and will have splendour like that of a king. Mars in the 6th makes the native very sensuous.",
+        "quote_sha256": "71d461d9c3d1337b613b2defc42a349ad55164add8d9c0bd613a81767cab3dcb",
+        "char_span": [
+          185557,
+          185785
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mars",
+              "house": 6
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Mars",
+        "house": 6
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Mars.07",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "8-10",
+        "page_anchor": "phaladeepika/p0095",
+        "tier": 1,
+        "quote": "When Mars is in the 7th, the person born will indulge in undesirable actions, will be afflicted by diseases and will have a wife who will die prematurely.",
+        "quote_display": "When Mars is in the 7th, the person born will indulge in undesirable actions, will be afflicted by diseases and will have a wife who will die prematurely.",
+        "quote_sha256": "cdfda2b929311d90489b4e59de88722ea5f8dbca6388bc2bb0e03987b14e1930",
+        "char_span": [
+          185789,
+          185943
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mars",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Mars",
+        "house": 7
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Mars.08",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "8-10",
+        "page_anchor": "phaladeepika/p0095",
+        "tier": 1,
+        "quote": "Mars in the 8th house gives the native a diseased body, deprive him of wealth and makes him shortlived and reviled by others.",
+        "quote_display": "Mars in the 8th house gives the native a diseased body, deprive him of wealth and makes him shortlived and reviled by others.",
+        "quote_sha256": "6b7e917aa8ba69c89f0db47dd904b72a5858101d347a995d163176e29e03c54a",
+        "char_span": [
+          186289,
+          186414
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mars",
+              "house": 8
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Mars",
+        "house": 8
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Mars.09",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "8-10",
+        "page_anchor": "phaladeepika/p0095",
+        "tier": 1,
+        "quote": "Should Mars occupy the 9th house, the native will face animosity from others even if he be a favourite of the king. He will not enjoy the happiness of his father (i.e. he will lose his father prematurely), and will oppress other people.",
+        "quote_display": "Should Mars occupy the 9th house, the native will face animosity from others even if he be a favourite of the king. He will not enjoy the happiness of his father (i.e. he will lose his father prematurely), and will oppress other people.",
+        "quote_sha256": "aa30566892c595b1c5fb089e4a277d95a60d09cf71c873ce6868f1be4a1a9efd",
+        "char_span": [
+          186415,
+          186651
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mars",
+              "house": 9
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Mars",
+        "house": 9
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Mars.10",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "8-10",
+        "page_anchor": "phaladeepika/p0095",
+        "tier": 1,
+        "quote": "If Mars be in the 10th house the person though cruel by nature will be charitable and will be like a king. He will be valiant and will be extolled even by great personalities.",
+        "quote_display": "If Mars be in the 10th house the person though cruel by nature will be charitable and will be like a king. He will be valiant and will be extolled even by great personalities.",
+        "quote_sha256": "7342819e6bbf80863a0a206b7ae08d653466083fc05538d1fa20aa2b86cbd32a",
+        "char_span": [
+          186655,
+          186830
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mars",
+              "house": 10
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Mars",
+        "house": 10
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Mars.11",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "8-10",
+        "page_anchor": "phaladeepika/p0095",
+        "tier": 1,
+        "quote": "When Mars occupies the 11th house the native will be powerful, wealthy, valourous, of good conduct, and happy.",
+        "quote_display": "When Mars occupies the 11th house the native will be powerful, wealthy, valourous, of good conduct, and happy.",
+        "quote_sha256": "1b2476508a2f98e39b53cb15a1debe155b338df076aeeeb252768d9b959260e7",
+        "char_span": [
+          186834,
+          186944
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mars",
+              "house": 11
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Mars",
+        "house": 11
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Mars.12",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "8-10",
+        "page_anchor": "phaladeepika/p0095",
+        "tier": 1,
+        "quote": "Mars in the 12th house makes the native a talebearer and cruel. He will be devoid of wife, and mean by nature. He will suffer from eye diseases.",
+        "quote_display": "Mars in the 12th house makes the native a talebearer and cruel. He will be devoid of wife, and mean by nature. He will suffer from eye diseases.",
+        "quote_sha256": "e61c47535386b6ac42aa798597a31bb99f39c55f53ec03d4e2257deb681ed3dd",
+        "char_span": [
+          186948,
+          187092
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mars",
+              "house": 12
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Mars",
+        "house": 12
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Mercury.01",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "11-13",
+        "page_anchor": "phaladeepika/p0095",
+        "tier": 1,
+        "quote": "Should Mercury be posited in the 1st house or the lagna, the native will be learned in all Shastras, will be soft spoken and longlived.",
+        "quote_display": "Should Mercury be posited in the 1st house or the lagna, the native will be learned in all Shastras, will be soft spoken and longlived.",
+        "quote_sha256": "6f437c42db4a468edafffcb2cf7881dd7d3ab97d9f184fa851f5454a92211f90",
+        "char_span": [
+          187118,
+          187253
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mercury",
+              "house": 1
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Mercury",
+        "house": 1
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Mercury.02",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "11-13",
+        "page_anchor": "phaladeepika/p0096",
+        "tier": 1,
+        "quote": "If Mercury happens to occupy the 2nd house at birth the person earns his livelihood by his intelligence. He will compose poems and will be cultured in his speech. He will get sweetish preparations to eat.",
+        "quote_display": "If Mercury happens to occupy the 2nd house at birth the person earns his livelihood by his intelligence. He will compose poems and will be cultured in his speech. He will get sweetish preparations to eat.",
+        "quote_sha256": "7ea5aec0eff7ffcde7f9668991ea52f288607497b30f883dff804c2507df6051",
+        "char_span": [
+          187291,
+          187495
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mercury",
+              "house": 2
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Mercury",
+        "house": 2
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Mercury.03",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "11-13",
+        "page_anchor": "phaladeepika/p0096",
+        "tier": 1,
+        "quote": "If Mercury be in the 3rd house, the person born will be brave but will have a medium span of life. He will have good brothers and sisters, but he will suffer from fatigue and be dejected.",
+        "quote_display": "If Mercury be in the 3rd house, the person born will be brave but will have a medium span of life. He will have good brothers and sisters, but he will suffer from fatigue and be dejected.",
+        "quote_sha256": "6c2104f4fe630ccb1da73e8bfd9edbff95c0b190641cc394a6ac6c12149d120d",
+        "char_span": [
+          187499,
+          187686
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mercury",
+              "house": 3
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Mercury",
+        "house": 3
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Mercury.04",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "11-13",
+        "page_anchor": "phaladeepika/p0096",
+        "tier": 1,
+        "quote": "When Mercury occupies the 4th house, the person born will be learned and witty. He will be possessed of friends, wealth and happiness.",
+        "quote_display": "When Mercury occupies the 4th house, the person born will be learned and witty. He will be possessed of friends, wealth and happiness.",
+        "quote_sha256": "099809867e93edd042d1e2931e9fd3b7db42e5f310d884dca8e4339ca42e296f",
+        "char_span": [
+          187690,
+          187824
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mercury",
+              "house": 4
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Mercury",
+        "house": 4
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Mercury.05",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "11-13",
+        "page_anchor": "phaladeepika/p0096",
+        "tier": 1,
+        "quote": "With Mercury in the 5th, the native will be learned, happy and courageous. He will be blessed with children and will be well versed in Mantras.",
+        "quote_display": "With Mercury in the 5th, the native will be learned, happy and courageous. He will be blessed with children and will be well versed in Mantras.",
+        "quote_sha256": "abd27715bb75eccaaec553713a45ef43d7e5b7eae77bfaee28d9e50494917c88",
+        "char_span": [
+          187828,
+          187971
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mercury",
+              "house": 5
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Mercury",
+        "house": 5
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Mercury.06",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "11-13",
+        "page_anchor": "phaladeepika/p0096",
+        "tier": 1,
+        "quote": "Should Mercury happen to occupy 6th house, the native will be indolent, harsh in speech and will be capable of overcoming his enemies. He will become adament when people enter into arguments with him.",
+        "quote_display": "Should Mercury happen to occupy 6th house, the native will be indolent, harsh in speech and will be capable of overcoming his enemies. He will become adament when people enter into arguments with him.",
+        "quote_sha256": "b81fdb1d3f151275b0b1ef94d06b558482dee30d02a86935aeac366379953645",
+        "char_span": [
+          187975,
+          188175
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mercury",
+              "house": 6
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Mercury",
+        "house": 6
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Mercury.07",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "11-13",
+        "page_anchor": "phaladeepika/p0096",
+        "tier": 1,
+        "quote": "Mercury occupying the 7th house makes the native learned, decently dressed. He will have all greatness and a wealthy woman as his wife.",
+        "quote_display": "Mercury occupying the 7th house makes the native learned, decently dressed. He will have all greatness and a wealthy woman as his wife.",
+        "quote_sha256": "ab4116035f4b267d2e647eec18a82f727184f3b6b102c9a36a548d1d887bb2bf",
+        "char_span": [
+          188179,
+          188314
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mercury",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Mercury",
+        "house": 7
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Mercury.08",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "11-13",
+        "page_anchor": "phaladeepika/p0096",
+        "tier": 1,
+        "quote": "When Mercury is in the 8th house at birth the person concerned will be widely renowned and longlived. He will be the supporter of his family, a lord and a commander of army.",
+        "quote_display": "When Mercury is in the 8th house at birth the person concerned will be widely renowned and longlived. He will be the supporter of his family, a lord and a commander of army.",
+        "quote_sha256": "fa4248294985a0d26a36536378eaf5daeb54a66b26689aff236fe49d4cd33694",
+        "char_span": [
+          188318,
+          188491
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mercury",
+              "house": 8
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Mercury",
+        "house": 8
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Mercury.09",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "11-13",
+        "page_anchor": "phaladeepika/p0096",
+        "tier": 1,
+        "quote": "With the Mercury occupying the 9th house, the native will be learned, wealthy, religious minded and observer of virtuous conduct. He will be well versed in everything and will not be reserved in speaking.",
+        "quote_display": "With the Mercury occupying the 9th house, the native will be learned, wealthy, religious minded and observer of virtuous conduct. He will be well versed in everything and will not be reserved in speaking.",
+        "quote_sha256": "0ad08e1e14f577cd319498502da1af773594b08cf2d84614c545122002d30379",
+        "char_span": [
+          188495,
+          188699
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mercury",
+              "house": 9
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Mercury",
+        "house": 9
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Mercury.10",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "11-13",
+        "page_anchor": "phaladeepika/p0096",
+        "tier": 1,
+        "quote": "If Mercury be posited in the 10th house at birth, the native will be learned, powerful, wise, happy, virtuous and will stick to his word. He will be successful from the very beginning in all his ventures.",
+        "quote_display": "If Mercury be posited in the 10th house at birth, the native will be learned, powerful, wise, happy, virtuous and will stick to his word. He will be successful from the very beginning in all his ventures.",
+        "quote_sha256": "7797a5d07b862aef59347b69f3c50df9a1804cb428ed0a24d6bf5b476f74fae7",
+        "char_span": [
+          188703,
+          188907
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mercury",
+              "house": 10
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Mercury",
+        "house": 10
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Mercury.11",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "11-13",
+        "page_anchor": "phaladeepika/p0096",
+        "tier": 1,
+        "quote": "Should Mercury occupy the 11th house, the person will be longlived. He will keep his word, and will be very wealthy and nappy. He will enjoy the comforts of servants.",
+        "quote_display": "Should Mercury occupy the 11th house, the person will be longlived. He will keep his word, and will be very wealthy and nappy. He will enjoy the comforts of servants.",
+        "quote_sha256": "2bd09b04d161381a13c6b6f71ff906b80681f587f4e0a86c6d260a1649572ebe",
+        "char_span": [
+          188911,
+          189077
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mercury",
+              "house": 11
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Mercury",
+        "house": 11
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Mercury.12",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "11-13",
+        "page_anchor": "phaladeepika/p0096",
+        "tier": 1,
+        "quote": "Mercury in the 12th makes the native poor and helpless, indolent and cruel and without any education. He will also suffer from humiliation",
+        "quote_display": "Mercury in the 12th makes the native poor and helpless, indolent and cruel and without any education. He will also suffer from humiliation",
+        "quote_sha256": "f9e7757f82095d73b7b578beccd0200acb6a39c39f306a157752bc256568156a",
+        "char_span": [
+          189081,
+          189219
+        ],
+        "span_trimmed": "The section heading 'JUPITER' is run onto the end of Mercury's 12th-house paragraph in Knowledge/phaladeepika.md (printed p.96, line 'He will also suffer from humiliation JUPITER'). It is a heading, not part of Mercury's rule. The corpus is left as printed; only this card's span is tightened."
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mercury",
+              "house": 12
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Mercury",
+        "house": 12
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Jupiter.01",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "14-16",
+        "page_anchor": "phaladeepika/p0096",
+        "tier": 1,
+        "quote": "If Jupiter be in Lagna at birth, the person concerned will be\r\n\r\n<!-- page phaladeepika/p0097 -->\r\nhandsome and attractive, virtuous, longlived and fearless. He will be blessed with the grace of God.",
+        "quote_display": "If Jupiter be in Lagna at birth, the person concerned will be handsome and attractive, virtuous, longlived and fearless. He will be blessed with the grace of God.",
+        "quote_sha256": "f30e13ec5a39d1c5f148d4195eb7fa7749bb5cd9e01b3f0564d5b72a5cf31829",
+        "char_span": [
+          189238,
+          189437
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Jupiter",
+              "house": 1
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Jupiter",
+        "house": 1
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Jupiter.02",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "14-16",
+        "page_anchor": "phaladeepika/p0097",
+        "tier": 1,
+        "quote": "Should Jupiter occupy the 2nd house at birth, the person concerned will be learned and wealthy, will possess a beautiful face and will be eloquent in speech. He will enjoy food of high standard.",
+        "quote_display": "Should Jupiter occupy the 2nd house at birth, the person concerned will be learned and wealthy, will possess a beautiful face and will be eloquent in speech. He will enjoy food of high standard.",
+        "quote_sha256": "5b6be1b2aa912a58c7cbe436addb3ac3406405aaf47deb9b67fc62b23c3629c5",
+        "char_span": [
+          189804,
+          189998
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Jupiter",
+              "house": 2
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Jupiter",
+        "house": 2
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Jupiter.03",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "14-16",
+        "page_anchor": "phaladeepika/p0097",
+        "tier": 1,
+        "quote": "If Jupiter be placed in the 3rd house, the person born will be sinful, wicked and miserly He will suffer humiliation but one of his brothers will attain a position of honour and will be renowned.",
+        "quote_display": "If Jupiter be placed in the 3rd house, the person born will be sinful, wicked and miserly He will suffer humiliation but one of his brothers will attain a position of honour and will be renowned.",
+        "quote_sha256": "ad1dbf08e807f9955659cbe8f03b67be2fa185080b4eb0d442e22dc68b630880",
+        "char_span": [
+          190002,
+          190197
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Jupiter",
+              "house": 3
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Jupiter",
+        "house": 3
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Jupiter.04",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "14-16",
+        "page_anchor": "phaladeepika/p0097",
+        "tier": 1,
+        "quote": "With Jupiter posited in the 4th, person will be happy and will live with mother, friends, sons and servants. He will have plenty of grains.",
+        "quote_display": "With Jupiter posited in the 4th, person will be happy and will live with mother, friends, sons and servants. He will have plenty of grains.",
+        "quote_sha256": "3831d75a4b0284735f7d1622880317be88cb3d5252de1fe0df2452ff324bc078",
+        "char_span": [
+          190201,
+          190340
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Jupiter",
+              "house": 4
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Jupiter",
+        "house": 4
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Jupiter.05",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "14-16",
+        "page_anchor": "phaladeepika/p0097",
+        "tier": 1,
+        "quote": "Should Jupiter be in the 5th house, the native will suffer from distress from sons (children). He will be learned and a minister of the king.",
+        "quote_display": "Should Jupiter be in the 5th house, the native will suffer from distress from sons (children). He will be learned and a minister of the king.",
+        "quote_sha256": "2480e61a99c3ef297f08884fb4f30f9e216748df7e01fba8a36e334d4a672c47",
+        "char_span": [
+          190344,
+          190485
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Jupiter",
+              "house": 5
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Jupiter",
+        "house": 5
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Jupiter.06",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "14-16",
+        "page_anchor": "phaladeepika/p0097",
+        "tier": 1,
+        "quote": "If Jupiter occupies the 6th house at birth, the native will destroy his enemies but he will be lazy and will be humiliated. He will be clever and well versed in the recitation and utility of Mantras.",
+        "quote_display": "If Jupiter occupies the 6th house at birth, the native will destroy his enemies but he will be lazy and will be humiliated. He will be clever and well versed in the recitation and utility of Mantras.",
+        "quote_sha256": "609c0000e853a71b9bc12e84d3839133252c1e6f8ee8b62e150270c1e293ecad",
+        "char_span": [
+          190489,
+          190688
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Jupiter",
+              "house": 6
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Jupiter",
+        "house": 6
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Jupiter.07",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "14-16",
+        "page_anchor": "phaladeepika/p0097",
+        "tier": 1,
+        "quote": "When Jupiter is posited in 7th house at birth, the native will be blessed with a decent wife and children. He will be handsome and more liberal than his father.",
+        "quote_display": "When Jupiter is posited in 7th house at birth, the native will be blessed with a decent wife and children. He will be handsome and more liberal than his father.",
+        "quote_sha256": "e6b64b22528a3206a8ac309c8edb7a584f174a18f69ffc3fea4c316cd61f31ff",
+        "char_span": [
+          190692,
+          190852
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Jupiter",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Jupiter",
+        "house": 7
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Jupiter.08",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "14-16",
+        "page_anchor": "phaladeepika/p0097",
+        "tier": 1,
+        "quote": "With Jupiter in the 8th house at birth, the native will be poor and helpless and earns his livelihood through servants or menials. He will indulge in mean action, but will be longlived.",
+        "quote_display": "With Jupiter in the 8th house at birth, the native will be poor and helpless and earns his livelihood through servants or menials. He will indulge in mean action, but will be longlived.",
+        "quote_sha256": "0a247d766b0a9cbe43dbb8fe8e96817f1a181ae28e381584969422e6aeb31b58",
+        "char_span": [
+          190856,
+          191041
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Jupiter",
+              "house": 8
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Jupiter",
+        "house": 8
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Jupiter.09",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "14-16",
+        "page_anchor": "phaladeepika/p0097",
+        "tier": 1,
+        "quote": "If Jupiter be in 9th house at birth, the native, will be wealthy and will be blessed with sons (children). He will be famous and will be eager to perform virtuous deeds and religious rites. He will become a minister of the king.",
+        "quote_display": "If Jupiter be in 9th house at birth, the native, will be wealthy and will be blessed with sons (children). He will be famous and will be eager to perform virtuous deeds and religious rites. He will become a minister of the king.",
+        "quote_sha256": "c3b8076367934029be122c5733594a3618923dc8f2c72d4a0f0ad8105db36951",
+        "char_span": [
+          191045,
+          191273
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Jupiter",
+              "house": 9
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Jupiter",
+        "house": 9
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Jupiter.10",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "14-16",
+        "page_anchor": "phaladeepika/p0097",
+        "tier": 1,
+        "quote": "Should Jupiter be occupying the 10th house at birth, the native will be very wealthy and a favourite of the king. Be earns a high reputation and is virtuous.",
+        "quote_display": "Should Jupiter be occupying the 10th house at birth, the native will be very wealthy and a favourite of the king. Be earns a high reputation and is virtuous.",
+        "quote_sha256": "678517b66243a7318b8cadd34cefee91cfa84ec13df31e0222e74b3bcdf467bf",
+        "char_span": [
+          191277,
+          191434
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Jupiter",
+              "house": 10
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Jupiter",
+        "house": 10
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Jupiter.11",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "14-16",
+        "page_anchor": "phaladeepika/p0098",
+        "tier": 1,
+        "quote": "Jupiter in 11th house at birth makes the native wealthy, longlived and fearless. He gets few children; but enjoys the comforts of conveyances.",
+        "quote_display": "Jupiter in 11th house at birth makes the native wealthy, longlived and fearless. He gets few children; but enjoys the comforts of conveyances.",
+        "quote_sha256": "c7c5d37eef7e85f6fbd14f06c0670e924487abdfbf3c9658f2bd5d4dfa89524e",
+        "char_span": [
+          191472,
+          191614
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Jupiter",
+              "house": 11
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Jupiter",
+        "house": 11
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Jupiter.12",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "14-16",
+        "page_anchor": "phaladeepika/p0098",
+        "tier": 1,
+        "quote": "When Jupiter occupies the 12th house, the native will earn animosity ol others, and will himself use abusive language. He will be childless , sinful, indolent and a person who serves others.",
+        "quote_display": "When Jupiter occupies the 12th house, the native will earn animosity ol others, and will himself use abusive language. He will be childless , sinful, indolent and a person who serves others.",
+        "quote_sha256": "7a9a80cd70f5685140e63ffc934a24a732044dcbd67af986cd022d3c9e5faba9",
+        "char_span": [
+          191618,
+          191808
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Jupiter",
+              "house": 12
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Jupiter",
+        "house": 12
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Venus.01",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "17-19",
+        "page_anchor": "phaladeepika/p0098",
+        "tier": 1,
+        "quote": "If Venus be posited in the lagna at birth, the native will have a beautiful and attractive body, and will be happy and longlived.",
+        "quote_display": "If Venus be posited in the lagna at birth, the native will have a beautiful and attractive body, and will be happy and longlived.",
+        "quote_sha256": "4ffb7e5c439d50d1a31f14b7ef1f85c5d3d849d4ef37abf179d344fe3f495d0c",
+        "char_span": [
+          191832,
+          191961
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Venus",
+              "house": 1
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Venus",
+        "house": 1
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Venus.02",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "17-19",
+        "page_anchor": "phaladeepika/p0098",
+        "tier": 1,
+        "quote": "Should Venus occupy the 2nd house at birth, the native will be a poet and will enjoy riches of various kinds.",
+        "quote_display": "Should Venus occupy the 2nd house at birth, the native will be a poet and will enjoy riches of various kinds.",
+        "quote_sha256": "fdca4be0d16470e8f6560e4e003a5151384b1318818e99735ecae92231993d06",
+        "char_span": [
+          192140,
+          192249
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Venus",
+              "house": 2
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Venus",
+        "house": 2
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Venus.03",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "17-19",
+        "page_anchor": "phaladeepika/p0098",
+        "tier": 1,
+        "quote": "If Venus be In the 3rd house at birth, the native will be miserly, unpopular, devoid of wealth, happiness and wife.",
+        "quote_display": "If Venus be In the 3rd house at birth, the native will be miserly, unpopular, devoid of wealth, happiness and wife.",
+        "quote_sha256": "ddbe7e75491604689741b66815e4e4ff5dc95754c4266094d86f42412a9a80b3",
+        "char_span": [
+          192253,
+          192368
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Venus",
+              "house": 3
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Venus",
+        "house": 3
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Venus.04",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "17-19",
+        "page_anchor": "phaladeepika/p0098",
+        "tier": 1,
+        "quote": "With Venus occupying the 4th house, the person born, the native will be endowed with good conveyances, a decent house, ornaments, clothes and scents.",
+        "quote_display": "With Venus occupying the 4th house, the person born, the native will be endowed with good conveyances, a decent house, ornaments, clothes and scents.",
+        "quote_sha256": "0d996781ffccbf47f8e1a97ce158c1658bd24446107578a66be835c78795ce09",
+        "char_span": [
+          192372,
+          192521
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Venus",
+              "house": 4
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Venus",
+        "house": 4
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Venus.05",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "17-19",
+        "page_anchor": "phaladeepika/p0098",
+        "tier": 1,
+        "quote": "When Venus be in the 5th house at birth, the native will be endowed with wealth and will be as influential and renowned as a king. He will be learned and will be blessed with the happiness of children.",
+        "quote_display": "When Venus be in the 5th house at birth, the native will be endowed with wealth and will be as influential and renowned as a king. He will be learned and will be blessed with the happiness of children.",
+        "quote_sha256": "e1dc141a6c7b044a96d6a6bbaf691b3ba1edfe6a50f7bd59165f8e83581f6d58",
+        "char_span": [
+          192525,
+          192726
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Venus",
+              "house": 5
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Venus",
+        "house": 5
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Venus.06",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "17-19",
+        "page_anchor": "phaladeepika/p0098",
+        "tier": 1,
+        "quote": "With Venus posited in the 6th house at birth, the native will have no enemies, but he will be devoid of wealth. He will develop ilicit relations with several young girls, but will not enjoy happiness.",
+        "quote_display": "With Venus posited in the 6th house at birth, the native will have no enemies, but he will be devoid of wealth. He will develop ilicit relations with several young girls, but will not enjoy happiness.",
+        "quote_sha256": "50d15f8ab505296143ddda6c4896e57b7303b83a844814a6fe42f963daacd474",
+        "char_span": [
+          192730,
+          192930
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Venus",
+              "house": 6
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Venus",
+        "house": 6
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Venus.07",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "17-19",
+        "page_anchor": "phaladeepika/p0098",
+        "tier": 1,
+        "quote": "Should Venus be placed in 7th house at birth, the native will enjoy the company of a faithful and beautiful wife and he may lose his wife. He will be wealthy and will have intrigues with bad women.",
+        "quote_display": "Should Venus be placed in 7th house at birth, the native will enjoy the company of a faithful and beautiful wife and he may lose his wife. He will be wealthy and will have intrigues with bad women.",
+        "quote_sha256": "810340543fd385d2586f345506ff0a1a1d9758d3bbd94790fa282793772082f4",
+        "char_span": [
+          192934,
+          193131
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Venus",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Venus",
+        "house": 7
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Venus.08",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "17-19",
+        "page_anchor": "phaladeepika/p0098",
+        "tier": 1,
+        "quote": "Venus posited in the 8th house at birth, will make the native wealthy, longlived and a landlord.",
+        "quote_display": "Venus posited in the 8th house at birth, will make the native wealthy, longlived and a landlord.",
+        "quote_sha256": "5c697e7bfe061c5b2085cb9c98621833a2123a99010fd6b57684116fb6de2499",
+        "char_span": [
+          193135,
+          193231
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Venus",
+              "house": 8
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Venus",
+        "house": 8
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Venus.09",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "17-19",
+        "page_anchor": "phaladeepika/p0098",
+        "tier": 1,
+        "quote": "If Venus occupies the 9th house at birth, the native will draw his fortune through the beneficience of the king. He will be blessed with wife, sons and\r\n\r\n<!-- page phaladeepika/p0099 -->\r\nfriends.",
+        "quote_display": "If Venus occupies the 9th house at birth, the native will draw his fortune through the beneficience of the king. He will be blessed with wife, sons and friends.",
+        "quote_sha256": "859611ec25f72e2637d519e116bba44f6c10f78c14bfeb73809c67beb9ddd717",
+        "char_span": [
+          193235,
+          193432
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Venus",
+              "house": 9
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Venus",
+        "house": 9
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Venus.10",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "17-19",
+        "page_anchor": "phaladeepika/p0099",
+        "tier": 1,
+        "quote": "With Venus occupying the 10th house at birth, the native will perform virtuous deeds. He will enjoy happiness from friends, will be greatly honoured, will enjoy high reputation and will attain a high status.",
+        "quote_display": "With Venus occupying the 10th house at birth, the native will perform virtuous deeds. He will enjoy happiness from friends, will be greatly honoured, will enjoy high reputation and will attain a high status.",
+        "quote_sha256": "baf844eb0038913d88b331d01d39efbda5925ee906cda8b6dbebc86ee82aa6a3",
+        "char_span": [
+          193436,
+          193643
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Venus",
+              "house": 10
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Venus",
+        "house": 10
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Venus.11",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "17-19",
+        "page_anchor": "phaladeepika/p0099",
+        "tier": 1,
+        "quote": "Should Venus occupy the 11th house at birth, the native will be wealthy, but will have connections with other people's wives. He will enjoy all kinds of happiness.",
+        "quote_display": "Should Venus occupy the 11th house at birth, the native will be wealthy, but will have connections with other people's wives. He will enjoy all kinds of happiness.",
+        "quote_sha256": "11b261408dd0ddb356cbc7dd4a8ae81e29ed6699726433d2df3bcc39f0f5f89e",
+        "char_span": [
+          193644,
+          193807
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Venus",
+              "house": 11
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Venus",
+        "house": 11
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Venus.12",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "17-19",
+        "page_anchor": "phaladeepika/p0099",
+        "tier": 1,
+        "quote": "If Venus occupies the 12th house at birth, the native will enjoy sexual relationships with many women (bed comforts). He will be rich and prosperous.",
+        "quote_display": "If Venus occupies the 12th house at birth, the native will enjoy sexual relationships with many women (bed comforts). He will be rich and prosperous.",
+        "quote_sha256": "10fed132cea4dcfb0290dceeb6add26d41f6cc549c3d0e0422f5245b9b577068",
+        "char_span": [
+          193811,
+          193960
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Venus",
+              "house": 12
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Venus",
+        "house": 12
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Saturn.01",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "20-24",
+        "page_anchor": "phaladeepika/p0099",
+        "tier": 1,
+        "quote": "If at birth Saturn is in the Lagna in his sign of exaltation (Libra) or in his own sign (Capricorn and Aquarius), the person concerned will be equal to the king, a chief or mayor of a city. If Saturn be in the Lagna in any other sign, the native will suffer from sorrow and misery from his very childhood and will be poverty stricken. He will be living shabbily and will be inactive.",
+        "quote_display": "If at birth Saturn is in the Lagna in his sign of exaltation (Libra) or in his own sign (Capricorn and Aquarius), the person concerned will be equal to the king, a chief or mayor of a city. If Saturn be in the Lagna in any other sign, the native will suffer from sorrow and misery from his very childhood and will be poverty stricken. He will be living shabbily and will be inactive.",
+        "quote_sha256": "7744aeb8b3fd6696557b5ee549e60ce374c1ca88f72ffcb8dbc559a34d2c516b",
+        "char_span": [
+          193985,
+          194368
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Saturn",
+              "house": 1
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Saturn",
+        "house": 1
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Saturn.02",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "20-24",
+        "page_anchor": "phaladeepika/p0099",
+        "tier": 1,
+        "quote": "Should Saturn be in the 2nd house at birth, the face of the native will be unattractive. He will not take the righteous path and will be devoid of wealth but in the latter part of his life he will quit his native place and will then possess wealth, conveyance and all enjoyments of life.",
+        "quote_display": "Should Saturn be in the 2nd house at birth, the face of the native will be unattractive. He will not take the righteous path and will be devoid of wealth but in the latter part of his life he will quit his native place and will then possess wealth, conveyance and all enjoyments of life.",
+        "quote_sha256": "9d9db91b369fcc2cdb9e568ef80c881f668b58a0c5d77e4e0b99a77843840b08",
+        "char_span": [
+          194877,
+          195164
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Saturn",
+              "house": 2
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Saturn",
+        "house": 2
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Saturn.03",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "20-24",
+        "page_anchor": "phaladeepika/p0099",
+        "tier": 1,
+        "quote": "If Saturn should happen to occupy the 3rd house at birth, the native will be very intelligent, wise and liberal and will live with his wife. However, he will be indolent and unhappy.",
+        "quote_display": "If Saturn should happen to occupy the 3rd house at birth, the native will be very intelligent, wise and liberal and will live with his wife. However, he will be indolent and unhappy.",
+        "quote_sha256": "82f2672cb43452b1cb0eb28dca55e5b7fec180fe07c677c94fee8f268619ab90",
+        "char_span": [
+          195168,
+          195350
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Saturn",
+              "house": 3
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Saturn",
+        "house": 3
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Saturn.04",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "20-24",
+        "page_anchor": "phaladeepika/p0099",
+        "tier": 1,
+        "quote": "If Saturn be in the 4th house at birth, the native will be bereft of house, respect and mother. He will be sickly in his childhood. He will also be unhappy.",
+        "quote_display": "If Saturn be in the 4th house at birth, the native will be bereft of house, respect and mother. He will be sickly in his childhood. He will also be unhappy.",
+        "quote_sha256": "f14195c0d7c1fcc4e0fdd31bef4d3ba751ac25d1997511c2e89ace0ab106a8a6",
+        "char_span": [
+          195354,
+          195510
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Saturn",
+              "house": 4
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Saturn",
+        "house": 4
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Saturn.05",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "20-24",
+        "page_anchor": "phaladeepika/p0100",
+        "tier": 1,
+        "quote": "If Saturn occupied the 5th house the person concerned will be evil minded and wicked. He will be bereft of learning, children, wealth and happiness. He roams about aimlessly.",
+        "quote_display": "If Saturn occupied the 5th house the person concerned will be evil minded and wicked. He will be bereft of learning, children, wealth and happiness. He roams about aimlessly.",
+        "quote_sha256": "d4eda47add9d27670d40e9ea9c1a80cc083b8e37d674c1deb46206af27332749",
+        "char_span": [
+          195548,
+          195722
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Saturn",
+              "house": 5
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Saturn",
+        "house": 5
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Saturn.06",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "20-24",
+        "page_anchor": "phaladeepika/p0100",
+        "tier": 1,
+        "quote": "Should Saturn occupy the 6th house at birth, the person concerned will be glutton, wealthy and will vanquish his enemies. He will also be arrogant.",
+        "quote_display": "Should Saturn occupy the 6th house at birth, the person concerned will be glutton, wealthy and will vanquish his enemies. He will also be arrogant.",
+        "quote_sha256": "c1e873c79eac62fdc17d7818a8a1a6298a703b85be04bb6dda8d03a1c8f80045",
+        "char_span": [
+          195726,
+          195873
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Saturn",
+              "house": 6
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Saturn",
+        "house": 6
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Saturn.07",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "20-24",
+        "page_anchor": "phaladeepika/p0100",
+        "tier": 1,
+        "quote": "When at birth Saturn is posited in the 7th house, the native develops relations with women of questionable character. He will be poverty stricken, a wanderer and unhappy.",
+        "quote_display": "When at birth Saturn is posited in the 7th house, the native develops relations with women of questionable character. He will be poverty stricken, a wanderer and unhappy.",
+        "quote_sha256": "dfd988f214c944984c9de12caca5d8e7eba9ba664e09e60e4d6c7480fab87381",
+        "char_span": [
+          195877,
+          196047
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Saturn",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Saturn",
+        "house": 7
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Saturn.08",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "20-24",
+        "page_anchor": "phaladeepika/p0100",
+        "tier": 1,
+        "quote": "Saturn occupying the 8th house at birth will make the native unclean afflicted with piles, devoid of wealth, of cruel disposition, hungry and will be avoided by his friends.",
+        "quote_display": "Saturn occupying the 8th house at birth will make the native unclean afflicted with piles, devoid of wealth, of cruel disposition, hungry and will be avoided by his friends.",
+        "quote_sha256": "37e550a8870d0bb271b2a9391042c8bda177d7b94301c4ccdbe807d3dc77574b",
+        "char_span": [
+          196051,
+          196224
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Saturn",
+              "house": 8
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Saturn",
+        "house": 8
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Saturn.09",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "20-24",
+        "page_anchor": "phaladeepika/p0100",
+        "tier": 1,
+        "quote": "Should Saturn occupy the 9th house, the native will be devoid of good fortune, wealth, children father and will be irreligious. He will also be wicked.",
+        "quote_display": "Should Saturn occupy the 9th house, the native will be devoid of good fortune, wealth, children father and will be irreligious. He will also be wicked.",
+        "quote_sha256": "35322fedec97fed7f9a99fabed09ba894d69b3ac89d88319e3588bfc646d5d91",
+        "char_span": [
+          196228,
+          196379
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Saturn",
+              "house": 9
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Saturn",
+        "house": 9
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Saturn.10",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "20-24",
+        "page_anchor": "phaladeepika/p0100",
+        "tier": 1,
+        "quote": "Saturn in 10th house enables the native to be king or equal to the king. He will be valiant, renowned and will be engaged in agricultural pursuits.",
+        "quote_display": "Saturn in 10th house enables the native to be king or equal to the king. He will be valiant, renowned and will be engaged in agricultural pursuits.",
+        "quote_sha256": "c47eded9ce016c8ed2916c70756eebcde7f3149025151eed62e049aeb7c85aab",
+        "char_span": [
+          196980,
+          197127
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Saturn",
+              "house": 10
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Saturn",
+        "house": 10
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Saturn.11",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "20-24",
+        "page_anchor": "phaladeepika/p0101",
+        "tier": 1,
+        "quote": "Saturn in the 11th makes the native devoid of ill health and enables him lasting income and wealth.",
+        "quote_display": "Saturn in the 11th makes the native devoid of ill health and enables him lasting income and wealth.",
+        "quote_sha256": "e7afaab24370600c9735a84fdb97cffb4a0099e19f5f0b1b3d23fe98447bc2ec",
+        "char_span": [
+          198271,
+          198370
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Saturn",
+              "house": 11
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Saturn",
+        "house": 11
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Saturn.12",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "20-24",
+        "page_anchor": "phaladeepika/p0101",
+        "tier": 1,
+        "quote": "Should Saturn occupy the 12th house at birth, the native will be impudent, poor, childless, defective of some limb, stupid and defeated by his enemies.",
+        "quote_display": "Should Saturn occupy the 12th house at birth, the native will be impudent, poor, childless, defective of some limb, stupid and defeated by his enemies.",
+        "quote_sha256": "99cf33951f0e79d1dc915f49f979804faa951b7491e8c860a0661131e7f70793",
+        "char_span": [
+          198374,
+          198525
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Saturn",
+              "house": 12
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Saturn",
+        "house": 12
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Rahu.01",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "25-27",
+        "page_anchor": "phaladeepika/p0101",
+        "tier": 1,
+        "quote": "When Rahu is in the occupaton of the 1st house at birth, the native will be shortlived, wealthy and strong and suffer from diseases in the higher limbs (Face, head etc.).",
+        "quote_display": "When Rahu is in the occupaton of the 1st house at birth, the native will be shortlived, wealthy and strong and suffer from diseases in the higher limbs (Face, head etc.).",
+        "quote_sha256": "ad45febbe1d26d5fc92203d47feeaf43116290ad32edfd0aac322e0db025a506",
+        "char_span": [
+          198548,
+          198718
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Rahu",
+              "house": 1
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Rahu",
+        "house": 1
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Rahu.02",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "25-27",
+        "page_anchor": "phaladeepika/p0101",
+        "tier": 1,
+        "quote": "The person who has Rahu in the 2nd house at birth, will be insincere in speech and his words will carry double meaning. He will suffer from disease of the mouth or the face. He will be tender hearted and will receive wealth through the beneficence of the king. He will be of an angry disposition and happy.",
+        "quote_display": "The person who has Rahu in the 2nd house at birth, will be insincere in speech and his words will carry double meaning. He will suffer from disease of the mouth or the face. He will be tender hearted and will receive wealth through the beneficence of the king. He will be of an angry disposition and happy.",
+        "quote_sha256": "0cd50a44b4f49c4c9fad708a0ed82697b6f26006922eba39191540b957f1b3e4",
+        "char_span": [
+          198722,
+          199028
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Rahu",
+              "house": 2
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Rahu",
+        "house": 2
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Rahu.03",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "25-27",
+        "page_anchor": "phaladeepika/p0101",
+        "tier": 1,
+        "quote": "When Rahu is in the 3rd house at birth, the native will be proud, inimical towards his co-born, wealthy, longlived and strongwilled.",
+        "quote_display": "When Rahu is in the 3rd house at birth, the native will be proud, inimical towards his co-born, wealthy, longlived and strongwilled.",
+        "quote_sha256": "83498eb0697757174ddf1332ffb1939bb4b557bd980a2046ef6a49aad845b690",
+        "char_span": [
+          199032,
+          199164
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Rahu",
+              "house": 3
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Rahu",
+        "house": 3
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Rahu.04",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "25-27",
+        "page_anchor": "phaladeepika/p0101",
+        "tier": 1,
+        "quote": "With Rahu in the 4th house at birth, the native will have a short span of life and will be seldom happy.",
+        "quote_display": "With Rahu in the 4th house at birth, the native will have a short span of life and will be seldom happy.",
+        "quote_sha256": "ed6692b9f8a4458098e09e5d719ba4033c63a89536fbbbcc7c9021d94b952798",
+        "char_span": [
+          199168,
+          199272
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Rahu",
+              "house": 4
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Rahu",
+        "house": 4
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Rahu.05",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "25-27",
+        "page_anchor": "phaladeepika/p0101",
+        "tier": 1,
+        "quote": "When Rahu occupies the 5th house at birth, the native will have nasal touch in his speech. He will be childless, hard hearted and will suffer from pain in the stomach.",
+        "quote_display": "When Rahu occupies the 5th house at birth, the native will have nasal touch in his speech. He will be childless, hard hearted and will suffer from pain in the stomach.",
+        "quote_sha256": "248066f2124339b79e9525dec1e0eca32f4440fbe1f4041a4d2d5033d4355825",
+        "char_span": [
+          199276,
+          199443
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Rahu",
+              "house": 5
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Rahu",
+        "house": 5
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Rahu.06",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "25-27",
+        "page_anchor": "phaladeepika/p0101",
+        "tier": 1,
+        "quote": "Should Rahu occupy the 6th house at birth, the native will be troubled by the\r\n\r\n<!-- page phaladeepika/p0102 -->\r\nenemies and will be oppressed by malefic planets. He will be wealthy and longlived and will suffer from ulcer in the anus.",
+        "quote_display": "Should Rahu occupy the 6th house at birth, the native will be troubled by the enemies and will be oppressed by malefic planets. He will be wealthy and longlived and will suffer from ulcer in the anus.",
+        "quote_sha256": "554f6db8e6c8d7f46787f3c610c5f49cc628b6acee0002951ef4a4b5b12a4995",
+        "char_span": [
+          199447,
+          199684
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Rahu",
+              "house": 6
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Rahu",
+        "house": 6
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Rahu.07",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "25-27",
+        "page_anchor": "phaladeepika/p0102",
+        "tier": 1,
+        "quote": "Rahu in the 7th house at birth makes the person concerned independent, but without intelligence. He squanders away his money by associating with women. He will become a widower and also impotent.",
+        "quote_display": "Rahu in the 7th house at birth makes the person concerned independent, but without intelligence. He squanders away his money by associating with women. He will become a widower and also impotent.",
+        "quote_sha256": "e120ff00550a8b7e637820dd25a70a2861d924b42de2149b0fc3e7357f1a4ffb",
+        "char_span": [
+          199688,
+          199883
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Rahu",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Rahu",
+        "house": 7
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Rahu.08",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "25-27",
+        "page_anchor": "phaladeepika/p0102",
+        "tier": 1,
+        "quote": "If Rahu be posited in the 8th house the native will become miserable, will suffer from rheumatism, will have few children and will indulge in impure actions.",
+        "quote_display": "If Rahu be posited in the 8th house the native will become miserable, will suffer from rheumatism, will have few children and will indulge in impure actions.",
+        "quote_sha256": "863361b1b1b11fd7a3db7dcf6f223ce74ce3ff15174a406221b8db8baa3c630f",
+        "char_span": [
+          199887,
+          200044
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Rahu",
+              "house": 8
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Rahu",
+        "house": 8
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Rahu.09",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "25-27",
+        "page_anchor": "phaladeepika/p0102",
+        "tier": 1,
+        "quote": "If Rahu occupies the 9th house at birth, the native will be harsh in speech and will indulge in unrighteous actions but he will become head of a clan, city or a village.",
+        "quote_display": "If Rahu occupies the 9th house at birth, the native will be harsh in speech and will indulge in unrighteous actions but he will become head of a clan, city or a village.",
+        "quote_sha256": "c69b1e4ab8d2ffde913199161147a9e01a0fd72caecb23456c229fbe48de4a8f",
+        "char_span": [
+          200048,
+          200217
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Rahu",
+              "house": 9
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Rahu",
+        "house": 9
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Rahu.10",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "25-27",
+        "page_anchor": "phaladeepika/p0102",
+        "tier": 1,
+        "quote": "If Rahu be in the 10th house, the person born will have a limited number of issues, engaged in working for others, will not perform any rightful deeds, will be fearless and famous.",
+        "quote_display": "If Rahu be in the 10th house, the person born will have a limited number of issues, engaged in working for others, will not perform any rightful deeds, will be fearless and famous.",
+        "quote_sha256": "bbcfb6e96353ee0b1cf582faccd51e53c309206e8d3f4fc625451e3ab1e8cf44",
+        "char_span": [
+          200221,
+          200401
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Rahu",
+              "house": 10
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Rahu",
+        "house": 10
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Rahu.11",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "25-27",
+        "page_anchor": "phaladeepika/p0102",
+        "tier": 1,
+        "quote": "With Rahu occupying the 11th house at birth, the native will be wealthy and longlived, will have a limited number of issues, and will suffer from some disease of the ear.",
+        "quote_display": "With Rahu occupying the 11th house at birth, the native will be wealthy and longlived, will have a limited number of issues, and will suffer from some disease of the ear.",
+        "quote_sha256": "1ac08fa50a8bab6a65685b3b7e9cac366aa0b25c76561aefa1e5a930e731f2de",
+        "char_span": [
+          200405,
+          200575
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Rahu",
+              "house": 11
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Rahu",
+        "house": 11
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Rahu.12",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "25-27",
+        "page_anchor": "phaladeepika/p0102",
+        "tier": 1,
+        "quote": "Rahu in the 12th house at birth makes a man squanderer of money, will indulge in sinful deeds and suffer from diseases like dropsy etc.",
+        "quote_display": "Rahu in the 12th house at birth makes a man squanderer of money, will indulge in sinful deeds and suffer from diseases like dropsy etc.",
+        "quote_sha256": "989593fb4dbb88d06f863df1f71c03770512078931921153468fb14d31cd559f",
+        "char_span": [
+          200579,
+          200714
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Rahu",
+              "house": 12
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Rahu",
+        "house": 12
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Ketu.01",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "28-33",
+        "page_anchor": "phaladeepika/p0102",
+        "tier": 1,
+        "quote": "When Ketu occupies the 1st house or the Lagna, the person born will be ungrateful, unhappy and tale bearer, will associate with unsociable elements, deformed in his body, fallen from position and outcaste.",
+        "quote_display": "When Ketu occupies the 1st house or the Lagna, the person born will be ungrateful, unhappy and tale bearer, will associate with unsociable elements, deformed in his body, fallen from position and outcaste.",
+        "quote_sha256": "a3013d2f36b8aa401b912c6083380161d9ca1b50e535cbe69703c5e8bf9b7e8e",
+        "char_span": [
+          200737,
+          200942
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Ketu",
+              "house": 1
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Ketu",
+        "house": 1
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Ketu.02",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "28-33",
+        "page_anchor": "phaladeepika/p0102",
+        "tier": 1,
+        "quote": "With Ketu in the 2nd house at birth, the native will be bereft of learning and will have a harsh manner of speaking. He will have a sinister look and be dependent for food on others.",
+        "quote_display": "With Ketu in the 2nd house at birth, the native will be bereft of learning and will have a harsh manner of speaking. He will have a sinister look and be dependent for food on others.",
+        "quote_sha256": "f76984e10a6c8fe70d0a2504e4b037ecd985f106afa9e1a1ff57bfd33db3efd7",
+        "char_span": [
+          200946,
+          201128
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Ketu",
+              "house": 2
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Ketu",
+        "house": 2
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Ketu.03",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "28-33",
+        "page_anchor": "phaladeepika/p0102",
+        "tier": 1,
+        "quote": "Should Ketu occupy the 3rd house at birth, the native will be longlived, powerful and renowned. He will live happily with his wife and will eat good food; but he will be deprived of a brother.",
+        "quote_display": "Should Ketu occupy the 3rd house at birth, the native will be longlived, powerful and renowned. He will live happily with his wife and will eat good food; but he will be deprived of a brother.",
+        "quote_sha256": "73acc7e173205d541f3af066b67739fbb3874036810751d3bbe167ff8c40fd3b",
+        "char_span": [
+          201132,
+          201324
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Ketu",
+              "house": 3
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Ketu",
+        "house": 3
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Ketu.04",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "28-33",
+        "page_anchor": "phaladeepika/p0102",
+        "tier": 1,
+        "quote": "With Ketu occupying the 4th house at birth, the native will live in another man's house and will lose his lands, mother and happiness. He will be forced to\r\n\r\n<!-- page phaladeepika/p0103 -->\r\nleave his native land.",
+        "quote_display": "With Ketu occupying the 4th house at birth, the native will live in another man's house and will lose his lands, mother and happiness. He will be forced to leave his native land.",
+        "quote_sha256": "cfce8145cb735ea6e61089755396e66277ff60de1867935eed3573cec8fdc8a3",
+        "char_span": [
+          201328,
+          201543
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Ketu",
+              "house": 4
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Ketu",
+        "house": 4
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Ketu.05",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "28-33",
+        "page_anchor": "phaladeepika/p0103",
+        "tier": 1,
+        "quote": "Ketu in the 5th house at a person's birth deprives the native of his children. He will be evil minded and will be oppressed by goblins (evil spirits).",
+        "quote_display": "Ketu in the 5th house at a person's birth deprives the native of his children. He will be evil minded and will be oppressed by goblins (evil spirits).",
+        "quote_sha256": "fc9c911844e696d1451efb2a5674da41370287c3cef36ebc0c02ddbd2132dfa6",
+        "char_span": [
+          201547,
+          201697
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Ketu",
+              "house": 5
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Ketu",
+        "house": 5
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Ketu.06",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "28-33",
+        "page_anchor": "phaladeepika/p0103",
+        "tier": 1,
+        "quote": "If Ketu occupies the 6th house at birth, the native will be magnanimous, full of best qualities, firm, renowned and will be vested with high authority. He will vanquish his enemies and will be successful in obtaining Ishta Siddhi.",
+        "quote_display": "If Ketu occupies the 6th house at birth, the native will be magnanimous, full of best qualities, firm, renowned and will be vested with high authority. He will vanquish his enemies and will be successful in obtaining Ishta Siddhi.",
+        "quote_sha256": "9a6deaaebf609954259d7d67687172129960e1bee43257ef8f1c3c73a50bf874",
+        "char_span": [
+          201701,
+          201931
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Ketu",
+              "house": 6
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Ketu",
+        "house": 6
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Ketu.07",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "28-33",
+        "page_anchor": "phaladeepika/p0103",
+        "tier": 1,
+        "quote": "Ketu's occupation of the 7th house at birth will make the native suffer humiliation. He will associate with fallen women and will be separated from his own wife. He will suffer from diseases of the bowels and may lose his potency.",
+        "quote_display": "Ketu's occupation of the 7th house at birth will make the native suffer humiliation. He will associate with fallen women and will be separated from his own wife. He will suffer from diseases of the bowels and may lose his potency.",
+        "quote_sha256": "9c52b948facdd78ed5a0349bda85f361601ec10a1cc6b80dcfba8443ac99a477",
+        "char_span": [
+          201935,
+          202165
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Ketu",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Ketu",
+        "house": 7
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Ketu.08",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "28-33",
+        "page_anchor": "phaladeepika/p0103",
+        "tier": 1,
+        "quote": "With Ketu occupying the 8th house at birth, the native will suffer from separation from his nears and dears. He will be quarrelsome and shortlived. He will get injury from some weapon and will be unsuccessful in all his ventures.",
+        "quote_display": "With Ketu occupying the 8th house at birth, the native will suffer from separation from his nears and dears. He will be quarrelsome and shortlived. He will get injury from some weapon and will be unsuccessful in all his ventures.",
+        "quote_sha256": "0dd57e9241318e63b697d08c2039fb3e2ce36b7b507b158d98ad32b9825e88ff",
+        "char_span": [
+          202169,
+          202398
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Ketu",
+              "house": 8
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Ketu",
+        "house": 8
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Ketu.09",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "28-33",
+        "page_anchor": "phaladeepika/p0103",
+        "tier": 1,
+        "quote": "Ketu In the 9th house at birth, makes the native indulge in sinful and unrighteous actions. He will be deprived of his father, will be unfortunate, poverty stricken and will defame others.",
+        "quote_display": "Ketu In the 9th house at birth, makes the native indulge in sinful and unrighteous actions. He will be deprived of his father, will be unfortunate, poverty stricken and will defame others.",
+        "quote_sha256": "62045b43ae0c71ef5a27bb33e14919d8e2db523d93ca8a04d913ce63d563a42a",
+        "char_span": [
+          202402,
+          202590
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Ketu",
+              "house": 9
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Ketu",
+        "house": 9
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Ketu.10",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "28-33",
+        "page_anchor": "phaladeepika/p0103",
+        "tier": 1,
+        "quote": "If Ketu occupies the 10th house at a person's birth, he will face obstacles in performing good acts. He will be impure and indulge in wicked actions. He will be very bold and famous for his valor.",
+        "quote_display": "If Ketu occupies the 10th house at a person's birth, he will face obstacles in performing good acts. He will be impure and indulge in wicked actions. He will be very bold and famous for his valor.",
+        "quote_sha256": "609bf7c7af3bb0ce0d941ca8a23a84f6be228c2ce75f7e364bd30150fc14fe5d",
+        "char_span": [
+          202594,
+          202790
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Ketu",
+              "house": 10
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Ketu",
+        "house": 10
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Ketu.11",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "28-33",
+        "page_anchor": "phaladeepika/p0103",
+        "tier": 1,
+        "quote": "If Ketu should occupy the 11th house, the person born will accumulate wealth and will be equipped with good qualities. He will enjoy himself and all items of luxuries and comforts will be available to him. He will achieve success in all his undertakings.",
+        "quote_display": "If Ketu should occupy the 11th house, the person born will accumulate wealth and will be equipped with good qualities. He will enjoy himself and all items of luxuries and comforts will be available to him. He will achieve success in all his undertakings.",
+        "quote_sha256": "8dff515ff68b7f87353b34d626f61fb4e77170c789dce7b30b9ff6da05906448",
+        "char_span": [
+          202794,
+          203048
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Ketu",
+              "house": 11
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Ketu",
+        "house": 11
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    },
+    {
+      "id": "PD.08.Ketu.12",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 8,
+        "verse": "28-33",
+        "page_anchor": "phaladeepika/p0103",
+        "tier": 1,
+        "quote": "When Ketu occupies the 12th house at birth, the native will commit sinful acts secretly. He will squander away all his money for undesirable purposes. He will destroy his wealth and take to forbidden conduct. He will suffer from diseases of the eyes.",
+        "quote_display": "When Ketu occupies the 12th house at birth, the native will commit sinful acts secretly. He will squander away all his money for undesirable purposes. He will destroy his wealth and take to forbidden conduct. He will suffer from diseases of the eyes.",
+        "quote_sha256": "84f0fe987e4352b550c00040abc587afead7b3775c425e4df73729756f79d4d8",
+        "char_span": [
+          203052,
+          203302
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Ketu",
+              "house": 12
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Ketu",
+        "house": 12
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "assisted",
+        "proposer": "Rules/tools/propose_pd_ch08.py",
+        "verified_by": null,
+        "verified_date": null
+      }
+    }
+  ]
+}

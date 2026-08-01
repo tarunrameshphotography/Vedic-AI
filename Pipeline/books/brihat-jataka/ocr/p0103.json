@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0103",
+ "book_id": "brihat-jataka",
+ "seq": 103,
+ "source_ref": {
+  "pdf_page": 52,
+  "half": "a",
+  "v1_page": "s052a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "4636818002a7b311894a5c4d119b94f4ea44c7ef19a5c1380342bd0419cd2d47",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1291,
+    220,
+    1580,
+    255
+   ]
+  },
+  {
+   "text": "100",
+   "bbox": [
+    368,
+    222,
+    459,
+    256
+   ]
+  },
+  {
+   "text": "give 4 cases of Rajayoga.",
+   "bbox": [
+    362,
+    327,
+    859,
+    365
+   ]
+  },
+  {
+   "text": "<i>Commentary:</i> It would have been seen that in each case",
+   "bbox": [
+    440,
+    405,
+    1582,
+    442
+   ]
+  },
+  {
+   "text": "where exaltation of planet is a condition, the other invariable",
+   "bbox": [
+    362,
+    457,
+    1582,
+    496
+   ]
+  },
+  {
+   "text": "condition is the exaltation of a planet in Lagna. Lagna is thus",
+   "bbox": [
+    361,
+    510,
+    1582,
+    549
+   ]
+  },
+  {
+   "text": "a great factor for status in life.",
+   "bbox": [
+    362,
+    561,
+    982,
+    600
+   ]
+  },
+  {
+   "text": "वर्गोत्तमगते लग्ने चन्द्रे वा चन्द्रवर्जितै:।",
+   "bbox": [
+    434,
+    634,
+    1008,
+    680
+   ]
+  },
+  {
+   "text": "चतुराद्यैर्ग्रहैर्दृष्टे नृपा द्वाविंशति: स्मृता: ।। 3 ।।",
+   "bbox": [
+    434,
+    697,
+    1111,
+    750
+   ]
+  },
+  {
+   "text": "In case the lagna is \"Vargottam\" ie the sign in the",
+   "bbox": [
+    437,
+    793,
+    1581,
+    839
+   ]
+  },
+  {
+   "text": "Navamsha of the longitude of the lagna is the same as the",
+   "bbox": [
+    361,
+    849,
+    1580,
+    888
+   ]
+  },
+  {
+   "text": "lagna or if the Moon in lagna is in Vargottam, then if 4, 5 or 6",
+   "bbox": [
+    361,
+    902,
+    1580,
+    941
+   ]
+  },
+  {
+   "text": "planets aspect the Vargottam lagna or the Vargottam Moon.",
+   "bbox": [
+    362,
+    956,
+    1580,
+    994
+   ]
+  },
+  {
+   "text": "22 yogas in each case would arise.",
+   "bbox": [
+    361,
+    1007,
+    1044,
+    1047
+   ]
+  },
+  {
+   "text": "यमे कुम्भेऽर्केऽजे शशिनि गवि तैरेव तनुगै-",
+   "bbox": [
+    434,
+    1081,
+    1054,
+    1133
+   ]
+  },
+  {
+   "text": "र्नयुक्सिंहालिस्थै: शशिजगुरुवक्रैर्नुपतय:।",
+   "bbox": [
+    434,
+    1143,
+    1015,
+    1197
+   ]
+  },
+  {
+   "text": "यामेन्दू तुङ्गेऽङ्गे सवितृशशिजौ षष्ठभवने",
+   "bbox": [
+    433,
+    1211,
+    1010,
+    1266
+   ]
+  },
+  {
+   "text": "तृलाजेन्दुक्षेत्रै: ससितकुजजीवैश्च नरपौ।। 4 ।।",
+   "bbox": [
+    434,
+    1275,
+    1092,
+    1328
+   ]
+  },
+  {
+   "text": "If Saturn is in Acquarius, Sun in Aries, Moon in Taurus",
+   "bbox": [
+    436,
+    1376,
+    1579,
+    1415
+   ]
+  },
+  {
+   "text": "and any one of these occupies the ascendant and Mercury",
+   "bbox": [
+    359,
+    1428,
+    1579,
+    1468
+   ]
+  },
+  {
+   "text": "occupies Gemini, Jupiter Leo, and Mars is in Scorpio, then the",
+   "bbox": [
+    361,
+    1481,
+    1579,
+    1520
+   ]
+  },
+  {
+   "text": "person born in the Yoga is a king. In case Saturn or Moon",
+   "bbox": [
+    359,
+    1530,
+    1576,
+    1576
+   ]
+  },
+  {
+   "text": "occupies its sign of exaltation in the lagna, the Sun and Mer-",
+   "bbox": [
+    358,
+    1582,
+    1578,
+    1629
+   ]
+  },
+  {
+   "text": "cury occupy Virgo and Libra. Aries and Cancer are occupied",
+   "bbox": [
+    356,
+    1639,
+    1576,
+    1679
+   ]
+  },
+  {
+   "text": "respectively by Venus, Mars and Jupiter then also Rajayoga",
+   "bbox": [
+    356,
+    1691,
+    1576,
+    1732
+   ]
+  },
+  {
+   "text": "for the birth of a king is constituted.",
+   "bbox": [
+    355,
+    1745,
+    1089,
+    1784
+   ]
+  },
+  {
+   "text": "कुजे तुङ्गेऽर्केन्द्वोर्धनुषि यमलग्ने च कुपति:",
+   "bbox": [
+    429,
+    1820,
+    1034,
+    1871
+   ]
+  },
+  {
+   "text": "पतिर्भूमेश्चान्य: क्षितिसुतविलग्ने सशशिनि।",
+   "bbox": [
+    429,
+    1884,
+    1025,
+    1936
+   ]
+  },
+  {
+   "text": "सचन्द्रे सौरेऽस्ते सुरपतिगुरौ चापधरगे",
+   "bbox": [
+    429,
+    1946,
+    962,
+    2000
+   ]
+  },
+  {
+   "text": "स्वतुङ्गस्थे भानावुदयमुपयाते क्षितिपति: ।। 5 ।।",
+   "bbox": [
+    428,
+    2009,
+    1114,
+    2069
+   ]
+  },
+  {
+   "text": "With Mars in his sign of exaltation (Capricorn) in the",
+   "bbox": [
+    433,
+    2110,
+    1573,
+    2149
+   ]
+  },
+  {
+   "text": "ascendant and with Sun and Moon occupying Sagittarius,",
+   "bbox": [
+    355,
+    2162,
+    1573,
+    2201
+   ]
+  },
+  {
+   "text": "Yoga for the birth of a king arises. Another Yoga for kingship",
+   "bbox": [
+    356,
+    2211,
+    1572,
+    2255
+   ]
+  },
+  {
+   "text": "would arise if Mars and Moon are together in Capricorn in the",
+   "bbox": [
+    355,
+    2263,
+    1569,
+    2307
+   ]
+  }
+ ]
+}

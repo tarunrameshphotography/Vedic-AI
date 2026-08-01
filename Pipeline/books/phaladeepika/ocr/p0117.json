@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0117",
+ "book_id": "phaladeepika",
+ "seq": 117,
+ "source_ref": {
+  "pdf_page": 117
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "325d42efc079e9267776012c25744aeccf62324a1b424f80a665268ddb76484c",
+ "lines": [
+  {
+   "text": "scientific, engineering, financial and administrative spheres. We are, therefore, of ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "the view that the effects of Raja Yogas, Adhiyogas, etc., present in their horoscopes ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "should be aplicable to them and not to their husbands. They can apply to husbands ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "in case they are entirely dependent on them.",
+   "bbox": [
+    85,
+    130,
+    332,
+    145
+   ]
+  },
+  {
+   "text": "As regards (2) the most appropriate and logical house from which the matter ",
+   "bbox": [
+    121,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "of children should be examined, is the 5th house and in this sphere no distinction ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "should be made between male's and female's horoscope. The view of Parasara as ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "given in the Brihat Parasara Hora Shastra should be treated as the most ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "authoritative. Birhat Jataka is silent about this which means that it makes no ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "differentiation between a male's horoscope and female's horoscope about this ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "matter. Saravali has followed the view expressed in Brihat Parasara Hora Shastra.",
+   "bbox": [
+    85,
+    299,
+    542,
+    314
+   ]
+  },
+  {
+   "text": "2. If in a female's nativity both the Ascendant and the Moon are in even ",
+   "bbox": [
+    121,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "signs and be aspected by benefics, the native will be blessed with good sons and ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "husband will be of good character and will wear ornaments. She will be prosperous ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "and will possess praiseworthy qualities. If, however, both the Ascendant and the ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "Moon be in odd signs and be aspected by malefics, the woman concerned will be ",
+   "bbox": [
+    85,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "masculine in bearing, of wicked disposition, beyond the control of the husband, ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "insincere, wrathful and poor.",
+   "bbox": [
+    85,
+    468,
+    246,
+    483
+   ]
+  },
+  {
+   "text": "3. If the 7th house or the setting navamsa be owned by a benefic, the woman ",
+   "bbox": [
+    121,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "born will be blessed with a husband who will be handsome, well reputed, learned ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "and wealthy. If it be otherwise, the husband will be deformed, stupid, deceitful and ",
+   "bbox": [
+    85,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "poor and the native will be separated from her husband. If Mars be posited there, ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "she will become a widow, both benefics and malefics occupy the 7th house, she ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "will remarry. If there be a malefic or malefics in the 8th house, she will get a ",
+   "bbox": [
+    85,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "shortlived husband. If the 2nd house is occupied by malefics, the native dies with ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "her husband.",
+   "bbox": [
+    85,
+    661,
+    157,
+    677
+   ]
+  },
+  {
+   "text": "Note-it is believed that if the mischief of Mars, Saturn, Rahu, Ketu and the ",
+   "bbox": [
+    121,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "Sun be similar in the horoscopes of both husband and wife, they are not harmed in ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "any way.",
+   "bbox": [
+    85,
+    734,
+    135,
+    749
+   ]
+  },
+  {
+   "text": "4. If in a female's nativity, the Moon is in Taurus, Leo, Virgo or Scorpio ",
+   "bbox": [
+    121,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "117",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

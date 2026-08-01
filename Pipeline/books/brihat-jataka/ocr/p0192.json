@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0192",
+ "book_id": "brihat-jataka",
+ "seq": 192,
+ "source_ref": {
+  "pdf_page": 96,
+  "half": "b",
+  "v1_page": "s096b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "8b39b6f2a4b6a8ffcf3c64a1f069cdd91d13363daaa38460cbf1440487e8e487",
+ "lines": [
+  {
+   "text": "Death",
+   "bbox": [
+    219,
+    254,
+    346,
+    288
+   ]
+  },
+  {
+   "text": "189",
+   "bbox": [
+    1348,
+    254,
+    1435,
+    287
+   ]
+  },
+  {
+   "text": "aspect <math>1/4</math>, <math>1/2</math>, <math>3/4</math> and full houses 3 and 10, 5 and 9, 4 and 8,",
+   "bbox": [
+    222,
+    354,
+    1435,
+    392
+   ]
+  },
+  {
+   "text": "and 7 respectively. The first three are also the special aspects",
+   "bbox": [
+    222,
+    404,
+    1436,
+    443
+   ]
+  },
+  {
+   "text": "respectively of Shani, Guru and Kuja. All planets aspect",
+   "bbox": [
+    219,
+    454,
+    1438,
+    493
+   ]
+  },
+  {
+   "text": "houses 3, 4, 5, 7, 8, 9 and 10.",
+   "bbox": [
+    219,
+    504,
+    803,
+    543
+   ]
+  },
+  {
+   "text": "रन्ध्रास्पदाङ्गहिबुकैर्लगुटाहताङ्ग: प्रक्षीणचन्द्ररुधिरार्किदिनेशयुक्तै:।",
+   "bbox": [
+    294,
+    577,
+    1202,
+    630
+   ]
+  },
+  {
+   "text": "तैरेव कर्मनवमोदयपुत्रसंस्थैर्धृमाग्निबन्धनशरीरनिकुट्टनान्त:।। 6 ।।",
+   "bbox": [
+    292,
+    641,
+    1225,
+    693
+   ]
+  },
+  {
+   "text": "When a weak Moon, Kuja, Shani and the Sun occupy",
+   "bbox": [
+    298,
+    737,
+    1435,
+    779
+   ]
+  },
+  {
+   "text": "respectively houses 8, 10, lagna and the fourth, death results",
+   "bbox": [
+    218,
+    785,
+    1435,
+    831
+   ]
+  },
+  {
+   "text": "from blows from rods.",
+   "bbox": [
+    218,
+    839,
+    658,
+    873
+   ]
+  },
+  {
+   "text": "If the planets occupy houses <math>10, 9, 1</math> and 5 respectively",
+   "bbox": [
+    294,
+    915,
+    1435,
+    955
+   ]
+  },
+  {
+   "text": "the death is from smoke, fire, bondage or blows on the",
+   "bbox": [
+    219,
+    966,
+    1433,
+    1005
+   ]
+  },
+  {
+   "text": "body.",
+   "bbox": [
+    219,
+    1018,
+    329,
+    1055
+   ]
+  },
+  {
+   "text": "बन्ध्वस्तकर्मसहितै: कुजसूर्यमन्दैनिर्याणमायुधशिखिक्षितिपालकोपै:।",
+   "bbox": [
+    292,
+    1089,
+    1233,
+    1140
+   ]
+  },
+  {
+   "text": "सौरेन्दुभूमितनयैश्च सुखास्पदस्थैर्ज्ञेय: कृमिक्षतकृतश्च शरीरपात:।। 7 ।।",
+   "bbox": [
+    293,
+    1150,
+    1287,
+    1214
+   ]
+  },
+  {
+   "text": "When Kuja, Sun and Shani are respectively in houses",
+   "bbox": [
+    295,
+    1249,
+    1432,
+    1288
+   ]
+  },
+  {
+   "text": "4, 7, and 10, death is from weapons, fire or anger of the",
+   "bbox": [
+    216,
+    1298,
+    1431,
+    1338
+   ]
+  },
+  {
+   "text": "rulers.",
+   "bbox": [
+    216,
+    1350,
+    356,
+    1382
+   ]
+  },
+  {
+   "text": "When Shani, Chandra and Kuja are respectively in houses",
+   "bbox": [
+    294,
+    1426,
+    1432,
+    1465
+   ]
+  },
+  {
+   "text": "2, 4 and 10, death is from worms arising from sores or",
+   "bbox": [
+    215,
+    1473,
+    1434,
+    1519
+   ]
+  },
+  {
+   "text": "wounds.",
+   "bbox": [
+    216,
+    1530,
+    387,
+    1563
+   ]
+  },
+  {
+   "text": "खस्थेऽर्केऽवनिजेरसातलगते यानप्रपाताद्वधो",
+   "bbox": [
+    289,
+    1603,
+    877,
+    1649
+   ]
+  },
+  {
+   "text": "यन्त्रोत्पीडनज: कुजेऽस्तमयगे सौरेन्द्विनेषुद्रमे।",
+   "bbox": [
+    288,
+    1666,
+    921,
+    1719
+   ]
+  },
+  {
+   "text": "विण्मध्ये रुधिराकिशीतकिरणैर्जुकाजसौरक्षी-",
+   "bbox": [
+    288,
+    1730,
+    922,
+    1784
+   ]
+  },
+  {
+   "text": "यतिर्वा गलितेन्दुसूर्यरुधिरैव्योमास्तबन्ध्वाह्वयान् ।। ४ ।।",
+   "bbox": [
+    288,
+    1797,
+    1059,
+    1852
+   ]
+  },
+  {
+   "text": "If the Sun is in the tenth and the Kuja in the fourth, death",
+   "bbox": [
+    289,
+    1895,
+    1431,
+    1934
+   ]
+  },
+  {
+   "text": "is from a fall from a conveyance.",
+   "bbox": [
+    212,
+    1946,
+    864,
+    1984
+   ]
+  },
+  {
+   "text": "If Shani, Chandra and Ravi are in lagna while Kuja is in",
+   "bbox": [
+    289,
+    2022,
+    1431,
+    2060
+   ]
+  },
+  {
+   "text": "the seventh, death is from the machinery or rocks.",
+   "bbox": [
+    212,
+    2074,
+    1222,
+    2113
+   ]
+  },
+  {
+   "text": "If Kuja, Shani and the Moon are respectively in Tula,",
+   "bbox": [
+    288,
+    2153,
+    1431,
+    2192
+   ]
+  },
+  {
+   "text": "Mesha and sign owned by Shani; or if a weak Moon, Sun and",
+   "bbox": [
+    212,
+    2204,
+    1429,
+    2244
+   ]
+  },
+  {
+   "text": "Kuja are respectivley into houses 10, 7 and 4, the native falls",
+   "bbox": [
+    212,
+    2257,
+    1429,
+    2296
+   ]
+  },
+  {
+   "text": "in night soil and dies.",
+   "bbox": [
+    212,
+    2307,
+    649,
+    2345
+   ]
+  }
+ ]
+}

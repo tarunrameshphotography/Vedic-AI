@@ -1,0 +1,371 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0119",
+ "book_id": "brihat-jataka",
+ "seq": 119,
+ "source_ref": {
+  "pdf_page": 60,
+  "half": "a",
+  "v1_page": "s060a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "e229bf0dd24d25a7325aede57c57ff1ff82dd50d06705b655cb06a0b015fc949",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1293,
+    253,
+    1581,
+    287
+   ]
+  },
+  {
+   "text": "116",
+   "bbox": [
+    370,
+    254,
+    461,
+    288
+   ]
+  },
+  {
+   "text": "सम्पन्नसौख्यविभवा हतशत्रवश्च",
+   "bbox": [
+    440,
+    352,
+    892,
+    398
+   ]
+  },
+  {
+   "text": "दीर्घायुषो विगतरोगभयाश्च जाता:।। 2 ।।",
+   "bbox": [
+    438,
+    415,
+    1029,
+    465
+   ]
+  },
+  {
+   "text": "If the 6th, 7th and 8th houses from Moon are occupied by",
+   "bbox": [
+    443,
+    512,
+    1586,
+    550
+   ]
+  },
+  {
+   "text": "natural benefic planets, they cause the yoga going under the",
+   "bbox": [
+    365,
+    563,
+    1586,
+    603
+   ]
+  },
+  {
+   "text": "name of \"Chandradhiyoga\". Persons born in this yoga are of",
+   "bbox": [
+    365,
+    615,
+    1586,
+    655
+   ]
+  },
+  {
+   "text": "high status in life such as the Commander in chief of the Army,",
+   "bbox": [
+    365,
+    668,
+    1583,
+    707
+   ]
+  },
+  {
+   "text": "the minister of a country's cabinet or even the head of the",
+   "bbox": [
+    365,
+    720,
+    1581,
+    759
+   ]
+  },
+  {
+   "text": "state. Such people are very rich, lead a comfortable life and",
+   "bbox": [
+    365,
+    774,
+    1583,
+    813
+   ]
+  },
+  {
+   "text": "wield power, they overcome their enemies, devoid of disease",
+   "bbox": [
+    365,
+    827,
+    1583,
+    866
+   ]
+  },
+  {
+   "text": "and fear. They live a long life.",
+   "bbox": [
+    365,
+    881,
+    970,
+    919
+   ]
+  },
+  {
+   "text": "<i>Commentary:</i> This is one of the best yogas for wealth,",
+   "bbox": [
+    440,
+    958,
+    1584,
+    996
+   ]
+  },
+  {
+   "text": "proved so by experience. The central point of attention in this",
+   "bbox": [
+    365,
+    1008,
+    1582,
+    1052
+   ]
+  },
+  {
+   "text": "remarkable yoga is the Moon whose strong position is being",
+   "bbox": [
+    361,
+    1062,
+    1584,
+    1103
+   ]
+  },
+  {
+   "text": "sought after in the shloka. The benefic planets in the 6th, 7th",
+   "bbox": [
+    365,
+    1117,
+    1581,
+    1156
+   ]
+  },
+  {
+   "text": "and 8th from Moon have no other purpose but to boost the",
+   "bbox": [
+    365,
+    1169,
+    1580,
+    1210
+   ]
+  },
+  {
+   "text": "strength of Moon. The excellence of the results of the yoga",
+   "bbox": [
+    364,
+    1222,
+    1584,
+    1261
+   ]
+  },
+  {
+   "text": "depends on two factors. In the first instance Moon herself",
+   "bbox": [
+    364,
+    1274,
+    1586,
+    1313
+   ]
+  },
+  {
+   "text": "should be farthest away from the Sun, which she is sure to be,",
+   "bbox": [
+    364,
+    1327,
+    1583,
+    1366
+   ]
+  },
+  {
+   "text": "for a benefic like Mercury or Venus which are never more than",
+   "bbox": [
+    359,
+    1379,
+    1581,
+    1417
+   ]
+  },
+  {
+   "text": "48 degrees away from the Sun will be opposite Moon under the",
+   "bbox": [
+    362,
+    1431,
+    1581,
+    1470
+   ]
+  },
+  {
+   "text": "conditions stipulated in the shloka and Moon will thus be",
+   "bbox": [
+    361,
+    1484,
+    1580,
+    1523
+   ]
+  },
+  {
+   "text": "fairly away from the Sun. Being thus away from the Sun,",
+   "bbox": [
+    359,
+    1538,
+    1583,
+    1576
+   ]
+  },
+  {
+   "text": "Moon will be strong in \"Paksha Bala\". Secondly planets in 6th,",
+   "bbox": [
+    361,
+    1590,
+    1581,
+    1628
+   ]
+  },
+  {
+   "text": "7th and 8th from her should in their turn be also strong by",
+   "bbox": [
+    361,
+    1643,
+    1581,
+    1681
+   ]
+  },
+  {
+   "text": "house position etc and by being as far away from Sun as is",
+   "bbox": [
+    359,
+    1695,
+    1581,
+    1735
+   ]
+  },
+  {
+   "text": "possible for them to be. Strong benefic planet in 7th from the",
+   "bbox": [
+    361,
+    1748,
+    1581,
+    1787
+   ]
+  },
+  {
+   "text": "Moon will add to her strength by direct aspect, while the other",
+   "bbox": [
+    359,
+    1801,
+    1581,
+    1840
+   ]
+  },
+  {
+   "text": "two (one in 6th and the other in 8th) will aspect and boost the",
+   "bbox": [
+    359,
+    1854,
+    1581,
+    1893
+   ]
+  },
+  {
+   "text": "houses 12th and 2nd from the Moon with the result that Moon",
+   "bbox": [
+    359,
+    1907,
+    1581,
+    1942
+   ]
+  },
+  {
+   "text": "by receiving good aspects on its two sides will get still further",
+   "bbox": [
+    361,
+    1959,
+    1580,
+    1998
+   ]
+  },
+  {
+   "text": "strengthened. Such being the rationale behind the good effects",
+   "bbox": [
+    361,
+    2012,
+    1580,
+    2051
+   ]
+  },
+  {
+   "text": "of \"Chandradhiyoga\", it is essential that to have maximum",
+   "bbox": [
+    359,
+    2063,
+    1580,
+    2102
+   ]
+  },
+  {
+   "text": "good results the natural benefic planets should be positioned",
+   "bbox": [
+    359,
+    2117,
+    1580,
+    2155
+   ]
+  },
+  {
+   "text": "in all the three houses (6th, 7th and 8th from Moon) and not in",
+   "bbox": [
+    358,
+    2169,
+    1580,
+    2207
+   ]
+  },
+  {
+   "text": "one or two. In case for example if Jupiter alone is in 6th or 8th",
+   "bbox": [
+    358,
+    2221,
+    1580,
+    2259
+   ]
+  },
+  {
+   "text": "from Moon, it will not give any appreciable help to Moon. It",
+   "bbox": [
+    358,
+    2274,
+    1579,
+    2313
+   ]
+  },
+  {
+   "text": "would on the other hand, constitute \"Shakat yoga\"-a yoga for",
+   "bbox": [
+    358,
+    2325,
+    1576,
+    2365
+   ]
+  }
+ ]
+}

@@ -1,0 +1,333 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0227",
+ "book_id": "phaladeepika",
+ "seq": 227,
+ "source_ref": {
+  "pdf_page": 227
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "f8051965a39f67436fedd8191a174d05982f4e7db2a60bb4dd7e1d3e41cc2dc2",
+ "lines": [
+  {
+   "text": "countings by houses from the each of the seven planets and the Lagna and effects ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "should be assessed of the various houses counted from that planet on the basis of ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "bindus they contain.",
+   "bbox": [
+    85,
+    106,
+    198,
+    121
+   ]
+  },
+  {
+   "text": "Notes — For example in the Sun's Ashtakavarga, the Sun is in Scorpio. ",
+   "bbox": [
+    121,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "According to the author this should be treated as the Lagna as shown below:",
+   "bbox": [
+    85,
+    154,
+    512,
+    169
+   ]
+  },
+  {
+   "text": "When the Sun in the course of his transit passes through a house containing ",
+   "bbox": [
+    121,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "4 or more bindus, benefic effects may be expected. Thus when the Sun transits ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "Taurus which contains 7 bindus, excellent results will be produced in respect of ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "that house (which counted from the Sun will be the house of marriage conjugal life ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "etc.). There is only one bindu, in the house 5th from the Sun. The transit of the Sun ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "to that house will cause trouble in respect of children, stomach, disorders, mental ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "worry etc.",
+   "bbox": [
+    85,
+    323,
+    142,
+    339
+   ]
+  },
+  {
+   "text": "0000 ",
+   "bbox": [
+    326,
+    377,
+    357,
+    392
+   ]
+  },
+  {
+   "text": "0",
+   "bbox": [
+    251,
+    385,
+    258,
+    400
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    287,
+    385,
+    308,
+    400
+   ]
+  },
+  {
+   "text": "0000",
+   "bbox": [
+    369,
+    385,
+    397,
+    400
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    329,
+    393,
+    350,
+    408
+   ]
+  },
+  {
+   "text": "00000",
+   "bbox": [
+    237,
+    427,
+    272,
+    443
+   ]
+  },
+  {
+   "text": "0000",
+   "bbox": [
+    369,
+    427,
+    397,
+    443
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    244,
+    470,
+    265,
+    485
+   ]
+  },
+  {
+   "text": "00000",
+   "bbox": [
+    365,
+    470,
+    400,
+    485
+   ]
+  },
+  {
+   "text": "L",
+   "bbox": [
+    293,
+    504,
+    302,
+    520
+   ]
+  },
+  {
+   "text": "0000",
+   "bbox": [
+    241,
+    512,
+    269,
+    528
+   ]
+  },
+  {
+   "text": "00000 0000",
+   "bbox": [
+    280,
+    512,
+    354,
+    536
+   ]
+  },
+  {
+   "text": "000",
+   "bbox": [
+    372,
+    512,
+    393,
+    528
+   ]
+  },
+  {
+   "text": "13. This verse explains as to when a planet will reduce good or bad effects ",
+   "bbox": [
+    121,
+    566,
+    556,
+    582
+   ]
+  },
+  {
+   "text": "of a house according to the number of bindus it contains.",
+   "bbox": [
+    85,
+    590,
+    404,
+    606
+   ]
+  },
+  {
+   "text": "Note the sign and navamsa occupied by a planet at birth. When the planet in ",
+   "bbox": [
+    121,
+    614,
+    556,
+    630
+   ]
+  },
+  {
+   "text": "the course of his transit passes through so much distance in that house, he produces ",
+   "bbox": [
+    85,
+    639,
+    556,
+    654
+   ]
+  },
+  {
+   "text": "the effects of that house good or bad as the case may be.",
+   "bbox": [
+    85,
+    663,
+    400,
+    678
+   ]
+  },
+  {
+   "text": "Note — For example in the example horoscope the longitude of Jupiter is 14 ",
+   "bbox": [
+    121,
+    687,
+    556,
+    702
+   ]
+  },
+  {
+   "text": "degrees. In the Jupiter's Ashtakavarga, Virgo centals 7 bindus. Jupiter in the course ",
+   "bbox": [
+    85,
+    711,
+    556,
+    727
+   ]
+  },
+  {
+   "text": "of his transit to Virgo will produce good effects due from the number of bindus ",
+   "bbox": [
+    85,
+    735,
+    556,
+    751
+   ]
+  },
+  {
+   "text": "when he has traversed 14 degrees in that sign.",
+   "bbox": [
+    85,
+    759,
+    342,
+    775
+   ]
+  },
+  {
+   "text": "227",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

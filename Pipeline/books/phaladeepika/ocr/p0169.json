@@ -1,0 +1,288 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0169",
+ "book_id": "phaladeepika",
+ "seq": 169,
+ "source_ref": {
+  "pdf_page": 169
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "4568be4e918a80dcd7e2b1a2e62b39280163752c2e17a3855d15c65abda12e2a",
+ "lines": [
+  {
+   "text": "<b>Chapter 18</b>",
+   "bbox": [
+    281,
+    57,
+    357,
+    75
+   ]
+  },
+  {
+   "text": "<b>Aspects of conjunction of two planets</b>",
+   "bbox": [
+    192,
+    85,
+    446,
+    103
+   ]
+  },
+  {
+   "text": "1. If at the birth of a person the Sun be in conjunction with the Moon, he will ",
+   "bbox": [
+    121,
+    137,
+    556,
+    152
+   ]
+  },
+  {
+   "text": "be skilled in machine and stone work. If the Sun be in conjunction with Mars, he ",
+   "bbox": [
+    85,
+    161,
+    556,
+    176
+   ]
+  },
+  {
+   "text": "will be sinful. If the Sun be associated with Mercury, the native will be talented, ",
+   "bbox": [
+    85,
+    185,
+    556,
+    201
+   ]
+  },
+  {
+   "text": "intelligent, renowned and happy. If the Sun be in conjunction with Jupiter the ",
+   "bbox": [
+    85,
+    209,
+    556,
+    225
+   ]
+  },
+  {
+   "text": "person concerned will be cruel and will intent on helping others. If the Sun and ",
+   "bbox": [
+    85,
+    233,
+    556,
+    249
+   ]
+  },
+  {
+   "text": "Venus be together at birth, the native will earn through dancing, singing, by acting ",
+   "bbox": [
+    85,
+    257,
+    556,
+    273
+   ]
+  },
+  {
+   "text": "in theatre or Cinema or by the use of weapons. If the Sun be in conjunction with ",
+   "bbox": [
+    85,
+    282,
+    556,
+    297
+   ]
+  },
+  {
+   "text": "Saturn; the native will be skillful in the working of metals or in various sorts of ",
+   "bbox": [
+    85,
+    306,
+    556,
+    321
+   ]
+  },
+  {
+   "text": "pottery.",
+   "bbox": [
+    85,
+    330,
+    127,
+    345
+   ]
+  },
+  {
+   "text": "2. If the Moon be in conjunction with Mars, the person will be a dealer in ",
+   "bbox": [
+    121,
+    354,
+    556,
+    370
+   ]
+  },
+  {
+   "text": "hammer, ploughs and similar rough instruments, and earthen pots. He will be ",
+   "bbox": [
+    85,
+    378,
+    556,
+    394
+   ]
+  },
+  {
+   "text": "disobedient to his mother. If the Moon be associated with Mercury, the person ",
+   "bbox": [
+    85,
+    402,
+    556,
+    418
+   ]
+  },
+  {
+   "text": "concerned will be soft spoken, will be clever in interpretation (or clever in ",
+   "bbox": [
+    85,
+    427,
+    556,
+    442
+   ]
+  },
+  {
+   "text": "financial matters). He will be fortunate and famous. When the Moon be in ",
+   "bbox": [
+    85,
+    451,
+    556,
+    466
+   ]
+  },
+  {
+   "text": "conjunction with Jupiter, the person concerned will be victorious over enemies and ",
+   "bbox": [
+    85,
+    475,
+    556,
+    490
+   ]
+  },
+  {
+   "text": "fickle minded. He will be head of his family and very wealthy. If the Moon and ",
+   "bbox": [
+    85,
+    499,
+    556,
+    514
+   ]
+  },
+  {
+   "text": "Venus be together, the person concerned will specialise in weaving, tailoring and ",
+   "bbox": [
+    85,
+    523,
+    556,
+    539
+   ]
+  },
+  {
+   "text": "dying of clothes. If the Moon be in conjunction with Saturn, the person born will ",
+   "bbox": [
+    85,
+    547,
+    556,
+    563
+   ]
+  },
+  {
+   "text": "be the son of a woman (widow) who remarried.",
+   "bbox": [
+    85,
+    571,
+    352,
+    587
+   ]
+  },
+  {
+   "text": "3. If at birth Mars and Mercury be associated with each other, the person ",
+   "bbox": [
+    121,
+    596,
+    556,
+    611
+   ]
+  },
+  {
+   "text": "concerned, will be a dealer in herbs, plants, books, oil and drugs. He will be clever ",
+   "bbox": [
+    85,
+    620,
+    556,
+    635
+   ]
+  },
+  {
+   "text": "in boxing. If Mars and Jupiter be together he will be administrator of a city or ",
+   "bbox": [
+    85,
+    644,
+    556,
+    659
+   ]
+  },
+  {
+   "text": "town, or a king or a rich Brahmin. If Mars be with Venus, the person born will be ",
+   "bbox": [
+    85,
+    668,
+    556,
+    684
+   ]
+  },
+  {
+   "text": "owner of court, a wrestler, one who has affairs with other people's wives, gambler, ",
+   "bbox": [
+    85,
+    692,
+    556,
+    708
+   ]
+  },
+  {
+   "text": "and clever. When Mars and Saturn be together the native will be unhappy, ",
+   "bbox": [
+    85,
+    716,
+    556,
+    732
+   ]
+  },
+  {
+   "text": "condemned by all and does not stick to his word.",
+   "bbox": [
+    85,
+    740,
+    359,
+    756
+   ]
+  },
+  {
+   "text": "4. When Mercury be in conjunction with Jupiter at birth, the person ",
+   "bbox": [
+    121,
+    765,
+    556,
+    780
+   ]
+  },
+  {
+   "text": "169",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

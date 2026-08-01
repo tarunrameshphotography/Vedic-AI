@@ -1,0 +1,234 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0146",
+ "book_id": "phaladeepika",
+ "seq": 146,
+ "source_ref": {
+  "pdf_page": 146
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "fbd6d2f3164b47beb61ad4e300487d68b75f29e5b6c7ba37db5e39ee2e166181",
+ "lines": [
+  {
+   "text": "Merc",
+   "bbox": [
+    389,
+    62,
+    419,
+    77
+   ]
+  },
+  {
+   "text": "L",
+   "bbox": [
+    229,
+    70,
+    238,
+    85
+   ]
+  },
+  {
+   "text": "Venus",
+   "bbox": [
+    330,
+    70,
+    364,
+    85
+   ]
+  },
+  {
+   "text": "Sun ",
+   "bbox": [
+    393,
+    78,
+    418,
+    93
+   ]
+  },
+  {
+   "text": "Rahu",
+   "bbox": [
+    219,
+    86,
+    248,
+    101
+   ]
+  },
+  {
+   "text": "Sat",
+   "bbox": [
+    338,
+    86,
+    356,
+    101
+   ]
+  },
+  {
+   "text": "Moon",
+   "bbox": [
+    387,
+    94,
+    421,
+    110
+   ]
+  },
+  {
+   "text": "Mars",
+   "bbox": [
+    390,
+    135,
+    418,
+    150
+   ]
+  },
+  {
+   "text": "Jup.",
+   "bbox": [
+    279,
+    248,
+    302,
+    264
+   ]
+  },
+  {
+   "text": "Ketu",
+   "bbox": [
+    390,
+    248,
+    418,
+    264
+   ]
+  },
+  {
+   "text": "4. Malefic occupying the 6th, 8th and 12th house with reference to the ",
+   "bbox": [
+    121,
+    309,
+    556,
+    324
+   ]
+  },
+  {
+   "text": "Lagna or other house under examination cause the destruction of that house.",
+   "bbox": [
+    85,
+    333,
+    512,
+    348
+   ]
+  },
+  {
+   "text": "Notes—For example we have to assess the effects of the 7th house under ",
+   "bbox": [
+    121,
+    357,
+    556,
+    373
+   ]
+  },
+  {
+   "text": "examination. They are not capable of producing good effects of that house.",
+   "bbox": [
+    85,
+    381,
+    505,
+    397
+   ]
+  },
+  {
+   "text": "X",
+   "bbox": [
+    228,
+    450,
+    239,
+    466
+   ]
+  },
+  {
+   "text": "L",
+   "bbox": [
+    286,
+    450,
+    295,
+    466
+   ]
+  },
+  {
+   "text": "X",
+   "bbox": [
+    342,
+    450,
+    352,
+    466
+   ]
+  },
+  {
+   "text": "X",
+   "bbox": [
+    285,
+    620,
+    295,
+    636
+   ]
+  },
+  {
+   "text": "7th",
+   "bbox": [
+    338,
+    620,
+    356,
+    636
+   ]
+  },
+  {
+   "text": "For example, we have the 7th house under consideration. Suppose Jupiter is ",
+   "bbox": [
+    121,
+    681,
+    556,
+    697
+   ]
+  },
+  {
+   "text": "posited in the 6th or 8th or 12th from the 7th house. In such a position Jupiter will ",
+   "bbox": [
+    85,
+    705,
+    556,
+    721
+   ]
+  },
+  {
+   "text": "not be capable of any strength to the 7th house as from any of these places he will ",
+   "bbox": [
+    85,
+    729,
+    556,
+    745
+   ]
+  },
+  {
+   "text": "be unable to aspect the 7th house.",
+   "bbox": [
+    85,
+    753,
+    274,
+    769
+   ]
+  },
+  {
+   "text": "146",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

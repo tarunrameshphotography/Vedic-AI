@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0216",
+ "book_id": "phaladeepika",
+ "seq": 216,
+ "source_ref": {
+  "pdf_page": 216
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "4f1bec4c129213bce95a5cbdf09643660814d972d0b65f7cf34a306709b6fd1e",
+ "lines": [
+  {
+   "text": "Multiply the total ayus by this and divide by 300. The whole Ayurdaya should be ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "reduced by this result. If the lagna be aspected by a benefic, the period to be ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "reduced will be only half of the above result. So say those well versed in Ayurdaya ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "system.",
+   "bbox": [
+    85,
+    130,
+    128,
+    145
+   ]
+  },
+  {
+   "text": "22. In the Pindayurdaya system when Amsa (lagna navamsa) is stronger the ",
+   "bbox": [
+    121,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "lagna ayus (or lagna dasa) corresponds to the lagna navamsa. When lagna (sign) is ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "strong, the number of years for lagna corresponds to the number signified by the ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "sign etc., counted frorn Aries and not the lagna navamsa.",
+   "bbox": [
+    85,
+    226,
+    403,
+    242
+   ]
+  },
+  {
+   "text": "23. The years assigned to the several planets in verse 21 are to be adopted in ",
+   "bbox": [
+    121,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "full when they are in exaltation. When a planet is in his point of debilitation, the ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "period assigned to him is reduced by half; when he occupies an intermediate ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "position, the reduction is to be proportionate, say the wise.",
+   "bbox": [
+    85,
+    323,
+    413,
+    339
+   ]
+  },
+  {
+   "text": "24. The Pindayurdaya system is advocated as the best by Manitha, ",
+   "bbox": [
+    121,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "Chanakya, Maya and others. But Satyacharya has pronounced this method to be ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "faulty and Varahamihira has also made similar pronouncement.",
+   "bbox": [
+    85,
+    395,
+    439,
+    411
+   ]
+  },
+  {
+   "text": "25. Jeevasharma lays down in according with his own doctrine that the ",
+   "bbox": [
+    121,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "maximum period of life given by each planet from the Sun onwards is 1/7th of the ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "maximum aggregate period (120 years and 5 days). In this Ayurdaya also all the ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "reductions are enjoined. The lagna Ayur should be calculated in the same way as in ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "the other system.",
+   "bbox": [
+    85,
+    516,
+    180,
+    532
+   ]
+  },
+  {
+   "text": "26. The full period of life in the case of men has been declared as 120 years ",
+   "bbox": [
+    121,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "(12 x 10) by some. There are others who have stated that the full period will be the ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "time taken by Saturn to make 3 complete revoluation (in his orbit). There is a third ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "school according to which the full life period of man is the time taken by the Moon ",
+   "bbox": [
+    85,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "for making 1000 revolutions. But we are of the opinion that the full period of man's ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "life in this kaliyuga is only 100 years as stated in the Vedas.",
+   "bbox": [
+    85,
+    661,
+    419,
+    677
+   ]
+  },
+  {
+   "text": "27. Of the lagna. the Sun and the Moon whichever is strongest will have his ",
+   "bbox": [
+    121,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "dasa first. Then will come the dasa of the planet in kendra and other position. ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "When several occupy any one these positions the preference will be given to the ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "planet who predominates in strength. When they happen to be equal in strength, ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "216",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0175",
+ "book_id": "phaladeepika",
+ "seq": 175,
+ "source_ref": {
+  "pdf_page": 175
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "6cd6bd747a78c41795a88bc648901aab1db49a9b99eef7683059d3183aeae0eb",
+ "lines": [
+  {
+   "text": "20 ghatikas were still to elapse in Punarvasu nakshatra. Birth in Punarvasu means ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "that the dasa in operation would be of Jupiter. How much of Jupiter remains at the ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "time of birth.",
+   "bbox": [
+    85,
+    106,
+    159,
+    121
+   ]
+  },
+  {
+   "text": "20*16/60 = 16/3 = 5 years 4 months.",
+   "bbox": [
+    121,
+    130,
+    328,
+    145
+   ]
+  },
+  {
+   "text": "There is some difference of opinion between the author of Phala deepika and ",
+   "bbox": [
+    121,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "other authorities about the method of above calculation. Accordingly in Shri ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "Mantreshwara every result is to be divided by 60 but according to other authorities ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "the division should be done by the whole measure.",
+   "bbox": [
+    85,
+    226,
+    369,
+    242
+   ]
+  },
+  {
+   "text": "(1) The generally recognised method",
+   "bbox": [
+    121,
+    251,
+    328,
+    266
+   ]
+  },
+  {
+   "text": "Add the ghatikas elapsed of the nakshatra and those still to elapse. Thus we ",
+   "bbox": [
+    121,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "get the total number of ghatikas of the nakshatra. Mark these ghatikas as 'A'.",
+   "bbox": [
+    85,
+    299,
+    513,
+    314
+   ]
+  },
+  {
+   "text": "Mark the ghatikas still to elapse as (B). Now suppose the birth has",
+   "bbox": [
+    121,
+    323,
+    492,
+    339
+   ]
+  },
+  {
+   "text": "taken place in the dasa of Jupiter, then the remainder of the dasa of Jupiter at ",
+   "bbox": [
+    121,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "birth will be calculated as under:",
+   "bbox": [
+    85,
+    371,
+    268,
+    387
+   ]
+  },
+  {
+   "text": ": If in A the dasa period is 16 years",
+   "bbox": [
+    121,
+    395,
+    316,
+    411
+   ]
+  },
+  {
+   "text": ": In 1 it will be — 16/A",
+   "bbox": [
+    121,
+    420,
+    253,
+    435
+   ]
+  },
+  {
+   "text": ": In B it will be — (16/A)*(B/1)",
+   "bbox": [
+    121,
+    444,
+    301,
+    459
+   ]
+  },
+  {
+   "text": "The result of this calculation will indicate the years, months, days etc., of the ",
+   "bbox": [
+    121,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "remainder of the dasa at birth.",
+   "bbox": [
+    85,
+    492,
+    253,
+    508
+   ]
+  },
+  {
+   "text": "(2) Method of calculation according to Shri Mantreshwar —",
+   "bbox": [
+    121,
+    516,
+    459,
+    532
+   ]
+  },
+  {
+   "text": "(16/A)*(B/1) years.",
+   "bbox": [
+    121,
+    540,
+    232,
+    556
+   ]
+  },
+  {
+   "text": "The difference is that in this method the total number of ghatikas are not ",
+   "bbox": [
+    121,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "taken into account. 'A' or the total numbner of ghatikas is always taken as 60. The ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "remainder of the dasa only the basis of 'B'.",
+   "bbox": [
+    85,
+    613,
+    323,
+    628
+   ]
+  },
+  {
+   "text": "This in our view is not correct as the total number of ghatikas are not always ",
+   "bbox": [
+    121,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "60.",
+   "bbox": [
+    85,
+    661,
+    103,
+    677
+   ]
+  },
+  {
+   "text": "Now-a-days the easiest method of the remainder of the dasa accordingly is ",
+   "bbox": [
+    121,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "based on the longitude of the Moon 3-13°-12' (Cancer 13°-12'). Cancer is ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "composed of one quater or 3°-20' of Punarvasu, four quarters of Ashlesha. As the ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "longitude of 13°-12' in Cancer, it has passed the fourth quarter of Punarvasu in this ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "175",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

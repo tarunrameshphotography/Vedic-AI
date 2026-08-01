@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0015",
+ "book_id": "phaladeepika",
+ "seq": 15,
+ "source_ref": {
+  "pdf_page": 15
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "e418e4d0f3176c54e50a8e43dce9a0c801c8dcfd4ece60f8a6531f0adc2c9323",
+ "lines": [
+  {
+   "text": "11.-12. — The names given (or the subjects allotted) to third house are ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "Duschikya, Uras (breast), the right ear, army valour, prowess and brother.",
+   "bbox": [
+    85,
+    82,
+    497,
+    97
+   ]
+  },
+  {
+   "text": "The subjects or designations for the fourth house are house, land, maternal ",
+   "bbox": [
+    121,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "uncle, a sister's son, a relation, a friend, conveyance, mother, kingdom, cow, ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "buffalo, perfume, clothes, ornaments, the nadir, hibuka, sukha (happiness), water, ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "bridge and river.",
+   "bbox": [
+    85,
+    178,
+    177,
+    194
+   ]
+  },
+  {
+   "text": "The fifth house deals with (and has designations accordingly) the mark of ",
+   "bbox": [
+    121,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "the sovereign, taxes, soul, intelligence, knowledge of the future, life, progeny, ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "belly, Vedic knowledge and other religious scriptures.",
+   "bbox": [
+    85,
+    251,
+    386,
+    266
+   ]
+  },
+  {
+   "text": "13. — The sixth house deals with debts, arms, thieves, wounds, diseases, ",
+   "bbox": [
+    121,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "enemies, paternal relations, battle, wicked acts, sins, fear and humilialtion.",
+   "bbox": [
+    85,
+    299,
+    502,
+    314
+   ]
+  },
+  {
+   "text": "The subjects dealt with by the seventh house are desire, passion, setting, ",
+   "bbox": [
+    121,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "sexual desire, a way, people, husband road and wife.",
+   "bbox": [
+    85,
+    347,
+    379,
+    363
+   ]
+  },
+  {
+   "text": "14. — For the eighth house subjects allotted are Mangalya (the living of the ",
+   "bbox": [
+    121,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "husband during the life time of the wife), Randhra, filthiness, mental pain, defeat ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "or humiliation, longevity, sorrow, blame, death, impurity impediments and slavery.",
+   "bbox": [
+    85,
+    420,
+    549,
+    435
+   ]
+  },
+  {
+   "text": "The ninth house deals with preceptor (guru), deity (devta), father, ",
+   "bbox": [
+    121,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "auspiciousness, poorvabhagya (previous luck), worship, penance, virtuous act or ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "virtue, grand son, and noble family. (Some of the learneds in the North are of the ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "view that all about father should be examined from the 10th house, because 10th is ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "7th to the 4th house dealing with the father. The view of Phaladeepika seems to be ",
+   "bbox": [
+    85,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "based on the logic that the 9th being 5th to 5th house (dealing with progeny) ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "should be the most appropriate house to be connected with father).",
+   "bbox": [
+    85,
+    589,
+    458,
+    604
+   ]
+  },
+  {
+   "text": "15. The subjects (names) designated for the 10th house are business or trade, ",
+   "bbox": [
+    121,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "ranker position, honour, occupation, profession, sky or zenith, conduct, quality, ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "inclination, gait, command and Meshurana (to give orders).",
+   "bbox": [
+    85,
+    661,
+    418,
+    677
+   ]
+  },
+  {
+   "text": "The matters to be considered from the eleventh house are gains, income, ",
+   "bbox": [
+    121,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "acquisition, receipt of wealth, accomplishment, splendor and prosperity, profits, ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "veneration, elder brother or sister, left ear, anything juicy, delightful news.",
+   "bbox": [
+    85,
+    734,
+    500,
+    749
+   ]
+  },
+  {
+   "text": "16. The expressions used for the twelfth house are misery, leg, left eye, loss, ",
+   "bbox": [
+    121,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "15",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

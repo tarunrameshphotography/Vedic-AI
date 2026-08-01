@@ -1,0 +1,308 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0126",
+ "book_id": "brihat-jataka",
+ "seq": 126,
+ "source_ref": {
+  "pdf_page": 63,
+  "half": "b",
+  "v1_page": "s063b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "1b84cec9b6dc32be2bca51d2c688d484fce3defb63a7dc26d51929bc58de0667",
+ "lines": [
+  {
+   "text": "zka",
+   "bbox": [
+    0,
+    213,
+    62,
+    248
+   ]
+  },
+  {
+   "text": "15",
+   "bbox": [
+    884,
+    518,
+    959,
+    568
+   ]
+  },
+  {
+   "text": "ais",
+   "bbox": [
+    0,
+    553,
+    52,
+    588
+   ]
+  },
+  {
+   "text": "ŉ.",
+   "bbox": [
+    0,
+    611,
+    49,
+    643
+   ]
+  },
+  {
+   "text": "ets.",
+   "bbox": [
+    0,
+    658,
+    49,
+    694
+   ]
+  },
+  {
+   "text": "प्रव्रज्यायोगाध्यायः",
+   "bbox": [
+    751,
+    667,
+    1087,
+    721
+   ]
+  },
+  {
+   "text": "bI",
+   "bbox": [
+    0,
+    707,
+    45,
+    746
+   ]
+  },
+  {
+   "text": "<b>Renunciation</b>",
+   "bbox": [
+    654,
+    742,
+    1188,
+    814
+   ]
+  },
+  {
+   "text": "n-",
+   "bbox": [
+    0,
+    937,
+    34,
+    967
+   ]
+  },
+  {
+   "text": "एकस्थैश्चतुरादिभिर्बलयुतैर्जाताः पृथग्वीयीैः",
+   "bbox": [
+    388,
+    992,
+    984,
+    1048
+   ]
+  },
+  {
+   "text": "शाक्याजीविकभिक्षुवृद्धचरका निर्ग्रन्थवन्याशना:।",
+   "bbox": [
+    386,
+    1053,
+    1061,
+    1114
+   ]
+  },
+  {
+   "text": "माहेयज्ञगुरुक्षपाकरसितप्राभाकरीनै: क्रमा-",
+   "bbox": [
+    386,
+    1122,
+    969,
+    1176
+   ]
+  },
+  {
+   "text": "त्प्रव्रज्या बलिभि: समा: परिजितैस्तत्स्वामिभि: प्रच्युति: ।। 1 ।।",
+   "bbox": [
+    386,
+    1193,
+    1304,
+    1241
+   ]
+  },
+  {
+   "text": "If four or more planets are situated in any one sign and a",
+   "bbox": [
+    386,
+    1288,
+    1531,
+    1326
+   ]
+  },
+  {
+   "text": "planet or more are strong \"Sanyas\" yoga is constituted. As",
+   "bbox": [
+    312,
+    1339,
+    1528,
+    1379
+   ]
+  },
+  {
+   "text": "many as strong will all give Sanyas of the variety indicated by",
+   "bbox": [
+    311,
+    1391,
+    1531,
+    1431
+   ]
+  },
+  {
+   "text": "them. If Mars strong is the cause of Sanyas, the man will",
+   "bbox": [
+    311,
+    1440,
+    1531,
+    1487
+   ]
+  },
+  {
+   "text": "become a red clothed sanyasin. If Mercury causes it, he will be",
+   "bbox": [
+    312,
+    1497,
+    1529,
+    1536
+   ]
+  },
+  {
+   "text": "a \"Dandi\" (with staff) and Bhikshu. If Jupiter causes it he will",
+   "bbox": [
+    311,
+    1550,
+    1529,
+    1589
+   ]
+  },
+  {
+   "text": "be an \"Aajeevak\" of the Vaishnavite cult. If Moon causes it, he",
+   "bbox": [
+    311,
+    1602,
+    1531,
+    1641
+   ]
+  },
+  {
+   "text": "will be \"Kapalik\" (one who takes food in a skull) and a \"Shaiva\"",
+   "bbox": [
+    311,
+    1654,
+    1529,
+    1694
+   ]
+  },
+  {
+   "text": "with pierced ears. If Venus is the cause, he will be a",
+   "bbox": [
+    310,
+    1702,
+    1529,
+    1750
+   ]
+  },
+  {
+   "text": "\"Chakrankit\" (mark of a chakra on to body). It is caused by",
+   "bbox": [
+    311,
+    1760,
+    1531,
+    1799
+   ]
+  },
+  {
+   "text": "Saturn, he will be one without clothes. If it is Sun he will be a",
+   "bbox": [
+    311,
+    1813,
+    1531,
+    1851
+   ]
+  },
+  {
+   "text": "man doing Tapas (Austerities) eating fruits and roots. The",
+   "bbox": [
+    311,
+    1866,
+    1531,
+    1905
+   ]
+  },
+  {
+   "text": "sanyas yoga is cancelled if the planet is vanquished in the",
+   "bbox": [
+    311,
+    1918,
+    1531,
+    1958
+   ]
+  },
+  {
+   "text": "planetary war (see shloka 20 of Chapter 2), then the man",
+   "bbox": [
+    311,
+    1971,
+    1526,
+    2010
+   ]
+  },
+  {
+   "text": "leaves the life of a sanyasin. If more than one planet is strong,",
+   "bbox": [
+    309,
+    2023,
+    1528,
+    2063
+   ]
+  },
+  {
+   "text": "the man adopts the school of sanyas relevant to them one after",
+   "bbox": [
+    309,
+    2076,
+    1528,
+    2116
+   ]
+  },
+  {
+   "text": "the other.",
+   "bbox": [
+    309,
+    2128,
+    513,
+    2164
+   ]
+  },
+  {
+   "text": "रविलुप्तकरैरदीक्षिता: बलिभिस्तद्गतभक्तयो नरा:।",
+   "bbox": [
+    380,
+    2200,
+    1080,
+    2257
+   ]
+  },
+  {
+   "text": "अभियाचितमात्रदीक्षिता निहतैरन्यनिरीक्षितैरपि।। 2 ।।",
+   "bbox": [
+    380,
+    2263,
+    1147,
+    2316
+   ]
+  }
+ ]
+}

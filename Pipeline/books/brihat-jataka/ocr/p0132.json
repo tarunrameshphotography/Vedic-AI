@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0132",
+ "book_id": "brihat-jataka",
+ "seq": 132,
+ "source_ref": {
+  "pdf_page": 66,
+  "half": "b",
+  "v1_page": "s066b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "703f5d6be79586b05ddf8d9efd67d036d058b96f7652ee4b508b69e703fe43c2",
+ "lines": [
+  {
+   "text": "129",
+   "bbox": [
+    1362,
+    259,
+    1442,
+    286
+   ]
+  },
+  {
+   "text": "Traits of Asterisms",
+   "bbox": [
+    238,
+    261,
+    624,
+    299
+   ]
+  },
+  {
+   "text": "ईरूर्प्युर्लुब्धो द्युतिमान्वचनपटुः कलहकृद्विशाखासु।",
+   "bbox": [
+    309,
+    360,
+    1027,
+    411
+   ]
+  },
+  {
+   "text": "आढचौ विदेशवासी क्षुधालुरटनोऽनुराधासु ।। 9 ।।",
+   "bbox": [
+    310,
+    418,
+    1026,
+    476
+   ]
+  },
+  {
+   "text": "One born with Moon in \"Vishakha\" nakshatra is jealous,",
+   "bbox": [
+    313,
+    517,
+    1449,
+    556
+   ]
+  },
+  {
+   "text": "greedy, active, clever at speech, engaged in querrels. One born",
+   "bbox": [
+    237,
+    568,
+    1447,
+    612
+   ]
+  },
+  {
+   "text": "in \"Anuradha\" nakshatra is wealthy, lives in another country,",
+   "bbox": [
+    237,
+    620,
+    1447,
+    662
+   ]
+  },
+  {
+   "text": "feels hungry too often and is roaming always.",
+   "bbox": [
+    234,
+    674,
+    1142,
+    714
+   ]
+  },
+  {
+   "text": "ज्येष्ठासु न बहुमित्र: सन्तुष्टो धर्मकृत्प्रचुरकोप:।",
+   "bbox": [
+    307,
+    748,
+    1003,
+    801
+   ]
+  },
+  {
+   "text": "मूले मानी धनवान्सुखी न हिंस्र: स्थिरो भोगी।। 10 ।।",
+   "bbox": [
+    307,
+    812,
+    1108,
+    866
+   ]
+  },
+  {
+   "text": "One born with Moon in \"Jyeshta\" nakshatra has not many",
+   "bbox": [
+    312,
+    909,
+    1447,
+    949
+   ]
+  },
+  {
+   "text": "friends, is contented, has religious knowledge and has much",
+   "bbox": [
+    234,
+    957,
+    1448,
+    1006
+   ]
+  },
+  {
+   "text": "anger. One born in 'Moola' is respected, wealthy, happy, is not",
+   "bbox": [
+    237,
+    1014,
+    1450,
+    1055
+   ]
+  },
+  {
+   "text": "cruel, is steadfast and enjoys life.",
+   "bbox": [
+    236,
+    1069,
+    902,
+    1108
+   ]
+  },
+  {
+   "text": "इप्टानन्दकलत्रो मानी दुढसौह्रदश्च जलदैवे।",
+   "bbox": [
+    307,
+    1139,
+    912,
+    1192
+   ]
+  },
+  {
+   "text": "वैश्वे विनीतधार्मिकबहमित्रकृतज्ञसुभगश्चा। 11 ।।",
+   "bbox": [
+    307,
+    1207,
+    1010,
+    1262
+   ]
+  },
+  {
+   "text": "One born with Moon in \"Poorvashadha\" nakshatra is",
+   "bbox": [
+    313,
+    1303,
+    1450,
+    1339
+   ]
+  },
+  {
+   "text": "pleased with his wife in every way. He is respected and has",
+   "bbox": [
+    234,
+    1353,
+    1450,
+    1400
+   ]
+  },
+  {
+   "text": "steadfast friends. One born in \"Uttarashadha\" is full of humil-",
+   "bbox": [
+    234,
+    1406,
+    1450,
+    1448
+   ]
+  },
+  {
+   "text": "ity, highly religious, has many friends, is grateful and has",
+   "bbox": [
+    232,
+    1459,
+    1449,
+    1506
+   ]
+  },
+  {
+   "text": "pleasing qualities.",
+   "bbox": [
+    234,
+    1517,
+    600,
+    1555
+   ]
+  },
+  {
+   "text": "श्रीमाञ्छवणे श्रुतवानुदारदारो धनान्वित: ख्यात:।",
+   "bbox": [
+    306,
+    1592,
+    988,
+    1643
+   ]
+  },
+  {
+   "text": "दाताढचशूरगीतप्रियो धनिष्ठासु धनलुब्ध: ।। 12 ।।",
+   "bbox": [
+    306,
+    1655,
+    1049,
+    1708
+   ]
+  },
+  {
+   "text": "One born with Moon in \"Shravana\" asterism is of shining",
+   "bbox": [
+    309,
+    1750,
+    1453,
+    1787
+   ]
+  },
+  {
+   "text": "qualities and body, is liberal, wealthy and famous. One born in",
+   "bbox": [
+    234,
+    1801,
+    1452,
+    1843
+   ]
+  },
+  {
+   "text": "\"Dhanishta\" is charitable, wealthy, full of valour, lover of",
+   "bbox": [
+    233,
+    1853,
+    1455,
+    1897
+   ]
+  },
+  {
+   "text": "music and greedy.",
+   "bbox": [
+    233,
+    1909,
+    600,
+    1948
+   ]
+  },
+  {
+   "text": "स्फुटवाग्व्यसनी रिपुहा साहसिक: शतभिषजि दुर्ग्राह्य:।",
+   "bbox": [
+    306,
+    1985,
+    1089,
+    2034
+   ]
+  },
+  {
+   "text": "भाद्रपदासूद्विग्न: स्त्रीजितधनी पटुरदाता चा। 13 ।।",
+   "bbox": [
+    306,
+    2048,
+    1050,
+    2100
+   ]
+  },
+  {
+   "text": "One born with Moon in \"Shatbhisha\" asterism talks in",
+   "bbox": [
+    307,
+    2142,
+    1450,
+    2178
+   ]
+  },
+  {
+   "text": "clear tones, addicted to vice, destroyer of enemies, courageous",
+   "bbox": [
+    228,
+    2194,
+    1449,
+    2235
+   ]
+  },
+  {
+   "text": "and not amenable to control. One born in \"Poorvabhadrapada\"",
+   "bbox": [
+    230,
+    2246,
+    1446,
+    2285
+   ]
+  },
+  {
+   "text": "nakshatra has always a parturbed mind, is won over by his",
+   "bbox": [
+    228,
+    2296,
+    1447,
+    2340
+   ]
+  },
+  {
+   "text": "wife, clever in financial matters but non charitable.",
+   "bbox": [
+    228,
+    2351,
+    1254,
+    2389
+   ]
+  }
+ ]
+}

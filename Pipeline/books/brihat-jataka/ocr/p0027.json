@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0027",
+ "book_id": "brihat-jataka",
+ "seq": 27,
+ "source_ref": {
+  "pdf_page": 14,
+  "half": "a",
+  "v1_page": "s014a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "9bf16faaeccc231372deaded84f3f3ee589509223fd04526c326d0ed5ae61544",
+ "lines": [
+  {
+   "text": "24",
+   "bbox": [
+    369,
+    236,
+    435,
+    266
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1297,
+    244,
+    1584,
+    277
+   ]
+  },
+  {
+   "text": "the 9th is \"Guru\" (Preceptor), the 10th is \"Maan\" (Honour), the",
+   "bbox": [
+    366,
+    336,
+    1586,
+    385
+   ]
+  },
+  {
+   "text": "11th \"Bhav\" (Wealth), the 12th is \"Vyaya\" (Expenses). The",
+   "bbox": [
+    367,
+    381,
+    1586,
+    438
+   ]
+  },
+  {
+   "text": "common name for the 4th and the 8th house is \"Chaturasra\",",
+   "bbox": [
+    366,
+    432,
+    1584,
+    488
+   ]
+  },
+  {
+   "text": "the 7th is also called \"Dyoon\" (Gambling). The 10th house is",
+   "bbox": [
+    363,
+    484,
+    1584,
+    538
+   ]
+  },
+  {
+   "text": "named \"Kha\" (Sky)_ and \"Aagya\" (governmental orders).",
+   "bbox": [
+    363,
+    535,
+    1504,
+    588
+   ]
+  },
+  {
+   "text": "Kendras and their Importance",
+   "bbox": [
+    361,
+    638,
+    1165,
+    691
+   ]
+  },
+  {
+   "text": "'कण्टककेन्द्रचतुष्टयसंज्ञा: सप्तमलग्नचतुर्थखभानाम्।",
+   "bbox": [
+    427,
+    719,
+    1178,
+    775
+   ]
+  },
+  {
+   "text": "तेषु यथाभिहितेषु बलाढचा: कीटनराम्बुचरा: पशवश्च।। 17 ।।",
+   "bbox": [
+    434,
+    781,
+    1342,
+    842
+   ]
+  },
+  {
+   "text": "The Kendras (Angular Houses) are also termed \"Kantak\"",
+   "bbox": [
+    436,
+    875,
+    1578,
+    925
+   ]
+  },
+  {
+   "text": "and \"Chatushtaya\". These are the 1st, 4th, 7th and 10th",
+   "bbox": [
+    358,
+    922,
+    1580,
+    978
+   ]
+  },
+  {
+   "text": "houses of the Horoscope. The signs signifying \"Humans\", \"Wa-",
+   "bbox": [
+    357,
+    973,
+    1579,
+    1030
+   ]
+  },
+  {
+   "text": "ter\", \"Insects\" and \"Animals\" are considered as in strength",
+   "bbox": [
+    357,
+    1025,
+    1577,
+    1079
+   ]
+  },
+  {
+   "text": "when located respectively in these houses.",
+   "bbox": [
+    359,
+    1079,
+    1203,
+    1128
+   ]
+  },
+  {
+   "text": "Commentary: Gemini, Virgo, Libra, the first half of Sagit-",
+   "bbox": [
+    434,
+    1163,
+    1574,
+    1203
+   ]
+  },
+  {
+   "text": "tarius and Acquarius are \"Human\" signs strong in lagna ie the",
+   "bbox": [
+    357,
+    1212,
+    1574,
+    1262
+   ]
+  },
+  {
+   "text": "first house. The signs Cancer, the second half of Capricorn and",
+   "bbox": [
+    354,
+    1263,
+    1573,
+    1314
+   ]
+  },
+  {
+   "text": "Pisces are \"Watery\" signs and are strong when located in the",
+   "bbox": [
+    356,
+    1316,
+    1574,
+    1368
+   ]
+  },
+  {
+   "text": "4th house. The insect sign \"Scorpio\" is strong if located in the",
+   "bbox": [
+    353,
+    1369,
+    1574,
+    1420
+   ]
+  },
+  {
+   "text": "7th house and the signs Aries, Taurus, Leo, the second half of",
+   "bbox": [
+    354,
+    1420,
+    1577,
+    1474
+   ]
+  },
+  {
+   "text": "Sagittarius and the first half of Capricorn are \"Animal\" signs,",
+   "bbox": [
+    351,
+    1472,
+    1574,
+    1526
+   ]
+  },
+  {
+   "text": "strong when located in the 10th house.",
+   "bbox": [
+    353,
+    1526,
+    1136,
+    1574
+   ]
+  },
+  {
+   "text": "Some of the Synonyms",
+   "bbox": [
+    352,
+    1632,
+    950,
+    1678
+   ]
+  },
+  {
+   "text": "केन्द्रात्परं पणफरं परतस्तु सर्व-",
+   "bbox": [
+    423,
+    1710,
+    886,
+    1767
+   ]
+  },
+  {
+   "text": "मापोक्लिमं हिबुकमम्बु सुखं च वेश्म",
+   "bbox": [
+    421,
+    1774,
+    970,
+    1832
+   ]
+  },
+  {
+   "text": "जामित्रमस्त भवनं सुतभं त्रिकोणं",
+   "bbox": [
+    424,
+    1844,
+    898,
+    1895
+   ]
+  },
+  {
+   "text": "मेपुरणं दशमन्न च कर्म विद्यात्।। 18 ।।",
+   "bbox": [
+    423,
+    1905,
+    1023,
+    1963
+   ]
+  },
+  {
+   "text": "The 1st, 4th, 7th and 10th houses are the \"Kendra\" houses.",
+   "bbox": [
+    422,
+    2001,
+    1564,
+    2048
+   ]
+  },
+  {
+   "text": "The next adjoining these ie 2nd, 5th, 8th and 11th are termed",
+   "bbox": [
+    347,
+    2052,
+    1566,
+    2103
+   ]
+  },
+  {
+   "text": "\"Panaphar\" (Cadent Houses). The next adjoining houses ie",
+   "bbox": [
+    344,
+    2102,
+    1563,
+    2157
+   ]
+  },
+  {
+   "text": "3rd, 6th, 9th and 12th are called \"Aapoklim\" (Succeedant",
+   "bbox": [
+    344,
+    2155,
+    1566,
+    2209
+   ]
+  },
+  {
+   "text": "houses). The 4th house is also called \"Hibuk\", Ambu (Water),",
+   "bbox": [
+    344,
+    2208,
+    1564,
+    2260
+   ]
+  },
+  {
+   "text": "\"Sukha\" (Comforts), \"Vaishma\" (Residence). The 7th house is",
+   "bbox": [
+    341,
+    2261,
+    1563,
+    2312
+   ]
+  },
+  {
+   "text": "termed \"Jamitra\" and \"Asta\" (Descending), the 5th is called",
+   "bbox": [
+    341,
+    2315,
+    1561,
+    2364
+   ]
+  }
+ ]
+}

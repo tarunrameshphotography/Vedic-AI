@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0014",
+ "book_id": "brihat-jataka",
+ "seq": 14,
+ "source_ref": {
+  "pdf_page": 7,
+  "half": "b",
+  "v1_page": "s007b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "18f78ba28d0a91019e22824718ff4f6156cc6ddaa5f536324db25bafa0e2155f",
+ "lines": [
+  {
+   "text": "On Signs",
+   "bbox": [
+    309,
+    294,
+    499,
+    332
+   ]
+  },
+  {
+   "text": "\"Griha\", \"Riksh\", \"Bha\" and \"Bhavan\" are all synonyms. The",
+   "bbox": [
+    309,
+    392,
+    1518,
+    431
+   ]
+  },
+  {
+   "text": "twelve signs ie Aries, Taurus, Gemini, Cancer, Leo, Virgo,",
+   "bbox": [
+    307,
+    445,
+    1519,
+    485
+   ]
+  },
+  {
+   "text": "Libra, Scorpio, Sagittarius, Capricorn, Acquarius and Pisces",
+   "bbox": [
+    307,
+    498,
+    1519,
+    537
+   ]
+  },
+  {
+   "text": "represent respectively one's head, face, upper portion of the",
+   "bbox": [
+    307,
+    547,
+    1518,
+    593
+   ]
+  },
+  {
+   "text": "chest, heart, belly, intestines, the navel, private parts, hips,",
+   "bbox": [
+    307,
+    603,
+    1521,
+    643
+   ]
+  },
+  {
+   "text": "upper part of the legs, legs below knees and feet.",
+   "bbox": [
+    307,
+    655,
+    1282,
+    697
+   ]
+  },
+  {
+   "text": "<i>Commentary:</i> This sloka is of much practical use in the",
+   "bbox": [
+    382,
+    734,
+    1518,
+    773
+   ]
+  },
+  {
+   "text": "medical line when applied along with the knowledge that the",
+   "bbox": [
+    307,
+    786,
+    1519,
+    830
+   ]
+  },
+  {
+   "text": "houses of the birth chart too represent head, face etc. Thus if",
+   "bbox": [
+    307,
+    840,
+    1522,
+    880
+   ]
+  },
+  {
+   "text": "in a nativity for example, the sign No. four ie Cancer and its",
+   "bbox": [
+    307,
+    892,
+    1519,
+    934
+   ]
+  },
+  {
+   "text": "lord Moon are weak and afflicted along with the house No. four",
+   "bbox": [
+    306,
+    945,
+    1519,
+    984
+   ]
+  },
+  {
+   "text": "and its lord, the organ number four in the body ie lungs are",
+   "bbox": [
+    307,
+    997,
+    1516,
+    1037
+   ]
+  },
+  {
+   "text": "bound to suffer. The trouble in the appropriate organ of the",
+   "bbox": [
+    307,
+    1050,
+    1518,
+    1089
+   ]
+  },
+  {
+   "text": "body has thus to be located if a house representing that organ,",
+   "bbox": [
+    307,
+    1102,
+    1518,
+    1142
+   ]
+  },
+  {
+   "text": "its lord, the sign of the same number as the house and the lord",
+   "bbox": [
+    307,
+    1155,
+    1518,
+    1194
+   ]
+  },
+  {
+   "text": "of that sign, all the four suffer.",
+   "bbox": [
+    307,
+    1209,
+    922,
+    1248
+   ]
+  },
+  {
+   "text": "<b>Pictorial Representation of Signs</b>",
+   "bbox": [
+    303,
+    1311,
+    1174,
+    1353
+   ]
+  },
+  {
+   "text": "मत्स्यौ घटी नृमिथुनं सगदं सवीणं",
+   "bbox": [
+    375,
+    1390,
+    879,
+    1442
+   ]
+  },
+  {
+   "text": "चापी नरोऽश्वजघनो मकरो मृगास्य:।",
+   "bbox": [
+    377,
+    1454,
+    890,
+    1506
+   ]
+  },
+  {
+   "text": "तौलीससस्यदहना प्लवगा च कन्या",
+   "bbox": [
+    375,
+    1517,
+    889,
+    1568
+   ]
+  },
+  {
+   "text": "शेषा: स्वनामसदृशा: खचराश्च सर्वे।। 5 ।।",
+   "bbox": [
+    375,
+    1586,
+    1003,
+    1635
+   ]
+  },
+  {
+   "text": "The sign Pisces is represented by two fishes (with tail of",
+   "bbox": [
+    378,
+    1680,
+    1522,
+    1719
+   ]
+  },
+  {
+   "text": "gone in the mouth of the other). Acquarius is represented by a",
+   "bbox": [
+    296,
+    1731,
+    1516,
+    1772
+   ]
+  },
+  {
+   "text": "man carrying an empty earthen pot. Gemini is represented by",
+   "bbox": [
+    299,
+    1786,
+    1516,
+    1826
+   ]
+  },
+  {
+   "text": "'a male and female joined together with mace a weapon and",
+   "bbox": [
+    297,
+    1839,
+    1516,
+    1879
+   ]
+  },
+  {
+   "text": "veena musical instrument.",
+   "bbox": [
+    302,
+    1891,
+    833,
+    1926
+   ]
+  },
+  {
+   "text": "Sagittarius has the upper portion from waist as that of",
+   "bbox": [
+    378,
+    1971,
+    1522,
+    2011
+   ]
+  },
+  {
+   "text": "man and the lower of a horse. Capricorn is a crocodile having",
+   "bbox": [
+    302,
+    2023,
+    1518,
+    2063
+   ]
+  },
+  {
+   "text": "the face of a deer.",
+   "bbox": [
+    302,
+    2075,
+    662,
+    2110
+   ]
+  },
+  {
+   "text": "Libra is represented by a man with scales in his hand.",
+   "bbox": [
+    377,
+    2153,
+    1463,
+    2191
+   ]
+  },
+  {
+   "text": "Virgo is represented by a girl in a boat with corn and fire",
+   "bbox": [
+    377,
+    2230,
+    1516,
+    2270
+   ]
+  },
+  {
+   "text": "in hands.",
+   "bbox": [
+    299,
+    2282,
+    499,
+    2318
+   ]
+  },
+  {
+   "text": "The remaining signs are fully denoted by their names ie",
+   "bbox": [
+    377,
+    2358,
+    1512,
+    2404
+   ]
+  }
+ ]
+}

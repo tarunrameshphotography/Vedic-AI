@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0146",
+ "book_id": "brihat-jataka",
+ "seq": 146,
+ "source_ref": {
+  "pdf_page": 73,
+  "half": "b",
+  "v1_page": "s073b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "81d6fbb32d43e4e57aaf950f8c846b73cb65fd75843dfbad9ef168ca58f4488c",
+ "lines": [
+  {
+   "text": "143",
+   "bbox": [
+    1362,
+    212,
+    1450,
+    246
+   ]
+  },
+  {
+   "text": "Planets in Signs",
+   "bbox": [
+    236,
+    236,
+    573,
+    288
+   ]
+  },
+  {
+   "text": "wealth minded, timid, is highly infatuated with sex and suffers",
+   "bbox": [
+    238,
+    300,
+    1456,
+    392
+   ]
+  },
+  {
+   "text": "in consequence. If Venus occupies Leo, he gets wealth earned",
+   "bbox": [
+    239,
+    348,
+    1457,
+    443
+   ]
+  },
+  {
+   "text": "by wife, his wife has an upper hand on him. Has very little",
+   "bbox": [
+    242,
+    398,
+    1460,
+    492
+   ]
+  },
+  {
+   "text": "number of sons. If Venus is in \"Sagittarius, he is honoured for",
+   "bbox": [
+    243,
+    450,
+    1462,
+    542
+   ]
+  },
+  {
+   "text": "his high qualities and is wealthy. If Venus is in Pisces, the man",
+   "bbox": [
+    247,
+    500,
+    1462,
+    592
+   ]
+  },
+  {
+   "text": "becomes learned, wealthy, favoured by government and liked",
+   "bbox": [
+    248,
+    551,
+    1466,
+    642
+   ]
+  },
+  {
+   "text": "by all.",
+   "bbox": [
+    250,
+    644,
+    382,
+    690
+   ]
+  },
+  {
+   "text": "Saturn",
+   "bbox": [
+    255,
+    748,
+    442,
+    789
+   ]
+  },
+  {
+   "text": "<sub>े</sub>, मूर्खोऽटन: कपटवान्विसुहृद्यमेऽजे",
+   "bbox": [
+    252,
+    812,
+    798,
+    884
+   ]
+  },
+  {
+   "text": "कीटे तु बन्धवधभाक् चपलोऽघृणश्च।",
+   "bbox": [
+    401,
+    864,
+    935,
+    942
+   ]
+  },
+  {
+   "text": "निर्हीसुखार्थतनय: स्खलितश्च लेख्ये",
+   "bbox": [
+    332,
+    935,
+    842,
+    1009
+   ]
+  },
+  {
+   "text": "रक्षापतिर्भवति मुख्यभृतश्च बौधे।। 17।।",
+   "bbox": [
+    409,
+    998,
+    983,
+    1072
+   ]
+  },
+  {
+   "text": "If Saturn occupies Aries, the native is foolish and a wan-",
+   "bbox": [
+    340,
+    1071,
+    1480,
+    1162
+   ]
+  },
+  {
+   "text": "derer. He is deceitful devoid of friends. If Saturn is in Scorpio,",
+   "bbox": [
+    266,
+    1121,
+    1482,
+    1214
+   ]
+  },
+  {
+   "text": "the native is likely to be imprisoned or killed. He is unsteady",
+   "bbox": [
+    266,
+    1169,
+    1486,
+    1266
+   ]
+  },
+  {
+   "text": "and without mercy. If Saturn occupies Gemini or Virgo, the",
+   "bbox": [
+    270,
+    1223,
+    1485,
+    1315
+   ]
+  },
+  {
+   "text": "native is shameless, miserable, devoid of sons, weak in",
+   "bbox": [
+    270,
+    1273,
+    1487,
+    1367
+   ]
+  },
+  {
+   "text": "arithmatic and writing. He becomes chief security officer.",
+   "bbox": [
+    275,
+    1327,
+    1419,
+    1419
+   ]
+  },
+  {
+   "text": "वर्ज्यस्त्रीष्टो न बहुविभवो भूरिभार्यो वृषस्थे",
+   "bbox": [
+    349,
+    1420,
+    970,
+    1500
+   ]
+  },
+  {
+   "text": "ख्यातः स्वोच्चे गणपुरबलग्रामपूज्योऽर्थवांश्च।",
+   "bbox": [
+    351,
+    1482,
+    980,
+    1567
+   ]
+  },
+  {
+   "text": "कर्किण्यस्वो विकलदशनो मातृहीनोऽसुतोऽज्ञ:",
+   "bbox": [
+    353,
+    1551,
+    995,
+    1630
+   ]
+  },
+  {
+   "text": "सिंहेऽनार्यो विसुखतनयो विष्टिकृत्सूर्यपुत्रे ।। 18।।",
+   "bbox": [
+    354,
+    1614,
+    1071,
+    1694
+   ]
+  },
+  {
+   "text": "If Saturn occupies Taurus one is adulterous, he has not",
+   "bbox": [
+    362,
+    1693,
+    1503,
+    1779
+   ]
+  },
+  {
+   "text": "much wealth, but many wives. If it occupies Libra he is the",
+   "bbox": [
+    288,
+    1741,
+    1503,
+    1833
+   ]
+  },
+  {
+   "text": "head of a clan, city or a fighting unit and is wealthy. If Saturn",
+   "bbox": [
+    289,
+    1790,
+    1504,
+    1884
+   ]
+  },
+  {
+   "text": "occupies Cancer the native is poor, suffers from trouble in",
+   "bbox": [
+    292,
+    1843,
+    1505,
+    1933
+   ]
+  },
+  {
+   "text": "teeth, loses mother early, is without son and is illiterate. If",
+   "bbox": [
+    294,
+    1892,
+    1509,
+    1985
+   ]
+  },
+  {
+   "text": "Saturn occupies Leo he is not of good character, is devoid of",
+   "bbox": [
+    295,
+    1942,
+    1513,
+    2035
+   ]
+  },
+  {
+   "text": "happiness and sons and is a bearer of burden.",
+   "bbox": [
+    296,
+    2006,
+    1217,
+    2086
+   ]
+  },
+  {
+   "text": "स्वन्त: प्रत्ययितो नरेन्द्रभवने सत्पुत्रजायाधनी",
+   "bbox": [
+    372,
+    2093,
+    1009,
+    2167
+   ]
+  },
+  {
+   "text": "जीवक्षेत्रगतेऽर्कजे पुरबलग्रामाग्रनेताऽथवा।",
+   "bbox": [
+    374,
+    2155,
+    956,
+    2236
+   ]
+  },
+  {
+   "text": "अन्यस्त्रीधनसंवृत: पुरबलग्रामाग्रणीर्मन्ददृक्",
+   "bbox": [
+    377,
+    2221,
+    989,
+    2298
+   ]
+  },
+  {
+   "text": "स्वक्षेत्रे मलिन: स्थिरार्थविभवो भोक्ता च जात: पुमान्।। 1911",
+   "bbox": [
+    378,
+    2278,
+    1283,
+    2359
+   ]
+  }
+ ]
+}

@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0038",
+ "book_id": "phaladeepika",
+ "seq": 38,
+ "source_ref": {
+  "pdf_page": 38
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "65676aa442e5ff0298e2c8006e5269c8fbe5361275c046b9683ec68cb3931d2a",
+ "lines": [
+  {
+   "text": "view that Mercury if associated with a malefic becomes a malefic. But some ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "Acharyas are of the view that for determining kala Bala Mercury should be treated ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "as a benefic. We support this view.",
+   "bbox": [
+    85,
+    106,
+    279,
+    121
+   ]
+  },
+  {
+   "text": "(b) When the Sun and the Moon are In the same sign and the same degree, ",
+   "bbox": [
+    121,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "the malefics get 60 Shastayamsa (one Rupa of Kala Bala). If they are (the Sun and ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "the Moon) 180° away from each other, the Kala bala of the malefics will be nil In ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "the intervening distances, the strength is to be worked out proportionately.",
+   "bbox": [
+    85,
+    202,
+    500,
+    218
+   ]
+  },
+  {
+   "text": "The Sun, Mars and Saturn are malefics.",
+   "bbox": [
+    121,
+    226,
+    343,
+    242
+   ]
+  },
+  {
+   "text": "This strength is known as Paksha Bala which comes under the purview of ",
+   "bbox": [
+    121,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "Kala Bala.",
+   "bbox": [
+    85,
+    275,
+    144,
+    290
+   ]
+  },
+  {
+   "text": "(c) The Paksha Bala of the Moon should be doubled (the Moon is never ",
+   "bbox": [
+    121,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "retrograde. Therefore it never gets Chesta Bala. Therefore, Paksha Bala of the ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "Moon is doubled).",
+   "bbox": [
+    85,
+    347,
+    188,
+    363
+   ]
+  },
+  {
+   "text": "(3) (a) Divide the Dinamana (the time between Sunrise and Sunset) into ",
+   "bbox": [
+    121,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "three parts, if the birth is during the day. If the birth be in the first part Mercury ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "will get one Rupa of Paksha Bala. If the birth be in the second part of Dinamana, ",
+   "bbox": [
+    85,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "the Sun will get one Rupa of Paksha Bala. If the birth be in the 3rd part, Saturn will ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "get one Rupa of this strength.",
+   "bbox": [
+    85,
+    468,
+    250,
+    483
+   ]
+  },
+  {
+   "text": "(b) Divide the Ratrimana (the time between Sunset and Sunrise) into three ",
+   "bbox": [
+    121,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "parts, if the birth be during the night. If the birth be in the first part, the Moon will ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "get one Rupa of strength. If the birth be in the second part, Venus will get one Rupa ",
+   "bbox": [
+    85,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "of this strength, and if the birth be in the third part Mars will get similar quantum ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "of strength.",
+   "bbox": [
+    85,
+    589,
+    149,
+    604
+   ]
+  },
+  {
+   "text": "(c) Jupiter will get one Rupa of this strength if the birth be at any time ",
+   "bbox": [
+    121,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "during the 24 hours.",
+   "bbox": [
+    85,
+    637,
+    198,
+    652
+   ]
+  },
+  {
+   "text": "(4) One year is of 360 days and one month is of 30 days Find out the day of ",
+   "bbox": [
+    121,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "the week from which the year commences, the lord of that day becomes the lord of ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "the year. The lord of the year gets 15 Shastayamsa of strength.",
+   "bbox": [
+    85,
+    709,
+    434,
+    725
+   ]
+  },
+  {
+   "text": "(5) Similarly find out the day of the week from which the month ",
+   "bbox": [
+    121,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "commences, the lord of that day gets 30 Shastayamsa of strength.",
+   "bbox": [
+    85,
+    758,
+    451,
+    773
+   ]
+  },
+  {
+   "text": "38",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

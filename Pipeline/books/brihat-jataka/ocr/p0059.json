@@ -1,0 +1,272 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0059",
+ "book_id": "brihat-jataka",
+ "seq": 59,
+ "source_ref": {
+  "pdf_page": 30,
+  "half": "a",
+  "v1_page": "s030a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "110b9f4810cb9ffe9d2a433c5380952a21b97d1374b3f6b02e77c668284aaa55",
+ "lines": [
+  {
+   "text": "56",
+   "bbox": [
+    339,
+    189,
+    407,
+    223
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1262,
+    190,
+    1555,
+    225
+   ]
+  },
+  {
+   "text": "<b>Abnormally Delayed Births</b>",
+   "bbox": [
+    338,
+    290,
+    1051,
+    332
+   ]
+  },
+  {
+   "text": "तत्कालमिन्दुसहितो द्विरसांशको य-",
+   "bbox": [
+    412,
+    369,
+    919,
+    418
+   ]
+  },
+  {
+   "text": "स्ततुल्यराशिसहिते पुरत: शशांके।",
+   "bbox": [
+    412,
+    432,
+    902,
+    485
+   ]
+  },
+  {
+   "text": "यावानुदेति दिनसत्रिसमानभाग-",
+   "bbox": [
+    411,
+    492,
+    852,
+    551
+   ]
+  },
+  {
+   "text": "स्तावद्गते दिननिशोः प्रवदन्ति जन्म।। 21।।",
+   "bbox": [
+    412,
+    563,
+    1055,
+    614
+   ]
+  },
+  {
+   "text": "If Cancer is the ascendant and Saturn occupies the 7th",
+   "bbox": [
+    412,
+    656,
+    1554,
+    700
+   ]
+  },
+  {
+   "text": "house of conception chart, the birth takes place after 3 years of",
+   "bbox": [
+    335,
+    711,
+    1555,
+    750
+   ]
+  },
+  {
+   "text": "conception. In case in addition, Moon is also in the 7th house",
+   "bbox": [
+    335,
+    764,
+    1551,
+    803
+   ]
+  },
+  {
+   "text": "the birth will take place in the 12th year after conception. The",
+   "bbox": [
+    335,
+    816,
+    1551,
+    856
+   ]
+  },
+  {
+   "text": "rules enunciated in this chapter as relating to the conception",
+   "bbox": [
+    335,
+    869,
+    1551,
+    908
+   ]
+  },
+  {
+   "text": "chart can be applied intelligently to the birth chart as well.",
+   "bbox": [
+    335,
+    921,
+    1518,
+    961
+   ]
+  },
+  {
+   "text": "Commentary: Saturn is a planet of delay. His location in the",
+   "bbox": [
+    414,
+    1000,
+    1551,
+    1040
+   ]
+  },
+  {
+   "text": "7th house in Capricorn will not only give him directional",
+   "bbox": [
+    335,
+    1054,
+    1551,
+    1093
+   ]
+  },
+  {
+   "text": "strength, but also the strength due to his location in his own",
+   "bbox": [
+    335,
+    1106,
+    1551,
+    1146
+   ]
+  },
+  {
+   "text": "sign. Such a strong Saturn aspecting the birth house will",
+   "bbox": [
+    335,
+    1153,
+    1549,
+    1200
+   ]
+  },
+  {
+   "text": "naturally delay birth. It would be delayed all the more if Moon",
+   "bbox": [
+    335,
+    1210,
+    1549,
+    1249
+   ]
+  },
+  {
+   "text": "too is with Saturn in the 7th house for the reason that in the",
+   "bbox": [
+    335,
+    1261,
+    1548,
+    1298
+   ]
+  },
+  {
+   "text": "latter case the impact of delay will be felt by lagna, lord of",
+   "bbox": [
+    334,
+    1315,
+    1552,
+    1355
+   ]
+  },
+  {
+   "text": "lagna and Moon all as against only by lagna in the former case.",
+   "bbox": [
+    334,
+    1369,
+    1546,
+    1408
+   ]
+  },
+  {
+   "text": "उदयति मृदुभांशे सप्तमस्थे च मन्दे",
+   "bbox": [
+    404,
+    1444,
+    915,
+    1493
+   ]
+  },
+  {
+   "text": "यदि भवति निषेक: सूतिरब्दत्रयेण।",
+   "bbox": [
+    405,
+    1506,
+    914,
+    1558
+   ]
+  },
+  {
+   "text": "शशिनि तु विधिरेष द्वादशाऽव्दे प्रकुर्या-",
+   "bbox": [
+    405,
+    1573,
+    968,
+    1626
+   ]
+  },
+  {
+   "text": "त्रिगदितमिह चिन्त्यं सूतिकालेऽपि युक्त्या।। 22।।",
+   "bbox": [
+    404,
+    1641,
+    1126,
+    1693
+   ]
+  },
+  {
+   "text": "इति श्रीवराहमिहिरकृते बृहज्जातके निषेकाध्यायश्चतुर्थ: ।।4।।",
+   "bbox": [
+    485,
+    1857,
+    1385,
+    1907
+   ]
+  },
+  {
+   "text": "Thus ends the fourth chapter on conception in Brihat Jatak",
+   "bbox": [
+    405,
+    1955,
+    1548,
+    1992
+   ]
+  },
+  {
+   "text": "composed by Varahamihira.",
+   "bbox": [
+    328,
+    2004,
+    858,
+    2042
+   ]
+  }
+ ]
+}

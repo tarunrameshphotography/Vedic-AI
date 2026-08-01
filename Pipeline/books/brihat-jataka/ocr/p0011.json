@@ -1,0 +1,434 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0011",
+ "book_id": "brihat-jataka",
+ "seq": 11,
+ "source_ref": {
+  "pdf_page": 6,
+  "half": "a",
+  "v1_page": "s006a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "7b56622d8fa6da75207e484a36c62a3b6d19ad55371eb81ddeeffa13aae6df9f",
+ "lines": [
+  {
+   "text": "viii",
+   "bbox": [
+    243,
+    244,
+    316,
+    274
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1171,
+    251,
+    1461,
+    285
+   ]
+  },
+  {
+   "text": "of the special aspect from various positions. Differ-",
+   "bbox": [
+    317,
+    342,
+    1309,
+    391
+   ]
+  },
+  {
+   "text": "ent kinds of aspects on Hora, Dekkana, Navamsa,",
+   "bbox": [
+    317,
+    389,
+    1308,
+    441
+   ]
+  },
+  {
+   "text": "Dwadasamsa etc.",
+   "bbox": [
+    318,
+    441,
+    662,
+    476
+   ]
+  },
+  {
+   "text": "20. भावाध्याय: Planets in Houses",
+   "bbox": [
+    239,
+    511,
+    858,
+    552
+   ]
+  },
+  {
+   "text": "152",
+   "bbox": [
+    1385,
+    521,
+    1459,
+    556
+   ]
+  },
+  {
+   "text": "Planets in various houses. Bhava defined. Various",
+   "bbox": [
+    313,
+    566,
+    1305,
+    610
+   ]
+  },
+  {
+   "text": "planets in different Bhavas. When do they give full",
+   "bbox": [
+    312,
+    614,
+    1305,
+    664
+   ]
+  },
+  {
+   "text": "or no results?",
+   "bbox": [
+    312,
+    662,
+    592,
+    698
+   ]
+  },
+  {
+   "text": "21. आश्रययोगाध्याय: Planets in Vargas",
+   "bbox": [
+    231,
+    723,
+    936,
+    785
+   ]
+  },
+  {
+   "text": "157",
+   "bbox": [
+    1379,
+    744,
+    1457,
+    778
+   ]
+  },
+  {
+   "text": "Special combinations. Results of own houses. Exal-",
+   "bbox": [
+    312,
+    787,
+    1301,
+    835
+   ]
+  },
+  {
+   "text": "tation and debilitation. Kumbha lagna. Planets in",
+   "bbox": [
+    310,
+    835,
+    1301,
+    885
+   ]
+  },
+  {
+   "text": "Horas. Moon in Drekkanas. Navamshas in various",
+   "bbox": [
+    309,
+    883,
+    1301,
+    929
+   ]
+  },
+  {
+   "text": "signs. Vargothama. Dwadasamsa. Trimsamasa etc.",
+   "bbox": [
+    309,
+    932,
+    1299,
+    983
+   ]
+  },
+  {
+   "text": "22. प्रकीर्णाध्याय: Miscellaneous",
+   "bbox": [
+    229,
+    993,
+    804,
+    1051
+   ]
+  },
+  {
+   "text": "163",
+   "bbox": [
+    1379,
+    1016,
+    1454,
+    1050
+   ]
+  },
+  {
+   "text": "Miscellaneous. Karaka planets. Natural aspects.",
+   "bbox": [
+    306,
+    1061,
+    1298,
+    1112
+   ]
+  },
+  {
+   "text": "Planets in the beginning, middle and end of a sign.",
+   "bbox": [
+    307,
+    1110,
+    1298,
+    1160
+   ]
+  },
+  {
+   "text": "23. अनिष्टाध्याय: Anishta or Misfortunes",
+   "bbox": [
+    228,
+    1174,
+    988,
+    1226
+   ]
+  },
+  {
+   "text": "166",
+   "bbox": [
+    1379,
+    1189,
+    1452,
+    1227
+   ]
+  },
+  {
+   "text": "Misfortunes. Prosperity of Bhavas. Children and",
+   "bbox": [
+    305,
+    1237,
+    1294,
+    1286
+   ]
+  },
+  {
+   "text": "wife. Importance of bhawara lagna. Loss of chil-",
+   "bbox": [
+    306,
+    1285,
+    1294,
+    1335
+   ]
+  },
+  {
+   "text": "dren and wife. Deformity in wife. Late marriage.",
+   "bbox": [
+    306,
+    1334,
+    1295,
+    1384
+   ]
+  },
+  {
+   "text": "Adultery. Diseases. Blindness, Insanity, Slavery,",
+   "bbox": [
+    302,
+    1383,
+    1295,
+    1433
+   ]
+  },
+  {
+   "text": "Boldness, Hysteria, imprisonment.",
+   "bbox": [
+    302,
+    1430,
+    992,
+    1478
+   ]
+  },
+  {
+   "text": "24. स्त्रीजातकाध्याय: Female Horoscopy",
+   "bbox": [
+    220,
+    1496,
+    931,
+    1551
+   ]
+  },
+  {
+   "text": "176",
+   "bbox": [
+    1369,
+    1512,
+    1448,
+    1546
+   ]
+  },
+  {
+   "text": "Female horoscopy. Houses 7 and 8. Trimsamsa.",
+   "bbox": [
+    300,
+    1556,
+    1292,
+    1607
+   ]
+  },
+  {
+   "text": "Adultery, Divorce, widowhood. Sex compatibility.",
+   "bbox": [
+    300,
+    1606,
+    1289,
+    1655
+   ]
+  },
+  {
+   "text": "Death before that of the husband.",
+   "bbox": [
+    300,
+    1651,
+    980,
+    1698
+   ]
+  },
+  {
+   "text": "25. निर्याणाध्याय: Death",
+   "bbox": [
+    221,
+    1716,
+    640,
+    1768
+   ]
+  },
+  {
+   "text": "186",
+   "bbox": [
+    1368,
+    1737,
+    1445,
+    1771
+   ]
+  },
+  {
+   "text": "Kinds of diseases. Place of death. Unnatural death.",
+   "bbox": [
+    300,
+    1783,
+    1288,
+    1825
+   ]
+  },
+  {
+   "text": "Papakartari. Time of death. Fate of the dead body.",
+   "bbox": [
+    300,
+    1829,
+    1286,
+    1881
+   ]
+  },
+  {
+   "text": "Post and future lives.",
+   "bbox": [
+    296,
+    1878,
+    731,
+    1917
+   ]
+  },
+  {
+   "text": "26. नष्टजातकाध्याय: Unknown Horoscopes",
+   "bbox": [
+    218,
+    1949,
+    996,
+    2000
+   ]
+  },
+  {
+   "text": "195",
+   "bbox": [
+    1363,
+    1962,
+    1444,
+    1996
+   ]
+  },
+  {
+   "text": "Unknown Horoscopes. How to cast them. How to",
+   "bbox": [
+    296,
+    2004,
+    1287,
+    2058
+   ]
+  },
+  {
+   "text": "fit the date and time of birth.",
+   "bbox": [
+    293,
+    2054,
+    885,
+    2095
+   ]
+  },
+  {
+   "text": "27. देक्काणाध्याय: Drekkana",
+   "bbox": [
+    215,
+    2118,
+    730,
+    2167
+   ]
+  },
+  {
+   "text": "207",
+   "bbox": [
+    1358,
+    2137,
+    1437,
+    2171
+   ]
+  },
+  {
+   "text": "Decanates. Their nature.",
+   "bbox": [
+    292,
+    2179,
+    796,
+    2223
+   ]
+  },
+  {
+   "text": "28. उपसंहाराध्याय: Concluding chapter",
+   "bbox": [
+    214,
+    2250,
+    931,
+    2299
+   ]
+  },
+  {
+   "text": "216",
+   "bbox": [
+    1356,
+    2265,
+    1438,
+    2299
+   ]
+  }
+ ]
+}

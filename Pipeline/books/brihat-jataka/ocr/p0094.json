@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0094",
+ "book_id": "brihat-jataka",
+ "seq": 94,
+ "source_ref": {
+  "pdf_page": 47,
+  "half": "b",
+  "v1_page": "s047b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "d144ae70e9765c31a24ecf2f47422645b4bc81f33bd7b2f3a48a1efd264093ed",
+ "lines": [
+  {
+   "text": "91",
+   "bbox": [
+    1380,
+    153,
+    1436,
+    182
+   ]
+  },
+  {
+   "text": "Ruling and Sub Ruling Periods",
+   "bbox": [
+    236,
+    165,
+    870,
+    238
+   ]
+  },
+  {
+   "text": "enced, the dasa or sub-period of Jupiter should be deemed to be",
+   "bbox": [
+    238,
+    241,
+    1453,
+    339
+   ]
+  },
+  {
+   "text": "in operation.",
+   "bbox": [
+    242,
+    335,
+    499,
+    388
+   ]
+  },
+  {
+   "text": "Commentary: Since Jupiter is concerned with ears, it has",
+   "bbox": [
+    319,
+    372,
+    1460,
+    467
+   ]
+  },
+  {
+   "text": "been considered as significator for ears (see shloka 16).",
+   "bbox": [
+    245,
+    426,
+    1339,
+    521
+   ]
+  },
+  {
+   "text": "शुभफलददशायां तादृगेवान्तरात्मा",
+   "bbox": [
+    320,
+    528,
+    790,
+    603
+   ]
+  },
+  {
+   "text": "बहु जनयति पुंसां सौख्यमर्थागमं च।",
+   "bbox": [
+    321,
+    589,
+    854,
+    663
+   ]
+  },
+  {
+   "text": "कथितफलविपाकैस्तर्कयेद्वर्तमानां",
+   "bbox": [
+    323,
+    656,
+    784,
+    725
+   ]
+  },
+  {
+   "text": "परिणमति फलाप्ति: स्वप्नचिन्तास्ववीर्यै: ।। 22।।",
+   "bbox": [
+    327,
+    710,
+    1042,
+    791
+   ]
+  },
+  {
+   "text": "During the dasa and sub periods of favourable planets",
+   "bbox": [
+    328,
+    785,
+    1473,
+    883
+   ]
+  },
+  {
+   "text": "there is an inward pleasure in the self and it brings about",
+   "bbox": [
+    258,
+    836,
+    1476,
+    934
+   ]
+  },
+  {
+   "text": "much income and felicity. Hence from the said practical condi-",
+   "bbox": [
+    261,
+    887,
+    1476,
+    987
+   ]
+  },
+  {
+   "text": "tions obtaining in life the corresponding periods of the planets",
+   "bbox": [
+    262,
+    939,
+    1477,
+    1036
+   ]
+  },
+  {
+   "text": "should be deduced. In case the planets are weak in their good",
+   "bbox": [
+    262,
+    989,
+    1479,
+    1089
+   ]
+  },
+  {
+   "text": "effects the good results are experienced only in dreams and not",
+   "bbox": [
+    264,
+    1041,
+    1483,
+    1139
+   ]
+  },
+  {
+   "text": "in actual life.",
+   "bbox": [
+    270,
+    1132,
+    539,
+    1181
+   ]
+  },
+  {
+   "text": "एकग्रहस्य सदृशे फलयोविंरोधे",
+   "bbox": [
+    343,
+    1199,
+    796,
+    1270
+   ]
+  },
+  {
+   "text": "नाशं वदेद्यदधिकं परिपच्यते तत्।",
+   "bbox": [
+    345,
+    1260,
+    827,
+    1330
+   ]
+  },
+  {
+   "text": "नान्यो ग्रह: सदृशमन्यफलं हिनस्ति",
+   "bbox": [
+    344,
+    1322,
+    858,
+    1400
+   ]
+  },
+  {
+   "text": "स्वां स्वां दशामुपगता: सुफलप्रदा: स्यु: ।। 2311",
+   "bbox": [
+    346,
+    1389,
+    1052,
+    1465
+   ]
+  },
+  {
+   "text": "If a planet in its dasa or sub-period indicates good results",
+   "bbox": [
+    351,
+    1455,
+    1494,
+    1551
+   ]
+  },
+  {
+   "text": "in a particular matter in one way and bad results in the same",
+   "bbox": [
+    279,
+    1504,
+    1497,
+    1606
+   ]
+  },
+  {
+   "text": "matter in another way eg in one way it indicates acquisition of",
+   "bbox": [
+    281,
+    1555,
+    1503,
+    1654
+   ]
+  },
+  {
+   "text": "property and in another way the destruction of property, none",
+   "bbox": [
+    284,
+    1605,
+    1499,
+    1706
+   ]
+  },
+  {
+   "text": "of the good or bad results will be befelt. If however, it indicates",
+   "bbox": [
+    285,
+    1657,
+    1501,
+    1754
+   ]
+  },
+  {
+   "text": "some thing \"additional\" (ie other than the common point) the",
+   "bbox": [
+    286,
+    1709,
+    1503,
+    1805
+   ]
+  },
+  {
+   "text": "additional result will accrue. If the dasa lord and the sub-",
+   "bbox": [
+    290,
+    1758,
+    1504,
+    1854
+   ]
+  },
+  {
+   "text": "period lords indicate opposite results these results would be",
+   "bbox": [
+    291,
+    1810,
+    1506,
+    1906
+   ]
+  },
+  {
+   "text": "experienced during the respective dasas (when the sub-period",
+   "bbox": [
+    291,
+    1860,
+    1510,
+    1958
+   ]
+  },
+  {
+   "text": "lord will also toe the same line).",
+   "bbox": [
+    293,
+    1935,
+    936,
+    1998
+   ]
+  },
+  {
+   "text": "इति श्रीवराहमिहिरकृते बृहज्जातके दशान्तर्दशाध्यायोऽष्टम: ।। 8।।",
+   "bbox": [
+    430,
+    2089,
+    1384,
+    2190
+   ]
+  },
+  {
+   "text": "Thus ends the eighth chapter on Ruling and Sub Ruling",
+   "bbox": [
+    375,
+    2177,
+    1529,
+    2274
+   ]
+  },
+  {
+   "text": "Periods in Brihat Jatak composed by Varahamihira.",
+   "bbox": [
+    305,
+    2237,
+    1346,
+    2325
+   ]
+  }
+ ]
+}

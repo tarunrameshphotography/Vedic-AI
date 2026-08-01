@@ -1,0 +1,344 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0208",
+ "book_id": "brihat-jataka",
+ "seq": 208,
+ "source_ref": {
+  "pdf_page": 104,
+  "half": "b",
+  "v1_page": "s104b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "5173654f1a72f3b1c95ed3c3d802e806066aefbffed08fae7838e7cfc96d4861",
+ "lines": [
+  {
+   "text": "205",
+   "bbox": [
+    1326,
+    162,
+    1419,
+    198
+   ]
+  },
+  {
+   "text": "Unknown Horoscopes",
+   "bbox": [
+    203,
+    201,
+    638,
+    263
+   ]
+  },
+  {
+   "text": "total by the duration of the day. If it is in the night, the total",
+   "bbox": [
+    205,
+    257,
+    1431,
+    370
+   ]
+  },
+  {
+   "text": "is to be divided by the duration of the night. The remainder",
+   "bbox": [
+    206,
+    307,
+    1432,
+    424
+   ]
+  },
+  {
+   "text": "gives the number of ghatikas from sunrise or sunset as the",
+   "bbox": [
+    210,
+    359,
+    1433,
+    479
+   ]
+  },
+  {
+   "text": "case may be. These are the Janma Ghatikas. From these",
+   "bbox": [
+    212,
+    413,
+    1437,
+    529
+   ]
+  },
+  {
+   "text": "ghatikas we can find the lagna, amsa lagna and the six or",
+   "bbox": [
+    215,
+    467,
+    1441,
+    583
+   ]
+  },
+  {
+   "text": "seven vargas.",
+   "bbox": [
+    222,
+    578,
+    500,
+    629
+   ]
+  },
+  {
+   "text": "संस्कारनाममात्रा द्विगुणाश्छायाङ्गुलै: समायुक्ता:।",
+   "bbox": [
+    297,
+    622,
+    1011,
+    715
+   ]
+  },
+  {
+   "text": "शेषं त्रिनवकभक्ता नक्षत्रं धनिष्ठादि।। 15 ।।",
+   "bbox": [
+    301,
+    692,
+    962,
+    773
+   ]
+  },
+  {
+   "text": "Note the matras (syllables) of the real name. Multiply this",
+   "bbox": [
+    303,
+    753,
+    1471,
+    866
+   ]
+  },
+  {
+   "text": "by two, and add it to the <i>chayangulas</i> we get the time. Divide",
+   "bbox": [
+    231,
+    805,
+    1463,
+    924
+   ]
+  },
+  {
+   "text": "the total by 27. Count the remainder from Dhanishtha. The",
+   "bbox": [
+    234,
+    859,
+    1457,
+    975
+   ]
+  },
+  {
+   "text": "result is the birth constellation.",
+   "bbox": [
+    238,
+    945,
+    873,
+    1018
+   ]
+  },
+  {
+   "text": "Notes: The real name is the full name given at the time",
+   "bbox": [
+    313,
+    992,
+    1463,
+    1102
+   ]
+  },
+  {
+   "text": "of nama-karana, not any pet or nickname. A vowel sound",
+   "bbox": [
+    243,
+    1040,
+    1467,
+    1161
+   ]
+  },
+  {
+   "text": "is one full matra. Thus Rama has two matras. Take the",
+   "bbox": [
+    245,
+    1095,
+    1468,
+    1210
+   ]
+  },
+  {
+   "text": "number of matras in this name. Multiply this by two. Add",
+   "bbox": [
+    248,
+    1147,
+    1472,
+    1261
+   ]
+  },
+  {
+   "text": "this to the number of Chayangulas as mentioned in the",
+   "bbox": [
+    251,
+    1201,
+    1476,
+    1316
+   ]
+  },
+  {
+   "text": "previous verse. Divide this by 27 and the remainder gives",
+   "bbox": [
+    253,
+    1251,
+    1478,
+    1370
+   ]
+  },
+  {
+   "text": "the nakshatra counted from Dhanishtha. The consonant",
+   "bbox": [
+    254,
+    1303,
+    1481,
+    1421
+   ]
+  },
+  {
+   "text": "has, say some, half a matra. Then Rama gives three",
+   "bbox": [
+    257,
+    1360,
+    1482,
+    1473
+   ]
+  },
+  {
+   "text": "matras. This view is untenable as per the view of the",
+   "bbox": [
+    260,
+    1412,
+    1485,
+    1527
+   ]
+  },
+  {
+   "text": "grammarians.",
+   "bbox": [
+    262,
+    1516,
+    562,
+    1575
+   ]
+  },
+  {
+   "text": "Rama has two matras. Multiplied by two, we get four. If",
+   "bbox": [
+    340,
+    1544,
+    1496,
+    1656
+   ]
+  },
+  {
+   "text": "the chayangulas are five, the total is seven. The remainder is",
+   "bbox": [
+    269,
+    1596,
+    1496,
+    1712
+   ]
+  },
+  {
+   "text": "seven which from Dhanishtha is Bharani.",
+   "bbox": [
+    272,
+    1669,
+    1113,
+    1760
+   ]
+  },
+  {
+   "text": "द्वित्रिचतुर्दशदर्शातथिसप्तत्रिगुणा नवाष्टचैन्द्राद्या:।",
+   "bbox": [
+    349,
+    1750,
+    1045,
+    1840
+   ]
+  },
+  {
+   "text": "पञ्चदशघ्नास्तत्तदिङ्मुखान्विता भं धनिष्ठादि।। 16 ।।",
+   "bbox": [
+    352,
+    1814,
+    1140,
+    1906
+   ]
+  },
+  {
+   "text": "The figures from east, south east, south and so on to north",
+   "bbox": [
+    357,
+    1883,
+    1512,
+    1995
+   ]
+  },
+  {
+   "text": "east are <math>2, 3, 14, 10, 15, 21, 9</math> and 8. These are to be multiplied",
+   "bbox": [
+    285,
+    1932,
+    1511,
+    2050
+   ]
+  },
+  {
+   "text": "by 15. Add the number of person, looking at the same direction",
+   "bbox": [
+    288,
+    1986,
+    1514,
+    2101
+   ]
+  },
+  {
+   "text": "as the questioner. Divide this by 27 and count the remainder",
+   "bbox": [
+    292,
+    2036,
+    1517,
+    2153
+   ]
+  },
+  {
+   "text": "from Dhanishtha.",
+   "bbox": [
+    296,
+    2137,
+    661,
+    2195
+   ]
+  },
+  {
+   "text": "Notes: If the questioner faces south the number is 14.",
+   "bbox": [
+    371,
+    2169,
+    1523,
+    2276
+   ]
+  },
+  {
+   "text": "Multiplying it by 15, we get 210. If two persons are looking at",
+   "bbox": [
+    301,
+    2220,
+    1528,
+    2333
+   ]
+  }
+ ]
+}

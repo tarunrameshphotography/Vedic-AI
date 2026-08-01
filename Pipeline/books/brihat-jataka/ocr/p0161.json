@@ -1,0 +1,344 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0161",
+ "book_id": "brihat-jataka",
+ "seq": 161,
+ "source_ref": {
+  "pdf_page": 81,
+  "half": "a",
+  "v1_page": "s081a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "c1f382780e03d5865b82eacd7bdbf14da96ab63fb3317ef201d6c09ad6fc44ea",
+ "lines": [
+  {
+   "text": "158",
+   "bbox": [
+    310,
+    274,
+    404,
+    307
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1233,
+    275,
+    1525,
+    308
+   ]
+  },
+  {
+   "text": "Even if there be in the birth chart a single exalted planet",
+   "bbox": [
+    382,
+    376,
+    1531,
+    416
+   ]
+  },
+  {
+   "text": "aspected by its friend the native gets much wealth in life and",
+   "bbox": [
+    306,
+    429,
+    1528,
+    469
+   ]
+  },
+  {
+   "text": "is a successful man. If one planet occupies an inimical or",
+   "bbox": [
+    303,
+    483,
+    1528,
+    523
+   ]
+  },
+  {
+   "text": "debilitation sign the native is poor If one has two much planets",
+   "bbox": [
+    306,
+    536,
+    1528,
+    576
+   ]
+  },
+  {
+   "text": "(in debilitation or inimical sign) the native is poor and also",
+   "bbox": [
+    306,
+    588,
+    1526,
+    629
+   ]
+  },
+  {
+   "text": "devoid of all comforts. If there are three such planets the",
+   "bbox": [
+    306,
+    642,
+    1526,
+    683
+   ]
+  },
+  {
+   "text": "man becomes poor, unhappy and foolish He is also diseased. If",
+   "bbox": [
+    305,
+    696,
+    1531,
+    736
+   ]
+  },
+  {
+   "text": "there are five such planets he leads a painful life in imprison-",
+   "bbox": [
+    305,
+    750,
+    1525,
+    790
+   ]
+  },
+  {
+   "text": "ment. If there are six such planets he is always in pain and",
+   "bbox": [
+    305,
+    803,
+    1525,
+    842
+   ]
+  },
+  {
+   "text": "trouble. If there are seven such planets the native lives as if in",
+   "bbox": [
+    303,
+    856,
+    1526,
+    896
+   ]
+  },
+  {
+   "text": "death.",
+   "bbox": [
+    305,
+    909,
+    437,
+    945
+   ]
+  },
+  {
+   "text": "Acquarius as Ascendant",
+   "bbox": [
+    302,
+    1020,
+    939,
+    1061
+   ]
+  },
+  {
+   "text": "न कुम्भलग्नं शुभगाह सत्यो न भागभेदाद्यवना बंदन्ति",
+   "bbox": [
+    377,
+    1098,
+    1152,
+    1150
+   ]
+  },
+  {
+   "text": "कस्यांशभेदो न तथाऽस्ति राशेरतिप्रसङ्गस्वितिविष्णुगुप्त: ।। 3।।",
+   "bbox": [
+    378,
+    1163,
+    1281,
+    1220
+   ]
+  },
+  {
+   "text": "Satyacharya holds that the Acquarius ascendant is not",
+   "bbox": [
+    379,
+    1268,
+    1528,
+    1307
+   ]
+  },
+  {
+   "text": "auspicious. The Yavanacharya holds that only the acquarius",
+   "bbox": [
+    302,
+    1320,
+    1525,
+    1359
+   ]
+  },
+  {
+   "text": "varga in this ascendant is inauspicious. Vishnu Gupta is how-",
+   "bbox": [
+    302,
+    1374,
+    1525,
+    1414
+   ]
+  },
+  {
+   "text": "ever, of opinion that since every lagna will have the navamsha",
+   "bbox": [
+    302,
+    1427,
+    1526,
+    1466
+   ]
+  },
+  {
+   "text": "etc of Saturn the view of Yavanacharya is not sound and is too",
+   "bbox": [
+    302,
+    1481,
+    1524,
+    1521
+   ]
+  },
+  {
+   "text": "sweeping in character.",
+   "bbox": [
+    302,
+    1533,
+    759,
+    1572
+   ]
+  },
+  {
+   "text": "Commentary: Why the sign Acquarius should be held as in-",
+   "bbox": [
+    381,
+    1618,
+    1524,
+    1662
+   ]
+  },
+  {
+   "text": "auspicious by Satyacharya? According to the principles of",
+   "bbox": [
+    302,
+    1674,
+    1526,
+    1713
+   ]
+  },
+  {
+   "text": "Parashar, the lord of the 12th house has always to give the",
+   "bbox": [
+    302,
+    1726,
+    1524,
+    1765
+   ]
+  },
+  {
+   "text": "results of the house in which its other sign falls. According to",
+   "bbox": [
+    300,
+    1775,
+    1522,
+    1821
+   ]
+  },
+  {
+   "text": "this principle Saturn as lord of the 12 and 1st houses would",
+   "bbox": [
+    299,
+    1832,
+    1522,
+    1871
+   ]
+  },
+  {
+   "text": "give the results of the first house, which being both a kona and",
+   "bbox": [
+    299,
+    1885,
+    1521,
+    1924
+   ]
+  },
+  {
+   "text": "a kendra house is bound to give nice results through its lord.",
+   "bbox": [
+    299,
+    1938,
+    1521,
+    1976
+   ]
+  },
+  {
+   "text": "Hence Saturn as lord of lagna must give good results. There is",
+   "bbox": [
+    297,
+    1990,
+    1522,
+    2030
+   ]
+  },
+  {
+   "text": "however, difference between two good results. The results of",
+   "bbox": [
+    297,
+    2042,
+    1524,
+    2081
+   ]
+  },
+  {
+   "text": "Sun as lord of lagna would be much more beneficial in quantity",
+   "bbox": [
+    297,
+    2095,
+    1521,
+    2139
+   ]
+  },
+  {
+   "text": "and quality than those of Saturn as lord of lagna. It is perhaps",
+   "bbox": [
+    297,
+    2150,
+    1521,
+    2189
+   ]
+  },
+  {
+   "text": "with this relatively low status of Saturn in mind that",
+   "bbox": [
+    297,
+    2199,
+    1522,
+    2246
+   ]
+  },
+  {
+   "text": "Satyacharya seems to have made the statement attributed to",
+   "bbox": [
+    297,
+    2252,
+    1519,
+    2299
+   ]
+  },
+  {
+   "text": "him. Undoubtedly as Saturn is, he has in the case of Acquarius",
+   "bbox": [
+    296,
+    2310,
+    1521,
+    2349
+   ]
+  }
+ ]
+}

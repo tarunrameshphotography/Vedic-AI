@@ -1,0 +1,317 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0176",
+ "book_id": "brihat-jataka",
+ "seq": 176,
+ "source_ref": {
+  "pdf_page": 88,
+  "half": "b",
+  "v1_page": "s088b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "2dd2e5c815d2262c6d42e4e69a5a770d949b2f54097a814874cd86652373208e",
+ "lines": [
+  {
+   "text": "173",
+   "bbox": [
+    1318,
+    150,
+    1404,
+    183
+   ]
+  },
+  {
+   "text": "Anishta or Misfortune",
+   "bbox": [
+    189,
+    168,
+    641,
+    220
+   ]
+  },
+  {
+   "text": "Jupiter in lagna and Mars in the seventh give rise to",
+   "bbox": [
+    268,
+    246,
+    1412,
+    323
+   ]
+  },
+  {
+   "text": "insanity.",
+   "bbox": [
+    197,
+    333,
+    376,
+    373
+   ]
+  },
+  {
+   "text": "Shani in lagna and Mars in 5, 7, or 9 cause insanity.",
+   "bbox": [
+    272,
+    380,
+    1329,
+    453
+   ]
+  },
+  {
+   "text": "Weak Moon with Shani in the twelfth causes madness.",
+   "bbox": [
+    275,
+    456,
+    1373,
+    529
+   ]
+  },
+  {
+   "text": "Notes: The yogas for insanity cannot be valid. Sri Rama had",
+   "bbox": [
+    276,
+    534,
+    1418,
+    612
+   ]
+  },
+  {
+   "text": "Guru in lagna and Kuja in the seventh. He was the sanest,",
+   "bbox": [
+    205,
+    587,
+    1421,
+    665
+   ]
+  },
+  {
+   "text": "possibly because of the Moon in lagna. Bhattotpala seems to",
+   "bbox": [
+    206,
+    638,
+    1422,
+    720
+   ]
+  },
+  {
+   "text": "agree that Shani must be in lagna, while Kuja should be in 5,",
+   "bbox": [
+    206,
+    691,
+    1422,
+    773
+   ]
+  },
+  {
+   "text": "7 or 9.",
+   "bbox": [
+    208,
+    776,
+    346,
+    817
+   ]
+  },
+  {
+   "text": "राश्यंशपोष्णकरशीतकरामरेज्यैर्नीचाधिपांशकगतैररिभागगैर्वा।",
+   "bbox": [
+    280,
+    827,
+    1120,
+    900
+   ]
+  },
+  {
+   "text": "एभ्योऽल्पमध्यबहुभिः क्रमशः प्रसूता ज्ञेयाः स्युरभ्युपगमक्रयगर्भदासाः। 14।।",
+   "bbox": [
+    282,
+    887,
+    1311,
+    977
+   ]
+  },
+  {
+   "text": "The lord of the navamsha occupied by the Moon, the",
+   "bbox": [
+    286,
+    981,
+    1430,
+    1058
+   ]
+  },
+  {
+   "text": "Sun, the Moon and Guru joining in a debilitated or unfriendly",
+   "bbox": [
+    212,
+    1033,
+    1431,
+    1112
+   ]
+  },
+  {
+   "text": "amsa - give rise to self-slavery, hereditary slavery or slavery",
+   "bbox": [
+    215,
+    1085,
+    1433,
+    1167
+   ]
+  },
+  {
+   "text": "by purchase. This arises when one or two or more of the",
+   "bbox": [
+    216,
+    1139,
+    1434,
+    1220
+   ]
+  },
+  {
+   "text": "planets refer to occupy such places.",
+   "bbox": [
+    216,
+    1209,
+    924,
+    1268
+   ]
+  },
+  {
+   "text": "Notes: If one planet is involved, he becomes a slave by his",
+   "bbox": [
+    293,
+    1272,
+    1438,
+    1347
+   ]
+  },
+  {
+   "text": "own accord; if two, he will be sold as a slave; and if three or",
+   "bbox": [
+    219,
+    1323,
+    1438,
+    1401
+   ]
+  },
+  {
+   "text": "more, he is from a family of hereditary slaves.",
+   "bbox": [
+    219,
+    1384,
+    1141,
+    1454
+   ]
+  },
+  {
+   "text": "विकृतदशन: पापैर्दृष्टे वृषाजहयोदये",
+   "bbox": [
+    294,
+    1470,
+    808,
+    1534
+   ]
+  },
+  {
+   "text": "खलतिरशुभक्षेत्रे लग्ने हये वृषभेऽपि वा।",
+   "bbox": [
+    373,
+    1532,
+    951,
+    1598
+   ]
+  },
+  {
+   "text": "नवमसुतगे पापैर्दृष्टे रवावदुढेक्षणो",
+   "bbox": [
+    298,
+    1601,
+    781,
+    1667
+   ]
+  },
+  {
+   "text": "दिनकरसुते नैकव्याधि: कुजे विकल: पुमान्।। 1511",
+   "bbox": [
+    374,
+    1662,
+    1136,
+    1728
+   ]
+  },
+  {
+   "text": "The lagna being Mesha, Vrishabha or Dhanush aspected",
+   "bbox": [
+    304,
+    1747,
+    1448,
+    1826
+   ]
+  },
+  {
+   "text": "by malefics, gives ugly or repulsive teeth.",
+   "bbox": [
+    230,
+    1811,
+    1058,
+    1879
+   ]
+  },
+  {
+   "text": "The lagna being a malefic sign, Vrishabha or Dhanush",
+   "bbox": [
+    309,
+    1881,
+    1453,
+    1960
+   ]
+  },
+  {
+   "text": "aspected by malefics makes one the bald-headed.",
+   "bbox": [
+    233,
+    1939,
+    1208,
+    2014
+   ]
+  },
+  {
+   "text": "The Sun in the fifth or the ninth aspected by the malefics",
+   "bbox": [
+    311,
+    2018,
+    1454,
+    2091
+   ]
+  },
+  {
+   "text": "gives weak eye sight.",
+   "bbox": [
+    236,
+    2091,
+    664,
+    2143
+   ]
+  },
+  {
+   "text": "Shani in 5 or 9 aspected by malefics, gives many com-",
+   "bbox": [
+    315,
+    2151,
+    1457,
+    2227
+   ]
+  },
+  {
+   "text": "plaints.",
+   "bbox": [
+    242,
+    2234,
+    400,
+    2278
+   ]
+  }
+ ]
+}

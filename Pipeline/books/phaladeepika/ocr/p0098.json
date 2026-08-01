@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0098",
+ "book_id": "phaladeepika",
+ "seq": 98,
+ "source_ref": {
+  "pdf_page": 98
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "d10758563d05f0769ae15009cd95f253e347ae4185329eee1ec0ac4e5a45d8cb",
+ "lines": [
+  {
+   "text": "Jupiter in 11th house at birth makes the native wealthy, longlived and ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "fearless. He gets few children; but enjoys the comforts of conveyances.",
+   "bbox": [
+    85,
+    82,
+    484,
+    97
+   ]
+  },
+  {
+   "text": "When Jupiter occupies the 12th house, the native will earn animosity ol ",
+   "bbox": [
+    121,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "others, and will himself use abusive language. He will be childless , sinful, ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "indolent and a person who serves others.",
+   "bbox": [
+    85,
+    154,
+    313,
+    169
+   ]
+  },
+  {
+   "text": "<b>VENUS</b>",
+   "bbox": [
+    121,
+    178,
+    169,
+    194
+   ]
+  },
+  {
+   "text": "17-19. If Venus be posited in the lagna at birth, the native will have a ",
+   "bbox": [
+    121,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "beautiful and attractive body, and will be happy and longlived.",
+   "bbox": [
+    85,
+    226,
+    435,
+    242
+   ]
+  },
+  {
+   "text": "Notes—Venus is the benefic No. 2. He can never be as beneficial as Jupiter ",
+   "bbox": [
+    121,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "in the Lagna because he possesses one lull aspect only and that will fall on the 7th ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "house only.",
+   "bbox": [
+    85,
+    299,
+    149,
+    314
+   ]
+  },
+  {
+   "text": "Should Venus occupy the 2nd house at birth, the native will be a poet and ",
+   "bbox": [
+    121,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "will enjoy riches of various kinds.",
+   "bbox": [
+    85,
+    347,
+    276,
+    363
+   ]
+  },
+  {
+   "text": "If Venus be In the 3rd house at birth, the native will be miserly, unpopular, ",
+   "bbox": [
+    121,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "devoid of wealth, happiness and wife.",
+   "bbox": [
+    85,
+    395,
+    297,
+    411
+   ]
+  },
+  {
+   "text": "With Venus occupying the 4th house, the person born, the native will be ",
+   "bbox": [
+    121,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "endowed with good conveyances, a decent house, ornaments, clothes and scents.",
+   "bbox": [
+    85,
+    444,
+    537,
+    459
+   ]
+  },
+  {
+   "text": "When Venus be in the 5th house at birth, the native will be endowed with ",
+   "bbox": [
+    121,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "wealth and will be as influential and renowned as a king. He will be learned and ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "will be blessed with the happiness of children.",
+   "bbox": [
+    85,
+    516,
+    344,
+    532
+   ]
+  },
+  {
+   "text": "With Venus posited in the 6th house at birth, the native will have no ",
+   "bbox": [
+    121,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "enemies, but he will be devoid of wealth. He will develop ilicit relations with ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "several young girls, but will not enjoy happiness.",
+   "bbox": [
+    85,
+    589,
+    360,
+    604
+   ]
+  },
+  {
+   "text": "Should Venus be placed in 7th house at birth, the native will enjoy the ",
+   "bbox": [
+    121,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "company of a faithful and beautiful wife and he may lose his wife. He will be ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "wealthy and will have intrigues with bad women.",
+   "bbox": [
+    85,
+    661,
+    361,
+    677
+   ]
+  },
+  {
+   "text": "Venus posited in the 8th house at birth, will make the native wealthy, ",
+   "bbox": [
+    121,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "longlived and a landlord.",
+   "bbox": [
+    85,
+    709,
+    225,
+    725
+   ]
+  },
+  {
+   "text": "If Venus occupies the 9th house at birth, the native will draw his fortune ",
+   "bbox": [
+    121,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "through the beneficience of the king. He will be blessed with wife, sons and ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "98",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

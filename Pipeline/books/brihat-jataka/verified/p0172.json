@@ -1,0 +1,33 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0172",
+ "ocr_fingerprint": "788a331c13172820a93e2bce5e73f3c6cb85e72821a1233b1148cc5c469a6e59",
+ "kind": "chart",
+ "printed_page": 169,
+ "note": "Two South Indian charts printed one above the other, with the commentary wrapping around both. Surya read the cell labels as loose words and interleaved them with that commentary. Read by eye. Both readings are confirmed by the surrounding text: in the first, the 7th lord (Sun, ruling Leo) sits with Shukra in the 4th (Taurus) aspected by Shani from Scorpio; in the second, Ravi and Budha in Aries have Shani seventh from them in Libra, which Guru aspects by its 5th aspect from Gemini.",
+ "verified": "2026-08-01, by eye against books/brihat-jataka/img/p0172.png",
+ "exclude_lines": [
+  6,
+  8,
+  9,
+  11,
+  14,
+  15,
+  18,
+  19,
+  21,
+  24,
+  27,
+  28,
+  30,
+  31,
+  32,
+  35,
+  36,
+  37,
+  43,
+  46
+ ],
+ "insert_after": 3,
+ "markdown": "**Two birth charts** (South Indian style, printed page 169)\n\n*First chart on the page:*\n\n```\n+-------------+-------------+-------------+-------------+\n|             | Guru        | Ravi        |             |\n|             |             | Budha       |             |\n|             |             | Shukra      |             |\n+-------------+-------------+-------------+-------------+\n| Lagna       |                           | Rahu        |\n+-------------+                           +-------------+\n| Ketu        |                           | Moon        |\n|             |                           | Kuja        |\n+-------------+-------------+-------------+-------------+\n|             | Shani       |             |             |\n+-------------+-------------+-------------+-------------+\n```\n\nLagna is in Aquarius, so houses are counted from there.\n\n| House | Sign | Planets |\n|---|---|---|\n| 1 (Lagna) | Aquarius | — |\n| 3 | Aries | Guru |\n| 4 | Taurus | Ravi, Budha, Shukra |\n| 6 | Cancer | Rahu |\n| 7 | Leo | Moon, Kuja |\n| 10 | Scorpio | Shani |\n| 12 | Capricorn | Ketu |\n\nAll other houses are empty.\n\n*Second chart on the page* — the commentary beside it calls this \"the third chart\":\n\n```\n+-------------+-------------+-------------+-------------+\n|             | Sun         | Shukra      | Kuja        |\n|             | Budha       |             | Guru        |\n+-------------+-------------+-------------+-------------+\n| Rahu        |                           | Chandra     |\n|             |                           | Lagna       |\n+-------------+                           +-------------+\n|             |                           | Ketu        |\n+-------------+-------------+-------------+-------------+\n|             |             | Shani       |             |\n+-------------+-------------+-------------+-------------+\n```\n\nLagna is in Cancer, so houses are counted from there.\n\n| House | Sign | Planets |\n|---|---|---|\n| 1 (Lagna) | Cancer | Chandra |\n| 2 | Leo | Ketu |\n| 4 | Libra | Shani |\n| 8 | Aquarius | Rahu |\n| 10 | Aries | Sun, Budha |\n| 11 | Taurus | Shukra |\n| 12 | Gemini | Kuja, Guru |\n\nAll other houses are empty."
+}

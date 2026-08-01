@@ -1,0 +1,344 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0158",
+ "book_id": "brihat-jataka",
+ "seq": 158,
+ "source_ref": {
+  "pdf_page": 79,
+  "half": "b",
+  "v1_page": "s079b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "13a655857b65e2589f7dcf3fdd40b9d5fc07d12526ab4ce6b7b09ea69177af67",
+ "lines": [
+  {
+   "text": "155",
+   "bbox": [
+    1292,
+    148,
+    1381,
+    180
+   ]
+  },
+  {
+   "text": "Planets in Houses",
+   "bbox": [
+    172,
+    167,
+    536,
+    213
+   ]
+  },
+  {
+   "text": "Commentary: All standard authors agree that Venus in the",
+   "bbox": [
+    252,
+    241,
+    1385,
+    318
+   ]
+  },
+  {
+   "text": "12th house (which is normally a bad house for any planet to be",
+   "bbox": [
+    178,
+    291,
+    1388,
+    369
+   ]
+  },
+  {
+   "text": "located in) is conducive to wealth.",
+   "bbox": [
+    176,
+    354,
+    851,
+    414
+   ]
+  },
+  {
+   "text": "Saturn",
+   "bbox": [
+    180,
+    479,
+    366,
+    516
+   ]
+  },
+  {
+   "text": "अदृष्टार्थो रोगी मदनवशगोऽत्यन्तमलिन:",
+   "bbox": [
+    252,
+    544,
+    825,
+    608
+   ]
+  },
+  {
+   "text": "शिशुत्वे पीडार्त: सवितृसुतलग्नेऽत्यलसवाक्।",
+   "bbox": [
+    254,
+    605,
+    897,
+    673
+   ]
+  },
+  {
+   "text": "गुरुस्वक्षोच्चस्थे नृपतिसदृशो ग्रामपुरप:",
+   "bbox": [
+    254,
+    673,
+    803,
+    737
+   ]
+  },
+  {
+   "text": "सुविद्वांश्चार्वङ्गो दिनकरसमोऽन्यत्र कथित: 11 9 11",
+   "bbox": [
+    258,
+    731,
+    980,
+    804
+   ]
+  },
+  {
+   "text": "If Saturn occupies in lagna signs other than Libra, Sagit-",
+   "bbox": [
+    261,
+    812,
+    1400,
+    888
+   ]
+  },
+  {
+   "text": "tarius, Capricorn, or Acquarius the native is poor, diseased,",
+   "bbox": [
+    186,
+    861,
+    1401,
+    943
+   ]
+  },
+  {
+   "text": "one over powered by sex, unclean, suffers in infancy and",
+   "bbox": [
+    189,
+    912,
+    1401,
+    992
+   ]
+  },
+  {
+   "text": "sparing in speech. If the above signs are in lagna he is like a",
+   "bbox": [
+    189,
+    963,
+    1402,
+    1044
+   ]
+  },
+  {
+   "text": "king in status and the ruler of many villages. In the signs other",
+   "bbox": [
+    189,
+    1012,
+    1406,
+    1096
+   ]
+  },
+  {
+   "text": "than 7, 9, 11 and 12 Saturn's results are in addition the same",
+   "bbox": [
+    190,
+    1063,
+    1406,
+    1145
+   ]
+  },
+  {
+   "text": "as stated for the Sun.",
+   "bbox": [
+    195,
+    1138,
+    628,
+    1188
+   ]
+  },
+  {
+   "text": "सुहृदरिपरकोयस्वर्क्षतुङ्गस्थितानां",
+   "bbox": [
+    269,
+    1217,
+    716,
+    1273
+   ]
+  },
+  {
+   "text": "फलमनुपरिचिन्त्यं लग्नदेहादिभावै:।",
+   "bbox": [
+    268,
+    1265,
+    781,
+    1343
+   ]
+  },
+  {
+   "text": "समुपचयविपत्ती सौम्यपापेषु सत्य:",
+   "bbox": [
+    271,
+    1336,
+    764,
+    1406
+   ]
+  },
+  {
+   "text": "कथयति विपरीतं रिष्फपप्टाप्टमेषु ।।1011",
+   "bbox": [
+    273,
+    1398,
+    893,
+    1472
+   ]
+  },
+  {
+   "text": "Planets occupying friendly, inimical, neutral, their own or",
+   "bbox": [
+    275,
+    1480,
+    1418,
+    1556
+   ]
+  },
+  {
+   "text": "their exaltation signs in lagna if a benefic occupies the 8th",
+   "bbox": [
+    200,
+    1530,
+    1418,
+    1608
+   ]
+  },
+  {
+   "text": "house, it would benefit longevity, according to Varahmihir,",
+   "bbox": [
+    202,
+    1580,
+    1418,
+    1660
+   ]
+  },
+  {
+   "text": "while according to Satyacharya it would bring harm, death,",
+   "bbox": [
+    204,
+    1631,
+    1421,
+    1709
+   ]
+  },
+  {
+   "text": "which again amounts to the same thing. In case the 6th, 8th",
+   "bbox": [
+    206,
+    1681,
+    1421,
+    1762
+   ]
+  },
+  {
+   "text": "and 12th houses of the horoscope are termed as disease, death",
+   "bbox": [
+    206,
+    1731,
+    1424,
+    1813
+   ]
+  },
+  {
+   "text": "and expenses and the planets there give opposite results, the",
+   "bbox": [
+    207,
+    1784,
+    1424,
+    1862
+   ]
+  },
+  {
+   "text": "statement of Satyacharya seems to be more true to experience",
+   "bbox": [
+    209,
+    1833,
+    1424,
+    1915
+   ]
+  },
+  {
+   "text": "except a little in regard to the 12th house in whose case planets",
+   "bbox": [
+    209,
+    1885,
+    1426,
+    1963
+   ]
+  },
+  {
+   "text": "Saturn and Rahu by their influence on that house tend to",
+   "bbox": [
+    212,
+    1934,
+    1428,
+    2015
+   ]
+  },
+  {
+   "text": "reduce expenses. With regard to the 6th house, the attention of",
+   "bbox": [
+    212,
+    1985,
+    1434,
+    2065
+   ]
+  },
+  {
+   "text": "readers is invited to the following shloka No. 13 of Chapter 17",
+   "bbox": [
+    212,
+    2036,
+    1428,
+    2116
+   ]
+  },
+  {
+   "text": "of BPHS.",
+   "bbox": [
+    214,
+    2118,
+    407,
+    2160
+   ]
+  },
+  {
+   "text": "उच्चत्रिकोणस्वसुहच्छत्रुनीचगृहार्कगै:।",
+   "bbox": [
+    289,
+    2185,
+    832,
+    2254
+   ]
+  },
+  {
+   "text": "शूभं सम्पूर्णपादोनदलपादाल्पनिष्फलम् ।।",
+   "bbox": [
+    288,
+    2240,
+    865,
+    2311
+   ]
+  }
+ ]
+}

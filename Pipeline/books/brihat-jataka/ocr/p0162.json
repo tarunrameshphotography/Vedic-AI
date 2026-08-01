@@ -1,0 +1,317 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0162",
+ "book_id": "brihat-jataka",
+ "seq": 162,
+ "source_ref": {
+  "pdf_page": 81,
+  "half": "b",
+  "v1_page": "s081b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "331accf34b9e1c419ae1de527cc4de61e931d447456f09827fb005982e7fc8fd",
+ "lines": [
+  {
+   "text": "159",
+   "bbox": [
+    1286,
+    211,
+    1372,
+    245
+   ]
+  },
+  {
+   "text": "Planets in Vargas",
+   "bbox": [
+    161,
+    240,
+    526,
+    291
+   ]
+  },
+  {
+   "text": "ascendant, a very good point in his favour-a point possessed",
+   "bbox": [
+    163,
+    303,
+    1383,
+    401
+   ]
+  },
+  {
+   "text": "by none of the other 11 ascendants. The point is that for",
+   "bbox": [
+    164,
+    358,
+    1386,
+    450
+   ]
+  },
+  {
+   "text": "Acquarius people, the lordship of the two financial houses 2nd",
+   "bbox": [
+    164,
+    407,
+    1386,
+    506
+   ]
+  },
+  {
+   "text": "and 11th goes to a planet (Jupiter) that is himself the",
+   "bbox": [
+    168,
+    460,
+    1388,
+    558
+   ]
+  },
+  {
+   "text": "significator of finance. Jupiters strength and its aspect in the",
+   "bbox": [
+    170,
+    516,
+    1389,
+    609
+   ]
+  },
+  {
+   "text": "case of Acquarius lagna is a unique feature of the Acquarius",
+   "bbox": [
+    170,
+    569,
+    1392,
+    664
+   ]
+  },
+  {
+   "text": "ascendant that can raise the status of the party that Jupiter",
+   "bbox": [
+    176,
+    621,
+    1394,
+    718
+   ]
+  },
+  {
+   "text": "aspects to a level much higher than could possibly be the case",
+   "bbox": [
+    176,
+    676,
+    1395,
+    769
+   ]
+  },
+  {
+   "text": "in any lagna other than Acquarius.",
+   "bbox": [
+    177,
+    750,
+    885,
+    823
+   ]
+  },
+  {
+   "text": "<b>Hora Effects</b>",
+   "bbox": [
+    181,
+    880,
+    516,
+    931
+   ]
+  },
+  {
+   "text": "यातेप्वसत्स्वसमभेपुदिनेशहोरां",
+   "bbox": [
+    259,
+    960,
+    685,
+    1022
+   ]
+  },
+  {
+   "text": "ख्यातो महोद्यमवलार्थयुतोऽतितेजा:।",
+   "bbox": [
+    260,
+    1018,
+    762,
+    1091
+   ]
+  },
+  {
+   "text": "चान्द्रीं शुभेषु युजि मार्दवकान्तिसौख्य-",
+   "bbox": [
+    262,
+    1071,
+    823,
+    1164
+   ]
+  },
+  {
+   "text": "सौभाग्यधीमधुरवाक्ययुत: प्रजात: ।। 411",
+   "bbox": [
+    266,
+    1162,
+    838,
+    1220
+   ]
+  },
+  {
+   "text": "If the natural malefic planets in a horoscope occupy the",
+   "bbox": [
+    271,
+    1232,
+    1412,
+    1320
+   ]
+  },
+  {
+   "text": "\"Hora\" of Sun ie if they are located in the first half of odd signs,",
+   "bbox": [
+    192,
+    1281,
+    1414,
+    1376
+   ]
+  },
+  {
+   "text": "the native becomes famous persevering, powerful, healthy and",
+   "bbox": [
+    195,
+    1335,
+    1416,
+    1429
+   ]
+  },
+  {
+   "text": "with prowess. Similarly if natural benefic occupying the first",
+   "bbox": [
+    198,
+    1390,
+    1420,
+    1483
+   ]
+  },
+  {
+   "text": "half of even signs, the native will have such qualities as",
+   "bbox": [
+    199,
+    1442,
+    1419,
+    1539
+   ]
+  },
+  {
+   "text": "gentleness, handsomeness, comforts, good luck, intelligence",
+   "bbox": [
+    200,
+    1497,
+    1421,
+    1591
+   ]
+  },
+  {
+   "text": "and a sweet speech.",
+   "bbox": [
+    206,
+    1585,
+    610,
+    1639
+   ]
+  },
+  {
+   "text": "तास्वेव होरास्वपरर्क्षगासु ज्ञेया नरा: पूर्वगुणेपु मध्या:।",
+   "bbox": [
+    281,
+    1655,
+    1048,
+    1731
+   ]
+  },
+  {
+   "text": "व्यत्यस्तहोराभवनस्थितेषु मत्यां भवन्त्युक्तगुणैर्विहीना: ।। 5।।",
+   "bbox": [
+    282,
+    1703,
+    1159,
+    1801
+   ]
+  },
+  {
+   "text": "If the sign is odd, the Hora is of Moon and the planet is a",
+   "bbox": [
+    288,
+    1805,
+    1430,
+    1891
+   ]
+  },
+  {
+   "text": "malefic, the results are of medium effect. Similar is the case",
+   "bbox": [
+    212,
+    1856,
+    1433,
+    1949
+   ]
+  },
+  {
+   "text": "when the sign occupied by a planet is even, the Hora therein",
+   "bbox": [
+    215,
+    1910,
+    1434,
+    2001
+   ]
+  },
+  {
+   "text": "is of Sun and the planet is a benefic. The results are medium,",
+   "bbox": [
+    216,
+    1963,
+    1435,
+    2056
+   ]
+  },
+  {
+   "text": "when the sign is odd having Sun's Hora and the planet is a",
+   "bbox": [
+    216,
+    2015,
+    1438,
+    2110
+   ]
+  },
+  {
+   "text": "benefic the results are adverse. When the sign is even, the",
+   "bbox": [
+    219,
+    2073,
+    1439,
+    2158
+   ]
+  },
+  {
+   "text": "Hora is of Moon but the planet is a malefic the results are",
+   "bbox": [
+    219,
+    2124,
+    1439,
+    2215
+   ]
+  },
+  {
+   "text": "again adverse in regard to matters stated.",
+   "bbox": [
+    219,
+    2191,
+    1065,
+    2265
+   ]
+  }
+ ]
+}

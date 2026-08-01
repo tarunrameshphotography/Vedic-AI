@@ -1,0 +1,182 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0109",
+ "book_id": "brihat-jataka",
+ "seq": 109,
+ "source_ref": {
+  "pdf_page": 55,
+  "half": "a",
+  "v1_page": "s055a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "0923eeeb6fdad949af48f782758c580b27598b42726d7968d4d39b2497df0d77",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1290,
+    244,
+    1577,
+    277
+   ]
+  },
+  {
+   "text": "106",
+   "bbox": [
+    372,
+    253,
+    460,
+    287
+   ]
+  },
+  {
+   "text": "Similarly the location of Sun, the planet of power and",
+   "bbox": [
+    444,
+    346,
+    1579,
+    398
+   ]
+  },
+  {
+   "text": "health and to some extent a significator of lagna in zenith",
+   "bbox": [
+    367,
+    397,
+    1581,
+    450
+   ]
+  },
+  {
+   "text": "would give good health etc for enjoyment of life.",
+   "bbox": [
+    367,
+    450,
+    1324,
+    503
+   ]
+  },
+  {
+   "text": "गुरुसितबुधलग्ने सप्तमस्थेऽर्कपुत्रे",
+   "bbox": [
+    442,
+    533,
+    904,
+    584
+   ]
+  },
+  {
+   "text": "वियति दिवसनाथे भोगिनां जन्म विद्यात्।",
+   "bbox": [
+    446,
+    595,
+    1027,
+    648
+   ]
+  },
+  {
+   "text": "शुभबलयुतकेन्द्रै: क्रूरभस्थैश्च पापै-",
+   "bbox": [
+    442,
+    654,
+    931,
+    720
+   ]
+  },
+  {
+   "text": "र्ब्रजति शबरदस्युस्वामितामर्थभाक् च।। 20 ।।",
+   "bbox": [
+    443,
+    725,
+    1112,
+    778
+   ]
+  },
+  {
+   "text": "इति श्रीवराहमिहिरकृते बृहज्जातके राजयोगाध्याय: एकादश: ।।11।।",
+   "bbox": [
+    476,
+    909,
+    1476,
+    962
+   ]
+  },
+  {
+   "text": "Thus ends the eleventh chapter on Rajayogas in Brihat",
+   "bbox": [
+    447,
+    999,
+    1588,
+    1050
+   ]
+  },
+  {
+   "text": "Jatak composed by Varahamihira.",
+   "bbox": [
+    371,
+    1057,
+    1053,
+    1097
+   ]
+  },
+  {
+   "text": "<b>UNIQUE CLASSIC</b>",
+   "bbox": [
+    659,
+    1382,
+    1312,
+    1451
+   ]
+  },
+  {
+   "text": "PHALA DEEPIKA",
+   "bbox": [
+    502,
+    1507,
+    1455,
+    1595
+   ]
+  },
+  {
+   "text": "(Original Text with Translation, Notes &",
+   "bbox": [
+    413,
+    1662,
+    1552,
+    1720
+   ]
+  },
+  {
+   "text": "Exhaustive Commentary in lucid English)",
+   "bbox": [
+    398,
+    1732,
+    1566,
+    1791
+   ]
+  },
+  {
+   "text": "by Dr G.S. Kapoor",
+   "bbox": [
+    697,
+    1848,
+    1267,
+    1900
+   ]
+  },
+  {
+   "text": "<b>Excellent Work on Predictive Astrology</b>",
+   "bbox": [
+    460,
+    1952,
+    1504,
+    2008
+   ]
+  }
+ ]
+}

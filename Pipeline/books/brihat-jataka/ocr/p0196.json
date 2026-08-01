@@ -1,0 +1,317 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0196",
+ "book_id": "brihat-jataka",
+ "seq": 196,
+ "source_ref": {
+  "pdf_page": 98,
+  "half": "b",
+  "v1_page": "s098b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "73d7c5b332bf637466ee38de6e50849cc32fe0b7e93543f56d0ffe6a6e916e76",
+ "lines": [
+  {
+   "text": "193",
+   "bbox": [
+    1347,
+    198,
+    1436,
+    231
+   ]
+  },
+  {
+   "text": "Death",
+   "bbox": [
+    231,
+    222,
+    358,
+    258
+   ]
+  },
+  {
+   "text": "Notes: Vyala or Serpent drekkanas are the first two of",
+   "bbox": [
+    305,
+    293,
+    1446,
+    366
+   ]
+  },
+  {
+   "text": "Cancer and Scorpio and third of Pisces.",
+   "bbox": [
+    235,
+    356,
+    1016,
+    420
+   ]
+  },
+  {
+   "text": "गुरुरुडुपतिशुक्रौ सूर्यभौमौ यमज्ञौ विबुधपितृतिरश्चो नारकीयांश्च कुर्यु:।",
+   "bbox": [
+    309,
+    430,
+    1273,
+    505
+   ]
+  },
+  {
+   "text": "दिनकरशशिवीर्याधिष्ठितास्त्र्यंशनाथा: प्रवरसमनिकृष्टास्तुङ्गभागादनूके।। 14 ।।",
+   "bbox": [
+    311,
+    492,
+    1423,
+    569
+   ]
+  },
+  {
+   "text": "Guru, Chandra and Shukra, Ravi and Kuja, and Shani",
+   "bbox": [
+    314,
+    589,
+    1446,
+    662
+   ]
+  },
+  {
+   "text": "and Budha bring persons respectively from Devaloka,",
+   "bbox": [
+    239,
+    642,
+    1450,
+    718
+   ]
+  },
+  {
+   "text": "Pitriloka, Tiryogloka and Naraka. As per the drekkana occu-",
+   "bbox": [
+    241,
+    694,
+    1449,
+    772
+   ]
+  },
+  {
+   "text": "pied by the most powerful between the Sun and the Moon, we",
+   "bbox": [
+    242,
+    751,
+    1450,
+    824
+   ]
+  },
+  {
+   "text": "have to find the high, middle or low status of the native in his",
+   "bbox": [
+    242,
+    803,
+    1456,
+    880
+   ]
+  },
+  {
+   "text": "previous birth.",
+   "bbox": [
+    245,
+    882,
+    544,
+    928
+   ]
+  },
+  {
+   "text": "Notes: Find the stronger between the Sun and the Moon.",
+   "bbox": [
+    317,
+    941,
+    1453,
+    1014
+   ]
+  },
+  {
+   "text": "Note the drekkana. The owner of that drekkana reveals the",
+   "bbox": [
+    243,
+    995,
+    1453,
+    1070
+   ]
+  },
+  {
+   "text": "worlds from which the native has come.",
+   "bbox": [
+    248,
+    1059,
+    1036,
+    1117
+   ]
+  },
+  {
+   "text": "Tiryogloka belongs to the world of animals, Pitru to the",
+   "bbox": [
+    323,
+    1134,
+    1456,
+    1202
+   ]
+  },
+  {
+   "text": "manes or the dead ancestors, and naraka to hell.",
+   "bbox": [
+    247,
+    1188,
+    1215,
+    1260
+   ]
+  },
+  {
+   "text": "गतिरपि रिपुरन्ध्रत्र्यंशपोऽस्तस्थितो वा",
+   "bbox": [
+    323,
+    1285,
+    842,
+    1344
+   ]
+  },
+  {
+   "text": "गुरुरथरिपुकेन्द्रच्छिद्रग: स्वोच्चसंस्थ:।",
+   "bbox": [
+    325,
+    1350,
+    862,
+    1413
+   ]
+  },
+  {
+   "text": "उदयति भवनेऽन्त्ये सौम्यभागे च मोक्षो",
+   "bbox": [
+    324,
+    1412,
+    875,
+    1474
+   ]
+  },
+  {
+   "text": "भवति यदि बलेन प्रोज्झितास्तत्र शेषा: ।। 15 ।।",
+   "bbox": [
+    328,
+    1483,
+    1026,
+    1544
+   ]
+  },
+  {
+   "text": "The lord of the drekkana of the sixth or the eighth house,",
+   "bbox": [
+    330,
+    1570,
+    1466,
+    1639
+   ]
+  },
+  {
+   "text": "or the planet in the seventh house indicates the nature of the",
+   "bbox": [
+    253,
+    1623,
+    1467,
+    1695
+   ]
+  },
+  {
+   "text": "native's existence after death.",
+   "bbox": [
+    259,
+    1690,
+    852,
+    1742
+   ]
+  },
+  {
+   "text": "When exalted Guru is in 6 or 8, or in any Kendra of Mina",
+   "bbox": [
+    333,
+    1759,
+    1472,
+    1828
+   ]
+  },
+  {
+   "text": "in lagna having benefic navamsha, and if planets other than",
+   "bbox": [
+    255,
+    1810,
+    1472,
+    1886
+   ]
+  },
+  {
+   "text": "Guru are weak, the native attains Moksha.",
+   "bbox": [
+    259,
+    1872,
+    1119,
+    1935
+   ]
+  },
+  {
+   "text": "Notes: If there are the planets in 6, 7 or 8, find the lords of",
+   "bbox": [
+    333,
+    1949,
+    1478,
+    2018
+   ]
+  },
+  {
+   "text": "the rising drekkanas in 6 and 8. Find the stronger and note the",
+   "bbox": [
+    260,
+    2001,
+    1476,
+    2074
+   ]
+  },
+  {
+   "text": "world referred to the lord.",
+   "bbox": [
+    264,
+    2069,
+    784,
+    2118
+   ]
+  },
+  {
+   "text": "If the sixth has Shani, we refer to Hell. If the eighth has",
+   "bbox": [
+    340,
+    2136,
+    1477,
+    2208
+   ]
+  },
+  {
+   "text": "Kuja, we refer to the world of animals. If the drekkana of the",
+   "bbox": [
+    265,
+    2186,
+    1479,
+    2263
+   ]
+  },
+  {
+   "text": "sixth is Mesha, we get the world of animals. If the drekkana of",
+   "bbox": [
+    269,
+    2241,
+    1483,
+    2314
+   ]
+  }
+ ]
+}

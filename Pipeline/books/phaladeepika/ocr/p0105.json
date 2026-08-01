@@ -1,0 +1,288 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0105",
+ "book_id": "phaladeepika",
+ "seq": 105,
+ "source_ref": {
+  "pdf_page": 105
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "d6e488842f587339321c00e4f468b9283075a95a193c59275321583b7f989782",
+ "lines": [
+  {
+   "text": "<b>Chapter 9</b>",
+   "bbox": [
+    285,
+    57,
+    353,
+    75
+   ]
+  },
+  {
+   "text": "<b>Effects of different Ascendants</b>",
+   "bbox": [
+    214,
+    85,
+    423,
+    103
+   ]
+  },
+  {
+   "text": "1. If the Ascendant falls in Aries, the native will have round eyes. His knees ",
+   "bbox": [
+    121,
+    137,
+    556,
+    152
+   ]
+  },
+  {
+   "text": "will be weak and he will have aggressive temperament but he will be afraid of ",
+   "bbox": [
+    85,
+    161,
+    556,
+    176
+   ]
+  },
+  {
+   "text": "water. He will be active and will always be moving about. His limbs will be ",
+   "bbox": [
+    85,
+    185,
+    556,
+    201
+   ]
+  },
+  {
+   "text": "bruised. He will eat sparigly and will be passionate. He will speak falsehoods.",
+   "bbox": [
+    85,
+    209,
+    522,
+    225
+   ]
+  },
+  {
+   "text": "2. The person born with Taurus as the Ascendant, will have plumply thighs ",
+   "bbox": [
+    121,
+    233,
+    556,
+    249
+   ]
+  },
+  {
+   "text": "and a big face. He will be engaged in agricultural ventures. He will be happy in the ",
+   "bbox": [
+    85,
+    257,
+    556,
+    273
+   ]
+  },
+  {
+   "text": "middle and last portions of his life. He will be fond of enjoying young women. He ",
+   "bbox": [
+    85,
+    282,
+    556,
+    297
+   ]
+  },
+  {
+   "text": "will be of sacrificing and forgiving nature, will be capable of endowing hardships ",
+   "bbox": [
+    85,
+    306,
+    556,
+    321
+   ]
+  },
+  {
+   "text": "and will possess cattle. He will have marks or moles on the back, face and sides.",
+   "bbox": [
+    85,
+    330,
+    535,
+    345
+   ]
+  },
+  {
+   "text": "3. When the Ascedant is Gemini, the native will have balck eyes and curly ",
+   "bbox": [
+    121,
+    354,
+    556,
+    370
+   ]
+  },
+  {
+   "text": "hair. He will enjoy association with women and will have thick neck and many ",
+   "bbox": [
+    85,
+    378,
+    556,
+    394
+   ]
+  },
+  {
+   "text": "friends. He will be intelligent and mind reader. His nose will be elevated and he ",
+   "bbox": [
+    85,
+    402,
+    556,
+    418
+   ]
+  },
+  {
+   "text": "will be fond of music and dancing. He will like to remain indoors.",
+   "bbox": [
+    85,
+    427,
+    455,
+    442
+   ]
+  },
+  {
+   "text": "4. Person with Cancer as the Ascendant will be henpacked. He will have a ",
+   "bbox": [
+    121,
+    451,
+    556,
+    466
+   ]
+  },
+  {
+   "text": "thick neck and will be fond of making friendships. He will possess many houses ",
+   "bbox": [
+    85,
+    475,
+    556,
+    490
+   ]
+  },
+  {
+   "text": "and will be wealthy. His waist will be thick but he will be short statured. He will be ",
+   "bbox": [
+    85,
+    499,
+    556,
+    514
+   ]
+  },
+  {
+   "text": "intelligent and fond of watery sports like swimming etc. He will walk fast and will ",
+   "bbox": [
+    85,
+    523,
+    556,
+    539
+   ]
+  },
+  {
+   "text": "have few sons. He will be crooked.",
+   "bbox": [
+    85,
+    547,
+    282,
+    563
+   ]
+  },
+  {
+   "text": "5. A person whose Ascendant is Leo will have reddish eyes, large chin and ",
+   "bbox": [
+    121,
+    571,
+    556,
+    587
+   ]
+  },
+  {
+   "text": "broad face. He will be arrogant, Powerful valiant, firm minded and obedient to his ",
+   "bbox": [
+    85,
+    596,
+    556,
+    611
+   ]
+  },
+  {
+   "text": "mother. He will be fond of roaming about in forests and hills. He will get angry on ",
+   "bbox": [
+    85,
+    620,
+    556,
+    635
+   ]
+  },
+  {
+   "text": "trifles.",
+   "bbox": [
+    85,
+    644,
+    121,
+    659
+   ]
+  },
+  {
+   "text": "6. The person born with Virgo as the Ascendant, will be truthful and will ",
+   "bbox": [
+    121,
+    668,
+    556,
+    684
+   ]
+  },
+  {
+   "text": "speak kindly. His eyes will be full of bashfulness and will be immediately liked by ",
+   "bbox": [
+    85,
+    692,
+    556,
+    708
+   ]
+  },
+  {
+   "text": "others. He will be well versed in Shastras and will take advantage of other people's ",
+   "bbox": [
+    85,
+    716,
+    556,
+    732
+   ]
+  },
+  {
+   "text": "houses and wealth. His arms and shoulders will be drooped and will possess few ",
+   "bbox": [
+    85,
+    740,
+    556,
+    756
+   ]
+  },
+  {
+   "text": "sons.",
+   "bbox": [
+    85,
+    765,
+    114,
+    780
+   ]
+  },
+  {
+   "text": "105",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

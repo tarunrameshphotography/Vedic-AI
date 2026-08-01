@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0133",
+ "book_id": "phaladeepika",
+ "seq": 133,
+ "source_ref": {
+  "pdf_page": 133
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "7b81f6f3fee353de1e8c26cfb4b02b57e0e50bbac3ff3955b29e95af3e4ac72a",
+ "lines": [
+  {
+   "text": "(3) If the Ascendant and the 7th are occupied by malefics.",
+   "bbox": [
+    121,
+    57,
+    445,
+    73
+   ]
+  },
+  {
+   "text": "(4) If the Moon and the Ascendant be hemmed in between malefics.",
+   "bbox": [
+    121,
+    82,
+    501,
+    97
+   ]
+  },
+  {
+   "text": "(5) If the waning Moon be posited in 6th, 8th or 12th.",
+   "bbox": [
+    121,
+    106,
+    421,
+    121
+   ]
+  },
+  {
+   "text": "(6) If the waning Moon alongwith malefics occupies the 1st, 5th, 7th or the ",
+   "bbox": [
+    121,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "9th house.",
+   "bbox": [
+    85,
+    154,
+    143,
+    169
+   ]
+  },
+  {
+   "text": "(7) If the malefics be posited in the 7th and 8th houses.",
+   "bbox": [
+    121,
+    178,
+    429,
+    194
+   ]
+  },
+  {
+   "text": "If, however, there be aspect of benefics on the Lagna, the Moon or malefics ",
+   "bbox": [
+    121,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "or there be benefics in Kendra, the evil effects described above do not come to ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "pass.",
+   "bbox": [
+    85,
+    251,
+    113,
+    266
+   ]
+  },
+  {
+   "text": "13. If the lord of the Ascendant or the lord of the sign occupied by the Moon ",
+   "bbox": [
+    121,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "being weak is placed in 6th, 8th or 12th, the native survives for the number of the ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "years as are indicated by the number of the sign (counted from Aries) in which the ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "Lord of Lagna or the lord of the Moon sign is posited.",
+   "bbox": [
+    85,
+    347,
+    388,
+    363
+   ]
+  },
+  {
+   "text": "If the lord of the Lagna decanate or the lord of the Moon decanate being ",
+   "bbox": [
+    121,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "weak be placed in the 6th, 8th or 12th, the number of the sign in which such lord is ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "posited will indicate the number of days of the survival of the child.",
+   "bbox": [
+    85,
+    420,
+    465,
+    435
+   ]
+  },
+  {
+   "text": "If the lord of the Lagna Navamsa or the lord of the Moon Navamsa being ",
+   "bbox": [
+    121,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "weak be placed in 6th, 8th or. 12th, the sign of the Lagna Navamsa or the Moon ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "Navamsa will indicate the number of days of the survival of the native.",
+   "bbox": [
+    85,
+    492,
+    483,
+    508
+   ]
+  },
+  {
+   "text": "After carefully taking into account which of the above planetary dispositions ",
+   "bbox": [
+    121,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "are more predominant and after considering the nature of the malefics occupying ",
+   "bbox": [
+    85,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "the 5th and 8th house from the Lagna, a final decision should be taken about the ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "longevity of the native.",
+   "bbox": [
+    85,
+    589,
+    215,
+    604
+   ]
+  },
+  {
+   "text": "14. Note the following 3 pairs (A) the decanate signs of the Lagna and the ",
+   "bbox": [
+    121,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "Moon. (B) the Navamsa signs of the lord of the Lagna and lord of the sign ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "occupied by the Moon and (C) the Dwadasasma signs of the lord of the Lagna and ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "of the lord of the 8th house.",
+   "bbox": [
+    85,
+    685,
+    240,
+    701
+   ]
+  },
+  {
+   "text": "The life of the child should be pronounced as Deergha, Madhya and Alpa ",
+   "bbox": [
+    121,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "according as (a) when one of the signs in the said 3 pairs is a moveable sign and ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "the other is a moveable fixed or dual sign, (b) when one of the signs is fixed and ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "133",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

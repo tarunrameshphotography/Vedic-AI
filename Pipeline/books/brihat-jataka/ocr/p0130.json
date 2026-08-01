@@ -1,0 +1,245 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0130",
+ "book_id": "brihat-jataka",
+ "seq": 130,
+ "source_ref": {
+  "pdf_page": 65,
+  "half": "b",
+  "v1_page": "s065b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "c378aae1745fa8ce11ec1b23f6e3fa103c27173eb15b264e1811d101a91b024c",
+ "lines": [
+  {
+   "text": "16",
+   "bbox": [
+    778,
+    615,
+    852,
+    666
+   ]
+  },
+  {
+   "text": "नक्षत्राध्यायः",
+   "bbox": [
+    703,
+    764,
+    928,
+    805
+   ]
+  },
+  {
+   "text": "<b>Traits of Asterisms</b>",
+   "bbox": [
+    425,
+    828,
+    1206,
+    897
+   ]
+  },
+  {
+   "text": "प्रियभूषण: सुरूप: सुभगो दक्षोऽश्विनीषु मतिमांश्च।",
+   "bbox": [
+    291,
+    1063,
+    983,
+    1118
+   ]
+  },
+  {
+   "text": "कृतनिश्चय: सत्यपरो दक्ष: सुखितश्च भरणीषु।। 1 ।।",
+   "bbox": [
+    289,
+    1124,
+    1036,
+    1180
+   ]
+  },
+  {
+   "text": "A person born with his Moon occupying the Nakshatra",
+   "bbox": [
+    291,
+    1223,
+    1424,
+    1263
+   ]
+  },
+  {
+   "text": "(Asterism) \"Ashvini\", takes interest in embelishing his body, is",
+   "bbox": [
+    220,
+    1274,
+    1424,
+    1312
+   ]
+  },
+  {
+   "text": "handsome, beloved of all, clever in all actions and intelligent.",
+   "bbox": [
+    220,
+    1319,
+    1421,
+    1367
+   ]
+  },
+  {
+   "text": "One born in \"Bharani\" nakshatra (ie when Moon occupies this",
+   "bbox": [
+    219,
+    1374,
+    1423,
+    1413
+   ]
+  },
+  {
+   "text": "nakshatra), firm of decision, truthful, free from disease, effi-",
+   "bbox": [
+    220,
+    1425,
+    1421,
+    1464
+   ]
+  },
+  {
+   "text": "cient and leads a happy life.",
+   "bbox": [
+    217,
+    1476,
+    774,
+    1514
+   ]
+  },
+  {
+   "text": "बहुभुक्परदाररतस्तेजस्वी कृत्तिकासु विख्यात:।",
+   "bbox": [
+    286,
+    1552,
+    950,
+    1602
+   ]
+  },
+  {
+   "text": "रोहिण्यां सत्यशुचिः प्रियंवदः स्थिरमतिः सुरूपः।। 2 ।।",
+   "bbox": [
+    286,
+    1614,
+    1097,
+    1666
+   ]
+  },
+  {
+   "text": "One born with Moon in \"Krittika\" is a glutton, in love with",
+   "bbox": [
+    289,
+    1709,
+    1423,
+    1749
+   ]
+  },
+  {
+   "text": "other women, with a dominating personality and is famous. If",
+   "bbox": [
+    214,
+    1759,
+    1426,
+    1799
+   ]
+  },
+  {
+   "text": "born in \"Rohini\", he is truthful, clean, sweet tongued, of fixed",
+   "bbox": [
+    214,
+    1810,
+    1424,
+    1848
+   ]
+  },
+  {
+   "text": "mind, and handsome.",
+   "bbox": [
+    216,
+    1860,
+    643,
+    1899
+   ]
+  },
+  {
+   "text": "चपलश्चतुरो भीरुः पटुरुत्साही धनी मृगे भोगी।",
+   "bbox": [
+    285,
+    1936,
+    946,
+    1987
+   ]
+  },
+  {
+   "text": "शठगर्वित: कृतघ्नो हिंस्र: पापश्च रौद्रर्क्षे।। 3 ।।",
+   "bbox": [
+    285,
+    1998,
+    965,
+    2050
+   ]
+  },
+  {
+   "text": "One born with Moon in \"Mrigshir\" is naughty, clever,",
+   "bbox": [
+    285,
+    2092,
+    1421,
+    2133
+   ]
+  },
+  {
+   "text": "timid, ambitious, wealthy and with enjoyments. One born in",
+   "bbox": [
+    213,
+    2142,
+    1421,
+    2183
+   ]
+  },
+  {
+   "text": "\"Ardra\" nakshatra is deceitful, proud, ungrateful, cruel and",
+   "bbox": [
+    211,
+    2190,
+    1421,
+    2236
+   ]
+  },
+  {
+   "text": "sinful.",
+   "bbox": [
+    211,
+    2243,
+    341,
+    2279
+   ]
+  },
+  {
+   "text": "दान्त: सुखी सुशीलो दुर्मेधा रोगभाक् पिपासुश्च।",
+   "bbox": [
+    282,
+    2319,
+    959,
+    2371
+   ]
+  },
+  {
+   "text": "अल्पेन च सन्तुप्ट: पुनर्वसौ जायते मनुज:।। 4 ।।",
+   "bbox": [
+    285,
+    2381,
+    1012,
+    2437
+   ]
+  }
+ ]
+}

@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0038",
+ "book_id": "brihat-jataka",
+ "seq": 38,
+ "source_ref": {
+  "pdf_page": 19,
+  "half": "b",
+  "v1_page": "s019b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "aac215dbc10870b1c34bbbab92684811b678f6cd78981c5fae01dd2cd703504d",
+ "lines": [
+  {
+   "text": "Planets",
+   "bbox": [
+    299,
+    235,
+    452,
+    271
+   ]
+  },
+  {
+   "text": "35",
+   "bbox": [
+    1441,
+    237,
+    1505,
+    269
+   ]
+  },
+  {
+   "text": "fully aspect the place 7th from where they are located. In",
+   "bbox": [
+    296,
+    335,
+    1507,
+    374
+   ]
+  },
+  {
+   "text": "addition Saturn fully aspects the 3rd and 10th from it, Jupiter",
+   "bbox": [
+    300,
+    388,
+    1506,
+    427
+   ]
+  },
+  {
+   "text": "fully aspects the place 5th and 9th from it and Mars fully",
+   "bbox": [
+    297,
+    440,
+    1505,
+    480
+   ]
+  },
+  {
+   "text": "aspects the places 4th and 8th from it.",
+   "bbox": [
+    299,
+    493,
+    1060,
+    532
+   ]
+  },
+  {
+   "text": "Commentary: In determining aspect at a glance the house",
+   "bbox": [
+    372,
+    567,
+    1505,
+    614
+   ]
+  },
+  {
+   "text": "in which a planet is located and the one aspected by it should",
+   "bbox": [
+    296,
+    621,
+    1503,
+    661
+   ]
+  },
+  {
+   "text": "both be taken into account. For example, Mars in the 2nd",
+   "bbox": [
+    297,
+    675,
+    1503,
+    715
+   ]
+  },
+  {
+   "text": "house fully aspects the 4th from 2nd ie the 5th house, similarly",
+   "bbox": [
+    296,
+    729,
+    1503,
+    768
+   ]
+  },
+  {
+   "text": "in other cases of aspects.",
+   "bbox": [
+    296,
+    781,
+    790,
+    819
+   ]
+  },
+  {
+   "text": "Time of Planets",
+   "bbox": [
+    296,
+    881,
+    705,
+    919
+   ]
+  },
+  {
+   "text": "अयनक्षणवासरर्तवो मासोऽर्द्धञ्च समा च भास्करात्।",
+   "bbox": [
+    368,
+    957,
+    1106,
+    1009
+   ]
+  },
+  {
+   "text": "कट्कलवणतिक्तमिश्रिता मधुराम्लौ च कषाय इत्यपि।। 14 ।।",
+   "bbox": [
+    367,
+    1023,
+    1262,
+    1079
+   ]
+  },
+  {
+   "text": "Sun governs a period of six months. Moon governs a very",
+   "bbox": [
+    369,
+    1123,
+    1503,
+    1161
+   ]
+  },
+  {
+   "text": "small period of some moments, Mars covers a day, Mercury",
+   "bbox": [
+    296,
+    1173,
+    1502,
+    1213
+   ]
+  },
+  {
+   "text": "governs one season of two months duration. Jupiter covers a",
+   "bbox": [
+    291,
+    1225,
+    1500,
+    1267
+   ]
+  },
+  {
+   "text": "period of one month, Venus covers a fortnight, Saturn covers",
+   "bbox": [
+    293,
+    1278,
+    1500,
+    1317
+   ]
+  },
+  {
+   "text": "a period of one year. The taste governed by Sun is bitter, that",
+   "bbox": [
+    291,
+    1330,
+    1503,
+    1370
+   ]
+  },
+  {
+   "text": "by Moon is saltish, that by Mars bitter, that by Mercury is",
+   "bbox": [
+    291,
+    1384,
+    1502,
+    1424
+   ]
+  },
+  {
+   "text": "mixed, that of Jupiter is sweet, that of Venus is sour and that",
+   "bbox": [
+    291,
+    1437,
+    1503,
+    1477
+   ]
+  },
+  {
+   "text": "of Saturn is astringent.",
+   "bbox": [
+    290,
+    1488,
+    760,
+    1526
+   ]
+  },
+  {
+   "text": "Friendship etc as between Planets",
+   "bbox": [
+    288,
+    1593,
+    1188,
+    1633
+   ]
+  },
+  {
+   "text": "जीवो जीवबुघौ सितेन्दुतनयौ व्यका विभौमा: क्रमा-",
+   "bbox": [
+    359,
+    1669,
+    1102,
+    1721
+   ]
+  },
+  {
+   "text": "द्वीन्द्वका विकुजेन्द्विनाश्च सुहृदः केषाञ्चिदेवं मतम्।",
+   "bbox": [
+    357,
+    1732,
+    1057,
+    1786
+   ]
+  },
+  {
+   "text": "सत्योक्ते सुहृदस्त्रिकोणभवनात्स्वात्स्वान्त्यधीधर्मपाः",
+   "bbox": [
+    357,
+    1798,
+    1068,
+    1851
+   ]
+  },
+  {
+   "text": "स्वोच्चायुः सुखपाः स्वलक्षणविधेर्नान्यैर्विरोधादिति।। 15 ।।",
+   "bbox": [
+    357,
+    1860,
+    1216,
+    1918
+   ]
+  },
+  {
+   "text": "Friend of Sun is Jupiter, of Moon is Jupiter and Mercury,",
+   "bbox": [
+    359,
+    1958,
+    1496,
+    2004
+   ]
+  },
+  {
+   "text": "of Mars the friends are Venus and Mercury, of Mercury all",
+   "bbox": [
+    284,
+    2011,
+    1498,
+    2057
+   ]
+  },
+  {
+   "text": "planets except Sun are friends, of Jupiter all except Mars are",
+   "bbox": [
+    284,
+    2066,
+    1497,
+    2105
+   ]
+  },
+  {
+   "text": "friends. Of Saturn all except Moon and Mars are friends. This",
+   "bbox": [
+    284,
+    2117,
+    1499,
+    2158
+   ]
+  },
+  {
+   "text": "is the opinion held by some authors (not generally accepted).",
+   "bbox": [
+    284,
+    2168,
+    1495,
+    2212
+   ]
+  },
+  {
+   "text": "According to Satyacharya all planets treat other planets as",
+   "bbox": [
+    284,
+    2222,
+    1497,
+    2261
+   ]
+  },
+  {
+   "text": "friends if from their mool trikona sign the treated planets,",
+   "bbox": [
+    284,
+    2270,
+    1499,
+    2317
+   ]
+  }
+ ]
+}

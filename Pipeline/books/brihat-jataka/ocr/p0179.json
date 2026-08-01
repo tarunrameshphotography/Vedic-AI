@@ -1,0 +1,245 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0179",
+ "book_id": "brihat-jataka",
+ "seq": 179,
+ "source_ref": {
+  "pdf_page": 90,
+  "half": "a",
+  "v1_page": "s090a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "45e7c8a652b0acd6004b1af7a96bcac239a1c6f103354893cabb9c0a40780b8e",
+ "lines": [
+  {
+   "text": "24",
+   "bbox": [
+    878,
+    455,
+    967,
+    501
+   ]
+  },
+  {
+   "text": "स्त्रीजातकाघ्यायः",
+   "bbox": [
+    758,
+    599,
+    1081,
+    661
+   ]
+  },
+  {
+   "text": "<b>Female Horoscopy</b>",
+   "bbox": [
+    540,
+    671,
+    1292,
+    763
+   ]
+  },
+  {
+   "text": "यद्यत्फलं नरभवेऽक्षममङ्गनानां तत्तद्वदेत्पतिषु वा सकलं विधेयम्",
+   "bbox": [
+    374,
+    910,
+    1288,
+    994
+   ]
+  },
+  {
+   "text": "तासां तु भर्तृमरणं निधने वपुस्तु लग्नेन्दुगं सुभगतास्तमये पतिश्च।। 1 ।।",
+   "bbox": [
+    374,
+    977,
+    1409,
+    1059
+   ]
+  },
+  {
+   "text": "Some of the results which a woman cannot enjoy by or for",
+   "bbox": [
+    373,
+    1064,
+    1521,
+    1140
+   ]
+  },
+  {
+   "text": "herself, those must be attributed to her husband.",
+   "bbox": [
+    293,
+    1113,
+    1275,
+    1181
+   ]
+  },
+  {
+   "text": "From the eighth house from her lagna, we know about the",
+   "bbox": [
+    368,
+    1182,
+    1517,
+    1266
+   ]
+  },
+  {
+   "text": "death of her husband.",
+   "bbox": [
+    293,
+    1237,
+    741,
+    1286
+   ]
+  },
+  {
+   "text": "Her beauty or appearance is determined by her lagna and",
+   "bbox": [
+    364,
+    1313,
+    1512,
+    1384
+   ]
+  },
+  {
+   "text": "by the sign occupied by her Moon.",
+   "bbox": [
+    285,
+    1358,
+    975,
+    1421
+   ]
+  },
+  {
+   "text": "Anything about her husband is to be derived from her",
+   "bbox": [
+    358,
+    1433,
+    1510,
+    1510
+   ]
+  },
+  {
+   "text": "seventh house.",
+   "bbox": [
+    284,
+    1485,
+    587,
+    1527
+   ]
+  },
+  {
+   "text": "Notes: Everything said in the earlier chapters is applicable",
+   "bbox": [
+    353,
+    1558,
+    1505,
+    1634
+   ]
+  },
+  {
+   "text": "to both men and women. But there are certain problems which",
+   "bbox": [
+    280,
+    1607,
+    1502,
+    1684
+   ]
+  },
+  {
+   "text": "concern only women. These are now being detailed. These",
+   "bbox": [
+    277,
+    1659,
+    1501,
+    1735
+   ]
+  },
+  {
+   "text": "include menstruel periods, puberty, conception and delivery.",
+   "bbox": [
+    275,
+    1708,
+    1495,
+    1784
+   ]
+  },
+  {
+   "text": "There are also certain results which a woman shares with",
+   "bbox": [
+    352,
+    1785,
+    1499,
+    1857
+   ]
+  },
+  {
+   "text": "her husband. Chapter 13.1 has given results which apply to",
+   "bbox": [
+    271,
+    1833,
+    1495,
+    1913
+   ]
+  },
+  {
+   "text": "women. Rajayogas and the like are applicable to both husband",
+   "bbox": [
+    271,
+    1886,
+    1495,
+    1961
+   ]
+  },
+  {
+   "text": "and wife.",
+   "bbox": [
+    271,
+    1939,
+    464,
+    1979
+   ]
+  },
+  {
+   "text": "युग्मेषु लग्नशशिनोः प्रकृतिस्थिता स्त्री",
+   "bbox": [
+    341,
+    2015,
+    893,
+    2078
+   ]
+  },
+  {
+   "text": "सच्छीलभूषणयुता शुभदृष्टयोश्च।",
+   "bbox": [
+    341,
+    2080,
+    800,
+    2142
+   ]
+  },
+  {
+   "text": "ओजस्थयोश्च मनुजाकृतिशीलयुक्ता",
+   "bbox": [
+    338,
+    2140,
+    829,
+    2211
+   ]
+  },
+  {
+   "text": "पापा च पापयुतवीक्षितयोर्गुणोना।। 2 ।।",
+   "bbox": [
+    335,
+    2206,
+    921,
+    2280
+   ]
+  }
+ ]
+}

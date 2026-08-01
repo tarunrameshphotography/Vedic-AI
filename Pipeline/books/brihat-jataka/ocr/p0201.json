@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0201",
+ "book_id": "brihat-jataka",
+ "seq": 201,
+ "source_ref": {
+  "pdf_page": 101,
+  "half": "a",
+  "v1_page": "s101a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "a1c198f8211cd1c1bd150853d64cea5ed680ed4da2a4d454ee7bf58c372cde79",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1176,
+    274,
+    1467,
+    309
+   ]
+  },
+  {
+   "text": "198",
+   "bbox": [
+    254,
+    276,
+    347,
+    308
+   ]
+  },
+  {
+   "text": "always based on the lunar year which is made equal to the",
+   "bbox": [
+    248,
+    376,
+    1469,
+    418
+   ]
+  },
+  {
+   "text": "solar year in about five year twice.",
+   "bbox": [
+    248,
+    430,
+    946,
+    468
+   ]
+  },
+  {
+   "text": "Dakshina Ayana (Southern Movement of the Sun) has the",
+   "bbox": [
+    324,
+    510,
+    1468,
+    547
+   ]
+  },
+  {
+   "text": "seasons Varsha, Sarat and Hemanta.",
+   "bbox": [
+    248,
+    559,
+    990,
+    600
+   ]
+  },
+  {
+   "text": "If we get here Varsha Ritu in uttarayana (nothern course",
+   "bbox": [
+    322,
+    642,
+    1466,
+    680
+   ]
+  },
+  {
+   "text": "of the Sun), take it to be Vasanta.",
+   "bbox": [
+    248,
+    696,
+    928,
+    732
+   ]
+  },
+  {
+   "text": "The Moon is given Varsha Ritu and Shukra has Vasanta.",
+   "bbox": [
+    324,
+    776,
+    1465,
+    815
+   ]
+  },
+  {
+   "text": "Hence Shukra replaces the Moon. When Sarat rises in",
+   "bbox": [
+    247,
+    829,
+    1465,
+    868
+   ]
+  },
+  {
+   "text": "Uttarayana, take it to be Grishma.",
+   "bbox": [
+    248,
+    882,
+    945,
+    921
+   ]
+  },
+  {
+   "text": "Budha rules Sarat. The Sun and Kuja govern Grishma.",
+   "bbox": [
+    322,
+    964,
+    1465,
+    1001
+   ]
+  },
+  {
+   "text": "They have to be replaced.",
+   "bbox": [
+    247,
+    1015,
+    762,
+    1052
+   ]
+  },
+  {
+   "text": "Divide the rising Drekkana (ten degrees) into two equal",
+   "bbox": [
+    322,
+    1095,
+    1466,
+    1134
+   ]
+  },
+  {
+   "text": "parts. The first five degrees refer to the first month of the Ritu.",
+   "bbox": [
+    247,
+    1148,
+    1464,
+    1187
+   ]
+  },
+  {
+   "text": "Here the reference is to the solar movement only. Each month",
+   "bbox": [
+    246,
+    1197,
+    1468,
+    1243
+   ]
+  },
+  {
+   "text": "has five degrees or three minutes (liptas). As a month has",
+   "bbox": [
+    247,
+    1254,
+    1465,
+    1294
+   ]
+  },
+  {
+   "text": "thirty days, each day has ten liptas. The particular day is to be",
+   "bbox": [
+    247,
+    1307,
+    1466,
+    1346
+   ]
+  },
+  {
+   "text": "found by dividing the elapsed liptas by ten.",
+   "bbox": [
+    244,
+    1360,
+    1111,
+    1399
+   ]
+  },
+  {
+   "text": "Suppose the question is put when the tenth degree of",
+   "bbox": [
+    322,
+    1442,
+    1471,
+    1483
+   ]
+  },
+  {
+   "text": "Mesha is rising. The Sun will be there. The season will be",
+   "bbox": [
+    244,
+    1495,
+    1466,
+    1534
+   ]
+  },
+  {
+   "text": "Grishma as the second drekkana is rising. Since the last half",
+   "bbox": [
+    247,
+    1548,
+    1469,
+    1587
+   ]
+  },
+  {
+   "text": "of the drekkana is rising, the month will be the second of",
+   "bbox": [
+    245,
+    1601,
+    1469,
+    1640
+   ]
+  },
+  {
+   "text": "Grishma and it is the solar Mithuna month. The lagna rises in",
+   "bbox": [
+    244,
+    1654,
+    1466,
+    1693
+   ]
+  },
+  {
+   "text": "the first hora (first 15 degrees), it is uttarayana. Then the",
+   "bbox": [
+    242,
+    1708,
+    1468,
+    1746
+   ]
+  },
+  {
+   "text": "person is born in the month of Mithuna, in the season of",
+   "bbox": [
+    244,
+    1760,
+    1468,
+    1799
+   ]
+  },
+  {
+   "text": "Grishma, and in uttarayana.",
+   "bbox": [
+    244,
+    1814,
+    824,
+    1851
+   ]
+  },
+  {
+   "text": "The question was put as the tenth degree was rising. The",
+   "bbox": [
+    318,
+    1895,
+    1464,
+    1933
+   ]
+  },
+  {
+   "text": "first five degrees were over and in the second we find that four",
+   "bbox": [
+    242,
+    1948,
+    1465,
+    1986
+   ]
+  },
+  {
+   "text": "degrees were covered. Each degree has sixty liptas (minutes).",
+   "bbox": [
+    242,
+    2001,
+    1462,
+    2040
+   ]
+  },
+  {
+   "text": "The four degrees have 240 minutes. Each day has ten liptas.",
+   "bbox": [
+    242,
+    2054,
+    1461,
+    2093
+   ]
+  },
+  {
+   "text": "After 240 liptas, we get the twenty fifth day in the second",
+   "bbox": [
+    242,
+    2106,
+    1461,
+    2146
+   ]
+  },
+  {
+   "text": "month of Grishma.",
+   "bbox": [
+    242,
+    2159,
+    625,
+    2195
+   ]
+  },
+  {
+   "text": "अत्रापि होरापटवो द्विजेन्द्रा: सूर्यांशतुल्यां तिथिमुद्दिशन्ति।",
+   "bbox": [
+    311,
+    2233,
+    1118,
+    2284
+   ]
+  },
+  {
+   "text": "रात्रिद्युसंज्ञेषु विलोमजन्म भागैश्च वेला: क्रमशो विकल्प्या: ।। 4 ।।",
+   "bbox": [
+    314,
+    2292,
+    1267,
+    2351
+   ]
+  }
+ ]
+}

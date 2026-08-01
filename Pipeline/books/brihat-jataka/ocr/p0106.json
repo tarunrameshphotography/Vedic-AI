@@ -1,0 +1,317 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0106",
+ "book_id": "brihat-jataka",
+ "seq": 106,
+ "source_ref": {
+  "pdf_page": 53,
+  "half": "b",
+  "v1_page": "s053b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "0b3c787a6f48cfe70ba49e3293ad0a419f604becb4c97b9bf1168b7bfb0f8a2b",
+ "lines": [
+  {
+   "text": "103",
+   "bbox": [
+    1384,
+    188,
+    1469,
+    223
+   ]
+  },
+  {
+   "text": "Rajayogas",
+   "bbox": [
+    261,
+    226,
+    472,
+    273
+   ]
+  },
+  {
+   "text": "is in the 10th (Gemini), Moon and Jupiter occupy the 7th",
+   "bbox": [
+    262,
+    283,
+    1480,
+    376
+   ]
+  },
+  {
+   "text": "house, Saturn and Mars are located in the 5th house, the",
+   "bbox": [
+    263,
+    334,
+    1480,
+    428
+   ]
+  },
+  {
+   "text": "person born will be a king.",
+   "bbox": [
+    266,
+    415,
+    806,
+    477
+   ]
+  },
+  {
+   "text": "अपि खलकुलजाता मानवा राज्यभाज:",
+   "bbox": [
+    342,
+    497,
+    893,
+    561
+   ]
+  },
+  {
+   "text": "किमुत नृपकुलोत्था: प्रोक्तभूपालयोगै: ।",
+   "bbox": [
+    345,
+    553,
+    896,
+    632
+   ]
+  },
+  {
+   "text": "नृपतिकुलसमुत्था: पार्थिवा वक्ष्यमाणै-",
+   "bbox": [
+    346,
+    618,
+    888,
+    697
+   ]
+  },
+  {
+   "text": "र्भवति नृपपतितुल्यस्तेषु भूपालपुत्र: ।। 12 ।।",
+   "bbox": [
+    351,
+    685,
+    994,
+    762
+   ]
+  },
+  {
+   "text": "Even persons born in families of low status become kings",
+   "bbox": [
+    351,
+    757,
+    1497,
+    851
+   ]
+  },
+  {
+   "text": "as a result of the Rajayogas already mentioned. In case the",
+   "bbox": [
+    279,
+    811,
+    1497,
+    907
+   ]
+  },
+  {
+   "text": "person concerned is born in a kingly family there is no ques-",
+   "bbox": [
+    282,
+    865,
+    1497,
+    959
+   ]
+  },
+  {
+   "text": "tion of his not becoming a king, under one of these yogas. In",
+   "bbox": [
+    282,
+    917,
+    1501,
+    1014
+   ]
+  },
+  {
+   "text": "the Rajayoga being mentioned henceforth, the kingship is",
+   "bbox": [
+    282,
+    969,
+    1503,
+    1066
+   ]
+  },
+  {
+   "text": "attained only by those born in royal family. In the case of the",
+   "bbox": [
+    286,
+    1024,
+    1503,
+    1119
+   ]
+  },
+  {
+   "text": "other persons the yogas going to be mentioned would raise",
+   "bbox": [
+    288,
+    1076,
+    1507,
+    1175
+   ]
+  },
+  {
+   "text": "their status almost to that of a king (ie they will become very",
+   "bbox": [
+    291,
+    1131,
+    1508,
+    1228
+   ]
+  },
+  {
+   "text": "affluent and powerful without actually exercising ruling pow-",
+   "bbox": [
+    292,
+    1183,
+    1509,
+    1279
+   ]
+  },
+  {
+   "text": "ers).",
+   "bbox": [
+    294,
+    1289,
+    387,
+    1323
+   ]
+  },
+  {
+   "text": "उच्चस्वत्रिकोणगैर्बलिप्टैस्त्र्याद्यैर्भूपतिवंशजा नरेन्द्राः।",
+   "bbox": [
+    368,
+    1332,
+    1105,
+    1410
+   ]
+  },
+  {
+   "text": "पञ्चादिभिरन्यवंशजाता हीनवित्तयुता न भूमिपाला: ।। 13 11",
+   "bbox": [
+    370,
+    1399,
+    1225,
+    1478
+   ]
+  },
+  {
+   "text": "लेखास्थेऽर्केऽजेन्दौ लग्ने भौमे स्वोच्चे कुम्भे मन्दे।",
+   "bbox": [
+    373,
+    1492,
+    1093,
+    1572
+   ]
+  },
+  {
+   "text": "चापप्राप्ते जीवे राज्ञ: पुत्रं विद्यात्पृथ्वीनाथम् ।। 14 ।।",
+   "bbox": [
+    376,
+    1559,
+    1143,
+    1640
+   ]
+  },
+  {
+   "text": "स्वर्क्षे शुक्रे पातालस्थे धर्मस्थानं प्राप्ते चन्द्रे।",
+   "bbox": [
+    379,
+    1655,
+    1012,
+    1733
+   ]
+  },
+  {
+   "text": "दुश्चिक्याङ्गप्राप्तिप्राप्तैः शेषैर्जातः स्वामी भूमेः ।। 15 1।",
+   "bbox": [
+    380,
+    1718,
+    1190,
+    1799
+   ]
+  },
+  {
+   "text": "सौम्ये वीर्ययुते तनुयुक्ते वीर्य्याद्ये च शुभयाते।",
+   "bbox": [
+    382,
+    1815,
+    1065,
+    1891
+   ]
+  },
+  {
+   "text": "धर्मार्थोपचयेष्वथ शेषैर्धर्मात्मा नृपज: पृथिवीश: 11 16 11",
+   "bbox": [
+    386,
+    1879,
+    1204,
+    1959
+   ]
+  },
+  {
+   "text": "When 3 or 4 planets are in their exaltation or mool tri-",
+   "bbox": [
+    391,
+    1957,
+    1535,
+    2049
+   ]
+  },
+  {
+   "text": "kona sign (5, 2, 1, 6, 9, 7, 11 are mool trikona signs for Sun",
+   "bbox": [
+    315,
+    2010,
+    1537,
+    2104
+   ]
+  },
+  {
+   "text": "to Saturn respectively) and are also otherwise strong the",
+   "bbox": [
+    317,
+    2062,
+    1538,
+    2156
+   ]
+  },
+  {
+   "text": "people with such planets if born in a royal family become",
+   "bbox": [
+    321,
+    2114,
+    1539,
+    2209
+   ]
+  },
+  {
+   "text": "kings. If 5 or more planets are exalted and are strong",
+   "bbox": [
+    321,
+    2166,
+    1542,
+    2262
+   ]
+  },
+  {
+   "text": "otherwise a person other than that belonging to the royal",
+   "bbox": [
+    322,
+    2219,
+    1544,
+    2314
+   ]
+  }
+ ]
+}

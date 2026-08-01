@@ -1,0 +1,353 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0086",
+ "book_id": "brihat-jataka",
+ "seq": 86,
+ "source_ref": {
+  "pdf_page": 43,
+  "half": "b",
+  "v1_page": "s043b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "e53f61a27b93fbff7cbe03fbd1e1d8d9d0b1aef00befe41b18e2f717aa93637c",
+ "lines": [
+  {
+   "text": "83",
+   "bbox": [
+    1382,
+    222,
+    1444,
+    252
+   ]
+  },
+  {
+   "text": "Ruling and Sub Ruling Periods",
+   "bbox": [
+    234,
+    227,
+    870,
+    284
+   ]
+  },
+  {
+   "text": "also one in 4th or 8th from it, and none in the other stipulated",
+   "bbox": [
+    238,
+    317,
+    1457,
+    386
+   ]
+  },
+  {
+   "text": "houses, the proportion would be denoted by the fraction 1/1,",
+   "bbox": [
+    239,
+    367,
+    1452,
+    440
+   ]
+  },
+  {
+   "text": "1/3, 1/4 or 12, 4 and 3 ie 12/19th, 4/19th and 3/19th of the total",
+   "bbox": [
+    242,
+    418,
+    1456,
+    494
+   ]
+  },
+  {
+   "text": "period of the main dasa lord.",
+   "bbox": [
+    240,
+    486,
+    817,
+    545
+   ]
+  },
+  {
+   "text": "<math>(x)</math> If a planet is in trine from the dasa lord and also one in",
+   "bbox": [
+    314,
+    549,
+    1455,
+    622
+   ]
+  },
+  {
+   "text": "7th from it but none in the other stipulated houses, the propor-",
+   "bbox": [
+    244,
+    602,
+    1456,
+    677
+   ]
+  },
+  {
+   "text": "tion would be denoted by the fractions <math>1/1</math>, <math>1/3</math> and <math>1/7</math> ie <math>21</math>, <math>7</math>",
+   "bbox": [
+    244,
+    656,
+    1456,
+    730
+   ]
+  },
+  {
+   "text": "and 3 or 21/31, 7/31 and 3/31 of the whole period of the dasa",
+   "bbox": [
+    245,
+    709,
+    1459,
+    784
+   ]
+  },
+  {
+   "text": "lord.",
+   "bbox": [
+    247,
+    793,
+    341,
+    827
+   ]
+  },
+  {
+   "text": "<math>(xi)</math> If planets are in 4th and 8th from the dasa lord, but",
+   "bbox": [
+    319,
+    839,
+    1460,
+    912
+   ]
+  },
+  {
+   "text": "none in other stipulated houses, the proportion would be de-",
+   "bbox": [
+    247,
+    894,
+    1460,
+    964
+   ]
+  },
+  {
+   "text": "noted by the fractions 1/1, 1/4 and 1/4 ie 4, 1 and 1 or 4/6th, 1/",
+   "bbox": [
+    248,
+    945,
+    1462,
+    1016
+   ]
+  },
+  {
+   "text": "6th and 1/6th respectively for the main dasa lord and the",
+   "bbox": [
+    250,
+    997,
+    1462,
+    1070
+   ]
+  },
+  {
+   "text": "other planets.",
+   "bbox": [
+    251,
+    1074,
+    533,
+    1121
+   ]
+  },
+  {
+   "text": "(xii) If a planet is located in 4th, 8th and 7th from the dasa",
+   "bbox": [
+    327,
+    1128,
+    1466,
+    1199
+   ]
+  },
+  {
+   "text": "lord but not in the remaining stipulated houses, the proportion",
+   "bbox": [
+    251,
+    1177,
+    1466,
+    1253
+   ]
+  },
+  {
+   "text": "of sub-periods would be indicated by fractions 1/1, 1/4 and 1/7",
+   "bbox": [
+    252,
+    1232,
+    1463,
+    1304
+   ]
+  },
+  {
+   "text": "ie 28, 7 and 4 ie 28/39, 7/39 and 4/39 respectively for the dasa",
+   "bbox": [
+    251,
+    1285,
+    1469,
+    1358
+   ]
+  },
+  {
+   "text": "lord and the other planets.",
+   "bbox": [
+    257,
+    1357,
+    792,
+    1408
+   ]
+  },
+  {
+   "text": "(xiii) If a planet is with the main dasa lord and also one in",
+   "bbox": [
+    331,
+    1417,
+    1470,
+    1489
+   ]
+  },
+  {
+   "text": "each of the trines, the proportion of the sub-periods would be",
+   "bbox": [
+    257,
+    1470,
+    1471,
+    1543
+   ]
+  },
+  {
+   "text": "denoted by the fractions <math>1/1</math>, <math>1/2</math>, <math>1/3</math> and <math>1/3</math> ie 6, 3, 2 and 2 or",
+   "bbox": [
+    257,
+    1522,
+    1473,
+    1597
+   ]
+  },
+  {
+   "text": "<math>6/13</math>, <math>3/13</math>, <math>2/13</math> and <math>1/13</math> respectively for the dasa lord and",
+   "bbox": [
+    258,
+    1574,
+    1472,
+    1649
+   ]
+  },
+  {
+   "text": "others. In this manner the sub-periods of the main dasa lord",
+   "bbox": [
+    260,
+    1630,
+    1473,
+    1700
+   ]
+  },
+  {
+   "text": "and the sub-periods lord should be worked out for remaining",
+   "bbox": [
+    261,
+    1678,
+    1478,
+    1756
+   ]
+  },
+  {
+   "text": "positions of planets in relation to the dasa lord.",
+   "bbox": [
+    262,
+    1741,
+    1205,
+    1805
+   ]
+  },
+  {
+   "text": "सम्यग्बलिन: स्वतुङ्गभागे सम्पूर्णा बलवर्जितस्य रिक्ता।",
+   "bbox": [
+    336,
+    1824,
+    1127,
+    1886
+   ]
+  },
+  {
+   "text": "नीचांशगतस्य शत्रुभागे ज्ञेयाऽनिष्टफला दशा प्रसूतौ।। 511",
+   "bbox": [
+    336,
+    1877,
+    1175,
+    1957
+   ]
+  },
+  {
+   "text": "Planets which are strong (by house and sign position etc)",
+   "bbox": [
+    338,
+    1968,
+    1479,
+    2042
+   ]
+  },
+  {
+   "text": "and are located in the navamsha in their exhaltation sign give",
+   "bbox": [
+    267,
+    2021,
+    1478,
+    2092
+   ]
+  },
+  {
+   "text": "in their dasa good results to the fullest extent. The ruling",
+   "bbox": [
+    267,
+    2072,
+    1480,
+    2148
+   ]
+  },
+  {
+   "text": "periods of planets devoid of strength is called \"Rikta\" ie empty",
+   "bbox": [
+    268,
+    2126,
+    1480,
+    2199
+   ]
+  },
+  {
+   "text": "(without good results). Planets occupying inimical sign and",
+   "bbox": [
+    270,
+    2180,
+    1483,
+    2249
+   ]
+  },
+  {
+   "text": "inimical or neecha (debilitation) navamsha give adverse re-",
+   "bbox": [
+    270,
+    2232,
+    1484,
+    2302
+   ]
+  },
+  {
+   "text": "sults.",
+   "bbox": [
+    275,
+    2312,
+    387,
+    2349
+   ]
+  }
+ ]
+}

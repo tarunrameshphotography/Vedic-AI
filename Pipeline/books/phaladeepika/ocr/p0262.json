@@ -1,0 +1,153 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0262",
+ "book_id": "phaladeepika",
+ "seq": 262,
+ "source_ref": {
+  "pdf_page": 262
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "a4efc7d20a83207295a8784a63ef2c37d3af2270dad7d5ff5b7c2c64e86fe3ce",
+ "lines": [
+  {
+   "text": "There are 1-2 letters (or sounds) belonging to the 28 asterisms at the rate of ",
+   "bbox": [
+    121,
+    303,
+    556,
+    319
+   ]
+  },
+  {
+   "text": "one letter for each Nakshatra Pada. These are mentioned for ready reference. ",
+   "bbox": [
+    85,
+    327,
+    556,
+    343
+   ]
+  },
+  {
+   "text": "Person whose name begins with any one of these letters have got a bearing on the ",
+   "bbox": [
+    85,
+    351,
+    556,
+    367
+   ]
+  },
+  {
+   "text": "corresponding Nakshatra pada and judged accordingly.",
+   "bbox": [
+    85,
+    375,
+    393,
+    391
+   ]
+  },
+  {
+   "text": "49. If planets are adversely posited whether during their transit, Dasa, ",
+   "bbox": [
+    121,
+    400,
+    556,
+    415
+   ]
+  },
+  {
+   "text": "Antardasa or Ashtakavarga, it will be necessary to propitiate them by performing ",
+   "bbox": [
+    85,
+    424,
+    556,
+    439
+   ]
+  },
+  {
+   "text": "virtuous deeds, observing fasts, prayersprescribed for them, Japa, Shanti, making ",
+   "bbox": [
+    85,
+    448,
+    556,
+    463
+   ]
+  },
+  {
+   "text": "gifts and doing appropriate adorations.",
+   "bbox": [
+    85,
+    472,
+    302,
+    488
+   ]
+  },
+  {
+   "text": "50. The planets are favourable to those who do not commit acts harmful or ",
+   "bbox": [
+    121,
+    496,
+    556,
+    512
+   ]
+  },
+  {
+   "text": "injurious to others, who exercises self control and always follow the path and rules ",
+   "bbox": [
+    85,
+    520,
+    556,
+    536
+   ]
+  },
+  {
+   "text": "of conduct laid down by Shastras and who are always observing religions ",
+   "bbox": [
+    85,
+    545,
+    556,
+    560
+   ]
+  },
+  {
+   "text": "discipline.",
+   "bbox": [
+    85,
+    569,
+    143,
+    584
+   ]
+  },
+  {
+   "text": "Thus ends the twenty sixth chapter on \"Transits of Planets\" in Phaladeepika ",
+   "bbox": [
+    121,
+    593,
+    556,
+    608
+   ]
+  },
+  {
+   "text": "composed by Mantreswara.",
+   "bbox": [
+    85,
+    617,
+    240,
+    632
+   ]
+  },
+  {
+   "text": "262",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

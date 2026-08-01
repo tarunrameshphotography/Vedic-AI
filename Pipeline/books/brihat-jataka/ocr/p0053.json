@@ -1,0 +1,362 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0053",
+ "book_id": "brihat-jataka",
+ "seq": 53,
+ "source_ref": {
+  "pdf_page": 27,
+  "half": "a",
+  "v1_page": "s027a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "e0daa99d337b4e0ba492309f88efbc0c6ce437e50db10089de55e38c996d7d65",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1304,
+    273,
+    1595,
+    312
+   ]
+  },
+  {
+   "text": "50",
+   "bbox": [
+    384,
+    278,
+    450,
+    311
+   ]
+  },
+  {
+   "text": "males respectively lead to eunuch birth we may be able to",
+   "bbox": [
+    383,
+    379,
+    1596,
+    419
+   ]
+  },
+  {
+   "text": "follow some of the above yogas. For example in yogas serial No.",
+   "bbox": [
+    383,
+    431,
+    1597,
+    472
+   ]
+  },
+  {
+   "text": "6 the female factors Venus and Moon by occupying male",
+   "bbox": [
+    383,
+    484,
+    1596,
+    524
+   ]
+  },
+  {
+   "text": "navamshas balance as it were the two powers of procreations.",
+   "bbox": [
+    383,
+    537,
+    1596,
+    576
+   ]
+  },
+  {
+   "text": "Yoga at serial No. 1 may also be explained on the principle in",
+   "bbox": [
+    384,
+    589,
+    1596,
+    629
+   ]
+  },
+  {
+   "text": "as much as female procreative powers represented by Moon",
+   "bbox": [
+    383,
+    640,
+    1596,
+    680
+   ]
+  },
+  {
+   "text": "will be balanced by an exact and equal male influence of the",
+   "bbox": [
+    383,
+    694,
+    1596,
+    733
+   ]
+  },
+  {
+   "text": "Sun. In the yoga at serial No. 3, the Sun a male factor by its",
+   "bbox": [
+    383,
+    746,
+    1597,
+    786
+   ]
+  },
+  {
+   "text": "occupation of an even sign reduces considerably the male",
+   "bbox": [
+    383,
+    799,
+    1596,
+    839
+   ]
+  },
+  {
+   "text": "element which, though it may seem strange is further reduced",
+   "bbox": [
+    381,
+    852,
+    1597,
+    892
+   ]
+  },
+  {
+   "text": "by the aspect of Mars. Attention of readers is invited to shloka",
+   "bbox": [
+    383,
+    902,
+    1597,
+    946
+   ]
+  },
+  {
+   "text": "11 an te where the occupation of an even sign by Mars is stated",
+   "bbox": [
+    384,
+    954,
+    1596,
+    1000
+   ]
+  },
+  {
+   "text": "to lead to a female birth. The grouping in that shloka of Mars",
+   "bbox": [
+    381,
+    1010,
+    1597,
+    1050
+   ]
+  },
+  {
+   "text": "with two female planets, Moon and Venus would easily sug-",
+   "bbox": [
+    381,
+    1062,
+    1596,
+    1102
+   ]
+  },
+  {
+   "text": "gest, at least so far as the text is concerned that Mars in this",
+   "bbox": [
+    380,
+    1114,
+    1597,
+    1153
+   ]
+  },
+  {
+   "text": "context acts on the side of female factors and by its aspect on",
+   "bbox": [
+    380,
+    1167,
+    1593,
+    1205
+   ]
+  },
+  {
+   "text": "the Sun equalises veerya of male with the female rajas. Saturn",
+   "bbox": [
+    380,
+    1220,
+    1596,
+    1260
+   ]
+  },
+  {
+   "text": "and Mercury seem to be a class by themselves as both of them",
+   "bbox": [
+    381,
+    1272,
+    1595,
+    1311
+   ]
+  },
+  {
+   "text": "are impotent planets and as such by their mutual aspect create",
+   "bbox": [
+    381,
+    1326,
+    1595,
+    1365
+   ]
+  },
+  {
+   "text": "intensity of impotency effecting both the male and the female",
+   "bbox": [
+    378,
+    1379,
+    1595,
+    1418
+   ]
+  },
+  {
+   "text": "powers. In regard to yoga at serial No. 4 it may be observed",
+   "bbox": [
+    380,
+    1431,
+    1595,
+    1471
+   ]
+  },
+  {
+   "text": "that the ascendant is intended to be treated as a female factor.",
+   "bbox": [
+    380,
+    1483,
+    1593,
+    1520
+   ]
+  },
+  {
+   "text": "This is clear from the fact that the lagna has been bracketed",
+   "bbox": [
+    378,
+    1538,
+    1595,
+    1577
+   ]
+  },
+  {
+   "text": "with female factors Venus and Moon. Thus in the yoga at No.",
+   "bbox": [
+    378,
+    1588,
+    1595,
+    1630
+   ]
+  },
+  {
+   "text": "4 the occupation of an odd ie male sign by each of the two",
+   "bbox": [
+    377,
+    1643,
+    1593,
+    1682
+   ]
+  },
+  {
+   "text": "female factors, equalises the sex creating elements.",
+   "bbox": [
+    377,
+    1691,
+    1397,
+    1738
+   ]
+  },
+  {
+   "text": "<b>Multiple Births (Three)</b>",
+   "bbox": [
+    377,
+    1797,
+    989,
+    1839
+   ]
+  },
+  {
+   "text": "युग्मे चन्द्रसितौ तथौजभवने स्युर्ज़ारजीवोदया-",
+   "bbox": [
+    448,
+    1868,
+    1104,
+    1929
+   ]
+  },
+  {
+   "text": "लग्नेन्दू नृनिरीक्षितौ च समगौ युग्मेषु वा प्राणिन:।",
+   "bbox": [
+    449,
+    1937,
+    1171,
+    1991
+   ]
+  },
+  {
+   "text": "कुर्युस्ते मिथुनं ग्रहोदयगतान् द्वचङ्गांशकान् पश्यति",
+   "bbox": [
+    449,
+    2002,
+    1168,
+    2056
+   ]
+  },
+  {
+   "text": "स्वांशे ज्ञे त्रितयं ज्ञगांशकवशाद्युग्मं त्वमिश्रै: समम् ।। 14।।",
+   "bbox": [
+    450,
+    2069,
+    1299,
+    2120
+   ]
+  },
+  {
+   "text": "Yoga for twins (one male, one female) is that the Moon and",
+   "bbox": [
+    452,
+    2163,
+    1595,
+    2202
+   ]
+  },
+  {
+   "text": "Venus (female planets) should occupy even sign (and thus",
+   "bbox": [
+    377,
+    2215,
+    1595,
+    2254
+   ]
+  },
+  {
+   "text": "denote female birth) and at the same time Mercury, Mars,",
+   "bbox": [
+    376,
+    2264,
+    1595,
+    2304
+   ]
+  },
+  {
+   "text": "Jupiter and the ascendant (male factors) should occupy odd",
+   "bbox": [
+    373,
+    2314,
+    1595,
+    2356
+   ]
+  },
+  {
+   "text": "(male) signs (and thereby denote male birth too). Another yoga",
+   "bbox": [
+    378,
+    2367,
+    1593,
+    2403
+   ]
+  }
+ ]
+}

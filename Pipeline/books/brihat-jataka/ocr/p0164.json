@@ -1,0 +1,308 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0164",
+ "book_id": "brihat-jataka",
+ "seq": 164,
+ "source_ref": {
+  "pdf_page": 82,
+  "half": "b",
+  "v1_page": "s082b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "80f172f7f9d0ca56b6138dbac8cdbe1f5e781e3ce5751c5018751184af1707cb",
+ "lines": [
+  {
+   "text": "161",
+   "bbox": [
+    1306,
+    160,
+    1390,
+    194
+   ]
+  },
+  {
+   "text": "Planets in Vargas",
+   "bbox": [
+    183,
+    187,
+    549,
+    234
+   ]
+  },
+  {
+   "text": "TRIMSHAMSHA RESULTS",
+   "bbox": [
+    442,
+    263,
+    1142,
+    326
+   ]
+  },
+  {
+   "text": "Mars and Saturn",
+   "bbox": [
+    189,
+    376,
+    637,
+    427
+   ]
+  },
+  {
+   "text": "जायान्वितो बलविभूषणसत्त्वयुक्तस्तेजोऽतिसाहसयुतश्च कुजे स्वभागे।",
+   "bbox": [
+    263,
+    437,
+    1219,
+    519
+   ]
+  },
+  {
+   "text": "रोगी मृतस्वयुवतिविषमयोऽन्यदारो दुःखीपरिच्छदयुतोमलिनोऽर्कपुत्रे।। 8।।",
+   "bbox": [
+    263,
+    493,
+    1305,
+    584
+   ]
+  },
+  {
+   "text": "Mars in his own trimshamsha gives wife, power, orna-",
+   "bbox": [
+    268,
+    590,
+    1410,
+    668
+   ]
+  },
+  {
+   "text": "ments, prowess influence and courage. Saturn in his",
+   "bbox": [
+    195,
+    640,
+    1413,
+    724
+   ]
+  },
+  {
+   "text": "trimshamsha gives disease, death of wife, anger, adultery,",
+   "bbox": [
+    196,
+    693,
+    1411,
+    777
+   ]
+  },
+  {
+   "text": "sorrow, family and uncleanliness.",
+   "bbox": [
+    199,
+    763,
+    869,
+    827
+   ]
+  },
+  {
+   "text": "Jupiter and Mercury",
+   "bbox": [
+    201,
+    871,
+    754,
+    931
+   ]
+  },
+  {
+   "text": "स्वांशे गुरौ धनयश:सुखबुद्धियुक्ता-",
+   "bbox": [
+    276,
+    956,
+    779,
+    1013
+   ]
+  },
+  {
+   "text": "स्तेजस्विपूज्यनिरुगुद्यमभोगवन्तः।",
+   "bbox": [
+    354,
+    1016,
+    823,
+    1078
+   ]
+  },
+  {
+   "text": "मेधाकलाकपटकाव्यविवादशिल्प-",
+   "bbox": [
+    281,
+    1079,
+    764,
+    1142
+   ]
+  },
+  {
+   "text": "शास्त्रार्थसाहसयुता: शशिजेऽतिमान्या:।। 911",
+   "bbox": [
+    355,
+    1140,
+    992,
+    1217
+   ]
+  },
+  {
+   "text": "If Guru ie Jupiter is in its own trimshamsha the native will",
+   "bbox": [
+    286,
+    1221,
+    1427,
+    1300
+   ]
+  },
+  {
+   "text": "have wealth, fame, happiness, intelligence. He will be liked by",
+   "bbox": [
+    206,
+    1272,
+    1430,
+    1356
+   ]
+  },
+  {
+   "text": "the public and will be free of disease and persevering. If",
+   "bbox": [
+    212,
+    1323,
+    1436,
+    1407
+   ]
+  },
+  {
+   "text": "Mercury is in its own trimshamsha, the native will be intelli-",
+   "bbox": [
+    212,
+    1377,
+    1432,
+    1458
+   ]
+  },
+  {
+   "text": "gent and endowed with artistic ability, interest in literature,",
+   "bbox": [
+    213,
+    1429,
+    1434,
+    1512
+   ]
+  },
+  {
+   "text": "power of argument, knowledge of the shastras, courage, and",
+   "bbox": [
+    216,
+    1483,
+    1434,
+    1562
+   ]
+  },
+  {
+   "text": "will be cunning and honoured.",
+   "bbox": [
+    217,
+    1552,
+    832,
+    1615
+   ]
+  },
+  {
+   "text": "Venus",
+   "bbox": [
+    223,
+    1674,
+    391,
+    1713
+   ]
+  },
+  {
+   "text": "स्वे त्रिशांशे बहुसुतसुखारोग्यभार्यार्थरूप:",
+   "bbox": [
+    294,
+    1737,
+    872,
+    1805
+   ]
+  },
+  {
+   "text": "शुक्रे तीक्ष्ण: सुललिततनु: सुप्रकीर्णेन्द्रियश्च।",
+   "bbox": [
+    297,
+    1798,
+    920,
+    1870
+   ]
+  },
+  {
+   "text": "शुरस्तब्धौ विपमवधकौ सद्गुणाढचौ सुखिज्ञौ",
+   "bbox": [
+    299,
+    1861,
+    959,
+    1933
+   ]
+  },
+  {
+   "text": "चार्वङ्गेप्टौ रविशशियुतेप्वारपूर्वांशकेपु।। 1011",
+   "bbox": [
+    299,
+    1928,
+    964,
+    1998
+   ]
+  },
+  {
+   "text": "If Venus occupies its own Trimshamsha, the native has",
+   "bbox": [
+    304,
+    2009,
+    1450,
+    2089
+   ]
+  },
+  {
+   "text": "many sons, much comforts, good health, much wealth and",
+   "bbox": [
+    229,
+    2063,
+    1450,
+    2144
+   ]
+  },
+  {
+   "text": "power. He will have a most charming personality, and be",
+   "bbox": [
+    231,
+    2114,
+    1452,
+    2197
+   ]
+  },
+  {
+   "text": "indulgent in sex. If Sun occupies the trimshamsha of Mars one",
+   "bbox": [
+    231,
+    2167,
+    1454,
+    2249
+   ]
+  },
+  {
+   "text": "is valiant, if Moon occupies it one is of failing health. If Sun is",
+   "bbox": [
+    231,
+    2218,
+    1455,
+    2302
+   ]
+  }
+ ]
+}

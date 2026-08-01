@@ -1,0 +1,227 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0008",
+ "book_id": "brihat-jataka",
+ "seq": 8,
+ "source_ref": {
+  "pdf_page": 4,
+  "half": "b",
+  "v1_page": "s004b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "20dd1f354a4f5301566da808d2a31888be25662e838f0caccb75f453fed418fb",
+ "lines": [
+  {
+   "text": "Introduction",
+   "bbox": [
+    289,
+    322,
+    544,
+    356
+   ]
+  },
+  {
+   "text": "v",
+   "bbox": [
+    1473,
+    337,
+    1500,
+    354
+   ]
+  },
+  {
+   "text": "the planets in various signs, effects of the planetary aspects,",
+   "bbox": [
+    293,
+    420,
+    1507,
+    467
+   ]
+  },
+  {
+   "text": "and effects of the planets in various Bhavas (houses) are dealt",
+   "bbox": [
+    293,
+    472,
+    1505,
+    520
+   ]
+  },
+  {
+   "text": "with in the next five chapters.",
+   "bbox": [
+    292,
+    524,
+    898,
+    570
+   ]
+  },
+  {
+   "text": "Some special combinations are given in the twenty first",
+   "bbox": [
+    363,
+    601,
+    1505,
+    652
+   ]
+  },
+  {
+   "text": "chapter. Miscellaneous items are taken up in the next chapter.",
+   "bbox": [
+    288,
+    655,
+    1499,
+    701
+   ]
+  },
+  {
+   "text": "The 23rd chapter deals with misfortune.",
+   "bbox": [
+    288,
+    709,
+    1093,
+    751
+   ]
+  },
+  {
+   "text": "24th chapter is about Female Horoscopy which finds elabo-",
+   "bbox": [
+    363,
+    786,
+    1502,
+    833
+   ]
+  },
+  {
+   "text": "rate treatment in Saravali. The 25th chapter is about death.",
+   "bbox": [
+    285,
+    839,
+    1498,
+    886
+   ]
+  },
+  {
+   "text": "How to erect lost or unknown horoscopes is given a fairly good",
+   "bbox": [
+    283,
+    892,
+    1498,
+    940
+   ]
+  },
+  {
+   "text": "treatment in chapter 26. The 27th is about Decanates. The last",
+   "bbox": [
+    287,
+    944,
+    1502,
+    992
+   ]
+  },
+  {
+   "text": "one numerates the contents of the text.",
+   "bbox": [
+    288,
+    1000,
+    1068,
+    1035
+   ]
+  },
+  {
+   "text": "The text is of great value to the scholars and students of",
+   "bbox": [
+    359,
+    1075,
+    1505,
+    1123
+   ]
+  },
+  {
+   "text": "Astrology. Many rare insights are offered. Parasara's work",
+   "bbox": [
+    283,
+    1131,
+    1499,
+    1171
+   ]
+  },
+  {
+   "text": "moves in one valuable direction, and Varahamihira's in an-",
+   "bbox": [
+    285,
+    1183,
+    1496,
+    1224
+   ]
+  },
+  {
+   "text": "other important direction.",
+   "bbox": [
+    286,
+    1233,
+    803,
+    1275
+   ]
+  },
+  {
+   "text": "Brihat Jataka is a classic and one who does not master this",
+   "bbox": [
+    356,
+    1311,
+    1496,
+    1352
+   ]
+  },
+  {
+   "text": "text can never grasp the fundamentals of the science of Astrol-",
+   "bbox": [
+    283,
+    1362,
+    1496,
+    1410
+   ]
+  },
+  {
+   "text": "ogy. There are many translations of this text, and we have",
+   "bbox": [
+    280,
+    1414,
+    1498,
+    1464
+   ]
+  },
+  {
+   "text": "tried to offer a useful and valuable commentary.",
+   "bbox": [
+    282,
+    1466,
+    1246,
+    1516
+   ]
+  },
+  {
+   "text": "P.S. SASTRI",
+   "bbox": [
+    1161,
+    1578,
+    1496,
+    1619
+   ]
+  },
+  {
+   "text": "<b>Company and Care and Care and Care and Care and Care and Care and Care and Care and</b>",
+   "bbox": [
+    784,
+    1784,
+    1104,
+    1821
+   ]
+  }
+ ]
+}

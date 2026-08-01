@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0046",
+ "book_id": "brihat-jataka",
+ "seq": 46,
+ "source_ref": {
+  "pdf_page": 23,
+  "half": "b",
+  "v1_page": "s023b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "f6b89c91a9da49a31e8d4e9bdc69e5a40034b80e446b63a7143d1525329536c9",
+ "lines": [
+  {
+   "text": "Non-Human Births",
+   "bbox": [
+    253,
+    232,
+    644,
+    266
+   ]
+  },
+  {
+   "text": "43",
+   "bbox": [
+    1401,
+    234,
+    1460,
+    264
+   ]
+  },
+  {
+   "text": "If in the birth chart there is in the ascendant the",
+   "bbox": [
+    326,
+    333,
+    1466,
+    367
+   ]
+  },
+  {
+   "text": "navamsha of a movable sign and a strong planet in lagna",
+   "bbox": [
+    255,
+    386,
+    1466,
+    425
+   ]
+  },
+  {
+   "text": "occupies a \"bird decante\" the birth of a bird takes place.",
+   "bbox": [
+    255,
+    436,
+    1464,
+    476
+   ]
+  },
+  {
+   "text": "Similarly if the navamsha in the lagna belongs to Mercury and",
+   "bbox": [
+    255,
+    489,
+    1464,
+    529
+   ]
+  },
+  {
+   "text": "the lagna is associated with or aspected by Saturn or Moon,",
+   "bbox": [
+    255,
+    542,
+    1464,
+    582
+   ]
+  },
+  {
+   "text": "then also the birth of a bird takes place. In case of the influence",
+   "bbox": [
+    253,
+    594,
+    1464,
+    634
+   ]
+  },
+  {
+   "text": "on the lagna or Saturn the bird will be living on earth. If it is",
+   "bbox": [
+    253,
+    645,
+    1463,
+    684
+   ]
+  },
+  {
+   "text": "of Moon it would be a watery bird (the whole thing is of course",
+   "bbox": [
+    251,
+    698,
+    1463,
+    738
+   ]
+  },
+  {
+   "text": "subject to the basic conditions specified in the first two shlokas",
+   "bbox": [
+    251,
+    750,
+    1464,
+    789
+   ]
+  },
+  {
+   "text": "of this chapter regarding the strength of malefics and the",
+   "bbox": [
+    251,
+    803,
+    1464,
+    843
+   ]
+  },
+  {
+   "text": "debility of benefics etc.).",
+   "bbox": [
+    251,
+    855,
+    734,
+    894
+   ]
+  },
+  {
+   "text": "<b>Births of Trees</b>",
+   "bbox": [
+    251,
+    958,
+    645,
+    995
+   ]
+  },
+  {
+   "text": "होरेन्दुसूरिरविभिर्विबलैस्तरूणां",
+   "bbox": [
+    323,
+    1036,
+    754,
+    1088
+   ]
+  },
+  {
+   "text": "तोयस्थले तरुभवोऽंशकृत: प्रभेद:।",
+   "bbox": [
+    395,
+    1098,
+    875,
+    1152
+   ]
+  },
+  {
+   "text": "लग्नाद् ग्रह: स्थलजलर्क्षपतिस्तु यावां-",
+   "bbox": [
+    323,
+    1162,
+    870,
+    1219
+   ]
+  },
+  {
+   "text": "स्तावन्त एव तरव: स्थलतोयजाता:।। 6 ।।",
+   "bbox": [
+    398,
+    1236,
+    1023,
+    1283
+   ]
+  },
+  {
+   "text": "If the conditions for non-human birth are fulfilled (see first",
+   "bbox": [
+    324,
+    1327,
+    1464,
+    1364
+   ]
+  },
+  {
+   "text": "two shlokas) and if in the birth chart the ascendant, Moon,",
+   "bbox": [
+    248,
+    1379,
+    1463,
+    1418
+   ]
+  },
+  {
+   "text": "Jupiter and Sun are all weak, the birth of trees is indicated.",
+   "bbox": [
+    245,
+    1432,
+    1461,
+    1472
+   ]
+  },
+  {
+   "text": "The trees will belong to the land or to the watery region",
+   "bbox": [
+    248,
+    1485,
+    1461,
+    1524
+   ]
+  },
+  {
+   "text": "depending on whether in the ascendant the navamsha rising",
+   "bbox": [
+    248,
+    1536,
+    1463,
+    1578
+   ]
+  },
+  {
+   "text": "belongs to a rashi denoting land or to one denoting water. The",
+   "bbox": [
+    248,
+    1591,
+    1463,
+    1629
+   ]
+  },
+  {
+   "text": "number of trees will be determined by the number of the",
+   "bbox": [
+    248,
+    1643,
+    1463,
+    1683
+   ]
+  },
+  {
+   "text": "houses the lord of the navamsha in the lagna is away from the",
+   "bbox": [
+    245,
+    1697,
+    1463,
+    1737
+   ]
+  },
+  {
+   "text": "lagna.",
+   "bbox": [
+    245,
+    1751,
+    373,
+    1789
+   ]
+  },
+  {
+   "text": "<b>Types of Trees</b>",
+   "bbox": [
+    245,
+    1853,
+    633,
+    1894
+   ]
+  },
+  {
+   "text": "अन्त:साराञ्जनयति रविर्दुर्भगान् सूर्यसून्:,",
+   "bbox": [
+    317,
+    1930,
+    882,
+    1981
+   ]
+  },
+  {
+   "text": "क्षीरोपेतांस्तुहिनकिरण: कण्टकाढ्यांश्च भौम:।",
+   "bbox": [
+    317,
+    1990,
+    954,
+    2044
+   ]
+  },
+  {
+   "text": "वागीशज्ञौ सफलविफलौ पुष्पवृक्षांश्च शुक्र:,",
+   "bbox": [
+    317,
+    2055,
+    931,
+    2110
+   ]
+  },
+  {
+   "text": "स्निग्धानिन्दुः कटुकविटपान्भूमिपुत्रश्च भूय:।। 7 11",
+   "bbox": [
+    317,
+    2125,
+    1070,
+    2177
+   ]
+  },
+  {
+   "text": "If the lord of the navamsha in lagna is Sun, the tree is of",
+   "bbox": [
+    319,
+    2218,
+    1466,
+    2257
+   ]
+  },
+  {
+   "text": "a type that is strong in its core such as teak. If it is Saturn it",
+   "bbox": [
+    244,
+    2268,
+    1463,
+    2312
+   ]
+  },
+  {
+   "text": "is of a most inferior type. If it is Moon the tree is full of sweet",
+   "bbox": [
+    244,
+    2323,
+    1463,
+    2361
+   ]
+  }
+ ]
+}

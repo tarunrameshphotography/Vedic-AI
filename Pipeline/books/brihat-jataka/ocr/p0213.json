@@ -1,0 +1,317 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0213",
+ "book_id": "brihat-jataka",
+ "seq": 213,
+ "source_ref": {
+  "pdf_page": 107,
+  "half": "a",
+  "v1_page": "s107a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "9128fcc5030fd6cdc3e9cc4ea8f8b1eecf8e8ccdcd5eda39bde20dce07f19bf8",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1185,
+    163,
+    1477,
+    195
+   ]
+  },
+  {
+   "text": "210",
+   "bbox": [
+    255,
+    164,
+    352,
+    198
+   ]
+  },
+  {
+   "text": "The third drekkana of Karka is a man covered with ser-",
+   "bbox": [
+    333,
+    267,
+    1479,
+    301
+   ]
+  },
+  {
+   "text": "pents. He has a flat face. He crosses the ocean in a boat in",
+   "bbox": [
+    257,
+    322,
+    1476,
+    359
+   ]
+  },
+  {
+   "text": "search of the jewels of his wife.",
+   "bbox": [
+    257,
+    372,
+    881,
+    410
+   ]
+  },
+  {
+   "text": "शल्मलेरुपरि गृध्रजम्बुकौ श्वा नरश्च मलिनाम्बरान्वित:।",
+   "bbox": [
+    330,
+    447,
+    1116,
+    498
+   ]
+  },
+  {
+   "text": "रौति मातृपितृविप्रयोजितः सिंहरूपमदिमाद्यमुच्यते ।। 13 ।।",
+   "bbox": [
+    330,
+    510,
+    1175,
+    562
+   ]
+  },
+  {
+   "text": "The first drekkana of Simha is a vulture and a jackal",
+   "bbox": [
+    330,
+    607,
+    1477,
+    646
+   ]
+  },
+  {
+   "text": "on the tree called Salwali (something like a tree giving",
+   "bbox": [
+    255,
+    660,
+    1477,
+    699
+   ]
+  },
+  {
+   "text": "Egyptian cotton or the modern u-foam). It is a dog and a",
+   "bbox": [
+    255,
+    712,
+    1474,
+    750
+   ]
+  },
+  {
+   "text": "man having dirty clothes. It leaves its parents and is always",
+   "bbox": [
+    255,
+    763,
+    1474,
+    804
+   ]
+  },
+  {
+   "text": "crying.",
+   "bbox": [
+    254,
+    821,
+    399,
+    858
+   ]
+  },
+  {
+   "text": "हयाकृति: पाण्डरमाल्यशेखरो विभर्ति कृष्णाजिनकम्बलं नर:।",
+   "bbox": [
+    329,
+    894,
+    1204,
+    943
+   ]
+  },
+  {
+   "text": "दुरासद: सिंह इवात्तकार्मुको नताग्रनासो मृगराजमध्यम: ।। 14 ।।",
+   "bbox": [
+    327,
+    959,
+    1259,
+    1010
+   ]
+  },
+  {
+   "text": "The second drekkana of Simha is a man whose body is",
+   "bbox": [
+    332,
+    1054,
+    1474,
+    1092
+   ]
+  },
+  {
+   "text": "like that of a horse. His head is covered with white gar-",
+   "bbox": [
+    251,
+    1106,
+    1474,
+    1144
+   ]
+  },
+  {
+   "text": "lands. He wears the skin of a deer, and covers himself with",
+   "bbox": [
+    253,
+    1159,
+    1473,
+    1198
+   ]
+  },
+  {
+   "text": "Kambal. He is fierce like a lion. He has a bent nose. He has",
+   "bbox": [
+    251,
+    1210,
+    1474,
+    1244
+   ]
+  },
+  {
+   "text": "a bow.",
+   "bbox": [
+    251,
+    1264,
+    388,
+    1297
+   ]
+  },
+  {
+   "text": "<i>Notes:</i> Kambal is a woolen blanket.",
+   "bbox": [
+    326,
+    1341,
+    1027,
+    1374
+   ]
+  },
+  {
+   "text": "ऋक्षाननो वानरतुल्यचेष्टो बिभर्ति दण्डं फलमामिषं च।",
+   "bbox": [
+    324,
+    1412,
+    1118,
+    1465
+   ]
+  },
+  {
+   "text": "कूर्ची मनुष्य: कुटिलैश्च केशैर्मुगेश्वरस्यान्तगतस्त्रिभाग:।। 15 ।।",
+   "bbox": [
+    324,
+    1475,
+    1227,
+    1530
+   ]
+  },
+  {
+   "text": "The third drekkana of Simna is a man with the face of a",
+   "bbox": [
+    327,
+    1575,
+    1472,
+    1610
+   ]
+  },
+  {
+   "text": "bear. He behaves like a monkey. He has a long beard, and",
+   "bbox": [
+    250,
+    1629,
+    1469,
+    1667
+   ]
+  },
+  {
+   "text": "curled ringlets. He holds a stick, fruit and flesh.",
+   "bbox": [
+    249,
+    1679,
+    1211,
+    1721
+   ]
+  },
+  {
+   "text": "पुष्पप्रपूर्णेन घटेन कन्या मलप्रदिग्धाम्बरसंवृताङ्गी।",
+   "bbox": [
+    323,
+    1756,
+    1030,
+    1806
+   ]
+  },
+  {
+   "text": "वस्त्रार्थसंयोगमभीप्समाना गुरो: कुलं वाञ्छति कन्यकाद्य:।। 16 ।।",
+   "bbox": [
+    323,
+    1822,
+    1289,
+    1873
+   ]
+  },
+  {
+   "text": "The first drekkana of Kanya is a woman with a pot full",
+   "bbox": [
+    324,
+    1917,
+    1469,
+    1956
+   ]
+  },
+  {
+   "text": "of flowers. She covers her body with dirty clothes. She is",
+   "bbox": [
+    248,
+    1971,
+    1469,
+    2009
+   ]
+  },
+  {
+   "text": "fond of money and clothes. She is going to the home of her",
+   "bbox": [
+    245,
+    2020,
+    1469,
+    2064
+   ]
+  },
+  {
+   "text": "teacher.",
+   "bbox": [
+    248,
+    2074,
+    415,
+    2108
+   ]
+  },
+  {
+   "text": "पुरुष: प्रगृहीतलेखनि: श्यामो वस्त्रशिरा व्ययायकृत्।",
+   "bbox": [
+    323,
+    2149,
+    1072,
+    2198
+   ]
+  },
+  {
+   "text": "विपुलं च विभर्ति कार्मुकं रोमव्याप्ततनुश्च मध्यम: ।। 17 ।।",
+   "bbox": [
+    323,
+    2211,
+    1183,
+    2263
+   ]
+  }
+ ]
+}

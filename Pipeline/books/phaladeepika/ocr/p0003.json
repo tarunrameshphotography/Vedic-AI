@@ -1,0 +1,72 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0003",
+ "book_id": "phaladeepika",
+ "seq": 3,
+ "source_ref": {
+  "pdf_page": 3
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "2d47da2818bb895697d49d2fbc77e472ece0fd2b62999bbd476b119b1590c3c9",
+ "lines": [
+  {
+   "text": "made a deep study of all the ancient astrological works existing in his time.",
+   "bbox": [
+    85,
+    57,
+    507,
+    73
+   ]
+  },
+  {
+   "text": "The present book is so instructive that beginners as well as advanced ",
+   "bbox": [
+    121,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "students of Astrology can obtain very useful guidance from its study.",
+   "bbox": [
+    85,
+    106,
+    470,
+    121
+   ]
+  },
+  {
+   "text": "New Delhi",
+   "bbox": [
+    121,
+    130,
+    182,
+    145
+   ]
+  },
+  {
+   "text": "G.S. Kapoor",
+   "bbox": [
+    409,
+    130,
+    480,
+    145
+   ]
+  },
+  {
+   "text": "3",
+   "bbox": [
+    316,
+    793,
+    322,
+    806
+   ]
+  }
+ ]
+}

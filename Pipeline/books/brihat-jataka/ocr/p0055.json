@@ -1,0 +1,416 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0055",
+ "book_id": "brihat-jataka",
+ "seq": 55,
+ "source_ref": {
+  "pdf_page": 28,
+  "half": "a",
+  "v1_page": "s028a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "2372581078006cc77e56e30b24e45a7fb5814eb8c1266709346a90dcafcc6b87",
+ "lines": [
+  {
+   "text": "52",
+   "bbox": [
+    317,
+    296,
+    381,
+    330
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1241,
+    297,
+    1531,
+    331
+   ]
+  },
+  {
+   "text": "This shloka relates to Aries ascendant and means that",
+   "bbox": [
+    389,
+    398,
+    1535,
+    432
+   ]
+  },
+  {
+   "text": "in case a person is born in Aries ascendant with the amsha",
+   "bbox": [
+    311,
+    451,
+    1534,
+    488
+   ]
+  },
+  {
+   "text": "of Mars (latter part) and aspected by Mercury or associated",
+   "bbox": [
+    312,
+    503,
+    1532,
+    541
+   ]
+  },
+  {
+   "text": "with it, he will be one of the twins. The principle of the",
+   "bbox": [
+    314,
+    554,
+    1531,
+    594
+   ]
+  },
+  {
+   "text": "association with lagna of Mercury and the 3 usual factors",
+   "bbox": [
+    314,
+    603,
+    1531,
+    649
+   ]
+  },
+  {
+   "text": "denoting co-borns leading to twin birth is thus borne out by",
+   "bbox": [
+    312,
+    660,
+    1529,
+    699
+   ]
+  },
+  {
+   "text": "Deva Keralam.",
+   "bbox": [
+    312,
+    712,
+    618,
+    747
+   ]
+  },
+  {
+   "text": "An example of a twin born on 11.9.1946 at 5.50 p.m. is",
+   "bbox": [
+    387,
+    791,
+    1534,
+    831
+   ]
+  },
+  {
+   "text": "given below:",
+   "bbox": [
+    944,
+    844,
+    1196,
+    883
+   ]
+  },
+  {
+   "text": "The lagna is influenced",
+   "bbox": [
+    1018,
+    924,
+    1532,
+    961
+   ]
+  },
+  {
+   "text": "Rahu",
+   "bbox": [
+    631,
+    933,
+    717,
+    963
+   ]
+  },
+  {
+   "text": "by the 7th aspect of Mercury.",
+   "bbox": [
+    945,
+    975,
+    1526,
+    1015
+   ]
+  },
+  {
+   "text": "Since it is lord of the sign",
+   "bbox": [
+    944,
+    1026,
+    1529,
+    1065
+   ]
+  },
+  {
+   "text": "Moon",
+   "bbox": [
+    337,
+    1073,
+    424,
+    1103
+   ]
+  },
+  {
+   "text": "Saturn",
+   "bbox": [
+    795,
+    1075,
+    899,
+    1104
+   ]
+  },
+  {
+   "text": "occupied by Mars, it is also",
+   "bbox": [
+    944,
+    1078,
+    1529,
+    1117
+   ]
+  },
+  {
+   "text": "acting as Mars and linking",
+   "bbox": [
+    945,
+    1129,
+    1529,
+    1169
+   ]
+  },
+  {
+   "text": "Mars also to the lagna. We",
+   "bbox": [
+    945,
+    1181,
+    1528,
+    1222
+   ]
+  },
+  {
+   "text": "Sun",
+   "bbox": [
+    779,
+    1199,
+    848,
+    1229
+   ]
+  },
+  {
+   "text": "thus see that the condition of",
+   "bbox": [
+    944,
+    1235,
+    1534,
+    1272
+   ]
+  },
+  {
+   "text": "Mercury",
+   "bbox": [
+    779,
+    1241,
+    908,
+    1273
+   ]
+  },
+  {
+   "text": "the lagna being linked to",
+   "bbox": [
+    944,
+    1288,
+    1528,
+    1328
+   ]
+  },
+  {
+   "text": "Mercury, to lord of the 3rd",
+   "bbox": [
+    942,
+    1339,
+    1528,
+    1379
+   ]
+  },
+  {
+   "text": "Jupiter",
+   "bbox": [
+    625,
+    1367,
+    732,
+    1399
+   ]
+  },
+  {
+   "text": "Mars",
+   "bbox": [
+    785,
+    1383,
+    866,
+    1415
+   ]
+  },
+  {
+   "text": "Ketu",
+   "bbox": [
+    484,
+    1384,
+    558,
+    1416
+   ]
+  },
+  {
+   "text": "house and to Mars is fully",
+   "bbox": [
+    942,
+    1394,
+    1528,
+    1433
+   ]
+  },
+  {
+   "text": "Venus",
+   "bbox": [
+    627,
+    1406,
+    725,
+    1435
+   ]
+  },
+  {
+   "text": "satisfied.",
+   "bbox": [
+    945,
+    1448,
+    1124,
+    1482
+   ]
+  },
+  {
+   "text": "धनुर्धरस्यान्तगते विलग्ने ग्रहैस्तदंशोपगतैर्बलिप्ठै:।",
+   "bbox": [
+    384,
+    1546,
+    1088,
+    1597
+   ]
+  },
+  {
+   "text": "ज्ञेनार्किणा वीर्य्ययुतेन दृष्टे सन्ति प्रभूता अपि कोशसंस्था: ।। 15।।",
+   "bbox": [
+    382,
+    1605,
+    1340,
+    1669
+   ]
+  },
+  {
+   "text": "If the lagna is the fag end of Sagittarius (ie there is in the",
+   "bbox": [
+    385,
+    1708,
+    1526,
+    1747
+   ]
+  },
+  {
+   "text": "Sagittarius lagna the navamsha also of Sagittarius--a mutable",
+   "bbox": [
+    307,
+    1759,
+    1526,
+    1799
+   ]
+  },
+  {
+   "text": "sign) and the planets are strong and occupy the navamshas of",
+   "bbox": [
+    307,
+    1812,
+    1529,
+    1852
+   ]
+  },
+  {
+   "text": "mutable signs ie Sagittarius and Pisces and the lagna is also",
+   "bbox": [
+    307,
+    1865,
+    1525,
+    1905
+   ]
+  },
+  {
+   "text": "aspected by strong Mercury and Saturn, there are more than",
+   "bbox": [
+    307,
+    1918,
+    1525,
+    1958
+   ]
+  },
+  {
+   "text": "even 3 children in the womb.",
+   "bbox": [
+    305,
+    1969,
+    892,
+    2005
+   ]
+  },
+  {
+   "text": "<i>Commentary:</i> It is interesting to consider the role of Saturn",
+   "bbox": [
+    385,
+    2049,
+    1526,
+    2088
+   ]
+  },
+  {
+   "text": "in this yoga. The only reasonable way in which Saturn is",
+   "bbox": [
+    305,
+    2096,
+    1524,
+    2144
+   ]
+  },
+  {
+   "text": "relevant is its lordship of the 3rd house where its mool trikon",
+   "bbox": [
+    305,
+    2153,
+    1525,
+    2193
+   ]
+  },
+  {
+   "text": "sign would fall. As lord of the 3rd house aspecting the lagna it",
+   "bbox": [
+    305,
+    2202,
+    1524,
+    2248
+   ]
+  },
+  {
+   "text": "would indicate co-birth of co-borns.",
+   "bbox": [
+    305,
+    2257,
+    1006,
+    2293
+   ]
+  }
+ ]
+}

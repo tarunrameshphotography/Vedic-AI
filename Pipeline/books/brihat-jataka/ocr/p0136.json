@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0136",
+ "book_id": "brihat-jataka",
+ "seq": 136,
+ "source_ref": {
+  "pdf_page": 68,
+  "half": "b",
+  "v1_page": "s068b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "4117e1c0228e2ec871ac42d614e053869d744d168a691a77817f97526036fdbe",
+ "lines": [
+  {
+   "text": "133",
+   "bbox": [
+    1373,
+    187,
+    1459,
+    220
+   ]
+  },
+  {
+   "text": "Moon in Different Signs",
+   "bbox": [
+    243,
+    199,
+    734,
+    253
+   ]
+  },
+  {
+   "text": "Moon in Leo",
+   "bbox": [
+    237,
+    304,
+    581,
+    356
+   ]
+  },
+  {
+   "text": "तीक्ष्ण: स्थूलहनुर्विशालवदन: पिङ्गेक्षणोऽल्पात्मज:",
+   "bbox": [
+    322,
+    373,
+    1032,
+    448
+   ]
+  },
+  {
+   "text": "स्त्रीद्वेषी प्रियमांसकानननगः कुप्यत्यकार्ये चिरम्।",
+   "bbox": [
+    326,
+    442,
+    1023,
+    504
+   ]
+  },
+  {
+   "text": "क्षुतृष्णोदरदन्तमानसरुजा संपीडितस्त्यागवान्",
+   "bbox": [
+    328,
+    509,
+    955,
+    575
+   ]
+  },
+  {
+   "text": "विक्रान्त: स्थिरधी: सुगर्वितमना मातुर्विधेयोऽर्कभे।। 5 ।।",
+   "bbox": [
+    328,
+    568,
+    1146,
+    640
+   ]
+  },
+  {
+   "text": "One born with Moon in Leo is full of anger with a thick",
+   "bbox": [
+    331,
+    650,
+    1476,
+    724
+   ]
+  },
+  {
+   "text": "chin, broad face, yellow eyes. He has very few issues (chil-",
+   "bbox": [
+    256,
+    699,
+    1475,
+    777
+   ]
+  },
+  {
+   "text": "dren). Is opposed to women in general. Likes to eat meat and",
+   "bbox": [
+    259,
+    751,
+    1476,
+    825
+   ]
+  },
+  {
+   "text": "visit jungles and mountains. Is angry for lapses by others. Is",
+   "bbox": [
+    259,
+    801,
+    1478,
+    878
+   ]
+  },
+  {
+   "text": "much troubled by diseases of the hunger, thirst, belly, teeth",
+   "bbox": [
+    260,
+    851,
+    1479,
+    927
+   ]
+  },
+  {
+   "text": "and those relating to mind. He is giver of alms, full of valour,",
+   "bbox": [
+    262,
+    902,
+    1478,
+    979
+   ]
+  },
+  {
+   "text": "of steadfast mind and proud disposition and is devoted to his",
+   "bbox": [
+    263,
+    951,
+    1481,
+    1031
+   ]
+  },
+  {
+   "text": "mother.",
+   "bbox": [
+    265,
+    1032,
+    426,
+    1072
+   ]
+  },
+  {
+   "text": "Moon in Virgo",
+   "bbox": [
+    266,
+    1130,
+    649,
+    1182
+   ]
+  },
+  {
+   "text": "व्रीडामन्थरचारुवीक्षणगति: स्रस्तांसबाहु: सुखी",
+   "bbox": [
+    343,
+    1202,
+    1005,
+    1266
+   ]
+  },
+  {
+   "text": "श्लक्ष्ण: सत्यरत: कलासु निपुण: शास्त्रार्थविद्धार्मिक:।",
+   "bbox": [
+    344,
+    1260,
+    1122,
+    1336
+   ]
+  },
+  {
+   "text": "मेधावी सुरतप्रिय: परगृहैर्वित्तैश्च संयुज्यते",
+   "bbox": [
+    342,
+    1328,
+    929,
+    1401
+   ]
+  },
+  {
+   "text": "कन्यायां परदेशगः प्रियवचाः कन्याप्रजोऽल्पात्मजः।। 6 ।।",
+   "bbox": [
+    346,
+    1395,
+    1183,
+    1457
+   ]
+  },
+  {
+   "text": "One born with Moon in Virgo has a gait marked by bash-",
+   "bbox": [
+    350,
+    1480,
+    1492,
+    1549
+   ]
+  },
+  {
+   "text": "fulness, slow motion and pleasing glances. He is somewhat",
+   "bbox": [
+    272,
+    1526,
+    1494,
+    1605
+   ]
+  },
+  {
+   "text": "weak in the region of arms and shoulders. Happy with a clear",
+   "bbox": [
+    276,
+    1578,
+    1494,
+    1653
+   ]
+  },
+  {
+   "text": "and truthful speech. He is adept in arts (Handicrafts etc),",
+   "bbox": [
+    276,
+    1630,
+    1495,
+    1703
+   ]
+  },
+  {
+   "text": "informed in the matter of religions and is religious in actions,",
+   "bbox": [
+    276,
+    1678,
+    1495,
+    1756
+   ]
+  },
+  {
+   "text": "jas a very keen intellect, loves sex, has occasion to get house",
+   "bbox": [
+    276,
+    1731,
+    1498,
+    1804
+   ]
+  },
+  {
+   "text": "and wealth belonging to others, lives in another country or",
+   "bbox": [
+    281,
+    1781,
+    1498,
+    1857
+   ]
+  },
+  {
+   "text": "province, is sweet in speech and has many daughters and very",
+   "bbox": [
+    282,
+    1831,
+    1498,
+    1907
+   ]
+  },
+  {
+   "text": "few sons.",
+   "bbox": [
+    282,
+    1910,
+    470,
+    1948
+   ]
+  },
+  {
+   "text": "Moon in Libra",
+   "bbox": [
+    282,
+    2004,
+    663,
+    2055
+   ]
+  },
+  {
+   "text": "देवब्राह्मणसाधुपूजनरतः प्राज्ञः शुचिः स्त्रिजितः",
+   "bbox": [
+    357,
+    2082,
+    1029,
+    2143
+   ]
+  },
+  {
+   "text": "प्रांशुश्चोन्नतनासिक: कृशचलद्गात्रोऽटनोऽर्थान्वित:।",
+   "bbox": [
+    362,
+    2140,
+    1061,
+    2209
+   ]
+  },
+  {
+   "text": "हीनाङ्ग: क्रयविक्रयेषु कुशलो देवद्विनामा सरुग्",
+   "bbox": [
+    361,
+    2200,
+    1044,
+    2277
+   ]
+  },
+  {
+   "text": "बन्धूनामुपकारकृद्विरुपितस्त्यक्तस्तु तैः सप्तमे।। 7 ।।",
+   "bbox": [
+    364,
+    2266,
+    1123,
+    2339
+   ]
+  }
+ ]
+}

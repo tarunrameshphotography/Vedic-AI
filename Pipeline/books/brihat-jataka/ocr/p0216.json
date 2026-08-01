@@ -1,0 +1,317 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0216",
+ "book_id": "brihat-jataka",
+ "seq": 216,
+ "source_ref": {
+  "pdf_page": 108,
+  "half": "b",
+  "v1_page": "s108b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "efb09e7c3c95e69b3e002e8af8fdc65372300381fbaf1c475cae7b155f409d9e",
+ "lines": [
+  {
+   "text": "213",
+   "bbox": [
+    1413,
+    216,
+    1507,
+    249
+   ]
+  },
+  {
+   "text": "Drekkana",
+   "bbox": [
+    296,
+    240,
+    495,
+    275
+   ]
+  },
+  {
+   "text": "gold. He holds a stick and sits in a majestic posture. He keeps",
+   "bbox": [
+    295,
+    314,
+    1513,
+    387
+   ]
+  },
+  {
+   "text": "silks and deer skins.",
+   "bbox": [
+    301,
+    384,
+    709,
+    432
+   ]
+  },
+  {
+   "text": "रोमचितो मकरो यमदंष्ट्र: सूकरकायसमानशरीर:।",
+   "bbox": [
+    367,
+    456,
+    1074,
+    520
+   ]
+  },
+  {
+   "text": "योक्त्रकजालकबन्धधारी रौद्रमुखो मकरप्रथमस्तु।। 28",
+   "bbox": [
+    373,
+    519,
+    1134,
+    581
+   ]
+  },
+  {
+   "text": "The first drekkana of Makara is a man covered with hair.",
+   "bbox": [
+    376,
+    601,
+    1513,
+    664
+   ]
+  },
+  {
+   "text": "His teeth looks like those of a crocodile. His body is like that of",
+   "bbox": [
+    304,
+    653,
+    1521,
+    725
+   ]
+  },
+  {
+   "text": "apes. He keeps yokes, nets and chains or bondages. He has a",
+   "bbox": [
+    305,
+    705,
+    1521,
+    780
+   ]
+  },
+  {
+   "text": "cruel face.",
+   "bbox": [
+    306,
+    781,
+    517,
+    823
+   ]
+  },
+  {
+   "text": "कलास्वभिज्ञाब्जलायताक्षी श्यामा विचित्राणि च मार्गमाणा।",
+   "bbox": [
+    380,
+    844,
+    1222,
+    907
+   ]
+  },
+  {
+   "text": "विभूषणालङ्कृतलोहकर्णा योषा प्रदिष्टा मकरस्य मध्ये।। 29 ।।",
+   "bbox": [
+    381,
+    904,
+    1319,
+    980
+   ]
+  },
+  {
+   "text": "The second drekkana of Makara is a woman skilled in",
+   "bbox": [
+    383,
+    994,
+    1525,
+    1057
+   ]
+  },
+  {
+   "text": "arts. She has broad eyes like the petals of a lotus. She is",
+   "bbox": [
+    311,
+    1047,
+    1526,
+    1119
+   ]
+  },
+  {
+   "text": "greenish dark. She searches all things. She wears iron ear-",
+   "bbox": [
+    311,
+    1097,
+    1525,
+    1173
+   ]
+  },
+  {
+   "text": "rings.",
+   "bbox": [
+    314,
+    1183,
+    430,
+    1220
+   ]
+  },
+  {
+   "text": "किन्नरोपमतनुः सकम्बलस्तूणचापकवचैः समन्वितः।",
+   "bbox": [
+    386,
+    1233,
+    1134,
+    1308
+   ]
+  },
+  {
+   "text": "कुम्भमुद्वहति रत्नचित्रितं स्कन्धगं मकरराशिपश्चिम: ।। 30 ।।",
+   "bbox": [
+    387,
+    1297,
+    1260,
+    1369
+   ]
+  },
+  {
+   "text": "The third drekkana of Makara is a man with a body like",
+   "bbox": [
+    389,
+    1388,
+    1531,
+    1452
+   ]
+  },
+  {
+   "text": "that of the Kinnaras. He has a woollen blanket. He has a",
+   "bbox": [
+    317,
+    1437,
+    1531,
+    1509
+   ]
+  },
+  {
+   "text": "quiver, bow and arrows. He carries a pot decked with precious",
+   "bbox": [
+    317,
+    1490,
+    1532,
+    1563
+   ]
+  },
+  {
+   "text": "stones on the shoulder.",
+   "bbox": [
+    319,
+    1561,
+    781,
+    1608
+   ]
+  },
+  {
+   "text": "स्नेहमद्यजलभोजनागमव्याकुलीकृतमना: सकम्बल:।",
+   "bbox": [
+    392,
+    1635,
+    1123,
+    1694
+   ]
+  },
+  {
+   "text": "कोशकारवसनोऽजिनान्वितो गृध्रतुल्यवदनो घटादिग: ।। 31 ।।",
+   "bbox": [
+    390,
+    1693,
+    1271,
+    1762
+   ]
+  },
+  {
+   "text": "The first drekkana of Kumbha is a man disturbed by oils,",
+   "bbox": [
+    397,
+    1779,
+    1538,
+    1847
+   ]
+  },
+  {
+   "text": "wines, water and food which are brought to him. He has a",
+   "bbox": [
+    323,
+    1832,
+    1538,
+    1901
+   ]
+  },
+  {
+   "text": "woollen blanket, silk cloth and deer skin. His face is like that",
+   "bbox": [
+    324,
+    1884,
+    1539,
+    1954
+   ]
+  },
+  {
+   "text": "of a vulture.",
+   "bbox": [
+    327,
+    1961,
+    577,
+    1997
+   ]
+  },
+  {
+   "text": "दग्धे शकटे सशाल्मले लोहान्याहरतेऽङ्गना वने।",
+   "bbox": [
+    397,
+    2025,
+    1077,
+    2088
+   ]
+  },
+  {
+   "text": "मलिनेन पटेन संवृता भाण्डैर्मूर्ध्नि गतैश्च मध्यम: ।। 32 ।।",
+   "bbox": [
+    399,
+    2084,
+    1237,
+    2154
+   ]
+  },
+  {
+   "text": "The second drekkana of Kumbha is a woman covered with",
+   "bbox": [
+    403,
+    2174,
+    1545,
+    2234
+   ]
+  },
+  {
+   "text": "a dirty cloth in a forest. She carries pots on her head. She",
+   "bbox": [
+    330,
+    2223,
+    1550,
+    2295
+   ]
+  },
+  {
+   "text": "drags metals in a burnt cart which has cotton trees.",
+   "bbox": [
+    331,
+    2277,
+    1369,
+    2346
+   ]
+  }
+ ]
+}

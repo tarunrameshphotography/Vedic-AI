@@ -1,0 +1,315 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0231",
+ "book_id": "phaladeepika",
+ "seq": 231,
+ "source_ref": {
+  "pdf_page": 231
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "8c1717ad85cc44ce5d8b3c662929d3991b5344811b123ebedeb432b46a759ecc",
+ "lines": [
+  {
+   "text": "Sarvashta-",
+   "bbox": [
+    288,
+    58,
+    347,
+    73
+   ]
+  },
+  {
+   "text": "27",
+   "bbox": [
+    258,
+    63,
+    272,
+    78
+   ]
+  },
+  {
+   "text": "24",
+   "bbox": [
+    365,
+    63,
+    379,
+    78
+   ]
+  },
+  {
+   "text": "kavarga",
+   "bbox": [
+    296,
+    74,
+    340,
+    89
+   ]
+  },
+  {
+   "text": "29",
+   "bbox": [
+    258,
+    95,
+    272,
+    110
+   ]
+  },
+  {
+   "text": "40L",
+   "bbox": [
+    361,
+    95,
+    384,
+    110
+   ]
+  },
+  {
+   "text": "24",
+   "bbox": [
+    258,
+    129,
+    272,
+    145
+   ]
+  },
+  {
+   "text": "25",
+   "bbox": [
+    293,
+    129,
+    307,
+    145
+   ]
+  },
+  {
+   "text": "26",
+   "bbox": [
+    329,
+    129,
+    343,
+    145
+   ]
+  },
+  {
+   "text": "36",
+   "bbox": [
+    365,
+    129,
+    379,
+    145
+   ]
+  },
+  {
+   "text": "21. There are two principles laid down in this verse —",
+   "bbox": [
+    121,
+    201,
+    426,
+    216
+   ]
+  },
+  {
+   "text": "(1) If in the auspicious houses reckoned from the Moon, there be more than ",
+   "bbox": [
+    121,
+    225,
+    556,
+    240
+   ]
+  },
+  {
+   "text": "28 benefic dots, such houses flourish, the houses are harmed if the benefic dots be ",
+   "bbox": [
+    85,
+    249,
+    556,
+    265
+   ]
+  },
+  {
+   "text": "less than 28.",
+   "bbox": [
+    85,
+    273,
+    155,
+    289
+   ]
+  },
+  {
+   "text": "(2) Note which houses reckoned from the Moon are occupied by benefic ",
+   "bbox": [
+    121,
+    297,
+    556,
+    313
+   ]
+  },
+  {
+   "text": "planets. If there be more than 28 benefic dots in such houses, their effects get ",
+   "bbox": [
+    85,
+    322,
+    556,
+    337
+   ]
+  },
+  {
+   "text": "promoted. The effects of the houses will cause damage if the benefic dots be less ",
+   "bbox": [
+    85,
+    346,
+    556,
+    361
+   ]
+  },
+  {
+   "text": "than 28.",
+   "bbox": [
+    85,
+    370,
+    130,
+    385
+   ]
+  },
+  {
+   "text": "22. The Ashtakavarga figures are to be computed according to rules ",
+   "bbox": [
+    121,
+    394,
+    556,
+    410
+   ]
+  },
+  {
+   "text": "prescribed in this chapter with respect to the positions of planets (existing) at the ",
+   "bbox": [
+    85,
+    418,
+    556,
+    434
+   ]
+  },
+  {
+   "text": "time of birth of any person, is that particular rasi, month, hour etc. signified by the ",
+   "bbox": [
+    85,
+    442,
+    556,
+    458
+   ]
+  },
+  {
+   "text": "sign containing the greatest number of benefic dots, one ought to get performed ",
+   "bbox": [
+    85,
+    466,
+    556,
+    482
+   ]
+  },
+  {
+   "text": "anything auspicious when the planets concerned transit those houses.",
+   "bbox": [
+    85,
+    491,
+    472,
+    506
+   ]
+  },
+  {
+   "text": "23. The effects of the house will be promoted even if it be occupied by a ",
+   "bbox": [
+    121,
+    515,
+    556,
+    530
+   ]
+  },
+  {
+   "text": "malefic if such a planet be in his own house. If a planet be in his sign of ",
+   "bbox": [
+    85,
+    539,
+    556,
+    554
+   ]
+  },
+  {
+   "text": "debilitation or in his enemy's house, the house occupied by him will be damaged.",
+   "bbox": [
+    85,
+    563,
+    540,
+    579
+   ]
+  },
+  {
+   "text": "24. If a benefic planet happens to own a dusthana (6th, 8th, 12th) will ",
+   "bbox": [
+    121,
+    587,
+    556,
+    603
+   ]
+  },
+  {
+   "text": "destroy the house occupied by him even if he may be occupying his sign of ",
+   "bbox": [
+    85,
+    611,
+    556,
+    627
+   ]
+  },
+  {
+   "text": "exaltation. A malefic in exaltation will do good to the house occupied by him if he ",
+   "bbox": [
+    85,
+    636,
+    556,
+    651
+   ]
+  },
+  {
+   "text": "happens to own good houses.",
+   "bbox": [
+    85,
+    660,
+    250,
+    675
+   ]
+  },
+  {
+   "text": "Thus ends the twenty third chapter on \"Ashtakavarga\" in Phaladeepika ",
+   "bbox": [
+    121,
+    684,
+    556,
+    699
+   ]
+  },
+  {
+   "text": "composed by Mantreswara.",
+   "bbox": [
+    85,
+    708,
+    240,
+    723
+   ]
+  },
+  {
+   "text": "231",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

@@ -1,0 +1,290 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0159",
+ "book_id": "brihat-jataka",
+ "seq": 159,
+ "source_ref": {
+  "pdf_page": 80,
+  "half": "a",
+  "v1_page": "s080a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "258161f82aa346c08cc821c7055c6a5504431ec3f3f363c4b781b88fd6c50e1e",
+ "lines": [
+  {
+   "text": "156",
+   "bbox": [
+    317,
+    185,
+    409,
+    220
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1238,
+    185,
+    1532,
+    219
+   ]
+  },
+  {
+   "text": "ie if a malefic planet occupies the 6th house, the Lord of the",
+   "bbox": [
+    385,
+    288,
+    1532,
+    326
+   ]
+  },
+  {
+   "text": "6th is with a malefic planet and Saturn is conjoined to Rahu",
+   "bbox": [
+    311,
+    339,
+    1534,
+    378
+   ]
+  },
+  {
+   "text": "the native is always sick. This Shloka shows that the 6th",
+   "bbox": [
+    311,
+    391,
+    1534,
+    431
+   ]
+  },
+  {
+   "text": "house, if afflicted is health. Afflicted, hence so far the afflicted",
+   "bbox": [
+    311,
+    445,
+    1534,
+    483
+   ]
+  },
+  {
+   "text": "of his house is concerned, it should be treated as a house of",
+   "bbox": [
+    311,
+    497,
+    1534,
+    535
+   ]
+  },
+  {
+   "text": "health and not disease, even though its name is \"Disease",
+   "bbox": [
+    311,
+    550,
+    1529,
+    589
+   ]
+  },
+  {
+   "text": "House\". One may also add that Saturn and Rahu are planets",
+   "bbox": [
+    311,
+    603,
+    1531,
+    642
+   ]
+  },
+  {
+   "text": "of scantiness and dearth. These planets would bring about",
+   "bbox": [
+    311,
+    656,
+    1532,
+    695
+   ]
+  },
+  {
+   "text": "conditions of scantiness in the sphere influenced by them.",
+   "bbox": [
+    311,
+    708,
+    1531,
+    747
+   ]
+  },
+  {
+   "text": "Even though then, these two planets are natural malefics,",
+   "bbox": [
+    309,
+    761,
+    1534,
+    800
+   ]
+  },
+  {
+   "text": "their influence, we think, on the 12th house the house of",
+   "bbox": [
+    309,
+    814,
+    1534,
+    852
+   ]
+  },
+  {
+   "text": "expenses would make expenses scanty and would therefore, be",
+   "bbox": [
+    307,
+    866,
+    1529,
+    906
+   ]
+  },
+  {
+   "text": "conducive to saving. This is of course our personal view. So far",
+   "bbox": [
+    307,
+    918,
+    1532,
+    958
+   ]
+  },
+  {
+   "text": "as the texts go they do not make any exception in the case of",
+   "bbox": [
+    309,
+    972,
+    1534,
+    1011
+   ]
+  },
+  {
+   "text": "Saturn whose influence on the 12th house is also taken as",
+   "bbox": [
+    307,
+    1025,
+    1528,
+    1063
+   ]
+  },
+  {
+   "text": "causing expenses. If benefic planets and influencing the 12th",
+   "bbox": [
+    305,
+    1078,
+    1531,
+    1117
+   ]
+  },
+  {
+   "text": "house be taken as causing saving it would be difficult to accept",
+   "bbox": [
+    305,
+    1130,
+    1528,
+    1170
+   ]
+  },
+  {
+   "text": "the statement as it is also stated in texts that benefics influenc-",
+   "bbox": [
+    305,
+    1182,
+    1526,
+    1218
+   ]
+  },
+  {
+   "text": "ing the 12th house cause expenses on good causes vide shloka",
+   "bbox": [
+    305,
+    1236,
+    1526,
+    1275
+   ]
+  },
+  {
+   "text": "No. 3 of chapter 8 (on the 12th house) as under.",
+   "bbox": [
+    305,
+    1287,
+    1265,
+    1327
+   ]
+  },
+  {
+   "text": "A planet in exhaltation gives full results, one in its mool",
+   "bbox": [
+    379,
+    1366,
+    1526,
+    1404
+   ]
+  },
+  {
+   "text": "trikon sign gives three fourth, that in its own sign half, one in",
+   "bbox": [
+    305,
+    1418,
+    1525,
+    1458
+   ]
+  },
+  {
+   "text": "friendly sign gives one fourth, one in inimical sign gives even",
+   "bbox": [
+    304,
+    1470,
+    1524,
+    1510
+   ]
+  },
+  {
+   "text": "less than one fourth and one located in its sign of debilitation",
+   "bbox": [
+    305,
+    1525,
+    1524,
+    1564
+   ]
+  },
+  {
+   "text": "or when combust by being with the Sun is useless altogether.",
+   "bbox": [
+    304,
+    1578,
+    1522,
+    1618
+   ]
+  },
+  {
+   "text": "इति श्रीवराहमिहिरकृते बृहज्जातके भावाध्यायो विंश: ।। 20।।",
+   "bbox": [
+    451,
+    1780,
+    1372,
+    1833
+   ]
+  },
+  {
+   "text": "Thus ends the twentieth chapter on Planets in Houses in",
+   "bbox": [
+    375,
+    1876,
+    1525,
+    1915
+   ]
+  },
+  {
+   "text": "Brihat Jatak composed by Varahamihira.",
+   "bbox": [
+    301,
+    1927,
+    1062,
+    1966
+   ]
+  }
+ ]
+}

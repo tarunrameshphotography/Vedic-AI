@@ -1,0 +1,317 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0173",
+ "book_id": "brihat-jataka",
+ "seq": 173,
+ "source_ref": {
+  "pdf_page": 87,
+  "half": "a",
+  "v1_page": "s087a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "0c20edced676d3b95a5cff39325a4f6ec734217957ed0ca0e377231810a4eae7",
+ "lines": [
+  {
+   "text": "170",
+   "bbox": [
+    319,
+    291,
+    411,
+    329
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1242,
+    292,
+    1534,
+    326
+   ]
+  },
+  {
+   "text": "When the Sun and the Moon are in the seventh aspected",
+   "bbox": [
+    392,
+    393,
+    1535,
+    434
+   ]
+  },
+  {
+   "text": "by Shani, the native performs degrading acts.",
+   "bbox": [
+    315,
+    448,
+    1230,
+    486
+   ]
+  },
+  {
+   "text": "Notes: Bhattotpala gives the example of Duryodhana for",
+   "bbox": [
+    389,
+    523,
+    1537,
+    564
+   ]
+  },
+  {
+   "text": "the extinction of the family.",
+   "bbox": [
+    313,
+    578,
+    872,
+    615
+   ]
+  },
+  {
+   "text": "When Budha is in the third drekkana of Mesha, the sign is",
+   "bbox": [
+    392,
+    654,
+    1534,
+    691
+   ]
+  },
+  {
+   "text": "Dhanush. If Shani is in a Kendra from lagna and aspects",
+   "bbox": [
+    313,
+    708,
+    1534,
+    746
+   ]
+  },
+  {
+   "text": "Dhanush, the native becomes Shilpi. Shilpi refers to sculpture",
+   "bbox": [
+    313,
+    760,
+    1534,
+    799
+   ]
+  },
+  {
+   "text": "and architecture only.",
+   "bbox": [
+    313,
+    816,
+    758,
+    852
+   ]
+  },
+  {
+   "text": "पापालोकितयो: सितावनिजयोरस्तस्थयोर्वातरुक्",
+   "bbox": [
+    387,
+    889,
+    1053,
+    937
+   ]
+  },
+  {
+   "text": "चन्द्रेकर्कटवृश्चिकांशकगते पापैर्युते गृह्यरुक्।",
+   "bbox": [
+    387,
+    952,
+    1001,
+    1004
+   ]
+  },
+  {
+   "text": "श्वित्री रिष्फधनस्थयोरशुभयोश्चन्द्रोदयेऽस्ते रवौ",
+   "bbox": [
+    387,
+    1017,
+    1039,
+    1071
+   ]
+  },
+  {
+   "text": "चन्द्रे खेऽवनिजेऽस्तगे च विकलो यद्यकंजो वेशिग: ।। 7।।",
+   "bbox": [
+    388,
+    1080,
+    1243,
+    1134
+   ]
+  },
+  {
+   "text": "Venus and Mars in the seventh aspected by malefics indi-",
+   "bbox": [
+    388,
+    1181,
+    1532,
+    1219
+   ]
+  },
+  {
+   "text": "cate a serious form of dysentery.",
+   "bbox": [
+    310,
+    1235,
+    964,
+    1273
+   ]
+  },
+  {
+   "text": "When Moon is in the navamsha of Cancer or Scorpio",
+   "bbox": [
+    390,
+    1312,
+    1534,
+    1348
+   ]
+  },
+  {
+   "text": "is with malefics, the native has diseases related to the",
+   "bbox": [
+    309,
+    1364,
+    1534,
+    1404
+   ]
+  },
+  {
+   "text": "genitals.",
+   "bbox": [
+    310,
+    1419,
+    486,
+    1455
+   ]
+  },
+  {
+   "text": "Moon in lagna, Sun in the seventh, and two malefics in the",
+   "bbox": [
+    385,
+    1496,
+    1534,
+    1534
+   ]
+  },
+  {
+   "text": "second and the twelfth indicate leprosy of a serious kind.",
+   "bbox": [
+    310,
+    1549,
+    1452,
+    1586
+   ]
+  },
+  {
+   "text": "Moon in the tenth, Mars in the seventh, and Saturn in the",
+   "bbox": [
+    384,
+    1626,
+    1532,
+    1663
+   ]
+  },
+  {
+   "text": "second from the Sun indicate defective limbs.",
+   "bbox": [
+    307,
+    1675,
+    1217,
+    1715
+   ]
+  },
+  {
+   "text": "<i>Notes:</i> The next has two readings–<i>Vriddhiruk</i> and <i>Ardha</i>",
+   "bbox": [
+    384,
+    1755,
+    1529,
+    1794
+   ]
+  },
+  {
+   "text": "drik. The first means dysentery, and the second half-right.",
+   "bbox": [
+    307,
+    1805,
+    1528,
+    1851
+   ]
+  },
+  {
+   "text": "The commentator accepted the first reading only.",
+   "bbox": [
+    309,
+    1863,
+    1292,
+    1900
+   ]
+  },
+  {
+   "text": "The second combination can refer to the position in Rasi",
+   "bbox": [
+    385,
+    1941,
+    1531,
+    1978
+   ]
+  },
+  {
+   "text": "also. The malefic may be in Rasi.",
+   "bbox": [
+    309,
+    1993,
+    971,
+    2030
+   ]
+  },
+  {
+   "text": "In the third combination the malefics are taken to be only",
+   "bbox": [
+    384,
+    2070,
+    1532,
+    2108
+   ]
+  },
+  {
+   "text": "Kuja and Shani.",
+   "bbox": [
+    307,
+    2123,
+    640,
+    2160
+   ]
+  },
+  {
+   "text": "अन्त: शशिन्यशुभयोर्मृगगे पतङ्गे श्वासक्षयप्लिहकविद्रधिगुल्मभाज:।",
+   "bbox": [
+    381,
+    2193,
+    1333,
+    2251
+   ]
+  },
+  {
+   "text": "शोषी परस्परगृहांशगयो रवीन्द्वो: क्षेत्रेऽथवा युगपदेकगयो: कृशो वा।। 8।।",
+   "bbox": [
+    381,
+    2259,
+    1383,
+    2312
+   ]
+  },
+  {
+   "text": "Sun in Makara and Moon between two malefics give rise to",
+   "bbox": [
+    386,
+    2357,
+    1524,
+    2399
+   ]
+  }
+ ]
+}

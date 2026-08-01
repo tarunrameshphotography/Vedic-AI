@@ -1,0 +1,288 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0004",
+ "book_id": "phaladeepika",
+ "seq": 4,
+ "source_ref": {
+  "pdf_page": 4
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "b8bb45002d4c6a1d725c51e2852abeafec1c3208b3383aca72fffbd87db0d564",
+ "lines": [
+  {
+   "text": "<b>Table of Contents</b>",
+   "bbox": [
+    259,
+    57,
+    379,
+    75
+   ]
+  },
+  {
+   "text": "<b>Chapter 1: Description of characteristic</b>",
+   "bbox": [
+    121,
+    109,
+    359,
+    125
+   ]
+  },
+  {
+   "text": "Jeatures of signs and houses Parts of the body of Kalapurusha, Abdoes of ",
+   "bbox": [
+    121,
+    133,
+    556,
+    149
+   ]
+  },
+  {
+   "text": "signs -- Lords of the signs -- Moolatrtkona signs, exaltation and debilitation points, ",
+   "bbox": [
+    85,
+    157,
+    556,
+    173
+   ]
+  },
+  {
+   "text": "own signs of planets- Biped, centiped, watery and quadruped, Shlrshodaya ",
+   "bbox": [
+    85,
+    182,
+    556,
+    197
+   ]
+  },
+  {
+   "text": "-Nocturnal and diurnal signs - Moveable, fixed and common signs -- Dwara, Bahis ",
+   "bbox": [
+    85,
+    206,
+    556,
+    221
+   ]
+  },
+  {
+   "text": "and Oarbha signs - Dhatu, Mula and Jeeva signs -- Krura, Saumya, odd. even, ",
+   "bbox": [
+    85,
+    230,
+    556,
+    245
+   ]
+  },
+  {
+   "text": "male, female signs - Twelve houses and subjects with which they are concerned. 1-",
+   "bbox": [
+    85,
+    254,
+    553,
+    270
+   ]
+  },
+  {
+   "text": "11",
+   "bbox": [
+    85,
+    278,
+    99,
+    294
+   ]
+  },
+  {
+   "text": "<b>Chapter 2: Characteristic features of the planets and the matters</b>",
+   "bbox": [
+    121,
+    302,
+    508,
+    318
+   ]
+  },
+  {
+   "text": "Jailing under their Jurisdiction Subjects to be determined from the Sun and ",
+   "bbox": [
+    121,
+    326,
+    556,
+    342
+   ]
+  },
+  {
+   "text": "other planets-temperament, form, colour, dress, appearance, etc., of the planets, ",
+   "bbox": [
+    85,
+    351,
+    556,
+    366
+   ]
+  },
+  {
+   "text": "places belonging to the planets Gunas, Satwa, Rajas and Tamas of planets ",
+   "bbox": [
+    85,
+    375,
+    556,
+    390
+   ]
+  },
+  {
+   "text": "-relations signified by them-Grains, gems and substances ruled by the planets-Ages ",
+   "bbox": [
+    85,
+    399,
+    556,
+    414
+   ]
+  },
+  {
+   "text": "indicated by the planets. 12-27",
+   "bbox": [
+    85,
+    423,
+    257,
+    439
+   ]
+  },
+  {
+   "text": "<b>Chapter 3: Divisions of a sign</b>",
+   "bbox": [
+    121,
+    447,
+    297,
+    463
+   ]
+  },
+  {
+   "text": "Rasi, Hora, Drekkana, Panchamsa, Saptamsa, Navamsa, Dasmainsa, ",
+   "bbox": [
+    121,
+    471,
+    556,
+    487
+   ]
+  },
+  {
+   "text": "Dwadasauisa, Shodasamsa and Shastyamsa -- Saptavargas consisting of vargas ",
+   "bbox": [
+    85,
+    496,
+    556,
+    511
+   ]
+  },
+  {
+   "text": "after omitting Dasmamsa, Shastyamsa and Shodasamsa -- Shadvargas - Matters to ",
+   "bbox": [
+    85,
+    520,
+    556,
+    535
+   ]
+  },
+  {
+   "text": "be considered from various vargas and their significance -- meaning and ",
+   "bbox": [
+    85,
+    544,
+    556,
+    559
+   ]
+  },
+  {
+   "text": "significance of Vargottama -Parljatamsa, Uttamamsa, Gopuramsa, Slmhasanamsa, ",
+   "bbox": [
+    85,
+    568,
+    556,
+    583
+   ]
+  },
+  {
+   "text": "Parvatamsa, Devalokamsa, Alravatamsa and Suralokamsa -- Awasthas of planets - ",
+   "bbox": [
+    85,
+    592,
+    556,
+    608
+   ]
+  },
+  {
+   "text": "Pradeepta, Sukhita, Swastha, Mudita, Shanta, Shakta; Vlkala, Nlpldlta, Khala and ",
+   "bbox": [
+    85,
+    616,
+    556,
+    632
+   ]
+  },
+  {
+   "text": "Atibhjeeta -- Effects of Planets In various conditions. 28-36",
+   "bbox": [
+    85,
+    640,
+    420,
+    656
+   ]
+  },
+  {
+   "text": "<b>Chapter 4: The strength of planets and houses</b>",
+   "bbox": [
+    121,
+    665,
+    396,
+    680
+   ]
+  },
+  {
+   "text": "Kalaja, Chesta, Uchchaja - Dik -Ayan -Sthana. The method of working out ",
+   "bbox": [
+    121,
+    689,
+    556,
+    704
+   ]
+  },
+  {
+   "text": "Chandra krlyas, Chandra Awastha and Chandra Vela -Effects of 60 Chandra krlyas, ",
+   "bbox": [
+    85,
+    713,
+    556,
+    728
+   ]
+  },
+  {
+   "text": "12 Chandra Awasthas and 36 Chandravelas -- Tables for guidance. 37-56",
+   "bbox": [
+    85,
+    737,
+    493,
+    753
+   ]
+  },
+  {
+   "text": "<b>Chapter 5: Source of livelihood</b>",
+   "bbox": [
+    121,
+    761,
+    307,
+    777
+   ]
+  },
+  {
+   "text": "4",
+   "bbox": [
+    316,
+    793,
+    322,
+    806
+   ]
+  }
+ ]
+}

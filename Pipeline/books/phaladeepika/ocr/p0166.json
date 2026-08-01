@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0166",
+ "book_id": "phaladeepika",
+ "seq": 166,
+ "source_ref": {
+  "pdf_page": 166
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "fa8c412fca6b7bc36b1a7035f159ad9d696baf26747c4fe8fa20b9d0d9fc7503",
+ "lines": [
+  {
+   "text": "sign denoted by the aggregate of the longitudes of the Lagna (at birth), the Moon ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "and Mandi.",
+   "bbox": [
+    85,
+    82,
+    149,
+    97
+   ]
+  },
+  {
+   "text": "13. Multiply separately the longitudes of Mandi and Saturn by 9. Add both ",
+   "bbox": [
+    121,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "the results. When Saturn in course of his transit arrives at the Sign or navamsa ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "indicated by the aggregate, the death of the native may take place.",
+   "bbox": [
+    85,
+    154,
+    455,
+    169
+   ]
+  },
+  {
+   "text": "14. Subtract the longitude of Yamakantaka from the Longitude of the Lagna. ",
+   "bbox": [
+    121,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "The death of the native will definitely take place when Jupiter in course of his ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "transit arrives at the sign or navamsa indicated by the difference.",
+   "bbox": [
+    85,
+    226,
+    447,
+    242
+   ]
+  },
+  {
+   "text": "15. Add the longitudes of the lord of the 6th, 8th and 12th. The death of the ",
+   "bbox": [
+    121,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "native takes place when Saturn in course of his transit passes through the sign or ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "navamsa indicated by the aggregate or in trikona position to them.",
+   "bbox": [
+    85,
+    299,
+    456,
+    314
+   ]
+  },
+  {
+   "text": "16. Find out the Drekkana of the Lagna and where the lord of that Drekkana ",
+   "bbox": [
+    121,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "is posited. There will be danger to the life of the native when Jupiter in course of ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "his trainsit passes through this position or its trikona.",
+   "bbox": [
+    85,
+    371,
+    381,
+    387
+   ]
+  },
+  {
+   "text": "When Saturn transits the house owned by the lord of the Drekkana of the 8th ",
+   "bbox": [
+    121,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "house or its Trikona, the death of the native may take place.",
+   "bbox": [
+    85,
+    420,
+    419,
+    435
+   ]
+  },
+  {
+   "text": "17. Find the weakness of the following sets of planets—",
+   "bbox": [
+    121,
+    444,
+    436,
+    459
+   ]
+  },
+  {
+   "text": "(1) The lord of the 8th house from the Lagna and the lord of the 8th house ",
+   "bbox": [
+    121,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "from the Moon.",
+   "bbox": [
+    85,
+    492,
+    173,
+    508
+   ]
+  },
+  {
+   "text": "(2) The lords of the 22nd decanate from the Lagna and the Moon.",
+   "bbox": [
+    121,
+    516,
+    488,
+    532
+   ]
+  },
+  {
+   "text": "(3) The Moon and Mandi.",
+   "bbox": [
+    121,
+    540,
+    267,
+    556
+   ]
+  },
+  {
+   "text": "When Saturn in the course of his transit passes through the navamsa of the ",
+   "bbox": [
+    121,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "weakest amongst them or his trikona, the death of the native may take place.",
+   "bbox": [
+    85,
+    589,
+    513,
+    604
+   ]
+  },
+  {
+   "text": "18. See the navamsa in which the lord of the Lagna is posited. Mark it as ",
+   "bbox": [
+    121,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "(A). Similarly mark the sign of the lord of 8th house as (B). When Saturn in the ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "course of his transit passes through the sign as far away from (B) as is (A) from ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "Aries, the death of the native may take place. This is the view of the learned ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "Astrologers who are also versed in many Shastras.",
+   "bbox": [
+    85,
+    709,
+    367,
+    725
+   ]
+  },
+  {
+   "text": "19. Death may also take place when the Moon in the course of her transit ",
+   "bbox": [
+    121,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "passes through the house occupied by the lord of 22nd decanate counted from that ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "166",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

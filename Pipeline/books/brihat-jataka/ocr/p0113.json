@@ -1,0 +1,317 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0113",
+ "book_id": "brihat-jataka",
+ "seq": 113,
+ "source_ref": {
+  "pdf_page": 57,
+  "half": "a",
+  "v1_page": "s057a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "7a8f133067f4184887e37ef7b526c96be280a8f4af0a8741856fc6cbd7e1e045",
+ "lines": [
+  {
+   "text": "110",
+   "bbox": [
+    407,
+    210,
+    497,
+    245
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1327,
+    232,
+    1620,
+    271
+   ]
+  },
+  {
+   "text": "If all the planets occupy the four houses beginning from",
+   "bbox": [
+    473,
+    312,
+    1619,
+    382
+   ]
+  },
+  {
+   "text": "each kendra, the four Yogas constituted will be:",
+   "bbox": [
+    396,
+    360,
+    1355,
+    426
+   ]
+  },
+  {
+   "text": "<math>(a)</math> Planets in 1st, 2nd, 3rd and 4th houses-\"Yupa\".",
+   "bbox": [
+    468,
+    434,
+    1524,
+    500
+   ]
+  },
+  {
+   "text": "(b) All planets in 4th, 5th, 6th and 7th-\"Ishu\".",
+   "bbox": [
+    468,
+    505,
+    1424,
+    567
+   ]
+  },
+  {
+   "text": "(c) All planets in 7th, 8th, 9th and 10th-\"Shakti\".",
+   "bbox": [
+    464,
+    575,
+    1485,
+    638
+   ]
+  },
+  {
+   "text": "<math>(d)</math> All planets in 10th, 11th, 12th and 1st-\"Danda\".",
+   "bbox": [
+    462,
+    646,
+    1525,
+    717
+   ]
+  },
+  {
+   "text": "Nau Kut etc",
+   "bbox": [
+    386,
+    750,
+    708,
+    791
+   ]
+  },
+  {
+   "text": "नौकूटच्छत्रचापानि तद्वत्सप्तर्क्षसंस्थितै:।",
+   "bbox": [
+    457,
+    830,
+    1011,
+    888
+   ]
+  },
+  {
+   "text": "अर्द्धचन्द्रस्तु नावाद्यैः प्रोक्तस्त्वन्यर्क्षसंस्थितैः।। 8 ।।",
+   "bbox": [
+    455,
+    891,
+    1198,
+    963
+   ]
+  },
+  {
+   "text": "If in all the seven houses counted from the lagna, there is",
+   "bbox": [
+    452,
+    984,
+    1601,
+    1058
+   ]
+  },
+  {
+   "text": "one planet each, the Yoga called \"Nau\" is constituted, similarly",
+   "bbox": [
+    377,
+    1035,
+    1600,
+    1106
+   ]
+  },
+  {
+   "text": "if all the seven houses counted from the 4th house have one",
+   "bbox": [
+    375,
+    1083,
+    1598,
+    1156
+   ]
+  },
+  {
+   "text": "planet each, the Yoga goes under the name of \"Kut\". When 7th",
+   "bbox": [
+    375,
+    1136,
+    1595,
+    1208
+   ]
+  },
+  {
+   "text": "to 1st are similarly occupied it is called \"Chhatra\" and one",
+   "bbox": [
+    375,
+    1183,
+    1595,
+    1259
+   ]
+  },
+  {
+   "text": "constituted by one planet occupying each of the 7 houses",
+   "bbox": [
+    370,
+    1235,
+    1595,
+    1308
+   ]
+  },
+  {
+   "text": "counted from 10th is called \"Chaap\" Yoga. Similar Yoga made",
+   "bbox": [
+    369,
+    1285,
+    1592,
+    1358
+   ]
+  },
+  {
+   "text": "by the seven planets occupying each of the seven houses from",
+   "bbox": [
+    368,
+    1336,
+    1590,
+    1410
+   ]
+  },
+  {
+   "text": "other than Kendras is called \"Ardha Chandra\" (which will",
+   "bbox": [
+    365,
+    1386,
+    1589,
+    1458
+   ]
+  },
+  {
+   "text": "naturally be of 8 kinds-the starting houses being 8 in num-",
+   "bbox": [
+    364,
+    1436,
+    1589,
+    1512
+   ]
+  },
+  {
+   "text": "ber).",
+   "bbox": [
+    365,
+    1492,
+    465,
+    1531
+   ]
+  },
+  {
+   "text": "Samudra and Chakra Yoga",
+   "bbox": [
+    358,
+    1594,
+    1073,
+    1656
+   ]
+  },
+  {
+   "text": "एकान्तरगतैरर्थात्समुद्र: षड्ग्रहाश्रितै:।",
+   "bbox": [
+    432,
+    1671,
+    960,
+    1741
+   ]
+  },
+  {
+   "text": "विलग्नादिस्थितैश्चक्रमित्याकृतिजसंग्रह: ।। 9 ।।",
+   "bbox": [
+    431,
+    1736,
+    1104,
+    1807
+   ]
+  },
+  {
+   "text": "If all the planets occupy the six houses counted from the",
+   "bbox": [
+    427,
+    1832,
+    1576,
+    1904
+   ]
+  },
+  {
+   "text": "2nd to 12th with interval of one house <math>(2, 4, 6</math> etc), the yoga",
+   "bbox": [
+    351,
+    1878,
+    1576,
+    1957
+   ]
+  },
+  {
+   "text": "constituted is called \"Samudra\", while the one constituted by",
+   "bbox": [
+    351,
+    1927,
+    1573,
+    2008
+   ]
+  },
+  {
+   "text": "the location of all the planets in the alternate house counted",
+   "bbox": [
+    349,
+    1981,
+    1573,
+    2056
+   ]
+  },
+  {
+   "text": "from the 1st <math>(1, 3, 5</math> etc) is called \"Chakra\".",
+   "bbox": [
+    346,
+    2033,
+    1218,
+    2097
+   ]
+  },
+  {
+   "text": "Sankhya Yogas",
+   "bbox": [
+    346,
+    2136,
+    751,
+    2191
+   ]
+  },
+  {
+   "text": "संख्यायोगाः स्युः सप्तसप्तर्क्षसंस्थैरेकापायाद्वल्लकी दामिनी च।",
+   "bbox": [
+    417,
+    2213,
+    1321,
+    2293
+   ]
+  },
+  {
+   "text": "पाश: केदार: शूल योगो युगं च गोलश्चान्यान्पूर्वमुक्तान्विहाय ।। 10 ।।",
+   "bbox": [
+    417,
+    2277,
+    1435,
+    2361
+   ]
+  }
+ ]
+}

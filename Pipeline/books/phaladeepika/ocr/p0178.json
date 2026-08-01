@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0178",
+ "book_id": "phaladeepika",
+ "seq": 178,
+ "source_ref": {
+  "pdf_page": 178
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "451e39a19ef441a8a19e4ac65a97743540bc8eee7c41b38ccae552b4185e2763",
+ "lines": [
+  {
+   "text": "poison, fire and weapons, distress to children mental tension, loss of kinsmen, ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "humiliation from low caste people, loss of reputation, failure and losses in all ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "ventures and demotion in status.",
+   "bbox": [
+    85,
+    106,
+    266,
+    121
+   ]
+  },
+  {
+   "text": "15. Rahu's dasa will be full of auspicious effects if Rahu be associated with a ",
+   "bbox": [
+    121,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "benefic or be posited in an auspicious house. The native will enjoy the spendour ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "like that of a king. He will achieve success in all his ventures and will live happily ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "in his house. He will accumulate lasting wealth and his fame will spread far and ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "wide on the Earth.",
+   "bbox": [
+    85,
+    226,
+    188,
+    242
+   ]
+  },
+  {
+   "text": "16. It is the view of those learned in Astrology that Rahu in Virgo, Pisces or ",
+   "bbox": [
+    121,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "Scorpio will give the person concerned during his dasa, honour and happiness, ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "lordship of lands, conveyances and servants. All these will, however, be liable to ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "be lost at the conclusion of the dasa.",
+   "bbox": [
+    85,
+    323,
+    288,
+    339
+   ]
+  },
+  {
+   "text": "17. Effects like danger from enemies, thieves, wrath of the king, fear of ",
+   "bbox": [
+    121,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "injury from weapon, diseases caused by heat, a stigma to family of the native, fear ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "from fire, deportation from the native place as a result of some serious accusation.",
+   "bbox": [
+    85,
+    395,
+    545,
+    411
+   ]
+  },
+  {
+   "text": "Notes — In verses 5 to 17 the effects of the dasa of the Sun, the Moon, ",
+   "bbox": [
+    121,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "Mars, Mercury, Jupiter, Venus and Saturn in their usual order have been described ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "in a general way.",
+   "bbox": [
+    85,
+    468,
+    180,
+    483
+   ]
+  },
+  {
+   "text": "Now in verses 18 to 26 the effects of the dasa of all the planets have been ",
+   "bbox": [
+    121,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "described again but they are in the order prescribed under the Vimsottari dasa ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "system.",
+   "bbox": [
+    85,
+    540,
+    128,
+    556
+   ]
+  },
+  {
+   "text": "It appears that the effects given in verses 5-17 are such as could be ascribed ",
+   "bbox": [
+    121,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "to the other dasa systems also.",
+   "bbox": [
+    85,
+    589,
+    255,
+    604
+   ]
+  },
+  {
+   "text": "There are some peculiarities in the Vimsottari dasa syatem, as the effects of ",
+   "bbox": [
+    121,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "the dasas of planets will be governed by the rules laid down by Parasara. Under ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "these rules the lord of the 11th house (the house of gains) has been termed as papi. ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "Not only that the lord of the 3rd and 6th also have been allotted that same title. The ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "lord of the 3rd is the least papi and the lord of the 11th the biggest papi. Another ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "rule is that if a benefic be the lord of a kendra, he does not produce benefic effects, ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "and if the lord of a kendra be malefic, he does not produce inauspicious effects.",
+   "bbox": [
+    85,
+    758,
+    530,
+    773
+   ]
+  },
+  {
+   "text": "178",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0045",
+ "book_id": "phaladeepika",
+ "seq": 45,
+ "source_ref": {
+  "pdf_page": 45
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "4616b66d2d68a05f8c136b2773e0c1b388d5afbd014cb23652343140d6831af5",
+ "lines": [
+  {
+   "text": "7. If a planet is in his sign of exaltation he gets one Rupa of positional ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "strength (Sthana Bala). He gets 3/4 of this strength in his Moolatrikona Rasi, 1/2 ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "Rupa in his own sign and 1/4 Rupa in his friend's sign. He gets very little strength ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "when he is in his enemy's sign. If a planet is in his sign of depression or is ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "combust, he gets no positional strength at all.",
+   "bbox": [
+    85,
+    154,
+    338,
+    169
+   ]
+  },
+  {
+   "text": "8. The planets are vested with full positional strength in the Ascendant (first ",
+   "bbox": [
+    121,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "house), 3/4th strength in the 7th house, 1/2 in the 10th house and 1/4 in the 4th ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "house. This is how a distinction has been drawn by the astrologers amongst the ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "four kendras.",
+   "bbox": [
+    85,
+    251,
+    159,
+    266
+   ]
+  },
+  {
+   "text": "9. The aspect from the 7th house is the only one that should be considered as ",
+   "bbox": [
+    121,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "most effective in all cases. But some learneds are of the view that the special ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "aspects of Jupiter (to the 5th and the 9th), of Mars (to the 4th and the 8th) and of ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "Saturn (to the 3rd and the 10th) are equally competent in producing effects in all ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "Yogas and the like.",
+   "bbox": [
+    85,
+    371,
+    192,
+    387
+   ]
+  },
+  {
+   "text": "10. The Naisargik or natural friendship and enmity etc. of the planets is more ",
+   "bbox": [
+    121,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "fully effective and preferable to their corresponding Tatkalik or temporal ones as ",
+   "bbox": [
+    85,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "the latter is only of changing nature and not of permanent one.",
+   "bbox": [
+    85,
+    444,
+    434,
+    459
+   ]
+  },
+  {
+   "text": "11. In warding off evil and in promoting auspicious effects Jupiter is the ",
+   "bbox": [
+    121,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "most powerful of all planets. Venus possesses half of the auspicious effects of ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "Jupiter and Mercury possesses only half of that of Venus. But the Moon's strength ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "is the foundation of the strength of all the planets.",
+   "bbox": [
+    85,
+    540,
+    364,
+    556
+   ]
+  },
+  {
+   "text": "<b>Chandrakriya etc.</b>",
+   "bbox": [
+    121,
+    565,
+    231,
+    580
+   ]
+  },
+  {
+   "text": "Now we will be demonstrating the method to work Chandrakriya, Chandra ",
+   "bbox": [
+    121,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "Avastha and Chandravelas specify their effects. In the assessment of a birth chart, ",
+   "bbox": [
+    85,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "query chart and for Muhurta, full consideration should be given to Chandrakriya, ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "Chandra Avastha and Chandravelas. Chandrakriyas are 60 in number, Chandra ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "Avasthas 12 and Chandravelas 36.",
+   "bbox": [
+    85,
+    685,
+    277,
+    701
+   ]
+  },
+  {
+   "text": "12. Note the Nakshatra at birth, query or Muhurta. The Ghatikas and ",
+   "bbox": [
+    121,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "Vighatikas which have elapsed may be converted into Vighatikas.",
+   "bbox": [
+    85,
+    734,
+    453,
+    749
+   ]
+  },
+  {
+   "text": "Divide this result by (1) 60, (2) 300 and (3) 100. The three resulting ",
+   "bbox": [
+    121,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "45",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

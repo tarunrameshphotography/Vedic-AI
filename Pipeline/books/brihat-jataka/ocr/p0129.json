@@ -1,0 +1,254 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0129",
+ "book_id": "brihat-jataka",
+ "seq": 129,
+ "source_ref": {
+  "pdf_page": 65,
+  "half": "a",
+  "v1_page": "s065a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "a5cb235e107f8241781376f74d2a01f46d5c31447eef7d6ebbce013e3f3df8e3",
+ "lines": [
+  {
+   "text": "126",
+   "bbox": [
+    410,
+    259,
+    504,
+    294
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1337,
+    290,
+    1637,
+    343
+   ]
+  },
+  {
+   "text": "This makes a strong yoga for",
+   "bbox": [
+    1038,
+    382,
+    1634,
+    455
+   ]
+  },
+  {
+   "text": "Moon",
+   "bbox": [
+    573,
+    431,
+    669,
+    465
+   ]
+  },
+  {
+   "text": "vairagya (Dispassion). As re-",
+   "bbox": [
+    1035,
+    434,
+    1631,
+    507
+   ]
+  },
+  {
+   "text": "gards the yoga for renuncia-",
+   "bbox": [
+    1032,
+    483,
+    1627,
+    563
+   ]
+  },
+  {
+   "text": "tion it is constituted by the",
+   "bbox": [
+    1031,
+    538,
+    1625,
+    613
+   ]
+  },
+  {
+   "text": "Sat",
+   "bbox": [
+    868,
+    544,
+    934,
+    580
+   ]
+  },
+  {
+   "text": "Mars L",
+   "bbox": [
+    865,
+    584,
+    980,
+    623
+   ]
+  },
+  {
+   "text": "square of Saturn on the 4th",
+   "bbox": [
+    1029,
+    592,
+    1622,
+    663
+   ]
+  },
+  {
+   "text": "Rahu",
+   "bbox": [
+    866,
+    628,
+    952,
+    660
+   ]
+  },
+  {
+   "text": "house, the aspect of Saturn",
+   "bbox": [
+    1024,
+    641,
+    1621,
+    720
+   ]
+  },
+  {
+   "text": "on Venus, lord of the 4th",
+   "bbox": [
+    1023,
+    697,
+    1619,
+    769
+   ]
+  },
+  {
+   "text": "Sun",
+   "bbox": [
+    862,
+    716,
+    935,
+    751
+   ]
+  },
+  {
+   "text": "Ketu",
+   "bbox": [
+    404,
+    726,
+    484,
+    762
+   ]
+  },
+  {
+   "text": "house and the influence of",
+   "bbox": [
+    1020,
+    749,
+    1619,
+    822
+   ]
+  },
+  {
+   "text": "Mercury",
+   "bbox": [
+    859,
+    756,
+    992,
+    797
+   ]
+  },
+  {
+   "text": "Saturn, Mars and Rahu on",
+   "bbox": [
+    1017,
+    804,
+    1614,
+    877
+   ]
+  },
+  {
+   "text": "Sun and Mercury-lords of",
+   "bbox": [
+    1015,
+    855,
+    1616,
+    930
+   ]
+  },
+  {
+   "text": "Jupiter",
+   "bbox": [
+    709,
+    891,
+    819,
+    930
+   ]
+  },
+  {
+   "text": "Venus",
+   "bbox": [
+    860,
+    899,
+    963,
+    935
+   ]
+  },
+  {
+   "text": "the 2nd and 12th houses re-",
+   "bbox": [
+    1012,
+    905,
+    1609,
+    979
+   ]
+  },
+  {
+   "text": "spectively.",
+   "bbox": [
+    1011,
+    963,
+    1230,
+    1016
+   ]
+  },
+  {
+   "text": "इति श्रीवराहमिहिरकृते बृहज्जातके प्रव्रज्यायोगाध्याय: पञ्चदश: 111511",
+   "bbox": [
+    471,
+    1089,
+    1490,
+    1195
+   ]
+  },
+  {
+   "text": "Thus ends the fifteenth chapter on Renunciation in Brihat",
+   "bbox": [
+    436,
+    1169,
+    1598,
+    1285
+   ]
+  },
+  {
+   "text": "Jatak composed by Varahamihira.",
+   "bbox": [
+    356,
+    1227,
+    1056,
+    1305
+   ]
+  }
+ ]
+}

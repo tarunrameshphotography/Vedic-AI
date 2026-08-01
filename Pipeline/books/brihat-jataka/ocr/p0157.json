@@ -1,0 +1,317 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0157",
+ "book_id": "brihat-jataka",
+ "seq": 157,
+ "source_ref": {
+  "pdf_page": 79,
+  "half": "a",
+  "v1_page": "s079a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "995e302eb2a0cfb41d4e547c52e3b8d77a28b4c82f733d28c4cca459bb9eca76",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1230,
+    185,
+    1521,
+    219
+   ]
+  },
+  {
+   "text": "154",
+   "bbox": [
+    308,
+    188,
+    400,
+    220
+   ]
+  },
+  {
+   "text": "<b>Mars and Mercury</b>",
+   "bbox": [
+    304,
+    286,
+    796,
+    327
+   ]
+  },
+  {
+   "text": "लग्ने कुजे क्षततनुर्धनगे कदन्नो",
+   "bbox": [
+    376,
+    364,
+    816,
+    416
+   ]
+  },
+  {
+   "text": "धर्मेऽघवान् दिनकरप्रतिमोऽन्यसंस्थ:।",
+   "bbox": [
+    454,
+    424,
+    963,
+    481
+   ]
+  },
+  {
+   "text": "विद्वान् धनी प्रबलपण्डितमन्त्र्यशत्र-",
+   "bbox": [
+    379,
+    491,
+    887,
+    549
+   ]
+  },
+  {
+   "text": "र्धर्मज्ञविश्नुतगुण: परतोऽर्कवज्ज्ञे।। 611",
+   "bbox": [
+    455,
+    557,
+    995,
+    612
+   ]
+  },
+  {
+   "text": "If Mars occupies the lagna one receives injury in the body.",
+   "bbox": [
+    380,
+    651,
+    1520,
+    699
+   ]
+  },
+  {
+   "text": "If it is in the 2nd one eats coarse grains. If it is in the 9th one",
+   "bbox": [
+    304,
+    707,
+    1520,
+    747
+   ]
+  },
+  {
+   "text": "is sinful. In the rest of the houses Mars gives results like the",
+   "bbox": [
+    252,
+    760,
+    1520,
+    800
+   ]
+  },
+  {
+   "text": "Sun. Mercury in the lagna makes one learned, in the 2nd rich,",
+   "bbox": [
+    267,
+    801,
+    1520,
+    862
+   ]
+  },
+  {
+   "text": "in the 3rd highly wicked, in the 4th learned, in the 5th a",
+   "bbox": [
+    301,
+    863,
+    1522,
+    907
+   ]
+  },
+  {
+   "text": "minister, in the 6th makes one without enemies, in the 7th",
+   "bbox": [
+    301,
+    918,
+    1520,
+    957
+   ]
+  },
+  {
+   "text": "religious, in the 8th house it makes one as given against Sun",
+   "bbox": [
+    301,
+    971,
+    1520,
+    1010
+   ]
+  },
+  {
+   "text": "in these houses.",
+   "bbox": [
+    301,
+    1025,
+    627,
+    1060
+   ]
+  },
+  {
+   "text": "Jupiter",
+   "bbox": [
+    301,
+    1131,
+    504,
+    1170
+   ]
+  },
+  {
+   "text": "विद्वान् सुवाक्य: कृपण: सुखी च धीमानशत्रु: पितृतोऽधिकश्च।",
+   "bbox": [
+    376,
+    1206,
+    1259,
+    1256
+   ]
+  },
+  {
+   "text": "नीचस्तपस्वी सधन: सलाभ: खलश्च जीवे क्रमशो विलग्नात्।। 7।।",
+   "bbox": [
+    376,
+    1270,
+    1346,
+    1320
+   ]
+  },
+  {
+   "text": "Jupiter located in lagna makes one learned, in the 2nd",
+   "bbox": [
+    376,
+    1366,
+    1520,
+    1405
+   ]
+  },
+  {
+   "text": "house, a good speaker, in the 3rd miser, in the 4th happy, in",
+   "bbox": [
+    301,
+    1420,
+    1520,
+    1459
+   ]
+  },
+  {
+   "text": "the 5th intelligent, in the 6th one without enemies. If in the",
+   "bbox": [
+    301,
+    1473,
+    1519,
+    1511
+   ]
+  },
+  {
+   "text": "7th the native exceles his father. If in the 8th engaged in",
+   "bbox": [
+    302,
+    1525,
+    1519,
+    1564
+   ]
+  },
+  {
+   "text": "unbecoming deeds. In the 9th one practices austerities. In the",
+   "bbox": [
+    301,
+    1579,
+    1519,
+    1617
+   ]
+  },
+  {
+   "text": "10th rich. In the 11th one with good income and in the 12th",
+   "bbox": [
+    302,
+    1631,
+    1519,
+    1670
+   ]
+  },
+  {
+   "text": "makes one wicked.",
+   "bbox": [
+    301,
+    1684,
+    677,
+    1719
+   ]
+  },
+  {
+   "text": "<b>Venus</b>",
+   "bbox": [
+    301,
+    1786,
+    468,
+    1825
+   ]
+  },
+  {
+   "text": "स्मरनिपुण: सुखवांश्च विलग्ने प्रियकलहोऽस्तगते सुरतेप्सु:।",
+   "bbox": [
+    373,
+    1865,
+    1214,
+    1917
+   ]
+  },
+  {
+   "text": "तनयगते सुखितो भूगुपुत्रे गुरुवदतोऽन्यगृहे सधनोऽन्त्ये।। 8।।",
+   "bbox": [
+    370,
+    1928,
+    1236,
+    1982
+   ]
+  },
+  {
+   "text": "If Venus occupies the lagna one is adept in sexual matters",
+   "bbox": [
+    376,
+    2027,
+    1519,
+    2065
+   ]
+  },
+  {
+   "text": "and is happy. If in the 7th fond of querrels and sex. If it is in",
+   "bbox": [
+    298,
+    2078,
+    1517,
+    2117
+   ]
+  },
+  {
+   "text": "the 5th one is happy in life. In case of its location in the rest of",
+   "bbox": [
+    297,
+    2130,
+    1519,
+    2168
+   ]
+  },
+  {
+   "text": "the houses the results are as for Jupiter in those houses,",
+   "bbox": [
+    297,
+    2180,
+    1517,
+    2222
+   ]
+  },
+  {
+   "text": "except that Venus in the 12th house makes one rich.",
+   "bbox": [
+    295,
+    2233,
+    1346,
+    2271
+   ]
+  }
+ ]
+}

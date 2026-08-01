@@ -1,0 +1,288 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0055",
+ "book_id": "phaladeepika",
+ "seq": 55,
+ "source_ref": {
+  "pdf_page": 55
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "32193a4cc50133144800e1749067a0914711e27c0b177c7e0f2b255c5f6ed8b0",
+ "lines": [
+  {
+   "text": "<b>Chapter 6</b>",
+   "bbox": [
+    285,
+    57,
+    353,
+    75
+   ]
+  },
+  {
+   "text": "<b>YOGAS</b>",
+   "bbox": [
+    291,
+    85,
+    347,
+    103
+   ]
+  },
+  {
+   "text": "1. If Mars occupies Aries or Scorpio (his own signs), or Capricorn (his sign ",
+   "bbox": [
+    121,
+    137,
+    556,
+    152
+   ]
+  },
+  {
+   "text": "of exaltation), identical with a kendra, the yoga so formed is known as Ruchaka.",
+   "bbox": [
+    85,
+    161,
+    535,
+    176
+   ]
+  },
+  {
+   "text": "If Mercury occupies Gemini (his own sign) or Virgo (his sign of exaltation) ",
+   "bbox": [
+    121,
+    185,
+    556,
+    201
+   ]
+  },
+  {
+   "text": "identical with a kendra, the Yoga so formed is called Bhadra Yoga.",
+   "bbox": [
+    85,
+    209,
+    458,
+    225
+   ]
+  },
+  {
+   "text": "If Jupiter occupies Sagittarius or Pisces (his own sign) or Cancer (his sign of ",
+   "bbox": [
+    121,
+    233,
+    556,
+    249
+   ]
+  },
+  {
+   "text": "exaltation) identical with a kendra, the Yoga arising from such a disposition is ",
+   "bbox": [
+    85,
+    257,
+    556,
+    273
+   ]
+  },
+  {
+   "text": "known as Hamsa Yoga.",
+   "bbox": [
+    85,
+    282,
+    216,
+    297
+   ]
+  },
+  {
+   "text": "If Venus occupies Taurus or Libra (his own sign) or Pisces (his sign of ",
+   "bbox": [
+    121,
+    306,
+    556,
+    321
+   ]
+  },
+  {
+   "text": "exaltation) identical with a kendra, the Yoga so formed is called Malavya Yoga.",
+   "bbox": [
+    85,
+    330,
+    530,
+    345
+   ]
+  },
+  {
+   "text": "If Saturn occupies Capricorn or Aquarius (his own sign) or Libra (his sign of ",
+   "bbox": [
+    121,
+    354,
+    556,
+    370
+   ]
+  },
+  {
+   "text": "exaltation), the Yoga so formed is known as Sasa Yoga.",
+   "bbox": [
+    85,
+    378,
+    395,
+    394
+   ]
+  },
+  {
+   "text": "Nates - These five Yogas have been named as Pancha Mahapurusha Yogas. ",
+   "bbox": [
+    121,
+    402,
+    556,
+    418
+   ]
+  },
+  {
+   "text": "Jataka Parijata has defined these Yogas as under :-",
+   "bbox": [
+    85,
+    427,
+    366,
+    442
+   ]
+  },
+  {
+   "text": "\"According as Mars, Mercury, Jupiter, Venus or Saturn possessing the ",
+   "bbox": [
+    121,
+    451,
+    556,
+    466
+   ]
+  },
+  {
+   "text": "greatest strength and occupying a kendra is in Moolatrikona, Swakshetra or ",
+   "bbox": [
+    85,
+    475,
+    556,
+    490
+   ]
+  },
+  {
+   "text": "Swochcha, the resulting Rajayogas will be named Ruchaka, Bhadra, Hamsa, ",
+   "bbox": [
+    85,
+    499,
+    556,
+    514
+   ]
+  },
+  {
+   "text": "Malavya and Sasa the beautiful\"",
+   "bbox": [
+    85,
+    523,
+    267,
+    539
+   ]
+  },
+  {
+   "text": "According to Saravali \"Venus, Mars, Saturn, Jupiter and Mercury remaining ",
+   "bbox": [
+    121,
+    547,
+    556,
+    563
+   ]
+  },
+  {
+   "text": "in their respective own houses or exaltation signs, identical with kendra cause ",
+   "bbox": [
+    85,
+    571,
+    556,
+    587
+   ]
+  },
+  {
+   "text": "Malavya, Ruchaka, Sasa, Hamsa and Bhadra Yogas respectively\"",
+   "bbox": [
+    85,
+    596,
+    451,
+    611
+   ]
+  },
+  {
+   "text": "But it is imperative that Yogas will give the promised effects only when the ",
+   "bbox": [
+    121,
+    620,
+    556,
+    635
+   ]
+  },
+  {
+   "text": "Lagna or the Moon and the Yoga forming planets are without blemish. In other ",
+   "bbox": [
+    85,
+    644,
+    556,
+    659
+   ]
+  },
+  {
+   "text": "words they are vested with strength and are not associated with or in conjunction ",
+   "bbox": [
+    85,
+    668,
+    556,
+    684
+   ]
+  },
+  {
+   "text": "with malefics, are not combust and not placed between malefics.",
+   "bbox": [
+    85,
+    692,
+    447,
+    708
+   ]
+  },
+  {
+   "text": "As the names of Yogas denote the presons with such Yogas at birth become ",
+   "bbox": [
+    121,
+    716,
+    556,
+    732
+   ]
+  },
+  {
+   "text": "Mahapurushas or illustrious persons. We have also found that the many of the ",
+   "bbox": [
+    85,
+    740,
+    556,
+    756
+   ]
+  },
+  {
+   "text": "noted politicians and administrators had one or more of such yogas present in their ",
+   "bbox": [
+    85,
+    765,
+    556,
+    780
+   ]
+  },
+  {
+   "text": "55",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

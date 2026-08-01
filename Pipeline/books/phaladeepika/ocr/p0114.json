@@ -1,0 +1,90 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0114",
+ "book_id": "phaladeepika",
+ "seq": 114,
+ "source_ref": {
+  "pdf_page": 114
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "0e2361277b199fbe4afae84dcd27dd6a24a102d4a0148443884ce865d11b2dd6",
+ "lines": [
+  {
+   "text": "or navamsa occupied by the lord of the 7th.",
+   "bbox": [
+    85,
+    57,
+    328,
+    73
+   ]
+  },
+  {
+   "text": "15. If the lord of the 7th be posited in his sign of debilitation, be in an ",
+   "bbox": [
+    121,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "inimical sign, be combust or be aspected by a malefic and the 7th house be ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "occupied or aspected by a malefic, there will be loss of wife. So say the men well ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "versed in the science of Astrology.",
+   "bbox": [
+    85,
+    154,
+    278,
+    169
+   ]
+  },
+  {
+   "text": "Thus ends the tenth chapter on \"Kalatra Bhava\" in Phaladeepika composed ",
+   "bbox": [
+    121,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "by Mantreswara.",
+   "bbox": [
+    85,
+    202,
+    180,
+    218
+   ]
+  },
+  {
+   "text": "114",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

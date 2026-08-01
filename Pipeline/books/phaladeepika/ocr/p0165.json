@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0165",
+ "book_id": "phaladeepika",
+ "seq": 165,
+ "source_ref": {
+  "pdf_page": 165
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "2cd3e5efb6e83607a73a2873dd224e0b0dcc69284f328a926106f5c2f8a35d71",
+ "lines": [
+  {
+   "text": "nakshatra, the longitude of the Yamakantaka. When Jupiter passes through in ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "course of his transit, the sign or navamsa indicated by the difference or the trikona ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "position from them, the death of the native's son may take place.",
+   "bbox": [
+    85,
+    106,
+    446,
+    121
+   ]
+  },
+  {
+   "text": "Determination of Native's Death",
+   "bbox": [
+    121,
+    130,
+    303,
+    145
+   ]
+  },
+  {
+   "text": "9. Add the longitudes of the Lagna, the Sun and Mandi. Find out the location ",
+   "bbox": [
+    121,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "of the lord of the sign indicated by the result. When Jupiter in the course of his ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "transit passes through the sign so occupied by such lord or the trikona position ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "from it, the death of the native may take place.",
+   "bbox": [
+    85,
+    226,
+    346,
+    242
+   ]
+  },
+  {
+   "text": "10. Subtract the longitude of Saturn from that of Mars. When Saturn in the ",
+   "bbox": [
+    121,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "course of his transit passes through the sign or navamsa indicated by the difference ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "or the trikona position from them, the death of the native may take place.",
+   "bbox": [
+    85,
+    299,
+    494,
+    314
+   ]
+  },
+  {
+   "text": "Add the longitudes of the five upagrahas reckoned from Dhuma. When ",
+   "bbox": [
+    121,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "Saturn in the course of his transit passes through the particular drekkana or the sign ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "indicated by the aggregate, the death of the native may take place.",
+   "bbox": [
+    85,
+    371,
+    455,
+    387
+   ]
+  },
+  {
+   "text": "11. Add the longitudes of the Lagna and Mandi. The rasi and its navamsa ",
+   "bbox": [
+    121,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "indicated by the aggregate will give clue to the particular month and the portion ",
+   "bbox": [
+    85,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "thereof in a year in which the death of the native may be expected to happen (i.e. ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "When the Sun arrives at this particular sign and the particular navamsa thereof, the ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "person will die).",
+   "bbox": [
+    85,
+    492,
+    176,
+    508
+   ]
+  },
+  {
+   "text": "Add the longitude of Mandi and the Moon. The Moon will be posited in the ",
+   "bbox": [
+    121,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "sign indicated by the aggregate at the time of death.",
+   "bbox": [
+    85,
+    540,
+    374,
+    556
+   ]
+  },
+  {
+   "text": "Add the longitudes of the Lagna, Mandi and the Moon. The sign of the ",
+   "bbox": [
+    121,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "Lagna at the time of death, will be indicated by the sum total of the above three ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "longitudes.",
+   "bbox": [
+    85,
+    613,
+    147,
+    628
+   ]
+  },
+  {
+   "text": "12. Find out the navamsa, the Dwadasmsa and drekkana indicated by the ",
+   "bbox": [
+    121,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "longitude of Mandi. The death of the native takes places when —",
+   "bbox": [
+    85,
+    661,
+    451,
+    677
+   ]
+  },
+  {
+   "text": "(1) Jupiter in course of his transit passes through the above navamsa.",
+   "bbox": [
+    121,
+    685,
+    507,
+    701
+   ]
+  },
+  {
+   "text": "(2) Saturn in course of the transit passes through the above dwadasamsa.",
+   "bbox": [
+    121,
+    709,
+    528,
+    725
+   ]
+  },
+  {
+   "text": "(3) The Sun in course of his transit passes through the above drekkana and ",
+   "bbox": [
+    121,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "the Trikona position from it, and the Lagna is the sign occupied by the lord of the ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "165",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

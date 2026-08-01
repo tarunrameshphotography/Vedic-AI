@@ -1,0 +1,461 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0010",
+ "book_id": "brihat-jataka",
+ "seq": 10,
+ "source_ref": {
+  "pdf_page": 5,
+  "half": "b",
+  "v1_page": "s005b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "59b527e5ebf0dab555125ce7191d8571114019f8805d221e2198dae11217fd72",
+ "lines": [
+  {
+   "text": "vii",
+   "bbox": [
+    1455,
+    273,
+    1514,
+    302
+   ]
+  },
+  {
+   "text": "Contents",
+   "bbox": [
+    312,
+    282,
+    489,
+    315
+   ]
+  },
+  {
+   "text": "School of Jivasarama. Satyacharya's views.",
+   "bbox": [
+    383,
+    374,
+    1240,
+    416
+   ]
+  },
+  {
+   "text": "80",
+   "bbox": [
+    1462,
+    440,
+    1517,
+    473
+   ]
+  },
+  {
+   "text": "8. दशान्तर्दशाध्याय: Ruling & Sub Ruling periods",
+   "bbox": [
+    323,
+    444,
+    1219,
+    486
+   ]
+  },
+  {
+   "text": "Periods and subperiods. The sequence of dasas.",
+   "bbox": [
+    380,
+    493,
+    1369,
+    544
+   ]
+  },
+  {
+   "text": "Results of the various dasas. Naisargika dasas.",
+   "bbox": [
+    386,
+    543,
+    1369,
+    593
+   ]
+  },
+  {
+   "text": "The nature and results of the dasas.",
+   "bbox": [
+    385,
+    595,
+    1107,
+    637
+   ]
+  },
+  {
+   "text": "9. अष्टकवर्गाध्याय: Ashtaka Varga",
+   "bbox": [
+    323,
+    665,
+    952,
+    711
+   ]
+  },
+  {
+   "text": "92",
+   "bbox": [
+    1464,
+    665,
+    1519,
+    698
+   ]
+  },
+  {
+   "text": "Its relation to transits. Contributions of Bindus.",
+   "bbox": [
+    386,
+    721,
+    1369,
+    763
+   ]
+  },
+  {
+   "text": "Their interpretation.",
+   "bbox": [
+    386,
+    778,
+    800,
+    815
+   ]
+  },
+  {
+   "text": "10. कर्माजीवाध्याय: Nature of Profession",
+   "bbox": [
+    311,
+    836,
+    1044,
+    887
+   ]
+  },
+  {
+   "text": "97",
+   "bbox": [
+    1466,
+    841,
+    1518,
+    873
+   ]
+  },
+  {
+   "text": "Profession. Source of livelihood. Inherited wealth.",
+   "bbox": [
+    386,
+    896,
+    1371,
+    940
+   ]
+  },
+  {
+   "text": "Legacies, Various combinations. Varied means.",
+   "bbox": [
+    386,
+    946,
+    1319,
+    993
+   ]
+  },
+  {
+   "text": "11. राजयोगाध्याय: Rajayoga",
+   "bbox": [
+    313,
+    1015,
+    801,
+    1064
+   ]
+  },
+  {
+   "text": "99",
+   "bbox": [
+    1468,
+    1016,
+    1522,
+    1050
+   ]
+  },
+  {
+   "text": "Combinations for power and authority. Kingship.",
+   "bbox": [
+    387,
+    1073,
+    1372,
+    1119
+   ]
+  },
+  {
+   "text": "Political power. Weak Raja yogas. Bandits.",
+   "bbox": [
+    385,
+    1124,
+    1235,
+    1168
+   ]
+  },
+  {
+   "text": "12. नाभस्<i>योगाध्याय</i>: Nabhas Yogas",
+   "bbox": [
+    315,
+    1187,
+    932,
+    1240
+   ]
+  },
+  {
+   "text": "107",
+   "bbox": [
+    1451,
+    1190,
+    1519,
+    1228
+   ]
+  },
+  {
+   "text": "Varieties of Asraya and Akritiyogas, Sankhya",
+   "bbox": [
+    386,
+    1249,
+    1374,
+    1296
+   ]
+  },
+  {
+   "text": "yogas. Comparison with other yogas.",
+   "bbox": [
+    386,
+    1299,
+    1120,
+    1346
+   ]
+  },
+  {
+   "text": "115",
+   "bbox": [
+    1449,
+    1368,
+    1527,
+    1403
+   ]
+  },
+  {
+   "text": "13. चन्द्रयोगाध्याय: Yogas for Moon",
+   "bbox": [
+    316,
+    1370,
+    939,
+    1412
+   ]
+  },
+  {
+   "text": "Lunar positions and conjunctions Adhiyoga.",
+   "bbox": [
+    388,
+    1428,
+    1373,
+    1467
+   ]
+  },
+  {
+   "text": "Sunapha etc. Kemadurma. Navamsa. upachayas.",
+   "bbox": [
+    390,
+    1472,
+    1364,
+    1519
+   ]
+  },
+  {
+   "text": "120",
+   "bbox": [
+    1451,
+    1542,
+    1527,
+    1576
+   ]
+  },
+  {
+   "text": "14. द्विग्रहयोगाध्याय: Combination of Planets",
+   "bbox": [
+    318,
+    1544,
+    1108,
+    1586
+   ]
+  },
+  {
+   "text": "Results of the conjunction of two planets. Conjunc-",
+   "bbox": [
+    388,
+    1602,
+    1373,
+    1641
+   ]
+  },
+  {
+   "text": "tions referring to the Sun, Moon and planets.",
+   "bbox": [
+    390,
+    1647,
+    1293,
+    1694
+   ]
+  },
+  {
+   "text": "123",
+   "bbox": [
+    1452,
+    1719,
+    1529,
+    1754
+   ]
+  },
+  {
+   "text": "15. प्रव्रज्यायोगाध्याय: Renunciation",
+   "bbox": [
+    318,
+    1721,
+    931,
+    1761
+   ]
+  },
+  {
+   "text": "Renunciation. Various kinds of Sanyasa or asceti-",
+   "bbox": [
+    390,
+    1775,
+    1376,
+    1821
+   ]
+  },
+  {
+   "text": "cism. Time of Renunciation.",
+   "bbox": [
+    390,
+    1826,
+    947,
+    1866
+   ]
+  },
+  {
+   "text": "127",
+   "bbox": [
+    1452,
+    1894,
+    1528,
+    1927
+   ]
+  },
+  {
+   "text": "16. नक्षत्राध्याय: Traits of Asterisms",
+   "bbox": [
+    319,
+    1901,
+    964,
+    1936
+   ]
+  },
+  {
+   "text": "Influence of constellations. Mental and physical",
+   "bbox": [
+    389,
+    1949,
+    1379,
+    1995
+   ]
+  },
+  {
+   "text": "characteristics.",
+   "bbox": [
+    391,
+    2005,
+    694,
+    2039
+   ]
+  },
+  {
+   "text": "131",
+   "bbox": [
+    1453,
+    2069,
+    1531,
+    2104
+   ]
+  },
+  {
+   "text": "17. चन्द्रराशिशीलाध्याय: Moon in Different Signs",
+   "bbox": [
+    319,
+    2072,
+    1188,
+    2112
+   ]
+  },
+  {
+   "text": "Effects of the Moon in the various signs.",
+   "bbox": [
+    392,
+    2131,
+    1194,
+    2169
+   ]
+  },
+  {
+   "text": "137",
+   "bbox": [
+    1453,
+    2197,
+    1531,
+    2232
+   ]
+  },
+  {
+   "text": "18. ग्रहराशिशीलाध्याय: Planets in Signs",
+   "bbox": [
+    318,
+    2201,
+    1021,
+    2242
+   ]
+  },
+  {
+   "text": "Effects of the planets in the different signs.",
+   "bbox": [
+    392,
+    2255,
+    1255,
+    2299
+   ]
+  },
+  {
+   "text": "145",
+   "bbox": [
+    1453,
+    2324,
+    1531,
+    2359
+   ]
+  },
+  {
+   "text": "19. दृष्टिफलाध्याय: Aspects on Moon",
+   "bbox": [
+    319,
+    2329,
+    976,
+    2369
+   ]
+  },
+  {
+   "text": "Results of the aspects of the planets. Significance",
+   "bbox": [
+    385,
+    2378,
+    1382,
+    2424
+   ]
+  }
+ ]
+}

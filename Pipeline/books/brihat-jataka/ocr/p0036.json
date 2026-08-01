@@ -1,0 +1,308 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0036",
+ "book_id": "brihat-jataka",
+ "seq": 36,
+ "source_ref": {
+  "pdf_page": 18,
+  "half": "b",
+  "v1_page": "s018b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "2a01e491b046020a7ee6ba77888440ecb4b50002113b4eaae8073822c5c3ea23",
+ "lines": [
+  {
+   "text": "33",
+   "bbox": [
+    1404,
+    198,
+    1458,
+    226
+   ]
+  },
+  {
+   "text": "Planets",
+   "bbox": [
+    259,
+    210,
+    414,
+    245
+   ]
+  },
+  {
+   "text": "ie Moon and Mercury are from the trader class while",
+   "bbox": [
+    333,
+    291,
+    1467,
+    348
+   ]
+  },
+  {
+   "text": "Saturn is shudra. The qualities of Mercury do not go well with",
+   "bbox": [
+    262,
+    341,
+    1466,
+    399
+   ]
+  },
+  {
+   "text": "those of a shudra. We are therefore, inclined to accept",
+   "bbox": [
+    263,
+    392,
+    1470,
+    449
+   ]
+  },
+  {
+   "text": "Parashar as against Varah Mihir.",
+   "bbox": [
+    264,
+    449,
+    933,
+    502
+   ]
+  },
+  {
+   "text": "<b>Traits of Mars and Mercury</b>",
+   "bbox": [
+    263,
+    545,
+    987,
+    595
+   ]
+  },
+  {
+   "text": "विप्रादित: शुक्रगुरू कुजार्को शशी बुधश्चेत्यसितोऽन्त्यजानाम्।",
+   "bbox": [
+    337,
+    612,
+    1192,
+    678
+   ]
+  },
+  {
+   "text": "चन्द्रार्कजीवा ज्ञसितौ कुजार्की यथाक्रमं सत्त्वरजस्तमांसि ।। 7 ।।",
+   "bbox": [
+    337,
+    675,
+    1259,
+    744
+   ]
+  },
+  {
+   "text": "Mars has a fierce glance, is young, is liberal, full of heat,",
+   "bbox": [
+    337,
+    768,
+    1474,
+    826
+   ]
+  },
+  {
+   "text": "very naughty, narrow at the region of the waist. Mercury is",
+   "bbox": [
+    264,
+    818,
+    1476,
+    877
+   ]
+  },
+  {
+   "text": "clever in speech, jocular in spirit, contains all the three",
+   "bbox": [
+    269,
+    867,
+    1473,
+    929
+   ]
+  },
+  {
+   "text": "humours ie wind, bile and phlegm.",
+   "bbox": [
+    270,
+    929,
+    963,
+    975
+   ]
+  },
+  {
+   "text": "<b>Traits of Sun and Moon</b>",
+   "bbox": [
+    270,
+    1026,
+    890,
+    1074
+   ]
+  },
+  {
+   "text": "मधुपिङ्गलदृक्चतुरस्रतनुः पित्तप्रकृतिस्सविताल्पकचः।",
+   "bbox": [
+    342,
+    1104,
+    1088,
+    1159
+   ]
+  },
+  {
+   "text": "तनुवृत्ततनुर्बहुवातकफ: प्राज्ञश्च शशी मृदुवाक्शुभदृक्।। 8 ।।",
+   "bbox": [
+    343,
+    1167,
+    1204,
+    1224
+   ]
+  },
+  {
+   "text": "Sun has eyes of the colour of honey, a broad-square body,",
+   "bbox": [
+    347,
+    1250,
+    1478,
+    1307
+   ]
+  },
+  {
+   "text": "dominant in bile and with scanty hair. The Moon has a weak",
+   "bbox": [
+    274,
+    1299,
+    1483,
+    1359
+   ]
+  },
+  {
+   "text": "body, round in figure, with plenty of phlegm and wind,",
+   "bbox": [
+    274,
+    1351,
+    1481,
+    1411
+   ]
+  },
+  {
+   "text": "learned, gentle in speech and with attractive eyes.",
+   "bbox": [
+    274,
+    1403,
+    1277,
+    1462
+   ]
+  },
+  {
+   "text": "<b>Traits of Jupiter and Venus</b>",
+   "bbox": [
+    275,
+    1508,
+    1003,
+    1560
+   ]
+  },
+  {
+   "text": "क्रूरद्रक्तरुणमूर्तिरुदार: पैत्तिकस्सुचपल: कृशमध्य: ।।",
+   "bbox": [
+    349,
+    1582,
+    1099,
+    1641
+   ]
+  },
+  {
+   "text": "श्लिष्टवाक् सततहास्यरुचिर्ज़: पित्तमारुतकफप्रकृतिश्च।। 9 ।।",
+   "bbox": [
+    350,
+    1644,
+    1227,
+    1704
+   ]
+  },
+  {
+   "text": "Jupiter has a long body, with brown hair and eyes, highly",
+   "bbox": [
+    353,
+    1729,
+    1486,
+    1790
+   ]
+  },
+  {
+   "text": "learned and with a humour of phlegm. Venus is happy and",
+   "bbox": [
+    279,
+    1778,
+    1486,
+    1844
+   ]
+  },
+  {
+   "text": "pleasure loving, handsome, charming in appearance, beautiful",
+   "bbox": [
+    280,
+    1833,
+    1489,
+    1891
+   ]
+  },
+  {
+   "text": "eyes and prone to phlegm and with curly black hair.",
+   "bbox": [
+    280,
+    1885,
+    1320,
+    1944
+   ]
+  },
+  {
+   "text": "<b>Traits of Saturn and others</b>",
+   "bbox": [
+    283,
+    1991,
+    997,
+    2039
+   ]
+  },
+  {
+   "text": "वृहत्तनुः पिङ्गगलमूर्द्धजेक्षणो वृहस्पतिः श्रेष्ठमतिः कफात्मकः।",
+   "bbox": [
+    353,
+    2066,
+    1237,
+    2123
+   ]
+  },
+  {
+   "text": "भृगुस्सुखी कान्तवपुस्सुलोचन: कफानिलात्मासितवक्रमूर्द्धज: ।। 10 ।।",
+   "bbox": [
+    357,
+    2122,
+    1350,
+    2191
+   ]
+  },
+  {
+   "text": "मन्दोऽलस: कपिलदृक् कृशदीर्घगात्र: स्थूलद्विज: परुषरोमकचोऽनिलात्मा।",
+   "bbox": [
+    354,
+    2203,
+    1389,
+    2269
+   ]
+  },
+  {
+   "text": "स्नाय्वस्थ्यसृक्त्वगथ शुक्लवसे च मज्जा मन्दार्कचंद्रबुधशुक्रसुरेडचभौमा: ।।11।।",
+   "bbox": [
+    355,
+    2266,
+    1491,
+    2329
+   ]
+  }
+ ]
+}

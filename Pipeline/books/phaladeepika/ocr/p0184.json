@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0184",
+ "book_id": "phaladeepika",
+ "seq": 184,
+ "source_ref": {
+  "pdf_page": 184
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "a94366f31b1f35b4b82303eb6c705642ff9da33ada559053bea8cb4c0f4f4425",
+ "lines": [
+  {
+   "text": "retrograde. The effects will be adverse if such a planet is inauspiciously disposed, ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "is in his inimical sign, in his sign of debilitation or is eclipsed by the Sun's rays. ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "Now described below are the effects of the planet (lord of a house), who is not well ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "disposed.",
+   "bbox": [
+    85,
+    130,
+    138,
+    145
+   ]
+  },
+  {
+   "text": "15. When the lord of the Lagna is badly placed, the native will be ",
+   "bbox": [
+    121,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "imprisoned during his dasa. He will lead his life in cognito, will suffer fear, ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "diseases and mental anguish, will participate in funeral rites, will incur loss of ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "position and other misfortunes.",
+   "bbox": [
+    85,
+    226,
+    259,
+    242
+   ]
+  },
+  {
+   "text": "If the lord of the 2nd is in a similar position, the person conscemed during ",
+   "bbox": [
+    121,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "his dasa will behave stupidly before an audiance, will not stick to his word or ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "family, write objectionable letters, will suffer from eye troubles, will have a harsh ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "tongue, incur lot of expenditure and will face displeasure of the king.",
+   "bbox": [
+    85,
+    323,
+    472,
+    339
+   ]
+  },
+  {
+   "text": "16. If the lord of the 3rd house be weak, there will be loss of brothers and ",
+   "bbox": [
+    121,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "sisters during his dasa. His work will receive adverse criticism and he will be ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "harassed by secret enemies. The native will suffer from reverse and as a result will ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "be humiliated and lose his pride.",
+   "bbox": [
+    85,
+    420,
+    267,
+    435
+   ]
+  },
+  {
+   "text": "If the lord of the 4th house be weak, during his dasa the mother of the native, ",
+   "bbox": [
+    121,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "his kinsmen and his friends will be distressed. There will be danger of destruction ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "of his house, agricultural lands and cattle and also danger from water.",
+   "bbox": [
+    85,
+    492,
+    474,
+    508
+   ]
+  },
+  {
+   "text": "17. If the lord of the 5th lacks strength and is badly placed, during his dasa, ",
+   "bbox": [
+    121,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "the native will lose a son. He will suffer from aberration of mind, will be a victim ",
+   "bbox": [
+    85,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "of deception and will wander here and there aimlessly. He will suffer from stomach ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "disorders, face wrath or displeasure of king and will feel physicially weak.",
+   "bbox": [
+    85,
+    589,
+    502,
+    604
+   ]
+  },
+  {
+   "text": "During the dasa of the lord of the 6th house who is deficient in strength, ",
+   "bbox": [
+    121,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "there will be danger from thieves. He will face poverty, will be overpowered by ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "others and will suffer from diseases, will receive shabby treatment or indulge in ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "undesirable actions. He will serve others and suffer humiliation and loss of ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "reputation. He will have injuries in his body.",
+   "bbox": [
+    85,
+    709,
+    334,
+    725
+   ]
+  },
+  {
+   "text": "18. If the lord of the 7th be weak, during his dasa, the son-in-law of the ",
+   "bbox": [
+    121,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "native will be in distress. The native will make separation from his wife and ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "184",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

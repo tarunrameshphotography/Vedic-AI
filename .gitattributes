@@ -1,0 +1,36 @@
+# NOTE ON ORDER: in .gitattributes the LAST matching pattern wins. The general
+# default therefore comes first and the byte-exact overrides come last.
+
+# ---------------------------------------------------------------------------
+# Default
+# ---------------------------------------------------------------------------
+* text=auto
+
+*.pdf   binary
+*.png   binary
+*.jpg   binary
+*.se1   binary
+*.dll   binary
+*.so    binary
+*.dylib binary
+
+# Keep diffs of the derived corpus readable in review.
+*.md diff=markdown
+
+# ---------------------------------------------------------------------------
+# Byte-exact paths -- DO NOT let Git normalise these. Must stay last.
+# ---------------------------------------------------------------------------
+# Rule cards cite the corpus by character offset (`char_span`) and by SHA-256 of
+# the quoted text. Those offsets are counted over the file exactly as stored.
+#
+# With EOL normalisation on, a CRLF working copy becomes LF in the repository
+# and LF again on a Linux or macOS checkout -- which shifts every offset in
+# Knowledge/phaladeepika.md by up to 5,969 characters. Verification would fail
+# on every card, and the repository would be usable only on Windows.
+#
+# `-text` disables all EOL conversion, so these files round-trip byte for byte
+# on every platform. This is load-bearing, not cosmetic.
+Knowledge/**                      -text
+Rules/**/*.json                   -text
+Pipeline/books/**/ocr/*.json      -text
+Pipeline/books/**/verified/*.json -text

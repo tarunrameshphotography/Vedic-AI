@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0113",
+ "book_id": "phaladeepika",
+ "seq": 113,
+ "source_ref": {
+  "pdf_page": 113
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "50045cb9063b86f98c62ad489b4b5408fab5e7c888a44c691140ae1bf096e5b6",
+ "lines": [
+  {
+   "text": "If malefics in their signs of debilitation be posited in the 2nd, 7th and 8th, in ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "female's nativity the disposition will make her a widow and in a man's chart, it will ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "render him a widower.",
+   "bbox": [
+    85,
+    106,
+    211,
+    121
+   ]
+  },
+  {
+   "text": "9. If the 7th house from the Ascendant be an even sign and the lord of the ",
+   "bbox": [
+    121,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "7th and Venus be also posited in even signs, and if the lord of the 5th and 7th ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "possessed of strength be not eclisped by Sun's rays, the native will be blessed with ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "wife and children.",
+   "bbox": [
+    85,
+    202,
+    187,
+    218
+   ]
+  },
+  {
+   "text": "10. The native will be happy and will be blessed with wife and children, if ",
+   "bbox": [
+    121,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "the lords of the 2nd, 7th and 12th be posited in kendra or trikona aspected by ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "Jupiter and there be benefics in the 2nd, 7th and 11th to the lord of the 7th ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "wherever he may be.",
+   "bbox": [
+    85,
+    299,
+    202,
+    314
+   ]
+  },
+  {
+   "text": "11. Note the sign and navamsa in male s nativity. The signs in which the ",
+   "bbox": [
+    121,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "lords of the ascendant and 7th are posited, the Janma Rashi (Moon sign) of the ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "wife will be triangular to such sign or navamsa, or it may be the exaltation or ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "depression sign of the lords of the 1st and 7th or it be that sign which contains the ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "largest number of benefic dots in the Moon's Ashtakavarga of the husband.",
+   "bbox": [
+    85,
+    420,
+    504,
+    435
+   ]
+  },
+  {
+   "text": "12. The direction of the country of the wife will be indicated by the sign ",
+   "bbox": [
+    121,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "owned by the strongest of the three planets, namely (1) the planet posited in the 7th ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "house, (2) the lord of the 7th house and (3) Venus.",
+   "bbox": [
+    85,
+    492,
+    366,
+    508
+   ]
+  },
+  {
+   "text": "The marriage of the native should take place when the Venus or the lord of ",
+   "bbox": [
+    121,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "the 7th transits through a sign which is trine to the sign or navamsa occupied by the ",
+   "bbox": [
+    85,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "lord of the ascendant.",
+   "bbox": [
+    85,
+    565,
+    206,
+    580
+   ]
+  },
+  {
+   "text": "13. The marriage is likely to take place during the dasha of the planet (1) ",
+   "bbox": [
+    121,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "occupying the 7th house, (2) which aspects the 7th house or (3) the lord of the 7th ",
+   "bbox": [
+    85,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "house. It can also take place when the lord of the ascendant transits through the ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "sign representing the 7th house.",
+   "bbox": [
+    85,
+    661,
+    263,
+    677
+   ]
+  },
+  {
+   "text": "14. Find out who amongst (1) the lord of the sign in which lord of the 7th is ",
+   "bbox": [
+    121,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "posited and the lord of the navamsa which the lord of the 7th occupies and (2) ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "Venus and Moon, is stronger. The marriage will take place in the dasha of this ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "stronger planet when Jupiter in transit passes through the sign triangular to the sign ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "113",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

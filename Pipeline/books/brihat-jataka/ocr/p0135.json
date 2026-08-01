@@ -1,0 +1,344 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0135",
+ "book_id": "brihat-jataka",
+ "seq": 135,
+ "source_ref": {
+  "pdf_page": 68,
+  "half": "a",
+  "v1_page": "s068a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "1e35c00b13cb7a8f7fce9fd9d1fa9a4cef9134ea875b9fabf9e81028495180a4",
+ "lines": [
+  {
+   "text": "132",
+   "bbox": [
+    340,
+    256,
+    430,
+    289
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1262,
+    257,
+    1551,
+    289
+   ]
+  },
+  {
+   "text": "playfully, has big hips and face. He has mark on his back, face",
+   "bbox": [
+    337,
+    356,
+    1553,
+    396
+   ]
+  },
+  {
+   "text": "or sides. He is capable of renunciation and of bearing troubles,",
+   "bbox": [
+    337,
+    411,
+    1553,
+    449
+   ]
+  },
+  {
+   "text": "has power over others with long neck, has mostly female",
+   "bbox": [
+    337,
+    461,
+    1553,
+    503
+   ]
+  },
+  {
+   "text": "issues, is prone to troubles from phlegm, liable to lose his",
+   "bbox": [
+    335,
+    515,
+    1553,
+    554
+   ]
+  },
+  {
+   "text": "original relatives and sons, is lucky, is of a forgiving nature,",
+   "bbox": [
+    337,
+    568,
+    1551,
+    607
+   ]
+  },
+  {
+   "text": "has good digestive power, is favourite of women, has steadfast",
+   "bbox": [
+    337,
+    621,
+    1554,
+    659
+   ]
+  },
+  {
+   "text": "friends and is happy in youth and old age.",
+   "bbox": [
+    335,
+    672,
+    1180,
+    711
+   ]
+  },
+  {
+   "text": "Moon in Gemini",
+   "bbox": [
+    335,
+    776,
+    757,
+    814
+   ]
+  },
+  {
+   "text": "स्त्रीलोल: सुरतोपचारकुशलस्ताम्रेक्षण: शास्त्रविद्-",
+   "bbox": [
+    407,
+    853,
+    1118,
+    907
+   ]
+  },
+  {
+   "text": "दूत: कुञ्चितमूर्द्धज: पटुमतिर्हास्येङ्गितद्यूतवित्।",
+   "bbox": [
+    406,
+    917,
+    1053,
+    973
+   ]
+  },
+  {
+   "text": "चार्वङ्ग: प्रियवाक् प्रभक्षणरुचिर्गीतप्रियो नृत्यवित्",
+   "bbox": [
+    405,
+    978,
+    1099,
+    1038
+   ]
+  },
+  {
+   "text": "क्लीबैर्याति रतिं समुन्नतनसश्चन्द्रे तृतीयक्षी।। 3 ।।",
+   "bbox": [
+    406,
+    1048,
+    1162,
+    1102
+   ]
+  },
+  {
+   "text": "i.",
+   "bbox": [
+    1525,
+    1057,
+    1550,
+    1083
+   ]
+  },
+  {
+   "text": "One born with Moon in Gemini is fond of women, is effi-",
+   "bbox": [
+    409,
+    1148,
+    1548,
+    1187
+   ]
+  },
+  {
+   "text": "cient in the exercise of the science of sex, has eyes of the colour",
+   "bbox": [
+    331,
+    1198,
+    1551,
+    1240
+   ]
+  },
+  {
+   "text": "of copper, knows the Shastras (Religious literature), is a mes-",
+   "bbox": [
+    331,
+    1252,
+    1550,
+    1292
+   ]
+  },
+  {
+   "text": "senger or an ambassador, has curly hair, has keen intellect, is",
+   "bbox": [
+    331,
+    1306,
+    1551,
+    1345
+   ]
+  },
+  {
+   "text": "jocular in spirit, familiar with gambling, has the capacity to",
+   "bbox": [
+    329,
+    1359,
+    1548,
+    1398
+   ]
+  },
+  {
+   "text": "know other's mind merely from their movements, has beauti-",
+   "bbox": [
+    331,
+    1411,
+    1550,
+    1449
+   ]
+  },
+  {
+   "text": "ful body, talks sweetly, interested in eating much, is lover of",
+   "bbox": [
+    329,
+    1463,
+    1553,
+    1502
+   ]
+  },
+  {
+   "text": "music and knows dancing, likes the company of eunuchs and",
+   "bbox": [
+    331,
+    1516,
+    1550,
+    1555
+   ]
+  },
+  {
+   "text": "has raised nostrils.",
+   "bbox": [
+    331,
+    1568,
+    716,
+    1603
+   ]
+  },
+  {
+   "text": "<b>Moon in Cancer</b>",
+   "bbox": [
+    329,
+    1671,
+    753,
+    1709
+   ]
+  },
+  {
+   "text": "आवक्रद्रुतगः समुन्नतकटिः स्त्रीनिर्जितः सत्सुहृद्",
+   "bbox": [
+    403,
+    1750,
+    1096,
+    1803
+   ]
+  },
+  {
+   "text": "दैवज्ञः प्रचुरालयः क्षयधनैः संयुज्यते चन्द्रवत्।",
+   "bbox": [
+    401,
+    1812,
+    1063,
+    1866
+   ]
+  },
+  {
+   "text": "ह्रस्व: पीनगल: समेति च वशं साम्ना सुहृद्वत्सल-",
+   "bbox": [
+    401,
+    1880,
+    1126,
+    1932
+   ]
+  },
+  {
+   "text": "स्तोयोद्यानरत: स्ववेश्मसहिते जात: शशाङ्के नर:।। 4 ।।",
+   "bbox": [
+    401,
+    1946,
+    1218,
+    1997
+   ]
+  },
+  {
+   "text": "One born with Moon in Cancer walks very quickly and in",
+   "bbox": [
+    403,
+    2038,
+    1547,
+    2085
+   ]
+  },
+  {
+   "text": "a zigzag way, has a raised waist, is influenced by women, has",
+   "bbox": [
+    325,
+    2095,
+    1547,
+    2135
+   ]
+  },
+  {
+   "text": "true friends, has knowledge of fate (is an Astrologer). Has",
+   "bbox": [
+    325,
+    2148,
+    1547,
+    2187
+   ]
+  },
+  {
+   "text": "many houses (Residences). Sees financial ups and downs like",
+   "bbox": [
+    325,
+    2201,
+    1547,
+    2240
+   ]
+  },
+  {
+   "text": "the Moon. Possesses a small body with thick neck. Can be won",
+   "bbox": [
+    325,
+    2254,
+    1547,
+    2293
+   ]
+  },
+  {
+   "text": "over by persuation. Is beloved of friends and frequently visits",
+   "bbox": [
+    325,
+    2307,
+    1548,
+    2345
+   ]
+  },
+  {
+   "text": "watery places and orchards.",
+   "bbox": [
+    325,
+    2359,
+    890,
+    2397
+   ]
+  }
+ ]
+}

@@ -1,0 +1,353 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0127",
+ "book_id": "brihat-jataka",
+ "seq": 127,
+ "source_ref": {
+  "pdf_page": 64,
+  "half": "a",
+  "v1_page": "s064a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "6712d61a2857a0e94ad9f86660c00d894e6fdaf2494952cf0427499e5cb3c006",
+ "lines": [
+  {
+   "text": "124",
+   "bbox": [
+    396,
+    198,
+    485,
+    232
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1316,
+    234,
+    1611,
+    282
+   ]
+  },
+  {
+   "text": "If the otherwise strong planet is combust the man will be",
+   "bbox": [
+    457,
+    298,
+    1608,
+    394
+   ]
+  },
+  {
+   "text": "a sanyasin without being properly initiated into it by a Guru.",
+   "bbox": [
+    380,
+    344,
+    1608,
+    446
+   ]
+  },
+  {
+   "text": "He will, of course, be attached to the school of thought con-",
+   "bbox": [
+    378,
+    396,
+    1604,
+    496
+   ]
+  },
+  {
+   "text": "cerned. The planet causing sanyas is defeated in war or in",
+   "bbox": [
+    375,
+    449,
+    1602,
+    548
+   ]
+  },
+  {
+   "text": "badly aspected, he is desirous of getting initiation but does not",
+   "bbox": [
+    374,
+    500,
+    1602,
+    602
+   ]
+  },
+  {
+   "text": "actually get it. Initiation is acquired in the dasa, bhukti of the",
+   "bbox": [
+    372,
+    552,
+    1598,
+    654
+   ]
+  },
+  {
+   "text": "strongest planet.",
+   "bbox": [
+    369,
+    606,
+    712,
+    666
+   ]
+  },
+  {
+   "text": "जन्मेशोऽन्यैर्यद्यदृष्टोऽर्कपुत्रं पश्यत्यार्किर्जन्मपं वा बलोनम्।।",
+   "bbox": [
+    438,
+    684,
+    1283,
+    778
+   ]
+  },
+  {
+   "text": "दीक्षां प्राप्नोत्याकिंद्रेष्काणसंस्थे भौमार्क्यशे सौरदृष्टे च चन्द्रे।। 3 ।।",
+   "bbox": [
+    436,
+    745,
+    1420,
+    849
+   ]
+  },
+  {
+   "text": "If the Lord of the sign occupied by Moon (Also Moon herself",
+   "bbox": [
+    431,
+    844,
+    1590,
+    941
+   ]
+  },
+  {
+   "text": "by implication) is not aspected by any planet, is near and is",
+   "bbox": [
+    355,
+    892,
+    1583,
+    994
+   ]
+  },
+  {
+   "text": "aspected by Saturn alone then also sanyas yoga will be consid-",
+   "bbox": [
+    354,
+    943,
+    1580,
+    1047
+   ]
+  },
+  {
+   "text": "ered to have been contituted. If Moon is located in the decante",
+   "bbox": [
+    349,
+    996,
+    1577,
+    1096
+   ]
+  },
+  {
+   "text": "of Saturn and in the navamsa of Saturn or Mars and is",
+   "bbox": [
+    349,
+    1047,
+    1574,
+    1151
+   ]
+  },
+  {
+   "text": "aspected (or influenced) by Saturn alone, then also the yoga for",
+   "bbox": [
+    347,
+    1101,
+    1573,
+    1204
+   ]
+  },
+  {
+   "text": "Sanyas is caused.",
+   "bbox": [
+    346,
+    1157,
+    701,
+    1215
+   ]
+  },
+  {
+   "text": "सुरगुरुशशिहोरास्वाकिंदृष्टासु धर्मे",
+   "bbox": [
+    415,
+    1238,
+    903,
+    1308
+   ]
+  },
+  {
+   "text": "गुरुरथ नृपतीनां योगजस्तीर्थकृत्स्यात्।",
+   "bbox": [
+    412,
+    1300,
+    948,
+    1377
+   ]
+  },
+  {
+   "text": "नवमभवनसंस्थे मन्दगेऽन्यैरदुष्टे",
+   "bbox": [
+    409,
+    1363,
+    865,
+    1438
+   ]
+  },
+  {
+   "text": "भवति नरपयोगे दीक्षित: पार्थिवेन्द्र: ।। 4 ।।",
+   "bbox": [
+    407,
+    1429,
+    1046,
+    1511
+   ]
+  },
+  {
+   "text": "If Jupiter, Moon and the ascendant are aspected by Sat-",
+   "bbox": [
+    401,
+    1523,
+    1555,
+    1622
+   ]
+  },
+  {
+   "text": "urn, Jupiter occupies the 9th house, the man will take to",
+   "bbox": [
+    325,
+    1570,
+    1551,
+    1675
+   ]
+  },
+  {
+   "text": "sanyas even when there is rajayoga in horoscope making him",
+   "bbox": [
+    320,
+    1622,
+    1549,
+    1727
+   ]
+  },
+  {
+   "text": "a king. He will visit holy places instead. If Saturn occupies the",
+   "bbox": [
+    319,
+    1674,
+    1545,
+    1779
+   ]
+  },
+  {
+   "text": "9th house unaspected by any planet, a king will get into",
+   "bbox": [
+    318,
+    1726,
+    1544,
+    1832
+   ]
+  },
+  {
+   "text": "sanyas, retaining his kingly things (such as in the case of a",
+   "bbox": [
+    313,
+    1778,
+    1541,
+    1885
+   ]
+  },
+  {
+   "text": "mahant or a mahamandaleshwar). In the absence of a rajayoga",
+   "bbox": [
+    312,
+    1831,
+    1539,
+    1938
+   ]
+  },
+  {
+   "text": "the sanyas yoga will, of course, be fully effective.",
+   "bbox": [
+    309,
+    1883,
+    1292,
+    1978
+   ]
+  },
+  {
+   "text": "Commentary: Considering the problem of sanyas from a",
+   "bbox": [
+    380,
+    1966,
+    1532,
+    2067
+   ]
+  },
+  {
+   "text": "common sense point of view it is essential that a man must",
+   "bbox": [
+    302,
+    2013,
+    1532,
+    2120
+   ]
+  },
+  {
+   "text": "leave his home and hearth for a sanyaşin's life. Yet another",
+   "bbox": [
+    300,
+    2066,
+    1528,
+    2172
+   ]
+  },
+  {
+   "text": "essential requirement and one that makes a real sanyasin is",
+   "bbox": [
+    296,
+    2118,
+    1525,
+    2224
+   ]
+  },
+  {
+   "text": "that he should have vairagya ie dispassion. The question of",
+   "bbox": [
+    296,
+    2170,
+    1526,
+    2277
+   ]
+  },
+  {
+   "text": "dispassion has been elaborately dealt with in the above",
+   "bbox": [
+    291,
+    2224,
+    1520,
+    2326
+   ]
+  },
+  {
+   "text": "shlokas. The most essential feature necessary in this regard",
+   "bbox": [
+    291,
+    2273,
+    1517,
+    2381
+   ]
+  }
+ ]
+}

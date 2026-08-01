@@ -1,0 +1,353 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0088",
+ "book_id": "brihat-jataka",
+ "seq": 88,
+ "source_ref": {
+  "pdf_page": 44,
+  "half": "b",
+  "v1_page": "s044b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "7a474a31d76d18e937c53a2596ab0349014b1ec00188208a28fbf546b5db9c51",
+ "lines": [
+  {
+   "text": "85",
+   "bbox": [
+    1394,
+    171,
+    1457,
+    204
+   ]
+  },
+  {
+   "text": "Ruling and Sub Ruling Periods",
+   "bbox": [
+    247,
+    185,
+    886,
+    244
+   ]
+  },
+  {
+   "text": "Natural Dasa",
+   "bbox": [
+    253,
+    293,
+    607,
+    343
+   ]
+  },
+  {
+   "text": "एकं द्वे नव विंशतिर्धृतिकृती पञ्चाशदेषां क्रमा-",
+   "bbox": [
+    326,
+    363,
+    995,
+    431
+   ]
+  },
+  {
+   "text": "च्चन्द्रारेन्दुजशुक्रजीवदिनकृद्दैवाकरीणां समा:।",
+   "bbox": [
+    326,
+    421,
+    994,
+    501
+   ]
+  },
+  {
+   "text": "स्वे स्वे पुष्टफला निसर्गजनिता पक्तिर्दशाया: क्रमा-",
+   "bbox": [
+    327,
+    486,
+    1085,
+    565
+   ]
+  },
+  {
+   "text": "दन्त्ये लग्नदशा शुभेति यवनानेच्छन्ति केचित्तथा।। 9।।",
+   "bbox": [
+    330,
+    554,
+    1127,
+    631
+   ]
+  },
+  {
+   "text": "The first year of life is governed by the influence of Moon",
+   "bbox": [
+    336,
+    638,
+    1475,
+    715
+   ]
+  },
+  {
+   "text": "under the natural dasa system (ie a system which has no",
+   "bbox": [
+    260,
+    690,
+    1475,
+    772
+   ]
+  },
+  {
+   "text": "reference to the position of Moon at birth and the fixed periods",
+   "bbox": [
+    261,
+    744,
+    1478,
+    823
+   ]
+  },
+  {
+   "text": "of life are governed by fixed planets), the next two years ie",
+   "bbox": [
+    263,
+    796,
+    1480,
+    877
+   ]
+  },
+  {
+   "text": "from 2nd to 3rd are governed by Mars. The next 9 ie from 4th",
+   "bbox": [
+    263,
+    848,
+    1480,
+    931
+   ]
+  },
+  {
+   "text": "to 12th by Mercury. The next 20 years ie from 13th to 32nd by",
+   "bbox": [
+    267,
+    902,
+    1480,
+    982
+   ]
+  },
+  {
+   "text": "Venus, the next 18 ie 33rd to 50th by Jupiter, the next 20 years",
+   "bbox": [
+    268,
+    956,
+    1481,
+    1035
+   ]
+  },
+  {
+   "text": "ie from 51st to 70 by Sun. Thereafter 50 years ie 71st to 120 are",
+   "bbox": [
+    268,
+    1010,
+    1484,
+    1089
+   ]
+  },
+  {
+   "text": "governed by Saturn. If the dasa of a planet is running in the",
+   "bbox": [
+    268,
+    1063,
+    1486,
+    1143
+   ]
+  },
+  {
+   "text": "system previously explained at a particular age and that age",
+   "bbox": [
+    272,
+    1116,
+    1487,
+    1196
+   ]
+  },
+  {
+   "text": "happens to belong under this natural dasa system also to the",
+   "bbox": [
+    273,
+    1169,
+    1487,
+    1247
+   ]
+  },
+  {
+   "text": "same planet, then the results of the dasa get firm and en-",
+   "bbox": [
+    274,
+    1223,
+    1490,
+    1299
+   ]
+  },
+  {
+   "text": "hanced.",
+   "bbox": [
+    275,
+    1304,
+    440,
+    1346
+   ]
+  },
+  {
+   "text": "After the lapse of 120 years (the total number",
+   "bbox": [
+    456,
+    1352,
+    1494,
+    1426
+   ]
+  },
+  {
+   "text": "(ii)",
+   "bbox": [
+    353,
+    1389,
+    420,
+    1419
+   ]
+  },
+  {
+   "text": "under this system) the dasa of lagna prevails. This is",
+   "bbox": [
+    275,
+    1406,
+    1494,
+    1482
+   ]
+  },
+  {
+   "text": "the opinion of Yavanacharya which is not subscribed to",
+   "bbox": [
+    280,
+    1459,
+    1494,
+    1534
+   ]
+  },
+  {
+   "text": "by many.",
+   "bbox": [
+    281,
+    1543,
+    474,
+    1584
+   ]
+  },
+  {
+   "text": "पाकस्वामिनि लग्नगे सुहृदि वा वर्गेऽस्य सौम्येऽपि वा",
+   "bbox": [
+    353,
+    1595,
+    1127,
+    1674
+   ]
+  },
+  {
+   "text": "प्रारब्धा शुभदा दशा त्रिदशपड्लाभेषु वा पाकपे।।",
+   "bbox": [
+    355,
+    1663,
+    1070,
+    1736
+   ]
+  },
+  {
+   "text": "मित्रोच्चोपचयत्रिकोणमदगः पाकेश्वरस्य स्थित-",
+   "bbox": [
+    358,
+    1730,
+    1028,
+    1796
+   ]
+  },
+  {
+   "text": "श्वन्द्र: सत्फलबोधनानि कुरुते पापानि चातोऽन्यथा।। 10।।",
+   "bbox": [
+    359,
+    1792,
+    1191,
+    1869
+   ]
+  },
+  {
+   "text": "If a planet having its sub-period is located in the lagna,",
+   "bbox": [
+    361,
+    1876,
+    1508,
+    1955
+   ]
+  },
+  {
+   "text": "in a friendly sign, or in a benefic varga (decanate, navamsha",
+   "bbox": [
+    286,
+    1929,
+    1508,
+    2009
+   ]
+  },
+  {
+   "text": "etc) it gives nice results in that sub-period. The results",
+   "bbox": [
+    290,
+    1984,
+    1511,
+    2060
+   ]
+  },
+  {
+   "text": "will also be nice if the sub-period lord is located in 3rd,",
+   "bbox": [
+    291,
+    2034,
+    1511,
+    2115
+   ]
+  },
+  {
+   "text": "6th, 10th or 11th from the planet having its main dasa.",
+   "bbox": [
+    291,
+    2087,
+    1511,
+    2167
+   ]
+  },
+  {
+   "text": "Moon gives results if she is located in a sign that is 3, 5, 6, 7,",
+   "bbox": [
+    291,
+    2142,
+    1512,
+    2217
+   ]
+  },
+  {
+   "text": "9, 10 or 11th from the main dasa lord or is located in a sign",
+   "bbox": [
+    291,
+    2193,
+    1515,
+    2271
+   ]
+  },
+  {
+   "text": "that is friendly or exhaltation sign for the main dasa lord.",
+   "bbox": [
+    291,
+    2247,
+    1515,
+    2323
+   ]
+  }
+ ]
+}

@@ -1,0 +1,353 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0057",
+ "book_id": "brihat-jataka",
+ "seq": 57,
+ "source_ref": {
+  "pdf_page": 29,
+  "half": "a",
+  "v1_page": "s029a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "d53741a3937658d5c40a4aa3292cd4734e3d2f3997d0a77582c562a893877e0a",
+ "lines": [
+  {
+   "text": "54",
+   "bbox": [
+    283,
+    202,
+    350,
+    235
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1204,
+    202,
+    1499,
+    235
+   ]
+  },
+  {
+   "text": "When in the conception chart Mars and Saturn occupy the",
+   "bbox": [
+    359,
+    305,
+    1500,
+    343
+   ]
+  },
+  {
+   "text": "sign of Mercury and also occupy the navamsha of Mercury, the",
+   "bbox": [
+    283,
+    357,
+    1499,
+    396
+   ]
+  },
+  {
+   "text": "person born will have teeth from very birth.",
+   "bbox": [
+    283,
+    409,
+    1158,
+    448
+   ]
+  },
+  {
+   "text": "If Moon occupies Cancer in the ascendant and is",
+   "bbox": [
+    451,
+    487,
+    1499,
+    526
+   ]
+  },
+  {
+   "text": "(ii)",
+   "bbox": [
+    357,
+    490,
+    448,
+    520
+   ]
+  },
+  {
+   "text": "aspected by both Mars and Saturn one becomes hunch backed",
+   "bbox": [
+    283,
+    539,
+    1499,
+    578
+   ]
+  },
+  {
+   "text": "(Moon, in lagna sign of chest heavily afflicted turns the chest",
+   "bbox": [
+    283,
+    592,
+    1500,
+    632
+   ]
+  },
+  {
+   "text": "and back out of shape).",
+   "bbox": [
+    283,
+    643,
+    746,
+    683
+   ]
+  },
+  {
+   "text": "<i>(iii)</i> If the sign Pisces is in lagna aspected by Saturn, Moon",
+   "bbox": [
+    355,
+    724,
+    1500,
+    762
+   ]
+  },
+  {
+   "text": "and Mars, the man becomes lame. Pisces in lagna stresses feet.",
+   "bbox": [
+    280,
+    775,
+    1496,
+    814
+   ]
+  },
+  {
+   "text": "The heavy malefic influence of Mars and Saturn on the 12th",
+   "bbox": [
+    281,
+    828,
+    1499,
+    867
+   ]
+  },
+  {
+   "text": "part of the body and on Saturn would cause trouble in legs and",
+   "bbox": [
+    281,
+    881,
+    1497,
+    920
+   ]
+  },
+  {
+   "text": "feet.",
+   "bbox": [
+    278,
+    933,
+    373,
+    968
+   ]
+  },
+  {
+   "text": "<math>(iv)</math> If malefics occupy sandhies (see shloka No. 17) as also",
+   "bbox": [
+    355,
+    1013,
+    1499,
+    1052
+   ]
+  },
+  {
+   "text": "Moon, the native is dull headed (Moon as lagna ie as brain will",
+   "bbox": [
+    280,
+    1065,
+    1499,
+    1104
+   ]
+  },
+  {
+   "text": "be powerless).",
+   "bbox": [
+    280,
+    1118,
+    560,
+    1156
+   ]
+  },
+  {
+   "text": "If there is Capricorn as the ascendant with its last",
+   "bbox": [
+    353,
+    1187,
+    1498,
+    1237
+   ]
+  },
+  {
+   "text": "navamsha rising and if this lagna is aspected by Saturn, Moon",
+   "bbox": [
+    278,
+    1247,
+    1496,
+    1287
+   ]
+  },
+  {
+   "text": "and Sun the man is dwarf sized. If the decantes in the 5th,",
+   "bbox": [
+    278,
+    1301,
+    1495,
+    1339
+   ]
+  },
+  {
+   "text": "9th and the 1st houses are associated with malefic planets",
+   "bbox": [
+    278,
+    1353,
+    1496,
+    1392
+   ]
+  },
+  {
+   "text": "then the person born will be devoid of arms, feet or head",
+   "bbox": [
+    277,
+    1403,
+    1496,
+    1447
+   ]
+  },
+  {
+   "text": "according as the trine afflicted is 5th, 9th or the 1st respec-",
+   "bbox": [
+    277,
+    1459,
+    1493,
+    1498
+   ]
+  },
+  {
+   "text": "tively.",
+   "bbox": [
+    276,
+    1511,
+    406,
+    1549
+   ]
+  },
+  {
+   "text": "<b>Blindness</b>",
+   "bbox": [
+    278,
+    1613,
+    539,
+    1652
+   ]
+  },
+  {
+   "text": "सौरशशाङ्कदिवाकरदृष्टे वामनको मकरान्त्यविलग्ने।",
+   "bbox": [
+    347,
+    1692,
+    1079,
+    1745
+   ]
+  },
+  {
+   "text": "धीनवमोदयगैश्च दुकाणै: पापयुतैरभुजाङ्घ्रिशिरा: स्यात्।। 19।।",
+   "bbox": [
+    347,
+    1755,
+    1247,
+    1810
+   ]
+  },
+  {
+   "text": "If in the Leo ascendant there are Sun and Moon aspected",
+   "bbox": [
+    349,
+    1855,
+    1496,
+    1894
+   ]
+  },
+  {
+   "text": "by Saturn and Mars, the person born is blind (due to the",
+   "bbox": [
+    274,
+    1907,
+    1493,
+    1947
+   ]
+  },
+  {
+   "text": "affliction of 3 factors standing for eyes ie lagna Sun and Moon).",
+   "bbox": [
+    274,
+    1959,
+    1493,
+    1999
+   ]
+  },
+  {
+   "text": "If in such a case there is influence on the lagna of both benefic",
+   "bbox": [
+    273,
+    2010,
+    1493,
+    2052
+   ]
+  },
+  {
+   "text": "and malefic planets the eyes are small somewhat and closed.",
+   "bbox": [
+    273,
+    2064,
+    1493,
+    2104
+   ]
+  },
+  {
+   "text": "Moon in the 12th house, heavily afflicted causes loss of the left",
+   "bbox": [
+    272,
+    2115,
+    1495,
+    2159
+   ]
+  },
+  {
+   "text": "eye (as the factors afflicted viz the 12th house and Moon both",
+   "bbox": [
+    273,
+    2169,
+    1493,
+    2209
+   ]
+  },
+  {
+   "text": "represent the left eye). If Sun is in the 12th house heavily",
+   "bbox": [
+    273,
+    2221,
+    1495,
+    2263
+   ]
+  },
+  {
+   "text": "afflicted, it causes loss of the right eye (Sun is right eye). If in",
+   "bbox": [
+    273,
+    2276,
+    1496,
+    2315
+   ]
+  }
+ ]
+}

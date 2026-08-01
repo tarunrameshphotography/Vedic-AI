@@ -1,0 +1,461 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0016",
+ "book_id": "brihat-jataka",
+ "seq": 16,
+ "source_ref": {
+  "pdf_page": 8,
+  "half": "b",
+  "v1_page": "s008b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "504f84749b8ec92eb7fff16c2fab66dcaeb326986dda08f24fe43a2057191791",
+ "lines": [
+  {
+   "text": "13",
+   "bbox": [
+    1455,
+    192,
+    1509,
+    222
+   ]
+  },
+  {
+   "text": "On Signs",
+   "bbox": [
+    297,
+    202,
+    491,
+    242
+   ]
+  },
+  {
+   "text": "Mars is lord of Aries, Venus that of Taurus, Mercury of",
+   "bbox": [
+    373,
+    289,
+    1520,
+    347
+   ]
+  },
+  {
+   "text": "Gemini, Moon of Cancer, Sun of Leo, Mercury of Virgo, Venus",
+   "bbox": [
+    302,
+    342,
+    1517,
+    399
+   ]
+  },
+  {
+   "text": "of Libra, Mars of Scorpio, Jupiter of Sagittarius, Saturn of",
+   "bbox": [
+    302,
+    395,
+    1521,
+    451
+   ]
+  },
+  {
+   "text": "Capricorn, Saturn again of Acquarius and Jupiter of Pisces.",
+   "bbox": [
+    302,
+    446,
+    1516,
+    505
+   ]
+  },
+  {
+   "text": "The Navamsa (1/9th part of sign) lords in the signs follow the",
+   "bbox": [
+    300,
+    499,
+    1516,
+    557
+   ]
+  },
+  {
+   "text": "order of the signs ie the lord of the first navamsa in the sign",
+   "bbox": [
+    303,
+    553,
+    1518,
+    608
+   ]
+  },
+  {
+   "text": "Aries belongs to the sign Aries itself, the second belongs to",
+   "bbox": [
+    303,
+    605,
+    1517,
+    661
+   ]
+  },
+  {
+   "text": "Taurus, the 3rd to Gemini (Mercury), the 4th to Cancer, the",
+   "bbox": [
+    303,
+    657,
+    1519,
+    715
+   ]
+  },
+  {
+   "text": "5th to Leo, the 6th to Virgo, the 7th to Libra, the 8th to Scorpio,",
+   "bbox": [
+    303,
+    710,
+    1521,
+    767
+   ]
+  },
+  {
+   "text": "the 9th to Sagittarius, the Ist Navamsa of Taurus will then",
+   "bbox": [
+    304,
+    762,
+    1518,
+    820
+   ]
+  },
+  {
+   "text": "belong to Capricorn, the 2nd in the sign Taurus will belong to",
+   "bbox": [
+    303,
+    815,
+    1518,
+    872
+   ]
+  },
+  {
+   "text": "Acquarius, the 3rd to Pisces, the fourth again to Aries and so",
+   "bbox": [
+    303,
+    866,
+    1519,
+    927
+   ]
+  },
+  {
+   "text": "on. Thus the first Navamsas in the signs Aries, Cancer, Libra",
+   "bbox": [
+    304,
+    922,
+    1521,
+    976
+   ]
+  },
+  {
+   "text": "and Capricorn will belong to Aries Cancer, Libra and Capri-",
+   "bbox": [
+    305,
+    974,
+    1520,
+    1029
+   ]
+  },
+  {
+   "text": "corn themselves. The lord of the Dwadashamshas ie 1/12th",
+   "bbox": [
+    305,
+    1026,
+    1523,
+    1079
+   ]
+  },
+  {
+   "text": "parts of signs also follow the order of signs. Thus the first",
+   "bbox": [
+    305,
+    1078,
+    1524,
+    1137
+   ]
+  },
+  {
+   "text": "Dwadashamsha consisting of 2 degrees and 30 minutes in",
+   "bbox": [
+    304,
+    1130,
+    1523,
+    1192
+   ]
+  },
+  {
+   "text": "Aries will belong to Aries. The next one ie from 2-30' and 5-0'",
+   "bbox": [
+    304,
+    1182,
+    1523,
+    1241
+   ]
+  },
+  {
+   "text": "will belong to Taurus and so on.",
+   "bbox": [
+    307,
+    1245,
+    951,
+    1293
+   ]
+  },
+  {
+   "text": "Note: The signs Aries to Pisces are represented by digits 1",
+   "bbox": [
+    379,
+    1315,
+    1524,
+    1370
+   ]
+  },
+  {
+   "text": "to 12 respectively as shown below alongwith their lords:",
+   "bbox": [
+    305,
+    1367,
+    1427,
+    1426
+   ]
+  },
+  {
+   "text": "Lord of Signs & Dwadashamshas",
+   "bbox": [
+    721,
+    1446,
+    1407,
+    1499
+   ]
+  },
+  {
+   "text": "<b>Signs</b>",
+   "bbox": [
+    402,
+    1461,
+    524,
+    1501
+   ]
+  },
+  {
+   "text": "Mars",
+   "bbox": [
+    985,
+    1534,
+    1098,
+    1569
+   ]
+  },
+  {
+   "text": "Venus",
+   "bbox": [
+    989,
+    1595,
+    1119,
+    1629
+   ]
+  },
+  {
+   "text": "2",
+   "bbox": [
+    451,
+    1602,
+    478,
+    1634
+   ]
+  },
+  {
+   "text": "Mercury",
+   "bbox": [
+    986,
+    1657,
+    1164,
+    1694
+   ]
+  },
+  {
+   "text": "3",
+   "bbox": [
+    449,
+    1663,
+    479,
+    1696
+   ]
+  },
+  {
+   "text": "Moon",
+   "bbox": [
+    986,
+    1716,
+    1105,
+    1751
+   ]
+  },
+  {
+   "text": "Sun",
+   "bbox": [
+    986,
+    1779,
+    1079,
+    1814
+   ]
+  },
+  {
+   "text": "5",
+   "bbox": [
+    451,
+    1787,
+    479,
+    1820
+   ]
+  },
+  {
+   "text": "Mercury",
+   "bbox": [
+    986,
+    1840,
+    1165,
+    1877
+   ]
+  },
+  {
+   "text": "6",
+   "bbox": [
+    451,
+    1847,
+    481,
+    1880
+   ]
+  },
+  {
+   "text": "Venus",
+   "bbox": [
+    989,
+    1899,
+    1121,
+    1934
+   ]
+  },
+  {
+   "text": "7",
+   "bbox": [
+    454,
+    1906,
+    478,
+    1936
+   ]
+  },
+  {
+   "text": "Mars",
+   "bbox": [
+    988,
+    1960,
+    1102,
+    1996
+   ]
+  },
+  {
+   "text": "8",
+   "bbox": [
+    451,
+    1968,
+    481,
+    2002
+   ]
+  },
+  {
+   "text": "Jupiter",
+   "bbox": [
+    988,
+    2022,
+    1141,
+    2061
+   ]
+  },
+  {
+   "text": "9",
+   "bbox": [
+    451,
+    2027,
+    482,
+    2061
+   ]
+  },
+  {
+   "text": "图4.0",
+   "bbox": [
+    69,
+    2034,
+    130,
+    2053
+   ]
+  },
+  {
+   "text": "Saturn",
+   "bbox": [
+    991,
+    2083,
+    1136,
+    2119
+   ]
+  },
+  {
+   "text": "10",
+   "bbox": [
+    442,
+    2089,
+    495,
+    2126
+   ]
+  },
+  {
+   "text": "Saturn",
+   "bbox": [
+    991,
+    2145,
+    1136,
+    2179
+   ]
+  },
+  {
+   "text": "11",
+   "bbox": [
+    442,
+    2149,
+    495,
+    2186
+   ]
+  },
+  {
+   "text": "Jupiter",
+   "bbox": [
+    991,
+    2204,
+    1166,
+    2243
+   ]
+  },
+  {
+   "text": "12",
+   "bbox": [
+    444,
+    2211,
+    499,
+    2248
+   ]
+  },
+  {
+   "text": "(ii) An easy method to find out the Navamsa sign of any",
+   "bbox": [
+    386,
+    2273,
+    1534,
+    2329
+   ]
+  }
+ ]
+}

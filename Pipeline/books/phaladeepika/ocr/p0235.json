@@ -1,0 +1,1143 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0235",
+ "book_id": "phaladeepika",
+ "seq": 235,
+ "source_ref": {
+  "pdf_page": 235
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "e3567c774382d51563fc2285957cc3eeb90c4b40bcb772b8cf1efce53fd161ce",
+ "lines": [
+  {
+   "text": "(1) The first view is that amongst the three signs deduct the figure of least ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "number of bindus in a sign from the figures of bindus of the other two signs. In the ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "Sun's Ashtakavarga Aries has 3 bindus, Leo 5 and Sagittarius 4. Amongst these ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "three signs Aries has the least number of bindus. Deduct this from the figures of ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "Leo's bindus viz., 5 i.e. 5-3=2. Similarly deduct 3 from 4 the figure of bindus of ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "Sagittarius, that is 4-3=1. In Aries there will be 3-3=0",
+   "bbox": [
+    85,
+    178,
+    385,
+    194
+   ]
+  },
+  {
+   "text": "Similarly in the next set of triangular signs Taurus, Virgo and Capricorn, ",
+   "bbox": [
+    121,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "Taurus has 7 bindus, Virgo 3 and Capricorn 3. Virgo and Capricorn has the least ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "number of bindus. Thus as result of trikona sodhana Taurus will have 7-3=4 ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "bindus, Virgo 3-3=0 bindus and Capricorn 3-3=0 bindus.",
+   "bbox": [
+    85,
+    275,
+    403,
+    290
+   ]
+  },
+  {
+   "text": "As regards Gemini, Libra and Aquarius, Gemini has 4, Libra 4 and Aquarius ",
+   "bbox": [
+    121,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "6 in the Sun's Ashtakavarga. Gemini and Libra have the least number of bindus. ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "Therefore as a result of trikona sodhana Aquarius will have 5-4=1, Libra 4-4=0 and ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "Gemini 4-4 = 0 bindus.",
+   "bbox": [
+    85,
+    371,
+    215,
+    387
+   ]
+  },
+  {
+   "text": "SARVASHTAKAVARGA",
+   "bbox": [
+    121,
+    395,
+    268,
+    411
+   ]
+  },
+  {
+   "text": "Sun ",
+   "bbox": [
+    104,
+    420,
+    130,
+    436
+   ]
+  },
+  {
+   "text": "3 ",
+   "bbox": [
+    161,
+    420,
+    172,
+    436
+   ]
+  },
+  {
+   "text": "7 ",
+   "bbox": [
+    193,
+    420,
+    204,
+    436
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    225,
+    420,
+    235,
+    436
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    253,
+    420,
+    264,
+    436
+   ]
+  },
+  {
+   "text": "5 ",
+   "bbox": [
+    282,
+    420,
+    292,
+    436
+   ]
+  },
+  {
+   "text": "3 ",
+   "bbox": [
+    310,
+    420,
+    320,
+    436
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    338,
+    420,
+    349,
+    436
+   ]
+  },
+  {
+   "text": "5 ",
+   "bbox": [
+    367,
+    420,
+    377,
+    436
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    395,
+    420,
+    406,
+    436
+   ]
+  },
+  {
+   "text": "3 ",
+   "bbox": [
+    423,
+    420,
+    434,
+    436
+   ]
+  },
+  {
+   "text": "5 ",
+   "bbox": [
+    452,
+    420,
+    462,
+    436
+   ]
+  },
+  {
+   "text": "1 ",
+   "bbox": [
+    480,
+    420,
+    491,
+    436
+   ]
+  },
+  {
+   "text": "48 ",
+   "bbox": [
+    508,
+    420,
+    526,
+    436
+   ]
+  },
+  {
+   "text": "Moon ",
+   "bbox": [
+    104,
+    437,
+    141,
+    452
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    161,
+    437,
+    172,
+    452
+   ]
+  },
+  {
+   "text": "5 ",
+   "bbox": [
+    193,
+    437,
+    204,
+    452
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    225,
+    437,
+    235,
+    452
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    253,
+    437,
+    264,
+    452
+   ]
+  },
+  {
+   "text": "6 ",
+   "bbox": [
+    282,
+    437,
+    292,
+    452
+   ]
+  },
+  {
+   "text": "6 ",
+   "bbox": [
+    310,
+    437,
+    320,
+    452
+   ]
+  },
+  {
+   "text": "3 ",
+   "bbox": [
+    338,
+    437,
+    349,
+    452
+   ]
+  },
+  {
+   "text": "1 ",
+   "bbox": [
+    367,
+    437,
+    377,
+    452
+   ]
+  },
+  {
+   "text": "3 ",
+   "bbox": [
+    395,
+    437,
+    406,
+    452
+   ]
+  },
+  {
+   "text": "6 ",
+   "bbox": [
+    423,
+    437,
+    434,
+    452
+   ]
+  },
+  {
+   "text": "3 ",
+   "bbox": [
+    452,
+    437,
+    462,
+    452
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    480,
+    437,
+    491,
+    452
+   ]
+  },
+  {
+   "text": "49 ",
+   "bbox": [
+    508,
+    437,
+    526,
+    452
+   ]
+  },
+  {
+   "text": "Mars ",
+   "bbox": [
+    104,
+    453,
+    137,
+    469
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    161,
+    453,
+    172,
+    469
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    193,
+    453,
+    204,
+    469
+   ]
+  },
+  {
+   "text": "3 ",
+   "bbox": [
+    225,
+    453,
+    235,
+    469
+   ]
+  },
+  {
+   "text": "2 ",
+   "bbox": [
+    253,
+    453,
+    264,
+    469
+   ]
+  },
+  {
+   "text": "5 ",
+   "bbox": [
+    282,
+    453,
+    292,
+    469
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    310,
+    453,
+    320,
+    469
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    338,
+    453,
+    349,
+    469
+   ]
+  },
+  {
+   "text": "2 ",
+   "bbox": [
+    367,
+    453,
+    377,
+    469
+   ]
+  },
+  {
+   "text": "2 ",
+   "bbox": [
+    395,
+    453,
+    406,
+    469
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    423,
+    453,
+    434,
+    469
+   ]
+  },
+  {
+   "text": "3 ",
+   "bbox": [
+    452,
+    453,
+    462,
+    469
+   ]
+  },
+  {
+   "text": "2 ",
+   "bbox": [
+    480,
+    453,
+    491,
+    469
+   ]
+  },
+  {
+   "text": "39 ",
+   "bbox": [
+    508,
+    453,
+    526,
+    469
+   ]
+  },
+  {
+   "text": "Mercury 4 ",
+   "bbox": [
+    104,
+    470,
+    172,
+    485
+   ]
+  },
+  {
+   "text": "5 ",
+   "bbox": [
+    193,
+    470,
+    204,
+    485
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    225,
+    470,
+    235,
+    485
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    253,
+    470,
+    264,
+    485
+   ]
+  },
+  {
+   "text": "5 ",
+   "bbox": [
+    282,
+    470,
+    292,
+    485
+   ]
+  },
+  {
+   "text": "6 ",
+   "bbox": [
+    310,
+    470,
+    320,
+    485
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    338,
+    470,
+    349,
+    485
+   ]
+  },
+  {
+   "text": "5 ",
+   "bbox": [
+    367,
+    470,
+    377,
+    485
+   ]
+  },
+  {
+   "text": "5 ",
+   "bbox": [
+    395,
+    470,
+    406,
+    485
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    423,
+    470,
+    434,
+    485
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    452,
+    470,
+    462,
+    485
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    480,
+    470,
+    491,
+    485
+   ]
+  },
+  {
+   "text": "54 ",
+   "bbox": [
+    508,
+    470,
+    526,
+    485
+   ]
+  },
+  {
+   "text": "Jupiter ",
+   "bbox": [
+    104,
+    487,
+    146,
+    502
+   ]
+  },
+  {
+   "text": "5 ",
+   "bbox": [
+    161,
+    487,
+    172,
+    502
+   ]
+  },
+  {
+   "text": "5 ",
+   "bbox": [
+    193,
+    487,
+    204,
+    502
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    225,
+    487,
+    235,
+    502
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    253,
+    487,
+    264,
+    502
+   ]
+  },
+  {
+   "text": "7 ",
+   "bbox": [
+    282,
+    487,
+    292,
+    502
+   ]
+  },
+  {
+   "text": "7 ",
+   "bbox": [
+    310,
+    487,
+    320,
+    502
+   ]
+  },
+  {
+   "text": "2 ",
+   "bbox": [
+    338,
+    487,
+    349,
+    502
+   ]
+  },
+  {
+   "text": "5 ",
+   "bbox": [
+    367,
+    487,
+    377,
+    502
+   ]
+  },
+  {
+   "text": "6 ",
+   "bbox": [
+    395,
+    487,
+    406,
+    502
+   ]
+  },
+  {
+   "text": "5 ",
+   "bbox": [
+    423,
+    487,
+    434,
+    502
+   ]
+  },
+  {
+   "text": "3 ",
+   "bbox": [
+    452,
+    487,
+    462,
+    502
+   ]
+  },
+  {
+   "text": "3 ",
+   "bbox": [
+    480,
+    487,
+    491,
+    502
+   ]
+  },
+  {
+   "text": "56 ",
+   "bbox": [
+    508,
+    487,
+    526,
+    502
+   ]
+  },
+  {
+   "text": "Venus ",
+   "bbox": [
+    104,
+    503,
+    142,
+    519
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    161,
+    503,
+    172,
+    519
+   ]
+  },
+  {
+   "text": "3 ",
+   "bbox": [
+    193,
+    503,
+    204,
+    519
+   ]
+  },
+  {
+   "text": "6 ",
+   "bbox": [
+    225,
+    503,
+    235,
+    519
+   ]
+  },
+  {
+   "text": "5 ",
+   "bbox": [
+    253,
+    503,
+    264,
+    519
+   ]
+  },
+  {
+   "text": "5 ",
+   "bbox": [
+    282,
+    503,
+    292,
+    519
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    310,
+    503,
+    320,
+    519
+   ]
+  },
+  {
+   "text": "5 ",
+   "bbox": [
+    338,
+    503,
+    349,
+    519
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    367,
+    503,
+    377,
+    519
+   ]
+  },
+  {
+   "text": "3 ",
+   "bbox": [
+    395,
+    503,
+    406,
+    519
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    423,
+    503,
+    434,
+    519
+   ]
+  },
+  {
+   "text": "6 ",
+   "bbox": [
+    452,
+    503,
+    462,
+    519
+   ]
+  },
+  {
+   "text": "3 ",
+   "bbox": [
+    480,
+    503,
+    491,
+    519
+   ]
+  },
+  {
+   "text": "52 ",
+   "bbox": [
+    508,
+    503,
+    526,
+    519
+   ]
+  },
+  {
+   "text": "Saturn ",
+   "bbox": [
+    104,
+    520,
+    144,
+    535
+   ]
+  },
+  {
+   "text": "2 ",
+   "bbox": [
+    161,
+    520,
+    172,
+    535
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    193,
+    520,
+    204,
+    535
+   ]
+  },
+  {
+   "text": "3 ",
+   "bbox": [
+    225,
+    520,
+    235,
+    535
+   ]
+  },
+  {
+   "text": "1 ",
+   "bbox": [
+    253,
+    520,
+    264,
+    535
+   ]
+  },
+  {
+   "text": "7 ",
+   "bbox": [
+    282,
+    520,
+    292,
+    535
+   ]
+  },
+  {
+   "text": "6 ",
+   "bbox": [
+    310,
+    520,
+    320,
+    535
+   ]
+  },
+  {
+   "text": "4 ",
+   "bbox": [
+    338,
+    520,
+    349,
+    535
+   ]
+  },
+  {
+   "text": "3 ",
+   "bbox": [
+    367,
+    520,
+    377,
+    535
+   ]
+  },
+  {
+   "text": "1 ",
+   "bbox": [
+    395,
+    520,
+    406,
+    535
+   ]
+  },
+  {
+   "text": "3 ",
+   "bbox": [
+    423,
+    520,
+    434,
+    535
+   ]
+  },
+  {
+   "text": "3 ",
+   "bbox": [
+    452,
+    520,
+    462,
+    535
+   ]
+  },
+  {
+   "text": "2 ",
+   "bbox": [
+    480,
+    520,
+    491,
+    535
+   ]
+  },
+  {
+   "text": "39 ",
+   "bbox": [
+    508,
+    520,
+    526,
+    535
+   ]
+  },
+  {
+   "text": "Total ",
+   "bbox": [
+    104,
+    537,
+    136,
+    552
+   ]
+  },
+  {
+   "text": "26 ",
+   "bbox": [
+    161,
+    537,
+    179,
+    552
+   ]
+  },
+  {
+   "text": "33 ",
+   "bbox": [
+    193,
+    537,
+    210,
+    552
+   ]
+  },
+  {
+   "text": "28 24 40 36 26 25 24 29 27 19 337 ",
+   "bbox": [
+    225,
+    537,
+    533,
+    552
+   ]
+  },
+  {
+   "text": "In the fourth set of triangular signs in the the Sun's Ashtakavarga, Cancer has ",
+   "bbox": [
+    121,
+    577,
+    556,
+    593
+   ]
+  },
+  {
+   "text": "4, Scorpio 5 and Pisces 1. Pisces has the Least number of bindus. Therefore as a ",
+   "bbox": [
+    85,
+    601,
+    556,
+    617
+   ]
+  },
+  {
+   "text": "result of trikona sodhana. Cancer will be 4-1=3, Scorpio 5-1=4 and Pisces 1-1=0 ",
+   "bbox": [
+    85,
+    626,
+    556,
+    641
+   ]
+  },
+  {
+   "text": "bindus.",
+   "bbox": [
+    85,
+    650,
+    126,
+    665
+   ]
+  },
+  {
+   "text": "Thus the following principles are to be observed in trikona sodhana:—",
+   "bbox": [
+    121,
+    674,
+    517,
+    689
+   ]
+  },
+  {
+   "text": "(a) Of the three triangular signs, the figure of the sign having the least ",
+   "bbox": [
+    121,
+    698,
+    556,
+    714
+   ]
+  },
+  {
+   "text": "number of bindus, has to be deducted from the figures of all the signs and the ",
+   "bbox": [
+    85,
+    722,
+    556,
+    738
+   ]
+  },
+  {
+   "text": "remainder will represent the final rectified figure of the signs.",
+   "bbox": [
+    85,
+    746,
+    430,
+    762
+   ]
+  },
+  {
+   "text": "235",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

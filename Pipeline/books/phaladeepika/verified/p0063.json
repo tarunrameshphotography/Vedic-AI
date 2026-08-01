@@ -1,0 +1,22 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0063",
+ "ocr_fingerprint": "320bf0bd71ec0a1b1d2375df0cb55c3bfd3d1df04d8655dfca5820352efc356d",
+ "kind": "chart",
+ "note": "South Indian horoscope chart. Cell labels are taken from the PDF's embedded text layer and cell boundaries from the chart's vector grid, so both are exact rather than read by eye. Proposed by tools/propose_charts.py and checked against the rendered page.",
+ "verified": "2026-08-01",
+ "exclude_lines": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "insert_after": -1,
+ "markdown": "**Horoscope chart** (South Indian style, printed page 63)\n\n```\n+-------------+-------------+-------------+-------------+\n|             |             | Jupiter     | Ketu        |\n+-------------+-------------+-------------+-------------+\n|             |                           | Lagna       |\n|             |                           | Saturn      |\n+-------------+                           +-------------+\n| Moon        |                           | Mars        |\n+-------------+-------------+-------------+-------------+\n| Venus       | Sun         |             |             |\n| Rahu        | Mercury     |             |             |\n+-------------+-------------+-------------+-------------+\n```\n\nLagna is in Cancer, so houses are counted from there.\n\n| House | Sign | Planets |\n|---|---|---|\n| 1 (Lagna) | Cancer | Saturn |\n| 2 | Leo | Mars |\n| 3 | Virgo | — |\n| 4 | Libra | — |\n| 5 | Scorpio | Sun, Mercury |\n| 6 | Sagittarius | Venus, Rahu |\n| 7 | Capricorn | Moon |\n| 8 | Aquarius | — |\n| 9 | Pisces | — |\n| 10 | Aries | — |\n| 11 | Taurus | Jupiter |\n| 12 | Gemini | Ketu |"
+}

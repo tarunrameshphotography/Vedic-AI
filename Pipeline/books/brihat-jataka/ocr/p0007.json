@@ -1,0 +1,344 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0007",
+ "book_id": "brihat-jataka",
+ "seq": 7,
+ "source_ref": {
+  "pdf_page": 4,
+  "half": "a",
+  "v1_page": "s004a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "e4ee6557d6e45f519189fe4b1d3642e5ec7b7454d379117e155a20b6dfe84442",
+ "lines": [
+  {
+   "text": "iv",
+   "bbox": [
+    283,
+    256,
+    336,
+    291
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1215,
+    258,
+    1502,
+    292
+   ]
+  },
+  {
+   "text": "Narahamihira travelled widely and collected his material from",
+   "bbox": [
+    270,
+    361,
+    1505,
+    401
+   ]
+  },
+  {
+   "text": "various sources. He was truly eclectic.",
+   "bbox": [
+    280,
+    410,
+    1051,
+    451
+   ]
+  },
+  {
+   "text": "Parasara's text refers to various dasa systems of which",
+   "bbox": [
+    358,
+    491,
+    1505,
+    531
+   ]
+  },
+  {
+   "text": "Vimshottari and Ashtottari have become popular. There is no",
+   "bbox": [
+    280,
+    542,
+    1505,
+    586
+   ]
+  },
+  {
+   "text": "mention of these dasas in Varahamihira's text. His emphasis",
+   "bbox": [
+    282,
+    593,
+    1505,
+    639
+   ]
+  },
+  {
+   "text": "on the dasa obtained through the calculation of Amsa and",
+   "bbox": [
+    280,
+    650,
+    1503,
+    689
+   ]
+  },
+  {
+   "text": "Paida Ayurdayas. This is a departure from Parasara. In many",
+   "bbox": [
+    282,
+    700,
+    1503,
+    744
+   ]
+  },
+  {
+   "text": "ways Varahamihira has given a new direction to Predictive",
+   "bbox": [
+    280,
+    755,
+    1503,
+    795
+   ]
+  },
+  {
+   "text": "Astrology. He has set aside Yavana Jataka a crucial problems.",
+   "bbox": [
+    278,
+    808,
+    1502,
+    848
+   ]
+  },
+  {
+   "text": "Indirectly he has at some places set aside even Parasara. Rahu",
+   "bbox": [
+    278,
+    861,
+    1503,
+    901
+   ]
+  },
+  {
+   "text": "and Ketu do not figure here.",
+   "bbox": [
+    280,
+    913,
+    858,
+    952
+   ]
+  },
+  {
+   "text": "<i>Brihat Jataka</i> has over 407 Shlokas. The text, as per the",
+   "bbox": [
+    353,
+    992,
+    1502,
+    1030
+   ]
+  },
+  {
+   "text": "author, is in twenty five chapters. Bhattotpala split the six-",
+   "bbox": [
+    280,
+    1044,
+    1502,
+    1083
+   ]
+  },
+  {
+   "text": "teenth chapter into three. We have followed this division since",
+   "bbox": [
+    280,
+    1095,
+    1500,
+    1135
+   ]
+  },
+  {
+   "text": "it is more convenient.",
+   "bbox": [
+    277,
+    1144,
+    715,
+    1184
+   ]
+  },
+  {
+   "text": "The first chapter explains the technical terms and con-",
+   "bbox": [
+    353,
+    1227,
+    1500,
+    1267
+   ]
+  },
+  {
+   "text": "cepts. The second explains the characteristics, positions, rela-",
+   "bbox": [
+    276,
+    1280,
+    1499,
+    1319
+   ]
+  },
+  {
+   "text": "tions, metals, qualities, places and natures of the planets.",
+   "bbox": [
+    276,
+    1332,
+    1431,
+    1371
+   ]
+  },
+  {
+   "text": "The third chapter deals with the births of birds, animals,",
+   "bbox": [
+    353,
+    1412,
+    1499,
+    1450
+   ]
+  },
+  {
+   "text": "insects and trees. This deserves an elaborate treatment and",
+   "bbox": [
+    275,
+    1461,
+    1499,
+    1500
+   ]
+  },
+  {
+   "text": "long research.",
+   "bbox": [
+    276,
+    1517,
+    563,
+    1554
+   ]
+  },
+  {
+   "text": "The fourth chapter dealing with Nisheka refers to women's",
+   "bbox": [
+    353,
+    1594,
+    1500,
+    1633
+   ]
+  },
+  {
+   "text": "conception, and other factors. Peculiarities of birth and",
+   "bbox": [
+    276,
+    1646,
+    1498,
+    1687
+   ]
+  },
+  {
+   "text": "Balarishta are taken up in the next two chapters.",
+   "bbox": [
+    275,
+    1700,
+    1270,
+    1738
+   ]
+  },
+  {
+   "text": "The seventh and eighth chapters explain Amsa and Pinda",
+   "bbox": [
+    352,
+    1778,
+    1502,
+    1816
+   ]
+  },
+  {
+   "text": "Ayurdayas. These have greater validity than the popularly",
+   "bbox": [
+    273,
+    1830,
+    1499,
+    1869
+   ]
+  },
+  {
+   "text": "used dasa systems in determining longevity.",
+   "bbox": [
+    274,
+    1880,
+    1163,
+    1924
+   ]
+  },
+  {
+   "text": "The ninth gives a brief account of Ashtakavarga. The tenth",
+   "bbox": [
+    349,
+    1960,
+    1499,
+    1998
+   ]
+  },
+  {
+   "text": "is about Profession. This has to be amended to suit modern",
+   "bbox": [
+    272,
+    2012,
+    1495,
+    2048
+   ]
+  },
+  {
+   "text": "conditions. This is followed by Rajayogas, Nabhasa yogas, and",
+   "bbox": [
+    272,
+    2066,
+    1495,
+    2105
+   ]
+  },
+  {
+   "text": "Bhandra yogas. The results of the conjuncitions of planets are",
+   "bbox": [
+    273,
+    2119,
+    1493,
+    2158
+   ]
+  },
+  {
+   "text": "explained in chapter 14th.",
+   "bbox": [
+    270,
+    2171,
+    802,
+    2209
+   ]
+  },
+  {
+   "text": "The next one is about Renunciation. Influences of the",
+   "bbox": [
+    347,
+    2248,
+    1495,
+    2284
+   ]
+  },
+  {
+   "text": "constellations, lunar effects in the different signs, results of",
+   "bbox": [
+    270,
+    2302,
+    1498,
+    2340
+   ]
+  }
+ ]
+}

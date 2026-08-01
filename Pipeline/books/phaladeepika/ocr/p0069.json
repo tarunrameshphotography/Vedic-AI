@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0069",
+ "book_id": "phaladeepika",
+ "seq": 69,
+ "source_ref": {
+  "pdf_page": 69
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "2ac73e545542e3d1dc7a011f17c9a5c4a68ead0adb1fbafe516c8889d150c6e2",
+ "lines": [
+  {
+   "text": "The lord of the 8th in Lagna and the lord of Lagna in the 8th. (13) the lord of the ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "8th (14) the lord of the 8th in 3rd and the lord of the 3rd in the 8th, (15) the lord of ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "the 8th in the 4th and the lord of the 4th In the 8th, (16) the lord of the 8th in the ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "5th and the lord of the 5th In the 8th. (17) the lord of 8th In the 7th and the lord of ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "7th in the 8th, (18) the lord of the 8the In the 9th and the lord of the 9th in the 8th, ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "(19) the lord of the 8th in the 10th and the lord of the 10th in the 8th, (20) the lord ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "of the 8th in 11th and the lord of the 11th in the 8th, (21) the lord of the 8th in the ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "12th and the lord of 12th in the 8th, (22) the lord of the 12th in the Lagna and the ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "lord of the Lagna in the 12th, (23) the lord of the 12th in the 2nd and the lord of the ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "2nd in the 12th, (24) the lord of the 12th in the 3rd and the lord of the 3rd in the ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "12th. (25) the lord of the 12th in the 4th and the lord of the 4th in the 12th, (26) the ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "lord of the 12th in the 5th and the lord of the 5th in the 12th (27) the lord of the ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "12th in the 7th and the lord of the 7th in the 12th, (28) the lord of 12th, (29) the ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "lord of 12th in the 10th.and lord of the 10th in the 12th, (30) the lord of the 12th in ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "the 11th and the lord of the 11th in the 12th.",
+   "bbox": [
+    85,
+    395,
+    331,
+    411
+   ]
+  },
+  {
+   "text": "8. Kahala Togas:",
+   "bbox": [
+    121,
+    420,
+    215,
+    435
+   ]
+  },
+  {
+   "text": "(1) The Lord of the Lagna in the 3rd and the lord of the 3rd in the Lagna, (2) ",
+   "bbox": [
+    121,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "the lord of the 2nd in the 3rd and the lord of the 3rd in the 2nd. (3) the lord of the ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "4th in the 3rd and the lord of the 3rd in the 4th (4) the lord of the 5th in the 3rd and ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "the lord of the 3rd in the 5th, (5) the lord of the 7th in the 3rd and the lord of the ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "3rd in the 7th. (6) the lord of the 9th in the 3rd and the lord of the 3rd in the 9th, (7) ",
+   "bbox": [
+    85,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "the lord of the 10th in the 3rd and the lord of the 3rd in the 10th. and (8) the lord of ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "the 11th in the 3rd and the lord of the 3rd in the 11th.",
+   "bbox": [
+    85,
+    589,
+    382,
+    604
+   ]
+  },
+  {
+   "text": "33. The person with Dainya Yoga at birth will be a fool, will revile others ",
+   "bbox": [
+    121,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "and indulge in sinful deeds. He is always in trouble from his enemies. He will ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "speak harshly and will not have a stable mind. He will encounter obstacles in all ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "his ventures.",
+   "bbox": [
+    85,
+    685,
+    156,
+    701
+   ]
+  },
+  {
+   "text": "The native with Kahala Yoga will occasionally be haughtly and sometimes ",
+   "bbox": [
+    121,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "sweet in his speech. There will be occasions when he will be very prosperous and ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "then will be driven to poverty, unhappiness and misery.",
+   "bbox": [
+    85,
+    758,
+    394,
+    773
+   ]
+  },
+  {
+   "text": "69",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

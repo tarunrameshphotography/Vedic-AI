@@ -1,0 +1,317 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0215",
+ "book_id": "brihat-jataka",
+ "seq": 215,
+ "source_ref": {
+  "pdf_page": 108,
+  "half": "a",
+  "v1_page": "s108a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "6e38d763364839791f70e638dd888b7a8b407b17b543086097e4abc12736e1b6",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1180,
+    241,
+    1468,
+    275
+   ]
+  },
+  {
+   "text": "212",
+   "bbox": [
+    250,
+    242,
+    348,
+    276
+   ]
+  },
+  {
+   "text": "The first drekkana of Vrischika is a woman who is naked",
+   "bbox": [
+    328,
+    344,
+    1469,
+    378
+   ]
+  },
+  {
+   "text": "and has no ornaments. She comes to the shore from a great",
+   "bbox": [
+    250,
+    396,
+    1471,
+    440
+   ]
+  },
+  {
+   "text": "ocean. She has lost her original place. Her feet are bound by",
+   "bbox": [
+    250,
+    452,
+    1469,
+    490
+   ]
+  },
+  {
+   "text": "serpents. She is beautiful.",
+   "bbox": [
+    250,
+    505,
+    776,
+    543
+   ]
+  },
+  {
+   "text": "स्थानसुखान्यभिवाञ्छति नारी भर्तृकृते भुजगावृतदेहा।",
+   "bbox": [
+    325,
+    579,
+    1077,
+    629
+   ]
+  },
+  {
+   "text": "कच्छपकुम्भसमानशरीरा वृश्चिकमध्यमरूपमुशन्ति।। 23 ।।",
+   "bbox": [
+    325,
+    643,
+    1169,
+    692
+   ]
+  },
+  {
+   "text": "The second drekkana of Vrischika is a woman. She is",
+   "bbox": [
+    325,
+    736,
+    1469,
+    771
+   ]
+  },
+  {
+   "text": "fond of home and happiness for the sake of her husband.",
+   "bbox": [
+    249,
+    790,
+    1466,
+    829
+   ]
+  },
+  {
+   "text": "She is covered by serpents. Her body looks like a tortoise",
+   "bbox": [
+    250,
+    843,
+    1466,
+    882
+   ]
+  },
+  {
+   "text": "and a pot.",
+   "bbox": [
+    250,
+    896,
+    456,
+    935
+   ]
+  },
+  {
+   "text": "पृथुलचिपिटकूर्मतुल्यवक्त्र: श्वमृगवराहशृगालभीतिकारी ।",
+   "bbox": [
+    324,
+    971,
+    1106,
+    1022
+   ]
+  },
+  {
+   "text": "अवति च मलयाकरप्रदेशं मृगपतिरन्त्यगतस्य वृश्चिकस्य।। 24 ।।",
+   "bbox": [
+    322,
+    1034,
+    1269,
+    1087
+   ]
+  },
+  {
+   "text": "The third drekkana of Vrischika is a lion with a flat,.",
+   "bbox": [
+    325,
+    1131,
+    1479,
+    1169
+   ]
+  },
+  {
+   "text": "broad face. It looks like a tortoise. It frightens dogs, deer,",
+   "bbox": [
+    246,
+    1182,
+    1465,
+    1223
+   ]
+  },
+  {
+   "text": "boars and jackals. It protects localities having sandal-wood",
+   "bbox": [
+    249,
+    1235,
+    1466,
+    1274
+   ]
+  },
+  {
+   "text": "trees.",
+   "bbox": [
+    246,
+    1292,
+    367,
+    1324
+   ]
+  },
+  {
+   "text": "मनुष्यवक्त्रोऽश्वसमानकायो धनुर्विगृह्यायतमाश्रमस्थ: ।",
+   "bbox": [
+    319,
+    1365,
+    1046,
+    1415
+   ]
+  },
+  {
+   "text": "क्रतूपयोज्यानि तपस्विनश्च रक्षत्यथाद्यो धनुषस्त्रिभाग: ।। 25 ।।",
+   "bbox": [
+    319,
+    1426,
+    1217,
+    1481
+   ]
+  },
+  {
+   "text": "The first drekkana of Dhanush is a man with a human face",
+   "bbox": [
+    322,
+    1522,
+    1468,
+    1561
+   ]
+  },
+  {
+   "text": "and the body of a horse. He has a bow in hand, resides in a",
+   "bbox": [
+    246,
+    1577,
+    1466,
+    1616
+   ]
+  },
+  {
+   "text": "hermitage, and protects sacrificial items and sages.",
+   "bbox": [
+    246,
+    1631,
+    1267,
+    1669
+   ]
+  },
+  {
+   "text": "मनोरमा चम्पकहेमवर्णा भद्रासने तिष्ठति मध्यरूपा।",
+   "bbox": [
+    318,
+    1705,
+    1060,
+    1751
+   ]
+  },
+  {
+   "text": "समुद्ररत्नानि विघट्टयन्ती मध्यत्रिभागो धनुष:प्रदिष्ट: ।। 26 ।।",
+   "bbox": [
+    319,
+    1771,
+    1201,
+    1820
+   ]
+  },
+  {
+   "text": "The second drekkana of Dhanush is a beautiful woman.",
+   "bbox": [
+    322,
+    1863,
+    1462,
+    1899
+   ]
+  },
+  {
+   "text": "She has the colour of the Champaka flower and gold. She",
+   "bbox": [
+    244,
+    1918,
+    1466,
+    1957
+   ]
+  },
+  {
+   "text": "picks up gems from the ocean. She is always in a",
+   "bbox": [
+    246,
+    1969,
+    1465,
+    2010
+   ]
+  },
+  {
+   "text": "Bhadrasana.",
+   "bbox": [
+    245,
+    2020,
+    506,
+    2058
+   ]
+  },
+  {
+   "text": "कूर्ची नरो हाटकचम्पकाभो वरासने दण्डधरो निषण्ण:।",
+   "bbox": [
+    319,
+    2098,
+    1113,
+    2148
+   ]
+  },
+  {
+   "text": "कौशेयकान्युद्वहतेऽजिनं च तृतीयरूपं नवमस्य राशे: ।। 27 ।।",
+   "bbox": [
+    318,
+    2162,
+    1200,
+    2214
+   ]
+  },
+  {
+   "text": "The third drekkana of Dhanush is a man with a long",
+   "bbox": [
+    319,
+    2259,
+    1466,
+    2297
+   ]
+  },
+  {
+   "text": "beard. His complexion is like that of the Champaka flower and",
+   "bbox": [
+    242,
+    2311,
+    1462,
+    2349
+   ]
+  }
+ ]
+}

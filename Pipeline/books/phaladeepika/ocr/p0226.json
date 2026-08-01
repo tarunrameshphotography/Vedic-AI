@@ -1,0 +1,378 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0226",
+ "book_id": "phaladeepika",
+ "seq": 226,
+ "source_ref": {
+  "pdf_page": 226
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "d856d7a483fce870d85addab8e44d048d54b5f4e44a96307aad107c66e147f2f",
+ "lines": [
+  {
+   "text": "containing less than 4 bindus.",
+   "bbox": [
+    85,
+    57,
+    251,
+    73
+   ]
+  },
+  {
+   "text": "10. As explained in the notes above the planets produce good or bad effects ",
+   "bbox": [
+    121,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "as the case may be, which ever may preponderate in the Ashtakavarga calculations ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "from the signs they occupy at the time of birth; but two things are to be kept in ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "mind - (a) If a planet in course of transit passes through his own sign, his sign of ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "exaltation, his friend's sign or an upachaya house, he causes reduction in the evil ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "effects and enhancement of the benefic effects.",
+   "bbox": [
+    85,
+    202,
+    348,
+    218
+   ]
+  },
+  {
+   "text": "Notes — For example in course of his transit a planet in his own sign, sign ",
+   "bbox": [
+    121,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "of exaltation, friend's sign or upachaya house, which contains only 3 benefic ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "bindus the bad effects will be substantially neutralised. If there be 5 benefic bindus, ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "the auspicious results will be enhanced.",
+   "bbox": [
+    85,
+    299,
+    307,
+    314
+   ]
+  },
+  {
+   "text": "(b) If a planet in course of his transit passes through his sign of debilitation, ",
+   "bbox": [
+    121,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "enemy's sign or Anupachaya, producing evil effects because of insufficient benefic ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "bindus, these effects will be enchanced by such a transit If there are adequate ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "number of benefic bindus or more expected to produce good effects, these good ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "effects will be reduced by such a transit.",
+   "bbox": [
+    85,
+    420,
+    310,
+    435
+   ]
+  },
+  {
+   "text": "11. When all the Ashtakavargas have been prepared it should have been seen ",
+   "bbox": [
+    121,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "how many bindus the various signs contain. The native may suffer loss of his life if ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "the particular planet in course of his transit passes through with no bindu. The ",
+   "bbox": [
+    85,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "effects according to the author in accordance with the number of bindus will be as ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "under :—",
+   "bbox": [
+    85,
+    540,
+    138,
+    556
+   ]
+  },
+  {
+   "text": "1. Bindu ",
+   "bbox": [
+    178,
+    565,
+    234,
+    580
+   ]
+  },
+  {
+   "text": "Destruction or loss ",
+   "bbox": [
+    253,
+    565,
+    363,
+    580
+   ]
+  },
+  {
+   "text": "2. Bindus ",
+   "bbox": [
+    178,
+    581,
+    239,
+    596
+   ]
+  },
+  {
+   "text": "Expenditure ",
+   "bbox": [
+    253,
+    581,
+    325,
+    596
+   ]
+  },
+  {
+   "text": "3. Bindus ",
+   "bbox": [
+    178,
+    597,
+    239,
+    612
+   ]
+  },
+  {
+   "text": "Fear ",
+   "bbox": [
+    253,
+    597,
+    282,
+    612
+   ]
+  },
+  {
+   "text": "4. Bindus ",
+   "bbox": [
+    178,
+    613,
+    239,
+    628
+   ]
+  },
+  {
+   "text": "Accomplishment of the desired ",
+   "bbox": [
+    253,
+    613,
+    432,
+    628
+   ]
+  },
+  {
+   "text": "object ",
+   "bbox": [
+    253,
+    629,
+    291,
+    644
+   ]
+  },
+  {
+   "text": "5. Bindus ",
+   "bbox": [
+    178,
+    645,
+    239,
+    661
+   ]
+  },
+  {
+   "text": "Acquisition of a beautiful wife ",
+   "bbox": [
+    253,
+    645,
+    429,
+    661
+   ]
+  },
+  {
+   "text": "6. Bindus ",
+   "bbox": [
+    178,
+    661,
+    239,
+    677
+   ]
+  },
+  {
+   "text": "Gain of wealth or property ",
+   "bbox": [
+    253,
+    661,
+    406,
+    677
+   ]
+  },
+  {
+   "text": "7. Bindus ",
+   "bbox": [
+    178,
+    677,
+    239,
+    693
+   ]
+  },
+  {
+   "text": "Acquisition of a kingdom or high ",
+   "bbox": [
+    253,
+    677,
+    444,
+    693
+   ]
+  },
+  {
+   "text": "government position. ",
+   "bbox": [
+    253,
+    693,
+    376,
+    709
+   ]
+  },
+  {
+   "text": "12. The various signs occupied by the planets at the time of birth should be ",
+   "bbox": [
+    121,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "treated as Lagnas and benefic bindus should be compounded in 8 ways due to the ",
+   "bbox": [
+    85,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "226",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

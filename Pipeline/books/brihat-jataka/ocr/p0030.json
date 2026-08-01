@@ -1,0 +1,245 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0030",
+ "book_id": "brihat-jataka",
+ "seq": 30,
+ "source_ref": {
+  "pdf_page": 15,
+  "half": "b",
+  "v1_page": "s015b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "d6d73c90332565c3b76eb1292e34dd8b827ce4dfa2d3e06acdec5c0d5a6738f5",
+ "lines": [
+  {
+   "text": "ग्रहयोनिप्रभेदाध्यायः",
+   "bbox": [
+    685,
+    687,
+    1056,
+    743
+   ]
+  },
+  {
+   "text": "<b>Planets</b>",
+   "bbox": [
+    714,
+    770,
+    1025,
+    832
+   ]
+  },
+  {
+   "text": "<b>Traits of Planets</b>",
+   "bbox": [
+    263,
+    1012,
+    703,
+    1052
+   ]
+  },
+  {
+   "text": "कालात्मा दिनकुन्मनश्च हिमगु: सत्त्वं कुजो ज्ञ वचो",
+   "bbox": [
+    337,
+    1094,
+    1069,
+    1146
+   ]
+  },
+  {
+   "text": "जीवो ज्ञानसुखे सितश्च मदनो दुःखं दिनेशात्मज:।",
+   "bbox": [
+    336,
+    1154,
+    1040,
+    1217
+   ]
+  },
+  {
+   "text": "राजानौ रविशीतगू क्षितिसुतो नेता कुमारो बुध:",
+   "bbox": [
+    337,
+    1224,
+    1001,
+    1278
+   ]
+  },
+  {
+   "text": "सूरिर्दानवपूजितश्च सचिव: प्रेष्य: सहस्रांशुज: ।। 1 ।।",
+   "bbox": [
+    337,
+    1290,
+    1102,
+    1341
+   ]
+  },
+  {
+   "text": "In the field of time personified ie in Astrology the Sun is",
+   "bbox": [
+    338,
+    1387,
+    1477,
+    1426
+   ]
+  },
+  {
+   "text": "the soul, the Moon is mind, Mars is power, Mercury is speech,",
+   "bbox": [
+    263,
+    1439,
+    1475,
+    1479
+   ]
+  },
+  {
+   "text": "Jupiter is wisdom and comforts, Venus is cupid ie sex, and",
+   "bbox": [
+    260,
+    1491,
+    1477,
+    1531
+   ]
+  },
+  {
+   "text": "Saturn represents sorrow. In the field of politics the Sun and",
+   "bbox": [
+    263,
+    1543,
+    1477,
+    1583
+   ]
+  },
+  {
+   "text": "Moon are of Royal nature (people in power). Mars is the head",
+   "bbox": [
+    260,
+    1597,
+    1477,
+    1636
+   ]
+  },
+  {
+   "text": "of the armed forces, Mercury is the heir apparent. Jupiter and",
+   "bbox": [
+    263,
+    1650,
+    1478,
+    1689
+   ]
+  },
+  {
+   "text": "Venus are advisors to the state and Saturn is the servant (ie of '",
+   "bbox": [
+    261,
+    1700,
+    1491,
+    1741
+   ]
+  },
+  {
+   "text": "the lowest class).",
+   "bbox": [
+    258,
+    1754,
+    604,
+    1789
+   ]
+  },
+  {
+   "text": "<i>Commentary:</i> The term \"Atma\" representing the traits of",
+   "bbox": [
+    335,
+    1833,
+    1479,
+    1871
+   ]
+  },
+  {
+   "text": "the Sun is very significant and has many cunnotations. In the",
+   "bbox": [
+    258,
+    1885,
+    1475,
+    1924
+   ]
+  },
+  {
+   "text": "first instance it means \"self\" ie the person to whom the birth",
+   "bbox": [
+    257,
+    1938,
+    1475,
+    1977
+   ]
+  },
+  {
+   "text": "chart belongs. If, for example, Sun is lord of the 1st, 3rd, 10th",
+   "bbox": [
+    257,
+    1990,
+    1474,
+    2030
+   ]
+  },
+  {
+   "text": "or 11th house in a horoscope and affects by its presence the 5th",
+   "bbox": [
+    257,
+    2043,
+    1474,
+    2083
+   ]
+  },
+  {
+   "text": "house and its lord, the affliction would mean the loss of preg-",
+   "bbox": [
+    257,
+    2096,
+    1474,
+    2135
+   ]
+  },
+  {
+   "text": "nancy denoted by the 5th house, by the deliberate action of the",
+   "bbox": [
+    258,
+    2149,
+    1474,
+    2188
+   ]
+  },
+  {
+   "text": "native such as happens in family planning. The second mean-",
+   "bbox": [
+    257,
+    2199,
+    1472,
+    2239
+   ]
+  },
+  {
+   "text": "ing of the term \"Atma\" is \"soul\", essence, innermost vitality.",
+   "bbox": [
+    256,
+    2251,
+    1472,
+    2292
+   ]
+  },
+  {
+   "text": "This trait of the Sun is utilised in the matter of allotment of",
+   "bbox": [
+    257,
+    2302,
+    1475,
+    2341
+   ]
+  }
+ ]
+}

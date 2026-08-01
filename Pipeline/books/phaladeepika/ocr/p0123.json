@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0123",
+ "book_id": "phaladeepika",
+ "seq": 123,
+ "source_ref": {
+  "pdf_page": 123
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "3b9e0fa32bac7e117b0ac4e09ca78d1cd469f4de1959c946205f553c5616d940",
+ "lines": [
+  {
+   "text": "The Moon alone in his own sign in the 5th house gives a limited number of ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "sons.",
+   "bbox": [
+    85,
+    82,
+    114,
+    97
+   ]
+  },
+  {
+   "text": "Jupiter singly in his sign of exaltation gives many daughters.",
+   "bbox": [
+    121,
+    106,
+    461,
+    121
+   ]
+  },
+  {
+   "text": "6. The following four planetary combinations led to the extinction of the ",
+   "bbox": [
+    121,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "family:—",
+   "bbox": [
+    85,
+    154,
+    139,
+    169
+   ]
+  },
+  {
+   "text": "(1) A malefic in the 4th, Venus in the 7th and the Moon in the 10th.",
+   "bbox": [
+    121,
+    178,
+    497,
+    194
+   ]
+  },
+  {
+   "text": "(2) Malefics in the Ascendant, the 5th, 8th and 12th.",
+   "bbox": [
+    121,
+    202,
+    413,
+    218
+   ]
+  },
+  {
+   "text": "(3) Mercury and Venus in the 7th, Jupiter in the 5th and malefics in the 4th.",
+   "bbox": [
+    121,
+    226,
+    543,
+    242
+   ]
+  },
+  {
+   "text": "(4) The Moon in the 5th and malefics in the Ascendant, the 8th and 12th.",
+   "bbox": [
+    121,
+    251,
+    528,
+    266
+   ]
+  },
+  {
+   "text": "7. If the malefics occupy the Ascendant, the lord of the Ascendant",
+   "bbox": [
+    121,
+    275,
+    490,
+    290
+   ]
+  },
+  {
+   "text": "be in the 5th. the lord of the 5th in the 3rd and the Moon in the 4th, the ",
+   "bbox": [
+    121,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "native will be devoid of any issue.",
+   "bbox": [
+    85,
+    323,
+    277,
+    339
+   ]
+  },
+  {
+   "text": "Should the Moon occupy the 5th house in an odd sign or an odd navamsa ",
+   "bbox": [
+    121,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "and be aspected by the Sun. the native will either be issuless or will be distressed ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "on account of issues.",
+   "bbox": [
+    85,
+    395,
+    202,
+    411
+   ]
+  },
+  {
+   "text": "8. The native will have a son by adoption under the following planetary ",
+   "bbox": [
+    121,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "dispositions:—",
+   "bbox": [
+    85,
+    444,
+    170,
+    459
+   ]
+  },
+  {
+   "text": "(1) If the 5th house be identical with Gemini. Virgo, Capricorn or Aquarius ",
+   "bbox": [
+    121,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "and be occupied or aspected by Saturn or Mandi.",
+   "bbox": [
+    85,
+    492,
+    359,
+    508
+   ]
+  },
+  {
+   "text": "(2) If the lord of the 5th house be weak and be in no way connected with the ",
+   "bbox": [
+    121,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "lords of the Ascendant and the 7th.",
+   "bbox": [
+    85,
+    540,
+    280,
+    556
+   ]
+  },
+  {
+   "text": "9. The native will have to suffer loss of children in the following ",
+   "bbox": [
+    121,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "circumstances:—",
+   "bbox": [
+    85,
+    589,
+    182,
+    604
+   ]
+  },
+  {
+   "text": "(1) If the lord of the 5th be in his sign of debilitation or in an inimical sign or ",
+   "bbox": [
+    121,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "be associated with any of the lords of the 6th, 8th or 12th.",
+   "bbox": [
+    85,
+    637,
+    408,
+    652
+   ]
+  },
+  {
+   "text": "(2) The lord of the 5th is in the 5th without receiving any benefic aspect.",
+   "bbox": [
+    121,
+    661,
+    527,
+    677
+   ]
+  },
+  {
+   "text": "10. If the lord of the 5th house. Jupiter. Mars and the Sun (they may be ",
+   "bbox": [
+    121,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "anywhere) are posited in male navamsas, the native will be blessed with many ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "sons. So say the sages. The nature good or otherwise of the sons will depend on the ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "strength of the 5th house.",
+   "bbox": [
+    85,
+    758,
+    227,
+    773
+   ]
+  },
+  {
+   "text": "123",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "title": "Brihat Jataka",
+ "author": "Varahamihira",
+ "translator": "Prof. P.S. Sastri",
+ "script": "devanagari",
+
+ "_scan_note": "This book is scanned two pages to a sheet: 115 PDF sheets = 230 book pages. It is the only book in the corpus with this layout. The split is a rendering concern only -- page identity is the dense sequence p0001..p0230.",
+ "scan_layout": "two-up",
+ "scan_overlap": 0.02,
+
+ "_verse_note": "In this book Sanskrit appears ONLY as set-off verses and colophons -- verified across all 219 content pages -- so a bare 'line contains Devanagari' test is safe here and is what the corpus was verified against. It is NOT the default: profiles/DEFAULTS sets verse_requires_danda true, because in BPHS and Jataka Parijata Devanagari terms appear inline in English prose, where that test would shred paragraphs.",
+ "verse_requires_danda": false,
+
+ "_chapter_note": "The printed chapter title ends '...अध्यायः'. The character class tolerates Surya's ध->घ and ध->व misreads of the conjunct, and the visarga appearing as ASCII colon.",
+ "chapter_title_re": "^(?!इति)[^\\s].{1,44}?[ धघव]्याय[ःः:]\\s*$",
+ "colophon_re": "^इति\\s",
+
+ "heading_max_len": 70,
+ "running_header_min_pages": 4,
+ "indent_min_offset": 25,
+ "indent_max_offset": 130,
+ "gutter_margin": 60,
+ "page_number_max_digits": 3
+}

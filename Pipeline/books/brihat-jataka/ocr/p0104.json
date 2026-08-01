@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0104",
+ "book_id": "brihat-jataka",
+ "seq": 104,
+ "source_ref": {
+  "pdf_page": 52,
+  "half": "b",
+  "v1_page": "s052b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "bd62c452b73f518c98237ce6e7081f163fc85e448d1d8968b2f0975b82a68b69",
+ "lines": [
+  {
+   "text": "101",
+   "bbox": [
+    1377,
+    215,
+    1458,
+    249
+   ]
+  },
+  {
+   "text": "Rajayogas",
+   "bbox": [
+    259,
+    257,
+    466,
+    303
+   ]
+  },
+  {
+   "text": "ascendant and Sun occupies Sagittarius. A third yoga for",
+   "bbox": [
+    258,
+    309,
+    1474,
+    409
+   ]
+  },
+  {
+   "text": "kingship would arise if Sun occupies its sign of exaltation",
+   "bbox": [
+    262,
+    360,
+    1476,
+    462
+   ]
+  },
+  {
+   "text": "(Aries) in the Lagna, Moon is located with Saturn in the 7th",
+   "bbox": [
+    263,
+    412,
+    1477,
+    515
+   ]
+  },
+  {
+   "text": "house and Jupiter occupies Sagittarius.",
+   "bbox": [
+    266,
+    486,
+    1055,
+    565
+   ]
+  },
+  {
+   "text": "Commentary: From a perusal of the Rajayogas hitherto",
+   "bbox": [
+    338,
+    545,
+    1482,
+    641
+   ]
+  },
+  {
+   "text": "mentioned it is clear that one of the most essential condition",
+   "bbox": [
+    269,
+    597,
+    1484,
+    692
+   ]
+  },
+  {
+   "text": "for the acquisition of kingly powers is the high strength of the",
+   "bbox": [
+    270,
+    649,
+    1486,
+    749
+   ]
+  },
+  {
+   "text": "Lagna whether it arises as a result of the occupation of Lagna",
+   "bbox": [
+    271,
+    703,
+    1490,
+    802
+   ]
+  },
+  {
+   "text": "by an exalted planet or by Moon being located in her own sign",
+   "bbox": [
+    274,
+    755,
+    1490,
+    856
+   ]
+  },
+  {
+   "text": "in the Lagna. The latter is of course better as it gives strength",
+   "bbox": [
+    275,
+    809,
+    1493,
+    907
+   ]
+  },
+  {
+   "text": "to both Lagna and the Chandra Lagna.",
+   "bbox": [
+    278,
+    879,
+    1064,
+    959
+   ]
+  },
+  {
+   "text": "वर्षे सेन्दौ लग्ने सवितृगुरुतीक्ष्णांशुतनयै:",
+   "bbox": [
+    352,
+    967,
+    927,
+    1038
+   ]
+  },
+  {
+   "text": "सुहज्जायाखस्थैर्भवति नियमान्मानवपति:।",
+   "bbox": [
+    355,
+    1017,
+    949,
+    1114
+   ]
+  },
+  {
+   "text": "मुगे मन्दे लग्ने सहजरिपुधर्मव्ययगतै:",
+   "bbox": [
+    357,
+    1093,
+    897,
+    1168
+   ]
+  },
+  {
+   "text": "शशाङ्काद्यै: ख्यात: पृथुगुणयशा: पुङ्गवपति:।। 6 11",
+   "bbox": [
+    360,
+    1156,
+    1114,
+    1233
+   ]
+  },
+  {
+   "text": "When Moon occupies her exaltation sign Taurus in the",
+   "bbox": [
+    363,
+    1228,
+    1509,
+    1323
+   ]
+  },
+  {
+   "text": "lagna and the Sun, Jupiter, Saturn occupy respectively the 4th",
+   "bbox": [
+    292,
+    1280,
+    1511,
+    1379
+   ]
+  },
+  {
+   "text": "house (Leo), 7th house (Scorpio) and the 10th house",
+   "bbox": [
+    293,
+    1332,
+    1512,
+    1432
+   ]
+  },
+  {
+   "text": "(Acquarius), the person born is surely a king. In case Saturn is",
+   "bbox": [
+    296,
+    1386,
+    1515,
+    1483
+   ]
+  },
+  {
+   "text": "located in Capricorn in the Lagna and the Moon is in the 3rd",
+   "bbox": [
+    298,
+    1438,
+    1516,
+    1536
+   ]
+  },
+  {
+   "text": "house, Mars in the 6th house, Mercury in the 9th and Jupiter",
+   "bbox": [
+    299,
+    1491,
+    1519,
+    1589
+   ]
+  },
+  {
+   "text": "in the 12th house, the person born becomes a king famous and",
+   "bbox": [
+    299,
+    1544,
+    1521,
+    1642
+   ]
+  },
+  {
+   "text": "with renowned good qualities.",
+   "bbox": [
+    304,
+    1624,
+    912,
+    1693
+   ]
+  },
+  {
+   "text": "हये सेन्दौ जीवे मृगमुखगते भूमितनये",
+   "bbox": [
+    376,
+    1701,
+    928,
+    1776
+   ]
+  },
+  {
+   "text": "स्वतुङ्गस्थौ लग्ने भृगुजशशिजावत्र नृपती।",
+   "bbox": [
+    381,
+    1762,
+    980,
+    1841
+   ]
+  },
+  {
+   "text": "सुतस्थौ वक्रार्की गुरुशशिसिताश्चापि हिबुके",
+   "bbox": [
+    382,
+    1827,
+    1002,
+    1906
+   ]
+  },
+  {
+   "text": "बुधे कन्यालग्ने भवति हि नृपोऽन्योपि गुणवान्।। 7 ।।",
+   "bbox": [
+    385,
+    1887,
+    1179,
+    1970
+   ]
+  },
+  {
+   "text": "If Venus and Mercury are exalted in Lagna and Moon and",
+   "bbox": [
+    390,
+    1966,
+    1536,
+    2060
+   ]
+  },
+  {
+   "text": "Jupiter are together in Sagittarius and Mars is in Capricorn",
+   "bbox": [
+    315,
+    2017,
+    1539,
+    2117
+   ]
+  },
+  {
+   "text": "the person born is a king. Another Yoga for kingship would be,",
+   "bbox": [
+    316,
+    2070,
+    1541,
+    2168
+   ]
+  },
+  {
+   "text": "if Mercury occupies Virgo in the ascendant and Mars and",
+   "bbox": [
+    317,
+    2122,
+    1543,
+    2222
+   ]
+  },
+  {
+   "text": "Saturn occupy the 5th house (Capricorn) and Jupiter, Moon",
+   "bbox": [
+    321,
+    2174,
+    1545,
+    2273
+   ]
+  },
+  {
+   "text": "and Venus are located in the 4th (Sagittarius).",
+   "bbox": [
+    322,
+    2241,
+    1262,
+    2321
+   ]
+  }
+ ]
+}

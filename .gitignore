@@ -1,0 +1,82 @@
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+.venv/
+venv/
+ocrenv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---------------------------------------------------------------------------
+# Editor / OS
+# ---------------------------------------------------------------------------
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---------------------------------------------------------------------------
+# Machine-specific tool state
+# ---------------------------------------------------------------------------
+# Contains absolute paths under C:\Users\<name>\... and per-session scratch
+# directories. Project-wide settings, if any are ever added, belong in
+# .claude/settings.json, which is NOT ignored.
+.claude/settings.local.json
+
+# ---------------------------------------------------------------------------
+# Third-party source material -- NOT ours to redistribute
+# ---------------------------------------------------------------------------
+# Scanned copies of published, in-copyright books (~51 MB), and Astrodienst's
+# published ephemeris tables (~6 MB). They are inputs to the pipeline, not
+# products of it. Keeping them out avoids redistributing other people's work
+# and keeps clones small. The derived corpus in Knowledge/ IS committed.
+#
+# To include them anyway, delete the four lines below.
+Books/*.pdf
+Ephemeris/*.pdf
+!Books/README.md
+!Ephemeris/README.md
+
+# ---------------------------------------------------------------------------
+# Vendored binaries -- fetched, not committed
+# ---------------------------------------------------------------------------
+# The Swiss Ephemeris is dual-licensed (AGPL or commercial); redistributing the
+# compiled library carries obligations this repo should not take on silently.
+# Restore with:  python Engine/vendor/fetch_swisseph.py
+Engine/vendor/swisseph/*.dll
+Engine/vendor/swisseph/*.so
+Engine/vendor/swisseph/*.dylib
+Engine/vendor/swisseph/*.se1
+Engine/vendor/swisseph/LICENSE
+
+# ---------------------------------------------------------------------------
+# Generated output
+# ---------------------------------------------------------------------------
+# Case files hold real people's birth details -- date, exact time and place of
+# birth. That is personal data and does not belong in version control.
+# Regenerate the demo consultation with:
+#   python -m Engine.cli --date 1987-03-14 --time 04:22 --tz Asia/Kolkata \
+#       --lat 10.7870 --lon 79.1378 --place "Thanjavur" --out Cases/demo/consultation.md
+Cases/
+
+# Rendered page images: ~239 MB of PNGs, reproducible in about a minute with
+#   python Pipeline/tools/render_pages.py <book-id> <pdf>
+Pipeline/books/*/img/
+
+# The OCR cache under Pipeline/books/*/ocr/ IS committed on purpose: it needs a
+# GPU and the Surya environment to regenerate, the build validates page
+# fingerprints against it, and it is only ~4 MB.
+
+# ---------------------------------------------------------------------------
+# Scratch
+# ---------------------------------------------------------------------------
+*.tmp
+*.bak
+*.log
+scratch/
+tmp/

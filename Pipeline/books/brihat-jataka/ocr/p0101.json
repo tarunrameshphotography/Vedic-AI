@@ -1,0 +1,245 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0101",
+ "book_id": "brihat-jataka",
+ "seq": 101,
+ "source_ref": {
+  "pdf_page": 51,
+  "half": "a",
+  "v1_page": "s051a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "130526e806fc7eb2987e8fe2af6878c11e618fa7ba629c3573371037b81208f8",
+ "lines": [
+  {
+   "text": "98",
+   "bbox": [
+    362,
+    258,
+    428,
+    290
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1281,
+    258,
+    1576,
+    291
+   ]
+  },
+  {
+   "text": "sion connected with fire, weapons and courage. If the said",
+   "bbox": [
+    362,
+    360,
+    1577,
+    399
+   ]
+  },
+  {
+   "text": "lord is Mercury the profession is related to writing (clerical),",
+   "bbox": [
+    362,
+    412,
+    1575,
+    452
+   ]
+  },
+  {
+   "text": "mathematics, literature and painting etc.",
+   "bbox": [
+    362,
+    463,
+    1180,
+    507
+   ]
+  },
+  {
+   "text": "जीवांशे द्विजविबुधाकरादिधर्मै: काव्यांशे मणिरजतादिगोमहिष्यै:।",
+   "bbox": [
+    435,
+    538,
+    1345,
+    592
+   ]
+  },
+  {
+   "text": "सौरांशे श्रमवधभारनीचशिल्पै: कर्मेशाध्युषितनवांशकर्मसिद्धि: ।। 3 ।।",
+   "bbox": [
+    435,
+    602,
+    1418,
+    656
+   ]
+  },
+  {
+   "text": "If the aforesaid lord is Jupiter, the profession is connected",
+   "bbox": [
+    436,
+    701,
+    1572,
+    741
+   ]
+  },
+  {
+   "text": "with Brahmins, deities, dealing with horses etc, and from",
+   "bbox": [
+    358,
+    754,
+    1572,
+    793
+   ]
+  },
+  {
+   "text": "religion (as priest etc). If the said planet is Venus, he earns",
+   "bbox": [
+    358,
+    806,
+    1572,
+    846
+   ]
+  },
+  {
+   "text": "from diamond etc, silver, coins, buffalos and highly placed",
+   "bbox": [
+    358,
+    859,
+    1572,
+    898
+   ]
+  },
+  {
+   "text": "ladies. If it is Saturn, one earns from hardworks, killing of",
+   "bbox": [
+    358,
+    912,
+    1576,
+    951
+   ]
+  },
+  {
+   "text": "animals etc, carrying burden, low class handi work etc.",
+   "bbox": [
+    360,
+    964,
+    1457,
+    1004
+   ]
+  },
+  {
+   "text": "मित्रारिस्वगृहगतैग्रहैस्ततोर्थांस्तुङ्गस्थे बलिनि च भास्करे स्ववीर्यात्।",
+   "bbox": [
+    431,
+    1037,
+    1376,
+    1091
+   ]
+  },
+  {
+   "text": "आयस्थैरुदयधनाश्रितैश्च सौम्यै: सचिन्त्यं बलसहितैरेनकधा स्वम्।। 4 ।।",
+   "bbox": [
+    434,
+    1099,
+    1460,
+    1154
+   ]
+  },
+  {
+   "text": "If the said lords of the 10th house occupy a friendly sign,",
+   "bbox": [
+    434,
+    1202,
+    1572,
+    1241
+   ]
+  },
+  {
+   "text": "the income accrues from friends, if placed in inimical sign it",
+   "bbox": [
+    357,
+    1252,
+    1572,
+    1293
+   ]
+  },
+  {
+   "text": "accrues from enemies, if placed in their own sign from their",
+   "bbox": [
+    357,
+    1305,
+    1572,
+    1345
+   ]
+  },
+  {
+   "text": "own effort, if Sun is strong in his exaltation one earns through",
+   "bbox": [
+    357,
+    1359,
+    1572,
+    1399
+   ]
+  },
+  {
+   "text": "one's own effort. If the benefic planets are strong and occupy",
+   "bbox": [
+    357,
+    1411,
+    1570,
+    1451
+   ]
+  },
+  {
+   "text": "the lagna, the 2nd and 11th house, they are instrumental in",
+   "bbox": [
+    357,
+    1463,
+    1572,
+    1503
+   ]
+  },
+  {
+   "text": "giving income from different sources.",
+   "bbox": [
+    355,
+    1516,
+    1096,
+    1555
+   ]
+  },
+  {
+   "text": "इति श्रीवराहमिहिरकृते बृहज्जातके कर्माजीवा नाम दशमोऽध्याय: ।। 10 ।।",
+   "bbox": [
+    407,
+    1718,
+    1509,
+    1768
+   ]
+  },
+  {
+   "text": "Thus ends the tenth chapter on Nature of Profession in",
+   "bbox": [
+    428,
+    1813,
+    1570,
+    1852
+   ]
+  },
+  {
+   "text": "Brihat Jatak composed by Varahamihira.",
+   "bbox": [
+    352,
+    1865,
+    1175,
+    1904
+   ]
+  }
+ ]
+}

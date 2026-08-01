@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0202",
+ "book_id": "brihat-jataka",
+ "seq": 202,
+ "source_ref": {
+  "pdf_page": 101,
+  "half": "b",
+  "v1_page": "s101b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "ee8531ad1405fcaaf535079338f1663160e4b975ee216f246aa421a42015c5d6",
+ "lines": [
+  {
+   "text": "199",
+   "bbox": [
+    1344,
+    201,
+    1429,
+    233
+   ]
+  },
+  {
+   "text": "<b>Unknown Horoscopes</b>",
+   "bbox": [
+    223,
+    224,
+    659,
+    278
+   ]
+  },
+  {
+   "text": "Taking the degree of the Sun the wise Brahmana astrolo-",
+   "bbox": [
+    300,
+    291,
+    1439,
+    382
+   ]
+  },
+  {
+   "text": "ger arrives at the tithi (lunar day). The birth is to be predicted",
+   "bbox": [
+    226,
+    342,
+    1440,
+    438
+   ]
+  },
+  {
+   "text": "reversely in the nocturnal and diurnal signs. The degree of the",
+   "bbox": [
+    229,
+    397,
+    1443,
+    489
+   ]
+  },
+  {
+   "text": "lagna gives the time of birth.",
+   "bbox": [
+    229,
+    476,
+    814,
+    542
+   ]
+  },
+  {
+   "text": "Notes: Note the degrees traversed by the Sun in the sign",
+   "bbox": [
+    305,
+    531,
+    1447,
+    622
+   ]
+  },
+  {
+   "text": "when the question was put. These are the elapsed lunar tithis",
+   "bbox": [
+    234,
+    582,
+    1449,
+    678
+   ]
+  },
+  {
+   "text": "at birth. If the Sun at that time was in the twelfth degree, it is",
+   "bbox": [
+    237,
+    636,
+    1450,
+    731
+   ]
+  },
+  {
+   "text": "the twelth (dwadasi) tithi in the bright half (Shukla Paksha) of",
+   "bbox": [
+    237,
+    689,
+    1454,
+    783
+   ]
+  },
+  {
+   "text": "the month. If the Sun is on the 25th degree it is the tenth tithi",
+   "bbox": [
+    239,
+    744,
+    1454,
+    836
+   ]
+  },
+  {
+   "text": "(dashami) in the dark half (Krishna or Bahula Paksha) of the",
+   "bbox": [
+    238,
+    795,
+    1456,
+    889
+   ]
+  },
+  {
+   "text": "month.",
+   "bbox": [
+    244,
+    891,
+    393,
+    933
+   ]
+  },
+  {
+   "text": "According to Bhattotpala, if the solar month is Makara, it",
+   "bbox": [
+    319,
+    932,
+    1462,
+    1020
+   ]
+  },
+  {
+   "text": "is the lunar Magha. In this way convert the solar month into",
+   "bbox": [
+    245,
+    982,
+    1461,
+    1076
+   ]
+  },
+  {
+   "text": "the lunar month. This is only an approximation.",
+   "bbox": [
+    250,
+    1049,
+    1214,
+    1125
+   ]
+  },
+  {
+   "text": "Nocturnal signs are Mesha, Vrishabha, Mithuna, Karka,",
+   "bbox": [
+    324,
+    1114,
+    1467,
+    1209
+   ]
+  },
+  {
+   "text": "Dhanush and Makara. The rest are diurnal signs (1.10). If the",
+   "bbox": [
+    253,
+    1166,
+    1468,
+    1260
+   ]
+  },
+  {
+   "text": "query is put when a nocturnal sign is rising, the birth was in",
+   "bbox": [
+    254,
+    1221,
+    1470,
+    1315
+   ]
+  },
+  {
+   "text": "the day time. If it is a diurnal sign, the birth was in the night.",
+   "bbox": [
+    255,
+    1278,
+    1471,
+    1364
+   ]
+  },
+  {
+   "text": "Then determine the correct lagna.",
+   "bbox": [
+    258,
+    1350,
+    944,
+    1416
+   ]
+  },
+  {
+   "text": "Take the vighatis elapsed in the lagna when the query was",
+   "bbox": [
+    336,
+    1412,
+    1478,
+    1496
+   ]
+  },
+  {
+   "text": "put. Multiply these by the duration of the day or night of the",
+   "bbox": [
+    260,
+    1461,
+    1480,
+    1552
+   ]
+  },
+  {
+   "text": "day of birth. Divide the product by the duration of the sign at",
+   "bbox": [
+    263,
+    1514,
+    1481,
+    1606
+   ]
+  },
+  {
+   "text": "the latitude of birth. The quotient is the time of birth in the day",
+   "bbox": [
+    266,
+    1567,
+    1481,
+    1660
+   ]
+  },
+  {
+   "text": "or night.",
+   "bbox": [
+    268,
+    1661,
+    460,
+    1712
+   ]
+  },
+  {
+   "text": "Bhattotpala gives a list of the cheshakas or vighatis of the",
+   "bbox": [
+    345,
+    1704,
+    1487,
+    1789
+   ]
+  },
+  {
+   "text": "various signs thus:",
+   "bbox": [
+    272,
+    1787,
+    658,
+    1843
+   ]
+  },
+  {
+   "text": "Mina and Mesha - 200 each",
+   "bbox": [
+    349,
+    1846,
+    911,
+    1907
+   ]
+  },
+  {
+   "text": "Vrishabha and Kumbha - 240 each",
+   "bbox": [
+    352,
+    1914,
+    1049,
+    1974
+   ]
+  },
+  {
+   "text": "Mithuna and Makara - 280 each",
+   "bbox": [
+    353,
+    1984,
+    1006,
+    2045
+   ]
+  },
+  {
+   "text": "Karka and Dhanush - 320 each",
+   "bbox": [
+    355,
+    2056,
+    991,
+    2114
+   ]
+  },
+  {
+   "text": "Simha and Vrishchika - 360 each",
+   "bbox": [
+    358,
+    2123,
+    1028,
+    2184
+   ]
+  },
+  {
+   "text": "Kanya and Tula - 400 each",
+   "bbox": [
+    359,
+    2198,
+    909,
+    2257
+   ]
+  },
+  {
+   "text": "These are probably applicable to his place of birth. These",
+   "bbox": [
+    359,
+    2254,
+    1507,
+    2339
+   ]
+  }
+ ]
+}

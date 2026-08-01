@@ -1,0 +1,288 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0182",
+ "book_id": "phaladeepika",
+ "seq": 182,
+ "source_ref": {
+  "pdf_page": 182
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "8cfaf4e75dd38c6ad240f002178bc43c25bef98c57c4de6f534391af4badb0ca",
+ "lines": [
+  {
+   "text": "<b>Chapter 20</b>",
+   "bbox": [
+    281,
+    57,
+    357,
+    75
+   ]
+  },
+  {
+   "text": "<b>Effects of Dasas of the lords of houses and their Antar Dasas</b>",
+   "bbox": [
+    114,
+    85,
+    524,
+    103
+   ]
+  },
+  {
+   "text": "1. This Chapter deals briefly with the effects of a planet as a result of his ",
+   "bbox": [
+    121,
+    137,
+    556,
+    152
+   ]
+  },
+  {
+   "text": "lordship of a house, when he is strong, with the effects when he is weak and ",
+   "bbox": [
+    85,
+    161,
+    556,
+    176
+   ]
+  },
+  {
+   "text": "consequent effects that one has to undergo under circumstances.",
+   "bbox": [
+    85,
+    185,
+    444,
+    201
+   ]
+  },
+  {
+   "text": "2. When the lagna is endowed with full strength, the native will during the ",
+   "bbox": [
+    121,
+    209,
+    556,
+    225
+   ]
+  },
+  {
+   "text": "dasa of the lord of the lagna attain a position of eminence in the world and live ",
+   "bbox": [
+    85,
+    233,
+    556,
+    249
+   ]
+  },
+  {
+   "text": "happily. His body will remain sturdy and healthy and he will have lustre in his ",
+   "bbox": [
+    85,
+    257,
+    556,
+    273
+   ]
+  },
+  {
+   "text": "face. His prosperity will increase and his life will progress just as the Moon's digits ",
+   "bbox": [
+    85,
+    282,
+    556,
+    297
+   ]
+  },
+  {
+   "text": "in the bright half of the lunar month.",
+   "bbox": [
+    85,
+    306,
+    290,
+    321
+   ]
+  },
+  {
+   "text": "3. During the operation of the lord of the 2nd house, there will be acquisition ",
+   "bbox": [
+    121,
+    330,
+    556,
+    345
+   ]
+  },
+  {
+   "text": "of family, good daughters, enjoyment of good food and earning of money through ",
+   "bbox": [
+    85,
+    354,
+    556,
+    370
+   ]
+  },
+  {
+   "text": "lectures, eloquence of speech and consequent appreciation of the audience.",
+   "bbox": [
+    85,
+    378,
+    505,
+    394
+   ]
+  },
+  {
+   "text": "4. If the 3rd house and its lord be equipped with full strength, during the ",
+   "bbox": [
+    121,
+    402,
+    556,
+    418
+   ]
+  },
+  {
+   "text": "dasa of the lord of the 3rd house, the native will receive full cooperation from his ",
+   "bbox": [
+    85,
+    427,
+    556,
+    442
+   ]
+  },
+  {
+   "text": "brothers, he will receive auspicious news, he will have opportunity to exhibit his ",
+   "bbox": [
+    85,
+    451,
+    556,
+    466
+   ]
+  },
+  {
+   "text": "courage and volour, become commander of an army and will attain honour. He will ",
+   "bbox": [
+    85,
+    475,
+    556,
+    490
+   ]
+  },
+  {
+   "text": "receive support of the people and will become popular for his good quality.",
+   "bbox": [
+    85,
+    499,
+    506,
+    514
+   ]
+  },
+  {
+   "text": "5. If the 4th house be vested with maximum strength, effects like going good ",
+   "bbox": [
+    121,
+    523,
+    556,
+    539
+   ]
+  },
+  {
+   "text": "to the relation, success in agricultural pursuits, happy relations with wife, ",
+   "bbox": [
+    85,
+    547,
+    556,
+    563
+   ]
+  },
+  {
+   "text": "acquisition of a conveyance, agricultural lands, houses, wealth, attainment of a ",
+   "bbox": [
+    85,
+    571,
+    556,
+    587
+   ]
+  },
+  {
+   "text": "higher status, will be experienced by the native during the dasa of the lord of the ",
+   "bbox": [
+    85,
+    596,
+    556,
+    611
+   ]
+  },
+  {
+   "text": "4th house.",
+   "bbox": [
+    85,
+    620,
+    143,
+    635
+   ]
+  },
+  {
+   "text": "6. If the 5th house be bestowed with full strength, effects like birth of a son, ",
+   "bbox": [
+    121,
+    644,
+    556,
+    659
+   ]
+  },
+  {
+   "text": "happy associations and relationship with kinsmen, becoming minister of a king, ",
+   "bbox": [
+    85,
+    668,
+    556,
+    684
+   ]
+  },
+  {
+   "text": "conferment of honours, involvement in virtuous actions and praise for it from the ",
+   "bbox": [
+    85,
+    692,
+    556,
+    708
+   ]
+  },
+  {
+   "text": "people and enjoyment of many kinds of delicious preparations shared with others, ",
+   "bbox": [
+    85,
+    716,
+    556,
+    732
+   ]
+  },
+  {
+   "text": "will be derived during the dasa of the lord of the 5th house.",
+   "bbox": [
+    85,
+    740,
+    417,
+    756
+   ]
+  },
+  {
+   "text": "7. If the 6th be very strongly disposed, effects like overcoming the enemies ",
+   "bbox": [
+    121,
+    765,
+    556,
+    780
+   ]
+  },
+  {
+   "text": "182",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

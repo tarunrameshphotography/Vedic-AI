@@ -1,0 +1,317 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0080",
+ "book_id": "brihat-jataka",
+ "seq": 80,
+ "source_ref": {
+  "pdf_page": 40,
+  "half": "b",
+  "v1_page": "s040b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "f98fb47328894274620bb850e232a3ac3ccde45dfc21dcad0e1634fd43740e95",
+ "lines": [
+  {
+   "text": "Span of Life",
+   "bbox": [
+    294,
+    252,
+    542,
+    291
+   ]
+  },
+  {
+   "text": "आयुर्दायं विष्णुगुप्तोऽपि चैवं देवस्वामी सिद्धसेनश्च चक्रे।",
+   "bbox": [
+    363,
+    349,
+    1180,
+    403
+   ]
+  },
+  {
+   "text": "दोषश्चैषां जायतेऽष्टावरिष्टं हित्वा नायुर्विंशते: स्यादधस्तात् ।। 7।।",
+   "bbox": [
+    363,
+    412,
+    1324,
+    469
+   ]
+  },
+  {
+   "text": "Vishnu Gupta, Devaswami and Siddhasen have followed a",
+   "bbox": [
+    368,
+    511,
+    1506,
+    550
+   ]
+  },
+  {
+   "text": "system of determining longevity. The fault in the system",
+   "bbox": [
+    294,
+    564,
+    1505,
+    603
+   ]
+  },
+  {
+   "text": "adopted by them lies in the fact that after leaving 8 years for",
+   "bbox": [
+    294,
+    615,
+    1506,
+    654
+   ]
+  },
+  {
+   "text": "infantile death they still give more than 20 years.",
+   "bbox": [
+    292,
+    668,
+    1284,
+    708
+   ]
+  },
+  {
+   "text": "यस्मिन्योगे पूर्णमायुः प्रदिष्टं तस्मिन्प्रोक्तं चक्रवर्तित्वमन्यैः।",
+   "bbox": [
+    362,
+    743,
+    1203,
+    794
+   ]
+  },
+  {
+   "text": "प्रत्यक्षोऽयं तेषु दोषः परोऽपि जीवन्त्यायुःपूर्णमर्थैविनापि।। 8।।",
+   "bbox": [
+    365,
+    803,
+    1245,
+    859
+   ]
+  },
+  {
+   "text": "Another obvious defect in their system is that the yogas",
+   "bbox": [
+    366,
+    902,
+    1505,
+    942
+   ]
+  },
+  {
+   "text": "that they have declared as conducive to full longevity have",
+   "bbox": [
+    292,
+    955,
+    1503,
+    995
+   ]
+  },
+  {
+   "text": "been held by others as appropriate for getting rule over the",
+   "bbox": [
+    292,
+    1005,
+    1505,
+    1052
+   ]
+  },
+  {
+   "text": "whole earth, for people have been seen living out full span of",
+   "bbox": [
+    292,
+    1062,
+    1509,
+    1102
+   ]
+  },
+  {
+   "text": "years without wealth.",
+   "bbox": [
+    291,
+    1115,
+    727,
+    1154
+   ]
+  },
+  {
+   "text": "According to the method of Jeeva Sharma the entire period",
+   "bbox": [
+    363,
+    1185,
+    1505,
+    1233
+   ]
+  },
+  {
+   "text": "of 120 years and 5 days has been divided equally between the",
+   "bbox": [
+    290,
+    1244,
+    1505,
+    1285
+   ]
+  },
+  {
+   "text": "seven planets. This measures ie 17 years 1 day 22 gharis 8",
+   "bbox": [
+    291,
+    1298,
+    1515,
+    1338
+   ]
+  },
+  {
+   "text": "palas and 34 vipalas is the one for a planet in his maximum",
+   "bbox": [
+    291,
+    1346,
+    1503,
+    1393
+   ]
+  },
+  {
+   "text": "exaltation. Half of it ie 8 years, 6 months, 26 days, 4 gharis and",
+   "bbox": [
+    291,
+    1402,
+    1505,
+    1442
+   ]
+  },
+  {
+   "text": "17 palas will it have when at maximum debilitation in between",
+   "bbox": [
+    292,
+    1455,
+    1505,
+    1495
+   ]
+  },
+  {
+   "text": "in proportion. The remaining process of reduction vide shloka",
+   "bbox": [
+    288,
+    1507,
+    1506,
+    1547
+   ]
+  },
+  {
+   "text": "2 remains. But this opinion is exclusive to Jeeva Sharma, not",
+   "bbox": [
+    288,
+    1560,
+    1505,
+    1600
+   ]
+  },
+  {
+   "text": "agreed to by other Acharyas.",
+   "bbox": [
+    291,
+    1614,
+    865,
+    1654
+   ]
+  },
+  {
+   "text": "स्वमतेन किलाह जीवशर्मा ग्रहदायं परमायुष: स्मरांशम्।",
+   "bbox": [
+    361,
+    1690,
+    1168,
+    1740
+   ]
+  },
+  {
+   "text": "ग्रहभुक्तनवांशराशितुल्यं बहुसाम्यं समुपैति सत्यवाक्यम् ।। 911",
+   "bbox": [
+    360,
+    1747,
+    1260,
+    1810
+   ]
+  },
+  {
+   "text": "According to the \"Anshayu\" method, the number of",
+   "bbox": [
+    361,
+    1863,
+    1509,
+    1903
+   ]
+  },
+  {
+   "text": "navamshas (counted from Aries) covered by the longitude of a",
+   "bbox": [
+    288,
+    1911,
+    1505,
+    1957
+   ]
+  },
+  {
+   "text": "planet would be the whole number of years contributed by it to",
+   "bbox": [
+    288,
+    1967,
+    1505,
+    2007
+   ]
+  },
+  {
+   "text": "longevity, the months etc for the fraction of a navamsha of",
+   "bbox": [
+    288,
+    2015,
+    1509,
+    2061
+   ]
+  },
+  {
+   "text": "course, being worked out proportionately.",
+   "bbox": [
+    287,
+    2071,
+    1116,
+    2111
+   ]
+  },
+  {
+   "text": "Satyacharya on Longevity",
+   "bbox": [
+    287,
+    2173,
+    974,
+    2214
+   ]
+  },
+  {
+   "text": "सत्योक्ते ग्रहमिष्टं लिप्तीकृत्वा शतद्वयेनाप्तम्।",
+   "bbox": [
+    356,
+    2250,
+    1017,
+    2301
+   ]
+  },
+  {
+   "text": "मण्डलभागविशुद्धेऽब्दाः स्युः शेषातु मासाद्या:।। 10।।",
+   "bbox": [
+    355,
+    2313,
+    1139,
+    2368
+   ]
+  }
+ ]
+}

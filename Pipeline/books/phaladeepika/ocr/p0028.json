@@ -1,0 +1,369 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0028",
+ "book_id": "phaladeepika",
+ "seq": 28,
+ "source_ref": {
+  "pdf_page": 28
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "19df30863d03a78fc5860912cdf0e0ed68bfe2da261dab207ca4dc272e77fe58",
+ "lines": [
+  {
+   "text": "<b>Chapter 3</b>",
+   "bbox": [
+    285,
+    57,
+    353,
+    75
+   ]
+  },
+  {
+   "text": "<b>Divisions of a sign</b>",
+   "bbox": [
+    257,
+    85,
+    381,
+    103
+   ]
+  },
+  {
+   "text": "1. The ten-fold division of the Zodiac is known as Dasa vargas (Vargas mean ",
+   "bbox": [
+    121,
+    137,
+    556,
+    152
+   ]
+  },
+  {
+   "text": "divisions). Under the scheme of Dasavarga the various divisions are as Under :—",
+   "bbox": [
+    85,
+    161,
+    541,
+    176
+   ]
+  },
+  {
+   "text": "(1) Rasi ",
+   "bbox": [
+    157,
+    185,
+    205,
+    201
+   ]
+  },
+  {
+   "text": "Each Rasi 30° ",
+   "bbox": [
+    258,
+    185,
+    342,
+    201
+   ]
+  },
+  {
+   "text": "(2) Hora ",
+   "bbox": [
+    157,
+    201,
+    208,
+    217
+   ]
+  },
+  {
+   "text": "2 parts of a Rasi of 15° each. ",
+   "bbox": [
+    258,
+    201,
+    424,
+    217
+   ]
+  },
+  {
+   "text": "(3) Drekkana ",
+   "bbox": [
+    157,
+    217,
+    234,
+    233
+   ]
+  },
+  {
+   "text": "3 parts of a Rasi of 10° each. ",
+   "bbox": [
+    258,
+    217,
+    424,
+    233
+   ]
+  },
+  {
+   "text": "(4) Trimsamsa ",
+   "bbox": [
+    157,
+    233,
+    242,
+    249
+   ]
+  },
+  {
+   "text": "5 parts of 5°, 7° or 8° each. (All parts ",
+   "bbox": [
+    258,
+    233,
+    471,
+    249
+   ]
+  },
+  {
+   "text": "are not equal) ",
+   "bbox": [
+    258,
+    249,
+    339,
+    265
+   ]
+  },
+  {
+   "text": "(5) Saptamsa ",
+   "bbox": [
+    157,
+    266,
+    234,
+    281
+   ]
+  },
+  {
+   "text": "7 parts of 4°-17\"-8\" each. ",
+   "bbox": [
+    258,
+    266,
+    405,
+    281
+   ]
+  },
+  {
+   "text": "(6) Navamsa ",
+   "bbox": [
+    157,
+    282,
+    232,
+    297
+   ]
+  },
+  {
+   "text": "9 parts of 3°-20 each. ",
+   "bbox": [
+    258,
+    282,
+    382,
+    297
+   ]
+  },
+  {
+   "text": "(7) Dasmamsa ",
+   "bbox": [
+    157,
+    298,
+    241,
+    313
+   ]
+  },
+  {
+   "text": "10 parts of 3°each. ",
+   "bbox": [
+    258,
+    298,
+    367,
+    313
+   ]
+  },
+  {
+   "text": "(8) Dwadasamsa 12 parts of 2°-30' each. ",
+   "bbox": [
+    157,
+    314,
+    392,
+    329
+   ]
+  },
+  {
+   "text": "(9) Shodasamsa 16 parts of l°-16'-52\" each. ",
+   "bbox": [
+    157,
+    330,
+    413,
+    345
+   ]
+  },
+  {
+   "text": "(10) Shastyamsa 60 parts of 30' each. ",
+   "bbox": [
+    157,
+    346,
+    375,
+    362
+   ]
+  },
+  {
+   "text": "Vargottama is the name given to that particular Navamsa in a Rasi which ",
+   "bbox": [
+    121,
+    386,
+    556,
+    402
+   ]
+  },
+  {
+   "text": "bears the same sign as that of Rasi itself.",
+   "bbox": [
+    85,
+    410,
+    313,
+    426
+   ]
+  },
+  {
+   "text": "2. If amongst the ten vargas only the Rasi, Hora, Drekkana, Navamsa, ",
+   "bbox": [
+    121,
+    435,
+    556,
+    450
+   ]
+  },
+  {
+   "text": "Dwadasamsa and Trimsamsa are taken into consideration, the divisions are known ",
+   "bbox": [
+    85,
+    459,
+    556,
+    474
+   ]
+  },
+  {
+   "text": "as Shad vargas. If we add Saptamsa division to them, the 7 kinds of divisions are ",
+   "bbox": [
+    85,
+    483,
+    556,
+    498
+   ]
+  },
+  {
+   "text": "known as Sapta vargas.",
+   "bbox": [
+    85,
+    507,
+    216,
+    523
+   ]
+  },
+  {
+   "text": "Some learneds have taken the view that the effect emanating from Navamsa ",
+   "bbox": [
+    121,
+    531,
+    556,
+    547
+   ]
+  },
+  {
+   "text": "is equal to that of Rasi and Bhava.",
+   "bbox": [
+    85,
+    555,
+    277,
+    571
+   ]
+  },
+  {
+   "text": "3. In Rasis the effect is full. In the Shodasamsa, Dasmamsa and Shastyamsa ",
+   "bbox": [
+    121,
+    579,
+    556,
+    595
+   ]
+  },
+  {
+   "text": "divisions (Vargas) it is one-fourth. In the other vargas it is half. In an odd Rasi, the ",
+   "bbox": [
+    85,
+    604,
+    556,
+    619
+   ]
+  },
+  {
+   "text": "planets are said to be in 'infancy, in boyhood, youth, in middle age and in very old ",
+   "bbox": [
+    85,
+    628,
+    556,
+    643
+   ]
+  },
+  {
+   "text": "age (near death), according to first, second, third, fourth and last six degree ",
+   "bbox": [
+    85,
+    652,
+    556,
+    667
+   ]
+  },
+  {
+   "text": "portions respectively reached by them in a sign. But in an even sign this is in the ",
+   "bbox": [
+    85,
+    676,
+    556,
+    692
+   ]
+  },
+  {
+   "text": "reverse order.",
+   "bbox": [
+    85,
+    700,
+    161,
+    716
+   ]
+  },
+  {
+   "text": "Notes — In Aries, Gemini, Leo, Libra, Sagittarius and Aquarius there is ",
+   "bbox": [
+    121,
+    724,
+    556,
+    740
+   ]
+  },
+  {
+   "text": "infancy up to 6 degrees, up to 12° boyhood, from there to 18° it is youth and up to ",
+   "bbox": [
+    85,
+    749,
+    556,
+    764
+   ]
+  },
+  {
+   "text": "28",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

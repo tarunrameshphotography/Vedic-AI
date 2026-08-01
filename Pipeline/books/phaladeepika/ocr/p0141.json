@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0141",
+ "book_id": "phaladeepika",
+ "seq": 141,
+ "source_ref": {
+  "pdf_page": 141
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "bb860b4c1e784b314a3941fa273229dee7bf37bd7d4b85ef8b550c7253a01cf0",
+ "lines": [
+  {
+   "text": "Women.",
+   "bbox": [
+    85,
+    57,
+    132,
+    73
+   ]
+  },
+  {
+   "text": "(7) Saturn — Wind diseases or a dangerous fever like typhoid.",
+   "bbox": [
+    121,
+    82,
+    471,
+    97
+   ]
+  },
+  {
+   "text": "(8) Rahu — Leprosy, food poisoning, venomous bites, smallpox and the ",
+   "bbox": [
+    121,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "like.",
+   "bbox": [
+    85,
+    130,
+    110,
+    145
+   ]
+  },
+  {
+   "text": "(9) Ketu — Unnatural death like suicide, assassination as a result of hatred ",
+   "bbox": [
+    121,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "of enemies or through worms etc.",
+   "bbox": [
+    85,
+    178,
+    273,
+    194
+   ]
+  },
+  {
+   "text": "16. The death should be predicted through the evil effect arising from the 8th ",
+   "bbox": [
+    121,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "house reckoned from the Lagna or through the evil effect of the sign representing ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "Navamsa occupied by the lord of the 8th house.",
+   "bbox": [
+    85,
+    251,
+    352,
+    266
+   ]
+  },
+  {
+   "text": "17-19. The diseases caused by the planets have already been described ",
+   "bbox": [
+    121,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "earlier. Now are detailed the diseases and troubles caused by the various signs ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "which may ultimately become the media of death of the native.",
+   "bbox": [
+    85,
+    323,
+    439,
+    339
+   ]
+  },
+  {
+   "text": "(1) Aries — fever due to excess of bile, diseases caused by heat like stroke ",
+   "bbox": [
+    121,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "etc., liver or gastric trouble.",
+   "bbox": [
+    85,
+    371,
+    240,
+    387
+   ]
+  },
+  {
+   "text": "(2) Taurus — Diseases caused by the imbalance of the three humours bile, ",
+   "bbox": [
+    121,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "phlegm and wind, injury by weapon or fire.",
+   "bbox": [
+    85,
+    420,
+    329,
+    435
+   ]
+  },
+  {
+   "text": "(3) Gemini — Catarrah, asthema, or sharp pain such as colic.",
+   "bbox": [
+    121,
+    444,
+    464,
+    459
+   ]
+  },
+  {
+   "text": "(4) Cancer — Insanity, windy diseases, loss of appetite etc.",
+   "bbox": [
+    121,
+    468,
+    452,
+    483
+   ]
+  },
+  {
+   "text": "(5) Leo — fatal injuries caused by wild animals, fever, boils, enemies.",
+   "bbox": [
+    121,
+    492,
+    515,
+    508
+   ]
+  },
+  {
+   "text": "(6) Virgo — Troubles caused by women, veneial diseases, fall from a height.",
+   "bbox": [
+    121,
+    516,
+    551,
+    532
+   ]
+  },
+  {
+   "text": "(7) Libra — Brain fever and typhod.",
+   "bbox": [
+    121,
+    540,
+    325,
+    556
+   ]
+  },
+  {
+   "text": "(8) Scorpio — Diseases of the spleen, dyspepsia and jaundice.",
+   "bbox": [
+    121,
+    565,
+    470,
+    580
+   ]
+  },
+  {
+   "text": "(9) Sagittarius — Injury caused by fall from a tree (or by tree falling of or ",
+   "bbox": [
+    121,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "varga",
+   "bbox": [
+    85,
+    613,
+    116,
+    628
+   ]
+  },
+  {
+   "text": "(10) Capricorn— Stomach-ache, loss or appetite or aberation of mind etc.",
+   "bbox": [
+    121,
+    637,
+    534,
+    652
+   ]
+  },
+  {
+   "text": "(11) Aquarius — cough, fever, consumption etc.",
+   "bbox": [
+    121,
+    661,
+    391,
+    677
+   ]
+  },
+  {
+   "text": "(12) Pisces — Watery diseases such as Jalodara, drowning, etc.",
+   "bbox": [
+    121,
+    685,
+    475,
+    701
+   ]
+  },
+  {
+   "text": "20. If the lord of the 8th house be a malefic and 8th house be a malefic the ",
+   "bbox": [
+    121,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "death will be by weapon, fire, tiger or snake.",
+   "bbox": [
+    85,
+    734,
+    335,
+    749
+   ]
+  },
+  {
+   "text": "If two malefics posited in kendras aspect each other, the death will be due to ",
+   "bbox": [
+    121,
+    758,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "141",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

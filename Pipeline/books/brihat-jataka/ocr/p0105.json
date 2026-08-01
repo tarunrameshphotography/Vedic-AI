@@ -1,0 +1,326 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0105",
+ "book_id": "brihat-jataka",
+ "seq": 105,
+ "source_ref": {
+  "pdf_page": 53,
+  "half": "a",
+  "v1_page": "s053a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "11ef2dab09532802a951332f7c0937aa53bc6490de4190bb669a87b0d79f55cb",
+ "lines": [
+  {
+   "text": "102",
+   "bbox": [
+    361,
+    252,
+    452,
+    288
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1281,
+    252,
+    1573,
+    285
+   ]
+  },
+  {
+   "text": "झपे सेन्दौ लग्ने घटमृगमृगेन्द्रेषु सहितै-",
+   "bbox": [
+    428,
+    349,
+    997,
+    406
+   ]
+  },
+  {
+   "text": "र्यमाराकैँयोऽभूत्स खलु मनुज:शास्ति वसुधाम्।",
+   "bbox": [
+    429,
+    413,
+    1085,
+    469
+   ]
+  },
+  {
+   "text": "अजे भूजे मूर्तौ शशिगृहगते चामरगुरौ",
+   "bbox": [
+    429,
+    480,
+    965,
+    534
+   ]
+  },
+  {
+   "text": "सुरेज्ये वा लग्ने धरणिपतिरन्योपि गुणवान् ।। 8 ।।",
+   "bbox": [
+    430,
+    547,
+    1160,
+    598
+   ]
+  },
+  {
+   "text": "In case Moon is in Pisces in Lagna with Sun occupying",
+   "bbox": [
+    434,
+    643,
+    1576,
+    685
+   ]
+  },
+  {
+   "text": "Leo and Saturn in Acquarius and Mars in Capricorn, the",
+   "bbox": [
+    358,
+    697,
+    1573,
+    736
+   ]
+  },
+  {
+   "text": "person born will rule the earth. Another Yoga for kingship is",
+   "bbox": [
+    359,
+    750,
+    1573,
+    789
+   ]
+  },
+  {
+   "text": "for Mars to occupy Aries in the ascendant and Jupiter to be in",
+   "bbox": [
+    356,
+    803,
+    1575,
+    841
+   ]
+  },
+  {
+   "text": "Cancer. Yet another yoga for kingship would be when Jupiter",
+   "bbox": [
+    359,
+    855,
+    1573,
+    895
+   ]
+  },
+  {
+   "text": "is in Cancer in Lagna and Mars occupies Aries in the 10th",
+   "bbox": [
+    355,
+    908,
+    1573,
+    948
+   ]
+  },
+  {
+   "text": "house.",
+   "bbox": [
+    358,
+    962,
+    489,
+    996
+   ]
+  },
+  {
+   "text": "Commentary: In the first yoga mentioned in this shloka",
+   "bbox": [
+    433,
+    1039,
+    1576,
+    1080
+   ]
+  },
+  {
+   "text": "Moon, though not in his own sign or in exaltation would be",
+   "bbox": [
+    356,
+    1092,
+    1573,
+    1132
+   ]
+  },
+  {
+   "text": "occupying a friend's sign and what is more it would be far away",
+   "bbox": [
+    358,
+    1145,
+    1573,
+    1184
+   ]
+  },
+  {
+   "text": "from the Sun, thus becoming very strong in \"Paksha Bala\" and",
+   "bbox": [
+    355,
+    1196,
+    1573,
+    1236
+   ]
+  },
+  {
+   "text": "thereby boosting Lagna and thus leading to acquisition of",
+   "bbox": [
+    356,
+    1249,
+    1577,
+    1289
+   ]
+  },
+  {
+   "text": "powers.",
+   "bbox": [
+    356,
+    1307,
+    512,
+    1339
+   ]
+  },
+  {
+   "text": "कर्किणि लग्ने तत्स्थे जीवे चन्द्रसितज्ञैरायप्राप्तै:।",
+   "bbox": [
+    429,
+    1374,
+    1118,
+    1421
+   ]
+  },
+  {
+   "text": "मेषगतेऽर्के जातं विद्याद्विक्रमयुक्तं पृथ्वीनाथम् ।। 9 ।।",
+   "bbox": [
+    427,
+    1441,
+    1192,
+    1491
+   ]
+  },
+  {
+   "text": "In the case of an exhalted Jupiter in lagna with the 11th",
+   "bbox": [
+    432,
+    1538,
+    1573,
+    1576
+   ]
+  },
+  {
+   "text": "house of the birth chart occupied by Moon, Venus and Mercury",
+   "bbox": [
+    355,
+    1590,
+    1572,
+    1629
+   ]
+  },
+  {
+   "text": "and the 10th house (Aries) by the Sun, the person born is a",
+   "bbox": [
+    355,
+    1642,
+    1570,
+    1681
+   ]
+  },
+  {
+   "text": "brave and powerful king.",
+   "bbox": [
+    355,
+    1696,
+    859,
+    1733
+   ]
+  },
+  {
+   "text": "मृगमुखेऽर्कतनयस्तनुसंस्थः क्रियकुलीरहरयोऽधिपयुक्ता:।",
+   "bbox": [
+    427,
+    1770,
+    1216,
+    1818
+   ]
+  },
+  {
+   "text": "मिथुनतौलिसहितौ बुधशुक्रौ यदि तत: पुथुयशा: पृथिवीश: ।। 10 ।।",
+   "bbox": [
+    427,
+    1830,
+    1407,
+    1884
+   ]
+  },
+  {
+   "text": "If Saturn is in Capricorn in lagna, Mars is in Aries, Moon",
+   "bbox": [
+    430,
+    1929,
+    1572,
+    1968
+   ]
+  },
+  {
+   "text": "in Cancer, Sun in Leo, Mercury in Gemini and Venus in",
+   "bbox": [
+    354,
+    1982,
+    1570,
+    2021
+   ]
+  },
+  {
+   "text": "Libra, the person born in this yoga becomes greatly renowned",
+   "bbox": [
+    354,
+    2035,
+    1570,
+    2073
+   ]
+  },
+  {
+   "text": "king.",
+   "bbox": [
+    354,
+    2088,
+    460,
+    2126
+   ]
+  },
+  {
+   "text": "स्वोच्चसंस्थे बुधे लग्ने भृगौ मेघूरणाश्रिते।",
+   "bbox": [
+    426,
+    2161,
+    1021,
+    2214
+   ]
+  },
+  {
+   "text": "सजीवेऽस्ते निशानाथे राजा मन्दारयो: सुते।। 11 ।।",
+   "bbox": [
+    427,
+    2222,
+    1169,
+    2277
+   ]
+  },
+  {
+   "text": "If Mercury occupies its exaltation sign in the lagna, Venus",
+   "bbox": [
+    430,
+    2322,
+    1573,
+    2360
+   ]
+  }
+ ]
+}

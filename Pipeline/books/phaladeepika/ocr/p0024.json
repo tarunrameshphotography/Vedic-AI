@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0024",
+ "book_id": "phaladeepika",
+ "seq": 24,
+ "source_ref": {
+  "pdf_page": 24
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "37cd24c2d173d11310d232f21901daa42fa344cfdf42d71d6b33599b2ea61128",
+ "lines": [
+  {
+   "text": "25. The Sun is signiflcator of father if the birth is during the day time and ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "uncle if the birth is during night time. He has special influence on the right eye.",
+   "bbox": [
+    85,
+    82,
+    530,
+    97
+   ]
+  },
+  {
+   "text": "The Moon is the indicator of mother if the birth is during night time and of ",
+   "bbox": [
+    121,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "maternal aunt if the birth is during day time. She has special influence on the left ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "eye.",
+   "bbox": [
+    85,
+    154,
+    108,
+    169
+   ]
+  },
+  {
+   "text": "Mars is the signiflcator of younger brother. Mercury signifies adopted son. ",
+   "bbox": [
+    121,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "Jupiter represents elder brother.",
+   "bbox": [
+    85,
+    202,
+    262,
+    218
+   ]
+  },
+  {
+   "text": "Venus is the signiflcator of mother if the birth is during day time and of ",
+   "bbox": [
+    121,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "maternal aunt if the birth takes place at night.",
+   "bbox": [
+    85,
+    251,
+    339,
+    266
+   ]
+  },
+  {
+   "text": "Saturn represents the uncle if the birth takes place during the day and of ",
+   "bbox": [
+    121,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "father if the birth is during night time.",
+   "bbox": [
+    85,
+    299,
+    298,
+    314
+   ]
+  },
+  {
+   "text": "26. The Sun represents the soul and the Moon the body. Mars and the other ",
+   "bbox": [
+    121,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "four planets denote the five senses. The Sun and Mars govern Teja and have ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "influence over eye sight. The Moon and Venus rule over the generative organs ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "because they govern the watery element. Mercury governs smell (nose). Jupiter ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "governs sound (the capacity to hear). Saturn, Rahu and Ketu govern the touch.",
+   "bbox": [
+    85,
+    420,
+    524,
+    435
+   ]
+  },
+  {
+   "text": "Rahu, Ketu and Gulik are enemies of the Sun and will cause distress to the ",
+   "bbox": [
+    121,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "body and the soul.",
+   "bbox": [
+    85,
+    468,
+    188,
+    483
+   ]
+  },
+  {
+   "text": "27. The waning Moon, the Sun, Mars, Saturn, Rahu and Ketu are classified ",
+   "bbox": [
+    121,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "as malefic planets. Mercury if associated with them becomes malefic.",
+   "bbox": [
+    85,
+    516,
+    475,
+    532
+   ]
+  },
+  {
+   "text": "Notes — The waxing Moon and Mercury not associated with malefics will ",
+   "bbox": [
+    121,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "be treated as benefic.",
+   "bbox": [
+    85,
+    565,
+    203,
+    580
+   ]
+  },
+  {
+   "text": "Mercury, Ketu and Saturn are eunuchs. The Moon, Rahu and Venus are ",
+   "bbox": [
+    121,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "females. The Sun, Mars and Jupiter are males. The Sun belongs to the fiery ",
+   "bbox": [
+    85,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "element and his ruling deity is Rudra. The Moon belongs to the watery element and ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "her ruling deity is Amba (Parvati). The ruling deities of Mars, Mercury, Jupiter, ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "Venus, Saturn Rahu and Ketu are Kartika, Vishnu, Brahma, Lakshmi and Yama. ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "Serpent Adhishesha and Braham respectively.",
+   "bbox": [
+    85,
+    709,
+    341,
+    725
+   ]
+  },
+  {
+   "text": "Fire, water, fire, earth, ether, water and air are the constituents respectively ",
+   "bbox": [
+    121,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "of the planets from Sun to Saturn.",
+   "bbox": [
+    85,
+    758,
+    274,
+    773
+   ]
+  },
+  {
+   "text": "24",
+   "bbox": [
+    313,
+    793,
+    325,
+    806
+   ]
+  }
+ ]
+}

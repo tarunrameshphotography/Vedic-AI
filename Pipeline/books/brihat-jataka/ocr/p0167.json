@@ -1,0 +1,344 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0167",
+ "book_id": "brihat-jataka",
+ "seq": 167,
+ "source_ref": {
+  "pdf_page": 84,
+  "half": "a",
+  "v1_page": "s084a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "2962bf248982cfb81ed2c10ba2d42d57ad9a11fc5274b1670e69f2843e93e4ac",
+ "lines": [
+  {
+   "text": "164",
+   "bbox": [
+    296,
+    190,
+    387,
+    225
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1214,
+    190,
+    1507,
+    225
+   ]
+  },
+  {
+   "text": "The principle underlying the yoga is two fold: namely, the",
+   "bbox": [
+    367,
+    294,
+    1508,
+    334
+   ]
+  },
+  {
+   "text": "exaltation etc of the planets involved and the fact of their being",
+   "bbox": [
+    289,
+    346,
+    1509,
+    385
+   ]
+  },
+  {
+   "text": "in kendras from one another. It is not necessary that such",
+   "bbox": [
+    290,
+    394,
+    1508,
+    440
+   ]
+  },
+  {
+   "text": "planets in exaltation etc should be in kendra from the lagna as",
+   "bbox": [
+    291,
+    451,
+    1507,
+    490
+   ]
+  },
+  {
+   "text": "well (although if they are so, they would constitute a still",
+   "bbox": [
+    291,
+    504,
+    1508,
+    544
+   ]
+  },
+  {
+   "text": "better karaka yoga) to constitute the yoga. Such planets",
+   "bbox": [
+    291,
+    557,
+    1507,
+    596
+   ]
+  },
+  {
+   "text": "should, however, be mutual friends having common traits to",
+   "bbox": [
+    291,
+    608,
+    1507,
+    647
+   ]
+  },
+  {
+   "text": "create the yoga.",
+   "bbox": [
+    289,
+    662,
+    609,
+    701
+   ]
+  },
+  {
+   "text": "<i>Commentary:</i> A planet located in the 10th house from an-",
+   "bbox": [
+    365,
+    741,
+    1507,
+    780
+   ]
+  },
+  {
+   "text": "other throw under the ordinary rules its 3/4th influence on the",
+   "bbox": [
+    289,
+    793,
+    1507,
+    832
+   ]
+  },
+  {
+   "text": "planet from which it is in 10th. It is therefore, clear that when",
+   "bbox": [
+    289,
+    844,
+    1507,
+    886
+   ]
+  },
+  {
+   "text": "the planet in the 10th is not only exalted etc (and therefore",
+   "bbox": [
+    289,
+    899,
+    1505,
+    939
+   ]
+  },
+  {
+   "text": "strong), but is a friend possessing common traits with the",
+   "bbox": [
+    288,
+    952,
+    1505,
+    992
+   ]
+  },
+  {
+   "text": "other, its influence would be strong and complementary.",
+   "bbox": [
+    286,
+    1005,
+    1412,
+    1045
+   ]
+  },
+  {
+   "text": "<b>Benefits of Karaka Planets</b>",
+   "bbox": [
+    288,
+    1108,
+    988,
+    1145
+   ]
+  },
+  {
+   "text": "शुभं वर्गोत्तमे जन्म वेशिस्थाने च सदग्रहे।",
+   "bbox": [
+    360,
+    1182,
+    981,
+    1234
+   ]
+  },
+  {
+   "text": "अशून्येषुच केन्द्रेषु कारकाख्यग्रहेषु च ।। 4।।",
+   "bbox": [
+    358,
+    1248,
+    1024,
+    1301
+   ]
+  },
+  {
+   "text": "A birth should be considered to be lucky and auspicious if",
+   "bbox": [
+    358,
+    1346,
+    1508,
+    1385
+   ]
+  },
+  {
+   "text": "the lagna (or the Moon) is in vargottam (ie the sign in",
+   "bbox": [
+    285,
+    1400,
+    1505,
+    1439
+   ]
+  },
+  {
+   "text": "navamsha is the same as in the lagna or chandra lagna). It is",
+   "bbox": [
+    285,
+    1453,
+    1502,
+    1493
+   ]
+  },
+  {
+   "text": "also auspicious if the veshi (2nd from Sun) is occupied by a",
+   "bbox": [
+    285,
+    1505,
+    1501,
+    1544
+   ]
+  },
+  {
+   "text": "benefic planet. It is also auspicious if none of the kendras is",
+   "bbox": [
+    285,
+    1559,
+    1502,
+    1598
+   ]
+  },
+  {
+   "text": "without a planet (preferably each kendra should have a",
+   "bbox": [
+    285,
+    1612,
+    1501,
+    1652
+   ]
+  },
+  {
+   "text": "benefic). So also is the birth lucky when the karaka yoga",
+   "bbox": [
+    285,
+    1665,
+    1502,
+    1704
+   ]
+  },
+  {
+   "text": "(exalted etc planets in mutual kendras) is present in the birth",
+   "bbox": [
+    283,
+    1716,
+    1502,
+    1758
+   ]
+  },
+  {
+   "text": "chart.",
+   "bbox": [
+    280,
+    1770,
+    406,
+    1805
+   ]
+  },
+  {
+   "text": "मध्ये वयस: सुखप्रदा: केन्द्रस्था गुरुजन्मलग्नपा:।",
+   "bbox": [
+    354,
+    1844,
+    1067,
+    1895
+   ]
+  },
+  {
+   "text": "पृष्ठोभयकोदयर्क्षगास्त्वन्तेऽन्तः प्रथमेषु पाकदाः।। 5।।",
+   "bbox": [
+    354,
+    1904,
+    1122,
+    1960
+   ]
+  },
+  {
+   "text": "If the planet Jupiter, the lord of the lagna and the lord of",
+   "bbox": [
+    357,
+    2005,
+    1505,
+    2044
+   ]
+  },
+  {
+   "text": "the sign occupied by Moon are located in kendras they bestow",
+   "bbox": [
+    280,
+    2054,
+    1500,
+    2100
+   ]
+  },
+  {
+   "text": "felicity during the middle portion of life. The planets located in",
+   "bbox": [
+    279,
+    2109,
+    1498,
+    2149
+   ]
+  },
+  {
+   "text": "\"Prishtodaya\" ie Bhagyodaya and sheershodaya signs give",
+   "bbox": [
+    279,
+    2162,
+    1498,
+    2202
+   ]
+  },
+  {
+   "text": "their dasa results in the last middle and first portion of their",
+   "bbox": [
+    279,
+    2216,
+    1501,
+    2255
+   ]
+  },
+  {
+   "text": "dasas respectively.",
+   "bbox": [
+    279,
+    2269,
+    657,
+    2307
+   ]
+  }
+ ]
+}

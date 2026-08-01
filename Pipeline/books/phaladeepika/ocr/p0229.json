@@ -1,0 +1,468 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0229",
+ "book_id": "phaladeepika",
+ "seq": 229,
+ "source_ref": {
+  "pdf_page": 229
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "22e0881ed33f6587b07168067ab46c45f9cf451f02de7bf1417f41a1689a9503",
+ "lines": [
+  {
+   "text": "should be placed. Saturn Ashtakavarga has to be prepared in this manner.",
+   "bbox": [
+    85,
+    57,
+    494,
+    73
+   ]
+  },
+  {
+   "text": "Divide sign into 8 divisions. Each division will be of 3 degrees and 45 ",
+   "bbox": [
+    121,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "minutes. Whatever be the sign the first division belongs to Saturn. Thus Saturn is ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "the lord of the first division of 3 degrees and 45 minutes. The 2nd, 3nd, 4th, 5th, ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "6th 7th and 8th divisions are owned by Jupiter, Mars, the Sun, Venus, Mercury, the ",
+   "bbox": [
+    85,
+    154,
+    556,
+    169
+   ]
+  },
+  {
+   "text": "Moon and the Lagna. This is why in the above Saturn's Ashtakavarga the order of ",
+   "bbox": [
+    85,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "planets in the table is Saturn, Jupiter, Mars, the Sun, Venus, Mercury, the Moon ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "and the Lagna. It will be seen that in Leo there are benefic bindus of Saturn, ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "Jupiter, Mars, the Sun, Mercury and the Lagna. When Saturn in the course of his ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "transit passes through these divisions, benefic effects will be produced. There will ",
+   "bbox": [
+    85,
+    275,
+    556,
+    290
+   ]
+  },
+  {
+   "text": "be adverse effects when Saturn passes through the division of Venus because his ",
+   "bbox": [
+    85,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "division is deviod of benefic bindus",
+   "bbox": [
+    85,
+    323,
+    285,
+    339
+   ]
+  },
+  {
+   "text": "This is the sense of the verses 16-19.",
+   "bbox": [
+    121,
+    347,
+    327,
+    363
+   ]
+  },
+  {
+   "text": "20. The Sarvashtakavarga containing the results of Ashtakavargas of all the ",
+   "bbox": [
+    121,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "planets is prepared by putting in each sign the sum total of all the figures in the ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "seven Ashtakavargas. If a sign contains figures exceeding 28, the results of the ",
+   "bbox": [
+    85,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "transit in that sign will be auspicious. If the number of figures be less than 28, it ",
+   "bbox": [
+    85,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "should be understood that effects of transit of planets in the sign will produce ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "danger or sorrow, the intensity of diversity being in proportion in the number.",
+   "bbox": [
+    85,
+    492,
+    519,
+    508
+   ]
+  },
+  {
+   "text": "Notes — We would better clarify this how the sarvashtakavarga is prepared. ",
+   "bbox": [
+    121,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "In accordance with the example the Ashtakavargas of the Seven planets, show the ",
+   "bbox": [
+    85,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "benefic bindus as under:—",
+   "bbox": [
+    85,
+    565,
+    236,
+    580
+   ]
+  },
+  {
+   "text": "1",
+   "bbox": [
+    186,
+    596,
+    193,
+    611
+   ]
+  },
+  {
+   "text": "3",
+   "bbox": [
+    221,
+    596,
+    228,
+    611
+   ]
+  },
+  {
+   "text": "7",
+   "bbox": [
+    257,
+    596,
+    264,
+    611
+   ]
+  },
+  {
+   "text": "4",
+   "bbox": [
+    292,
+    596,
+    299,
+    611
+   ]
+  },
+  {
+   "text": "4",
+   "bbox": [
+    373,
+    596,
+    380,
+    611
+   ]
+  },
+  {
+   "text": "5",
+   "bbox": [
+    409,
+    596,
+    416,
+    611
+   ]
+  },
+  {
+   "text": "4",
+   "bbox": [
+    445,
+    596,
+    452,
+    611
+   ]
+  },
+  {
+   "text": "The Sun's ",
+   "bbox": [
+    215,
+    619,
+    274,
+    634
+   ]
+  },
+  {
+   "text": "The Moon's ",
+   "bbox": [
+    361,
+    619,
+    431,
+    634
+   ]
+  },
+  {
+   "text": "5",
+   "bbox": [
+    186,
+    624,
+    193,
+    640
+   ]
+  },
+  {
+   "text": "4",
+   "bbox": [
+    292,
+    624,
+    299,
+    640
+   ]
+  },
+  {
+   "text": "3",
+   "bbox": [
+    338,
+    624,
+    345,
+    640
+   ]
+  },
+  {
+   "text": "4",
+   "bbox": [
+    445,
+    624,
+    452,
+    640
+   ]
+  },
+  {
+   "text": "Ashtaka-",
+   "bbox": [
+    218,
+    635,
+    268,
+    651
+   ]
+  },
+  {
+   "text": "Ashtaka-",
+   "bbox": [
+    369,
+    635,
+    420,
+    651
+   ]
+  },
+  {
+   "text": "varga",
+   "bbox": [
+    227,
+    651,
+    258,
+    667
+   ]
+  },
+  {
+   "text": "varga",
+   "bbox": [
+    379,
+    651,
+    410,
+    667
+   ]
+  },
+  {
+   "text": "3",
+   "bbox": [
+    186,
+    665,
+    193,
+    680
+   ]
+  },
+  {
+   "text": "5",
+   "bbox": [
+    292,
+    665,
+    299,
+    680
+   ]
+  },
+  {
+   "text": "6",
+   "bbox": [
+    338,
+    665,
+    345,
+    680
+   ]
+  },
+  {
+   "text": "6 L",
+   "bbox": [
+    439,
+    665,
+    458,
+    680
+   ]
+  },
+  {
+   "text": "4",
+   "bbox": [
+    186,
+    706,
+    193,
+    722
+   ]
+  },
+  {
+   "text": "4",
+   "bbox": [
+    257,
+    706,
+    264,
+    722
+   ]
+  },
+  {
+   "text": "3",
+   "bbox": [
+    292,
+    706,
+    299,
+    722
+   ]
+  },
+  {
+   "text": "3",
+   "bbox": [
+    338,
+    706,
+    345,
+    722
+   ]
+  },
+  {
+   "text": "1",
+   "bbox": [
+    373,
+    706,
+    380,
+    722
+   ]
+  },
+  {
+   "text": "6",
+   "bbox": [
+    445,
+    706,
+    452,
+    722
+   ]
+  },
+  {
+   "text": "229",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

@@ -1,0 +1,299 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0063",
+ "book_id": "brihat-jataka",
+ "seq": 63,
+ "source_ref": {
+  "pdf_page": 32,
+  "half": "a",
+  "v1_page": "s032a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "c8bfb378d0e549e33ef902f567ae089ec694be1d89e4d4b5c6254d57b2c3f9fe",
+ "lines": [
+  {
+   "text": "60",
+   "bbox": [
+    442,
+    183,
+    508,
+    216
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1368,
+    217,
+    1663,
+    264
+   ]
+  },
+  {
+   "text": "Commentary: The principle underlying the birth so near",
+   "bbox": [
+    508,
+    282,
+    1665,
+    378
+   ]
+  },
+  {
+   "text": "water is that the lagna and the chandra lagna denoting the",
+   "bbox": [
+    431,
+    332,
+    1659,
+    429
+   ]
+  },
+  {
+   "text": "conditions at birth are in each case, influenced by factors",
+   "bbox": [
+    428,
+    384,
+    1658,
+    483
+   ]
+  },
+  {
+   "text": "denoting water. See this principle applies in the following",
+   "bbox": [
+    425,
+    438,
+    1657,
+    536
+   ]
+  },
+  {
+   "text": "shloka also:",
+   "bbox": [
+    428,
+    492,
+    672,
+    542
+   ]
+  },
+  {
+   "text": "आप्योदयमाप्यगः शशी सम्पूर्णः समवेक्षतेऽथवा।",
+   "bbox": [
+    495,
+    573,
+    1193,
+    653
+   ]
+  },
+  {
+   "text": "मेषूरणबन्धुलग्नगः स्यात्सूतिः सलिले न संशयः।। 9 ।।",
+   "bbox": [
+    493,
+    634,
+    1314,
+    727
+   ]
+  },
+  {
+   "text": "(ii) If there is a watery sign in the lagna and the Moon too",
+   "bbox": [
+    489,
+    730,
+    1644,
+    821
+   ]
+  },
+  {
+   "text": "is located in a watery sign or",
+   "bbox": [
+    409,
+    781,
+    1004,
+    847
+   ]
+  },
+  {
+   "text": "(ii) if full Moon aspects the lagna or",
+   "bbox": [
+    484,
+    861,
+    1228,
+    939
+   ]
+  },
+  {
+   "text": "(iii) if the full Moon occupies 10th, 4th or the 1st house the",
+   "bbox": [
+    480,
+    939,
+    1634,
+    1033
+   ]
+  },
+  {
+   "text": "native will be born over water.",
+   "bbox": [
+    404,
+    990,
+    1023,
+    1054
+   ]
+  },
+  {
+   "text": "उदयोडुपयोर्व्ययस्थिते गुप्त्यां पापनिरीक्षिते यमे।",
+   "bbox": [
+    474,
+    1072,
+    1167,
+    1152
+   ]
+  },
+  {
+   "text": "अलिककिंयुते विलग्नगे सौरे शीतकरेक्षितेऽवटे।। 10 ।।",
+   "bbox": [
+    471,
+    1131,
+    1296,
+    1225
+   ]
+  },
+  {
+   "text": "Saturn occupying the 12th house from the lagna or Moon,",
+   "bbox": [
+    468,
+    1228,
+    1624,
+    1321
+   ]
+  },
+  {
+   "text": "if aspected by a malefic planet denotes birth in prison.",
+   "bbox": [
+    390,
+    1278,
+    1483,
+    1366
+   ]
+  },
+  {
+   "text": "(iii) Saturn occupying the sign Cancer or Scorpio in lagna",
+   "bbox": [
+    461,
+    1360,
+    1619,
+    1450
+   ]
+  },
+  {
+   "text": "if aspected by Moon, denotes birth in a pit etc (underground).",
+   "bbox": [
+    382,
+    1404,
+    1611,
+    1508
+   ]
+  },
+  {
+   "text": "मन्देऽब्जगते विलग्नगे बुधसूर्य्येन्दुनिरीक्षिते क्रमात्।",
+   "bbox": [
+    455,
+    1488,
+    1186,
+    1574
+   ]
+  },
+  {
+   "text": "क्रीडाभवने सुरालये सोषरभूमिषु च प्रसूयते।। 11 ।।",
+   "bbox": [
+    452,
+    1548,
+    1237,
+    1646
+   ]
+  },
+  {
+   "text": "Saturn occupying a watery sign in lagna:",
+   "bbox": [
+    450,
+    1647,
+    1285,
+    1731
+   ]
+  },
+  {
+   "text": "<math>(i)</math> If aspected by Mercury denotes birth in a dancing hall.",
+   "bbox": [
+    444,
+    1725,
+    1600,
+    1821
+   ]
+  },
+  {
+   "text": "(ii) If aspected by Sun, denotes birth in a place of worship.",
+   "bbox": [
+    442,
+    1801,
+    1595,
+    1900
+   ]
+  },
+  {
+   "text": "(iii) If aspected by Moon denotes birth on earth.",
+   "bbox": [
+    441,
+    1882,
+    1419,
+    1970
+   ]
+  },
+  {
+   "text": "नृलग्नगं प्रेक्ष्य कुज: श्मशाने रम्ये सितेन्दू गुरुरग्निहोत्रे।",
+   "bbox": [
+    434,
+    1956,
+    1238,
+    2050
+   ]
+  },
+  {
+   "text": "रविनरिन्द्रामरगोकुलेषु शिल्पालये ज्ञ: प्रसवं करोति्।। 12 ।।",
+   "bbox": [
+    431,
+    2022,
+    1307,
+    2119
+   ]
+  },
+  {
+   "text": "If Saturn occupies a human sign in lagna and",
+   "bbox": [
+    429,
+    2118,
+    1356,
+    2204
+   ]
+  },
+  {
+   "text": "<math>(i)</math> if it is aspected by Mars, the birth takes place in or near",
+   "bbox": [
+    425,
+    2194,
+    1577,
+    2290
+   ]
+  },
+  {
+   "text": "a burning ghat.",
+   "bbox": [
+    346,
+    2246,
+    670,
+    2301
+   ]
+  }
+ ]
+}

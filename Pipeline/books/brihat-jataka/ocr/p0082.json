@@ -1,0 +1,209 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0082",
+ "book_id": "brihat-jataka",
+ "seq": 82,
+ "source_ref": {
+  "pdf_page": 41,
+  "half": "b",
+  "v1_page": "s041b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "7181e2d981e2e2d15824e5c84fe5e1f10bfd1e60d8f7722eb659c86b7f6b7ec9",
+ "lines": [
+  {
+   "text": "79",
+   "bbox": [
+    1352,
+    214,
+    1416,
+    246
+   ]
+  },
+  {
+   "text": "Span of Life",
+   "bbox": [
+    201,
+    259,
+    456,
+    315
+   ]
+  },
+  {
+   "text": "own navamsha and in his own decanate, Satyacharya enjoins",
+   "bbox": [
+    206,
+    308,
+    1428,
+    421
+   ]
+  },
+  {
+   "text": "doubling and tripling of the dasa years involved which gives",
+   "bbox": [
+    211,
+    355,
+    1431,
+    477
+   ]
+  },
+  {
+   "text": "manifestly a wrong longevity. But Varahmihir refutes this",
+   "bbox": [
+    212,
+    408,
+    1434,
+    531
+   ]
+  },
+  {
+   "text": "argument by saying that Satyacharya has laid down that in",
+   "bbox": [
+    215,
+    461,
+    1436,
+    582
+   ]
+  },
+  {
+   "text": "such cases the doubling or tripling that may be involved has to",
+   "bbox": [
+    217,
+    515,
+    1439,
+    635
+   ]
+  },
+  {
+   "text": "be carried out only once in respect of one planet. In view of",
+   "bbox": [
+    219,
+    569,
+    1444,
+    685
+   ]
+  },
+  {
+   "text": "this, the objection is not valid.",
+   "bbox": [
+    224,
+    657,
+    826,
+    731
+   ]
+  },
+  {
+   "text": "गुरुशशिसहिते कुलीरलग्ने शशितनये भृगुजे च केन्द्रयाते।",
+   "bbox": [
+    293,
+    716,
+    1125,
+    817
+   ]
+  },
+  {
+   "text": "भवरिपुसहजोपगैश्च शेषैरमितमिहायुरनुक्रमाद्विना स्यात् ।।14।।",
+   "bbox": [
+    300,
+    774,
+    1186,
+    881
+   ]
+  },
+  {
+   "text": "If the birth takes place in the Cancer as the ascendant and",
+   "bbox": [
+    305,
+    859,
+    1454,
+    969
+   ]
+  },
+  {
+   "text": "the ascendant contains both Jupiter and Moon and if Mercury",
+   "bbox": [
+    232,
+    910,
+    1456,
+    1026
+   ]
+  },
+  {
+   "text": "and Venus occupy kendra position from the lagna and the rest",
+   "bbox": [
+    234,
+    962,
+    1461,
+    1079
+   ]
+  },
+  {
+   "text": "of the planets ie Sun, Mars, Saturn, Rahu are located in any of",
+   "bbox": [
+    237,
+    1015,
+    1463,
+    1132
+   ]
+  },
+  {
+   "text": "the houses 3rd, 6th or 11th, the yoga thus constituted confers",
+   "bbox": [
+    240,
+    1067,
+    1464,
+    1186
+   ]
+  },
+  {
+   "text": "on the native longevity beyond 120 years which is not the",
+   "bbox": [
+    243,
+    1121,
+    1467,
+    1238
+   ]
+  },
+  {
+   "text": "subject matter of any calculation.",
+   "bbox": [
+    247,
+    1204,
+    916,
+    1283
+   ]
+  },
+  {
+   "text": "इति श्रीवराहमिहिरकृते बृहज्जातके आयुर्दायाध्यायस्सप्तम: ।।7।।",
+   "bbox": [
+    386,
+    1387,
+    1344,
+    1491
+   ]
+  },
+  {
+   "text": "Thus ends the seventh chapter on Span of Life in Brihat",
+   "bbox": [
+    330,
+    1469,
+    1486,
+    1583
+   ]
+  },
+  {
+   "text": "Jatak composed by Varahamihira.",
+   "bbox": [
+    259,
+    1551,
+    948,
+    1635
+   ]
+  }
+ ]
+}

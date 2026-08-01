@@ -1,0 +1,227 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0134",
+ "book_id": "brihat-jataka",
+ "seq": 134,
+ "source_ref": {
+  "pdf_page": 67,
+  "half": "b",
+  "v1_page": "s067b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "3d1c7925b11aba4ae5b74be8f61eb090db74fa5d8149c9c71fe81f28363ee337",
+ "lines": [
+  {
+   "text": "17",
+   "bbox": [
+    867,
+    558,
+    936,
+    604
+   ]
+  },
+  {
+   "text": "चन्द्रराशिशीलाध्यायः",
+   "bbox": [
+    705,
+    708,
+    1094,
+    763
+   ]
+  },
+  {
+   "text": "<b>Moon in Different Signs</b>",
+   "bbox": [
+    412,
+    783,
+    1384,
+    866
+   ]
+  },
+  {
+   "text": "<b>Moon in Aries</b>",
+   "bbox": [
+    291,
+    1033,
+    665,
+    1074
+   ]
+  },
+  {
+   "text": "वृत्ताताम्रदृगुष्णशाकलघुभुक् क्षिप्रप्रसादोऽटन:",
+   "bbox": [
+    365,
+    1117,
+    988,
+    1171
+   ]
+  },
+  {
+   "text": "कामी दुर्बलजानुरस्थिरधन: शूरोऽङ्गनावल्लभ:।",
+   "bbox": [
+    366,
+    1179,
+    1023,
+    1234
+   ]
+  },
+  {
+   "text": "सेवाज्ञ: कुनखी व्रणाङ्कितशिरा मानी सहोत्थाग्रज:",
+   "bbox": [
+    365,
+    1246,
+    1070,
+    1298
+   ]
+  },
+  {
+   "text": "शक्त्या पाणितलेऽङ्क्तितोऽतिचपलस्तोये च भीरुः क्रिये।। 1 ।।",
+   "bbox": [
+    366,
+    1310,
+    1244,
+    1362
+   ]
+  },
+  {
+   "text": "One having Moon in Aries has round eyes like the colour of",
+   "bbox": [
+    368,
+    1408,
+    1509,
+    1447
+   ]
+  },
+  {
+   "text": "copper. He likes to eat things less but in hot condition, is easily",
+   "bbox": [
+    291,
+    1460,
+    1506,
+    1500
+   ]
+  },
+  {
+   "text": "pleased, has many travels, is given to sex. The lower portion of",
+   "bbox": [
+    292,
+    1512,
+    1508,
+    1553
+   ]
+  },
+  {
+   "text": "his legs is weak. He has vicissitudes in matters of wealth, is",
+   "bbox": [
+    291,
+    1564,
+    1505,
+    1605
+   ]
+  },
+  {
+   "text": "full of valour, favourite of women, appreciates service of oth-",
+   "bbox": [
+    291,
+    1618,
+    1503,
+    1658
+   ]
+  },
+  {
+   "text": "ers, has bad nails of the body, has mark of injury on the head,",
+   "bbox": [
+    291,
+    1670,
+    1505,
+    1710
+   ]
+  },
+  {
+   "text": "is respected, is eldest among his brothers. He has the mark of",
+   "bbox": [
+    291,
+    1721,
+    1508,
+    1765
+   ]
+  },
+  {
+   "text": "shakti (a weapon) on his palm, is very changeful and is very",
+   "bbox": [
+    291,
+    1776,
+    1505,
+    1816
+   ]
+  },
+  {
+   "text": "much afraid of water.",
+   "bbox": [
+    292,
+    1828,
+    724,
+    1865
+   ]
+  },
+  {
+   "text": "<b>Moon in Taurus</b>",
+   "bbox": [
+    292,
+    1930,
+    713,
+    1971
+   ]
+  },
+  {
+   "text": "कान्त: खेलगति: पृथूरुवदन: पृष्ठास्यपार्श्वाऽङ्कित-",
+   "bbox": [
+    363,
+    2011,
+    1065,
+    2063
+   ]
+  },
+  {
+   "text": "स्त्यागी क्लेशसह: प्रभु: कुकुदवान्कन्याप्रज: श्लेष्मल:।",
+   "bbox": [
+    365,
+    2074,
+    1157,
+    2128
+   ]
+  },
+  {
+   "text": "पूर्वैर्बन्धृधनात्मजैर्विरहित: सौभाग्ययुक्त: क्षमी",
+   "bbox": [
+    363,
+    2135,
+    1008,
+    2191
+   ]
+  },
+  {
+   "text": "दीप्ताग्निः प्रमदाप्रियः स्थिरसुहन्मध्यान्त्यसौख्यो गवि।। 2 ।।",
+   "bbox": [
+    362,
+    2205,
+    1244,
+    2258
+   ]
+  },
+  {
+   "text": "One having Moon in Taurus is very good looking, walks",
+   "bbox": [
+    362,
+    2301,
+    1508,
+    2342
+   ]
+  }
+ ]
+}

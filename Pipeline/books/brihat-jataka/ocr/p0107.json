@@ -1,0 +1,344 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0107",
+ "book_id": "brihat-jataka",
+ "seq": 107,
+ "source_ref": {
+  "pdf_page": 54,
+  "half": "a",
+  "v1_page": "s054a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "d96ff4d8fd7c849791337bb6d4775f474dc2d50c70591d8bd9a532dfc22a9a62",
+ "lines": [
+  {
+   "text": "104",
+   "bbox": [
+    364,
+    295,
+    455,
+    330
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1286,
+    296,
+    1578,
+    329
+   ]
+  },
+  {
+   "text": "family becomes a king. If there are weak and afflicted",
+   "bbox": [
+    358,
+    400,
+    1583,
+    438
+   ]
+  },
+  {
+   "text": "planets in the 2nd house none of those can become a",
+   "bbox": [
+    360,
+    449,
+    1578,
+    491
+   ]
+  },
+  {
+   "text": "king. The word \"Trikon\" means Mool Trikona because of the",
+   "bbox": [
+    358,
+    504,
+    1578,
+    543
+   ]
+  },
+  {
+   "text": "qualifying word swa and not the trines. As stated by some",
+   "bbox": [
+    358,
+    557,
+    1578,
+    597
+   ]
+  },
+  {
+   "text": "benefic planet occupies the 9th house and the rest of the",
+   "bbox": [
+    358,
+    611,
+    1578,
+    650
+   ]
+  },
+  {
+   "text": "planets occupy, as possible, any of the houses 9th, 2nd, 3rd,",
+   "bbox": [
+    358,
+    664,
+    1578,
+    703
+   ]
+  },
+  {
+   "text": "6th, 10th and 11th, one born in a royal family becomes a",
+   "bbox": [
+    358,
+    717,
+    1578,
+    756
+   ]
+  },
+  {
+   "text": "righteous king. One born in other family become rich and",
+   "bbox": [
+    357,
+    770,
+    1578,
+    808
+   ]
+  },
+  {
+   "text": "honourable.",
+   "bbox": [
+    357,
+    822,
+    599,
+    857
+   ]
+  },
+  {
+   "text": "When the lagna is in Taurus occupied by Moon, Jupiter is",
+   "bbox": [
+    433,
+    906,
+    1578,
+    945
+   ]
+  },
+  {
+   "text": "in the second house (Gemini), Saturn in 6th (Libra) and the",
+   "bbox": [
+    356,
+    959,
+    1574,
+    997
+   ]
+  },
+  {
+   "text": "rest of the planets are in the 11th house in the Pisces, one born",
+   "bbox": [
+    357,
+    1012,
+    1577,
+    1050
+   ]
+  },
+  {
+   "text": "in royal family becomes king, others born rich. Same result",
+   "bbox": [
+    354,
+    1064,
+    1578,
+    1104
+   ]
+  },
+  {
+   "text": "accrue, if Jupiter occupies the 4th house. Saturn is in the first",
+   "bbox": [
+    357,
+    1117,
+    1578,
+    1156
+   ]
+  },
+  {
+   "text": "and the Sun and Moon are in the 10th house.",
+   "bbox": [
+    357,
+    1170,
+    1257,
+    1206
+   ]
+  },
+  {
+   "text": "If Moon, Saturn and Jupiter located in 10th, 11th and 1st",
+   "bbox": [
+    431,
+    1253,
+    1577,
+    1292
+   ]
+  },
+  {
+   "text": "house respectively and Mercury and Mars are in the 2nd house",
+   "bbox": [
+    353,
+    1306,
+    1574,
+    1344
+   ]
+  },
+  {
+   "text": "and the Sun and Venus are in the 4th house, the person, if",
+   "bbox": [
+    354,
+    1359,
+    1577,
+    1398
+   ]
+  },
+  {
+   "text": "born in a royal house, becomes a king, otherwise a richman.",
+   "bbox": [
+    354,
+    1411,
+    1572,
+    1451
+   ]
+  },
+  {
+   "text": "The same result follows if Mars and Saturn are both located in",
+   "bbox": [
+    354,
+    1464,
+    1574,
+    1500
+   ]
+  },
+  {
+   "text": "Lagna, Moon in 4th, Jupiter in 7th, Venus in 9th, Sun in 10th",
+   "bbox": [
+    354,
+    1519,
+    1575,
+    1558
+   ]
+  },
+  {
+   "text": "and Mercury is in the 11th house.",
+   "bbox": [
+    354,
+    1571,
+    1038,
+    1610
+   ]
+  },
+  {
+   "text": "Time of Fructification",
+   "bbox": [
+    353,
+    1679,
+    932,
+    1717
+   ]
+  },
+  {
+   "text": "वृषोदये मूर्तिधनारिलाभगै: शशाङ्कजीवार्कसुतापरैर्नृप:।",
+   "bbox": [
+    426,
+    1756,
+    1176,
+    1811
+   ]
+  },
+  {
+   "text": "सुखे गुरौ खे शशितीक्ष्णदीधिती यमोदये लाभगतैर्नृपोऽपर: ।। 17 ।।",
+   "bbox": [
+    427,
+    1818,
+    1397,
+    1875
+   ]
+  },
+  {
+   "text": "The ruling powers are acquired in the ruling periods of the",
+   "bbox": [
+    428,
+    1919,
+    1574,
+    1958
+   ]
+  },
+  {
+   "text": "planets occupying the ascendant or the 10th house, the stron-",
+   "bbox": [
+    353,
+    1971,
+    1572,
+    2010
+   ]
+  },
+  {
+   "text": "gest of the planets occupying these houses, gives ruling powers",
+   "bbox": [
+    353,
+    2024,
+    1572,
+    2063
+   ]
+  },
+  {
+   "text": "(in case no planet occupies the lagna or the 10th house, the",
+   "bbox": [
+    354,
+    2072,
+    1571,
+    2119
+   ]
+  },
+  {
+   "text": "powers are attained in the dasa of the stronger of the lords of",
+   "bbox": [
+    353,
+    2128,
+    1575,
+    2167
+   ]
+  },
+  {
+   "text": "these two houses). The sub-period in dasa of the planet located",
+   "bbox": [
+    352,
+    2179,
+    1573,
+    2220
+   ]
+  },
+  {
+   "text": "in inimical sign or in its sign of debilitation, is called \"Chhidra\"",
+   "bbox": [
+    350,
+    2232,
+    1571,
+    2271
+   ]
+  },
+  {
+   "text": "Dasa.\" This chhidra dasa will bring about the destruction of",
+   "bbox": [
+    350,
+    2284,
+    1572,
+    2323
+   ]
+  },
+  {
+   "text": "ruling powers in case the planets in debilitation or inimical",
+   "bbox": [
+    350,
+    2336,
+    1571,
+    2377
+   ]
+  }
+ ]
+}

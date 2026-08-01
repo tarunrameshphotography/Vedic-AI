@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0007",
+ "book_id": "phaladeepika",
+ "seq": 7,
+ "source_ref": {
+  "pdf_page": 7
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "d765a055bb119ad2c0ebc913ed943de97a34a74874b9440600070a7b913284ce",
+ "lines": [
+  {
+   "text": "the Lagna occupying a house even if he be a malefic -- Effect on the house when a ",
+   "bbox": [
+    85,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "planet owns two houses -- Effect of a planet in Bhava -- Sandhi -- Description of ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "subjects falling under the Jurisdiction of the various planets -- Karakas -- a method ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "of judging each house -- Circumstances under which the planets are Inter-",
+   "bbox": [
+    85,
+    130,
+    553,
+    145
+   ]
+  },
+  {
+   "text": "connected. 167-177",
+   "bbox": [
+    85,
+    154,
+    196,
+    169
+   ]
+  },
+  {
+   "text": "<b>Chapter 16: General effects of the twelve houses</b>",
+   "bbox": [
+    121,
+    178,
+    408,
+    194
+   ]
+  },
+  {
+   "text": "The planets effecting the appearance of the native and his body and limbs -- ",
+   "bbox": [
+    121,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "Effects of the good and had disposition of the lords of the Lagna and other houses ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "-- Effects of the lord of Lagna being stronger than the lord of the 6th house -- Time ",
+   "bbox": [
+    85,
+    251,
+    556,
+    266
+   ]
+  },
+  {
+   "text": "when the good and bad effects of a house will be realised. 178-188",
+   "bbox": [
+    85,
+    275,
+    459,
+    290
+   ]
+  },
+  {
+   "text": "<b>Chapter 17: Exit from the world</b>",
+   "bbox": [
+    121,
+    299,
+    315,
+    314
+   ]
+  },
+  {
+   "text": "Destruction of a house during transit of Saturn through certain positions - ",
+   "bbox": [
+    121,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "Occurence of death during the transit of Saturn through certain positions - ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "Occurence of death during transit of Jupiter, the Sun and the Moon In certain ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "positions - The time of death of the native. 189-196",
+   "bbox": [
+    85,
+    395,
+    373,
+    411
+   ]
+  },
+  {
+   "text": "<b>Chapter 18: Effects of conjunction of two planets</b>",
+   "bbox": [
+    121,
+    420,
+    414,
+    435
+   ]
+  },
+  {
+   "text": "General effects of conjunction of two planets - Effects of Moon in different ",
+   "bbox": [
+    121,
+    444,
+    556,
+    459
+   ]
+  },
+  {
+   "text": "signs being aspected by different planets - Effects of the Moon being in Navamsa ",
+   "bbox": [
+    85,
+    468,
+    556,
+    483
+   ]
+  },
+  {
+   "text": "of different planets and being aspected by them. 197-202",
+   "bbox": [
+    85,
+    492,
+    404,
+    508
+   ]
+  },
+  {
+   "text": "<b>Chapter 19: Dasas (major periods) of planets and their effects</b>",
+   "bbox": [
+    121,
+    516,
+    489,
+    532
+   ]
+  },
+  {
+   "text": "The span of Dasa (Vlmshottari Dasa) of various planets — How to work and ",
+   "bbox": [
+    121,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "the balance of dasa at birth? – What is a solar year? -- General effects of Dasas of ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "the various planets. 203-213",
+   "bbox": [
+    85,
+    589,
+    244,
+    604
+   ]
+  },
+  {
+   "text": "<b>Chapter 20: Effects of the Dasas of the lords oj houses</b>",
+   "bbox": [
+    121,
+    613,
+    443,
+    628
+   ]
+  },
+  {
+   "text": "Effects of the Dasa of Vargottamamsa planets -- Unfavourable effects of the ",
+   "bbox": [
+    121,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "Dasa and Antar Dasa of the two planets occupying the 8th house -- Effects of the ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "Antar Dasa of a planet owing to the 3rd, 5th, or 7th star from the natal star in the ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "Dasa of a Malefic - Evil effects If the 4th Dasa is of Saturn, sixth of Jupiter and 5th ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "of Mars of Rahu -- Favourable effects of the Dasa of Mars if in Urdhvamukha sign ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "of the exaltation sign - identical with the 10th or 11th house — Unfavourable ",
+   "bbox": [
+    85,
+    757,
+    556,
+    773
+   ]
+  },
+  {
+   "text": "7",
+   "bbox": [
+    316,
+    793,
+    322,
+    806
+   ]
+  }
+ ]
+}

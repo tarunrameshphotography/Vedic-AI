@@ -1,0 +1,308 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0175",
+ "book_id": "brihat-jataka",
+ "seq": 175,
+ "source_ref": {
+  "pdf_page": 88,
+  "half": "a",
+  "v1_page": "s088a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "02202f7f0e4d8d98676a8365a08d02ae036e67c3c618dd71fb2f7049095f9fac",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1204,
+    286,
+    1497,
+    320
+   ]
+  },
+  {
+   "text": "172",
+   "bbox": [
+    281,
+    287,
+    371,
+    320
+   ]
+  },
+  {
+   "text": "these planets.",
+   "bbox": [
+    275,
+    386,
+    556,
+    427
+   ]
+  },
+  {
+   "text": "<i>Notes:</i> The dhatus are vata (wind), pitta (bile) and kapha",
+   "bbox": [
+    351,
+    466,
+    1500,
+    504
+   ]
+  },
+  {
+   "text": "(phlegm). The dhatus ruled by the planets are - Sun-bile;",
+   "bbox": [
+    275,
+    517,
+    1497,
+    556
+   ]
+  },
+  {
+   "text": "Moon-phlegm and wind; Kuja-bile; Budha-bile, wind and",
+   "bbox": [
+    268,
+    570,
+    1496,
+    609
+   ]
+  },
+  {
+   "text": "phlegm; Guru-phlegm; Shukra-wind and phlegm; Shani-",
+   "bbox": [
+    275,
+    622,
+    1499,
+    661
+   ]
+  },
+  {
+   "text": "wind. (See Chapter <math>2.8</math> to 11).",
+   "bbox": [
+    277,
+    674,
+    875,
+    712
+   ]
+  },
+  {
+   "text": "नवमायतृतीयधीयुता न च सौम्यैरशुभा निरीक्षिता:।",
+   "bbox": [
+    347,
+    745,
+    1066,
+    799
+   ]
+  },
+  {
+   "text": "नियमाच्छ्रवणोपघातदा रदवैकृत्यकराश्च सप्तमे।। 11।।",
+   "bbox": [
+    347,
+    810,
+    1152,
+    864
+   ]
+  },
+  {
+   "text": "Malefics in 3, 5, 9 and 11 unaspected by benefics give rise",
+   "bbox": [
+    348,
+    909,
+    1496,
+    949
+   ]
+  },
+  {
+   "text": "to deafness.",
+   "bbox": [
+    272,
+    962,
+    511,
+    997
+   ]
+  },
+  {
+   "text": "If these malefics are in the seventh, one has decomposed",
+   "bbox": [
+    348,
+    1042,
+    1497,
+    1080
+   ]
+  },
+  {
+   "text": "teeth.",
+   "bbox": [
+    272,
+    1093,
+    393,
+    1127
+   ]
+  },
+  {
+   "text": "<i>Notes:</i> Malefics are the Sun, weak Moon, Kuja, Shani, Rahu",
+   "bbox": [
+    353,
+    1172,
+    1496,
+    1213
+   ]
+  },
+  {
+   "text": "and Budha associated with malefics. They may be in all the",
+   "bbox": [
+    272,
+    1225,
+    1493,
+    1264
+   ]
+  },
+  {
+   "text": "houses 3, 5, 9, 11 or in any one or two or three. Deafness comes",
+   "bbox": [
+    271,
+    1278,
+    1493,
+    1317
+   ]
+  },
+  {
+   "text": "from that dhatu indicated by the strongest of these malefics.",
+   "bbox": [
+    271,
+    1331,
+    1484,
+    1370
+   ]
+  },
+  {
+   "text": "उदयत्युडुपेऽसुरास्यगे सपिशाचोऽशुभयोखिकोणयो:।",
+   "bbox": [
+    344,
+    1405,
+    1072,
+    1456
+   ]
+  },
+  {
+   "text": "सोपप्लवमण्डले रवावुदयस्थे नयनापवर्जित: ।। 12।।",
+   "bbox": [
+    344,
+    1468,
+    1105,
+    1521
+   ]
+  },
+  {
+   "text": "When the Moon is with Rahu in lagna and malefics are in",
+   "bbox": [
+    347,
+    1567,
+    1493,
+    1605
+   ]
+  },
+  {
+   "text": "trines, the native suffers from possession by evil spirits.",
+   "bbox": [
+    271,
+    1619,
+    1402,
+    1657
+   ]
+  },
+  {
+   "text": "When the eclipsed Sun is in lagna, the native becomes",
+   "bbox": [
+    346,
+    1697,
+    1491,
+    1736
+   ]
+  },
+  {
+   "text": "blind.",
+   "bbox": [
+    268,
+    1748,
+    387,
+    1783
+   ]
+  },
+  {
+   "text": "<i>Notes:</i> In the second combination Shani or Kuja or both",
+   "bbox": [
+    343,
+    1829,
+    1493,
+    1867
+   ]
+  },
+  {
+   "text": "must be in the fifth and ninth houses.",
+   "bbox": [
+    267,
+    1881,
+    1030,
+    1916
+   ]
+  },
+  {
+   "text": "संस्पृष्ट: पवनेन मन्दगयुते द्यूने विलग्ने गुरौ",
+   "bbox": [
+    340,
+    1956,
+    973,
+    2006
+   ]
+  },
+  {
+   "text": "सोन्मादोऽवनिजे स्थितेऽस्तभवने जीवे विलग्नाश्रिते।",
+   "bbox": [
+    340,
+    2019,
+    1065,
+    2067
+   ]
+  },
+  {
+   "text": "तद्वत्सूर्यसुतोदयेऽवनिसुते धर्मात्मजद्यूनगे",
+   "bbox": [
+    340,
+    2088,
+    897,
+    2138
+   ]
+  },
+  {
+   "text": "जातो वा ससहस्ररश्मितनये क्षीणे व्यये शीतगौ।। 13।।",
+   "bbox": [
+    340,
+    2151,
+    1145,
+    2200
+   ]
+  },
+  {
+   "text": "Jupiter in lagna and Shani in the seventh make one suffer",
+   "bbox": [
+    341,
+    2244,
+    1500,
+    2288
+   ]
+  },
+  {
+   "text": "from the complaints of wind.",
+   "bbox": [
+    262,
+    2300,
+    845,
+    2337
+   ]
+  }
+ ]
+}

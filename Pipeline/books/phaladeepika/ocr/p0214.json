@@ -1,0 +1,297 @@
+{
+ "schema": 2,
+ "page_id": "phaladeepika/p0214",
+ "book_id": "phaladeepika",
+ "seq": 214,
+ "source_ref": {
+  "pdf_page": 214
+ },
+ "producer": {
+  "name": "pdf_text",
+  "engine": "pymupdf",
+  "version": "PyMuPDF 1.28.0: Python bindings for the MuPDF 1.29.0 library.\nPython 3.14 running on win32 (64-bit).",
+  "run_date": "2026-08-01"
+ },
+ "fingerprint": "b067a8cc9f550cdf5807e2a4e8b704db89b476bae84139169b1ec4ab9f32ad87",
+ "lines": [
+  {
+   "text": "16. Which is the 5th nakshatra from the Janma nakshatra? The Mahadasha ",
+   "bbox": [
+    121,
+    57,
+    556,
+    73
+   ]
+  },
+  {
+   "text": "coming from such counting is known as Utpanna Mahadasha. Count the 8th ",
+   "bbox": [
+    85,
+    82,
+    556,
+    97
+   ]
+  },
+  {
+   "text": "nakshatra from the Janma nakshatra. The Mahadasha commencing from this ",
+   "bbox": [
+    85,
+    106,
+    556,
+    121
+   ]
+  },
+  {
+   "text": "nakshatra is known as Adhana dasa. Similarly the dasa commencing from the 4th ",
+   "bbox": [
+    85,
+    130,
+    556,
+    145
+   ]
+  },
+  {
+   "text": "nakshatra from the Janma nakshatra is known as Kshema dasa.",
+   "bbox": [
+    85,
+    154,
+    437,
+    169
+   ]
+  },
+  {
+   "text": "If all, these three dasas operate at the same time (year, month.etc.), that ",
+   "bbox": [
+    121,
+    178,
+    556,
+    194
+   ]
+  },
+  {
+   "text": "period may cause the death of the native. The third dasa for the Alpayu class, the ",
+   "bbox": [
+    85,
+    202,
+    556,
+    218
+   ]
+  },
+  {
+   "text": "5th dasa for the Madhyayu class and the 7th dasa for Deerghayu class are ",
+   "bbox": [
+    85,
+    226,
+    556,
+    242
+   ]
+  },
+  {
+   "text": "considered as maraka dasas (death inflicting dasas).",
+   "bbox": [
+    85,
+    251,
+    375,
+    266
+   ]
+  },
+  {
+   "text": "<b>Nisarga dasa</b>",
+   "bbox": [
+    121,
+    275,
+    199,
+    290
+   ]
+  },
+  {
+   "text": "17. The years of dasa allotted in Naisargika dasa to the various planets are as ",
+   "bbox": [
+    121,
+    299,
+    556,
+    314
+   ]
+  },
+  {
+   "text": "follows—The Moon 1 Year, Mars 2 Years, Mercury 9 years, Venus 20 years, ",
+   "bbox": [
+    85,
+    323,
+    556,
+    339
+   ]
+  },
+  {
+   "text": "Jupiter 18 years, the Sun 20 years, Saturn 50 years. According to Yavanas the ",
+   "bbox": [
+    85,
+    347,
+    556,
+    363
+   ]
+  },
+  {
+   "text": "Lagna dasa Is included in the 50 years of Saturn dasa. This is not accepted by ",
+   "bbox": [
+    85,
+    371,
+    556,
+    387
+   ]
+  },
+  {
+   "text": "others. A well placed planet in a nativity produces favourable effects while the ",
+   "bbox": [
+    85,
+    395,
+    556,
+    411
+   ]
+  },
+  {
+   "text": "effects of the one adversely placed will not be auspicious. The dasas play their part ",
+   "bbox": [
+    85,
+    420,
+    556,
+    435
+   ]
+  },
+  {
+   "text": "in the order given here according to the natural strength of the planets concerned.",
+   "bbox": [
+    85,
+    444,
+    540,
+    459
+   ]
+  },
+  {
+   "text": "<b>Amsa dasa</b>",
+   "bbox": [
+    121,
+    468,
+    186,
+    483
+   ]
+  },
+  {
+   "text": "18. Convert the rasi, degree and minutes into minutes. Divide that by 2400. ",
+   "bbox": [
+    121,
+    492,
+    556,
+    508
+   ]
+  },
+  {
+   "text": "The remainder indicates the Ayush kala. yielded by the planet. Divide these ",
+   "bbox": [
+    85,
+    516,
+    556,
+    532
+   ]
+  },
+  {
+   "text": "Ayuskalas by 200. The quotient will represent the number of years. Multiply the ",
+   "bbox": [
+    85,
+    540,
+    556,
+    556
+   ]
+  },
+  {
+   "text": "remainder by 12 and divide the product by 200. The quotient = months. The ",
+   "bbox": [
+    85,
+    565,
+    556,
+    580
+   ]
+  },
+  {
+   "text": "remainder should be multiplied by 30 and the product should be divided by 200. ",
+   "bbox": [
+    85,
+    589,
+    556,
+    604
+   ]
+  },
+  {
+   "text": "Quotient = days. This is the view of Satyacharya. If a planet is in his sign of ",
+   "bbox": [
+    85,
+    613,
+    556,
+    628
+   ]
+  },
+  {
+   "text": "exaltation or retrograde the years, months and days yielded by him should be ",
+   "bbox": [
+    85,
+    637,
+    556,
+    652
+   ]
+  },
+  {
+   "text": "trebled. If the planet be in his own navamsa, decanate or Vargottama the years, ",
+   "bbox": [
+    85,
+    661,
+    556,
+    677
+   ]
+  },
+  {
+   "text": "months and days yielded by him should be doubled. If the planet be in his sign of ",
+   "bbox": [
+    85,
+    685,
+    556,
+    701
+   ]
+  },
+  {
+   "text": "debilitation or eclipsed, the years, months and days yielded by him should be ",
+   "bbox": [
+    85,
+    709,
+    556,
+    725
+   ]
+  },
+  {
+   "text": "reduced to half. But this procedure of reduction of the dasa period of eclipsed ",
+   "bbox": [
+    85,
+    734,
+    556,
+    749
+   ]
+  },
+  {
+   "text": "planets does not apply to Venus and Saturn.",
+   "bbox": [
+    85,
+    758,
+    329,
+    773
+   ]
+  },
+  {
+   "text": "214",
+   "bbox": [
+    310,
+    793,
+    328,
+    806
+   ]
+  }
+ ]
+}

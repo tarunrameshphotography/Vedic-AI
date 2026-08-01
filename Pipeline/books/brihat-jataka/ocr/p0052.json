@@ -1,0 +1,317 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0052",
+ "book_id": "brihat-jataka",
+ "seq": 52,
+ "source_ref": {
+  "pdf_page": 26,
+  "half": "b",
+  "v1_page": "s026b"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "e7216fdbd3de5d0aa87a2c73b8b2f157e745d0fdea17f0a025a80a3fabfcfd27",
+ "lines": [
+  {
+   "text": "<b>UTAIN</b>",
+   "bbox": [
+    1495,
+    127,
+    1530,
+    137
+   ]
+  },
+  {
+   "text": "49",
+   "bbox": [
+    1411,
+    257,
+    1469,
+    285
+   ]
+  },
+  {
+   "text": "On Conception etc.",
+   "bbox": [
+    262,
+    284,
+    638,
+    334
+   ]
+  },
+  {
+   "text": "occupy mutable sign as well as mutable navamsha and are",
+   "bbox": [
+    264,
+    353,
+    1480,
+    441
+   ]
+  },
+  {
+   "text": "aspected by Mercury twins will be born. Here also if all the",
+   "bbox": [
+    263,
+    399,
+    1482,
+    493
+   ]
+  },
+  {
+   "text": "planets occupy male sign in navamsha the twins will be males,",
+   "bbox": [
+    264,
+    450,
+    1483,
+    542
+   ]
+  },
+  {
+   "text": "if they all occupy female navamsha the twins will be females.",
+   "bbox": [
+    265,
+    501,
+    1486,
+    592
+   ]
+  },
+  {
+   "text": "If they occupy both female and male navamshas the twins will",
+   "bbox": [
+    270,
+    554,
+    1487,
+    640
+   ]
+  },
+  {
+   "text": "be one male and one female.",
+   "bbox": [
+    271,
+    626,
+    841,
+    684
+   ]
+  },
+  {
+   "text": "Role of Saturn in Formation of Sex",
+   "bbox": [
+    272,
+    717,
+    1196,
+    792
+   ]
+  },
+  {
+   "text": "विहाय लग्नं विषमर्क्षसंस्थ: सौरोऽपि पुंजन्मकरो विलग्नात्।",
+   "bbox": [
+    349,
+    800,
+    1199,
+    877
+   ]
+  },
+  {
+   "text": "प्रोक्तग्रहाणामवलोक्य वीर्यं वाच्य: प्रसूतौ पुरुषोऽङ्गना वा।। 12।।",
+   "bbox": [
+    351,
+    858,
+    1296,
+    943
+   ]
+  },
+  {
+   "text": "Even Saturn located in odd houses of the horoscope for",
+   "bbox": [
+    354,
+    948,
+    1499,
+    1025
+   ]
+  },
+  {
+   "text": "conception, except the first, leads to a male birth. In previous",
+   "bbox": [
+    281,
+    996,
+    1499,
+    1080
+   ]
+  },
+  {
+   "text": "sholkas, the sex should be determined with due regards to the",
+   "bbox": [
+    283,
+    1043,
+    1500,
+    1133
+   ]
+  },
+  {
+   "text": "strength of the male or female planets involved.",
+   "bbox": [
+    283,
+    1104,
+    1244,
+    1182
+   ]
+  },
+  {
+   "text": "Eunuchs",
+   "bbox": [
+    289,
+    1232,
+    526,
+    1279
+   ]
+  },
+  {
+   "text": "अन्योऽन्यं यदि पश्यतश्शशिरवी यद्वार्किसौम्यावपि",
+   "bbox": [
+    363,
+    1292,
+    1080,
+    1369
+   ]
+  },
+  {
+   "text": "वक्रो वा समगं दिनेशमसमे चन्द्रोदयौ चेत्स्थितौ।",
+   "bbox": [
+    365,
+    1356,
+    1069,
+    1430
+   ]
+  },
+  {
+   "text": "युग्मौजर्क्षगतावपीन्दुशशिजौ भूम्यात्मजेनेक्षितौ",
+   "bbox": [
+    365,
+    1424,
+    1003,
+    1500
+   ]
+  },
+  {
+   "text": "पुम्भागे सितलग्नशीतकिरणा: षट्क्लीबयोगा: स्मृता: ।। 13।।",
+   "bbox": [
+    369,
+    1485,
+    1267,
+    1564
+   ]
+  },
+  {
+   "text": "The following are the six yogas for the birth of eunuchs;",
+   "bbox": [
+    373,
+    1565,
+    1497,
+    1650
+   ]
+  },
+  {
+   "text": "(1) If the Moon and Sun aspect each other.",
+   "bbox": [
+    370,
+    1652,
+    1242,
+    1721
+   ]
+  },
+  {
+   "text": "(2) If Saturn and Mercury aspect each other.",
+   "bbox": [
+    371,
+    1726,
+    1286,
+    1798
+   ]
+  },
+  {
+   "text": "(3) If Mars aspects the Sun and the later occupies an even",
+   "bbox": [
+    375,
+    1792,
+    1522,
+    1875
+   ]
+  },
+  {
+   "text": "sign.",
+   "bbox": [
+    460,
+    1884,
+    558,
+    1921
+   ]
+  },
+  {
+   "text": "(4) If the Moon and the ascendant are in odd signs.",
+   "bbox": [
+    377,
+    1925,
+    1419,
+    2003
+   ]
+  },
+  {
+   "text": "(5) If Moon and Mercury are occupying even and odd signs",
+   "bbox": [
+    378,
+    1996,
+    1530,
+    2078
+   ]
+  },
+  {
+   "text": "respectively and are aspected by Mars.",
+   "bbox": [
+    459,
+    2055,
+    1238,
+    2125
+   ]
+  },
+  {
+   "text": "(6) If Venus, lagna and Moon occupy male navamshas.",
+   "bbox": [
+    383,
+    2127,
+    1488,
+    2202
+   ]
+  },
+  {
+   "text": "Commentary: The rationale behind these \"Eunuch\" yogas is",
+   "bbox": [
+    393,
+    2202,
+    1535,
+    2281
+   ]
+  },
+  {
+   "text": "not clear. If however we keep in view the Ayurvedic theory",
+   "bbox": [
+    313,
+    2254,
+    1536,
+    2336
+   ]
+  },
+  {
+   "text": "that the equal quantities of raj and veerya of females and",
+   "bbox": [
+    313,
+    2306,
+    1536,
+    2388
+   ]
+  }
+ ]
+}

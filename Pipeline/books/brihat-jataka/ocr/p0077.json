@@ -1,0 +1,263 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0077",
+ "book_id": "brihat-jataka",
+ "seq": 77,
+ "source_ref": {
+  "pdf_page": 39,
+  "half": "a",
+  "v1_page": "s039a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "8dc4275f3eca80109883ab8fcec62bae71b36f6ab397262f286b03819766174e",
+ "lines": [
+  {
+   "text": "आयुर्दायाध्यायः",
+   "bbox": [
+    889,
+    678,
+    1185,
+    741
+   ]
+  },
+  {
+   "text": "<b>Span of Life</b>",
+   "bbox": [
+    778,
+    751,
+    1288,
+    841
+   ]
+  },
+  {
+   "text": "मययवनमणित्थशक्तिपूर्वैर्दिवसकरादिषु वत्सरा: प्रदिष्टा:।",
+   "bbox": [
+    486,
+    982,
+    1309,
+    1074
+   ]
+  },
+  {
+   "text": "नवतिथिविषयाश्विभूतरुद्रा दशसहिता दशभि: स्वतुङ्गभेषु।। 1।।",
+   "bbox": [
+    481,
+    1042,
+    1400,
+    1146
+   ]
+  },
+  {
+   "text": "Ancient",
+   "bbox": [
+    481,
+    1143,
+    672,
+    1190
+   ]
+  },
+  {
+   "text": "masters",
+   "bbox": [
+    698,
+    1153,
+    888,
+    1199
+   ]
+  },
+  {
+   "text": "like",
+   "bbox": [
+    904,
+    1162,
+    1026,
+    1202
+   ]
+  },
+  {
+   "text": "Maya, Yavan Acharya,",
+   "bbox": [
+    1027,
+    1162,
+    1629,
+    1233
+   ]
+  },
+  {
+   "text": "Manithacharya, Shakti, Parashar etc have laid down as under",
+   "bbox": [
+    402,
+    1189,
+    1628,
+    1288
+   ]
+  },
+  {
+   "text": "the maximum number of years for the maximum exalted",
+   "bbox": [
+    398,
+    1241,
+    1626,
+    1339
+   ]
+  },
+  {
+   "text": "strength of the various planets as the years of longevity con-",
+   "bbox": [
+    396,
+    1295,
+    1623,
+    1393
+   ]
+  },
+  {
+   "text": "tributed by them in the birth chart. Sun 19, Moon 25, Mars 15,",
+   "bbox": [
+    394,
+    1346,
+    1623,
+    1446
+   ]
+  },
+  {
+   "text": "Mercury 12, Jupiter 15, Venus 21 and Saturn 20.",
+   "bbox": [
+    393,
+    1402,
+    1386,
+    1488
+   ]
+  },
+  {
+   "text": "नीचेऽतोऽर्द्धं हसति हि ततश्चान्तरस्थेऽनुपातो",
+   "bbox": [
+    462,
+    1482,
+    1074,
+    1561
+   ]
+  },
+  {
+   "text": "होरात्वंशप्रतिममपरे राशितुल्यं वदन्ति।।",
+   "bbox": [
+    461,
+    1549,
+    1033,
+    1623
+   ]
+  },
+  {
+   "text": "हित्वा वक्रं रिपुगृहगतैर्हीयते स्वत्रिभाग:",
+   "bbox": [
+    458,
+    1614,
+    1033,
+    1687
+   ]
+  },
+  {
+   "text": "सूर्योच्छित्रद्युतिषु च दलं प्रोण्झ्य शुक्रार्कपुत्रौ।। 2।।",
+   "bbox": [
+    456,
+    1674,
+    1205,
+    1767
+   ]
+  },
+  {
+   "text": "The years stated in the previous shloka are for the planets",
+   "bbox": [
+    451,
+    1771,
+    1605,
+    1861
+   ]
+  },
+  {
+   "text": "in their maximum degree of exaltation. If the planet is in its",
+   "bbox": [
+    372,
+    1820,
+    1601,
+    1915
+   ]
+  },
+  {
+   "text": "maximum debilitation it contributes to life only half of the",
+   "bbox": [
+    370,
+    1873,
+    1598,
+    1968
+   ]
+  },
+  {
+   "text": "specified years. In the intermediate position between debilita-",
+   "bbox": [
+    367,
+    1925,
+    1596,
+    2020
+   ]
+  },
+  {
+   "text": "tion and exaltation a planet contributes its years in proportion.",
+   "bbox": [
+    367,
+    1977,
+    1592,
+    2073
+   ]
+  },
+  {
+   "text": "In this scheme of determining span of life the ascendant also",
+   "bbox": [
+    363,
+    2031,
+    1592,
+    2125
+   ]
+  },
+  {
+   "text": "contributes life years. A navamsha (3° 20') of ascendant elapsed",
+   "bbox": [
+    361,
+    2082,
+    1589,
+    2178
+   ]
+  },
+  {
+   "text": "is equal to one year of life contributed, fraction of a navamsha",
+   "bbox": [
+    361,
+    2135,
+    1589,
+    2230
+   ]
+  },
+  {
+   "text": "giving the months etc proportionally. Some Acharyas are of",
+   "bbox": [
+    357,
+    2188,
+    1590,
+    2283
+   ]
+  },
+  {
+   "text": "the opinion that the number of signs (counted from Aries)",
+   "bbox": [
+    357,
+    2238,
+    1585,
+    2336
+   ]
+  }
+ ]
+}

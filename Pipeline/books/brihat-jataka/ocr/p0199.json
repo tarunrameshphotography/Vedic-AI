@@ -1,0 +1,344 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0199",
+ "book_id": "brihat-jataka",
+ "seq": 199,
+ "source_ref": {
+  "pdf_page": 100,
+  "half": "a",
+  "v1_page": "s100a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "057a07915562aa9ae81f1aa529967d489617216c3863842e919fa34458b8ba44",
+ "lines": [
+  {
+   "text": "196",
+   "bbox": [
+    291,
+    206,
+    384,
+    239
+   ]
+  },
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1214,
+    208,
+    1507,
+    241
+   ]
+  },
+  {
+   "text": "Take the rising dwadasamas at the time of the query. If it",
+   "bbox": [
+    363,
+    310,
+    1511,
+    348
+   ]
+  },
+  {
+   "text": "is the first, Guru will be in lagna, if it is the second, he will be",
+   "bbox": [
+    286,
+    361,
+    1507,
+    401
+   ]
+  },
+  {
+   "text": "in the second and so on. If it is the tenth, Guru will be in the",
+   "bbox": [
+    286,
+    413,
+    1508,
+    455
+   ]
+  },
+  {
+   "text": "tenth from lagna.",
+   "bbox": [
+    288,
+    470,
+    636,
+    509
+   ]
+  },
+  {
+   "text": "Other authorities have different views. If the first",
+   "bbox": [
+    363,
+    553,
+    1509,
+    588
+   ]
+  },
+  {
+   "text": "drekkana rises at the time of query, note the number of houses",
+   "bbox": [
+    286,
+    602,
+    1507,
+    649
+   ]
+  },
+  {
+   "text": "Guru has travelled up to the time of the query. Then predict",
+   "bbox": [
+    286,
+    659,
+    1508,
+    699
+   ]
+  },
+  {
+   "text": "the number of years elapsed after birth. If it is the second",
+   "bbox": [
+    285,
+    712,
+    1507,
+    752
+   ]
+  },
+  {
+   "text": "drekkana, count from the fifth house of the lagna at the time",
+   "bbox": [
+    285,
+    767,
+    1507,
+    806
+   ]
+  },
+  {
+   "text": "of query to the position of Guru. This gives the number of years",
+   "bbox": [
+    285,
+    820,
+    1507,
+    860
+   ]
+  },
+  {
+   "text": "passed after birth. If it is the third drekkana, the count is from",
+   "bbox": [
+    285,
+    875,
+    1505,
+    914
+   ]
+  },
+  {
+   "text": "the ninth house.",
+   "bbox": [
+    285,
+    927,
+    620,
+    962
+   ]
+  },
+  {
+   "text": "The age of the querist must be guessed from his appear-",
+   "bbox": [
+    360,
+    1013,
+    1505,
+    1053
+   ]
+  },
+  {
+   "text": "ance. If a doubt arises follow the rules given in Brihat Samhita",
+   "bbox": [
+    283,
+    1066,
+    1502,
+    1106
+   ]
+  },
+  {
+   "text": "(70.24 to 26). All these rules are of doubtful validity.",
+   "bbox": [
+    283,
+    1120,
+    1329,
+    1159
+   ]
+  },
+  {
+   "text": "The seasons follow the lunar months. Chaitra and",
+   "bbox": [
+    358,
+    1202,
+    1505,
+    1238
+   ]
+  },
+  {
+   "text": "Vaisaksha are Vasanta ritu, Jyeshtha and Ashadha, Grishma.",
+   "bbox": [
+    283,
+    1257,
+    1504,
+    1295
+   ]
+  },
+  {
+   "text": "In this way two lunar months give the seasons Varshaa, Sard,",
+   "bbox": [
+    280,
+    1309,
+    1505,
+    1349
+   ]
+  },
+  {
+   "text": "Hemant and Sisir ritus.",
+   "bbox": [
+    283,
+    1362,
+    765,
+    1398
+   ]
+  },
+  {
+   "text": "If the lagna at the time of question has the Sun or if his",
+   "bbox": [
+    357,
+    1447,
+    1504,
+    1486
+   ]
+  },
+  {
+   "text": "drekkana rises, the birth is in Girshma. If it is Shani, it is",
+   "bbox": [
+    280,
+    1501,
+    1502,
+    1539
+   ]
+  },
+  {
+   "text": "Sisira. If it is Venus, it is Vasanta; if Mars, Grishma; if Moon,",
+   "bbox": [
+    279,
+    1555,
+    1502,
+    1593
+   ]
+  },
+  {
+   "text": "it is Varsha; if Mercury, it is Sarat; if Jupiter, Hemanta. If",
+   "bbox": [
+    278,
+    1609,
+    1505,
+    1648
+   ]
+  },
+  {
+   "text": "there are many planets, determine the season as per the",
+   "bbox": [
+    279,
+    1663,
+    1502,
+    1702
+   ]
+  },
+  {
+   "text": "strongest. If there is no planet in lagna, we have to depend on",
+   "bbox": [
+    279,
+    1717,
+    1501,
+    1756
+   ]
+  },
+  {
+   "text": "the rising drekkana.",
+   "bbox": [
+    279,
+    1770,
+    695,
+    1807
+   ]
+  },
+  {
+   "text": "If a Ritu (season) does not come in the ayana, give the ritu",
+   "bbox": [
+    354,
+    1848,
+    1502,
+    1894
+   ]
+  },
+  {
+   "text": "with reference to the Sun. Here we have to go by the solar",
+   "bbox": [
+    275,
+    1904,
+    1500,
+    1948
+   ]
+  },
+  {
+   "text": "movements only, not by the lunar reckonings.",
+   "bbox": [
+    276,
+    1961,
+    1195,
+    1999
+   ]
+  },
+  {
+   "text": "The astrologer should ask the querist to touch any part of",
+   "bbox": [
+    354,
+    2038,
+    1504,
+    2086
+   ]
+  },
+  {
+   "text": "his body or of the Kalapurusha. The picture of the",
+   "bbox": [
+    275,
+    2095,
+    1501,
+    2135
+   ]
+  },
+  {
+   "text": "Kalapurusha is to be supplied. If he touches the feet or ankles,",
+   "bbox": [
+    276,
+    2149,
+    1499,
+    2189
+   ]
+  },
+  {
+   "text": "Guru is in the second; thighs or genitals, he is in the third;",
+   "bbox": [
+    276,
+    2203,
+    1499,
+    2243
+   ]
+  },
+  {
+   "text": "navel or loins, fourth; stomach, fifth; chest, sixth; shoulder,",
+   "bbox": [
+    275,
+    2257,
+    1502,
+    2296
+   ]
+  }
+ ]
+}

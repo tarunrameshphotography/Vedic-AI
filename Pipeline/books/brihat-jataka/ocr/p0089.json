@@ -1,0 +1,335 @@
+{
+ "schema": 2,
+ "page_id": "brihat-jataka/p0089",
+ "book_id": "brihat-jataka",
+ "seq": 89,
+ "source_ref": {
+  "pdf_page": 45,
+  "half": "a",
+  "v1_page": "s045a"
+ },
+ "producer": {
+  "name": "surya",
+  "version": "0.14.7",
+  "task": "ocr_with_boxes",
+  "note": "migrated from the v1 cache; the original bulk_ocr.py recorded no run metadata, so device/date/dpi are unknown for these pages"
+ },
+ "fingerprint": "83643ea7383e2b92fbb8c7bd9b2993539c6f4712850403660e09f25511d17247",
+ "lines": [
+  {
+   "text": "Brihat Jataka",
+   "bbox": [
+    1270,
+    187,
+    1565,
+    222
+   ]
+  },
+  {
+   "text": "86",
+   "bbox": [
+    349,
+    189,
+    415,
+    224
+   ]
+  },
+  {
+   "text": "In other places <math>(1, 2, 4 \\text{ and } 8)</math> from the main dasa lord Moon in",
+   "bbox": [
+    347,
+    288,
+    1567,
+    332
+   ]
+  },
+  {
+   "text": "its sub-period gives bad results.",
+   "bbox": [
+    348,
+    343,
+    978,
+    382
+   ]
+  },
+  {
+   "text": "प्रारब्धा हिमगौ दशास्वगृहगे मानार्थसौख्यावहा",
+   "bbox": [
+    419,
+    416,
+    1082,
+    468
+   ]
+  },
+  {
+   "text": "कौजे दुषयति स्त्रियं बुधगृहे विद्यासुहद्वित्तदा:।",
+   "bbox": [
+    419,
+    480,
+    1071,
+    534
+   ]
+  },
+  {
+   "text": "दुर्गारण्यपथालये कृषिकरी सिंहे सितर्क्षेऽन्नदा",
+   "bbox": [
+    419,
+    547,
+    1045,
+    599
+   ]
+  },
+  {
+   "text": "कुस्त्रीदा मृगकुम्भयोर्गुरुगृहे मानार्थसौख्यावहा।। 11।।",
+   "bbox": [
+    418,
+    611,
+    1190,
+    664
+   ]
+  },
+  {
+   "text": "If at the time of start of any sub-period Moon occupies",
+   "bbox": [
+    421,
+    708,
+    1567,
+    747
+   ]
+  },
+  {
+   "text": "its own sign, the sub period will be conducive to honour,",
+   "bbox": [
+    346,
+    756,
+    1561,
+    803
+   ]
+  },
+  {
+   "text": "wealth and comforts. If it occupies a sign of Mars, it indi-",
+   "bbox": [
+    346,
+    813,
+    1562,
+    853
+   ]
+  },
+  {
+   "text": "cates some flaw in wife's character. If in any sign of Mer-",
+   "bbox": [
+    346,
+    864,
+    1562,
+    906
+   ]
+  },
+  {
+   "text": "cury it indicates the acquisition of education, friends and",
+   "bbox": [
+    346,
+    919,
+    1562,
+    958
+   ]
+  },
+  {
+   "text": "wealth. If she is in Leo, it brings about agricultural operation",
+   "bbox": [
+    346,
+    970,
+    1564,
+    1012
+   ]
+  },
+  {
+   "text": "in forests jungles or on the way side. If she is in the sign of",
+   "bbox": [
+    345,
+    1024,
+    1567,
+    1064
+   ]
+  },
+  {
+   "text": "Venus it indicates gain of grain etc. If she is in Capricorn or",
+   "bbox": [
+    346,
+    1075,
+    1563,
+    1119
+   ]
+  },
+  {
+   "text": "Acquarius it gives a bad wife and if she is in Sagittarius or",
+   "bbox": [
+    346,
+    1127,
+    1562,
+    1173
+   ]
+  },
+  {
+   "text": "Pisces she indicates the acquisition of honour, wealth and",
+   "bbox": [
+    345,
+    1182,
+    1564,
+    1222
+   ]
+  },
+  {
+   "text": "comforts.",
+   "bbox": [
+    346,
+    1235,
+    531,
+    1270
+   ]
+  },
+  {
+   "text": "Dasa of Sun",
+   "bbox": [
+    343,
+    1336,
+    666,
+    1375
+   ]
+  },
+  {
+   "text": "सौर्य्यां स्वनखदन्तचर्मकनकक्रौर्याध्वभूपाहवै-",
+   "bbox": [
+    418,
+    1413,
+    1055,
+    1466
+   ]
+  },
+  {
+   "text": "स्तैक्ष्ण्यं धैर्यमजस्वमुपमरति: ख्याति: प्रतापोन्नति:।",
+   "bbox": [
+    418,
+    1478,
+    1115,
+    1531
+   ]
+  },
+  {
+   "text": "भार्यापुत्रधनारिशस्त्रहृतभुग्भूपोद्भवा व्यापद-",
+   "bbox": [
+    419,
+    1544,
+    1017,
+    1598
+   ]
+  },
+  {
+   "text": "स्त्याग: पापरति: स्वभुत्यकलहो हत्क्रोडपीडामया।। 12।।",
+   "bbox": [
+    418,
+    1611,
+    1252,
+    1664
+   ]
+  },
+  {
+   "text": "In the main or sub-ruling period of Sun one acquires",
+   "bbox": [
+    419,
+    1702,
+    1561,
+    1749
+   ]
+  },
+  {
+   "text": "wealth nail of some animal, ivory, tiger skin, gold. He becomes",
+   "bbox": [
+    342,
+    1759,
+    1561,
+    1799
+   ]
+  },
+  {
+   "text": "fierce, has to travel a lot, comes in contact with kings or",
+   "bbox": [
+    340,
+    1812,
+    1561,
+    1851
+   ]
+  },
+  {
+   "text": "high officials, engages in war, he also engages himself",
+   "bbox": [
+    342,
+    1863,
+    1565,
+    1903
+   ]
+  },
+  {
+   "text": "in aggression, patience, frequent ambitious undertakings,",
+   "bbox": [
+    342,
+    1916,
+    1561,
+    1955
+   ]
+  },
+  {
+   "text": "becomes famous, acquires influence, gets promotion and",
+   "bbox": [
+    343,
+    1969,
+    1559,
+    2008
+   ]
+  },
+  {
+   "text": "control over enemies. If the dasa of Sun is adverse, one",
+   "bbox": [
+    340,
+    2021,
+    1559,
+    2059
+   ]
+  },
+  {
+   "text": "gets into trouble because of wife, son, wealth, enemies, fire",
+   "bbox": [
+    340,
+    2074,
+    1561,
+    2113
+   ]
+  },
+  {
+   "text": "or king. He has to leave position of advantage, involves him-",
+   "bbox": [
+    342,
+    2127,
+    1559,
+    2165
+   ]
+  },
+  {
+   "text": "self in sin, querrel with servants and gets disease in heart",
+   "bbox": [
+    340,
+    2179,
+    1562,
+    2218
+   ]
+  },
+  {
+   "text": "and belly.",
+   "bbox": [
+    340,
+    2232,
+    544,
+    2271
+   ]
+  }
+ ]
+}
