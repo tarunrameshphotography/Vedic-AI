@@ -320,20 +320,6 @@
   },
   "entries": [
     {
-      "id": "chapter:phaladeepika.01",
-      "kind": "chapter",
-      "book": "phaladeepika",
-      "chapter": 1,
-      "locus": "whole chapter - Information and characteristic features of the Signs and the houses",
-      "what": "sign and house characteristics, the Kalapurusha body map, and the sign-lordship table",
-      "reason": "Reference chapter, not rule-dense: mostly attribute tables rather than conditional rules. It is also the source of the lordship table that dep.lord-of-house needs, so encoding it unblocks 12 cards.",
-      "requires": [
-        "dep.none"
-      ],
-      "phase": "3 (knowledge)",
-      "status": "deferred"
-    },
-    {
       "id": "chapter:phaladeepika.02",
       "kind": "chapter",
       "book": "phaladeepika",
@@ -870,6 +856,92 @@
       ],
       "phase": "3 (knowledge)",
       "status": "deferred"
+    },
+    {
+      "id": "passage:phaladeepika.01.p001",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 1,
+      "locus": "vv. 1-2 (p.10)",
+      "what": "the invocation of the Sun and the author's obeisance to Saraswati, his deities and preceptors",
+      "reason": "Devotional invocation. It states no rule and conditions nothing, and encoding it as a card would put a benediction in the report as though a chart had activated it.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.01.p003",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 1,
+      "locus": "v. 3 (p.10)",
+      "what": "the instruction to establish the birth time in Ghatikas by gnomon or instrument, and to compute the longitudes before judging anything",
+      "reason": "Method, not doctrine: it governs how a chart is erected rather than what any placement means. The engine already does what it asks, by a different instrument. Worth revisiting if birth-time precision is ever sourced to the classics rather than declared by the user.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        3
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.01.p032",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 1,
+      "locus": "v. 6 table header (p.12)",
+      "what": "the column headings of the deep-exaltation table",
+      "reason": "Table furniture. The seven rows beneath it are encoded as PD.01.DeepExaltation.*, each quoting the sentence that introduces the table; the bare column headings add nothing a card could carry.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        32
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.01.p063",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 1,
+      "locus": "v. 10 (p.14)",
+      "what": "a bracketed editorial sentence introducing the house-name lists",
+      "reason": "Printed in square brackets, which in this edition marks the translator's insertion rather than Mantreswara's text. It introduces the twelve lists that follow, all of which are encoded.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        63
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.01.p080",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 1,
+      "locus": "p.16 colophon",
+      "what": "the chapter's closing formula",
+      "reason": "Colophon. Not doctrine.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        80
+      ]
     }
   ]
 }

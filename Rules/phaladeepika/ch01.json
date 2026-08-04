@@ -1,0 +1,5020 @@
+{
+  "book_id": "phaladeepika",
+  "chapter": 1,
+  "cards": [
+    {
+      "id": "PD.01.Kalapurusha.H01",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "4",
+        "page_anchor": "phaladeepika/p0010",
+        "tier": 1,
+        "quote": "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under: […] First house (Lagna-Ascendant) — the head",
+        "quote_display": "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under: […] First house (Lagna-Ascendant) — the head",
+        "quote_sha256": "95c7cb2d21bc32cb0532dc98584569f0bcb561648ab715dc474225b72201feaa",
+        "char_span": [
+          15666,
+          15803
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            15666,
+            15803
+          ],
+          [
+            15807,
+            15847
+          ]
+        ],
+        "quote_parts": [
+          "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under:",
+          "First house (Lagna-Ascendant) — the head"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "kalapurusha_body_part",
+        "house": 1
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "The house-to-limb map. Quoted with the sentence that governs the list, which is printed once above all twelve.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Kalapurusha.H02",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "4",
+        "page_anchor": "phaladeepika/p0010",
+        "tier": 1,
+        "quote": "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under: […] Second house — the face",
+        "quote_display": "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under: […] Second house — the face",
+        "quote_sha256": "0e8ed241fedf2c7c6471cbfbd955abbd42e507b04321c15c0bf885f86dda8802",
+        "char_span": [
+          15666,
+          15803
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            15666,
+            15803
+          ],
+          [
+            15851,
+            15874
+          ]
+        ],
+        "quote_parts": [
+          "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under:",
+          "Second house — the face"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "kalapurusha_body_part",
+        "house": 2
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "The house-to-limb map. Quoted with the sentence that governs the list, which is printed once above all twelve.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Kalapurusha.H03",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "4",
+        "page_anchor": "phaladeepika/p0010",
+        "tier": 1,
+        "quote": "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under: […] Third house — the breast",
+        "quote_display": "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under: […] Third house — the breast",
+        "quote_sha256": "752eb468678f1fc556e0b101c3a235ebeb8510925ca8bb92d10e3e7a9425a6e2",
+        "char_span": [
+          15666,
+          15803
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            15666,
+            15803
+          ],
+          [
+            15912,
+            15936
+          ]
+        ],
+        "quote_parts": [
+          "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under:",
+          "Third house — the breast"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "kalapurusha_body_part",
+        "house": 3
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "The house-to-limb map. Quoted with the sentence that governs the list, which is printed once above all twelve.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Kalapurusha.H04",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "4",
+        "page_anchor": "phaladeepika/p0010",
+        "tier": 1,
+        "quote": "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under: […] Fourth house — the heart",
+        "quote_display": "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under: […] Fourth house — the heart",
+        "quote_sha256": "9eab62caa624c925d408b49b72198347bb5a2046160c51eb90542114c1cbc562",
+        "char_span": [
+          15666,
+          15803
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            15666,
+            15803
+          ],
+          [
+            15940,
+            15964
+          ]
+        ],
+        "quote_parts": [
+          "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under:",
+          "Fourth house — the heart"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "kalapurusha_body_part",
+        "house": 4
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "The house-to-limb map. Quoted with the sentence that governs the list, which is printed once above all twelve.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Kalapurusha.H05",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "4",
+        "page_anchor": "phaladeepika/p0010",
+        "tier": 1,
+        "quote": "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under: […] Fifth house — the belly",
+        "quote_display": "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under: […] Fifth house — the belly",
+        "quote_sha256": "cd1d4a3b08f304b67775cf152818cd6989f9e82606b0ff09966b6813c1825e08",
+        "char_span": [
+          15666,
+          15803
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            15666,
+            15803
+          ],
+          [
+            15968,
+            15991
+          ]
+        ],
+        "quote_parts": [
+          "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under:",
+          "Fifth house — the belly"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "kalapurusha_body_part",
+        "house": 5
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "The house-to-limb map. Quoted with the sentence that governs the list, which is printed once above all twelve.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Kalapurusha.H06",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "4",
+        "page_anchor": "phaladeepika/p0010",
+        "tier": 1,
+        "quote": "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under: […] Sixth house — the waist",
+        "quote_display": "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under: […] Sixth house — the waist",
+        "quote_sha256": "00cbfee91ab28d95b7140dce654f88e80d1df7d6826a48026873f88aa9b4224d",
+        "char_span": [
+          15666,
+          15803
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            15666,
+            15803
+          ],
+          [
+            15995,
+            16018
+          ]
+        ],
+        "quote_parts": [
+          "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under:",
+          "Sixth house — the waist"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "kalapurusha_body_part",
+        "house": 6
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "The house-to-limb map. Quoted with the sentence that governs the list, which is printed once above all twelve.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Kalapurusha.H07",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "4",
+        "page_anchor": "phaladeepika/p0010",
+        "tier": 1,
+        "quote": "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under: […] Seventh house — the groins",
+        "quote_display": "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under: […] Seventh house — the groins",
+        "quote_sha256": "d009ea4f18ad441dcfc8bc4ad5ad0863772999c62fe8041a645638cdd37ea7d5",
+        "char_span": [
+          15666,
+          15803
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            15666,
+            15803
+          ],
+          [
+            16022,
+            16048
+          ]
+        ],
+        "quote_parts": [
+          "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under:",
+          "Seventh house — the groins"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "kalapurusha_body_part",
+        "house": 7
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "The house-to-limb map. Quoted with the sentence that governs the list, which is printed once above all twelve.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Kalapurusha.H08",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "4",
+        "page_anchor": "phaladeepika/p0010",
+        "tier": 1,
+        "quote": "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under: […] Eighth house — the private parts (Sexual organs)",
+        "quote_display": "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under: […] Eighth house — the private parts (Sexual organs)",
+        "quote_sha256": "dc1a48f93f8535984e1dfc6b75e484c55dcd3e39fa97bf8e2208b610ff4df7d4",
+        "char_span": [
+          15666,
+          15803
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            15666,
+            15803
+          ],
+          [
+            16052,
+            16100
+          ]
+        ],
+        "quote_parts": [
+          "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under:",
+          "Eighth house — the private parts (Sexual organs)"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "kalapurusha_body_part",
+        "house": 8
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "The house-to-limb map. Quoted with the sentence that governs the list, which is printed once above all twelve.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Kalapurusha.H09",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "4",
+        "page_anchor": "phaladeepika/p0010",
+        "tier": 1,
+        "quote": "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under: […] Ninth house — the two thighs",
+        "quote_display": "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under: […] Ninth house — the two thighs",
+        "quote_sha256": "28d22dcbcda688b4d3ba706d1c2b508083a1efeb368df906d5ecd60cec4ee08d",
+        "char_span": [
+          15666,
+          15803
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            15666,
+            15803
+          ],
+          [
+            16104,
+            16132
+          ]
+        ],
+        "quote_parts": [
+          "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under:",
+          "Ninth house — the two thighs"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "kalapurusha_body_part",
+        "house": 9
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "The house-to-limb map. Quoted with the sentence that governs the list, which is printed once above all twelve.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Kalapurusha.H10",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "4",
+        "page_anchor": "phaladeepika/p0010",
+        "tier": 1,
+        "quote": "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under: […] Tenth house — the two knees",
+        "quote_display": "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under: […] Tenth house — the two knees",
+        "quote_sha256": "7f435e55330ffdf1b2f3f58436b38ea660d545a9a571a073f32eb1d187700989",
+        "char_span": [
+          15666,
+          15803
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            15666,
+            15803
+          ],
+          [
+            16136,
+            16163
+          ]
+        ],
+        "quote_parts": [
+          "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under:",
+          "Tenth house — the two knees"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "kalapurusha_body_part",
+        "house": 10
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "The house-to-limb map. Quoted with the sentence that governs the list, which is printed once above all twelve.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Kalapurusha.H11",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "4",
+        "page_anchor": "phaladeepika/p0010",
+        "tier": 1,
+        "quote": "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under: […] Eleventh house — the two calves",
+        "quote_display": "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under: […] Eleventh house — the two calves",
+        "quote_sha256": "e5c294f7ec255e79edaf30e9e96758ce8105be95f8c575a7dcfd3119d3dfb485",
+        "char_span": [
+          15666,
+          15803
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            15666,
+            15803
+          ],
+          [
+            16167,
+            16198
+          ]
+        ],
+        "quote_parts": [
+          "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under:",
+          "Eleventh house — the two calves"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "kalapurusha_body_part",
+        "house": 11
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "The house-to-limb map. Quoted with the sentence that governs the list, which is printed once above all twelve.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Kalapurusha.H12",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "4",
+        "page_anchor": "phaladeepika/p0010",
+        "tier": 1,
+        "quote": "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under: […] Twelfth house — the two feet",
+        "quote_display": "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under: […] Twelfth house — the two feet",
+        "quote_sha256": "5db2cdefb2b6645d89682b3bba9cf2a384dd15bbe6346d4bb0fb43ed28b5d064",
+        "char_span": [
+          15666,
+          15803
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            15666,
+            15803
+          ],
+          [
+            16202,
+            16230
+          ]
+        ],
+        "quote_parts": [
+          "Assuming that the horoscope represents the Kalapurusha, then the parts of the body beginning with the Ascendant (Lagna) will be as under:",
+          "Twelfth house — the two feet"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "kalapurusha_body_part",
+        "house": 12
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "The house-to-limb map. Quoted with the sentence that governs the list, which is printed once above all twelve.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.RasiSandhi.Mantreswara",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "4",
+        "page_anchor": "phaladeepika/p0011",
+        "tier": 1,
+        "quote": "The end portions of the signs Cancer, Scorpio and Pisces are known as Rasi- Sandhisj.",
+        "quote_display": "The end portions of the signs Cancer, Scorpio and Pisces are known as Rasi- Sandhisj.",
+        "quote_sha256": "145faf60f453922074a8ea3f62af57d68e7b6bcd83200bac06cb2feaa880b746",
+        "char_span": [
+          16234,
+          16319
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "rasi_sandhi",
+        "signs": [
+          "Cancer",
+          "Scorpio",
+          "Pisces"
+        ],
+        "portion": "end"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": [],
+      "contradicts": [
+        "PD.01.RasiSandhi.Others"
+      ]
+    },
+    {
+      "id": "PD.01.RasiSandhi.Others",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "4",
+        "page_anchor": "phaladeepika/p0011",
+        "tier": 2,
+        "quote": "There are other learneds who apply this term to the end portions of all signs.",
+        "quote_display": "There are other learneds who apply this term to the end portions of all signs.",
+        "quote_sha256": "9007f10ac108ea59930962974b4f97b7abfedbd0b42c98e3ec73fb2fefe09178",
+        "char_span": [
+          16320,
+          16398
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "rasi_sandhi",
+        "signs": "all",
+        "portion": "end"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "An unnamed dissenting authority, reported by Mantreswara in the same sentence group. Kept as its own card so the disagreement survives rather than being averaged away.",
+      "exclusions": [],
+      "contradicts": [
+        "PD.01.RasiSandhi.Mantreswara"
+      ]
+    },
+    {
+      "id": "PD.01.Kalapurusha.Strength",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "4 (Notes)",
+        "page_anchor": "phaladeepika/p0011",
+        "tier": 2,
+        "quote": "Notes — The house which is occupied or aspected by benefits or whose lord is bestowed with strength, the part of the body represented by that house will be strong and well built. If the lord of a house be weak or be occupied or otherwise afflicted by a malefic, the corresponding part of the body will be weak or diseased.",
+        "quote_display": "Notes — The house which is occupied or aspected by benefits or whose lord is bestowed with strength, the part of the body represented by that house will be strong and well built. If the lord of a house be weak or be occupied or otherwise afflicted by a malefic, the corresponding part of the body will be weak or diseased.",
+        "quote_sha256": "2e2186a96e8210c266227ed9225369196b9d5c4f8734e5c84acbe620e8cf3f1c",
+        "char_span": [
+          16402,
+          16724
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "aspects": {
+              "graha": "any",
+              "target": "any"
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "any",
+              "house": "any"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "body",
+        "subject": "house_significator",
+        "effect": "limb_strong_or_diseased"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "The only predictive rule in the chapter, and it is the translator's commentary rather than the verse. Universally quantified over the houses.",
+      "exclusions": [],
+      "requires": [
+        "dep.nature",
+        "dep.aspects",
+        "dep.lord-of-house",
+        "dep.strength",
+        "dep.condition-variables"
+      ]
+    },
+    {
+      "id": "PD.01.SignDwelling.Table",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "5",
+        "page_anchor": "phaladeepika/p0011",
+        "tier": 1,
+        "quote": "The dwelling of the twelve signs Aries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Scorpio, Sagittarius, Capricorn, Aquarius and Pisces are — (1) forest (2) agricultural land with water (3) bedroom (4) chasm with water (5) mountain (6) land with water and food crops (7) house of a Vaishya (8) cavity or a hole (9) residence of the king (10) watery forests (11) the spot frequented or used by potters and (12) water, in that order.",
+        "quote_display": "The dwelling of the twelve signs Aries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Scorpio, Sagittarius, Capricorn, Aquarius and Pisces are — (1) forest (2) agricultural land with water (3) bedroom (4) chasm with water (5) mountain (6) land with water and food crops (7) house of a Vaishya (8) cavity or a hole (9) residence of the king (10) watery forests (11) the spot frequented or used by potters and (12) water, in that order.",
+        "quote_sha256": "ec8e62cd34aa33935439e7885324ac02951f2d2eff2c6c181141831ef88b833a",
+        "char_span": [
+          16731,
+          17162
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_dwelling",
+        "table": {
+          "Aries": "forest",
+          "Taurus": "agricultural land with water",
+          "Gemini": "bedroom",
+          "Cancer": "chasm with water",
+          "Leo": "mountain",
+          "Virgo": "land with water and food crops",
+          "Libra": "house of a Vaishya",
+          "Scorpio": "cavity or a hole",
+          "Sagittarius": "residence of the king",
+          "Capricorn": "watery forests",
+          "Aquarius": "the spot frequented or used by potters",
+          "Pisces": "water"
+        }
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "Printed as one numbered list; no sign's entry is separable into a unique span, so the table is one card.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignDwelling.Use",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "5 (Notes)",
+        "page_anchor": "phaladeepika/p0011",
+        "tier": 2,
+        "quote": "Notes — Generally this information proves useful in queries regarding theft of articles or missing persons etc.",
+        "quote_display": "Notes — Generally this information proves useful in queries regarding theft of articles or missing persons etc.",
+        "quote_sha256": "f54935d7efda82d414277248fbe957b57fd23a133ebae0cbe09be1d6d7c081cc",
+        "char_span": [
+          17166,
+          17277
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "scope_note",
+        "applies_to": "PD.01.SignDwelling.Table"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "The translator restricting the table's use to prashna (horary), which is out of scope. Recorded so the restriction travels with the datum.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignLord.Aries",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0011",
+        "tier": 1,
+        "quote": "The lords of the twelve signs are as under: […] Aries – Mars",
+        "quote_display": "The lords of the twelve signs are as under: […] Aries – Mars",
+        "quote_sha256": "f5b295bff0ee1043d7adccbcbd33ce3041822adb389a27c2df6ac227fb3181aa",
+        "char_span": [
+          17284,
+          17327
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            17284,
+            17327
+          ],
+          [
+            17331,
+            17343
+          ]
+        ],
+        "quote_parts": [
+          "The lords of the twelve signs are as under:",
+          "Aries – Mars"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_lord",
+        "sign": "Aries",
+        "graha": "Mars"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignLord.Libra",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0011",
+        "tier": 1,
+        "quote": "The lords of the twelve signs are as under: […] Libra - Venus",
+        "quote_display": "The lords of the twelve signs are as under: […] Libra - Venus",
+        "quote_sha256": "911c1f0ff55051962e20c83f445825e1c7aaf4355e403bd10206e1ef076d47f3",
+        "char_span": [
+          17284,
+          17327
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            17284,
+            17327
+          ],
+          [
+            17344,
+            17357
+          ]
+        ],
+        "quote_parts": [
+          "The lords of the twelve signs are as under:",
+          "Libra - Venus"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_lord",
+        "sign": "Libra",
+        "graha": "Venus"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignLord.Taurus",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0011",
+        "tier": 1,
+        "quote": "The lords of the twelve signs are as under: […] Taurus – Venus",
+        "quote_display": "The lords of the twelve signs are as under: […] Taurus – Venus",
+        "quote_sha256": "e957e5854867f6268c0a8367a974be1d0966d44892821e559c4e2bf89f2a5bcf",
+        "char_span": [
+          17284,
+          17327
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            17284,
+            17327
+          ],
+          [
+            17361,
+            17375
+          ]
+        ],
+        "quote_parts": [
+          "The lords of the twelve signs are as under:",
+          "Taurus – Venus"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_lord",
+        "sign": "Taurus",
+        "graha": "Venus"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignLord.Scorpio",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0011",
+        "tier": 1,
+        "quote": "The lords of the twelve signs are as under: […] Scorpio - Mars",
+        "quote_display": "The lords of the twelve signs are as under: […] Scorpio - Mars",
+        "quote_sha256": "cddb68affd88d90cf1124031d7b13b89c32183a6c57e2fe5b7bf637e5b59e935",
+        "char_span": [
+          17284,
+          17327
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            17284,
+            17327
+          ],
+          [
+            17376,
+            17390
+          ]
+        ],
+        "quote_parts": [
+          "The lords of the twelve signs are as under:",
+          "Scorpio - Mars"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_lord",
+        "sign": "Scorpio",
+        "graha": "Mars"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignLord.Gemini",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0011",
+        "tier": 1,
+        "quote": "The lords of the twelve signs are as under: […] Gemini - Mercury",
+        "quote_display": "The lords of the twelve signs are as under: […] Gemini - Mercury",
+        "quote_sha256": "b5cc48d0fb8d8f8ee32979a982892daaf0c1d1bc3794a90502d07cae2a54faf8",
+        "char_span": [
+          17284,
+          17327
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            17284,
+            17327
+          ],
+          [
+            17394,
+            17410
+          ]
+        ],
+        "quote_parts": [
+          "The lords of the twelve signs are as under:",
+          "Gemini - Mercury"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_lord",
+        "sign": "Gemini",
+        "graha": "Mercury"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignLord.Sagittarius",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0011",
+        "tier": 1,
+        "quote": "The lords of the twelve signs are as under: […] Sagittarius - Jupiter",
+        "quote_display": "The lords of the twelve signs are as under: […] Sagittarius - Jupiter",
+        "quote_sha256": "7a96fb4a01b10994324997adba66de94d77d3357ea8051dad2d3baacaacbda8d",
+        "char_span": [
+          17284,
+          17327
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            17284,
+            17327
+          ],
+          [
+            17411,
+            17432
+          ]
+        ],
+        "quote_parts": [
+          "The lords of the twelve signs are as under:",
+          "Sagittarius - Jupiter"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_lord",
+        "sign": "Sagittarius",
+        "graha": "Jupiter"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignLord.Cancer",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0011",
+        "tier": 1,
+        "quote": "The lords of the twelve signs are as under: […] Cancer - The Moon",
+        "quote_display": "The lords of the twelve signs are as under: […] Cancer - The Moon",
+        "quote_sha256": "d6d07e4b779ed8d10468c6e1a27b5f883ef576ba4e333e09b5698e6e040302ac",
+        "char_span": [
+          17284,
+          17327
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            17284,
+            17327
+          ],
+          [
+            17436,
+            17453
+          ]
+        ],
+        "quote_parts": [
+          "The lords of the twelve signs are as under:",
+          "Cancer - The Moon"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_lord",
+        "sign": "Cancer",
+        "graha": "Moon"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignLord.Capricorn",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0011",
+        "tier": 1,
+        "quote": "The lords of the twelve signs are as under: […] Capricorn - Saturn",
+        "quote_display": "The lords of the twelve signs are as under: […] Capricorn - Saturn",
+        "quote_sha256": "a4e5a9dba22481b01b66a995e20bae028bb56e5babbcaf5edffcc9f559b10512",
+        "char_span": [
+          17284,
+          17327
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            17284,
+            17327
+          ],
+          [
+            17454,
+            17472
+          ]
+        ],
+        "quote_parts": [
+          "The lords of the twelve signs are as under:",
+          "Capricorn - Saturn"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_lord",
+        "sign": "Capricorn",
+        "graha": "Saturn"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignLord.Leo",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0011",
+        "tier": 1,
+        "quote": "The lords of the twelve signs are as under: […] Leo - The Sun",
+        "quote_display": "The lords of the twelve signs are as under: […] Leo - The Sun",
+        "quote_sha256": "26c5fec8afc553f9104ddeb9c0c77f951f4c581427d51e9879034da4f96adfed",
+        "char_span": [
+          17284,
+          17327
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            17284,
+            17327
+          ],
+          [
+            17510,
+            17523
+          ]
+        ],
+        "quote_parts": [
+          "The lords of the twelve signs are as under:",
+          "Leo - The Sun"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_lord",
+        "sign": "Leo",
+        "graha": "Sun"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignLord.Aquarius",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0011",
+        "tier": 1,
+        "quote": "The lords of the twelve signs are as under: […] Aquarius - Saturn",
+        "quote_display": "The lords of the twelve signs are as under: […] Aquarius - Saturn",
+        "quote_sha256": "67edbc1c2eb9f15bdfd907fcb770e4f48e459e14ed7e58375864535301b4c05a",
+        "char_span": [
+          17284,
+          17327
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            17284,
+            17327
+          ],
+          [
+            17524,
+            17541
+          ]
+        ],
+        "quote_parts": [
+          "The lords of the twelve signs are as under:",
+          "Aquarius - Saturn"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_lord",
+        "sign": "Aquarius",
+        "graha": "Saturn"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignLord.Virgo",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0011",
+        "tier": 1,
+        "quote": "The lords of the twelve signs are as under: […] Virgo - Mercury",
+        "quote_display": "The lords of the twelve signs are as under: […] Virgo - Mercury",
+        "quote_sha256": "1052bcf6bbab29bc6316b07ef5fc25705913786de9a61608255f0ea669d9b418",
+        "char_span": [
+          17284,
+          17327
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            17284,
+            17327
+          ],
+          [
+            17545,
+            17560
+          ]
+        ],
+        "quote_parts": [
+          "The lords of the twelve signs are as under:",
+          "Virgo - Mercury"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_lord",
+        "sign": "Virgo",
+        "graha": "Mercury"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignLord.Pisces",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0011",
+        "tier": 1,
+        "quote": "The lords of the twelve signs are as under: […] Pisces - Jupiter",
+        "quote_display": "The lords of the twelve signs are as under: […] Pisces - Jupiter",
+        "quote_sha256": "b06af3898d7cc29c8faa5c8c6eae87feb1a9357bd9f26e2b18fdc0ce336f7e2c",
+        "char_span": [
+          17284,
+          17327
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            17284,
+            17327
+          ],
+          [
+            17561,
+            17577
+          ]
+        ],
+        "quote_parts": [
+          "The lords of the twelve signs are as under:",
+          "Pisces - Jupiter"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_lord",
+        "sign": "Pisces",
+        "graha": "Jupiter"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Exaltation.Sun",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0012",
+        "tier": 1,
+        "quote": "The signs of exaltation and fall of the seven planets from the Sun onwards are as under — […] The Sun Aries Libra",
+        "quote_display": "The signs of exaltation and fall of the seven planets from the Sun onwards are as under — […] The Sun Aries Libra",
+        "quote_sha256": "e8c819256230fb3c7650ce772c45c3a7963f2989ab3c21eed58058961ef5f76a",
+        "char_span": [
+          17581,
+          17670
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            17581,
+            17670
+          ],
+          [
+            17710,
+            17729
+          ]
+        ],
+        "quote_parts": [
+          "The signs of exaltation and fall of the seven planets from the Sun onwards are as under —",
+          "The Sun Aries Libra"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "exaltation",
+        "graha": "Sun",
+        "exaltation_sign": "Aries",
+        "debilitation_sign": "Libra"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Exaltation.Moon",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0012",
+        "tier": 1,
+        "quote": "The signs of exaltation and fall of the seven planets from the Sun onwards are as under — […] The Moon Taurus Scorpio",
+        "quote_display": "The signs of exaltation and fall of the seven planets from the Sun onwards are as under — […] The Moon Taurus Scorpio",
+        "quote_sha256": "6957e545422000f903409691dbb7278cab17e4567f45eba354891d24d957fb1b",
+        "char_span": [
+          17581,
+          17670
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            17581,
+            17670
+          ],
+          [
+            17730,
+            17753
+          ]
+        ],
+        "quote_parts": [
+          "The signs of exaltation and fall of the seven planets from the Sun onwards are as under —",
+          "The Moon Taurus Scorpio"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "exaltation",
+        "graha": "Moon",
+        "exaltation_sign": "Taurus",
+        "debilitation_sign": "Scorpio"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Exaltation.Mars",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0012",
+        "tier": 1,
+        "quote": "The signs of exaltation and fall of the seven planets from the Sun onwards are as under — […] Mars Capricorn Cancer",
+        "quote_display": "The signs of exaltation and fall of the seven planets from the Sun onwards are as under — […] Mars Capricorn Cancer",
+        "quote_sha256": "54549e0735168ed5d7d977913f5731c2ab766af0bc73f48fc4735a1925e86892",
+        "char_span": [
+          17581,
+          17670
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            17581,
+            17670
+          ],
+          [
+            17754,
+            17775
+          ]
+        ],
+        "quote_parts": [
+          "The signs of exaltation and fall of the seven planets from the Sun onwards are as under —",
+          "Mars Capricorn Cancer"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "exaltation",
+        "graha": "Mars",
+        "exaltation_sign": "Capricorn",
+        "debilitation_sign": "Cancer"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Exaltation.Mercury",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0012",
+        "tier": 1,
+        "quote": "The signs of exaltation and fall of the seven planets from the Sun onwards are as under — […] Mercury Virgo Pisces",
+        "quote_display": "The signs of exaltation and fall of the seven planets from the Sun onwards are as under — […] Mercury Virgo Pisces",
+        "quote_sha256": "fa80c8515e379890a6d47daa159dd59ef150338274a57742b36e3b471d54d6b5",
+        "char_span": [
+          17581,
+          17670
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            17581,
+            17670
+          ],
+          [
+            17776,
+            17796
+          ]
+        ],
+        "quote_parts": [
+          "The signs of exaltation and fall of the seven planets from the Sun onwards are as under —",
+          "Mercury Virgo Pisces"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "exaltation",
+        "graha": "Mercury",
+        "exaltation_sign": "Virgo",
+        "debilitation_sign": "Pisces"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Exaltation.Jupiter",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0012",
+        "tier": 1,
+        "quote": "The signs of exaltation and fall of the seven planets from the Sun onwards are as under — […] Jupiter Cancer Capricorn",
+        "quote_display": "The signs of exaltation and fall of the seven planets from the Sun onwards are as under — […] Jupiter Cancer Capricorn",
+        "quote_sha256": "1921616495a9b1ec689331a8f2ffdd8c3b09184ab192c430953ed8fbdf2257eb",
+        "char_span": [
+          17581,
+          17670
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            17581,
+            17670
+          ],
+          [
+            17797,
+            17821
+          ]
+        ],
+        "quote_parts": [
+          "The signs of exaltation and fall of the seven planets from the Sun onwards are as under —",
+          "Jupiter Cancer Capricorn"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "exaltation",
+        "graha": "Jupiter",
+        "exaltation_sign": "Cancer",
+        "debilitation_sign": "Capricorn"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Exaltation.Venus",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0012",
+        "tier": 1,
+        "quote": "The signs of exaltation and fall of the seven planets from the Sun onwards are as under — […] Venus Pisces Virgo",
+        "quote_display": "The signs of exaltation and fall of the seven planets from the Sun onwards are as under — […] Venus Pisces Virgo",
+        "quote_sha256": "08b7b42140c15adf353242febe203e3bff6f9172d68cad1e13ddefac0078ce43",
+        "char_span": [
+          17581,
+          17670
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            17581,
+            17670
+          ],
+          [
+            17822,
+            17840
+          ]
+        ],
+        "quote_parts": [
+          "The signs of exaltation and fall of the seven planets from the Sun onwards are as under —",
+          "Venus Pisces Virgo"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "exaltation",
+        "graha": "Venus",
+        "exaltation_sign": "Pisces",
+        "debilitation_sign": "Virgo"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Exaltation.Saturn",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0012",
+        "tier": 1,
+        "quote": "The signs of exaltation and fall of the seven planets from the Sun onwards are as under — […] Saturn Libra Aries",
+        "quote_display": "The signs of exaltation and fall of the seven planets from the Sun onwards are as under — […] Saturn Libra Aries",
+        "quote_sha256": "7071b60f87954fb077b173817ffd2924fa7ca32c68200512197c8672ec6688c3",
+        "char_span": [
+          17581,
+          17670
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            17581,
+            17670
+          ],
+          [
+            17841,
+            17859
+          ]
+        ],
+        "quote_parts": [
+          "The signs of exaltation and fall of the seven planets from the Sun onwards are as under —",
+          "Saturn Libra Aries"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "exaltation",
+        "graha": "Saturn",
+        "exaltation_sign": "Libra",
+        "debilitation_sign": "Aries"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Exaltation.Principle",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0012",
+        "tier": 1,
+        "quote": "This means that the seventh or the opposite sign from the sign of exaltation of a planet, is the sign of fall or debilitation.",
+        "quote_display": "This means that the seventh or the opposite sign from the sign of exaltation of a planet, is the sign of fall or debilitation.",
+        "quote_sha256": "61963836f46ca43bb4b026b6ea1fe2aea7822f8c4e78b14ab1bfbdce3476d2b1",
+        "char_span": [
+          17863,
+          17989
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "exaltation_principle",
+        "rule": "debilitation_sign_is_seventh_from_exaltation_sign"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Exaltation.RahuKetu.Mantreswara",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6 (Notes)",
+        "page_anchor": "phaladeepika/p0012",
+        "tier": 2,
+        "quote": "Notes— There is great difference of opinion amongst the ancient learneds about the exaltation and debilitation signs of Rahu and Ketu. Mantreswara has expressed no opinion in that regard.",
+        "quote_display": "Notes— There is great difference of opinion amongst the ancient learneds about the exaltation and debilitation signs of Rahu and Ketu. Mantreswara has expressed no opinion in that regard.",
+        "quote_sha256": "4493292e3189cb3fc4ca79ed7de604ddd69efc77967a628932546e5faf801209",
+        "char_span": [
+          17993,
+          18180
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "exaltation",
+        "graha": [
+          "Rahu",
+          "Ketu"
+        ],
+        "position": "silent"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "Mantreswara expresses no opinion. That silence is itself the datum: any exaltation the engine assumes for the nodes is unsourced.",
+      "exclusions": [],
+      "contradicts": [
+        "PD.01.Exaltation.RahuKetu.SarvarthChintamani",
+        "PD.01.Exaltation.RahuKetu.BPHS"
+      ]
+    },
+    {
+      "id": "PD.01.Exaltation.RahuKetu.SarvarthChintamani",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6 (Notes)",
+        "page_anchor": "phaladeepika/p0012",
+        "tier": 2,
+        "quote": "According to Sarvarth Chintamani the exaltation sign of Rahu is Gemini and his sign of debilitation is Sagittarius. Reverse is the case with Ketu.",
+        "quote_display": "According to Sarvarth Chintamani the exaltation sign of Rahu is Gemini and his sign of debilitation is Sagittarius. Reverse is the case with Ketu.",
+        "quote_sha256": "5ad07d3a6e292815d8d7800b9197919ad8ee114d730ef9b1f889713242b06216",
+        "char_span": [
+          18181,
+          18327
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "exaltation",
+        "graha": [
+          "Rahu",
+          "Ketu"
+        ],
+        "authority": "Sarvarth Chintamani",
+        "rahu_exaltation": "Gemini",
+        "rahu_debilitation": "Sagittarius"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": [],
+      "contradicts": [
+        "PD.01.Exaltation.RahuKetu.BPHS"
+      ]
+    },
+    {
+      "id": "PD.01.Exaltation.RahuKetu.BPHS",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6 (Notes)",
+        "page_anchor": "phaladeepika/p0012",
+        "tier": 2,
+        "quote": "According to Brihat Parasara Hora Sastra Taurus and Scorpio are respectively the exaltation signs of Rahu and Ketu and the signs opposite to them are their signs of debilitation.",
+        "quote_display": "According to Brihat Parasara Hora Sastra Taurus and Scorpio are respectively the exaltation signs of Rahu and Ketu and the signs opposite to them are their signs of debilitation.",
+        "quote_sha256": "a7acf77084d7b627bbc8cf447c32ea90d78993f3683db4d01c4e9608c144cd0a",
+        "char_span": [
+          18328,
+          18506
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "exaltation",
+        "graha": [
+          "Rahu",
+          "Ketu"
+        ],
+        "authority": "Brihat Parasara Hora Sastra",
+        "rahu_exaltation": "Taurus",
+        "ketu_exaltation": "Scorpio"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": [],
+      "contradicts": [
+        "PD.01.Exaltation.RahuKetu.SarvarthChintamani"
+      ]
+    },
+    {
+      "id": "PD.01.DeepExaltation.Sun",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0012",
+        "tier": 1,
+        "quote": "The highest points of exaltation and the lowest points of debilitation of the various planets are as under: […] The Sun Aries 10th degree Libra 10th degree",
+        "quote_display": "The highest points of exaltation and the lowest points of debilitation of the various planets are as under: […] The Sun Aries 10th degree Libra 10th degree",
+        "quote_sha256": "85d72fb2b8b2ec601c73a50e01d905d5fc83ac5c237769dd5fab63c234a6cc63",
+        "char_span": [
+          18510,
+          18617
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            18510,
+            18617
+          ],
+          [
+            18719,
+            18762
+          ]
+        ],
+        "quote_parts": [
+          "The highest points of exaltation and the lowest points of debilitation of the various planets are as under:",
+          "The Sun Aries 10th degree Libra 10th degree"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "deep_exaltation",
+        "graha": "Sun",
+        "exaltation_sign": "Aries",
+        "exaltation_degree": 10,
+        "debilitation_sign": "Libra",
+        "debilitation_degree": 10
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.DeepExaltation.Moon",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0012",
+        "tier": 1,
+        "quote": "The highest points of exaltation and the lowest points of debilitation of the various planets are as under: […] The Moon Taurus 3rd degree Scorpio 3rd degree",
+        "quote_display": "The highest points of exaltation and the lowest points of debilitation of the various planets are as under: […] The Moon Taurus 3rd degree Scorpio 3rd degree",
+        "quote_sha256": "c33991cce1c618278d07b3a19ccb2e2dd41c3bb3867aceb3ba1a9f79a278d063",
+        "char_span": [
+          18510,
+          18617
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            18510,
+            18617
+          ],
+          [
+            18766,
+            18811
+          ]
+        ],
+        "quote_parts": [
+          "The highest points of exaltation and the lowest points of debilitation of the various planets are as under:",
+          "The Moon Taurus 3rd degree Scorpio 3rd degree"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "deep_exaltation",
+        "graha": "Moon",
+        "exaltation_sign": "Taurus",
+        "exaltation_degree": 3,
+        "debilitation_sign": "Scorpio",
+        "debilitation_degree": 3
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.DeepExaltation.Mars",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0012",
+        "tier": 1,
+        "quote": "The highest points of exaltation and the lowest points of debilitation of the various planets are as under: […] Mars Capricorn 28th degree Cancer 28th degree",
+        "quote_display": "The highest points of exaltation and the lowest points of debilitation of the various planets are as under: […] Mars Capricorn 28th degree Cancer 28th degree",
+        "quote_sha256": "5dc4384faa4ab6d52db63307a69b7920fdbd29862c302a3b7126bbb85e4baa86",
+        "char_span": [
+          18510,
+          18617
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            18510,
+            18617
+          ],
+          [
+            18815,
+            18860
+          ]
+        ],
+        "quote_parts": [
+          "The highest points of exaltation and the lowest points of debilitation of the various planets are as under:",
+          "Mars Capricorn 28th degree Cancer 28th degree"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "deep_exaltation",
+        "graha": "Mars",
+        "exaltation_sign": "Capricorn",
+        "exaltation_degree": 28,
+        "debilitation_sign": "Cancer",
+        "debilitation_degree": 28
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.DeepExaltation.Mercury",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0012",
+        "tier": 1,
+        "quote": "The highest points of exaltation and the lowest points of debilitation of the various planets are as under: […] Mercury Virgo 15th degree Pisces 15th degree",
+        "quote_display": "The highest points of exaltation and the lowest points of debilitation of the various planets are as under: […] Mercury Virgo 15th degree Pisces 15th degree",
+        "quote_sha256": "73a39d062f4f94988ad9f80bc3f72fdad51a7f98cb614d11716b5535aad6586a",
+        "char_span": [
+          18510,
+          18617
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            18510,
+            18617
+          ],
+          [
+            18864,
+            18908
+          ]
+        ],
+        "quote_parts": [
+          "The highest points of exaltation and the lowest points of debilitation of the various planets are as under:",
+          "Mercury Virgo 15th degree Pisces 15th degree"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "deep_exaltation",
+        "graha": "Mercury",
+        "exaltation_sign": "Virgo",
+        "exaltation_degree": 15,
+        "debilitation_sign": "Pisces",
+        "debilitation_degree": 15
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.DeepExaltation.Jupiter",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0012",
+        "tier": 1,
+        "quote": "The highest points of exaltation and the lowest points of debilitation of the various planets are as under: […] Jupiter Cancer 5th degree Capricorn 5th degree",
+        "quote_display": "The highest points of exaltation and the lowest points of debilitation of the various planets are as under: […] Jupiter Cancer 5th degree Capricorn 5th degree",
+        "quote_sha256": "f0c7b2ede566698027103db501256b22fc28aa6a7292ee39b52bdc5f167d916b",
+        "char_span": [
+          18510,
+          18617
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            18510,
+            18617
+          ],
+          [
+            18912,
+            18958
+          ]
+        ],
+        "quote_parts": [
+          "The highest points of exaltation and the lowest points of debilitation of the various planets are as under:",
+          "Jupiter Cancer 5th degree Capricorn 5th degree"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "deep_exaltation",
+        "graha": "Jupiter",
+        "exaltation_sign": "Cancer",
+        "exaltation_degree": 5,
+        "debilitation_sign": "Capricorn",
+        "debilitation_degree": 5
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.DeepExaltation.Venus",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0012",
+        "tier": 1,
+        "quote": "The highest points of exaltation and the lowest points of debilitation of the various planets are as under: […] Venus Pisces 27th degree Virgo 27th degree",
+        "quote_display": "The highest points of exaltation and the lowest points of debilitation of the various planets are as under: […] Venus Pisces 27th degree Virgo 27th degree",
+        "quote_sha256": "2c55b3c492596c01300f88a90a8ba38c6ee8342ef577d0b20e895291287aa464",
+        "char_span": [
+          18510,
+          18617
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            18510,
+            18617
+          ],
+          [
+            18962,
+            19004
+          ]
+        ],
+        "quote_parts": [
+          "The highest points of exaltation and the lowest points of debilitation of the various planets are as under:",
+          "Venus Pisces 27th degree Virgo 27th degree"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "deep_exaltation",
+        "graha": "Venus",
+        "exaltation_sign": "Pisces",
+        "exaltation_degree": 27,
+        "debilitation_sign": "Virgo",
+        "debilitation_degree": 27
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.DeepExaltation.Saturn",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0012",
+        "tier": 1,
+        "quote": "The highest points of exaltation and the lowest points of debilitation of the various planets are as under: […] Saturn Libra 20th degree Aries 20th degree",
+        "quote_display": "The highest points of exaltation and the lowest points of debilitation of the various planets are as under: […] Saturn Libra 20th degree Aries 20th degree",
+        "quote_sha256": "3cc15cc472ead805a02b1d7f87ec0488d5df481d535307b3ec117769cf51a859",
+        "char_span": [
+          18510,
+          18617
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            18510,
+            18617
+          ],
+          [
+            19008,
+            19050
+          ]
+        ],
+        "quote_parts": [
+          "The highest points of exaltation and the lowest points of debilitation of the various planets are as under:",
+          "Saturn Libra 20th degree Aries 20th degree"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "deep_exaltation",
+        "graha": "Saturn",
+        "exaltation_sign": "Libra",
+        "exaltation_degree": 20,
+        "debilitation_sign": "Aries",
+        "debilitation_degree": 20
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.DeepExaltation.Example",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "6 (Notes)",
+        "page_anchor": "phaladeepika/p0012",
+        "tier": 2,
+        "quote": "Notes — For example Jupiter at the 5th degree of Cancer will be in deep exaltation. Then he moves downwards from that point and gets into deep debilition […] when he reaches 5th degree of Capricorn.",
+        "quote_display": "Notes — For example Jupiter at the 5th degree of Cancer will be in deep exaltation. Then he moves downwards from that point and gets into deep debilition […] when he reaches 5th degree of Capricorn.",
+        "quote_sha256": "eda35ad084badede9c676bfdc093827d607474318da5cdbee54aa52cb624df8e",
+        "char_span": [
+          19054,
+          19207
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            19054,
+            19207
+          ],
+          [
+            19245,
+            19285
+          ]
+        ],
+        "quote_parts": [
+          "Notes — For example Jupiter at the 5th degree of Cancer will be in deep exaltation. Then he moves downwards from that point and gets into deep debilition",
+          "when he reaches 5th degree of Capricorn."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "worked_example",
+        "graha": "Jupiter"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "Runs across a printed page break; quoted as two spans.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Moolatrikona.Sun",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "7",
+        "page_anchor": "phaladeepika/p0013",
+        "tier": 1,
+        "quote": "The Moolatrikona signs of the planets the Sun onward are Leo, Taurus, Aries, Virgo, Sagittarius, Libra and Aquarius respectively. Below are given the portions of the own sign and Moolatrikona from the Sun onwards :— […] The Sun Leo 0° - 20° 21° - 30°",
+        "quote_display": "The Moolatrikona signs of the planets the Sun onward are Leo, Taurus, Aries, Virgo, Sagittarius, Libra and Aquarius respectively. Below are given the portions of the own sign and Moolatrikona from the Sun onwards :— […] The Sun Leo 0° - 20° 21° - 30°",
+        "quote_sha256": "b79e57ae84f368f6662b1c7dce10f503b3a767ef21fd1cc6b95f8127e077e89e",
+        "char_span": [
+          19292,
+          19507
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            19292,
+            19507
+          ],
+          [
+            19559,
+            19589
+          ]
+        ],
+        "quote_parts": [
+          "The Moolatrikona signs of the planets the Sun onward are Leo, Taurus, Aries, Virgo, Sagittarius, Libra and Aquarius respectively. Below are given the portions of the own sign and Moolatrikona from the Sun onwards :—",
+          "The Sun Leo 0° - 20° 21° - 30°"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "moolatrikona",
+        "graha": "Sun",
+        "sign": "Leo"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Moolatrikona.Moon",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "7",
+        "page_anchor": "phaladeepika/p0013",
+        "tier": 1,
+        "quote": "The Moolatrikona signs of the planets the Sun onward are Leo, Taurus, Aries, Virgo, Sagittarius, Libra and Aquarius respectively. Below are given the portions of the own sign and Moolatrikona from the Sun onwards :— […] The Moon Taurus 4° - 30° -",
+        "quote_display": "The Moolatrikona signs of the planets the Sun onward are Leo, Taurus, Aries, Virgo, Sagittarius, Libra and Aquarius respectively. Below are given the portions of the own sign and Moolatrikona from the Sun onwards :— […] The Moon Taurus 4° - 30° -",
+        "quote_sha256": "7861fd86de9cb11951454a96bd2656dce7df4874d5af55e8c008b02ff2d8fe26",
+        "char_span": [
+          19292,
+          19507
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            19292,
+            19507
+          ],
+          [
+            19590,
+            19616
+          ]
+        ],
+        "quote_parts": [
+          "The Moolatrikona signs of the planets the Sun onward are Leo, Taurus, Aries, Virgo, Sagittarius, Libra and Aquarius respectively. Below are given the portions of the own sign and Moolatrikona from the Sun onwards :—",
+          "The Moon Taurus 4° - 30° -"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "moolatrikona",
+        "graha": "Moon",
+        "sign": "Taurus"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Moolatrikona.Mars",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "7",
+        "page_anchor": "phaladeepika/p0013",
+        "tier": 1,
+        "quote": "The Moolatrikona signs of the planets the Sun onward are Leo, Taurus, Aries, Virgo, Sagittarius, Libra and Aquarius respectively. Below are given the portions of the own sign and Moolatrikona from the Sun onwards :— […] Mars Aries 0° - 2° 13° - 30°",
+        "quote_display": "The Moolatrikona signs of the planets the Sun onward are Leo, Taurus, Aries, Virgo, Sagittarius, Libra and Aquarius respectively. Below are given the portions of the own sign and Moolatrikona from the Sun onwards :— […] Mars Aries 0° - 2° 13° - 30°",
+        "quote_sha256": "90dc282bcffe385239aa969afb376110efd5a026f160cd1e5b6a299c4ed13a67",
+        "char_span": [
+          19292,
+          19507
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            19292,
+            19507
+          ],
+          [
+            19617,
+            19645
+          ]
+        ],
+        "quote_parts": [
+          "The Moolatrikona signs of the planets the Sun onward are Leo, Taurus, Aries, Virgo, Sagittarius, Libra and Aquarius respectively. Below are given the portions of the own sign and Moolatrikona from the Sun onwards :—",
+          "Mars Aries 0° - 2° 13° - 30°"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "moolatrikona",
+        "graha": "Mars",
+        "sign": "Aries"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Moolatrikona.Mercury",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "7",
+        "page_anchor": "phaladeepika/p0013",
+        "tier": 1,
+        "quote": "The Moolatrikona signs of the planets the Sun onward are Leo, Taurus, Aries, Virgo, Sagittarius, Libra and Aquarius respectively. Below are given the portions of the own sign and Moolatrikona from the Sun onwards :— […] Mercury Virgo 16° - 20° 21° - 30°",
+        "quote_display": "The Moolatrikona signs of the planets the Sun onward are Leo, Taurus, Aries, Virgo, Sagittarius, Libra and Aquarius respectively. Below are given the portions of the own sign and Moolatrikona from the Sun onwards :— […] Mercury Virgo 16° - 20° 21° - 30°",
+        "quote_sha256": "526b249a282b34d3f468ad88a367dfdde0cb3aaa9d6f3cb50eb550911b4e53ae",
+        "char_span": [
+          19292,
+          19507
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            19292,
+            19507
+          ],
+          [
+            19646,
+            19679
+          ]
+        ],
+        "quote_parts": [
+          "The Moolatrikona signs of the planets the Sun onward are Leo, Taurus, Aries, Virgo, Sagittarius, Libra and Aquarius respectively. Below are given the portions of the own sign and Moolatrikona from the Sun onwards :—",
+          "Mercury Virgo 16° - 20° 21° - 30°"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "moolatrikona",
+        "graha": "Mercury",
+        "sign": "Virgo"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Moolatrikona.Jupiter",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "7",
+        "page_anchor": "phaladeepika/p0013",
+        "tier": 1,
+        "quote": "The Moolatrikona signs of the planets the Sun onward are Leo, Taurus, Aries, Virgo, Sagittarius, Libra and Aquarius respectively. Below are given the portions of the own sign and Moolatrikona from the Sun onwards :— […] Jupiter Sagittarius 0° - 10° 11° - 30°",
+        "quote_display": "The Moolatrikona signs of the planets the Sun onward are Leo, Taurus, Aries, Virgo, Sagittarius, Libra and Aquarius respectively. Below are given the portions of the own sign and Moolatrikona from the Sun onwards :— […] Jupiter Sagittarius 0° - 10° 11° - 30°",
+        "quote_sha256": "1ca23ec8a3eea5d1497fd6f8375ed240faafd1b1a372c6a5ab25290600a99626",
+        "char_span": [
+          19292,
+          19507
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            19292,
+            19507
+          ],
+          [
+            19680,
+            19718
+          ]
+        ],
+        "quote_parts": [
+          "The Moolatrikona signs of the planets the Sun onward are Leo, Taurus, Aries, Virgo, Sagittarius, Libra and Aquarius respectively. Below are given the portions of the own sign and Moolatrikona from the Sun onwards :—",
+          "Jupiter Sagittarius 0° - 10° 11° - 30°"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "moolatrikona",
+        "graha": "Jupiter",
+        "sign": "Sagittarius"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Moolatrikona.Venus",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "7",
+        "page_anchor": "phaladeepika/p0013",
+        "tier": 1,
+        "quote": "The Moolatrikona signs of the planets the Sun onward are Leo, Taurus, Aries, Virgo, Sagittarius, Libra and Aquarius respectively. Below are given the portions of the own sign and Moolatrikona from the Sun onwards :— […] Venus Libra 0° - 5° 6° - 30°",
+        "quote_display": "The Moolatrikona signs of the planets the Sun onward are Leo, Taurus, Aries, Virgo, Sagittarius, Libra and Aquarius respectively. Below are given the portions of the own sign and Moolatrikona from the Sun onwards :— […] Venus Libra 0° - 5° 6° - 30°",
+        "quote_sha256": "546df4409b449cd0aabf0b5f5b4a758c3f8f5568196fcc4e44c5557f68eb4330",
+        "char_span": [
+          19292,
+          19507
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            19292,
+            19507
+          ],
+          [
+            19719,
+            19747
+          ]
+        ],
+        "quote_parts": [
+          "The Moolatrikona signs of the planets the Sun onward are Leo, Taurus, Aries, Virgo, Sagittarius, Libra and Aquarius respectively. Below are given the portions of the own sign and Moolatrikona from the Sun onwards :—",
+          "Venus Libra 0° - 5° 6° - 30°"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "moolatrikona",
+        "graha": "Venus",
+        "sign": "Libra"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Moolatrikona.Saturn",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "7",
+        "page_anchor": "phaladeepika/p0013",
+        "tier": 1,
+        "quote": "The Moolatrikona signs of the planets the Sun onward are Leo, Taurus, Aries, Virgo, Sagittarius, Libra and Aquarius respectively. Below are given the portions of the own sign and Moolatrikona from the Sun onwards :— […] Saturn Aquarius 0° - 20° 21° - 30°",
+        "quote_display": "The Moolatrikona signs of the planets the Sun onward are Leo, Taurus, Aries, Virgo, Sagittarius, Libra and Aquarius respectively. Below are given the portions of the own sign and Moolatrikona from the Sun onwards :— […] Saturn Aquarius 0° - 20° 21° - 30°",
+        "quote_sha256": "5d5c967454d428e320fb9cfa69fbd98d181071b274009d7aa1e7f9cd46853813",
+        "char_span": [
+          19292,
+          19507
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            19292,
+            19507
+          ],
+          [
+            19748,
+            19782
+          ]
+        ],
+        "quote_parts": [
+          "The Moolatrikona signs of the planets the Sun onward are Leo, Taurus, Aries, Virgo, Sagittarius, Libra and Aquarius respectively. Below are given the portions of the own sign and Moolatrikona from the Sun onwards :—",
+          "Saturn Aquarius 0° - 20° 21° - 30°"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "moolatrikona",
+        "graha": "Saturn",
+        "sign": "Aquarius"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignBodyForm.Table",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "7",
+        "page_anchor": "phaladeepika/p0013",
+        "tier": 1,
+        "quote": "The various signs have been classified as biped or human signs, reptile or (Keeta) or centipeds, watery or quadruped (Chatuspada) as detailed below : Human Quadruped Centiped Watery Gemini Aries Scorpio Cancer Virgo Taurus Capricorn (later half) Libra Pisces Sagittarius Leo (first half) Sagittarius (later half) Aquarius Capricorn (first half)",
+        "quote_display": "The various signs have been classified as biped or human signs, reptile or (Keeta) or centipeds, watery or quadruped (Chatuspada) as detailed below : Human Quadruped Centiped Watery Gemini Aries Scorpio Cancer Virgo Taurus Capricorn (later half) Libra Pisces Sagittarius Leo (first half) Sagittarius (later half) Aquarius Capricorn (first half)",
+        "quote_sha256": "036cc1d56b7aa5b4c5c3f24ec8046eaacde8034aa9084f59ad136fbe5916b3a4",
+        "char_span": [
+          19786,
+          20130
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_body_form",
+        "classes": [
+          "human",
+          "quadruped",
+          "centiped",
+          "watery"
+        ]
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "A four-column table whose columns the scan interleaved: the printed rows read 'Gemini Aries Scorpio Cancer', 'Virgo Taurus Capricorn (later half) Libra', and the remaining entries do not line up into four equal columns. Assigning each sign to a class would be guessing, so the quote is encoded and the table is not.",
+      "exclusions": [],
+      "requires": [
+        "dep.manual-verification"
+      ]
+    },
+    {
+      "id": "PD.01.Rising.Verse8",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "8",
+        "page_anchor": "phaladeepika/p0013",
+        "tier": 1,
+        "quote": "The signs which rise with their back (Prishtodaya) are Taurus. Cancer, Aries and Capricorn. The signs which rise both from their back and front (Ubhayodaya) are Gemini and Pisces. The rest appear with their heads are called Sirsodaya signs.",
+        "quote_display": "The signs which rise with their back (Prishtodaya) are Taurus. Cancer, Aries and Capricorn. The signs which rise both from their back and front (Ubhayodaya) are Gemini and Pisces. The rest appear with their heads are called Sirsodaya signs.",
+        "quote_sha256": "351dabb315c811eb1bae9f2ffc0e8f09d4f92a90a371b4c7c2ecea640aaa08cd",
+        "char_span": [
+          20137,
+          20377
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_rising",
+        "prishtodaya": [
+          "Taurus",
+          "Cancer",
+          "Aries",
+          "Capricorn"
+        ],
+        "ubhayodaya": [
+          "Gemini",
+          "Pisces"
+        ],
+        "rest": "sirsodaya"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": [],
+      "contradicts": [
+        "PD.01.Rising.DayNight"
+      ]
+    },
+    {
+      "id": "PD.01.Rising.DayNight",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "8",
+        "page_anchor": "phaladeepika/p0013",
+        "tier": 1,
+        "quote": "The Prishtodaya signs Taurus, Cancer, Sagittarius, Aries and Capricorn and the Ubhayodaya sign Gemini fall under the jurisdiction of the Moon and are termed as nocturnal (strong at night). The other signs are governed by the Sun and are known as diurnal signs (strong during day time).",
+        "quote_display": "The Prishtodaya signs Taurus, Cancer, Sagittarius, Aries and Capricorn and the Ubhayodaya sign Gemini fall under the jurisdiction of the Moon and are termed as nocturnal (strong at night). The other signs are governed by the Sun and are known as diurnal signs (strong during day time).",
+        "quote_sha256": "1f5a33f5e64a308a15dc9e525c88400af370ff87ea050e9d85c815d7d1d27a3f",
+        "char_span": [
+          20381,
+          20666
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_day_night",
+        "nocturnal": [
+          "Taurus",
+          "Cancer",
+          "Sagittarius",
+          "Aries",
+          "Capricorn",
+          "Gemini"
+        ],
+        "diurnal": "the other signs"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "This sentence lists the Prishtodaya signs as Taurus, Cancer, Sagittarius, Aries and Capricorn, and the Ubhayodaya sign as Gemini alone. The verse above gives four Prishtodaya signs without Sagittarius, and two Ubhayodaya signs including Pisces. The two disagree as printed; both are encoded and neither is corrected.",
+      "exclusions": [],
+      "contradicts": [
+        "PD.01.Rising.Verse8"
+      ]
+    },
+    {
+      "id": "PD.01.SignDirectionFromSun",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "8",
+        "page_anchor": "phaladeepika/p0013",
+        "tier": 1,
+        "quote": "Count from the sign last passed by the Sun. The first sign is called Urdhawa […] (bending upwards) the second sign is known as Adah (beneath), the third sign is termed Sama (even) and the fourth sign is known as Vakra (Crooked). The same order applies for the other eight signs.",
+        "quote_display": "Count from the sign last passed by the Sun. The first sign is called Urdhawa […] (bending upwards) the second sign is known as Adah (beneath), the third sign is termed Sama (even) and the fourth sign is known as Vakra (Crooked). The same order applies for the other eight signs.",
+        "quote_sha256": "ff93f3ac6db8796c9f90c6ce9d794c6e0597f493134696384fde8611dea55e7b",
+        "char_span": [
+          20670,
+          20746
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            20670,
+            20746
+          ],
+          [
+            20784,
+            20981
+          ]
+        ],
+        "quote_parts": [
+          "Count from the sign last passed by the Sun. The first sign is called Urdhawa",
+          "(bending upwards) the second sign is known as Adah (beneath), the third sign is termed Sama (even) and the fourth sign is known as Vakra (Crooked). The same order applies for the other eight signs."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_position_from_sun",
+        "order": [
+          "Urdhawa",
+          "Adah",
+          "Sama",
+          "Vakra"
+        ]
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "Runs across a printed page break; quoted as two spans.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignDirectionFromSun.Example",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "8 (Notes)",
+        "page_anchor": "phaladeepika/p0014",
+        "tier": 2,
+        "quote": "Notes — For example the Sun has last passed Virgo. Then the signs from Virgo to Leo will be in this order - Kanya - Urdhava, Adah, Even, Vakra, Urdhava, Adah, Even, Vakra, Urdhava, Adah, Even.",
+        "quote_display": "Notes — For example the Sun has last passed Virgo. Then the signs from Virgo to Leo will be in this order - Kanya - Urdhava, Adah, Even, Vakra, Urdhava, Adah, Even, Vakra, Urdhava, Adah, Even.",
+        "quote_sha256": "694d7d41158bc1add404b6712c09f8293ce330901d46c363a8742a8c5d334777",
+        "char_span": [
+          20985,
+          21177
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "worked_example",
+        "of": "PD.01.SignDirectionFromSun"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignAttributes.Aries",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "9",
+        "page_anchor": "phaladeepika/p0014",
+        "tier": 1,
+        "quote": "The following are some farther classifications and indications of the twelve signs — […] Aries Moveable Entrance Mineral Fierce Odd East (Chara) (Dwara) (Dhatu) (Krura) (Vlshama)",
+        "quote_display": "The following are some farther classifications and indications of the twelve signs — […] Aries Moveable Entrance Mineral Fierce Odd East (Chara) (Dwara) (Dhatu) (Krura) (Vlshama)",
+        "quote_sha256": "1562b932eb41c88153d6b806f627e94babe8742d0431c85951482550e210f754",
+        "char_span": [
+          21184,
+          21268
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            21184,
+            21268
+          ],
+          [
+            21272,
+            21361
+          ]
+        ],
+        "quote_parts": [
+          "The following are some farther classifications and indications of the twelve signs —",
+          "Aries Moveable Entrance Mineral Fierce Odd East (Chara) (Dwara) (Dhatu) (Krura) (Vlshama)"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_attributes",
+        "sign": "Aries",
+        "mobility": "Moveable",
+        "aperture": "Entrance",
+        "substance": "Mineral",
+        "temperament": "Fierce",
+        "parity": "Odd",
+        "direction": "East"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignAttributes.Taurus",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "9",
+        "page_anchor": "phaladeepika/p0014",
+        "tier": 1,
+        "quote": "The following are some farther classifications and indications of the twelve signs — […] Taurus Fixed Outside Vegetable Auspicious Even South (Sthlra) (Bahih) (Mula) (Saumya) (Sama)",
+        "quote_display": "The following are some farther classifications and indications of the twelve signs — […] Taurus Fixed Outside Vegetable Auspicious Even South (Sthlra) (Bahih) (Mula) (Saumya) (Sama)",
+        "quote_sha256": "fc6a578045a20457d98d9ccad46e39124198c00eb5832be478fc5a564d71287e",
+        "char_span": [
+          21184,
+          21268
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            21184,
+            21268
+          ],
+          [
+            21365,
+            21457
+          ]
+        ],
+        "quote_parts": [
+          "The following are some farther classifications and indications of the twelve signs —",
+          "Taurus Fixed Outside Vegetable Auspicious Even South (Sthlra) (Bahih) (Mula) (Saumya) (Sama)"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_attributes",
+        "sign": "Taurus",
+        "mobility": "Fixed",
+        "aperture": "Outside",
+        "substance": "Vegetable",
+        "temperament": "Auspicious",
+        "parity": "Even",
+        "direction": "South"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignAttributes.Gemini",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "9",
+        "page_anchor": "phaladeepika/p0014",
+        "tier": 1,
+        "quote": "The following are some farther classifications and indications of the twelve signs — […] Gemini Dual Inside Animal Fierce Odd West (Ubhaya) (Garbha) (Jeeva)",
+        "quote_display": "The following are some farther classifications and indications of the twelve signs — […] Gemini Dual Inside Animal Fierce Odd West (Ubhaya) (Garbha) (Jeeva)",
+        "quote_sha256": "6a4dcf6843a896bb7aa9e73135d13c7a8a150c5968568652b90c3df60c3a919b",
+        "char_span": [
+          21184,
+          21268
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            21184,
+            21268
+          ],
+          [
+            21461,
+            21528
+          ]
+        ],
+        "quote_parts": [
+          "The following are some farther classifications and indications of the twelve signs —",
+          "Gemini Dual Inside Animal Fierce Odd West (Ubhaya) (Garbha) (Jeeva)"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_attributes",
+        "sign": "Gemini",
+        "mobility": "Dual",
+        "aperture": "Inside",
+        "substance": "Animal",
+        "temperament": "Fierce",
+        "parity": "Odd",
+        "direction": "West"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignAttributes.Cancer",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "9",
+        "page_anchor": "phaladeepika/p0014",
+        "tier": 1,
+        "quote": "The following are some farther classifications and indications of the twelve signs — […] Cancer Moveable En trance Mineral Auspicious Even North",
+        "quote_display": "The following are some farther classifications and indications of the twelve signs — […] Cancer Moveable En trance Mineral Auspicious Even North",
+        "quote_sha256": "5474d0d84c4b7ab263c29c451a0d10c8df2ac87501b628ff74631dee9fe7f3ec",
+        "char_span": [
+          21184,
+          21268
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            21184,
+            21268
+          ],
+          [
+            21532,
+            21587
+          ]
+        ],
+        "quote_parts": [
+          "The following are some farther classifications and indications of the twelve signs —",
+          "Cancer Moveable En trance Mineral Auspicious Even North"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_attributes",
+        "sign": "Cancer",
+        "mobility": "Moveable",
+        "aperture": "Entrance",
+        "substance": "Mineral",
+        "temperament": "Auspicious",
+        "parity": "Even",
+        "direction": "North"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignAttributes.Leo",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "9",
+        "page_anchor": "phaladeepika/p0014",
+        "tier": 1,
+        "quote": "The following are some farther classifications and indications of the twelve signs — […] Leo Fixed Outside Vegetable Fierce Odd East",
+        "quote_display": "The following are some farther classifications and indications of the twelve signs — […] Leo Fixed Outside Vegetable Fierce Odd East",
+        "quote_sha256": "c19143b68558bccaaaa7a92669369b5aa8576d9b05fe65818a44481c983b6380",
+        "char_span": [
+          21184,
+          21268
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            21184,
+            21268
+          ],
+          [
+            21591,
+            21634
+          ]
+        ],
+        "quote_parts": [
+          "The following are some farther classifications and indications of the twelve signs —",
+          "Leo Fixed Outside Vegetable Fierce Odd East"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_attributes",
+        "sign": "Leo",
+        "mobility": "Fixed",
+        "aperture": "Outside",
+        "substance": "Vegetable",
+        "temperament": "Fierce",
+        "parity": "Odd",
+        "direction": "East"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignAttributes.Virgo",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "9",
+        "page_anchor": "phaladeepika/p0014",
+        "tier": 1,
+        "quote": "The following are some farther classifications and indications of the twelve signs — […] Virgo Dual Inside Animal Auspicious Even South",
+        "quote_display": "The following are some farther classifications and indications of the twelve signs — […] Virgo Dual Inside Animal Auspicious Even South",
+        "quote_sha256": "05bb3b37af9de307ef243569819a1197773c08abd65585378a1e59415b03ff33",
+        "char_span": [
+          21184,
+          21268
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            21184,
+            21268
+          ],
+          [
+            21638,
+            21684
+          ]
+        ],
+        "quote_parts": [
+          "The following are some farther classifications and indications of the twelve signs —",
+          "Virgo Dual Inside Animal Auspicious Even South"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_attributes",
+        "sign": "Virgo",
+        "mobility": "Dual",
+        "aperture": "Inside",
+        "substance": "Animal",
+        "temperament": "Auspicious",
+        "parity": "Even",
+        "direction": "South"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignAttributes.Libra",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "9",
+        "page_anchor": "phaladeepika/p0014",
+        "tier": 1,
+        "quote": "The following are some farther classifications and indications of the twelve signs — […] Libra Moveable Entrance Mineral Fierce Odd West",
+        "quote_display": "The following are some farther classifications and indications of the twelve signs — […] Libra Moveable Entrance Mineral Fierce Odd West",
+        "quote_sha256": "7c265814f1540af9524b2a5995f1ad129bed7985c21b7ec70580b06e298da21c",
+        "char_span": [
+          21184,
+          21268
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            21184,
+            21268
+          ],
+          [
+            21688,
+            21735
+          ]
+        ],
+        "quote_parts": [
+          "The following are some farther classifications and indications of the twelve signs —",
+          "Libra Moveable Entrance Mineral Fierce Odd West"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_attributes",
+        "sign": "Libra",
+        "mobility": "Moveable",
+        "aperture": "Entrance",
+        "substance": "Mineral",
+        "temperament": "Fierce",
+        "parity": "Odd",
+        "direction": "West"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignAttributes.Scorpio",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "9",
+        "page_anchor": "phaladeepika/p0014",
+        "tier": 1,
+        "quote": "The following are some farther classifications and indications of the twelve signs — […] Scorpio Fixed Outside Vegetable Auspicious Even North",
+        "quote_display": "The following are some farther classifications and indications of the twelve signs — […] Scorpio Fixed Outside Vegetable Auspicious Even North",
+        "quote_sha256": "5d1b85301a482f6d3914020a724169bfc3ce9b226489ff34368f81993f578bc0",
+        "char_span": [
+          21184,
+          21268
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            21184,
+            21268
+          ],
+          [
+            21739,
+            21792
+          ]
+        ],
+        "quote_parts": [
+          "The following are some farther classifications and indications of the twelve signs —",
+          "Scorpio Fixed Outside Vegetable Auspicious Even North"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_attributes",
+        "sign": "Scorpio",
+        "mobility": "Fixed",
+        "aperture": "Outside",
+        "substance": "Vegetable",
+        "temperament": "Auspicious",
+        "parity": "Even",
+        "direction": "North"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignAttributes.Sagittarius",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "9",
+        "page_anchor": "phaladeepika/p0014",
+        "tier": 1,
+        "quote": "The following are some farther classifications and indications of the twelve signs — […] Sagittarius Dual Inside Animal Fierce Odd East",
+        "quote_display": "The following are some farther classifications and indications of the twelve signs — […] Sagittarius Dual Inside Animal Fierce Odd East",
+        "quote_sha256": "4b17ce7e47785a62139d979d0cdb6d597ed739cc7f0ba05255682e1238a64162",
+        "char_span": [
+          21184,
+          21268
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            21184,
+            21268
+          ],
+          [
+            21796,
+            21842
+          ]
+        ],
+        "quote_parts": [
+          "The following are some farther classifications and indications of the twelve signs —",
+          "Sagittarius Dual Inside Animal Fierce Odd East"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_attributes",
+        "sign": "Sagittarius",
+        "mobility": "Dual",
+        "aperture": "Inside",
+        "substance": "Animal",
+        "temperament": "Fierce",
+        "parity": "Odd",
+        "direction": "East"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignAttributes.Capricorn",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "9",
+        "page_anchor": "phaladeepika/p0014",
+        "tier": 1,
+        "quote": "The following are some farther classifications and indications of the twelve signs — […] Capricorn Moveable Entrance Mineral Auspicious Even South",
+        "quote_display": "The following are some farther classifications and indications of the twelve signs — […] Capricorn Moveable Entrance Mineral Auspicious Even South",
+        "quote_sha256": "ed890a65f3fe828dc6b8590ed13b450d0a0cd74c921fa7ee397a92417e908e6d",
+        "char_span": [
+          21184,
+          21268
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            21184,
+            21268
+          ],
+          [
+            21846,
+            21903
+          ]
+        ],
+        "quote_parts": [
+          "The following are some farther classifications and indications of the twelve signs —",
+          "Capricorn Moveable Entrance Mineral Auspicious Even South"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_attributes",
+        "sign": "Capricorn",
+        "mobility": "Moveable",
+        "aperture": "Entrance",
+        "substance": "Mineral",
+        "temperament": "Auspicious",
+        "parity": "Even",
+        "direction": "South"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignAttributes.Aquarius",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "9",
+        "page_anchor": "phaladeepika/p0014",
+        "tier": 1,
+        "quote": "The following are some farther classifications and indications of the twelve signs — […] Aquarius Fixed Outside Vegetable Fierce Odd West",
+        "quote_display": "The following are some farther classifications and indications of the twelve signs — […] Aquarius Fixed Outside Vegetable Fierce Odd West",
+        "quote_sha256": "d11708f9fe6c7f2e0104e01216a17b6fde6c1878b9bbdb3b2019b5c59cf4ac8d",
+        "char_span": [
+          21184,
+          21268
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            21184,
+            21268
+          ],
+          [
+            21907,
+            21955
+          ]
+        ],
+        "quote_parts": [
+          "The following are some farther classifications and indications of the twelve signs —",
+          "Aquarius Fixed Outside Vegetable Fierce Odd West"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_attributes",
+        "sign": "Aquarius",
+        "mobility": "Fixed",
+        "aperture": "Outside",
+        "substance": "Vegetable",
+        "temperament": "Fierce",
+        "parity": "Odd",
+        "direction": "West"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.SignAttributes.Pisces",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "9",
+        "page_anchor": "phaladeepika/p0014",
+        "tier": 1,
+        "quote": "The following are some farther classifications and indications of the twelve signs — […] Pisces Dual Inside Animal Auspicious Even North",
+        "quote_display": "The following are some farther classifications and indications of the twelve signs — […] Pisces Dual Inside Animal Auspicious Even North",
+        "quote_sha256": "05502e89ea636efbd252683d07212f4109478756e287b4e847635f9538942cb7",
+        "char_span": [
+          21184,
+          21268
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            21184,
+            21268
+          ],
+          [
+            21959,
+            22006
+          ]
+        ],
+        "quote_parts": [
+          "The following are some farther classifications and indications of the twelve signs —",
+          "Pisces Dual Inside Animal Auspicious Even North"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "sign_attributes",
+        "sign": "Pisces",
+        "mobility": "Dual",
+        "aperture": "Inside",
+        "substance": "Animal",
+        "temperament": "Auspicious",
+        "parity": "Even",
+        "direction": "North"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.Kalapurusha.Sides",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "9",
+        "page_anchor": "phaladeepika/p0014",
+        "tier": 1,
+        "quote": "The six houses from the 7th represent the left side limbs of the Kalapurusha, while the other six houses i.e. those reckoned from the Ascendant represent right side limbs.",
+        "quote_display": "The six houses from the 7th represent the left side limbs of the Kalapurusha, while the other six houses i.e. those reckoned from the Ascendant represent right side limbs.",
+        "quote_sha256": "f165e858a39f7df41cec0c61e1cc945c9ccc5db312fe5e6aa93a4480d41a13f7",
+        "char_span": [
+          22010,
+          22181
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "kalapurusha_sides",
+        "left": "houses 7-12",
+        "right": "houses 1-6"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.HouseSignifications.H01",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "10",
+        "page_anchor": "phaladeepika/p0014",
+        "tier": 1,
+        "quote": "The names by which the first house or the Ascendant is known are Lagna, Hora, Kalya, Deha, Udaya, Rupa, Seersha, Vartmana (present) and Janma.",
+        "quote_display": "The names by which the first house or the Ascendant is known are Lagna, Hora, Kalya, Deha, Udaya, Rupa, Seersha, Vartmana (present) and Janma.",
+        "quote_sha256": "ef36f6bf7d269d18e5569fcb1a26b1d4638ea79f08a5c8f1da9491e22dcea12e",
+        "char_span": [
+          22322,
+          22464
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "house_significations",
+        "house": 1
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.HouseSignifications.H02",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "10",
+        "page_anchor": "phaladeepika/p0014",
+        "tier": 1,
+        "quote": "The second house deals with Vitta (wealth), Vidya (learning). Swa, Annapana (riches, food and drinks), Bhukti (eating), the right eye, face (Asya), letter or document (Patrika), Speech (Vak) and Kutumba (family) and thus adopts these appellations.",
+        "quote_display": "The second house deals with Vitta (wealth), Vidya (learning). Swa, Annapana (riches, food and drinks), Bhukti (eating), the right eye, face (Asya), letter or document (Patrika), Speech (Vak) and Kutumba (family) and thus adopts these appellations.",
+        "quote_sha256": "6e5942f1bb4ed238d5d5d844f29472568ac31e499b0c9e19a493e7e57dd9b7ea",
+        "char_span": [
+          22468,
+          22715
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "house_significations",
+        "house": 2
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.HouseSignifications.H03",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "11-12",
+        "page_anchor": "phaladeepika/p0015",
+        "tier": 1,
+        "quote": "The names given (or the subjects allotted) to third house are Duschikya, Uras (breast), the right ear, army valour, prowess and brother.",
+        "quote_display": "The names given (or the subjects allotted) to third house are Duschikya, Uras (breast), the right ear, army valour, prowess and brother.",
+        "quote_sha256": "b55ee0c1ecd0fc35c3bc7edbce0c19764c2337ceb8e713bba106310333bb4959",
+        "char_span": [
+          22763,
+          22899
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "house_significations",
+        "house": 3
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.HouseSignifications.H04",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "11-12",
+        "page_anchor": "phaladeepika/p0015",
+        "tier": 1,
+        "quote": "The subjects or designations for the fourth house are house, land, maternal uncle, a sister's son, a relation, a friend, conveyance, mother, kingdom, cow, buffalo, perfume, clothes, ornaments, the nadir, hibuka, sukha (happiness), water, bridge and river.",
+        "quote_display": "The subjects or designations for the fourth house are house, land, maternal uncle, a sister's son, a relation, a friend, conveyance, mother, kingdom, cow, buffalo, perfume, clothes, ornaments, the nadir, hibuka, sukha (happiness), water, bridge and river.",
+        "quote_sha256": "b79763423e1139842fa3037fe1ee76ce0da98b7bd2dc868c636154ffbff411a8",
+        "char_span": [
+          22903,
+          23158
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "house_significations",
+        "house": 4
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.HouseSignifications.H05",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "11-12",
+        "page_anchor": "phaladeepika/p0015",
+        "tier": 1,
+        "quote": "The fifth house deals with (and has designations accordingly) the mark of the sovereign, taxes, soul, intelligence, knowledge of the future, life, progeny, belly, Vedic knowledge and other religious scriptures.",
+        "quote_display": "The fifth house deals with (and has designations accordingly) the mark of the sovereign, taxes, soul, intelligence, knowledge of the future, life, progeny, belly, Vedic knowledge and other religious scriptures.",
+        "quote_sha256": "8c8c6a3dd0d8e31ccd70db964e033e5a31d3cdc6895987683b21fc465341ca53",
+        "char_span": [
+          23162,
+          23372
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "house_significations",
+        "house": 5
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.HouseSignifications.H06",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "13",
+        "page_anchor": "phaladeepika/p0015",
+        "tier": 1,
+        "quote": "The sixth house deals with debts, arms, thieves, wounds, diseases, enemies, paternal relations, battle, wicked acts, sins, fear and humilialtion.",
+        "quote_display": "The sixth house deals with debts, arms, thieves, wounds, diseases, enemies, paternal relations, battle, wicked acts, sins, fear and humilialtion.",
+        "quote_sha256": "a0b809db6ce2bfad1c14c2081319b8c725c941556e81d8f0f3e920844c06279a",
+        "char_span": [
+          23382,
+          23527
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "house_significations",
+        "house": 6
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.HouseSignifications.H07",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "13",
+        "page_anchor": "phaladeepika/p0015",
+        "tier": 1,
+        "quote": "The subjects dealt with by the seventh house are desire, passion, setting, sexual desire, a way, people, husband road and wife.",
+        "quote_display": "The subjects dealt with by the seventh house are desire, passion, setting, sexual desire, a way, people, husband road and wife.",
+        "quote_sha256": "8036bda0faa5bf73c242149b782be155d532450c2c1ca6f6054ea5b7bf2cec28",
+        "char_span": [
+          23531,
+          23658
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "house_significations",
+        "house": 7
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.HouseSignifications.H08",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "14",
+        "page_anchor": "phaladeepika/p0015",
+        "tier": 1,
+        "quote": "For the eighth house subjects allotted are Mangalya (the living of the husband during the life time of the wife), Randhra, filthiness, mental pain, defeat or humiliation, longevity, sorrow, blame, death, impurity impediments and slavery.",
+        "quote_display": "For the eighth house subjects allotted are Mangalya (the living of the husband during the life time of the wife), Randhra, filthiness, mental pain, defeat or humiliation, longevity, sorrow, blame, death, impurity impediments and slavery.",
+        "quote_sha256": "f32c8ae9638cf03083c5d5178124cd2db8ec58ebb7afc7b2300b6612ac54f921",
+        "char_span": [
+          23668,
+          23905
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "house_significations",
+        "house": 8
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.HouseSignifications.H09",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "14",
+        "page_anchor": "phaladeepika/p0015",
+        "tier": 1,
+        "quote": "The ninth house deals with preceptor (guru), deity (devta), father, auspiciousness, poorvabhagya (previous luck), worship, penance, virtuous act or virtue, grand son, and noble family. (Some of the learneds in the North are of the view that all about father should be examined from the 10th house, because 10th is 7th to the 4th house dealing with the father. The view of Phaladeepika seems to be based on the logic that the 9th being 5th to 5th house (dealing with progeny) should be the most appropriate house to be connected with father).",
+        "quote_display": "The ninth house deals with preceptor (guru), deity (devta), father, auspiciousness, poorvabhagya (previous luck), worship, penance, virtuous act or virtue, grand son, and noble family. (Some of the learneds in the North are of the view that all about father should be examined from the 10th house, because 10th is 7th to the 4th house dealing with the father. The view of Phaladeepika seems to be based on the logic that the 9th being 5th to 5th house (dealing with progeny) should be the most appropriate house to be connected with father).",
+        "quote_sha256": "f911811b5a577f7640f7f4a5a0390788f4542c4c0d8f9284cb1a53a979157b34",
+        "char_span": [
+          23909,
+          24450
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "house_significations",
+        "house": 9
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "The parenthesis records a live disagreement: some northern authorities read the father from the 10th rather than the 9th. Preserved inside the quote.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.HouseSignifications.H10",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "15",
+        "page_anchor": "phaladeepika/p0015",
+        "tier": 1,
+        "quote": "The subjects (names) designated for the 10th house are business or trade, ranker position, honour, occupation, profession, sky or zenith, conduct, quality, inclination, gait, command and Meshurana (to give orders).",
+        "quote_display": "The subjects (names) designated for the 10th house are business or trade, ranker position, honour, occupation, profession, sky or zenith, conduct, quality, inclination, gait, command and Meshurana (to give orders).",
+        "quote_sha256": "22a165dc5945d6c2b1283e1e78bdbe96485a9c6c929e01de724cc0cdc89489c6",
+        "char_span": [
+          24458,
+          24672
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "house_significations",
+        "house": 10
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.HouseSignifications.H11",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "15",
+        "page_anchor": "phaladeepika/p0015",
+        "tier": 1,
+        "quote": "The matters to be considered from the eleventh house are gains, income, acquisition, receipt of wealth, accomplishment, splendor and prosperity, profits, veneration, elder brother or sister, left ear, anything juicy, delightful news.",
+        "quote_display": "The matters to be considered from the eleventh house are gains, income, acquisition, receipt of wealth, accomplishment, splendor and prosperity, profits, veneration, elder brother or sister, left ear, anything juicy, delightful news.",
+        "quote_sha256": "b99df1fccbea2973cc8f5ce518f5f0a1cc6d5e8b4a94b444112cb4914274e0a9",
+        "char_span": [
+          24676,
+          24909
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "house_significations",
+        "house": 11
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.HouseSignifications.H12",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "16",
+        "page_anchor": "phaladeepika/p0015",
+        "tier": 1,
+        "quote": "The expressions used for the twelfth house are misery, leg, left eye, loss, […] spy, last rites, poverty, sins, bad expenditure and imprisonment or confinement.",
+        "quote_display": "The expressions used for the twelfth house are misery, leg, left eye, loss, […] spy, last rites, poverty, sins, bad expenditure and imprisonment or confinement.",
+        "quote_sha256": "1c6f752883eb44f0d305fc9d0fb86650705a570e87ddef390836819738fd8f7f",
+        "char_span": [
+          24917,
+          24992
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            24917,
+            24992
+          ],
+          [
+            25030,
+            25110
+          ]
+        ],
+        "quote_parts": [
+          "The expressions used for the twelfth house are misery, leg, left eye, loss,",
+          "spy, last rites, poverty, sins, bad expenditure and imprisonment or confinement."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "house_significations",
+        "house": 12
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "Runs across a printed page break; quoted as two spans.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.HouseClass.Leena",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "16",
+        "page_anchor": "phaladeepika/p0016",
+        "tier": 1,
+        "quote": "The 3rd, the 6th, the 8th and 12th are known as Leena Sthanas (hidden houses).",
+        "quote_display": "The 3rd, the 6th, the 8th and 12th are known as Leena Sthanas (hidden houses).",
+        "quote_sha256": "c96b019ca375cb87c6bbb2a2818e9d7a8155149fff42362e4d9b64ffa9aae853",
+        "char_span": [
+          25221,
+          25299
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "house_class",
+        "class": "leena_sthana",
+        "houses": [
+          3,
+          6,
+          8,
+          12
+        ]
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.HouseClass.Dusthana",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "17",
+        "page_anchor": "phaladeepika/p0016",
+        "tier": 1,
+        "quote": "The 6th, the 8th and 12th houses are also called Dusthanas (evil houses).",
+        "quote_display": "The 6th, the 8th and 12th houses are also called Dusthanas (evil houses).",
+        "quote_sha256": "cded4e1bc1894f8b16a8f24dbf6150dab5b4fa28e2f28505bbd52d5a94240e0c",
+        "char_span": [
+          25307,
+          25380
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "house_class",
+        "class": "dusthana",
+        "houses": [
+          6,
+          8,
+          12
+        ]
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.HouseClass.Auspicious",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "17",
+        "page_anchor": "phaladeepika/p0016",
+        "tier": 1,
+        "quote": "The remaining houses are considered good and auspicious.",
+        "quote_display": "The remaining houses are considered good and auspicious.",
+        "quote_sha256": "eb1fb8ac1cfb425e3d964e09117d791473c58565d7edef6bc1af3e15bfa59119",
+        "char_span": [
+          25381,
+          25437
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "house_class",
+        "class": "auspicious",
+        "houses": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          9,
+          10,
+          11
+        ]
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.HouseClass.Kendra",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "17",
+        "page_anchor": "phaladeepika/p0016",
+        "tier": 1,
+        "quote": "The 1st, 4th, 7th and the 10th houses are termed as Kendra, Kantaka or Chatushtaya.",
+        "quote_display": "The 1st, 4th, 7th and the 10th houses are termed as Kendra, Kantaka or Chatushtaya.",
+        "quote_sha256": "24f66a8c1802f1ca2b7942a4fcc536657fdf917549730399fa626858383f429b",
+        "char_span": [
+          25438,
+          25521
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "house_class",
+        "class": "kendra",
+        "houses": [
+          1,
+          4,
+          7,
+          10
+        ]
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.HouseClass.Panaphara",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "18",
+        "page_anchor": "phaladeepika/p0016",
+        "tier": 1,
+        "quote": "The 2nd, the 5th, the 8th and 11th houses from the Ascendant are called Panaphara houses.",
+        "quote_display": "The 2nd, the 5th, the 8th and 11th houses from the Ascendant are called Panaphara houses.",
+        "quote_sha256": "fa753059a5cb25da90c4bdf64fdf042d51becfa5bc12fb05b7b645e6de9a692e",
+        "char_span": [
+          25529,
+          25618
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "house_class",
+        "class": "panaphara",
+        "houses": [
+          2,
+          5,
+          8,
+          11
+        ]
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.HouseClass.Apoklima",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "18",
+        "page_anchor": "phaladeepika/p0016",
+        "tier": 1,
+        "quote": "The 3rd, the 6th, the 9th and the 12th are termed as Apoklima houses.",
+        "quote_display": "The 3rd, the 6th, the 9th and the 12th are termed as Apoklima houses.",
+        "quote_sha256": "3c2a8509213d2c462cadf12362ca37b892528179752bc37e3d8f358221ffbeaa",
+        "char_span": [
+          25619,
+          25688
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "house_class",
+        "class": "apoklima",
+        "houses": [
+          3,
+          6,
+          9,
+          12
+        ]
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.HouseClass.Chaturasra",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "18",
+        "page_anchor": "phaladeepika/p0016",
+        "tier": 1,
+        "quote": "The 4th and the 8th are also known as Chaturasra houses.",
+        "quote_display": "The 4th and the 8th are also known as Chaturasra houses.",
+        "quote_sha256": "39bb3004ade11e80ad045b05303db32136c1e6ebfbf0b9254fea08c862efdb7c",
+        "char_span": [
+          25689,
+          25745
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "house_class",
+        "class": "chaturasra",
+        "houses": [
+          4,
+          8
+        ]
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.HouseClass.Upachaya",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "18",
+        "page_anchor": "phaladeepika/p0016",
+        "tier": 1,
+        "quote": "The 3rd, the 6th, the 10th and 11th are Upachaya houses.",
+        "quote_display": "The 3rd, the 6th, the 10th and 11th are Upachaya houses.",
+        "quote_sha256": "973c663abe51c0905002294b65be04ba15c7ea9da7a97ddb8cfa546b228bb2b6",
+        "char_span": [
+          25746,
+          25802
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "house_class",
+        "class": "upachaya",
+        "houses": [
+          3,
+          6,
+          10,
+          11
+        ]
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.01.HouseClass.Trikona",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 1,
+        "verse": "18",
+        "page_anchor": "phaladeepika/p0016",
+        "tier": 1,
+        "quote": "The 5th and 9th are called trines (Trikona houses). The trines have been considered as very auspicious houses.",
+        "quote_display": "The 5th and 9th are called trines (Trikona houses). The trines have been considered as very auspicious houses.",
+        "quote_sha256": "3ee7a288e7f8bd68fe0b28d545f086757819cb7f06e6492d1eaf3bf9afa5e0be",
+        "char_span": [
+          25803,
+          25913
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "house_class",
+        "class": "trikona",
+        "houses": [
+          5,
+          9
+        ]
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    }
+  ]
+}

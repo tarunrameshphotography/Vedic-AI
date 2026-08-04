@@ -194,6 +194,44 @@ def test_inert_cards_declare_what_they_are_waiting_for(cards):
             assert c.raw.get("note"), f"{c.id} is inert with no explanation"
 
 
+def test_chapter_one_supplies_the_lordship_table(cards):
+    """The table dep.lord-of-house will read, complete and one card per sign."""
+    lords = {c.predicts["sign"]: c.predicts["graha"]
+             for c in cards if c.predicts.get("relation") == "sign_lord"}
+    assert len(lords) == 12
+    assert lords["Aries"] == "Mars" and lords["Cancer"] == "Moon"
+    assert lords["Leo"] == "Sun" and lords["Aquarius"] == "Saturn"
+    # Every sign lord is one of the seven classical rulers, and each of the
+    # five that rule two signs does so exactly twice.
+    from collections import Counter
+    counts = Counter(lords.values())
+    assert counts["Sun"] == 1 and counts["Moon"] == 1
+    assert all(counts[g] == 2 for g in ("Mars", "Mercury", "Jupiter",
+                                        "Venus", "Saturn"))
+
+
+def test_exaltation_and_debilitation_are_opposite(cards):
+    """Chapter 1 states the principle; the table must obey it."""
+    order = ["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra",
+             "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"]
+    rows = [c.predicts for c in cards
+            if c.predicts.get("relation") == "exaltation"
+            and "exaltation_sign" in c.predicts]
+    assert len(rows) == 7
+    for r in rows:
+        i = order.index(r["exaltation_sign"])
+        assert order[(i + 6) % 12] == r["debilitation_sign"], r
+
+
+def test_reference_cards_never_become_claims():
+    """A reference card carries a datum, not an assertion about a nativity."""
+    r = run(DEMO)
+    ref = {c.id for c in load_cards(RULES) if c.activation == "reference"}
+    assert ref, "no reference cards in the store"
+    for c in r.claims:
+        assert c.derived["rule_card"] not in ref
+
+
 def test_nothing_is_silently_deferred():
     """The deferred-knowledge registry must account for every gap.
 

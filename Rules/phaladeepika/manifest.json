@@ -11,7 +11,12 @@
   "commentary_marker": "Notes",
   "commentary_attribution": "Dr. G. S. Kapoor (translator)",
   "commentary_tier": 2,
-  "chapters_extracted": [8, 9, 10],
+  "chapters_extracted": [
+    1,
+    8,
+    9,
+    10
+  ],
   "known_defects": [
     "Chapter 8, printed p.96: the section heading 'JUPITER' is run onto the end of Mercury's 12th-house paragraph. Corpus preserved as printed; card PD.08.Mercury.12 tightens its span and records why.",
     "Chapter 8, verses 34-35: the Notes worked example and verse 35 appear to disagree about whether proximity to the Bhava-Madhya increases or decreases a placement's effect. Not yet extracted; needs adjudication.",
@@ -22,6 +27,11 @@
     "Chapter 10, verse 5: 'Mars and Saturn in the 7th from the Venus and Moon' counts houses from a graha, not from the lagna. The engine has one reference frame, so PD.10.MarsSaturn.SeventhFromVenusMoon is recorded inert with a condition that is deliberately not the verse's.",
     "Chapter 10, verse 8: two rules distinguished only by the sex of the native, which the birth record does not carry. Both conditions are exactly expressible; both cards are inert so the engine cannot assert a sex-specific rule for every chart.",
     "Chapter 10, verses 4 and 15: the same rule stated twice, the second attributed ('So say the men well versed in the science of Astrology') and carrying an extra condition. Both encoded; not merged.",
-    "Chapter 9, verses 13-20: universally quantified over the grahas ('a planet', not a named one) or over other rules. The condition language has no variables, so these eleven cards are recorded and marked inert. The knowledge is encoded and verified; it does not yet fire."
+    "Chapter 9, verses 13-20: universally quantified over the grahas ('a planet', not a named one) or over other rules. The condition language has no variables, so these eleven cards are recorded and marked inert. The knowledge is encoded and verified; it does not yet fire.",
+    "Chapter 1, verse 8: the verse names four Prishtodaya signs (Taurus, Cancer, Aries, Capricorn) and two Ubhayodaya signs (Gemini, Pisces); the very next sentence names five Prishtodaya signs, adding Sagittarius, and one Ubhayodaya sign, dropping Pisces. The two disagree as printed. Both are encoded, as PD.01.Rising.Verse8 and PD.01.Rising.DayNight, linked by contradicts. Neither is corrected.",
+    "Chapter 1, verse 7 trailer: the biped/quadruped/centiped/watery classification is a four-column table whose columns the scan interleaved into uneven rows. PD.01.SignBodyForm.Table encodes the quote but not the assignment, and is inert pending human verification against the printed page.",
+    "Chapter 1, verse 6 Notes: three positions on the exaltation of Rahu and Ketu -- Mantreswara silent, Sarvarth Chintamani (Gemini/Sagittarius), Brihat Parasara Hora Sastra (Taurus/Scorpio). All three encoded and linked by contradicts. The engine currently assumes no nodal exaltation, which this records as unsourced rather than wrong.",
+    "Chapter 1, verse 4 trailer: two definitions of Rasi-Sandhi, Mantreswara’s (the end portions of Cancer, Scorpio and Pisces) and an unnamed dissenting view (the end portions of all signs). Both encoded.",
+    "Chapter 1, verse 14: the ninth-house significations carry a parenthetical dispute about whether the father is read from the 9th or the 10th house. Preserved inside the quote of PD.01.HouseSignifications.H09."
   ]
 }

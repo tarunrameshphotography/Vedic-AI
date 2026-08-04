@@ -129,6 +129,10 @@ def main() -> int:
         n = sum(1 for c in cards if c.book_id == book_id)
         print(f"  {book_id:16s} {n:4d} cards over chapters {sorted(chapters)}")
 
+    ref = [c for c in cards if c.raw.get("activation") == "reference"]
+    if ref:
+        print(f"\nreference (doctrine the engine reads, not rules): {len(ref)}")
+
     inert = [c for c in cards if c.raw.get("activation") == "inert"]
     if inert:
         print(f"\ninert (recorded, never fires): {len(inert)}")

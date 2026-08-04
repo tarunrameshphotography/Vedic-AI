@@ -58,6 +58,7 @@ def activate(
     claims: list[Claim] = []
     inert: list[str] = []
     out_of_scope: list[str] = []
+    reference: list[str] = []
 
     for cid in sorted(candidates):
         card = by_id[cid]
@@ -71,6 +72,15 @@ def activate(
         # to match.
         if card.activation == "inert":
             inert.append(f"{cid}: recorded but declared inert; does not fire")
+            continue
+
+        # A reference card carries doctrine the engine must *read* -- which
+        # graha rules which sign, where each is exalted -- rather than a rule
+        # that fires on a chart. It is not deferred and not blocked: it is the
+        # table an extractor consults. It asserts nothing about a nativity, so
+        # it never becomes a claim.
+        if card.activation == "reference":
+            reference.append(f"{cid}: reference datum, not a predictive rule")
             continue
 
         # A rule stated for one sex must not be applied to the other, and must
@@ -173,6 +183,7 @@ def activate(
         "claims_activated": len(claims),
         "inert_cards": inert,
         "out_of_scope": out_of_scope,
+        "reference_cards": reference,
     }
     return claims, report
 
