@@ -51,9 +51,12 @@ def activate(
     by_id = {c.id: c for c in cards}
     index = build_predicate_index(cards)
 
+    # Exact keys, plus the wildcard entries that quantified cards index under.
     candidates: set[str] = set()
     for key in facts.keys():
         candidates.update(index.get(key, ()))
+    for f in facts:
+        candidates.update(index.get(f"{f.predicate}:*", ()))
 
     claims: list[Claim] = []
     inert: list[str] = []
@@ -101,81 +104,14 @@ def activate(
         if not ev.satisfied:
             continue
 
-        # Resolve the astronomical quantities behind each satisfying fact.
-        quantities = []
-        stability = "stable"
-        for key in ev.bindings:
-            f = facts.get(key)
-            if f is None:
-                continue
-            if f.stability != "stable":
-                stability = f.stability
-            graha = f.args.get("graha")
-            if graha and graha in chart.bodies:
-                b = chart.bodies[graha]
-                quantities.append({
-                    "name": f"{graha}.lon_sidereal",
-                    "value": round(b.lon, 6),
-                    "unit": "deg",
-                    "sign": b.sign,
-                    "deg_in_sign": round(b.deg_in_sign, 6),
-                    "nakshatra": b.nakshatra,
-                    "pada": b.pada,
-                    "retrograde": b.retrograde,
-                })
-            else:
-                quantities.append({
-                    "name": "Ascendant.lon_sidereal",
-                    "value": round(chart.ascendant, 6),
-                    "unit": "deg",
-                    "sign": chart.ascendant_sign,
-                    "deg_in_sign": round(chart.ascendant % 30.0, 6),
-                })
-
-        meta = (book_titles or {}).get(card.book_id, {})
-        claims.append(Claim(
-            claim_id=f"clm-{len(claims) + 1:04d}",
-            astronomical={
-                "bundle_id": chart.bundle_id,
-                "settings": chart.settings,
-                "backend": chart.backend["name"] + " " + chart.backend["library_version"],
-                "quantities": quantities,
-            },
-            derived={
-                "facts": [
-                    {"key": k,
-                     "frame": facts.get(k).frame if facts.get(k) else {},
-                     "evidence": facts.get(k).evidence if facts.get(k) else {}}
-                    for k in ev.bindings
-                ],
-                "rule_card": card.id,
-                "conditions_satisfied": list(ev.bindings),
-            },
-            source={
-                "book_id": card.book_id,
-                "book_title": meta.get("title", card.book_id),
-                "author": meta.get("author", ""),
-                "translator": meta.get("translator", ""),
-                "chapter": card.chapter,
-                "verse": card.verse,
-                "tier": card.tier,
-            },
-            passage={
-                "quote": card.quote,
-                "quote_display": card.quote_display,
-                "corpus_file": f"Knowledge/{card.book_id}.md",
-                "char_span": list(card.char_span),
-                "spans": [list(x) for x in card.spans],
-                "quote_sha256": card.quote_sha256,
-                "page_anchor": card.page_anchor,
-                "span_trimmed": card.span_trimmed,
-            },
-            weight=card.weight,
-            specificity=card.specificity,
-            tier=card.tier,
-            stability=stability,
-            text=card.quote_display,
-        ))
+        # A quantified rule -- "a planet in his sign of exaltation" -- is
+        # satisfied once per graha that satisfies it, and each becomes its own
+        # claim. Reporting one claim for the card would force the prose to say
+        # "some planet", which is exactly the vagueness the store exists to
+        # prevent.
+        for solution in ev.solutions:
+            claims.append(_claim(
+                len(claims) + 1, card, solution, chart, facts, book_titles))
 
     report = {
         "cards_in_store": len(cards),
@@ -186,6 +122,86 @@ def activate(
         "reference_cards": reference,
     }
     return claims, report
+
+
+def _claim(n, card, solution, chart, facts, book_titles) -> Claim:
+    # Resolve the astronomical quantities behind each satisfying fact.
+    quantities = []
+    stability = "stable"
+    for key in solution.bindings:
+        f = facts.get(key)
+        if f is None:
+            continue
+        if f.stability != "stable":
+            stability = f.stability
+        graha = f.args.get("graha")
+        if graha and graha in chart.bodies:
+            b = chart.bodies[graha]
+            quantities.append({
+                "name": f"{graha}.lon_sidereal",
+                "value": round(b.lon, 6),
+                "unit": "deg",
+                "sign": b.sign,
+                "deg_in_sign": round(b.deg_in_sign, 6),
+                "nakshatra": b.nakshatra,
+                "pada": b.pada,
+                "retrograde": b.retrograde,
+            })
+        else:
+            quantities.append({
+                "name": "Ascendant.lon_sidereal",
+                "value": round(chart.ascendant, 6),
+                "unit": "deg",
+                "sign": chart.ascendant_sign,
+                "deg_in_sign": round(chart.ascendant % 30.0, 6),
+            })
+
+    meta = (book_titles or {}).get(card.book_id, {})
+    return Claim(
+        claim_id=f"clm-{n:04d}",
+        astronomical={
+            "bundle_id": chart.bundle_id,
+            "settings": chart.settings,
+            "backend": chart.backend["name"] + " " + chart.backend["library_version"],
+            "quantities": quantities,
+        },
+        derived={
+            "facts": [
+                {"key": k,
+                 "frame": facts.get(k).frame if facts.get(k) else {},
+                 "evidence": facts.get(k).evidence if facts.get(k) else {}}
+                for k in solution.bindings
+            ],
+            "rule_card": card.id,
+            "conditions_satisfied": list(solution.bindings),
+            "variables": solution.as_dict(),
+        },
+        source={
+            "book_id": card.book_id,
+            "book_title": meta.get("title", card.book_id),
+            "author": meta.get("author", ""),
+            "translator": meta.get("translator", ""),
+            "chapter": card.chapter,
+            "verse": card.verse,
+            "tier": card.tier,
+        },
+        passage={
+            "quote": card.quote,
+            "quote_display": card.quote_display,
+            "corpus_file": f"Knowledge/{card.book_id}.md",
+            "char_span": list(card.char_span),
+            "spans": [list(x) for x in card.spans],
+            "quote_sha256": card.quote_sha256,
+            "page_anchor": card.page_anchor,
+            "span_trimmed": card.span_trimmed,
+        },
+        weight=card.weight,
+        specificity=card.specificity,
+        tier=card.tier,
+        stability=stability,
+        text=card.quote_display,
+    )
+
 
 
 # --- Stage 9 ----------------------------------------------------------------
@@ -236,14 +252,18 @@ def verify_claims(
 
         # (4) conditions re-evaluated from scratch against the FactSet
         ev = evaluate(card.conditions, facts)
+        want = set(claim.derived["conditions_satisfied"])
         if not ev.satisfied:
             failures.append(
                 f"{claim.claim_id}: conditions of {card.id} do not hold on re-evaluation"
             )
-        elif set(ev.bindings) != set(claim.derived["conditions_satisfied"]):
+        elif not any(set(s.bindings) == want for s in ev.solutions):
+            # A quantified card has one solution per graha that satisfies it.
+            # The claim must correspond to one of them exactly -- not merely to
+            # the card having been satisfied by something.
             failures.append(
-                f"{claim.claim_id}: bindings changed on re-evaluation "
-                f"({sorted(ev.bindings)} vs {sorted(claim.derived['conditions_satisfied'])})"
+                f"{claim.claim_id}: no re-derived solution of {card.id} matches "
+                f"its bindings {sorted(want)}"
             )
         else:
             n_cond += 1

@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -19,6 +20,9 @@ from typing import Any
 from .facts import VOCABULARY, FactSet
 
 COMBINATORS = ("all", "any", "not")
+
+# A condition argument of this shape is a variable, not a literal.
+VARIABLE_RE = re.compile(r"^\?[a-z][a-z0-9_]*$")
 
 
 class RuleStoreError(RuntimeError):
@@ -57,10 +61,27 @@ class RuleCard:
 
 
 @dataclass(frozen=True)
+class Solution:
+    """One way of satisfying a condition.
+
+    `assignment` names what each variable stood for. A rule written about "a
+    planet" has as many solutions as there are grahas that satisfy it, and each
+    becomes its own claim -- so the report says which planet, not "some".
+    """
+
+    assignment: tuple[tuple[str, str], ...]   # (?g, "Jupiter"), sorted
+    bindings: tuple[str, ...]                 # the fact keys that made it true
+
+    def as_dict(self) -> dict:
+        return dict(self.assignment)
+
+
+@dataclass(frozen=True)
 class Evaluation:
     satisfied: bool
     bindings: tuple[str, ...]     # the fact keys that made it true
     missing: tuple[str, ...]      # predicates absent from the vocabulary
+    solutions: tuple[Solution, ...] = ()
 
 
 # --- loading ----------------------------------------------------------------
@@ -197,49 +218,132 @@ def _predicates_used(node: Any) -> set[str]:
 
 # --- evaluation -------------------------------------------------------------
 
+def is_variable(value: Any) -> bool:
+    """A condition argument written as `?g` stands for whatever satisfies it.
+
+    Variables exist because the classics quantify: "a planet in his sign of
+    exaltation", "the lord of the 7th occupies the 5th". Neither can be written
+    with literals, and instantiating them per graha would make each card's own
+    words deny its own condition.
+
+    This is quantification, not an expression language. A variable ranges over
+    the values the FactSet already contains, so its domain comes from the chart
+    rather than from any table in Python.
+    """
+    return isinstance(value, str) and VARIABLE_RE.match(value) is not None
+
+
 def evaluate(conditions: dict, facts: FactSet) -> Evaluation:
-    """Evaluate a condition expression, returning the facts that satisfied it.
+    """Evaluate a condition expression, returning every way it is satisfied.
 
     The bindings are the point. A trace that says "matched" is worthless; a
-    trace that says "matched on in_house(Sun,10)" can be checked.
+    trace that says "matched on lord_of_house(Moon,7) and in_house(Moon,5)"
+    can be checked.
     """
-    bindings: list[str] = []
     missing: list[str] = []
-    ok = _eval(conditions, facts, bindings, missing)
+    solutions = _solve(conditions, facts, missing)
     # An unknown predicate can never count as satisfied.
     if missing:
-        ok = False
-    return Evaluation(ok, tuple(bindings), tuple(sorted(set(missing))))
+        return Evaluation(False, (), tuple(sorted(set(missing))), ())
+    first = solutions[0].bindings if solutions else ()
+    return Evaluation(bool(solutions), first, (), tuple(solutions))
 
 
-def _eval(node: Any, facts: FactSet, bindings: list[str], missing: list[str]) -> bool:
+def _consistent(a: dict, b: dict) -> bool:
+    return all(a[k] == b[k] for k in set(a) & set(b))
+
+
+def _merge(sols_a: list[Solution], sols_b: list[Solution]) -> list[Solution]:
+    """Join two solution sets, keeping only compatible variable assignments."""
+    out: list[Solution] = []
+    for x in sols_a:
+        ax = x.as_dict()
+        for y in sols_b:
+            ay = y.as_dict()
+            if not _consistent(ax, ay):
+                continue
+            merged = {**ax, **ay}
+            seen, binds = set(), []
+            for k in x.bindings + y.bindings:
+                if k not in seen:
+                    seen.add(k)
+                    binds.append(k)
+            out.append(Solution(tuple(sorted(merged.items())), tuple(binds)))
+    return out
+
+
+def _dedupe(sols: list[Solution]) -> list[Solution]:
+    seen, out = set(), []
+    for s in sols:
+        key = (s.assignment, s.bindings)
+        if key not in seen:
+            seen.add(key)
+            out.append(s)
+    return out
+
+
+def _solve(node: Any, facts: FactSet, missing: list[str]) -> list[Solution]:
     if not isinstance(node, dict) or len(node) != 1:
         raise RuleStoreError(f"malformed condition node: {node!r}")
     (op, val), = node.items()
 
     if op == "all":
-        return all(_eval(c, facts, bindings, missing) for c in val)
+        sols = [Solution((), ())]
+        for child in val:
+            sols = _merge(sols, _solve(child, facts, missing))
+            if not sols:
+                # Keep walking so that unknown predicates in later branches are
+                # still reported rather than hidden by an early failure.
+                for rest in val[val.index(child) + 1:]:
+                    _solve(rest, facts, missing)
+                return []
+        return _dedupe(sols)
+
     if op == "any":
-        # Evaluate every branch so that bindings from satisfied branches are
-        # recorded, rather than short-circuiting and losing the evidence.
-        results = [_eval(c, facts, bindings, missing) for c in val]
-        return any(results)
+        out: list[Solution] = []
+        for child in val:
+            out.extend(_solve(child, facts, missing))
+        return _dedupe(out)
+
     if op == "not":
-        inner: list[str] = []
-        return not _eval(val, facts, inner, missing)
+        # Negation as failure over the fact set, and only over it. Variables
+        # inside a `not` are local: "if there is no planet in the Ascendant"
+        # asks whether any binding exists, and exports none if it does not.
+        inner = _solve(val, facts, missing)
+        return [] if inner else [Solution((), ())]
 
     if op not in VOCABULARY:
         missing.append(op)
-        return False
+        return []
 
     ordered = VOCABULARY[op]
     if set(val) != set(ordered):
         raise RuleStoreError(f"{op} expects arguments {ordered}, got {sorted(val)}")
-    key = f"{op}(" + ",".join(str(val[a]) for a in ordered) + ")"
-    if key in facts:
-        bindings.append(key)
-        return True
-    return False
+
+    variables = {a: val[a] for a in ordered if is_variable(val[a])}
+    if not variables:
+        key = f"{op}(" + ",".join(str(val[a]) for a in ordered) + ")"
+        return [Solution((), (key,))] if key in facts else []
+
+    # Enumerate the facts of this predicate that match every literal argument,
+    # binding the variables to whatever the chart actually produced.
+    out = []
+    for f in facts.by_predicate(op):
+        assignment = {}
+        ok = True
+        for a in ordered:
+            want = val[a]
+            got = f.args.get(a)
+            if is_variable(want):
+                assignment[want] = got
+            elif str(want) != str(got):
+                ok = False
+                break
+        if ok:
+            out.append(Solution(
+                tuple(sorted((k, str(v)) for k, v in assignment.items())),
+                (f.key,)))
+    return _dedupe(out)
 
 
 def build_predicate_index(cards: list[RuleCard]) -> dict[str, list[str]]:
@@ -256,6 +360,13 @@ def build_predicate_index(cards: list[RuleCard]) -> dict[str, list[str]]:
 
 
 def _leaf_keys(node: Any) -> set[str]:
+    """Index keys for a condition.
+
+    A leaf with no variables indexes on its exact fact key. A leaf that
+    quantifies cannot -- it has no single key -- so it indexes on its predicate
+    under a wildcard, and any chart producing that predicate makes the card a
+    candidate. Candidate generation only; the full condition is still evaluated.
+    """
     keys: set[str] = set()
     if isinstance(node, dict):
         for k, v in node.items():
@@ -267,5 +378,8 @@ def _leaf_keys(node: Any) -> set[str]:
             elif k in VOCABULARY:
                 ordered = VOCABULARY[k]
                 if set(v) == set(ordered):
-                    keys.add(f"{k}(" + ",".join(str(v[a]) for a in ordered) + ")")
+                    if any(is_variable(v[a]) for a in ordered):
+                        keys.add(f"{k}:*")
+                    else:
+                        keys.add(f"{k}(" + ",".join(str(v[a]) for a in ordered) + ")")
     return keys

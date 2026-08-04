@@ -155,8 +155,14 @@
         "all": [
           {
             "lord_of_house": {
-              "graha": "any",
+              "graha": "?g",
               "house": 7
+            }
+          },
+          {
+            "in_house": {
+              "graha": "?g",
+              "house": 5
             }
           }
         ]
@@ -175,13 +181,8 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
-      "exclusions": [],
-      "requires": [
-        "dep.lord-of-house",
-        "dep.condition-variables"
-      ]
+      "note": "The variable binds the same graha across both leaves, which is the whole content of the rule: not any lord and any placement, but the lord of the 7th in the 5th.",
+      "exclusions": []
     },
     {
       "id": "PD.10.Lord5Or8.In7",
@@ -208,16 +209,36 @@
       "conditions": {
         "any": [
           {
-            "lord_of_house": {
-              "graha": "any",
-              "house": 5
-            }
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g",
+                  "house": 5
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g",
+                  "house": 7
+                }
+              }
+            ]
           },
           {
-            "lord_of_house": {
-              "graha": "any",
-              "house": 8
-            }
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?h",
+                  "house": 8
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?h",
+                  "house": 7
+                }
+              }
+            ]
           }
         ]
       },
@@ -235,13 +256,8 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
-      "exclusions": [],
-      "requires": [
-        "dep.lord-of-house",
-        "dep.condition-variables"
-      ]
+      "note": "Two independent lordships, each bound separately.",
+      "exclusions": []
     },
     {
       "id": "PD.10.WeakMoon5.Malefics",
@@ -1118,8 +1134,20 @@
         "all": [
           {
             "lord_of_house": {
-              "graha": "any",
+              "graha": "?g",
               "house": 7
+            }
+          },
+          {
+            "in_sign_class": {
+              "graha": "?g",
+              "klass": "Dual"
+            }
+          },
+          {
+            "in_sign_class": {
+              "graha": "Venus",
+              "klass": "Dual"
             }
           }
         ]
@@ -1138,14 +1166,9 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
-      "exclusions": [],
-      "requires": [
-        "dep.lord-of-house",
-        "dep.condition-variables",
-        "dep.sign-class",
-        "dep.varga"
+      "note": "The verse offers 'a dual sign or amsa'. Only the sign branch is tested, so the card is sound but not complete: it fires when the rule certainly holds and stays silent when it might hold by navamsa. Under-firing, never over-firing.",
+      "exclusions": [
+        "the navamsa branch of 'dual sign or amsa' is not tested"
       ]
     },
     {

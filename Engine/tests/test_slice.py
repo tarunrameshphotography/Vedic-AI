@@ -330,13 +330,14 @@ def test_unknown_predicate_is_inert_never_true():
 def test_slice_runs_and_verifies():
     r = run(DEMO)
     assert r.verification.ok
-    # Nine bodies, each matching one placement card, plus one card keyed on the
-    # ascendant's sign. This number tracks the rule store: it must change when
-    # doctrine is added, and never on its own.
-    assert r.verification.checks["claims"] == 10
+    # Nine bodies each matching a placement card, one keyed on the ascendant's
+    # sign, and five from quantified cards released by condition variables.
+    # This number tracks the rule store: it must change when doctrine is added,
+    # and never on its own.
+    assert r.verification.checks["claims"] == 15
     for k in ("quote_integrity_passed", "conditions_reevaluated_passed",
               "numeric_grounding_passed"):
-        assert r.verification.checks[k] == 10
+        assert r.verification.checks[k] == 15
 
 
 def test_every_claim_has_all_four_provenance_links():
@@ -360,7 +361,7 @@ def test_quoted_output_adds_no_words():
     r = run(DEMO)
     by_id = {c.claim_id: c for c in r.claims}
     rules = [s for s in r.sentences if s.part == "rules"]
-    assert len(rules) == 10
+    assert len(rules) == 15
     for s in rules:
         assert s.text == by_id[s.claim_ids[0]].passage["quote_display"]
 

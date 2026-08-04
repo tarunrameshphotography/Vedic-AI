@@ -506,7 +506,7 @@
         "all": [
           {
             "in_house": {
-              "graha": "any",
+              "graha": "?g",
               "house": 1
             }
           }
@@ -526,12 +526,8 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "Universally quantified over the grahas. It is what makes the descriptions of vv. 8-14 predictive rather than ornamental.",
-      "exclusions": [],
-      "requires": [
-        "dep.condition-variables"
-      ]
+      "note": "Quantified over the grahas: one claim per graha in the lagna.",
+      "exclusions": []
     },
     {
       "id": "PD.02.LagnaEmpty.LordGivesQualities",
@@ -558,8 +554,16 @@
       "conditions": {
         "all": [
           {
+            "not": {
+              "in_house": {
+                "graha": "?x",
+                "house": 1
+              }
+            }
+          },
+          {
             "lord_of_house": {
-              "graha": "any",
+              "graha": "?g",
               "house": 1
             }
           }
@@ -579,13 +583,8 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "The fallback when the lagna is empty. Needs lordship, and the emptiness test itself is a quantification over occupants.",
-      "exclusions": [],
-      "requires": [
-        "dep.lord-of-house",
-        "dep.condition-variables"
-      ]
+      "note": "The emptiness test is a negated existential over the occupants of the lagna; the lord comes from the lordship table. Both are now expressible, so the card states exactly what the verse states.",
+      "exclusions": []
     },
     {
       "id": "PD.02.LagnaAspect.InjectsQualities",
@@ -613,8 +612,8 @@
         "all": [
           {
             "aspects": {
-              "graha": "any",
-              "target": "1"
+              "graha": "?g",
+              "target": 1
             }
           }
         ]
@@ -633,13 +632,8 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "Universally quantified over the grahas, and keyed on an aspect to the lagna, which the engine cannot compute.",
-      "exclusions": [],
-      "requires": [
-        "dep.aspects",
-        "dep.condition-variables"
-      ]
+      "note": "Full drishti onto the lagna, one claim per aspecting graha.",
+      "exclusions": []
     },
     {
       "id": "PD.02.Disease.FollowsTemperament",

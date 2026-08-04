@@ -6,15 +6,15 @@ Nothing may be silently deferred. Inert cards are read out of the store, deferre
 
 | | |
 |---|---|
-| Backlog entries | **91** |
-| — of kind `card` | 49 |
+| Backlog entries | **80** |
+| — of kind `card` | 38 |
 | — of kind `passage` | 18 |
 | — of kind `chapter` | 23 |
 | — of kind `concept` | 1 |
 | Resolved | 0 |
 | Cards in store | 344 |
-| Firing | 295 |
-| Inert | 49 |
+| Firing | 306 |
+| Inert | 38 |
 
 ## Dependencies
 
@@ -22,19 +22,19 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 
 | Dependency | Kind | Implemented | Entries blocked | Cards blocked | Phase |
 |---|---|---|---|---|---|
-| `dep.condition-variables` — variables in the condition language | schema | no | 27 | 27 | 4 (integration) |
 | `dep.none` — no dependency -- simply not yet done | process | yes | 27 | 0 | 3 (knowledge) |
-| `dep.lord-of-house` — lord_of_house extractor | predicate | yes | 22 | 20 | 2 (engine completion) |
+| `dep.lord-of-house` — lord_of_house extractor | predicate | yes | 18 | 16 | 2 (engine completion) |
+| `dep.condition-variables` — variables in the condition language | schema | yes | 16 | 16 | 4 (integration) |
 | `dep.nature` — benefic/malefic classification | calculator | no | 16 | 16 | 3 (knowledge) |
-| `dep.aspects` — aspect engine | predicate | yes | 13 | 12 | 2 (engine completion) |
-| `dep.dignity` — dignity extractor | predicate | yes | 12 | 12 | 2 (engine completion) |
-| `dep.dasa` — vimshottari dasa engine | calculator | no | 9 | 6 | 2 (engine completion) |
+| `dep.aspects` — aspect engine | predicate | yes | 12 | 11 | 2 (engine completion) |
+| `dep.dignity` — dignity extractor | predicate | yes | 8 | 8 | 2 (engine completion) |
 | `dep.adjudication` — Stage 7 adjudication | engine | no | 7 | 1 | 4 (integration) |
 | `dep.strength` — planetary and house strength (Stage 4) | calculator | no | 7 | 7 | 2 (engine completion) |
-| `dep.varga` — varga (divisional chart) engine | calculator | no | 6 | 6 | 2 (engine completion) |
+| `dep.dasa` — vimshottari dasa engine | calculator | no | 6 | 3 | 2 (engine completion) |
 | `dep.dignity-friendship` — natural friendship (the unresolved half of dignity) | reference | no | 5 | 5 | 3 (knowledge) |
-| `dep.combust` — combustion extractor | predicate | yes | 4 | 4 | 2 (engine completion) |
+| `dep.varga` — varga (divisional chart) engine | calculator | no | 5 | 5 | 2 (engine completion) |
 | `dep.transit` — transit (gochara) calculation | calculator | no | 4 | 3 | beyond the MVP |
+| `dep.combust` — combustion extractor | predicate | yes | 3 | 3 | 2 (engine completion) |
 | `dep.manual-verification` — human verification of the encoding | process | no | 3 | 2 | 3 (knowledge) |
 | `dep.native-sex` — the native's sex in the birth record | schema | yes | 3 | 1 | 2 (engine completion) |
 | `dep.nature-occupancy` — occupancy of a house by grahas of a given nature | predicate | no | 3 | 3 | 2 (engine completion) |
@@ -42,7 +42,6 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 | `dep.ashtakavarga` — ashtakavarga | calculator | no | 2 | 1 | 2 (engine completion) |
 | `dep.dignity-override` — dignity-override mechanism | schema | no | 2 | 2 | 4 (integration) |
 | `dep.second-nativity` — a second nativity | schema | no | 2 | 1 | beyond the MVP |
-| `dep.sign-class` — sign classification | reference | yes | 2 | 2 | 3 (knowledge) |
 | `dep.conjunct` — conjunction extractor | predicate | no | 1 | 0 | 2 (engine completion) |
 | `dep.graha-class` — graha classification | reference | yes | 1 | 1 | 3 (knowledge) |
 | `dep.graha-frame` — houses counted from a graha | schema | no | 1 | 1 | 4 (integration) |
@@ -51,6 +50,7 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 | `dep.multi-span-quote` — quotation across two spans | schema | yes | 1 | 0 | 4 (integration) |
 | `dep.prashna` — prashna (horary) branch | engine | no | 1 | 1 | beyond the MVP |
 | `dep.rule-transfer` — rule-transfer mechanism | schema | no | 1 | 1 | 4 (integration) |
+| `dep.sign-class` — sign classification | reference | yes | 1 | 1 | 3 (knowledge) |
 | `dep.upagraha` — upagraha computation | calculator | no | 1 | 0 | 2 (engine completion) |
 | `dep.vargottama` — vargottama extractor | predicate | no | 1 | 1 | 2 (engine completion) |
 | `dep.hemmed-between` — hemming (papakartari / subhakartari) extractor | predicate | no | 0 | 0 | 2 (engine completion) |
@@ -125,7 +125,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 |---|---|---|---|---|---|---|---|---|
 | `concept:manual-verification` | phaladeepika | 0 | the whole store | human sign-off that each card reads its verse correctly | Every card is machine-checked byte-exact against the corpus, but extraction.verified_by is null on all of them. The machine can prove a card quotes the book … | `dep.manual-verification` | 3 (knowledge) | deferred |
 
-### Rule cards recorded but not firing (49)
+### Rule cards recorded but not firing (38)
 
 | Entry | Book | Chapter | Locus | Deferred | Reason | Blocked on | Phase | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -135,33 +135,22 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `card:PD.02.Disease.FollowsTemperament` | phaladeepika | 2 | v. 7 (Notes) | disease_follows_the_graha_temperament | States how to read a disease off whichever graha caused it, but not which graha causes one. Needs the rule that identifies the cause before it can be applied. | `dep.condition-variables`, `dep.adjudication` | 4 (integration) | deferred |
 | `card:PD.02.Form.Mars.Youthful` | phaladeepika | 2 | v. 10 (Notes) | youthful_appearance | The Mars-in-lagna leaf is exact, but the rule is conditioned on a *strong* Mars and on lagna lordship, neither of which the engine can establish. | `dep.lord-of-house`, `dep.strength` | 2 (engine completion) | deferred |
 | `card:PD.02.Friendship.NaturalTable` | phaladeepika | 2 | v. 21-22 | In these verses has been described the friendship, enmity and neutrali | A four-column table the scan interleaved past reconstruction. The row for the Sun reads 'Sun Moon, Mercury Venus Mars Saturn Jupiter': all six other grahas a… | `dep.manual-verification` | 3 (knowledge) | deferred |
-| `card:PD.02.LagnaAspect.InjectsQualities` | phaladeepika | 2 | v. 7 (Notes) | native_takes_the_aspecting_graha_qualities | Universally quantified over the grahas, and keyed on an aspect to the lagna, which the engine cannot compute. | `dep.aspects`, `dep.condition-variables` | 2 (engine completion) + 4 (integration) | deferred |
-| `card:PD.02.LagnaEmpty.LordGivesQualities` | phaladeepika | 2 | v. 7 (Notes) | native_takes_the_lagna_lord_qualities | The fallback when the lagna is empty. Needs lordship, and the emptiness test itself is a quantification over occupants. | `dep.lord-of-house`, `dep.condition-variables` | 2 (engine completion) + 4 (integration) | deferred |
-| `card:PD.02.LagnaGraha.BestowsQualities` | phaladeepika | 2 | v. 7 (Notes) | native_takes_the_graha_qualities | Universally quantified over the grahas. It is what makes the descriptions of vv. 8-14 predictive rather than ornamental. | `dep.condition-variables` | 4 (integration) | deferred |
 | `card:PD.02.Prashna.ReservoirWater` | phaladeepika | 2 | v. 36 | water_increases | A horary rule: it reads the chart of the moment a question is asked, not a nativity. Its condition is exactly expressible and would fire on a birth chart, wh… | `dep.prashna` | beyond the MVP | deferred |
-| `card:PD.09.Combust` | phaladeepika | 9 | v. 19 | If a planet be combust (eclipsed by the Sun's rays), the native will d | Universally quantified over the grahas. | `dep.combust`, `dep.condition-variables`, `dep.dasa` | 2 (engine completion) + 4 (integration) | deferred |
-| `card:PD.09.Dignity.Debilitated` | phaladeepika | 9 | v. 18 | If a planet occupies his sign of debilitation in a nativity, the perso | Universally quantified over the grahas. `graha: "any"` is a sentinel, not a body, and matches no fact key. | `dep.dignity`, `dep.condition-variables`, `dep.dasa` | 2 (engine completion) + 4 (integration) | deferred |
-| `card:PD.09.Dignity.Exalted` | phaladeepika | 9 | v. 14 | If at a birth a planet be in his sign of exaltation, the person concer | Universally quantified over the grahas. `graha: "any"` is a sentinel, not a body, and matches no fact key. | `dep.dignity`, `dep.condition-variables` | 2 (engine completion) + 4 (integration) | deferred |
-| `card:PD.09.Dignity.Exalted.Notes` | phaladeepika | 9 | v. 14 (Notes) | Notes - Our view is that with exaltation of one planet in a birth char | Dr. G. S. Kapoor (translator) contradicting Mantreswara's verse 14: exaltation alone does not deliver the verse's effect. Recorded as a separate tier-2 card … | `dep.dignity`, `dep.condition-variables` | 2 (engine completion) + 4 (integration) | deferred |
 | `card:PD.09.Dignity.Friend` | phaladeepika | 9 | v. 16 | When a planet happens to be in the house of a friend at birth, the per | Universally quantified over the grahas. `graha: "any"` is a sentinel, not a body, and matches no fact key. | `dep.dignity`, `dep.condition-variables`, `dep.dignity-friendship` | 2 (engine completion) + 3 (knowledge) + 4 (integration) | deferred |
 | `card:PD.09.Dignity.Inimical` | phaladeepika | 9 | v. 17 | If a planet gets posited in an inimical sign, the person born will hav | Universally quantified over the grahas. `graha: "any"` is a sentinel, not a body, and matches no fact key. | `dep.dignity`, `dep.condition-variables`, `dep.dasa`, `dep.dignity-friendship` | 2 (engine completion) + 3 (knowledge) + 4 (integration) | deferred |
 | `card:PD.09.Dignity.Neutral` | phaladeepika | 9 | v. 19 (unnumbered) | A planet posited in a netural sign will not produce any significant ef | Printed unnumbered after verse 19, as its own paragraph. | `dep.dignity`, `dep.condition-variables`, `dep.dignity-friendship` | 2 (engine completion) + 3 (knowledge) + 4 (integration) | deferred |
-| `card:PD.09.Dignity.OwnSign` | phaladeepika | 9 | v. 15 | Should a planet occupy his own sign in a birthchart, the native will d | Universally quantified over the grahas. `graha: "any"` is a sentinel, not a body, and matches no fact key. | `dep.dignity`, `dep.condition-variables`, `dep.dasa` | 2 (engine completion) + 4 (integration) | deferred |
 | `card:PD.09.MoonSign.Transfer` | phaladeepika | 9 | v. 13 | ascendant_effects_transfer_to_moon_sign | Universally quantified over the twelve signs and over the cards of verses 1-12. It states that PD.09.Lagna.<S> also holds when the Moon occupies <S>. The eng… | `dep.rule-transfer` | 4 (integration) | deferred |
 | `card:PD.09.Retrograde.AsExalted` | phaladeepika | 9 | v. 20 | treat_as_exalted | A modifier, not a claim: it overrides the dignity another rule is keyed on. `retrograde` is derivable, but only for a named graha. | `dep.dignity`, `dep.condition-variables`, `dep.dignity-override` | 2 (engine completion) + 4 (integration) | deferred |
 | `card:PD.09.Vargottama` | phaladeepika | 9 | v. 20 | treat_as_own_sign | Printed as the closing sentence of verse 20. | `dep.vargottama`, `dep.condition-variables`, `dep.dignity-override` | 2 (engine completion) + 4 (integration) | deferred |
 | `card:PD.10.Benefics.In7` | phaladeepika | 10 | v. 6 | good_effects | Carries a real exclusion: benefics in the 7th are good *unless* they own the 6th, 8th or 12th. Recorded in `exclusions`. | `dep.nature`, `dep.lord-of-house` | 2 (engine completion) + 3 (knowledge) | deferred |
 | `card:PD.10.Couple.BeneficAspect` | phaladeepika | 10 | v. 7 | good_luck_and_comforts | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.nature`, `dep.aspects` | 2 (engine completion) + 3 (knowledge) | deferred |
 | `card:PD.10.Houses5And7.Flourish` | phaladeepika | 10 | v. 1 | fruitful_if_benefic_supported | Stated from the lagna *or the Moon*; the engine has one frame only. | `dep.nature`, `dep.aspects`, `dep.lord-of-house`, `dep.moon-frame` | 2 (engine completion) + 3 (knowledge) + beyond the MVP | deferred |
-| `card:PD.10.Lord5Or8.In7` | phaladeepika | 10 | v. 2 | wife_does_not_survive | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.lord-of-house`, `dep.condition-variables` | 2 (engine completion) + 4 (integration) | deferred |
 | `card:PD.10.Lord7.BeneficStrong` | phaladeepika | 10 | v. 6 | good_character_and_bears_children | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.lord-of-house`, `dep.condition-variables`, `dep.nature`, `dep.strength` | 2 (engine completion) + 3 (knowledge) + 4 (integration) | deferred |
-| `card:PD.10.Lord7.In5` | phaladeepika | 10 | v. 2 | loss_of_wife_or_sonless | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.lord-of-house`, `dep.condition-variables` | 2 (engine completion) + 4 (integration) | deferred |
 | `card:PD.10.Lord7.MaleficInOwn7` | phaladeepika | 10 | v. 6 | good_wife | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.lord-of-house`, `dep.condition-variables`, `dep.nature` | 2 (engine completion) + 3 (knowledge) + 4 (integration) | deferred |
 | `card:PD.10.Marriage.Dasha7` | phaladeepika | 10 | v. 13 | timing_of_marriage | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.lord-of-house`, `dep.dasa`, `dep.aspects`, `dep.transit` | 2 (engine completion) + beyond the MVP | deferred |
 | `card:PD.10.Marriage.StrongerDasha` | phaladeepika | 10 | v. 14 | timing_of_marriage | The quote runs across a printed page break; the page anchor sits inside the span, as it does in the corpus. | `dep.lord-of-house`, `dep.condition-variables`, `dep.varga`, `dep.strength`, `dep.dasa`, `dep.transit` | 2 (engine completion) + 4 (integration) + beyond the MVP | deferred |
 | `card:PD.10.Marriage.TransitTrine` | phaladeepika | 10 | v. 12 | timing_of_marriage | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.lord-of-house`, `dep.transit`, `dep.varga` | 2 (engine completion) + beyond the MVP | deferred |
 | `card:PD.10.MarsSaturn.SeventhFromVenusMoon` | phaladeepika | 10 | v. 5 | wifeless_and_childless | The 7th *from Venus and the Moon*, not from the lagna. The condition shown uses the lagna frame and is therefore wrong for this verse; it must not fire. | `dep.graha-frame` | 4 (integration) | deferred |
-| `card:PD.10.TwoWives.DualSign` | phaladeepika | 10 | v. 5 | two_wives | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.lord-of-house`, `dep.condition-variables`, `dep.sign-class`, `dep.varga` | 2 (engine completion) + 3 (knowledge) + 4 (integration) | deferred |
 | `card:PD.10.TwoWives.Hermaphrodite7` | phaladeepika | 10 | v. 5 | two_wives | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.graha-class`, `dep.occupant-count` | 2 (engine completion) + 3 (knowledge) | deferred |
 | `card:PD.10.Venus.MaleficConjunct` | phaladeepika | 10 | v. 4 | loss_or_crippled_wife | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.nature` | 3 (knowledge) | deferred |
 | `card:PD.10.Venus.VargaMarsSaturn` | phaladeepika | 10 | v. 4 | illicit_relations | The quote runs across a printed page break; the page anchor sits inside the span, as it does in the corpus. | `dep.varga`, `dep.aspects` | 2 (engine completion) | deferred |

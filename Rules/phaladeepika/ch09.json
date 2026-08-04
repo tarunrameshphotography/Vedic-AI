@@ -646,7 +646,7 @@
         "all": [
           {
             "dignity": {
-              "graha": "any",
+              "graha": "?g",
               "dignity": "exalted"
             }
           }
@@ -666,13 +666,8 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "Universally quantified over the grahas. `graha: \"any\"` is a sentinel, not a body, and matches no fact key.",
-      "exclusions": [],
-      "requires": [
-        "dep.dignity",
-        "dep.condition-variables"
-      ]
+      "note": "One claim per exalted graha.",
+      "exclusions": []
     },
     {
       "id": "PD.09.Dignity.OwnSign",
@@ -700,7 +695,7 @@
         "all": [
           {
             "dignity": {
-              "graha": "any",
+              "graha": "?g",
               "dignity": "own"
             }
           }
@@ -720,14 +715,8 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "Universally quantified over the grahas. `graha: \"any\"` is a sentinel, not a body, and matches no fact key.",
-      "exclusions": [],
-      "requires": [
-        "dep.dignity",
-        "dep.condition-variables",
-        "dep.dasa"
-      ]
+      "note": "The condition is natal; the effect is dasa-timed and the quote says so in the reader's own view.",
+      "exclusions": []
     },
     {
       "id": "PD.09.Dignity.Friend",
@@ -866,7 +855,7 @@
         "all": [
           {
             "dignity": {
-              "graha": "any",
+              "graha": "?g",
               "dignity": "debilitated"
             }
           }
@@ -886,14 +875,8 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "Universally quantified over the grahas. `graha: \"any\"` is a sentinel, not a body, and matches no fact key.",
-      "exclusions": [],
-      "requires": [
-        "dep.dignity",
-        "dep.condition-variables",
-        "dep.dasa"
-      ]
+      "note": "The condition is natal; the effect is dasa-timed and the quote says so in the reader's own view.",
+      "exclusions": []
     },
     {
       "id": "PD.09.Dignity.Exalted.Notes",
@@ -921,7 +904,7 @@
         "all": [
           {
             "dignity": {
-              "graha": "any",
+              "graha": "?g",
               "dignity": "exalted"
             }
           }
@@ -943,13 +926,8 @@
         "verified_date": null
       },
       "kind": "commentary",
-      "activation": "inert",
-      "note": "Dr. G. S. Kapoor (translator) contradicting Mantreswara's verse 14: exaltation alone does not deliver the verse's effect. Recorded as a separate tier-2 card so both authorities stand independently.",
+      "note": "The translator's dissent from verse 14, activated on the same condition as the verse it contradicts, so a reader sees both.",
       "exclusions": [],
-      "requires": [
-        "dep.dignity",
-        "dep.condition-variables"
-      ],
       "contradicts": [
         "PD.09.Dignity.Exalted"
       ]
@@ -980,7 +958,7 @@
         "all": [
           {
             "combust": {
-              "graha": "any"
+              "graha": "?g"
             }
           }
         ]
@@ -999,14 +977,8 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "Universally quantified over the grahas.",
-      "exclusions": [],
-      "requires": [
-        "dep.combust",
-        "dep.condition-variables",
-        "dep.dasa"
-      ]
+      "note": "Combustion is computed from the orbs encoded at ch. 2 v. 36; the effect is dasa-timed and the quote says so.",
+      "exclusions": []
     },
     {
       "id": "PD.09.Dignity.Neutral",

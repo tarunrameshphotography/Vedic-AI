@@ -158,7 +158,10 @@ def synthesise(claims: list[Claim]) -> SynthesisResult:
     concentrations = tuple(
         Concentration(
             house=h,
-            bodies=tuple(_body_of(c) for c in cs),
+            # De-duplicated: several passages may speak about the same body in
+            # the same house, and listing it twice would read as two bodies.
+            # The claim ids below still carry one entry per passage.
+            bodies=tuple(dict.fromkeys(_body_of(c) for c in cs)),
             claim_ids=tuple(c.claim_id for c in cs),
         )
         for h, cs in sorted(by_house.items(), key=lambda kv: (-len(kv[1]), kv[0]))

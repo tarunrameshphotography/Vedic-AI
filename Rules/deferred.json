@@ -209,11 +209,12 @@
     "dep.condition-variables": {
       "title": "variables in the condition language",
       "kind": "schema",
-      "detail": "The verse names a role -- \"a planet\", \"the lord of the 7th\" -- not a graha. Every condition leaf today takes a literal. Without variables such a rule can only be approximated or instantiated nine times.",
+      "detail": "Named variables (`?g`) that bind the same value across the leaves of one condition, existential quantification over the grahas the FactSet contains, and negation as failure over a subexpression whose variables stay local. Deliberately not an expression language: no arithmetic, no comparison, and no binding to anything the chart did not produce. A quantified card yields one claim per satisfying binding, so the report names the graha instead of saying 'some planet'.",
       "phase": "4 (integration)",
       "depends_on": [],
       "effort": 5,
-      "effort_basis": "condition language, evaluator, binding trace, and Stage 9 re-evaluation"
+      "effort_basis": "condition language, evaluator, binding trace, and Stage 9 re-evaluation",
+      "implemented": true
     },
     "dep.multi-span-quote": {
       "title": "quotation across two spans",
