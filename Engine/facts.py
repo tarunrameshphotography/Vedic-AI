@@ -30,6 +30,11 @@ VOCABULARY: dict[str, tuple[str, ...]] = {
     "dignity": ("graha", "dignity"),
     "combust": ("graha",),
     "vargottama": ("graha",),
+    "lord_of_house": ("graha", "house"),
+    "conjunct": ("graha", "other"),
+    "aspects": ("graha", "target"),
+    "hemmed_between": ("graha", "nature"),
+    "in_varga_sign": ("graha", "varga", "sign"),
 }
 
 

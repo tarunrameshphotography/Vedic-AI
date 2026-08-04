@@ -60,6 +60,18 @@ def activate(
 
     for cid in sorted(candidates):
         card = by_id[cid]
+
+        # A card may be recorded ahead of the engine that could run it. Its
+        # conditions are then an approximation of what the passage says -- the
+        # closest the current predicate vocabulary can express -- and firing on
+        # them would assert more than the book does. `inert` is the author's
+        # declaration that this card is knowledge, not yet a rule, and it is
+        # honoured here rather than left to depend on a condition happening not
+        # to match.
+        if card.activation == "inert":
+            inert.append(f"{cid}: recorded but declared inert; does not fire")
+            continue
+
         ev = evaluate(card.conditions, facts)
         if ev.missing:
             inert.append(f"{cid}: unknown predicate(s) {list(ev.missing)}")

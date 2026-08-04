@@ -1,0 +1,2258 @@
+{
+  "book_id": "phaladeepika",
+  "chapter": 10,
+  "cards": [
+    {
+      "id": "PD.10.Houses5And7.Flourish",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "1",
+        "page_anchor": "phaladeepika/p0111",
+        "tier": 1,
+        "quote": "The 5th and 7th houses from the lagna or the Moon be flourished if they are associated with or aspected by benefics or their lords, if it is not so, they will not be fruitful.",
+        "quote_display": "The 5th and 7th houses from the lagna or the Moon be flourished if they are associated with or aspected by benefics or their lords, if it is not so, they will not be fruitful.",
+        "quote_sha256": "87774361b69671785478d8eb1390612972b0c7da458d3222dbd5daf821089fc4",
+        "char_span": [
+          216412,
+          216587
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "aspects": {
+              "graha": "any",
+              "target": "7"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "houses",
+        "houses": [
+          5,
+          7
+        ],
+        "effect": "fruitful_if_benefic_supported"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Stated from the lagna *or the Moon*; the engine has one frame only.",
+      "exclusions": [],
+      "requires": [
+        "benefic/malefic classification of the grahas",
+        "graha aspect calculation",
+        "lordship (which graha rules which house)",
+        "the Moon as an alternative reference frame"
+      ]
+    },
+    {
+      "id": "PD.10.WifeLoss.MaleficsOr",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "1",
+        "page_anchor": "phaladeepika/p0111",
+        "tier": 1,
+        "quote": "If there be malefics in the 12th, 4th and 8th houses or if Venus be hemmed in between two malefics or if Venus be associated or aspected by malefics the native will lose his wife (his wife will die).",
+        "quote_display": "If there be malefics in the 12th, 4th and 8th houses or if Venus be hemmed in between two malefics or if Venus be associated or aspected by malefics the native will lose his wife (his wife will die).",
+        "quote_sha256": "d8350fd95dfefe6c7b0e5f97be23d8d18427df47f4f066e4a61ffa266dece23a",
+        "char_span": [
+          216591,
+          216790
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "hemmed_between": {
+              "graha": "Venus",
+              "nature": "malefic"
+            }
+          },
+          {
+            "conjunct": {
+              "graha": "Venus",
+              "other": "malefic"
+            }
+          },
+          {
+            "aspects": {
+              "graha": "malefic",
+              "target": "Venus"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "wife",
+        "effect": "death_of_wife"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Three alternative conditions; the first — malefics in the 12th, 4th and 8th — is not expressible at all and is omitted from the condition rather than approximated.",
+      "exclusions": [],
+      "requires": [
+        "benefic/malefic classification of the grahas",
+        "graha aspect calculation",
+        "malefic occupancy of a named house"
+      ]
+    },
+    {
+      "id": "PD.10.Lord7.In5",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "2",
+        "page_anchor": "phaladeepika/p0111",
+        "tier": 1,
+        "quote": "If the lord of the 7th house occupies the 5th, the native will lose his wife or he will become sonless.",
+        "quote_display": "If the lord of the 7th house occupies the 5th, the native will lose his wife or he will become sonless.",
+        "quote_sha256": "2ddc6524321c47d2b02ea8858a7c041bd39c75156fbc4a19a7ff7dc6feac29c2",
+        "char_span": [
+          216797,
+          216900
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "any",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "wife",
+        "effect": "loss_of_wife_or_sonless"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "exclusions": [],
+      "requires": [
+        "lordship (which graha rules which house)",
+        "condition variables (the verse names a role, not a graha)"
+      ]
+    },
+    {
+      "id": "PD.10.Lord5Or8.In7",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "2",
+        "page_anchor": "phaladeepika/p0111",
+        "tier": 1,
+        "quote": "If the lord of the 5th or the 8th be in the 7th, the wife of the native does not survive.",
+        "quote_display": "If the lord of the 5th or the 8th be in the 7th, the wife of the native does not survive.",
+        "quote_sha256": "976535791fe1beba7d19f8153063f100df0b742340aff56c1fc10b6b4a479b59",
+        "char_span": [
+          216901,
+          216990
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "lord_of_house": {
+              "graha": "any",
+              "house": 5
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "any",
+              "house": 8
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "wife",
+        "effect": "wife_does_not_survive"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "exclusions": [],
+      "requires": [
+        "lordship (which graha rules which house)",
+        "condition variables (the verse names a role, not a graha)"
+      ]
+    },
+    {
+      "id": "PD.10.WeakMoon5.Malefics",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "2",
+        "page_anchor": "phaladeepika/p0111",
+        "tier": 1,
+        "quote": "If the weak Moon be in the 5th and the malefics occupy the Ascendant, 7th and 12th houses the person concerned will be without wife and children.",
+        "quote_display": "If the weak Moon be in the 5th and the malefics occupy the Ascendant, 7th and 12th houses the person concerned will be without wife and children.",
+        "quote_sha256": "8749513c4801b1808de5de39852619aabf57ffbc4870716a7d8e083c3c635368",
+        "char_span": [
+          216991,
+          217136
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Moon",
+              "house": 5
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "native",
+        "effect": "without_wife_and_children"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "The Moon-in-5th leaf is exact; 'weak' and the malefic occupancy of three houses are not expressible, so the card must not fire on the placement alone.",
+      "exclusions": [],
+      "requires": [
+        "benefic/malefic classification of the grahas",
+        "planetary strength (Stage 4)",
+        "malefic occupancy of the 1st, 7th and 12th"
+      ]
+    },
+    {
+      "id": "PD.10.SunRahu.In7",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "2",
+        "page_anchor": "phaladeepika/p0111",
+        "tier": 1,
+        "quote": "If the Sun and Rahu occupy the 7th house, the native will suffer loss of wealth through association with women.",
+        "quote_display": "If the Sun and Rahu occupy the 7th house, the native will suffer loss of wealth through association with women.",
+        "quote_sha256": "eb064047f0650543eae826d62b90bfb02c028c56bbb63fdd6e6d298c1ed2027b",
+        "char_span": [
+          217137,
+          217248
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Sun",
+              "house": 7
+            }
+          },
+          {
+            "in_house": {
+              "graha": "Rahu",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "wealth",
+        "subject": "native",
+        "effect": "loss_of_wealth_through_women"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.10.WifeLoss.List",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "3",
+        "page_anchor": "phaladeepika/p0111",
+        "tier": 1,
+        "quote": "The native loses his wife if there are any of the following disposition of planets present at brith:—",
+        "quote_display": "The native loses his wife if there are any of the following disposition of planets present at brith:—",
+        "quote_sha256": "8be789dda19a0c2cdc26a44d3bb3a9e3f93b63c11d22af286b1b1e744a3000e9",
+        "char_span": [
+          217255,
+          217356
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "any",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "wife",
+        "effect": "loss_of_wife"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "protasis",
+      "activation": "inert",
+      "note": "The governing sentence of verses 3(a)-(e). Recorded so the five cards below have something to point at; it asserts nothing alone.",
+      "exclusions": [],
+      "requires": [
+        "multi-span quotation: this sentence states the effect for the five dispositions printed beneath it, each a separate paragraph"
+      ]
+    },
+    {
+      "id": "PD.10.WifeLoss.VenusScorpio7",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "3 (a)",
+        "page_anchor": "phaladeepika/p0111",
+        "tier": 1,
+        "quote": "(a) Venus in Scorpio in the 7th house.",
+        "quote_display": "(a) Venus in Scorpio in the 7th house.",
+        "quote_sha256": "8c29652ad1dc32e610dd99ed80f93509aab1d44caf41f27e85fb68b4e5300a06",
+        "char_span": [
+          217360,
+          217398
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_sign": {
+              "graha": "Venus",
+              "sign": "Scorpio"
+            }
+          },
+          {
+            "in_house": {
+              "graha": "Venus",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "wife",
+        "effect": "loss_of_wife"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "The condition is exact and would fire correctly, but the quoted words state only the disposition. Firing it would put a bare condition in the report as though it were a prediction, so it waits for quotation across two spans.",
+      "exclusions": [],
+      "requires": [
+        "multi-span quotation: the effect is printed in the governing sentence above, not in this paragraph"
+      ],
+      "extends": [
+        "PD.10.WifeLoss.List"
+      ]
+    },
+    {
+      "id": "PD.10.WifeLoss.MercuryTaurus7",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "3 (b)",
+        "page_anchor": "phaladeepika/p0111",
+        "tier": 1,
+        "quote": "(b) Mercury in Taurus in the 7th house.",
+        "quote_display": "(b) Mercury in Taurus in the 7th house.",
+        "quote_sha256": "ce107ae124eda4165087e5329632e565c25034b86743e4d653ea1e7c53897224",
+        "char_span": [
+          217402,
+          217441
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_sign": {
+              "graha": "Mercury",
+              "sign": "Taurus"
+            }
+          },
+          {
+            "in_house": {
+              "graha": "Mercury",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "wife",
+        "effect": "loss_of_wife"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "The condition is exact and would fire correctly, but the quoted words state only the disposition. Firing it would put a bare condition in the report as though it were a prediction, so it waits for quotation across two spans.",
+      "exclusions": [],
+      "requires": [
+        "multi-span quotation: the effect is printed in the governing sentence above, not in this paragraph"
+      ],
+      "extends": [
+        "PD.10.WifeLoss.List"
+      ]
+    },
+    {
+      "id": "PD.10.WifeLoss.JupiterCapricorn7",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "3 (c)",
+        "page_anchor": "phaladeepika/p0111",
+        "tier": 1,
+        "quote": "(c) Jupiter in Capricorn in the 7th house.",
+        "quote_display": "(c) Jupiter in Capricorn in the 7th house.",
+        "quote_sha256": "6d645b028021018d94a32c9362792c83549793a3cb8936d4369979c2d076ba34",
+        "char_span": [
+          217445,
+          217487
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_sign": {
+              "graha": "Jupiter",
+              "sign": "Capricorn"
+            }
+          },
+          {
+            "in_house": {
+              "graha": "Jupiter",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "wife",
+        "effect": "loss_of_wife"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "The condition is exact and would fire correctly, but the quoted words state only the disposition. Firing it would put a bare condition in the report as though it were a prediction, so it waits for quotation across two spans.",
+      "exclusions": [],
+      "requires": [
+        "multi-span quotation: the effect is printed in the governing sentence above, not in this paragraph"
+      ],
+      "extends": [
+        "PD.10.WifeLoss.List"
+      ]
+    },
+    {
+      "id": "PD.10.WifeLoss.SaturnPisces7",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "3 (d)",
+        "page_anchor": "phaladeepika/p0111",
+        "tier": 1,
+        "quote": "(d) Saturn in Pisces in the 7th house.",
+        "quote_display": "(d) Saturn in Pisces in the 7th house.",
+        "quote_sha256": "d2aa8291c3c922886f4d9f07f6c86cc1bcef67d73cf4aeab1f8fc95905b0e8e9",
+        "char_span": [
+          217491,
+          217529
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_sign": {
+              "graha": "Saturn",
+              "sign": "Pisces"
+            }
+          },
+          {
+            "in_house": {
+              "graha": "Saturn",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "wife",
+        "effect": "loss_of_wife"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "The condition is exact and would fire correctly, but the quoted words state only the disposition. Firing it would put a bare condition in the report as though it were a prediction, so it waits for quotation across two spans.",
+      "exclusions": [],
+      "requires": [
+        "multi-span quotation: the effect is printed in the governing sentence above, not in this paragraph"
+      ],
+      "extends": [
+        "PD.10.WifeLoss.List"
+      ]
+    },
+    {
+      "id": "PD.10.WifeLoss.MarsPisces7",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "3 (e)",
+        "page_anchor": "phaladeepika/p0111",
+        "tier": 1,
+        "quote": "(e) Mars in Pisces in the 7th house.",
+        "quote_display": "(e) Mars in Pisces in the 7th house.",
+        "quote_sha256": "1ae19e03ba4c6e1c3008661944053698c3fb446eb57e2e6eb0c14f3d192d2fa4",
+        "char_span": [
+          217533,
+          217569
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_sign": {
+              "graha": "Mars",
+              "sign": "Pisces"
+            }
+          },
+          {
+            "in_house": {
+              "graha": "Mars",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "wife",
+        "effect": "loss_of_wife"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "The condition is exact and would fire correctly, but the quoted words state only the disposition. Firing it would put a bare condition in the report as though it were a prediction, so it waits for quotation across two spans.",
+      "exclusions": [],
+      "requires": [
+        "multi-span quotation: the effect is printed in the governing sentence above, not in this paragraph"
+      ],
+      "extends": [
+        "PD.10.WifeLoss.List"
+      ]
+    },
+    {
+      "id": "PD.10.MarsSaturn.Cancer7",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "3",
+        "page_anchor": "phaladeepika/p0111",
+        "tier": 1,
+        "quote": "However, if Mars and Saturn occupy the 7th house identical with Cancer the native will be blessed with a wife who is beautiful and of good character.",
+        "quote_display": "However, if Mars and Saturn occupy the 7th house identical with Cancer the native will be blessed with a wife who is beautiful and of good character.",
+        "quote_sha256": "8ef1609ab8db7f3b32bd5d7b9a9a92a3648134cb03b3d0be10bcefa13724846b",
+        "char_span": [
+          217573,
+          217722
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mars",
+              "house": 7
+            }
+          },
+          {
+            "in_house": {
+              "graha": "Saturn",
+              "house": 7
+            }
+          },
+          {
+            "in_sign": {
+              "graha": "Mars",
+              "sign": "Cancer"
+            }
+          },
+          {
+            "in_sign": {
+              "graha": "Saturn",
+              "sign": "Cancer"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "wife",
+        "effect": "beautiful_and_of_good_character"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.10.WifeDeprived.Lord7Afflicted",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "4",
+        "page_anchor": "phaladeepika/p0111",
+        "tier": 1,
+        "quote": "The native is deprived of his wife if the 7th house or its lord be associated with or aspected by malefics, hemmed in beetween malefics, be in his sign of debilition or an inimical sign or be eclipsed by the Sun's rays.",
+        "quote_display": "The native is deprived of his wife if the 7th house or its lord be associated with or aspected by malefics, hemmed in beetween malefics, be in his sign of debilition or an inimical sign or be eclipsed by the Sun's rays.",
+        "quote_sha256": "1b0237a9f298cfe69503333583874b5c7ad370d0b652f109913c81c1257a8c3f",
+        "char_span": [
+          217729,
+          217948
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "dignity": {
+              "graha": "any",
+              "dignity": "debilitated"
+            }
+          },
+          {
+            "dignity": {
+              "graha": "any",
+              "dignity": "inimical"
+            }
+          },
+          {
+            "combust": {
+              "graha": "any"
+            }
+          },
+          {
+            "hemmed_between": {
+              "graha": "any",
+              "nature": "malefic"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "wife",
+        "effect": "deprived_of_wife"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "exclusions": [],
+      "requires": [
+        "lordship (which graha rules which house)",
+        "condition variables (the verse names a role, not a graha)",
+        "benefic/malefic classification of the grahas",
+        "graha aspect calculation"
+      ]
+    },
+    {
+      "id": "PD.10.Venus.MaleficConjunct",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "4",
+        "page_anchor": "phaladeepika/p0111",
+        "tier": 1,
+        "quote": "The native will lose his wife or will have a crippled wife, when Venus in conjunction with malefic occupies the 7th, 5th or 9th house.",
+        "quote_display": "The native will lose his wife or will have a crippled wife, when Venus in conjunction with malefic occupies the 7th, 5th or 9th house.",
+        "quote_sha256": "eca15b18446d706d7523a0ff211a3193d7b35a0ee73fba506dd7d166a9e27ee4",
+        "char_span": [
+          217952,
+          218086
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "conjunct": {
+              "graha": "Venus",
+              "other": "malefic"
+            }
+          },
+          {
+            "any": [
+              {
+                "in_house": {
+                  "graha": "Venus",
+                  "house": 7
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "Venus",
+                  "house": 5
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "Venus",
+                  "house": 9
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "wife",
+        "effect": "loss_or_crippled_wife"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "exclusions": [],
+      "requires": [
+        "benefic/malefic classification of the grahas"
+      ]
+    },
+    {
+      "id": "PD.10.Venus.VargaMarsSaturn",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "4",
+        "page_anchor": "phaladeepika/p0111",
+        "tier": 1,
+        "quote": "The native will have illicit relations with other people's wives if Venus be in\r\n\r\n<!-- page phaladeepika/p0112 -->\r\nthe Varga of Mars or Saturn or be aspected by these planets.",
+        "quote_display": "The native will have illicit relations with other people's wives if Venus be in the Varga of Mars or Saturn or be aspected by these planets.",
+        "quote_sha256": "38eabb43fca575a1270a73c13c34fff3af6176540c25f6c848a0cabf60fead54",
+        "char_span": [
+          218090,
+          218267
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "in_varga_sign": {
+              "graha": "Venus",
+              "varga": "D9",
+              "sign": "any"
+            }
+          },
+          {
+            "aspects": {
+              "graha": "Mars",
+              "target": "Venus"
+            }
+          },
+          {
+            "aspects": {
+              "graha": "Saturn",
+              "target": "Venus"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "native",
+        "effect": "illicit_relations"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "The quote runs across a printed page break; the page anchor sits inside the span, as it does in the corpus.",
+      "exclusions": [],
+      "requires": [
+        "divisional charts beyond D-1",
+        "graha aspect calculation"
+      ]
+    },
+    {
+      "id": "PD.10.MarsSaturn.SeventhFromVenusMoon",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "5",
+        "page_anchor": "phaladeepika/p0112",
+        "tier": 1,
+        "quote": "If Mars and Saturn be in the 7th from the Venus and Moon in any nativity, the person concerned will be wifeless and childless.",
+        "quote_display": "If Mars and Saturn be in the 7th from the Venus and Moon in any nativity, the person concerned will be wifeless and childless.",
+        "quote_sha256": "0fb8bbb0d2da714d8f8535701110d58751e7f3f3c0b3bd3c04c0c135b00f5cf8",
+        "char_span": [
+          218274,
+          218400
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mars",
+              "house": 7
+            }
+          },
+          {
+            "in_house": {
+              "graha": "Saturn",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "native",
+        "effect": "wifeless_and_childless"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "The 7th *from Venus and the Moon*, not from the lagna. The condition shown uses the lagna frame and is therefore wrong for this verse; it must not fire.",
+      "exclusions": [],
+      "requires": [
+        "houses counted from a graha rather than from the lagna"
+      ]
+    },
+    {
+      "id": "PD.10.TwoWives.Hermaphrodite7",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "5",
+        "page_anchor": "phaladeepika/p0112",
+        "tier": 1,
+        "quote": "If there be a hermaphrodite planet in the 7th house, and the 11th house is occupied by two planets, the person concerned will have two wives.",
+        "quote_display": "If there be a hermaphrodite planet in the 7th house, and the 11th house is occupied by two planets, the person concerned will have two wives.",
+        "quote_sha256": "b1f7960269c3e3efb50ed4739f9d590ab29aafb1813aaff54c95b9477a9ec12e",
+        "char_span": [
+          218404,
+          218545
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "any",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "native",
+        "effect": "two_wives"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "exclusions": [],
+      "requires": [
+        "hermaphrodite (napunsaka) classification of the grahas",
+        "occupant counting"
+      ]
+    },
+    {
+      "id": "PD.10.TwoWives.DualSign",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "5",
+        "page_anchor": "phaladeepika/p0112",
+        "tier": 1,
+        "quote": "A person will have two wives in the event of both the lord of the 7th and Venus being posited in a dual sign or amsa.",
+        "quote_display": "A person will have two wives in the event of both the lord of the 7th and Venus being posited in a dual sign or amsa.",
+        "quote_sha256": "fc9c5c1fa3cd6d8537e8135174236cc85a5397cf0bcea912950a093c3e8b5858",
+        "char_span": [
+          218549,
+          218666
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "any",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "native",
+        "effect": "two_wives"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "exclusions": [],
+      "requires": [
+        "lordship (which graha rules which house)",
+        "condition variables (the verse names a role, not a graha)",
+        "dual (dwiswabhava) sign classification",
+        "divisional charts beyond D-1"
+      ]
+    },
+    {
+      "id": "PD.10.WifeCount.Conjunctions",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "5",
+        "page_anchor": "phaladeepika/p0112",
+        "tier": 1,
+        "quote": "The number of wives should be generally ascertained from the number of planets that are in conjunction with the lord of 7th house and Venus.",
+        "quote_display": "The number of wives should be generally ascertained from the number of planets that are in conjunction with the lord of 7th house and Venus.",
+        "quote_sha256": "f7f4a8eec4d48eb9ed2dbd3edbd1a3c4904ab5db71b1784a82a90b3105c90628",
+        "char_span": [
+          218670,
+          218810
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "conjunct": {
+              "graha": "Venus",
+              "other": "any"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "native",
+        "effect": "number_of_wives"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "exclusions": [],
+      "requires": [
+        "lordship (which graha rules which house)",
+        "occupant counting"
+      ]
+    },
+    {
+      "id": "PD.10.WomenCount.PlanetsIn7",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0112",
+        "tier": 1,
+        "quote": "The native will associate with as many women as is the number of planets posited in the 7th house. The number of women, who will die, will be equal to the number of malefics, and the number of benefics will represent the number of women who will survive.",
+        "quote_display": "The native will associate with as many women as is the number of planets posited in the 7th house. The number of women, who will die, will be equal to the number of malefics, and the number of benefics will represent the number of women who will survive.",
+        "quote_sha256": "e24dfa793bb14227b854e667de3b930521803a46a501f39b8fb1c8999cbca3ef",
+        "char_span": [
+          218817,
+          219071
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "any",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "native",
+        "effect": "number_of_women"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "exclusions": [],
+      "requires": [
+        "occupant counting",
+        "benefic/malefic classification of the grahas"
+      ]
+    },
+    {
+      "id": "PD.10.Lord7.BeneficStrong",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0112",
+        "tier": 1,
+        "quote": "Should the lord of the 7th house be a benefic endowed will strength, the native will have a wife who will be of good character and will bear children.",
+        "quote_display": "Should the lord of the 7th house be a benefic endowed will strength, the native will have a wife who will be of good character and will bear children.",
+        "quote_sha256": "b5e6e5766fcfb327b8bc2acdd93281e4e1720f3147777ee5d4244d869e85d189",
+        "char_span": [
+          219075,
+          219225
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "any",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "wife",
+        "effect": "good_character_and_bears_children"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "exclusions": [],
+      "requires": [
+        "lordship (which graha rules which house)",
+        "condition variables (the verse names a role, not a graha)",
+        "benefic/malefic classification of the grahas",
+        "planetary strength (Stage 4)"
+      ]
+    },
+    {
+      "id": "PD.10.Lord7.MaleficInOwn7",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0112",
+        "tier": 1,
+        "quote": "Even a malefic if he being lord of 7th be posited in the 7th will bless the native with a good wife.",
+        "quote_display": "Even a malefic if he being lord of 7th be posited in the 7th will bless the native with a good wife.",
+        "quote_sha256": "e6188dad263df99be8c5f281555733907aa5f9ae8e2ef6e170b1e984068ac707",
+        "char_span": [
+          219229,
+          219329
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "any",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "wife",
+        "effect": "good_wife"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "exclusions": [],
+      "requires": [
+        "lordship (which graha rules which house)",
+        "condition variables (the verse names a role, not a graha)",
+        "benefic/malefic classification of the grahas"
+      ]
+    },
+    {
+      "id": "PD.10.Benefics.In7",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0112",
+        "tier": 1,
+        "quote": "Benefics in the 7th house will produce good effects unless they happen to be lords of the 6th, 8th or 12th house.",
+        "quote_display": "Benefics in the 7th house will produce good effects unless they happen to be lords of the 6th, 8th or 12th house.",
+        "quote_sha256": "3c465954ec5a3cea94d36e123ceb1a8ddaf21bfa576845158f0e5d8e76404ddf",
+        "char_span": [
+          219333,
+          219446
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "any",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "native",
+        "effect": "good_effects"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Carries a real exclusion: benefics in the 7th are good *unless* they own the 6th, 8th or 12th. Recorded in `exclusions`.",
+      "exclusions": [
+        "the benefic is lord of the 6th, 8th or 12th house"
+      ],
+      "requires": [
+        "benefic/malefic classification of the grahas",
+        "lordship (which graha rules which house)"
+      ]
+    },
+    {
+      "id": "PD.10.WifeLoss.Houses2And7Afflicted",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "7",
+        "page_anchor": "phaladeepika/p0112",
+        "tier": 1,
+        "quote": "Loss of wife will result if the 2nd and 7th houses are associated with or aspected by malefics. The result will invariably be untoward in the case of malefic aspects.",
+        "quote_display": "Loss of wife will result if the 2nd and 7th houses are associated with or aspected by malefics. The result will invariably be untoward in the case of malefic aspects.",
+        "quote_sha256": "60f2831c340f00a40ca28780c9b436c6492c7c3e23251a1c3bdda527f2e17c95",
+        "char_span": [
+          219453,
+          219619
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "aspects": {
+              "graha": "malefic",
+              "target": "2"
+            }
+          },
+          {
+            "aspects": {
+              "graha": "malefic",
+              "target": "7"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "wife",
+        "effect": "loss_of_wife"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "exclusions": [],
+      "requires": [
+        "benefic/malefic classification of the grahas",
+        "graha aspect calculation"
+      ]
+    },
+    {
+      "id": "PD.10.WifeChart.Houses7And8",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "7",
+        "page_anchor": "phaladeepika/p0112",
+        "tier": 1,
+        "quote": "Similar results may be declared from the wife's nativity if the 7th and 8th houses are similarly afflicted.",
+        "quote_display": "Similar results may be declared from the wife's nativity if the 7th and 8th houses are similarly afflicted.",
+        "quote_sha256": "bf4e3bfcf35d254a9668f10b9a1730d707d42ed530c6cacca983ad1a3e45f429",
+        "char_span": [
+          219623,
+          219730
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "aspects": {
+              "graha": "malefic",
+              "target": "7"
+            }
+          },
+          {
+            "aspects": {
+              "graha": "malefic",
+              "target": "8"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "wife",
+        "effect": "same_from_wife_chart"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "exclusions": [],
+      "requires": [
+        "benefic/malefic classification of the grahas",
+        "graha aspect calculation",
+        "a second nativity (the wife's chart)"
+      ]
+    },
+    {
+      "id": "PD.10.Couple.BeneficAspect",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "7",
+        "page_anchor": "phaladeepika/p0112",
+        "tier": 1,
+        "quote": "But should the above two houses be associated with or aspected by benefics, the couple will enjoy good luck and comforts.",
+        "quote_display": "But should the above two houses be associated with or aspected by benefics, the couple will enjoy good luck and comforts.",
+        "quote_sha256": "29d63952b83b4ae1d4e494b356963c7bf8df2e8256dc9b92c24d58b5372d3271",
+        "char_span": [
+          219734,
+          219855
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "aspects": {
+              "graha": "benefic",
+              "target": "2"
+            }
+          },
+          {
+            "aspects": {
+              "graha": "benefic",
+              "target": "7"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "couple",
+        "effect": "good_luck_and_comforts"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "exclusions": [],
+      "requires": [
+        "benefic/malefic classification of the grahas",
+        "graha aspect calculation"
+      ]
+    },
+    {
+      "id": "PD.10.Female.MoonSaturn7Remarriage",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "8",
+        "page_anchor": "phaladeepika/p0112",
+        "tier": 1,
+        "quote": "If in a female's birth chart, the Moon and Saturn be together in the 7th house, the native marries again (after the first marriage).",
+        "quote_display": "If in a female's birth chart, the Moon and Saturn be together in the 7th house, the native marries again (after the first marriage).",
+        "quote_sha256": "3424545e0bee36b13261c1aba91f31845b5c9b3868c1140abc91acb9efbb115b",
+        "char_span": [
+          219862,
+          219994
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1",
+        "sex": "female"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Moon",
+              "house": 7
+            }
+          },
+          {
+            "in_house": {
+              "graha": "Saturn",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "native",
+        "effect": "remarriage"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "The condition is exactly expressible, but the verse applies only to a female nativity and the engine cannot tell. Firing it would assert a sex-specific rule for every chart.",
+      "exclusions": [],
+      "requires": [
+        "the native's sex, which the birth record does not carry"
+      ]
+    },
+    {
+      "id": "PD.10.Male.MoonSaturn7",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "8",
+        "page_anchor": "phaladeepika/p0112",
+        "tier": 1,
+        "quote": "If there be such a planetary disposition in man's nativity, he will be wifeless or childless.",
+        "quote_display": "If there be such a planetary disposition in man's nativity, he will be wifeless or childless.",
+        "quote_sha256": "f1e4564c13931c76328bc2ced6d93deec73189d81346ae9d7432bc5e21aa184c",
+        "char_span": [
+          219998,
+          220091
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1",
+        "sex": "male"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Moon",
+              "house": 7
+            }
+          },
+          {
+            "in_house": {
+              "graha": "Saturn",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "native",
+        "effect": "wifeless_or_childless"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "exclusions": [],
+      "requires": [
+        "the native's sex, which the birth record does not carry"
+      ]
+    },
+    {
+      "id": "PD.10.Widowhood.DebilitatedMalefics",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "8",
+        "page_anchor": "phaladeepika/p0113",
+        "tier": 1,
+        "quote": "If malefics in their signs of debilitation be posited in the 2nd, 7th and 8th, in female's nativity the disposition will make her a widow and in a man's chart, it will render him a widower.",
+        "quote_display": "If malefics in their signs of debilitation be posited in the 2nd, 7th and 8th, in female's nativity the disposition will make her a widow and in a man's chart, it will render him a widower.",
+        "quote_sha256": "1b87a041c8472ca7fa5a656f097f0e9df4a44734f7d16aa679528ab9321113ee",
+        "char_span": [
+          220129,
+          220318
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "dignity": {
+              "graha": "any",
+              "dignity": "debilitated"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "native",
+        "effect": "widow_or_widower"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "exclusions": [],
+      "requires": [
+        "the native's sex, which the birth record does not carry",
+        "benefic/malefic classification of the grahas",
+        "dignity fact extraction",
+        "malefic occupancy of the 2nd, 7th and 8th"
+      ]
+    },
+    {
+      "id": "PD.10.WifeChildren.EvenSigns",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "9",
+        "page_anchor": "phaladeepika/p0113",
+        "tier": 1,
+        "quote": "If the 7th house from the Ascendant be an even sign and the lord of the 7th and Venus be also posited in even signs, and if the lord of the 5th and 7th possessed of strength be not eclisped by Sun's rays, the native will be blessed with wife and children.",
+        "quote_display": "If the 7th house from the Ascendant be an even sign and the lord of the 7th and Venus be also posited in even signs, and if the lord of the 5th and 7th possessed of strength be not eclisped by Sun's rays, the native will be blessed with wife and children.",
+        "quote_sha256": "c932d2fd321862f3cced75978f59a60fd23c3b161622f8f418dbdf79e39a6dd9",
+        "char_span": [
+          220325,
+          220580
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "any",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "native",
+        "effect": "blessed_with_wife_and_children"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "exclusions": [],
+      "requires": [
+        "lordship (which graha rules which house)",
+        "condition variables (the verse names a role, not a graha)",
+        "planetary strength (Stage 4)",
+        "even/odd sign classification",
+        "combustion fact extraction"
+      ]
+    },
+    {
+      "id": "PD.10.WifeChildren.Lords2712",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "10",
+        "page_anchor": "phaladeepika/p0113",
+        "tier": 1,
+        "quote": "The native will be happy and will be blessed with wife and children, if the lords of the 2nd, 7th and 12th be posited in kendra or trikona aspected by Jupiter and there be benefics in the 2nd, 7th and 11th to the lord of the 7th wherever he may be.",
+        "quote_display": "The native will be happy and will be blessed with wife and children, if the lords of the 2nd, 7th and 12th be posited in kendra or trikona aspected by Jupiter and there be benefics in the 2nd, 7th and 11th to the lord of the 7th wherever he may be.",
+        "quote_sha256": "ff3808e9e773ca5cf9de829168cf5c144736a6ef407d299e80e74cd837eadeb9",
+        "char_span": [
+          220588,
+          220836
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "any",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "native",
+        "effect": "happy_with_wife_and_children"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "exclusions": [],
+      "requires": [
+        "lordship (which graha rules which house)",
+        "condition variables (the verse names a role, not a graha)",
+        "graha aspect calculation",
+        "benefic/malefic classification of the grahas",
+        "kendra/trikona house classification"
+      ]
+    },
+    {
+      "id": "PD.10.WifeRashi.Trine",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "11",
+        "page_anchor": "phaladeepika/p0113",
+        "tier": 1,
+        "quote": "Note the sign and navamsa in male s nativity. The signs in which the lords of the ascendant and 7th are posited, the Janma Rashi (Moon sign) of the wife will be triangular to such sign or navamsa, or it may be the exaltation or depression sign of the lords of the 1st and 7th or it be that sign which contains the largest number of benefic dots in the Moon's Ashtakavarga of the husband.",
+        "quote_display": "Note the sign and navamsa in male s nativity. The signs in which the lords of the ascendant and 7th are posited, the Janma Rashi (Moon sign) of the wife will be triangular to such sign or navamsa, or it may be the exaltation or depression sign of the lords of the 1st and 7th or it be that sign which contains the largest number of benefic dots in the Moon's Ashtakavarga of the husband.",
+        "quote_sha256": "758a39ce68da461eea540002936da613f0cc4dca7022c70352f477fcd7ac7140",
+        "char_span": [
+          220844,
+          221231
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1",
+        "sex": "male"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "any",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "wife",
+        "effect": "wife_moon_sign"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "exclusions": [],
+      "requires": [
+        "lordship (which graha rules which house)",
+        "condition variables (the verse names a role, not a graha)",
+        "divisional charts beyond D-1",
+        "ashtakavarga",
+        "dignity fact extraction"
+      ]
+    },
+    {
+      "id": "PD.10.WifeDirection.Strongest",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "12",
+        "page_anchor": "phaladeepika/p0113",
+        "tier": 1,
+        "quote": "The direction of the country of the wife will be indicated by the sign owned by the strongest of the three planets, namely (1) the planet posited in the 7th house, (2) the lord of the 7th house and (3) Venus.",
+        "quote_display": "The direction of the country of the wife will be indicated by the sign owned by the strongest of the three planets, namely (1) the planet posited in the 7th house, (2) the lord of the 7th house and (3) Venus.",
+        "quote_sha256": "ea4271c98bbad4b9cea5fe7ef56547a59550dad873d06986b4287e42a6e46d79",
+        "char_span": [
+          221239,
+          221447
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "any",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "wife",
+        "effect": "direction_of_wife_country"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "exclusions": [],
+      "requires": [
+        "lordship (which graha rules which house)",
+        "planetary strength (Stage 4)"
+      ]
+    },
+    {
+      "id": "PD.10.Marriage.TransitTrine",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "12",
+        "page_anchor": "phaladeepika/p0113",
+        "tier": 1,
+        "quote": "The marriage of the native should take place when the Venus or the lord of the 7th transits through a sign which is trine to the sign or navamsa occupied by the lord of the ascendant.",
+        "quote_display": "The marriage of the native should take place when the Venus or the lord of the 7th transits through a sign which is trine to the sign or navamsa occupied by the lord of the ascendant.",
+        "quote_sha256": "2639b7c8692e9e8d79114030ccfaf8000ff29827c7b2b37ecd5e9d0db1060f65",
+        "char_span": [
+          221451,
+          221634
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "any",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "native",
+        "effect": "timing_of_marriage",
+        "method": "transit_of_venus_or_lord_of_7th_through_a_trine"
+      },
+      "timing": "transit",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "exclusions": [],
+      "requires": [
+        "lordship (which graha rules which house)",
+        "transit calculation",
+        "divisional charts beyond D-1"
+      ]
+    },
+    {
+      "id": "PD.10.Marriage.Dasha7",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "13",
+        "page_anchor": "phaladeepika/p0113",
+        "tier": 1,
+        "quote": "The marriage is likely to take place during the dasha of the planet (1) occupying the 7th house, (2) which aspects the 7th house or (3) the lord of the 7th house. It can also take place when the lord of the ascendant transits through the sign representing the 7th house.",
+        "quote_display": "The marriage is likely to take place during the dasha of the planet (1) occupying the 7th house, (2) which aspects the 7th house or (3) the lord of the 7th house. It can also take place when the lord of the ascendant transits through the sign representing the 7th house.",
+        "quote_sha256": "88b0de401f3fd40d091631d18ab907d0f8526b80a83ae6cd42a1314667881d7c",
+        "char_span": [
+          221642,
+          221912
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "any",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "native",
+        "effect": "timing_of_marriage",
+        "method": "dasa_of_a_significator_of_the_7th"
+      },
+      "timing": "dasa",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "exclusions": [],
+      "requires": [
+        "lordship (which graha rules which house)",
+        "vimshottari dasa",
+        "graha aspect calculation",
+        "transit calculation"
+      ]
+    },
+    {
+      "id": "PD.10.Marriage.StrongerDasha",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "14",
+        "page_anchor": "phaladeepika/p0113",
+        "tier": 1,
+        "quote": "14. Find out who amongst (1) the lord of the sign in which lord of the 7th is posited and the lord of the navamsa which the lord of the 7th occupies and (2) Venus and Moon, is stronger. The marriage will take place in the dasha of this stronger planet when Jupiter in transit passes through the sign triangular to the sign\r\n\r\n<!-- page phaladeepika/p0114 -->\r\nor navamsa occupied by the lord of the 7th.",
+        "quote_display": "14. Find out who amongst (1) the lord of the sign in which lord of the 7th is posited and the lord of the navamsa which the lord of the 7th occupies and (2) Venus and Moon, is stronger. The marriage will take place in the dasha of this stronger planet when Jupiter in transit passes through the sign triangular to the sign or navamsa occupied by the lord of the 7th.",
+        "quote_sha256": "06a2c6b7880e20bf234865c5b4e99257a036384ff899c69ab0778422f5ac2501",
+        "char_span": [
+          221916,
+          222319
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "any",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "native",
+        "effect": "timing_of_marriage",
+        "method": "dasa_of_the_stronger_significator_with_jupiter_transit"
+      },
+      "timing": "dasa",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "The quote runs across a printed page break; the page anchor sits inside the span, as it does in the corpus.",
+      "exclusions": [],
+      "requires": [
+        "lordship (which graha rules which house)",
+        "condition variables (the verse names a role, not a graha)",
+        "divisional charts beyond D-1",
+        "planetary strength (Stage 4)",
+        "vimshottari dasa",
+        "transit calculation"
+      ]
+    },
+    {
+      "id": "PD.10.WifeLoss.Lord7Afflicted",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 10,
+        "verse": "15",
+        "page_anchor": "phaladeepika/p0114",
+        "tier": 1,
+        "quote": "If the lord of the 7th be posited in his sign of debilitation, be in an inimical sign, be combust or be aspected by a malefic and the 7th house be occupied or aspected by a malefic, there will be loss of wife. So say the men well versed in the science of Astrology.",
+        "quote_display": "If the lord of the 7th be posited in his sign of debilitation, be in an inimical sign, be combust or be aspected by a malefic and the 7th house be occupied or aspected by a malefic, there will be loss of wife. So say the men well versed in the science of Astrology.",
+        "quote_sha256": "2e49765656330dad127f1a87181374a109dec428c78e4bf9841e48a9a99d4cc2",
+        "char_span": [
+          222327,
+          222592
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "any",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "marriage",
+        "subject": "wife",
+        "effect": "loss_of_wife"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Restates verse 4's rule with an added condition on the 7th house itself, and attributes it ('So say the men well versed'). Kept separate from PD.10.WifeDeprived.Lord7Afflicted: the book says it twice, so the store does too.",
+      "exclusions": [],
+      "requires": [
+        "lordship (which graha rules which house)",
+        "condition variables (the verse names a role, not a graha)",
+        "dignity fact extraction",
+        "combustion fact extraction",
+        "benefic/malefic classification of the grahas",
+        "graha aspect calculation"
+      ]
+    }
+  ]
+}

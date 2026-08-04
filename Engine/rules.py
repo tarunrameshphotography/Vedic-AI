@@ -39,6 +39,7 @@ class RuleCard:
     char_span: tuple[int, int]
     span_trimmed: str | None
     scope: dict
+    activation: str          # "active" | "inert"
     conditions: dict
     predicts: dict
     timing: str
@@ -82,6 +83,7 @@ def load_cards(rules_dir: str | Path) -> list[RuleCard]:
                 char_span=tuple(s["char_span"]),
                 span_trimmed=s.get("span_trimmed"),
                 scope=c.get("scope", {}),
+                activation=c.get("activation", "active"),
                 conditions=c["conditions"],
                 predicts=c.get("predicts", {}),
                 timing=c.get("timing", "natal"),
