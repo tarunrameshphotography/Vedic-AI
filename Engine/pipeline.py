@@ -14,6 +14,7 @@ from pathlib import Path
 from .activate import Claim, activate, verify_claims
 from .chart import BirthRecord, ChartBundle, compute_chart, resolve_birth
 from .ephemeris import EphemerisProvider, SwissEphemerisDLL
+from .doctrine import Doctrine
 from .facts import FactSet, extract_facts
 from .render import (
     QuotingSynthesizer,
@@ -119,7 +120,8 @@ def run(
 
         resolved = resolve_birth(record, provider)                    # Stage 0
         chart = compute_chart(resolved, provider, ayanamsa, house_system)  # Stage 1
-        facts = extract_facts(chart)                                  # Stage 2
+        doctrine = Doctrine.from_cards(cards)
+        facts = extract_facts(chart, doctrine)                        # Stage 2
         claims, report = activate(chart, facts, cards, _book_meta(rules_dir))  # Stage 6
 
         # Stage 7 is not implemented in this slice: with a single chapter there

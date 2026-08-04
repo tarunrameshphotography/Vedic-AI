@@ -75,15 +75,29 @@ def observed_rate(cards, sizes) -> float:
 # cannot produce today, so a card encoded from it would be born inert. This is
 # a measurement of the corpus, not a prediction about it.
 CAPABILITY_MARKERS = (
-    r"lord of|lords of", r"aspect|glance", r"benefic|malefic",
-    r"exalt|debilit|own sign|inimical|friend|combust", r"\bdasa|dasha",
-    r"navamsa|amsa\b|varga",
+    (r"lord of|lords of", "dep.lord-of-house"),
+    (r"aspect|glance", "dep.aspects"),
+    (r"benefic|malefic", "dep.nature"),
+    (r"exalt|debilit|own sign|moolatrikona", "dep.dignity"),
+    (r"inimical|friend|enem", "dep.dignity-friendship"),
+    (r"combust|eclipsed by the Sun", "dep.combust"),
+    (r"\bdasa|dasha", "dep.dasa"),
+    (r"navamsa|amsa\b|varga", "dep.varga"),
+    (r"\bstrength|strong\b|weak\b", "dep.strength"),
 )
 
 
 def projection(book_id: str, encoded: set[int], sizes: dict[int, int],
-               rate: float) -> list[dict]:
-    """Per chapter: how much of it would be born inert if encoded today."""
+               rate: float, state: dict[str, bool] | None = None) -> list[dict]:
+    """Per chapter: how much of it would be born inert if encoded today.
+
+    Only markers whose capability is still missing count. Implementing an
+    extractor therefore moves this number by itself, which is the whole point:
+    the same encoding work buys more executable knowledge afterwards than
+    before, and this measures how much more.
+    """
+    state = state or {}
+    live = [m for m, dep in CAPABILITY_MARKERS if not state.get(dep, False)]
     text = load_corpus(book_id)
     out = []
     for ch in sorted(sizes):
@@ -92,7 +106,7 @@ def projection(book_id: str, encoded: set[int], sizes: dict[int, int],
         if not bodies:
             continue
         hit = sum(1 for b in bodies
-                  if any(re.search(m, b, re.I) for m in CAPABILITY_MARKERS))
+                  if any(re.search(m, b, re.I) for m in live))
         out.append({
             "chapter": ch, "paragraphs": len(bodies),
             "est_cards": round(len(bodies) * rate),
@@ -210,7 +224,7 @@ def analyse():
         frontier.append(best)
 
     encoded = {c.chapter for c in cards}
-    proj = projection("phaladeepika", encoded, sizes, rate)
+    proj = projection("phaladeepika", encoded, sizes, rate, state)
     return registry, rows, frontier, counts, sizes, rate, inert, problems, proj
 
 

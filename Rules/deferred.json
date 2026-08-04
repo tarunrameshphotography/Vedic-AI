@@ -52,7 +52,7 @@
       "title": "dignity extractor",
       "kind": "predicate",
       "predicate": "dignity",
-      "detail": "Exaltation, debilitation, own, friendly, neutral and inimical sign. Needs the exaltation and friendship tables, which are in Phaladeepika ch. 2 and deferred.",
+      "detail": "Exaltation, fall, deep exaltation and fall, own sign and Moolatrikona, all read from Phaladeepika ch. 1 vv. 6-7 reference cards. The friendly / neutral / inimical half is NOT included -- see dep.dignity-friendship.",
       "phase": "2 (engine completion)",
       "depends_on": [
         "chapter:phaladeepika.01",
@@ -179,7 +179,8 @@
         "chapter:phaladeepika.01"
       ],
       "effort": 1,
-      "effort_basis": "a classification table read from cards"
+      "effort_basis": "a classification table read from cards",
+      "predicate": "in_sign_class"
     },
     "dep.house-class": {
       "title": "house classification",
@@ -190,7 +191,8 @@
         "chapter:phaladeepika.01"
       ],
       "effort": 1,
-      "effort_basis": "a classification table read from cards"
+      "effort_basis": "a classification table read from cards",
+      "predicate": "house_class"
     },
     "dep.graha-class": {
       "title": "graha classification",
@@ -201,7 +203,8 @@
         "chapter:phaladeepika.02"
       ],
       "effort": 1,
-      "effort_basis": "a classification table read from cards"
+      "effort_basis": "a classification table read from cards",
+      "predicate": "graha_class"
     },
     "dep.condition-variables": {
       "title": "variables in the condition language",
@@ -325,6 +328,18 @@
       "depends_on": [],
       "effort": 6,
       "effort_basis": "a second chart source and a branch tag Stage 6 honours"
+    },
+    "dep.dignity-friendship": {
+      "title": "natural friendship (the unresolved half of dignity)",
+      "kind": "reference",
+      "detail": "Whether a graha sits in a friend's, neutral's or enemy's sign. The seven-graha table is encoded but the scan interleaved its columns past reconstruction, so no friendship fact is emitted at all rather than a guessed one.",
+      "phase": "3 (knowledge)",
+      "depends_on": [
+        "dep.manual-verification"
+      ],
+      "effort": 1,
+      "effort_basis": "a table read from cards, once a human has checked the printed page",
+      "implemented": false
     }
   },
   "entries": [

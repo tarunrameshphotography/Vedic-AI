@@ -780,7 +780,8 @@
       "exclusions": [],
       "requires": [
         "dep.dignity",
-        "dep.condition-variables"
+        "dep.condition-variables",
+        "dep.dignity-friendship"
       ]
     },
     {
@@ -835,7 +836,8 @@
       "requires": [
         "dep.dignity",
         "dep.condition-variables",
-        "dep.dasa"
+        "dep.dasa",
+        "dep.dignity-friendship"
       ]
     },
     {
@@ -1057,7 +1059,8 @@
       "exclusions": [],
       "requires": [
         "dep.dignity",
-        "dep.condition-variables"
+        "dep.condition-variables",
+        "dep.dignity-friendship"
       ]
     },
     {

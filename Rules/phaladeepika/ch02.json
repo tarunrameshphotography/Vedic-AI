@@ -3781,7 +3781,8 @@
         "dep.combust",
         "dep.dignity",
         "dep.varga",
-        "dep.condition-variables"
+        "dep.condition-variables",
+        "dep.dignity-friendship"
       ]
     },
     {
@@ -3918,7 +3919,8 @@
           "Saturn": 15,
           "Venus_retrograde": 8
         },
-        "unit": "degrees from the Sun"
+        "unit": "degrees from the Sun",
+        "measured_from": "Sun"
       },
       "timing": "natal",
       "weight": 1.0,

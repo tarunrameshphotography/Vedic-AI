@@ -2702,7 +2702,16 @@
       "predicts": {
         "relation": "moolatrikona",
         "graha": "Sun",
-        "sign": "Leo"
+        "sign": "Leo",
+        "portion": [
+          0,
+          20
+        ],
+        "own_portion": [
+          21,
+          30
+        ],
+        "portion_resolved": true
       },
       "timing": "natal",
       "weight": 1.0,
@@ -2758,7 +2767,13 @@
       "predicts": {
         "relation": "moolatrikona",
         "graha": "Moon",
-        "sign": "Taurus"
+        "sign": "Taurus",
+        "portion": [
+          4,
+          30
+        ],
+        "own_portion": null,
+        "portion_resolved": true
       },
       "timing": "natal",
       "weight": 1.0,
@@ -2814,7 +2829,16 @@
       "predicts": {
         "relation": "moolatrikona",
         "graha": "Mars",
-        "sign": "Aries"
+        "sign": "Aries",
+        "portion": [
+          0,
+          2
+        ],
+        "own_portion": [
+          13,
+          30
+        ],
+        "portion_resolved": false
       },
       "timing": "natal",
       "weight": 1.0,
@@ -2826,7 +2850,8 @@
         "verified_date": null
       },
       "activation": "reference",
-      "exclusions": []
+      "exclusions": [],
+      "note": "The printed Moolatrikona portion for Mars reads 0-2 degrees while its own-sign portion resumes at 13, leaving 3-12 unaccounted for. Transcribed as printed and marked unresolved, so no Moolatrikona fact is asserted for Mars until a human checks the page."
     },
     {
       "id": "PD.01.Moolatrikona.Mercury",
@@ -2870,7 +2895,16 @@
       "predicts": {
         "relation": "moolatrikona",
         "graha": "Mercury",
-        "sign": "Virgo"
+        "sign": "Virgo",
+        "portion": [
+          16,
+          20
+        ],
+        "own_portion": [
+          21,
+          30
+        ],
+        "portion_resolved": true
       },
       "timing": "natal",
       "weight": 1.0,
@@ -2926,7 +2960,16 @@
       "predicts": {
         "relation": "moolatrikona",
         "graha": "Jupiter",
-        "sign": "Sagittarius"
+        "sign": "Sagittarius",
+        "portion": [
+          0,
+          10
+        ],
+        "own_portion": [
+          11,
+          30
+        ],
+        "portion_resolved": true
       },
       "timing": "natal",
       "weight": 1.0,
@@ -2982,7 +3025,16 @@
       "predicts": {
         "relation": "moolatrikona",
         "graha": "Venus",
-        "sign": "Libra"
+        "sign": "Libra",
+        "portion": [
+          0,
+          5
+        ],
+        "own_portion": [
+          6,
+          30
+        ],
+        "portion_resolved": true
       },
       "timing": "natal",
       "weight": 1.0,
@@ -3038,7 +3090,16 @@
       "predicts": {
         "relation": "moolatrikona",
         "graha": "Saturn",
-        "sign": "Aquarius"
+        "sign": "Aquarius",
+        "portion": [
+          0,
+          20
+        ],
+        "own_portion": [
+          21,
+          30
+        ],
+        "portion_resolved": true
       },
       "timing": "natal",
       "weight": 1.0,

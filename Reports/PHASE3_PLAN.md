@@ -12,34 +12,28 @@ Most inert cards declare several dependencies and become executable only when th
 
 | Dependency | Kind | Cards blocked | Entries | Solo unlock | Closure unlock | Effort | Return |
 |---|---|---:|---:|---:|---:|---:|---:|
+| `dep.condition-variables` — variables in the condition language | schema | 27 | 27 | 7 | 7 | 5 | 1.40 |
+| `dep.occupant-count` — occupant counting | predicate | 3 | 3 | 2 | 2 | 3 | 0.67 |
 | `dep.graha-frame` — houses counted from a graha | schema | 1 | 1 | 1 | 1 | 2 | 0.50 |
 | `dep.rule-transfer` — rule-transfer mechanism | schema | 1 | 1 | 1 | 1 | 3 | 0.33 |
-| `dep.condition-variables` — variables in the condition language | schema | 27 | 27 | 1 | 1 | 5 | 0.20 |
+| `dep.nature-occupancy` — occupancy of a house by grahas of a given nature | predicate | 3 | 3 | 0 | 6 | 23 | 0.26 |
+| `dep.nature` — benefic/malefic classification | calculator | 16 | 16 | 4 | 4 | 21 | 0.19 |
+| `dep.hemmed-between` — hemming (papakartari / subhakartari) extractor | predicate | 0 | 0 | 0 | 4 | 23 | 0.17 |
 | `dep.prashna` — prashna (horary) branch | engine | 1 | 1 | 1 | 1 | 6 | 0.17 |
 | `dep.manual-verification` — human verification of the encoding | process | 2 | 3 | 2 | 2 | 20 | 0.10 |
-| `dep.nature` — benefic/malefic classification | calculator | 16 | 16 | 1 | 1 | 21 | 0.05 |
-| `dep.hemmed-between` — hemming (papakartari / subhakartari) extractor | predicate | 0 | 0 | 0 | 1 | 23 | 0.04 |
-| `dep.nature-occupancy` — occupancy of a house by grahas of a given nature | predicate | 3 | 3 | 0 | 1 | 23 | 0.04 |
+| `dep.dignity-friendship` — natural friendship (the unresolved half of dignity) | reference | 5 | 5 | 0 | 2 | 21 | 0.10 |
+| `dep.varga` — varga (divisional chart) engine | calculator | 6 | 6 | 1 | 1 | 17 | 0.06 |
+| `dep.vargottama` — vargottama extractor | predicate | 1 | 1 | 0 | 1 | 18 | 0.06 |
+| `dep.strength` — planetary and house strength (Stage 4) | calculator | 7 | 7 | 2 | 2 | 88 | 0.02 |
 | `dep.adjudication` — Stage 7 adjudication | engine | 1 | 7 | 0 | 0 | 8 | 0.00 |
 | `dep.ashtakavarga` — ashtakavarga | calculator | 1 | 2 | 0 | 0 | 32 | 0.00 |
-| `dep.aspects` — aspect engine | predicate | 12 | 13 | 0 | 0 | 22 | 0.00 |
-| `dep.combust` — combustion extractor | predicate | 4 | 4 | 0 | 0 | 2 | 0.00 |
 | `dep.conjunct` — conjunction extractor | predicate | 0 | 1 | 0 | 0 | 1 | 0.00 |
 | `dep.dasa` — vimshottari dasa engine | calculator | 6 | 9 | 0 | 0 | 20 | 0.00 |
-| `dep.dignity` — dignity extractor | predicate | 12 | 12 | 0 | 0 | 40 | 0.00 |
 | `dep.dignity-override` — dignity-override mechanism | schema | 2 | 2 | 0 | 0 | 43 | 0.00 |
-| `dep.graha-class` — graha classification | reference | 1 | 1 | 0 | 0 | 20 | 0.00 |
-| `dep.house-class` — house classification | reference | 1 | 1 | 0 | 0 | 19 | 0.00 |
-| `dep.lord-of-house` — lord_of_house extractor | predicate | 20 | 22 | 0 | 0 | 20 | 0.00 |
 | `dep.moon-frame` — the Moon as an alternative reference frame | schema | 1 | 1 | 0 | 0 | 2 | 0.00 |
-| `dep.occupant-count` — occupant counting | predicate | 3 | 3 | 0 | 0 | 3 | 0.00 |
 | `dep.second-nativity` — a second nativity | schema | 1 | 2 | 0 | 0 | 5 | 0.00 |
-| `dep.sign-class` — sign classification | reference | 2 | 2 | 0 | 0 | 19 | 0.00 |
-| `dep.strength` — planetary and house strength (Stage 4) | calculator | 7 | 7 | 0 | 0 | 88 | 0.00 |
 | `dep.transit` — transit (gochara) calculation | calculator | 3 | 4 | 0 | 0 | 6 | 0.00 |
 | `dep.upagraha` — upagraha computation | calculator | 0 | 1 | 0 | 0 | 14 | 0.00 |
-| `dep.varga` — varga (divisional chart) engine | calculator | 6 | 6 | 0 | 0 | 17 | 0.00 |
-| `dep.vargottama` — vargottama extractor | predicate | 1 | 1 | 0 | 0 | 18 | 0.00 |
 
 *Solo unlock* — cards that become executable if only this lands. *Closure unlock* — cards that become executable if this and everything it itself needs land, including the corpus chapters carrying the doctrine it must read. *Return* is closure unlock ÷ effort.
 
@@ -50,22 +44,16 @@ Edges point from a capability to what it needs. `ch.N` is a corpus chapter that 
 ```mermaid
 graph LR
   ashtakavarga --> ch23
-  aspects --> ch02
   dasa --> ch19
-  dignity --> ch01
-  dignity --> ch02
+  dignity_friendship --> manual_verification
   dignity_override --> dignity
   dignity_override --> ch01
   dignity_override --> ch02
-  graha_class --> ch02
   hemmed_between --> nature
   hemmed_between --> ch02
-  house_class --> ch01
-  lord_of_house --> ch01
   nature --> ch02
   nature_occupancy --> nature
   nature_occupancy --> ch02
-  sign_class --> ch01
   strength --> aspects
   strength --> dignity
   strength --> ch01
@@ -81,32 +69,24 @@ graph LR
 
 | Step | Build | Also requires | Chapters first | Cost | Cards released | Running total executable |
 |---:|---|---|---|---:|---:|---:|
-| 1 | `dep.graha-frame` — houses counted from a graha | — | — | 2 | +1 | 296 |
-| 2 | `dep.rule-transfer` — rule-transfer mechanism | — | — | 3 | +1 | 297 |
-| 3 | `dep.condition-variables` — variables in the condition language | — | — | 5 | +1 | 298 |
-| 4 | `dep.prashna` — prashna (horary) branch | — | — | 6 | +1 | 299 |
-| 5 | `dep.lord-of-house` — lord_of_house extractor | — | ch. 01 | 20 | +3 | 302 |
-| 6 | `dep.dignity` — dignity extractor | — | ch. 01, ch. 02 | 3 | +4 | 306 |
-| 7 | `dep.nature` — benefic/malefic classification | — | ch. 02 | 2 | +3 | 309 |
-| 8 | `dep.aspects` — aspect engine | — | ch. 02 | 3 | +4 | 313 |
-| 9 | `dep.nature-occupancy` — occupancy of a house by grahas of a given nature | — | ch. 02 | 2 | +2 | 315 |
-| 10 | `dep.house-class` — house classification | — | ch. 01 | 1 | +1 | 316 |
-| 11 | `dep.occupant-count` — occupant counting | — | — | 3 | +2 | 318 |
-| 12 | `dep.graha-class` — graha classification | — | ch. 02 | 1 | +1 | 319 |
-| 13 | `dep.strength` — planetary and house strength (Stage 4) | — | ch. 01, ch. 02, ch. 04 | 8 | +5 | 324 |
-| 14 | `dep.combust` — combustion extractor | — | — | 2 | +1 | 325 |
-| 15 | `dep.sign-class` — sign classification | — | ch. 01 | 1 | +1 | 326 |
-| 16 | `dep.moon-frame` — the Moon as an alternative reference frame | — | — | 2 | +1 | 327 |
-| 17 | `dep.dignity-override` — dignity-override mechanism | — | ch. 01, ch. 02 | 3 | +1 | 328 |
-| 18 | `dep.vargottama` — vargottama extractor | `dep.varga` | ch. 03 | 18 | +4 | 332 |
-| 19 | `dep.dasa` — vimshottari dasa engine | — | ch. 19 | 20 | +4 | 336 |
-| 20 | `dep.transit` — transit (gochara) calculation | — | — | 6 | +3 | 339 |
-| 21 | `dep.second-nativity` — a second nativity | — | — | 5 | +1 | 340 |
-| 22 | `dep.adjudication` — Stage 7 adjudication | — | — | 8 | +1 | 341 |
-| 23 | `dep.manual-verification` — human verification of the encoding | — | — | 20 | +2 | 343 |
-| 24 | `dep.ashtakavarga` — ashtakavarga | — | ch. 23 | 32 | +1 | 344 |
+| 1 | `dep.condition-variables` — variables in the condition language | — | — | 5 | +7 | 302 |
+| 2 | `dep.occupant-count` — occupant counting | — | — | 3 | +2 | 304 |
+| 3 | `dep.graha-frame` — houses counted from a graha | — | — | 2 | +1 | 305 |
+| 4 | `dep.nature-occupancy` — occupancy of a house by grahas of a given nature | `dep.nature` | ch. 02 | 23 | +10 | 315 |
+| 5 | `dep.strength` — planetary and house strength (Stage 4) | — | ch. 01, ch. 02, ch. 04 | 8 | +6 | 321 |
+| 6 | `dep.moon-frame` — the Moon as an alternative reference frame | — | — | 2 | +1 | 322 |
+| 7 | `dep.dignity-override` — dignity-override mechanism | — | ch. 01, ch. 02 | 3 | +1 | 323 |
+| 8 | `dep.rule-transfer` — rule-transfer mechanism | — | — | 3 | +1 | 324 |
+| 9 | `dep.dignity-friendship` — natural friendship (the unresolved half of dignity) | `dep.manual-verification` | — | 21 | +5 | 329 |
+| 10 | `dep.vargottama` — vargottama extractor | `dep.varga` | ch. 03 | 18 | +4 | 333 |
+| 11 | `dep.dasa` — vimshottari dasa engine | — | ch. 19 | 20 | +4 | 337 |
+| 12 | `dep.transit` — transit (gochara) calculation | — | — | 6 | +3 | 340 |
+| 13 | `dep.second-nativity` — a second nativity | — | — | 5 | +1 | 341 |
+| 14 | `dep.prashna` — prashna (horary) branch | — | — | 6 | +1 | 342 |
+| 15 | `dep.adjudication` — Stage 7 adjudication | — | — | 8 | +1 | 343 |
+| 16 | `dep.ashtakavarga` — ashtakavarga | — | ch. 23 | 32 | +1 | 344 |
 
-Completing this sequence costs **176 units** and moves executable cards from **295** to **344** — releasing **49 of the 49** currently blocked cards.
+Completing this sequence costs **165 units** and moves executable cards from **295** to **344** — releasing **49 of the 49** currently blocked cards.
 
 ## What encoding a chapter today would actually buy
 
@@ -114,40 +94,77 @@ The ranking above counts only cards that already exist. The larger effect is on 
 
 | Chapter | Paragraphs | Est. cards | Would be born inert | |
 |---:|---:|---:|---:|---|
-| 1 | 82 | 73 | 13% | encoded |
-| 2 | 84 | 75 | 18% | encoded |
+| 1 | 82 | 73 | 6% | encoded |
+| 2 | 84 | 75 | 23% | encoded |
 | 3 | 61 | 55 | 67% |  |
-| 4 | 163 | 146 | 35% |  |
-| 5 | 25 | 22 | 60% |  |
-| 6 | 236 | 211 | 33% |  |
-| 7 | 84 | 75 | 61% |  |
-| 8 | 141 | 126 | 16% | encoded |
-| 9 | 37 | 33 | 38% | encoded |
-| 10 | 40 | 36 | 60% | encoded |
-| 11 | 43 | 39 | 44% |  |
-| 12 | 84 | 75 | 60% |  |
-| 13 | 71 | 64 | 48% |  |
-| 14 | 84 | 75 | 38% |  |
-| 15 | 94 | 84 | 47% |  |
-| 16 | 77 | 69 | 77% |  |
-| 17 | 67 | 60 | 70% |  |
-| 18 | 37 | 33 | 68% |  |
-| 19 | 66 | 59 | 71% |  |
-| 20 | 114 | 102 | 84% |  |
-| 21 | 117 | 105 | 89% |  |
+| 4 | 163 | 146 | 63% |  |
+| 5 | 25 | 22 | 56% |  |
+| 6 | 236 | 211 | 24% |  |
+| 7 | 84 | 75 | 26% |  |
+| 8 | 141 | 126 | 23% | encoded |
+| 9 | 37 | 33 | 41% | encoded |
+| 10 | 40 | 36 | 55% | encoded |
+| 11 | 43 | 39 | 40% |  |
+| 12 | 84 | 75 | 44% |  |
+| 13 | 71 | 64 | 42% |  |
+| 14 | 84 | 75 | 24% |  |
+| 15 | 94 | 84 | 39% |  |
+| 16 | 77 | 69 | 49% |  |
+| 17 | 67 | 60 | 45% |  |
+| 18 | 37 | 33 | 32% |  |
+| 19 | 66 | 59 | 73% |  |
+| 20 | 114 | 102 | 71% |  |
+| 21 | 117 | 105 | 91% |  |
 | 22 | 72 | 64 | 75% |  |
 | 23 | 115 | 103 | 55% |  |
-| 24 | 92 | 82 | 50% |  |
-| 25 | 48 | 43 | 10% |  |
-| 26 | 203 | 182 | 14% |  |
-| 27 | 16 | 14 | 62% |  |
+| 24 | 92 | 82 | 49% |  |
+| 25 | 48 | 43 | 15% |  |
+| 26 | 203 | 182 | 16% |  |
+| 27 | 16 | 14 | 31% |  |
 | 28 | 4 | 4 | 0% |  |
 
-Across the 23 unencoded chapters that is roughly **1766 cards**, of which about **898 (51%) would be inert on arrival** if they were encoded before the missing capabilities exist.
+Across the 23 unencoded chapters that is roughly **1766 cards**, of which about **805 (46%) would be inert on arrival** if they were encoded before the missing capabilities exist.
 
 ## Cards that no sequence here releases
 
-1 card(s) remain blocked after every step above, because they depend on capabilities with no path that pays for itself yet:
+38 card(s) remain blocked after every step above, because they depend on capabilities with no path that pays for itself yet:
 
+- `PD.01.Kalapurusha.Strength` — dep.nature, dep.aspects, dep.lord-of-house, dep.strength, dep.condition-variables
+- `PD.02.AdverseDisposition` — dep.combust, dep.dignity, dep.varga, dep.condition-variables, dep.dignity-friendship
+- `PD.02.Form.Mars.Youthful` — dep.lord-of-house, dep.strength
+- `PD.02.LagnaAspect.InjectsQualities` — dep.aspects, dep.condition-variables
+- `PD.02.LagnaEmpty.LordGivesQualities` — dep.lord-of-house, dep.condition-variables
+- `PD.09.Combust` — dep.combust, dep.condition-variables, dep.dasa
+- `PD.09.Dignity.Debilitated` — dep.dignity, dep.condition-variables, dep.dasa
+- `PD.09.Dignity.Exalted` — dep.dignity, dep.condition-variables
+- `PD.09.Dignity.Exalted.Notes` — dep.dignity, dep.condition-variables
+- `PD.09.Dignity.Friend` — dep.dignity, dep.condition-variables, dep.dignity-friendship
+- `PD.09.Dignity.Inimical` — dep.dignity, dep.condition-variables, dep.dasa, dep.dignity-friendship
+- `PD.09.Dignity.Neutral` — dep.dignity, dep.condition-variables, dep.dignity-friendship
+- `PD.09.Dignity.OwnSign` — dep.dignity, dep.condition-variables, dep.dasa
+- `PD.09.Retrograde.AsExalted` — dep.dignity, dep.condition-variables, dep.dignity-override
+- `PD.10.Benefics.In7` — dep.nature, dep.lord-of-house
+- `PD.10.Couple.BeneficAspect` — dep.nature, dep.aspects
+- `PD.10.Houses5And7.Flourish` — dep.nature, dep.aspects, dep.lord-of-house, dep.moon-frame
+- `PD.10.Lord5Or8.In7` — dep.lord-of-house, dep.condition-variables
+- `PD.10.Lord7.BeneficStrong` — dep.lord-of-house, dep.condition-variables, dep.nature, dep.strength
+- `PD.10.Lord7.In5` — dep.lord-of-house, dep.condition-variables
+- `PD.10.Lord7.MaleficInOwn7` — dep.lord-of-house, dep.condition-variables, dep.nature
+- `PD.10.Marriage.Dasha7` — dep.lord-of-house, dep.dasa, dep.aspects, dep.transit
+- `PD.10.Marriage.StrongerDasha` — dep.lord-of-house, dep.condition-variables, dep.varga, dep.strength, dep.dasa, dep.transit
+- `PD.10.Marriage.TransitTrine` — dep.lord-of-house, dep.transit, dep.varga
+- `PD.10.TwoWives.DualSign` — dep.lord-of-house, dep.condition-variables, dep.sign-class, dep.varga
+- `PD.10.TwoWives.Hermaphrodite7` — dep.graha-class, dep.occupant-count
+- `PD.10.Venus.VargaMarsSaturn` — dep.varga, dep.aspects
 - `PD.10.Widowhood.DebilitatedMalefics` — dep.native-sex, dep.nature, dep.dignity, dep.nature-occupancy
+- `PD.10.WifeChart.Houses7And8` — dep.nature, dep.aspects, dep.second-nativity
+- `PD.10.WifeChildren.EvenSigns` — dep.lord-of-house, dep.condition-variables, dep.strength, dep.sign-class, dep.combust
+- `PD.10.WifeChildren.Lords2712` — dep.lord-of-house, dep.condition-variables, dep.aspects, dep.nature, dep.house-class
+- `PD.10.WifeCount.Conjunctions` — dep.lord-of-house, dep.occupant-count
+- `PD.10.WifeDeprived.Lord7Afflicted` — dep.lord-of-house, dep.condition-variables, dep.nature, dep.aspects, dep.dignity-friendship
+- `PD.10.WifeDirection.Strongest` — dep.lord-of-house, dep.strength
+- `PD.10.WifeLoss.Houses2And7Afflicted` — dep.nature, dep.aspects
+- `PD.10.WifeLoss.Lord7Afflicted` — dep.lord-of-house, dep.condition-variables, dep.dignity, dep.combust, dep.nature, dep.aspects
+- `PD.10.WifeLoss.MaleficsOr` — dep.nature, dep.aspects, dep.nature-occupancy
+- `PD.10.WifeRashi.Trine` — dep.lord-of-house, dep.condition-variables, dep.varga, dep.ashtakavarga, dep.dignity
 
