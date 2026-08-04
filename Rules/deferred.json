@@ -219,7 +219,8 @@
       "phase": "4 (integration)",
       "depends_on": [],
       "effort": 3,
-      "effort_basis": "card schema, build tool, verifier and renderer all assume one span"
+      "effort_basis": "card schema, build tool, verifier and renderer all assume one span",
+      "implemented": true
     },
     "dep.moon-frame": {
       "title": "the Moon as an alternative reference frame",
@@ -266,7 +267,8 @@
       "phase": "2 (engine completion)",
       "depends_on": [],
       "effort": 1,
-      "effort_basis": "one field on BirthRecord and a scope test in activation"
+      "effort_basis": "one field on BirthRecord and a scope test in activation",
+      "implemented": true
     },
     "dep.second-nativity": {
       "title": "a second nativity",

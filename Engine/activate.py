@@ -57,6 +57,7 @@ def activate(
 
     claims: list[Claim] = []
     inert: list[str] = []
+    out_of_scope: list[str] = []
 
     for cid in sorted(candidates):
         card = by_id[cid]
@@ -70,6 +71,17 @@ def activate(
         # to match.
         if card.activation == "inert":
             inert.append(f"{cid}: recorded but declared inert; does not fire")
+            continue
+
+        # A rule stated for one sex must not be applied to the other, and must
+        # not be applied at all when the record does not say. Two such rules can
+        # be identical in every other respect, so this is the only thing keeping
+        # them apart.
+        want_sex = card.scope.get("sex")
+        if want_sex and want_sex != chart.resolved_birth.get("sex", "unknown"):
+            out_of_scope.append(
+                f"{cid}: stated for a {want_sex} nativity; "
+                f"record says {chart.resolved_birth.get('sex', 'unknown')}")
             continue
 
         ev = evaluate(card.conditions, facts)
@@ -143,6 +155,7 @@ def activate(
                 "quote_display": card.quote_display,
                 "corpus_file": f"Knowledge/{card.book_id}.md",
                 "char_span": list(card.char_span),
+                "spans": [list(x) for x in card.spans],
                 "quote_sha256": card.quote_sha256,
                 "page_anchor": card.page_anchor,
                 "span_trimmed": card.span_trimmed,
@@ -159,6 +172,7 @@ def activate(
         "candidates_from_index": len(candidates),
         "claims_activated": len(claims),
         "inert_cards": inert,
+        "out_of_scope": out_of_scope,
     }
     return claims, report
 
@@ -193,12 +207,14 @@ def verify_claims(
             failures.append(f"{claim.claim_id}: rule card missing from store")
             continue
 
-        # (3) quote integrity, re-read from disk
+        # (3) quote integrity, re-read from disk -- every span, not just the
+        # first, or a two-span card would be verified on half its evidence.
         book = card.book_id
         if book not in corpora:
             corpora[book] = (corpus_dir / f"{book}.md").read_bytes().decode("utf-8")
-        start, end = card.char_span
-        if corpora[book][start:end] != claim.passage["quote"]:
+        text = corpora[book]
+        if any(text[s:e] != part
+               for (s, e), part in zip(card.spans, card.quote_parts)):
             failures.append(f"{claim.claim_id}: quote no longer matches corpus")
         elif hashlib.sha256(
             claim.passage["quote"].encode("utf-8")

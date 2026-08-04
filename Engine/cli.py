@@ -30,6 +30,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--source", default="unknown",
                     choices=["certificate", "hospital", "family", "memory",
                              "rectified", "unknown"])
+    ap.add_argument("--sex", default="unknown", choices=["male", "female", "unknown"],
+                    help="rules stated for one sex do not fire without this")
     ap.add_argument("--ayanamsa", default="lahiri")
     ap.add_argument("--houses", default="whole_sign")
     ap.add_argument("--audit", action="store_true", help="print the audit view too")
@@ -50,6 +52,7 @@ def main(argv: list[str] | None = None) -> int:
         latitude=args.lat, longitude=args.lon,
         place_name=args.place, name=args.name,
         time_precision=args.precision, time_source=args.source,
+        sex=args.sex,
     )
 
     try:

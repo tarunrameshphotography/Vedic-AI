@@ -129,7 +129,9 @@ def deferred_cards(cards, registry: dict) -> list[dict]:
 def deferred_passages(cards, book_id: str, chapters: list[int]) -> list[dict]:
     """Paragraphs of an encoded chapter that no card quotes."""
     text = load_corpus(book_id)
-    spans = [c.char_span for c in cards if c.book_id == book_id]
+    # Every span, not just the first: a card that quotes two places covers both,
+    # and reading char_span alone would report its second paragraph as deferred.
+    spans = [sp for c in cards if c.book_id == book_id for sp in c.spans]
     found = []
     for ch in sorted(chapters):
         lo, hi = chapter_bounds(text, ch)

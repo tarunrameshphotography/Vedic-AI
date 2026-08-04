@@ -46,6 +46,14 @@ class RuleCard:
     weight: float
     specificity: int
     raw: dict
+    # A rule is not always printed contiguously. Where a governing sentence
+    # states the effect for several dispositions listed beneath it, the card
+    # must quote both places or quote a bare condition as though it were a
+    # prediction. `spans` and `quote_parts` are parallel: part i is required to
+    # be byte-exact at span i. A single-span card has one of each, so every
+    # existing card keeps working unchanged.
+    spans: tuple[tuple[int, int], ...] = ()
+    quote_parts: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True)
@@ -70,7 +78,17 @@ def load_cards(rules_dir: str | Path) -> list[RuleCard]:
             if c["id"] in seen:
                 raise RuleStoreError(f"duplicate card id {c['id']} in {path}")
             seen.add(c["id"])
+            # Normalise both shapes to the multi-span one at the door, so
+            # nothing downstream has to ask which kind of card it is holding.
+            spans = tuple(tuple(x) for x in s.get("spans", [s["char_span"]]))
+            parts = tuple(s.get("quote_parts", [s["quote"]]))
+            if len(spans) != len(parts):
+                raise RuleStoreError(
+                    f"{c['id']}: {len(spans)} span(s) but {len(parts)} quote part(s)"
+                )
             cards.append(RuleCard(
+                spans=spans,
+                quote_parts=parts,
                 id=c["id"],
                 book_id=s["book_id"],
                 chapter=s["chapter"],
@@ -122,19 +140,29 @@ def verify_cards(cards: list[RuleCard], corpus_dir: str | Path) -> list[str]:
         if not text:
             continue
 
-        start, end = card.char_span
-        if not (0 <= start < end <= len(text)):
-            problems.append(f"{card.id}: char_span {card.char_span} out of range")
+        # Every span must resolve and every part must be byte-exact at its own
+        # span. A card that quotes two places is only as trustworthy as its
+        # weakest span.
+        bad = False
+        for i, ((start, end), part) in enumerate(zip(card.spans, card.quote_parts)):
+            if not (0 <= start < end <= len(text)):
+                problems.append(
+                    f"{card.id}: span {i} {(start, end)} out of range")
+                bad = True
+                break
+            actual = text[start:end]
+            if actual != part:
+                problems.append(
+                    f"{card.id}: quote part {i} does not match corpus at "
+                    f"{(start, end)}\n"
+                    f"    stored: {part[:80]!r}\n"
+                    f"    corpus: {actual[:80]!r}"
+                )
+                bad = True
+                break
+        if bad:
             continue
-        actual = text[start:end]
-        if actual != card.quote:
-            problems.append(
-                f"{card.id}: quote does not match corpus at {card.char_span}\n"
-                f"    stored: {card.quote[:80]!r}\n"
-                f"    corpus: {actual[:80]!r}"
-            )
-            continue
-        digest = hashlib.sha256(actual.encode("utf-8")).hexdigest()
+        digest = hashlib.sha256(card.quote.encode("utf-8")).hexdigest()
         if digest != card.quote_sha256:
             problems.append(f"{card.id}: sha256 mismatch")
 

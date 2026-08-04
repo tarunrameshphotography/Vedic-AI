@@ -38,6 +38,10 @@ PAGE_ANCHOR_RE = re.compile(r"<!--\s*page\s+(\S+)\s*-->")
 
 DEFAULT_SCOPE = {"frame": "lagna", "varga": "D1"}
 
+# Printed between the parts of a card that quotes two places, so a reader can
+# see that text was skipped rather than that the book runs the two together.
+ELLIPSIS = " […] "
+
 # Keys a card may carry beyond the core schema, in the order they are written.
 OPTIONAL_KEYS = ("kind", "activation", "note", "exclusions", "requires",
                  "extends", "contradicts", "parallel_of")
@@ -141,32 +145,54 @@ def rebuild(book_id: str, chapter: int) -> tuple[dict, list[str]]:
         src = entry.get("source", {})
         # The authored quote may live at the top level (fresh card) or inside
         # source (already built). The words are the input either way.
-        quote = entry.get("quote", src.get("quote"))
+        # Re-deriving a multi-span card must start from its parts: `quote` is
+        # the joined display form and does not occur in the corpus.
+        quote = entry.get("quote", src.get("quote_parts") or src.get("quote"))
         if quote is None:
             raise SpecError(f"{cid}: no quote")
         verse = entry.get("verse", src.get("verse"))
         if verse is None:
             raise SpecError(f"{cid}: no verse reference")
 
-        start, end, matched = locate(text, quote, lo, hi, cid)
-        if text[start:end] != matched:          # belt and braces
-            raise SpecError(f"{cid}: internal span error")
+        # A quote may be authored as a list where the rule is printed in two
+        # places -- a governing sentence and the disposition it governs. Each
+        # part is located independently and must be unique on its own.
+        parts_in = quote if isinstance(quote, list) else [quote]
+        spans, matched_parts = [], []
+        for part in parts_in:
+            start, end, matched = locate(text, part, lo, hi, cid)
+            if text[start:end] != matched:      # belt and braces
+                raise SpecError(f"{cid}: internal span error")
+            spans.append([start, end])
+            matched_parts.append(matched)
+        if spans != sorted(spans):
+            raise SpecError(
+                f"{cid}: spans are out of order {spans}; quote the parts in the "
+                f"order they are printed")
+
+        joined = ELLIPSIS.join(matched_parts)
+        display = ELLIPSIS.join(display_of(m) for m in matched_parts)
+
+        source = {
+            "book_id": book_id,
+            "chapter": chapter,
+            "verse": verse,
+            "page_anchor": page_anchor_at(text, spans[0][0]),
+            "tier": entry.get("tier", src.get("tier", 1)),
+            "quote": joined,
+            "quote_display": display,
+            "quote_sha256": hashlib.sha256(joined.encode("utf-8")).hexdigest(),
+            "char_span": spans[0],
+            "span_trimmed": entry.get("span_trimmed", src.get("span_trimmed")),
+        }
+        if len(spans) > 1:
+            source["spans"] = spans
+            source["quote_parts"] = matched_parts
 
         card = {
             "id": cid,
             "schema": 1,
-            "source": {
-                "book_id": book_id,
-                "chapter": chapter,
-                "verse": verse,
-                "page_anchor": page_anchor_at(text, start),
-                "tier": entry.get("tier", src.get("tier", 1)),
-                "quote": matched,
-                "quote_display": display_of(matched),
-                "quote_sha256": hashlib.sha256(matched.encode("utf-8")).hexdigest(),
-                "char_span": [start, end],
-                "span_trimmed": entry.get("span_trimmed", src.get("span_trimmed")),
-            },
+            "source": source,
             "scope": entry.get("scope", dict(DEFAULT_SCOPE)),
             "conditions": entry["conditions"],
             "predicts": entry["predicts"],

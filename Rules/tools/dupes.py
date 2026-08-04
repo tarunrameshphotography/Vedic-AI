@@ -68,6 +68,23 @@ def claim_key(predicts: dict) -> str:
     return json.dumps(predicts, sort_keys=True, ensure_ascii=False)
 
 
+def _distinctive(a, b) -> tuple[str, str]:
+    """The parts of two cards' quotes that they do not share.
+
+    A card may quote several spans. Where two cards quote the same span -- a
+    governing sentence that states the effect for a list of dispositions --
+    that span says nothing about whether they are duplicates of each other.
+    """
+    shared = set(a.spans) & set(b.spans)
+    if not shared:
+        return a.quote_display, b.quote_display
+
+    def rest(c):
+        return " ".join(part for sp, part in zip(c.spans, c.quote_parts)
+                        if sp not in shared)
+    return rest(a), rest(b)
+
+
 def grade(a, b) -> str:
     return "DEFECT" if a.book_id == b.book_id else "CORROBORATION"
 
@@ -135,14 +152,17 @@ def main() -> int:
                 key = tuple(sorted((a.id, b.id)))
                 if key in seen_pairs:
                     continue
-                la, lb = len(a.quote_display), len(b.quote_display)
+                # Compare only what distinguishes them. Cards that quote a
+                # shared governing sentence plus their own disposition are
+                # similar by construction, and reporting that on every run
+                # would bury the findings that mean something.
+                ta, tb = _distinctive(a, b)
+                la, lb = len(ta), len(tb)
                 if not la or not lb:
                     continue
                 if min(la, lb) / max(la, lb) < args.threshold:
                     continue
-                ratio = SequenceMatcher(
-                    None, a.quote_display, b.quote_display
-                ).ratio()
+                ratio = SequenceMatcher(None, ta, tb).ratio()
                 if ratio >= args.threshold:
                     findings.append((
                         "NEAR-TEXT", "REVIEW",

@@ -6,15 +6,15 @@ Nothing may be silently deferred. Inert cards are read out of the store, deferre
 
 | | |
 |---|---|
-| Backlog entries | **83** |
-| — of kind `card` | 47 |
+| Backlog entries | **75** |
+| — of kind `card` | 39 |
 | — of kind `passage` | 10 |
 | — of kind `chapter` | 25 |
 | — of kind `concept` | 1 |
 | Resolved | 0 |
-| Cards in store | 169 |
-| Firing | 122 |
-| Inert | 47 |
+| Cards in store | 168 |
+| Firing | 129 |
+| Inert | 39 |
 
 ## Dependencies
 
@@ -29,13 +29,12 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 | `dep.aspects` — aspect engine | predicate | no | 11 | 10 | 2 (engine completion) |
 | `dep.dignity` — dignity extractor | predicate | no | 11 | 11 | 2 (engine completion) |
 | `dep.dasa` — vimshottari dasa engine | calculator | no | 8 | 6 | 2 (engine completion) |
-| `dep.multi-span-quote` — quotation across two spans | schema | no | 7 | 6 | 4 (integration) |
 | `dep.adjudication` — Stage 7 adjudication | engine | no | 5 | 0 | 4 (integration) |
-| `dep.native-sex` — the native's sex in the birth record | schema | no | 5 | 3 | 2 (engine completion) |
 | `dep.strength` — planetary and house strength (Stage 4) | calculator | no | 5 | 5 | 2 (engine completion) |
 | `dep.varga` — varga (divisional chart) engine | calculator | no | 5 | 5 | 2 (engine completion) |
 | `dep.transit` — transit (gochara) calculation | calculator | no | 4 | 3 | beyond the MVP |
 | `dep.combust` — combustion extractor | predicate | no | 3 | 3 | 2 (engine completion) |
+| `dep.native-sex` — the native's sex in the birth record | schema | yes | 3 | 1 | 2 (engine completion) |
 | `dep.nature-occupancy` — occupancy of a house by grahas of a given nature | predicate | no | 3 | 3 | 2 (engine completion) |
 | `dep.occupant-count` — occupant counting | predicate | no | 3 | 3 | 2 (engine completion) |
 | `dep.ashtakavarga` — ashtakavarga | calculator | no | 2 | 1 | 2 (engine completion) |
@@ -48,10 +47,17 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 | `dep.house-class` — house classification | reference | no | 1 | 1 | 3 (knowledge) |
 | `dep.manual-verification` — human verification of the encoding | process | no | 1 | 0 | 3 (knowledge) |
 | `dep.moon-frame` — the Moon as an alternative reference frame | schema | no | 1 | 1 | beyond the MVP |
+| `dep.multi-span-quote` — quotation across two spans | schema | yes | 1 | 0 | 4 (integration) |
 | `dep.rule-transfer` — rule-transfer mechanism | schema | no | 1 | 1 | 4 (integration) |
 | `dep.upagraha` — upagraha computation | calculator | no | 1 | 0 | 2 (engine completion) |
 | `dep.vargottama` — vargottama extractor | predicate | no | 1 | 1 | 2 (engine completion) |
 | `dep.hemmed-between` — hemming (papakartari / subhakartari) extractor | predicate | no | 0 | 0 | 2 (engine completion) |
+
+## Newly unblocked
+
+Every blocking dependency of these entries is now implemented. Each card here becomes executable knowledge the moment its `activation` is lifted.
+
+- `chapter:phaladeepika.11` — rules read specifically from a woman's chart
 
 ## Available now
 
@@ -110,7 +116,7 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 |---|---|---|---|---|---|---|---|---|
 | `concept:manual-verification` | phaladeepika | 0 | the whole store | human sign-off that each card reads its verse correctly | Every card is machine-checked byte-exact against the corpus, but extraction.verified_by is null on all of them. The machine can prove a card quotes the book … | `dep.manual-verification` | 3 (knowledge) | deferred |
 
-### Rule cards recorded but not firing (47)
+### Rule cards recorded but not firing (39)
 
 | Entry | Book | Chapter | Locus | Deferred | Reason | Blocked on | Phase | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -127,13 +133,11 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 | `card:PD.09.Vargottama` | phaladeepika | 9 | v. 20 | treat_as_own_sign | Printed as the closing sentence of verse 20. | `dep.vargottama`, `dep.condition-variables`, `dep.dignity-override` | 2 (engine completion) + 4 (integration) | deferred |
 | `card:PD.10.Benefics.In7` | phaladeepika | 10 | v. 6 | good_effects | Carries a real exclusion: benefics in the 7th are good *unless* they own the 6th, 8th or 12th. Recorded in `exclusions`. | `dep.nature`, `dep.lord-of-house` | 2 (engine completion) + 3 (knowledge) | deferred |
 | `card:PD.10.Couple.BeneficAspect` | phaladeepika | 10 | v. 7 | good_luck_and_comforts | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.nature`, `dep.aspects` | 2 (engine completion) + 3 (knowledge) | deferred |
-| `card:PD.10.Female.MoonSaturn7Remarriage` | phaladeepika | 10 | v. 8 | remarriage | The condition is exactly expressible, but the verse applies only to a female nativity and the engine cannot tell. Firing it would assert a sex-specific rule … | `dep.native-sex` | 2 (engine completion) | deferred |
 | `card:PD.10.Houses5And7.Flourish` | phaladeepika | 10 | v. 1 | fruitful_if_benefic_supported | Stated from the lagna *or the Moon*; the engine has one frame only. | `dep.nature`, `dep.aspects`, `dep.lord-of-house`, `dep.moon-frame` | 2 (engine completion) + 3 (knowledge) + beyond the MVP | deferred |
 | `card:PD.10.Lord5Or8.In7` | phaladeepika | 10 | v. 2 | wife_does_not_survive | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.lord-of-house`, `dep.condition-variables` | 2 (engine completion) + 4 (integration) | deferred |
 | `card:PD.10.Lord7.BeneficStrong` | phaladeepika | 10 | v. 6 | good_character_and_bears_children | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.lord-of-house`, `dep.condition-variables`, `dep.nature`, `dep.strength` | 2 (engine completion) + 3 (knowledge) + 4 (integration) | deferred |
 | `card:PD.10.Lord7.In5` | phaladeepika | 10 | v. 2 | loss_of_wife_or_sonless | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.lord-of-house`, `dep.condition-variables` | 2 (engine completion) + 4 (integration) | deferred |
 | `card:PD.10.Lord7.MaleficInOwn7` | phaladeepika | 10 | v. 6 | good_wife | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.lord-of-house`, `dep.condition-variables`, `dep.nature` | 2 (engine completion) + 3 (knowledge) + 4 (integration) | deferred |
-| `card:PD.10.Male.MoonSaturn7` | phaladeepika | 10 | v. 8 | wifeless_or_childless | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.native-sex` | 2 (engine completion) | deferred |
 | `card:PD.10.Marriage.Dasha7` | phaladeepika | 10 | v. 13 | timing_of_marriage | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.lord-of-house`, `dep.dasa`, `dep.aspects`, `dep.transit` | 2 (engine completion) + beyond the MVP | deferred |
 | `card:PD.10.Marriage.StrongerDasha` | phaladeepika | 10 | v. 14 | timing_of_marriage | The quote runs across a printed page break; the page anchor sits inside the span, as it does in the corpus. | `dep.lord-of-house`, `dep.condition-variables`, `dep.varga`, `dep.strength`, `dep.dasa`, `dep.transit` | 2 (engine completion) + 4 (integration) + beyond the MVP | deferred |
 | `card:PD.10.Marriage.TransitTrine` | phaladeepika | 10 | v. 12 | timing_of_marriage | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.lord-of-house`, `dep.transit`, `dep.varga` | 2 (engine completion) + beyond the MVP | deferred |
@@ -151,14 +155,8 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 | `card:PD.10.WifeDeprived.Lord7Afflicted` | phaladeepika | 10 | v. 4 | deprived_of_wife | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.lord-of-house`, `dep.condition-variables`, `dep.nature`, `dep.aspects` | 2 (engine completion) + 3 (knowledge) + 4 (integration) | deferred |
 | `card:PD.10.WifeDirection.Strongest` | phaladeepika | 10 | v. 12 | direction_of_wife_country | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.lord-of-house`, `dep.strength` | 2 (engine completion) | deferred |
 | `card:PD.10.WifeLoss.Houses2And7Afflicted` | phaladeepika | 10 | v. 7 | loss_of_wife | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.nature`, `dep.aspects` | 2 (engine completion) + 3 (knowledge) | deferred |
-| `card:PD.10.WifeLoss.JupiterCapricorn7` | phaladeepika | 10 | v. 3 (c) | loss_of_wife | The condition is exact and would fire correctly, but the quoted words state only the disposition. Firing it would put a bare condition in the report as thoug… | `dep.multi-span-quote` | 4 (integration) | deferred |
-| `card:PD.10.WifeLoss.List` | phaladeepika | 10 | v. 3 | loss_of_wife | The governing sentence of verses 3(a)-(e). Recorded so the five cards below have something to point at; it asserts nothing alone. | `dep.multi-span-quote` | 4 (integration) | deferred |
 | `card:PD.10.WifeLoss.Lord7Afflicted` | phaladeepika | 10 | v. 15 | loss_of_wife | Restates verse 4's rule with an added condition on the 7th house itself, and attributes it ('So say the men well versed'). Kept separate from PD.10.WifeDepri… | `dep.lord-of-house`, `dep.condition-variables`, `dep.dignity`, `dep.combust`, `dep.nature`, `dep.aspects` | 2 (engine completion) + 3 (knowledge) + 4 (integration) | deferred |
 | `card:PD.10.WifeLoss.MaleficsOr` | phaladeepika | 10 | v. 1 | death_of_wife | Three alternative conditions; the first — malefics in the 12th, 4th and 8th — is not expressible at all and is omitted from the condition rather than approxi… | `dep.nature`, `dep.aspects`, `dep.nature-occupancy` | 2 (engine completion) + 3 (knowledge) | deferred |
-| `card:PD.10.WifeLoss.MarsPisces7` | phaladeepika | 10 | v. 3 (e) | loss_of_wife | The condition is exact and would fire correctly, but the quoted words state only the disposition. Firing it would put a bare condition in the report as thoug… | `dep.multi-span-quote` | 4 (integration) | deferred |
-| `card:PD.10.WifeLoss.MercuryTaurus7` | phaladeepika | 10 | v. 3 (b) | loss_of_wife | The condition is exact and would fire correctly, but the quoted words state only the disposition. Firing it would put a bare condition in the report as thoug… | `dep.multi-span-quote` | 4 (integration) | deferred |
-| `card:PD.10.WifeLoss.SaturnPisces7` | phaladeepika | 10 | v. 3 (d) | loss_of_wife | The condition is exact and would fire correctly, but the quoted words state only the disposition. Firing it would put a bare condition in the report as thoug… | `dep.multi-span-quote` | 4 (integration) | deferred |
-| `card:PD.10.WifeLoss.VenusScorpio7` | phaladeepika | 10 | v. 3 (a) | loss_of_wife | The condition is exact and would fire correctly, but the quoted words state only the disposition. Firing it would put a bare condition in the report as thoug… | `dep.multi-span-quote` | 4 (integration) | deferred |
 | `card:PD.10.WifeRashi.Trine` | phaladeepika | 10 | v. 11 | wife_moon_sign | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.lord-of-house`, `dep.condition-variables`, `dep.varga`, `dep.ashtakavarga`, `dep.dignity` | 2 (engine completion) + 4 (integration) | deferred |
 | `card:PD.10.WomenCount.PlanetsIn7` | phaladeepika | 10 | v. 6 | number_of_women | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.occupant-count`, `dep.nature` | 2 (engine completion) + 3 (knowledge) | deferred |
 

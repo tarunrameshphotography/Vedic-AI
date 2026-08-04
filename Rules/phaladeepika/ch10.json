@@ -353,60 +353,6 @@
       "exclusions": []
     },
     {
-      "id": "PD.10.WifeLoss.List",
-      "schema": 1,
-      "source": {
-        "book_id": "phaladeepika",
-        "chapter": 10,
-        "verse": "3",
-        "page_anchor": "phaladeepika/p0111",
-        "tier": 1,
-        "quote": "The native loses his wife if there are any of the following disposition of planets present at brith:—",
-        "quote_display": "The native loses his wife if there are any of the following disposition of planets present at brith:—",
-        "quote_sha256": "8be789dda19a0c2cdc26a44d3bb3a9e3f93b63c11d22af286b1b1e744a3000e9",
-        "char_span": [
-          217255,
-          217356
-        ],
-        "span_trimmed": null
-      },
-      "scope": {
-        "frame": "lagna",
-        "varga": "D1"
-      },
-      "conditions": {
-        "all": [
-          {
-            "in_house": {
-              "graha": "any",
-              "house": 7
-            }
-          }
-        ]
-      },
-      "predicts": {
-        "domain": "marriage",
-        "subject": "wife",
-        "effect": "loss_of_wife"
-      },
-      "timing": "natal",
-      "weight": 1.0,
-      "specificity": 1,
-      "extraction": {
-        "method": "authored",
-        "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
-      },
-      "kind": "protasis",
-      "activation": "inert",
-      "note": "The governing sentence of verses 3(a)-(e). Recorded so the five cards below have something to point at; it asserts nothing alone.",
-      "exclusions": [],
-      "requires": [
-        "dep.multi-span-quote"
-      ]
-    },
-    {
       "id": "PD.10.WifeLoss.VenusScorpio7",
       "schema": 1,
       "source": {
@@ -415,14 +361,28 @@
         "verse": "3 (a)",
         "page_anchor": "phaladeepika/p0111",
         "tier": 1,
-        "quote": "(a) Venus in Scorpio in the 7th house.",
-        "quote_display": "(a) Venus in Scorpio in the 7th house.",
-        "quote_sha256": "8c29652ad1dc32e610dd99ed80f93509aab1d44caf41f27e85fb68b4e5300a06",
+        "quote": "The native loses his wife if there are any of the following disposition of planets present at brith:— […] (a) Venus in Scorpio in the 7th house.",
+        "quote_display": "The native loses his wife if there are any of the following disposition of planets present at brith:— […] (a) Venus in Scorpio in the 7th house.",
+        "quote_sha256": "13a6e2006e4cb9ee3c00400395c743ebd5d348aaa77d2f5dd100c01bd1150259",
         "char_span": [
-          217360,
-          217398
+          217255,
+          217356
         ],
-        "span_trimmed": null
+        "span_trimmed": null,
+        "spans": [
+          [
+            217255,
+            217356
+          ],
+          [
+            217360,
+            217398
+          ]
+        ],
+        "quote_parts": [
+          "The native loses his wife if there are any of the following disposition of planets present at brith:—",
+          "(a) Venus in Scorpio in the 7th house."
+        ]
       },
       "scope": {
         "frame": "lagna",
@@ -458,15 +418,8 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "The condition is exact and would fire correctly, but the quoted words state only the disposition. Firing it would put a bare condition in the report as though it were a prediction, so it waits for quotation across two spans.",
-      "exclusions": [],
-      "requires": [
-        "dep.multi-span-quote"
-      ],
-      "extends": [
-        "PD.10.WifeLoss.List"
-      ]
+      "note": "Quotes two spans: the governing sentence that states the effect, and the disposition it governs. They are printed as separate paragraphs, so neither says the whole rule alone.",
+      "exclusions": []
     },
     {
       "id": "PD.10.WifeLoss.MercuryTaurus7",
@@ -477,14 +430,28 @@
         "verse": "3 (b)",
         "page_anchor": "phaladeepika/p0111",
         "tier": 1,
-        "quote": "(b) Mercury in Taurus in the 7th house.",
-        "quote_display": "(b) Mercury in Taurus in the 7th house.",
-        "quote_sha256": "ce107ae124eda4165087e5329632e565c25034b86743e4d653ea1e7c53897224",
+        "quote": "The native loses his wife if there are any of the following disposition of planets present at brith:— […] (b) Mercury in Taurus in the 7th house.",
+        "quote_display": "The native loses his wife if there are any of the following disposition of planets present at brith:— […] (b) Mercury in Taurus in the 7th house.",
+        "quote_sha256": "4151536f76a571edea84450d48c2d0992558b38ef1588e3a2b2b10c95954454e",
         "char_span": [
-          217402,
-          217441
+          217255,
+          217356
         ],
-        "span_trimmed": null
+        "span_trimmed": null,
+        "spans": [
+          [
+            217255,
+            217356
+          ],
+          [
+            217402,
+            217441
+          ]
+        ],
+        "quote_parts": [
+          "The native loses his wife if there are any of the following disposition of planets present at brith:—",
+          "(b) Mercury in Taurus in the 7th house."
+        ]
       },
       "scope": {
         "frame": "lagna",
@@ -520,15 +487,8 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "The condition is exact and would fire correctly, but the quoted words state only the disposition. Firing it would put a bare condition in the report as though it were a prediction, so it waits for quotation across two spans.",
-      "exclusions": [],
-      "requires": [
-        "dep.multi-span-quote"
-      ],
-      "extends": [
-        "PD.10.WifeLoss.List"
-      ]
+      "note": "Quotes two spans: the governing sentence that states the effect, and the disposition it governs. They are printed as separate paragraphs, so neither says the whole rule alone.",
+      "exclusions": []
     },
     {
       "id": "PD.10.WifeLoss.JupiterCapricorn7",
@@ -539,14 +499,28 @@
         "verse": "3 (c)",
         "page_anchor": "phaladeepika/p0111",
         "tier": 1,
-        "quote": "(c) Jupiter in Capricorn in the 7th house.",
-        "quote_display": "(c) Jupiter in Capricorn in the 7th house.",
-        "quote_sha256": "6d645b028021018d94a32c9362792c83549793a3cb8936d4369979c2d076ba34",
+        "quote": "The native loses his wife if there are any of the following disposition of planets present at brith:— […] (c) Jupiter in Capricorn in the 7th house.",
+        "quote_display": "The native loses his wife if there are any of the following disposition of planets present at brith:— […] (c) Jupiter in Capricorn in the 7th house.",
+        "quote_sha256": "12a15d410e57a21130f92ac0f6dc42ac8c544edf7e36e29df7c9eea66428b433",
         "char_span": [
-          217445,
-          217487
+          217255,
+          217356
         ],
-        "span_trimmed": null
+        "span_trimmed": null,
+        "spans": [
+          [
+            217255,
+            217356
+          ],
+          [
+            217445,
+            217487
+          ]
+        ],
+        "quote_parts": [
+          "The native loses his wife if there are any of the following disposition of planets present at brith:—",
+          "(c) Jupiter in Capricorn in the 7th house."
+        ]
       },
       "scope": {
         "frame": "lagna",
@@ -582,15 +556,8 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "The condition is exact and would fire correctly, but the quoted words state only the disposition. Firing it would put a bare condition in the report as though it were a prediction, so it waits for quotation across two spans.",
-      "exclusions": [],
-      "requires": [
-        "dep.multi-span-quote"
-      ],
-      "extends": [
-        "PD.10.WifeLoss.List"
-      ]
+      "note": "Quotes two spans: the governing sentence that states the effect, and the disposition it governs. They are printed as separate paragraphs, so neither says the whole rule alone.",
+      "exclusions": []
     },
     {
       "id": "PD.10.WifeLoss.SaturnPisces7",
@@ -601,14 +568,28 @@
         "verse": "3 (d)",
         "page_anchor": "phaladeepika/p0111",
         "tier": 1,
-        "quote": "(d) Saturn in Pisces in the 7th house.",
-        "quote_display": "(d) Saturn in Pisces in the 7th house.",
-        "quote_sha256": "d2aa8291c3c922886f4d9f07f6c86cc1bcef67d73cf4aeab1f8fc95905b0e8e9",
+        "quote": "The native loses his wife if there are any of the following disposition of planets present at brith:— […] (d) Saturn in Pisces in the 7th house.",
+        "quote_display": "The native loses his wife if there are any of the following disposition of planets present at brith:— […] (d) Saturn in Pisces in the 7th house.",
+        "quote_sha256": "d002c1b51cee45c0fe81eab4d1363096b50c0df1c4ee98cce1c01502fb3c49f7",
         "char_span": [
-          217491,
-          217529
+          217255,
+          217356
         ],
-        "span_trimmed": null
+        "span_trimmed": null,
+        "spans": [
+          [
+            217255,
+            217356
+          ],
+          [
+            217491,
+            217529
+          ]
+        ],
+        "quote_parts": [
+          "The native loses his wife if there are any of the following disposition of planets present at brith:—",
+          "(d) Saturn in Pisces in the 7th house."
+        ]
       },
       "scope": {
         "frame": "lagna",
@@ -644,15 +625,8 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "The condition is exact and would fire correctly, but the quoted words state only the disposition. Firing it would put a bare condition in the report as though it were a prediction, so it waits for quotation across two spans.",
-      "exclusions": [],
-      "requires": [
-        "dep.multi-span-quote"
-      ],
-      "extends": [
-        "PD.10.WifeLoss.List"
-      ]
+      "note": "Quotes two spans: the governing sentence that states the effect, and the disposition it governs. They are printed as separate paragraphs, so neither says the whole rule alone.",
+      "exclusions": []
     },
     {
       "id": "PD.10.WifeLoss.MarsPisces7",
@@ -663,14 +637,28 @@
         "verse": "3 (e)",
         "page_anchor": "phaladeepika/p0111",
         "tier": 1,
-        "quote": "(e) Mars in Pisces in the 7th house.",
-        "quote_display": "(e) Mars in Pisces in the 7th house.",
-        "quote_sha256": "1ae19e03ba4c6e1c3008661944053698c3fb446eb57e2e6eb0c14f3d192d2fa4",
+        "quote": "The native loses his wife if there are any of the following disposition of planets present at brith:— […] (e) Mars in Pisces in the 7th house.",
+        "quote_display": "The native loses his wife if there are any of the following disposition of planets present at brith:— […] (e) Mars in Pisces in the 7th house.",
+        "quote_sha256": "94a508e81b654217ac35669833f5941d67f362ee2648ea6977be69f4a3df7334",
         "char_span": [
-          217533,
-          217569
+          217255,
+          217356
         ],
-        "span_trimmed": null
+        "span_trimmed": null,
+        "spans": [
+          [
+            217255,
+            217356
+          ],
+          [
+            217533,
+            217569
+          ]
+        ],
+        "quote_parts": [
+          "The native loses his wife if there are any of the following disposition of planets present at brith:—",
+          "(e) Mars in Pisces in the 7th house."
+        ]
       },
       "scope": {
         "frame": "lagna",
@@ -706,15 +694,8 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "The condition is exact and would fire correctly, but the quoted words state only the disposition. Firing it would put a bare condition in the report as though it were a prediction, so it waits for quotation across two spans.",
-      "exclusions": [],
-      "requires": [
-        "dep.multi-span-quote"
-      ],
-      "extends": [
-        "PD.10.WifeLoss.List"
-      ]
+      "note": "Quotes two spans: the governing sentence that states the effect, and the disposition it governs. They are printed as separate paragraphs, so neither says the whole rule alone.",
+      "exclusions": []
     },
     {
       "id": "PD.10.MarsSaturn.Cancer7",
@@ -1675,12 +1656,8 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "The condition is exactly expressible, but the verse applies only to a female nativity and the engine cannot tell. Firing it would assert a sex-specific rule for every chart.",
-      "exclusions": [],
-      "requires": [
-        "dep.native-sex"
-      ]
+      "note": "Applies only to a female nativity; scope.sex keeps it from firing on any other chart, and from firing at all when the record does not say.",
+      "exclusions": []
     },
     {
       "id": "PD.10.Male.MoonSaturn7",
@@ -1735,12 +1712,8 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
-      "exclusions": [],
-      "requires": [
-        "dep.native-sex"
-      ]
+      "note": "Applies only to a male nativity; scope.sex keeps it from firing on any other chart, and from firing at all when the record does not say.",
+      "exclusions": []
     },
     {
       "id": "PD.10.Widowhood.DebilitatedMalefics",

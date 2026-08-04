@@ -51,6 +51,11 @@ class BirthRecord:
     name: str = ""
     time_precision: str = "minute"   # second|minute|fiveminute|quarterhour|hour|unknown
     time_source: str = "unknown"     # certificate|hospital|family|memory|rectified|unknown
+    # Some classical rules are stated for a male nativity and others for a
+    # female one, and a few pairs differ in nothing else. Left unknown, such a
+    # rule cannot be applied at all -- which is the correct outcome, not a
+    # reason to guess.
+    sex: str = "unknown"             # male|female|unknown
 
 
 @dataclass(frozen=True)
@@ -273,6 +278,7 @@ def compute_chart(
             "offset_source": resolved.offset_source,
             "time_precision": rec.time_precision,
             "time_source": rec.time_source,
+            "sex": rec.sex,
             "warnings": list(resolved.warnings),
         },
         ascendant=houses.ascendant,
