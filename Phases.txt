@@ -1,0 +1,143 @@
+I actually think you're right. Looking at what you've built, there are two missing phases between "we have an engine" and "we have an astrologer."
+
+Right now your roadmap is roughly:
+
+✅ Phase 1 — Corpus & OCR
+✅ Phase 2 — Engine architecture + first vertical slice
+
+But there's a gap.
+
+Phase 3 — Classical Knowledge Extraction
+
+This is the biggest one.
+
+The AI doesn't become a great astrologer because it can calculate charts.
+
+It becomes one because it has thousands of verified rule cards.
+
+This phase is essentially building the "brain."
+
+Tasks include:
+
+Extract rule cards from every approved book.
+Categorize them:
+Yogas
+Planetary placements
+House effects
+Aspects
+Dashas
+Vargas
+Ashtakavarga
+Strength
+Transits
+Resolve duplicate rules.
+Keep contradictory rules rather than deleting them.
+Assign provenance and confidence.
+
+This is probably 60–70% of the project's intellectual work.
+
+Phase 4 — Knowledge Integration
+
+Once you have thousands of rules, the problem changes.
+
+Now the engine must answer:
+
+15 rules say wealth.
+4 rules say poverty.
+8 rules only apply after age 36.
+3 require an exalted dispositor.
+2 are cancelled by Neecha Bhanga.
+
+How do they interact?
+
+This phase builds:
+
+Rule conflicts
+Rule priority
+Rule weighting
+Rule cancellation
+Rule reinforcement
+Cross-book agreement
+
+This is where it starts reasoning more like an experienced astrologer instead of quoting isolated verses.
+
+Phase 5 — Consultation Intelligence
+
+This is the first version that feels like a human consultation.
+
+Instead of:
+
+Rule A
+
+Rule B
+
+Rule C
+
+it begins saying:
+
+"Career is one of the strongest themes in this chart because independent combinations from Brihat Jataka, Phaladeepika and BPHS all converge on the 10th house..."
+
+It should:
+
+group ideas
+avoid repetition
+explain contradictions
+cite every conclusion
+Phase 6 — Validation
+
+This is the phase most projects skip.
+
+You need to ask:
+
+Does the engine actually perform well?
+
+Build:
+
+hundreds of known charts
+celebrity charts
+historical charts
+anonymous volunteer charts
+
+Then measure:
+
+Which predictions were correct?
+Which books agree?
+Which books consistently over-predict?
+Which yogas almost never manifest?
+
+This is also where you can begin investigating the empirical questions you're interested in. Even then, be careful: a model finding patterns in retrospective data doesn't by itself establish that planets cause life outcomes. You'll need rigorous study design to separate genuine signal from coincidence, selection effects, and confirmation bias.
+
+Phase 7 — Research Platform
+
+This is where your project becomes unique.
+
+Instead of just answering questions, it becomes a laboratory.
+
+For example:
+
+Show every chart where Jupiter in the 10th produced financial success.
+
+or
+
+Compare BPHS and Phaladeepika on Saturn in the 8th.
+
+or
+
+Which yogas have the strongest historical support?
+
+This isn't just an astrologer anymore.
+
+It's an astrological research engine.
+
+Phase 8 — Expert System
+
+Finally:
+
+conversational memory
+iterative questioning
+uncertainty estimates
+explain why it reached a conclusion
+alternative interpretations
+"I don't know" when the sources are inconclusive
+
+At this point, you're no longer querying a rule engine—you'd be interacting with something much closer to a research assistant grounded in classical texts.
