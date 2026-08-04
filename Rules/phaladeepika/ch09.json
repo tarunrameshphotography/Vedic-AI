@@ -617,7 +617,7 @@
       "note": "Universally quantified over the twelve signs and over the cards of verses 1-12. It states that PD.09.Lagna.<S> also holds when the Moon occupies <S>. The engine cannot express one rule in terms of another, so the knowledge is recorded here rather than encoded as twelve cards whose quoted words would contradict their conditions.",
       "exclusions": [],
       "requires": [
-        "rule-transfer mechanism: apply another card's claim under a different condition"
+        "dep.rule-transfer"
       ]
     },
     {
@@ -670,8 +670,8 @@
       "note": "Universally quantified over the grahas. `graha: \"any\"` is a sentinel, not a body, and matches no fact key.",
       "exclusions": [],
       "requires": [
-        "dignity fact extraction",
-        "condition variables (the verse says 'a planet', not a named one)"
+        "dep.dignity",
+        "dep.condition-variables"
       ]
     },
     {
@@ -724,9 +724,9 @@
       "note": "Universally quantified over the grahas. `graha: \"any\"` is a sentinel, not a body, and matches no fact key.",
       "exclusions": [],
       "requires": [
-        "dignity fact extraction",
-        "condition variables (the verse says 'a planet', not a named one)",
-        "vimshottari dasa"
+        "dep.dignity",
+        "dep.condition-variables",
+        "dep.dasa"
       ]
     },
     {
@@ -779,8 +779,8 @@
       "note": "Universally quantified over the grahas. `graha: \"any\"` is a sentinel, not a body, and matches no fact key.",
       "exclusions": [],
       "requires": [
-        "dignity fact extraction",
-        "condition variables (the verse says 'a planet', not a named one)"
+        "dep.dignity",
+        "dep.condition-variables"
       ]
     },
     {
@@ -833,9 +833,9 @@
       "note": "Universally quantified over the grahas. `graha: \"any\"` is a sentinel, not a body, and matches no fact key.",
       "exclusions": [],
       "requires": [
-        "dignity fact extraction",
-        "condition variables (the verse says 'a planet', not a named one)",
-        "vimshottari dasa"
+        "dep.dignity",
+        "dep.condition-variables",
+        "dep.dasa"
       ]
     },
     {
@@ -888,9 +888,9 @@
       "note": "Universally quantified over the grahas. `graha: \"any\"` is a sentinel, not a body, and matches no fact key.",
       "exclusions": [],
       "requires": [
-        "dignity fact extraction",
-        "condition variables (the verse says 'a planet', not a named one)",
-        "vimshottari dasa"
+        "dep.dignity",
+        "dep.condition-variables",
+        "dep.dasa"
       ]
     },
     {
@@ -945,8 +945,8 @@
       "note": "Dr. G. S. Kapoor (translator) contradicting Mantreswara's verse 14: exaltation alone does not deliver the verse's effect. Recorded as a separate tier-2 card so both authorities stand independently.",
       "exclusions": [],
       "requires": [
-        "dignity fact extraction",
-        "condition variables"
+        "dep.dignity",
+        "dep.condition-variables"
       ],
       "contradicts": [
         "PD.09.Dignity.Exalted"
@@ -1001,9 +1001,9 @@
       "note": "Universally quantified over the grahas.",
       "exclusions": [],
       "requires": [
-        "combustion fact extraction",
-        "condition variables",
-        "vimshottari dasa"
+        "dep.combust",
+        "dep.condition-variables",
+        "dep.dasa"
       ]
     },
     {
@@ -1056,8 +1056,8 @@
       "note": "Printed unnumbered after verse 19, as its own paragraph.",
       "exclusions": [],
       "requires": [
-        "dignity fact extraction",
-        "condition variables"
+        "dep.dignity",
+        "dep.condition-variables"
       ]
     },
     {
@@ -1110,9 +1110,9 @@
       "note": "A modifier, not a claim: it overrides the dignity another rule is keyed on. `retrograde` is derivable, but only for a named graha.",
       "exclusions": [],
       "requires": [
-        "dignity fact extraction",
-        "condition variables",
-        "dignity-override mechanism"
+        "dep.dignity",
+        "dep.condition-variables",
+        "dep.dignity-override"
       ]
     },
     {
@@ -1165,9 +1165,9 @@
       "note": "Printed as the closing sentence of verse 20.",
       "exclusions": [],
       "requires": [
-        "vargottama fact extraction (D-1/D-9 agreement)",
-        "condition variables",
-        "dignity-override mechanism"
+        "dep.vargottama",
+        "dep.condition-variables",
+        "dep.dignity-override"
       ]
     }
   ]

@@ -142,13 +142,28 @@ def main() -> int:
         for pred, ids in sorted(pending.items()):
             print(f"  {pred:18s} {len(ids):3d} card(s)  e.g. {ids[0]}")
 
+    # --- the deferred-knowledge registry ------------------------------------
+    # Encoding a chapter is only half of Phase 3; the other half is saying what
+    # was left out and why. An unrecorded deferral is a verification failure,
+    # not a note for later.
+    sys.path.insert(0, str(ROOT / "Rules" / "tools"))
+    from backlog import build as build_backlog                    # noqa: E402
+
+    entries, _, _, resolvable, available, backlog_problems, _ = build_backlog()
+    problems.extend(backlog_problems)
+    print(f"\nbacklog entries ......... {len(entries)} "
+          f"({available and len(available) or 0} available now)")
+    if resolvable:
+        print(f"  newly unblocked ....... {len(resolvable)}")
+
     if problems:
         print(f"\nFAIL: {len(problems)} problem(s)")
         for p in problems:
             print(f"  - {p}")
         return 1
 
-    print("\nOK: every quote is byte-exact in the corpus and every hash matches.")
+    print("\nOK: every quote is byte-exact in the corpus, every hash matches, "
+          "and every deferred item is recorded.")
     return 0
 
 

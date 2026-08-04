@@ -194,6 +194,36 @@ def test_inert_cards_declare_what_they_are_waiting_for(cards):
             assert c.raw.get("note"), f"{c.id} is inert with no explanation"
 
 
+def test_nothing_is_silently_deferred():
+    """The deferred-knowledge registry must account for every gap.
+
+    Three kinds of gap are found by machine, not by memory: inert cards read
+    out of the store, paragraphs of an encoded chapter that no card quotes, and
+    chapters the manifest does not declare extracted. Any one of them without
+    a registry entry fails here.
+    """
+    sys.path.insert(0, str(ROOT / "Rules" / "tools"))
+    from backlog import build as build_backlog
+
+    entries, _, _, _, _, problems, _ = build_backlog()
+    assert not problems, problems
+    assert entries, "the backlog built empty, which means it is not looking"
+
+
+def test_backlog_report_is_current(tmp_path):
+    """Reports/PHASE3_BACKLOG.md is generated; a stale one is a lie."""
+    sys.path.insert(0, str(ROOT / "Rules" / "tools"))
+    import backlog
+
+    entries, registry, state, resolvable, available, _, counts = backlog.build()
+    fresh = backlog.render(registry, entries, state, resolvable,
+                           available, counts) + "\n"
+    on_disk = (ROOT / "Reports" / "PHASE3_BACKLOG.md").read_text(encoding="utf-8")
+    assert fresh == on_disk, (
+        "Reports/PHASE3_BACKLOG.md is out of date; "
+        "run: python Rules/tools/backlog.py --write")
+
+
 def test_a_tampered_quote_is_detected(cards, tmp_path):
     """The verifier must catch a card that no longer matches the corpus."""
     doc = json.loads((RULES / "phaladeepika" / "ch08.json").read_text(encoding="utf-8"))

@@ -56,10 +56,10 @@
       "note": "Stated from the lagna *or the Moon*; the engine has one frame only.",
       "exclusions": [],
       "requires": [
-        "benefic/malefic classification of the grahas",
-        "graha aspect calculation",
-        "lordship (which graha rules which house)",
-        "the Moon as an alternative reference frame"
+        "dep.nature",
+        "dep.aspects",
+        "dep.lord-of-house",
+        "dep.moon-frame"
       ]
     },
     {
@@ -124,9 +124,9 @@
       "note": "Three alternative conditions; the first — malefics in the 12th, 4th and 8th — is not expressible at all and is omitted from the condition rather than approximated.",
       "exclusions": [],
       "requires": [
-        "benefic/malefic classification of the grahas",
-        "graha aspect calculation",
-        "malefic occupancy of a named house"
+        "dep.nature",
+        "dep.aspects",
+        "dep.nature-occupancy"
       ]
     },
     {
@@ -179,8 +179,8 @@
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
       "exclusions": [],
       "requires": [
-        "lordship (which graha rules which house)",
-        "condition variables (the verse names a role, not a graha)"
+        "dep.lord-of-house",
+        "dep.condition-variables"
       ]
     },
     {
@@ -239,8 +239,8 @@
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
       "exclusions": [],
       "requires": [
-        "lordship (which graha rules which house)",
-        "condition variables (the verse names a role, not a graha)"
+        "dep.lord-of-house",
+        "dep.condition-variables"
       ]
     },
     {
@@ -293,9 +293,9 @@
       "note": "The Moon-in-5th leaf is exact; 'weak' and the malefic occupancy of three houses are not expressible, so the card must not fire on the placement alone.",
       "exclusions": [],
       "requires": [
-        "benefic/malefic classification of the grahas",
-        "planetary strength (Stage 4)",
-        "malefic occupancy of the 1st, 7th and 12th"
+        "dep.nature",
+        "dep.strength",
+        "dep.nature-occupancy"
       ]
     },
     {
@@ -403,7 +403,7 @@
       "note": "The governing sentence of verses 3(a)-(e). Recorded so the five cards below have something to point at; it asserts nothing alone.",
       "exclusions": [],
       "requires": [
-        "multi-span quotation: this sentence states the effect for the five dispositions printed beneath it, each a separate paragraph"
+        "dep.multi-span-quote"
       ]
     },
     {
@@ -462,7 +462,7 @@
       "note": "The condition is exact and would fire correctly, but the quoted words state only the disposition. Firing it would put a bare condition in the report as though it were a prediction, so it waits for quotation across two spans.",
       "exclusions": [],
       "requires": [
-        "multi-span quotation: the effect is printed in the governing sentence above, not in this paragraph"
+        "dep.multi-span-quote"
       ],
       "extends": [
         "PD.10.WifeLoss.List"
@@ -524,7 +524,7 @@
       "note": "The condition is exact and would fire correctly, but the quoted words state only the disposition. Firing it would put a bare condition in the report as though it were a prediction, so it waits for quotation across two spans.",
       "exclusions": [],
       "requires": [
-        "multi-span quotation: the effect is printed in the governing sentence above, not in this paragraph"
+        "dep.multi-span-quote"
       ],
       "extends": [
         "PD.10.WifeLoss.List"
@@ -586,7 +586,7 @@
       "note": "The condition is exact and would fire correctly, but the quoted words state only the disposition. Firing it would put a bare condition in the report as though it were a prediction, so it waits for quotation across two spans.",
       "exclusions": [],
       "requires": [
-        "multi-span quotation: the effect is printed in the governing sentence above, not in this paragraph"
+        "dep.multi-span-quote"
       ],
       "extends": [
         "PD.10.WifeLoss.List"
@@ -648,7 +648,7 @@
       "note": "The condition is exact and would fire correctly, but the quoted words state only the disposition. Firing it would put a bare condition in the report as though it were a prediction, so it waits for quotation across two spans.",
       "exclusions": [],
       "requires": [
-        "multi-span quotation: the effect is printed in the governing sentence above, not in this paragraph"
+        "dep.multi-span-quote"
       ],
       "extends": [
         "PD.10.WifeLoss.List"
@@ -710,7 +710,7 @@
       "note": "The condition is exact and would fire correctly, but the quoted words state only the disposition. Firing it would put a bare condition in the report as though it were a prediction, so it waits for quotation across two spans.",
       "exclusions": [],
       "requires": [
-        "multi-span quotation: the effect is printed in the governing sentence above, not in this paragraph"
+        "dep.multi-span-quote"
       ],
       "extends": [
         "PD.10.WifeLoss.List"
@@ -849,10 +849,10 @@
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
       "exclusions": [],
       "requires": [
-        "lordship (which graha rules which house)",
-        "condition variables (the verse names a role, not a graha)",
-        "benefic/malefic classification of the grahas",
-        "graha aspect calculation"
+        "dep.lord-of-house",
+        "dep.condition-variables",
+        "dep.nature",
+        "dep.aspects"
       ]
     },
     {
@@ -927,7 +927,7 @@
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
       "exclusions": [],
       "requires": [
-        "benefic/malefic classification of the grahas"
+        "dep.nature"
       ]
     },
     {
@@ -993,8 +993,8 @@
       "note": "The quote runs across a printed page break; the page anchor sits inside the span, as it does in the corpus.",
       "exclusions": [],
       "requires": [
-        "divisional charts beyond D-1",
-        "graha aspect calculation"
+        "dep.varga",
+        "dep.aspects"
       ]
     },
     {
@@ -1053,7 +1053,7 @@
       "note": "The 7th *from Venus and the Moon*, not from the lagna. The condition shown uses the lagna frame and is therefore wrong for this verse; it must not fire.",
       "exclusions": [],
       "requires": [
-        "houses counted from a graha rather than from the lagna"
+        "dep.graha-frame"
       ]
     },
     {
@@ -1106,8 +1106,8 @@
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
       "exclusions": [],
       "requires": [
-        "hermaphrodite (napunsaka) classification of the grahas",
-        "occupant counting"
+        "dep.graha-class",
+        "dep.occupant-count"
       ]
     },
     {
@@ -1160,10 +1160,10 @@
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
       "exclusions": [],
       "requires": [
-        "lordship (which graha rules which house)",
-        "condition variables (the verse names a role, not a graha)",
-        "dual (dwiswabhava) sign classification",
-        "divisional charts beyond D-1"
+        "dep.lord-of-house",
+        "dep.condition-variables",
+        "dep.sign-class",
+        "dep.varga"
       ]
     },
     {
@@ -1216,8 +1216,8 @@
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
       "exclusions": [],
       "requires": [
-        "lordship (which graha rules which house)",
-        "occupant counting"
+        "dep.lord-of-house",
+        "dep.occupant-count"
       ]
     },
     {
@@ -1270,8 +1270,8 @@
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
       "exclusions": [],
       "requires": [
-        "occupant counting",
-        "benefic/malefic classification of the grahas"
+        "dep.occupant-count",
+        "dep.nature"
       ]
     },
     {
@@ -1324,10 +1324,10 @@
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
       "exclusions": [],
       "requires": [
-        "lordship (which graha rules which house)",
-        "condition variables (the verse names a role, not a graha)",
-        "benefic/malefic classification of the grahas",
-        "planetary strength (Stage 4)"
+        "dep.lord-of-house",
+        "dep.condition-variables",
+        "dep.nature",
+        "dep.strength"
       ]
     },
     {
@@ -1380,9 +1380,9 @@
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
       "exclusions": [],
       "requires": [
-        "lordship (which graha rules which house)",
-        "condition variables (the verse names a role, not a graha)",
-        "benefic/malefic classification of the grahas"
+        "dep.lord-of-house",
+        "dep.condition-variables",
+        "dep.nature"
       ]
     },
     {
@@ -1437,8 +1437,8 @@
         "the benefic is lord of the 6th, 8th or 12th house"
       ],
       "requires": [
-        "benefic/malefic classification of the grahas",
-        "lordship (which graha rules which house)"
+        "dep.nature",
+        "dep.lord-of-house"
       ]
     },
     {
@@ -1497,8 +1497,8 @@
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
       "exclusions": [],
       "requires": [
-        "benefic/malefic classification of the grahas",
-        "graha aspect calculation"
+        "dep.nature",
+        "dep.aspects"
       ]
     },
     {
@@ -1557,9 +1557,9 @@
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
       "exclusions": [],
       "requires": [
-        "benefic/malefic classification of the grahas",
-        "graha aspect calculation",
-        "a second nativity (the wife's chart)"
+        "dep.nature",
+        "dep.aspects",
+        "dep.second-nativity"
       ]
     },
     {
@@ -1618,8 +1618,8 @@
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
       "exclusions": [],
       "requires": [
-        "benefic/malefic classification of the grahas",
-        "graha aspect calculation"
+        "dep.nature",
+        "dep.aspects"
       ]
     },
     {
@@ -1679,7 +1679,7 @@
       "note": "The condition is exactly expressible, but the verse applies only to a female nativity and the engine cannot tell. Firing it would assert a sex-specific rule for every chart.",
       "exclusions": [],
       "requires": [
-        "the native's sex, which the birth record does not carry"
+        "dep.native-sex"
       ]
     },
     {
@@ -1739,7 +1739,7 @@
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
       "exclusions": [],
       "requires": [
-        "the native's sex, which the birth record does not carry"
+        "dep.native-sex"
       ]
     },
     {
@@ -1792,10 +1792,10 @@
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
       "exclusions": [],
       "requires": [
-        "the native's sex, which the birth record does not carry",
-        "benefic/malefic classification of the grahas",
-        "dignity fact extraction",
-        "malefic occupancy of the 2nd, 7th and 8th"
+        "dep.native-sex",
+        "dep.nature",
+        "dep.dignity",
+        "dep.nature-occupancy"
       ]
     },
     {
@@ -1848,11 +1848,11 @@
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
       "exclusions": [],
       "requires": [
-        "lordship (which graha rules which house)",
-        "condition variables (the verse names a role, not a graha)",
-        "planetary strength (Stage 4)",
-        "even/odd sign classification",
-        "combustion fact extraction"
+        "dep.lord-of-house",
+        "dep.condition-variables",
+        "dep.strength",
+        "dep.sign-class",
+        "dep.combust"
       ]
     },
     {
@@ -1905,11 +1905,11 @@
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
       "exclusions": [],
       "requires": [
-        "lordship (which graha rules which house)",
-        "condition variables (the verse names a role, not a graha)",
-        "graha aspect calculation",
-        "benefic/malefic classification of the grahas",
-        "kendra/trikona house classification"
+        "dep.lord-of-house",
+        "dep.condition-variables",
+        "dep.aspects",
+        "dep.nature",
+        "dep.house-class"
       ]
     },
     {
@@ -1963,11 +1963,11 @@
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
       "exclusions": [],
       "requires": [
-        "lordship (which graha rules which house)",
-        "condition variables (the verse names a role, not a graha)",
-        "divisional charts beyond D-1",
-        "ashtakavarga",
-        "dignity fact extraction"
+        "dep.lord-of-house",
+        "dep.condition-variables",
+        "dep.varga",
+        "dep.ashtakavarga",
+        "dep.dignity"
       ]
     },
     {
@@ -2020,8 +2020,8 @@
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
       "exclusions": [],
       "requires": [
-        "lordship (which graha rules which house)",
-        "planetary strength (Stage 4)"
+        "dep.lord-of-house",
+        "dep.strength"
       ]
     },
     {
@@ -2075,9 +2075,9 @@
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
       "exclusions": [],
       "requires": [
-        "lordship (which graha rules which house)",
-        "transit calculation",
-        "divisional charts beyond D-1"
+        "dep.lord-of-house",
+        "dep.transit",
+        "dep.varga"
       ]
     },
     {
@@ -2131,10 +2131,10 @@
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
       "exclusions": [],
       "requires": [
-        "lordship (which graha rules which house)",
-        "vimshottari dasa",
-        "graha aspect calculation",
-        "transit calculation"
+        "dep.lord-of-house",
+        "dep.dasa",
+        "dep.aspects",
+        "dep.transit"
       ]
     },
     {
@@ -2188,12 +2188,12 @@
       "note": "The quote runs across a printed page break; the page anchor sits inside the span, as it does in the corpus.",
       "exclusions": [],
       "requires": [
-        "lordship (which graha rules which house)",
-        "condition variables (the verse names a role, not a graha)",
-        "divisional charts beyond D-1",
-        "planetary strength (Stage 4)",
-        "vimshottari dasa",
-        "transit calculation"
+        "dep.lord-of-house",
+        "dep.condition-variables",
+        "dep.varga",
+        "dep.strength",
+        "dep.dasa",
+        "dep.transit"
       ]
     },
     {
@@ -2246,12 +2246,12 @@
       "note": "Restates verse 4's rule with an added condition on the 7th house itself, and attributes it ('So say the men well versed'). Kept separate from PD.10.WifeDeprived.Lord7Afflicted: the book says it twice, so the store does too.",
       "exclusions": [],
       "requires": [
-        "lordship (which graha rules which house)",
-        "condition variables (the verse names a role, not a graha)",
-        "dignity fact extraction",
-        "combustion fact extraction",
-        "benefic/malefic classification of the grahas",
-        "graha aspect calculation"
+        "dep.lord-of-house",
+        "dep.condition-variables",
+        "dep.dignity",
+        "dep.combust",
+        "dep.nature",
+        "dep.aspects"
       ]
     }
   ]

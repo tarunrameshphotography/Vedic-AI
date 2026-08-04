@@ -1,0 +1,748 @@
+{
+  "schema": 1,
+  "note": "The dependency catalogue and the hand-authored half of the deferred-knowledge registry. Deferred rule cards are NOT listed here -- they are derived from the store at report time, so a card cannot be inert without appearing in the backlog. See Rules/tools/backlog.py.",
+  "dependencies": {
+    "dep.lord-of-house": {
+      "title": "lord_of_house extractor",
+      "kind": "predicate",
+      "predicate": "lord_of_house",
+      "detail": "Which graha rules which house, given the lagna. Needs the sign-lordship table from Phaladeepika ch. 1 v. 6, which is itself deferred.",
+      "phase": "2 (engine completion)"
+    },
+    "dep.aspects": {
+      "title": "aspect engine",
+      "kind": "predicate",
+      "predicate": "aspects",
+      "detail": "Graha drishti, including the special aspects of Mars, Jupiter and Saturn.",
+      "phase": "2 (engine completion)"
+    },
+    "dep.conjunct": {
+      "title": "conjunction extractor",
+      "kind": "predicate",
+      "predicate": "conjunct",
+      "detail": "Two grahas in the same sign or within an orb; the classics mean the same bhava.",
+      "phase": "2 (engine completion)"
+    },
+    "dep.hemmed-between": {
+      "title": "hemming (papakartari / subhakartari) extractor",
+      "kind": "predicate",
+      "predicate": "hemmed_between",
+      "detail": "A graha or house flanked by malefics or benefics in the 2nd and 12th from it.",
+      "phase": "2 (engine completion)"
+    },
+    "dep.dignity": {
+      "title": "dignity extractor",
+      "kind": "predicate",
+      "predicate": "dignity",
+      "detail": "Exaltation, debilitation, own, friendly, neutral and inimical sign. Needs the exaltation and friendship tables, which are in Phaladeepika ch. 2 and deferred.",
+      "phase": "2 (engine completion)"
+    },
+    "dep.combust": {
+      "title": "combustion extractor",
+      "kind": "predicate",
+      "predicate": "combust",
+      "detail": "Asta -- proximity to the Sun within the per-graha orb.",
+      "phase": "2 (engine completion)"
+    },
+    "dep.vargottama": {
+      "title": "vargottama extractor",
+      "kind": "predicate",
+      "predicate": "vargottama",
+      "detail": "Same sign in D-1 and D-9. Blocked on the varga engine.",
+      "phase": "2 (engine completion)"
+    },
+    "dep.varga": {
+      "title": "varga (divisional chart) engine",
+      "kind": "calculator",
+      "predicate": "in_varga_sign",
+      "detail": "D-9 at minimum; the MVP scope names D-1, D-3 and D-9.",
+      "phase": "2 (engine completion)"
+    },
+    "dep.nature": {
+      "title": "benefic/malefic classification",
+      "kind": "calculator",
+      "detail": "Natural and temporal benefic/malefic status of each graha. Doctrine, not arithmetic -- it must come from rule cards, and the chapters that state it are deferred.",
+      "phase": "3 (knowledge)"
+    },
+    "dep.nature-occupancy": {
+      "title": "occupancy of a house by grahas of a given nature",
+      "kind": "predicate",
+      "detail": "\"Malefics in the 12th, 4th and 8th\" -- a quantified statement over the occupants of a named house. Needs both dep.nature and quantification over occupants.",
+      "phase": "2 (engine completion)"
+    },
+    "dep.occupant-count": {
+      "title": "occupant counting",
+      "kind": "predicate",
+      "detail": "\"As many women as the number of planets in the 7th.\" The claim is a count, not a category, and neither the condition language nor the claim schema can express one.",
+      "phase": "2 (engine completion)"
+    },
+    "dep.strength": {
+      "title": "planetary and house strength (Stage 4)",
+      "kind": "calculator",
+      "detail": "Shadbala and bhava bala. Sourceable from Phaladeepika ch. 4, which is deferred.",
+      "phase": "2 (engine completion)"
+    },
+    "dep.dasa": {
+      "title": "vimshottari dasa engine",
+      "kind": "calculator",
+      "detail": "Dasa and antardasa periods. Sourceable from Phaladeepika ch. 19.",
+      "phase": "2 (engine completion)"
+    },
+    "dep.transit": {
+      "title": "transit (gochara) calculation",
+      "kind": "calculator",
+      "detail": "Positions at a date other than birth, and the machinery to state a claim about a future window.",
+      "phase": "beyond the MVP"
+    },
+    "dep.ashtakavarga": {
+      "title": "ashtakavarga",
+      "kind": "calculator",
+      "detail": "Bhinnashtakavarga and sarvashtakavarga. Sourceable from Phaladeepika ch. 23-24.",
+      "phase": "2 (engine completion)"
+    },
+    "dep.sign-class": {
+      "title": "sign classification",
+      "kind": "reference",
+      "detail": "Odd/even, movable/fixed/dual, and the rest. Reference doctrine from Phaladeepika ch. 1, deferred.",
+      "phase": "3 (knowledge)"
+    },
+    "dep.house-class": {
+      "title": "house classification",
+      "kind": "reference",
+      "detail": "Kendra, trikona, upachaya, dusthana. Reference doctrine from Phaladeepika ch. 1, deferred.",
+      "phase": "3 (knowledge)"
+    },
+    "dep.graha-class": {
+      "title": "graha classification",
+      "kind": "reference",
+      "detail": "Male/female/hermaphrodite and similar categories. Reference doctrine from Phaladeepika ch. 2, deferred.",
+      "phase": "3 (knowledge)"
+    },
+    "dep.condition-variables": {
+      "title": "variables in the condition language",
+      "kind": "schema",
+      "detail": "The verse names a role -- \"a planet\", \"the lord of the 7th\" -- not a graha. Every condition leaf today takes a literal. Without variables such a rule can only be approximated or instantiated nine times.",
+      "phase": "4 (integration)"
+    },
+    "dep.multi-span-quote": {
+      "title": "quotation across two spans",
+      "kind": "schema",
+      "detail": "A card carries one contiguous char_span. Where a governing sentence states the effect for several dispositions printed as separate paragraphs, no single span holds both.",
+      "phase": "4 (integration)"
+    },
+    "dep.moon-frame": {
+      "title": "the Moon as an alternative reference frame",
+      "kind": "schema",
+      "detail": "\"From the lagna or the Moon.\" Chandra-lagna is named out of scope for the MVP.",
+      "phase": "beyond the MVP"
+    },
+    "dep.graha-frame": {
+      "title": "houses counted from a graha",
+      "kind": "schema",
+      "detail": "\"The 7th from Venus and the Moon.\" Requires a per-graha house frame, not just the lagna and the Moon.",
+      "phase": "4 (integration)"
+    },
+    "dep.dignity-override": {
+      "title": "dignity-override mechanism",
+      "kind": "schema",
+      "detail": "A rule that changes the dignity another rule is keyed on, rather than asserting anything itself. Retrogression and vargottama both do this.",
+      "phase": "4 (integration)"
+    },
+    "dep.rule-transfer": {
+      "title": "rule-transfer mechanism",
+      "kind": "schema",
+      "detail": "A rule that asserts another rule's claim under a different condition, without restating it.",
+      "phase": "4 (integration)"
+    },
+    "dep.native-sex": {
+      "title": "the native's sex in the birth record",
+      "kind": "schema",
+      "detail": "Several rules differ only by the sex of the native. BirthRecord does not carry it, so the engine cannot tell which of a pair applies.",
+      "phase": "2 (engine completion)"
+    },
+    "dep.second-nativity": {
+      "title": "a second nativity",
+      "kind": "schema",
+      "detail": "Rules that read the spouse's chart alongside the native's. The pipeline handles one chart.",
+      "phase": "beyond the MVP"
+    },
+    "dep.adjudication": {
+      "title": "Stage 7 adjudication",
+      "kind": "engine",
+      "detail": "Conflict resolution, weighting and precedence between rules that disagree.",
+      "phase": "4 (integration)"
+    },
+    "dep.manual-verification": {
+      "title": "human verification of the encoding",
+      "kind": "process",
+      "detail": "Cards are machine-checked against the corpus but no human has signed off on the reading of the rule. Every card's extraction.verified_by is still null.",
+      "phase": "3 (knowledge)"
+    },
+    "dep.none": {
+      "title": "no dependency -- simply not yet done",
+      "kind": "process",
+      "detail": "Deferred by ordering, not by any missing capability. Available to encode now.",
+      "phase": "3 (knowledge)"
+    },
+    "dep.upagraha": {
+      "title": "upagraha computation",
+      "kind": "calculator",
+      "detail": "Gulika, Mandi and the other sub-planets. Sourceable from Phaladeepika ch. 25.",
+      "phase": "2 (engine completion)"
+    }
+  },
+  "entries": [
+    {
+      "id": "chapter:phaladeepika.01",
+      "kind": "chapter",
+      "book": "phaladeepika",
+      "chapter": 1,
+      "locus": "whole chapter - Information and characteristic features of the Signs and the houses",
+      "what": "sign and house characteristics, the Kalapurusha body map, and the sign-lordship table",
+      "reason": "Reference chapter, not rule-dense: mostly attribute tables rather than conditional rules. It is also the source of the lordship table that dep.lord-of-house needs, so encoding it unblocks 12 cards.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:phaladeepika.02",
+      "kind": "chapter",
+      "book": "phaladeepika",
+      "chapter": 2,
+      "locus": "whole chapter - Information and Characteristic features of planets",
+      "what": "graha attributes, natural benefic/malefic status, exaltation and friendship tables",
+      "reason": "Reference chapter, not rule-dense. Source of dep.nature and dep.graha-class, and of the tables dep.dignity needs.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:phaladeepika.03",
+      "kind": "chapter",
+      "book": "phaladeepika",
+      "chapter": 3,
+      "locus": "whole chapter - Divisions of a sign",
+      "what": "varga definitions and their computation",
+      "reason": "Reference chapter, not rule-dense. Defines the divisions dep.varga must compute.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:phaladeepika.04",
+      "kind": "chapter",
+      "book": "phaladeepika",
+      "chapter": 4,
+      "locus": "whole chapter - The various kinds of Strengths of Planets and Houses",
+      "what": "shadbala and bhava bala doctrine",
+      "reason": "Computational doctrine rather than predictive rules. Source of dep.strength.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:phaladeepika.05",
+      "kind": "chapter",
+      "book": "phaladeepika",
+      "chapter": 5,
+      "locus": "whole chapter - Source of livelihood",
+      "what": "rules for profession and means of living",
+      "reason": "Rule-dense and encodable now; deferred by ordering only.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:phaladeepika.06",
+      "kind": "chapter",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "whole chapter - YOGAS",
+      "what": "the general yogas - the largest single block of doctrine in the book",
+      "reason": "Rule-dense and encodable now; deferred by ordering only. Nearly every yoga is stated in lordship and conjunction terms, so most cards will be inert until dep.lord-of-house and dep.conjunct exist.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:phaladeepika.07",
+      "kind": "chapter",
+      "book": "phaladeepika",
+      "chapter": 7,
+      "locus": "whole chapter - RAJA YOGAS",
+      "what": "the raja yoga combinations",
+      "reason": "Rule-dense and encodable now; deferred by ordering only. Same lordship dependency as ch. 6 at execution time.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:phaladeepika.11",
+      "kind": "chapter",
+      "book": "phaladeepika",
+      "chapter": 11,
+      "locus": "whole chapter - Female Horoscopy",
+      "what": "rules read specifically from a woman's chart",
+      "reason": "Encodable now, but every card would be inert on delivery: the whole chapter is scoped to the native's sex, which the birth record does not carry.",
+      "requires": [
+        "dep.native-sex"
+      ],
+      "phase": "2 (engine completion)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:phaladeepika.12",
+      "kind": "chapter",
+      "book": "phaladeepika",
+      "chapter": 12,
+      "locus": "whole chapter - Matters relating to the birth of Children (The 5th house)",
+      "what": "progeny rules",
+      "reason": "Rule-dense and encodable now; deferred by ordering only.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:phaladeepika.13",
+      "kind": "chapter",
+      "book": "phaladeepika",
+      "chapter": 13,
+      "locus": "whole chapter - Determination of Longevity",
+      "what": "ayurdaya - the longevity calculations",
+      "reason": "Deferred by ordering. The chapter contains competing longevity methods that disagree by construction, so it needs adjudication before its cards can be weighed against each other.",
+      "requires": [
+        "dep.adjudication"
+      ],
+      "phase": "4 (integration)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:phaladeepika.14",
+      "kind": "chapter",
+      "book": "phaladeepika",
+      "chapter": 14,
+      "locus": "whole chapter - Diseases, Death, Past and Future births",
+      "what": "disease, manner of death, and janma doctrine",
+      "reason": "Rule-dense and encodable now; deferred by ordering only. Presentation of death-related material is governed by the sensitive-content policy and needs sign-off before any of it can reach a reader.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:phaladeepika.15",
+      "kind": "chapter",
+      "book": "phaladeepika",
+      "chapter": 15,
+      "locus": "whole chapter - Assessment of houses",
+      "what": "how to judge the strength and condition of a bhava",
+      "reason": "Rule-dense and encodable now; deferred by ordering only. Feeds Stage 7 weighting.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:phaladeepika.16",
+      "kind": "chapter",
+      "book": "phaladeepika",
+      "chapter": 16,
+      "locus": "whole chapter - General Effects of the Twelve Houses",
+      "what": "the general significations of each house",
+      "reason": "Rule-dense and encodable now; deferred by ordering only. It is the source that would replace HOUSE_LABEL_UNSOURCED in the renderer, which today carries house labels the corpus has not supplied.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:phaladeepika.17",
+      "kind": "chapter",
+      "book": "phaladeepika",
+      "chapter": 17,
+      "locus": "whole chapter - Exit from the world",
+      "what": "circumstances of death",
+      "reason": "Rule-dense and encodable now; deferred by ordering. Same sensitive-content gate as ch. 14.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:phaladeepika.18",
+      "kind": "chapter",
+      "book": "phaladeepika",
+      "chapter": 18,
+      "locus": "whole chapter - Aspects of conjunction of two planets",
+      "what": "effects of each pair of grahas in conjunction",
+      "reason": "Encodable now; every card would be inert until dep.conjunct exists.",
+      "requires": [
+        "dep.conjunct"
+      ],
+      "phase": "2 (engine completion)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:phaladeepika.19",
+      "kind": "chapter",
+      "book": "phaladeepika",
+      "chapter": 19,
+      "locus": "whole chapter - Dasas and their effects",
+      "what": "vimshottari dasa computation and general effects",
+      "reason": "Deferred by ordering. Source of dep.dasa, and it carries an internal dispute about dasa balance that must be encoded as a disagreement rather than resolved.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:phaladeepika.20",
+      "kind": "chapter",
+      "book": "phaladeepika",
+      "chapter": 20,
+      "locus": "whole chapter - Effects of Dasas of the lords of houses and their Antar Dasas",
+      "what": "dasa and antardasa effects by house lord",
+      "reason": "Encodable now; every card would be inert until both dep.dasa and dep.lord-of-house exist.",
+      "requires": [
+        "dep.dasa",
+        "dep.lord-of-house"
+      ],
+      "phase": "2 (engine completion)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:phaladeepika.21",
+      "kind": "chapter",
+      "book": "phaladeepika",
+      "chapter": 21,
+      "locus": "whole chapter - Divisions of a sign",
+      "what": "a second treatment of the vargas",
+      "reason": "Reference chapter, not rule-dense. Overlaps ch. 3 and will need duplicate review against it.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:phaladeepika.22",
+      "kind": "chapter",
+      "book": "phaladeepika",
+      "chapter": 22,
+      "locus": "whole chapter - Kalachakra dasa",
+      "what": "the Kalachakra dasa system",
+      "reason": "Named out of scope for the MVP. Requires its own dasa calculator distinct from vimshottari.",
+      "requires": [
+        "dep.dasa"
+      ],
+      "phase": "beyond the MVP",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:phaladeepika.23",
+      "kind": "chapter",
+      "book": "phaladeepika",
+      "chapter": 23,
+      "locus": "whole chapter - Ashtakavarga",
+      "what": "bhinna- and sarvashtakavarga construction and use",
+      "reason": "Computational doctrine. Source of dep.ashtakavarga. The corpus records a printed chart here that totals 44 bindus where it must total 48; the defect is preserved and must be carried into any card that quotes it.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:phaladeepika.24",
+      "kind": "chapter",
+      "book": "phaladeepika",
+      "chapter": 24,
+      "locus": "whole chapter - Effects of Ashtakavarga according to Horasara",
+      "what": "a second authority's ashtakavarga effects",
+      "reason": "Encodable now; inert until dep.ashtakavarga exists. Attributed to a different authority than ch. 23, so the two must stand independently.",
+      "requires": [
+        "dep.ashtakavarga"
+      ],
+      "phase": "2 (engine completion)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:phaladeepika.25",
+      "kind": "chapter",
+      "book": "phaladeepika",
+      "chapter": 25,
+      "locus": "whole chapter - Calculation of the positions of Gulika and other Upagrahas and their effects",
+      "what": "upagraha computation and effects",
+      "reason": "Encodable now; inert until the upagrahas are computed.",
+      "requires": [
+        "dep.upagraha"
+      ],
+      "phase": "2 (engine completion)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:phaladeepika.26",
+      "kind": "chapter",
+      "book": "phaladeepika",
+      "chapter": 26,
+      "locus": "whole chapter - Effects of transits of the various planets and constellations",
+      "what": "gochara doctrine",
+      "reason": "Encodable now; every card would be inert until dep.transit exists.",
+      "requires": [
+        "dep.transit"
+      ],
+      "phase": "beyond the MVP",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:phaladeepika.27",
+      "kind": "chapter",
+      "book": "phaladeepika",
+      "chapter": 27,
+      "locus": "whole chapter - Yogas leading to ascetism",
+      "what": "sanyasa yogas",
+      "reason": "Rule-dense and encodable now; deferred by ordering only.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:phaladeepika.28",
+      "kind": "chapter",
+      "book": "phaladeepika",
+      "chapter": 28,
+      "locus": "whole chapter - Concluding Chapter",
+      "what": "the author's colophon and closing remarks",
+      "reason": "Narrative, not doctrine. Will be reviewed once for any rule hidden in the closing remarks, then written off.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "passage:phaladeepika.08.p012",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 8,
+      "locus": "v. 8 Notes (p.93)",
+      "what": "the translator's qualification of the Sun in the 10th: the good effects hold only for eight of the twelve lagnas",
+      "reason": "Tier-2 commentary that narrows a tier-1 card already in the store (PD.08.Sun.10). It is an exclusion on an existing rule, and the card schema records exclusions as prose only - nothing evaluates them.",
+      "requires": [
+        "dep.lord-of-house",
+        "dep.adjudication"
+      ],
+      "phase": "4 (integration)",
+      "status": "deferred",
+      "paragraphs": [
+        12
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.08.p037",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 8,
+      "locus": "v. 15 Note (p.96)",
+      "what": "Manglik Dosha: Mars in the 7th, its effect by sex of the native, and the belief that it cancels when both partners are Manglik",
+      "reason": "Substantial tier-2 doctrine, deferred rather than skipped. It is scoped by the native's sex, states a cancellation rule the engine cannot express, and reads a second nativity.",
+      "requires": [
+        "dep.native-sex",
+        "dep.second-nativity",
+        "dep.adjudication"
+      ],
+      "phase": "4 (integration)",
+      "status": "deferred",
+      "paragraphs": [
+        37
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.08.p057",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 8,
+      "locus": "v. 22 and v. 27 Notes (p.98)",
+      "what": "the translator on why Jupiter in the lagna outranks Venus there, argued from aspect counts",
+      "reason": "Tier-2 commentary whose reasoning is entirely about aspects. Encodable as a claim only once aspects are computed; until then a card would quote an argument the engine cannot follow.",
+      "requires": [
+        "dep.aspects"
+      ],
+      "phase": "2 (engine completion)",
+      "status": "deferred",
+      "paragraphs": [
+        57,
+        71
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.08.p085",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 8,
+      "locus": "v. 31 and v. 33 Notes (p.100)",
+      "what": "the translator on Saturn in the lagna (citing Brihat Jataka) and on Saturn in the 9th",
+      "reason": "Tier-2 commentary. The first quotes a second book from inside this one - it must be encoded as Phaladeepika reporting Brihat Jataka, not as a Brihat Jataka card, and that attribution has no representation in the card schema.",
+      "requires": [
+        "dep.adjudication"
+      ],
+      "phase": "4 (integration)",
+      "status": "deferred",
+      "paragraphs": [
+        85,
+        94
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.08.p095",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 8,
+      "locus": "p.100-101",
+      "what": "a transcribed horoscope of Swami Ramakrishna Paramahamsa and its lagna note",
+      "reason": "Tier-3 apparatus: a worked example, not a rule. Recorded as deliberately excluded, not pending.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        95,
+        99
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.08.p131",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 8,
+      "locus": "v. 34-35 and their Notes (p.104-105)",
+      "what": "the Bhava-Madhya proximity rule - how a graha's distance from the house's midpoint scales the effect it produces",
+      "reason": "Real doctrine, and the reason it is still unencoded: verse 34 with its worked examples and verse 35 appear to state opposite relationships between proximity to the Bhava-Madhya and strength of effect. Both must be encoded and the disagreement preserved, which needs adjudication. Para 132 also runs across a page break mid-sentence.",
+      "requires": [
+        "dep.adjudication",
+        "dep.multi-span-quote"
+      ],
+      "phase": "4 (integration)",
+      "status": "deferred",
+      "paragraphs": [
+        131,
+        132,
+        134,
+        135,
+        136
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.08.p137",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 8,
+      "locus": "p.105 closing Notes",
+      "what": "a general caution that these effects are modified by lordship, aspect, conjunction and dignity, and a pointer to another book",
+      "reason": "The caution is method guidance rather than a rule with a condition; the pointer is a publisher's advertisement. Both written off as tier-3 apparatus.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        137,
+        138
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.08.p139",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 8,
+      "locus": "p.105 colophon",
+      "what": "the chapter's closing formula",
+      "reason": "Colophon. Not doctrine.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        139
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.09.p016",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 9,
+      "locus": "p.107-109",
+      "what": "two transcribed horoscopes, their lagna notes, a worked example and an aside on Abraham Lincoln",
+      "reason": "Tier-3 apparatus: worked examples, not rules. Recorded as deliberately excluded, not pending.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        16,
+        19,
+        21,
+        23,
+        25,
+        26
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.10.p038",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 10,
+      "locus": "p.114 colophon",
+      "what": "the chapter's closing formula",
+      "reason": "Colophon. Not doctrine.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        38
+      ]
+    },
+    {
+      "id": "concept:manual-verification",
+      "kind": "concept",
+      "book": "phaladeepika",
+      "chapter": 0,
+      "locus": "the whole store",
+      "what": "human sign-off that each card reads its verse correctly",
+      "reason": "Every card is machine-checked byte-exact against the corpus, but extraction.verified_by is null on all of them. The machine can prove a card quotes the book faithfully; it cannot prove the condition encodes what the verse means.",
+      "requires": [
+        "dep.manual-verification"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    }
+  ]
+}
