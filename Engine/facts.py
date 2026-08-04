@@ -24,6 +24,12 @@ VOCABULARY: dict[str, tuple[str, ...]] = {
     "in_nakshatra": ("graha", "nakshatra"),
     "retrograde": ("graha",),
     "lagna_sign": ("sign",),
+    # Declared because rule cards now require them, not because the extractor
+    # can produce them yet. The books lead and the engine follows: a card whose
+    # predicate is undeliverable is inert and reported, never silently true.
+    "dignity": ("graha", "dignity"),
+    "combust": ("graha",),
+    "vargottama": ("graha",),
 }
 
 

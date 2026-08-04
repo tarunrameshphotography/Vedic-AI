@@ -125,9 +125,11 @@ def run(
         # Stage 7 is not implemented in this slice: with a single chapter there
         # is nothing to adjudicate between. Claims are ordered deterministically
         # by house then body so the report reads in a stable order.
+        # A claim with no house of its own -- one keyed on the ascendant's sign
+        # -- sorts to 0 and leads, matching how Stage 10 groups it.
         order = {b: i for i, b in enumerate(chart.bodies)}
         claims.sort(key=lambda c: (
-            _house(c) or 99, order.get(_body(c), 99)
+            _house(c) or 0, order.get(_body(c), 99)
         ))
 
         # Stage 7c/8. Synthesis measures recurrence across the activated

@@ -11,10 +11,13 @@
   "commentary_marker": "Notes",
   "commentary_attribution": "Dr. G. S. Kapoor (translator)",
   "commentary_tier": 2,
-  "chapters_extracted": [8],
+  "chapters_extracted": [8, 9],
   "known_defects": [
     "Chapter 8, printed p.96: the section heading 'JUPITER' is run onto the end of Mercury's 12th-house paragraph. Corpus preserved as printed; card PD.08.Mercury.12 tightens its span and records why.",
     "Chapter 8, verses 34-35: the Notes worked example and verse 35 appear to disagree about whether proximity to the Bhava-Madhya increases or decreases a placement's effect. Not yet extracted; needs adjudication.",
-    "Chapter 8, printed p.99-101: a transcribed horoscope chart and an editorial aside about Swami Ramakrishna Paramahamsa sit inside the Saturn section. Both are tier-3 apparatus and are excluded from rule extraction."
+    "Chapter 8, printed p.99-101: a transcribed horoscope chart and an editorial aside about Swami Ramakrishna Paramahamsa sit inside the Saturn section. Both are tier-3 apparatus and are excluded from rule extraction.",
+    "Chapter 9, printed p.108-109: two transcribed horoscope charts and a worked example ending in an aside about Abraham Lincoln. Tier-3 apparatus, excluded from rule extraction.",
+    "Chapter 9, verse 14 vs its Notes: Mantreswara says an exalted planet makes the native a ruler of the Earth; the translator's Notes say plainly that it does not. Both are encoded, as PD.09.Dignity.Exalted (tier 1) and PD.09.Dignity.Exalted.Notes (tier 2), and the disagreement is preserved rather than resolved.",
+    "Chapter 9, verses 13-20: universally quantified over the grahas ('a planet', not a named one) or over other rules. The condition language has no variables, so these eleven cards are recorded and marked inert. The knowledge is encoded and verified; it does not yet fire."
   ]
 }

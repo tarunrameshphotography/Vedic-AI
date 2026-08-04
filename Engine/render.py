@@ -198,21 +198,32 @@ def consultation(
     for s in sentences:
         if s.part != "rules":
             continue
+        # A card keyed on the ascendant's sign rather than on a body in a house
+        # has no house of its own. Grouping it at 0 renders it first, which is
+        # also where a reading starts. Dropping it -- which is what happened
+        # before chapter 9 gave the store its first such card -- would let an
+        # activated rule vanish from the report while Stage 9 still passed.
         h = _house_of(by_id[s.claim_ids[0]])
-        if h is not None:
-            grouped.setdefault(h, []).append(s)
+        grouped.setdefault(0 if h is None else h, []).append(s)
 
     for house in sorted(grouped):
-        A(f"### {HOUSE_LABEL_UNSOURCED[house]} — {chart.houses['signs'][house - 1]}")
+        if house == 0:
+            A(f"### The Ascendant — {chart.ascendant_sign}")
+        else:
+            A(f"### {HOUSE_LABEL_UNSOURCED[house]} — {chart.houses['signs'][house - 1]}")
         A("")
         for s in grouped[house]:
             claim = by_id[s.claim_ids[0]]
             body = _body_of(claim)
             b = chart.bodies.get(body)
             p = claim.passage
-            A(f"**{body}** in {b.sign} {_dms(b.deg_in_sign)}"
-              f"{', retrograde' if b and b.retrograde else ''} "
-              f"→ house {house}")
+            if b is None:
+                A(f"**Ascendant** in {chart.ascendant_sign} "
+                  f"{_dms(chart.ascendant % 30)}")
+            else:
+                A(f"**{body}** in {b.sign} {_dms(b.deg_in_sign)}"
+                  f"{', retrograde' if b.retrograde else ''} "
+                  f"→ house {house}")
             A("")
             A(f"> {s.text}")
             A("")

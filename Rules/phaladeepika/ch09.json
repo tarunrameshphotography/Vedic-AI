@@ -1,0 +1,1174 @@
+{
+  "book_id": "phaladeepika",
+  "chapter": 9,
+  "cards": [
+    {
+      "id": "PD.09.Lagna.Aries",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 9,
+        "verse": "1",
+        "page_anchor": "phaladeepika/p0105",
+        "tier": 1,
+        "quote": "If the Ascendant falls in Aries, the native will have round eyes. His knees will be weak and he will have aggressive temperament but he will be afraid of water. He will be active and will always be moving about. His limbs will be bruised. He will eat sparigly and will be passionate. He will speak falsehoods.",
+        "quote_display": "If the Ascendant falls in Aries, the native will have round eyes. His knees will be weak and he will have aggressive temperament but he will be afraid of water. He will be active and will always be moving about. His limbs will be bruised. He will eat sparigly and will be passionate. He will speak falsehoods.",
+        "quote_sha256": "853bdebd9b2f057db331aa08810ffc6f7e440d2d3a10b80899a3b99a985a34ec",
+        "char_span": [
+          204988,
+          205297
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lagna_sign": {
+              "sign": "Aries"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Ascendant",
+        "sign": "Aries"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.09.Lagna.Taurus",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 9,
+        "verse": "2",
+        "page_anchor": "phaladeepika/p0105",
+        "tier": 1,
+        "quote": "The person born with Taurus as the Ascendant, will have plumply thighs and a big face. He will be engaged in agricultural ventures. He will be happy in the middle and last portions of his life. He will be fond of enjoying young women. He will be of sacrificing and forgiving nature, will be capable of endowing hardships and will possess cattle. He will have marks or moles on the back, face and sides.",
+        "quote_display": "The person born with Taurus as the Ascendant, will have plumply thighs and a big face. He will be engaged in agricultural ventures. He will be happy in the middle and last portions of his life. He will be fond of enjoying young women. He will be of sacrificing and forgiving nature, will be capable of endowing hardships and will possess cattle. He will have marks or moles on the back, face and sides.",
+        "quote_sha256": "12284a689345d8226e7bafbd08cce1944a19f2836ed1bee68c822004f252466e",
+        "char_span": [
+          205304,
+          205706
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lagna_sign": {
+              "sign": "Taurus"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Ascendant",
+        "sign": "Taurus"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.09.Lagna.Gemini",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 9,
+        "verse": "3",
+        "page_anchor": "phaladeepika/p0105",
+        "tier": 1,
+        "quote": "When the Ascedant is Gemini, the native will have balck eyes and curly hair. He will enjoy association with women and will have thick neck and many friends. He will be intelligent and mind reader. His nose will be elevated and he will be fond of music and dancing. He will like to remain indoors.",
+        "quote_display": "When the Ascedant is Gemini, the native will have balck eyes and curly hair. He will enjoy association with women and will have thick neck and many friends. He will be intelligent and mind reader. His nose will be elevated and he will be fond of music and dancing. He will like to remain indoors.",
+        "quote_sha256": "dfb60472631a52ba40011e2af644a360e8fdbfe6f8c17694baf6798ba32ae6b5",
+        "char_span": [
+          205713,
+          206009
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lagna_sign": {
+              "sign": "Gemini"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Ascendant",
+        "sign": "Gemini"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.09.Lagna.Cancer",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 9,
+        "verse": "4",
+        "page_anchor": "phaladeepika/p0105",
+        "tier": 1,
+        "quote": "Person with Cancer as the Ascendant will be henpacked. He will have a thick neck and will be fond of making friendships. He will possess many houses and will be wealthy. His waist will be thick but he will be short statured. He will be intelligent and fond of watery sports like swimming etc. He will walk fast and will have few sons. He will be crooked.",
+        "quote_display": "Person with Cancer as the Ascendant will be henpacked. He will have a thick neck and will be fond of making friendships. He will possess many houses and will be wealthy. His waist will be thick but he will be short statured. He will be intelligent and fond of watery sports like swimming etc. He will walk fast and will have few sons. He will be crooked.",
+        "quote_sha256": "f2004fa3a724ce33451a385a4f565ba744c128492b05a68a11e61dd3f670acc5",
+        "char_span": [
+          206016,
+          206370
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lagna_sign": {
+              "sign": "Cancer"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Ascendant",
+        "sign": "Cancer"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.09.Lagna.Leo",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 9,
+        "verse": "5",
+        "page_anchor": "phaladeepika/p0105",
+        "tier": 1,
+        "quote": "A person whose Ascendant is Leo will have reddish eyes, large chin and broad face. He will be arrogant, Powerful valiant, firm minded and obedient to his mother. He will be fond of roaming about in forests and hills. He will get angry on trifles.",
+        "quote_display": "A person whose Ascendant is Leo will have reddish eyes, large chin and broad face. He will be arrogant, Powerful valiant, firm minded and obedient to his mother. He will be fond of roaming about in forests and hills. He will get angry on trifles.",
+        "quote_sha256": "69970bc3b0250f084e3dee501918f34cc5c99a3404267f9453fa4682a8c730a9",
+        "char_span": [
+          206377,
+          206623
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lagna_sign": {
+              "sign": "Leo"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Ascendant",
+        "sign": "Leo"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.09.Lagna.Virgo",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 9,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0105",
+        "tier": 1,
+        "quote": "The person born with Virgo as the Ascendant, will be truthful and will speak kindly. His eyes will be full of bashfulness and will be immediately liked by others. He will be well versed in Shastras and will take advantage of other people's houses and wealth. His arms and shoulders will be drooped and will possess few sons.",
+        "quote_display": "The person born with Virgo as the Ascendant, will be truthful and will speak kindly. His eyes will be full of bashfulness and will be immediately liked by others. He will be well versed in Shastras and will take advantage of other people's houses and wealth. His arms and shoulders will be drooped and will possess few sons.",
+        "quote_sha256": "47477ba7cbb3a30f05c9eb099f24555d3f878d686a0a5fa6a3033c0a41fc0c7d",
+        "char_span": [
+          206630,
+          206954
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lagna_sign": {
+              "sign": "Virgo"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Ascendant",
+        "sign": "Virgo"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.09.Lagna.Libra",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 9,
+        "verse": "7",
+        "page_anchor": "phaladeepika/p0106",
+        "tier": 1,
+        "quote": "If the Ascendant be Libra, the person born will rever gods, and Brahmins but he will be active and will possess a lean and thin body. He will be tall in stature, deft in trading, patient and intent on being first. He will often have two names. He will have few children and he will be fond of wandering. He will be brave, merciless and impartial In his arguments.",
+        "quote_display": "If the Ascendant be Libra, the person born will rever gods, and Brahmins but he will be active and will possess a lean and thin body. He will be tall in stature, deft in trading, patient and intent on being first. He will often have two names. He will have few children and he will be fond of wandering. He will be brave, merciless and impartial In his arguments.",
+        "quote_sha256": "8d06c73a218c2f0e918a044692b7287add1918e1748c610cd11087ea2c503a22",
+        "char_span": [
+          206995,
+          207358
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lagna_sign": {
+              "sign": "Libra"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Ascendant",
+        "sign": "Libra"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.09.Lagna.Scorpio",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 9,
+        "verse": "8",
+        "page_anchor": "phaladeepika/p0106",
+        "tier": 1,
+        "quote": "The person with Scorpio Ascendant at birth, will have rounded thighs and knees. His chest will be broad and eyes expansive. He will suffer from diseases from an early age. He will beseperated from his parents and preceptor. He will indulge In cruel actions and will be honoured by the king. His feet will bear marks of lotus.",
+        "quote_display": "The person with Scorpio Ascendant at birth, will have rounded thighs and knees. His chest will be broad and eyes expansive. He will suffer from diseases from an early age. He will beseperated from his parents and preceptor. He will indulge In cruel actions and will be honoured by the king. His feet will bear marks of lotus.",
+        "quote_sha256": "074377f254095792f9b78dfa6a5ef3f0056487ed7eec520b1a6c39d9d81d2403",
+        "char_span": [
+          207365,
+          207690
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lagna_sign": {
+              "sign": "Scorpio"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Ascendant",
+        "sign": "Scorpio"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.09.Lagna.Sagittarius",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 9,
+        "verse": "9",
+        "page_anchor": "phaladeepika/p0106",
+        "tier": 1,
+        "quote": "The person with Sagittarius Ascendant at birth — His face and neck will be long and his nose and ears will be big. He will always keep himself engaged in some work or the other. He will be eloquent in speech and self sacrificing. He will have a short stature. He will be courageous and will overcome his enemies. He will be wealthy and favourite of the king. He can be won over by persuation and kindness.",
+        "quote_display": "The person with Sagittarius Ascendant at birth — His face and neck will be long and his nose and ears will be big. He will always keep himself engaged in some work or the other. He will be eloquent in speech and self sacrificing. He will have a short stature. He will be courageous and will overcome his enemies. He will be wealthy and favourite of the king. He can be won over by persuation and kindness.",
+        "quote_sha256": "cb119c872b74791a9e03049c3aa9a0aa1072ab47d37f16b837bdbe6e13a0d6ae",
+        "char_span": [
+          207697,
+          208102
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lagna_sign": {
+              "sign": "Sagittarius"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Ascendant",
+        "sign": "Sagittarius"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.09.Lagna.Capricorn",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 9,
+        "verse": "10",
+        "page_anchor": "phaladeepika/p0106",
+        "tier": 1,
+        "quote": "When Capricorn is the Ascendant at birth, his lower limbs will be weak. He will have vitality. He will accept other people's advice but will be lazy by nature. He will indulge in affairs with old women of the forbidden category. He will be a religious hypocrite. He will be fond of wandering. He will be fortunate but shameless. He will suffer from wind-diseases.",
+        "quote_display": "When Capricorn is the Ascendant at birth, his lower limbs will be weak. He will have vitality. He will accept other people's advice but will be lazy by nature. He will indulge in affairs with old women of the forbidden category. He will be a religious hypocrite. He will be fond of wandering. He will be fortunate but shameless. He will suffer from wind-diseases.",
+        "quote_sha256": "56e586bba67ed4fd3a4395953d09559a6b7f8e89d7a59ae3fd4017385db72031",
+        "char_span": [
+          208110,
+          208473
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lagna_sign": {
+              "sign": "Capricorn"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Ascendant",
+        "sign": "Capricorn"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.09.Lagna.Aquarius",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 9,
+        "verse": "11",
+        "page_anchor": "phaladeepika/p0106",
+        "tier": 1,
+        "quote": "The person at whose birth Aquarius is the Ascendant, will commit sinful actions secretly. He will have little wealth, will be greedy and eager to usurp or utilise other people's money. He will endure long marches on road and will be clever in causing hurt to others. He will have a body like a water pot. He will be fond of perfumes and flowers. His financial position will be of a fluctuating nature.",
+        "quote_display": "The person at whose birth Aquarius is the Ascendant, will commit sinful actions secretly. He will have little wealth, will be greedy and eager to usurp or utilise other people's money. He will endure long marches on road and will be clever in causing hurt to others. He will have a body like a water pot. He will be fond of perfumes and flowers. His financial position will be of a fluctuating nature.",
+        "quote_sha256": "d259381de0ad426773fed76b9c009a8075e4ae690b73fc2ffd8c96372776580f",
+        "char_span": [
+          208481,
+          208882
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lagna_sign": {
+              "sign": "Aquarius"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Ascendant",
+        "sign": "Aquarius"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.09.Lagna.Pisces",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 9,
+        "verse": "12",
+        "page_anchor": "phaladeepika/p0106",
+        "tier": 1,
+        "quote": "The Pisces ascendant native will have a beautiful and symmetrical body. His eyes will be very attractive. He will be learned, grateful, satisfied with his wife and fortune. He will have financial gains from selling produce of the seas. He will overcome his enemies.",
+        "quote_display": "The Pisces ascendant native will have a beautiful and symmetrical body. His eyes will be very attractive. He will be learned, grateful, satisfied with his wife and fortune. He will have financial gains from selling produce of the seas. He will overcome his enemies.",
+        "quote_sha256": "e4258a31f30a94d5c6e3a3bae159e84802f5dbdf66c267d38895b205b3ceb28d",
+        "char_span": [
+          208890,
+          209155
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lagna_sign": {
+              "sign": "Pisces"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "Ascendant",
+        "sign": "Pisces"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.09.MoonSign.Transfer",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 9,
+        "verse": "13",
+        "page_anchor": "phaladeepika/p0107",
+        "tier": 1,
+        "quote": "After examining the native place, form, colour etc., of any particular sign, its effects should be judiciously assessed. Whatever have been declared the effects arising out of a particular Ascendant, the same should also be said to come to pass, if the sign happens to be occupied by the Moon.",
+        "quote_display": "After examining the native place, form, colour etc., of any particular sign, its effects should be judiciously assessed. Whatever have been declared the effects arising out of a particular Ascendant, the same should also be said to come to pass, if the sign happens to be occupied by the Moon.",
+        "quote_sha256": "8f6dce76222e4d461702506a996fe0a54928305e5e9e0c0bb80f5838995f8b7c",
+        "char_span": [
+          209197,
+          209490
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_sign": {
+              "graha": "Moon",
+              "sign": "any"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "meta",
+        "subject": "Moon",
+        "effect": "ascendant_effects_transfer_to_moon_sign"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "meta",
+      "activation": "inert",
+      "note": "Universally quantified over the twelve signs and over the cards of verses 1-12. It states that PD.09.Lagna.<S> also holds when the Moon occupies <S>. The engine cannot express one rule in terms of another, so the knowledge is recorded here rather than encoded as twelve cards whose quoted words would contradict their conditions.",
+      "exclusions": [],
+      "requires": [
+        "rule-transfer mechanism: apply another card's claim under a different condition"
+      ]
+    },
+    {
+      "id": "PD.09.Dignity.Exalted",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 9,
+        "verse": "14",
+        "page_anchor": "phaladeepika/p0107",
+        "tier": 1,
+        "quote": "If at a birth a planet be in his sign of exaltation, the person concerned will become a ruler of the Earth and will receive praises from the kings. He will possess valuable treasures. He will be equipped with excellent qualities and will shine like king Vikramaditya in his administrative policies, fame, valour generosity, courage and dexterity.",
+        "quote_display": "If at a birth a planet be in his sign of exaltation, the person concerned will become a ruler of the Earth and will receive praises from the kings. He will possess valuable treasures. He will be equipped with excellent qualities and will shine like king Vikramaditya in his administrative policies, fame, valour generosity, courage and dexterity.",
+        "quote_sha256": "0c7ccae79fe0942e686d09f39e0be5874150d5acf498b4555093d0506991423f",
+        "char_span": [
+          209498,
+          209844
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "dignity": {
+              "graha": "any",
+              "dignity": "exalted"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "any_graha",
+        "dignity": "exalted"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Universally quantified over the grahas. `graha: \"any\"` is a sentinel, not a body, and matches no fact key.",
+      "exclusions": [],
+      "requires": [
+        "dignity fact extraction",
+        "condition variables (the verse says 'a planet', not a named one)"
+      ]
+    },
+    {
+      "id": "PD.09.Dignity.OwnSign",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 9,
+        "verse": "15",
+        "page_anchor": "phaladeepika/p0109",
+        "tier": 1,
+        "quote": "Should a planet occupy his own sign in a birthchart, the native will during the dasa of such a planet acquire power and strength through the beneficience of a wealthy and high dignitary and he will himself achieve that status. He will remain in his residence, acquire a new house and lands capable of producing every kind of crops. He will receive reverence from the people and may even get back his lost articles.",
+        "quote_display": "Should a planet occupy his own sign in a birthchart, the native will during the dasa of such a planet acquire power and strength through the beneficience of a wealthy and high dignitary and he will himself achieve that status. He will remain in his residence, acquire a new house and lands capable of producing every kind of crops. He will receive reverence from the people and may even get back his lost articles.",
+        "quote_sha256": "344cdde63d33da8d1a8546fe8ba4244e9e03d1458135be409e37f19f1a8d2157",
+        "char_span": [
+          214198,
+          214612
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "dignity": {
+              "graha": "any",
+              "dignity": "own"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "any_graha",
+        "dignity": "own"
+      },
+      "timing": "dasa",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Universally quantified over the grahas. `graha: \"any\"` is a sentinel, not a body, and matches no fact key.",
+      "exclusions": [],
+      "requires": [
+        "dignity fact extraction",
+        "condition variables (the verse says 'a planet', not a named one)",
+        "vimshottari dasa"
+      ]
+    },
+    {
+      "id": "PD.09.Dignity.Friend",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 9,
+        "verse": "16",
+        "page_anchor": "phaladeepika/p0109",
+        "tier": 1,
+        "quote": "When a planet happens to be in the house of a friend at birth, the person concerned will achieve success through the help of his friends in all his ventures. His new friends will be blessed with good sons, wealth, grains and other fortunes and will get full support and cooperation from the people.",
+        "quote_display": "When a planet happens to be in the house of a friend at birth, the person concerned will achieve success through the help of his friends in all his ventures. His new friends will be blessed with good sons, wealth, grains and other fortunes and will get full support and cooperation from the people.",
+        "quote_sha256": "fdf8a982ed42dd096dde60c799fcdbfb7c1393117b1e698b1df77d30c3f40be7",
+        "char_span": [
+          214620,
+          214918
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "dignity": {
+              "graha": "any",
+              "dignity": "friend"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "any_graha",
+        "dignity": "friend"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Universally quantified over the grahas. `graha: \"any\"` is a sentinel, not a body, and matches no fact key.",
+      "exclusions": [],
+      "requires": [
+        "dignity fact extraction",
+        "condition variables (the verse says 'a planet', not a named one)"
+      ]
+    },
+    {
+      "id": "PD.09.Dignity.Inimical",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 9,
+        "verse": "17",
+        "page_anchor": "phaladeepika/p0109",
+        "tier": 1,
+        "quote": "If a planet gets posited in an inimical sign, the person born will have an evil bent of mind. He will live in other people's houses and will eat their food. He will be without any means of livelihood and will be oppressed by enemies. Even his friends will become his enemies in the dasa of such a planet.",
+        "quote_display": "If a planet gets posited in an inimical sign, the person born will have an evil bent of mind. He will live in other people's houses and will eat their food. He will be without any means of livelihood and will be oppressed by enemies. Even his friends will become his enemies in the dasa of such a planet.",
+        "quote_sha256": "880d926557b80081a8d57f071ab727f1ebb29f5b796e1bec677758f0cf4b3534",
+        "char_span": [
+          214926,
+          215230
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "dignity": {
+              "graha": "any",
+              "dignity": "inimical"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "any_graha",
+        "dignity": "inimical"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Universally quantified over the grahas. `graha: \"any\"` is a sentinel, not a body, and matches no fact key.",
+      "exclusions": [],
+      "requires": [
+        "dignity fact extraction",
+        "condition variables (the verse says 'a planet', not a named one)",
+        "vimshottari dasa"
+      ]
+    },
+    {
+      "id": "PD.09.Dignity.Debilitated",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 9,
+        "verse": "18",
+        "page_anchor": "phaladeepika/p0109",
+        "tier": 1,
+        "quote": "If a planet occupies his sign of debilitation in a nativity, the person concerned will, during the dasa of such a planet, be demoted from his position, will suffer actions, will become indebted and will depend on support of low people. He will live in insanitary auditions, will perform menial tasks, will walk long distances on foot and will do disastrous acts.",
+        "quote_display": "If a planet occupies his sign of debilitation in a nativity, the person concerned will, during the dasa of such a planet, be demoted from his position, will suffer actions, will become indebted and will depend on support of low people. He will live in insanitary auditions, will perform menial tasks, will walk long distances on foot and will do disastrous acts.",
+        "quote_sha256": "18347dbb116368c785af280d955144f43cbcc252804f8f00699b4062652f5823",
+        "char_span": [
+          215238,
+          215600
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "dignity": {
+              "graha": "any",
+              "dignity": "debilitated"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "any_graha",
+        "dignity": "debilitated"
+      },
+      "timing": "dasa",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Universally quantified over the grahas. `graha: \"any\"` is a sentinel, not a body, and matches no fact key.",
+      "exclusions": [],
+      "requires": [
+        "dignity fact extraction",
+        "condition variables (the verse says 'a planet', not a named one)",
+        "vimshottari dasa"
+      ]
+    },
+    {
+      "id": "PD.09.Dignity.Exalted.Notes",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 9,
+        "verse": "14 (Notes)",
+        "page_anchor": "phaladeepika/p0107",
+        "tier": 2,
+        "quote": "Notes - Our view is that with exaltation of one planet in a birth chart, the native cannot shine like king Vikramaditya or become a ruler of the Earth. The planet in exaltation to give extraordinarily good effect should be placed in an auspicious house saved from any malefic influence and supported by other helpful planetary combinations and dispositions.",
+        "quote_display": "Notes - Our view is that with exaltation of one planet in a birth chart, the native cannot shine like king Vikramaditya or become a ruler of the Earth. The planet in exaltation to give extraordinarily good effect should be placed in an auspicious house saved from any malefic influence and supported by other helpful planetary combinations and dispositions.",
+        "quote_sha256": "4b49fe809df8af2f198daafad245888a98c296b46c83a4902cda3b6cc1290fe6",
+        "char_span": [
+          209848,
+          210205
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "dignity": {
+              "graha": "any",
+              "dignity": "exalted"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "any_graha",
+        "dignity": "exalted",
+        "polarity": "qualified"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "commentary",
+      "activation": "inert",
+      "note": "Dr. G. S. Kapoor (translator) contradicting Mantreswara's verse 14: exaltation alone does not deliver the verse's effect. Recorded as a separate tier-2 card so both authorities stand independently.",
+      "exclusions": [],
+      "requires": [
+        "dignity fact extraction",
+        "condition variables"
+      ],
+      "contradicts": [
+        "PD.09.Dignity.Exalted"
+      ]
+    },
+    {
+      "id": "PD.09.Combust",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 9,
+        "verse": "19",
+        "page_anchor": "phaladeepika/p0109",
+        "tier": 1,
+        "quote": "If a planet be combust (eclipsed by the Sun's rays), the native will during his Dasa, will die within a short period. His wife, children as well as his wealth will also be destroyed. He involved in quarrels without cause or reason and suffer from the others. He will also be insulted by others.",
+        "quote_display": "If a planet be combust (eclipsed by the Sun's rays), the native will during his Dasa, will die within a short period. His wife, children as well as his wealth will also be destroyed. He involved in quarrels without cause or reason and suffer from the others. He will also be insulted by others.",
+        "quote_sha256": "0b69ff9b1f537a46950e499b6f2c3f11a686f966da48fd97e5daa09b8285f516",
+        "char_span": [
+          215608,
+          215902
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "combust": {
+              "graha": "any"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "longevity",
+        "subject": "any_graha",
+        "condition": "combust"
+      },
+      "timing": "dasa",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Universally quantified over the grahas.",
+      "exclusions": [],
+      "requires": [
+        "combustion fact extraction",
+        "condition variables",
+        "vimshottari dasa"
+      ]
+    },
+    {
+      "id": "PD.09.Dignity.Neutral",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 9,
+        "verse": "19 (unnumbered)",
+        "page_anchor": "phaladeepika/p0109",
+        "tier": 1,
+        "quote": "A planet posited in a netural sign will not produce any significant effect and maintain status quo.",
+        "quote_display": "A planet posited in a netural sign will not produce any significant effect and maintain status quo.",
+        "quote_sha256": "e6c29a87002ca230385b394c4feb2fea1bddb36a8aca68047736661867b7c371",
+        "char_span": [
+          215906,
+          216005
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "dignity": {
+              "graha": "any",
+              "dignity": "neutral"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "any_graha",
+        "dignity": "neutral"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Printed unnumbered after verse 19, as its own paragraph.",
+      "exclusions": [],
+      "requires": [
+        "dignity fact extraction",
+        "condition variables"
+      ]
+    },
+    {
+      "id": "PD.09.Retrograde.AsExalted",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 9,
+        "verse": "20",
+        "page_anchor": "phaladeepika/p0109",
+        "tier": 1,
+        "quote": "20. When a planet happens to be retrograde in motion, he will produce the\r\n\r\n<!-- page phaladeepika/p0110 -->\r\nsame effect as if he is posited in exaltation sign, even if he may be in his enemy's sign or in the sign of his debilitation.",
+        "quote_display": "20. When a planet happens to be retrograde in motion, he will produce the same effect as if he is posited in exaltation sign, even if he may be in his enemy's sign or in the sign of his debilitation.",
+        "quote_sha256": "d6b5e5d48f0cb28ca562dbac81c30915b227aff0f4bd85e661b1f8f962831908",
+        "char_span": [
+          216009,
+          216245
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "retrograde": {
+              "graha": "any"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "meta",
+        "subject": "any_graha",
+        "effect": "treat_as_exalted"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "meta",
+      "activation": "inert",
+      "note": "A modifier, not a claim: it overrides the dignity another rule is keyed on. `retrograde` is derivable, but only for a named graha.",
+      "exclusions": [],
+      "requires": [
+        "dignity fact extraction",
+        "condition variables",
+        "dignity-override mechanism"
+      ]
+    },
+    {
+      "id": "PD.09.Vargottama",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 9,
+        "verse": "20",
+        "page_anchor": "phaladeepika/p0110",
+        "tier": 1,
+        "quote": "A planet who is vargottama produces effects as if he is in his own sign.",
+        "quote_display": "A planet who is vargottama produces effects as if he is in his own sign.",
+        "quote_sha256": "15db46392adb9aa8c77a834f4c4aebd4f4a57adcb78d3893b0db179783752e96",
+        "char_span": [
+          216246,
+          216318
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "vargottama": {
+              "graha": "any"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "meta",
+        "subject": "any_graha",
+        "effect": "treat_as_own_sign"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "meta",
+      "activation": "inert",
+      "note": "Printed as the closing sentence of verse 20.",
+      "exclusions": [],
+      "requires": [
+        "vargottama fact extraction (D-1/D-9 agreement)",
+        "condition variables",
+        "dignity-override mechanism"
+      ]
+    }
+  ]
+}

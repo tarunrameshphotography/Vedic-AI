@@ -176,6 +176,24 @@ def test_chapter_eight_is_complete(cards):
     assert len(seen) == 108
 
 
+def test_chapter_nine_covers_every_ascendant(cards):
+    lagna = [c for c in cards if c.chapter == 9 and c.predicts.get("subject") == "Ascendant"]
+    assert len(lagna) == 12
+    assert len({c.predicts["sign"] for c in lagna}) == 12
+
+
+def test_inert_cards_declare_what_they_are_waiting_for(cards):
+    """A card that cannot fire must say why, or the gap becomes invisible.
+
+    Encoding knowledge ahead of the fact extractor is the intended order, but
+    only while every such card is self-describing.
+    """
+    for c in cards:
+        if c.raw.get("activation") == "inert":
+            assert c.raw.get("requires"), f"{c.id} is inert but requires nothing"
+            assert c.raw.get("note"), f"{c.id} is inert with no explanation"
+
+
 def test_a_tampered_quote_is_detected(cards, tmp_path):
     """The verifier must catch a card that no longer matches the corpus."""
     doc = json.loads((RULES / "phaladeepika" / "ch08.json").read_text(encoding="utf-8"))
@@ -244,10 +262,13 @@ def test_unknown_predicate_is_inert_never_true():
 def test_slice_runs_and_verifies():
     r = run(DEMO)
     assert r.verification.ok
-    assert r.verification.checks["claims"] == 9        # one per body
+    # Nine bodies, each matching one placement card, plus one card keyed on the
+    # ascendant's sign. This number tracks the rule store: it must change when
+    # doctrine is added, and never on its own.
+    assert r.verification.checks["claims"] == 10
     for k in ("quote_integrity_passed", "conditions_reevaluated_passed",
               "numeric_grounding_passed"):
-        assert r.verification.checks[k] == 9
+        assert r.verification.checks[k] == 10
 
 
 def test_every_claim_has_all_four_provenance_links():
@@ -271,7 +292,7 @@ def test_quoted_output_adds_no_words():
     r = run(DEMO)
     by_id = {c.claim_id: c for c in r.claims}
     rules = [s for s in r.sentences if s.part == "rules"]
-    assert len(rules) == 9
+    assert len(rules) == 10
     for s in rules:
         assert s.text == by_id[s.claim_ids[0]].passage["quote_display"]
 
@@ -331,6 +352,26 @@ def test_part_two_cites_every_rule_to_the_page():
         assert c.derived["rule_card"] in part2
         assert c.passage["page_anchor"] in part2
         assert c.passage["quote_display"] in part2
+
+
+def test_an_ascendant_keyed_rule_reaches_the_report():
+    """Regression: a claim with no house of its own was dropped from Part 2.
+
+    Part 2 grouped claims by house, and a card keyed on `lagna_sign` has none.
+    The claim was activated, verified and counted -- and then never rendered,
+    so the report was silently missing a rule that had fired.
+    """
+    r = run(DEMO)
+    lagna = [c for c in r.claims
+             if not any(f["key"].startswith("in_house(")
+                        for f in c.derived["facts"])]
+    assert lagna, "no ascendant-keyed claim activated for the demo chart"
+    part2 = r.consultation[r.consultation.index("## Part 2"):
+                           r.consultation.index("## Part 3")]
+    for c in lagna:
+        assert c.claim_id in part2
+        assert c.passage["quote_display"] in part2
+    assert "### The Ascendant" in part2
 
 
 def test_part_three_cites_only_claims_from_part_two():
