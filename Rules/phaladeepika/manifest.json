@@ -13,6 +13,7 @@
   "commentary_tier": 2,
   "chapters_extracted": [
     1,
+    2,
     8,
     9,
     10
@@ -32,6 +33,12 @@
     "Chapter 1, verse 7 trailer: the biped/quadruped/centiped/watery classification is a four-column table whose columns the scan interleaved into uneven rows. PD.01.SignBodyForm.Table encodes the quote but not the assignment, and is inert pending human verification against the printed page.",
     "Chapter 1, verse 6 Notes: three positions on the exaltation of Rahu and Ketu -- Mantreswara silent, Sarvarth Chintamani (Gemini/Sagittarius), Brihat Parasara Hora Sastra (Taurus/Scorpio). All three encoded and linked by contradicts. The engine currently assumes no nodal exaltation, which this records as unsourced rather than wrong.",
     "Chapter 1, verse 4 trailer: two definitions of Rasi-Sandhi, Mantreswara’s (the end portions of Cancer, Scorpio and Pisces) and an unnamed dissenting view (the end portions of all signs). Both encoded.",
-    "Chapter 1, verse 14: the ninth-house significations carry a parenthetical dispute about whether the father is read from the 9th or the 10th house. Preserved inside the quote of PD.01.HouseSignifications.H09."
+    "Chapter 1, verse 14: the ninth-house significations carry a parenthetical dispute about whether the father is read from the 9th or the 10th house. Preserved inside the quote of PD.01.HouseSignifications.H09.",
+    "Chapter 2, verses 21-22: the seven-graha natural friendship table is four columns the scan interleaved past reconstruction -- the Sun's row reads 'Sun Moon, Mercury Venus Mars Saturn Jupiter', with all six other grahas present but no column boundaries, and one row carries a literal '-----'. PD.02.Friendship.NaturalTable encodes the quote and is inert pending human verification. Reconstructing it would mean importing the classical table from outside the quote.",
+    "Chapter 2, verse 25 vs verse 1: verse 1 makes the Sun the significator of the father without qualification; verse 25 makes it so only for a day birth and gives the father to Saturn for a night birth. Both encoded, linked by contradicts, neither corrected.",
+    "Chapter 2, verses 30-32: the substances table prints 'Cold' for Jupiter where 'Gold' is expected. Transcribed as printed.",
+    "Chapter 2, verse 27: the list of ruling deities is printed with a full stop after 'Yama' and continues 'Serpent Adhishesha and Braham respectively', so the seven names straddle an apparent sentence boundary. Transcribed as printed; the graha-to-deity mapping is left to the quote rather than parsed.",
+    "Chapter 2, verse 36 Notes: the combustion orbs are stated here (Moon 12 degrees, Mars 17, Mercury 14 direct and 12 retrograde, Jupiter 11, Venus 10 and 8 retrograde, Saturn 15). The registry had recorded these as doctrine whose source was not yet located.",
+    "Chapter 2, verse 36: a horary rule about the water level in a reservoir sits among the natal material. Its condition is an ordinary Moon placement and would fire on a birth chart, so PD.02.Prashna.ReservoirWater is inert pending a branch distinction."
   ]
 }

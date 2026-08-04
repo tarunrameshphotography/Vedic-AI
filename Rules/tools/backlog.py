@@ -138,7 +138,11 @@ def deferred_passages(cards, book_id: str, chapters: list[int]) -> list[dict]:
         for i, (s, e, body) in enumerate(paragraphs(text, lo, hi)):
             if any(cs < e and s < ce for cs, ce in spans):
                 continue
-            stripped = body.strip()
+            # A paragraph that *opens* with a page anchor is still prose: the
+            # anchor is where the printed page broke, and the sentence carries
+            # on beneath it. Testing the raw text for layout would write off
+            # every continuation paragraph in the book unchecked.
+            stripped = re.sub(r"^<!--\s*page\s+\S+\s*-->\s*", "", body.strip())
             if len(stripped) < TRIVIAL or LAYOUT.match(stripped):
                 continue
             found.append({

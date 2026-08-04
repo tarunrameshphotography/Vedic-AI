@@ -316,23 +316,18 @@
       ],
       "effort": 3,
       "effort_basis": "Gulika and the sub-planets"
+    },
+    "dep.prashna": {
+      "title": "prashna (horary) branch",
+      "kind": "engine",
+      "detail": "Rules that read the chart of the moment a question is asked rather than a nativity. Their conditions are ordinary placements and would fire on a birth chart, so they must be held apart by branch, not by condition.",
+      "phase": "beyond the MVP",
+      "depends_on": [],
+      "effort": 6,
+      "effort_basis": "a second chart source and a branch tag Stage 6 honours"
     }
   },
   "entries": [
-    {
-      "id": "chapter:phaladeepika.02",
-      "kind": "chapter",
-      "book": "phaladeepika",
-      "chapter": 2,
-      "locus": "whole chapter - Information and Characteristic features of planets",
-      "what": "graha attributes, natural benefic/malefic status, exaltation and friendship tables",
-      "reason": "Reference chapter, not rule-dense. Source of dep.nature and dep.graha-class, and of the tables dep.dignity needs.",
-      "requires": [
-        "dep.none"
-      ],
-      "phase": "3 (knowledge)",
-      "status": "deferred"
-    },
     {
       "id": "chapter:phaladeepika.03",
       "kind": "chapter",
@@ -698,8 +693,8 @@
       "kind": "passage",
       "book": "phaladeepika",
       "chapter": 8,
-      "locus": "v. 22 and v. 27 Notes (p.98)",
-      "what": "the translator on why Jupiter in the lagna outranks Venus there, argued from aspect counts",
+      "locus": "v. 5, v. 22 and v. 27 Notes (p.93-98)",
+      "what": "the translator arguing from aspects: the Sun in the 8th aspecting the 2nd, and why Jupiter in the lagna outranks Venus there",
       "reason": "Tier-2 commentary whose reasoning is entirely about aspects. Encodable as a claim only once aspects are computed; until then a card would quote an argument the engine cannot follow.",
       "requires": [
         "dep.aspects"
@@ -707,6 +702,7 @@
       "phase": "2 (engine completion)",
       "status": "deferred",
       "paragraphs": [
+        9,
         57,
         71
       ]
@@ -744,6 +740,7 @@
       "status": "deferred",
       "paragraphs": [
         95,
+        97,
         99
       ]
     },
@@ -753,7 +750,7 @@
       "book": "phaladeepika",
       "chapter": 8,
       "locus": "v. 34-35 and their Notes (p.104-105)",
-      "what": "the Bhava-Madhya proximity rule - how a graha's distance from the house's midpoint scales the effect it produces",
+      "what": "the Bhava-Madhya proximity rule, and the doctrine that Rahu gives effects like Saturn and Ketu like Mars (Shani-vat Rahu, Kuja-vat Ketu)",
       "reason": "Real doctrine, and the reason it is still unencoded: verse 34 with its worked examples and verse 35 appear to state opposite relationships between proximity to the Bhava-Madhya and strength of effect. Both must be encoded and the disagreement preserved, which needs adjudication. Para 132 also runs across a page break mid-sentence.",
       "requires": [
         "dep.adjudication",
@@ -764,6 +761,7 @@
       "paragraphs": [
         131,
         132,
+        133,
         134,
         135,
         136
@@ -819,11 +817,13 @@
       "status": "deferred",
       "paragraphs": [
         16,
+        17,
         19,
         21,
         23,
         25,
-        26
+        26,
+        27
       ]
     },
     {
@@ -941,6 +941,59 @@
       "status": "deferred",
       "paragraphs": [
         80
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.02.p001",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 2,
+      "locus": "preamble (p.17)",
+      "what": "the editorial paragraph introducing what the chapter is for",
+      "reason": "Framing rather than doctrine. The one principle it states -- that a house's subject is read from its lord -- is encoded separately as PD.02.Principle.LordCarriesSignification.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        1
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.02.p013",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 2,
+      "locus": "v. 6 Notes (p.18-19)",
+      "what": "a worked example in which a marriage occurred in the Dasa of Venus rather than the Dasa of the 7th lord, as some astrologers had predicted",
+      "reason": "Tier-3 apparatus: a case report, not a rule. It argues that the karaka can outweigh the house lord, which is a real claim, but it is made by example rather than stated as doctrine and would need adjudication to encode.",
+      "requires": [
+        "dep.adjudication",
+        "dep.dasa"
+      ],
+      "phase": "4 (integration)",
+      "status": "deferred",
+      "paragraphs": [
+        13,
+        14
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.02.p082",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 2,
+      "locus": "p.27 colophon",
+      "what": "the chapter's closing formula",
+      "reason": "Colophon. Not doctrine.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        82
       ]
     }
   ]

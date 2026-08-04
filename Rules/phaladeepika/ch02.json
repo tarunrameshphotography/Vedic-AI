@@ -1,0 +1,4033 @@
+{
+  "book_id": "phaladeepika",
+  "chapter": 2,
+  "cards": [
+    {
+      "id": "PD.02.Principle.LordCarriesSignification",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "preamble",
+        "page_anchor": "phaladeepika/p0017",
+        "tier": 1,
+        "quote": "If a house stands for a certain subject matter, the lord of the house will also be considered to be concerned with it.",
+        "quote_display": "If a house stands for a certain subject matter, the lord of the house will also be considered to be concerned with it.",
+        "quote_sha256": "2c98f750e4883a5856a51317e37ad611b0887b5c4174063730109c01066d79d0",
+        "char_span": [
+          26363,
+          26481
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "method_principle",
+        "rule": "the lord of a house carries that house's subject matter"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "Editorial preamble rather than a numbered verse, but it states the principle that makes karaka doctrine usable at all: a house's subject is read from its lord as well as from the house.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Karaka.Sun",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "1",
+        "page_anchor": "phaladeepika/p0017",
+        "tier": 1,
+        "quote": "The Sun is the singnificator of the person's collection of copper and gold, and of father, patience, valour, victory in war, one's soul (Atman), auspiciousness, happiness, prowess, power, light, any work relating to Lord Shiva, travels in forests and mountains, havans or yajnas, Inclinations for work, temple, acuteness, enthusiasm. Wise men should act according to these significations.",
+        "quote_display": "The Sun is the singnificator of the person's collection of copper and gold, and of father, patience, valour, victory in war, one's soul (Atman), auspiciousness, happiness, prowess, power, light, any work relating to Lord Shiva, travels in forests and mountains, havans or yajnas, Inclinations for work, temple, acuteness, enthusiasm. Wise men should act according to these significations.",
+        "quote_sha256": "382796435901dc9b825676f691399221edfbc21fae17204b3599eace8b5e4283",
+        "char_span": [
+          27166,
+          27554
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "karaka",
+        "graha": "Sun"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Karaka.Moon",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "2",
+        "page_anchor": "phaladeepika/p0017",
+        "tier": 1,
+        "quote": "The Moon is the signiflcator of the welfare of the mother, tranquilityof the mind, bathing in the sea, white chamar, umbrella, good fan, fruits, flowers, tender objects, farming grains, fame, pearls, silver, bell metal, beauty. In other words all about the above matters should be ascertained from the Moon.",
+        "quote_display": "The Moon is the signiflcator of the welfare of the mother, tranquilityof the mind, bathing in the sea, white chamar, umbrella, good fan, fruits, flowers, tender objects, farming grains, fame, pearls, silver, bell metal, beauty. In other words all about the above matters should be ascertained from the Moon.",
+        "quote_sha256": "95791cf06829252608a29cd0375606003e846db4d9f44251ea31662fb05ddaeb",
+        "char_span": [
+          27561,
+          27868
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "karaka",
+        "graha": "Moon"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Karaka.Mars",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "3",
+        "page_anchor": "phaladeepika/p0017",
+        "tier": 1,
+        "quote": "All about one's strength (physical and mental), products produced from the earth, qualities of the brothers and sisters, cruelty, battle, courage, antagonism, the fire of the kitchen, gold, kinsmen, weapons, thieves, enemies, enthusiasm, sexual intercourse with another man's wife, falsehood, prowess, high thinking, sin, […] <!-- page phaladeepika/p0018 -->\r\nwounds, and acquisition of the position of a commander-in-chief should be ascertained from Mars. […] In other words Mars is the signiflcator of these matters.",
+        "quote_display": "All about one's strength (physical and mental), products produced from the earth, qualities of the brothers and sisters, cruelty, battle, courage, antagonism, the fire of the kitchen, gold, kinsmen, weapons, thieves, enemies, enthusiasm, sexual intercourse with another man's wife, falsehood, prowess, high thinking, sin, […] wounds, and acquisition of the position of a commander-in-chief should be ascertained from Mars. […] In other words Mars is the signiflcator of these matters.",
+        "quote_sha256": "2929ad3cd7621c41faf38f1c0baea27995235fe3807e1eab443e9f24b804eef1",
+        "char_span": [
+          27875,
+          28196
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            27875,
+            28196
+          ],
+          [
+            28200,
+            28330
+          ],
+          [
+            28334,
+            28391
+          ]
+        ],
+        "quote_parts": [
+          "All about one's strength (physical and mental), products produced from the earth, qualities of the brothers and sisters, cruelty, battle, courage, antagonism, the fire of the kitchen, gold, kinsmen, weapons, thieves, enemies, enthusiasm, sexual intercourse with another man's wife, falsehood, prowess, high thinking, sin,",
+          "<!-- page phaladeepika/p0018 -->\r\nwounds, and acquisition of the position of a commander-in-chief should be ascertained from Mars.",
+          "In other words Mars is the signiflcator of these matters."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "karaka",
+        "graha": "Mars"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "Runs across a printed page break; quoted as three spans.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Karaka.Mercury",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "4",
+        "page_anchor": "phaladeepika/p0018",
+        "tier": 1,
+        "quote": "From Mercury is to be ascertained all about learning, eloquence, proficiency in arts, praise by learned people, maternal uncle, dexterity in speech, aptness for acquiring knowledge, expertise in ways of worship, intelligence, religious acts relating to Lord Shiva, truthfulness, oyster, spots of recreation and enjoyment, skill in mechanical arts, kinsmen, heir apparent, friends, sister's sons and daughters etc.",
+        "quote_display": "From Mercury is to be ascertained all about learning, eloquence, proficiency in arts, praise by learned people, maternal uncle, dexterity in speech, aptness for acquiring knowledge, expertise in ways of worship, intelligence, religious acts relating to Lord Shiva, truthfulness, oyster, spots of recreation and enjoyment, skill in mechanical arts, kinsmen, heir apparent, friends, sister's sons and daughters etc.",
+        "quote_sha256": "89c49c913f180842bfa381cd89ef4e09d51ad9345ed8802a2a3971f026331e12",
+        "char_span": [
+          28398,
+          28811
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "karaka",
+        "graha": "Mercury"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Karaka.Jupiter",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "5",
+        "page_anchor": "phaladeepika/p0018",
+        "tier": 1,
+        "quote": "Jupiter is concerned with matters relating to knowledge, noble qualities, sons (progeny), minister, good behavior, imparting knowledge or teaching, magnanimity, knowledge of shruties, shastras, smrities, progress in every direction, beautitude, devotion towards gods and Brahmins, sacrifice, penance, religious faith, treasury, mastering the senses, honour, kindness and happiness of the husband.",
+        "quote_display": "Jupiter is concerned with matters relating to knowledge, noble qualities, sons (progeny), minister, good behavior, imparting knowledge or teaching, magnanimity, knowledge of shruties, shastras, smrities, progress in every direction, beautitude, devotion towards gods and Brahmins, sacrifice, penance, religious faith, treasury, mastering the senses, honour, kindness and happiness of the husband.",
+        "quote_sha256": "1c85815ed9fefd84ac657ac7c540f5aee469c8b89337ef76fdc3fac855ae7e4d",
+        "char_span": [
+          28818,
+          29214
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "karaka",
+        "graha": "Jupiter"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Karaka.Venus",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0018",
+        "tier": 1,
+        "quote": "All about one's wealth, conveyances, clothes, ornaments, treasures (including hidden treasures), amalgam of song, dance and instrumental music, scents, flowers, co-habitation, bed, house, richness, fondness for poetry, Indulgence in all kinds of comforts and luxuries, ministership, soft-spokenness, marriage and other holy deeds, celebrations, etc., should be ascertained through Venus.",
+        "quote_display": "All about one's wealth, conveyances, clothes, ornaments, treasures (including hidden treasures), amalgam of song, dance and instrumental music, scents, flowers, co-habitation, bed, house, richness, fondness for poetry, Indulgence in all kinds of comforts and luxuries, ministership, soft-spokenness, marriage and other holy deeds, celebrations, etc., should be ascertained through Venus.",
+        "quote_sha256": "c749b9fb9a28d75b17392b09be631599454c424ba576f25417a025219da543da",
+        "char_span": [
+          29417,
+          29804
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "karaka",
+        "graha": "Venus"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Karaka.Saturn",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "7",
+        "page_anchor": "phaladeepika/p0019",
+        "tier": 1,
+        "quote": "The significations of Saturn are longevity, death, fear, downfall, disgrace, sickness, unhappiness and misery, poverty, humiliation, sins, labour, filth, censure, misfortune, impurity of mind, observance of certain formalities after death in the family, stability, taking shelter from menials, buffaloe, drowsiness, debts, articles of iron, service, slavery, confinement, getting arrested, agricultural implements etc.",
+        "quote_display": "The significations of Saturn are longevity, death, fear, downfall, disgrace, sickness, unhappiness and misery, poverty, humiliation, sins, labour, filth, censure, misfortune, impurity of mind, observance of certain formalities after death in the family, stability, taking shelter from menials, buffaloe, drowsiness, debts, articles of iron, service, slavery, confinement, getting arrested, agricultural implements etc.",
+        "quote_sha256": "b93d658144df771b0aba2dfbca631a500616bb4be04f5bc4407f25fc0c6f9d40",
+        "char_span": [
+          30438,
+          30856
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "karaka",
+        "graha": "Saturn"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Karaka.Jupiter.Husband",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "5 (Note)",
+        "page_anchor": "phaladeepika/p0018",
+        "tier": 2,
+        "quote": "In a female's horoscope Jupiter should be taken as the significator of the husband.",
+        "quote_display": "In a female's horoscope Jupiter should be taken as the significator of the husband.",
+        "quote_sha256": "0adb4aaa08c63d9297ad1fd66b3b669ca34cc128dd1b4d7b6e9100dabd0c0c92",
+        "char_span": [
+          29225,
+          29308
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1",
+        "sex": "female"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "karaka",
+        "graha": "Jupiter",
+        "signifies": "husband"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Karaka.Jupiter.Progeny",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "5 (Note)",
+        "page_anchor": "phaladeepika/p0018",
+        "tier": 2,
+        "quote": "In a male's horoscope Jupiter, among other matters, is the significator for progeny (San tan Karaka).",
+        "quote_display": "In a male's horoscope Jupiter, among other matters, is the significator for progeny (San tan Karaka).",
+        "quote_sha256": "1eec8da8aa0869b6355be4dee949232e8d6fb3ca48062ba3cf28231e75d4c335",
+        "char_span": [
+          29309,
+          29410
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1",
+        "sex": "male"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "karaka",
+        "graha": "Jupiter",
+        "signifies": "progeny"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Karaka.Venus.Wife",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "6 (Note)",
+        "page_anchor": "phaladeepika/p0018",
+        "tier": 2,
+        "quote": "Note — In a male's horoscope all about the happiness of wife and marital happiness should be considered through Venus. Venus is the significator for wife in such a chart.",
+        "quote_display": "Note — In a male's horoscope all about the happiness of wife and marital happiness should be considered through Venus. Venus is the significator for wife in such a chart.",
+        "quote_sha256": "9cf50d254c5d6fe3df04b90d4ca695d3a44df0d859858eabddf44814f17ab169",
+        "char_span": [
+          29808,
+          29978
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1",
+        "sex": "male"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "karaka",
+        "graha": "Venus",
+        "signifies": "wife"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.LagnaGraha.BestowsQualities",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "7 (Notes)",
+        "page_anchor": "phaladeepika/p0019",
+        "tier": 2,
+        "quote": "A planet in the Ascendant of a nativity bestows his qualities and characteristics to the native.",
+        "quote_display": "A planet in the Ascendant of a nativity bestows his qualities and characteristics to the native.",
+        "quote_sha256": "06e0e1fafbc2bb62b7afaca543d3ec476a659f6de51138fcd3b573b63c7d2385",
+        "char_span": [
+          31002,
+          31098
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "any",
+              "house": 1
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "character",
+        "subject": "any_graha",
+        "effect": "native_takes_the_graha_qualities"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Universally quantified over the grahas. It is what makes the descriptions of vv. 8-14 predictive rather than ornamental.",
+      "exclusions": [],
+      "requires": [
+        "dep.condition-variables"
+      ]
+    },
+    {
+      "id": "PD.02.LagnaEmpty.LordGivesQualities",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "7 (Notes)",
+        "page_anchor": "phaladeepika/p0019",
+        "tier": 2,
+        "quote": "If there is no planet in the Ascendant the native assumes the appearance and characteristics of the lord of the Ascendant.",
+        "quote_display": "If there is no planet in the Ascendant the native assumes the appearance and characteristics of the lord of the Ascendant.",
+        "quote_sha256": "d7744ec8cb298b37869c3fcf7e433c1bc1667c69d76e83b23c54dd8d01e7e4a7",
+        "char_span": [
+          31519,
+          31641
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "any",
+              "house": 1
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "character",
+        "subject": "lord_of_lagna",
+        "effect": "native_takes_the_lagna_lord_qualities"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "The fallback when the lagna is empty. Needs lordship, and the emptiness test itself is a quantification over occupants.",
+      "exclusions": [],
+      "requires": [
+        "dep.lord-of-house",
+        "dep.condition-variables"
+      ]
+    },
+    {
+      "id": "PD.02.LagnaAspect.InjectsQualities",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "7 (Notes)",
+        "page_anchor": "phaladeepika/p0019",
+        "tier": 2,
+        "quote": "The planets who aspect the Ascendant also inject the Influence of their characteristics and temperament in the native.",
+        "quote_display": "The planets who aspect the Ascendant also inject the Influence of their characteristics and temperament in the native.",
+        "quote_sha256": "93e453253c7b65878c9294b4f111b28e33856de92bf59f4b6c938aab6b3daaa0",
+        "char_span": [
+          31642,
+          31760
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "aspects": {
+              "graha": "any",
+              "target": "1"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "character",
+        "subject": "any_graha",
+        "effect": "native_takes_the_aspecting_graha_qualities"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Universally quantified over the grahas, and keyed on an aspect to the lagna, which the engine cannot compute.",
+      "exclusions": [],
+      "requires": [
+        "dep.aspects",
+        "dep.condition-variables"
+      ]
+    },
+    {
+      "id": "PD.02.Disease.FollowsTemperament",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "7 (Notes)",
+        "page_anchor": "phaladeepika/p0019",
+        "tier": 2,
+        "quote": "If a planet in any chart becomes the cause of any disease, the nature of the disease will be according to the temperament of that planet. For example, the Sun will cause bilious troubles and Saturn will give windy troubles.",
+        "quote_display": "If a planet in any chart becomes the cause of any disease, the nature of the disease will be according to the temperament of that planet. For example, the Sun will cause bilious troubles and Saturn will give windy troubles.",
+        "quote_sha256": "5d6ab152aa7c2b154745f6f6c9cea6e31e5c31f7845d1657b482562175a0ce48",
+        "char_span": [
+          31761,
+          31984
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "any",
+              "house": "any"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "health",
+        "subject": "any_graha",
+        "effect": "disease_follows_the_graha_temperament"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "States how to read a disease off whichever graha caused it, but not which graha causes one. Needs the rule that identifies the cause before it can be applied.",
+      "exclusions": [],
+      "requires": [
+        "dep.condition-variables",
+        "dep.adjudication"
+      ]
+    },
+    {
+      "id": "PD.02.Form.Sun",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "8",
+        "page_anchor": "phaladeepika/p0019",
+        "tier": 1,
+        "quote": "The temperament of the Sun is bilious. He has strong bones in his body. He has scanty hair. He has a dark red form. His eyes are of reddish-brown color. He is dressed in red colored clothes. His body is square built. He is brave and possesses massive arms.",
+        "quote_display": "The temperament of the Sun is bilious. He has strong bones in his body. He has scanty hair. He has a dark red form. His eyes are of reddish-brown color. He is dressed in red colored clothes. His body is square built. He is brave and possesses massive arms.",
+        "quote_sha256": "abcc1e9c7f569bb28810257793a6dc94b179a2b85b6dbe16f8465eccaca53b59",
+        "char_span": [
+          31991,
+          32247
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_form",
+        "graha": "Sun"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Form.Moon",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "9",
+        "page_anchor": "phaladeepika/p0019",
+        "tier": 1,
+        "quote": "The body of the Moon is huge. She is young as well as old. She is lean and thin and white. Her eyes are attractive and her hair is black and thin. She has jurisdiction over blood. She is soft-spoken. She is dressed in white colored clothes and possesses fair complexion. She is mild in temperament and has wind and […] <!-- page phaladeepika/p0020 -->\r\nphlegm in her composition.",
+        "quote_display": "The body of the Moon is huge. She is young as well as old. She is lean and thin and white. Her eyes are attractive and her hair is black and thin. She has jurisdiction over blood. She is soft-spoken. She is dressed in white colored clothes and possesses fair complexion. She is mild in temperament and has wind and […] phlegm in her composition.",
+        "quote_sha256": "5f4b6c6cf703c00c5f7d40051188b4b9321248b481c996af2f41a203fef5233b",
+        "char_span": [
+          32254,
+          32568
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            32254,
+            32568
+          ],
+          [
+            32572,
+            32632
+          ]
+        ],
+        "quote_parts": [
+          "The body of the Moon is huge. She is young as well as old. She is lean and thin and white. Her eyes are attractive and her hair is black and thin. She has jurisdiction over blood. She is soft-spoken. She is dressed in white colored clothes and possesses fair complexion. She is mild in temperament and has wind and",
+          "<!-- page phaladeepika/p0020 -->\r\nphlegm in her composition."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_form",
+        "graha": "Moon"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "Runs across a printed page break; quoted as two spans.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Form.Mars",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "10",
+        "page_anchor": "phaladeepika/p0020",
+        "tier": 1,
+        "quote": "Mars has lean waist. His hair is curly and bright. There is cruelty (fierceness) in his look. He has a cruel nature and is bilious. He is dressed in red clothes and his body has a red hue. He is wrathful but exceedingly generous. He looks youthful and has jurisdiction over marrow in the body.",
+        "quote_display": "Mars has lean waist. His hair is curly and bright. There is cruelty (fierceness) in his look. He has a cruel nature and is bilious. He is dressed in red clothes and his body has a red hue. He is wrathful but exceedingly generous. He looks youthful and has jurisdiction over marrow in the body.",
+        "quote_sha256": "b1d93c633f293c30443d7d559e02d01b6cac814313eb9bcefb8f2c79764c7c93",
+        "char_span": [
+          32640,
+          32933
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_form",
+        "graha": "Mars"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Form.Mercury",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "11",
+        "page_anchor": "phaladeepika/p0020",
+        "tier": 1,
+        "quote": "Mercury is green like Durva (a kind of grass). There is mixture of wind, bile and phlegm in his composition. His body is full of veins. He is soft-spoken by nature. He has a balanced built (that is, his limbs are in even proportion). He is fond of fun and frolic. He governs the skin.",
+        "quote_display": "Mercury is green like Durva (a kind of grass). There is mixture of wind, bile and phlegm in his composition. His body is full of veins. He is soft-spoken by nature. He has a balanced built (that is, his limbs are in even proportion). He is fond of fun and frolic. He governs the skin.",
+        "quote_sha256": "bd26d7e8719fe4702f43a566176665dee98ac9daebcdd7971577b6a42559d940",
+        "char_span": [
+          33157,
+          33441
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_form",
+        "graha": "Mercury"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Form.Jupiter",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "12",
+        "page_anchor": "phaladeepika/p0020",
+        "tier": 1,
+        "quote": "Jupiter has a body with a yellowish hue. His eyes and hair are brown. His chest is firm and elevated. He has a huge body. Phlegm is predominant in his composition. He is very intelligent. His voice is like that of a lion or the sound of a conch. He is always after wealth (Jupiter has therefore been considered as signiflcator of wealth).",
+        "quote_display": "Jupiter has a body with a yellowish hue. His eyes and hair are brown. His chest is firm and elevated. He has a huge body. Phlegm is predominant in his composition. He is very intelligent. His voice is like that of a lion or the sound of a conch. He is always after wealth (Jupiter has therefore been considered as signiflcator of wealth).",
+        "quote_sha256": "e316f7c56d6a5dc5af92f3569b72a2b7daa0d6552eb6bd55a84d0b5c04342e3e",
+        "char_span": [
+          33449,
+          33787
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_form",
+        "graha": "Jupiter"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Form.Venus",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "13",
+        "page_anchor": "phaladeepika/p0020",
+        "tier": 1,
+        "quote": "Venus is dressed in clothes of various colors. He possesses curly hair. He has a huge body with similar limbs. Phlegm and wind are predominant in his composition. His body is of the color of Durva sprout. He has a very beautiful appearance. He has broad eyes. He has well maintained his virile power (Venus has jurisdiction over semen in the body).",
+        "quote_display": "Venus is dressed in clothes of various colors. He possesses curly hair. He has a huge body with similar limbs. Phlegm and wind are predominant in his composition. His body is of the color of Durva sprout. He has a very beautiful appearance. He has broad eyes. He has well maintained his virile power (Venus has jurisdiction over semen in the body).",
+        "quote_sha256": "47de50e100666891c3a975db25bf09e3b7d74a606130d24f5702fe35383bcd4e",
+        "char_span": [
+          33795,
+          34143
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_form",
+        "graha": "Venus"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Form.Saturn",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "14",
+        "page_anchor": "phaladeepika/p0020",
+        "tier": 1,
+        "quote": "Saturn is lame. His eyes are deepset. He has a large but lean body full of veins. He is lazy by nature. The color of his body is black. There is predominance of wind in his composition. He is hard hearted and backbiter. He is dull-headed. His teeth and nails are large. His hair and limbs are stiff. He is impure. He has a fierce appearance and is ill tempered by nature. He is dressed in black clothes. He looks old.",
+        "quote_display": "Saturn is lame. His eyes are deepset. He has a large but lean body full of veins. He is lazy by nature. The color of his body is black. There is predominance of wind in his composition. He is hard hearted and backbiter. He is dull-headed. His teeth and nails are large. His hair and limbs are stiff. He is impure. He has a fierce appearance and is ill tempered by nature. He is dressed in black clothes. He looks old.",
+        "quote_sha256": "49536d0705fa3712f54a9b9ffb32a521d3855ad64432f86b3ee15de0ee990cb7",
+        "char_span": [
+          34151,
+          34568
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_form",
+        "graha": "Saturn"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Form.Mars.Youthful",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "10 (Notes)",
+        "page_anchor": "phaladeepika/p0020",
+        "tier": 2,
+        "quote": "Notes — Mars is said to be youthful in appearance. The implication of this is if Mars is strong in the Ascendant or as lord of the Ascendant, the native will have a youthful appearance even if he is older in age.",
+        "quote_display": "Notes — Mars is said to be youthful in appearance. The implication of this is if Mars is strong in the Ascendant or as lord of the Ascendant, the native will have a youthful appearance even if he is older in age.",
+        "quote_sha256": "8e6bdd8ad5d413df514009872ae2360648bd4c4b1bd266bffe1a46db54874dd6",
+        "char_span": [
+          32937,
+          33149
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "in_house": {
+              "graha": "Mars",
+              "house": 1
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "Mars",
+              "house": 1
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "character",
+        "subject": "Mars",
+        "effect": "youthful_appearance"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "The Mars-in-lagna leaf is exact, but the rule is conditioned on a *strong* Mars and on lagna lordship, neither of which the engine can establish.",
+      "exclusions": [],
+      "requires": [
+        "dep.lord-of-house",
+        "dep.strength"
+      ]
+    },
+    {
+      "id": "PD.02.Places.Sun",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "15",
+        "page_anchor": "phaladeepika/p0020",
+        "tier": 1,
+        "quote": "The places governed by the Sun are a Shiva temple, open spaces, places where there is light, regions where there is no water and the Eastern quarter.",
+        "quote_display": "The places governed by the Sun are a Shiva temple, open spaces, places where there is light, regions where there is no water and the Eastern quarter.",
+        "quote_sha256": "518999df9648b8a2a79b9ac5c7ea7ecb97eaaf54d01416f449f289d289cf419c",
+        "char_span": [
+          34576,
+          34725
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_places",
+        "graha": "Sun"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Places.Moon",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "15",
+        "page_anchor": "phaladeepika/p0021",
+        "tier": 1,
+        "quote": "The Moon has jurisdiction over the temple of Goddess Durga, places inhabited by women, places where water, medicinal herbs, honey and wine are available and the North-Western quarter.",
+        "quote_display": "The Moon has jurisdiction over the temple of Goddess Durga, places inhabited by women, places where water, medicinal herbs, honey and wine are available and the North-Western quarter.",
+        "quote_sha256": "0c77bcde364bafca08b48239dd4253f2edc6a76fc58f46c31198392d59210ee5",
+        "char_span": [
+          34763,
+          34946
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_places",
+        "graha": "Moon"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Places.Mars",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "15",
+        "page_anchor": "phaladeepika/p0021",
+        "tier": 1,
+        "quote": "The places concerned with Mars are the battle field, those where there is fire, those inhabited by thieves and low people and the Southern quarter.",
+        "quote_display": "The places concerned with Mars are the battle field, those where there is fire, those inhabited by thieves and low people and the Southern quarter.",
+        "quote_sha256": "c52639d20bd863489b3b1e22c7cbfd4604c3dc65963595defa929afb8cdfea7d",
+        "char_span": [
+          34950,
+          35097
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_places",
+        "graha": "Mars"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Places.Mercury",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "15",
+        "page_anchor": "phaladeepika/p0021",
+        "tier": 1,
+        "quote": "The governance of Mercury extends to places where there is a temple of Lord Vishnu, those frequented by men of learning, those of recreation, those where Mathematics is practiced and the Northern quarter.",
+        "quote_display": "The governance of Mercury extends to places where there is a temple of Lord Vishnu, those frequented by men of learning, those of recreation, those where Mathematics is practiced and the Northern quarter.",
+        "quote_sha256": "aa2906e2ffb294d8437383df23ed84fb17565687999d3b7e0fe03ed03bc9ad12",
+        "char_span": [
+          35101,
+          35305
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_places",
+        "graha": "Mercury"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Places.Jupiter",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "16",
+        "page_anchor": "phaladeepika/p0021",
+        "tier": 1,
+        "quote": "Jupiter has jurisdiction over treasury, peepal trees, places, inhabited by gods and Brahmins, and the North-Eastern quarter.",
+        "quote_display": "Jupiter has jurisdiction over treasury, peepal trees, places, inhabited by gods and Brahmins, and the North-Eastern quarter.",
+        "quote_sha256": "711e902827ef03ce7007ea4429056ab3b8a38953e67b1d0e2ec8be880a0e089f",
+        "char_span": [
+          35313,
+          35437
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_places",
+        "graha": "Jupiter"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Places.Venus",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "16",
+        "page_anchor": "phaladeepika/p0021",
+        "tier": 1,
+        "quote": "The places coming under the administration of Venus are abodes of courtesans, the harem, bed rooms, dining halls, and the South-Eastern quarter.",
+        "quote_display": "The places coming under the administration of Venus are abodes of courtesans, the harem, bed rooms, dining halls, and the South-Eastern quarter.",
+        "quote_sha256": "b04ea4ab4378a8304fe975b7d67e89996ccefd7cc3a4c66dabc894354553eb32",
+        "char_span": [
+          35441,
+          35585
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_places",
+        "graha": "Venus"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Places.Saturn",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "16",
+        "page_anchor": "phaladeepika/p0021",
+        "tier": 1,
+        "quote": "Saturn rules over places inhabited by low class people, temple of Shasta (a deity), those which are full of filth and the Western quarter.",
+        "quote_display": "Saturn rules over places inhabited by low class people, temple of Shasta (a deity), those which are full of filth and the Western quarter.",
+        "quote_sha256": "b3feab8648f6c63801fb8f66732c23dd36e18345238f02edeec8a4d6c8ed9d47",
+        "char_span": [
+          35589,
+          35727
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_places",
+        "graha": "Saturn"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Places.RahuKetu",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "16",
+        "page_anchor": "phaladeepika/p0021",
+        "tier": 1,
+        "quote": "The places belonging to Rahu and Ketu are the ant-hills, the dark holes of serpents and the South-Western quarter.",
+        "quote_display": "The places belonging to Rahu and Ketu are the ant-hills, the dark holes of serpents and the South-Western quarter.",
+        "quote_sha256": "4ec32a099bd7be781e34fd59441b8512da1db9933846e7c6b64a74ff6aaebe2b",
+        "char_span": [
+          35731,
+          35845
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_places",
+        "graha": "RahuKetu"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Persons.Sun",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "17-20",
+        "page_anchor": "phaladeepika/p0021",
+        "tier": 1,
+        "quote": "A worshipper of Lord Shiva, a physician (Vaidya), a king, one who performs yajna, a minister, tiger, deer and chako (the ruddy goose) are the significations of the Sun.",
+        "quote_display": "A worshipper of Lord Shiva, a physician (Vaidya), a king, one who performs yajna, a minister, tiger, deer and chako (the ruddy goose) are the significations of the Sun.",
+        "quote_sha256": "b469fd2885e998023b9c3fa943d044829cfb9850e9b8bf1f2674fa04e6061724",
+        "char_span": [
+          35856,
+          36024
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_persons",
+        "graha": "Sun"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Persons.Moon",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "17-20",
+        "page_anchor": "phaladeepika/p0021",
+        "tier": 1,
+        "quote": "The Moon rules over worship of Shasta (a deity) females, a washerman, a cultivator, an animal living in water, a hare, an antelope crane, birds known as Bagula and Chakor.",
+        "quote_display": "The Moon rules over worship of Shasta (a deity) females, a washerman, a cultivator, an animal living in water, a hare, an antelope crane, birds known as Bagula and Chakor.",
+        "quote_sha256": "887982afab92e91ad289942e4749ea080ea370a383afdc00e14435ea78df82c6",
+        "char_span": [
+          36028,
+          36199
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_persons",
+        "graha": "Moon"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Persons.Mars",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "17-20",
+        "page_anchor": "phaladeepika/p0021",
+        "tier": 1,
+        "quote": "Mars has jurisdiction over a cook (in the kitchen), an armed person, a goldsmith, a ram, a cock, a jackal, a monkey, a vulture and a thief.",
+        "quote_display": "Mars has jurisdiction over a cook (in the kitchen), an armed person, a goldsmith, a ram, a cock, a jackal, a monkey, a vulture and a thief.",
+        "quote_sha256": "83f7621187570a868e6d5ae802b82fe2144ce32dbb1040bae7bf9b0025c70ecf",
+        "char_span": [
+          36203,
+          36342
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_persons",
+        "graha": "Mars"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Persons.Mercury",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "17-20",
+        "page_anchor": "phaladeepika/p0021",
+        "tier": 1,
+        "quote": "Mercury is concerned with a milkman, a person of learning, an artisan, an expert accountant, a devotee of Lord Vishnu, Garuda, a Chataka, a parrot and a cat.",
+        "quote_display": "Mercury is concerned with a milkman, a person of learning, an artisan, an expert accountant, a devotee of Lord Vishnu, Garuda, a Chataka, a parrot and a cat.",
+        "quote_sha256": "3656d8f40283da53eaa2473a568db1da4ff205c03e6c8d400f7bc27b78a2bc1f",
+        "char_span": [
+          36346,
+          36503
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_persons",
+        "graha": "Mercury"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Persons.Jupiter",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "17-20",
+        "page_anchor": "phaladeepika/p0021",
+        "tier": 1,
+        "quote": "An astrologer, a minister, a Brahmin, a preceptor, a sanyasi, and important personage, a pigeon, a horse and swan belong to Jupiter.",
+        "quote_display": "An astrologer, a minister, a Brahmin, a preceptor, a sanyasi, and important personage, a pigeon, a horse and swan belong to Jupiter.",
+        "quote_sha256": "3ce98018c7e40f530102335f89a0b5179cbaee336644bc96bc61b92772acd33f",
+        "char_span": [
+          36507,
+          36639
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_persons",
+        "graha": "Jupiter"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Persons.Venus",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "17-20",
+        "page_anchor": "phaladeepika/p0021",
+        "tier": 1,
+        "quote": "A wealthy man, a songster, a Vaishya (businessman), a sensualist, a dancer, a weaver, a prostitute, a peacock, a cow, a buffaloe and a parrot are represented by […] <!-- page phaladeepika/p0022 -->\r\nVenus.",
+        "quote_display": "A wealthy man, a songster, a Vaishya (businessman), a sensualist, a dancer, a weaver, a prostitute, a peacock, a cow, a buffaloe and a parrot are represented by […] Venus.",
+        "quote_sha256": "ae7f23a3185c46fafc4547945ec60675622114e4a97983eaf7ff9018a0d2c522",
+        "char_span": [
+          36643,
+          36803
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            36643,
+            36803
+          ],
+          [
+            36807,
+            36847
+          ]
+        ],
+        "quote_parts": [
+          "A wealthy man, a songster, a Vaishya (businessman), a sensualist, a dancer, a weaver, a prostitute, a peacock, a cow, a buffaloe and a parrot are represented by",
+          "<!-- page phaladeepika/p0022 -->\r\nVenus."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_persons",
+        "graha": "Venus"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "Runs across a printed page break; quoted as two spans.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Persons.Saturn",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "17-20",
+        "page_anchor": "phaladeepika/p0022",
+        "tier": 1,
+        "quote": "Saturn has influence over a seller or buyer of oil. servant, a mean person, a hunter, a blacksmith, an elephant, a crow and a cuckoo.",
+        "quote_display": "Saturn has influence over a seller or buyer of oil. servant, a mean person, a hunter, a blacksmith, an elephant, a crow and a cuckoo.",
+        "quote_sha256": "114e4217eb8cdf330571956a389d46d2ecd570461abc80851bbc7e5a18235046",
+        "char_span": [
+          36851,
+          36984
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_persons",
+        "graha": "Saturn"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Persons.RahuKetu",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "17-20",
+        "page_anchor": "phaladeepika/p0022",
+        "tier": 1,
+        "quote": "A Buddhist, a snake catcher, a donkey, a wolf, a camel, a serpent or snake, mosquitoes, a bug, insects, an owl and a place of darkness are signified by Rahu and Ketu.",
+        "quote_display": "A Buddhist, a snake catcher, a donkey, a wolf, a camel, a serpent or snake, mosquitoes, a bug, insects, an owl and a place of darkness are signified by Rahu and Ketu.",
+        "quote_sha256": "714c2f275ef29ddd4d235c54c6a7130227d48f1246c418472ec3d3edc0a96878",
+        "char_span": [
+          36988,
+          37154
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_persons",
+        "graha": "RahuKetu"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Friendship.NaturalTable",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "21-22",
+        "page_anchor": "phaladeepika/p0022",
+        "tier": 1,
+        "quote": "In these verses has been described the friendship, enmity and neutrality of the various planets to each other. This is summarized in the table given below: Planet Friend Neutral Enemy Sun Moon, Mercury Venus Mars Saturn Jupiter Moon Sun Mars, ----- Mercury Mercury Venus, Saturn Mars Sun, Moon, Venus, Saturn Mercury Jupiter Mercury Sun, Venus Mars, Jupiter Moon Saturn Jupiter Sun, Moon, Saturn Mercury Mars Venus Venus Mercury, Mars, Jupiter Sun, Moon Saturn Saturn Mercury, Jupiter Sun, Moon Venus Mars",
+        "quote_display": "In these verses has been described the friendship, enmity and neutrality of the various planets to each other. This is summarized in the table given below: Planet Friend Neutral Enemy Sun Moon, Mercury Venus Mars Saturn Jupiter Moon Sun Mars, ----- Mercury Mercury Venus, Saturn Mars Sun, Moon, Venus, Saturn Mercury Jupiter Mercury Sun, Venus Mars, Jupiter Moon Saturn Jupiter Sun, Moon, Saturn Mercury Mars Venus Venus Mercury, Mars, Jupiter Sun, Moon Saturn Saturn Mercury, Jupiter Sun, Moon Venus Mars",
+        "quote_sha256": "da7b30f45575e38ce23a508b6c3e2aa47d25b58ab150174c35b2b820e382e2ed",
+        "char_span": [
+          37165,
+          37670
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "natural_relationship",
+        "columns": [
+          "friend",
+          "neutral",
+          "enemy"
+        ]
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "A four-column table the scan interleaved past reconstruction. The row for the Sun reads 'Sun Moon, Mercury Venus Mars Saturn Jupiter': all six other grahas are present but the column boundaries are gone, and one row shows a literal '-----'. Assigning each graha to friend, neutral or enemy would mean importing the classical table from outside this quote, which is exactly what the rule store exists to prevent. The quote is encoded; the assignment waits for a human with the printed page.",
+      "exclusions": [],
+      "requires": [
+        "dep.manual-verification"
+      ]
+    },
+    {
+      "id": "PD.02.Friendship.Temporary",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "23",
+        "page_anchor": "phaladeepika/p0022",
+        "tier": 1,
+        "quote": "Planets are mutually friendly for the time being when they occupy the 2nd, 3rd, 4th, 10th, 11th and 12th houses from one another. (This means that planets occupying the 1st, 5th, 6th 7th, 8th, and 9th from one another are mutually inimical).",
+        "quote_display": "Planets are mutually friendly for the time being when they occupy the 2nd, 3rd, 4th, 10th, 11th and 12th houses from one another. (This means that planets occupying the 1st, 5th, 6th 7th, 8th, and 9th from one another are mutually inimical).",
+        "quote_sha256": "e1369407e7f432f93d1aab5405c42e342ee96c2b7042638c548df6659fb3bb2b",
+        "char_span": [
+          37678,
+          37919
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "temporary_relationship",
+        "friendly_houses": [
+          2,
+          3,
+          4,
+          10,
+          11,
+          12
+        ],
+        "inimical_houses": [
+          1,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "The parenthesis giving the inimical houses is the translator's inference from the verse, printed inside it.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Friendship.Combine",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "23",
+        "page_anchor": "phaladeepika/p0022",
+        "tier": 1,
+        "quote": "After taking into account the natural friendship and enmity, it should be deduced whether they are friendly, very friendly, neutral, inimical and very inimical to one another.",
+        "quote_display": "After taking into account the natural friendship and enmity, it should be deduced whether they are friendly, very friendly, neutral, inimical and very inimical to one another.",
+        "quote_sha256": "8ee2a3dbf4855cbb632ff7f02756a0a1ad058e538a13e8519a5d14e9dbc8dcc4",
+        "char_span": [
+          37920,
+          38095
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "relationship_grades",
+        "grades": [
+          "friendly",
+          "very friendly",
+          "neutral",
+          "inimical",
+          "very inimical"
+        ]
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Friendship.TemporaryNote",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "23 (Notes)",
+        "page_anchor": "phaladeepika/p0022",
+        "tier": 2,
+        "quote": "Note — Apart from the neutral or natural friendship and enmity amongst the planets, account is taken of the for the time being (Tatkalik) enmity and friendship […] amongst the planets as posited in a particular birth chart. The planets posited in the 2nd, 3rd, 4th, 10th, 11th and 12th from a particular planet are his friends for the time being. The 1st, 5th, 6th, 7th, 8th and 9th from him become his enemies for the time being. After taking into account the natural relationship, we come to know what their actual relationship is in a particular birth chart.",
+        "quote_display": "Note — Apart from the neutral or natural friendship and enmity amongst the planets, account is taken of the for the time being (Tatkalik) enmity and friendship […] amongst the planets as posited in a particular birth chart. The planets posited in the 2nd, 3rd, 4th, 10th, 11th and 12th from a particular planet are his friends for the time being. The 1st, 5th, 6th, 7th, 8th and 9th from him become his enemies for the time being. After taking into account the natural relationship, we come to know what their actual relationship is in a particular birth chart.",
+        "quote_sha256": "367324488f90813a4c3f7734d7e0bec3f70c7e95d775be64661328fe1e746159",
+        "char_span": [
+          38099,
+          38258
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            38099,
+            38258
+          ],
+          [
+            38296,
+            38693
+          ]
+        ],
+        "quote_parts": [
+          "Note — Apart from the neutral or natural friendship and enmity amongst the planets, account is taken of the for the time being (Tatkalik) enmity and friendship",
+          "amongst the planets as posited in a particular birth chart. The planets posited in the 2nd, 3rd, 4th, 10th, 11th and 12th from a particular planet are his friends for the time being. The 1st, 5th, 6th, 7th, 8th and 9th from him become his enemies for the time being. After taking into account the natural relationship, we come to know what their actual relationship is in a particular birth chart."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "temporary_relationship",
+        "restates": "PD.02.Friendship.Temporary"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "The translator restating verse 23. Kept as its own card rather than merged: it is a second telling, not the same words.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Friendship.CompoundTable",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "23 (Notes)",
+        "page_anchor": "phaladeepika/p0023",
+        "tier": 2,
+        "quote": "This is done in the following manner : 1. Natural friend + Temporary friend = Best friend (Naisargik mitra) (Tatkalik Mitra) (Adhimitra) 2. Natural friend + Temporary enemy = Neutral (Naisargik Mitra) (Tatkalik Shatru (Sama) 3. Natural enemy + Temporary enemy = Bitter enemy (Naisargik (Tatakalik Shatru) (Adhishatru) Shatru) 4. Natural enemy + Temporary friend = Neutral (Naisargik (Tatkalik Mitra) (Sama) Shatru) 5. Natural neutral + (Temporary Friend = Friend (Mitra) (Naisargik Sama) (Tatkalik Mitra) 6. Natural neutral + Temporary enemy = Enemy (Naisargik Sama) (Tatkalik Shatru) (Shatru)",
+        "quote_display": "This is done in the following manner : 1. Natural friend + Temporary friend = Best friend (Naisargik mitra) (Tatkalik Mitra) (Adhimitra) 2. Natural friend + Temporary enemy = Neutral (Naisargik Mitra) (Tatkalik Shatru (Sama) 3. Natural enemy + Temporary enemy = Bitter enemy (Naisargik (Tatakalik Shatru) (Adhishatru) Shatru) 4. Natural enemy + Temporary friend = Neutral (Naisargik (Tatkalik Mitra) (Sama) Shatru) 5. Natural neutral + (Temporary Friend = Friend (Mitra) (Naisargik Sama) (Tatkalik Mitra) 6. Natural neutral + Temporary enemy = Enemy (Naisargik Sama) (Tatkalik Shatru) (Shatru)",
+        "quote_sha256": "4d987e5dec650b89b63cb8e3ac8e4cc9c3d864b9c3cc39ab4fe36222f962b0af",
+        "char_span": [
+          38694,
+          39287
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "compound_relationship",
+        "table": [
+          {
+            "natural": "friend",
+            "temporary": "friend",
+            "result": "Adhimitra"
+          },
+          {
+            "natural": "friend",
+            "temporary": "enemy",
+            "result": "Sama"
+          },
+          {
+            "natural": "enemy",
+            "temporary": "enemy",
+            "result": "Adhishatru"
+          },
+          {
+            "natural": "enemy",
+            "temporary": "friend",
+            "result": "Sama"
+          },
+          {
+            "natural": "neutral",
+            "temporary": "friend",
+            "result": "Mitra"
+          },
+          {
+            "natural": "neutral",
+            "temporary": "enemy",
+            "result": "Shatru"
+          }
+        ]
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "The five-fold compound relationship. This table survived the scan cleanly, unlike the natural-friendship table it depends on.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Aspect.General",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "23",
+        "page_anchor": "phaladeepika/p0023",
+        "tier": 1,
+        "quote": "All planets cast a quarter glance at the 3rd and 10th houses, half a glance at the 5th and 9th houses, three-quarters of a glance at the 4th and 8th houses and full glance at the 7th house.",
+        "quote_display": "All planets cast a quarter glance at the 3rd and 10th houses, half a glance at the 5th and 9th houses, three-quarters of a glance at the 4th and 8th houses and full glance at the 7th house.",
+        "quote_sha256": "b251f41417833a5d330d1c8a6282dc5d4d08f84f9940b737c8196df72ffc9493",
+        "char_span": [
+          39291,
+          39480
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "aspect",
+        "table": {
+          "3": 0.25,
+          "10": 0.25,
+          "5": 0.5,
+          "9": 0.5,
+          "4": 0.75,
+          "8": 0.75,
+          "7": 1.0
+        }
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "Every graha's glance, by house counted from itself. The source dep.aspects reads.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Aspect.Special",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "23",
+        "page_anchor": "phaladeepika/p0023",
+        "tier": 1,
+        "quote": "However, the aspects of Saturn on the 3rd and 10th houses from him, of Jupiter on the 5th and 9th houses from him and of Mars on the 4th and 8th houses are also treated as full aspects.",
+        "quote_display": "However, the aspects of Saturn on the 3rd and 10th houses from him, of Jupiter on the 5th and 9th houses from him and of Mars on the 4th and 8th houses are also treated as full aspects.",
+        "quote_sha256": "b2c46ce40b892e99c15c4dffc90f16ed1981fb6453831b434965a522c037e505",
+        "char_span": [
+          39481,
+          39666
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "aspect_special",
+        "full": {
+          "Saturn": [
+            3,
+            10
+          ],
+          "Jupiter": [
+            5,
+            9
+          ],
+          "Mars": [
+            4,
+            8
+          ]
+        }
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "The special full aspects, which override the fractional glances of PD.02.Aspect.General for three grahas.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.PeriodCasteGuna.Sun",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "24",
+        "page_anchor": "phaladeepika/p0023",
+        "tier": 1,
+        "quote": "The following table shows the periods, castes, gunas (Satwa, Rajas, and Tamas) and the seasons governed by the various planets according to this verse. […] Sun Half a year Kshatriya Satwik Grishma",
+        "quote_display": "The following table shows the periods, castes, gunas (Satwa, Rajas, and Tamas) and the seasons governed by the various planets according to this verse. […] Sun Half a year Kshatriya Satwik Grishma",
+        "quote_sha256": "7d099e3f5ac93364b7383b4ffd34d08eee3140c1ce9f532a18c17c13416b1d1b",
+        "char_span": [
+          39674,
+          39825
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            39674,
+            39825
+          ],
+          [
+            39858,
+            39898
+          ]
+        ],
+        "quote_parts": [
+          "The following table shows the periods, castes, gunas (Satwa, Rajas, and Tamas) and the seasons governed by the various planets according to this verse.",
+          "Sun Half a year Kshatriya Satwik Grishma"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_period_caste_guna_season",
+        "graha": "Sun",
+        "period": "Half a year",
+        "caste": "Kshatriya",
+        "guna": "Satwik",
+        "season": "Grishma"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.PeriodCasteGuna.Moon",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "24",
+        "page_anchor": "phaladeepika/p0023",
+        "tier": 1,
+        "quote": "The following table shows the periods, castes, gunas (Satwa, Rajas, and Tamas) and the seasons governed by the various planets according to this verse. […] Moon 2 Ghatikas Vaishya Satwlk Varsha",
+        "quote_display": "The following table shows the periods, castes, gunas (Satwa, Rajas, and Tamas) and the seasons governed by the various planets according to this verse. […] Moon 2 Ghatikas Vaishya Satwlk Varsha",
+        "quote_sha256": "1f14d2aeda27da0646365646613539cdb4c085fdc54ce45242b9fb43002359ab",
+        "char_span": [
+          39674,
+          39825
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            39674,
+            39825
+          ],
+          [
+            39899,
+            39936
+          ]
+        ],
+        "quote_parts": [
+          "The following table shows the periods, castes, gunas (Satwa, Rajas, and Tamas) and the seasons governed by the various planets according to this verse.",
+          "Moon 2 Ghatikas Vaishya Satwlk Varsha"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_period_caste_guna_season",
+        "graha": "Moon",
+        "period": "2 Ghatikas",
+        "caste": "Vaishya",
+        "guna": "Satwlk",
+        "season": "Varsha"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.PeriodCasteGuna.Mars",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "24",
+        "page_anchor": "phaladeepika/p0023",
+        "tier": 1,
+        "quote": "The following table shows the periods, castes, gunas (Satwa, Rajas, and Tamas) and the seasons governed by the various planets according to this verse. […] Mars One day Kshatriya Tamsik Grishma",
+        "quote_display": "The following table shows the periods, castes, gunas (Satwa, Rajas, and Tamas) and the seasons governed by the various planets according to this verse. […] Mars One day Kshatriya Tamsik Grishma",
+        "quote_sha256": "d8e57a924229f23aa2c09e5088c7e87c842bb8f43dda34962430c9ec0394d798",
+        "char_span": [
+          39674,
+          39825
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            39674,
+            39825
+          ],
+          [
+            39937,
+            39974
+          ]
+        ],
+        "quote_parts": [
+          "The following table shows the periods, castes, gunas (Satwa, Rajas, and Tamas) and the seasons governed by the various planets according to this verse.",
+          "Mars One day Kshatriya Tamsik Grishma"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_period_caste_guna_season",
+        "graha": "Mars",
+        "period": "One day",
+        "caste": "Kshatriya",
+        "guna": "Tamsik",
+        "season": "Grishma"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.PeriodCasteGuna.Mercury",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "24",
+        "page_anchor": "phaladeepika/p0023",
+        "tier": 1,
+        "quote": "The following table shows the periods, castes, gunas (Satwa, Rajas, and Tamas) and the seasons governed by the various planets according to this verse. […] Mercury 2 months Sudra Rajsik Sharad",
+        "quote_display": "The following table shows the periods, castes, gunas (Satwa, Rajas, and Tamas) and the seasons governed by the various planets according to this verse. […] Mercury 2 months Sudra Rajsik Sharad",
+        "quote_sha256": "2b3fb71f7478ab2467ad5fef28bf7f958971d2dcc632f8f255e6b82eb8ac13d6",
+        "char_span": [
+          39674,
+          39825
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            39674,
+            39825
+          ],
+          [
+            39975,
+            40011
+          ]
+        ],
+        "quote_parts": [
+          "The following table shows the periods, castes, gunas (Satwa, Rajas, and Tamas) and the seasons governed by the various planets according to this verse.",
+          "Mercury 2 months Sudra Rajsik Sharad"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_period_caste_guna_season",
+        "graha": "Mercury",
+        "period": "2 months",
+        "caste": "Sudra",
+        "guna": "Rajsik",
+        "season": "Sharad"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.PeriodCasteGuna.Jupiter",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "24",
+        "page_anchor": "phaladeepika/p0023",
+        "tier": 1,
+        "quote": "The following table shows the periods, castes, gunas (Satwa, Rajas, and Tamas) and the seasons governed by the various planets according to this verse. […] Jupiter 1 month Brahmin Satwik Hemanta",
+        "quote_display": "The following table shows the periods, castes, gunas (Satwa, Rajas, and Tamas) and the seasons governed by the various planets according to this verse. […] Jupiter 1 month Brahmin Satwik Hemanta",
+        "quote_sha256": "a53e98d9c701ca1001d4204da7be5d73cd2aa1f8e0e03fb39c82b878ffc682a6",
+        "char_span": [
+          39674,
+          39825
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            39674,
+            39825
+          ],
+          [
+            40012,
+            40050
+          ]
+        ],
+        "quote_parts": [
+          "The following table shows the periods, castes, gunas (Satwa, Rajas, and Tamas) and the seasons governed by the various planets according to this verse.",
+          "Jupiter 1 month Brahmin Satwik Hemanta"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_period_caste_guna_season",
+        "graha": "Jupiter",
+        "period": "1 month",
+        "caste": "Brahmin",
+        "guna": "Satwik",
+        "season": "Hemanta"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.PeriodCasteGuna.Venus",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "24",
+        "page_anchor": "phaladeepika/p0023",
+        "tier": 1,
+        "quote": "The following table shows the periods, castes, gunas (Satwa, Rajas, and Tamas) and the seasons governed by the various planets according to this verse. […] Venus 15 days Brahmin Rajsik Vasanta",
+        "quote_display": "The following table shows the periods, castes, gunas (Satwa, Rajas, and Tamas) and the seasons governed by the various planets according to this verse. […] Venus 15 days Brahmin Rajsik Vasanta",
+        "quote_sha256": "e3a7041bbac5df6b0dc8c99ad3a2e82081f2f908462cf4750c7f6910695e24d1",
+        "char_span": [
+          39674,
+          39825
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            39674,
+            39825
+          ],
+          [
+            40051,
+            40087
+          ]
+        ],
+        "quote_parts": [
+          "The following table shows the periods, castes, gunas (Satwa, Rajas, and Tamas) and the seasons governed by the various planets according to this verse.",
+          "Venus 15 days Brahmin Rajsik Vasanta"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_period_caste_guna_season",
+        "graha": "Venus",
+        "period": "15 days",
+        "caste": "Brahmin",
+        "guna": "Rajsik",
+        "season": "Vasanta"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.PeriodCasteGuna.Saturn",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "24",
+        "page_anchor": "phaladeepika/p0023",
+        "tier": 1,
+        "quote": "The following table shows the periods, castes, gunas (Satwa, Rajas, and Tamas) and the seasons governed by the various planets according to this verse. […] Saturn One year Outcaste Tamsik Shishir",
+        "quote_display": "The following table shows the periods, castes, gunas (Satwa, Rajas, and Tamas) and the seasons governed by the various planets according to this verse. […] Saturn One year Outcaste Tamsik Shishir",
+        "quote_sha256": "f8cfdfd511c42cf8aca6f81d0a97267bbdd93883b8acfdda8182125edcb153d8",
+        "char_span": [
+          39674,
+          39825
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            39674,
+            39825
+          ],
+          [
+            40088,
+            40127
+          ]
+        ],
+        "quote_parts": [
+          "The following table shows the periods, castes, gunas (Satwa, Rajas, and Tamas) and the seasons governed by the various planets according to this verse.",
+          "Saturn One year Outcaste Tamsik Shishir"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_period_caste_guna_season",
+        "graha": "Saturn",
+        "period": "One year",
+        "caste": "Outcaste",
+        "guna": "Tamsik",
+        "season": "Shishir"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.DayNight.Sun",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "25",
+        "page_anchor": "phaladeepika/p0024",
+        "tier": 1,
+        "quote": "The Sun is signiflcator of father if the birth is during the day time and uncle if the birth is during night time. He has special influence on the right eye.",
+        "quote_display": "The Sun is signiflcator of father if the birth is during the day time and uncle if the birth is during night time. He has special influence on the right eye.",
+        "quote_sha256": "b483225f51cfb7046350437247b9805b8251167c5677756f1648aa474d091e2f",
+        "char_span": [
+          40169,
+          40326
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "karaka_by_day_or_night",
+        "graha": "Sun",
+        "day": "father",
+        "night": "uncle",
+        "influences": "right eye"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "Verse 1 makes the Sun the significator of the father without qualification; this verse makes it so only for a day birth, and gives the father to Saturn at night. Both are encoded and neither is corrected. The Sun and Saturn entries are complementary, not contradictory: they partition day from night.",
+      "exclusions": [],
+      "contradicts": [
+        "PD.02.Karaka.Sun"
+      ]
+    },
+    {
+      "id": "PD.02.DayNight.Moon",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "25",
+        "page_anchor": "phaladeepika/p0024",
+        "tier": 1,
+        "quote": "The Moon is the indicator of mother if the birth is during night time and of maternal aunt if the birth is during day time. She has special influence on the left eye.",
+        "quote_display": "The Moon is the indicator of mother if the birth is during night time and of maternal aunt if the birth is during day time. She has special influence on the left eye.",
+        "quote_sha256": "cb862fbac9bc807eebc22862d1b1f22b129d7cd21301a6604dbacc9462667637",
+        "char_span": [
+          40330,
+          40496
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "karaka_by_day_or_night",
+        "graha": "Moon",
+        "night": "mother",
+        "day": "maternal aunt",
+        "influences": "left eye"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.DayNight.MarsMercuryJupiter",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "25",
+        "page_anchor": "phaladeepika/p0024",
+        "tier": 1,
+        "quote": "Mars is the signiflcator of younger brother. Mercury signifies adopted son. Jupiter represents elder brother.",
+        "quote_display": "Mars is the signiflcator of younger brother. Mercury signifies adopted son. Jupiter represents elder brother.",
+        "quote_sha256": "77c3c2a8cedc42d2a26f9cdfd623fcf53eb1704fb65cee3948e0574d233dc5f4",
+        "char_span": [
+          40500,
+          40609
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "karaka_by_day_or_night",
+        "Mars": "younger brother",
+        "Mercury": "adopted son",
+        "Jupiter": "elder brother"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.DayNight.Venus",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "25",
+        "page_anchor": "phaladeepika/p0024",
+        "tier": 1,
+        "quote": "Venus is the signiflcator of mother if the birth is during day time and of maternal aunt if the birth takes place at night.",
+        "quote_display": "Venus is the signiflcator of mother if the birth is during day time and of maternal aunt if the birth takes place at night.",
+        "quote_sha256": "3f8769ada983bbf06af0549d6c23bd06e4d2c62639494407a6ef5a9bc365c893",
+        "char_span": [
+          40613,
+          40736
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "karaka_by_day_or_night",
+        "graha": "Venus",
+        "day": "mother",
+        "night": "maternal aunt"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.DayNight.Saturn",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "25",
+        "page_anchor": "phaladeepika/p0024",
+        "tier": 1,
+        "quote": "Saturn represents the uncle if the birth takes place during the day and of father if the birth is during night time.",
+        "quote_display": "Saturn represents the uncle if the birth takes place during the day and of father if the birth is during night time.",
+        "quote_sha256": "9298e284099502e4d1d5a641973175dc8d1ded3e38ad21f26c464fef19c4904a",
+        "char_span": [
+          40740,
+          40856
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "karaka_by_day_or_night",
+        "graha": "Saturn",
+        "day": "uncle",
+        "night": "father"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Senses.Assignment",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "26",
+        "page_anchor": "phaladeepika/p0024",
+        "tier": 1,
+        "quote": "The Sun represents the soul and the Moon the body. Mars and the other four planets denote the five senses. The Sun and Mars govern Teja and have influence over eye sight. The Moon and Venus rule over the generative organs because they govern the watery element. Mercury governs smell (nose). Jupiter governs sound (the capacity to hear). Saturn, Rahu and Ketu govern the touch.",
+        "quote_display": "The Sun represents the soul and the Moon the body. Mars and the other four planets denote the five senses. The Sun and Mars govern Teja and have influence over eye sight. The Moon and Venus rule over the generative organs because they govern the watery element. Mercury governs smell (nose). Jupiter governs sound (the capacity to hear). Saturn, Rahu and Ketu govern the touch.",
+        "quote_sha256": "be6ad838dde5283dd7fa057b2cc70f8969b9909c9cf411f9ea10559f7caac691",
+        "char_span": [
+          40864,
+          41241
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_senses"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Senses.NodesHostileToSun",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "26",
+        "page_anchor": "phaladeepika/p0024",
+        "tier": 1,
+        "quote": "Rahu, Ketu and Gulik are enemies of the Sun and will cause distress to the body and the soul.",
+        "quote_display": "Rahu, Ketu and Gulik are enemies of the Sun and will cause distress to the body and the soul.",
+        "quote_sha256": "69d797977bd602e42f25c439bd4739241f893eb64436495c05ab95f52a83c81b",
+        "char_span": [
+          41245,
+          41338
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_hostility",
+        "graha": [
+          "Rahu",
+          "Ketu",
+          "Gulika"
+        ],
+        "against": "Sun"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Nature.Malefics",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "27",
+        "page_anchor": "phaladeepika/p0024",
+        "tier": 1,
+        "quote": "The waning Moon, the Sun, Mars, Saturn, Rahu and Ketu are classified as malefic planets. Mercury if associated with them becomes malefic.",
+        "quote_display": "The waning Moon, the Sun, Mars, Saturn, Rahu and Ketu are classified as malefic planets. Mercury if associated with them becomes malefic.",
+        "quote_sha256": "f3137a223549286fccdfcaeaa79fb82e409b58a7bfc92ffe29f39d66be3a684f",
+        "char_span": [
+          41346,
+          41483
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_nature",
+        "malefic": [
+          "waning Moon",
+          "Sun",
+          "Mars",
+          "Saturn",
+          "Rahu",
+          "Ketu"
+        ],
+        "conditional": {
+          "Mercury": "malefic if associated with malefics"
+        }
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "The source dep.nature reads. Note that it is not a fixed list: the Moon's nature turns on its phase and Mercury's on its company, so the extractor needs the Moon's phase and conjunctions, not a table.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Nature.Benefics",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "27 (Notes)",
+        "page_anchor": "phaladeepika/p0024",
+        "tier": 2,
+        "quote": "Notes — The waxing Moon and Mercury not associated with malefics will be treated as benefic.",
+        "quote_display": "Notes — The waxing Moon and Mercury not associated with malefics will be treated as benefic.",
+        "quote_sha256": "5824dd6f3ca5d41a22c2fcacc3ff47416620a897722e28725e43410a3ae56e64",
+        "char_span": [
+          41487,
+          41579
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_nature",
+        "benefic": [
+          "waxing Moon",
+          "Mercury not associated with malefics"
+        ]
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.GrahaSex",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "27",
+        "page_anchor": "phaladeepika/p0024",
+        "tier": 1,
+        "quote": "Mercury, Ketu and Saturn are eunuchs. The Moon, Rahu and Venus are females. The Sun, Mars and Jupiter are males.",
+        "quote_display": "Mercury, Ketu and Saturn are eunuchs. The Moon, Rahu and Venus are females. The Sun, Mars and Jupiter are males.",
+        "quote_sha256": "25cdf05d64e8b54283ce9a4ff89120ac6d186613ebffa4aa9eb5c3d0c107d34c",
+        "char_span": [
+          41583,
+          41695
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_sex",
+        "eunuch": [
+          "Mercury",
+          "Ketu",
+          "Saturn"
+        ],
+        "female": [
+          "Moon",
+          "Rahu",
+          "Venus"
+        ],
+        "male": [
+          "Sun",
+          "Mars",
+          "Jupiter"
+        ]
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "The source dep.graha-class reads.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.GrahaDeities",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "27",
+        "page_anchor": "phaladeepika/p0024",
+        "tier": 1,
+        "quote": "The Sun belongs to the fiery element and his ruling deity is Rudra. The Moon belongs to the watery element and her ruling deity is Amba (Parvati). The ruling deities of Mars, Mercury, Jupiter, Venus, Saturn Rahu and Ketu are Kartika, Vishnu, Brahma, Lakshmi and Yama. Serpent Adhishesha and Braham respectively.",
+        "quote_display": "The Sun belongs to the fiery element and his ruling deity is Rudra. The Moon belongs to the watery element and her ruling deity is Amba (Parvati). The ruling deities of Mars, Mercury, Jupiter, Venus, Saturn Rahu and Ketu are Kartika, Vishnu, Brahma, Lakshmi and Yama. Serpent Adhishesha and Braham respectively.",
+        "quote_sha256": "1212e15113dc17f7c2aa5e437bf7af8e3a076fbfc61765cfdb09931a4374382b",
+        "char_span": [
+          41696,
+          42007
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_deity_and_element"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "The list of ruling deities is printed with a full stop after 'Yama' and continues 'Serpent Adhishesha and Braham respectively', so the seven names run across what looks like a sentence boundary. Transcribed as printed; the mapping is left to the quote.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.GrahaElements",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "27",
+        "page_anchor": "phaladeepika/p0024",
+        "tier": 1,
+        "quote": "Fire, water, fire, earth, ether, water and air are the constituents respectively of the planets from Sun to Saturn.",
+        "quote_display": "Fire, water, fire, earth, ether, water and air are the constituents respectively of the planets from Sun to Saturn.",
+        "quote_sha256": "f53a003bf49a0fe1963e830647c3efc682da972dcb9cab6fb17982bb877cb8a4",
+        "char_span": [
+          42011,
+          42126
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_element",
+        "table": {
+          "Sun": "fire",
+          "Moon": "water",
+          "Mars": "fire",
+          "Mercury": "earth",
+          "Jupiter": "ether",
+          "Venus": "water",
+          "Saturn": "air"
+        }
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Grains",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "28",
+        "page_anchor": "phaladeepika/p0025",
+        "tier": 1,
+        "quote": "The grains ruled by various planets are as under :— […] Sun - Wheat, Moon – rice, Mars - Dhal, Mercury - Green Gram, Jupiter - Bengal gram, Venus - Cow gram, Saturn – Sesamum, Rahu - Black gram, and Ketu - horse gram.",
+        "quote_display": "The grains ruled by various planets are as under :— […] Sun - Wheat, Moon – rice, Mars - Dhal, Mercury - Green Gram, Jupiter - Bengal gram, Venus - Cow gram, Saturn – Sesamum, Rahu - Black gram, and Ketu - horse gram.",
+        "quote_sha256": "f978e08a97e0f0abaa8deab224d4732160938b28c43717cb7eca9e79a2a9fc04",
+        "char_span": [
+          42168,
+          42219
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            42168,
+            42219
+          ],
+          [
+            42223,
+            42384
+          ]
+        ],
+        "quote_parts": [
+          "The grains ruled by various planets are as under :—",
+          "Sun - Wheat, Moon – rice, Mars - Dhal, Mercury - Green Gram, Jupiter - Bengal gram, Venus - Cow gram, Saturn – Sesamum, Rahu - Black gram, and Ketu - horse gram."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_grain"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "Runs across a printed page break; quoted as two spans.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Countries",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "28",
+        "page_anchor": "phaladeepika/p0025",
+        "tier": 1,
+        "quote": "The countries related to the various planets are — Sun Kalinga Moon Yavana Mars Avanti Mercury Magadha Jupiter Sindhu Venus Keekata Saturn Saurashtra Rahu Ambara Ketu Parvata",
+        "quote_display": "The countries related to the various planets are — Sun Kalinga Moon Yavana Mars Avanti Mercury Magadha Jupiter Sindhu Venus Keekata Saturn Saurashtra Rahu Ambara Ketu Parvata",
+        "quote_sha256": "c6ad97333910b3c10eb4ca05f9dc06d6036336f98ba70a38e759b66289ab81df",
+        "char_span": [
+          42388,
+          42562
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_country"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Gems",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "29",
+        "page_anchor": "phaladeepika/p0025",
+        "tier": 1,
+        "quote": "The gems allotted to the various planets are as under - Sun - Ruby, Moon - Pure spotless pearl. Mars - Coral, Mercury - Emerald shaped like Garuda, Jupiter - Yellow sapphire, Venus - Diamond, Saturn - stainless Sapphire, Rahu - Gomedha and Ketu - Cat's eye.",
+        "quote_display": "The gems allotted to the various planets are as under - Sun - Ruby, Moon - Pure spotless pearl. Mars - Coral, Mercury - Emerald shaped like Garuda, Jupiter - Yellow sapphire, Venus - Diamond, Saturn - stainless Sapphire, Rahu - Gomedha and Ketu - Cat's eye.",
+        "quote_sha256": "461e0236f2d2db7d37b069fabce51168a2c670be7685cb1bac2d51c991ea6042",
+        "char_span": [
+          42570,
+          42827
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_gem"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Gems.Purpose",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "29 (Notes)",
+        "page_anchor": "phaladeepika/p0025",
+        "tier": 2,
+        "quote": "Notes — The purpose of indicating the gems ruled by the various planets is to use them for alleviating the miseries caused by their malevolence and to accelerate their good effects.",
+        "quote_display": "Notes — The purpose of indicating the gems ruled by the various planets is to use them for alleviating the miseries caused by their malevolence and to accelerate their good effects.",
+        "quote_sha256": "3c4a5649c20d83f6d56210535eba337c07ed916634312d154fb0cfc29b8eec21",
+        "char_span": [
+          42831,
+          43012
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "remedial_purpose",
+        "applies_to": "PD.02.Gems"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "Remedial use. The sentence that follows is a publisher's pointer to another book and is deferred as apparatus.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.SubstanceApparelTaste",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "30-32",
+        "page_anchor": "phaladeepika/p0025",
+        "tier": 1,
+        "quote": "The substances assigned to the planets from the Sun to Saturn, articles of their apparel and their tastes are as follows. The clothes will be of the same color as belongs to the planets. Planet Substances Colors of apparel Tastes Sun Copper Saffron colored Pungent Moon bell-metal White colored Saltish Mars Copper Red Bitter Mercury Ore Green Mixed Jupiter Cold Yellow Sweet Venus Silver White Sour Saturn Iron Black (old) Astringent",
+        "quote_display": "The substances assigned to the planets from the Sun to Saturn, articles of their apparel and their tastes are as follows. The clothes will be of the same color as belongs to the planets. Planet Substances Colors of apparel Tastes Sun Copper Saffron colored Pungent Moon bell-metal White colored Saltish Mars Copper Red Bitter Mercury Ore Green Mixed Jupiter Cold Yellow Sweet Venus Silver White Sour Saturn Iron Black (old) Astringent",
+        "quote_sha256": "226b918da70e2ea40063f279ff8fbd5a1ea63a303bf551d6bf0ecd0158f2dc05",
+        "char_span": [
+          43129,
+          43563
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_substance_apparel_taste",
+        "table": {
+          "Sun": {
+            "substance": "Copper",
+            "colour": "Saffron colored",
+            "taste": "Pungent"
+          },
+          "Moon": {
+            "substance": "bell-metal",
+            "colour": "White colored",
+            "taste": "Saltish"
+          },
+          "Mars": {
+            "substance": "Copper",
+            "colour": "Red",
+            "taste": "Bitter"
+          },
+          "Mercury": {
+            "substance": "Ore",
+            "colour": "Green",
+            "taste": "Mixed"
+          },
+          "Jupiter": {
+            "substance": "Cold",
+            "colour": "Yellow",
+            "taste": "Sweet"
+          },
+          "Venus": {
+            "substance": "Silver",
+            "colour": "White",
+            "taste": "Sour"
+          },
+          "Saturn": {
+            "substance": "Iron",
+            "colour": "Black (old)",
+            "taste": "Astringent"
+          }
+        }
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "'Cold' for Jupiter is printed where 'Gold' is expected; transcribed as printed.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.BodyMarkAndAge",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "30-32",
+        "page_anchor": "phaladeepika/p0025",
+        "tier": 1,
+        "quote": "The clothes of Mars are slightly burnt and those of Saturn are like a rag (old […] <!-- page phaladeepika/p0026 -->\r\nand worn out). Planets Side on which the Ages mark will be found Sun Right side 50 years Moon Left side 70 years Mars Right side 16 years Mercury Right side 20 years Jupiter Right side 30 years Venus Left side 7 years Saturn Left side 100 years",
+        "quote_display": "The clothes of Mars are slightly burnt and those of Saturn are like a rag (old […] and worn out). Planets Side on which the Ages mark will be found Sun Right side 50 years Moon Left side 70 years Mars Right side 16 years Mercury Right side 20 years Jupiter Right side 30 years Venus Left side 7 years Saturn Left side 100 years",
+        "quote_sha256": "5d37bcf9ae208662595f84c6a3abc9b7253caa948a244bf7263e0b9ac99e9f46",
+        "char_span": [
+          43567,
+          43645
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            43567,
+            43645
+          ],
+          [
+            43649,
+            43927
+          ]
+        ],
+        "quote_parts": [
+          "The clothes of Mars are slightly burnt and those of Saturn are like a rag (old",
+          "<!-- page phaladeepika/p0026 -->\r\nand worn out). Planets Side on which the Ages mark will be found Sun Right side 50 years Moon Left side 70 years Mars Right side 16 years Mercury Right side 20 years Jupiter Right side 30 years Venus Left side 7 years Saturn Left side 100 years"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_body_side_and_age",
+        "table": {
+          "Sun": {
+            "side": "Right",
+            "age": 50
+          },
+          "Moon": {
+            "side": "Left",
+            "age": 70
+          },
+          "Mars": {
+            "side": "Right",
+            "age": 16
+          },
+          "Mercury": {
+            "side": "Right",
+            "age": 20
+          },
+          "Jupiter": {
+            "side": "Right",
+            "age": 30
+          },
+          "Venus": {
+            "side": "Left",
+            "age": 7
+          },
+          "Saturn": {
+            "side": "Left",
+            "age": 100
+          }
+        }
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "Runs across a printed page break; quoted as two spans.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.BodyMarkAndAge.Rahu",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "30-32",
+        "page_anchor": "phaladeepika/p0026",
+        "tier": 1,
+        "quote": "Rahu is also to represent the age of 100 years.",
+        "quote_display": "Rahu is also to represent the age of 100 years.",
+        "quote_sha256": "221286c88189779459cbc3361b81021efb9446c8be99685bc9667530b190a031",
+        "char_span": [
+          43931,
+          43978
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_body_side_and_age",
+        "graha": "Rahu",
+        "age": 100
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.BodyMarkAndAge.Use",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "30-32 (Notes)",
+        "page_anchor": "phaladeepika/p0026",
+        "tier": 2,
+        "quote": "Notes — The above information is generally useful in queries.",
+        "quote_display": "Notes — The above information is generally useful in queries.",
+        "quote_sha256": "e0094ebb6b061f16e2c444d1352579208b4ae1656a57e45cf93f1e88b82cd913",
+        "char_span": [
+          43982,
+          44043
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "scope_note",
+        "applies_to": "PD.02.BodyMarkAndAge"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "Restricts the table to prashna, which is out of scope.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Form.Rahu",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "33",
+        "page_anchor": "phaladeepika/p0026",
+        "tier": 1,
+        "quote": "Rahu is blue colored. He has a huge body. He is of a low caste. He has got skin disease. He is irreligious. He suffers from hic-cough. […] He speaks falsehood. He is cunning, a leper devoid of Intelligence and defames others.",
+        "quote_display": "Rahu is blue colored. He has a huge body. He is of a low caste. He has got skin disease. He is irreligious. He suffers from hic-cough. […] He speaks falsehood. He is cunning, a leper devoid of Intelligence and defames others.",
+        "quote_sha256": "0ef130497ea97897bfc533dcb05cd6efbf556bf83468198952a26963c30b4392",
+        "char_span": [
+          44051,
+          44185
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            44051,
+            44185
+          ],
+          [
+            44189,
+            44275
+          ]
+        ],
+        "quote_parts": [
+          "Rahu is blue colored. He has a huge body. He is of a low caste. He has got skin disease. He is irreligious. He suffers from hic-cough.",
+          "He speaks falsehood. He is cunning, a leper devoid of Intelligence and defames others."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_form",
+        "graha": "Rahu"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Form.Ketu",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "34",
+        "page_anchor": "phaladeepika/p0026",
+        "tier": 1,
+        "quote": "The eyes of Ketu are reddish with a fierce look. He has a venomous tongue. His body is elevated. He wears arms and is an outcaste. His body is of smoky color. He is always inhaling smoke (smoking). He has a body marked with bruises. He is lean and brutal by nature.",
+        "quote_display": "The eyes of Ketu are reddish with a fierce look. He has a venomous tongue. His body is elevated. He wears arms and is an outcaste. His body is of smoky color. He is always inhaling smoke (smoking). He has a body marked with bruises. He is lean and brutal by nature.",
+        "quote_sha256": "a1cad00bc3955a95cfd6c4cd4a203c6abe8105e7f1c05049caa90a4a1d81cd4c",
+        "char_span": [
+          44283,
+          44548
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_form",
+        "graha": "Ketu"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Substance.RahuKetu",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "35",
+        "page_anchor": "phaladeepika/p0026",
+        "tier": 1,
+        "quote": "The substance assigned to Rahu is lead and his clothes are old and worn out. An earthen pot and garments of variegated colors belong to Ketu.",
+        "quote_display": "The substance assigned to Rahu is lead and his clothes are old and worn out. An earthen pot and garments of variegated colors belong to Ketu.",
+        "quote_sha256": "5c5bce458ad268f8d45727925592cb5ac0dbb57d5a9ea8466f322bbfc10b1ec9",
+        "char_span": [
+          44556,
+          44697
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_substance",
+        "graha": [
+          "Rahu",
+          "Ketu"
+        ]
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Friendship.RahuKetu",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "35",
+        "page_anchor": "phaladeepika/p0026",
+        "tier": 1,
+        "quote": "Mercury, Saturn and Venus are the friends of Rahu and Ketu. Mars is neutral to them. The rest are enemies.",
+        "quote_display": "Mercury, Saturn and Venus are the friends of Rahu and Ketu. Mars is neutral to them. The rest are enemies.",
+        "quote_sha256": "f1179b121a6c5f3df060a18febc8a9160d64d68518be9e4bec0289c79a33b6b4",
+        "char_span": [
+          44701,
+          44807
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "natural_relationship",
+        "graha": [
+          "Rahu",
+          "Ketu"
+        ],
+        "friend": [
+          "Mercury",
+          "Saturn",
+          "Venus"
+        ],
+        "neutral": [
+          "Mars"
+        ],
+        "enemy": [
+          "Sun",
+          "Moon",
+          "Jupiter"
+        ]
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "Survived the scan cleanly, unlike the seven-graha table of vv. 21-22.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.AdverseDisposition",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "36",
+        "page_anchor": "phaladeepika/p0026",
+        "tier": 1,
+        "quote": "The planets should be considered adversely disposed, if they are eclipsed (by the rays of the Sun), debilitated (be in a sign of debilitation or Navamsa), if they are in any enemy's house or if they occupy the 6th, 8th or the 12th house from the Ascendant. If they occupy other places, they are said to be well disposed.",
+        "quote_display": "The planets should be considered adversely disposed, if they are eclipsed (by the rays of the Sun), debilitated (be in a sign of debilitation or Navamsa), if they are in any enemy's house or if they occupy the 6th, 8th or the 12th house from the Ascendant. If they occupy other places, they are said to be well disposed.",
+        "quote_sha256": "bceca27cb7ad4e67c6667034e64d48e1840dfafddd9d90b086a5d2fe78b05b97",
+        "char_span": [
+          44815,
+          45135
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "combust": {
+              "graha": "any"
+            }
+          },
+          {
+            "dignity": {
+              "graha": "any",
+              "dignity": "debilitated"
+            }
+          },
+          {
+            "dignity": {
+              "graha": "any",
+              "dignity": "inimical"
+            }
+          },
+          {
+            "in_house": {
+              "graha": "any",
+              "house": 6
+            }
+          },
+          {
+            "in_house": {
+              "graha": "any",
+              "house": 8
+            }
+          },
+          {
+            "in_house": {
+              "graha": "any",
+              "house": 12
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "any_graha",
+        "effect": "adversely_disposed"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "Three of the six alternatives are house placements the engine can already test, but the rule is quantified over the grahas and the debilitation clause covers Navamsa as well as Rasi.",
+      "exclusions": [],
+      "requires": [
+        "dep.combust",
+        "dep.dignity",
+        "dep.varga",
+        "dep.condition-variables"
+      ]
+    },
+    {
+      "id": "PD.02.Prashna.ReservoirWater",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "36",
+        "page_anchor": "phaladeepika/p0026",
+        "tier": 1,
+        "quote": "If there be a query whether the water in a reservoir (or in an irrigation project) will increase or decrease, increase in water should be predicted if the Moon be in the 12th 11th, 1st, 6th. 5th or the 7th house at the time of the query.",
+        "quote_display": "If there be a query whether the water in a reservoir (or in an irrigation project) will increase or decrease, increase in water should be predicted if the Moon be in the 12th 11th, 1st, 6th. 5th or the 7th house at the time of the query.",
+        "quote_sha256": "bb85734ce95d51165c4fe98a777379c655ac4f92586f39feaccdaa06dd9130b8",
+        "char_span": [
+          45139,
+          45376
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "in_house": {
+              "graha": "Moon",
+              "house": 12
+            }
+          },
+          {
+            "in_house": {
+              "graha": "Moon",
+              "house": 11
+            }
+          },
+          {
+            "in_house": {
+              "graha": "Moon",
+              "house": 1
+            }
+          },
+          {
+            "in_house": {
+              "graha": "Moon",
+              "house": 6
+            }
+          },
+          {
+            "in_house": {
+              "graha": "Moon",
+              "house": 5
+            }
+          },
+          {
+            "in_house": {
+              "graha": "Moon",
+              "house": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "prashna",
+        "subject": "Moon",
+        "effect": "water_increases"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "inert",
+      "note": "A horary rule: it reads the chart of the moment a question is asked, not a nativity. Its condition is exactly expressible and would fire on a birth chart, which is precisely why it must not.",
+      "exclusions": [],
+      "requires": [
+        "dep.prashna"
+      ]
+    },
+    {
+      "id": "PD.02.Combustion.Orbs",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "36 (Notes)",
+        "page_anchor": "phaladeepika/p0026",
+        "tier": 1,
+        "quote": "Notes — The Moon is said to be eclipsed if she is 12° away from the Sun. […] <!-- page phaladeepika/p0027 -->\r\nMars is eclipsed when he is 17° away from the Sun. Mercury in direct motion is eclipsed when he is 14° away from the Sun. Retrograde Mercury is eclipsed when he is 12° away form the Sun. Jupiter, Venus and Saturn are said to be eclipsed if they are 11°, 10° and 15° respectively away from the Sun. A retrograde Venus is eclipsed if he is 8° away from the Sun.",
+        "quote_display": "Notes — The Moon is said to be eclipsed if she is 12° away from the Sun. […] Mars is eclipsed when he is 17° away from the Sun. Mercury in direct motion is eclipsed when he is 14° away from the Sun. Retrograde Mercury is eclipsed when he is 12° away form the Sun. Jupiter, Venus and Saturn are said to be eclipsed if they are 11°, 10° and 15° respectively away from the Sun. A retrograde Venus is eclipsed if he is 8° away from the Sun.",
+        "quote_sha256": "f0a72092e5e07f509c83bc672a05b0c8e82be2c0a5630b98ad2450f7d2cc370a",
+        "char_span": [
+          45380,
+          45452
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            45380,
+            45452
+          ],
+          [
+            45456,
+            45849
+          ]
+        ],
+        "quote_parts": [
+          "Notes — The Moon is said to be eclipsed if she is 12° away from the Sun.",
+          "<!-- page phaladeepika/p0027 -->\r\nMars is eclipsed when he is 17° away from the Sun. Mercury in direct motion is eclipsed when he is 14° away from the Sun. Retrograde Mercury is eclipsed when he is 12° away form the Sun. Jupiter, Venus and Saturn are said to be eclipsed if they are 11°, 10° and 15° respectively away from the Sun. A retrograde Venus is eclipsed if he is 8° away from the Sun."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "combustion_orb",
+        "table": {
+          "Moon": 12,
+          "Mars": 17,
+          "Mercury": 14,
+          "Mercury_retrograde": 12,
+          "Jupiter": 11,
+          "Venus": 10,
+          "Saturn": 15,
+          "Venus_retrograde": 8
+        },
+        "unit": "degrees from the Sun"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "The source dep.combust reads. The registry recorded these orbs as doctrine whose source was not yet located; it is here, in the translator's notes to verse 36. Retrograde Mercury and retrograde Venus carry their own orbs.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Trees",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "37",
+        "page_anchor": "phaladeepika/p0027",
+        "tier": 1,
+        "quote": "The various kinds of trees and plants signified by the different planets are as follows :— […] Sun - Strong and tall, Moon and Venus - Creeping plants, Rahu and Ketu - Clump of a tree or bush Mars and Saturn - Thorny trees, Jupiter - Fruit bearing trees. Mercury - Fruitless trees.",
+        "quote_display": "The various kinds of trees and plants signified by the different planets are as follows :— […] Sun - Strong and tall, Moon and Venus - Creeping plants, Rahu and Ketu - Clump of a tree or bush Mars and Saturn - Thorny trees, Jupiter - Fruit bearing trees. Mercury - Fruitless trees.",
+        "quote_sha256": "1c66eced92ac940d0caea456118e55cd2c6d027946dec00936204149bd2dfa99",
+        "char_span": [
+          45857,
+          45947
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            45857,
+            45947
+          ],
+          [
+            45951,
+            46137
+          ]
+        ],
+        "quote_parts": [
+          "The various kinds of trees and plants signified by the different planets are as follows :—",
+          "Sun - Strong and tall, Moon and Venus - Creeping plants, Rahu and Ketu - Clump of a tree or bush Mars and Saturn - Thorny trees, Jupiter - Fruit bearing trees. Mercury - Fruitless trees."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_trees"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "note": "Runs across a printed page break; quoted as two spans.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.02.Trees.Juice",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 2,
+        "verse": "37",
+        "page_anchor": "phaladeepika/p0027",
+        "tier": 1,
+        "quote": "The trees which blossom and which supply some kind of juice belong to the Moon and Venus. The trees which are juiceless or weak come under the jurisdiction of Saturn. Saal trees are ruled by Rahu.",
+        "quote_display": "The trees which blossom and which supply some kind of juice belong to the Moon and Venus. The trees which are juiceless or weak come under the jurisdiction of Saturn. Saal trees are ruled by Rahu.",
+        "quote_sha256": "5f1752ed3a7a94ce63d2942529f8f8a08a107c7510cbedd18057568d67cf1ee5",
+        "char_span": [
+          46141,
+          46337
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_trees",
+        "aspect": "sap and blossom"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "activation": "reference",
+      "exclusions": []
+    }
+  ]
+}
