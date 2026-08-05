@@ -27,10 +27,120 @@
       "conditions": {
         "all": [
           {
-            "aspects": {
-              "graha": "any",
-              "target": "7"
-            }
+            "any": [
+              {
+                "nature_occupancy": {
+                  "house": 5,
+                  "nature": "benefic"
+                }
+              },
+              {
+                "all": [
+                  {
+                    "aspects": {
+                      "graha": "?b5",
+                      "target": 5
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?b5",
+                      "nature": "benefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?l5",
+                      "house": 5
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?l5",
+                      "house": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?l5a",
+                      "house": 5
+                    }
+                  },
+                  {
+                    "aspects": {
+                      "graha": "?l5a",
+                      "target": 5
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "nature_occupancy": {
+                  "house": 7,
+                  "nature": "benefic"
+                }
+              },
+              {
+                "all": [
+                  {
+                    "aspects": {
+                      "graha": "?b7",
+                      "target": 7
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?b7",
+                      "nature": "benefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?l7",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?l7",
+                      "house": 7
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?l7a",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "aspects": {
+                      "graha": "?l7a",
+                      "target": 7
+                    }
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -52,14 +162,18 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "Stated from the lagna *or the Moon*; the engine has one frame only.",
-      "exclusions": [],
+      "activation": "active",
+      "note": "\"Associated with or aspected by benefics or their lords\" is read as four sufficient supports per house: a benefic occupant, a full benefic aspect, the house's own lord occupying it, or its own lord aspecting it. The lagna frame only is encoded; dep.moon-frame is no longer listed because the alternative frame is recorded as an exclusion rather than a blocker -- the card is sound in the frame it does use.",
+      "exclusions": [
+        "The Moon-frame alternative (\"the 5th and 7th ... from the Moon\") is not encoded, so the card under-fires on charts that satisfy the verse only in that frame.",
+        "The negative tail -- \"if it is not so, they will not be fruitful\" -- is a separate assertion and is not claimed by this card.",
+        "Under-fires on benefics: the encoded corpus classifies only the waxing Moon and Mercury-not-with-malefics as benefic, because Phaladeepika states the full benefic list in chapter 4, which is not encoded. Jupiter and Venus therefore carry no nature fact and cannot satisfy a benefic clause here."
+      ],
       "requires": [
         "dep.nature",
         "dep.aspects",
         "dep.lord-of-house",
-        "dep.moon-frame"
+        "dep.nature-occupancy"
       ]
     },
     {
@@ -87,22 +201,58 @@
       "conditions": {
         "any": [
           {
-            "hemmed_between": {
-              "graha": "Venus",
-              "nature": "malefic"
-            }
+            "all": [
+              {
+                "nature_occupancy": {
+                  "house": 12,
+                  "nature": "malefic"
+                }
+              },
+              {
+                "nature_occupancy": {
+                  "house": 4,
+                  "nature": "malefic"
+                }
+              },
+              {
+                "nature_occupancy": {
+                  "house": 8,
+                  "nature": "malefic"
+                }
+              }
+            ]
           },
           {
-            "conjunct": {
-              "graha": "Venus",
-              "other": "malefic"
-            }
+            "all": [
+              {
+                "conjunct": {
+                  "graha": "Venus",
+                  "other": "?m1"
+                }
+              },
+              {
+                "nature": {
+                  "graha": "?m1",
+                  "nature": "malefic"
+                }
+              }
+            ]
           },
           {
-            "aspects": {
-              "graha": "malefic",
-              "target": "Venus"
-            }
+            "all": [
+              {
+                "aspects": {
+                  "graha": "?m2",
+                  "target": "Venus"
+                }
+              },
+              {
+                "nature": {
+                  "graha": "?m2",
+                  "nature": "malefic"
+                }
+              }
+            ]
           }
         ]
       },
@@ -120,13 +270,17 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "Three alternative conditions; the first — malefics in the 12th, 4th and 8th — is not expressible at all and is omitted from the condition rather than approximated.",
-      "exclusions": [],
+      "activation": "active",
+      "note": "Four alternative conditions in the verse, three of them now expressible. \"Malefics in the 12th, 4th and 8th houses\" was previously called inexpressible and is not: dep.nature-occupancy states it directly, and the three houses are conjoined as printed. Association is same-sign conjunction and aspect is full drishti, each with the malefic named by a bound variable so the claim says which graha afflicts Venus.",
+      "exclusions": [
+        "The hemming branch (\"Venus be hemmed in between two malefics\") is omitted: Phaladeepika defines the flanking houses in chapter 6, which is not encoded, so the engine has no sourced definition of \"between\". Being one arm of a disjunction, its absence only makes the card under-fire.",
+        "Aspect means full drishti only, per the engine's aspect choice."
+      ],
       "requires": [
         "dep.nature",
         "dep.aspects",
-        "dep.nature-occupancy"
+        "dep.nature-occupancy",
+        "dep.conjunct"
       ]
     },
     {
@@ -880,7 +1034,13 @@
           {
             "conjunct": {
               "graha": "Venus",
-              "other": "malefic"
+              "other": "?m"
+            }
+          },
+          {
+            "nature": {
+              "graha": "?m",
+              "nature": "malefic"
             }
           },
           {
@@ -921,11 +1081,12 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "activation": "active",
+      "note": "The malefic is now named by a variable bound to a graha the chart actually places with Venus, so the claim says which one. Conjunction is same-sign, an engine choice recorded on the fact.",
       "exclusions": [],
       "requires": [
-        "dep.nature"
+        "dep.nature",
+        "dep.conjunct"
       ]
     },
     {
@@ -1020,14 +1181,30 @@
       "conditions": {
         "all": [
           {
-            "in_house": {
+            "in_house_from": {
               "graha": "Mars",
+              "reference": "Venus",
               "house": 7
             }
           },
           {
-            "in_house": {
+            "in_house_from": {
+              "graha": "Mars",
+              "reference": "Moon",
+              "house": 7
+            }
+          },
+          {
+            "in_house_from": {
               "graha": "Saturn",
+              "reference": "Venus",
+              "house": 7
+            }
+          },
+          {
+            "in_house_from": {
+              "graha": "Saturn",
+              "reference": "Moon",
               "house": 7
             }
           }
@@ -1047,9 +1224,11 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "The 7th *from Venus and the Moon*, not from the lagna. The condition shown uses the lagna frame and is therefore wrong for this verse; it must not fire.",
-      "exclusions": [],
+      "activation": "active",
+      "note": "Now in the frame the verse actually uses. \"The 7th from the Venus and Moon\" is genuinely ambiguous -- it may mean the 7th from each separately, or Mars from one and Saturn from the other. The reading encoded is the one every interpretation agrees on: both malefics in the 7th from both reference bodies. It under-fires and never over-fires.",
+      "exclusions": [
+        "The distributive readings (Mars in the 7th from Venus while Saturn is in the 7th from the Moon, or either malefic from either body alone) are not encoded."
+      ],
       "requires": [
         "dep.graha-frame"
       ]
@@ -1079,9 +1258,21 @@
       "conditions": {
         "all": [
           {
+            "graha_class": {
+              "graha": "?g",
+              "klass": "eunuch"
+            }
+          },
+          {
             "in_house": {
-              "graha": "any",
+              "graha": "?g",
               "house": 7
+            }
+          },
+          {
+            "occupant_count": {
+              "house": 11,
+              "n": 2
             }
           }
         ]
@@ -1100,8 +1291,8 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "activation": "active",
+      "note": "\"Hermaphrodite\" is read as the `eunuch` class of PD.02.GrahaSex (Mercury, Ketu, Saturn) -- an encoding judgement about two words for one classification, recorded here rather than made silently. The count of two in the 11th is literal, exactly as printed.",
       "exclusions": [],
       "requires": [
         "dep.graha-class",
@@ -1196,9 +1387,21 @@
       "conditions": {
         "all": [
           {
-            "conjunct": {
+            "lord_of_house": {
+              "graha": "?l",
+              "house": 7
+            }
+          },
+          {
+            "conjunct_count": {
+              "graha": "?l",
+              "n": "?nl"
+            }
+          },
+          {
+            "conjunct_count": {
               "graha": "Venus",
-              "other": "any"
+              "n": "?nv"
             }
           }
         ]
@@ -1217,12 +1420,15 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
-      "exclusions": [],
+      "activation": "active",
+      "note": "\"The number of planets that are in conjunction with the lord of 7th house and Venus\" is read as two counts, one per graha, both bound and both reported. The alternative reading -- planets conjunct *both* at once -- is narrower and the text does not choose between them, so the two numbers are given rather than a single derived one.",
+      "exclusions": [
+        "Fires only where both the 7th lord and Venus have at least one companion; conjunct_count is not emitted for a graha that sits alone, so a chart where either is unaccompanied yields no claim."
+      ],
       "requires": [
         "dep.lord-of-house",
-        "dep.occupant-count"
+        "dep.occupant-count",
+        "dep.conjunct"
       ]
     },
     {
@@ -1250,9 +1456,9 @@
       "conditions": {
         "all": [
           {
-            "in_house": {
-              "graha": "any",
-              "house": 7
+            "occupant_count": {
+              "house": 7,
+              "n": "?n"
             }
           }
         ]
@@ -1271,9 +1477,12 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
-      "exclusions": [],
+      "activation": "active",
+      "note": "A counting rule, not a categorical one. `?n` binds to the number of grahas the chart puts in the 7th and the claim reports that number. Only the first sentence is conditioned: the split of that number into malefics (who die) and benefics (who survive) is carried by nature_count facts in the trace but is not asserted as a separate claim, because one card yields one effect.",
+      "exclusions": [
+        "The malefic/benefic breakdown in the second and third sentences is not separately claimed.",
+        "Under-fires on benefics: the encoded corpus classifies only the waxing Moon and Mercury-not-with-malefics as benefic, because Phaladeepika states the full benefic list in chapter 4, which is not encoded. Jupiter and Venus therefore carry no nature fact and cannot satisfy a benefic clause here."
+      ],
       "requires": [
         "dep.occupant-count",
         "dep.nature"
@@ -1361,7 +1570,19 @@
         "all": [
           {
             "lord_of_house": {
-              "graha": "any",
+              "graha": "?l",
+              "house": 7
+            }
+          },
+          {
+            "nature": {
+              "graha": "?l",
+              "nature": "malefic"
+            }
+          },
+          {
+            "in_house": {
+              "graha": "?l",
               "house": 7
             }
           }
@@ -1381,8 +1602,8 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "activation": "active",
+      "note": "\"Even a malefic\" is the load-bearing word: the rule is about a malefic 7th lord in its own house, so all three clauses bind the same graha through ?l.",
       "exclusions": [],
       "requires": [
         "dep.lord-of-house",
@@ -1416,8 +1637,38 @@
         "all": [
           {
             "in_house": {
-              "graha": "any",
+              "graha": "?g",
               "house": 7
+            }
+          },
+          {
+            "nature": {
+              "graha": "?g",
+              "nature": "benefic"
+            }
+          },
+          {
+            "not": {
+              "any": [
+                {
+                  "lord_of_house": {
+                    "graha": "?g",
+                    "house": 6
+                  }
+                },
+                {
+                  "lord_of_house": {
+                    "graha": "?g",
+                    "house": 8
+                  }
+                },
+                {
+                  "lord_of_house": {
+                    "graha": "?g",
+                    "house": 12
+                  }
+                }
+              ]
             }
           }
         ]
@@ -1436,14 +1687,15 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "Carries a real exclusion: benefics in the 7th are good *unless* they own the 6th, 8th or 12th. Recorded in `exclusions`.",
+      "activation": "active",
+      "note": "The \"unless\" is the whole difficulty. It excludes the benefic that satisfied the first clause, not any graha anywhere, so the negation has to see the current binding -- dep.correlated-negation. Without it the condition asked whether anything at all rules the 6th, 8th or 12th, which is true of every chart, and the card could never fire.",
       "exclusions": [
-        "the benefic is lord of the 6th, 8th or 12th house"
+        "Under-fires on benefics: the encoded corpus classifies only the waxing Moon and Mercury-not-with-malefics as benefic, because Phaladeepika states the full benefic list in chapter 4, which is not encoded. Jupiter and Venus therefore carry no nature fact and cannot satisfy a benefic clause here."
       ],
       "requires": [
         "dep.nature",
-        "dep.lord-of-house"
+        "dep.lord-of-house",
+        "dep.correlated-negation"
       ]
     },
     {
@@ -1469,18 +1721,58 @@
         "varga": "D1"
       },
       "conditions": {
-        "any": [
+        "all": [
           {
-            "aspects": {
-              "graha": "malefic",
-              "target": "2"
-            }
+            "any": [
+              {
+                "nature_occupancy": {
+                  "house": 2,
+                  "nature": "malefic"
+                }
+              },
+              {
+                "all": [
+                  {
+                    "aspects": {
+                      "graha": "?m2",
+                      "target": 2
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m2",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              }
+            ]
           },
           {
-            "aspects": {
-              "graha": "malefic",
-              "target": "7"
-            }
+            "any": [
+              {
+                "nature_occupancy": {
+                  "house": 7,
+                  "nature": "malefic"
+                }
+              },
+              {
+                "all": [
+                  {
+                    "aspects": {
+                      "graha": "?m7",
+                      "target": 7
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m7",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -1498,12 +1790,15 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
-      "exclusions": [],
+      "activation": "active",
+      "note": "\"Associated with\" is read as a malefic occupying the house and \"aspected by\" as full drishti, either sufficing per house. The verse says \"the 2nd and 7th\", so both houses must be afflicted; the second sentence about malefic aspects being invariably untoward is a strengthening remark and is not separately conditioned.",
+      "exclusions": [
+        "Aspect means full drishti only, per the engine's aspect choice."
+      ],
       "requires": [
         "dep.nature",
-        "dep.aspects"
+        "dep.aspects",
+        "dep.nature-occupancy"
       ]
     },
     {
@@ -1590,18 +1885,58 @@
         "varga": "D1"
       },
       "conditions": {
-        "any": [
+        "all": [
           {
-            "aspects": {
-              "graha": "benefic",
-              "target": "2"
-            }
+            "any": [
+              {
+                "nature_occupancy": {
+                  "house": 2,
+                  "nature": "benefic"
+                }
+              },
+              {
+                "all": [
+                  {
+                    "aspects": {
+                      "graha": "?b2",
+                      "target": 2
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?b2",
+                      "nature": "benefic"
+                    }
+                  }
+                ]
+              }
+            ]
           },
           {
-            "aspects": {
-              "graha": "benefic",
-              "target": "7"
-            }
+            "any": [
+              {
+                "nature_occupancy": {
+                  "house": 7,
+                  "nature": "benefic"
+                }
+              },
+              {
+                "all": [
+                  {
+                    "aspects": {
+                      "graha": "?b7",
+                      "target": 7
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?b7",
+                      "nature": "benefic"
+                    }
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -1619,12 +1954,16 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
-      "exclusions": [],
+      "activation": "active",
+      "note": "The benefic counterpart of PD.10.WifeLoss.Houses2And7Afflicted, in the same shape: occupancy or full aspect, both the 2nd and the 7th.",
+      "exclusions": [
+        "Aspect means full drishti only, per the engine's aspect choice.",
+        "Under-fires on benefics: the encoded corpus classifies only the waxing Moon and Mercury-not-with-malefics as benefic, because Phaladeepika states the full benefic list in chapter 4, which is not encoded. Jupiter and Venus therefore carry no nature fact and cannot satisfy a benefic clause here."
+      ],
       "requires": [
         "dep.nature",
-        "dep.aspects"
+        "dep.aspects",
+        "dep.nature-occupancy"
       ]
     },
     {
@@ -1764,8 +2103,56 @@
       "conditions": {
         "all": [
           {
+            "in_house": {
+              "graha": "?a",
+              "house": 2
+            }
+          },
+          {
+            "nature": {
+              "graha": "?a",
+              "nature": "malefic"
+            }
+          },
+          {
             "dignity": {
-              "graha": "any",
+              "graha": "?a",
+              "dignity": "debilitated"
+            }
+          },
+          {
+            "in_house": {
+              "graha": "?b",
+              "house": 7
+            }
+          },
+          {
+            "nature": {
+              "graha": "?b",
+              "nature": "malefic"
+            }
+          },
+          {
+            "dignity": {
+              "graha": "?b",
+              "dignity": "debilitated"
+            }
+          },
+          {
+            "in_house": {
+              "graha": "?c",
+              "house": 8
+            }
+          },
+          {
+            "nature": {
+              "graha": "?c",
+              "nature": "malefic"
+            }
+          },
+          {
+            "dignity": {
+              "graha": "?c",
               "dignity": "debilitated"
             }
           }
@@ -1785,14 +2172,15 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
-      "exclusions": [],
+      "activation": "active",
+      "note": "Encoded as printed: \"in the 2nd, 7th and 8th\", so a debilitated malefic is required in each of the three houses. That is a demanding condition and many astrologers read the list as a disjunction, but the text says \"and\" and the conjunctive reading cannot over-fire. The effect is stated for both sexes in one sentence, so no scope.sex is set and the quote carries the distinction.",
+      "exclusions": [
+        "The disjunctive reading (a debilitated malefic in any one of the 2nd, 7th or 8th) is not encoded."
+      ],
       "requires": [
         "dep.native-sex",
         "dep.nature",
-        "dep.dignity",
-        "dep.nature-occupancy"
+        "dep.dignity"
       ]
     },
     {
@@ -1878,8 +2266,125 @@
         "all": [
           {
             "lord_of_house": {
-              "graha": "any",
+              "graha": "?l2",
+              "house": 2
+            }
+          },
+          {
+            "any": [
+              {
+                "in_house_class": {
+                  "graha": "?l2",
+                  "klass": "kendra"
+                }
+              },
+              {
+                "in_house_class": {
+                  "graha": "?l2",
+                  "klass": "trikona"
+                }
+              }
+            ]
+          },
+          {
+            "aspects": {
+              "graha": "Jupiter",
+              "target": "?l2"
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?l7",
               "house": 7
+            }
+          },
+          {
+            "any": [
+              {
+                "in_house_class": {
+                  "graha": "?l7",
+                  "klass": "kendra"
+                }
+              },
+              {
+                "in_house_class": {
+                  "graha": "?l7",
+                  "klass": "trikona"
+                }
+              }
+            ]
+          },
+          {
+            "aspects": {
+              "graha": "Jupiter",
+              "target": "?l7"
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?l12",
+              "house": 12
+            }
+          },
+          {
+            "any": [
+              {
+                "in_house_class": {
+                  "graha": "?l12",
+                  "klass": "kendra"
+                }
+              },
+              {
+                "in_house_class": {
+                  "graha": "?l12",
+                  "klass": "trikona"
+                }
+              }
+            ]
+          },
+          {
+            "aspects": {
+              "graha": "Jupiter",
+              "target": "?l12"
+            }
+          },
+          {
+            "in_house_from": {
+              "graha": "?b2",
+              "reference": "?l7",
+              "house": 2
+            }
+          },
+          {
+            "nature": {
+              "graha": "?b2",
+              "nature": "benefic"
+            }
+          },
+          {
+            "in_house_from": {
+              "graha": "?b7",
+              "reference": "?l7",
+              "house": 7
+            }
+          },
+          {
+            "nature": {
+              "graha": "?b7",
+              "nature": "benefic"
+            }
+          },
+          {
+            "in_house_from": {
+              "graha": "?b11",
+              "reference": "?l7",
+              "house": 11
+            }
+          },
+          {
+            "nature": {
+              "graha": "?b11",
+              "nature": "benefic"
             }
           }
         ]
@@ -1898,15 +2403,19 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
-      "exclusions": [],
+      "activation": "active",
+      "note": "\"There be benefics in the 2nd, 7th and 11th to the lord of the 7th wherever he may be\" is a frame shift inside the verse: those three houses are counted from the 7th lord, not from the lagna, which is what \"wherever he may be\" says. dep.graha-frame supplies it.",
+      "exclusions": [
+        "Every clause is required, as printed. The card is consequently very hard to satisfy.",
+        "Under-fires on benefics: the encoded corpus classifies only the waxing Moon and Mercury-not-with-malefics as benefic, because Phaladeepika states the full benefic list in chapter 4, which is not encoded. Jupiter and Venus therefore carry no nature fact and cannot satisfy a benefic clause here."
+      ],
       "requires": [
         "dep.lord-of-house",
         "dep.condition-variables",
         "dep.aspects",
         "dep.nature",
-        "dep.house-class"
+        "dep.house-class",
+        "dep.graha-frame"
       ]
     },
     {
@@ -2219,9 +2728,66 @@
         "all": [
           {
             "lord_of_house": {
-              "graha": "any",
+              "graha": "?l",
               "house": 7
             }
+          },
+          {
+            "any": [
+              {
+                "dignity": {
+                  "graha": "?l",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "combust": {
+                  "graha": "?l"
+                }
+              },
+              {
+                "all": [
+                  {
+                    "aspects": {
+                      "graha": "?m",
+                      "target": "?l"
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "nature_occupancy": {
+                  "house": 7,
+                  "nature": "malefic"
+                }
+              },
+              {
+                "all": [
+                  {
+                    "aspects": {
+                      "graha": "?m7",
+                      "target": 7
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m7",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -2239,16 +2805,20 @@
         "verified_by": null,
         "verified_date": null
       },
-      "activation": "inert",
-      "note": "Restates verse 4's rule with an added condition on the 7th house itself, and attributes it ('So say the men well versed'). Kept separate from PD.10.WifeDeprived.Lord7Afflicted: the book says it twice, so the store does too.",
-      "exclusions": [],
+      "activation": "active",
+      "note": "Two conjoined requirements, each satisfiable several ways: the 7th lord must be afflicted (debilitated, combust, or aspected by a malefic) and the 7th house must itself be occupied or aspected by a malefic. Both arms bind through ?l so the affliction and the lordship are the same graha. Kept separate from PD.10.WifeDeprived.Lord7Afflicted because the book states the rule twice and attributes this one.",
+      "exclusions": [
+        "The \"be in an inimical sign\" arm is omitted: natural friendship is dep.dignity-friendship, still unresolved, so no inimical-sign fact exists. One arm of a disjunction, so the card under-fires only.",
+        "Aspect means full drishti only, per the engine's aspect choice."
+      ],
       "requires": [
         "dep.lord-of-house",
         "dep.condition-variables",
         "dep.dignity",
         "dep.combust",
         "dep.nature",
-        "dep.aspects"
+        "dep.aspects",
+        "dep.nature-occupancy"
       ]
     }
   ]

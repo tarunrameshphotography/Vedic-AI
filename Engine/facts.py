@@ -43,6 +43,15 @@ VOCABULARY: dict[str, tuple[str, ...]] = {
     "house_class": ("house", "klass"),
     "in_house_class": ("graha", "klass"),
     "graha_class": ("graha", "klass"),
+    # Counting, reference frames and nature. `n` is bound by a variable rather
+    # than compared against, which is the whole of the arithmetic here: a card
+    # asks "how many?" and receives the number the chart produced.
+    "occupant_count": ("house", "n"),
+    "conjunct_count": ("graha", "n"),
+    "in_house_from": ("graha", "reference", "house"),
+    "nature": ("graha", "nature"),
+    "nature_occupancy": ("house", "nature"),
+    "nature_count": ("house", "nature", "n"),
 }
 
 
@@ -83,6 +92,7 @@ class DoctrineReport:
     def __init__(self):
         self.consulted: dict[str, list[str]] = {}
         self.skipped: dict[str, str] = {}
+        self.partial: dict[str, str] = {}
 
     def used(self, extractor: str, cards) -> None:
         got = set(self.consulted.get(extractor, ())) | set(cards)
@@ -90,6 +100,15 @@ class DoctrineReport:
 
     def skip(self, extractor: str, reason: str) -> None:
         self.skipped[extractor] = reason
+
+    def incomplete(self, extractor: str, reason: str) -> None:
+        """The doctrine was found, read, and does not cover everything.
+
+        Distinct from `skip`, which means the doctrine is absent altogether. An
+        extractor that classifies five of seven grahas has not failed and has
+        not succeeded either, and reporting it as either would be false.
+        """
+        self.partial[extractor] = reason
 
     @property
     def cards(self) -> list[str]:
@@ -100,7 +119,7 @@ class DoctrineReport:
 
     def to_dict(self) -> dict:
         return {"consulted": dict(self.consulted), "skipped": dict(self.skipped),
-                "cards_total": len(self.cards)}
+                "partial": dict(self.partial), "cards_total": len(self.cards)}
 
 
 class FactSet:
@@ -356,6 +375,277 @@ def _dignity(chart, doc, rep, frame) -> list[Fact]:
     return out
 
 
+def _occupant_count(chart, doc, rep, frame) -> list[Fact]:
+    """dep.occupant-count — how many grahas occupy each house.
+
+    Several verses are counting rules rather than categorical ones: "as many
+    women as the number of planets posited in the 7th house", "the 11th house
+    is occupied by two planets". Neither can be written as a membership test.
+
+    The count leaves here as an ordinary predicate argument, so a card asks for
+    it with a variable -- `{"occupant_count": {"house": 7, "n": "?n"}}` -- and
+    the number arrives in the claim as that variable's binding. There is still
+    no arithmetic in the condition language: nothing compares, adds or
+    thresholds a count. A card can learn what the number is and say so; it
+    cannot compute with it.
+
+    Only houses with at least one occupant are emitted. An empty house would
+    bind `?n` to zero and let a counting verse assert something about a chart
+    it never addressed -- "the native will associate with 0 women" is not what
+    the passage says. The absence is already expressible as `not in_house`.
+    """
+    tally: dict[int, list[str]] = {}
+    for b in chart.bodies.values():
+        tally.setdefault(b.house, []).append(b.body)
+    out = []
+    for house, grahas in sorted(tally.items()):
+        out.append(make_fact(
+            "occupant_count", {"house": house, "n": len(grahas)}, frame,
+            {"grahas": sorted(grahas), "house": house,
+             "interpretation": "occupied houses only; an empty house emits no count"},
+        ))
+    return out
+
+
+def _graha_frame(chart, doc, rep, frame) -> list[Fact]:
+    """dep.graha-frame — houses counted from a graha instead of the lagna.
+
+    "If Mars and Saturn be in the 7th from the Venus and Moon." The lagna is
+    only the commonest reference point, not the only one, and a card written in
+    another frame cannot be expressed in this one at all.
+
+    Counting is inclusive in the classical manner: the reference graha's own
+    sign is the 1st from itself, so the 7th from Venus is six signs on. Under
+    whole-sign houses a sign and a house coincide, which is why this is a count
+    of signs; it would need restating under any other house system, and the
+    frame each fact carries records which one produced it.
+
+    Self-reference is not emitted. `in_house_from(Mars, Mars, 1)` is true of
+    every chart ever cast and would say nothing about this one.
+    """
+    out = []
+    for b in chart.bodies.values():
+        for ref in chart.bodies.values():
+            if b.body == ref.body:
+                continue
+            house = ((b.sign_index - ref.sign_index) % 12) + 1
+            out.append(make_fact(
+                "in_house_from",
+                {"graha": b.body, "reference": ref.body, "house": house}, frame,
+                {"graha_sign": b.sign, "reference_sign": ref.sign,
+                 "counting": "inclusive; the reference graha's own sign is the 1st",
+                 "house_system": chart.houses["system"]},
+            ))
+    return out
+
+
+def _conjunction(chart, doc, rep, frame) -> list[Fact]:
+    """dep.conjunct — two grahas in the same sign.
+
+    No card in the store defines conjunction, so the definition used is an
+    engine choice and is recorded as one. Same sign is taken as the criterion
+    rather than a degree orb, because under whole-sign houses a sign *is* a
+    house and the classics speak of grahas "associated" or "posited together"
+    in a bhava. The separation in degrees travels in the evidence so a stricter
+    reading can be applied later without re-deriving anything.
+
+    Emitted in both directions: association is symmetric, and a card may name
+    either graha first.
+    """
+    out = []
+    for a in chart.bodies.values():
+        companions = [b for b in chart.bodies.values()
+                      if b.body != a.body and b.sign_index == a.sign_index]
+        for b in companions:
+            out.append(make_fact(
+                "conjunct", {"graha": a.body, "other": b.body}, frame,
+                {"sign": a.sign, "house": a.house,
+                 "separation_deg": round(_sep(a.lon, b.lon), 6),
+                 "criterion": "same sign (engine choice; no card defines "
+                              "conjunction)"},
+            ))
+        # "The number of planets that are in conjunction with the lord of the
+        # 7th house and Venus" counts companions, and a count is not a
+        # membership test. Emitted only where there is at least one, for the
+        # same reason the occupant count skips empty houses.
+        if companions:
+            out.append(make_fact(
+                "conjunct_count", {"graha": a.body, "n": len(companions)},
+                frame,
+                {"sign": a.sign, "house": a.house,
+                 "companions": sorted(b.body for b in companions),
+                 "criterion": "same sign (engine choice; no card defines "
+                              "conjunction)"},
+            ))
+    return out
+
+
+def _phase(chart, graha: str, measured_from: str) -> tuple[str | None, dict]:
+    """Waxing or waning, from one body's elongation from another.
+
+    Both bodies are named by the card, never here. Which graha has a phase and
+    what its phase is measured against are doctrinal facts, and a pair of names
+    written into this function would be exactly the smuggled table the rule
+    store exists to prevent.
+
+    The arithmetic is ours and the cut at 180 deg is a convention the text does
+    not state, so both are recorded. Shukla paksha runs from new to full and
+    Krishna paksha from full to new, so the boundary itself counts as waxing.
+    """
+    body, ref = chart.bodies.get(graha), chart.bodies.get(measured_from)
+    if body is None or ref is None:
+        return None, {}
+    elong = (body.lon - ref.lon) % 360.0
+    return ("waxing" if elong < 180.0 else "waning"), {
+        "elongation": round(elong, 6),
+        "measured_from": measured_from,
+        "convention": "waxing for elongation in [0,180), waning in [180,360) "
+                      "(engine choice; the text does not state the boundary)",
+    }
+
+
+def _resolve_nature(chart, doc, rep) -> tuple[dict, list[str], tuple[str, ...]]:
+    """Each graha's benefic/malefic status, and who could not be classified.
+
+    Resolved in two passes because the doctrine is genuinely layered. A graha
+    named outright, or named under a condition on the Moon's phase, is settled
+    from the chart alone. Mercury is not: its nature depends on the nature of
+    whatever it sits with, so it can only be settled once the others are. Two
+    passes are enough because nothing Mercury's clause depends on depends in
+    turn on Mercury.
+    """
+    rows, cards = doc.graha_natures()
+    rep.used("nature", cards)
+
+    companions: dict[str, list[str]] = {}
+    for a in chart.bodies.values():
+        companions[a.body] = sorted(
+            b.body for b in chart.bodies.values()
+            if b.body != a.body and b.sign_index == a.sign_index)
+
+    resolved: dict[str, tuple[str, dict]] = {}
+
+    def settle(graha: str, nature: str, evidence: dict) -> None:
+        prior = resolved.get(graha)
+        if prior and prior[0] != nature:
+            # Two cards making a graha both benefic and malefic is a real
+            # disagreement or an encoding fault. Either way the engine must not
+            # pick; Stage 7 adjudication does not exist yet.
+            raise DoctrineError(
+                f"the reference store makes {graha} both {prior[0]} and "
+                f"{nature}; the engine cannot choose between authorities"
+            )
+        resolved[graha] = (nature, evidence)
+
+    deferred = []
+    for row in rows:
+        nature = row["nature"]
+        for graha in row["grahas"]:
+            if graha in chart.bodies:
+                settle(graha, nature, {"basis": "named outright by the text"})
+        for cond in row["conditional"]:
+            graha, when = cond["graha"], cond["when"]
+            if graha not in chart.bodies:
+                continue
+            if "phase" in when:
+                if "measured_from" not in when:
+                    raise DoctrineError(
+                        f"a phase condition on {graha} does not say what the "
+                        f"phase is measured from; the engine will not assume it"
+                    )
+                phase, phase_ev = _phase(chart, graha, when["measured_from"])
+                if phase is not None and when["phase"] == phase:
+                    settle(graha, nature,
+                           {"basis": f"phase is {phase}",
+                            "as_printed": cond.get("as_printed", ""), **phase_ev})
+            elif "associated_with" in when or "not_associated_with" in when:
+                deferred.append((graha, nature, cond))
+            else:
+                raise DoctrineError(
+                    f"graha_nature condition {sorted(when)} is not one the "
+                    f"extractor knows how to read"
+                )
+
+    for graha, nature, cond in deferred:
+        when = cond["when"]
+        wanted = when.get("associated_with") or when.get("not_associated_with")
+        keep = "associated_with" in when
+        with_them = [o for o in companions.get(graha, ())
+                     if resolved.get(o, (None,))[0] == wanted]
+        if bool(with_them) is keep:
+            settle(graha, nature, {
+                "basis": ("associated with " if keep else "not associated with ")
+                         + wanted,
+                "as_printed": cond.get("as_printed", ""),
+                "companions": companions.get(graha, []),
+                "companions_of_that_nature": with_them,
+            })
+
+    unclassified = sorted(set(chart.bodies) - set(resolved))
+    return resolved, unclassified, cards
+
+
+def _nature(chart, doc, rep, frame) -> list[Fact]:
+    """dep.nature — benefic or malefic, entirely as the cards state it.
+
+    The classification is not a table. Verse 27 names five grahas outright, the
+    Moon by its phase and Mercury by its company, and the extractor reads all
+    three shapes rather than flattening them.
+
+    What it will not do is complete the list. Jupiter and Venus are named by
+    neither the verse nor its note, so no fact is emitted for them and every
+    rule about benefics under-fires until the chapter that does name them is
+    encoded. Inferring "not listed as malefic, therefore benefic" would put the
+    engine's own reasoning where a citation belongs.
+    """
+    resolved, unclassified, cards = _resolve_nature(chart, doc, rep)
+    if unclassified:
+        rep.incomplete(
+            "nature",
+            f"the encoded doctrine does not classify {', '.join(unclassified)}; "
+            f"no nature fact is emitted for them and rules about benefics "
+            f"under-fire accordingly")
+    out = []
+    for graha, (nature, ev) in sorted(resolved.items()):
+        out.append(make_fact(
+            "nature", {"graha": graha, "nature": nature}, frame,
+            {**ev, "doctrine": list(cards)},
+        ))
+    return out
+
+
+def _nature_occupancy(chart, doc, rep, frame) -> list[Fact]:
+    """dep.nature-occupancy — houses holding grahas of a given nature.
+
+    "The number of women who will die will be equal to the number of malefics";
+    "if the 7th be occupied by malefics". Both need nature and house together,
+    and a count as well as a membership test, so both are emitted.
+
+    Only natures actually present in a house are emitted, for the same reason
+    the occupant count skips empty houses: a zero here would let a verse about
+    malefics afflicting a house speak about a house no malefic touches.
+    """
+    resolved, _, cards = _resolve_nature(chart, doc, rep)
+    rep.used("nature_occupancy", cards)
+    tally: dict[tuple[int, str], list[str]] = {}
+    for b in chart.bodies.values():
+        got = resolved.get(b.body)
+        if got is None:
+            continue
+        tally.setdefault((b.house, got[0]), []).append(b.body)
+
+    out = []
+    for (house, nature), grahas in sorted(tally.items()):
+        ev = {"grahas": sorted(grahas), "house": house, "nature": nature,
+              "doctrine": list(cards)}
+        out.append(make_fact(
+            "nature_occupancy", {"house": house, "nature": nature}, frame, ev))
+        out.append(make_fact(
+            "nature_count", {"house": house, "nature": nature,
+                             "n": len(grahas)}, frame, ev))
+    return out
+
+
 EXTRACTORS = (
     ("lord_of_house", _lordship),
     ("sign_class", _sign_classes),
@@ -364,6 +654,11 @@ EXTRACTORS = (
     ("aspects", _aspects),
     ("combust", _combustion),
     ("dignity", _dignity),
+    ("occupant_count", _occupant_count),
+    ("graha_frame", _graha_frame),
+    ("conjunct", _conjunction),
+    ("nature", _nature),
+    ("nature_occupancy", _nature_occupancy),
 )
 
 

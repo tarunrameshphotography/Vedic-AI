@@ -154,6 +154,38 @@ class Doctrine:
         table = {k: v for k, v in c.predicts.items() if k != "relation"}
         return Sourced(table, (c.id,))
 
+    def graha_natures(self) -> Sourced:
+        """Benefic/malefic status, as every `graha_nature` card states it.
+
+        Read with `_all` rather than `_one` on purpose. The classification is
+        printed as two complementary statements -- a verse listing the malefics
+        and a note listing the benefics -- so asking for a single card would
+        raise on doctrine that is not in conflict at all.
+
+        Each row carries the grahas named outright and the grahas named under a
+        condition, because the classification is genuinely not a fixed table:
+        the Moon's nature turns on its phase and Mercury's on its company. The
+        conditions are structured rather than prose so that the extractor reads
+        a value instead of parsing a sentence; the printed wording travels
+        alongside in `as_printed` so the encoding can be checked against it.
+        """
+        rows = self._all("graha_nature")
+        out = []
+        for c in rows:
+            p = c.predicts
+            if "nature" not in p:
+                raise DoctrineError(
+                    f"{c.id}: a graha_nature card must say which nature it "
+                    f"classifies"
+                )
+            out.append({
+                "nature": p["nature"],
+                "grahas": list(p.get("grahas", ())),
+                "conditional": [dict(x) for x in p.get("conditional", ())],
+                "card": c.id,
+            })
+        return Sourced(out, tuple(sorted(c.id for c in rows)))
+
     # --- aspects ------------------------------------------------------------
 
     def aspect_offsets(self, graha: str) -> Sourced:

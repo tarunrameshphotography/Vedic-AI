@@ -128,11 +128,39 @@ def closure(dep_id: str, deps: dict, seen: set[str] | None = None) -> set[str]:
     return seen
 
 
-def chapters_needed(dep_ids: set[str], deps: dict) -> set[str]:
+def encoded_chapters() -> set[tuple[str, int]]:
+    """(book, chapter) already extracted, per each book's own manifest."""
+    out: set[tuple[str, int]] = set()
+    for path in sorted((ROOT / "Rules").glob("*/manifest.json")):
+        m = json.loads(path.read_text(encoding="utf-8"))
+        for ch in m.get("chapters_extracted", []):
+            out.add((m["book_id"], int(ch)))
+    return out
+
+
+def parse_chapter_dep(dep_id: str) -> tuple[str, int]:
+    """`chapter:phaladeepika.02` -> ("phaladeepika", 2)."""
+    book, chapter = dep_id.split(":", 1)[1].rsplit(".", 1)
+    return book, int(chapter)
+
+
+def chapters_needed(dep_ids: set[str], deps: dict,
+                    encoded: set[tuple[str, int]] | None = None) -> set[str]:
+    """Chapter dependencies still outstanding, ignoring the ones already done.
+
+    Filtering by the manifest matters more than it looks. Every capability that
+    reads doctrine names the chapter it reads, and those names do not disappear
+    once the chapter is encoded -- so counting them unconditionally charged the
+    plan for work already finished. dep.nature was costed at 21 units when the
+    code was 2 and chapter 2 had been encoded for days, which pushed a cheap,
+    highly-connected capability far down a ranking that exists to surface
+    exactly that kind of thing.
+    """
+    encoded = encoded_chapters() if encoded is None else encoded
     out = set()
     for d in dep_ids:
         for x in deps.get(d, {}).get("depends_on", []):
-            if x.startswith("chapter:"):
+            if x.startswith("chapter:") and parse_chapter_dep(x) not in encoded:
                 out.add(x)
     return out
 
@@ -157,6 +185,7 @@ def analyse():
     rate = observed_rate(cards, sizes)
 
     already = {d for d, ok in state.items() if ok}
+    done_chapters = encoded_chapters()
 
     # Backlog pressure per dependency, and what implementing it really costs.
     rows = []
@@ -172,7 +201,7 @@ def analyse():
         solo = len(unlocked_by(already | {dep_id}, inert))
 
         cl = closure(dep_id, deps)
-        chs = chapters_needed(cl, deps)
+        chs = chapters_needed(cl, deps, done_chapters)
         code_effort = sum(deps[d].get("effort", 0) for d in cl)
         encode_effort = sum(
             max(1, round(sizes.get(int(c.split(".")[-1]), 0) * rate / 4))

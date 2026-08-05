@@ -40,13 +40,15 @@
       "title": "hemming (papakartari / subhakartari) extractor",
       "kind": "predicate",
       "predicate": "hemmed_between",
-      "detail": "A graha or house flanked by malefics or benefics in the 2nd and 12th from it.",
+      "detail": "A graha or house flanked by malefics or benefics in the 2nd and 12th from it. The mechanism is cheap now that dep.nature and dep.graha-frame exist, but the *definition* is doctrine and it is printed in chapter 6 (\"When the 12th and 2nd from the Lagna are occupied by benefics, the Yoga so formed is called Subhakartari\"), which is not encoded. Writing the two offsets into Engine/facts.py would be the engine supplying doctrine, so the predicate waits on that chapter rather than on the code.",
       "phase": "2 (engine completion)",
       "depends_on": [
-        "dep.nature"
+        "dep.nature",
+        "dep.graha-frame",
+        "chapter:phaladeepika.06"
       ],
       "effort": 2,
-      "effort_basis": "occupants of the 2nd and 12th from a graha"
+      "effort_basis": "occupants of the 2nd and 12th from a graha; blocked on the chapter that defines which houses those are, not on the arithmetic"
     },
     "dep.dignity": {
       "title": "dignity extractor",
@@ -104,7 +106,8 @@
         "chapter:phaladeepika.02"
       ],
       "effort": 2,
-      "effort_basis": "benefic/malefic, including the conditional cases for Mercury and the Moon"
+      "effort_basis": "benefic/malefic, including the conditional cases for Mercury and the Moon",
+      "predicate": "nature"
     },
     "dep.nature-occupancy": {
       "title": "occupancy of a house by grahas of a given nature",
@@ -115,16 +118,18 @@
         "dep.nature"
       ],
       "effort": 2,
-      "effort_basis": "quantification over the occupants of a named house"
+      "effort_basis": "quantification over the occupants of a named house",
+      "predicate": "nature_occupancy"
     },
     "dep.occupant-count": {
       "title": "occupant counting",
       "kind": "predicate",
-      "detail": "\"As many women as the number of planets in the 7th.\" The claim is a count, not a category, and neither the condition language nor the claim schema can express one.",
+      "detail": "\"As many women as the number of planets in the 7th.\" The claim is a count, not a category, and neither the condition language nor the claim schema can express one. Delivered as two predicates: occupant_count(house, n) and conjunct_count(graha, n). The count is bound by a variable rather than compared against, so a card can learn a number and report it without any arithmetic entering the condition language.",
       "phase": "2 (engine completion)",
       "depends_on": [],
       "effort": 3,
-      "effort_basis": "counts as claims -- the claim schema has no numeric form"
+      "effort_basis": "counts as claims -- the claim schema has no numeric form",
+      "predicate": "occupant_count"
     },
     "dep.strength": {
       "title": "planetary and house strength (Stage 4)",
@@ -229,11 +234,12 @@
     "dep.moon-frame": {
       "title": "the Moon as an alternative reference frame",
       "kind": "schema",
-      "detail": "\"From the lagna or the Moon.\" Chandra-lagna is named out of scope for the MVP.",
+      "detail": "\"From the lagna or the Moon.\" Chandra-lagna is named out of scope for the MVP. Satisfied by dep.graha-frame: in_house_from(graha, Moon, house) counts houses from the Moon, the Moon being one graha among the reference bodies.",
       "phase": "beyond the MVP",
       "depends_on": [],
       "effort": 2,
-      "effort_basis": "the Moon as a second reference frame"
+      "effort_basis": "the Moon as a second reference frame",
+      "predicate": "in_house_from"
     },
     "dep.graha-frame": {
       "title": "houses counted from a graha",
@@ -242,7 +248,8 @@
       "phase": "4 (integration)",
       "depends_on": [],
       "effort": 2,
-      "effort_basis": "houses counted from a graha rather than the lagna"
+      "effort_basis": "houses counted from a graha rather than the lagna",
+      "predicate": "in_house_from"
     },
     "dep.dignity-override": {
       "title": "dignity-override mechanism",
@@ -341,6 +348,16 @@
       "effort": 1,
       "effort_basis": "a table read from cards, once a human has checked the printed page",
       "implemented": false
+    },
+    "dep.correlated-negation": {
+      "title": "negation correlated with the current binding",
+      "kind": "schema",
+      "detail": "\"Benefics in the 7th will produce good effects unless they happen to be lords of the 6th, 8th or 12th.\" The exclusion is about the graha that satisfied the first clause. Evaluated without the current binding, the negation asks whether anything at all is lord of the 8th -- true of every chart -- so the rule could never fire. Conjunctions now bind left to right and each child is solved under its predecessors' assignment.",
+      "phase": "2 (engine completion)",
+      "depends_on": [],
+      "effort": 3,
+      "effort_basis": "threading the assignment through condition evaluation",
+      "implemented": true
     }
   },
   "entries": [

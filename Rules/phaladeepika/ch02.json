@@ -2856,17 +2856,31 @@
       },
       "predicts": {
         "relation": "graha_nature",
-        "malefic": [
-          "waning Moon",
+        "nature": "malefic",
+        "grahas": [
           "Sun",
           "Mars",
           "Saturn",
           "Rahu",
           "Ketu"
         ],
-        "conditional": {
-          "Mercury": "malefic if associated with malefics"
-        }
+        "conditional": [
+          {
+            "graha": "Moon",
+            "when": {
+              "phase": "waning",
+              "measured_from": "Sun"
+            },
+            "as_printed": "The waning Moon"
+          },
+          {
+            "graha": "Mercury",
+            "when": {
+              "associated_with": "malefic"
+            },
+            "as_printed": "Mercury if associated with them becomes malefic."
+          }
+        ]
       },
       "timing": "natal",
       "weight": 1.0,
@@ -2878,7 +2892,7 @@
         "verified_date": null
       },
       "activation": "reference",
-      "note": "The source dep.nature reads. Note that it is not a fixed list: the Moon's nature turns on its phase and Mercury's on its company, so the extractor needs the Moon's phase and conjunctions, not a table.",
+      "note": "The source dep.nature reads. Note that it is not a fixed list: the Moon's nature turns on its phase and Mercury's on its company, so the extractor needs the Moon's phase and conjunctions, not a table. `measured_from: Sun` is an addition by the encoder, not words from the verse: the text says only \"waning\", and a waning Moon is one moving away from full toward new, which is defined by its elongation from the Sun. It is recorded here rather than in Engine/facts.py so that it is citable and overridable, and so no graha name appears in the reasoning layer.",
       "exclusions": []
     },
     {
@@ -2908,9 +2922,24 @@
       },
       "predicts": {
         "relation": "graha_nature",
-        "benefic": [
-          "waxing Moon",
-          "Mercury not associated with malefics"
+        "nature": "benefic",
+        "grahas": [],
+        "conditional": [
+          {
+            "graha": "Moon",
+            "when": {
+              "phase": "waxing",
+              "measured_from": "Sun"
+            },
+            "as_printed": "The waxing Moon"
+          },
+          {
+            "graha": "Mercury",
+            "when": {
+              "not_associated_with": "malefic"
+            },
+            "as_printed": "Mercury not associated with malefics"
+          }
         ]
       },
       "timing": "natal",
@@ -2923,6 +2952,7 @@
         "verified_date": null
       },
       "activation": "reference",
+      "note": "`grahas` is empty, and that is the finding rather than an omission. Between them verse 27 and this note classify the Sun, Mars, Saturn, Rahu, Ketu, the Moon (by phase) and Mercury (by company), and say nothing whatever about Jupiter or Venus. The tradition treats both as benefic and Phaladeepika does state it -- but in chapter 4, under Kala Bala (\"The Moon, Mercury, Jupiter and Venus are benefics\"), which is not encoded. Inferring their nature by exclusion from the malefic list would be the engine supplying doctrine, so it is not done: `nature` emits no fact for Jupiter or Venus, and any card conditioned on a benefic under-fires until chapter 4 is encoded. Recorded as concept:phaladeepika.nature-benefics.",
       "exclusions": []
     },
     {

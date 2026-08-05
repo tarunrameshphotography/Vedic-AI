@@ -282,34 +282,65 @@ def _dedupe(sols: list[Solution]) -> list[Solution]:
     return out
 
 
-def _solve(node: Any, facts: FactSet, missing: list[str]) -> list[Solution]:
+def _solve(node: Any, facts: FactSet, missing: list[str],
+           env: dict[str, str] | None = None) -> list[Solution]:
+    """Every way `node` is satisfied, given the variables already bound.
+
+    `env` is what makes negation mean what the classics mean by it. "Benefics
+    in the 7th will produce good effects *unless* they happen to be lords of
+    the 6th, 8th or 12th" excludes the graha that satisfied the first clause,
+    not some unrelated graha elsewhere in the chart. Evaluating the `not` in
+    ignorance of the current binding asks "is anything the lord of the 8th?",
+    which is true of every chart ever cast, so the rule could never fire.
+
+    So a conjunction binds left to right and each child is solved under the
+    assignment its predecessors produced. For positive leaves this is the same
+    join as before. For a negated one it is the difference between a correlated
+    and an uncorrelated reading, and only the correlated one is the rule.
+    """
     if not isinstance(node, dict) or len(node) != 1:
         raise RuleStoreError(f"malformed condition node: {node!r}")
     (op, val), = node.items()
+    env = env or {}
 
     if op == "all":
         sols = [Solution((), ())]
-        for child in val:
-            sols = _merge(sols, _solve(child, facts, missing))
+        for i, child in enumerate(val):
+            nxt: list[Solution] = []
+            for s in sols:
+                inner_env = {**env, **s.as_dict()}
+                for t in _solve(child, facts, missing, inner_env):
+                    at, asg = t.as_dict(), s.as_dict()
+                    if not _consistent(asg, at):
+                        continue
+                    seen, binds = set(), []
+                    for k in s.bindings + t.bindings:
+                        if k not in seen:
+                            seen.add(k)
+                            binds.append(k)
+                    nxt.append(Solution(
+                        tuple(sorted({**asg, **at}.items())), tuple(binds)))
+            sols = _dedupe(nxt)
             if not sols:
                 # Keep walking so that unknown predicates in later branches are
                 # still reported rather than hidden by an early failure.
-                for rest in val[val.index(child) + 1:]:
-                    _solve(rest, facts, missing)
+                for rest in val[i + 1:]:
+                    _solve(rest, facts, missing, env)
                 return []
         return _dedupe(sols)
 
     if op == "any":
         out: list[Solution] = []
         for child in val:
-            out.extend(_solve(child, facts, missing))
+            out.extend(_solve(child, facts, missing, env))
         return _dedupe(out)
 
     if op == "not":
-        # Negation as failure over the fact set, and only over it. Variables
-        # inside a `not` are local: "if there is no planet in the Ascendant"
-        # asks whether any binding exists, and exports none if it does not.
-        inner = _solve(val, facts, missing)
+        # Negation as failure over the fact set, and only over it. A variable
+        # already bound outside is substituted first, so the negation is about
+        # that graha; one that is not stays local, which is what lets "if there
+        # is no planet in the Ascendant" ask whether any binding exists at all.
+        inner = _solve(val, facts, missing, env)
         return [] if inner else [Solution((), ())]
 
     if op not in VOCABULARY:
@@ -320,9 +351,13 @@ def _solve(node: Any, facts: FactSet, missing: list[str]) -> list[Solution]:
     if set(val) != set(ordered):
         raise RuleStoreError(f"{op} expects arguments {ordered}, got {sorted(val)}")
 
-    variables = {a: val[a] for a in ordered if is_variable(val[a])}
-    if not variables:
-        key = f"{op}(" + ",".join(str(val[a]) for a in ordered) + ")"
+    # A variable the environment has already bound is a literal here. Nothing
+    # is invented: the value can only have come from a fact matched earlier.
+    eff = {a: (env.get(val[a], val[a]) if is_variable(val[a]) else val[a])
+           for a in ordered}
+
+    if not any(is_variable(eff[a]) for a in ordered):
+        key = f"{op}(" + ",".join(str(eff[a]) for a in ordered) + ")"
         return [Solution((), (key,))] if key in facts else []
 
     # Enumerate the facts of this predicate that match every literal argument,
@@ -332,7 +367,7 @@ def _solve(node: Any, facts: FactSet, missing: list[str]) -> list[Solution]:
         assignment = {}
         ok = True
         for a in ordered:
-            want = val[a]
+            want = eff[a]
             got = f.args.get(a)
             if is_variable(want):
                 assignment[want] = got

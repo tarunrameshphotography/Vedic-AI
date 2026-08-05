@@ -23,7 +23,7 @@ from typing import Protocol
 
 from .activate import Claim
 from .chart import ChartBundle
-from .facts import FactSet
+from .facts import VOCABULARY, FactSet
 from .synthesis import SynthesisResult, narrate
 
 ORDINAL = {1: "1st", 2: "2nd", 3: "3rd", 4: "4th", 5: "5th", 6: "6th",
@@ -309,11 +309,48 @@ def consultation(
     for line in coverage.get("loaded_doctrine", []):
         A(f"- {line}")
     A("")
-    A("This consultation covers only the placement of each body in a house. It says "
-      "nothing about planetary strength, house lords, yogas, dashas, transits or "
-      "divisional charts, because no rule card in the store addresses them. Where "
-      "this reading is silent, the texts have not been consulted — not that the "
-      "texts are silent.")
+    # Derived, not asserted. This paragraph used to claim the reading covered
+    # "only the placement of each body in a house", which stopped being true the
+    # moment lordship, aspects, dignity and nature began producing facts. A
+    # hardcoded description of the engine's reach goes stale silently, so the
+    # reach is read off the FactSet instead.
+    A("**What this reading was able to reason with**")
+    A("")
+    derived = sorted({f.predicate for f in facts})
+    A(", ".join(f"`{p}`" for p in derived))
+    A("")
+    absent = sorted(set(VOCABULARY) - set(derived))
+    if absent:
+        A("**Not derived for this chart**")
+        A("")
+        A(", ".join(f"`{p}`" for p in absent))
+        A("")
+        A("A predicate is missing here either because this chart does not exhibit "
+          "it or because no extractor can yet produce it at all. The two are not "
+          "distinguished in this list; `Reports/PHASE3_BACKLOG.md` says which is "
+          "which.")
+        A("")
+
+    if facts.doctrine.partial:
+        A("**Doctrine read, but not complete**")
+        A("")
+        A("These extractors found their doctrine, read it, and it did not cover "
+          "everything. This is the most easily missed kind of silence, because "
+          "the extractor did not fail:")
+        A("")
+        for extractor, reason in sorted(facts.doctrine.partial.items()):
+            A(f"- `{extractor}` — {reason}")
+        A("")
+
+    if facts.doctrine.skipped:
+        A("**Doctrine absent, extractor skipped**")
+        A("")
+        for extractor, reason in sorted(facts.doctrine.skipped.items()):
+            A(f"- `{extractor}` — {reason}")
+        A("")
+
+    A("Where this reading is silent, the texts have not been consulted — not that "
+      "the texts are silent.")
     A("")
     if coverage.get("not_covered"):
         A("No rule card was found for:")
@@ -363,6 +400,12 @@ def audit_view(claims: list[Claim], chart: ChartBundle, verification) -> str:
         for f in c.derived["facts"]:
             A(f"- fact `{f['key']}` — frame {f['frame']}")
         A(f"- conditions satisfied: {list(c.derived['conditions_satisfied'])}")
+        # What each variable stood for. For a quantified rule this names the
+        # graha; for a counting rule the bound value *is* the number the verse
+        # asks for, so leaving it out would hide the claim's whole content.
+        if c.derived.get("variables"):
+            A("- variables bound: " + ", ".join(
+                f"`{k}` = {v}" for k, v in sorted(c.derived["variables"].items())))
         A("")
         A("**3 · Source book**")
         s = c.source

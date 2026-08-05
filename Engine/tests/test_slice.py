@@ -262,6 +262,32 @@ def test_backlog_report_is_current(tmp_path):
         "run: python Rules/tools/backlog.py --write")
 
 
+def test_the_plan_does_not_charge_for_chapters_already_encoded():
+    """A capability's chapter dependency stays listed after the chapter is done.
+
+    Counting those unconditionally made the work order charge for finished work:
+    dep.nature was costed at 21 units when its code was 2 and chapter 2 had been
+    encoded for days, which buried a cheap, highly-connected capability in a
+    ranking whose only job is to surface one.
+    """
+    sys.path.insert(0, str(ROOT / "Rules" / "tools"))
+    import leverage
+
+    done = leverage.encoded_chapters()
+    assert ("phaladeepika", 2) in done, "chapter 2 is encoded per the manifest"
+
+    deps = json.loads((RULES / "deferred.json").read_text(encoding="utf-8"))["dependencies"]
+    fake = {"dep.x": {"depends_on": ["chapter:phaladeepika.02",
+                                     "chapter:phaladeepika.06"]}}
+    needed = leverage.chapters_needed({"dep.x"}, fake, done)
+    assert needed == {"chapter:phaladeepika.06"}
+
+    # And no capability in the real registry is still billed for an encoded one.
+    for dep_id in deps:
+        for ch in leverage.chapters_needed({dep_id}, deps, done):
+            assert leverage.parse_chapter_dep(ch) not in done, (dep_id, ch)
+
+
 def test_a_tampered_quote_is_detected(cards, tmp_path):
     """The verifier must catch a card that no longer matches the corpus."""
     doc = json.loads((RULES / "phaladeepika" / "ch08.json").read_text(encoding="utf-8"))
@@ -331,13 +357,15 @@ def test_slice_runs_and_verifies():
     r = run(DEMO)
     assert r.verification.ok
     # Nine bodies each matching a placement card, one keyed on the ascendant's
-    # sign, and five from quantified cards released by condition variables.
+    # sign, and ten from quantified cards: two on the lagna, three on dignity
+    # and combustion, and five released by benefic/malefic nature -- three of
+    # them one card naming each malefic that afflicts the 7th lord in turn.
     # This number tracks the rule store: it must change when doctrine is added,
     # and never on its own.
-    assert r.verification.checks["claims"] == 15
+    assert r.verification.checks["claims"] == 20
     for k in ("quote_integrity_passed", "conditions_reevaluated_passed",
               "numeric_grounding_passed"):
-        assert r.verification.checks[k] == 15
+        assert r.verification.checks[k] == 20
 
 
 def test_every_claim_has_all_four_provenance_links():
@@ -361,7 +389,7 @@ def test_quoted_output_adds_no_words():
     r = run(DEMO)
     by_id = {c.claim_id: c for c in r.claims}
     rules = [s for s in r.sentences if s.part == "rules"]
-    assert len(rules) == 15
+    assert len(rules) == 20
     for s in rules:
         assert s.text == by_id[s.claim_ids[0]].passage["quote_display"]
 
