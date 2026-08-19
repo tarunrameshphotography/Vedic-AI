@@ -1790,6 +1790,1541 @@
       "parallel_of": [
         "PD.06.Astra.H06"
       ]
+    },
+    {
+      "id": "PD.06.Mahabhagya.Male",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "14, 15",
+        "page_anchor": "phaladeepika/p0062",
+        "tier": 1,
+        "quote": "14. Mahabhagya Yoga is caused In the case of a male if the birth is during the day (between sunrise and sunset). If the Ascendant, the Sun and the Moon are In odd signs (viz., Aries, Gemini, Leo. Libra, Sagittarius, and Aquarius). […] 15. The person with Mahabhagya Yoga will be immensely popular In the public, will be very generous in giving gifts and will possess a very high reputation. He will be a ruler of the earth, will have a life span of 80 years and will be of spotless character.",
+        "quote_display": "14. Mahabhagya Yoga is caused In the case of a male if the birth is during the day (between sunrise and sunset). If the Ascendant, the Sun and the Moon are In odd signs (viz., Aries, Gemini, Leo. Libra, Sagittarius, and Aquarius). […] 15. The person with Mahabhagya Yoga will be immensely popular In the public, will be very generous in giving gifts and will possess a very high reputation. He will be a ruler of the earth, will have a life span of 80 years and will be of spotless character.",
+        "quote_sha256": "1da831f65379d6851928638084566469e8bb95c91b783b5b9db9b81623ef6dda",
+        "char_span": [
+          114550,
+          114780
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            114550,
+            114780
+          ],
+          [
+            116673,
+            116930
+          ]
+        ],
+        "quote_parts": [
+          "14. Mahabhagya Yoga is caused In the case of a male if the birth is during the day (between sunrise and sunset). If the Ascendant, the Sun and the Moon are In odd signs (viz., Aries, Gemini, Leo. Libra, Sagittarius, and Aquarius).",
+          "15. The person with Mahabhagya Yoga will be immensely popular In the public, will be very generous in giving gifts and will possess a very high reputation. He will be a ruler of the earth, will have a life span of 80 years and will be of spotless character."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1",
+        "sex": "male"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "in_house": {
+                  "graha": "Sun",
+                  "house": 7
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "Sun",
+                  "house": 8
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "Sun",
+                  "house": 9
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "Sun",
+                  "house": 10
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "Sun",
+                  "house": 11
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "Sun",
+                  "house": 12
+                }
+              }
+            ]
+          },
+          {
+            "in_sign_class": {
+              "graha": "Sun",
+              "klass": "Odd"
+            }
+          },
+          {
+            "in_sign_class": {
+              "graha": "Moon",
+              "klass": "Odd"
+            }
+          },
+          {
+            "house_sign_class": {
+              "house": 1,
+              "klass": "Odd"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Mahabhagya",
+        "sex": "male"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "\"Day birth\" is read as the Sun above the horizon -- houses 7-12 from the lagna -- an astronomical convention no authority disputes, recorded as an engine choice the same way combustion and conjunction already are, not asserted by the verse itself. Ascendant sign parity is tested via house_sign_class(1,Odd) rather than a fixed sign list, so it follows whatever chapter 1's own Odd/Even table says. The Indira Gandhi Notes (an example chart matching every effect but one) is tier-3 apparatus, not encoded (passage:phaladeepika.06.p081).",
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.Mahabhagya.Female"
+      ]
+    },
+    {
+      "id": "PD.06.Mahabhagya.Female",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "14, 15",
+        "page_anchor": "phaladeepika/p0062",
+        "tier": 1,
+        "quote": "Mahabhagya Yoga will arise in the case of a female if the birth is during the night time (after sunset and before sunrise) when the Ascendant, the Sun and the Moon are in even signs (viz., Taurus, Cancer, Virgo, Scorpio. Capricorn and Pisces). In this connection see the horoscope of Indira Gandhi who was born at night. […] 15. The person with Mahabhagya Yoga will be immensely popular In the public, will be very generous in giving gifts and will possess a very high reputation. He will be a ruler of the earth, will have a life span of 80 years and will be of spotless character. A female born with this Yoga will be exceedingly fortunate and possess sweet manners.",
+        "quote_display": "Mahabhagya Yoga will arise in the case of a female if the birth is during the night time (after sunset and before sunrise) when the Ascendant, the Sun and the Moon are in even signs (viz., Taurus, Cancer, Virgo, Scorpio. Capricorn and Pisces). In this connection see the horoscope of Indira Gandhi who was born at night. […] 15. The person with Mahabhagya Yoga will be immensely popular In the public, will be very generous in giving gifts and will possess a very high reputation. He will be a ruler of the earth, will have a life span of 80 years and will be of spotless character. A female born with this Yoga will be exceedingly fortunate and possess sweet manners.",
+        "quote_sha256": "e1be5875c5a7e95b5f7946cf0eaadbf32fce8487a6c3cffbb31e0d73e3dd9109",
+        "char_span": [
+          114784,
+          115104
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            114784,
+            115104
+          ],
+          [
+            116673,
+            117016
+          ]
+        ],
+        "quote_parts": [
+          "Mahabhagya Yoga will arise in the case of a female if the birth is during the night time (after sunset and before sunrise) when the Ascendant, the Sun and the Moon are in even signs (viz., Taurus, Cancer, Virgo, Scorpio. Capricorn and Pisces). In this connection see the horoscope of Indira Gandhi who was born at night.",
+          "15. The person with Mahabhagya Yoga will be immensely popular In the public, will be very generous in giving gifts and will possess a very high reputation. He will be a ruler of the earth, will have a life span of 80 years and will be of spotless character. A female born with this Yoga will be exceedingly fortunate and possess sweet manners."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1",
+        "sex": "female"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "in_house": {
+                  "graha": "Sun",
+                  "house": 1
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "Sun",
+                  "house": 2
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "Sun",
+                  "house": 3
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "Sun",
+                  "house": 4
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "Sun",
+                  "house": 5
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "Sun",
+                  "house": 6
+                }
+              }
+            ]
+          },
+          {
+            "in_sign_class": {
+              "graha": "Sun",
+              "klass": "Even"
+            }
+          },
+          {
+            "in_sign_class": {
+              "graha": "Moon",
+              "klass": "Even"
+            }
+          },
+          {
+            "house_sign_class": {
+              "house": 1,
+              "klass": "Even"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Mahabhagya",
+        "sex": "female"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "\"Night birth\" is read as the Sun below the horizon -- houses 1-6 from the lagna -- the same engine choice as the male card, not asserted by the verse itself. Quotes the full effect paragraph, including the sentence specific to her. The Indira Gandhi Notes is tier-3 apparatus, not encoded (passage:phaladeepika.06.p081).",
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.Mahabhagya.Male"
+      ]
+    },
+    {
+      "id": "PD.06.Kesari",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "16",
+        "page_anchor": "phaladeepika/p0062",
+        "tier": 1,
+        "quote": "Kesari Yoga is caused when in a birth chart the Moon is in a Kendra position to Jupiter. […] 16. The person with Kesari Yoga will destroy his enemies like a lion. He will address assembly with wisdom and in a noble manner. He will be passionate and emotional in his behaviour. He will enjoy a long life and will attain a high reputation and will be intelligent. He will achieve every thing by his own valour.",
+        "quote_display": "Kesari Yoga is caused when in a birth chart the Moon is in a Kendra position to Jupiter. […] 16. The person with Kesari Yoga will destroy his enemies like a lion. He will address assembly with wisdom and in a noble manner. He will be passionate and emotional in his behaviour. He will enjoy a long life and will attain a high reputation and will be intelligent. He will achieve every thing by his own valour.",
+        "quote_sha256": "9d49933f251ec6f2e908fe4b247e1574c398bda7c7a23b2ef0176726e16dca4f",
+        "char_span": [
+          115108,
+          115196
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            115108,
+            115196
+          ],
+          [
+            117279,
+            117594
+          ]
+        ],
+        "quote_parts": [
+          "Kesari Yoga is caused when in a birth chart the Moon is in a Kendra position to Jupiter.",
+          "16. The person with Kesari Yoga will destroy his enemies like a lion. He will address assembly with wisdom and in a noble manner. He will be passionate and emotional in his behaviour. He will enjoy a long life and will attain a high reputation and will be intelligent. He will achieve every thing by his own valour."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "in_house_from": {
+                  "graha": "Moon",
+                  "reference": "Jupiter",
+                  "house": 1
+                }
+              },
+              {
+                "in_house_from": {
+                  "graha": "Moon",
+                  "reference": "Jupiter",
+                  "house": 4
+                }
+              },
+              {
+                "in_house_from": {
+                  "graha": "Moon",
+                  "reference": "Jupiter",
+                  "house": 7
+                }
+              },
+              {
+                "in_house_from": {
+                  "graha": "Moon",
+                  "reference": "Jupiter",
+                  "house": 10
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Kesari"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Kesari Yoga: the Moon in a kendra counted from Jupiter (dep.graha-frame).",
+      "exclusions": []
+    },
+    {
+      "id": "PD.06.Sakata",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "17",
+        "page_anchor": "phaladeepika/p0062",
+        "tier": 1,
+        "quote": "The Moon in the 12th, 8th or 6th house from Jupiter causes Sakata Yoga. The Sakata Yoga is cancelled if the Moon be in a Kendra position from the Ascendant (lagna). […] 17. The person with Sakata Yoga at birth will be unhappy and unfortunate. He will be unable to achieve any fame and will lead an ordinary life. Sometimes his luck dawns and at other times it fades away.",
+        "quote_display": "The Moon in the 12th, 8th or 6th house from Jupiter causes Sakata Yoga. The Sakata Yoga is cancelled if the Moon be in a Kendra position from the Ascendant (lagna). […] 17. The person with Sakata Yoga at birth will be unhappy and unfortunate. He will be unable to achieve any fame and will lead an ordinary life. Sometimes his luck dawns and at other times it fades away.",
+        "quote_sha256": "4430f260d9e5caa2437b325209343d0dde89ca496973554f04b41b0d4059c8e7",
+        "char_span": [
+          115200,
+          115364
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            115200,
+            115364
+          ],
+          [
+            117598,
+            117800
+          ]
+        ],
+        "quote_parts": [
+          "The Moon in the 12th, 8th or 6th house from Jupiter causes Sakata Yoga. The Sakata Yoga is cancelled if the Moon be in a Kendra position from the Ascendant (lagna).",
+          "17. The person with Sakata Yoga at birth will be unhappy and unfortunate. He will be unable to achieve any fame and will lead an ordinary life. Sometimes his luck dawns and at other times it fades away."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "in_house_from": {
+                  "graha": "Moon",
+                  "reference": "Jupiter",
+                  "house": 12
+                }
+              },
+              {
+                "in_house_from": {
+                  "graha": "Moon",
+                  "reference": "Jupiter",
+                  "house": 8
+                }
+              },
+              {
+                "in_house_from": {
+                  "graha": "Moon",
+                  "reference": "Jupiter",
+                  "house": 6
+                }
+              }
+            ]
+          },
+          {
+            "not": {
+              "in_house_class": {
+                "graha": "Moon",
+                "klass": "kendra"
+              }
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Sakata"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Sakata Yoga: the Moon in the 6th, 8th or 12th from Jupiter, cancelled if the Moon is in a kendra from the lagna -- both halves stated in the same verse and both encoded, not just the affliction.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.06.Varishtha",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "18",
+        "page_anchor": "phaladeepika/p0063",
+        "tier": 1,
+        "quote": "The Adhama, Sama and Varishtha Yogas are formed when the Moon is respectvely in a Kendra, a Panaphara and an Apoklima house reckoned from the Sun. […] 18. The person born with Varishta Yoga, will be wealthy, will possess vehicles, will achieve fame, will enjoy happiness, will acquire knowledge and will have intellectual equipment, modesty, ability, learning and will be generous.",
+        "quote_display": "The Adhama, Sama and Varishtha Yogas are formed when the Moon is respectvely in a Kendra, a Panaphara and an Apoklima house reckoned from the Sun. […] 18. The person born with Varishta Yoga, will be wealthy, will possess vehicles, will achieve fame, will enjoy happiness, will acquire knowledge and will have intellectual equipment, modesty, ability, learning and will be generous.",
+        "quote_sha256": "9c6f9d692a7c61f41328bad2d200e534faa5c1e69878daaf911deeed6a2cb909",
+        "char_span": [
+          116523,
+          116669
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            116523,
+            116669
+          ],
+          [
+            119175,
+            119405
+          ]
+        ],
+        "quote_parts": [
+          "The Adhama, Sama and Varishtha Yogas are formed when the Moon is respectvely in a Kendra, a Panaphara and an Apoklima house reckoned from the Sun.",
+          "18. The person born with Varishta Yoga, will be wealthy, will possess vehicles, will achieve fame, will enjoy happiness, will acquire knowledge and will have intellectual equipment, modesty, ability, learning and will be generous."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "in_house_from": {
+                  "graha": "Moon",
+                  "reference": "Sun",
+                  "house": 3
+                }
+              },
+              {
+                "in_house_from": {
+                  "graha": "Moon",
+                  "reference": "Sun",
+                  "house": 6
+                }
+              },
+              {
+                "in_house_from": {
+                  "graha": "Moon",
+                  "reference": "Sun",
+                  "house": 9
+                }
+              },
+              {
+                "in_house_from": {
+                  "graha": "Moon",
+                  "reference": "Sun",
+                  "house": 12
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Varishtha"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Varishtha Yoga: the Moon counted from the Sun (dep.graha-frame), the apoklima house class from chapter 1. \"Respectively\" in the naming clause is the text's own instruction for which house-class maps to which name -- unlike the Sunapha/Anapha/Durudhara cluster (v. 5), which states no such correspondence and is left deferred. The effect quote is the clause specific to this yoga within one shared sentence (v. 18) that gives Varishtha's effect in full and states the other two as a scaled reading of it, not independently described.",
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.Sama",
+        "PD.06.Adhama"
+      ]
+    },
+    {
+      "id": "PD.06.Sama",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "18",
+        "page_anchor": "phaladeepika/p0063",
+        "tier": 1,
+        "quote": "The Adhama, Sama and Varishtha Yogas are formed when the Moon is respectvely in a Kendra, a Panaphara and an Apoklima house reckoned from the Sun. […] The effects will be of a medium nature in Sama Yoga",
+        "quote_display": "The Adhama, Sama and Varishtha Yogas are formed when the Moon is respectvely in a Kendra, a Panaphara and an Apoklima house reckoned from the Sun. […] The effects will be of a medium nature in Sama Yoga",
+        "quote_sha256": "ad9bd9bf0e5af1ad5b21bcb92af0525a945eeb5b5d55f2b1108c0ca2ac2fa1c3",
+        "char_span": [
+          116523,
+          116669
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            116523,
+            116669
+          ],
+          [
+            119406,
+            119457
+          ]
+        ],
+        "quote_parts": [
+          "The Adhama, Sama and Varishtha Yogas are formed when the Moon is respectvely in a Kendra, a Panaphara and an Apoklima house reckoned from the Sun.",
+          "The effects will be of a medium nature in Sama Yoga"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "in_house_from": {
+                  "graha": "Moon",
+                  "reference": "Sun",
+                  "house": 2
+                }
+              },
+              {
+                "in_house_from": {
+                  "graha": "Moon",
+                  "reference": "Sun",
+                  "house": 5
+                }
+              },
+              {
+                "in_house_from": {
+                  "graha": "Moon",
+                  "reference": "Sun",
+                  "house": 8
+                }
+              },
+              {
+                "in_house_from": {
+                  "graha": "Moon",
+                  "reference": "Sun",
+                  "house": 11
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Sama"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Sama Yoga: the Moon counted from the Sun (dep.graha-frame), the panaphara house class from chapter 1. \"Respectively\" in the naming clause is the text's own instruction for which house-class maps to which name -- unlike the Sunapha/Anapha/Durudhara cluster (v. 5), which states no such correspondence and is left deferred. The effect quote is the clause specific to this yoga within one shared sentence (v. 18) that gives Varishtha's effect in full and states the other two as a scaled reading of it, not independently described.",
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.Varishtha",
+        "PD.06.Adhama"
+      ]
+    },
+    {
+      "id": "PD.06.Adhama",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "18",
+        "page_anchor": "phaladeepika/p0063",
+        "tier": 1,
+        "quote": "The Adhama, Sama and Varishtha Yogas are formed when the Moon is respectvely in a Kendra, a Panaphara and an Apoklima house reckoned from the Sun. […] and very little in Adhama Yoga.",
+        "quote_display": "The Adhama, Sama and Varishtha Yogas are formed when the Moon is respectvely in a Kendra, a Panaphara and an Apoklima house reckoned from the Sun. […] and very little in Adhama Yoga.",
+        "quote_sha256": "c585ca29dfd089f2f725913dd4635832f671cfcc111596706c35543e65977b41",
+        "char_span": [
+          116523,
+          116669
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            116523,
+            116669
+          ],
+          [
+            119458,
+            119489
+          ]
+        ],
+        "quote_parts": [
+          "The Adhama, Sama and Varishtha Yogas are formed when the Moon is respectvely in a Kendra, a Panaphara and an Apoklima house reckoned from the Sun.",
+          "and very little in Adhama Yoga."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "in_house_from": {
+                  "graha": "Moon",
+                  "reference": "Sun",
+                  "house": 1
+                }
+              },
+              {
+                "in_house_from": {
+                  "graha": "Moon",
+                  "reference": "Sun",
+                  "house": 4
+                }
+              },
+              {
+                "in_house_from": {
+                  "graha": "Moon",
+                  "reference": "Sun",
+                  "house": 7
+                }
+              },
+              {
+                "in_house_from": {
+                  "graha": "Moon",
+                  "reference": "Sun",
+                  "house": 10
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Adhama"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Adhama Yoga: the Moon counted from the Sun (dep.graha-frame), the kendra house class from chapter 1. \"Respectively\" in the naming clause is the text's own instruction for which house-class maps to which name -- unlike the Sunapha/Anapha/Durudhara cluster (v. 5), which states no such correspondence and is left deferred. The effect quote is the clause specific to this yoga within one shared sentence (v. 18) that gives Varishtha's effect in full and states the other two as a scaled reading of it, not independently described.",
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.Varishtha",
+        "PD.06.Sama"
+      ]
+    },
+    {
+      "id": "PD.06.Amala",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "19, 20",
+        "page_anchor": "phaladeepika/p0064",
+        "tier": 1,
+        "quote": "Amala yoga is formed when benefics occupy the 10th house reckoned from the Lagna or the Moon. […] The person born with Amala yoga will possess lands, will be wealthy, will be blessed with sons and will be famous, prosperous and wise.",
+        "quote_display": "Amala yoga is formed when benefics occupy the 10th house reckoned from the Lagna or the Moon. […] The person born with Amala yoga will possess lands, will be wealthy, will be blessed with sons and will be famous, prosperous and wise.",
+        "quote_sha256": "5ca09382f6af8a48efef95cf53611b2d79e132c584543b427e40029954899d7c",
+        "char_span": [
+          119619,
+          119712
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            119619,
+            119712
+          ],
+          [
+            120123,
+            120258
+          ]
+        ],
+        "quote_parts": [
+          "Amala yoga is formed when benefics occupy the 10th house reckoned from the Lagna or the Moon.",
+          "The person born with Amala yoga will possess lands, will be wealthy, will be blessed with sons and will be famous, prosperous and wise."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "in_house": {
+                  "graha": "?b",
+                  "house": 10
+                }
+              },
+              {
+                "in_house_from": {
+                  "graha": "?b",
+                  "reference": "Moon",
+                  "house": 10
+                }
+              }
+            ]
+          },
+          {
+            "nature": {
+              "graha": "?b",
+              "nature": "benefic"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Amala"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Amala Yoga: a benefic in the 10th from the lagna or from the Moon.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.06.Vasumati",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "19, 20",
+        "page_anchor": "phaladeepika/p0064",
+        "tier": 1,
+        "quote": "19. Vasumati Yoga is formed when all the benefic planets occupy upachaya houses (3, 6, 10, 11) from the Lagna or the Moon. […] 20. The person born with Vasumati yoga will always remain at his house (perhaps this means that he will not go out of his native land) and he will be very wealthy.",
+        "quote_display": "19. Vasumati Yoga is formed when all the benefic planets occupy upachaya houses (3, 6, 10, 11) from the Lagna or the Moon. […] 20. The person born with Vasumati yoga will always remain at his house (perhaps this means that he will not go out of his native land) and he will be very wealthy.",
+        "quote_sha256": "40c26d8cf0ee15ce42ab938e3ab42cc55c532c742cef6c46356306346a2a2c55",
+        "char_span": [
+          119493,
+          119615
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            119493,
+            119615
+          ],
+          [
+            119956,
+            120119
+          ]
+        ],
+        "quote_parts": [
+          "19. Vasumati Yoga is formed when all the benefic planets occupy upachaya houses (3, 6, 10, 11) from the Lagna or the Moon.",
+          "20. The person born with Vasumati yoga will always remain at his house (perhaps this means that he will not go out of his native land) and he will be very wealthy."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Vasumati"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "activation": "inert",
+      "note": "Universally quantified over the (variable-membership) set of benefic grahas -- \"ALL the benefic planets\" must be in upachaya houses, not that one is. The condition language has no universal quantifier, only the existential \"?var\" already used everywhere else in the store; testing only \"at least one benefic in upachaya\" would assert a materially weaker claim than the verse makes, not the closest expressible reading of it. Recorded rather than approximated.",
+      "exclusions": [],
+      "requires": [
+        "dep.universal-quantification"
+      ]
+    },
+    {
+      "id": "PD.06.Pushkala",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "19, 20",
+        "page_anchor": "phaladeepika/p0064",
+        "tier": 1,
+        "quote": "If the lords of the signs occupied by the Lagna and the Moon be together in a Kendra or be in the house of an Adhimitra and a planet endowed with strength aspects the Lagna, the planetary disposition so formed is known as Pushkala yoga. […] The native of Pushkala yoga will be reverred by kings, will be renowned and\r\n\r\n<!-- page phaladeepika/p0065 -->\r\nwealthy and will wear expensive clothes and ornaments. He will be fortunate, will be a lord of many men and achieve a high status.",
+        "quote_display": "If the lords of the signs occupied by the Lagna and the Moon be together in a Kendra or be in the house of an Adhimitra and a planet endowed with strength aspects the Lagna, the planetary disposition so formed is known as Pushkala yoga. […] The native of Pushkala yoga will be reverred by kings, will be renowned and wealthy and will wear expensive clothes and ornaments. He will be fortunate, will be a lord of many men and achieve a high status.",
+        "quote_sha256": "eb95e29c3fa232725edbf4961446c8595757c071029abf874912f2b159356b5b",
+        "char_span": [
+          119716,
+          119952
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            119716,
+            119952
+          ],
+          [
+            120262,
+            120505
+          ]
+        ],
+        "quote_parts": [
+          "If the lords of the signs occupied by the Lagna and the Moon be together in a Kendra or be in the house of an Adhimitra and a planet endowed with strength aspects the Lagna, the planetary disposition so formed is known as Pushkala yoga.",
+          "The native of Pushkala yoga will be reverred by kings, will be renowned and\r\n\r\n<!-- page phaladeepika/p0065 -->\r\nwealthy and will wear expensive clothes and ornaments. He will be fortunate, will be a lord of many men and achieve a high status."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Pushkala"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "activation": "inert",
+      "note": "Three independent obstacles, any one of which already blocks this card. \"A planet endowed with strength aspects the Lagna\" needs dep.strength, which does not exist. \"The lords ... together in a Kendra\" is not itself unambiguous -- conjoined in the same kendra, or each independently in a kendra of its own -- and this passage does not say which. \"The house of an Adhimitra\" (a finer-grained friendship tier than dep.dignity-friendship's friend/neutral/enemy) is used without definition anywhere in the store. Rendered against printed page 64 to rule out an extraction gap before recording this.",
+      "exclusions": [],
+      "requires": [
+        "dep.strength"
+      ]
+    },
+    {
+      "id": "PD.06.Subhamala",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "21, 22",
+        "page_anchor": "phaladeepika/p0065",
+        "tier": 1,
+        "quote": "21. If all the planets in regular order are in the 5th, 6th and 7th houses, the yoga is known as Subnamala. […] 22. The person with Sumala Yoga at birth will be an administrator or high official, will be reverred by king and will indulge in pleasures of life. He will be generous, will be helpful to others and will be devoted to his kinsmen. He will be brave and will be blessed with a virtuous wife and sons.",
+        "quote_display": "21. If all the planets in regular order are in the 5th, 6th and 7th houses, the yoga is known as Subnamala. […] 22. The person with Sumala Yoga at birth will be an administrator or high official, will be reverred by king and will indulge in pleasures of life. He will be generous, will be helpful to others and will be devoted to his kinsmen. He will be brave and will be blessed with a virtuous wife and sons.",
+        "quote_sha256": "f491520b9e816f4f4237d107426946c85ba164d404ebe25ee39bd91bc1d23bf6",
+        "char_span": [
+          120509,
+          120616
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            120509,
+            120616
+          ],
+          [
+            121007,
+            121305
+          ]
+        ],
+        "quote_parts": [
+          "21. If all the planets in regular order are in the 5th, 6th and 7th houses, the yoga is known as Subnamala.",
+          "22. The person with Sumala Yoga at birth will be an administrator or high official, will be reverred by king and will indulge in pleasures of life. He will be generous, will be helpful to others and will be devoted to his kinsmen. He will be brave and will be blessed with a virtuous wife and sons."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "not": {
+              "in_house": {
+                "graha": "?g",
+                "house": 1
+              }
+            }
+          },
+          {
+            "not": {
+              "in_house": {
+                "graha": "?g",
+                "house": 2
+              }
+            }
+          },
+          {
+            "not": {
+              "in_house": {
+                "graha": "?g",
+                "house": 3
+              }
+            }
+          },
+          {
+            "not": {
+              "in_house": {
+                "graha": "?g",
+                "house": 4
+              }
+            }
+          },
+          {
+            "not": {
+              "in_house": {
+                "graha": "?g",
+                "house": 8
+              }
+            }
+          },
+          {
+            "not": {
+              "in_house": {
+                "graha": "?g",
+                "house": 9
+              }
+            }
+          },
+          {
+            "not": {
+              "in_house": {
+                "graha": "?g",
+                "house": 10
+              }
+            }
+          },
+          {
+            "not": {
+              "in_house": {
+                "graha": "?g",
+                "house": 11
+              }
+            }
+          },
+          {
+            "not": {
+              "in_house": {
+                "graha": "?g",
+                "house": 12
+              }
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Subhamala"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Read as every graha confined to houses 5, 6 and 7 (no graha anywhere else), expressed as nine \"no graha here\" clauses rather than a new predicate -- the condition language already covers it. \"In regular order\" is not tested: the parallel Asubhamala sentence states the same structure without that phrase at all, which reads as this translation's own emphasis rather than a distinct technical requirement, but that reading is not certain and nothing here relies on it. Printed \"Subnamala\" in the naming clause versus \"Sumala\" in the effect verse (v. 22) -- confirmed against printed page 65, not an extraction artefact -- both preserved exactly as printed.",
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.Asubhamala"
+      ]
+    },
+    {
+      "id": "PD.06.Asubhamala",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "21, 23",
+        "page_anchor": "phaladeepika/p0065",
+        "tier": 1,
+        "quote": "If the planets should occupy the 8th, 6th and 12th houses, the yoga will become Asubhamala. […] 23. The person with Asubhamala Yoga at birth will be way ward, will be unhappy, will torture or kill others, will be timid and ungrateful, will not pay respect to Brahmins, will be unpopular and quarrelsome.",
+        "quote_display": "If the planets should occupy the 8th, 6th and 12th houses, the yoga will become Asubhamala. […] 23. The person with Asubhamala Yoga at birth will be way ward, will be unhappy, will torture or kill others, will be timid and ungrateful, will not pay respect to Brahmins, will be unpopular and quarrelsome.",
+        "quote_sha256": "3f8cb0f084e49e21a4703572a4774f548931e0900d0827a22658f1d3989d5ca3",
+        "char_span": [
+          120617,
+          120708
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            120617,
+            120708
+          ],
+          [
+            121309,
+            121516
+          ]
+        ],
+        "quote_parts": [
+          "If the planets should occupy the 8th, 6th and 12th houses, the yoga will become Asubhamala.",
+          "23. The person with Asubhamala Yoga at birth will be way ward, will be unhappy, will torture or kill others, will be timid and ungrateful, will not pay respect to Brahmins, will be unpopular and quarrelsome."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "not": {
+              "in_house": {
+                "graha": "?g",
+                "house": 1
+              }
+            }
+          },
+          {
+            "not": {
+              "in_house": {
+                "graha": "?g",
+                "house": 2
+              }
+            }
+          },
+          {
+            "not": {
+              "in_house": {
+                "graha": "?g",
+                "house": 3
+              }
+            }
+          },
+          {
+            "not": {
+              "in_house": {
+                "graha": "?g",
+                "house": 4
+              }
+            }
+          },
+          {
+            "not": {
+              "in_house": {
+                "graha": "?g",
+                "house": 5
+              }
+            }
+          },
+          {
+            "not": {
+              "in_house": {
+                "graha": "?g",
+                "house": 7
+              }
+            }
+          },
+          {
+            "not": {
+              "in_house": {
+                "graha": "?g",
+                "house": 9
+              }
+            }
+          },
+          {
+            "not": {
+              "in_house": {
+                "graha": "?g",
+                "house": 10
+              }
+            }
+          },
+          {
+            "not": {
+              "in_house": {
+                "graha": "?g",
+                "house": 11
+              }
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Asubhamala"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Every graha confined to houses 8, 6 and 12, the same treatment as PD.06.Subhamala.",
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.Subhamala"
+      ]
+    },
+    {
+      "id": "PD.06.Lakshmi",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "19 (unnumbered), 24",
+        "page_anchor": "phaladeepika/p0065",
+        "tier": 1,
+        "quote": "If Venus and the lord of 9th occupy their own or exaltation houses identical with Trikona or Kendra, the yoga so formed is called Lakshmi Yoga. […] 24. The native with Lakshmi Yoga will be constantly engaged in enjoyment with a woman of noble temperament. He will be brilliant. He will be capable of providing protection to his men and will be a favourite of Goddess Lakshmi (very wealthy). He will be free from diseases. He will enjoy rides in beautiful palanquines, horses or elephants (He will have the privilege of travelling in luxurious conveyances). He will be generous in gifts and will be a capable ruler favourite of his subjects.",
+        "quote_display": "If Venus and the lord of 9th occupy their own or exaltation houses identical with Trikona or Kendra, the yoga so formed is called Lakshmi Yoga. […] 24. The native with Lakshmi Yoga will be constantly engaged in enjoyment with a woman of noble temperament. He will be brilliant. He will be capable of providing protection to his men and will be a favourite of Goddess Lakshmi (very wealthy). He will be free from diseases. He will enjoy rides in beautiful palanquines, horses or elephants (He will have the privilege of travelling in luxurious conveyances). He will be generous in gifts and will be a capable ruler favourite of his subjects.",
+        "quote_sha256": "c0dfa078f35692b1a808449cd5ab41e1ff4b57e22275c43f02342e3e9acd73ed",
+        "char_span": [
+          120712,
+          120855
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            120712,
+            120855
+          ],
+          [
+            121520,
+            122012
+          ]
+        ],
+        "quote_parts": [
+          "If Venus and the lord of 9th occupy their own or exaltation houses identical with Trikona or Kendra, the yoga so formed is called Lakshmi Yoga.",
+          "24. The native with Lakshmi Yoga will be constantly engaged in enjoyment with a woman of noble temperament. He will be brilliant. He will be capable of providing protection to his men and will be a favourite of Goddess Lakshmi (very wealthy). He will be free from diseases. He will enjoy rides in beautiful palanquines, horses or elephants (He will have the privilege of travelling in luxurious conveyances). He will be generous in gifts and will be a capable ruler favourite of his subjects."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "dignity": {
+                  "graha": "Venus",
+                  "dignity": "own"
+                }
+              },
+              {
+                "dignity": {
+                  "graha": "Venus",
+                  "dignity": "exalted"
+                }
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "in_house_class": {
+                  "graha": "Venus",
+                  "klass": "kendra"
+                }
+              },
+              {
+                "in_house_class": {
+                  "graha": "Venus",
+                  "klass": "trikona"
+                }
+              }
+            ]
+          },
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 9
+            }
+          },
+          {
+            "any": [
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "own"
+                }
+              },
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "exalted"
+                }
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "in_house_class": {
+                  "graha": "?g",
+                  "klass": "kendra"
+                }
+              },
+              {
+                "in_house_class": {
+                  "graha": "?g",
+                  "klass": "trikona"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Lakshmi"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Lakshmi Yoga: Venus and the 9th lord (a distinct, independently-bound graha) both in own or exaltation sign, in a kendra or trikona.",
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.Gouri"
+      ]
+    },
+    {
+      "id": "PD.06.Gouri",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "19 (unnumbered), 25",
+        "page_anchor": "phaladeepika/p0065",
+        "tier": 1,
+        "quote": "If the Moon be in his own or exaltation house identical with Kendra or Trikona and be aspected by Jupiter, the resulting Yoga is called Gouri Yoga. […] 25. The native with Gouri Yoga will have a beautiful body and will be a friend of the king. He will possess good qualities and will be blessed with sons. He will belong to an illustrious family. His face will be like a lotus. He will be praised for his successes (over enemies).",
+        "quote_display": "If the Moon be in his own or exaltation house identical with Kendra or Trikona and be aspected by Jupiter, the resulting Yoga is called Gouri Yoga. […] 25. The native with Gouri Yoga will have a beautiful body and will be a friend of the king. He will possess good qualities and will be blessed with sons. He will belong to an illustrious family. His face will be like a lotus. He will be praised for his successes (over enemies).",
+        "quote_sha256": "8e1b89ec054f4cd83a481693981ea02cb92dba430f879e2ac2c62425d496bd89",
+        "char_span": [
+          120856,
+          121003
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            120856,
+            121003
+          ],
+          [
+            122016,
+            122294
+          ]
+        ],
+        "quote_parts": [
+          "If the Moon be in his own or exaltation house identical with Kendra or Trikona and be aspected by Jupiter, the resulting Yoga is called Gouri Yoga.",
+          "25. The native with Gouri Yoga will have a beautiful body and will be a friend of the king. He will possess good qualities and will be blessed with sons. He will belong to an illustrious family. His face will be like a lotus. He will be praised for his successes (over enemies)."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "dignity": {
+                  "graha": "Moon",
+                  "dignity": "own"
+                }
+              },
+              {
+                "dignity": {
+                  "graha": "Moon",
+                  "dignity": "exalted"
+                }
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "in_house_class": {
+                  "graha": "Moon",
+                  "klass": "kendra"
+                }
+              },
+              {
+                "in_house_class": {
+                  "graha": "Moon",
+                  "klass": "trikona"
+                }
+              }
+            ]
+          },
+          {
+            "aspects": {
+              "graha": "Jupiter",
+              "target": "Moon"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Gouri"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Gouri Yoga: the Moon in own or exaltation sign, in a kendra or trikona, aspected by Jupiter.",
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.Lakshmi"
+      ]
+    },
+    {
+      "id": "PD.06.Saraswati",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "26-27",
+        "page_anchor": "phaladeepika/p0065",
+        "tier": 1,
+        "quote": "26-27. If Mercury, Jupiter and Venus be in Kendra or Trikona from the lagna or be in the 2nd house and Jupiter be in his own sign, friend s sign or in his sign of exaltation, the planetary combination so formed is called Saraswati yoga. […] The Native with Saraswati Yoga at bith will be highly Intelligent. He will be very competent in composing prose, drama, poetry and will be learned in Alankar Shastra and Mathematics. He will be skilled in poetry, in narrative composition and in the exposition of sacred texts'. His fame will spread over the three worlds. He will be extremely wealthy and will be blessed with wife and children. He will be fortunate and will be reverred by the greatest of the kings.",
+        "quote_display": "26-27. If Mercury, Jupiter and Venus be in Kendra or Trikona from the lagna or be in the 2nd house and Jupiter be in his own sign, friend s sign or in his sign of exaltation, the planetary combination so formed is called Saraswati yoga. […] The Native with Saraswati Yoga at bith will be highly Intelligent. He will be very competent in composing prose, drama, poetry and will be learned in Alankar Shastra and Mathematics. He will be skilled in poetry, in narrative composition and in the exposition of sacred texts'. His fame will spread over the three worlds. He will be extremely wealthy and will be blessed with wife and children. He will be fortunate and will be reverred by the greatest of the kings.",
+        "quote_sha256": "1cbc6f4d5d985ea1316c95f9ce54e05d4537ac39b552bf2324711850a735fcf2",
+        "char_span": [
+          122298,
+          122534
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            122298,
+            122534
+          ],
+          [
+            123947,
+            124413
+          ]
+        ],
+        "quote_parts": [
+          "26-27. If Mercury, Jupiter and Venus be in Kendra or Trikona from the lagna or be in the 2nd house and Jupiter be in his own sign, friend s sign or in his sign of exaltation, the planetary combination so formed is called Saraswati yoga.",
+          "The Native with Saraswati Yoga at bith will be highly Intelligent. He will be very competent in composing prose, drama, poetry and will be learned in Alankar Shastra and Mathematics. He will be skilled in poetry, in narrative composition and in the exposition of sacred texts'. His fame will spread over the three worlds. He will be extremely wealthy and will be blessed with wife and children. He will be fortunate and will be reverred by the greatest of the kings."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "in_house_class": {
+                  "graha": "Mercury",
+                  "klass": "kendra"
+                }
+              },
+              {
+                "in_house_class": {
+                  "graha": "Mercury",
+                  "klass": "trikona"
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "Mercury",
+                  "house": 2
+                }
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "in_house_class": {
+                  "graha": "Jupiter",
+                  "klass": "kendra"
+                }
+              },
+              {
+                "in_house_class": {
+                  "graha": "Jupiter",
+                  "klass": "trikona"
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "Jupiter",
+                  "house": 2
+                }
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "in_house_class": {
+                  "graha": "Venus",
+                  "klass": "kendra"
+                }
+              },
+              {
+                "in_house_class": {
+                  "graha": "Venus",
+                  "klass": "trikona"
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "Venus",
+                  "house": 2
+                }
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "dignity": {
+                  "graha": "Jupiter",
+                  "dignity": "own"
+                }
+              },
+              {
+                "dignity": {
+                  "graha": "Jupiter",
+                  "dignity": "friend"
+                }
+              },
+              {
+                "dignity": {
+                  "graha": "Jupiter",
+                  "dignity": "exalted"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Saraswati"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Saraswati Yoga: Mercury, Jupiter and Venus each in a kendra, a trikona, or the 2nd, and Jupiter specifically in own, friend's (dep.dignity-friendship) or exaltation sign. The quote is trimmed before the dangling \"The\" that opens the next, tier-3 sentence introducing the Moti Lal Nehru worked example.",
+      "exclusions": []
     }
   ]
 }

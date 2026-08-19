@@ -368,6 +368,16 @@
       "effort": 8,
       "effort_basis": "a way to count satisfied sibling conditions across a named group of cards",
       "implemented": false
+    },
+    "dep.universal-quantification": {
+      "title": "universal quantification over a variable-membership set",
+      "kind": "schema",
+      "detail": "Testing that every fact matching a pattern also satisfies a further condition (\"all the benefic planets are in upachaya houses\"), not merely that one does. The condition language has '?var' existential quantification -- a rule is satisfied once per graha that satisfies it -- but no way to require it of every graha a prior, chart-dependent classification (e.g. dep.nature) happens to select. Would need a new combinator with different binding semantics than 'all'/'any'/'not', not an extension of the existing ones -- a materially larger language change than any dependency built so far.",
+      "phase": "beyond the MVP",
+      "depends_on": [],
+      "effort": 15,
+      "effort_basis": "a new condition-language combinator with universal-quantification binding semantics",
+      "implemented": false
     }
   },
   "entries": [
@@ -1220,57 +1230,6 @@
       ]
     },
     {
-      "id": "passage:phaladeepika.06.p071",
-      "kind": "passage",
-      "book": "phaladeepika",
-      "chapter": 6,
-      "locus": "vv. 14-27 (p.62-66)",
-      "what": "Amala, Mahabhagya, Kesari, Sakata, Adhama/Sama/Varishtha, Vasumati, Pushkala, Sub(h)amala, Lakshmi, Gouri and Saraswati Yogas",
-      "reason": "Not yet encoded; deferred by ordering. Mahabhagya Yoga (v.14) is sex-scoped (dep.native-sex, already implemented) and carries a translator's note that Indira Gandhi's chart matched every effect but one, attributed to \"other adverse planetary dispositions\" rather than treated as a counterexample. Four illustrative horoscopes are embedded and will be tier-3 apparatus.",
-      "requires": [
-        "dep.none"
-      ],
-      "phase": "3 (knowledge)",
-      "status": "deferred",
-      "paragraphs": [
-        71,
-        72,
-        73,
-        74,
-        75,
-        77,
-        79,
-        80,
-        81,
-        82,
-        83,
-        84,
-        85,
-        86,
-        88,
-        90,
-        91,
-        92,
-        93,
-        94,
-        95,
-        96,
-        97,
-        98,
-        99,
-        100,
-        101,
-        102,
-        103,
-        104,
-        105,
-        106,
-        108,
-        110,
-        111
-      ]
-    },
-    {
       "id": "passage:phaladeepika.06.p112",
       "kind": "passage",
       "book": "phaladeepika",
@@ -1457,6 +1416,81 @@
       "paragraphs": [
         233,
         234
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p075",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "printed p.63",
+      "what": "an unnamed horoscope illustrating Kesari and Sakata Yogas",
+      "reason": "Tier-3 apparatus: a worked example, not a rule. Recorded as deliberately excluded, not pending.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        75,
+        77
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p081",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "v. 15 Notes (p.63)",
+      "what": "the translator's note that Indira Gandhi's chart matched every Mahabhagya effect but one",
+      "reason": "The one mismatch (her husband was not longlived) is attributed to \"other adverse planetary dispositions\" rather than treated as a counterexample to the rule -- commentary defending the verse against a worked example, not a further testable condition. Tier-3 apparatus, deliberately excluded.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        81
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p084",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "printed p.63-64",
+      "what": "Jawahar Lal Nehru's horoscope, illustrating Sakata Yoga cancelled by the Moon in the lagna",
+      "reason": "Tier-3 apparatus: a worked example, not a rule. Recorded as deliberately excluded, not pending.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        84,
+        85,
+        86,
+        88
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p105",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "printed p.65-66",
+      "what": "Moti Lal Nehru's horoscope, illustrating Saraswati Yoga",
+      "reason": "Tier-3 apparatus: a worked example, not a rule. Recorded as deliberately excluded, not pending.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        105,
+        106,
+        108,
+        110
       ]
     }
   ]

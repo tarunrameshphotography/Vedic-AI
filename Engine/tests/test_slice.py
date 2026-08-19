@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import json
 import sys
+from dataclasses import replace
 from pathlib import Path
 
 import pytest
@@ -296,13 +297,29 @@ def test_chapter_six_citation_cards_are_reference_not_claims(cards):
 
 def test_golden_ruchaka_fires_for_mars_in_its_own_sign_in_a_kendra():
     """Mars sits in Aries, its own sign, in the 4th house -- a kendra --
-    in the golden chart. Ruchaka Yoga, not any other Mahapurusha yoga."""
-    claims = [c for c in run(DEMO).claims if c.derived["rule_card"].startswith("PD.06.")]
-    assert [c.derived["rule_card"] for c in claims] == ["PD.06.Ruchaka"]
-    assert claims[0].derived["variables"] == {}
-    quantities = claims[0].astronomical["quantities"]
+    in the golden chart. Ruchaka Yoga, among the Mahapurusha family."""
+    claims = {c.derived["rule_card"]: c for c in run(DEMO).claims
+             if c.derived["rule_card"] in ("PD.06.Ruchaka", "PD.06.Bhadra",
+                                           "PD.06.Hamsa", "PD.06.Malavya",
+                                           "PD.06.Sasa")}
+    assert set(claims) == {"PD.06.Ruchaka"}
+    assert claims["PD.06.Ruchaka"].derived["variables"] == {}
+    quantities = claims["PD.06.Ruchaka"].astronomical["quantities"]
     assert any(q["name"] == "Mars.lon_sidereal" and q["sign"] == "Aries"
               for q in quantities)
+
+
+def test_golden_adhama_and_sakata_fire_from_slice_three():
+    """PD.06.Adhama (v.14-27 slice): the Moon in a kendra from the Sun.
+    PD.06.Sakata: the Moon in the 6th from Jupiter, not cancelled here
+    because the Moon is not in a kendra from the lagna in this chart."""
+    r = run(DEMO)
+    by_card = {c.derived["rule_card"]: c for c in r.claims
+              if c.derived["rule_card"] in ("PD.06.Adhama", "PD.06.Sakata")}
+    assert set(by_card) == {"PD.06.Adhama", "PD.06.Sakata"}
+    assert "in_house_from(Moon,Sun,7)" in by_card["PD.06.Adhama"].derived["conditions_satisfied"]
+    assert "in_house_from(Moon,Jupiter,6)" in by_card["PD.06.Sakata"].derived["conditions_satisfied"]
+    assert r.verification.ok
 
 
 def test_chapter_six_supplies_the_twelve_house_wise_yogas(cards):
@@ -353,6 +370,68 @@ def test_golden_khyati_fires_with_two_independently_bound_grahas():
     claim = next(c for c in r.claims if c.derived["rule_card"] == "PD.06.Khyati")
     assert claim.derived["variables"] == {"?b": "Moon", "?g": "Jupiter"}
     assert r.verification.ok
+
+
+def test_chapter_six_slice_three_inert_cards_never_fire(cards):
+    """Vasumati (universal quantification) and Pushkala (dep.strength plus
+    two unresolved ambiguities) are recorded, not guessed at."""
+    vasumati = next(c for c in cards if c.id == "PD.06.Vasumati")
+    pushkala = next(c for c in cards if c.id == "PD.06.Pushkala")
+    assert vasumati.activation == "inert"
+    assert vasumati.raw["requires"] == ["dep.universal-quantification"]
+    assert vasumati.conditions == {"all": []}
+    assert pushkala.activation == "inert"
+    assert pushkala.raw["requires"] == ["dep.strength"]
+    assert pushkala.conditions == {"all": []}
+    r = run(DEMO)
+    fired = {c.derived["rule_card"] for c in r.claims}
+    assert "PD.06.Vasumati" not in fired and "PD.06.Pushkala" not in fired
+
+
+def test_chapter_six_adhama_sama_varishtha_have_distinct_quotes(cards):
+    """One shared naming sentence (v. 18, \"respectively\"), three distinct
+    effect fragments carved out of one shared effect sentence -- Varishtha's
+    quote must not equal Sama's or Adhama's despite sharing a source paragraph."""
+    by_id = {c.id: c for c in cards
+             if c.id in ("PD.06.Varishtha", "PD.06.Sama", "PD.06.Adhama")}
+    assert len(by_id) == 3
+    shas = {c.quote_sha256 for c in by_id.values()}
+    assert len(shas) == 3, "each yoga must have a distinct joined quote"
+    assert by_id["PD.06.Varishtha"].quote_parts[0] == by_id["PD.06.Sama"].quote_parts[0]
+    assert "Sama Yoga" in by_id["PD.06.Sama"].quote_parts[1]
+    assert "Adhama Yoga" in by_id["PD.06.Adhama"].quote_parts[1]
+    houses = {"PD.06.Adhama": (1, 4, 7, 10), "PD.06.Sama": (2, 5, 8, 11),
+              "PD.06.Varishtha": (3, 6, 9, 12)}
+    for cid, hs in houses.items():
+        leaf = by_id[cid].conditions["all"][0]["any"]
+        assert {h["in_house_from"]["house"] for h in leaf} == set(hs)
+
+
+def test_chapter_six_subhamala_preserves_the_two_printed_spellings(cards):
+    """\"Subnamala\" in the naming clause (v. 21) and \"Sumala\" in the effect
+    verse (v. 22) are two different printed spellings, confirmed against the
+    source page -- neither is corrected to match the other."""
+    card = next(c for c in cards if c.id == "PD.06.Subhamala")
+    assert "Subnamala" in card.quote_parts[0]
+    assert "Sumala" in card.quote_parts[1]
+    assert "Subhamala" not in card.quote
+
+
+def test_golden_mahabhagya_fires_only_for_the_matching_sex():
+    """A real chart (2023-01-11 09:00): Aquarius lagna, Sun in Sagittarius,
+    Moon in Leo -- all odd signs -- and the Sun above the horizon. Mahabhagya
+    for a male nativity, never for a female one at the same instant."""
+    male = BirthRecord(date="2023-01-11", time="09:00", timezone="Asia/Kolkata",
+                       latitude=10.7870, longitude=79.1378, place_name="Thanjavur",
+                       time_precision="minute", time_source="certificate", sex="male")
+    female = replace(male, sex="female")
+    r_male = run(male)
+    r_female = run(female)
+    male_hits = [c.derived["rule_card"] for c in r_male.claims if "Mahabhagya" in c.derived["rule_card"]]
+    female_hits = [c.derived["rule_card"] for c in r_female.claims if "Mahabhagya" in c.derived["rule_card"]]
+    assert male_hits == ["PD.06.Mahabhagya.Male"]
+    assert female_hits == []
+    assert r_male.verification.ok and r_female.verification.ok
 
 
 def test_reference_cards_never_become_claims():
@@ -490,20 +569,21 @@ def test_slice_runs_and_verifies():
     r = run(DEMO)
     assert r.verification.ok
     # Nine bodies each matching a placement card, one keyed on the ascendant's
-    # sign, and twenty from quantified cards: two on the lagna, three on
+    # sign, and twenty-two from quantified cards: two on the lagna, three on
     # dignity and combustion, five released by benefic/malefic nature -- three
     # of them one card naming each malefic that afflicts the 7th lord in turn
     # -- one from the Moon-sign transfer (dep.rule-transfer), eight from
     # dep.dignity-friendship (three grahas classed friend, one neutral, and
     # four solutions of PD.10.WifeDeprived.Lord7Afflicted's own quantified
-    # "any": three inimical, one combust), and one Pancha Mahapurusha Yoga --
-    # Mars in Aries, its own sign, in the 4th (a kendra), is Ruchaka Yoga.
-    # This number tracks the rule store: it must change when doctrine is
-    # added, and never on its own.
-    assert r.verification.checks["claims"] == 30
+    # "any": three inimical, one combust), Ruchaka Yoga (Mars in Aries, its
+    # own sign, in the 4th, a kendra), Adhama Yoga (the Moon in a kendra from
+    # the Sun), and Sakata Yoga (the Moon in the 6th from Jupiter, not
+    # cancelled here). This number tracks the rule store: it must change when
+    # doctrine is added, and never on its own.
+    assert r.verification.checks["claims"] == 32
     for k in ("quote_integrity_passed", "conditions_reevaluated_passed",
               "numeric_grounding_passed"):
-        assert r.verification.checks[k] == 30
+        assert r.verification.checks[k] == 32
 
 
 def test_every_claim_has_all_four_provenance_links():
@@ -527,7 +607,7 @@ def test_quoted_output_adds_no_words():
     r = run(DEMO)
     by_id = {c.claim_id: c for c in r.claims}
     rules = [s for s in r.sentences if s.part == "rules"]
-    assert len(rules) == 30
+    assert len(rules) == 32
     for s in rules:
         assert s.text == by_id[s.claim_ids[0]].passage["quote_display"]
 
