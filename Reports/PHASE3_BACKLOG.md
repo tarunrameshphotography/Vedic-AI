@@ -6,15 +6,15 @@ Nothing may be silently deferred. Inert cards are read out of the store, deferre
 
 | | |
 |---|---|
-| Backlog entries | **66** |
-| — of kind `card` | 23 |
+| Backlog entries | **65** |
+| — of kind `card` | 22 |
 | — of kind `passage` | 18 |
 | — of kind `chapter` | 23 |
 | — of kind `concept` | 2 |
 | Resolved | 0 |
 | Cards in store | 344 |
-| Firing | 321 |
-| Inert | 23 |
+| Firing | 322 |
+| Inert | 22 |
 
 ## Dependencies
 
@@ -43,7 +43,6 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 | `dep.multi-span-quote` — quotation across two spans | schema | yes | 1 | 0 | 4 (integration) |
 | `dep.nature-occupancy` — occupancy of a house by grahas of a given nature | predicate | yes | 1 | 1 | 2 (engine completion) |
 | `dep.prashna` — prashna (horary) branch | engine | no | 1 | 1 | beyond the MVP |
-| `dep.rule-transfer` — rule-transfer mechanism | schema | no | 1 | 1 | 4 (integration) |
 | `dep.sign-class` — sign classification | reference | yes | 1 | 1 | 3 (knowledge) |
 | `dep.upagraha` — upagraha computation | calculator | no | 1 | 0 | 2 (engine completion) |
 | `dep.vargottama` — vargottama extractor | predicate | no | 1 | 1 | 2 (engine completion) |
@@ -55,6 +54,7 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 | `dep.house-class` — house classification | reference | yes | 0 | 0 | 3 (knowledge) |
 | `dep.moon-frame` — the Moon as an alternative reference frame | schema | yes | 0 | 0 | beyond the MVP |
 | `dep.occupant-count` — occupant counting | predicate | yes | 0 | 0 | 2 (engine completion) |
+| `dep.rule-transfer` — rule-transfer mechanism | schema | yes | 0 | 0 | 4 (integration) |
 
 ## Newly unblocked
 
@@ -128,7 +128,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `concept:manual-verification` | phaladeepika | 0 | the whole store | human sign-off that each card reads its verse correctly | Every card is machine-checked byte-exact against the corpus, but extraction.verified_by is null on all of them. The machine can prove a card quotes the book … | `dep.manual-verification` | 3 (knowledge) | deferred |
 | `concept:nodal-retrograde-dignity` | phaladeepika | 9 | v. 20, as applied by Engine/overrides.py | whether the retrograde-as-exalted override extends to Rahu and Ketu | The verse says 'a planet' without exclusion, and the engine's own retrograde predicate already marks the nodes retrograde on every chart (their motion is alw… | `dep.manual-verification` | 3 (knowledge) | deferred |
 
-### Rule cards recorded but not firing (23)
+### Rule cards recorded but not firing (22)
 
 | Entry | Book | Chapter | Locus | Deferred | Reason | Blocked on | Phase | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -142,7 +142,6 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `card:PD.09.Dignity.Friend` | phaladeepika | 9 | v. 16 | When a planet happens to be in the house of a friend at birth, the per | Universally quantified over the grahas. `graha: "any"` is a sentinel, not a body, and matches no fact key. | `dep.dignity`, `dep.condition-variables`, `dep.dignity-friendship` | 2 (engine completion) + 3 (knowledge) + 4 (integration) | deferred |
 | `card:PD.09.Dignity.Inimical` | phaladeepika | 9 | v. 17 | If a planet gets posited in an inimical sign, the person born will hav | Universally quantified over the grahas. `graha: "any"` is a sentinel, not a body, and matches no fact key. | `dep.dignity`, `dep.condition-variables`, `dep.dasa`, `dep.dignity-friendship` | 2 (engine completion) + 3 (knowledge) + 4 (integration) | deferred |
 | `card:PD.09.Dignity.Neutral` | phaladeepika | 9 | v. 19 (unnumbered) | A planet posited in a netural sign will not produce any significant ef | Printed unnumbered after verse 19, as its own paragraph. | `dep.dignity`, `dep.condition-variables`, `dep.dignity-friendship` | 2 (engine completion) + 3 (knowledge) + 4 (integration) | deferred |
-| `card:PD.09.MoonSign.Transfer` | phaladeepika | 9 | v. 13 | ascendant_effects_transfer_to_moon_sign | Universally quantified over the twelve signs and over the cards of verses 1-12. It states that PD.09.Lagna.<S> also holds when the Moon occupies <S>. The eng… | `dep.rule-transfer` | 4 (integration) | deferred |
 | `card:PD.09.Vargottama` | phaladeepika | 9 | v. 20 | treat_as_own_sign | Printed as the closing sentence of verse 20. | `dep.vargottama`, `dep.condition-variables` | 2 (engine completion) + 4 (integration) | deferred |
 | `card:PD.10.Lord7.BeneficStrong` | phaladeepika | 10 | v. 6 | good_character_and_bears_children | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.lord-of-house`, `dep.condition-variables`, `dep.nature`, `dep.strength` | 2 (engine completion) + 3 (knowledge) + 4 (integration) | deferred |
 | `card:PD.10.Marriage.Dasha7` | phaladeepika | 10 | v. 13 | timing_of_marriage | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.lord-of-house`, `dep.dasa`, `dep.aspects`, `dep.transit` | 2 (engine completion) + beyond the MVP | deferred |

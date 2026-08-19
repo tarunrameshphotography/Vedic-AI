@@ -266,11 +266,12 @@
     "dep.rule-transfer": {
       "title": "rule-transfer mechanism",
       "kind": "schema",
-      "detail": "A rule that asserts another rule's claim under a different condition, without restating it.",
+      "detail": "A rule that asserts another rule's claim under a different condition, without restating it. Resolved by letting the meta card fire as its own quantified claim (an ordinary use of dep.condition-variables) rather than by expanding it into cards for each rule it refers to, which would restate them.",
       "phase": "4 (integration)",
       "depends_on": [],
       "effort": 3,
-      "effort_basis": "a card that asserts another card's claim under a different condition"
+      "effort_basis": "a card that asserts another card's claim under a different condition",
+      "implemented": true
     },
     "dep.native-sex": {
       "title": "the native's sex in the birth record",

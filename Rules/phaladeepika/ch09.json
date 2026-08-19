@@ -593,7 +593,7 @@
           {
             "in_sign": {
               "graha": "Moon",
-              "sign": "any"
+              "sign": "?s"
             }
           }
         ]
@@ -613,12 +613,8 @@
         "verified_date": null
       },
       "kind": "meta",
-      "activation": "inert",
-      "note": "Universally quantified over the twelve signs and over the cards of verses 1-12. It states that PD.09.Lagna.<S> also holds when the Moon occupies <S>. The engine cannot express one rule in terms of another, so the knowledge is recorded here rather than encoded as twelve cards whose quoted words would contradict their conditions.",
-      "exclusions": [],
-      "requires": [
-        "dep.rule-transfer"
-      ]
+      "note": "Fires on its own words rather than being expanded into twelve derivative cards: the verse asserts a transfer principle -- whatever was declared for the Ascendant sign also holds when the Moon occupies it -- without itself restating the twelve lists PD.09.Lagna.* already carry. Encoding it as those twelve cards re-quoted under a Moon condition would misattribute their own words (\"If the Ascendant falls in Aries...\" is not true of a chart where the Moon, not the lagna, is in Aries); this card instead states the transfer itself as its own claim, naming the sign the reader must cross-reference.",
+      "exclusions": []
     },
     {
       "id": "PD.09.Dignity.Exalted",
