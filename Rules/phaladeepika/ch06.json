@@ -530,6 +530,1266 @@
         "PD.06.Sasa",
         "PD.06.PanchaMahapurusha.JatakaParijata"
       ]
+    },
+    {
+      "id": "PD.06.Chamara",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "44-56 (1)",
+        "page_anchor": "phaladeepika/p0075",
+        "tier": 1,
+        "quote": "44-56. (1) benefics occupy or aspect the Lagna and the lord of Lagna not being combust be posited in an auspicious house in his sign of exaltation or own sign, the resulting planetary disposition is called Chamara Yoga. The person with this yoga at birth grows (progresses) in prosperity like the Moon of the bright half of the month and well behaved. He is wealthy, renowned, longlived and lord of men.",
+        "quote_display": "44-56. (1) benefics occupy or aspect the Lagna and the lord of Lagna not being combust be posited in an auspicious house in his sign of exaltation or own sign, the resulting planetary disposition is called Chamara Yoga. The person with this yoga at birth grows (progresses) in prosperity like the Moon of the bright half of the month and well behaved. He is wealthy, renowned, longlived and lord of men.",
+        "quote_sha256": "c8820bbeeb969aa2c7c67842829d2f9edadf683341defcfadde32d8d69083289",
+        "char_span": [
+          145179,
+          145582
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "in_house": {
+                  "graha": "?b",
+                  "house": 1
+                }
+              },
+              {
+                "aspects": {
+                  "graha": "?b",
+                  "target": 1
+                }
+              }
+            ]
+          },
+          {
+            "nature": {
+              "graha": "?b",
+              "nature": "benefic"
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 1
+            }
+          },
+          {
+            "not": {
+              "combust": {
+                "graha": "?g"
+              }
+            }
+          },
+          {
+            "in_house_class": {
+              "graha": "?g",
+              "klass": "auspicious"
+            }
+          },
+          {
+            "any": [
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "exalted"
+                }
+              },
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "own"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Chamara",
+        "house": 1
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Chamara Yoga, house 1: one repeating template across vv. 44-56 -- a benefic occupies or aspects the house, and its own lord, not combust, sits in an auspicious house in exaltation or own sign. Items 2 onward say only \"similarly disposed\"; the condition here is item 1's stated template, carried forward exactly as the text itself instructs, not inferred from outside it.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.06.Dhenu",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "44-56 (2)",
+        "page_anchor": "phaladeepika/p0075",
+        "tier": 1,
+        "quote": "(2) If the 2nd house is occupied or aspected by benefic planet and the lord of 2nd house not being combust is posited in an auspicious house in his sign of exaltation or in his own sign, the resulting Yoga is Dhenu Yoga, the person born\r\n\r\n<!-- page phaladeepika/p0076 -->\r\nwith this yoga will be well equipped with gold, wealth, grains, and precious stones, and will be equal to king of kings.",
+        "quote_display": "(2) If the 2nd house is occupied or aspected by benefic planet and the lord of 2nd house not being combust is posited in an auspicious house in his sign of exaltation or in his own sign, the resulting Yoga is Dhenu Yoga, the person born with this yoga will be well equipped with gold, wealth, grains, and precious stones, and will be equal to king of kings.",
+        "quote_sha256": "ab3ed266eadfe756efc74ce28d6dc25799d188c55942dee52fb7f929326e4a1c",
+        "char_span": [
+          145586,
+          145980
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "in_house": {
+                  "graha": "?b",
+                  "house": 2
+                }
+              },
+              {
+                "aspects": {
+                  "graha": "?b",
+                  "target": 2
+                }
+              }
+            ]
+          },
+          {
+            "nature": {
+              "graha": "?b",
+              "nature": "benefic"
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 2
+            }
+          },
+          {
+            "not": {
+              "combust": {
+                "graha": "?g"
+              }
+            }
+          },
+          {
+            "in_house_class": {
+              "graha": "?g",
+              "klass": "auspicious"
+            }
+          },
+          {
+            "any": [
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "exalted"
+                }
+              },
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "own"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Dhenu",
+        "house": 2
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Dhenu Yoga, house 2: one repeating template across vv. 44-56 -- a benefic occupies or aspects the house, and its own lord, not combust, sits in an auspicious house in exaltation or own sign. Items 2 onward say only \"similarly disposed\"; the condition here is item 1's stated template, carried forward exactly as the text itself instructs, not inferred from outside it.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.06.Shaurya",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "44-56 (3)",
+        "page_anchor": "phaladeepika/p0076",
+        "tier": 1,
+        "quote": "(3) If the third house is occupied or aspected by benefic planets and the lord of the third house not being combust, is in an auspicious house, in his sign of exaltation or in his own sign, the yoga so formed is known as Shaurya yoga.\r\n\r\nThe person born with Shaurya Yoga has younger brothers devoted to him. The younger brothers will attain glory and will be brave and valiant and will be endowed with admiration of others. His nature will be adorned like Shri Rama, he will be engrossed in state affairs, will be loved by everybody and will be very renowned.",
+        "quote_display": "(3) If the third house is occupied or aspected by benefic planets and the lord of the third house not being combust, is in an auspicious house, in his sign of exaltation or in his own sign, the yoga so formed is known as Shaurya yoga. The person born with Shaurya Yoga has younger brothers devoted to him. The younger brothers will attain glory and will be brave and valiant and will be endowed with admiration of others. His nature will be adorned like Shri Rama, he will be engrossed in state affairs, will be loved by everybody and will be very renowned.",
+        "quote_sha256": "601bc26bc84e9020fb261169441930c1aafcc0a64136024a703e44568bcd0ed7",
+        "char_span": [
+          145984,
+          146544
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "in_house": {
+                  "graha": "?b",
+                  "house": 3
+                }
+              },
+              {
+                "aspects": {
+                  "graha": "?b",
+                  "target": 3
+                }
+              }
+            ]
+          },
+          {
+            "nature": {
+              "graha": "?b",
+              "nature": "benefic"
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 3
+            }
+          },
+          {
+            "not": {
+              "combust": {
+                "graha": "?g"
+              }
+            }
+          },
+          {
+            "in_house_class": {
+              "graha": "?g",
+              "klass": "auspicious"
+            }
+          },
+          {
+            "any": [
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "exalted"
+                }
+              },
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "own"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Shaurya",
+        "house": 3
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Shaurya Yoga, house 3: one repeating template across vv. 44-56 -- a benefic occupies or aspects the house, and its own lord, not combust, sits in an auspicious house in exaltation or own sign. Items 2 onward say only \"similarly disposed\"; the condition here is item 1's stated template, carried forward exactly as the text itself instructs, not inferred from outside it.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.06.Jaladhi",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "44-56 (4)",
+        "page_anchor": "phaladeepika/p0076",
+        "tier": 1,
+        "quote": "(4) If the fourth house is similarly disposed the Yoga formed is known as Jaladhi. The person born with this Yoga will be rich in cattle wealth and grains. He will own a beautifully constructed mansion full of relatives. He will have an excellent wife, gems, clothes, ornaments and will attain a high and respectable status. He will be blessed with everlasting happiness. He will own elephants, horses, palanquins etc., and will be reverred by the king. He will be devoted to Brahmins and gods and construct wells and reservoirs by the road side for the benefit of others.",
+        "quote_display": "(4) If the fourth house is similarly disposed the Yoga formed is known as Jaladhi. The person born with this Yoga will be rich in cattle wealth and grains. He will own a beautifully constructed mansion full of relatives. He will have an excellent wife, gems, clothes, ornaments and will attain a high and respectable status. He will be blessed with everlasting happiness. He will own elephants, horses, palanquins etc., and will be reverred by the king. He will be devoted to Brahmins and gods and construct wells and reservoirs by the road side for the benefit of others.",
+        "quote_sha256": "660c4a18f6f3a6d8d8e936016454bc20dd8b8a3666822c3959ec45930c785929",
+        "char_span": [
+          146548,
+          147120
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "in_house": {
+                  "graha": "?b",
+                  "house": 4
+                }
+              },
+              {
+                "aspects": {
+                  "graha": "?b",
+                  "target": 4
+                }
+              }
+            ]
+          },
+          {
+            "nature": {
+              "graha": "?b",
+              "nature": "benefic"
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 4
+            }
+          },
+          {
+            "not": {
+              "combust": {
+                "graha": "?g"
+              }
+            }
+          },
+          {
+            "in_house_class": {
+              "graha": "?g",
+              "klass": "auspicious"
+            }
+          },
+          {
+            "any": [
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "exalted"
+                }
+              },
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "own"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Jaladhi",
+        "house": 4
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Jaladhi Yoga, house 4: one repeating template across vv. 44-56 -- a benefic occupies or aspects the house, and its own lord, not combust, sits in an auspicious house in exaltation or own sign. Items 2 onward say only \"similarly disposed\"; the condition here is item 1's stated template, carried forward exactly as the text itself instructs, not inferred from outside it.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.06.Chhattra",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "44-56 (5)",
+        "page_anchor": "phaladeepika/p0076",
+        "tier": 1,
+        "quote": "(5) Similar disposition of the 5th house gives rise to Chhattra Yoga. The person born with Chhattra yoga will lead a very happy family life, will be very fortunate and will enjoy happiness from children, will be wealthy and renowned with eloquent speech. He will possess a sharp intellect and will become a minister of the king. He will be honoured by the king and will be respected by others.",
+        "quote_display": "(5) Similar disposition of the 5th house gives rise to Chhattra Yoga. The person born with Chhattra yoga will lead a very happy family life, will be very fortunate and will enjoy happiness from children, will be wealthy and renowned with eloquent speech. He will possess a sharp intellect and will become a minister of the king. He will be honoured by the king and will be respected by others.",
+        "quote_sha256": "dde1ac81508f0f49d5a296c7f1d6b6abef8ec1f8ed78a2334969be1cd5b80bb4",
+        "char_span": [
+          147124,
+          147517
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "in_house": {
+                  "graha": "?b",
+                  "house": 5
+                }
+              },
+              {
+                "aspects": {
+                  "graha": "?b",
+                  "target": 5
+                }
+              }
+            ]
+          },
+          {
+            "nature": {
+              "graha": "?b",
+              "nature": "benefic"
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 5
+            }
+          },
+          {
+            "not": {
+              "combust": {
+                "graha": "?g"
+              }
+            }
+          },
+          {
+            "in_house_class": {
+              "graha": "?g",
+              "klass": "auspicious"
+            }
+          },
+          {
+            "any": [
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "exalted"
+                }
+              },
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "own"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Chhattra",
+        "house": 5
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Chhattra Yoga, house 5: one repeating template across vv. 44-56 -- a benefic occupies or aspects the house, and its own lord, not combust, sits in an auspicious house in exaltation or own sign. Items 2 onward say only \"similarly disposed\"; the condition here is item 1's stated template, carried forward exactly as the text itself instructs, not inferred from outside it.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.06.Astra.H06",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "44-56 (6)",
+        "page_anchor": "phaladeepika/p0076",
+        "tier": 1,
+        "quote": "(6) Similar disposition of the 6th house causes Astra yoga. The person born with Astra yoga will be capable of conquering very powerful enemies. He will be cruel in his disposition and arrogant. He will have bruised limbs but a strong body. He will be quarrelsome.",
+        "quote_display": "(6) Similar disposition of the 6th house causes Astra yoga. The person born with Astra yoga will be capable of conquering very powerful enemies. He will be cruel in his disposition and arrogant. He will have bruised limbs but a strong body. He will be quarrelsome.",
+        "quote_sha256": "acc23eedb456cb52e7fc0d8760ff78c6adc70f6c29db6af05189b95bb048e2ab",
+        "char_span": [
+          147521,
+          147785
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "in_house": {
+                  "graha": "?b",
+                  "house": 6
+                }
+              },
+              {
+                "aspects": {
+                  "graha": "?b",
+                  "target": 6
+                }
+              }
+            ]
+          },
+          {
+            "nature": {
+              "graha": "?b",
+              "nature": "benefic"
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 6
+            }
+          },
+          {
+            "not": {
+              "combust": {
+                "graha": "?g"
+              }
+            }
+          },
+          {
+            "in_house_class": {
+              "graha": "?g",
+              "klass": "auspicious"
+            }
+          },
+          {
+            "any": [
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "exalted"
+                }
+              },
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "own"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Astra",
+        "house": 6
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Astra Yoga, house 6: one repeating template across vv. 44-56 -- a benefic occupies or aspects the house, and its own lord, not combust, sits in an auspicious house in exaltation or own sign. Items 2 onward say only \"similarly disposed\"; the condition here is item 1's stated template, carried forward exactly as the text itself instructs, not inferred from outside it. Astra Yoga is printed twice in this family, for the 6th and 8th houses, and stays distinguishable by house here.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.06.Kama",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "44-56 (7)",
+        "page_anchor": "phaladeepika/p0077",
+        "tier": 1,
+        "quote": "(7) If there be similar disposition of the 7th house, the Yoga arising is called Kama yoga. The person with Kama yoga at birth will have nothing to do with other people's wives. His good qualities will enable him to surpass his father and he will be very prosperous.",
+        "quote_display": "(7) If there be similar disposition of the 7th house, the Yoga arising is called Kama yoga. The person with Kama yoga at birth will have nothing to do with other people's wives. His good qualities will enable him to surpass his father and he will be very prosperous.",
+        "quote_sha256": "89c0ca07f022788bd0387c69a20a8ea1dee698953dbc87f8020f17e2d923135c",
+        "char_span": [
+          148846,
+          149112
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "in_house": {
+                  "graha": "?b",
+                  "house": 7
+                }
+              },
+              {
+                "aspects": {
+                  "graha": "?b",
+                  "target": 7
+                }
+              }
+            ]
+          },
+          {
+            "nature": {
+              "graha": "?b",
+              "nature": "benefic"
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 7
+            }
+          },
+          {
+            "not": {
+              "combust": {
+                "graha": "?g"
+              }
+            }
+          },
+          {
+            "in_house_class": {
+              "graha": "?g",
+              "klass": "auspicious"
+            }
+          },
+          {
+            "any": [
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "exalted"
+                }
+              },
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "own"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Kama",
+        "house": 7
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Kama Yoga, house 7: one repeating template across vv. 44-56 -- a benefic occupies or aspects the house, and its own lord, not combust, sits in an auspicious house in exaltation or own sign. Items 2 onward say only \"similarly disposed\"; the condition here is item 1's stated template, carried forward exactly as the text itself instructs, not inferred from outside it.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.06.Astra.H08",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "44-56 (8)",
+        "page_anchor": "phaladeepika/p0077",
+        "tier": 1,
+        "quote": "(8) With similar disposition of the 8th house, the yoga-formed is known as Astra yoga. The person with this yoga will disturb others in their work and will become a talebearer. He will be selfish, poor and have forbidden cravings. He will indulge in mean doings and will untimately suffer for his unwanted doings.",
+        "quote_display": "(8) With similar disposition of the 8th house, the yoga-formed is known as Astra yoga. The person with this yoga will disturb others in their work and will become a talebearer. He will be selfish, poor and have forbidden cravings. He will indulge in mean doings and will untimately suffer for his unwanted doings.",
+        "quote_sha256": "64cc67af9ada8474ceb61a7995207cd38e32bd550b7ceccde6689418419aedd3",
+        "char_span": [
+          149116,
+          149429
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "in_house": {
+                  "graha": "?b",
+                  "house": 8
+                }
+              },
+              {
+                "aspects": {
+                  "graha": "?b",
+                  "target": 8
+                }
+              }
+            ]
+          },
+          {
+            "nature": {
+              "graha": "?b",
+              "nature": "benefic"
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 8
+            }
+          },
+          {
+            "not": {
+              "combust": {
+                "graha": "?g"
+              }
+            }
+          },
+          {
+            "in_house_class": {
+              "graha": "?g",
+              "klass": "auspicious"
+            }
+          },
+          {
+            "any": [
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "exalted"
+                }
+              },
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "own"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Astra",
+        "house": 8
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Astra Yoga, house 8: one repeating template across vv. 44-56 -- a benefic occupies or aspects the house, and its own lord, not combust, sits in an auspicious house in exaltation or own sign. Items 2 onward say only \"similarly disposed\"; the condition here is item 1's stated template, carried forward exactly as the text itself instructs, not inferred from outside it. Astra Yoga is printed twice in this family, for the 6th and 8th houses, and stays distinguishable by house here.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.06.Bhagya",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "44-56 (9)",
+        "page_anchor": "phaladeepika/p0077",
+        "tier": 1,
+        "quote": "(9) The 9th house disposed in the same manner gives rise to Bhagya Yoga. The person who has his birth in the Bhagya yoga will move in palanquins (excellent vehicles) in the midst of sounds of musical instruments (bands, drums etc.) and with chowries waving to and fro. He will always be equipped with wealth and will observe a righteous code of conduct. Gods and Brahmins will be pleased with him for his devotion and virtues. He win make his family illustrious and will have a lowering disposition.",
+        "quote_display": "(9) The 9th house disposed in the same manner gives rise to Bhagya Yoga. The person who has his birth in the Bhagya yoga will move in palanquins (excellent vehicles) in the midst of sounds of musical instruments (bands, drums etc.) and with chowries waving to and fro. He will always be equipped with wealth and will observe a righteous code of conduct. Gods and Brahmins will be pleased with him for his devotion and virtues. He win make his family illustrious and will have a lowering disposition.",
+        "quote_sha256": "3bea9940b2cd456cf1eaa720fffa3bb796e4a0405afb6f83096b6ad9f0abaff9",
+        "char_span": [
+          149433,
+          149932
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "in_house": {
+                  "graha": "?b",
+                  "house": 9
+                }
+              },
+              {
+                "aspects": {
+                  "graha": "?b",
+                  "target": 9
+                }
+              }
+            ]
+          },
+          {
+            "nature": {
+              "graha": "?b",
+              "nature": "benefic"
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 9
+            }
+          },
+          {
+            "not": {
+              "combust": {
+                "graha": "?g"
+              }
+            }
+          },
+          {
+            "in_house_class": {
+              "graha": "?g",
+              "klass": "auspicious"
+            }
+          },
+          {
+            "any": [
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "exalted"
+                }
+              },
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "own"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Bhagya",
+        "house": 9
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Bhagya Yoga, house 9: one repeating template across vv. 44-56 -- a benefic occupies or aspects the house, and its own lord, not combust, sits in an auspicious house in exaltation or own sign. Items 2 onward say only \"similarly disposed\"; the condition here is item 1's stated template, carried forward exactly as the text itself instructs, not inferred from outside it.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.06.Khyati",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "44-56 (10)",
+        "page_anchor": "phaladeepika/p0077",
+        "tier": 1,
+        "quote": "(10) The disposition in similar manner in the 10th will cause Khyati Yoga. The person born with Khayti yoga at his birth will become a king who will protect his good subjects by following a code of conduct approved by all. He will have sons, friends, wife and will be very wealthy, prosperous and famous.",
+        "quote_display": "(10) The disposition in similar manner in the 10th will cause Khyati Yoga. The person born with Khayti yoga at his birth will become a king who will protect his good subjects by following a code of conduct approved by all. He will have sons, friends, wife and will be very wealthy, prosperous and famous.",
+        "quote_sha256": "da42058febf9c596477c5c7ba9bf40bc44df04b97f4f89b30671901abe13a281",
+        "char_span": [
+          149936,
+          150240
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "in_house": {
+                  "graha": "?b",
+                  "house": 10
+                }
+              },
+              {
+                "aspects": {
+                  "graha": "?b",
+                  "target": 10
+                }
+              }
+            ]
+          },
+          {
+            "nature": {
+              "graha": "?b",
+              "nature": "benefic"
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 10
+            }
+          },
+          {
+            "not": {
+              "combust": {
+                "graha": "?g"
+              }
+            }
+          },
+          {
+            "in_house_class": {
+              "graha": "?g",
+              "klass": "auspicious"
+            }
+          },
+          {
+            "any": [
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "exalted"
+                }
+              },
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "own"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Khyati",
+        "house": 10
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Khyati Yoga, house 10: one repeating template across vv. 44-56 -- a benefic occupies or aspects the house, and its own lord, not combust, sits in an auspicious house in exaltation or own sign. Items 2 onward say only \"similarly disposed\"; the condition here is item 1's stated template, carried forward exactly as the text itself instructs, not inferred from outside it.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.06.Parijata",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "44-56 (11)",
+        "page_anchor": "phaladeepika/p0077",
+        "tier": 1,
+        "quote": "(11) The disposition in the same way of the 11th will give rise to Parijata\r\n\r\n<!-- page phaladeepika/p0078 -->\r\nYoga. The person born with the Parijata Yoga will always be celebrating on some account or other. He will become a king and will also be the owner of much hoarded wealth. He will have a large family and will be fond of hearing songs of great people. He will be learned and always engaged in performing auspicious functions.",
+        "quote_display": "(11) The disposition in the same way of the 11th will give rise to Parijata Yoga. The person born with the Parijata Yoga will always be celebrating on some account or other. He will become a king and will also be the owner of much hoarded wealth. He will have a large family and will be fond of hearing songs of great people. He will be learned and always engaged in performing auspicious functions.",
+        "quote_sha256": "37d5b404f710496762869351b4d343496d44939cc080f0b9a2e858e0d83cc183",
+        "char_span": [
+          150244,
+          150680
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "in_house": {
+                  "graha": "?b",
+                  "house": 11
+                }
+              },
+              {
+                "aspects": {
+                  "graha": "?b",
+                  "target": 11
+                }
+              }
+            ]
+          },
+          {
+            "nature": {
+              "graha": "?b",
+              "nature": "benefic"
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 11
+            }
+          },
+          {
+            "not": {
+              "combust": {
+                "graha": "?g"
+              }
+            }
+          },
+          {
+            "in_house_class": {
+              "graha": "?g",
+              "klass": "auspicious"
+            }
+          },
+          {
+            "any": [
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "exalted"
+                }
+              },
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "own"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Parijata",
+        "house": 11
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Parijata Yoga, house 11: one repeating template across vv. 44-56 -- a benefic occupies or aspects the house, and its own lord, not combust, sits in an auspicious house in exaltation or own sign. Items 2 onward say only \"similarly disposed\"; the condition here is item 1's stated template, carried forward exactly as the text itself instructs, not inferred from outside it.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.06.Musala",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "44-56 (12)",
+        "page_anchor": "phaladeepika/p0078",
+        "tier": 1,
+        "quote": "(12) The 12th house so disposed will cause Musala Yoga. The person born with Musala Yoga will accumulate wealth with great difficulty. He will suffer humiliation. His wealth will be tnstable. His expenditure will be only for legitimate purposes. He will be stupid and of unsteady mind and he will go to heaven after his death.",
+        "quote_display": "(12) The 12th house so disposed will cause Musala Yoga. The person born with Musala Yoga will accumulate wealth with great difficulty. He will suffer humiliation. His wealth will be tnstable. His expenditure will be only for legitimate purposes. He will be stupid and of unsteady mind and he will go to heaven after his death.",
+        "quote_sha256": "d717b7b97c0e81163e3f0a2d557da54eac4390d54f4a8cb4f796d1c6a09429cc",
+        "char_span": [
+          150684,
+          151010
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "in_house": {
+                  "graha": "?b",
+                  "house": 12
+                }
+              },
+              {
+                "aspects": {
+                  "graha": "?b",
+                  "target": 12
+                }
+              }
+            ]
+          },
+          {
+            "nature": {
+              "graha": "?b",
+              "nature": "benefic"
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 12
+            }
+          },
+          {
+            "not": {
+              "combust": {
+                "graha": "?g"
+              }
+            }
+          },
+          {
+            "in_house_class": {
+              "graha": "?g",
+              "klass": "auspicious"
+            }
+          },
+          {
+            "any": [
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "exalted"
+                }
+              },
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "own"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Musala",
+        "house": 12
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Musala Yoga, house 12: one repeating template across vv. 44-56 -- a benefic occupies or aspects the house, and its own lord, not combust, sits in an auspicious house in exaltation or own sign. Items 2 onward say only \"similarly disposed\"; the condition here is item 1's stated template, carried forward exactly as the text itself instructs, not inferred from outside it.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.06.Astra.H06.Notes",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "44-56 (6) Notes",
+        "page_anchor": "phaladeepika/p0076",
+        "tier": 2,
+        "quote": "Notes — Normally the 6th house is treated as Dusthana (bad house); but if the lord of the sixth be in the sixth, he improves the effects of the 6th house. It is generally said by the astrological pandits that malefics do good if they are posited\r\n\r\n<!-- page phaladeepika/p0077 -->\r\nin the 6th house. The reason for this can be that the 6th house is 'Shatru sthana'. Malefics will destroy the enemies. It is also believed that Mars, Saturn and Rahu are good in the 3rd, 6th and 11th. The reason for this is also the same, namely, the malefic will destroy enemies and diseases. Now we come to Shri Mantreshwarar's views. According to him the lord of a house gives good effects when he is vested with strength. This is unobjectionable but he has also expressed the opinion that if lord of a Dusthana is posited in another dustnana he does good. This has been described in Verse 57 of this very chapter. Another thing is that benefics do good to the house where they are posited. Similarly the aspect of benefics improves the effects of the aspected house.",
+        "quote_display": "Notes — Normally the 6th house is treated as Dusthana (bad house); but if the lord of the sixth be in the sixth, he improves the effects of the 6th house. It is generally said by the astrological pandits that malefics do good if they are posited in the 6th house. The reason for this can be that the 6th house is 'Shatru sthana'. Malefics will destroy the enemies. It is also believed that Mars, Saturn and Rahu are good in the 3rd, 6th and 11th. The reason for this is also the same, namely, the malefic will destroy enemies and diseases. Now we come to Shri Mantreshwarar's views. According to him the lord of a house gives good effects when he is vested with strength. This is unobjectionable but he has also expressed the opinion that if lord of a Dusthana is posited in another dustnana he does good. This has been described in Verse 57 of this very chapter. Another thing is that benefics do good to the house where they are posited. Similarly the aspect of benefics improves the effects of the aspected house.",
+        "quote_sha256": "e2e7e83929755afdafa013c352bdcb709c1c36c201bc4d4a46e615453999e27c",
+        "char_span": [
+          147789,
+          148842
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Astra",
+        "house": 6,
+        "topic": "why a dusthana lord can still be auspicious"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "activation": "reference",
+      "note": "Discursive commentary, not a further testable condition: reports the folk view (malefics in 3rd/6th/11th destroy enemies and disease), then Mantreswara's own stated principle (a dusthana lord in another dusthana does good, per verse 57 -- not yet encoded). Preserved as corroborating doctrine for PD.06.Astra.H06 rather than turned into a claim of its own.",
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.Astra.H06"
+      ]
     }
   ]
 }

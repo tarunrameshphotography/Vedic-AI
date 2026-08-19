@@ -266,13 +266,11 @@ def test_chapter_six_supplies_the_pancha_mahapurusha_yogas(cards):
     p.55-57. Each is a two-span card quoting its own naming clause (own sign
     or exaltation, in a kendra) and its own effect verse; the graha and its
     two dignities are exact per verses 1-5, never widened or guessed."""
-    by_id = {c.id: c for c in cards
-             if c.id.startswith("PD.06.") and "PanchaMahapurusha" not in c.id}
-    assert set(by_id) == {"PD.06.Ruchaka", "PD.06.Bhadra", "PD.06.Hamsa",
-                          "PD.06.Malavya", "PD.06.Sasa"}
     grahas = {"PD.06.Ruchaka": "Mars", "PD.06.Bhadra": "Mercury",
               "PD.06.Hamsa": "Jupiter", "PD.06.Malavya": "Venus",
               "PD.06.Sasa": "Saturn"}
+    by_id = {c.id: c for c in cards if c.id in grahas}
+    assert set(by_id) == set(grahas)
     for cid, graha in grahas.items():
         card = by_id[cid]
         assert card.activation == "active"
@@ -305,6 +303,56 @@ def test_golden_ruchaka_fires_for_mars_in_its_own_sign_in_a_kendra():
     quantities = claims[0].astronomical["quantities"]
     assert any(q["name"] == "Mars.lon_sidereal" and q["sign"] == "Aries"
               for q in quantities)
+
+
+def test_chapter_six_supplies_the_twelve_house_wise_yogas(cards):
+    """PD.06.Chamara..Musala -- vv. 44-56, printed p.75-78. One repeating
+    template: a benefic (?b) occupies or aspects the house; that house's own
+    lord (?g) -- a distinct, independently-bound graha -- is not combust,
+    sits in an auspicious house, in exaltation or own sign."""
+    houses = {"Chamara": 1, "Dhenu": 2, "Shaurya": 3, "Jaladhi": 4,
+              "Chhattra": 5, "Kama": 7, "Bhagya": 9, "Khyati": 10,
+              "Parijata": 11, "Musala": 12}
+    by_id = {c.id: c for c in cards if c.id in {f"PD.06.{n}" for n in houses}}
+    assert set(by_id) == {f"PD.06.{n}" for n in houses}
+    for name, house in houses.items():
+        card = by_id[f"PD.06.{name}"]
+        assert card.activation == "active"
+        assert len(card.spans) == 1, f"{card.id} should be one contiguous span"
+        assert card.predicts == {"domain": "yoga", "yoga": name, "house": house}
+        leaves = card.conditions["all"]
+        assert leaves[2]["lord_of_house"] == {"graha": "?g", "house": house}
+        assert leaves[3] == {"not": {"combust": {"graha": "?g"}}}
+        assert leaves[4]["in_house_class"] == {"graha": "?g", "klass": "auspicious"}
+        occ = leaves[0]["any"]
+        assert {"in_house": {"graha": "?b", "house": house}} in occ
+        assert {"aspects": {"graha": "?b", "target": house}} in occ
+
+
+def test_chapter_six_astra_is_printed_twice_and_stays_distinguishable(cards):
+    """Astra Yoga names both the 6th-house and 8th-house member of the same
+    family; the two cards must never collide."""
+    h6 = next(c for c in cards if c.id == "PD.06.Astra.H06")
+    h8 = next(c for c in cards if c.id == "PD.06.Astra.H08")
+    assert h6.predicts == {"domain": "yoga", "yoga": "Astra", "house": 6}
+    assert h8.predicts == {"domain": "yoga", "yoga": "Astra", "house": 8}
+    assert h6.quote_sha256 != h8.quote_sha256
+    notes = next(c for c in cards if c.id == "PD.06.Astra.H06.Notes")
+    assert notes.activation == "reference"
+    assert notes.raw["parallel_of"] == ["PD.06.Astra.H06"]
+
+
+def test_golden_khyati_fires_with_two_independently_bound_grahas():
+    """A real chart (2023-01-05, Pisces lagna): the Moon aspects the 10th
+    house and is benefic; Jupiter, the 10th's own lord, sits in Sagittarius
+    (his own sign) undisturbed -- ?b and ?g bind to different grahas."""
+    rec = BirthRecord(date="2023-01-05", time="12:00", timezone="Asia/Kolkata",
+                      latitude=10.7870, longitude=79.1378, place_name="Thanjavur",
+                      time_precision="minute", time_source="certificate", sex="male")
+    r = run(rec)
+    claim = next(c for c in r.claims if c.derived["rule_card"] == "PD.06.Khyati")
+    assert claim.derived["variables"] == {"?b": "Moon", "?g": "Jupiter"}
+    assert r.verification.ok
 
 
 def test_reference_cards_never_become_claims():

@@ -1396,39 +1396,6 @@
       ]
     },
     {
-      "id": "passage:phaladeepika.06.p185",
-      "kind": "passage",
-      "book": "phaladeepika",
-      "chapter": 6,
-      "locus": "vv. 44-56 (p.75-78)",
-      "what": "Twelve house-wise yogas keyed to occupation/aspect by benefics (Chamara, Dhenu, Shaurya, Jaladhi, Chhattra, Astra [6th], Kama, Astra [8th], Bhagya, Khyati, Parijata, Musala)",
-      "reason": "Not yet encoded; deferred by ordering. One repeating template across the twelve houses; the 6th-house and 8th-house members are both named \"Astra Yoga\" and must stay distinguishable by house when encoded. A Notes aside on the 6th-house member explains why a dusthana lord can still be auspicious, cross-referencing verse 57's general principle.",
-      "requires": [
-        "dep.none"
-      ],
-      "phase": "3 (knowledge)",
-      "status": "deferred",
-      "paragraphs": [
-        185,
-        186,
-        187,
-        188,
-        189,
-        190,
-        191,
-        192,
-        193,
-        194,
-        195,
-        196,
-        197,
-        198,
-        199,
-        200,
-        201
-      ]
-    },
-    {
       "id": "passage:phaladeepika.06.p202",
       "kind": "passage",
       "book": "phaladeepika",
