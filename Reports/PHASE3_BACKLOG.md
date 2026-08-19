@@ -6,15 +6,15 @@ Nothing may be silently deferred. Inert cards are read out of the store, deferre
 
 | | |
 |---|---|
-| Backlog entries | **65** |
-| — of kind `card` | 22 |
+| Backlog entries | **64** |
+| — of kind `card` | 21 |
 | — of kind `passage` | 18 |
 | — of kind `chapter` | 23 |
 | — of kind `concept` | 2 |
 | Resolved | 0 |
 | Cards in store | 344 |
-| Firing | 322 |
-| Inert | 22 |
+| Firing | 323 |
+| Inert | 21 |
 
 ## Dependencies
 
@@ -33,8 +33,8 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 | `dep.dignity-friendship` — natural friendship (the unresolved half of dignity) | reference | no | 5 | 5 | 3 (knowledge) |
 | `dep.nature` — benefic/malefic classification | calculator | yes | 5 | 5 | 3 (knowledge) |
 | `dep.varga` — varga (divisional chart) engine | calculator | no | 5 | 5 | 2 (engine completion) |
-| `dep.manual-verification` — human verification of the encoding | process | no | 4 | 2 | 3 (knowledge) |
 | `dep.transit` — transit (gochara) calculation | calculator | no | 4 | 3 | beyond the MVP |
+| `dep.manual-verification` — human verification of the encoding | process | no | 3 | 1 | 3 (knowledge) |
 | `dep.ashtakavarga` — ashtakavarga | calculator | no | 2 | 1 | 2 (engine completion) |
 | `dep.combust` — combustion extractor | predicate | yes | 2 | 2 | 2 (engine completion) |
 | `dep.native-sex` — the native's sex in the birth record | schema | yes | 2 | 0 | 2 (engine completion) |
@@ -125,10 +125,10 @@ Every blocking dependency of these entries is now implemented. Each card here be
 
 | Entry | Book | Chapter | Locus | Deferred | Reason | Blocked on | Phase | Status |
 |---|---|---|---|---|---|---|---|---|
-| `concept:manual-verification` | phaladeepika | 0 | the whole store | human sign-off that each card reads its verse correctly | Every card is machine-checked byte-exact against the corpus, but extraction.verified_by is null on all of them. The machine can prove a card quotes the book … | `dep.manual-verification` | 3 (knowledge) | deferred |
+| `concept:manual-verification` | phaladeepika | 0 | the whole store | human sign-off that each card reads its verse correctly | Every card is machine-checked byte-exact against the corpus, but extraction.verified_by is null on all but one of them (PD.02.Friendship.NaturalTable, verifi… | `dep.manual-verification` | 3 (knowledge) | deferred |
 | `concept:nodal-retrograde-dignity` | phaladeepika | 9 | v. 20, as applied by Engine/overrides.py | whether the retrograde-as-exalted override extends to Rahu and Ketu | The verse says 'a planet' without exclusion, and the engine's own retrograde predicate already marks the nodes retrograde on every chart (their motion is alw… | `dep.manual-verification` | 3 (knowledge) | deferred |
 
-### Rule cards recorded but not firing (22)
+### Rule cards recorded but not firing (21)
 
 | Entry | Book | Chapter | Locus | Deferred | Reason | Blocked on | Phase | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -137,7 +137,6 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `card:PD.02.AdverseDisposition` | phaladeepika | 2 | v. 36 | adversely_disposed | Three of the six alternatives are house placements the engine can already test, but the rule is quantified over the grahas and the debilitation clause covers… | `dep.combust`, `dep.dignity`, `dep.varga`, `dep.condition-variables`, `dep.dignity-friendship` | 2 (engine completion) + 3 (knowledge) + 4 (integration) | deferred |
 | `card:PD.02.Disease.FollowsTemperament` | phaladeepika | 2 | v. 7 (Notes) | disease_follows_the_graha_temperament | States how to read a disease off whichever graha caused it, but not which graha causes one. Needs the rule that identifies the cause before it can be applied. | `dep.condition-variables`, `dep.adjudication` | 4 (integration) | deferred |
 | `card:PD.02.Form.Mars.Youthful` | phaladeepika | 2 | v. 10 (Notes) | youthful_appearance | The Mars-in-lagna leaf is exact, but the rule is conditioned on a *strong* Mars and on lagna lordship, neither of which the engine can establish. | `dep.lord-of-house`, `dep.strength` | 2 (engine completion) | deferred |
-| `card:PD.02.Friendship.NaturalTable` | phaladeepika | 2 | v. 21-22 | In these verses has been described the friendship, enmity and neutrali | A four-column table the scan interleaved past reconstruction. The row for the Sun reads 'Sun Moon, Mercury Venus Mars Saturn Jupiter': all six other grahas a… | `dep.manual-verification` | 3 (knowledge) | deferred |
 | `card:PD.02.Prashna.ReservoirWater` | phaladeepika | 2 | v. 36 | water_increases | A horary rule: it reads the chart of the moment a question is asked, not a nativity. Its condition is exactly expressible and would fire on a birth chart, wh… | `dep.prashna` | beyond the MVP | deferred |
 | `card:PD.09.Dignity.Friend` | phaladeepika | 9 | v. 16 | When a planet happens to be in the house of a friend at birth, the per | Universally quantified over the grahas. `graha: "any"` is a sentinel, not a body, and matches no fact key. | `dep.dignity`, `dep.condition-variables`, `dep.dignity-friendship` | 2 (engine completion) + 3 (knowledge) + 4 (integration) | deferred |
 | `card:PD.09.Dignity.Inimical` | phaladeepika | 9 | v. 17 | If a planet gets posited in an inimical sign, the person born will hav | Universally quantified over the grahas. `graha: "any"` is a sentinel, not a body, and matches no fact key. | `dep.dignity`, `dep.condition-variables`, `dep.dasa`, `dep.dignity-friendship` | 2 (engine completion) + 3 (knowledge) + 4 (integration) | deferred |

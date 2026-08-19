@@ -306,9 +306,10 @@ def _dignity(chart, doc, rep, frame) -> list[Fact]:
     """dep.dignity, the encoded half only.
 
     Exaltation, debilitation, own sign and Moolatrikona are all sourced.
-    Natural friendship is not: the table that carries it did not survive the
-    scan, so no friendly, neutral or inimical fact is emitted at all rather
-    than a guessed one.
+    Natural friendship is not: the table is encoded (PD.02.Friendship.
+    NaturalTable, verified against the printed page), but no extractor reads
+    it yet -- dep.dignity-friendship is not implemented -- so no friendly,
+    neutral or inimical fact is emitted at all rather than a guessed one.
 
     Deep exaltation is a *point*, not a range. The texts give a degree, not an
     orb, so no card asserts "deeply exalted"; the degree and the arc from it

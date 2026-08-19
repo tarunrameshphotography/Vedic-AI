@@ -223,6 +223,44 @@ def test_exaltation_and_debilitation_are_opposite(cards):
         assert order[(i + 6) % 12] == r["debilitation_sign"], r
 
 
+def test_chapter_two_supplies_the_natural_friendship_table(cards):
+    """PD.02.Friendship.NaturalTable, recovered from PDF page 22 by matching
+    each extracted line's bounding box to its column and row, then verified
+    against a direct render of the printed page (2026-08-19). Reference
+    doctrine, not a firing rule: dep.dignity-friendship has no extractor yet.
+
+    Pinned to the exact printed table rather than to an assumed invariant
+    such as symmetry -- the Sun/Mercury pair alone shows the table is not
+    symmetric even apart from the Moon row's own defect, so any "reciprocal
+    friendship" check would be this test inventing doctrine, not verifying it.
+    """
+    rows = [c for c in cards if c.id == "PD.02.Friendship.NaturalTable"]
+    assert len(rows) == 1
+    card = rows[0]
+    assert card.activation == "reference"
+    assert card.predicts["table"] == {
+        "Sun":     {"friend": ["Moon", "Mars", "Jupiter"],
+                    "neutral": ["Mercury"], "enemy": ["Venus", "Saturn"]},
+        "Moon":    {"friend": ["Sun", "Mercury"],
+                    "neutral": ["Mars", "Mercury", "Venus", "Saturn"],
+                    "enemy": []},
+        "Mars":    {"friend": ["Sun", "Moon", "Jupiter"],
+                    "neutral": ["Venus", "Saturn"], "enemy": ["Mercury"]},
+        "Mercury": {"friend": ["Sun", "Venus"],
+                    "neutral": ["Mars", "Jupiter", "Saturn"],
+                    "enemy": ["Moon"]},
+        "Jupiter": {"friend": ["Sun", "Moon", "Mars"],
+                    "neutral": ["Saturn"], "enemy": ["Mercury", "Venus"]},
+        "Venus":   {"friend": ["Mercury", "Saturn"],
+                    "neutral": ["Mars", "Jupiter"], "enemy": ["Sun", "Moon"]},
+        "Saturn":  {"friend": ["Mercury", "Venus"],
+                    "neutral": ["Jupiter"], "enemy": ["Sun", "Moon", "Mars"]},
+    }
+    # The one printed defect this table preserves rather than corrects.
+    assert "Mercury" in card.predicts["table"]["Moon"]["friend"]
+    assert "Mercury" in card.predicts["table"]["Moon"]["neutral"]
+
+
 def test_reference_cards_never_become_claims():
     """A reference card carries a datum, not an assertion about a nativity."""
     r = run(DEMO)

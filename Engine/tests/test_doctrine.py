@@ -251,7 +251,8 @@ def test_an_unresolved_portion_asserts_nothing(tmp_path, chart):
 
 
 def test_no_friendship_fact_is_emitted_at_all(facts):
-    """The natural friendship table did not survive the scan."""
+    """The table is encoded (PD.02.Friendship.NaturalTable) but no extractor
+    reads it yet -- dep.dignity-friendship is not implemented."""
     got = {f.args["dignity"] for f in facts.by_predicate("dignity")}
     assert not got & {"friend", "neutral", "inimical", "enemy"}
 

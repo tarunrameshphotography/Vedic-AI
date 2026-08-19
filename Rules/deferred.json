@@ -885,7 +885,7 @@
       "chapter": 0,
       "locus": "the whole store",
       "what": "human sign-off that each card reads its verse correctly",
-      "reason": "Every card is machine-checked byte-exact against the corpus, but extraction.verified_by is null on all of them. The machine can prove a card quotes the book faithfully; it cannot prove the condition encodes what the verse means.",
+      "reason": "Every card is machine-checked byte-exact against the corpus, but extraction.verified_by is null on all but one of them (PD.02.Friendship.NaturalTable, verified 2026-08-19 against the printed page). The machine can prove a card quotes the book faithfully; it cannot prove the condition encodes what the verse means.",
       "requires": [
         "dep.manual-verification"
       ],

@@ -1753,7 +1753,110 @@
           "friend",
           "neutral",
           "enemy"
-        ]
+        ],
+        "table": {
+          "Sun": {
+            "friend": [
+              "Moon",
+              "Mars",
+              "Jupiter"
+            ],
+            "neutral": [
+              "Mercury"
+            ],
+            "enemy": [
+              "Venus",
+              "Saturn"
+            ]
+          },
+          "Moon": {
+            "friend": [
+              "Sun",
+              "Mercury"
+            ],
+            "neutral": [
+              "Mars",
+              "Mercury",
+              "Venus",
+              "Saturn"
+            ],
+            "enemy": []
+          },
+          "Mars": {
+            "friend": [
+              "Sun",
+              "Moon",
+              "Jupiter"
+            ],
+            "neutral": [
+              "Venus",
+              "Saturn"
+            ],
+            "enemy": [
+              "Mercury"
+            ]
+          },
+          "Mercury": {
+            "friend": [
+              "Sun",
+              "Venus"
+            ],
+            "neutral": [
+              "Mars",
+              "Jupiter",
+              "Saturn"
+            ],
+            "enemy": [
+              "Moon"
+            ]
+          },
+          "Jupiter": {
+            "friend": [
+              "Sun",
+              "Moon",
+              "Mars"
+            ],
+            "neutral": [
+              "Saturn"
+            ],
+            "enemy": [
+              "Mercury",
+              "Venus"
+            ]
+          },
+          "Venus": {
+            "friend": [
+              "Mercury",
+              "Saturn"
+            ],
+            "neutral": [
+              "Mars",
+              "Jupiter"
+            ],
+            "enemy": [
+              "Sun",
+              "Moon"
+            ]
+          },
+          "Saturn": {
+            "friend": [
+              "Mercury",
+              "Venus"
+            ],
+            "neutral": [
+              "Jupiter"
+            ],
+            "enemy": [
+              "Sun",
+              "Moon",
+              "Mars"
+            ]
+          }
+        },
+        "as_printed_defects": {
+          "Moon": "Mercury is printed in both the Friend and the Neutral cell for the Moon row -- a duplication in the source table, not an extraction artifact. Preserved as printed rather than resolved; see the card note.",
+          "Moon_enemy": "Printed as '-----' (no enemy). Recorded as an empty list; the dash is not a body name."
+        }
       },
       "timing": "natal",
       "weight": 1.0,
@@ -1761,15 +1864,12 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (direct visual verification against PDF page 22, high-zoom render)",
+        "verified_date": "2026-08-19"
       },
-      "activation": "inert",
-      "note": "A four-column table the scan interleaved past reconstruction. The row for the Sun reads 'Sun Moon, Mercury Venus Mars Saturn Jupiter': all six other grahas are present but the column boundaries are gone, and one row shows a literal '-----'. Assigning each graha to friend, neutral or enemy would mean importing the classical table from outside this quote, which is exactly what the rule store exists to prevent. The quote is encoded; the assignment waits for a human with the printed page.",
-      "exclusions": [],
-      "requires": [
-        "dep.manual-verification"
-      ]
+      "activation": "reference",
+      "note": "Table recovered from the printed page, not from memory. The flattened quote above interleaves all four columns because pdf_text extraction reads a page top-to-bottom then left-to-right within a line-band, and several cells wrap across more than one such band; that is an artefact of extraction order, not of the source. Reconstructed by matching every extracted line's bounding box to its column x-offset and row y-band (Pipeline/books/phaladeepika/ocr/p0022.json), then verified against a direct 8x render of PDF page 22 of the source book -- the table is a clean, undamaged, digitally typeset grid with no OCR involved. One genuine source defect survives the reconstruction and is preserved rather than corrected: the Moon row prints Mercury under both Friend and Neutral, confirmed by direct visual inspection at high zoom, not a parsing error on this end. The Moon's Enemy cell is printed '-----' and is recorded as no enemy.",
+      "exclusions": []
     },
     {
       "id": "PD.02.Friendship.Temporary",
