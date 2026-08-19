@@ -358,6 +358,16 @@
       "effort": 3,
       "effort_basis": "threading the assignment through condition evaluation",
       "implemented": true
+    },
+    "dep.yoga-combination-count": {
+      "title": "counting how many sibling yoga-conditions are simultaneously true",
+      "kind": "schema",
+      "detail": "Several yoga verses grade their effect by how many related yoga-conditions a chart satisfies at once (Phaladeepika 6, closing the Pancha Mahapurusha cluster: one such yoga is merely fortunate, five make a person superior to an Emperor). The condition language can quantify over grahas and signs but has no way to ask how many sibling cards, or sibling condition-branches, are true together for one chart.",
+      "phase": "beyond the MVP",
+      "depends_on": [],
+      "effort": 8,
+      "effort_basis": "a way to count satisfied sibling conditions across a named group of cards",
+      "implemented": false
     }
   },
   "entries": [
@@ -397,20 +407,6 @@
       "locus": "whole chapter - Source of livelihood",
       "what": "rules for profession and means of living",
       "reason": "Rule-dense and encodable now; deferred by ordering only.",
-      "requires": [
-        "dep.none"
-      ],
-      "phase": "3 (knowledge)",
-      "status": "deferred"
-    },
-    {
-      "id": "chapter:phaladeepika.06",
-      "kind": "chapter",
-      "book": "phaladeepika",
-      "chapter": 6,
-      "locus": "whole chapter - YOGAS",
-      "what": "the general yogas - the largest single block of doctrine in the book",
-      "reason": "Rule-dense and encodable now; deferred by ordering only. Nearly every yoga is stated in lordship and conjunction terms, so most cards will be inert until dep.lord-of-house and dep.conjunct exist.",
       "requires": [
         "dep.none"
       ],
@@ -1042,6 +1038,459 @@
       ],
       "phase": "3 (knowledge)",
       "status": "deferred"
+    },
+    {
+      "id": "passage:phaladeepika.06.p009",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "v. 9 (p.55-56)",
+      "what": "the blanket condition that every yoga in the chapter needs strength in the Lagna/Moon and the yoga-forming planets",
+      "reason": "Applies to all named yogas in the chapter, not just the five Pancha Mahapurusha ones encoded in this slice. Recorded once here rather than duplicated per card; PD.06.Ruchaka, PD.06.Bhadra, PD.06.Hamsa, PD.06.Malavya and PD.06.Sasa each cross-reference this entry in their own note rather than repeating it. Untestable until dep.strength exists.",
+      "requires": [
+        "dep.strength"
+      ],
+      "phase": "2 (engine completion)",
+      "status": "deferred",
+      "paragraphs": [
+        9
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p010",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "p.55-56",
+      "what": "the translator's introduction to the illustrative birth charts that follow",
+      "reason": "Tier-3 apparatus: framing for the worked examples, not a rule. Recorded as deliberately excluded, not pending.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        10,
+        11
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p014",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "printed p.56",
+      "what": "Stalin's horoscope, illustrating Ruchaka and Malavya Yogas",
+      "reason": "Tier-3 apparatus: a worked example, not a rule. Recorded as deliberately excluded, not pending.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p022",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "p.56-57 (unnumbered, closing the Pancha Mahapurusha cluster)",
+      "what": "the five Mahapurusha yogas also count from the Moon, and compound in effect when more than one is present at once",
+      "reason": "Two claims neither of the five yoga cards test. First, 'identical with a kendra' in verses 1-5 is read from the lagna only in this slice; this closing sentence says the same combination counts equally from the Moon, which is expressible with the existing graha-frame machinery but was not attempted here -- the slice stays to the verses' own wording rather than silently widening it. Second, the graduated effect for holding two, three, four or all five yogas at once needs a way to count how many sibling cards are simultaneously satisfied, which the condition language cannot do today (dep.yoga-combination-count). Neither is built speculatively.",
+      "requires": [
+        "dep.yoga-combination-count"
+      ],
+      "phase": "3 (knowledge) + beyond the MVP",
+      "status": "deferred",
+      "paragraphs": [
+        22
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p023",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "printed p.57",
+      "what": "Dr. Radhakrishnan's horoscope, illustrating a Pancha Mahapurusha combination",
+      "reason": "Tier-3 apparatus: a worked example, not a rule. Recorded as deliberately excluded, not pending.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        23,
+        24,
+        25,
+        26
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p027",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "printed p.57",
+      "what": "Moti Lal Nehru's horoscope, illustrating Hamsa Yoga",
+      "reason": "Tier-3 apparatus: a worked example, not a rule. Recorded as deliberately excluded, not pending.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        27,
+        28,
+        29,
+        30
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p031",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "vv. 5-7 (p.57-60)",
+      "what": "Sunapha, Anapha, Durudhara and Kemadruma Yogas",
+      "reason": "Not yet encoded; deferred by ordering, planned for a later chapter-6 slice. Verse 5 itself carries a hedged alternate Kemadruma reading (\"some learned are of the opinion\"), and the Notes add two more: Saravali's version and Hora Sara's version. A worked-example horoscope (Sardar Patel) is embedded and will be tier-3 apparatus when this slice is authored.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        31,
+        32,
+        33,
+        34,
+        36,
+        38,
+        39,
+        41,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p053",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "vv. 8-13 (p.60-62)",
+      "what": "Subhavesi, Subhavasi, Ubhayachari, Subhakartari, Papakartari and Susubha Yogas",
+      "reason": "Not yet encoded; deferred by ordering. Verse 8 (benefic-only) is explicitly contested by an unnamed \"authoritative works\" reading (any of five named grahas, regardless of nature) in the Notes, with the translator stating an editorial preference for Mantreswara's reading that must not be used to silently pick one. Saravali's Notes further give per-graha effects for Vesi and Vasi yogas, attributed doctrine from a second book. Verse 13 cross-references \"the same as Sunapha and other yogas\" -- a rule-transfer candidate (dep.rule-transfer, already implemented) for the later slice.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p071",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "vv. 14-27 (p.62-66)",
+      "what": "Amala, Mahabhagya, Kesari, Sakata, Adhama/Sama/Varishtha, Vasumati, Pushkala, Sub(h)amala, Lakshmi, Gouri and Saraswati Yogas",
+      "reason": "Not yet encoded; deferred by ordering. Mahabhagya Yoga (v.14) is sex-scoped (dep.native-sex, already implemented) and carries a translator's note that Indira Gandhi's chart matched every effect but one, attributed to \"other adverse planetary dispositions\" rather than treated as a counterexample. Four illustrative horoscopes are embedded and will be tier-3 apparatus.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        77,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        88,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        108,
+        110,
+        111
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p112",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "vv. 28-34 (p.66-71)",
+      "what": "Srikantha, Srinatha and Virinchi Yogas; the Parivartana (Maha/Dainya/Kahala) house-exchange family",
+      "reason": "Not yet encoded; deferred by ordering. The Parivartana pair enumeration (vv. 32-34 Notes) is confirmed genuinely defective in the printed book -- verified by rendering PDF pages 67-69 directly rather than trusting the flattened extraction -- item 18 of the 28-item Maha list is missing, items 17 and 20 are each printed twice with mismatched content, and item 13 of the 30-item Dainya list is truncated. Whether to transcribe only the legible items or derive the complete set from verse 32's own combinatorics is an editorial decision for that slice, not resolved here. A translator's Note (paras 140-144) also reports Uttarakalamrita's directly contradicting reading of the same 6th/8th/12th-lord exchange (auspicious under three extra conditions, \"quite reverse\" of Phaladeepika's own Dainya) -- a contradicts pair for that slice. An Indira Gandhi worked example is embedded and will be tier-3 apparatus.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        124,
+        125,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        137,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        147
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p149",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "vv. 35-36 (p.71-73)",
+      "what": "A second, unrelated Kahala Yoga (a dispositor-chain test) and Parvata Yoga",
+      "reason": "Not yet encoded; deferred by ordering. This Kahala Yoga (v.35) shares its name with the house-exchange Kahala Yoga of v.32 but tests an entirely different combination -- the two must never be conflated when this slice is authored. Two worked-example horoscopes are embedded and will be tier-3 apparatus.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        149,
+        150,
+        151,
+        152,
+        153,
+        155,
+        157,
+        158,
+        159,
+        161,
+        163
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p164",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "vv. 37-41 (p.73-74)",
+      "what": "Raja Yoga, Shankha Yoga, and the seven planets-in-N-signs family (Vallaki/Veena, Dharma, Hasha, Kendra, Shula, Yuga, Gola)",
+      "reason": "Not yet encoded. The seven planets-in-N-signs family needs one new engine fact -- a count of how many distinct signs the seven classical grahas (excluding the nodes) occupy between them -- which nothing in the current vocabulary computes; occupant_count counts occupants of one house, not signs occupied overall. Not built speculatively; Raja and Shankha Yoga need nothing new and could be encoded independently of it.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p175",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "vv. 42-43 (p.74-75)",
+      "what": "Adhiyoga",
+      "reason": "Not yet encoded; deferred by ordering. A Notes aside attributed to \"Shruti Kirti ... according to Vyas\" disputes how strictly the three yoga-forming grahas must be distributed across the three houses -- a contradicts pair for that slice. A Sardar Patel worked example is embedded and will be tier-3 apparatus.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        181,
+        183,
+        184
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p185",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "vv. 44-56 (p.75-78)",
+      "what": "Twelve house-wise yogas keyed to occupation/aspect by benefics (Chamara, Dhenu, Shaurya, Jaladhi, Chhattra, Astra [6th], Kama, Astra [8th], Bhagya, Khyati, Parijata, Musala)",
+      "reason": "Not yet encoded; deferred by ordering. One repeating template across the twelve houses; the 6th-house and 8th-house members are both named \"Astra Yoga\" and must stay distinguishable by house when encoded. A Notes aside on the 6th-house member explains why a dusthana lord can still be auspicious, cross-referencing verse 57's general principle.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p202",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "vv. 57-69 (p.78-82)",
+      "what": "Twelve yogas keyed to the 6th/8th/12th lords occupying a dusthana (Ava, Nisswa, Mriti, Kuhu, Pamara, Harsha, Dushkriti, Sarala, Nirbhagya, Duryoga [10th house], Daridrya, Vimala)",
+      "reason": "Not yet encoded; deferred by ordering. The richest single contradiction in the chapter: Mantreswara calls Harsha/Sarala/Vimala auspicious, Parashara's own nine-combination breakdown (quoted in full, paras 220-228) rates most of the same placements negatively, and Dr. B.V. Raman is quoted at length disputing the premise entirely, with the translator noting these three yogas appear in none of Brihat Jataka, Saravali or Jataka Parijata. \"Duryoga\" here (the 10th-house member) shares its name with the unrelated weak/strong-lord Duryoga of verse 70 and must stay distinguishable.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        202,
+        203,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p233",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "v. 70 and colophon (p.82-83)",
+      "what": "A second, unrelated Duryoga (weak/strong 6th-8th-12th vs. 1st-4th-9th-10th lord test) and the chapter's closing formula",
+      "reason": "Verse 70 needs dep.strength directly (\"vested with strength\" / \"weak or combust\" gates both halves of the test) and is not testable until it exists. The colophon (\"Thus ends the sixth chapter...\") is narrative, not doctrine, matching every other chapter's closing formula.",
+      "requires": [
+        "dep.strength"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        233,
+        234
+      ]
     }
   ]
 }

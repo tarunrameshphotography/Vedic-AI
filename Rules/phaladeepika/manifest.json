@@ -14,6 +14,7 @@
   "chapters_extracted": [
     1,
     2,
+    6,
     8,
     9,
     10
@@ -40,6 +41,7 @@
     "Chapter 2, verse 27: the list of ruling deities is printed with a full stop after 'Yama' and continues 'Serpent Adhishesha and Braham respectively', so the seven names straddle an apparent sentence boundary. Transcribed as printed; the graha-to-deity mapping is left to the quote rather than parsed.",
     "Chapter 2, verse 36 Notes: the combustion orbs are stated here (Moon 12 degrees, Mars 17, Mercury 14 direct and 12 retrograde, Jupiter 11, Venus 10 and 8 retrograde, Saturn 15). The registry had recorded these as doctrine whose source was not yet located.",
     "Chapter 2, verse 36: a horary rule about the water level in a reservoir sits among the natal material. Its condition is an ordinary Moon placement and would fire on a birth chart, so PD.02.Prashna.ReservoirWater is inert pending a branch distinction.",
-    "Chapter 2, verses 21-22 (printed p.22): the natural-friendship table prints Mercury under both the Friend and the Neutral column for the Moon row, and prints '-----' (no enemy) in the Moon's Enemy column. Confirmed by direct visual inspection of a high-zoom render of the source PDF page (not the OCR/pdf_text line dump, which had merely flattened the four columns into extraction order and made the table look damaged when it is not). Encoded as printed in PD.02.Friendship.NaturalTable, including the duplication; neither corrected nor resolved."
+    "Chapter 2, verses 21-22 (printed p.22): the natural-friendship table prints Mercury under both the Friend and the Neutral column for the Moon row, and prints '-----' (no enemy) in the Moon's Enemy column. Confirmed by direct visual inspection of a high-zoom render of the source PDF page (not the OCR/pdf_text line dump, which had merely flattened the four columns into extraction order and made the table look damaged when it is not). Encoded as printed in PD.02.Friendship.NaturalTable, including the duplication; neither corrected nor resolved.",
+    "Chapter 6 (YOGAS), slice 1 only (2026-08-19): the five Pancha Mahapurusha Yogas (verses 1-4, printed p.55-57) are encoded as PD.06.Ruchaka/.Bhadra/.Hamsa/.Malavya/.Sasa, each a two-span card quoting its own naming clause and effect verse. Chapter 6 is deliberately NOT added to chapters_extracted yet -- most of the chapter (verses 5 onward) remains unencoded and is still covered by the whole-chapter chapter:phaladeepika.06 backlog entry. Verse 9's blanket strength caveat is recorded once (passage:phaladeepika.06.p009) rather than duplicated across the five cards. The closing sentence at p.56-57 (also true from the Moon; compounds with two-to-five such yogas at once) is deferred (passage:phaladeepika.06.p022) rather than widened or invented. Four illustrative horoscope clusters in this range (Stalin; Dr. Radhakrishnan; Moti Lal Nehru) are tier-3 apparatus, excluded exactly as chapters 8-9 excluded theirs."
   ]
 }

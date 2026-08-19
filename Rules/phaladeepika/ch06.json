@@ -1,0 +1,535 @@
+{
+  "book_id": "phaladeepika",
+  "chapter": 6,
+  "cards": [
+    {
+      "id": "PD.06.Ruchaka",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "1, 2",
+        "page_anchor": "phaladeepika/p0055",
+        "tier": 1,
+        "quote": "1. If Mars occupies Aries or Scorpio (his own signs), or Capricorn (his sign of exaltation), identical with a kendra, the yoga so formed is known as Ruchaka. […] 2. The person born in Ruchaka Yoga has a long face. He acquires wealth by performing courageous deeds. He will be full of valour and powerful, will conquer his enemies and will be arrogant. He will become famous by virtue of merits and will be commander of an army and will be successful in all his ventures.",
+        "quote_display": "1. If Mars occupies Aries or Scorpio (his own signs), or Capricorn (his sign of exaltation), identical with a kendra, the yoga so formed is known as Ruchaka. […] 2. The person born in Ruchaka Yoga has a long face. He acquires wealth by performing courageous deeds. He will be full of valour and powerful, will conquer his enemies and will be arrogant. He will become famous by virtue of merits and will be commander of an army and will be successful in all his ventures.",
+        "quote_sha256": "bc3a95db0e7433d6492fe73342a38a40124f048f6737b1e63432aaddd45c33a3",
+        "char_span": [
+          97154,
+          97311
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            97154,
+            97311
+          ],
+          [
+            99171,
+            99479
+          ]
+        ],
+        "quote_parts": [
+          "1. If Mars occupies Aries or Scorpio (his own signs), or Capricorn (his sign of exaltation), identical with a kendra, the yoga so formed is known as Ruchaka.",
+          "2. The person born in Ruchaka Yoga has a long face. He acquires wealth by performing courageous deeds. He will be full of valour and powerful, will conquer his enemies and will be arrogant. He will become famous by virtue of merits and will be commander of an army and will be successful in all his ventures."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "dignity": {
+                  "graha": "Mars",
+                  "dignity": "own"
+                }
+              },
+              {
+                "dignity": {
+                  "graha": "Mars",
+                  "dignity": "exalted"
+                }
+              }
+            ]
+          },
+          {
+            "in_house_class": {
+              "graha": "Mars",
+              "klass": "kendra"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Ruchaka",
+        "graha": "Mars",
+        "group": "Pancha Mahapurusha"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Ruchaka Yoga: Mars in its own sign or exaltation sign, in a kendra. Verse 9's blanket strength caveat (passage:phaladeepika.06.p009) is not tested here -- the engine has no dep.strength -- so this card fires on placement alone, which is not the whole of what the chapter says. Corroborated, not restated, by PD.06.PanchaMahapurusha.JatakaParijata and .Saravali.",
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.PanchaMahapurusha.JatakaParijata",
+        "PD.06.PanchaMahapurusha.Saravali"
+      ]
+    },
+    {
+      "id": "PD.06.Bhadra",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "1, 2 (unnumbered)",
+        "page_anchor": "phaladeepika/p0055",
+        "tier": 1,
+        "quote": "If Mercury occupies Gemini (his own sign) or Virgo (his sign of exaltation) identical with a kendra, the Yoga so formed is called Bhadra Yoga. […] The person with Bhadra Yoga at birth will be longlived. He will be intelligent, will be clean (pure thoughts and clean body), praised by learned persons, very rich and prosperous and eloquent in his speeches.",
+        "quote_display": "If Mercury occupies Gemini (his own sign) or Virgo (his sign of exaltation) identical with a kendra, the Yoga so formed is called Bhadra Yoga. […] The person with Bhadra Yoga at birth will be longlived. He will be intelligent, will be clean (pure thoughts and clean body), praised by learned persons, very rich and prosperous and eloquent in his speeches.",
+        "quote_sha256": "65507256559e522619b2008b5505fd83fd6c99bde76c560061f1c0b6493c72ec",
+        "char_span": [
+          97315,
+          97457
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            97315,
+            97457
+          ],
+          [
+            99483,
+            99691
+          ]
+        ],
+        "quote_parts": [
+          "If Mercury occupies Gemini (his own sign) or Virgo (his sign of exaltation) identical with a kendra, the Yoga so formed is called Bhadra Yoga.",
+          "The person with Bhadra Yoga at birth will be longlived. He will be intelligent, will be clean (pure thoughts and clean body), praised by learned persons, very rich and prosperous and eloquent in his speeches."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "dignity": {
+                  "graha": "Mercury",
+                  "dignity": "own"
+                }
+              },
+              {
+                "dignity": {
+                  "graha": "Mercury",
+                  "dignity": "exalted"
+                }
+              }
+            ]
+          },
+          {
+            "in_house_class": {
+              "graha": "Mercury",
+              "klass": "kendra"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Bhadra",
+        "graha": "Mercury",
+        "group": "Pancha Mahapurusha"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Bhadra Yoga: Mercury in its own sign or exaltation sign, in a kendra. Verse 9's blanket strength caveat (passage:phaladeepika.06.p009) is not tested here -- the engine has no dep.strength -- so this card fires on placement alone, which is not the whole of what the chapter says. Corroborated, not restated, by PD.06.PanchaMahapurusha.JatakaParijata and .Saravali.",
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.PanchaMahapurusha.JatakaParijata",
+        "PD.06.PanchaMahapurusha.Saravali"
+      ]
+    },
+    {
+      "id": "PD.06.Hamsa",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "1, 3",
+        "page_anchor": "phaladeepika/p0055",
+        "tier": 1,
+        "quote": "If Jupiter occupies Sagittarius or Pisces (his own sign) or Cancer (his sign of exaltation) identical with a kendra, the Yoga arising from such a disposition is known as Hamsa Yoga. […] 3. The person born with Hamsa Yoga at birth, will be a king, a high political or gvernment dignitary respected by good people. He will have in his hands and feet marks of Conch, Lotus, Fish and Ankusha. His body will be beautiful, will eat delicious food and will be virtuous.",
+        "quote_display": "If Jupiter occupies Sagittarius or Pisces (his own sign) or Cancer (his sign of exaltation) identical with a kendra, the Yoga arising from such a disposition is known as Hamsa Yoga. […] 3. The person born with Hamsa Yoga at birth, will be a king, a high political or gvernment dignitary respected by good people. He will have in his hands and feet marks of Conch, Lotus, Fish and Ankusha. His body will be beautiful, will eat delicious food and will be virtuous.",
+        "quote_sha256": "33273a595bb70f3696ab907ca25e1971da9960dd1b1b4ad9151c43aa023a8839",
+        "char_span": [
+          97461,
+          97642
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            97461,
+            97642
+          ],
+          [
+            100849,
+            101125
+          ]
+        ],
+        "quote_parts": [
+          "If Jupiter occupies Sagittarius or Pisces (his own sign) or Cancer (his sign of exaltation) identical with a kendra, the Yoga arising from such a disposition is known as Hamsa Yoga.",
+          "3. The person born with Hamsa Yoga at birth, will be a king, a high political or gvernment dignitary respected by good people. He will have in his hands and feet marks of Conch, Lotus, Fish and Ankusha. His body will be beautiful, will eat delicious food and will be virtuous."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "dignity": {
+                  "graha": "Jupiter",
+                  "dignity": "own"
+                }
+              },
+              {
+                "dignity": {
+                  "graha": "Jupiter",
+                  "dignity": "exalted"
+                }
+              }
+            ]
+          },
+          {
+            "in_house_class": {
+              "graha": "Jupiter",
+              "klass": "kendra"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Hamsa",
+        "graha": "Jupiter",
+        "group": "Pancha Mahapurusha"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Hamsa Yoga: Jupiter in its own sign or exaltation sign, in a kendra. Verse 9's blanket strength caveat (passage:phaladeepika.06.p009) is not tested here -- the engine has no dep.strength -- so this card fires on placement alone, which is not the whole of what the chapter says. Corroborated, not restated, by PD.06.PanchaMahapurusha.JatakaParijata and .Saravali.",
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.PanchaMahapurusha.JatakaParijata",
+        "PD.06.PanchaMahapurusha.Saravali"
+      ]
+    },
+    {
+      "id": "PD.06.Malavya",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "1, 3 (unnumbered)",
+        "page_anchor": "phaladeepika/p0055",
+        "tier": 1,
+        "quote": "If Venus occupies Taurus or Libra (his own sign) or Pisces (his sign of exaltation) identical with a kendra, the Yoga so formed is called Malavya Yoga. […] The person born in MaJavya Yoga will have strong limbs, will be very rich, blessed with wife and children and good fortune. He will be prosperous, will enjoy pleasures of life, will possess good vehicles and become renowned and learned. He will have imperturbed senses.",
+        "quote_display": "If Venus occupies Taurus or Libra (his own sign) or Pisces (his sign of exaltation) identical with a kendra, the Yoga so formed is called Malavya Yoga. […] The person born in MaJavya Yoga will have strong limbs, will be very rich, blessed with wife and children and good fortune. He will be prosperous, will enjoy pleasures of life, will possess good vehicles and become renowned and learned. He will have imperturbed senses.",
+        "quote_sha256": "3c738b12bc1617396e1cb35acb62488c39c49ace51ee59ffeb0a38732544f1f3",
+        "char_span": [
+          97646,
+          97797
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            97646,
+            97797
+          ],
+          [
+            101129,
+            101398
+          ]
+        ],
+        "quote_parts": [
+          "If Venus occupies Taurus or Libra (his own sign) or Pisces (his sign of exaltation) identical with a kendra, the Yoga so formed is called Malavya Yoga.",
+          "The person born in MaJavya Yoga will have strong limbs, will be very rich, blessed with wife and children and good fortune. He will be prosperous, will enjoy pleasures of life, will possess good vehicles and become renowned and learned. He will have imperturbed senses."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "dignity": {
+                  "graha": "Venus",
+                  "dignity": "own"
+                }
+              },
+              {
+                "dignity": {
+                  "graha": "Venus",
+                  "dignity": "exalted"
+                }
+              }
+            ]
+          },
+          {
+            "in_house_class": {
+              "graha": "Venus",
+              "klass": "kendra"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Malavya",
+        "graha": "Venus",
+        "group": "Pancha Mahapurusha"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Malavya Yoga: Venus in its own sign or exaltation sign, in a kendra. Verse 9's blanket strength caveat (passage:phaladeepika.06.p009) is not tested here -- the engine has no dep.strength -- so this card fires on placement alone, which is not the whole of what the chapter says. Corroborated, not restated, by PD.06.PanchaMahapurusha.JatakaParijata and .Saravali.",
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.PanchaMahapurusha.JatakaParijata",
+        "PD.06.PanchaMahapurusha.Saravali"
+      ]
+    },
+    {
+      "id": "PD.06.Sasa",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "1, 4",
+        "page_anchor": "phaladeepika/p0055",
+        "tier": 1,
+        "quote": "If Saturn occupies Capricorn or Aquarius (his own sign) or Libra (his sign of exaltation), the Yoga so formed is known as Sasa Yoga. […] 4. The person with Sasa Yoga at birth will be acclaimed by all, have good servants, will be strong, will be the head of a village or a king. He will be wicked by nature and will associate with women not his own. He will be inclined to use\r\n\r\n<!-- page phaladeepika/p0057 -->\r\nother's wealth and will be happy.",
+        "quote_display": "If Saturn occupies Capricorn or Aquarius (his own sign) or Libra (his sign of exaltation), the Yoga so formed is known as Sasa Yoga. […] 4. The person with Sasa Yoga at birth will be acclaimed by all, have good servants, will be strong, will be the head of a village or a king. He will be wicked by nature and will associate with women not his own. He will be inclined to use other's wealth and will be happy.",
+        "quote_sha256": "8536776db6a32a6889a7b905f8c48d16f0ee550d1433bf8bdbd2a5121ca3f443",
+        "char_span": [
+          97801,
+          97933
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            97801,
+            97933
+          ],
+          [
+            101402,
+            101711
+          ]
+        ],
+        "quote_parts": [
+          "If Saturn occupies Capricorn or Aquarius (his own sign) or Libra (his sign of exaltation), the Yoga so formed is known as Sasa Yoga.",
+          "4. The person with Sasa Yoga at birth will be acclaimed by all, have good servants, will be strong, will be the head of a village or a king. He will be wicked by nature and will associate with women not his own. He will be inclined to use\r\n\r\n<!-- page phaladeepika/p0057 -->\r\nother's wealth and will be happy."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "dignity": {
+                  "graha": "Saturn",
+                  "dignity": "own"
+                }
+              },
+              {
+                "dignity": {
+                  "graha": "Saturn",
+                  "dignity": "exalted"
+                }
+              }
+            ]
+          },
+          {
+            "in_house_class": {
+              "graha": "Saturn",
+              "klass": "kendra"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Sasa",
+        "graha": "Saturn",
+        "group": "Pancha Mahapurusha"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Sasa Yoga: Saturn in its own sign or exaltation sign, in a kendra. Verse 9's blanket strength caveat (passage:phaladeepika.06.p009) is not tested here -- the engine has no dep.strength -- so this card fires on placement alone, which is not the whole of what the chapter says. Corroborated, not restated, by PD.06.PanchaMahapurusha.JatakaParijata and .Saravali.",
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.PanchaMahapurusha.JatakaParijata",
+        "PD.06.PanchaMahapurusha.Saravali"
+      ]
+    },
+    {
+      "id": "PD.06.PanchaMahapurusha.JatakaParijata",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "1-5 (Notes)",
+        "page_anchor": "phaladeepika/p0055",
+        "tier": 2,
+        "quote": "Nates - These five Yogas have been named as Pancha Mahapurusha Yogas. Jataka Parijata has defined these Yogas as under :-\r\n\r\n\"According as Mars, Mercury, Jupiter, Venus or Saturn possessing the greatest strength and occupying a kendra is in Moolatrikona, Swakshetra or Swochcha, the resulting Rajayogas will be named Ruchaka, Bhadra, Hamsa, Malavya and Sasa the beautiful\"",
+        "quote_display": "Nates - These five Yogas have been named as Pancha Mahapurusha Yogas. Jataka Parijata has defined these Yogas as under :- \"According as Mars, Mercury, Jupiter, Venus or Saturn possessing the greatest strength and occupying a kendra is in Moolatrikona, Swakshetra or Swochcha, the resulting Rajayogas will be named Ruchaka, Bhadra, Hamsa, Malavya and Sasa the beautiful\"",
+        "quote_sha256": "191b86dea8813e00ed25dfffc0a2e09b8a765494b4600e4136f120efb12de4f8",
+        "char_span": [
+          97937,
+          98309
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Pancha Mahapurusha",
+        "authority": "Jataka Parijata"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "activation": "reference",
+      "note": "Phaladeepika's translator reporting Jataka Parijata's own definition of the same five yogas -- attributed doctrine from a second book, encoded as Phaladeepika reporting it rather than as a Jataka Parijata card of its own. Corroborates PD.06.Ruchaka/.Bhadra/.Hamsa/.Malavya/.Sasa; asserts nothing new and never becomes a claim.",
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.Ruchaka",
+        "PD.06.Bhadra",
+        "PD.06.Hamsa",
+        "PD.06.Malavya",
+        "PD.06.Sasa",
+        "PD.06.PanchaMahapurusha.Saravali"
+      ]
+    },
+    {
+      "id": "PD.06.PanchaMahapurusha.Saravali",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "1-5 (Notes)",
+        "page_anchor": "phaladeepika/p0055",
+        "tier": 2,
+        "quote": "According to Saravali \"Venus, Mars, Saturn, Jupiter and Mercury remaining in their respective own houses or exaltation signs, identical with kendra cause Malavya, Ruchaka, Sasa, Hamsa and Bhadra Yogas respectively\"",
+        "quote_display": "According to Saravali \"Venus, Mars, Saturn, Jupiter and Mercury remaining in their respective own houses or exaltation signs, identical with kendra cause Malavya, Ruchaka, Sasa, Hamsa and Bhadra Yogas respectively\"",
+        "quote_sha256": "532df4ac7669c7763f7f67607c001fb6253e40483ded70c47bdcf5d8c4866b7e",
+        "char_span": [
+          98313,
+          98527
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Pancha Mahapurusha",
+        "authority": "Saravali"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "activation": "reference",
+      "note": "Phaladeepika's translator reporting Saravali's own definition of the same five yogas -- attributed doctrine from a second book, encoded as Phaladeepika reporting it. Corroborates PD.06.Ruchaka/.Bhadra/.Hamsa/.Malavya/.Sasa; asserts nothing new and never becomes a claim.",
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.Ruchaka",
+        "PD.06.Bhadra",
+        "PD.06.Hamsa",
+        "PD.06.Malavya",
+        "PD.06.Sasa",
+        "PD.06.PanchaMahapurusha.JatakaParijata"
+      ]
+    }
+  ]
+}

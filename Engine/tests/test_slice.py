@@ -261,6 +261,52 @@ def test_chapter_two_supplies_the_natural_friendship_table(cards):
     assert "Mercury" in card.predicts["table"]["Moon"]["neutral"]
 
 
+def test_chapter_six_supplies_the_pancha_mahapurusha_yogas(cards):
+    """PD.06.Ruchaka/.Bhadra/.Hamsa/.Malavya/.Sasa -- verses 1-4, printed
+    p.55-57. Each is a two-span card quoting its own naming clause (own sign
+    or exaltation, in a kendra) and its own effect verse; the graha and its
+    two dignities are exact per verses 1-5, never widened or guessed."""
+    by_id = {c.id: c for c in cards
+             if c.id.startswith("PD.06.") and "PanchaMahapurusha" not in c.id}
+    assert set(by_id) == {"PD.06.Ruchaka", "PD.06.Bhadra", "PD.06.Hamsa",
+                          "PD.06.Malavya", "PD.06.Sasa"}
+    grahas = {"PD.06.Ruchaka": "Mars", "PD.06.Bhadra": "Mercury",
+              "PD.06.Hamsa": "Jupiter", "PD.06.Malavya": "Venus",
+              "PD.06.Sasa": "Saturn"}
+    for cid, graha in grahas.items():
+        card = by_id[cid]
+        assert card.activation == "active"
+        assert len(card.spans) == 2, f"{cid} should quote condition and effect"
+        assert card.predicts["yoga"] == cid.rsplit(".", 1)[-1]
+        assert card.predicts["graha"] == graha
+        leaf = card.conditions["all"][1]["in_house_class"]
+        assert leaf == {"graha": graha, "klass": "kendra"}
+        dignities = {d["dignity"]["dignity"] for d in card.conditions["all"][0]["any"]}
+        assert dignities == {"own", "exalted"}
+
+
+def test_chapter_six_citation_cards_are_reference_not_claims(cards):
+    """Jataka Parijata's and Saravali's own restatements of the same five
+    yogas are corroborating doctrine, not new predictive claims."""
+    for cid in ("PD.06.PanchaMahapurusha.JatakaParijata",
+                "PD.06.PanchaMahapurusha.Saravali"):
+        card = next(c for c in cards if c.id == cid)
+        assert card.activation == "reference"
+        assert card.tier == 2
+        assert card.conditions == {"all": []}
+
+
+def test_golden_ruchaka_fires_for_mars_in_its_own_sign_in_a_kendra():
+    """Mars sits in Aries, its own sign, in the 4th house -- a kendra --
+    in the golden chart. Ruchaka Yoga, not any other Mahapurusha yoga."""
+    claims = [c for c in run(DEMO).claims if c.derived["rule_card"].startswith("PD.06.")]
+    assert [c.derived["rule_card"] for c in claims] == ["PD.06.Ruchaka"]
+    assert claims[0].derived["variables"] == {}
+    quantities = claims[0].astronomical["quantities"]
+    assert any(q["name"] == "Mars.lon_sidereal" and q["sign"] == "Aries"
+              for q in quantities)
+
+
 def test_reference_cards_never_become_claims():
     """A reference card carries a datum, not an assertion about a nativity."""
     r = run(DEMO)
@@ -313,12 +359,13 @@ def test_the_plan_does_not_charge_for_chapters_already_encoded():
 
     done = leverage.encoded_chapters()
     assert ("phaladeepika", 2) in done, "chapter 2 is encoded per the manifest"
+    assert ("phaladeepika", 7) not in done, "chapter 7 is not yet encoded per the manifest"
 
     deps = json.loads((RULES / "deferred.json").read_text(encoding="utf-8"))["dependencies"]
     fake = {"dep.x": {"depends_on": ["chapter:phaladeepika.02",
-                                     "chapter:phaladeepika.06"]}}
+                                     "chapter:phaladeepika.07"]}}
     needed = leverage.chapters_needed({"dep.x"}, fake, done)
-    assert needed == {"chapter:phaladeepika.06"}
+    assert needed == {"chapter:phaladeepika.07"}
 
     # And no capability in the real registry is still billed for an encoded one.
     for dep_id in deps:
@@ -395,18 +442,20 @@ def test_slice_runs_and_verifies():
     r = run(DEMO)
     assert r.verification.ok
     # Nine bodies each matching a placement card, one keyed on the ascendant's
-    # sign, and nineteen from quantified cards: two on the lagna, three on
+    # sign, and twenty from quantified cards: two on the lagna, three on
     # dignity and combustion, five released by benefic/malefic nature -- three
     # of them one card naming each malefic that afflicts the 7th lord in turn
-    # -- one from the Moon-sign transfer (dep.rule-transfer), and eight from
-    # dep.dignity-friendship: three grahas classed friend, one neutral, and
+    # -- one from the Moon-sign transfer (dep.rule-transfer), eight from
+    # dep.dignity-friendship (three grahas classed friend, one neutral, and
     # four solutions of PD.10.WifeDeprived.Lord7Afflicted's own quantified
-    # "any" (three inimical, one combust). This number tracks the rule store:
-    # it must change when doctrine is added, and never on its own.
-    assert r.verification.checks["claims"] == 29
+    # "any": three inimical, one combust), and one Pancha Mahapurusha Yoga --
+    # Mars in Aries, its own sign, in the 4th (a kendra), is Ruchaka Yoga.
+    # This number tracks the rule store: it must change when doctrine is
+    # added, and never on its own.
+    assert r.verification.checks["claims"] == 30
     for k in ("quote_integrity_passed", "conditions_reevaluated_passed",
               "numeric_grounding_passed"):
-        assert r.verification.checks[k] == 29
+        assert r.verification.checks[k] == 30
 
 
 def test_every_claim_has_all_four_provenance_links():
@@ -430,7 +479,7 @@ def test_quoted_output_adds_no_words():
     r = run(DEMO)
     by_id = {c.claim_id: c for c in r.claims}
     rules = [s for s in r.sentences if s.part == "rules"]
-    assert len(rules) == 29
+    assert len(rules) == 30
     for s in rules:
         assert s.text == by_id[s.claim_ids[0]].passage["quote_display"]
 

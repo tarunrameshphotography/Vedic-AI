@@ -6,14 +6,14 @@ Nothing may be silently deferred. Inert cards are read out of the store, deferre
 
 | | |
 |---|---|
-| Backlog entries | **61** |
+| Backlog entries | **76** |
 | — of kind `card` | 18 |
-| — of kind `passage` | 18 |
-| — of kind `chapter` | 23 |
+| — of kind `passage` | 34 |
+| — of kind `chapter` | 22 |
 | — of kind `concept` | 2 |
 | Resolved | 0 |
-| Cards in store | 344 |
-| Firing | 326 |
+| Cards in store | 351 |
+| Firing | 333 |
 | Inert | 18 |
 
 ## Dependencies
@@ -22,11 +22,11 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 
 | Dependency | Kind | Implemented | Entries blocked | Cards blocked | Phase |
 |---|---|---|---|---|---|
-| `dep.none` — no dependency -- simply not yet done | process | yes | 27 | 0 | 3 (knowledge) |
+| `dep.none` — no dependency -- simply not yet done | process | yes | 39 | 0 | 3 (knowledge) |
 | `dep.lord-of-house` — lord_of_house extractor | predicate | yes | 11 | 9 | 2 (engine completion) |
 | `dep.condition-variables` — variables in the condition language | schema | yes | 9 | 9 | 4 (integration) |
+| `dep.strength` — planetary and house strength (Stage 4) | calculator | no | 9 | 7 | 2 (engine completion) |
 | `dep.adjudication` — Stage 7 adjudication | engine | no | 7 | 1 | 4 (integration) |
-| `dep.strength` — planetary and house strength (Stage 4) | calculator | no | 7 | 7 | 2 (engine completion) |
 | `dep.dasa` — vimshottari dasa engine | calculator | no | 6 | 3 | 2 (engine completion) |
 | `dep.aspects` — aspect engine | predicate | yes | 5 | 4 | 2 (engine completion) |
 | `dep.varga` — varga (divisional chart) engine | calculator | no | 5 | 5 | 2 (engine completion) |
@@ -45,6 +45,7 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 | `dep.sign-class` — sign classification | reference | yes | 1 | 1 | 3 (knowledge) |
 | `dep.upagraha` — upagraha computation | calculator | no | 1 | 0 | 2 (engine completion) |
 | `dep.vargottama` — vargottama extractor | predicate | no | 1 | 1 | 2 (engine completion) |
+| `dep.yoga-combination-count` — counting how many sibling yoga-conditions are simultaneously true | schema | no | 1 | 0 | beyond the MVP |
 | `dep.correlated-negation` — negation correlated with the current binding | schema | yes | 0 | 0 | 2 (engine completion) |
 | `dep.dignity-friendship` — natural friendship (the unresolved half of dignity) | reference | yes | 0 | 0 | 3 (knowledge) |
 | `dep.dignity-override` — dignity-override mechanism | schema | yes | 0 | 0 | 4 (integration) |
@@ -66,18 +67,17 @@ Every blocking dependency of these entries is now implemented. Each card here be
 
 ## Available now
 
-27 entr(y/ies) are deferred by ordering alone — nothing blocks them. This is the Phase 3 work queue.
+39 entr(y/ies) are deferred by ordering alone — nothing blocks them. This is the Phase 3 work queue.
 
 ## Entries
 
-### Chapters not yet encoded (23)
+### Chapters not yet encoded (22)
 
 | Entry | Book | Chapter | Locus | Deferred | Reason | Blocked on | Phase | Status |
 |---|---|---|---|---|---|---|---|---|
 | `chapter:phaladeepika.03` | phaladeepika | 3 | whole chapter - Divisions of a sign | varga definitions and their computation | Reference chapter, not rule-dense. Defines the divisions dep.varga must compute. | `dep.none` | 3 (knowledge) | deferred |
 | `chapter:phaladeepika.04` | phaladeepika | 4 | whole chapter - The various kinds of Strengths of Planets and Houses | shadbala and bhava bala doctrine | Computational doctrine rather than predictive rules. Source of dep.strength. | `dep.none` | 3 (knowledge) | deferred |
 | `chapter:phaladeepika.05` | phaladeepika | 5 | whole chapter - Source of livelihood | rules for profession and means of living | Rule-dense and encodable now; deferred by ordering only. | `dep.none` | 3 (knowledge) | deferred |
-| `chapter:phaladeepika.06` | phaladeepika | 6 | whole chapter - YOGAS | the general yogas - the largest single block of doctrine in the book | Rule-dense and encodable now; deferred by ordering only. Nearly every yoga is stated in lordship and conjunction terms, so most cards will be inert until dep… | `dep.none` | 3 (knowledge) | deferred |
 | `chapter:phaladeepika.07` | phaladeepika | 7 | whole chapter - RAJA YOGAS | the raja yoga combinations | Rule-dense and encodable now; deferred by ordering only. Same lordship dependency as ch. 6 at execution time. | `dep.none` | 3 (knowledge) | deferred |
 | `chapter:phaladeepika.11` | phaladeepika | 11 | whole chapter - Female Horoscopy | rules read specifically from a woman's chart | Encodable now, but every card would be inert on delivery: the whole chapter is scoped to the native's sex, which the birth record does not carry. | `dep.native-sex` | 2 (engine completion) | deferred |
 | `chapter:phaladeepika.12` | phaladeepika | 12 | whole chapter - Matters relating to the birth of Children (The 5th house) | progeny rules | Rule-dense and encodable now; deferred by ordering only. | `dep.none` | 3 (knowledge) | deferred |
@@ -98,7 +98,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `chapter:phaladeepika.27` | phaladeepika | 27 | whole chapter - Yogas leading to ascetism | sanyasa yogas | Rule-dense and encodable now; deferred by ordering only. | `dep.none` | 3 (knowledge) | deferred |
 | `chapter:phaladeepika.28` | phaladeepika | 28 | whole chapter - Concluding Chapter | the author's colophon and closing remarks | Narrative, not doctrine. Will be reviewed once for any rule hidden in the closing remarks, then written off. | `dep.none` | 3 (knowledge) | deferred |
 
-### Passages inside encoded chapters (18)
+### Passages inside encoded chapters (34)
 
 | Entry | Book | Chapter | Locus | Deferred | Reason | Blocked on | Phase | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -110,6 +110,22 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `passage:phaladeepika.02.p001` | phaladeepika | 2 | preamble (p.17) | the editorial paragraph introducing what the chapter is for | Framing rather than doctrine. The one principle it states -- that a house's subject is read from its lord -- is encoded separately as PD.02.Principle.LordCar… | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.02.p013` | phaladeepika | 2 | v. 6 Notes (p.18-19) | a worked example in which a marriage occurred in the Dasa of Venus rather than the Dasa of the 7th lord, as some astrologers had predicted | Tier-3 apparatus: a case report, not a rule. It argues that the karaka can outweigh the house lord, which is a real claim, but it is made by example rather t… | `dep.adjudication`, `dep.dasa` | 4 (integration) | deferred |
 | `passage:phaladeepika.02.p082` | phaladeepika | 2 | p.27 colophon | the chapter's closing formula | Colophon. Not doctrine. | `dep.none` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.06.p009` | phaladeepika | 6 | v. 9 (p.55-56) | the blanket condition that every yoga in the chapter needs strength in the Lagna/Moon and the yoga-forming planets | Applies to all named yogas in the chapter, not just the five Pancha Mahapurusha ones encoded in this slice. Recorded once here rather than duplicated per car… | `dep.strength` | 2 (engine completion) | deferred |
+| `passage:phaladeepika.06.p010` | phaladeepika | 6 | p.55-56 | the translator's introduction to the illustrative birth charts that follow | Tier-3 apparatus: framing for the worked examples, not a rule. Recorded as deliberately excluded, not pending. | `dep.none` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.06.p014` | phaladeepika | 6 | printed p.56 | Stalin's horoscope, illustrating Ruchaka and Malavya Yogas | Tier-3 apparatus: a worked example, not a rule. Recorded as deliberately excluded, not pending. | `dep.none` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.06.p022` | phaladeepika | 6 | p.56-57 (unnumbered, closing the Pancha Mahapurusha cluster) | the five Mahapurusha yogas also count from the Moon, and compound in effect when more than one is present at once | Two claims neither of the five yoga cards test. First, 'identical with a kendra' in verses 1-5 is read from the lagna only in this slice; this closing senten… | `dep.yoga-combination-count` | 3 (knowledge) + beyond the MVP | deferred |
+| `passage:phaladeepika.06.p023` | phaladeepika | 6 | printed p.57 | Dr. Radhakrishnan's horoscope, illustrating a Pancha Mahapurusha combination | Tier-3 apparatus: a worked example, not a rule. Recorded as deliberately excluded, not pending. | `dep.none` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.06.p027` | phaladeepika | 6 | printed p.57 | Moti Lal Nehru's horoscope, illustrating Hamsa Yoga | Tier-3 apparatus: a worked example, not a rule. Recorded as deliberately excluded, not pending. | `dep.none` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.06.p031` | phaladeepika | 6 | vv. 5-7 (p.57-60) | Sunapha, Anapha, Durudhara and Kemadruma Yogas | Not yet encoded; deferred by ordering, planned for a later chapter-6 slice. Verse 5 itself carries a hedged alternate Kemadruma reading ("some learned are of… | `dep.none` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.06.p053` | phaladeepika | 6 | vv. 8-13 (p.60-62) | Subhavesi, Subhavasi, Ubhayachari, Subhakartari, Papakartari and Susubha Yogas | Not yet encoded; deferred by ordering. Verse 8 (benefic-only) is explicitly contested by an unnamed "authoritative works" reading (any of five named grahas, … | `dep.none` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.06.p071` | phaladeepika | 6 | vv. 14-27 (p.62-66) | Amala, Mahabhagya, Kesari, Sakata, Adhama/Sama/Varishtha, Vasumati, Pushkala, Sub(h)amala, Lakshmi, Gouri and Saraswati Yogas | Not yet encoded; deferred by ordering. Mahabhagya Yoga (v.14) is sex-scoped (dep.native-sex, already implemented) and carries a translator's note that Indira… | `dep.none` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.06.p112` | phaladeepika | 6 | vv. 28-34 (p.66-71) | Srikantha, Srinatha and Virinchi Yogas; the Parivartana (Maha/Dainya/Kahala) house-exchange family | Not yet encoded; deferred by ordering. The Parivartana pair enumeration (vv. 32-34 Notes) is confirmed genuinely defective in the printed book -- verified by… | `dep.none` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.06.p149` | phaladeepika | 6 | vv. 35-36 (p.71-73) | A second, unrelated Kahala Yoga (a dispositor-chain test) and Parvata Yoga | Not yet encoded; deferred by ordering. This Kahala Yoga (v.35) shares its name with the house-exchange Kahala Yoga of v.32 but tests an entirely different co… | `dep.none` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.06.p164` | phaladeepika | 6 | vv. 37-41 (p.73-74) | Raja Yoga, Shankha Yoga, and the seven planets-in-N-signs family (Vallaki/Veena, Dharma, Hasha, Kendra, Shula, Yuga, Gola) | Not yet encoded. The seven planets-in-N-signs family needs one new engine fact -- a count of how many distinct signs the seven classical grahas (excluding th… | `dep.none` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.06.p175` | phaladeepika | 6 | vv. 42-43 (p.74-75) | Adhiyoga | Not yet encoded; deferred by ordering. A Notes aside attributed to "Shruti Kirti ... according to Vyas" disputes how strictly the three yoga-forming grahas m… | `dep.none` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.06.p185` | phaladeepika | 6 | vv. 44-56 (p.75-78) | Twelve house-wise yogas keyed to occupation/aspect by benefics (Chamara, Dhenu, Shaurya, Jaladhi, Chhattra, Astra [6th], Kama, Astra [8th], Bhagya, Khyati, Parijata, Musala) | Not yet encoded; deferred by ordering. One repeating template across the twelve houses; the 6th-house and 8th-house members are both named "Astra Yoga" and m… | `dep.none` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.06.p202` | phaladeepika | 6 | vv. 57-69 (p.78-82) | Twelve yogas keyed to the 6th/8th/12th lords occupying a dusthana (Ava, Nisswa, Mriti, Kuhu, Pamara, Harsha, Dushkriti, Sarala, Nirbhagya, Duryoga [10th house], Daridrya, Vimala) | Not yet encoded; deferred by ordering. The richest single contradiction in the chapter: Mantreswara calls Harsha/Sarala/Vimala auspicious, Parashara's own ni… | `dep.none` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.06.p233` | phaladeepika | 6 | v. 70 and colophon (p.82-83) | A second, unrelated Duryoga (weak/strong 6th-8th-12th vs. 1st-4th-9th-10th lord test) and the chapter's closing formula | Verse 70 needs dep.strength directly ("vested with strength" / "weak or combust" gates both halves of the test) and is not testable until it exists. The colo… | `dep.strength` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.08.p012` | phaladeepika | 8 | v. 8 Notes (p.93) | the translator's qualification of the Sun in the 10th: the good effects hold only for eight of the twelve lagnas | Tier-2 commentary that narrows a tier-1 card already in the store (PD.08.Sun.10). It is an exclusion on an existing rule, and the card schema records exclusi… | `dep.lord-of-house`, `dep.adjudication` | 4 (integration) | deferred |
 | `passage:phaladeepika.08.p037` | phaladeepika | 8 | v. 15 Note (p.96) | Manglik Dosha: Mars in the 7th, its effect by sex of the native, and the belief that it cancels when both partners are Manglik | Substantial tier-2 doctrine, deferred rather than skipped. It is scoped by the native's sex, states a cancellation rule the engine cannot express, and reads … | `dep.native-sex`, `dep.second-nativity`, `dep.adjudication` | 4 (integration) | deferred |
 | `passage:phaladeepika.08.p057` | phaladeepika | 8 | v. 5, v. 22 and v. 27 Notes (p.93-98) | the translator arguing from aspects: the Sun in the 8th aspecting the 2nd, and why Jupiter in the lagna outranks Venus there | Tier-2 commentary whose reasoning is entirely about aspects. Encodable as a claim only once aspects are computed; until then a card would quote an argument t… | `dep.aspects` | 2 (engine completion) | deferred |
