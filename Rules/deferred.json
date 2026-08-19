@@ -342,14 +342,12 @@
     "dep.dignity-friendship": {
       "title": "natural friendship (the unresolved half of dignity)",
       "kind": "reference",
-      "detail": "Whether a graha sits in a friend's, neutral's or enemy's sign. The seven-graha table is encoded but the scan interleaved its columns past reconstruction, so no friendship fact is emitted at all rather than a guessed one.",
+      "detail": "Whether a graha sits in a friend's, neutral's or enemy's sign, read from the graha's own row in the natural-friendship table against the lord of its sign. Both tables that carry it (the seven classical grahas, and Rahu/Ketu separately) are encoded and verified against the printed page -- the original 'the scan interleaved past reconstruction' diagnosis was wrong; the source is a clean pdf_text extraction, not a damaged scan.",
       "phase": "3 (knowledge)",
-      "depends_on": [
-        "dep.manual-verification"
-      ],
+      "depends_on": [],
       "effort": 1,
-      "effort_basis": "a table read from cards, once a human has checked the printed page",
-      "implemented": false
+      "effort_basis": "a table read from cards, once a human has checked the printed page -- done for the table itself (2026-08-19) and for the three cards this unlocks (below), not for the whole store",
+      "implemented": true
     },
     "dep.correlated-negation": {
       "title": "negation correlated with the current binding",
@@ -885,7 +883,7 @@
       "chapter": 0,
       "locus": "the whole store",
       "what": "human sign-off that each card reads its verse correctly",
-      "reason": "Every card is machine-checked byte-exact against the corpus, but extraction.verified_by is null on all but one of them (PD.02.Friendship.NaturalTable, verified 2026-08-19 against the printed page). The machine can prove a card quotes the book faithfully; it cannot prove the condition encodes what the verse means.",
+      "reason": "Every card is machine-checked byte-exact against the corpus, but extraction.verified_by is null on all but four of them: PD.02.Friendship.NaturalTable (the table itself) and the three cards its extractor unlocked -- PD.09.Dignity.Friend, PD.09.Dignity.Neutral, PD.10.WifeDeprived.Lord7Afflicted -- each individually checked against its own verse, not signed off as a block. The machine can prove a card quotes the book faithfully; it cannot prove the condition encodes what the verse means.",
       "requires": [
         "dep.manual-verification"
       ],

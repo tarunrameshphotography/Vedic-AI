@@ -250,11 +250,83 @@ def test_an_unresolved_portion_asserts_nothing(tmp_path, chart):
     assert "dignity(Mars,moolatrikona)" not in extract_facts(chart, doc)
 
 
-def test_no_friendship_fact_is_emitted_at_all(facts):
-    """The table is encoded (PD.02.Friendship.NaturalTable) but no extractor
-    reads it yet -- dep.dignity-friendship is not implemented."""
-    got = {f.args["dignity"] for f in facts.by_predicate("dignity")}
-    assert not got & {"friend", "neutral", "inimical", "enemy"}
+# --- unit: natural friendship (dep.dignity-friendship) ----------------------
+
+def test_friendship_reads_the_occupants_own_row_not_the_lords(tmp_path, chart):
+    """"In the house of a friend" is the sign lord's standing in the
+    occupant's row, not the occupant's standing in the lord's -- the two can
+    disagree, and only one of them is what the verse asks for. Saturn sits in
+    Scorpio in this chart; Scorpio's lord here is made Mars."""
+    assert chart.bodies["Saturn"].sign == "Scorpio"
+    doc = synthetic(tmp_path, [
+        ("sign_lord", {"sign": "Scorpio", "graha": "Mars"}),
+        ("natural_relationship", {"table": {
+            "Saturn": {"friend": [], "neutral": ["Mars"], "enemy": []},
+            "Mars": {"friend": [], "neutral": [], "enemy": ["Saturn"]},
+        }}),
+    ])
+    fs = extract_facts(chart, doc)
+    assert "dignity(Saturn,neutral)" in fs
+    assert "dignity(Saturn,inimical)" not in fs
+
+
+def test_a_graha_in_its_own_sign_gets_no_friendship_fact(tmp_path, chart):
+    """Own-sign dignity is a different, already-sourced fact; this extractor
+    must not duplicate it by inventing a self-relation the table never
+    states. Mars sits in Aries, its own sign, in this chart."""
+    assert chart.bodies["Mars"].sign == "Aries"
+    doc = synthetic(tmp_path, [
+        ("sign_lord", {"sign": "Aries", "graha": "Mars"}),
+        ("natural_relationship", {"table": {
+            "Mars": {"friend": ["Sun"], "neutral": ["Venus"], "enemy": ["Mercury"]},
+        }}),
+    ])
+    fs = extract_facts(chart, doc)
+    assert not [f for f in fs.by_predicate("dignity")
+                if f.args["graha"] == "Mars" and f.args["dignity"] in
+                ("friend", "neutral", "inimical")]
+
+
+def test_the_moon_mercury_contradiction_is_surfaced_not_resolved(tmp_path, chart):
+    """The printed defect this table preserves: Mercury is both Moon's friend
+    and neutral. The engine must not pick, and must say why not."""
+    moon_sign = chart.bodies["Moon"].sign
+    doc = synthetic(tmp_path, [
+        ("sign_lord", {"sign": moon_sign, "graha": "Mercury"}),
+        ("natural_relationship", {"table": {
+            "Moon": {"friend": ["Mercury"], "neutral": ["Mercury"], "enemy": []},
+        }}),
+    ])
+    with pytest.raises(DoctrineError, match="both friend and neutral"):
+        doc.natural_relationship("Moon", "Mercury")
+    # extract_facts must not propagate the raise: it is reported, not fatal.
+    fs = extract_facts(chart, doc)
+    assert not [f for f in fs.by_predicate("dignity") if f.args["graha"] == "Moon"]
+    assert "contradicts itself" in fs.doctrine.partial.get("dignity_friendship", "")
+
+
+def test_rahu_and_ketu_are_read_from_their_own_card(tmp_path):
+    """Verse 35 gives the nodes one shared row in a different card shape from
+    the seven-graha table; both must be readable without the engine choosing
+    between them by hardcoding which shape wins."""
+    doc = synthetic(tmp_path, [
+        ("natural_relationship", {"graha": ["Rahu", "Ketu"],
+                                  "friend": ["Venus"], "neutral": [], "enemy": []}),
+    ])
+    assert doc.natural_relationship("Rahu", "Venus").value == "friend"
+    assert doc.natural_relationship("Ketu", "Venus").value == "friend"
+
+
+def test_two_cards_claiming_the_same_graha_is_refused(tmp_path):
+    """Overlapping coverage is exactly the ambiguity `_one` already refuses;
+    a second table naming a graha the first one also names must not silently
+    pick either."""
+    doc = synthetic(tmp_path, [
+        ("natural_relationship", {"table": {"Sun": {"friend": [], "neutral": [], "enemy": []}}}),
+        ("natural_relationship", {"graha": ["Sun"], "friend": [], "neutral": [], "enemy": []}),
+    ])
+    with pytest.raises(DoctrineError, match="cannot choose between authorities"):
+        doc.natural_relationship("Sun", "Moon")
 
 
 # --- golden chart -----------------------------------------------------------
@@ -313,10 +385,36 @@ def test_golden_combustion(facts, chart):
 
 def test_golden_dignity(facts):
     """Mars in Aries and Jupiter in Pisces are in their own signs; nothing
-    in this chart is exalted or debilitated."""
+    in this chart is exalted or debilitated. The rest are dep.dignity-
+    friendship: each graha's own row in the natural-friendship table against
+    the lord of the sign it occupies."""
     got = {(f.args["graha"], f.args["dignity"])
            for f in facts.by_predicate("dignity")}
-    assert got == {("Mars", "own"), ("Jupiter", "own")}
+    assert got == {
+        ("Mars", "own"), ("Jupiter", "own"),
+        ("Sun", "inimical"), ("Saturn", "inimical"), ("Rahu", "inimical"),
+        ("Moon", "friend"), ("Venus", "friend"), ("Ketu", "friend"),
+        ("Mercury", "neutral"),
+    }
+
+
+def test_golden_friendship_facts_name_the_sign_lord_and_relation(facts, chart):
+    """Every friendship-derived dignity fact records what put it there, the
+    same provenance an astrologer would ask for: which sign, whose lordship,
+    and what the table says the occupant thinks of that lord."""
+    ev = facts.get("dignity(Moon,friend)").evidence
+    assert ev["sign"] == chart.bodies["Moon"].sign
+    assert ev["sign_lord"] == "Sun"
+    assert ev["natural_relationship"] == "friend"
+    assert any(cid.startswith("PD.02.Friendship") for cid in ev["doctrine"])
+
+
+def test_golden_ketu_is_read_from_the_rahu_ketu_card(facts):
+    """Ketu has no row in the seven-graha table at all -- it can only be
+    classified through PD.02.Friendship.RahuKetu."""
+    ev = facts.get("dignity(Ketu,friend)").evidence
+    assert "PD.02.Friendship.RahuKetu" in ev["doctrine"]
+    assert "PD.02.Friendship.NaturalTable" not in ev["doctrine"]
 
 
 def test_golden_house_classes(facts):
@@ -368,7 +466,7 @@ def test_every_doctrine_fact_names_its_reference_cards(facts):
 def test_each_extractor_reports_what_it_consulted(facts):
     rep = facts.doctrine
     for name in ("lord_of_house", "sign_class", "house_class", "graha_class",
-                 "aspects", "combust", "dignity"):
+                 "aspects", "combust", "dignity", "dignity_friendship"):
         assert rep.consulted.get(name), f"{name} reported no reference cards"
     assert not rep.skipped, rep.skipped
     assert len(rep.cards) >= 50

@@ -395,16 +395,18 @@ def test_slice_runs_and_verifies():
     r = run(DEMO)
     assert r.verification.ok
     # Nine bodies each matching a placement card, one keyed on the ascendant's
-    # sign, and eleven from quantified cards: two on the lagna, three on
+    # sign, and nineteen from quantified cards: two on the lagna, three on
     # dignity and combustion, five released by benefic/malefic nature -- three
     # of them one card naming each malefic that afflicts the 7th lord in turn
-    # -- and one from the Moon-sign transfer (dep.rule-transfer) firing on
-    # whichever sign the Moon actually occupies. This number tracks the rule
-    # store: it must change when doctrine is added, and never on its own.
-    assert r.verification.checks["claims"] == 21
+    # -- one from the Moon-sign transfer (dep.rule-transfer), and eight from
+    # dep.dignity-friendship: three grahas classed friend, one neutral, and
+    # four solutions of PD.10.WifeDeprived.Lord7Afflicted's own quantified
+    # "any" (three inimical, one combust). This number tracks the rule store:
+    # it must change when doctrine is added, and never on its own.
+    assert r.verification.checks["claims"] == 29
     for k in ("quote_integrity_passed", "conditions_reevaluated_passed",
               "numeric_grounding_passed"):
-        assert r.verification.checks[k] == 21
+        assert r.verification.checks[k] == 29
 
 
 def test_every_claim_has_all_four_provenance_links():
@@ -428,7 +430,7 @@ def test_quoted_output_adds_no_words():
     r = run(DEMO)
     by_id = {c.claim_id: c for c in r.claims}
     rules = [s for s in r.sentences if s.part == "rules"]
-    assert len(rules) == 21
+    assert len(rules) == 29
     for s in rules:
         assert s.text == by_id[s.claim_ids[0]].passage["quote_display"]
 

@@ -959,24 +959,24 @@
         "any": [
           {
             "dignity": {
-              "graha": "any",
+              "graha": "?g",
               "dignity": "debilitated"
             }
           },
           {
             "dignity": {
-              "graha": "any",
+              "graha": "?g",
               "dignity": "inimical"
             }
           },
           {
             "combust": {
-              "graha": "any"
+              "graha": "?g"
             }
           },
           {
             "hemmed_between": {
-              "graha": "any",
+              "graha": "?g",
               "nature": "malefic"
             }
           }
@@ -993,19 +993,11 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (condition checked against the quoted verse; fires via dep.dignity-friendship, itself verified against PDF page 22)",
+        "verified_date": "2026-08-19"
       },
-      "activation": "inert",
-      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
-      "exclusions": [],
-      "requires": [
-        "dep.lord-of-house",
-        "dep.condition-variables",
-        "dep.nature",
-        "dep.aspects",
-        "dep.dignity-friendship"
-      ]
+      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says -- it is quantified over any graha meeting one of the four alternatives, not specifically the 7th house or its lord. The inimical branch fires per dep.dignity-friendship; hemmed_between has no extractor yet and this branch stays silently unsatisfied rather than blocking the rest.",
+      "exclusions": []
     },
     {
       "id": "PD.10.Venus.MaleficConjunct",

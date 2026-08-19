@@ -306,10 +306,9 @@ def _dignity(chart, doc, rep, frame) -> list[Fact]:
     """dep.dignity, the encoded half only.
 
     Exaltation, debilitation, own sign and Moolatrikona are all sourced.
-    Natural friendship is not: the table is encoded (PD.02.Friendship.
-    NaturalTable, verified against the printed page), but no extractor reads
-    it yet -- dep.dignity-friendship is not implemented -- so no friendly,
-    neutral or inimical fact is emitted at all rather than a guessed one.
+    Natural friendship is a separate extractor, `_dignity_friendship` below,
+    because it needs a second table (PD.02.Friendship.NaturalTable) and the
+    sign lord besides.
 
     Deep exaltation is a *point*, not a range. The texts give a degree, not an
     orb, so no card asserts "deeply exalted"; the degree and the arc from it
@@ -373,6 +372,61 @@ def _dignity(chart, doc, rep, frame) -> list[Fact]:
                 out.append(make_fact(
                     "dignity", {"graha": b.body, "dignity": "moolatrikona"},
                     frame, {**ev, "portion": span, "doctrine": list(mt_cards)}))
+    return out
+
+
+# The table's own column names -> the value the `dignity` predicate already
+# uses. "inimical" is not this extractor's coinage: PD.09.Dignity.Inimical,
+# PD.10.WifeDeprived.Lord7Afflicted and PD.02.AdverseDisposition all already
+# condition on `dignity: "inimical"`, read from their own verses independently
+# of this table.
+_RELATION_TO_DIGNITY = {"friend": "friend", "neutral": "neutral", "enemy": "inimical"}
+
+
+def _dignity_friendship(chart, doc, rep, frame) -> list[Fact]:
+    """dep.dignity-friendship -- whether a graha sits in a friend's, neutral's
+    or enemy's sign, read from PD.02.Friendship.NaturalTable together with the
+    sign lord (dep.lord-of-house).
+
+    "In the house of a friend" means the sign's *lord* is a friend of the
+    graha sitting there, so this asks the table for the graha's own row, not
+    the lord's. A graha in its own sign is not in its own row at all -- the
+    table carries no self-relation -- so nothing is emitted there; that is
+    already a different, separately-sourced dignity ("own"), not a case this
+    extractor needs to special-case around.
+
+    One pairing the table cannot answer: a graha whose sign lord is Mercury
+    while that graha's own row lists Mercury as both friend and neutral (the
+    Moon's printed row does). `Doctrine.natural_relationship` raises there
+    rather than choosing, and this extractor's response is the one every
+    other doctrine-backed extractor already gives a genuine disagreement --
+    no fact, and the gap reported rather than hidden.
+    """
+    out = []
+    ambiguous = []
+    for b in chart.bodies.values():
+        try:
+            lord, lord_cards = doc.sign_lord(b.sign)
+        except DoctrineError:
+            continue                      # the store is silent for this sign
+        try:
+            rel, rel_cards = doc.natural_relationship(b.body, lord)
+        except DoctrineError as exc:
+            ambiguous.append(f"{b.body} in {lord}'s sign: {exc}")
+            continue
+        rep.used("dignity_friendship", set(lord_cards) | set(rel_cards))
+        if rel is None:
+            continue                      # graha is its own sign lord
+        out.append(make_fact(
+            "dignity", {"graha": b.body, "dignity": _RELATION_TO_DIGNITY[rel]},
+            frame,
+            {"sign": b.sign, "sign_lord": lord, "natural_relationship": rel,
+             "doctrine": sorted(set(lord_cards) | set(rel_cards))},
+        ))
+    if ambiguous:
+        rep.incomplete("dignity_friendship",
+                        "the printed table contradicts itself for: "
+                        + "; ".join(ambiguous))
     return out
 
 
@@ -655,6 +709,7 @@ EXTRACTORS = (
     ("aspects", _aspects),
     ("combust", _combustion),
     ("dignity", _dignity),
+    ("dignity_friendship", _dignity_friendship),
     ("occupant_count", _occupant_count),
     ("graha_frame", _graha_frame),
     ("conjunct", _conjunction),

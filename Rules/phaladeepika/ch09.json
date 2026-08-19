@@ -740,7 +740,7 @@
         "all": [
           {
             "dignity": {
-              "graha": "any",
+              "graha": "?g",
               "dignity": "friend"
             }
           }
@@ -757,17 +757,11 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (condition checked against the quoted verse; fires via dep.dignity-friendship, itself verified against PDF page 22)",
+        "verified_date": "2026-08-19"
       },
-      "activation": "inert",
-      "note": "Universally quantified over the grahas. `graha: \"any\"` is a sentinel, not a body, and matches no fact key.",
-      "exclusions": [],
-      "requires": [
-        "dep.dignity",
-        "dep.condition-variables",
-        "dep.dignity-friendship"
-      ]
+      "note": "Universally quantified over the grahas. Fires per dep.dignity-friendship (Engine/facts.py:_dignity_friendship), which reads the graha's own row in PD.02.Friendship.NaturalTable / PD.02.Friendship.RahuKetu against the lord of the sign it occupies.",
+      "exclusions": []
     },
     {
       "id": "PD.09.Dignity.Inimical",
@@ -821,8 +815,7 @@
       "requires": [
         "dep.dignity",
         "dep.condition-variables",
-        "dep.dasa",
-        "dep.dignity-friendship"
+        "dep.dasa"
       ]
     },
     {
@@ -1002,7 +995,7 @@
         "all": [
           {
             "dignity": {
-              "graha": "any",
+              "graha": "?g",
               "dignity": "neutral"
             }
           }
@@ -1019,17 +1012,11 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (condition checked against the quoted verse; fires via dep.dignity-friendship, itself verified against PDF page 22)",
+        "verified_date": "2026-08-19"
       },
-      "activation": "inert",
-      "note": "Printed unnumbered after verse 19, as its own paragraph.",
-      "exclusions": [],
-      "requires": [
-        "dep.dignity",
-        "dep.condition-variables",
-        "dep.dignity-friendship"
-      ]
+      "note": "Printed unnumbered after verse 19, as its own paragraph. Fires per dep.dignity-friendship, the same mechanism as PD.09.Dignity.Friend.",
+      "exclusions": []
     },
     {
       "id": "PD.09.Retrograde.AsExalted",
