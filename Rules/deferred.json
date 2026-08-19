@@ -260,7 +260,8 @@
         "dep.dignity"
       ],
       "effort": 3,
-      "effort_basis": "a rule that rewrites the dignity another rule is keyed on"
+      "effort_basis": "a rule that rewrites the dignity another rule is keyed on",
+      "implemented": true
     },
     "dep.rule-transfer": {
       "title": "rule-transfer mechanism",
@@ -1028,6 +1029,20 @@
       "paragraphs": [
         82
       ]
+    },
+    {
+      "id": "concept:nodal-retrograde-dignity",
+      "kind": "concept",
+      "book": "phaladeepika",
+      "chapter": 9,
+      "locus": "v. 20, as applied by Engine/overrides.py",
+      "what": "whether the retrograde-as-exalted override extends to Rahu and Ketu",
+      "reason": "The verse says 'a planet' without exclusion, and the engine's own retrograde predicate already marks the nodes retrograde on every chart (their motion is always backward, by convention rather than vakri). Classical vakri doctrine is usually stated only for the five graha capable of direct and retrograde motion, and the nodes carry their own separate, disputed exaltation doctrine (see PD.01.Exaltation.RahuKetu.* -- three contradictory authorities, none singular). The override mechanism is gated on a singular exaltation card existing for the graha, which the nodes do not have, so it is silent for them today -- a consequence of what is encoded, not a decision that the verse excludes them. Recorded rather than decided so the question survives to be checked against the other books once a singular nodal exaltation card is encoded.",
+      "requires": [
+        "dep.manual-verification"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
     }
   ]
 }

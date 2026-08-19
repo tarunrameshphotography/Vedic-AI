@@ -1061,7 +1061,7 @@
         "all": [
           {
             "retrograde": {
-              "graha": "any"
+              "graha": "?g"
             }
           }
         ]
@@ -1081,14 +1081,9 @@
         "verified_date": null
       },
       "kind": "meta",
-      "activation": "inert",
-      "note": "A modifier, not a claim: it overrides the dignity another rule is keyed on. `retrograde` is derivable, but only for a named graha.",
-      "exclusions": [],
-      "requires": [
-        "dep.dignity",
-        "dep.condition-variables",
-        "dep.dignity-override"
-      ]
+      "activation": "reference",
+      "note": "Not a claim about a nativity: it changes the dignity another card is keyed on. Classified as reference doctrine, consulted by the dignity-override mechanism (Engine/overrides.py) rather than evaluated as a rule -- so it never itself becomes a claim, the same treatment ch. 1 lordship and exaltation cards get. Applied only to grahas the store carries exaltation doctrine for: Rahu and Ketu have none (three contradictory pair-authority cards, none singular; see PD.01.Exaltation.RahuKetu.* in ch. 1), so this is silent for them, preserving that dispute rather than deciding it.",
+      "exclusions": []
     },
     {
       "id": "PD.09.Vargottama",
@@ -1141,8 +1136,7 @@
       "exclusions": [],
       "requires": [
         "dep.vargottama",
-        "dep.condition-variables",
-        "dep.dignity-override"
+        "dep.condition-variables"
       ]
     }
   ]

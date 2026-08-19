@@ -7,14 +7,14 @@ Nothing may be silently deferred. Inert cards are read out of the store, deferre
 | | |
 |---|---|
 | Backlog entries | **66** |
-| — of kind `card` | 24 |
+| — of kind `card` | 23 |
 | — of kind `passage` | 18 |
 | — of kind `chapter` | 23 |
-| — of kind `concept` | 1 |
+| — of kind `concept` | 2 |
 | Resolved | 0 |
 | Cards in store | 344 |
-| Firing | 320 |
-| Inert | 24 |
+| Firing | 321 |
+| Inert | 23 |
 
 ## Dependencies
 
@@ -23,21 +23,20 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 | Dependency | Kind | Implemented | Entries blocked | Cards blocked | Phase |
 |---|---|---|---|---|---|
 | `dep.none` — no dependency -- simply not yet done | process | yes | 27 | 0 | 3 (knowledge) |
-| `dep.condition-variables` — variables in the condition language | schema | yes | 13 | 13 | 4 (integration) |
+| `dep.condition-variables` — variables in the condition language | schema | yes | 12 | 12 | 4 (integration) |
 | `dep.lord-of-house` — lord_of_house extractor | predicate | yes | 12 | 10 | 2 (engine completion) |
 | `dep.adjudication` — Stage 7 adjudication | engine | no | 7 | 1 | 4 (integration) |
 | `dep.strength` — planetary and house strength (Stage 4) | calculator | no | 7 | 7 | 2 (engine completion) |
 | `dep.aspects` — aspect engine | predicate | yes | 6 | 5 | 2 (engine completion) |
 | `dep.dasa` — vimshottari dasa engine | calculator | no | 6 | 3 | 2 (engine completion) |
-| `dep.dignity` — dignity extractor | predicate | yes | 6 | 6 | 2 (engine completion) |
+| `dep.dignity` — dignity extractor | predicate | yes | 5 | 5 | 2 (engine completion) |
 | `dep.dignity-friendship` — natural friendship (the unresolved half of dignity) | reference | no | 5 | 5 | 3 (knowledge) |
 | `dep.nature` — benefic/malefic classification | calculator | yes | 5 | 5 | 3 (knowledge) |
 | `dep.varga` — varga (divisional chart) engine | calculator | no | 5 | 5 | 2 (engine completion) |
+| `dep.manual-verification` — human verification of the encoding | process | no | 4 | 2 | 3 (knowledge) |
 | `dep.transit` — transit (gochara) calculation | calculator | no | 4 | 3 | beyond the MVP |
-| `dep.manual-verification` — human verification of the encoding | process | no | 3 | 2 | 3 (knowledge) |
 | `dep.ashtakavarga` — ashtakavarga | calculator | no | 2 | 1 | 2 (engine completion) |
 | `dep.combust` — combustion extractor | predicate | yes | 2 | 2 | 2 (engine completion) |
-| `dep.dignity-override` — dignity-override mechanism | schema | no | 2 | 2 | 4 (integration) |
 | `dep.native-sex` — the native's sex in the birth record | schema | yes | 2 | 0 | 2 (engine completion) |
 | `dep.second-nativity` — a second nativity | schema | no | 2 | 1 | beyond the MVP |
 | `dep.conjunct` — conjunction extractor | predicate | yes | 1 | 0 | 2 (engine completion) |
@@ -49,6 +48,7 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 | `dep.upagraha` — upagraha computation | calculator | no | 1 | 0 | 2 (engine completion) |
 | `dep.vargottama` — vargottama extractor | predicate | no | 1 | 1 | 2 (engine completion) |
 | `dep.correlated-negation` — negation correlated with the current binding | schema | yes | 0 | 0 | 2 (engine completion) |
+| `dep.dignity-override` — dignity-override mechanism | schema | yes | 0 | 0 | 4 (integration) |
 | `dep.graha-class` — graha classification | reference | yes | 0 | 0 | 3 (knowledge) |
 | `dep.graha-frame` — houses counted from a graha | schema | yes | 0 | 0 | 4 (integration) |
 | `dep.hemmed-between` — hemming (papakartari / subhakartari) extractor | predicate | no | 0 | 0 | 2 (engine completion) |
@@ -121,13 +121,14 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `passage:phaladeepika.09.p016` | phaladeepika | 9 | p.107-109 | two transcribed horoscopes, their lagna notes, a worked example and an aside on Abraham Lincoln | Tier-3 apparatus: worked examples, not rules. Recorded as deliberately excluded, not pending. | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.10.p038` | phaladeepika | 10 | p.114 colophon | the chapter's closing formula | Colophon. Not doctrine. | `dep.none` | 3 (knowledge) | deferred |
 
-### Cross-cutting (1)
+### Cross-cutting (2)
 
 | Entry | Book | Chapter | Locus | Deferred | Reason | Blocked on | Phase | Status |
 |---|---|---|---|---|---|---|---|---|
 | `concept:manual-verification` | phaladeepika | 0 | the whole store | human sign-off that each card reads its verse correctly | Every card is machine-checked byte-exact against the corpus, but extraction.verified_by is null on all of them. The machine can prove a card quotes the book … | `dep.manual-verification` | 3 (knowledge) | deferred |
+| `concept:nodal-retrograde-dignity` | phaladeepika | 9 | v. 20, as applied by Engine/overrides.py | whether the retrograde-as-exalted override extends to Rahu and Ketu | The verse says 'a planet' without exclusion, and the engine's own retrograde predicate already marks the nodes retrograde on every chart (their motion is alw… | `dep.manual-verification` | 3 (knowledge) | deferred |
 
-### Rule cards recorded but not firing (24)
+### Rule cards recorded but not firing (23)
 
 | Entry | Book | Chapter | Locus | Deferred | Reason | Blocked on | Phase | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -142,8 +143,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `card:PD.09.Dignity.Inimical` | phaladeepika | 9 | v. 17 | If a planet gets posited in an inimical sign, the person born will hav | Universally quantified over the grahas. `graha: "any"` is a sentinel, not a body, and matches no fact key. | `dep.dignity`, `dep.condition-variables`, `dep.dasa`, `dep.dignity-friendship` | 2 (engine completion) + 3 (knowledge) + 4 (integration) | deferred |
 | `card:PD.09.Dignity.Neutral` | phaladeepika | 9 | v. 19 (unnumbered) | A planet posited in a netural sign will not produce any significant ef | Printed unnumbered after verse 19, as its own paragraph. | `dep.dignity`, `dep.condition-variables`, `dep.dignity-friendship` | 2 (engine completion) + 3 (knowledge) + 4 (integration) | deferred |
 | `card:PD.09.MoonSign.Transfer` | phaladeepika | 9 | v. 13 | ascendant_effects_transfer_to_moon_sign | Universally quantified over the twelve signs and over the cards of verses 1-12. It states that PD.09.Lagna.<S> also holds when the Moon occupies <S>. The eng… | `dep.rule-transfer` | 4 (integration) | deferred |
-| `card:PD.09.Retrograde.AsExalted` | phaladeepika | 9 | v. 20 | treat_as_exalted | A modifier, not a claim: it overrides the dignity another rule is keyed on. `retrograde` is derivable, but only for a named graha. | `dep.dignity`, `dep.condition-variables`, `dep.dignity-override` | 2 (engine completion) + 4 (integration) | deferred |
-| `card:PD.09.Vargottama` | phaladeepika | 9 | v. 20 | treat_as_own_sign | Printed as the closing sentence of verse 20. | `dep.vargottama`, `dep.condition-variables`, `dep.dignity-override` | 2 (engine completion) + 4 (integration) | deferred |
+| `card:PD.09.Vargottama` | phaladeepika | 9 | v. 20 | treat_as_own_sign | Printed as the closing sentence of verse 20. | `dep.vargottama`, `dep.condition-variables` | 2 (engine completion) + 4 (integration) | deferred |
 | `card:PD.10.Lord7.BeneficStrong` | phaladeepika | 10 | v. 6 | good_character_and_bears_children | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.lord-of-house`, `dep.condition-variables`, `dep.nature`, `dep.strength` | 2 (engine completion) + 3 (knowledge) + 4 (integration) | deferred |
 | `card:PD.10.Marriage.Dasha7` | phaladeepika | 10 | v. 13 | timing_of_marriage | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.lord-of-house`, `dep.dasa`, `dep.aspects`, `dep.transit` | 2 (engine completion) + beyond the MVP | deferred |
 | `card:PD.10.Marriage.StrongerDasha` | phaladeepika | 10 | v. 14 | timing_of_marriage | The quote runs across a printed page break; the page anchor sits inside the span, as it does in the corpus. | `dep.lord-of-house`, `dep.condition-variables`, `dep.varga`, `dep.strength`, `dep.dasa`, `dep.transit` | 2 (engine completion) + 4 (integration) + beyond the MVP | deferred |

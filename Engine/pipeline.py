@@ -16,6 +16,7 @@ from .chart import BirthRecord, ChartBundle, compute_chart, resolve_birth
 from .ephemeris import EphemerisProvider, SwissEphemerisDLL
 from .doctrine import Doctrine
 from .facts import FactSet, extract_facts
+from .overrides import apply_overrides
 from .render import (
     QuotingSynthesizer,
     Sentence,
@@ -122,6 +123,7 @@ def run(
         chart = compute_chart(resolved, provider, ayanamsa, house_system)  # Stage 1
         doctrine = Doctrine.from_cards(cards)
         facts = extract_facts(chart, doctrine)                        # Stage 2
+        facts = apply_overrides(cards, doctrine, facts, chart)         # Stage 2b
         claims, report = activate(chart, facts, cards, _book_meta(rules_dir))  # Stage 6
 
         # Stage 7 is not implemented in this slice: with a single chapter there

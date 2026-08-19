@@ -662,13 +662,23 @@ EXTRACTORS = (
 )
 
 
-def extract_facts(chart: ChartBundle, doctrine=None) -> FactSet:
-    """Derive every fact the vocabulary can express from this chart."""
-    frame = {
+def chart_frame(chart: ChartBundle) -> dict:
+    """The reference frame every Stage-2 fact is stamped with.
+
+    Shared with anything downstream that must mint a fact outside the
+    ordinary extractor loop -- Stage 2b's overrides included -- so a frame
+    written in two places cannot quietly drift apart.
+    """
+    return {
         "reference": "lagna",
         "varga": "D1",
         "house_system": chart.houses["system"],
     }
+
+
+def extract_facts(chart: ChartBundle, doctrine=None) -> FactSet:
+    """Derive every fact the vocabulary can express from this chart."""
+    frame = chart_frame(chart)
     facts: list[Fact] = [
         make_fact(
             "lagna_sign", {"sign": chart.ascendant_sign}, frame,
