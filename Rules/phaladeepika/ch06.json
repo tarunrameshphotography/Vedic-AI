@@ -2567,7 +2567,10 @@
       },
       "kind": "yoga",
       "note": "Amala Yoga: a benefic in the 10th from the lagna or from the Moon.",
-      "exclusions": []
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.Amala.V12"
+      ]
     },
     {
       "id": "PD.06.Vasumati",
@@ -3486,6 +3489,1619 @@
       "kind": "yoga",
       "note": "The first of five alternate Kemadruma definitions Phaladeepika's translator attributes to Jataka Parijata (introduced 'There are other kinds of Kemadruma Yogas ... which are as follows'). Only this first item is independently testable with capabilities the engine already has (dep.aspects). Items (2)-(5) need dep.strength, dep.ashtakavarga and dep.varga, and one needs a birth-time-of-day (night birth) fact the engine has no doctrine for at all; they are deferred together as passage:phaladeepika.06.p043.",
       "exclusions": []
+    },
+    {
+      "id": "PD.06.Subhavesi",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "8, 9",
+        "page_anchor": "phaladeepika/p0060",
+        "tier": 1,
+        "quote": "8. If benefic planets other than the Moon (and the nodes) are posited in the 2nd, the 12th and both the Bhavas from the Sun, the Yogas so formed are known as Subhavesi, Subhavasi and Subhobhayachari respectively. […] 9. The person with Subhavesi Yoga at birth will be very good looking, happy, meritorious, valiant, a king and virtuous.",
+        "quote_display": "8. If benefic planets other than the Moon (and the nodes) are posited in the 2nd, the 12th and both the Bhavas from the Sun, the Yogas so formed are known as Subhavesi, Subhavasi and Subhobhayachari respectively. […] 9. The person with Subhavesi Yoga at birth will be very good looking, happy, meritorious, valiant, a king and virtuous.",
+        "quote_sha256": "27c6b9ddd7e872967510cc35fa220c73a1f8def8d0e86ca8edd753608a956c9a",
+        "char_span": [
+          109799,
+          110011
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            109799,
+            110011
+          ],
+          [
+            111251,
+            111370
+          ]
+        ],
+        "quote_parts": [
+          "8. If benefic planets other than the Moon (and the nodes) are posited in the 2nd, the 12th and both the Bhavas from the Sun, the Yogas so formed are known as Subhavesi, Subhavasi and Subhobhayachari respectively.",
+          "9. The person with Subhavesi Yoga at birth will be very good looking, happy, meritorious, valiant, a king and virtuous."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "all": [
+              {
+                "in_house_from": {
+                  "graha": "Sun",
+                  "reference": "Sun",
+                  "house": 2
+                }
+              },
+              {
+                "nature": {
+                  "graha": "Sun",
+                  "nature": "benefic"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in_house_from": {
+                  "graha": "Mars",
+                  "reference": "Sun",
+                  "house": 2
+                }
+              },
+              {
+                "nature": {
+                  "graha": "Mars",
+                  "nature": "benefic"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in_house_from": {
+                  "graha": "Mercury",
+                  "reference": "Sun",
+                  "house": 2
+                }
+              },
+              {
+                "nature": {
+                  "graha": "Mercury",
+                  "nature": "benefic"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in_house_from": {
+                  "graha": "Jupiter",
+                  "reference": "Sun",
+                  "house": 2
+                }
+              },
+              {
+                "nature": {
+                  "graha": "Jupiter",
+                  "nature": "benefic"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in_house_from": {
+                  "graha": "Venus",
+                  "reference": "Sun",
+                  "house": 2
+                }
+              },
+              {
+                "nature": {
+                  "graha": "Venus",
+                  "nature": "benefic"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in_house_from": {
+                  "graha": "Saturn",
+                  "reference": "Sun",
+                  "house": 2
+                }
+              },
+              {
+                "nature": {
+                  "graha": "Saturn",
+                  "nature": "benefic"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Subhavesi"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Subhavesi Yoga: a benefic among the six grahas the verse allows (Sun, Mars, Mercury, Jupiter, Venus, Saturn -- 'other than the Moon and the nodes' is read as excluding the Moon by name and the nodes as a class, leaving these six as the eligible pool regardless of their nature on a given chart) in the 2nd house reckoned from the Sun. A contested reading of this same verse (any of five named grahas, regardless of benefic/malefic nature) is recorded separately as PD.06.Vesi.AuthoritativeWorks; Saravali's per-graha effects are recorded separately as PD.06.VesiVasi.Saravali.",
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.Vesi.AuthoritativeWorks",
+        "PD.06.VesiVasi.Saravali"
+      ]
+    },
+    {
+      "id": "PD.06.Subhavasi",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "8, 9",
+        "page_anchor": "phaladeepika/p0060",
+        "tier": 1,
+        "quote": "8. If benefic planets other than the Moon (and the nodes) are posited in the 2nd, the 12th and both the Bhavas from the Sun, the Yogas so formed are known as Subhavesi, Subhavasi and Subhobhayachari respectively. […] The person with Subhavasi Yoga will be renowned, dear to all, and very rich and prosperous.",
+        "quote_display": "8. If benefic planets other than the Moon (and the nodes) are posited in the 2nd, the 12th and both the Bhavas from the Sun, the Yogas so formed are known as Subhavesi, Subhavasi and Subhobhayachari respectively. […] The person with Subhavasi Yoga will be renowned, dear to all, and very rich and prosperous.",
+        "quote_sha256": "77f3ef40fe5082945371152546e6d45301f671cbe6b4c9ca975f34282ca78e5b",
+        "char_span": [
+          109799,
+          110011
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            109799,
+            110011
+          ],
+          [
+            111371,
+            111462
+          ]
+        ],
+        "quote_parts": [
+          "8. If benefic planets other than the Moon (and the nodes) are posited in the 2nd, the 12th and both the Bhavas from the Sun, the Yogas so formed are known as Subhavesi, Subhavasi and Subhobhayachari respectively.",
+          "The person with Subhavasi Yoga will be renowned, dear to all, and very rich and prosperous."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "all": [
+              {
+                "in_house_from": {
+                  "graha": "Sun",
+                  "reference": "Sun",
+                  "house": 12
+                }
+              },
+              {
+                "nature": {
+                  "graha": "Sun",
+                  "nature": "benefic"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in_house_from": {
+                  "graha": "Mars",
+                  "reference": "Sun",
+                  "house": 12
+                }
+              },
+              {
+                "nature": {
+                  "graha": "Mars",
+                  "nature": "benefic"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in_house_from": {
+                  "graha": "Mercury",
+                  "reference": "Sun",
+                  "house": 12
+                }
+              },
+              {
+                "nature": {
+                  "graha": "Mercury",
+                  "nature": "benefic"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in_house_from": {
+                  "graha": "Jupiter",
+                  "reference": "Sun",
+                  "house": 12
+                }
+              },
+              {
+                "nature": {
+                  "graha": "Jupiter",
+                  "nature": "benefic"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in_house_from": {
+                  "graha": "Venus",
+                  "reference": "Sun",
+                  "house": 12
+                }
+              },
+              {
+                "nature": {
+                  "graha": "Venus",
+                  "nature": "benefic"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in_house_from": {
+                  "graha": "Saturn",
+                  "reference": "Sun",
+                  "house": 12
+                }
+              },
+              {
+                "nature": {
+                  "graha": "Saturn",
+                  "nature": "benefic"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Subhavasi"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Subhavasi Yoga: a benefic among the same six-graha pool as PD.06.Subhavesi in the 12th house reckoned from the Sun.",
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.Vesi.AuthoritativeWorks",
+        "PD.06.VesiVasi.Saravali"
+      ]
+    },
+    {
+      "id": "PD.06.Subhobhayachari",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "8, 9",
+        "page_anchor": "phaladeepika/p0060",
+        "tier": 1,
+        "quote": "8. If benefic planets other than the Moon (and the nodes) are posited in the 2nd, the 12th and both the Bhavas from the Sun, the Yogas so formed are known as Subhavesi, Subhavasi and Subhobhayachari respectively. […] The native having Subhobhayachari Yoga in his birth\r\n\r\n<!-- page phaladeepika/p0061 -->\r\nchart will have an attractive body, will be soft spoken, will delight the world, will be eloquent, renowned and wealthy.",
+        "quote_display": "8. If benefic planets other than the Moon (and the nodes) are posited in the 2nd, the 12th and both the Bhavas from the Sun, the Yogas so formed are known as Subhavesi, Subhavasi and Subhobhayachari respectively. […] The native having Subhobhayachari Yoga in his birth chart will have an attractive body, will be soft spoken, will delight the world, will be eloquent, renowned and wealthy.",
+        "quote_sha256": "b6992d7d77b033a05eecedeff254025d7f089778c813b6d84bfa73d43768186f",
+        "char_span": [
+          109799,
+          110011
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            109799,
+            110011
+          ],
+          [
+            111514,
+            111723
+          ]
+        ],
+        "quote_parts": [
+          "8. If benefic planets other than the Moon (and the nodes) are posited in the 2nd, the 12th and both the Bhavas from the Sun, the Yogas so formed are known as Subhavesi, Subhavasi and Subhobhayachari respectively.",
+          "The native having Subhobhayachari Yoga in his birth\r\n\r\n<!-- page phaladeepika/p0061 -->\r\nchart will have an attractive body, will be soft spoken, will delight the world, will be eloquent, renowned and wealthy."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "in_house_from": {
+                      "graha": "Sun",
+                      "reference": "Sun",
+                      "house": 2
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "Sun",
+                      "nature": "benefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Sun",
+                      "house": 2
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "Mars",
+                      "nature": "benefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house_from": {
+                      "graha": "Mercury",
+                      "reference": "Sun",
+                      "house": 2
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "Mercury",
+                      "nature": "benefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house_from": {
+                      "graha": "Jupiter",
+                      "reference": "Sun",
+                      "house": 2
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "Jupiter",
+                      "nature": "benefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Sun",
+                      "house": 2
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "Venus",
+                      "nature": "benefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house_from": {
+                      "graha": "Saturn",
+                      "reference": "Sun",
+                      "house": 2
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "Saturn",
+                      "nature": "benefic"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "in_house_from": {
+                      "graha": "Sun",
+                      "reference": "Sun",
+                      "house": 12
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "Sun",
+                      "nature": "benefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Sun",
+                      "house": 12
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "Mars",
+                      "nature": "benefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house_from": {
+                      "graha": "Mercury",
+                      "reference": "Sun",
+                      "house": 12
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "Mercury",
+                      "nature": "benefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house_from": {
+                      "graha": "Jupiter",
+                      "reference": "Sun",
+                      "house": 12
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "Jupiter",
+                      "nature": "benefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Sun",
+                      "house": 12
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "Venus",
+                      "nature": "benefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house_from": {
+                      "graha": "Saturn",
+                      "reference": "Sun",
+                      "house": 12
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "Saturn",
+                      "nature": "benefic"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Subhobhayachari"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Subhobhayachari Yoga: the same six-graha pool occupying both the 2nd and the 12th from the Sun at once -- not necessarily the same graha in both, since no single graha can occupy two houses simultaneously. The quoted effect sentence runs across the printed p.60/p.61 page break; the page anchor sits inside the span, as it does elsewhere in this chapter.",
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.Vesi.AuthoritativeWorks"
+      ]
+    },
+    {
+      "id": "PD.06.Papavesi",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "8, 10",
+        "page_anchor": "phaladeepika/p0060",
+        "tier": 1,
+        "quote": "But if the planets forming the Yogas are malefics, the yogas so formed are called Papavesi, Papavasi, and Papobhayachari respectively. […] 10. The person with Asubhavesi Yoga at birth will unfairly defame others, will not be beautiful and will move in the company of low and wicked people.",
+        "quote_display": "But if the planets forming the Yogas are malefics, the yogas so formed are called Papavesi, Papavasi, and Papobhayachari respectively. […] 10. The person with Asubhavesi Yoga at birth will unfairly defame others, will not be beautiful and will move in the company of low and wicked people.",
+        "quote_sha256": "9da9acde9a4292ff6e065e0a9e0a80f122e0267c88c185edb268689767e5984c",
+        "char_span": [
+          110012,
+          110146
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            110012,
+            110146
+          ],
+          [
+            111727,
+            111877
+          ]
+        ],
+        "quote_parts": [
+          "But if the planets forming the Yogas are malefics, the yogas so formed are called Papavesi, Papavasi, and Papobhayachari respectively.",
+          "10. The person with Asubhavesi Yoga at birth will unfairly defame others, will not be beautiful and will move in the company of low and wicked people."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "all": [
+              {
+                "in_house_from": {
+                  "graha": "Sun",
+                  "reference": "Sun",
+                  "house": 2
+                }
+              },
+              {
+                "nature": {
+                  "graha": "Sun",
+                  "nature": "malefic"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in_house_from": {
+                  "graha": "Mars",
+                  "reference": "Sun",
+                  "house": 2
+                }
+              },
+              {
+                "nature": {
+                  "graha": "Mars",
+                  "nature": "malefic"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in_house_from": {
+                  "graha": "Mercury",
+                  "reference": "Sun",
+                  "house": 2
+                }
+              },
+              {
+                "nature": {
+                  "graha": "Mercury",
+                  "nature": "malefic"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in_house_from": {
+                  "graha": "Jupiter",
+                  "reference": "Sun",
+                  "house": 2
+                }
+              },
+              {
+                "nature": {
+                  "graha": "Jupiter",
+                  "nature": "malefic"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in_house_from": {
+                  "graha": "Venus",
+                  "reference": "Sun",
+                  "house": 2
+                }
+              },
+              {
+                "nature": {
+                  "graha": "Venus",
+                  "nature": "malefic"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in_house_from": {
+                  "graha": "Saturn",
+                  "reference": "Sun",
+                  "house": 2
+                }
+              },
+              {
+                "nature": {
+                  "graha": "Saturn",
+                  "nature": "malefic"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Papavesi"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Papavesi Yoga: a malefic among the same six-graha pool as PD.06.Subhavesi in the 2nd house reckoned from the Sun. Verse 8 names this yoga 'Papavesi'; verse 10, describing its effects, calls it 'Asubhavesi' instead. Both names are printed for the same configuration and neither is corrected to the other.",
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.Vesi.AuthoritativeWorks",
+        "PD.06.VesiVasi.Saravali"
+      ]
+    },
+    {
+      "id": "PD.06.Papavasi",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "8, 10",
+        "page_anchor": "phaladeepika/p0060",
+        "tier": 1,
+        "quote": "But if the planets forming the Yogas are malefics, the yogas so formed are called Papavesi, Papavasi, and Papobhayachari respectively. […] The person with Asubhavasi Yoga will be dishonest, harsh and abusive in speech and will associate with wicked people. He will be unvirtuous though he will have knowledge of Shastras and Scriptures.",
+        "quote_display": "But if the planets forming the Yogas are malefics, the yogas so formed are called Papavesi, Papavasi, and Papobhayachari respectively. […] The person with Asubhavasi Yoga will be dishonest, harsh and abusive in speech and will associate with wicked people. He will be unvirtuous though he will have knowledge of Shastras and Scriptures.",
+        "quote_sha256": "82ea43b4aa25ca11b76d49116bb39db6d0797ea790ce0b1b640dbce077ba625f",
+        "char_span": [
+          110012,
+          110146
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            110012,
+            110146
+          ],
+          [
+            111878,
+            112075
+          ]
+        ],
+        "quote_parts": [
+          "But if the planets forming the Yogas are malefics, the yogas so formed are called Papavesi, Papavasi, and Papobhayachari respectively.",
+          "The person with Asubhavasi Yoga will be dishonest, harsh and abusive in speech and will associate with wicked people. He will be unvirtuous though he will have knowledge of Shastras and Scriptures."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "all": [
+              {
+                "in_house_from": {
+                  "graha": "Sun",
+                  "reference": "Sun",
+                  "house": 12
+                }
+              },
+              {
+                "nature": {
+                  "graha": "Sun",
+                  "nature": "malefic"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in_house_from": {
+                  "graha": "Mars",
+                  "reference": "Sun",
+                  "house": 12
+                }
+              },
+              {
+                "nature": {
+                  "graha": "Mars",
+                  "nature": "malefic"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in_house_from": {
+                  "graha": "Mercury",
+                  "reference": "Sun",
+                  "house": 12
+                }
+              },
+              {
+                "nature": {
+                  "graha": "Mercury",
+                  "nature": "malefic"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in_house_from": {
+                  "graha": "Jupiter",
+                  "reference": "Sun",
+                  "house": 12
+                }
+              },
+              {
+                "nature": {
+                  "graha": "Jupiter",
+                  "nature": "malefic"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in_house_from": {
+                  "graha": "Venus",
+                  "reference": "Sun",
+                  "house": 12
+                }
+              },
+              {
+                "nature": {
+                  "graha": "Venus",
+                  "nature": "malefic"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in_house_from": {
+                  "graha": "Saturn",
+                  "reference": "Sun",
+                  "house": 12
+                }
+              },
+              {
+                "nature": {
+                  "graha": "Saturn",
+                  "nature": "malefic"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Papavasi"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Papavasi Yoga: a malefic among the same six-graha pool in the 12th house reckoned from the Sun. Verse 8 names it 'Papavasi'; verse 10 calls it 'Asubhavasi'. Both names printed, neither corrected.",
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.Vesi.AuthoritativeWorks",
+        "PD.06.VesiVasi.Saravali"
+      ]
+    },
+    {
+      "id": "PD.06.Papobhayachari",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "8, 10",
+        "page_anchor": "phaladeepika/p0060",
+        "tier": 1,
+        "quote": "But if the planets forming the Yogas are malefics, the yogas so formed are called Papavesi, Papavasi, and Papobhayachari respectively. […] The person born in Asubhobhayachari yoga will suffer mentally due to dishonour in public and will be devoid of wealth and fortune.",
+        "quote_display": "But if the planets forming the Yogas are malefics, the yogas so formed are called Papavesi, Papavasi, and Papobhayachari respectively. […] The person born in Asubhobhayachari yoga will suffer mentally due to dishonour in public and will be devoid of wealth and fortune.",
+        "quote_sha256": "8237c7f759e5ba0fa98d1cc5e61197624cc38308a2369dffb741276d3c0bd5a4",
+        "char_span": [
+          110012,
+          110146
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            110012,
+            110146
+          ],
+          [
+            112076,
+            112206
+          ]
+        ],
+        "quote_parts": [
+          "But if the planets forming the Yogas are malefics, the yogas so formed are called Papavesi, Papavasi, and Papobhayachari respectively.",
+          "The person born in Asubhobhayachari yoga will suffer mentally due to dishonour in public and will be devoid of wealth and fortune."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "in_house_from": {
+                      "graha": "Sun",
+                      "reference": "Sun",
+                      "house": 2
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "Sun",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Sun",
+                      "house": 2
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "Mars",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house_from": {
+                      "graha": "Mercury",
+                      "reference": "Sun",
+                      "house": 2
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "Mercury",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house_from": {
+                      "graha": "Jupiter",
+                      "reference": "Sun",
+                      "house": 2
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "Jupiter",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Sun",
+                      "house": 2
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "Venus",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house_from": {
+                      "graha": "Saturn",
+                      "reference": "Sun",
+                      "house": 2
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "Saturn",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "in_house_from": {
+                      "graha": "Sun",
+                      "reference": "Sun",
+                      "house": 12
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "Sun",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Sun",
+                      "house": 12
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "Mars",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house_from": {
+                      "graha": "Mercury",
+                      "reference": "Sun",
+                      "house": 12
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "Mercury",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house_from": {
+                      "graha": "Jupiter",
+                      "reference": "Sun",
+                      "house": 12
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "Jupiter",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Sun",
+                      "house": 12
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "Venus",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house_from": {
+                      "graha": "Saturn",
+                      "reference": "Sun",
+                      "house": 12
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "Saturn",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Papobhayachari"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Papobhayachari Yoga: the six-graha pool occupying both the 2nd and 12th from the Sun with malefics. Verse 8 names it 'Papobhayachari'; verse 10 calls it 'Asubhobhayachari'. Both names printed, neither corrected.",
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.Vesi.AuthoritativeWorks"
+      ]
+    },
+    {
+      "id": "PD.06.Subhakartari",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "8, 11",
+        "page_anchor": "phaladeepika/p0060",
+        "tier": 1,
+        "quote": "When the 12th and 2nd from the Lagna are occupied by benefics, the Yoga so formed is called Subhakartari. […] 11. Subhakartari Yoga at birth will make a person longlived, fearless, healthy and without enemies.",
+        "quote_display": "When the 12th and 2nd from the Lagna are occupied by benefics, the Yoga so formed is called Subhakartari. […] 11. Subhakartari Yoga at birth will make a person longlived, fearless, healthy and without enemies.",
+        "quote_sha256": "9a3dff2e483352de5335d0c27be095150f2dd1f9ecd4ee9be01f63b0d95c766b",
+        "char_span": [
+          110150,
+          110255
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            110150,
+            110255
+          ],
+          [
+            112210,
+            112309
+          ]
+        ],
+        "quote_parts": [
+          "When the 12th and 2nd from the Lagna are occupied by benefics, the Yoga so formed is called Subhakartari.",
+          "11. Subhakartari Yoga at birth will make a person longlived, fearless, healthy and without enemies."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "all": [
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 12
+                }
+              },
+              {
+                "nature": {
+                  "graha": "?g1",
+                  "nature": "benefic"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 2
+                }
+              },
+              {
+                "nature": {
+                  "graha": "?g2",
+                  "nature": "benefic"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Subhakartari"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Subhakartari Yoga: benefics occupying both the 12th and the 2nd reckoned from the Lagna (unlike verse 8's Vesi/Vasi/Ubhayachari sentence, this sentence carries no 'other than the Moon and the nodes' restriction, so the pool here is any graha the engine tracks). Not necessarily the same graha in both houses.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.06.Papakartari",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "8, 11",
+        "page_anchor": "phaladeepika/p0060",
+        "tier": 1,
+        "quote": "If these houses are occupied by malefics the resultant yoga is called Papakartari. […] Papakartari Yoga will make the person miserable, bereft of wife and children. He will have defective limbs and will have a short life.",
+        "quote_display": "If these houses are occupied by malefics the resultant yoga is called Papakartari. […] Papakartari Yoga will make the person miserable, bereft of wife and children. He will have defective limbs and will have a short life.",
+        "quote_sha256": "4869ccbed48c1cb654dbcb9161140fbf1604ee42bdea1c666e3e96cfa43e2a74",
+        "char_span": [
+          110256,
+          110338
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            110256,
+            110338
+          ],
+          [
+            112310,
+            112444
+          ]
+        ],
+        "quote_parts": [
+          "If these houses are occupied by malefics the resultant yoga is called Papakartari.",
+          "Papakartari Yoga will make the person miserable, bereft of wife and children. He will have defective limbs and will have a short life."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "all": [
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 12
+                }
+              },
+              {
+                "nature": {
+                  "graha": "?g1",
+                  "nature": "malefic"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 2
+                }
+              },
+              {
+                "nature": {
+                  "graha": "?g2",
+                  "nature": "malefic"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Papakartari"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Papakartari Yoga: malefics occupying both the 12th and the 2nd reckoned from the Lagna, on the same unrestricted pool as PD.06.Subhakartari.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.06.Susubha",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "8",
+        "page_anchor": "phaladeepika/p0060",
+        "tier": 1,
+        "quote": "If benefics without being aspected by malefics occupy the 2nd house from the Lagna, the Yoga so arising is known as Susubha.",
+        "quote_display": "If benefics without being aspected by malefics occupy the 2nd house from the Lagna, the Yoga so arising is known as Susubha.",
+        "quote_sha256": "9dc6cbd4775496482c5ad791e71ad3d58670c422e583d1a536f1231136f457e5",
+        "char_span": [
+          110342,
+          110466
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "all": [
+              {
+                "in_house": {
+                  "graha": "?g",
+                  "house": 2
+                }
+              },
+              {
+                "nature": {
+                  "graha": "?g",
+                  "nature": "benefic"
+                }
+              }
+            ]
+          },
+          {
+            "not": {
+              "all": [
+                {
+                  "aspects": {
+                    "graha": "?m",
+                    "target": 2
+                  }
+                },
+                {
+                  "nature": {
+                    "graha": "?m",
+                    "nature": "malefic"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Susubha"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Susubha Yoga: a benefic in the 2nd from the Lagna that no malefic aspects. Verse 13 states that Susubha's effects (and Subhakartari's, and Subhavesi's) 'would be the same as ... in case of Sunapha and other Yogas', but Sunapha's own effects were never individually encoded -- verse 5 names Sunapha, Anapha and Durudhara collectively without saying which house-condition earns which name (concept:sunapha-anapha-durudhara-naming) -- so no card here carries verse 13's effect text. Recorded as passage:phaladeepika.06.p070.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.06.Vesi.AuthoritativeWorks",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "8 (Notes)",
+        "page_anchor": "phaladeepika/p0060",
+        "tier": 2,
+        "quote": "Notes — In most of the authoritative works of Hindu Astrology differendation lias been made between malefics and benefics in forming Subhavesi, Subhavasi and Subhobhayachari Yogas. According to them —\r\n\r\n(1) The yoga is called Subhavesi if amongst Mars, Mercury, Jupiter, Venus and Saturn, any of them is in the 2nd to the Sun.\r\n\r\n(2) The Yoga is known as Subhavasi if any amongst the planets mentioned above is in the 12th to the Sun.\r\n\r\n(3) If any or more of the above planets are in the 2nd and 12th the Yoga is known as Ubhayachari Yoga.",
+        "quote_display": "Notes — In most of the authoritative works of Hindu Astrology differendation lias been made between malefics and benefics in forming Subhavesi, Subhavasi and Subhobhayachari Yogas. According to them — (1) The yoga is called Subhavesi if amongst Mars, Mercury, Jupiter, Venus and Saturn, any of them is in the 2nd to the Sun. (2) The Yoga is known as Subhavasi if any amongst the planets mentioned above is in the 12th to the Sun. (3) If any or more of the above planets are in the 2nd and 12th the Yoga is known as Ubhayachari Yoga.",
+        "quote_sha256": "69152889a2507bc31042239474d4ac986a29d8a523dec804dd247f47a755d14c",
+        "char_span": [
+          110470,
+          111011
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Vesi/Vasi/Ubhayachari",
+        "authority": "unnamed \"authoritative works\" (per translator)"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "activation": "reference",
+      "note": "The translator reports that most authoritative works of Hindu astrology do not split Vesi/Vasi/Ubhayachari by benefic/malefic nature at all: any of five named grahas (Mars, Mercury, Jupiter, Venus, Saturn -- the Sun excluded because it is the reference point, the Moon and nodes excluded as in Mantreswara's own verse) in the 2nd or 12th from the Sun forms the yoga regardless of that graha's nature. The translator then states an editorial preference for Mantreswara's benefic/malefic reading ('very logical and therefore correct'); that preference is the translator's opinion, not doctrine, and is not adopted here -- both readings stand.",
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.Subhavesi",
+        "PD.06.Subhavasi",
+        "PD.06.Subhobhayachari",
+        "PD.06.Papavesi",
+        "PD.06.Papavasi",
+        "PD.06.Papobhayachari"
+      ]
+    },
+    {
+      "id": "PD.06.VesiVasi.Saravali",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "11 (Notes)",
+        "page_anchor": "phaladeepika/p0061",
+        "tier": 2,
+        "quote": "Notes — Saravali which makes no differences between Subhavesi and Subhavasi and Asubhavesi and Asubhavasi Yogas has given effects of different planets forming Vesi and Vasi and Ubhayachari Yogas. According to Saravali should Jupiter cause Vesi Yoga, the native will accumulate money, be learned and be good-treated. If Venus produces this yoga, the person will be timid, will face obstacles in his missions, will have pleasant (swift) movements and will be defeated. Mercury's participation Indicates that native will be a servant, will suffer penury, be soft-spoken and be modest. He will be bashful. Mars denotes that native will resort to base means but will be helpful to others. If it is Saturn that causes vesi yoga, one will join others' wives, will be wicked, will resemble an old person in appearence, will be fraudulent in disposition and be contemptuous. He will, however, have wealth.\r\n\r\nIf Jupiter should cause vasi yoga, the native will possess courage, strength and wisdom. He keeps up his word. In the case of Venus, the person will be valorous, famous, virtuous and reputed. Mercury emanating this Yoga will make one speak sweetly. He will be beautiful and will obey other's orders. The Vasi Yoga caused by Mars indicates that the subject will be victorious in war, will be famous and will own fortunes. If the Yoga is caused by Saturn, the native will be\r\n\r\n<!-- page phaladeepika/p0062 -->\r\nbusinessman, wicked, will steel others' money, will hate elders and will be husband of a pious woman.",
+        "quote_display": "Notes — Saravali which makes no differences between Subhavesi and Subhavasi and Asubhavesi and Asubhavasi Yogas has given effects of different planets forming Vesi and Vasi and Ubhayachari Yogas. According to Saravali should Jupiter cause Vesi Yoga, the native will accumulate money, be learned and be good-treated. If Venus produces this yoga, the person will be timid, will face obstacles in his missions, will have pleasant (swift) movements and will be defeated. Mercury's participation Indicates that native will be a servant, will suffer penury, be soft-spoken and be modest. He will be bashful. Mars denotes that native will resort to base means but will be helpful to others. If it is Saturn that causes vesi yoga, one will join others' wives, will be wicked, will resemble an old person in appearence, will be fraudulent in disposition and be contemptuous. He will, however, have wealth. If Jupiter should cause vasi yoga, the native will possess courage, strength and wisdom. He keeps up his word. In the case of Venus, the person will be valorous, famous, virtuous and reputed. Mercury emanating this Yoga will make one speak sweetly. He will be beautiful and will obey other's orders. The Vasi Yoga caused by Mars indicates that the subject will be victorious in war, will be famous and will own fortunes. If the Yoga is caused by Saturn, the native will be businessman, wicked, will steel others' money, will hate elders and will be husband of a pious woman.",
+        "quote_sha256": "02d970367bd94f6cd4abf747a3f736b370151142b16c23a1534eb04f78f97eb4",
+        "char_span": [
+          112448,
+          113959
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Vesi/Vasi",
+        "authority": "Saravali"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "activation": "reference",
+      "note": "Phaladeepika's translator reporting Saravali's doctrine that Vesi and Vasi Yogas do not carry a single benefic/malefic effect each, but a distinct effect per graha that causes them: Jupiter, Venus, Mercury, Mars and Saturn are each given their own Vesi effect and their own Vasi effect (ten distinct claims in one passage). Saravali also makes no distinction between Subhavesi/Subhavasi and Asubhavesi/Asubhavasi -- i.e. this authority does not split by nature the way Mantreswara's verse 8 does. Attributed doctrine from a second book, encoded as Phaladeepika reporting it, as one reference card rather than exploded per graha (matching PD.06.PanchaMahapurusha.Saravali); it corroborates PD.06.Subhavesi/.Subhavasi/.Papavesi/.Papavasi without adding a new independently-firing claim.",
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.Subhavesi",
+        "PD.06.Subhavasi",
+        "PD.06.Papavesi",
+        "PD.06.Papavasi"
+      ]
+    },
+    {
+      "id": "PD.06.Amala.V12",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "12 (and Notes)",
+        "page_anchor": "phaladeepika/p0062",
+        "tier": 1,
+        "quote": "12. The person born with Amala Yoga at birth will be virtuous, will have faith in religion, will be happy, fortunate, will be honoured by the king, have an amiable nature and will always have a smile on his face. […] Notes — Amala Yoga is formed when there is a benefic planet in the 10th. house from the Lagna or the Moon.",
+        "quote_display": "12. The person born with Amala Yoga at birth will be virtuous, will have faith in religion, will be happy, fortunate, will be honoured by the king, have an amiable nature and will always have a smile on his face. […] Notes — Amala Yoga is formed when there is a benefic planet in the 10th. house from the Lagna or the Moon.",
+        "quote_sha256": "92beb51d7275a5e9e7782efcd5f8653299d9401c75c2a75ec4b848acb7d71ecd",
+        "char_span": [
+          113963,
+          114175
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            113963,
+            114175
+          ],
+          [
+            114179,
+            114285
+          ]
+        ],
+        "quote_parts": [
+          "12. The person born with Amala Yoga at birth will be virtuous, will have faith in religion, will be happy, fortunate, will be honoured by the king, have an amiable nature and will always have a smile on his face.",
+          "Notes — Amala Yoga is formed when there is a benefic planet in the 10th. house from the Lagna or the Moon."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Amala"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "activation": "reference",
+      "note": "Amala Yoga is stated twice in this chapter under the identical condition (a benefic in the 10th from the Lagna or the Moon): here at verse 12, whose Notes give the condition; Mantreswara states the same condition a second time at verse 19 as PD.06.Amala, which is the card that actually tests it. The two effect sentences differ ('virtuous ... amiable ... a smile on his face' here; 'possess lands ... wealthy ... blessed with sons' at v.19-20) though the condition is the same, so this card is a citation of the restatement, not an independently testable rule -- it carries no condition of its own so the store does not count the same configuration as two independent corroborating cards from the same author.",
+      "exclusions": [],
+      "parallel_of": [
+        "PD.06.Amala"
+      ]
     }
   ]
 }

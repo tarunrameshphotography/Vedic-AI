@@ -454,3 +454,160 @@ def test_released_cards_use_no_placeholder_sentinels():
             continue
         for key, value in walk(card.conditions):
             assert value not in ("any", "malefic_placeholder"), (card.id, key)
+
+
+# --- Vesi/Vasi/Ubhayachari, Kartari and Susubha (chapter 6 slice 5, v. 8-13) -
+
+def test_subhavesi_fires_on_a_clean_mercury_second_from_the_sun(cards):
+    """PD.06.Subhavesi: a benefic among the six-graha pool in the 2nd from
+    the Sun. Mercury unassociated with malefics is the easiest benefic to
+    produce without chapter 4, since Jupiter and Venus are never classified
+    (concept:phaladeepika.nature-benefics)."""
+    card = next(c for c in cards if c.id == "PD.06.Subhavesi")
+    fs = facts(
+        ("in_house_from", {"graha": "Mercury", "reference": "Sun", "house": 2}),
+        ("nature", {"graha": "Mercury", "nature": "benefic"}),
+    )
+    assert evaluate(card.conditions, fs).satisfied
+
+
+def test_subhavesi_excludes_the_moon_even_when_the_moon_is_benefic(cards):
+    """Verse 8 excludes the Moon by name from this yoga's pool, unlike
+    Kemadruma's 'planets' at v.5. A waxing (benefic) Moon in the 2nd from
+    the Sun must not satisfy Subhavesi."""
+    card = next(c for c in cards if c.id == "PD.06.Subhavesi")
+    fs = facts(
+        ("in_house_from", {"graha": "Moon", "reference": "Sun", "house": 2}),
+        ("nature", {"graha": "Moon", "nature": "benefic"}),
+    )
+    assert not evaluate(card.conditions, fs).satisfied
+
+
+def test_subhavesi_excludes_the_nodes_even_if_they_were_benefic(cards):
+    """Rahu/Ketu are always malefic in this store's own nature doctrine, so
+    this is belt-and-braces: even a (hypothetically) benefic-tagged node
+    must not satisfy the pool, because it is not one of the six named
+    grahas verse 8 allows."""
+    card = next(c for c in cards if c.id == "PD.06.Subhavesi")
+    fs = facts(
+        ("in_house_from", {"graha": "Rahu", "reference": "Sun", "house": 2}),
+        ("nature", {"graha": "Rahu", "nature": "benefic"}),
+    )
+    assert not evaluate(card.conditions, fs).satisfied
+
+
+def test_papavesi_fires_on_mars_second_from_the_sun(cards):
+    """PD.06.Papavesi: named 'Papavesi' at v.8 and 'Asubhavesi' at v.10 for
+    the same configuration; the card tests the condition regardless of
+    which name is quoted for its effect."""
+    card = next(c for c in cards if c.id == "PD.06.Papavesi")
+    fs = facts(
+        ("in_house_from", {"graha": "Mars", "reference": "Sun", "house": 2}),
+        ("nature", {"graha": "Mars", "nature": "malefic"}),
+    )
+    assert evaluate(card.conditions, fs).satisfied
+
+
+def test_subhobhayachari_needs_both_houses_occupied(cards):
+    """PD.06.Subhobhayachari: a benefic in the 2nd from the Sun alone is
+    Subhavesi, not Subhobhayachari -- both the 2nd and 12th must be
+    occupied by (not necessarily the same) benefic."""
+    card = next(c for c in cards if c.id == "PD.06.Subhobhayachari")
+    only_second = facts(
+        ("in_house_from", {"graha": "Mercury", "reference": "Sun", "house": 2}),
+        ("nature", {"graha": "Mercury", "nature": "benefic"}),
+    )
+    assert not evaluate(card.conditions, only_second).satisfied
+    second_and_malefic_twelfth = facts(
+        ("in_house_from", {"graha": "Mercury", "reference": "Sun", "house": 2}),
+        ("nature", {"graha": "Mercury", "nature": "benefic"}),
+        ("in_house_from", {"graha": "Saturn", "reference": "Sun", "house": 12}),
+        ("nature", {"graha": "Saturn", "nature": "malefic"}),
+    )
+    # Saturn in the 12th is malefic, not benefic, so this still must not fire.
+    assert not evaluate(card.conditions, second_and_malefic_twelfth).satisfied
+    both_benefic = facts(
+        ("in_house_from", {"graha": "Mercury", "reference": "Sun", "house": 2}),
+        ("nature", {"graha": "Mercury", "nature": "benefic"}),
+        ("in_house_from", {"graha": "Jupiter", "reference": "Sun", "house": 12}),
+        ("nature", {"graha": "Jupiter", "nature": "benefic"}),
+    )
+    assert evaluate(card.conditions, both_benefic).satisfied
+
+
+def test_subhakartari_reads_absolute_houses_from_the_lagna_not_the_sun(cards):
+    """PD.06.Subhakartari: unlike the Vesi/Vasi family, this sentence carries
+    no Sun-reference and no Moon/node exclusion -- it is benefics in the
+    plain 2nd and 12th from the Lagna, on the full graha pool."""
+    card = next(c for c in cards if c.id == "PD.06.Subhakartari")
+    fs = facts(
+        ("in_house", {"graha": "Moon", "house": 12}),
+        ("nature", {"graha": "Moon", "nature": "benefic"}),
+        ("in_house", {"graha": "Mercury", "house": 2}),
+        ("nature", {"graha": "Mercury", "nature": "benefic"}),
+    )
+    assert evaluate(card.conditions, fs).satisfied
+
+
+def test_papakartari_does_not_fire_on_a_single_occupied_house(cards):
+    card = next(c for c in cards if c.id == "PD.06.Papakartari")
+    fs = facts(
+        ("in_house", {"graha": "Saturn", "house": 2}),
+        ("nature", {"graha": "Saturn", "nature": "malefic"}),
+    )
+    assert not evaluate(card.conditions, fs).satisfied
+
+
+def test_susubha_fires_on_an_unaspected_benefic_in_the_second(cards):
+    card = next(c for c in cards if c.id == "PD.06.Susubha")
+    fs = facts(
+        ("in_house", {"graha": "Mercury", "house": 2}),
+        ("nature", {"graha": "Mercury", "nature": "benefic"}),
+    )
+    assert evaluate(card.conditions, fs).satisfied
+
+
+def test_susubha_is_cancelled_by_a_malefics_aspect_on_the_second(cards):
+    """The cancellation is on the house, not on the graha occupying it --
+    'without being aspected by malefics' targets the 2nd house itself."""
+    card = next(c for c in cards if c.id == "PD.06.Susubha")
+    fs = facts(
+        ("in_house", {"graha": "Mercury", "house": 2}),
+        ("nature", {"graha": "Mercury", "nature": "benefic"}),
+        ("aspects", {"graha": "Saturn", "target": 2}),
+        ("nature", {"graha": "Saturn", "nature": "malefic"}),
+    )
+    assert not evaluate(card.conditions, fs).satisfied
+
+
+def test_amala_v12_is_a_citation_and_never_an_independent_claim(cards):
+    """PD.06.Amala.V12 restates PD.06.Amala's own condition under a second
+    verse number with different effect wording; it must carry no testable
+    condition of its own, or the store would count one classical author
+    saying the same thing once as two independent corroborating cards."""
+    card = next(c for c in cards if c.id == "PD.06.Amala.V12")
+    assert card.activation == "reference"
+    assert card.conditions == {"all": []}
+
+
+def test_subhavasi_fires_end_to_end_on_a_real_chart(provider):
+    """Real-chart sanity check for this slice: 1990-06-01 06:15 IST at
+    Thanjavur places Mercury, clean of malefic company, in the 12th house
+    reckoned from the Sun -- PD.06.Subhavasi's condition -- via the actual
+    ephemeris, not a hand-built FactSet."""
+    from Engine.activate import activate
+    rec = BirthRecord(
+        date="1990-06-01", time="06:15", timezone="Asia/Kolkata",
+        latitude=10.7870, longitude=79.1378, place_name="Thanjavur",
+        time_precision="minute", time_source="certificate", sex="male",
+    )
+    chart = compute_chart(resolve_birth(rec, provider), provider)
+    cards = load_cards(RULES)
+    doctrine = Doctrine.from_cards(cards)
+    fs = extract_facts(chart, doctrine)
+    claims, _ = activate(chart, fs, cards)
+    fired = {c.derived["rule_card"] for c in claims}
+    assert "PD.06.Subhavasi" in fired
+    mercury_facts = {f.args["house"] for f in fs.by_predicate("in_house_from")
+                      if f.args["graha"] == "Mercury" and f.args["reference"] == "Sun"}
+    assert mercury_facts == {12}

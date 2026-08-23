@@ -6,14 +6,14 @@ Nothing may be silently deferred. Inert cards are read out of the store, deferre
 
 | | |
 |---|---|
-| Backlog entries | **85** |
+| Backlog entries | **86** |
 | — of kind `card` | 20 |
-| — of kind `passage` | 40 |
+| — of kind `passage` | 41 |
 | — of kind `chapter` | 22 |
 | — of kind `concept` | 3 |
 | Resolved | 0 |
-| Cards in store | 381 |
-| Firing | 361 |
+| Cards in store | 393 |
+| Firing | 373 |
 | Inert | 20 |
 
 ## Dependencies
@@ -27,8 +27,8 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 | `dep.strength` — planetary and house strength (Stage 4) | calculator | no | 11 | 8 | 2 (engine completion) |
 | `dep.condition-variables` — variables in the condition language | schema | yes | 9 | 9 | 4 (integration) |
 | `dep.adjudication` — Stage 7 adjudication | engine | no | 7 | 1 | 4 (integration) |
+| `dep.manual-verification` — human verification of the encoding | process | no | 7 | 1 | 3 (knowledge) |
 | `dep.dasa` — vimshottari dasa engine | calculator | no | 6 | 3 | 2 (engine completion) |
-| `dep.manual-verification` — human verification of the encoding | process | no | 6 | 1 | 3 (knowledge) |
 | `dep.varga` — varga (divisional chart) engine | calculator | no | 6 | 5 | 2 (engine completion) |
 | `dep.aspects` — aspect engine | predicate | yes | 5 | 4 | 2 (engine completion) |
 | `dep.nature` — benefic/malefic classification | calculator | yes | 4 | 4 | 3 (knowledge) |
@@ -99,7 +99,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `chapter:phaladeepika.27` | phaladeepika | 27 | whole chapter - Yogas leading to ascetism | sanyasa yogas | Rule-dense and encodable now; deferred by ordering only. | `dep.none` | 3 (knowledge) | deferred |
 | `chapter:phaladeepika.28` | phaladeepika | 28 | whole chapter - Concluding Chapter | the author's colophon and closing remarks | Narrative, not doctrine. Will be reviewed once for any rule hidden in the closing remarks, then written off. | `dep.none` | 3 (knowledge) | deferred |
 
-### Passages inside encoded chapters (40)
+### Passages inside encoded chapters (41)
 
 | Entry | Book | Chapter | Locus | Deferred | Reason | Blocked on | Phase | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -122,7 +122,8 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `passage:phaladeepika.06.p038` | phaladeepika | 6 | p.58, unnumbered (Hora Sara doctrine) | Hora Sara's alternate Kemadruma Yoga definition, with an explicit Sun/nodes exclusion and a kendra-occupation cancellation | A third authority's Kemadruma doctrine, materially different from Mantreswara's own (v.5, encoded in PD.06.Kemadruma): the Moon must have no planet 'on eithe… | `dep.manual-verification` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.06.p039` | phaladeepika | 6 | printed p.59 | Sardar Patel's horoscope, illustrating Sasa and Ruchaka Yogas | Tier-3 apparatus: a worked example, not a rule. Recorded as deliberately excluded, not pending. | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.06.p043` | phaladeepika | 6 | p.59 (Jataka Parijata's alternate Kemadruma variants, items 2-5) | Four more alternate Kemadruma Yoga definitions attributed to Jataka Parijata, plus a translator's aside citing Saravali's permutation count | Item (1) of this five-item list is independently testable and is encoded as PD.06.Kemadruma.JatakaParijata1. Items (2)-(5) are not: (2) needs dep.strength ('… | `dep.strength`, `dep.ashtakavarga`, `dep.varga` | 2 (engine completion) + 3 (knowledge) | deferred |
-| `passage:phaladeepika.06.p053` | phaladeepika | 6 | vv. 8-13 (p.60-62) | Subhavesi, Subhavasi, Ubhayachari, Subhakartari, Papakartari and Susubha Yogas | Not yet encoded; deferred by ordering. Verse 8 (benefic-only) is explicitly contested by an unnamed "authoritative works" reading (any of five named grahas, … | `dep.none` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.06.p060` | phaladeepika | 6 | v. 8 Notes (p.60) | the translator's editorial preference for Mantreswara's benefic/malefic reading of Vesi/Vasi/Ubhayachari over the "authoritative works" reading he has just quoted | Tier-3 apparatus: the translator's own opinion ('We feel that Mantreswara's views are very logical and therefore correct'), not doctrine from either authorit… | `dep.none` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.06.p070` | phaladeepika | 6 | v. 13 (p.62) | the cross-reference stating that Susubha, Subhakartari and Subhavesi (and the rest of that family) share their effects with Sunapha and its family, benefic-caused effects mirroring benefic-caused, malefic mirroring malefic | A rule-transfer claim (dep.rule-transfer is implemented) that cannot be encoded because the thing it transfers from does not exist as a card: Sunapha's own e… | `dep.manual-verification` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.06.p075` | phaladeepika | 6 | printed p.63 | an unnamed horoscope illustrating Kesari and Sakata Yogas | Tier-3 apparatus: a worked example, not a rule. Recorded as deliberately excluded, not pending. | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.06.p081` | phaladeepika | 6 | v. 15 Notes (p.63) | the translator's note that Indira Gandhi's chart matched every Mahabhagya effect but one | The one mismatch (her husband was not longlived) is attributed to "other adverse planetary dispositions" rather than treated as a counterexample to the rule … | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.06.p084` | phaladeepika | 6 | printed p.63-64 | Jawahar Lal Nehru's horoscope, illustrating Sakata Yoga cancelled by the Moon in the lagna | Tier-3 apparatus: a worked example, not a rule. Recorded as deliberately excluded, not pending. | `dep.none` | 3 (knowledge) | deferred |

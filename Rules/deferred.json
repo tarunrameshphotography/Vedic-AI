@@ -1274,36 +1274,36 @@
       ]
     },
     {
-      "id": "passage:phaladeepika.06.p053",
+      "id": "passage:phaladeepika.06.p060",
       "kind": "passage",
       "book": "phaladeepika",
       "chapter": 6,
-      "locus": "vv. 8-13 (p.60-62)",
-      "what": "Subhavesi, Subhavasi, Ubhayachari, Subhakartari, Papakartari and Susubha Yogas",
-      "reason": "Not yet encoded; deferred by ordering. Verse 8 (benefic-only) is explicitly contested by an unnamed \"authoritative works\" reading (any of five named grahas, regardless of nature) in the Notes, with the translator stating an editorial preference for Mantreswara's reading that must not be used to silently pick one. Saravali's Notes further give per-graha effects for Vesi and Vasi yogas, attributed doctrine from a second book. Verse 13 cross-references \"the same as Sunapha and other yogas\" -- a rule-transfer candidate (dep.rule-transfer, already implemented) for the later slice.",
+      "locus": "v. 8 Notes (p.60)",
+      "what": "the translator's editorial preference for Mantreswara's benefic/malefic reading of Vesi/Vasi/Ubhayachari over the \"authoritative works\" reading he has just quoted",
+      "reason": "Tier-3 apparatus: the translator's own opinion ('We feel that Mantreswara's views are very logical and therefore correct'), not doctrine from either authority. Recorded as deliberately excluded, not pending -- adopting it would mean the engine silently picking a side between PD.06.Subhavesi/.Subhavasi/.Subhobhayachari/.Papavesi/.Papavasi/.Papobhayachari and PD.06.Vesi.AuthoritativeWorks, which is Stage 7's job.",
       "requires": [
         "dep.none"
       ],
       "phase": "3 (knowledge)",
       "status": "deferred",
       "paragraphs": [
-        53,
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        61,
-        62,
-        63,
-        64,
-        65,
-        66,
-        67,
-        68,
-        69,
+        60
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p070",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "v. 13 (p.62)",
+      "what": "the cross-reference stating that Susubha, Subhakartari and Subhavesi (and the rest of that family) share their effects with Sunapha and its family, benefic-caused effects mirroring benefic-caused, malefic mirroring malefic",
+      "reason": "A rule-transfer claim (dep.rule-transfer is implemented) that cannot be encoded because the thing it transfers from does not exist as a card: Sunapha's own effects were never individually recorded, since verse 5 names Sunapha, Anapha and Durudhara collectively without saying which house-condition (2nd-only, 12th-only, or both) earns which name -- concept:sunapha-anapha-durudhara-naming. Encoding this transfer would require picking a Sunapha effect to point at, which is exactly the choice that concept leaves open.",
+      "requires": [
+        "dep.manual-verification"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
         70
       ]
     },
