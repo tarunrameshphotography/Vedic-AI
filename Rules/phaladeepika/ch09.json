@@ -44,8 +44,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against the quoted verse: condition lagna_sign matches \"the Ascendant falls in/be Aries\", predicts.sign matches the same sign named in the quote)",
+        "verified_date": "2026-08-23"
       },
       "exclusions": []
     },
@@ -91,8 +91,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against the quoted verse: condition lagna_sign matches \"the Ascendant falls in/be Taurus\", predicts.sign matches the same sign named in the quote)",
+        "verified_date": "2026-08-23"
       },
       "exclusions": []
     },
@@ -138,8 +138,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against the quoted verse: condition lagna_sign matches \"the Ascendant falls in/be Gemini\", predicts.sign matches the same sign named in the quote)",
+        "verified_date": "2026-08-23"
       },
       "exclusions": []
     },
@@ -185,8 +185,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against the quoted verse: condition lagna_sign matches \"the Ascendant falls in/be Cancer\", predicts.sign matches the same sign named in the quote)",
+        "verified_date": "2026-08-23"
       },
       "exclusions": []
     },
@@ -232,8 +232,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against the quoted verse: condition lagna_sign matches \"the Ascendant falls in/be Leo\", predicts.sign matches the same sign named in the quote)",
+        "verified_date": "2026-08-23"
       },
       "exclusions": []
     },
@@ -279,8 +279,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against the quoted verse: condition lagna_sign matches \"the Ascendant falls in/be Virgo\", predicts.sign matches the same sign named in the quote)",
+        "verified_date": "2026-08-23"
       },
       "exclusions": []
     },
@@ -326,8 +326,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against the quoted verse: condition lagna_sign matches \"the Ascendant falls in/be Libra\", predicts.sign matches the same sign named in the quote)",
+        "verified_date": "2026-08-23"
       },
       "exclusions": []
     },
@@ -373,8 +373,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against the quoted verse: condition lagna_sign matches \"the Ascendant falls in/be Scorpio\", predicts.sign matches the same sign named in the quote)",
+        "verified_date": "2026-08-23"
       },
       "exclusions": []
     },
@@ -420,8 +420,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against the quoted verse: condition lagna_sign matches \"the Ascendant falls in/be Sagittarius\", predicts.sign matches the same sign named in the quote)",
+        "verified_date": "2026-08-23"
       },
       "exclusions": []
     },
@@ -467,8 +467,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against the quoted verse: condition lagna_sign matches \"the Ascendant falls in/be Capricorn\", predicts.sign matches the same sign named in the quote)",
+        "verified_date": "2026-08-23"
       },
       "exclusions": []
     },
@@ -514,8 +514,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against the quoted verse: condition lagna_sign matches \"the Ascendant falls in/be Aquarius\", predicts.sign matches the same sign named in the quote)",
+        "verified_date": "2026-08-23"
       },
       "exclusions": []
     },
@@ -561,8 +561,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against the quoted verse: condition lagna_sign matches \"the Ascendant falls in/be Pisces\", predicts.sign matches the same sign named in the quote)",
+        "verified_date": "2026-08-23"
       },
       "exclusions": []
     },
@@ -609,8 +609,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (condition in_sign(Moon, ?s) and the meta-effect match the quote's own transfer principle -- Ascendant effects apply when the Moon occupies that sign)",
+        "verified_date": "2026-08-23"
       },
       "kind": "meta",
       "note": "Fires on its own words rather than being expanded into twelve derivative cards: the verse asserts a transfer principle -- whatever was declared for the Ascendant sign also holds when the Moon occupies it -- without itself restating the twelve lists PD.09.Lagna.* already carry. Encoding it as those twelve cards re-quoted under a Moon condition would misattribute their own words (\"If the Ascendant falls in Aries...\" is not true of a chart where the Moon, not the lagna, is in Aries); this card instead states the transfer itself as its own claim, naming the sign the reader must cross-reference.",
@@ -659,8 +659,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (condition dignity(?g, exalted) matches \"a planet be in his sign of exaltation\")",
+        "verified_date": "2026-08-23"
       },
       "note": "One claim per exalted graha.",
       "exclusions": []
@@ -708,8 +708,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (condition dignity(?g, own) matches \"occupy his own sign\"; dasa timing matches \"during the dasa of such a planet\")",
+        "verified_date": "2026-08-23"
       },
       "note": "The condition is natal; the effect is dasa-timed and the quote says so in the reader's own view.",
       "exclusions": []
@@ -806,8 +806,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (condition matches \"a planet gets posited in an inimical sign\"; correctly marked inert -- graha:\"any\" is a sentinel that matches no fact key, per the card's own note, needs dep.condition-variables to become a real variable)",
+        "verified_date": "2026-08-23"
       },
       "activation": "inert",
       "note": "Universally quantified over the grahas. `graha: \"any\"` is a sentinel, not a body, and matches no fact key.",
@@ -861,8 +861,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (condition dignity(?g, debilitated) matches \"occupies his sign of debilitation\"; dasa timing matches \"during the dasa of such a planet\")",
+        "verified_date": "2026-08-23"
       },
       "note": "The condition is natal; the effect is dasa-timed and the quote says so in the reader's own view.",
       "exclusions": []
@@ -911,8 +911,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (translator's dissent quoted verbatim; correctly fires on the same condition as, and is linked as contradicting, PD.09.Dignity.Exalted)",
+        "verified_date": "2026-08-23"
       },
       "kind": "commentary",
       "note": "The translator's dissent from verse 14, activated on the same condition as the verse it contradicts, so a reader sees both.",
@@ -963,8 +963,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (condition combust(?g) matches \"a planet be combust\"; dasa timing matches \"during his Dasa\")",
+        "verified_date": "2026-08-23"
       },
       "note": "Combustion is computed from the orbs encoded at ch. 2 v. 36; the effect is dasa-timed and the quote says so.",
       "exclusions": []
@@ -1060,8 +1060,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "automated (Rules/tools/review.py): reference/table card -- the quote is the fact itself, with no interpretation between quote and card; byte-exact verification (verify.py) is the complete check such a card can receive",
+        "verified_date": "2026-08-23"
       },
       "kind": "meta",
       "activation": "reference",
@@ -1110,8 +1110,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (condition matches \"a planet who is vargottama\"; correctly marked inert -- the vargottama predicate is not yet derivable by Engine/facts.py, per dep.vargottama)",
+        "verified_date": "2026-08-23"
       },
       "kind": "meta",
       "activation": "inert",
