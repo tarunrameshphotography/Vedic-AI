@@ -12,8 +12,8 @@ Nothing may be silently deferred. Inert cards are read out of the store, deferre
 | — of kind `chapter` | 22 |
 | — of kind `concept` | 3 |
 | Resolved | 0 |
-| Cards in store | 404 |
-| Firing | 384 |
+| Cards in store | 405 |
+| Firing | 385 |
 | Inert | 20 |
 
 ## Dependencies

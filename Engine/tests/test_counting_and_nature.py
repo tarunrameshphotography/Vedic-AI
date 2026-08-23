@@ -1142,6 +1142,48 @@ def test_raja_and_shankha_have_correct_provenance():
         assert card.book_id == "phaladeepika"
 
 
+# --- PD.08.Saturn.01 dignity split (chapter 8 verification, 2026-08-24) -----
+
+def test_saturn_in_lagna_own_or_exalted_fires_only_the_favourable_card():
+    """The quote states two mutually exclusive outcomes for Saturn in the
+    Lagna, conditioned on its dignity there. Own/exaltation must fire
+    .OwnOrExalted and must not fire .OtherSign."""
+    cards = load_cards(RULES)
+    good = next(c for c in cards if c.id == "PD.08.Saturn.01.OwnOrExalted")
+    bad = next(c for c in cards if c.id == "PD.08.Saturn.01.OtherSign")
+    fs = facts(
+        ("in_house", {"graha": "Saturn", "house": 1}),
+        ("dignity", {"graha": "Saturn", "dignity": "exalted"}),
+    )
+    assert evaluate(good.conditions, fs).satisfied
+    assert not evaluate(bad.conditions, fs).satisfied
+
+
+def test_saturn_in_lagna_other_sign_fires_only_the_unfavourable_card():
+    """Saturn in the Lagna in any sign that is neither its own nor its
+    exaltation sign must fire .OtherSign and must not fire .OwnOrExalted."""
+    cards = load_cards(RULES)
+    good = next(c for c in cards if c.id == "PD.08.Saturn.01.OwnOrExalted")
+    bad = next(c for c in cards if c.id == "PD.08.Saturn.01.OtherSign")
+    fs = facts(
+        ("in_house", {"graha": "Saturn", "house": 1}),
+        ("dignity", {"graha": "Saturn", "dignity": "neutral"}),
+    )
+    assert not evaluate(good.conditions, fs).satisfied
+    assert evaluate(bad.conditions, fs).satisfied
+
+
+def test_saturn_in_lagna_own_sign_also_fires_the_favourable_card():
+    """'Sign of exaltation ... or in his own sign' -- own sign is the other
+    half of the disjunction, not just exaltation."""
+    card = next(c for c in load_cards(RULES) if c.id == "PD.08.Saturn.01.OwnOrExalted")
+    fs = facts(
+        ("in_house", {"graha": "Saturn", "house": 1}),
+        ("dignity", {"graha": "Saturn", "dignity": "own"}),
+    )
+    assert evaluate(card.conditions, fs).satisfied
+
+
 def test_v37_raja_shankha_definition_is_transcribed_exactly_as_printed():
     """Regression guard for the exact source wording PD.06.RajaYoga's note
     relies on: the Shankha Yoga sentence, printed immediately after v.37's

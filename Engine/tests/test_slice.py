@@ -171,10 +171,23 @@ def test_every_card_quote_is_byte_exact_in_the_corpus(cards):
 
 
 def test_chapter_eight_is_complete(cards):
+    """9 bodies x 12 houses, with one deliberate exception.
+
+    PD.08.Saturn.01 was split during verification (2026-08-24) into
+    PD.08.Saturn.01.OwnOrExalted and .OtherSign: the quote itself states two
+    mutually exclusive outcomes conditioned on Saturn's dignity in the Lagna,
+    which a single in_house-only condition could not distinguish. So chapter 8
+    has 109 cards over 108 distinct (subject, house) pairs, and exactly one
+    pair -- Saturn in house 1 -- is covered by two dignity-discriminated cards
+    instead of one.
+    """
     ch8 = [c for c in cards if c.chapter == 8]
-    assert len(ch8) == 108           # 9 bodies x 12 houses
+    assert len(ch8) == 109
     seen = {(c.predicts["subject"], c.predicts["house"]) for c in ch8}
     assert len(seen) == 108
+    saturn_house1 = [c for c in ch8
+                     if c.predicts["subject"] == "Saturn" and c.predicts["house"] == 1]
+    assert {c.predicts.get("dignity") for c in saturn_house1} == {"own_or_exalted", "other"}
 
 
 def test_chapter_nine_covers_every_ascendant(cards):

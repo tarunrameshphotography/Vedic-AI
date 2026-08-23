@@ -5,35 +5,40 @@ astrologer would, where every predictive sentence traces to a rule printed in a 
 applied to a quantity that was actually computed. Governing rule: *the system may compute,
 and it may quote — it may not invent.*
 
-**Current production-readiness: 39%** (see §A for the weighted breakdown)
+**Current production-readiness: 40%** (see §A for the weighted breakdown)
 
 **Current phase:** Production Blocker Clearance Program (interrupts ordinary Phase 3
 rule extraction — see §J and §K). Phase 3 itself remains at the state described in §B.
 
-**Current milestone:** Milestone 17 — verification queue, chapter 6 batch (53 cards). See
-§J for the full production-blocker audit and §D below for the resume point.
+**Current milestone:** Milestone 18 — verification queue, chapter 8 batch (108 cards,
+1 genuine defect found and corrected). See §J for the full production-blocker audit and
+§D below for the resume point.
 
 **Exact resume point:** `git fetch --all --prune`, confirm `main` == `origin/main`, then
 read §K (Production Blocker Register, P1-1) and resume `Reports/VERIFICATION_QUEUE.md` at
-chapter 8 (108 cards, the largest single remaining chapter).
+chapter 10 (37 cards, the only chapter left in the queue).
 
-**Current Git SHA:** `7710c3a52ba23c6d998310cc7f851fd51acc872f` (parent — this milestone's
+**Current Git SHA:** `d38c83473450a6fb1eba106e807e149be7504007` (parent — this milestone's
 own commit follows this file's checkpoint)
 **Last verified remote SHA (origin/main):** same before this milestone's commit — 0 ahead /
 0 behind, working tree clean
 **Last update date:** 2026-08-24
 
-**Current test count:** 230 passing (`Engine/tests`)
-**Current rule-card counts:** 404 total · 384 executable (firing) · 20 inert (recorded, blocked)
-**Current verification:** 259/404 cards signed off (64%) — was 4/404 (1%) before Milestone 15.
-175 structural (reference/table) cards signed off by automated structural check; 84
+**Current test count:** 233 passing (`Engine/tests`) — was 230
+**Current rule-card counts:** 405 total · 385 executable (firing) · 20 inert (recorded, blocked)
+— `PD.08.Saturn.01` was split into two cards this session (see Milestone 18), so the store
+grew by one card without any new corpus material.
+**Current verification:** 368/405 cards signed off (91%) — was 4/404 (1%) before Milestone 15.
+175 structural (reference/table) cards signed off by automated structural check; 193
 interpretive cards signed off by human(+Claude) reading pass (3 pre-existing + 20 chapter 9
-+ 8 of chapters 1-2 + 53 of chapter 6, including two independently re-verified PDF-page spot
-checks — Kahala/Dainya's itemized Parivartana lists, and the Kahala-Dispositor/Parvata
-worked examples' hop counts — that both confirmed the prior session's claims exactly). 145
-interpretive cards remain queued — see `Reports/VERIFICATION_QUEUE.md`. One card
-(`PD.01.Kalapurusha.Strength`) was reviewed and deliberately left **unsigned**: a genuine
-condition defect was found (see §J.9/Milestone 16).
++ 8 of chapters 1-2 + 53 of chapter 6 + 109 of chapter 8, including two independently
+re-verified PDF-page spot checks from chapter 6 that both confirmed the prior session's
+claims exactly, and one genuine condition defect found and corrected in chapter 8 — see
+Milestone 18). 37 interpretive cards remain queued (all of chapter 10) — see
+`Reports/VERIFICATION_QUEUE.md`. One card (`PD.01.Kalapurusha.Strength`) remains
+deliberately **unsigned**: a genuine condition defect found in Milestone 16, correctly
+deferred because its fix needs `dep.strength` and `dep.condition-variables`, neither of
+which exist yet.
 **Backlog:** 89 entries (20 card, 44 passage, 22 chapter, 3 concept), 0 resolved
 
 ---
@@ -50,24 +55,25 @@ own warning that a system can have many cards while lacking reasoning capability
 |---|---:|---:|---|
 | Corpus completeness | 15% | 25% | 2 of 6 planned books converted and frozen (Brihat Jataka, Phaladeepika); 4 pending (BPHS, Jataka Parijata, Uttara Kalamrita, Saravali) behind a deliberate freeze. |
 | Source verification | 10% | 70% | Corpus pipeline verified byte-exact with hallucination detection, verse reconciliation, figure transcription for the 2 converted books; Devanagari glyph-level spot-check still owed on Brihat Jataka. |
-| Rule extraction/encoding | 20% | 36% | Phaladeepika chapters 1, 2, 8, 9, 10 encoded and 6 partially (through v.38 of ~70); 404 cards from an estimated ~1,535 total across all 28 Phaladeepika chapters at the measured 0.65 cards/paragraph rate — and that is one book of six. |
+| Rule extraction/encoding | 20% | 36% | Phaladeepika chapters 1, 2, 8, 9, 10 encoded and 6 partially (through v.38 of ~70); 405 cards (one card split into two during verification, not new corpus material) from an estimated ~1,535 total across all 28 Phaladeepika chapters at the measured 0.65 cards/paragraph rate — and that is one book of six. |
 | Reasoning engine capability | 15% | 45% | Stages 0, 1, 2, 6, 9, 10 implemented; Stage 3-5 (yogas/strength/houses as first-class computation) not built as dedicated stages; Stage 7 (adjudication) only partial (synthesis exists, weighting/cancellation does not); no varga, dasa, transit, ashtakavarga, or strength calculators yet. |
 | Contradiction handling | 10% | 55% | Competing authorities are preserved via `contradicts`/`extends` links and dual cards (e.g. PD.01 rising-sign dispute, PD.09 dignity dispute) — the mechanism works and is used repeatedly, but Stage 7 adjudication (weighing contradictions against each other) does not exist yet. |
-| Provenance/auditability | 10% | 93% | Every card is byte-exact hash-verified against the corpus on every run; `verify.py` enforces this as a build gate. `extraction.verified_by` now covers 259/404 cards (64%, was 4/404) via `Rules/tools/review.py`: 175 structural cards signed off automatically (no interpretive layer to review — the byte-exact check already is the complete verification), 84 interpretive cards signed off by an actual human(+Claude) reading pass across chapters 1, 2, 6 and 9. 145 interpretive cards remain queued in `Reports/VERIFICATION_QUEUE.md`. |
-| Test coverage | 10% | 61% | 230 tests (was 224), growing with every milestone, covering rule structure, engine extractors, variable binding, overrides, and now the verification tool itself; no dedicated end-to-end regression suite across the full corpus of encoded chapters yet. |
+| Provenance/auditability | 10% | 95% | Every card is byte-exact hash-verified against the corpus on every run; `verify.py` enforces this as a build gate. `extraction.verified_by` now covers 368/405 cards (91%, was 4/404) via `Rules/tools/review.py`: 175 structural cards signed off automatically (no interpretive layer to review — the byte-exact check already is the complete verification), 193 interpretive cards signed off by an actual human(+Claude) reading pass across chapters 1, 2, 6, 8 and 9. 37 interpretive cards remain queued (all of chapter 10) in `Reports/VERIFICATION_QUEUE.md`. |
+| Test coverage | 10% | 62% | 233 tests (was 224), growing with every milestone, covering rule structure, engine extractors, variable binding, overrides, the verification tool itself, and now the Saturn-dignity split found during chapter 8's review; no dedicated end-to-end regression suite across the full corpus of encoded chapters yet. |
 | End-to-end validation | 5% | 30% | CLI produces full 3-part consultations and has been spot-checked against real charts per milestone; no systematic charted validation set (Phase 6 of `Phases.txt`) exists yet. |
 | Multi-book corroboration | 3% | 0% | Only one book (Phaladeepika) has cards in the store; Brihat Jataka is corpus-converted but has zero rule cards. Cross-book agreement (a Phase 4 goal) cannot be assessed with one book. |
 | Production safety/reliability | 1% | 50% | Groundedness verification (Stage 9) refuses to emit ungrounded output; no rate limiting, error-recovery, or production deployment hardening attempted (not yet in scope). |
 | CLI/API/user-facing readiness | 1% | 40% | Working CLI (`Engine/cli.py`) produces real consultations; no API, no UI, no packaging. |
 
-**Overall Production Readiness: 0.15×25 + 0.10×70 + 0.20×36 + 0.15×45 + 0.10×55 + 0.10×93 +
-0.10×61 + 0.05×30 + 0.03×0 + 0.01×50 + 0.01×40 = 39.35% ≈ 39%**
+**Overall Production Readiness: 0.15×25 + 0.10×70 + 0.20×36 + 0.15×45 + 0.10×55 + 0.10×95 +
+0.10×62 + 0.05×30 + 0.03×0 + 0.01×50 + 0.01×40 = 39.55% ≈ 40%**
 
 (Was 39.05% before Milestone 15. The verification workflow keeps moving the needle on its
-own category — provenance/auditability rose 90→92→93 across Milestones 15-17 — but the
-category's 10% weight keeps the effect on the headline number below the rounding threshold.
-This is the expected shape of this kind of fix: the number that actually matters is 259/404
-verified, not the composite percentage, which is why §A tracks both.)
+own category — provenance/auditability rose 90→92→93→95 across Milestones 15-18 — and this
+session is the first time the composite number itself crosses a rounding boundary (39%→40%).
+The number that actually matters is still 368/405 verified, not the composite percentage,
+which is why §A tracks both — but it's worth noting explicitly the one time the smaller
+metric's movement was large enough to show up in the headline one.)
 
 This number should be recomputed (not incremented by feel) whenever a category's score
 changes materially — see §16.
@@ -80,7 +86,7 @@ changes materially — see §16.
 |---|---|---|---:|---|---|
 | Phase 1 | Corpus & OCR | **Not complete — documentation overstates it** | 33% | 2 of 6 books converted, verified, frozen (`Knowledge/brihat-jataka.md`, `Knowledge/phaladeepika.md`). `Phases.txt` marks "Phase 1 — Corpus & OCR" with a ✅, which is **inaccurate**: 4 books (BPHS Vol.1, Jataka Parijata Vol.1, Uttara Kalamrita, Saravali) are audited but not yet OCR'd/converted (`Reports/PROJECT_STATUS.md`). The pipeline architecture itself is frozen and proven across two structurally different books, which is what "frozen" refers to — not full corpus completeness. | Convert and verify the remaining 4 books; get Devanagari glyph-level spot-check on Brihat Jataka; write `Reports/conversion_report.md`. |
 | Phase 2 | Reasoning engine architecture | Core MVP complete; extensions ongoing | 55% | Stages 0,1,2,6,9,10 fully implemented (`Engine/chart.py`, `facts.py`, `activate.py`, `render.py`, `pipeline.py`). 13 fact extractors implemented (`Engine/facts.py`): lordship, sign classes, house classes, graha classes, aspects, combustion, dignity, dignity-friendship, occupant count, graha frame, conjunction, nature, nature occupancy. Stages 3-5 (yoga/strength/house computation as dedicated stages) and Stage 7 (adjudication) are the largest open items — see `dep.strength`, `dep.varga`, `dep.dasa`, `dep.adjudication`, `dep.ashtakavarga`, `dep.transit`, `dep.vargottama`, `dep.upagraha` in `Rules/deferred.json`, all currently `implemented: false`. | Build `dep.strength` (Stage 4, highest closure-unlock return), `dep.varga`, `dep.dasa`, `dep.adjudication`, `dep.ashtakavarga`, `dep.transit`. |
-| Phase 3 | Classical Knowledge Extraction | In progress | 26% | 404 cards from Phaladeepika chapters 1, 2, 6 (partial), 8, 9, 10 of 28 total chapters; 0 cards yet from Brihat Jataka despite it being corpus-converted. Estimated ~1,535 total cards across all 28 Phaladeepika chapters at the measured 0.65 cards/paragraph rate (`Reports/PHASE3_PLAN.md`), so 404/1535 ≈ 26% of just this one book, before Brihat Jataka or the 4 unconverted books are touched at all. | Continue chapter-by-chapter encoding (ch. 3, 4, 5, 6 remainder, 7, 11-28); start Brihat Jataka extraction; resolve `concept:manual-verification` (human sign-off, currently 4/404 cards). |
+| Phase 3 | Classical Knowledge Extraction | In progress | 26% | 404 cards from Phaladeepika chapters 1, 2, 6 (partial), 8, 9, 10 of 28 total chapters; 0 cards yet from Brihat Jataka despite it being corpus-converted. Estimated ~1,535 total cards across all 28 Phaladeepika chapters at the measured 0.65 cards/paragraph rate (`Reports/PHASE3_PLAN.md`), so 404/1535 ≈ 26% of just this one book, before Brihat Jataka or the 4 unconverted books are touched at all. | Continue chapter-by-chapter encoding (ch. 3, 4, 5, 6 remainder, 7, 11-28); start Brihat Jataka extraction; resolve `concept:manual-verification` (human sign-off, currently 368/405 cards, see §K P1-1). |
 | Phase 4 | Knowledge Integration | Not started | 5% | `dep.adjudication`, `dep.rule-transfer` (implemented), `dep.dignity-override` (implemented) exist as primitives but no rule-priority/weighting/cancellation system exists. Contradictory cards are recorded and linked but never adjudicated against each other at query time. | Design and build Stage 7 adjudication: conflict detection, priority, weighting, cancellation, cross-book agreement scoring. |
 | Phase 5 | Consultation Intelligence | Not started | 10% | Stage 8 (compose prose) and part of Stage 7 (synthesis, grouping/recurrence) exist (`Engine/synthesis.py`, `render.py`) and produce a real 3-part consultation today, but there is no contradiction-explaining or cross-book-convergence narrative yet — that needs Phase 4 first. | Build after Phase 4 adjudication exists. |
 | Phase 6 | Validation | Not started | 0% | No charted validation set, no celebrity/historical chart corpus, no accuracy measurement exists yet. Individual milestones are spot-checked against 1-2 real charts each (ad hoc), which is not the same as this phase. | Build hundreds of known charts and measure prediction accuracy, per `Phases.txt`. |
@@ -531,19 +537,74 @@ than finding more defects, which is itself useful evidence about the store's rel
 
 ---
 
+### Milestone 18 — Verification queue, chapter 8 batch (108 cards, 1 defect corrected)
+
+**Phase:** Production Blocker Clearance Program (P1-1)
+**Status:** COMPLETE
+**Completion:** 100%
+
+**What was verified:** All 108 interpretive cards queued from chapter 8 — the graha-in-house
+effects chapter, 9 grahas (Sun through Ketu) × 12 houses, the first chapter ever encoded in
+this project (Milestone 1). Every card was read individually against its quoted verse, and
+the (graha, house) pair in each card's `conditions`/`predicts` was additionally cross-checked
+programmatically against the graha name and house ordinal actually printed in its own quote
+— a legitimate rigor-appropriate check for this specific template, where the whole condition
+is a single `in_house(graha, house)` leaf with no variables, dignity, or combinators, so
+"does the condition match the quote" reduces almost entirely to "does this (graha, house)
+pair appear in this quote."
+
+**Defect found and corrected:** `PD.08.Saturn.01` was the one card in the entire 108-card
+template that did not fit it. Its quote states two mutually exclusive outcomes for Saturn in
+the Lagna, conditioned on dignity: "equal to the king" if Saturn is in its own or exaltation
+sign there, "sorrow and misery" if any other sign — but the encoded condition was only
+`in_house(Saturn, 1)`, with no dignity test, so a real consultation would have quoted *both*
+contradictory outcomes for the same simple placement, regardless of which sign Saturn
+actually occupied. Unlike the `PD.01.Kalapurusha.Strength` holdout (Milestone 16), this
+needed no missing engine capability — `dignity` is already implemented and used throughout
+the store — so per the defect-handling framework's category B ("clear representation error;
+correct it when the source establishes the correction"), it was corrected rather than
+deferred: split into `PD.08.Saturn.01.OwnOrExalted` (dignity own/exalted → the favourable
+outcome) and `PD.08.Saturn.01.OtherSign` (negated dignity, grounded with no variables → the
+unfavourable outcome), each with its own byte-exact sub-span and hash recomputed from
+`Knowledge/phaladeepika.md`, not hand-typed. All other 107 cards in the template were
+checked and confirmed to carry no comparable internal branch.
+
+**Corrections made:** 1 (the Saturn split above). Card count rose from 404 to 405 as a
+direct consequence — one card became two — not from new corpus material.
+
+**Tests:** +3 (230 → 233): `test_saturn_in_lagna_own_or_exalted_fires_only_the_favourable_card`,
+`test_saturn_in_lagna_other_sign_fires_only_the_unfavourable_card`, and
+`test_saturn_in_lagna_own_sign_also_fires_the_favourable_card` in
+`Engine/tests/test_counting_and_nature.py`. `test_chapter_eight_is_complete` (previously
+asserting exactly 108 cards over 108 distinct (subject, house) pairs) was updated — not
+weakened — to assert 109 cards over the same 108 distinct pairs, with an added check that
+the one repeated pair (Saturn, house 1) is covered by exactly the two dignity-discriminated
+cards expected. `Reports/PHASE3_BACKLOG.md` and `Reports/PHASE3_PLAN.md` regenerated for the
+new card count.
+
+**Verification moved from 259/404 (64%) to 368/405 (91%).**
+
+**Why this milestone matters:** The largest single verification batch so far, and the first
+to require an actual code-level correction rather than a documentation fix or a "leave
+queued" deferral — proving the defect-handling framework's category distinctions (missing
+capability vs. clear source-established error) work in practice, not just on paper.
+
+---
+
 ## D. CURRENT MILESTONE
 
-**Nothing is currently in progress.** Milestone 17 above is fully committed, tested,
+**Nothing is currently in progress.** Milestone 18 above is fully committed, tested,
 verified, and pushed.
 
-**Next approved action — resume the verification queue (§K, blocker P1-1):** chapter 8 is
-next (108 cards, the largest single remaining chapter — the first chapter ever encoded in
-this project, per Milestone 1). Chapter 10 (37 cards) remains after that. Read each
-interpretive card's condition/effect against its quoted verse (and the rendered PDF for
-anything an existing note flags as extraction-ambiguous, or for any claim of an independent
-prior PDF check worth spot-verifying, per Milestone 17's practice), recording a real
-sign-off in the established style, or documenting a defect and leaving it queued if one is
-found. Regenerate the queue with `python Rules/tools/review.py --queue` after each batch.
+**Next approved action — resume the verification queue (§K, blocker P1-1):** chapter 10
+(37 cards) is the only chapter left in the queue. Read each interpretive card's
+condition/effect against its quoted verse (and the rendered PDF for anything an existing
+note flags as extraction-ambiguous, or for any claim of an independent prior PDF check worth
+spot-verifying, per Milestone 17's practice), recording a real sign-off in the established
+style, or documenting/correcting a defect per the category it falls into (§7 of the audit
+brief) if one is found. Regenerate the queue with `python Rules/tools/review.py --queue`
+after each batch. Completing chapter 10 closes out the interpretive queue entirely except
+for the one deliberate `PD.01.Kalapurusha.Strength` holdout.
 
 **Alternative — resume ordinary Phase 3 extraction (§7/§8):**
 - Phaladeepika ch.6 vv.39-41 (Vallaki/Dharma/Hasha/Kendra/Shula/Yuga/Gola) — **blocked**,
@@ -616,8 +677,10 @@ count:
    assessed or delivered with a single-book store.
 3. **No validation corpus.** No measurement exists of whether the system's predictions are
    any good (`Phases.txt` Phase 6).
-4. **Human verification is essentially absent** (4/404 cards). Every card is
-   machine-verified byte-exact but not yet human-reviewed for correct reading.
+4. **Human verification was essentially absent** (4/404 cards) as of Milestone 14; a
+   systematic workflow now exists and 368/405 cards (91%) are signed off — see §K P1-1 for
+   the current, authoritative count. This list (§E) predates that work and is kept for
+   history; §K is the live register.
 5. **No API/UI/packaging.** CLI-only today.
 6. **Stage 4 (strength) does not exist**, and a large share of classical doctrine
    conditions on planetary/house strength — without it, entire chapters (4, and large
@@ -689,11 +752,16 @@ count:
 **Chapters completed (Phaladeepika):** 1, 2, 8, 9, 10 (fully encoded)
 **Chapters partially encoded:** 6 (through v.38 of ~70 verses)
 **Chapters deferred (not yet started):** 3, 4, 5, 7, 11-28 (22 chapters)
-**Tables requiring visual reconstruction (unresolved):** ch.1 v.7 biped/quadruped/table
-(`PD.01.SignBodyForm.Table`, inert), ch.2 vv.21-22 natural friendship table (encoded but
-inert pending human verification of the reconstruction)
-**Passages requiring human verification:** `concept:manual-verification` — 400 of 404
-cards have `extraction.verified_by` null.
+**Tables requiring visual reconstruction:** ch.1 v.7 biped/quadruped/table
+(`PD.01.SignBodyForm.Table`) — **resolved** as of Milestone 16: rendered against printed
+p.13, the table is a clean standard layout, not ambiguous; the card itself was already
+accurate and is signed off, but the sign-to-class mapping itself is not yet encoded as
+queryable reference data (a Phase 3 opportunity, not a verification blocker). ch.2 vv.21-22
+natural friendship table remains encoded but inert pending human verification of the
+reconstruction.
+**Passages requiring human verification:** `concept:manual-verification` — 37 of 405
+cards remain queued (all of chapter 10), plus 1 (`PD.01.Kalapurusha.Strength`) deliberately
+held unsigned for a real defect blocked on missing capabilities. See §K P1-1.
 
 ---
 
@@ -713,7 +781,7 @@ subset most likely to be forgotten. See §I "DO NOT FORGET" for the most critica
 | `card:PD.06.Pushkala` | Strength + Kendra-togetherness + undefined friendship tier | Triple-blocked | `dep.strength` + 2 unresolved readings | No | Yes |
 | `concept:sunapha-anapha-durudhara-naming` | Which yoga name maps to which Moon-adjacency condition | Source states the collective condition, never names which sub-case is which | Human verification against another authority, or leave unnamed permanently | No | Yes — flagged twice already (slices 2 and 5) |
 | `concept:nodal-retrograde-dignity` | Whether the retrograde-as-exalted override applies to Rahu/Ketu | Source says "a planet" without exclusion; engine already marks nodes retrograde on every chart | Human verification | No | Yes |
-| `concept:manual-verification` | Human sign-off on all cards | Only 4/404 verified by a human | Dedicated review pass | **Arguably yes for true production** | Yes — production blocker #4 |
+| `concept:manual-verification` | Human sign-off on all cards | 368/405 verified (91%) as of Milestone 18; see §K P1-1 for the live count | Continue the queue (ch. 10, 37 cards) | **Arguably yes for true production** | Yes — production blocker #4, nearly cleared |
 | Brihat Jataka rule extraction | Entire book has 0 cards despite being converted | Ordering — Phaladeepika prioritized first | Just start | **Yes — for multi-book corroboration** | Yes — production blocker #2 |
 | 4 unconverted books | BPHS, Jataka Parijata, Uttara Kalamrita, Saravali | Deliberate Phase 1 freeze after proving the pipeline on 2 structurally different books | Format approval + conversion run | No, not for MVP | Yes, eventually |
 | `dep.second-nativity` | Spouse's chart / second nativity | Explicitly "beyond the MVP" | Schema design decision | No | Yes, post-MVP |
@@ -851,7 +919,7 @@ not invent") and the phase roadmap in `Phases.txt`/§B — not invented requirem
 | Rule-store integrity | Done | `verify.py`/`dupes.py` clean, 404 cards, 0 duplicates | none | N/A |
 | Reasoning capability | Partial | Stages 0,1,2,6,9,10 done; 3-5,7 not dedicated stages | `dep.strength` (highest leverage), `dep.adjudication` | Build Stage 4, then Stage 7 |
 | Contradiction handling | Mechanism exists, weighing doesn't | `contradicts`/`extends` links used repeatedly | `dep.adjudication` | Stage 7 |
-| Provenance | Strong | Byte-exact hash gate; **now 198/404 (49%) human(+Claude) sign-off**, was 4/404 | 206 interpretive cards still queued | Work the queue (§K, P1-1) |
+| Provenance | Strong | Byte-exact hash gate; **now 368/405 (91%) human(+Claude) sign-off**, was 4/404 | 37 interpretive cards still queued (ch. 10) | Work the queue (§K, P1-1) |
 | Human verification | **This milestone's subject** | Workflow now exists and is proven on ch. 9 | Remaining 206 cards | Continue the queue |
 | Cross-book corroboration | Not possible yet | Only 1 book has cards | Brihat Jataka has 0 cards | Start Brihat Jataka extraction (§K, P1-2) |
 | Regression testing | Partial | 230 tests, no full-corpus e2e suite | Not yet built | Build after more chapters land |
@@ -954,29 +1022,34 @@ cleared, newly identified, or re-scoped.
 
 ### P1 — required for the intended MVP/production scope
 
-**P1-1 — Human(+Claude) verification queue: 145 interpretive cards still unsigned.**
+**P1-1 — Human(+Claude) verification queue: 37 interpretive cards still unsigned.**
 - **Why it matters:** Byte-exact quote verification proves the words are real; it does not
   prove the card reads them correctly. This is the one component of "provenance" the store
   cannot yet claim in full.
-- **Current state:** Workflow built (Milestone 15) and now proven across three batches
-  (Milestone 15: ch. 9; Milestone 16: ch. 1-2; Milestone 17: ch. 6). 259/404 signed (64%),
-  was 4/404. One card (`PD.01.Kalapurusha.Strength`) was reviewed and correctly left
-  unsigned — a real condition defect, not a stale checklist item. Two of chapter 6's prior
-  PDF-page-render claims were independently re-checked and confirmed exact (Milestone 17).
-  Queue lives in `Reports/VERIFICATION_QUEUE.md`, regenerated by
+- **Current state:** Workflow built (Milestone 15) and now proven across four batches
+  (Milestone 15: ch. 9; Milestone 16: ch. 1-2; Milestone 17: ch. 6; Milestone 18: ch. 8).
+  368/405 signed (91%), was 4/404. One card (`PD.01.Kalapurusha.Strength`) remains
+  deliberately left unsigned — a real condition defect blocked on missing capabilities
+  (`dep.strength`, `dep.condition-variables`). One card (`PD.08.Saturn.01`) was found
+  defective and *corrected*, not just documented, and split into two (Milestone 18) — the
+  first verification-pass defect not blocked on a missing capability. Two of chapter 6's
+  prior PDF-page-render claims were independently re-checked and confirmed exact
+  (Milestone 17). Queue lives in `Reports/VERIFICATION_QUEUE.md`, regenerated by
   `python Rules/tools/review.py --queue`.
 - **Dependency:** None — the tool and methodology are complete; this is now a bounded
   reading-and-recording task, chapter by chapter.
-- **Exact work required:** Work through the queue (ch. 8, 10 remain — ch. 8 next, 108 cards,
-  the largest single remaining chapter), recording real sign-offs in the established style,
-  re-running `review.py --queue` after each batch. Do not accept a card's own note about
-  extraction ambiguity or a prior PDF-render claim at face value where it can be
-  re-rendered and checked directly — Milestone 16 found one false claim this way; Milestone
-  17 found two true ones, which is also worth knowing.
+- **Exact work required:** Work through the queue (ch. 10 only, 37 cards), recording real
+  sign-offs in the established style, re-running `review.py --queue` after each batch. Do
+  not accept a card's own note about extraction ambiguity or a prior PDF-render claim at
+  face value where it can be re-rendered and checked directly — Milestone 16 found one false
+  claim this way; Milestone 17 found two true ones. Do not assume a uniform-looking template
+  (like chapter 8's graha-in-house cards) is risk-free without checking every card against
+  its own quote — Milestone 18 found one card that broke the template's pattern precisely
+  because it wasn't skimmed.
 - **What it unlocks:** Provenance/auditability category score continues to rise (§A);
   eventually clears this production gate in full.
-- **Status:** In progress — 84/229 interpretive cards done (ch. 1, 2, 6, 9 complete except
-  one deferred defect); ch. 8 and 10 remain.
+- **Status:** In progress — 193/230 interpretive cards done (ch. 1, 2, 6, 8, 9 complete
+  except one deferred defect); ch. 10 remains.
 
 **P1-2 — Only one book (Phaladeepika) has rule cards; Brihat Jataka has zero.**
 - **Why it matters:** Multi-book corroboration is a stated project goal (`Phases.txt` Phase
@@ -1054,9 +1127,11 @@ chapters.**
   (queued in `Reports/VERIFICATION_QUEUE.md`). Resume the queue chapter by chapter rather
   than re-deriving whether verification "can be done systematically" — that question is
   answered (§J.4, §K P1-1).
-- **206 interpretive cards remain unsigned** (chapters 1, 2, 6, 8, 10). Chapter 9 (20 cards)
-  was done this session as the proof batch — read each card's `conditions`/`predicts`
-  against its quoted verse; do not blanket-approve a whole file at once.
+- **37 interpretive cards remain unsigned** (all of chapter 10). Chapters 1, 2, 6, 8, 9 are
+  complete except the one deliberate `PD.01.Kalapurusha.Strength` holdout — read each card's
+  `conditions`/`predicts` against its quoted verse; do not blanket-approve a whole file at
+  once, even a uniform-looking one — `PD.08.Saturn.01` broke chapter 8's uniform template
+  and was only caught by reading every card individually (Milestone 18).
 - **`Phases.txt` marks Phase 1 complete with a ✅ — this is wrong.** Only 2 of 6 planned
   books are converted (Brihat Jataka, Phaladeepika); 4 are pending behind a deliberate
   freeze. Do not treat Phase 1 as finished when reasoning about project state.
@@ -1079,9 +1154,9 @@ chapters.**
   decision requiring real design (`dep.second-nativity`).
 - **Cross-book corroboration (Phase 4 goal) cannot be evaluated yet** — only one book has
   cards in the store.
-- **Human verification is nearly absent** — 400 of 404 cards have no `verified_by`. This
-  is a real production blocker even though the machine-verification (byte-exact quote
-  hashing) is solid.
+- **Human verification is nearly complete** — 368/405 cards (91%) have `verified_by` set;
+  37 remain queued (ch. 10) plus one deliberate holdout. This was a real production blocker
+  as recently as Milestone 14 (4/404); see §K P1-1 for the live count, not this line.
 - **Never merge contradictory authorities into one card** — this project's core value is
   preserving disagreement (rising-sign dispute, nodal-exaltation 3-way dispute, dignity
   dispute, natural-friendship table anomalies, ch.19's dasa-balance dispute still
