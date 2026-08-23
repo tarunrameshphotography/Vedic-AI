@@ -20,7 +20,7 @@ from Engine.chart import BirthRecord, compute_chart, resolve_birth
 from Engine.doctrine import Doctrine, DoctrineError
 from Engine.ephemeris import SwissEphemerisDLL
 from Engine.facts import FactSet, extract_facts, make_fact
-from Engine.rules import evaluate, load_cards
+from Engine.rules import build_predicate_index, evaluate, load_cards
 
 ROOT = Path(__file__).resolve().parents[2]
 RULES = ROOT / "Rules"
@@ -41,6 +41,11 @@ def facts(*specs) -> FactSet:
 @pytest.fixture(scope="module")
 def provider():
     return SwissEphemerisDLL()
+
+
+@pytest.fixture(scope="module")
+def cards():
+    return load_cards(RULES)
 
 
 @pytest.fixture(scope="module")
@@ -323,6 +328,89 @@ def test_an_unknown_predicate_in_a_later_branch_is_still_reported():
                            {"no_such_predicate": {"graha": "Mars"}}]}, fs)
     assert not ev.satisfied
     assert "no_such_predicate" in ev.missing
+
+
+# --- always-candidate index (a purely negated card has no positive leaf) ----
+
+def test_a_wholly_negated_card_is_still_offered_every_chart(cards):
+    """PD.06.Kemadruma's condition is one `not` and nothing else: `_leaf_keys`
+    skips every negated leaf by design, so it contributes no lookup key.
+    Without ALWAYS_CANDIDATE such a card is never a candidate in `activate`
+    no matter what the chart is, silently breaking this module's own
+    contract ("every card whose conditions evaluate true is returned").
+    PD.06.Subhamala and PD.06.Asubhamala (slice 3) have the same shape and
+    were affected before this test existed."""
+    from Engine.rules import ALWAYS_CANDIDATE
+    index = build_predicate_index(cards)
+    always = set(index.get(ALWAYS_CANDIDATE, ()))
+    assert {"PD.06.Kemadruma", "PD.06.Subhamala", "PD.06.Asubhamala"} <= always
+
+
+def test_kemadruma_runs_end_to_end_through_activate_without_crashing(chart, doctrine, cards):
+    """Smoke test for the always-candidate path all the way through
+    `activate`, not just the index. The golden chart's Ketu sits 2nd from
+    the Moon, so the correct outcome is that the card is considered and
+    correctly does not fire -- distinct from never being considered."""
+    from Engine.activate import activate
+    fs = extract_facts(chart, doctrine)
+    claims, _ = activate(chart, fs, cards)
+    assert not any(c.derived["rule_card"] == "PD.06.Kemadruma" for c in claims)
+
+
+# --- Kemadruma (chapter 6 slice 4) -------------------------------------------
+
+def test_kemadruma_fires_when_no_graha_flanks_the_moon(cards):
+    """PD.06.Kemadruma: the yoga's own condition, tested directly against a
+    hand-built chart rather than the golden one, so the positive case is
+    exercised and not just the golden chart's negative one."""
+    card = next(c for c in cards if c.id == "PD.06.Kemadruma")
+    fs = facts(
+        ("in_house_from", {"graha": "Mars", "reference": "Moon", "house": 5}),
+        ("in_house_from", {"graha": "Sun", "reference": "Moon", "house": 8}),
+    )
+    assert evaluate(card.conditions, fs).satisfied
+
+
+def test_kemadruma_does_not_fire_when_a_graha_occupies_the_2nd_from_moon(cards):
+    card = next(c for c in cards if c.id == "PD.06.Kemadruma")
+    fs = facts(("in_house_from", {"graha": "Ketu", "reference": "Moon", "house": 2}))
+    assert not evaluate(card.conditions, fs).satisfied
+
+
+def test_kemadruma_does_not_fire_when_a_graha_occupies_the_12th_from_moon(cards):
+    card = next(c for c in cards if c.id == "PD.06.Kemadruma")
+    fs = facts(("in_house_from", {"graha": "Venus", "reference": "Moon", "house": 12}))
+    assert not evaluate(card.conditions, fs).satisfied
+
+
+def test_kemadruma_does_not_exclude_the_sun_or_nodes(cards):
+    """Verse 5 states no exclusion, unlike Hora Sara's variant (deferred).
+    A chart where the Sun alone occupies the 2nd from the Moon must not
+    fire -- the Sun counts as a 'planet' here, same as any other graha."""
+    card = next(c for c in cards if c.id == "PD.06.Kemadruma")
+    fs = facts(("in_house_from", {"graha": "Sun", "reference": "Moon", "house": 2}))
+    assert not evaluate(card.conditions, fs).satisfied
+
+
+def test_kemadruma_jataka_parijata_variant_fires_on_unaspected_lagna_moon(cards):
+    card = next(c for c in cards if c.id == "PD.06.Kemadruma.JatakaParijata1")
+    fs = facts(("in_house", {"graha": "Moon", "house": 1}))
+    assert evaluate(card.conditions, fs).satisfied
+
+
+def test_kemadruma_jataka_parijata_variant_is_cancelled_by_jupiters_aspect(cards):
+    card = next(c for c in cards if c.id == "PD.06.Kemadruma.JatakaParijata1")
+    fs = facts(
+        ("in_house", {"graha": "Moon", "house": 1}),
+        ("aspects", {"graha": "Jupiter", "target": 1}),
+    )
+    assert not evaluate(card.conditions, fs).satisfied
+
+
+def test_kemadruma_jataka_parijata_variant_ignores_the_moon_elsewhere(cards):
+    card = next(c for c in cards if c.id == "PD.06.Kemadruma.JatakaParijata1")
+    fs = facts(("in_house", {"graha": "Moon", "house": 4}))
+    assert not evaluate(card.conditions, fs).satisfied
 
 
 # --- the cards these capabilities were built for -----------------------------

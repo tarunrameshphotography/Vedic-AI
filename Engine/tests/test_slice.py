@@ -322,6 +322,56 @@ def test_golden_adhama_and_sakata_fire_from_slice_three():
     assert r.verification.ok
 
 
+def test_golden_kemadruma_does_not_fire_because_ketu_guards_the_moon():
+    """PD.06.Kemadruma (v.5, slice 4): the golden chart's Moon is in Leo,
+    house 8, with Ketu in Virgo -- the 2nd house from the Moon -- so the
+    yoga's condition (no planet in the 2nd or 12th from the Moon) is false
+    and the card must not fire. Confirms the card under-fires correctly
+    rather than over-firing on an unrelated placement."""
+    r = run(DEMO)
+    ids = {c.derived["rule_card"] for c in r.claims}
+    assert "PD.06.Kemadruma" not in ids
+    assert "PD.06.Kemadruma.JatakaParijata1" not in ids
+    assert r.verification.ok
+
+
+def test_chapter_six_kemadruma_cards_do_not_assign_sunapha_anapha_durudhara(cards):
+    """The naming ambiguity this slice exists to resolve (v.5 vs v.8's
+    'respectively'): no card in the store may claim to know which of
+    Sunapha, Anapha or Durudhara individually corresponds to a 2nd-only,
+    12th-only, or both-occupied placement from the Moon. Only the yoga
+    that verse 5 states unconditionally -- Kemadruma, their joint absence
+    -- may be encoded from this passage."""
+    ch06_yogas = {c.predicts.get("yoga") for c in cards
+                  if c.book_id == "phaladeepika" and c.chapter == 6
+                  and c.predicts.get("domain") == "yoga"}
+    assert ch06_yogas.isdisjoint({"Sunapha", "Anapha", "Durudhara"})
+    assert "Kemadruma" in ch06_yogas
+
+
+def test_chapter_six_kemadruma_card_reads_absence_of_both_flanks(cards):
+    card = next(c for c in cards if c.id == "PD.06.Kemadruma")
+    assert card.activation == "active"
+    assert len(card.spans) == 2
+    assert card.predicts == {"domain": "yoga", "yoga": "Kemadruma"}
+    leaf = card.conditions["all"][0]["not"]["any"]
+    assert {"in_house_from": {"graha": "?p", "reference": "Moon", "house": 2}} in leaf
+    assert {"in_house_from": {"graha": "?p", "reference": "Moon", "house": 12}} in leaf
+
+
+def test_chapter_six_kemadruma_jataka_parijata_variant_is_moon_kendra_unaspected(cards):
+    card = next(c for c in cards if c.id == "PD.06.Kemadruma.JatakaParijata1")
+    assert card.activation == "active"
+    assert card.predicts == {"domain": "yoga", "yoga": "Kemadruma",
+                             "authority": "Jataka Parijata"}
+    branches = card.conditions["any"]
+    houses = {b["all"][0]["in_house"]["house"] for b in branches}
+    assert houses == {1, 7}
+    for b in branches:
+        h = b["all"][0]["in_house"]["house"]
+        assert b["all"][1] == {"not": {"aspects": {"graha": "Jupiter", "target": h}}}
+
+
 def test_chapter_six_supplies_the_twelve_house_wise_yogas(cards):
     """PD.06.Chamara..Musala -- vv. 44-56, printed p.75-78. One repeating
     template: a benefic (?b) occupies or aspects the house; that house's own

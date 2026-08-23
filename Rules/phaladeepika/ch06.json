@@ -3325,6 +3325,167 @@
       "kind": "yoga",
       "note": "Saraswati Yoga: Mercury, Jupiter and Venus each in a kendra, a trikona, or the 2nd, and Jupiter specifically in own, friend's (dep.dignity-friendship) or exaltation sign. The quote is trimmed before the dangling \"The\" that opens the next, tier-3 sentence introducing the Moti Lal Nehru worked example.",
       "exclusions": []
+    },
+    {
+      "id": "PD.06.Kemadruma",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "5, 7",
+        "page_anchor": "phaladeepika/p0057",
+        "tier": 1,
+        "quote": "5. Three yogas, viz, Sunapha, Anapha and Durudhara are formed when the\r\n\r\n<!-- page phaladeepika/p0058 -->\r\nplanets occupy the 2nd and 12th houses reckoned from the Moon. There will be Kemadruma yoga if the above three Yogas are absent. […] One born under Kemadruma Yoga even if he belongs to a royal family, will become unknown and will lead a miserable life. He will be addicted to immoral ways, will face poverty, will be a menial and will be wickedly disposed.",
+        "quote_display": "5. Three yogas, viz, Sunapha, Anapha and Durudhara are formed when the planets occupy the 2nd and 12th houses reckoned from the Moon. There will be Kemadruma yoga if the above three Yogas are absent. […] One born under Kemadruma Yoga even if he belongs to a royal family, will become unknown and will lead a miserable life. He will be addicted to immoral ways, will face poverty, will be a menial and will be wickedly disposed.",
+        "quote_sha256": "908df4b5b17af9819c2fda9cf7286b96f148bfe84a7e7e0be55b59286c1a9fbb",
+        "char_span": [
+          104507,
+          104743
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            104507,
+            104743
+          ],
+          [
+            109572,
+            109795
+          ]
+        ],
+        "quote_parts": [
+          "5. Three yogas, viz, Sunapha, Anapha and Durudhara are formed when the\r\n\r\n<!-- page phaladeepika/p0058 -->\r\nplanets occupy the 2nd and 12th houses reckoned from the Moon. There will be Kemadruma yoga if the above three Yogas are absent.",
+          "One born under Kemadruma Yoga even if he belongs to a royal family, will become unknown and will lead a miserable life. He will be addicted to immoral ways, will face poverty, will be a menial and will be wickedly disposed."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "not": {
+              "any": [
+                {
+                  "in_house_from": {
+                    "graha": "?p",
+                    "reference": "Moon",
+                    "house": 2
+                  }
+                },
+                {
+                  "in_house_from": {
+                    "graha": "?p",
+                    "reference": "Moon",
+                    "house": 12
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Kemadruma"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Mantreswara's own primary Kemadruma definition (v. 5): the yoga is present when 'the above three Yogas' -- Sunapha, Anapha and Durudhara -- are absent, and those three collectively require a planet in the 2nd or 12th house from the Moon (dep.graha-frame); Kemadruma therefore fires when no such planet exists. 'Planets' is read as any graha the engine tracks other than the Moon itself (Sun, Mars, Mercury, Jupiter, Venus, Saturn, Rahu, Ketu), because the verse states no exclusion -- contrast Hora Sara's variant (Notes, p.58), which explicitly excludes the Sun and nodes from nullifying the yoga; that exclusion is not imported here. Three further competing definitions in the same passage are recorded separately rather than merged into this condition: the verse's own hedged aside ('some learned are of the opinion'), Saravali's version and Hora Sara's version (both Notes), and five more attributed to Jataka Parijata, of which item (1) is independently testable and encoded separately as PD.06.Kemadruma.JatakaParijata1.",
+      "exclusions": [
+        "Does not encode the individually-named Sunapha, Anapha or Durudhara Yogas: verse 5 states no correspondence between the three names and the 2nd-only/12th-only/both-occupied conditions -- contrast verse 8's parallel construction for a different yoga family, which states the correspondence explicitly ('respectively'). Left deferred as concept:sunapha-anapha-durudhara-naming, matching the same call already made for PD.06.Sama and PD.06.Adhama.",
+        "The verse's own hedged alternate ('some learned are of the opinion that there will be Kemadruma Yoga if (1) ... (2) ...') is not tested. Its sense reads as inverted against every other definition in this passage -- planetary association with the Moon or a Kendra elsewhere prevents Kemadruma, not causes it -- and is preserved as printed rather than silently corrected.",
+        "Saravali's and Hora Sara's alternate Kemadruma definitions (Notes, p.58) are not merged into this condition; each is recorded separately as deferred doctrine because at least one clause in each is either textually defective or introduces a cancellation mechanism this condition does not test."
+      ]
+    },
+    {
+      "id": "PD.06.Kemadruma.JatakaParijata1",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "5 (Notes, attributed to Jataka Parijata)",
+        "page_anchor": "phaladeepika/p0059",
+        "tier": 1,
+        "quote": "(1) The Moon in Lagna or the 7th but not aspected by Jupiter.",
+        "quote_display": "(1) The Moon in Lagna or the 7th but not aspected by Jupiter.",
+        "quote_sha256": "2cd8a0a7112964d5e8bb72ad897280026c04d4c0228810334ba9fd9a8a6169f7",
+        "char_span": [
+          108224,
+          108285
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "all": [
+              {
+                "in_house": {
+                  "graha": "Moon",
+                  "house": 1
+                }
+              },
+              {
+                "not": {
+                  "aspects": {
+                    "graha": "Jupiter",
+                    "target": 1
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in_house": {
+                  "graha": "Moon",
+                  "house": 7
+                }
+              },
+              {
+                "not": {
+                  "aspects": {
+                    "graha": "Jupiter",
+                    "target": 7
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Kemadruma",
+        "authority": "Jataka Parijata"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "The first of five alternate Kemadruma definitions Phaladeepika's translator attributes to Jataka Parijata (introduced 'There are other kinds of Kemadruma Yogas ... which are as follows'). Only this first item is independently testable with capabilities the engine already has (dep.aspects). Items (2)-(5) need dep.strength, dep.ashtakavarga and dep.varga, and one needs a birth-time-of-day (night birth) fact the engine has no doctrine for at all; they are deferred together as passage:phaladeepika.06.p043.",
+      "exclusions": []
     }
   ]
 }

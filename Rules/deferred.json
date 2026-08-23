@@ -1162,37 +1162,115 @@
       ]
     },
     {
-      "id": "passage:phaladeepika.06.p031",
+      "id": "concept:sunapha-anapha-durudhara-naming",
+      "kind": "concept",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "v. 5-7 (p.57-59)",
+      "what": "which of Sunapha, Anapha and Durudhara individually corresponds to the 2nd-only, 12th-only or both-occupied condition from the Moon",
+      "reason": "Verse 5 states that the three yogas collectively arise 'when the planets occupy the 2nd and 12th houses reckoned from the Moon', but assigns no name to any one of the three possible outcomes. Contrast the parallel construction at verse 8, two verses later, which states the same kind of three-way correspondence explicitly ('the Yogas so formed are known as Subhavesi, Subhavasi and Subhobhayachari respectively') -- the presence of 'respectively' there and its absence at verse 5 is textual evidence the omission is not an accident of translation. Verses 6-7 then give each of the three names its own effects (v.6: Sunapha, Anapha; v.7: Durudhara) without ever restating which house-condition earned which name. Assigning Sunapha=2nd, Anapha=12th, Durudhara=both would only be importing the conventional assignment used elsewhere in Vedic astrology, which this project's encoding principle forbids absent the source itself saying so. PD.06.Kemadruma encodes only the part of v.5 that does not need this correspondence -- the absence of all three, which is stated directly.",
+      "requires": [
+        "dep.manual-verification"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        49,
+        50,
+        51
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p033",
       "kind": "passage",
       "book": "phaladeepika",
       "chapter": 6,
-      "locus": "vv. 5-7 (p.57-60)",
-      "what": "Sunapha, Anapha, Durudhara and Kemadruma Yogas",
-      "reason": "Not yet encoded; deferred by ordering, planned for a later chapter-6 slice. Verse 5 itself carries a hedged alternate Kemadruma reading (\"some learned are of the opinion\"), and the Notes add two more: Saravali's version and Hora Sara's version. A worked-example horoscope (Sardar Patel) is embedded and will be tier-3 apparatus when this slice is authored.",
+      "locus": "v. 5 Notes (p.58)",
+      "what": "Saravali's alternate Kemadruma Yoga definition",
+      "reason": "A second authority's competing Kemadruma definition, reported in the translator's Notes: absence of the three yogas (already Mantreswara's own definition, encoded in PD.06.Kemadruma), OR the Moon's Kendras 'devoid of angles', OR the Moon unaspected by all planets. The middle clause is printed nonsensically -- Kendras cannot be devoid of angles, they are angles -- and is presumed a defect (most likely 'devoid of planets') rather than silently corrected. The third clause (unaspected by all planets) is independently testable with dep.aspects, but pulling it out of a three-way OR whose other terms are unclear risks asserting a narrower or wider claim than Saravali's actual doctrine. Deferred whole rather than partially encoded.",
+      "requires": [
+        "dep.manual-verification"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        33
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p034",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "printed p.58",
+      "what": "Jawahar Lal Nehru's horoscope, illustrating Malavya Yoga",
+      "reason": "Tier-3 apparatus: a worked example, not a rule. Recorded as deliberately excluded, not pending.",
       "requires": [
         "dep.none"
       ],
       "phase": "3 (knowledge)",
       "status": "deferred",
       "paragraphs": [
-        31,
-        32,
-        33,
         34,
-        36,
-        38,
+        36
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p038",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "p.58, unnumbered (Hora Sara doctrine)",
+      "what": "Hora Sara's alternate Kemadruma Yoga definition, with an explicit Sun/nodes exclusion and a kendra-occupation cancellation",
+      "reason": "A third authority's Kemadruma doctrine, materially different from Mantreswara's own (v.5, encoded in PD.06.Kemadruma): the Moon must have no planet 'on either side or with it' (2nd, 12th, or conjunct -- not just 2nd/12th), the Sun and nodes are explicitly excluded from nullifying the yoga (a stated exclusion Mantreswara's own verse does not make and this store does not import into PD.06.Kemadruma), and the yoga is separately cancelled by a planet in any kendra from the Moon or the Lagna, or by the Moon itself being angular to the Lagna. Encoding the cancellation half correctly needs a case-by-case editorial reading this passage alone does not resolve unambiguously (conjunction is untested elsewhere in this chapter in a comparable role), so it is preserved as competing doctrine rather than partially merged.",
+      "requires": [
+        "dep.manual-verification"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        38
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p039",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "printed p.59",
+      "what": "Sardar Patel's horoscope, illustrating Sasa and Ruchaka Yogas",
+      "reason": "Tier-3 apparatus: a worked example, not a rule. Recorded as deliberately excluded, not pending.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
         39,
-        41,
+        41
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p043",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "p.59 (Jataka Parijata's alternate Kemadruma variants, items 2-5)",
+      "what": "Four more alternate Kemadruma Yoga definitions attributed to Jataka Parijata, plus a translator's aside citing Saravali's permutation count",
+      "reason": "Item (1) of this five-item list is independently testable and is encoded as PD.06.Kemadruma.JatakaParijata1. Items (2)-(5) are not: (2) needs dep.strength ('devoid of strength') and dep.ashtakavarga ('less Bindus'); (3) and (5) need a birth-time-of-day (night birth) fact the engine has no doctrine for at all, on top of dep.strength/dep.varga for (3)'s fall/enemy-sign and (4)'s Navamsa clauses; (4) needs dep.varga (Scorpio Navamsa) directly. The closing sentence of item (5), citing Saravali's count of 30/30/180 permutations of Sunapha/Anapha/Durudhara and pointing to a different publisher's book, is translator commentary rather than a rule and is written off as tier-3 apparatus.",
+      "requires": [
+        "dep.strength",
+        "dep.ashtakavarga",
+        "dep.varga"
+      ],
+      "phase": "2 (engine completion) + 3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
         43,
-        44,
         45,
         46,
         47,
-        48,
-        49,
-        50,
-        51,
-        52
+        48
       ]
     },
     {

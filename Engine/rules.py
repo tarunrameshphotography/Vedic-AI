@@ -381,15 +381,27 @@ def _solve(node: Any, facts: FactSet, missing: list[str],
     return _dedupe(out)
 
 
+ALWAYS_CANDIDATE = "*:always"
+
+
 def build_predicate_index(cards: list[RuleCard]) -> dict[str, list[str]]:
     """Fact key -> card ids that mention it.
 
     Candidate generation only. A card surfacing here still has its full
     condition expression evaluated before it can justify anything.
+
+    A card entirely written as a negation -- "no planet in the 2nd or 12th
+    from the Moon" -- has no positive leaf to index on: `_leaf_keys` skips
+    every `not`, by design, because a negated leaf is not a lookup key. Such
+    a card must still be offered every chart, or the module's own contract
+    ("every card whose conditions evaluate true is returned") is broken for
+    it silently. It is indexed under ALWAYS_CANDIDATE instead, which
+    `activate` includes unconditionally.
     """
     index: dict[str, list[str]] = {}
     for card in cards:
-        for key in _leaf_keys(card.conditions):
+        keys = _leaf_keys(card.conditions) or {ALWAYS_CANDIDATE}
+        for key in keys:
             index.setdefault(key, []).append(card.id)
     return index
 

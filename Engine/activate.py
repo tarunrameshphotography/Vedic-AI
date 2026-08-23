@@ -17,7 +17,7 @@ from pathlib import Path
 
 from .chart import ChartBundle
 from .facts import FactSet
-from .rules import RuleCard, build_predicate_index, evaluate
+from .rules import ALWAYS_CANDIDATE, RuleCard, build_predicate_index, evaluate
 
 
 @dataclass(frozen=True)
@@ -52,7 +52,7 @@ def activate(
     index = build_predicate_index(cards)
 
     # Exact keys, plus the wildcard entries that quantified cards index under.
-    candidates: set[str] = set()
+    candidates: set[str] = set(index.get(ALWAYS_CANDIDATE, ()))
     for key in facts.keys():
         candidates.update(index.get(key, ()))
     for f in facts:
