@@ -835,3 +835,196 @@ def test_kahala_yoga_fires_end_to_end_on_a_real_chart(provider):
     assert "PD.06.Maha" not in fired
     kahala_claim = next(c for c in claims if c.derived["rule_card"] == "PD.06.Kahala")
     assert kahala_claim.derived["variables"] == {"?g1": "Mercury", "?g2": "Saturn"}
+
+
+# --- Parvata and the dispositor-chain Kahala Yoga (chapter 6 slice 7, v.35-36)
+
+def test_parvata_replicates_the_books_own_worked_example(cards):
+    """Parvata Yoga: the lord of the Lagna's dispositor (the lord of the
+    sign the Lagna lord occupies) is tested for dignity and angularity.
+    Same numbers as the book's own example: Mars (lagna lord) in
+    Sagittarius (9th); Jupiter (9th lord) exalted in the 4th, a kendra."""
+    card = next(c for c in cards if c.id == "PD.06.Parvata")
+    fs = facts(
+        ("lord_of_house", {"graha": "Mars", "house": 1}),
+        ("in_house", {"graha": "Mars", "house": 9}),
+        ("lord_of_house", {"graha": "Jupiter", "house": 9}),
+        ("dignity", {"graha": "Jupiter", "dignity": "exalted"}),
+        ("in_house_class", {"graha": "Jupiter", "klass": "kendra"}),
+    )
+    assert evaluate(card.conditions, fs).satisfied
+
+
+def test_parvata_does_not_fire_on_the_lagna_lord_alone(cards):
+    """The Lagna lord's own placement is irrelevant to Parvata -- only its
+    dispositor's dignity and angularity matter. A strong Lagna lord with no
+    dispositor facts at all must not satisfy the condition."""
+    card = next(c for c in cards if c.id == "PD.06.Parvata")
+    fs = facts(
+        ("lord_of_house", {"graha": "Mars", "house": 1}),
+        ("dignity", {"graha": "Mars", "dignity": "own"}),
+        ("in_house_class", {"graha": "Mars", "klass": "kendra"}),
+    )
+    assert not evaluate(card.conditions, fs).satisfied
+
+
+def test_parvata_does_not_fire_if_the_dispositor_lacks_angularity(cards):
+    card = next(c for c in cards if c.id == "PD.06.Parvata")
+    fs = facts(
+        ("lord_of_house", {"graha": "Mars", "house": 1}),
+        ("in_house", {"graha": "Mars", "house": 9}),
+        ("lord_of_house", {"graha": "Jupiter", "house": 9}),
+        ("dignity", {"graha": "Jupiter", "dignity": "exalted"}),
+        # No in_house_class fact for Jupiter -- not angular.
+    )
+    assert not evaluate(card.conditions, fs).satisfied
+
+
+def test_kahala_dispositor_replicates_the_books_own_worked_example(cards):
+    """PD.06.Kahala.Dispositor: the dispositor-chain Kahala Yoga of v.35,
+    distinct from PD.06.Kahala (the Parivartana/exchange Kahala of v.32-34).
+    Same numbers as the book's own example: Mars (lagna lord) in Leo (5th);
+    Sun (5th lord) in Aquarius (1st); Saturn (Aquarius's lord) in the 7th,
+    a kendra, dignified -- three hops, testing the third graha (Saturn),
+    not the second (Sun)."""
+    card = next(c for c in cards if c.id == "PD.06.Kahala.Dispositor")
+    fs = facts(
+        ("lord_of_house", {"graha": "Mars", "house": 1}),
+        ("in_house", {"graha": "Mars", "house": 5}),
+        ("lord_of_house", {"graha": "Sun", "house": 5}),
+        ("in_house", {"graha": "Sun", "house": 1}),
+        ("lord_of_house", {"graha": "Saturn", "house": 1}),
+        ("dignity", {"graha": "Saturn", "dignity": "own"}),
+        ("in_house_class", {"graha": "Saturn", "klass": "kendra"}),
+    )
+    assert evaluate(card.conditions, fs).satisfied
+
+
+def test_kahala_dispositor_does_not_fire_on_only_two_hops(cards):
+    """Regression guard for the exact ambiguity this card's note documents:
+    dignity/angularity on the SECOND graha in the chain (Sun, here) must
+    not be enough on its own -- only a chain that actually reaches and
+    tests the third graha may satisfy this card. This is what
+    distinguishes PD.06.Kahala.Dispositor from a card that merely repeated
+    PD.06.Parvata's two-hop test under a different name."""
+    card = next(c for c in cards if c.id == "PD.06.Kahala.Dispositor")
+    fs = facts(
+        ("lord_of_house", {"graha": "Mars", "house": 1}),
+        ("in_house", {"graha": "Mars", "house": 5}),
+        ("lord_of_house", {"graha": "Sun", "house": 5}),
+        ("dignity", {"graha": "Sun", "dignity": "exalted"}),
+        ("in_house_class", {"graha": "Sun", "klass": "kendra"}),
+        # Sun's own placement is never given, so no third hop can resolve.
+    )
+    assert not evaluate(card.conditions, fs).satisfied
+
+
+def test_kahala_dispositor_and_parivartana_kahala_are_independent_cards(cards):
+    """The two Kahala Yogas share a name in the source (verse 32-34's
+    Parivartana Kahala and verse 35's dispositor-chain Kahala) but are
+    unrelated conditions and must be recorded as separate cards. Facts
+    that satisfy the dispositor chain must not spuriously satisfy the
+    exchange test, and vice versa."""
+    dispositor = next(c for c in cards if c.id == "PD.06.Kahala.Dispositor")
+    exchange = next(c for c in cards if c.id == "PD.06.Kahala")
+    assert dispositor.id != exchange.id
+
+    dispositor_facts = facts(
+        ("lord_of_house", {"graha": "Mars", "house": 1}),
+        ("in_house", {"graha": "Mars", "house": 5}),
+        ("lord_of_house", {"graha": "Sun", "house": 5}),
+        ("in_house", {"graha": "Sun", "house": 1}),
+        ("lord_of_house", {"graha": "Saturn", "house": 1}),
+        ("dignity", {"graha": "Saturn", "dignity": "own"}),
+        ("in_house_class", {"graha": "Saturn", "klass": "kendra"}),
+    )
+    assert not evaluate(exchange.conditions, dispositor_facts).satisfied
+
+    exchange_facts = facts(
+        ("lord_of_house", {"graha": "Mercury", "house": 3}),
+        ("in_house", {"graha": "Mercury", "house": 11}),
+        ("lord_of_house", {"graha": "Saturn", "house": 11}),
+        ("in_house", {"graha": "Saturn", "house": 3}),
+    )
+    assert not evaluate(dispositor.conditions, exchange_facts).satisfied
+
+
+def test_kahala_dispositor_ambiguity_is_documented_not_silently_resolved(cards):
+    """The two-vs-three-hop reading of verse 35's grammar is a genuine
+    source ambiguity, not an engine defect. The card must say so rather
+    than presenting its three-hop reading as the verse's only possible
+    meaning."""
+    card = next(c for c in cards if c.id == "PD.06.Kahala.Dispositor")
+    assert "ambiguity" in card.raw["note"].lower() or "ambiguous" in card.raw["note"].lower()
+    assert card.raw.get("exclusions")
+
+
+def test_v35_kahala_definition_is_transcribed_exactly_as_printed():
+    """Regression guard for the exact wording the two-vs-three-hop reading
+    turns on: verse 35 names where the Lagna lord's dispositor 'is placed'
+    before saying 'the lord of this sign', which is the textual basis for
+    reading a third hop into the rule. If the corpus is ever re-converted,
+    this exact clause must survive unchanged or the ambiguity analysis in
+    PD.06.Kahala.Dispositor's note no longer applies to what is on the page."""
+    text = (ROOT / "Knowledge" / "phaladeepika.md").read_bytes().decode("utf-8")
+    assert (
+        "and where the lord of the sign occupied by the lord of Lagna is "
+        "placed. If the lord of this sign is in his sign of exaltation or "
+        "own identical with kendra or trikona, the Yoga so formed is termed "
+        "as Kahala Yoga"
+    ) in text
+
+
+def test_kahala_dispositor_worked_example_defect_is_transcribed_exactly():
+    """Regression guard for the defect noted in PD.06.Kahala.Dispositor:
+    the worked example's dignity phrase for Saturn is inconsistent with
+    the houses the example itself states, and is quoted nowhere in the
+    card -- deliberately, since the card's condition comes from the verse
+    and the hop-count from the chain of grahas the example names, not from
+    this specific dignity claim."""
+    text = (ROOT / "Knowledge" / "phaladeepika.md").read_bytes().decode("utf-8")
+    assert "Saturn, the lore, of Aquarius, is in 7th a kendra, in his own sign of exaltation" in text
+    for card in load_cards(RULES):
+        if card.id in ("PD.06.Kahala.Dispositor", "PD.06.Parvata"):
+            assert "the lore, of Aquarius" not in card.quote
+
+
+def test_parvata_and_kahala_dispositor_have_correct_provenance(cards):
+    """Both cards must cite v.35-36 and the phaladeepika/p0071 or p0072
+    page anchors, not be silently misattributed to a different verse."""
+    for card_id in ("PD.06.Parvata", "PD.06.Kahala.Dispositor"):
+        card = next(c for c in cards if c.id == card_id)
+        assert card.verse == "35, 36"
+        assert card.page_anchor in ("phaladeepika/p0071", "phaladeepika/p0072")
+        assert card.chapter == 6
+        assert card.book_id == "phaladeepika"
+
+
+def test_kahala_dispositor_fires_end_to_end_on_a_real_chart(provider):
+    """Real-chart sanity check: the golden 1987-03-14 04:22 IST chart at
+    Thanjavur has Saturn (lagna lord) in the 11th, whose lord Mars sits in
+    the 4th (a kendra) in Mars's own sign -- Mars is its own dispositor
+    there, so the chain's third graha is Mars again. Both Parvata (tested
+    at the second hop) and the dispositor Kahala (tested at the third,
+    which happens to land back on the same graha here) must fire, and the
+    exchange-based PD.06.Kahala must not."""
+    from Engine.activate import activate
+    rec = BirthRecord(
+        date="1987-03-14", time="04:22", timezone="Asia/Kolkata",
+        latitude=10.7870, longitude=79.1378, place_name="Thanjavur",
+        time_precision="minute", time_source="certificate",
+    )
+    chart = compute_chart(resolve_birth(rec, provider), provider)
+    cards = load_cards(RULES)
+    doctrine = Doctrine.from_cards(cards)
+    fs = extract_facts(chart, doctrine)
+    claims, _ = activate(chart, fs, cards)
+    fired = {c.derived["rule_card"] for c in claims}
+    assert "PD.06.Parvata" in fired
+    assert "PD.06.Kahala.Dispositor" in fired
+    assert "PD.06.Kahala" not in fired
+    parvata_claim = next(c for c in claims if c.derived["rule_card"] == "PD.06.Parvata")
+    assert parvata_claim.derived["variables"]["?g1"] == "Saturn"
+    assert parvata_claim.derived["variables"]["?g2"] == "Mars"
+    dispositor_claim = next(c for c in claims if c.derived["rule_card"] == "PD.06.Kahala.Dispositor")
+    assert dispositor_claim.derived["variables"]["?g3"] == "Mars"

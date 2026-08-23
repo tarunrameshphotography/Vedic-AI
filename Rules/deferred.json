@@ -1373,27 +1373,39 @@
       ]
     },
     {
-      "id": "passage:phaladeepika.06.p149",
+      "id": "passage:phaladeepika.06.p150",
       "kind": "passage",
       "book": "phaladeepika",
       "chapter": 6,
-      "locus": "vv. 35-36 (p.71-73)",
-      "what": "A second, unrelated Kahala Yoga (a dispositor-chain test) and Parvata Yoga",
-      "reason": "Not yet encoded; deferred by ordering. This Kahala Yoga (v.35) shares its name with the house-exchange Kahala Yoga of v.32 but tests an entirely different combination -- the two must never be conflated when this slice is authored. Two worked-example horoscopes are embedded and will be tier-3 apparatus.",
+      "locus": "printed p.71-72",
+      "what": "worked examples for the dispositor-chain Kahala Yoga (v.35) and Parvata Yoga, with the printed chart for Parvata's example only",
+      "reason": "Tier-3 apparatus: worked examples, not rules. Recorded as deliberately excluded, not pending. The Kahala example (Mars -> Sun -> Saturn) is the evidence PD.06.Kahala.Dispositor's note cites for the three-hop reading of verse 35's ambiguous grammar; its own dignity phrase for Saturn ('in his own sign of exaltation') does not match Saturn's actual own/exaltation signs against the houses the example itself states, a defect left as printed and not used to derive the card's condition. No chart diagram is printed for the Kahala example, only for Parvata's.",
       "requires": [
         "dep.none"
       ],
       "phase": "3 (knowledge)",
       "status": "deferred",
       "paragraphs": [
-        149,
         150,
-        151,
         152,
         153,
-        155,
-        157,
-        158,
+        155
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p159",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "printed p.73",
+      "what": "Shri Morarji Desai's horoscope illustrating a second instance of Parvata Yoga",
+      "reason": "Tier-3 apparatus: a worked example, not a rule. Recorded as deliberately excluded, not pending.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
         159,
         161,
         163

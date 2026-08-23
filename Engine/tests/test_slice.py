@@ -628,12 +628,20 @@ def test_slice_runs_and_verifies():
     # "any": three inimical, one combust), Ruchaka Yoga (Mars in Aries, its
     # own sign, in the 4th, a kendra), Adhama Yoga (the Moon in a kendra from
     # the Sun), and Sakata Yoga (the Moon in the 6th from Jupiter, not
-    # cancelled here). This number tracks the rule store: it must change when
-    # doctrine is added, and never on its own.
-    assert r.verification.checks["claims"] == 32
+    # cancelled here); plus two from chapter 6 slice 7's dispositor-chain
+    # yogas (v.35-36), both released by the same underlying fact -- Saturn
+    # (the lagna lord) sits in the 11th, whose lord Mars sits in the 4th (a
+    # kendra) in Mars's own sign, which is the Ruchaka placement above:
+    # Parvata Yoga (Mars, ?g2, tested directly) and Kahala Yoga -- the
+    # dispositor one, PD.06.Kahala.Dispositor, distinct from the Parivartana
+    # PD.06.Kahala of v.32-34 -- which takes the one further hop and finds
+    # Mars is its own dispositor there, so ?g3 is Mars again. This number
+    # tracks the rule store: it must change when doctrine is added, and
+    # never on its own.
+    assert r.verification.checks["claims"] == 34
     for k in ("quote_integrity_passed", "conditions_reevaluated_passed",
               "numeric_grounding_passed"):
-        assert r.verification.checks[k] == 32
+        assert r.verification.checks[k] == 34
 
 
 def test_every_claim_has_all_four_provenance_links():
@@ -657,7 +665,7 @@ def test_quoted_output_adds_no_words():
     r = run(DEMO)
     by_id = {c.claim_id: c for c in r.claims}
     rules = [s for s in r.sentences if s.part == "rules"]
-    assert len(rules) == 32
+    assert len(rules) == 34
     for s in rules:
         assert s.text == by_id[s.claim_ids[0]].passage["quote_display"]
 

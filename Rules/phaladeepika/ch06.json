@@ -7746,6 +7746,242 @@
       "contradicts": [
         "PD.06.Dainya"
       ]
+    },
+    {
+      "id": "PD.06.Kahala.Dispositor",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "35, 36",
+        "page_anchor": "phaladeepika/p0071",
+        "tier": 1,
+        "quote": "35. Note in the birth chart where the lord of the Lagna is posited, and where the lord of the sign occupied by the lord of Lagna is placed. If the lord of this sign is in his sign of exaltation or own identical with kendra or trikona, the Yoga so formed is termed as Kahala Yoga […] 36. The person with Kahala Yoga at birth will be prosperous, noble, benevolent, kind and propitious. He will be very popular in the public.",
+        "quote_display": "35. Note in the birth chart where the lord of the Lagna is posited, and where the lord of the sign occupied by the lord of Lagna is placed. If the lord of this sign is in his sign of exaltation or own identical with kendra or trikona, the Yoga so formed is termed as Kahala Yoga […] 36. The person with Kahala Yoga at birth will be prosperous, noble, benevolent, kind and propitious. He will be very popular in the public.",
+        "quote_sha256": "3b00cf69e41f57bc40eab639ecf58168d5533a1a60e1cc4440238b54dd8c1c17",
+        "char_span": [
+          136643,
+          136921
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            136643,
+            136921
+          ],
+          [
+            138610,
+            138749
+          ]
+        ],
+        "quote_parts": [
+          "35. Note in the birth chart where the lord of the Lagna is posited, and where the lord of the sign occupied by the lord of Lagna is placed. If the lord of this sign is in his sign of exaltation or own identical with kendra or trikona, the Yoga so formed is termed as Kahala Yoga",
+          "36. The person with Kahala Yoga at birth will be prosperous, noble, benevolent, kind and propitious. He will be very popular in the public."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g1",
+              "house": 1
+            }
+          },
+          {
+            "in_house": {
+              "graha": "?g1",
+              "house": "?h2"
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?g2",
+              "house": "?h2"
+            }
+          },
+          {
+            "in_house": {
+              "graha": "?g2",
+              "house": "?h3"
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?g3",
+              "house": "?h3"
+            }
+          },
+          {
+            "all": [
+              {
+                "any": [
+                  {
+                    "dignity": {
+                      "graha": "?g3",
+                      "dignity": "exalted"
+                    }
+                  },
+                  {
+                    "dignity": {
+                      "graha": "?g3",
+                      "dignity": "own"
+                    }
+                  }
+                ]
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "?g3",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_class": {
+                      "graha": "?g3",
+                      "klass": "trikona"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Kahala"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "A second, unrelated Kahala Yoga sharing its name with PD.06.Kahala (the Parivartana/exchange Kahala of v.32-34, tested by an entirely different condition -- the two must never be conflated and are recorded as separate cards under separate ids, even though the source's own predicts value for both is 'Kahala', matching the book's own usage). This one is a dispositor chain: the lord of the Lagna (?g1), the lord of the sign ?g1 occupies (?g2), and the lord of the sign ?g2 occupies (?g3), which is the graha actually tested for dignity (exalted or own) and angularity (kendra or trikona). No new engine capability: this is lord_of_house and in_house chained through shared house variables, the same composition already used for PD.06.Maha/.Dainya/.Kahala's Parivartana test, extended by one hop -- not a new 'dispositor' predicate. The number of hops (two vs. three) is a genuine textual ambiguity, not assumed from outside astrology: verse 35 reads '...where the lord of the Lagna is posited, AND WHERE the lord of the sign occupied by the lord of Lagna IS PLACED. If the lord of THIS sign is...' -- grammatically 'this sign' could refer back to the sign the Lagna lord (?g1) occupies (a two-hop reading, identical in structure to Parvata's construction two sentences later), or to the sign ?g2 itself occupies, just named in the immediately preceding clause (a three-hop reading). The verse's own worked example settles it: 'lord of the Lagna is Mars. He is in Leo (5th house). Lord of 5th house (Leo) the Sun is in the 1st in Aquarius. Saturn, the lord of Aquarius, is in 7th a kendra... This is how Kahala Yoga is formed' -- Mars to Sun to Saturn is three hops, and Saturn (not Sun) is the graha tested. This card follows the example over the more locally-available two-hop parse of the verse alone, since the example is Mantreswara's own unambiguous computation and the verse's grammar (naming where ?g2 'is placed' before saying 'the lord of this sign') supports it too, not because a two-hop reading would make this card structurally identical to Parvata. Verified by rendering PDF pages 71-72 directly. The example's own dignity phrase for Saturn ('in his own sign of exaltation') does not match Saturn's actual own/exaltation signs against the houses the example states, an inconsistency in the example that is not used to derive this condition and is left as printed, deferred with the rest of the worked example.",
+      "exclusions": [
+        "The two-hop reading (testing ?g2 directly, identical in structure to PD.06.Parvata) is not encoded as a competing card: unlike other contested readings in this chapter, nothing in the source independently states the two-hop reading as its own claim -- it exists only as an alternative parse of this single ambiguous sentence, and the worked example resolves it. If a human reviewer reads the verse differently, this card's third hop is the one clause to revisit."
+      ]
+    },
+    {
+      "id": "PD.06.Parvata",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "35, 36",
+        "page_anchor": "phaladeepika/p0072",
+        "tier": 1,
+        "quote": "If the lord of the sign in which the Lord of Lagna is posited, be in his sign of exaltation, of own sign identical with kendra or trikona, the Yoga so arising is known as Parvata Yoga. […] The person born with Parvata Yoga will always be wealthy and happy. He Will perfrom acts which will afford by lasting benefit to others (like construction of Dharmashalas, hospitals, temples, reservoirs, etc.). He will become the ruler of the Earth.",
+        "quote_display": "If the lord of the sign in which the Lord of Lagna is posited, be in his sign of exaltation, of own sign identical with kendra or trikona, the Yoga so arising is known as Parvata Yoga. […] The person born with Parvata Yoga will always be wealthy and happy. He Will perfrom acts which will afford by lasting benefit to others (like construction of Dharmashalas, hospitals, temples, reservoirs, etc.). He will become the ruler of the Earth.",
+        "quote_sha256": "1a6c36b8e0a66f03a7dc7535bf8a904960e984b4fa04aa773f2f9c3c90b54120",
+        "char_span": [
+          137253,
+          137437
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            137253,
+            137437
+          ],
+          [
+            138753,
+            139002
+          ]
+        ],
+        "quote_parts": [
+          "If the lord of the sign in which the Lord of Lagna is posited, be in his sign of exaltation, of own sign identical with kendra or trikona, the Yoga so arising is known as Parvata Yoga.",
+          "The person born with Parvata Yoga will always be wealthy and happy. He Will perfrom acts which will afford by lasting benefit to others (like construction of Dharmashalas, hospitals, temples, reservoirs, etc.). He will become the ruler of the Earth."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g1",
+              "house": 1
+            }
+          },
+          {
+            "in_house": {
+              "graha": "?g1",
+              "house": "?h2"
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?g2",
+              "house": "?h2"
+            }
+          },
+          {
+            "all": [
+              {
+                "any": [
+                  {
+                    "dignity": {
+                      "graha": "?g2",
+                      "dignity": "exalted"
+                    }
+                  },
+                  {
+                    "dignity": {
+                      "graha": "?g2",
+                      "dignity": "own"
+                    }
+                  }
+                ]
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "?g2",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_class": {
+                      "graha": "?g2",
+                      "klass": "trikona"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Parvata"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Parvata Yoga: the lord of the Lagna (?g1) occupies some house; the lord of that house (?g2) -- ?g1's dispositor -- is tested for dignity (exalted or own) and angularity (kendra or trikona). Two hops, unambiguous in both the verse's own wording and its worked example ('lord of the Lagna, Mars is posited in Sagittarius (9th house). Lord of the 9th house Jupiter is in the 4th (a Kendra) in his sign of exaltation causing Parvata Yoga') -- Mars to Jupiter, Jupiter tested directly, no further hop. No new engine capability: lord_of_house and in_house chained through a shared house variable, the same composition already used for PD.06.Maha/.Dainya/.Kahala's Parivartana test.",
+      "exclusions": []
     }
   ]
 }

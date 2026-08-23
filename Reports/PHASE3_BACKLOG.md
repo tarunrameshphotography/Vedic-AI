@@ -6,14 +6,14 @@ Nothing may be silently deferred. Inert cards are read out of the store, deferre
 
 | | |
 |---|---|
-| Backlog entries | **88** |
+| Backlog entries | **89** |
 | — of kind `card` | 20 |
-| — of kind `passage` | 43 |
+| — of kind `passage` | 44 |
 | — of kind `chapter` | 22 |
 | — of kind `concept` | 3 |
 | Resolved | 0 |
-| Cards in store | 400 |
-| Firing | 380 |
+| Cards in store | 402 |
+| Firing | 382 |
 | Inert | 20 |
 
 ## Dependencies
@@ -22,7 +22,7 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 
 | Dependency | Kind | Implemented | Entries blocked | Cards blocked | Phase |
 |---|---|---|---|---|---|
-| `dep.none` — no dependency -- simply not yet done | process | yes | 44 | 0 | 3 (knowledge) |
+| `dep.none` — no dependency -- simply not yet done | process | yes | 45 | 0 | 3 (knowledge) |
 | `dep.lord-of-house` — lord_of_house extractor | predicate | yes | 11 | 9 | 2 (engine completion) |
 | `dep.strength` — planetary and house strength (Stage 4) | calculator | no | 11 | 8 | 2 (engine completion) |
 | `dep.condition-variables` — variables in the condition language | schema | yes | 9 | 9 | 4 (integration) |
@@ -68,7 +68,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 
 ## Available now
 
-44 entr(y/ies) are deferred by ordering alone — nothing blocks them. This is the Phase 3 work queue.
+45 entr(y/ies) are deferred by ordering alone — nothing blocks them. This is the Phase 3 work queue.
 
 ## Entries
 
@@ -99,7 +99,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `chapter:phaladeepika.27` | phaladeepika | 27 | whole chapter - Yogas leading to ascetism | sanyasa yogas | Rule-dense and encodable now; deferred by ordering only. | `dep.none` | 3 (knowledge) | deferred |
 | `chapter:phaladeepika.28` | phaladeepika | 28 | whole chapter - Concluding Chapter | the author's colophon and closing remarks | Narrative, not doctrine. Will be reviewed once for any rule hidden in the closing remarks, then written off. | `dep.none` | 3 (knowledge) | deferred |
 
-### Passages inside encoded chapters (43)
+### Passages inside encoded chapters (44)
 
 | Entry | Book | Chapter | Locus | Deferred | Reason | Blocked on | Phase | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -131,7 +131,8 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `passage:phaladeepika.06.p120` | phaladeepika | 6 | v. 32 Notes (p.67-69) | the itemized Notes lists enumerating the individual Maha (28), Dainya (30) and Kahala (8) Parivartana pairs by name | Tier-2 apparatus, and redundant with doctrine already encoded: verse 32 itself states the complete classification rule in intact, undamaged prose (66 total p… | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.06.p131` | phaladeepika | 6 | printed p.70 | Indira Gandhi's horoscope illustrating two Maha Yogas and one Dainya Yoga | Tier-3 apparatus: a worked example, not a rule. Recorded as deliberately excluded, not pending. | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.06.p145` | phaladeepika | 6 | printed p.71 | a second worked example illustrating Uttarakalamrita's Vipareeta Raja Yoga | Tier-3 apparatus: a worked example, not a rule, for the reference doctrine PD.06.VipareetaRajaYoga.Uttarakalamrita reports. Recorded as deliberately excluded… | `dep.none` | 3 (knowledge) | deferred |
-| `passage:phaladeepika.06.p149` | phaladeepika | 6 | vv. 35-36 (p.71-73) | A second, unrelated Kahala Yoga (a dispositor-chain test) and Parvata Yoga | Not yet encoded; deferred by ordering. This Kahala Yoga (v.35) shares its name with the house-exchange Kahala Yoga of v.32 but tests an entirely different co… | `dep.none` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.06.p150` | phaladeepika | 6 | printed p.71-72 | worked examples for the dispositor-chain Kahala Yoga (v.35) and Parvata Yoga, with the printed chart for Parvata's example only | Tier-3 apparatus: worked examples, not rules. Recorded as deliberately excluded, not pending. The Kahala example (Mars -> Sun -> Saturn) is the evidence PD.0… | `dep.none` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.06.p159` | phaladeepika | 6 | printed p.73 | Shri Morarji Desai's horoscope illustrating a second instance of Parvata Yoga | Tier-3 apparatus: a worked example, not a rule. Recorded as deliberately excluded, not pending. | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.06.p164` | phaladeepika | 6 | vv. 37-41 (p.73-74) | Raja Yoga, Shankha Yoga, and the seven planets-in-N-signs family (Vallaki/Veena, Dharma, Hasha, Kendra, Shula, Yuga, Gola) | Not yet encoded. The seven planets-in-N-signs family needs one new engine fact -- a count of how many distinct signs the seven classical grahas (excluding th… | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.06.p175` | phaladeepika | 6 | vv. 42-43 (p.74-75) | Adhiyoga | Not yet encoded; deferred by ordering. A Notes aside attributed to "Shruti Kirti ... according to Vyas" disputes how strictly the three yoga-forming grahas m… | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.06.p202` | phaladeepika | 6 | vv. 57-69 (p.78-82) | Twelve yogas keyed to the 6th/8th/12th lords occupying a dusthana (Ava, Nisswa, Mriti, Kuhu, Pamara, Harsha, Dushkriti, Sarala, Nirbhagya, Duryoga [10th house], Daridrya, Vimala) | Not yet encoded; deferred by ordering. The richest single contradiction in the chapter: Mantreswara calls Harsha/Sarala/Vimala auspicious, Parashara's own ni… | `dep.none` | 3 (knowledge) | deferred |
