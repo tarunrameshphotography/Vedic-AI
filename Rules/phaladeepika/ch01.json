@@ -822,7 +822,7 @@
         "verified_date": null
       },
       "activation": "inert",
-      "note": "The only predictive rule in the chapter, and it is the translator's commentary rather than the verse. Universally quantified over the houses.",
+      "note": "The only predictive rule in the chapter, and it is the translator's commentary rather than the verse. Universally quantified over the houses. VERIFICATION NOTE (2026-08-24): the condition does not yet match the quote -- the quote states three alternatives (occupied by a benefic, aspected by a benefic, or the house's lord bestowed with strength) but the condition only carries two leaves, omits the \"occupied\" (in_house) case entirely, and its lord_of_house(any,any) leaf does not test strength -- every house always has a lord, so as written that leaf is vacuously true rather than a strength test. Currently harmless only because the card is inert and never evaluated; not corrected here (would be choosing an interpretation during a verification pass, not verifying one) -- whoever builds dep.strength + dep.condition-variables against this card must add the missing in_house(?g,?h) disjunct and make both benefic-sourced leaves test dep.nature explicitly, not just re-parameterize the existing two leaves.",
       "exclusions": [],
       "requires": [
         "dep.nature",
@@ -3153,11 +3153,11 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (quote and predicts checked against the rendered PDF page 13 at 300 dpi, not just the flattened text extraction; confirmed the quote is faithful and predicts does not overclaim a mapping the card doesn't carry -- see corrected note)",
+        "verified_date": "2026-08-24"
       },
       "activation": "inert",
-      "note": "A four-column table whose columns the scan interleaved: the printed rows read 'Gemini Aries Scorpio Cancer', 'Virgo Taurus Capricorn (later half) Libra', and the remaining entries do not line up into four equal columns. Assigning each sign to a class would be guessing, so the quote is encoded and the table is not.",
+      "note": "Quoted with the sentence that introduces the table. VERIFICATION NOTE (2026-08-24): the claim that this table is irreducibly ambiguous was checked against the rendered PDF page (printed p.13, 300 dpi) rather than accepted from the flattened pdf_text extraction, and found to be incorrect -- the printed table is a clean, standard four-column layout (Human: Gemini, Virgo, Libra, Sagittarius first half, Aquarius; Quadruped: Aries, Taurus, Leo, Sagittarius later half, Capricorn first half; Centiped: Scorpio, Pisces; Watery: Cancer, Capricorn later half), matching the standard classical Dwipada/Chatushpada/Keeta/Jalachara classification. Only the linearized text extraction jumbled it. The quote and predicts here still only name the four classes and assert no mapping, so nothing currently encoded is wrong -- but a future Phase 3 session should properly encode the full sign-to-class reference table as a new card, now that the ambiguity this card's note originally cited is resolved. Not done in this verification pass, which does not extract new doctrine.",
       "exclusions": [],
       "requires": [
         "dep.manual-verification"

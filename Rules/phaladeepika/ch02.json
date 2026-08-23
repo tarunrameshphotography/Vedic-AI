@@ -523,8 +523,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (condition in_house(?g,1) matches \"a planet in the Ascendant... bestows his qualities\"; read against Knowledge/phaladeepika.md line 358)",
+        "verified_date": "2026-08-24"
       },
       "note": "Quantified over the grahas: one claim per graha in the lagna.",
       "exclusions": []
@@ -580,8 +580,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (the negated leaf uses a fresh variable ?x rather than ?g, which per Engine/rules.py's own documented negation semantics is exactly what makes it an unbound existential test -- \"is there any planet in the lagna\" -- rather than testing the specific graha ?g bound by lord_of_house; matches \"if there is no planet in the Ascendant the native assumes... the lord's\" precisely)",
+        "verified_date": "2026-08-24"
       },
       "note": "The emptiness test is a negated existential over the occupants of the lagna; the lord comes from the lordship table. Both are now expressible, so the card states exactly what the verse states.",
       "exclusions": []
@@ -629,8 +629,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (condition aspects(?g, target=1) matches \"the planets who aspect the Ascendant\")",
+        "verified_date": "2026-08-24"
       },
       "note": "Full drishti onto the lagna, one claim per aspecting graha.",
       "exclusions": []
@@ -678,8 +678,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (condition and inert status match the note: the verse states how to read a disease off whichever graha caused it, not which graha is the cause, so in_house(any,any) is a recorded placeholder, not a functioning test -- same treatment as PD.09.Dignity.Inimical's \"any\" sentinel, correctly blocked on dep.condition-variables)",
+        "verified_date": "2026-08-24"
       },
       "activation": "inert",
       "note": "States how to read a disease off whichever graha caused it, but not which graha causes one. Needs the rule that identifies the cause before it can be applied.",
@@ -1040,14 +1040,13 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (condition's two leaves match \"Mars... in the Ascendant or as lord of the Ascendant\"; corrected a stale requires entry -- see note)",
+        "verified_date": "2026-08-24"
       },
       "activation": "inert",
-      "note": "The Mars-in-lagna leaf is exact, but the rule is conditioned on a *strong* Mars and on lagna lordship, neither of which the engine can establish.",
+      "note": "The Mars-in-lagna leaf is exact, but the rule is conditioned on a *strong* Mars, which the engine cannot yet establish (dep.strength). VERIFICATION NOTE (2026-08-24): the original note also listed dep.lord-of-house as missing; that capability has been implemented since (Milestone 4, Engine/facts.py::_lordship) and lord_of_house is used throughout the store, so it was never really a blocker -- corrected here to dep.strength alone. The condition itself (Mars in lagna OR Mars as lagna lord, without any strength test) is still only the closest expressible reading; whoever builds dep.strength must add an actual strength test to both leaves, not just drop the dependency.",
       "exclusions": [],
       "requires": [
-        "dep.lord-of-house",
         "dep.strength"
       ]
     },
@@ -3895,8 +3894,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (the quote's six alternatives -- eclipsed, debilitated, enemy's house, 6th/8th/12th from the Ascendant -- map one-to-one onto the condition's six leaves; correctly inert on dep.varga since debilitation-in-Navamsa needs the varga engine, and on dep.condition-variables for the \"any\" sentinel)",
+        "verified_date": "2026-08-24"
       },
       "activation": "inert",
       "note": "Three of the six alternatives are house placements the engine can already test, but the rule is quantified over the grahas and the debilitation clause covers Navamsa as well as Rasi.",
@@ -3975,17 +3974,17 @@
         "subject": "Moon",
         "effect": "water_increases"
       },
-      "timing": "natal",
+      "timing": "query",
       "weight": 1.0,
       "specificity": 1,
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (condition's six leaves match the quote's \"12th 11th, 1st, 6th. 5th or the 7th house\" exactly; confirmed via Engine/activate.py that inert cards cannot fire regardless of condition; corrected timing field -- see note)",
+        "verified_date": "2026-08-24"
       },
       "activation": "inert",
-      "note": "A horary rule: it reads the chart of the moment a question is asked, not a nativity. Its condition is exactly expressible and would fire on a birth chart, which is precisely why it must not.",
+      "note": "A horary rule: it reads the chart of the moment a question is asked, not a nativity. Its condition is exactly expressible and would fire on a birth chart, which is precisely why it must not. VERIFICATION NOTE (2026-08-24): confirmed structurally, not just by convention -- Engine/activate.py skips any card with activation==\"inert\" before its condition is ever evaluated (see the comment at Engine/activate.py:69-78), so this card cannot fire on a natal chart regardless of what its condition matches, independent of this note. Also corrected `timing` from the default \"natal\" to \"query\" -- `timing` is not read by any engine logic yet (grepped), so this was inert-on-inert, but the field should say what the card actually is before dep.prashna gives it meaning.",
       "exclusions": [],
       "requires": [
         "dep.prashna"

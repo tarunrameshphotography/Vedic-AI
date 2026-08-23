@@ -104,12 +104,11 @@ Across the 22 unencoded chapters that is roughly **1131 cards**, of which about 
 
 ## Cards that no sequence here releases
 
-16 card(s) remain blocked after every step above, because they depend on capabilities with no path that pays for itself yet:
+15 card(s) remain blocked after every step above, because they depend on capabilities with no path that pays for itself yet:
 
 - `PD.01.Kalapurusha.Strength` — dep.nature, dep.aspects, dep.lord-of-house, dep.strength, dep.condition-variables
 - `PD.02.AdverseDisposition` — dep.combust, dep.dignity, dep.varga, dep.condition-variables
 - `PD.02.Disease.FollowsTemperament` — dep.condition-variables, dep.adjudication
-- `PD.02.Form.Mars.Youthful` — dep.lord-of-house, dep.strength
 - `PD.09.Dignity.Inimical` — dep.dignity, dep.condition-variables, dep.dasa
 - `PD.09.Vargottama` — dep.vargottama, dep.condition-variables
 - `PD.10.Lord7.BeneficStrong` — dep.lord-of-house, dep.condition-variables, dep.nature, dep.strength

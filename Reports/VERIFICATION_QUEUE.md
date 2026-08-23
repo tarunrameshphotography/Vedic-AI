@@ -10,7 +10,7 @@ sign-off in the card's `extraction.verified_by` in the style already
 used for `PD.02.*`, `PD.09.*`, `PD.10.*` -- reviewer name(s) plus a short
 description of what was checked -- not a blanket approval.
 
-**206 card(s) queued.**
+**198 card(s) queued.**
 
 ## `PD.01.Kalapurusha.Strength` (v. 4 (Notes), inert)
 
@@ -18,71 +18,7 @@ description of what was checked -- not a blanket approval.
 
 - conditions: `{"any": [{"aspects": {"graha": "any", "target": "any"}}, {"lord_of_house": {"graha": "any", "house": "any"}}]}`
 - predicts: `{"domain": "body", "subject": "house_significator", "effect": "limb_strong_or_diseased"}`
-- note: The only predictive rule in the chapter, and it is the translator's commentary rather than the verse. Universally quantified over the houses.
-
-## `PD.01.SignBodyForm.Table` (v. 7, inert)
-
-> The various signs have been classified as biped or human signs, reptile or (Keeta) or centipeds, watery or quadruped (Chatuspada) as detailed below : Human Quadruped Centiped Watery Gemini Aries Scorpio Cancer Virgo Taurus Capricorn (later half) Libra Pisces Sagittarius Leo (first half) Sagittarius (later half) Aquarius Capricorn (first half)
-
-- conditions: `{"all": []}`
-- predicts: `{"relation": "sign_body_form", "classes": ["human", "quadruped", "centiped", "watery"]}`
-- note: A four-column table whose columns the scan interleaved: the printed rows read 'Gemini Aries Scorpio Cancer', 'Virgo Taurus Capricorn (later half) Libra', and the remaining entries do not line up into four equal columns. Assigning each sign to a class would be guessing, so the quote is encoded and the table is not.
-
-## `PD.02.LagnaGraha.BestowsQualities` (v. 7 (Notes), active)
-
-> A planet in the Ascendant of a nativity bestows his qualities and characteristics to the native.
-
-- conditions: `{"all": [{"in_house": {"graha": "?g", "house": 1}}]}`
-- predicts: `{"domain": "character", "subject": "any_graha", "effect": "native_takes_the_graha_qualities"}`
-- note: Quantified over the grahas: one claim per graha in the lagna.
-
-## `PD.02.LagnaEmpty.LordGivesQualities` (v. 7 (Notes), active)
-
-> If there is no planet in the Ascendant the native assumes the appearance and characteristics of the lord of the Ascendant.
-
-- conditions: `{"all": [{"not": {"in_house": {"graha": "?x", "house": 1}}}, {"lord_of_house": {"graha": "?g", "house": 1}}]}`
-- predicts: `{"domain": "character", "subject": "lord_of_lagna", "effect": "native_takes_the_lagna_lord_qualities"}`
-- note: The emptiness test is a negated existential over the occupants of the lagna; the lord comes from the lordship table. Both are now expressible, so the card states exactly what the verse states.
-
-## `PD.02.LagnaAspect.InjectsQualities` (v. 7 (Notes), active)
-
-> The planets who aspect the Ascendant also inject the Influence of their characteristics and temperament in the native.
-
-- conditions: `{"all": [{"aspects": {"graha": "?g", "target": 1}}]}`
-- predicts: `{"domain": "character", "subject": "any_graha", "effect": "native_takes_the_aspecting_graha_qualities"}`
-- note: Full drishti onto the lagna, one claim per aspecting graha.
-
-## `PD.02.Disease.FollowsTemperament` (v. 7 (Notes), inert)
-
-> If a planet in any chart becomes the cause of any disease, the nature of the disease will be according to the temperament of that planet. For example, the Sun will cause bilious troubles and Saturn will give windy troubles.
-
-- conditions: `{"all": [{"in_house": {"graha": "any", "house": "any"}}]}`
-- predicts: `{"domain": "health", "subject": "any_graha", "effect": "disease_follows_the_graha_temperament"}`
-- note: States how to read a disease off whichever graha caused it, but not which graha causes one. Needs the rule that identifies the cause before it can be applied.
-
-## `PD.02.Form.Mars.Youthful` (v. 10 (Notes), inert)
-
-> Notes — Mars is said to be youthful in appearance. The implication of this is if Mars is strong in the Ascendant or as lord of the Ascendant, the native will have a youthful appearance even if he is older in age.
-
-- conditions: `{"any": [{"in_house": {"graha": "Mars", "house": 1}}, {"lord_of_house": {"graha": "Mars", "house": 1}}]}`
-- predicts: `{"domain": "character", "subject": "Mars", "effect": "youthful_appearance"}`
-- note: The Mars-in-lagna leaf is exact, but the rule is conditioned on a *strong* Mars and on lagna lordship, neither of which the engine can establish.
-
-## `PD.02.AdverseDisposition` (v. 36, inert)
-
-> The planets should be considered adversely disposed, if they are eclipsed (by the rays of the Sun), debilitated (be in a sign of debilitation or Navamsa), if they are in any enemy's house or if they occupy the 6th, 8th or the 12th house from the Ascendant. If they occupy other places, they are said to be well disposed.
-
-- conditions: `{"any": [{"combust": {"graha": "any"}}, {"dignity": {"graha": "any", "dignity": "debilitated"}}, {"dignity": {"graha": "any", "dignity": "inimical"}}, {"in_house": {"graha": "any", "house": 6}}, {"in_house": {"graha": "any", "house": 8}}, {"in_house": {"graha": "any", "house": 12}}]}`
-- predicts: `{"domain": "general", "subject": "any_graha", "effect": "adversely_disposed"}`
-- note: Three of the six alternatives are house placements the engine can already test, but the rule is quantified over the grahas and the debilitation clause covers Navamsa as well as Rasi.
-
-## `PD.02.Prashna.ReservoirWater` (v. 36, inert)
-
-> If there be a query whether the water in a reservoir (or in an irrigation project) will increase or decrease, increase in water should be predicted if the Moon be in the 12th 11th, 1st, 6th. 5th or the 7th house at the time of the query.
-
-- conditions: `{"any": [{"in_house": {"graha": "Moon", "house": 12}}, {"in_house": {"graha": "Moon", "house": 11}}, {"in_house": {"graha": "Moon", "house": 1}}, {"in_house": {"graha": "Moon", "house": 6}}, {"in_house": {"graha": "Moon", "house": 5}}, {"in_house": {"graha": "Moon", "house": 7}}]}`
-- predicts: `{"domain": "prashna", "subject": "Moon", "effect": "water_increases"}`
-- note: A horary rule: it reads the chart of the moment a question is asked, not a nativity. Its condition is exactly expressible and would fire on a birth chart, which is precisely why it must not.
+- note: The only predictive rule in the chapter, and it is the translator's commentary rather than the verse. Universally quantified over the houses. VERIFICATION NOTE (2026-08-24): the condition does not yet match the quote -- the quote states three alternatives (occupied by a benefic, aspected by a benefic, or the house's lord bestowed with strength) but the condition only carries two leaves, omits the "occupied" (in_house) case entirely, and its lord_of_house(any,any) leaf does not test strength -- every house always has a lord, so as written that leaf is vacuously true rather than a strength test. Currently harmless only because the card is inert and never evaluated; not corrected here (would be choosing an interpretation during a verification pass, not verifying one) -- whoever builds dep.strength + dep.condition-variables against this card must add the missing in_house(?g,?h) disjunct and make both benefic-sourced leaves test dep.nature explicitly, not just re-parameterize the existing two leaves.
 
 ## `PD.06.Ruchaka` (v. 1, 2, active)
 
