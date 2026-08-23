@@ -1,0 +1,37 @@
+{
+  "book_id": "brihat-jataka",
+  "title": "Brihat Jataka",
+  "author": "Varahamihira",
+  "translator": "Dr. G. S. Kapoor",
+  "publisher": "Ranjan Publications",
+  "tradition": "parashari",
+  "corpus_file": "Knowledge/brihat-jataka.md",
+  "source_pdf": "Books/Varaha_Mihira_-_Brihat_Jataka.pdf",
+  "default_tier": 1,
+  "commentary_marker": "Commentary",
+  "commentary_attribution": "Dr. G. S. Kapoor (translator)",
+  "commentary_tier": 2,
+  "chapters_extracted": [
+    2
+  ],
+  "known_defects": [
+    {
+      "locus": "brihat-jataka/p0034, ch. 2 v. 5, closing Devanagari line",
+      "defect": "Two Devanagari OCR errors in the corpus relative to the printed page. Printed: क्षीणेन्द्वर्कमहीसुतार्कतनयाः; corpus OCR: क्षीणेन्द्ररर्कमहीसतार्कतनयाः (व misread as र, and सु misread as स). Found in Milestone 20 by rendering image p0034 and comparing glyph by glyph -- the first concrete instance of the Devanagari glyph-level spot-check this book has owed since conversion.",
+      "impact": "None on any encoded card. The two load-bearing words of the line, क्षीण (diminished Moon) and पापा (malefics), are intact in both, and no card quotes the Devanagari; the cards quote the English translation on p0033, which was verified byte-exact against the printed page.",
+      "status": "recorded, not corrected -- the corpus is frozen and re-OCR is a Phase 1 decision, not a Phase 3 one"
+    },
+    {
+      "locus": "brihat-jataka/p0033, ch. 2 v. 5 English translation",
+      "defect": "The translation glosses the Sanskrit क्षीण (diminished/waned Moon) as '(within less than 72 degrees distance from Sun)'. The verse contains no numeral; the figure is the translator's editorial insertion, printed in parentheses.",
+      "impact": "Material. Taken as doctrine it would contradict Phaladeepika ch. 2 v. 27's 'waning Moon' on a large fraction of charts (a Moon 60 degrees from the Sun is waxing but within 72 degrees). Both BJ.02.Nature.* cards therefore quote the Moon clause but assert nothing about the Moon; see concept:moon-nature-criterion.",
+      "status": "preserved as printed, deliberately not resolved"
+    },
+    {
+      "locus": "brihat-jataka/p0033 vs p0034, ch. 2 vv. 4-5",
+      "defect": "The edition prints the translation of v. 5's content (lords of colours, devatas, directions, and the malefic classification) on printed p.30, immediately after v. 4's Devanagari and translation, while v. 5's own Devanagari appears later on printed p.31 under a different heading ('Sexual and other Features of Planets'), followed by what is in fact v. 6's content (planetary sex and elements).",
+      "impact": "Verse attribution only. The cards are attributed to v. 5 on the strength of the Devanagari's own content (क्षीण...पापा), not on the page order, and the page_anchor records where the quoted English actually sits (p0033).",
+      "status": "recorded; attribution made on verse content, not page order"
+    }
+  ]
+}

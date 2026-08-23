@@ -656,10 +656,20 @@ def test_slice_runs_and_verifies():
     # roles. PD.06.RajaYoga does not fire here -- the 9th and 10th lords
     # are not together. This number tracks the rule store: it must change
     # when doctrine is added, and never on its own.
-    assert r.verification.checks["claims"] == 35
+    #
+    # 35 -> 41 in Milestone 20, when BJ.02.Nature.Benefics supplied the
+    # natural-benefic classification of Jupiter and Venus that no encoded
+    # card had previously carried. Five further cards reach their conditions
+    # on this chart as a direct result -- PD.06.Parijata, PD.06.Subhavesi,
+    # PD.06.Subhavasi, PD.06.Subhobhayachari and PD.10.Couple.BeneficAspect,
+    # every one of them a rule about benefics that could not fire while the
+    # two principal benefics were unclassified. Nothing that fired before
+    # stopped firing: the change is purely additive, which is what adding a
+    # classification (rather than altering one) should do.
+    assert r.verification.checks["claims"] == 41
     for k in ("quote_integrity_passed", "conditions_reevaluated_passed",
               "numeric_grounding_passed"):
-        assert r.verification.checks[k] == 35
+        assert r.verification.checks[k] == 41
 
 
 def test_every_claim_has_all_four_provenance_links():
@@ -683,7 +693,7 @@ def test_quoted_output_adds_no_words():
     r = run(DEMO)
     by_id = {c.claim_id: c for c in r.claims}
     rules = [s for s in r.sentences if s.part == "rules"]
-    assert len(rules) == 35
+    assert len(rules) == 41  # see test_slice_runs_and_verifies for the 35 -> 41 move
     for s in rules:
         assert s.text == by_id[s.claim_ids[0]].passage["quote_display"]
 
@@ -895,3 +905,21 @@ def test_consultation_is_byte_identical_across_processes():
         for _ in range(3)
     }
     assert len(digests) == 1, f"consultation is not reproducible: {digests}"
+
+
+def test_consultation_reports_cross_book_agreement_without_scoring_it():
+    """Milestone 20: with two books in the store, agreement becomes visible.
+
+    The relationship between authorities has to reach the reader, not just the
+    evidence dict -- but as a count of books, never as a weight. The engine has
+    no mechanism for preferring one authority to another and the consultation
+    must not imply otherwise.
+    """
+    text = run(DEMO).consultation
+    assert "**Cross-book agreement**" in text
+    assert "stated independently by 2 books" in text
+    assert "Agreement is reported, not scored." in text
+    # A graha only one book classifies must be listed as such, not as agreed.
+    assert "Resting on a single authority:" in text
+    for banned in ("confidence", "score of", "weighted", "outranks"):
+        assert banned not in text.lower(), banned

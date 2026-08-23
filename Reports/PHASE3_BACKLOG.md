@@ -6,14 +6,14 @@ Nothing may be silently deferred. Inert cards are read out of the store, deferre
 
 | | |
 |---|---|
-| Backlog entries | **89** |
+| Backlog entries | **119** |
 | — of kind `card` | 20 |
-| — of kind `passage` | 44 |
-| — of kind `chapter` | 22 |
-| — of kind `concept` | 3 |
+| — of kind `passage` | 45 |
+| — of kind `chapter` | 49 |
+| — of kind `concept` | 5 |
 | Resolved | 0 |
-| Cards in store | 405 |
-| Firing | 385 |
+| Cards in store | 407 |
+| Firing | 387 |
 | Inert | 20 |
 
 ## Dependencies
@@ -22,11 +22,11 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 
 | Dependency | Kind | Implemented | Entries blocked | Cards blocked | Phase |
 |---|---|---|---|---|---|
-| `dep.none` — no dependency -- simply not yet done | process | yes | 45 | 0 | 3 (knowledge) |
-| `dep.strength` — planetary and house strength (Stage 4) | calculator | no | 11 | 8 | 2 (engine completion) |
+| `dep.none` — no dependency -- simply not yet done | process | yes | 73 | 0 | 3 (knowledge) |
+| `dep.strength` — planetary and house strength (Stage 4) | calculator | no | 12 | 8 | 2 (engine completion) |
 | `dep.lord-of-house` — lord_of_house extractor | predicate | yes | 10 | 8 | 2 (engine completion) |
 | `dep.condition-variables` — variables in the condition language | schema | yes | 9 | 9 | 4 (integration) |
-| `dep.adjudication` — Stage 7 adjudication | engine | no | 7 | 1 | 4 (integration) |
+| `dep.adjudication` — Stage 7 adjudication | engine | no | 8 | 1 | 4 (integration) |
 | `dep.manual-verification` — human verification of the encoding | process | no | 7 | 1 | 3 (knowledge) |
 | `dep.dasa` — vimshottari dasa engine | calculator | no | 6 | 3 | 2 (engine completion) |
 | `dep.varga` — varga (divisional chart) engine | calculator | no | 6 | 5 | 2 (engine completion) |
@@ -68,14 +68,41 @@ Every blocking dependency of these entries is now implemented. Each card here be
 
 ## Available now
 
-45 entr(y/ies) are deferred by ordering alone — nothing blocks them. This is the Phase 3 work queue.
+73 entr(y/ies) are deferred by ordering alone — nothing blocks them. This is the Phase 3 work queue.
 
 ## Entries
 
-### Chapters not yet encoded (22)
+### Chapters not yet encoded (49)
 
 | Entry | Book | Chapter | Locus | Deferred | Reason | Blocked on | Phase | Status |
 |---|---|---|---|---|---|---|---|---|
+| `chapter:brihat-jataka.01` | brihat-jataka | 1 | whole chapter - On Signs | Brihat Jataka chapter 1: On Signs | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
+| `chapter:brihat-jataka.03` | brihat-jataka | 3 | whole chapter - Non-Human Births | Brihat Jataka chapter 3: Non-Human Births | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
+| `chapter:brihat-jataka.04` | brihat-jataka | 4 | whole chapter - On Conception Etc. | Brihat Jataka chapter 4: On Conception Etc. | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
+| `chapter:brihat-jataka.05` | brihat-jataka | 5 | whole chapter - Birth Conditions | Brihat Jataka chapter 5: Birth Conditions | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
+| `chapter:brihat-jataka.06` | brihat-jataka | 6 | whole chapter - Factors for Early Death | Brihat Jataka chapter 6: Factors for Early Death | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
+| `chapter:brihat-jataka.07` | brihat-jataka | 7 | whole chapter - Span of Life | Brihat Jataka chapter 7: Span of Life | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
+| `chapter:brihat-jataka.08` | brihat-jataka | 8 | whole chapter - Ruling and Sub Ruling | Brihat Jataka chapter 8: Ruling and Sub Ruling | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
+| `chapter:brihat-jataka.09` | brihat-jataka | 9 | whole chapter - Ashtak Varga | Brihat Jataka chapter 9: Ashtak Varga | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
+| `chapter:brihat-jataka.10` | brihat-jataka | 10 | whole chapter - Nature of Profession | Brihat Jataka chapter 10: Nature of Profession | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
+| `chapter:brihat-jataka.11` | brihat-jataka | 11 | whole chapter - Rajayogas | Brihat Jataka chapter 11: Rajayogas | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
+| `chapter:brihat-jataka.12` | brihat-jataka | 12 | whole chapter - Nabhas (Heavenly) Yogas | Brihat Jataka chapter 12: Nabhas (Heavenly) Yogas | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
+| `chapter:brihat-jataka.13` | brihat-jataka | 13 | whole chapter - Yogas for Moon | Brihat Jataka chapter 13: Yogas for Moon | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
+| `chapter:brihat-jataka.14` | brihat-jataka | 14 | whole chapter - Combination of Planets | Brihat Jataka chapter 14: Combination of Planets | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
+| `chapter:brihat-jataka.15` | brihat-jataka | 15 | whole chapter - Renunciation | Brihat Jataka chapter 15: Renunciation | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
+| `chapter:brihat-jataka.16` | brihat-jataka | 16 | whole chapter - Traits of Asterisms | Brihat Jataka chapter 16: Traits of Asterisms | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
+| `chapter:brihat-jataka.17` | brihat-jataka | 17 | whole chapter - Moon in Different Signs | Brihat Jataka chapter 17: Moon in Different Signs | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
+| `chapter:brihat-jataka.18` | brihat-jataka | 18 | whole chapter - Planets in Signs | Brihat Jataka chapter 18: Planets in Signs | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
+| `chapter:brihat-jataka.19` | brihat-jataka | 19 | whole chapter - Aspects on Moon | Brihat Jataka chapter 19: Aspects on Moon | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
+| `chapter:brihat-jataka.20` | brihat-jataka | 20 | whole chapter - Planets in Houses | Brihat Jataka chapter 20: Planets in Houses | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
+| `chapter:brihat-jataka.21` | brihat-jataka | 21 | whole chapter - Planets in Vargas | Brihat Jataka chapter 21: Planets in Vargas | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
+| `chapter:brihat-jataka.22` | brihat-jataka | 22 | whole chapter - Miscellaneous | Brihat Jataka chapter 22: Miscellaneous | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
+| `chapter:brihat-jataka.23` | brihat-jataka | 23 | whole chapter - Anishta or Misfortune | Brihat Jataka chapter 23: Anishta or Misfortune | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
+| `chapter:brihat-jataka.24` | brihat-jataka | 24 | whole chapter - Female Horoscopy | Brihat Jataka chapter 24: Female Horoscopy | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
+| `chapter:brihat-jataka.25` | brihat-jataka | 25 | whole chapter - Death | Brihat Jataka chapter 25: Death | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
+| `chapter:brihat-jataka.26` | brihat-jataka | 26 | whole chapter - Unknown Horoscopes | Brihat Jataka chapter 26: Unknown Horoscopes | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
+| `chapter:brihat-jataka.27` | brihat-jataka | 27 | whole chapter - Drekkana | Brihat Jataka chapter 27: Drekkana | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
+| `chapter:brihat-jataka.28` | brihat-jataka | 28 | whole chapter - Concluding Chapter | Brihat Jataka chapter 28: Concluding Chapter | Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and n… | `dep.none` | 3 (knowledge) | deferred |
 | `chapter:phaladeepika.03` | phaladeepika | 3 | whole chapter - Divisions of a sign | varga definitions and their computation | Reference chapter, not rule-dense. Defines the divisions dep.varga must compute. | `dep.none` | 3 (knowledge) | deferred |
 | `chapter:phaladeepika.04` | phaladeepika | 4 | whole chapter - The various kinds of Strengths of Planets and Houses | shadbala and bhava bala doctrine | Computational doctrine rather than predictive rules. Source of dep.strength. | `dep.none` | 3 (knowledge) | deferred |
 | `chapter:phaladeepika.05` | phaladeepika | 5 | whole chapter - Source of livelihood | rules for profession and means of living | Rule-dense and encodable now; deferred by ordering only. | `dep.none` | 3 (knowledge) | deferred |
@@ -99,10 +126,11 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `chapter:phaladeepika.27` | phaladeepika | 27 | whole chapter - Yogas leading to ascetism | sanyasa yogas | Rule-dense and encodable now; deferred by ordering only. | `dep.none` | 3 (knowledge) | deferred |
 | `chapter:phaladeepika.28` | phaladeepika | 28 | whole chapter - Concluding Chapter | the author's colophon and closing remarks | Narrative, not doctrine. Will be reviewed once for any rule hidden in the closing remarks, then written off. | `dep.none` | 3 (knowledge) | deferred |
 
-### Passages inside encoded chapters (44)
+### Passages inside encoded chapters (45)
 
 | Entry | Book | Chapter | Locus | Deferred | Reason | Blocked on | Phase | Status |
 |---|---|---|---|---|---|---|---|---|
+| `passage:brihat-jataka.02.remainder` | brihat-jataka | 2 | all of chapter 2 except v. 5's natural benefic/malefic classification | The rest of Brihat Jataka chapter 2 (Planets): the planets' traits, names, colours, presiding devatas, directions, sex and elements, their dignities and relative strengths, the kala bala material, and the translator's worked example of Mahatma Gandhi's horoscope. | Milestone 20 entered this chapter for exactly one classification -- the natural benefic/malefic statement of v. 5, which is what closes production blocker P0… | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.01.p001` | phaladeepika | 1 | vv. 1-2 (p.10) | the invocation of the Sun and the author's obeisance to Saraswati, his deities and preceptors | Devotional invocation. It states no rule and conditions nothing, and encoding it as a card would put a benediction in the report as though a chart had activa… | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.01.p003` | phaladeepika | 1 | v. 3 (p.10) | the instruction to establish the birth time in Ghatikas by gnomon or instrument, and to compute the longitudes before judging anything | Method, not doctrine: it governs how a chart is erected rather than what any placement means. The engine already does what it asks, by a different instrument… | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.01.p032` | phaladeepika | 1 | v. 6 table header (p.12) | the column headings of the deep-exaltation table | Table furniture. The seven rows beneath it are encoded as PD.01.DeepExaltation.*, each quoting the sentence that introduces the table; the bare column headin… | `dep.none` | 3 (knowledge) | deferred |
@@ -148,11 +176,13 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `passage:phaladeepika.09.p016` | phaladeepika | 9 | p.107-109 | two transcribed horoscopes, their lagna notes, a worked example and an aside on Abraham Lincoln | Tier-3 apparatus: worked examples, not rules. Recorded as deliberately excluded, not pending. | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.10.p038` | phaladeepika | 10 | p.114 colophon | the chapter's closing formula | Colophon. Not doctrine. | `dep.none` | 3 (knowledge) | deferred |
 
-### Cross-cutting (3)
+### Cross-cutting (5)
 
 | Entry | Book | Chapter | Locus | Deferred | Reason | Blocked on | Phase | Status |
 |---|---|---|---|---|---|---|---|---|
+| `concept:moon-nature-criterion` | brihat-jataka | 2 | ch. 2 v. 5 (printed p.30) against Phaladeepika ch. 2 v. 27 | Which criterion decides that the Moon is malefic, and whether the two books actually disagree about it. Brihat Jataka's English prints 'the Moon (within less than 72 degrees distance from Sun)'; the Devanagari it translates says only क्षीण (kshina, the diminished/waned Moon) and carries no numeral; Phaladeepika's translator renders the same underlying criterion as 'the waning Moon'. Operationally the two English renderings disagree on a large fraction of charts -- a Moon 60 degrees from the Sun is waxing but within 72 degrees. | Deferred because resolving it is a consequential editorial policy decision, not an encoding detail, and the project's rule is to preserve disagreement rather… | `dep.adjudication` | 4 (integration) | deferred |
 | `concept:manual-verification` | phaladeepika | 0 | the whole store | human sign-off that each card reads its verse correctly | Every card is machine-checked byte-exact against the corpus, but extraction.verified_by is null on all but four of them: PD.02.Friendship.NaturalTable (the t… | `dep.manual-verification` | 3 (knowledge) | deferred |
+| `concept:kala-bala-benefic-scope` | phaladeepika | 4 | ch. 4, Kala Bala section (printed pp.37-38) | Phaladeepika ch. 4's statement 'The Moon, Mercury, Jupiter and Venus are benefics', which also names Jupiter and Venus and was one of the three candidate sources considered for closing P0-2. | Deliberately NOT encoded as a graha_nature card, and this entry exists so that decision is on the record rather than being an omission. The sentence is scope… | `dep.strength` | 2 (engine completion) | deferred |
 | `concept:sunapha-anapha-durudhara-naming` | phaladeepika | 6 | v. 5-7 (p.57-59) | which of Sunapha, Anapha and Durudhara individually corresponds to the 2nd-only, 12th-only or both-occupied condition from the Moon | Verse 5 states that the three yogas collectively arise 'when the planets occupy the 2nd and 12th houses reckoned from the Moon', but assigns no name to any o… | `dep.manual-verification` | 3 (knowledge) | deferred |
 | `concept:nodal-retrograde-dignity` | phaladeepika | 9 | v. 20, as applied by Engine/overrides.py | whether the retrograde-as-exalted override extends to Rahu and Ketu | The verse says 'a planet' without exclusion, and the engine's own retrograde predicate already marks the nodes retrograde on every chart (their motion is alw… | `dep.manual-verification` | 3 (knowledge) | deferred |
 

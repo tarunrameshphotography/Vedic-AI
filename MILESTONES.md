@@ -5,53 +5,41 @@ astrologer would, where every predictive sentence traces to a rule printed in a 
 applied to a quantity that was actually computed. Governing rule: *the system may compute,
 and it may quote — it may not invent.*
 
-**Current production-readiness: 49%** (see §A for the weighted breakdown). **This is not a
-9-point jump in capability.** §A's published category scores and weights have always summed
-to 48.30%, not the 39.55% the file stated; the per-milestone *increments* were computed
-correctly but the base was wrong and carried forward unchanged for four milestones. Milestone
-19 recomputed it from the same categories and weights (§A) and corrected the arithmetic. Real
-movement this session is +2 provenance and +1 test coverage, i.e. about +0.3 points.
+**Current production-readiness: 52%** (see §A for the weighted breakdown; was 49% after
+Milestone 19's arithmetic correction). This time the movement is real: a second book entered
+the store, the benefic classification gap closed, and cross-book corroboration became
+possible for the first time.
 
-**Current phase:** Production Blocker Clearance Program (interrupts ordinary Phase 3
-rule extraction — see §J and §K). Phase 3 itself remains at the state described in §B.
+**Current phase:** Phase 4 (Knowledge Integration) has **started** — narrowly, with the
+corroboration half of Stage 7 only. Phase 3 remains at the state described in §B.
 
-**Current milestone:** Milestone 19 — verification queue, chapter 10 batch (36 cards; 1
-defect corrected, 1 documented and held unsigned, 2 prior claims corrected), which **closes
-the interpretive verification queue** and clears blocker P1-1. The same session found a new
-production blocker, **P0-2, the benefic classification gap** — see §K.
+**Current milestone:** Milestone 20 — Brihat Jataka's natural benefic/malefic classification
+encoded as the project's first second-book cards, closing production blocker **P0-2** and
+delivering the first cross-book corroboration.
 
-**Exact resume point:** `git fetch --all --prune`, confirm `main` == `origin/main`, then
-read §K, **P0-2**. Do not resume ordinary chapter encoding first: 22 active cards across
-chapters 6 and 10 systematically under-fire today because Jupiter and Venus receive no
-`nature` fact at all, and P0-2 needs a human decision between three real sources before any
-of it can be encoded. The verification queue (P1-1) is finished apart from two deliberate,
-documented holdouts and needs no further work.
+**Exact resume point:** `git fetch --all --prune`, confirm `main` == `origin/main`, then read
+§K **P0-1** (`dep.strength`) — now the top of the critical path — and §K **P1-3**, whose
+scope changed again in this milestone (see below). **One decision is owed by a human before
+any further nature doctrine is encoded:** `concept:moon-nature-criterion` in
+`Rules/deferred.json` — see §D.
 
-**Current Git SHA:** `86047e98db2775de11c58d5924fb5d3c1d66c42b` (parent — this milestone's
+**Current Git SHA:** `b180cad17ba63275a5652784e296dbb8467a7435` (parent — this milestone's
 own commit follows this file's checkpoint)
 **Last verified remote SHA (origin/main):** same before this milestone's commit — 0 ahead /
 0 behind, working tree clean
 **Last update date:** 2026-08-23
 
-**Current test count:** 241 passing (`Engine/tests`) — was 233
-**Current rule-card counts:** 405 total · 385 executable (firing) · 20 inert (recorded, blocked)
-— unchanged this session; Milestone 19 corrected a condition in place and split no cards.
-**Current verification:** **403/405 cards signed off (99.5%)** — was 368/405 (91%), and 4/404
-(1%) before Milestone 15. 175 structural (reference/table) cards signed off by automated
-structural check; 228 interpretive cards signed off by human(+Claude) reading pass (3
-pre-existing + 20 chapter 9 + 8 of chapters 1-2 + 53 of chapter 6 + 109 of chapter 8 + 35 of
-chapter 10). **The interpretive queue is closed.** Exactly two cards remain deliberately
-**unsigned**, both for real, documented condition defects blocked on capabilities that do not
-exist:
-  - `PD.01.Kalapurusha.Strength` — found in Milestone 16; needs `dep.strength` +
-    `dep.condition-variables`. Its Milestone 16 note was **corrected** in Milestone 19: it
-    claimed the stub leaf was "vacuously true"; it is vacuously *false* (see §I, "any" is a
-    literal, not a wildcard), which points the eventual repair the other way.
-  - `PD.10.Venus.VargaMarsSaturn` — found in Milestone 19; its varga branch does not encode
-    "the Varga of Mars or Saturn" and repairing it requires deciding what "Varga" denotes,
-    which belongs to whoever encodes chapters 3/21, not to a review pass.
+**Current test count:** 250 passing (`Engine/tests`) — was 241
+**Current rule-card counts:** **407 total** · 387 executable (firing) · 20 inert — was 405.
+The two new cards are `BJ.02.Nature.Malefics` and `BJ.02.Nature.Benefics`, the first rule
+cards ever encoded from a second book.
+**Current verification:** **405/407 cards signed off (99.5%)**. 177 structural (was 175 — the
+two new reference cards carry a real human(+Claude) sign-off rather than the automated
+structural one, because their encoding involved a genuine judgement about what to assert);
+228 interpretive. The same two deliberate holdouts remain unsigned
+(`PD.01.Kalapurusha.Strength`, `PD.10.Venus.VargaMarsSaturn`).
 
-**Backlog:** 89 entries (20 card, 44 passage, 22 chapter, 3 concept), 0 resolved
+**Backlog:** 119 entries (was 89). The 30 new entries are the accounting cost of entering a second book honestly: 27 unencoded Brihat Jataka chapters, 1 passage entry claiming the 147 paragraphs of its chapter 2 that these cards do not quote, and the 2 concept questions this milestone's source work produced (`concept:moon-nature-criterion`, `concept:kala-bala-benefic-scope`). Nothing about the second book is silently deferred.
 
 ---
 
@@ -66,19 +54,24 @@ own warning that a system can have many cards while lacking reasoning capability
 | Category | Weight | Score | Rationale |
 |---|---:|---:|---|
 | Corpus completeness | 15% | 25% | 2 of 6 planned books converted and frozen (Brihat Jataka, Phaladeepika); 4 pending (BPHS, Jataka Parijata, Uttara Kalamrita, Saravali) behind a deliberate freeze. |
-| Source verification | 10% | 70% | Corpus pipeline verified byte-exact with hallucination detection, verse reconciliation, figure transcription for the 2 converted books; Devanagari glyph-level spot-check still owed on Brihat Jataka. |
+| Source verification | 10% | 75% | Corpus pipeline verified byte-exact with hallucination detection, verse reconciliation, figure transcription for the 2 converted books. **The Devanagari glyph-level spot-check owed on Brihat Jataka has now begun** (Milestone 20): ch. 2 v. 5's closing line was compared glyph by glyph against the rendered page and 2 OCR defects found and recorded (`व`→`र`, `सु`→`स`), neither affecting any encoded card. One line is not a spot-check pass, but it is the first evidence about the real error rate rather than an estimate. |
 | Rule extraction/encoding | 20% | 36% | Phaladeepika chapters 1, 2, 8, 9, 10 encoded and 6 partially (through v.38 of ~70); 405 cards (one card split into two during verification, not new corpus material) from an estimated ~1,535 total across all 28 Phaladeepika chapters at the measured 0.65 cards/paragraph rate — and that is one book of six. |
-| Reasoning engine capability | 15% | 45% | Stages 0, 1, 2, 6, 9, 10 implemented; Stage 3-5 (yogas/strength/houses as first-class computation) not built as dedicated stages; Stage 7 (adjudication) only partial (synthesis exists, weighting/cancellation does not); no varga, dasa, transit, ashtakavarga, or strength calculators yet. **This score is now known to overstate effective capability** and is held only because Milestone 19's discovery is a doctrine-coverage gap rather than an engine one: Jupiter and Venus receive no `nature` fact on any chart, so all 22 active cards conditioning on `benefic` systematically under-fire (§K, P0-2). Revise this score when P0-2 is decided. |
-| Contradiction handling | 10% | 55% | Competing authorities are preserved via `contradicts`/`extends` links and dual cards (e.g. PD.01 rising-sign dispute, PD.09 dignity dispute) — the mechanism works and is used repeatedly, but Stage 7 adjudication (weighing contradictions against each other) does not exist yet. |
+| Reasoning engine capability | 15% | 52% | Stages 0, 1, 2, 6, 9, 10 implemented; Stage 3-5 (yogas/strength/houses as first-class computation) not built as dedicated stages; Stage 7 (adjudication) only partial (synthesis exists, weighting/cancellation does not); no varga, dasa, transit, ashtakavarga, or strength calculators yet. **Raised 45→52 in Milestone 20**, the first increase from real capability rather than bookkeeping: P0-2 is closed (all 9 grahas now carry a `nature` fact, so the 22 benefic-conditioned cards can fire), and the first piece of Stage 7 exists — per-graha authority attribution and cross-book corroboration in `_resolve_nature`. Still 52 and not higher because Stage 7's *hard* half — adjudicating authorities that actually disagree — remains unbuilt and deliberately so (§K, P1-3). |
+| Contradiction handling | 10% | 62% | Competing authorities are preserved via `contradicts`/`extends` links and dual cards (e.g. PD.01 rising-sign dispute, PD.09 dignity dispute) — the mechanism works and is used repeatedly, but Stage 7 adjudication (weighing contradictions against each other) does not exist yet. |
 | Provenance/auditability | 10% | 97% | Every card is byte-exact hash-verified against the corpus on every run; `verify.py` enforces this as a build gate. `extraction.verified_by` now covers **403/405 cards (99.5%**, was 4/404) via `Rules/tools/review.py`: 175 structural cards signed off automatically (no interpretive layer to review — the byte-exact check already is the complete verification), 228 interpretive cards signed off by an actual human(+Claude) reading pass across chapters 1, 2, 6, 8, 9 and 10. The interpretive queue is closed; the 2 unsigned cards are deliberate, documented defect holdouts, not unreviewed cards. Not 100% because those two defects are real and still open. |
-| Test coverage | 10% | 63% | 241 tests (was 233), growing with every milestone, covering rule structure, engine extractors, variable binding, overrides, the verification tool itself, and now the chapter 10 verification batch's findings (the missing inimical-sign disjunct, and a test pinning that `"any"` is a literal so every inert stub condition is fail-safe); no dedicated end-to-end regression suite across the full corpus of encoded chapters yet. |
+| Test coverage | 10% | 65% | 250 tests (was 241), growing with every milestone, covering rule structure, engine extractors, variable binding, overrides, the verification tool itself, and now the chapter 10 verification batch's findings (the missing inimical-sign disjunct, and a test pinning that `"any"` is a literal so every inert stub condition is fail-safe); no dedicated end-to-end regression suite across the full corpus of encoded chapters yet. |
 | End-to-end validation | 5% | 30% | CLI produces full 3-part consultations and has been spot-checked against real charts per milestone; no systematic charted validation set (Phase 6 of `Phases.txt`) exists yet. |
-| Multi-book corroboration | 3% | 0% | Only one book (Phaladeepika) has cards in the store; Brihat Jataka is corpus-converted but has zero rule cards. Cross-book agreement (a Phase 4 goal) cannot be assessed with one book. |
+| Multi-book corroboration | 3% | 25% | **No longer zero (Milestone 20).** Brihat Jataka now has 2 rule cards, and cross-book agreement is not only assessable but implemented and surfaced: 4 grahas' natures are corroborated by both books, and the consultation reports which claims rest on one authority and which on two. Scored 25%, not higher, because corroboration exists for exactly one relation (`graha_nature`) out of the whole store, and the second book has 2 cards against the first book's 405. |
 | Production safety/reliability | 1% | 50% | Groundedness verification (Stage 9) refuses to emit ungrounded output; no rate limiting, error-recovery, or production deployment hardening attempted (not yet in scope). |
 | CLI/API/user-facing readiness | 1% | 40% | Working CLI (`Engine/cli.py`) produces real consultations; no API, no UI, no packaging. |
 
-**Overall Production Readiness: 0.15×25 + 0.10×70 + 0.20×36 + 0.15×45 + 0.10×55 + 0.10×97 +
-0.10×63 + 0.05×30 + 0.03×0 + 0.01×50 + 0.01×40 = 48.60% ≈ 49%**
+**Overall Production Readiness: 0.15×25 + 0.10×75 + 0.20×36 + 0.15×52 + 0.10×62 + 0.10×97 +
+0.10×65 + 0.05×30 + 0.03×25 + 0.01×50 + 0.01×40 = 51.80% ≈ 52%**
+
+Recomputed from the table above, not incremented — see the correction note below for why that
+distinction is now a standing rule. Movement from 49% is +3 points across five categories
+(source verification +5, reasoning capability +7, contradiction handling +7, test coverage +2,
+multi-book corroboration +25), all of it attributable to Milestone 20's actual work.
 
 **Arithmetic correction (Milestone 19).** The previous line claimed this expression equalled
 39.55%. It does not, and never did: with the same eleven categories, the same weights (which
@@ -108,7 +101,7 @@ changes materially — see §16.
 | Phase 1 | Corpus & OCR | **Not complete — documentation overstates it** | 33% | 2 of 6 books converted, verified, frozen (`Knowledge/brihat-jataka.md`, `Knowledge/phaladeepika.md`). `Phases.txt` marks "Phase 1 — Corpus & OCR" with a ✅, which is **inaccurate**: 4 books (BPHS Vol.1, Jataka Parijata Vol.1, Uttara Kalamrita, Saravali) are audited but not yet OCR'd/converted (`Reports/PROJECT_STATUS.md`). The pipeline architecture itself is frozen and proven across two structurally different books, which is what "frozen" refers to — not full corpus completeness. | Convert and verify the remaining 4 books; get Devanagari glyph-level spot-check on Brihat Jataka; write `Reports/conversion_report.md`. |
 | Phase 2 | Reasoning engine architecture | Core MVP complete; extensions ongoing | 55% | Stages 0,1,2,6,9,10 fully implemented (`Engine/chart.py`, `facts.py`, `activate.py`, `render.py`, `pipeline.py`). 13 fact extractors implemented (`Engine/facts.py`): lordship, sign classes, house classes, graha classes, aspects, combustion, dignity, dignity-friendship, occupant count, graha frame, conjunction, nature, nature occupancy. Stages 3-5 (yoga/strength/house computation as dedicated stages) and Stage 7 (adjudication) are the largest open items — see `dep.strength`, `dep.varga`, `dep.dasa`, `dep.adjudication`, `dep.ashtakavarga`, `dep.transit`, `dep.vargottama`, `dep.upagraha` in `Rules/deferred.json`, all currently `implemented: false`. | Build `dep.strength` (Stage 4, highest closure-unlock return), `dep.varga`, `dep.dasa`, `dep.adjudication`, `dep.ashtakavarga`, `dep.transit`. |
 | Phase 3 | Classical Knowledge Extraction | In progress | 26% | 404 cards from Phaladeepika chapters 1, 2, 6 (partial), 8, 9, 10 of 28 total chapters; 0 cards yet from Brihat Jataka despite it being corpus-converted. Estimated ~1,535 total cards across all 28 Phaladeepika chapters at the measured 0.65 cards/paragraph rate (`Reports/PHASE3_PLAN.md`), so 404/1535 ≈ 26% of just this one book, before Brihat Jataka or the 4 unconverted books are touched at all. | Continue chapter-by-chapter encoding (ch. 3, 4, 5, 6 remainder, 7, 11-28); start Brihat Jataka extraction; resolve `concept:manual-verification` (human sign-off, currently 368/405 cards, see §K P1-1). |
-| Phase 4 | Knowledge Integration | Not started | 5% | `dep.adjudication`, `dep.rule-transfer` (implemented), `dep.dignity-override` (implemented) exist as primitives but no rule-priority/weighting/cancellation system exists. Contradictory cards are recorded and linked but never adjudicated against each other at query time. | Design and build Stage 7 adjudication: conflict detection, priority, weighting, cancellation, cross-book agreement scoring. |
+| Phase 4 | Knowledge Integration | **Started (Milestone 20)** | 20% | The corroboration half of Stage 7 is built and exercised: two books now classify grahas by nature, agreement between them is recorded per graha (`authorities`, `books`, `corroborated`) rather than the second authority overwriting the first, and the consultation reports it. `dep.rule-transfer` and `dep.dignity-override` remain as narrow primitives. | Build the conflict half — but only once two or more *genuine* conflicts exist to design against; Milestone 20 dissolved the one candidate by reading the source. No weighting, no numeric confidence (§K, P1-3). |
 | Phase 5 | Consultation Intelligence | Not started | 10% | Stage 8 (compose prose) and part of Stage 7 (synthesis, grouping/recurrence) exist (`Engine/synthesis.py`, `render.py`) and produce a real 3-part consultation today, but there is no contradiction-explaining or cross-book-convergence narrative yet — that needs Phase 4 first. | Build after Phase 4 adjudication exists. |
 | Phase 6 | Validation | Not started | 0% | No charted validation set, no celebrity/historical chart corpus, no accuracy measurement exists yet. Individual milestones are spot-checked against 1-2 real charts each (ad hoc), which is not the same as this phase. | Build hundreds of known charts and measure prediction accuracy, per `Phases.txt`. |
 | Phase 7 | Research Platform | Not started | 0% | Depends on Phase 4 (cross-book comparison) and Phase 6 (validated data) neither of which exist yet. | Not actionable yet. |
@@ -723,63 +716,165 @@ never sufficient.
 
 ---
 
+### Milestone 20 — Brihat Jataka's natural benefic/malefic classification: P0-2 closed, first cross-book corroboration
+
+**Phase:** 3 (knowledge) + 4 (integration) — Phase 4 begins here
+**Status:** COMPLETE
+**Completion:** 100%
+
+**The blocker:** P0-2, found in Milestone 19. Jupiter and Venus — the two principal natural
+benefics — received no `nature` fact on any chart, because the only encoded classification
+(Phaladeepika ch. 2 v. 27 and its Notes) names the malefics exhaustively and names only the
+waxing Moon and unassociated Mercury as benefic. 22 active cards conditioning on `benefic`
+under-fired on every consultation. `PD.10.Benefics.In7` could not fire for Jupiter in the 7th.
+
+**Source work first, encoding second.** Three candidate sources were identified in Milestone
+19. Brihat Jataka ch. 2 v. 5 was chosen, and then actually checked rather than assumed:
+
+1. **The quote was verified against the rendered source page, not just the corpus.** Image
+   `p0033` (printed p.30) confirms the OCR character for character. It also settled a
+   provenance question that mattered: the classification sits in the **main translation body**,
+   in a paragraph that ends before the italicised `Commentary:` marker — so it is translation,
+   not the translator's commentary, and does not fall under the apparatus rule that would have
+   disqualified the ch. 8 candidate.
+2. **The verse behind it was read.** The Devanagari of v. 5 (image `p0034`, printed p.31)
+   reads `क्षीणेन्द्वर्कमहीसुतार्कतनयाः पापा बुधस्तैर्युतः` — "the **क्षीण** (diminished/waned) Moon, Sun,
+   Mars, Saturn are malefics; Mercury when joined with them." **It contains no numeral.**
+3. **Which resolved the Moon question that had been the whole reason this needed adjudication.**
+   The printed English reads "the Moon (within less than 72 degrees distance from Sun)". That
+   figure is the **translator's editorial gloss**, printed in parentheses, with no warrant in
+   the verse. Milestone 19 had recorded this as a genuine cross-book contradiction — Brihat
+   Jataka by elongation vs. Phaladeepika by waxing/waning — and concluded that Stage 7
+   adjudication had to be built before the fix could be taken. **That conclusion was wrong, and
+   reading the Sanskrit is what showed it.** Both books condition the Moon on the same
+   underlying term; only their translators' renderings of it differ.
+4. **Two Devanagari OCR defects were found** in that line (`व` misread as `र`, `सु` as `स`) —
+   the first concrete evidence about this book's Devanagari error rate, which had been an
+   estimate since conversion. Neither touches any encoded card. Recorded in the new manifest's
+   `known_defects`.
+
+**What was encoded:** `BJ.02.Nature.Malefics` (Sun, Mars, Saturn outright; Mercury conditional
+on malefic company) and `BJ.02.Nature.Benefics` (**Jupiter and Venus outright**; Mercury
+conditional). Both are `reference` cards, both byte-exact at multi-span quotes, both carrying a
+real human(+Claude) sign-off rather than the automated structural one, because deciding what to
+assert here was a judgement and not a transcription.
+
+**The Moon clause is quoted in full and asserted by neither card.** This is the milestone's
+central editorial decision and it was made deliberately rather than by default. Encoding the
+72-degree gloss as doctrine would manufacture a cross-book contradiction out of two renderings
+of one Sanskrit word; encoding it as "waning" would silently substitute Phaladeepika's wording
+for what this page actually prints. Both are choices a verification-and-encoding pass has no
+standing to make. So the Moon is left to Phaladeepika, which classifies it unopposed and is
+**not overwritten**, and the question is registered as `concept:moon-nature-criterion` for a
+human to decide. Pinned by three tests so a later session cannot resolve it quietly.
+
+**The smallest Phase 4 mechanism the real relationship required — corroboration, not
+resolution.** Once the Moon was correctly classified as a translation difference rather than a
+doctrinal conflict, the two books turned out to **agree everywhere they both speak**. So what
+Stage 7 needed here was not a way to choose between authorities but a way to record that two of
+them concur:
+
+- `settle()` in `Engine/facts.py` now accumulates authorities instead of overwriting, and each
+  nature fact carries `authorities`, `books` and `corroborated`.
+- Attribution became **per graha rather than per extractor run**. Previously every nature fact
+  cited every `graha_nature` card in the store. With one book that was harmless; with two it is
+  a false citation — Phaladeepika's cards say nothing whatever about Jupiter. This was a real
+  provenance defect created by the second book's arrival and fixed in the same milestone.
+- The consultation now reports cross-book agreement in its "Scope and silence" section, as
+  counts of books and never as a score.
+- **The refusal to adjudicate genuine conflict is untouched**, and now names both offending
+  cards in its error instead of just declining. A test asserts it still raises.
+
+**Result:** all 9 grahas carry a `nature` fact. Sun, Mars, Saturn and Mercury are corroborated
+by both books; Jupiter and Venus rest on Brihat Jataka; Moon, Rahu and Ketu on Phaladeepika.
+On the demo chart the claim count moves **35 → 41**, with five further cards reaching their
+conditions (`PD.06.Parijata`, `PD.06.Subhavesi`, `PD.06.Subhavasi`, `PD.06.Subhobhayachari`,
+`PD.10.Couple.BeneficAspect`) and **nothing that previously fired ceasing to fire** — purely
+additive, which is what adding a classification rather than altering one should do.
+
+**Accounting cost, paid rather than deferred:** entering one chapter of a 28-chapter book means
+the rest must be explicitly claimed. 30 backlog entries were added (27 chapters, 1 passage entry
+covering the 147 unquoted paragraphs of ch. 2, 2 concept questions), taking the backlog 89 → 119.
+
+**Tests:** +9 (241 → 250). Two tests that asserted the *old* behaviour — that Jupiter and Venus
+were unclassified — were **inverted rather than deleted**, and now assert that the
+classification exists and is attributed to the book that makes it, with a note that the fix for
+a future failure is a card and never a Python constant. New tests cover: Jupiter and Venus
+benefic from an encoded source; corroboration recorded for grahas both books classify; *not*
+recorded for grahas only one classifies; a benefic clause now satisfiable by Jupiter; the Moon
+asserted by neither Brihat Jataka card while still quoted; the Moon question registered in the
+backlog; the Moon still resolving from Phaladeepika; **the Kala Bala statement not encoded as
+general nature doctrine**; that scope decision registered; genuine contradiction still raising
+with both cards named; and the consultation reporting agreement without scoring it. The two
+golden claim-count assertions were updated 35 → 41 with the five newly-firing cards named — the
+test's own comment already required that this number move only when doctrine is added.
+
+**Why this milestone matters:** It closes the most consequential defect the project has found,
+and it does so by the project's own rules — no graha was ever hardcoded as benefic; a book was
+encoded and the same extractor read it. More importantly it shows what the source discipline is
+actually *for*: Milestone 19 had correctly identified a blocker and correctly identified that
+adjudication gated it, and reading the Sanskrit behind one parenthetical dissolved the gate
+entirely. A session that had trusted the English would have built a contradiction-adjudication
+engine to resolve a contradiction that does not exist.
+
+---
+
 ## D. CURRENT MILESTONE
 
-**Nothing is currently in progress.** Milestone 19 above is fully committed, tested,
-verified, and pushed.
+**Nothing is currently in progress.** Milestone 20 above is fully committed, tested, verified,
+and pushed.
 
-**Next approved action — decide P0-2 (§K), the benefic classification gap.** This is a
-**human judgement call and is why this session stopped here**, per the session brief's own
-instruction to stop rather than invent an answer to a source ambiguity. Jupiter and Venus
-receive no `nature` fact on any chart, and 22 active cards under-fire as a result. The engine
-may not simply be told they are benefic — §I forbids hardcoding a classification the corpus
-itself states, and the corpus states it three different ways, each with a real cost:
+### One decision is owed by a human — `concept:moon-nature-criterion`
 
-1. **Phaladeepika ch. 4 (Kala Bala), char ~64650:** *"The Moon, Mercury, Jupiter and Venus are
-   benefics."* Names both missing grahas outright, in the same book already encoded. But it is
-   scoped to a strength computation, and the sentences immediately after it explicitly scope
-   Mercury's treatment to that computation (*"for determining kala Bala Mercury should be
-   treated as a benefic. We support this view"*), in open disagreement with ch. 2 v. 27.
-   Encoded unscoped it would also make the Moon unconditionally benefic, colliding with ch. 2's
-   waxing/waning rule and raising `DoctrineError` on real charts.
-2. **Phaladeepika ch. 8 Notes:** *"Jupiter is the greatest natural benefic amongst all the
-   planets"* and *"Venus is the benefic No. 2."* General and unscoped, and they name exactly
-   the two grahas that are missing — but both are the translator's commentary, and this project
-   has consistently recorded such Notes as tier-2/3 apparatus rather than doctrine (Milestone
-   11 did precisely this with the translator's benefic/malefic preference). Promoting apparatus
-   to doctrine is a precedent change that should be made deliberately, not incidentally.
-3. **Brihat Jataka, char ~50134:** *"Sun, Mars, Saturn and the Moon (within less than 72
-   degrees distance from Sun) are treated as natural malefics. Moon other than of the nature
-   referred to above, Mercury, Jupiter and Venus are natural benefics."* The cleanest statement
-   of the three — verse-level, general, unscoped, and directly parallel to Phaladeepika ch. 2
-   v. 27. It would also clear blocker **P1-2** (Brihat Jataka has zero cards) and produce the
-   project's **first real cross-book corroboration** (both books make Sun/Mars/Saturn malefic
-   and both make Mercury conditional on its company). But it introduces the project's first
-   genuine cross-book *contradiction*: the two books define the Moon's nature by different
-   criteria — Phaladeepika by waxing/waning, Brihat Jataka by distance from the Sun — which
-   disagree on real charts (a Moon 60° from the Sun is waxing, so benefic to Phaladeepika, and
-   within 72°, so malefic to Brihat Jataka). `_resolve_nature`'s `settle()` refuses such a
-   conflict by design, raising `DoctrineError` rather than picking an authority. So option 3
-   depends on **P1-3 (Stage 7 adjudication)** existing first.
+Milestone 20 deliberately left one question open rather than answering it, and it should be
+settled before any further `graha_nature` doctrine is encoded, because the answer sets the
+precedent for every translator's gloss in the corpus.
 
-**This is the moment P1-3 stops being speculative.** §K P1-3 has been deferred on the grounds
-that only one card needed adjudication, so building a general mechanism would be architecture
-ahead of need. That reasoning no longer holds: adjudication is now the gate on a P0 blocker
-affecting 22 active cards, with a specific, reproducible, two-book contradiction to design
-against instead of a hypothetical one. Recommended sequence once the decision is made: option 3
-→ Stage 7 adjudication scoped to exactly this conflict → then reassess.
+**The question:** what makes the Moon malefic, and do the two books actually disagree?
+- Brihat Jataka's English prints "the Moon (within less than 72 degrees distance from Sun)".
+- The Devanagari it translates (ch. 2 v. 5, checked against the printed page) says only
+  **क्षीण** — diminished/waned — and carries **no numeral**.
+- Phaladeepika's translator renders the same underlying criterion as "the waning Moon".
+- Operationally the two English renderings disagree on many charts: a Moon 60° from the Sun is
+  waxing (benefic to Phaladeepika) but within 72° (malefic to Brihat Jataka's gloss).
 
-**Do not** resume ordinary chapter encoding before P0-2 is decided. Every new chapter encoded
-against `benefic` conditions inherits the same silent under-firing.
+**Three defensible positions:**
+1. **Gloss is doctrine.** Encode the 72° figure as Brihat Jataka's criterion. Honest to what
+   this edition prints, but it manufactures a cross-book contradiction from two renderings of
+   one word, and it would require Stage 7 conflict adjudication (P1-3) to be built before the
+   Moon can be classified at all.
+2. **Gloss is apparatus; read the Sanskrit.** Treat क्षीण as the criterion both books state, as
+   Phaladeepika's translator does. Doctrinally the most defensible, and it makes the books
+   agree completely — but it substitutes one book's wording for what this page prints, and it
+   commits the project to reading Sanskrit behind English wherever the two diverge.
+3. **Hold it unasserted** — what Milestone 20 did. Phaladeepika governs the Moon unopposed,
+   nothing is overwritten, no consultation is wrong today, and the question stays visible.
+   Sustainable indefinitely, but it is a deferral, not an answer.
 
-**Alternative (unblocked, if P0-2 is deliberately deferred):**
-- Phaladeepika ch. 6 vv. 42-43 (Adhiyoga) — ready now, scoped
-  (`passage:phaladeepika.06.p175`). Note it is a benefic-conditioned yoga, so it would be
-  born into P0-2's under-firing.
-- Phaladeepika ch. 6 vv. 39-41 — still blocked, needs a distinct-sign-count fact.
+**Recommendation: (2), with the gloss preserved in the card's note as apparatus.** It matches
+the project's existing treatment of translator's material (Milestone 11), and Milestone 20's
+source work already established the factual basis for it. But it is a precedent-setting
+editorial call about how this project reads its translations, and it is explicitly a human's to
+make — which is why it was not taken unilaterally.
 
-**Blockers:** P0-2 blocks meaningful consultation quality; it does not block encoding.
-**Dependencies:** none new required to *decide* P0-2; option 3 requires P1-3.
+### Next milestone once that is settled — P0-1, `dep.strength`
+
+With P0-2 closed, **`dep.strength` is unambiguously the top of the critical path** (§K, P0-1).
+It blocks chapter 4 entirely and leaves large fractions of chapters 19/20/21 inert on arrival,
+and it is the single largest remaining "born inert" tax on all future encoding. Note it is a
+multi-session effort by construction: ch. 4 (163 paragraphs, ~106 est. cards) must be encoded
+before Stage 4 can be built, because the engine may not hardcode strength doctrine the book
+states. Do not begin it without budgeting for that.
+
+**Also newly cheap, and worth doing early:** Brihat Jataka now has a manifest, a proven card
+schema and a working corroboration path, so extracting more of it is ordinary Phase 3 work with
+no setup cost. Its ch. 2 remainder (`passage:brihat-jataka.02.remainder`) restates dignity and
+relative-strength doctrine Phaladeepika already carries, which makes it the natural place to
+exercise corroboration on a second relation and to find out whether the two books agree as
+cleanly elsewhere as they did on nature.
+
+**Blockers:** none blocking encoding. P1-3 (conflict adjudication) is not currently gating
+anything — see §K.
 **Last commit:** this milestone's own commit (see git log for the SHA).
 **Working tree:** clean, in sync with `origin/main`.
 
@@ -908,7 +1003,7 @@ count:
 
 | Book | PDF pages | Text layer | Method | Converted? | In `Knowledge/`? | Rule cards? | Known defects |
 |---|---|---|---|---|---|---|---|
-| Brihat Jataka | 230 book pages (115 scanned spreads) | Corrupt OCR | Surya OCR | Yes — 28/28 chapters, 408 verses sequential, 0 hallucinated lines, 0 `[UNCLEAR]` | Yes (`Knowledge/brihat-jataka.md`, 6282 lines) | **0** | Devanagari glyph-level spot-check still owed (~1.5% char-error rate measured, not yet spot-checked); 2 misread verse numbers (8 vs. ४) corrected with evidence; 1 printed duplicate line preserved as printed; 7 tables + 10 charts of figure-transcription queue status unverified this session |
+| Brihat Jataka | 230 book pages (115 scanned spreads) | Corrupt OCR | Surya OCR | Yes — 28/28 chapters, 408 verses sequential, 0 hallucinated lines, 0 `[UNCLEAR]` | Yes (`Knowledge/brihat-jataka.md`, 6282 lines) | **2** (ch. 2 v. 5's natural benefic/malefic classification, Milestone 20) | Devanagari glyph-level spot-check still owed (~1.5% char-error rate measured, not yet spot-checked); 2 misread verse numbers (8 vs. ४) corrected with evidence; 1 printed duplicate line preserved as printed; 7 tables + 10 charts of figure-transcription queue status unverified this session |
 | Phaladeepika | 265 pages | Clean digital | `pdf_text` direct extraction | Yes — 28/28 chapters | Yes (`Knowledge/phaladeepika.md`, 5969 lines) | **404**, from chapters 1, 2, 6 (partial), 8, 9, 10 | Numerous — see `Rules/phaladeepika/manifest.json` `known_defects` (24 entries); most severe is the ch.23 Ashtakavarga chart totaling 44 instead of 48 bindus, preserved as printed |
 | BPHS Vol. 1 | 482 | Corrupt OCR | Surya (pending) | No | No | 0 | Pending, behind Phase 1 freeze |
 | Jataka Parijata Vol. 1 | 324 | Severely corrupt | Surya (pending) | No | No | 0 | Pending, behind Phase 1 freeze |
@@ -1170,7 +1265,7 @@ cleared, newly identified, or re-scoped.
 
 ### P0 — must be solved before production
 
-*Ordered by position on the critical path: **P0-2 is the top item**, discovered in Milestone 19 and degrading every consultation today, while P0-1 gates whole future chapters. P0-1 is listed first only because it is the older entry.*
+*P0-2 was cleared in Milestone 20, so **P0-1 is now the top of the critical path** and the only open P0.*
 
 **P0-1 — `dep.strength` (Stage 4: Shadbala/Bhavabala) does not exist.**
 - **Why it matters:** Classical doctrine conditions on planetary/house strength throughout
@@ -1186,53 +1281,25 @@ cleared, newly identified, or re-scoped.
   cards, (3) re-run `backlog.py`/`leverage.py` to confirm the 7-8 card unlock.
 - **What it unlocks:** ch. 4 chapter itself, 7-8 currently-inert cards, and removes the
   single largest "born inert" tax on every future chapter per §J.5.
-- **Status:** Deferred to next Phase-3-resuming session; not started this session (§J.5).
+- **Status:** **OPEN, and now the top of the critical path** — P0-2 cleared in Milestone 20 leaves this the only open P0. Still not started, and still a multi-session effort by construction: ch. 4 must be encoded before Stage 4 can be built, because the engine may not hardcode strength doctrine the book states. Do not begin without budgeting for both halves (§J.5).
 
-**P0-2 — The benefic classification gap: Jupiter and Venus have no `nature` fact at all.**
-- **Why it matters:** This is the most consequential defect found in the project so far,
-  because it degrades *every* consultation silently rather than failing loudly. The two
-  principal natural benefics of the entire tradition are unclassified by the encoded doctrine,
-  so `nature(Jupiter,benefic)` and `nature(Venus,benefic)` are never emitted, and every rule
-  conditioning on a benefic under-fires. It is not an engine bug — `Engine/facts.py`
-  `_resolve_nature` is correct and even reports the gap honestly in the consultation's own
-  "Doctrine read, but not complete" section — it is a doctrine-coverage gap.
-- **Quantified:** **22 active cards** (all executable, none inert) condition on `benefic`:
-  the twelve house-wise yogas of ch. 6 (`Chamara`, `Dhenu`, `Shaurya`, `Jaladhi`, `Chhattra`,
-  `Astra.H06`, `Astra.H08`, `Kama`, `Bhagya`, `Khyati`, `Parijata`, `Musala`), `PD.06.Amala`,
-  the Subha- cluster (`Subhavesi`, `Subhavasi`, `Subhobhayachari`, `Subhakartari`, `Susubha`),
-  and 4 of chapter 10 (`Houses5And7.Flourish`, `Benefics.In7`, `Couple.BeneficAspect`,
-  `WifeChildren.Lords2712`). Anything conditioning on `nature_occupancy(house, "benefic")` is
-  affected the same way.
-- **Demonstrated, not inferred:** `PD.10.Benefics.In7` encodes "Benefics in the 7th house will
-  produce good effects unless they happen to be lords of the 6th, 8th or 12th house". Given a
-  chart with Jupiter in the 7th — the most textbook instance of that rule — the card does not
-  fire. Supplying the single missing fact `nature(Jupiter,benefic)` makes it fire immediately.
-- **Root cause:** The only two `graha_nature` reference cards are `PD.02.Nature.Malefics`
-  (ch. 2 v. 27) and `PD.02.Nature.Benefics` (that verse's Notes). Read together they name the
-  malefics exhaustively (Sun, Mars, Saturn, Rahu, Ketu, plus the waning Moon and Mercury when
-  associated with them) but name only the waxing Moon and unassociated Mercury as benefic.
-  Jupiter and Venus are simply never mentioned in that passage — the book treats them as
-  benefic by default, and "not on the malefic list, therefore benefic" is an inference the
-  engine is forbidden to make on its own (§I: the corpus is the sole authority for a
-  classification the corpus states).
-- **Dependency:** A human decision between three real sources, each with a real cost — see §D
-  for the full statement of all three with corpus offsets. Briefly: Phaladeepika ch. 4's
-  benefic list is scoped to Kala Bala and collides with ch. 2 on both Mercury and the Moon;
-  Phaladeepika ch. 8's two statements are general but are translator's apparatus, not verse;
-  Brihat Jataka's is the cleanest and most general but starts a second book and introduces the
-  project's first genuine cross-book contradiction (the two books define the Moon's nature by
-  incompatible criteria), which `settle()` refuses to adjudicate by design.
-- **Exact work required:** (1) decide which source governs; (2) if Brihat Jataka, build Stage 7
-  adjudication (P1-3) first, because the Moon conflict raises `DoctrineError` on real charts;
-  (3) encode the chosen passage as a `graha_nature` reference card with the existing toolchain;
-  (4) re-run a consultation and confirm the 22 cards now fire where they should.
-- **What it unlocks:** correct firing of 22 active cards today and every benefic-conditioned
-  card encoded hereafter; materially better consultations; and, via option 3, blockers P1-2 and
-  the first cross-book corroboration the project has ever been able to attempt.
-- **Status:** **OPEN, and it is the top of the critical path.** Discovered in Milestone 19; not
-  actioned, deliberately, because choosing among the three sources is a judgement call with
-  lasting consequences and the session brief's §14/§18 forbid inventing an answer to exactly
-  this kind of ambiguity. Do not resolve it by hardcoding the conventional classification.
+**P0-2 — The benefic classification gap. CLEARED (Milestone 20).**
+- **What it was:** Jupiter and Venus received no `nature` fact on any chart, so all 22 active
+  cards conditioning on `benefic` under-fired on every consultation. `PD.10.Benefics.In7`
+  could not fire for Jupiter in the 7th.
+- **How it was closed:** by encoding Brihat Jataka ch. 2 v. 5 — *"Moon other than of the nature
+  referred to above, Mercury, Jupiter and Venus are natural benefics."* — as
+  `BJ.02.Nature.Benefics` / `BJ.02.Nature.Malefics`, and letting the existing extractor read
+  them. **No graha was hardcoded**; the fix is a card, and if the classification ever goes
+  missing again the fix is another card, never a Python constant. A test says so.
+- **Verified at the source, not just the corpus:** the quote was confirmed against the rendered
+  page (image `p0033`, printed p.30), which also established that it sits in the translation
+  body rather than the `Commentary:` block. The verse behind it was read on image `p0034`.
+- **Result:** all 9 grahas classified. 4 corroborated by both books. Demo-chart claims 35 → 41,
+  five further cards firing, none lost.
+- **Status:** **CLEARED.** The Moon half of the passage was deliberately not asserted; that is
+  `concept:moon-nature-criterion`, an open question for a human (§D), not a residual blocker —
+  Phaladeepika classifies the Moon unopposed today.
 
 ### P1 — required for the intended MVP/production scope
 
@@ -1262,48 +1329,53 @@ cleared, newly identified, or re-scoped.
 - **Status:** **CLEARED.** Do not re-open. Re-run `python Rules/tools/review.py --queue` after
   encoding any new chapter — new interpretive cards will queue themselves.
 
-**P1-2 — Only one book (Phaladeepika) has rule cards; Brihat Jataka has zero.**
-- **Why it matters:** Multi-book corroboration is a stated project goal (`Phases.txt` Phase
-  4) and cannot be assessed or delivered from a single-book store.
-- **Current state:** Brihat Jataka is fully corpus-converted (`Knowledge/brihat-jataka.md`,
-  6282 lines) and frozen, but has 0 cards.
-- **Dependency:** None technical — purely an ordering choice (Phaladeepika was prioritized
-  first as the cleaner-text book).
-- **Exact work required:** Begin Brihat Jataka rule extraction using the existing toolchain
-  (`build_chapter.py`), same discipline as Phaladeepika ch. 1-10.
-- **What it unlocks:** First possible cross-book corroboration check (§J.6); second book
-  toward the eventual 6-book corpus.
-- **Status:** Not started; queued behind current Phaladeepika ch. 6 continuation in the
-  ordinary Phase 3 backlog (§E).
+**P1-2 — Only one book had rule cards. CLEARED (Milestone 20).**
+- **What it was:** Brihat Jataka was fully corpus-converted and frozen but had **zero** rule
+  cards, so multi-book corroboration — a stated Phase 4 goal — could not be assessed at all.
+- **How it was closed:** `BJ.02.Nature.Malefics` and `BJ.02.Nature.Benefics`, the first cards
+  ever encoded from a second book, together with `Rules/brihat-jataka/manifest.json`. The
+  existing toolchain (`verify.py`, `dupes.py`, `backlog.py`, `review.py`) accepted the second
+  book without modification, which is the real proof that the store's design generalises.
+- **What it delivered immediately:** genuine cross-book corroboration on 4 grahas, surfaced in
+  the consultation, plus the discovery and repair of a provenance defect the second book's
+  arrival created (nature facts had been citing every `graha_nature` card in the store rather
+  than the ones that classify that particular graha).
+- **Status:** **CLEARED** in the sense that mattered — the single-book condition is broken and
+  corroboration is real and exercised. Breadth is now ordinary Phase 3 work: the book has 2
+  cards against Phaladeepika's 405, and its remaining 27 chapters plus the rest of ch. 2 are
+  registered in the backlog (`chapter:brihat-jataka.*`, `passage:brihat-jataka.02.remainder`).
 
-**P1-3 — Stage 7 adjudication does not exist.**
-- **Why it matters:** Contradictory doctrine is preserved (`contradicts`/`extends`) but
-  never weighed against itself — `Phases.txt` Phase 4 is otherwise entirely unbuilt.
-- **Current state:** Only `dep.rule-transfer` and `dep.dignity-override` exist as narrow
-  primitives; `dep.adjudication` unlocks only 1 card solo today.
-- **Dependency (re-scoped in Milestone 19):** the previous entry here deferred this on the
-  grounds that "only 1 card needs it, [so building it] risks exactly the
-  speculative-architecture-ahead-of-need §I warns against." **That reasoning no longer holds.**
-  P0-2 — a P0 blocker degrading 22 active cards on every chart — has a candidate fix (adopting
-  Brihat Jataka's natural-benefic classification, which is the cleanest of the three available
-  sources and would also clear P1-2) that **cannot be taken without adjudication**, because the
-  two books define the Moon's nature by incompatible criteria (Phaladeepika: waxing/waning;
-  Brihat Jataka: within/beyond 72° of the Sun) and `_resolve_nature`'s `settle()` raises
-  `DoctrineError` rather than choosing an authority. Adjudication is now a gate on production
-  quality, not a speculative nicety.
-- **Exact work required:** design Stage 7 against the concrete, reproducible conflict P0-2
-  supplies — one graha, two books, two stated criteria that genuinely disagree on real charts —
-  rather than against a hypothetical. The smallest defensible version does not need weighting or
-  numeric confidence: it needs to represent that two authorities classify the same graha
-  differently, surface both with their sources, and mark the conflict unresolved where no
-  documented priority rule exists. Additional real examples will arrive with ch. 6's
-  Mantreswara-vs-Parashara dusthana-lord dispute (`passage:phaladeepika.06.p202`), which should
-  be encoded alongside if possible so the design is tested against two independent conflicts.
-- **What it unlocks:** P0-2's best fix; P1-2 (Brihat Jataka's first cards); Phase 4 entirely;
-  contradiction-explaining narrative in Phase 5.
-- **Status:** Not started, but **no longer correctly deferred** — it is now on the critical path
-  behind P0-2's decision. Do not build a general weighting/confidence system; build exactly the
-  mechanism the Moon conflict requires and no more (§I).
+**P1-3 — Stage 7 adjudication: the corroboration half now exists; the conflict half does not.**
+- **Why it matters:** Contradictory doctrine is preserved (`contradicts`/`extends`) but never
+  weighed against itself. `Phases.txt` Phase 4 was otherwise entirely unbuilt.
+- **What changed in Milestone 20 — a partial build, and a correction to this entry's own
+  premise.** Milestone 19 re-scoped this blocker on the grounds that P0-2's fix could not be
+  taken without conflict adjudication, because the two books appeared to define the Moon's
+  nature by incompatible criteria. **That premise was wrong.** Reading the Devanagari behind
+  Brihat Jataka's English showed the 72-degree figure to be the translator's parenthetical
+  gloss on क्षीण, not a competing doctrine — so the two books agree everywhere they both speak,
+  and what the relationship actually required was a way to *record agreement*, not to resolve
+  disagreement. That half was built:
+  - `settle()` accumulates authorities instead of overwriting; nature facts carry
+    `authorities`, `books`, `corroborated`.
+  - Attribution is per graha, not per extractor run.
+  - The consultation reports cross-book agreement as counts of books, never as a score.
+- **What is still missing:** everything to do with authorities that genuinely *disagree*.
+  `_resolve_nature` still raises `DoctrineError` rather than choosing — deliberately, and now
+  naming both offending cards so an encoder can find the pair. There is still no priority rule,
+  no weighting, no cancellation, and no cross-book disagreement narrative.
+- **Dependency:** none technical. What is missing is a **real conflict to design against**.
+  Milestone 20 removed the one candidate this project had. Chapter 6's Mantreswara-vs-Parashara
+  dusthana-lord dispute (`passage:phaladeepika.06.p202`) remains the best prospect, and Brihat
+  Jataka's ch. 2 remainder is the cheapest place to look for a second, since it restates dignity
+  and relative-strength doctrine Phaladeepika already carries.
+- **Exact work required:** do **not** build a general weighting or confidence system. When two
+  or more genuine conflicts exist, build only what represents them: which authorities claim
+  what, on what basis, and an explicit "unresolved" state where no documented priority rule
+  applies. The standing prohibition on invented numeric confidence stands.
+- **Status:** **Half built, and correctly stalled on the other half.** It is no longer gating
+  anything: P0-2 is closed without it. Note the standing lesson — before building adjudication
+  for an apparent contradiction, read the source behind both sides; one of them may be a gloss.
 
 ### P2 — important, can follow initial production release
 
@@ -1348,11 +1420,19 @@ chapters.**
 
 ## DO NOT FORGET
 
-- **P0-2 IS THE TOP OF THE CRITICAL PATH: Jupiter and Venus have no `nature` fact.** 22
-  active cards under-fire on every chart because of it. Do **not** fix this by telling the
-  engine they are benefic — that is precisely the hardcoding §I forbids. Three real corpus
-  sources exist and choosing between them is a human decision; §D lays out all three with
-  offsets. Read §K P0-2 before doing anything else.
+- **Before building adjudication for an apparent contradiction, read the source behind both
+  sides — one of them may be a translator's gloss.** Milestone 19 identified a hard cross-book
+  conflict on the Moon's nature and concluded Stage 7 had to be built before P0-2 could be
+  fixed. Milestone 20 read the Devanagari and found the conflicting criterion was a
+  parenthetical gloss with no warrant in the verse. Building the adjudication engine first
+  would have been architecture for a contradiction that does not exist. This is the single most
+  transferable lesson in this file.
+- **P0-2 is CLEARED (Milestone 20)** — Jupiter and Venus are classified, from Brihat Jataka
+  ch. 2 v. 5. **Never fix a classification gap by telling the engine the answer**; encode the
+  book that says it. A test asserts the citation for Jupiter and Venus comes from a card.
+- **One human decision is owed: `concept:moon-nature-criterion`** — settle it before encoding
+  further `graha_nature` doctrine, because it sets the precedent for every translator's gloss
+  in the corpus. §D states the three positions and the recommendation.
 - **Card-level verification is necessary but not sufficient.** Five milestones of card-by-card
   review (368 → 403 cards signed) never once surfaced P0-2, because every individual card was
   faithful to its own verse; the gap was in the doctrine they all depend on. It took running
@@ -1390,9 +1470,11 @@ chapters.**
   that the same commit's message already superseded. Treat it as historical color, not
   current state; rely on live tool output (`verify.py`, `dupes.py`, `backlog.py`,
   `leverage.py`) instead.
-- **Brihat Jataka has zero rule cards** despite being fully corpus-converted and frozen.
-  No cross-book corroboration is possible until this starts — this is a named production
-  blocker.
+- **Brihat Jataka has 2 rule cards** (was zero) and a manifest, as of Milestone 20. The
+  toolchain accepted a second book with no changes. Extracting more of it is now ordinary
+  Phase 3 work with no setup cost, and its ch. 2 remainder restates doctrine Phaladeepika
+  already carries — the cheapest place to test whether corroboration holds on a second
+  relation.
 - **vv.39-41 needs a small new engine capability** (distinct-sign-count of the 7 classical
   grahas) — well-scoped, not yet built, `passage:phaladeepika.06.p168`.
 - **`dep.strength` (Stage 4) is the single highest-leverage missing capability** — it
@@ -1402,8 +1484,10 @@ chapters.**
 - **Second-nativity architecture is deliberately unbuilt** — do not approximate a spouse's
   chart from the native's own chart as a shortcut; it was explicitly deferred as a schema
   decision requiring real design (`dep.second-nativity`).
-- **Cross-book corroboration (Phase 4 goal) cannot be evaluated yet** — only one book has
-  cards in the store.
+- **Cross-book corroboration exists and is exercised** — 4 grahas' natures are stated
+  independently by both books, and the consultation reports which claims rest on one authority
+  and which on two. It is reported as counts of books and **never as a score**; the engine has
+  no mechanism for preferring one authority to another and the output must not imply one.
 - **Human verification is complete** — 403/405 cards (99.5%) have `verified_by` set; the 2
   that do not are documented defect holdouts, not unreviewed cards. This was a real production
   blocker as recently as Milestone 14 (4/404). See §K P1-1, now marked CLEARED.

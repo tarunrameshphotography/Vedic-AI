@@ -248,6 +248,11 @@ class Doctrine:
                 "grahas": list(p.get("grahas", ())),
                 "conditional": [dict(x) for x in p.get("conditional", ())],
                 "card": c.id,
+                # Which book said it. Carried so the extractor can attribute
+                # each graha's nature to the authority that actually classified
+                # it, and record agreement between books as corroboration
+                # rather than discarding the second one as a duplicate.
+                "book": c.book_id,
             })
         return Sourced(out, tuple(sorted(c.id for c in rows)))
 

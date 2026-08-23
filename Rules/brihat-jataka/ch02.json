@@ -1,0 +1,137 @@
+{
+  "book_id": "brihat-jataka",
+  "chapter": 2,
+  "cards": [
+    {
+      "id": "BJ.02.Nature.Malefics",
+      "schema": 1,
+      "source": {
+        "book_id": "brihat-jataka",
+        "chapter": 2,
+        "verse": "5",
+        "page_anchor": "brihat-jataka/p0033",
+        "tier": 1,
+        "quote": "Sun, Mars, Saturn and the Moon (within less than 72 degrees\r\n\r\ndistance from Sun) are treated as natural malefics.\n\nIn the case of Mercury however, if\r\n\r\nit is in association with malefics it is treated as a malefic, if\r\n\r\nwith benefics a benefic.",
+        "quote_parts": [
+          "Sun, Mars, Saturn and the Moon (within less than 72 degrees\r\n\r\ndistance from Sun) are treated as natural malefics.",
+          "In the case of Mercury however, if\r\n\r\nit is in association with malefics it is treated as a malefic, if\r\n\r\nwith benefics a benefic."
+        ],
+        "spans": [
+          [
+            49943,
+            50057
+          ],
+          [
+            50162,
+            50293
+          ]
+        ],
+        "quote_display": "Sun, Mars, Saturn and the Moon (within less than 72 degrees distance from Sun) are treated as natural malefics. In the case of Mercury however, if it is in association with malefics it is treated as a malefic, if with benefics a benefic.",
+        "quote_sha256": "e91447b50fbcc01cfa2f0d78d3da9fee1317c63a956bbe2d7956630219cdbb08",
+        "char_span": [
+          49943,
+          50057
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "activation": "reference",
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_nature",
+        "nature": "malefic",
+        "grahas": [
+          "Sun",
+          "Mars",
+          "Saturn"
+        ],
+        "conditional": [
+          {
+            "graha": "Mercury",
+            "when": {
+              "associated_with": "malefic"
+            },
+            "as_printed": "In the case of Mercury however, if it is in association with malefics it is treated as a malefic"
+          }
+        ]
+      },
+      "timing": "natal",
+      "requires": [],
+      "note": "Brihat Jataka's natural malefic classification, translating ch. 2 v. 5's closing line (क्षीणेन्द्वर्कमहीसुतार्कतनयाः पापा बुधस्तैर्युतः). Encoded as a reference card: the quote is the classification itself, with no interpretive layer between the printed sentence and the fact. Where this card and Phaladeepika ch. 2 v. 27 both speak they agree exactly, which is the project's first cross-book corroboration: Sun, Mars and Saturn are malefic in both, and Mercury is conditional on its company in both. Brihat Jataka is silent on Rahu and Ketu (Phaladeepika names them malefic); silence is not disagreement, so nothing is asserted about them here. MOON DELIBERATELY NOT CONTRIBUTED BY THIS CARD. The printed English reads \"the Moon (within less than 72 degrees distance from Sun)\", but the verse it translates (ch. 2 v. 5, verified against the printed Devanagari on PDF page 31 / image p0034) says only \"क्षीण\" -- kshina, the diminished or waned Moon -- and contains no numeral at all. The 72-degree figure is the translator's editorial gloss, printed in parentheses, and this project records translator's glosses as apparatus rather than doctrine (the same treatment given the translator's benefic/malefic preference in Phaladeepika ch. 6). Phaladeepika ch. 2 v. 27 classifies the Moon by the same underlying criterion, rendered by its own translator as \"waning\". Encoding the 72-degree gloss as doctrine would manufacture a cross-book contradiction out of two renderings of one Sanskrit term, and encoding it as \"waning\" would silently substitute the other book's wording for what this page actually prints. Both are decisions this card refuses to make: the Moon clause is quoted in full and asserted by neither Brihat Jataka card, so Phaladeepika's Moon doctrine continues to govern the Moon unopposed and is not overwritten. Recorded as concept:moon-nature-criterion in deferred.json.",
+      "extraction": {
+        "verified_by": "tarunrameshphotography + Claude (Milestone 20: quote located in the corpus and confirmed byte-exact against the rendered source page -- printed p.30, image p0033 -- which shows this sentence in the main translation body, in a paragraph ending before the italicised 'Commentary:' marker, so it is translation and not commentary. The verse it renders was independently checked on printed p.31 / image p0034, confirming क्षीण and पापा and the absence of any numeral; two Devanagari OCR defects were found in that line and are recorded in the manifest's known_defects. Sun/Mars/Saturn and the Mercury conditional are asserted; the Moon clause is quoted but deliberately not asserted -- see the note.)",
+        "verified_date": "2026-08-23"
+      }
+    },
+    {
+      "id": "BJ.02.Nature.Benefics",
+      "schema": 1,
+      "source": {
+        "book_id": "brihat-jataka",
+        "chapter": 2,
+        "verse": "5",
+        "page_anchor": "brihat-jataka/p0033",
+        "tier": 1,
+        "quote": "Moon other\r\n\r\nthan of the nature referred to above, Mercury, Jupiter and\r\n\r\nVenus are natural benefics.\n\nIn the case of Mercury however, if\r\n\r\nit is in association with malefics it is treated as a malefic, if\r\n\r\nwith benefics a benefic.",
+        "quote_parts": [
+          "Moon other\r\n\r\nthan of the nature referred to above, Mercury, Jupiter and\r\n\r\nVenus are natural benefics.",
+          "In the case of Mercury however, if\r\n\r\nit is in association with malefics it is treated as a malefic, if\r\n\r\nwith benefics a benefic."
+        ],
+        "spans": [
+          [
+            50058,
+            50161
+          ],
+          [
+            50162,
+            50293
+          ]
+        ],
+        "quote_display": "Moon other than of the nature referred to above, Mercury, Jupiter and Venus are natural benefics. In the case of Mercury however, if it is in association with malefics it is treated as a malefic, if with benefics a benefic.",
+        "quote_sha256": "299f8cba8f4577b8c2a632973ad421b4cfe4ad81f62e965e1e86b38cc0789a31",
+        "char_span": [
+          50058,
+          50161
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "activation": "reference",
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "graha_nature",
+        "nature": "benefic",
+        "grahas": [
+          "Jupiter",
+          "Venus"
+        ],
+        "conditional": [
+          {
+            "graha": "Mercury",
+            "when": {
+              "not_associated_with": "malefic"
+            },
+            "as_printed": "In the case of Mercury however, if it is in association with malefics it is treated as a malefic, if with benefics a benefic."
+          }
+        ]
+      },
+      "timing": "natal",
+      "requires": [],
+      "note": "Brihat Jataka's natural benefic classification. **This is the card that closes the benefic classification gap (production blocker P0-2): Jupiter and Venus are named as natural benefics outright, and they are named nowhere in Phaladeepika's own ch. 2 v. 27 classification.** Encoded as a reference card. Where this card and Phaladeepika ch. 2 v. 27 both speak they agree exactly, which is the project's first cross-book corroboration: Sun, Mars and Saturn are malefic in both, and Mercury is conditional on its company in both. Brihat Jataka is silent on Rahu and Ketu (Phaladeepika names them malefic); silence is not disagreement, so nothing is asserted about them here. MOON DELIBERATELY NOT CONTRIBUTED BY THIS CARD. The printed English reads \"the Moon (within less than 72 degrees distance from Sun)\", but the verse it translates (ch. 2 v. 5, verified against the printed Devanagari on PDF page 31 / image p0034) says only \"क्षीण\" -- kshina, the diminished or waned Moon -- and contains no numeral at all. The 72-degree figure is the translator's editorial gloss, printed in parentheses, and this project records translator's glosses as apparatus rather than doctrine (the same treatment given the translator's benefic/malefic preference in Phaladeepika ch. 6). Phaladeepika ch. 2 v. 27 classifies the Moon by the same underlying criterion, rendered by its own translator as \"waning\". Encoding the 72-degree gloss as doctrine would manufacture a cross-book contradiction out of two renderings of one Sanskrit term, and encoding it as \"waning\" would silently substitute the other book's wording for what this page actually prints. Both are decisions this card refuses to make: the Moon clause is quoted in full and asserted by neither Brihat Jataka card, so Phaladeepika's Moon doctrine continues to govern the Moon unopposed and is not overwritten. Recorded as concept:moon-nature-criterion in deferred.json.",
+      "extraction": {
+        "verified_by": "tarunrameshphotography + Claude (Milestone 20: quote located in the corpus and confirmed byte-exact against the rendered source page -- printed p.30, image p0033 -- reading 'Moon other than of the nature referred to above, Mercury, Jupiter and Venus are natural benefics.' in the main translation body, before the 'Commentary:' marker. Jupiter and Venus are asserted outright as the page states them; Mercury's conditional matches Phaladeepika's rule exactly and corroborates it; the Moon clause is quoted but deliberately not asserted -- see the note.)",
+        "verified_date": "2026-08-23"
+      }
+    }
+  ]
+}

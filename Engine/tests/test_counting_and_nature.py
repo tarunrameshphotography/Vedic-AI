@@ -12,6 +12,7 @@ Run:  python -m pytest Engine/tests -q
 
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 import pytest
@@ -176,27 +177,77 @@ def test_mercury_is_classified_by_its_company(fs, chart):
     assert set(merc[0].evidence["companions"]) == same_sign
 
 
-def test_jupiter_and_venus_are_left_unclassified_and_the_silence_is_reported(fs):
-    """The most important assertion in this file.
+def test_jupiter_and_venus_are_classified_from_an_encoded_source(fs):
+    """The most important assertion in this file, inverted in Milestone 20.
 
-    Chapter 2 names the malefics and adds the waxing Moon and Mercury as
-    benefic. It never mentions Jupiter or Venus -- Phaladeepika states their
-    nature in chapter 4, which is not encoded. "Not listed as malefic, therefore
-    benefic" is an inference, and the engine does not get to make it.
+    It used to assert that Jupiter and Venus were *unclassified*, because the
+    only encoded classification (chapter 2 of the first book) names the malefics
+    and adds the waxing Moon and Mercury as benefic, and never mentions either of
+    them. That silence was correct behaviour for the store as it then stood --
+    "not listed as malefic, therefore benefic" is an inference the engine does
+    not get to make -- but it was a production defect all the same: every rule
+    about benefics under-fired, on every chart.
+
+    It is now fixed the only way this project permits: not by teaching the engine
+    that Jupiter and Venus are benefic, but by encoding a second book's verse that
+    says so outright, and letting the same extractor read it. If this test ever
+    fails because the classification is missing again, the fix is a card, never a
+    Python constant.
     """
-    classified = {f.args["graha"] for f in fs.by_predicate("nature")}
-    assert "Jupiter" not in classified
-    assert "Venus" not in classified
-    reported = fs.doctrine.partial.get("nature", "")
-    assert "Jupiter" in reported and "Venus" in reported
+    natures = {f.args["graha"]: f for f in fs.by_predicate("nature")}
+    assert natures["Jupiter"].args["nature"] == "benefic"
+    assert natures["Venus"].args["nature"] == "benefic"
+    # And the claim is attributed to the book that actually makes it.
+    for graha in ("Jupiter", "Venus"):
+        cards = natures[graha].evidence["doctrine"]
+        assert cards, f"{graha} nature carries no doctrine citation"
+        assert all(c.startswith("BJ.") for c in cards), cards
+    # Nothing is reported as unclassified any more.
+    assert "nature" not in fs.doctrine.partial
 
 
-def test_a_benefic_clause_cannot_be_satisfied_by_an_unclassified_graha(fs):
-    """The consequence of that silence: under-firing, never over-firing."""
-    ev = evaluate({"all": [{"in_house": {"graha": "Jupiter", "house": 3}},
+def test_nature_agreed_by_both_books_is_recorded_as_corroborated(fs):
+    """The first cross-book corroboration the store has ever been able to make.
+
+    Sun, Mars and Saturn are named malefic by both encoded books. The second
+    authority must be recorded alongside the first rather than overwriting it --
+    agreement between independent authorities is evidence, and discarding it as a
+    duplicate would throw away the only signal the store has that a claim is not
+    one translator's idiosyncrasy.
+    """
+    natures = {f.args["graha"]: f for f in fs.by_predicate("nature")}
+    for graha in ("Sun", "Mars", "Saturn"):
+        ev = natures[graha].evidence
+        assert ev["corroborated"] is True, graha
+        assert len(ev["books"]) == 2, (graha, ev["books"])
+        assert len({a["card"] for a in ev["authorities"]}) == 2, graha
+
+
+def test_a_graha_only_one_book_classifies_is_not_reported_as_corroborated(fs):
+    """Corroboration must mean something, so it must be able to be false.
+
+    Jupiter and Venus are classified by one book only; Rahu and Ketu by the
+    other only. Marking either pair corroborated would make the flag decorative.
+    """
+    natures = {f.args["graha"]: f for f in fs.by_predicate("nature")}
+    for graha in ("Jupiter", "Venus", "Rahu", "Ketu"):
+        ev = natures[graha].evidence
+        assert ev["corroborated"] is False, graha
+        assert len(ev["books"]) == 1, (graha, ev["books"])
+
+
+def test_a_benefic_clause_is_now_satisfiable_by_jupiter(fs):
+    """The consequence of the fix, and the whole point of it.
+
+    This is the assertion that would have caught the defect: a rule about a
+    benefic in a house, with Jupiter in that house, must fire.
+    """
+    house = next(f.args["house"] for f in fs.by_predicate("in_house")
+                 if f.args["graha"] == "Jupiter")
+    ev = evaluate({"all": [{"in_house": {"graha": "Jupiter", "house": house}},
                            {"nature": {"graha": "Jupiter", "nature": "benefic"}}]},
                   fs)
-    assert not ev.satisfied
+    assert ev.satisfied
 
 
 def test_contradictory_nature_doctrine_raises_rather_than_picking(chart):
@@ -1318,3 +1369,105 @@ def test_chapter_ten_interpretive_cards_are_signed_off_except_the_one_holdout():
     unsigned = [c["id"] for c in doc["cards"]
                 if not (c.get("extraction") or {}).get("verified_by")]
     assert unsigned == ["PD.10.Venus.VargaMarsSaturn"]
+
+
+# --- Milestone 20: the Moon question, and the scope guard on chapter 4 -------
+#
+# Two books now classify grahas by nature. They agree everywhere they both
+# speak, with one exception that is not an agreement or a disagreement so much
+# as a question the project has deliberately refused to answer yet: what makes
+# the Moon malefic. These tests pin the refusal, so that a later session cannot
+# quietly resolve it by editing a card.
+
+def test_the_moon_is_classified_by_one_book_only_and_the_other_does_not_touch_it():
+    """The second book quotes a Moon clause but asserts nothing about the Moon.
+
+    Its printed English glosses the Sanskrit क्षीण as "(within less than 72
+    degrees distance from Sun)". The verse carries no numeral -- the figure is
+    the translator's parenthetical. Encoding it as doctrine would manufacture a
+    cross-book contradiction out of two renderings of one word; encoding it as
+    the other book's "waning" would substitute that book's wording for what this
+    page prints. The card does neither, so the first book's Moon doctrine
+    governs the Moon unopposed and is not overwritten.
+    """
+    cards = load_cards(RULES)
+    natures = [c for c in cards if c.predicts.get("relation") == "graha_nature"]
+    second_book = [c for c in natures if c.book_id != "phaladeepika"]
+    assert second_book, "expected a second book's nature cards in the store"
+    for c in second_book:
+        named = set(c.predicts.get("grahas", ()))
+        conditional = {x["graha"] for x in c.predicts.get("conditional", ())}
+        assert "Moon" not in named, c.id
+        assert "Moon" not in conditional, c.id
+        # ...but it must still quote the clause, or the card would be hiding it.
+        assert "Moon" in c.quote, c.id
+
+
+def test_the_moon_disagreement_is_registered_rather_than_resolved():
+    """An open question must be visible in the backlog, not just in a comment."""
+    registry = json.loads((RULES / "deferred.json").read_text(encoding="utf-8"))
+    entry = next((e for e in registry["entries"]
+                  if e["id"] == "concept:moon-nature-criterion"), None)
+    assert entry is not None, "the Moon criterion question is not registered"
+    assert entry["status"] == "deferred"
+    assert "72" in entry["what"]
+
+
+def test_the_moon_still_resolves_from_the_book_that_does_classify_it(fs):
+    """Whatever the Moon's nature is on this chart, it comes from one authority."""
+    moon = next(f for f in fs.by_predicate("nature") if f.args["graha"] == "Moon")
+    assert moon.evidence["books"] == ["phaladeepika"]
+    assert moon.evidence["corroborated"] is False
+    assert "phase is" in moon.evidence["basis"]
+
+
+def test_the_kala_bala_benefic_list_is_not_encoded_as_general_nature_doctrine():
+    """Guard against over-applying a scoped statement.
+
+    Chapter 4 of the first book also names Jupiter and Venus benefic -- inside
+    its Kala Bala rules, whose following sentences scope Mercury's treatment to
+    that computation explicitly and in open disagreement with chapter 2. Read as
+    general doctrine it would also make the Moon unconditionally benefic and
+    collide with chapter 2's phase rule. It was rejected as the source for that
+    reason; this test fails if a later session encodes it as `graha_nature`.
+    """
+    cards = load_cards(RULES)
+    for c in cards:
+        if c.predicts.get("relation") == "graha_nature":
+            assert c.chapter != 4, (
+                f"{c.id} encodes chapter 4 as general nature doctrine; that "
+                f"statement is scoped to Kala Bala -- see "
+                f"concept:kala-bala-benefic-scope")
+
+
+def test_the_kala_bala_scope_decision_is_registered():
+    registry = json.loads((RULES / "deferred.json").read_text(encoding="utf-8"))
+    entry = next((e for e in registry["entries"]
+                  if e["id"] == "concept:kala-bala-benefic-scope"), None)
+    assert entry is not None
+    assert entry["status"] == "deferred"
+
+
+def test_contradicting_authorities_still_refuse_to_be_adjudicated(chart):
+    """Corroboration must not have quietly become conflict resolution.
+
+    Recording a second agreeing authority is not the same as choosing between
+    two disagreeing ones, and the engine must still refuse the latter. The error
+    now has to name both sides, so an encoder can find the offending pair.
+    """
+    class Contradictory:
+        def graha_natures(self):
+            from Engine.doctrine import Sourced
+            return Sourced([
+                {"nature": "malefic", "grahas": ["Jupiter"], "conditional": [],
+                 "card": "XX.01.A", "book": "book-one"},
+                {"nature": "benefic", "grahas": ["Jupiter"], "conditional": [],
+                 "card": "YY.01.B", "book": "book-two"},
+            ], ("XX.01.A", "YY.01.B"))
+
+    from Engine.facts import DoctrineReport, _resolve_nature
+    with pytest.raises(DoctrineError) as exc:
+        _resolve_nature(chart, Contradictory(), DoctrineReport())
+    message = str(exc.value)
+    assert "Jupiter" in message
+    assert "XX.01.A" in message and "YY.01.B" in message

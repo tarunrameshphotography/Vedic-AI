@@ -309,6 +309,34 @@ def consultation(
     for line in coverage.get("loaded_doctrine", []):
         A(f"- {line}")
     A("")
+    # Where two books independently classify the same graha, say so. Agreement
+    # between authorities is the only evidence this system can offer that a
+    # classification is not one translator's idiosyncrasy, and a reader cannot
+    # see it from the rule citations alone. Read off the facts rather than
+    # declared, so it cannot go stale, and stated as counts of books rather than
+    # as a score -- nothing here weighs one authority against another.
+    agreed, single = [], []
+    for f in facts:
+        if f.predicate != "nature":
+            continue
+        books = f.evidence.get("books") or []
+        (agreed if f.evidence.get("corroborated") else single).append(
+            (f.args["graha"], f.args["nature"], books))
+    if agreed:
+        A("**Cross-book agreement**")
+        A("")
+        for graha, nature, books in sorted(agreed):
+            A(f"- **{graha}** — {nature}, stated independently by "
+              f"{len(books)} books ({', '.join(books)})")
+        if single:
+            A("")
+            A("Resting on a single authority: "
+              + ", ".join(f"{g} ({b[0]})" for g, _n, b in sorted(single) if b)
+              + ".")
+        A("")
+        A("Agreement is reported, not scored. Where the books disagreed the "
+          "engine would refuse to choose rather than weigh them.")
+        A("")
     # Derived, not asserted. This paragraph used to claim the reading covered
     # "only the placement of each body in a house", which stopped being true the
     # moment lordship, aspects, dignity and nature began producing facts. A

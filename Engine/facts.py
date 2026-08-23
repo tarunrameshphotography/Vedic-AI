@@ -580,24 +580,56 @@ def _resolve_nature(chart, doc, rep) -> tuple[dict, list[str], tuple[str, ...]]:
 
     resolved: dict[str, tuple[str, dict]] = {}
 
-    def settle(graha: str, nature: str, evidence: dict) -> None:
+    def settle(graha: str, nature: str, evidence: dict,
+               card: str = "", book: str = "") -> None:
+        """Record one authority's classification of one graha.
+
+        Two books saying the same thing is not a redundancy to discard -- it is
+        corroboration, and it is the only evidence the store can offer that a
+        claim is not one translator's idiosyncrasy. So an agreeing authority is
+        appended rather than allowed to overwrite, and the emitted fact carries
+        every book that asserted it.
+
+        Attribution is per graha, not per extractor run. Before a second book
+        existed, listing every `graha_nature` card on every nature fact was
+        harmless because there was only one book to list. It is not harmless
+        now: a book may classify some grahas and say nothing at all about
+        others, and citing it for a graha it never mentions would be a false
+        citation in the one place this project cannot afford one.
+        """
         prior = resolved.get(graha)
         if prior and prior[0] != nature:
-            # Two cards making a graha both benefic and malefic is a real
+            # Two authorities making a graha both benefic and malefic is a real
             # disagreement or an encoding fault. Either way the engine must not
-            # pick; Stage 7 adjudication does not exist yet.
+            # pick; Stage 7 adjudication does not exist yet. Name both sides --
+            # a bare "cannot choose" leaves the encoder no way to find the pair.
+            prior_auth = ", ".join(
+                a["card"] for a in prior[1].get("authorities", ())) or "an earlier card"
             raise DoctrineError(
-                f"the reference store makes {graha} both {prior[0]} and "
-                f"{nature}; the engine cannot choose between authorities"
+                f"the reference store makes {graha} both {prior[0]} "
+                f"(per {prior_auth}) and {nature} (per {card or 'another card'}); "
+                f"the engine cannot choose between authorities"
             )
-        resolved[graha] = (nature, evidence)
+        authority = {"card": card, "book": book, "basis": evidence.get("basis", "")}
+        if prior:
+            authorities = list(prior[1].get("authorities", ()))
+            if authority not in authorities:
+                authorities.append(authority)
+            merged = {**prior[1], "authorities": authorities}
+        else:
+            merged = {**evidence, "authorities": [authority]}
+        books = sorted({a["book"] for a in merged["authorities"] if a["book"]})
+        merged["books"] = books
+        merged["corroborated"] = len(books) > 1
+        resolved[graha] = (nature, merged)
 
     deferred = []
     for row in rows:
         nature = row["nature"]
         for graha in row["grahas"]:
             if graha in chart.bodies:
-                settle(graha, nature, {"basis": "named outright by the text"})
+                settle(graha, nature, {"basis": "named outright by the text"},
+                       row.get("card", ""), row.get("book", ""))
         for cond in row["conditional"]:
             graha, when = cond["graha"], cond["when"]
             if graha not in chart.bodies:
@@ -612,16 +644,18 @@ def _resolve_nature(chart, doc, rep) -> tuple[dict, list[str], tuple[str, ...]]:
                 if phase is not None and when["phase"] == phase:
                     settle(graha, nature,
                            {"basis": f"phase is {phase}",
-                            "as_printed": cond.get("as_printed", ""), **phase_ev})
+                            "as_printed": cond.get("as_printed", ""), **phase_ev},
+                           row.get("card", ""), row.get("book", ""))
             elif "associated_with" in when or "not_associated_with" in when:
-                deferred.append((graha, nature, cond))
+                deferred.append((graha, nature, cond,
+                                 row.get("card", ""), row.get("book", "")))
             else:
                 raise DoctrineError(
                     f"graha_nature condition {sorted(when)} is not one the "
                     f"extractor knows how to read"
                 )
 
-    for graha, nature, cond in deferred:
+    for graha, nature, cond, card_id, book_id in deferred:
         when = cond["when"]
         wanted = when.get("associated_with") or when.get("not_associated_with")
         keep = "associated_with" in when
@@ -634,7 +668,7 @@ def _resolve_nature(chart, doc, rep) -> tuple[dict, list[str], tuple[str, ...]]:
                 "as_printed": cond.get("as_printed", ""),
                 "companions": companions.get(graha, []),
                 "companions_of_that_nature": with_them,
-            })
+            }, card_id, book_id)
 
     unclassified = sorted(set(chart.bodies) - set(resolved))
     return resolved, unclassified, cards
@@ -662,9 +696,14 @@ def _nature(chart, doc, rep, frame) -> list[Fact]:
             f"under-fire accordingly")
     out = []
     for graha, (nature, ev) in sorted(resolved.items()):
+        # `doctrine` is this graha's own authorities, not every graha_nature
+        # card in the store. With one book those were the same list; with two
+        # they are not, and citing a book that never mentions this graha would
+        # be a false citation in the one place the project cannot afford one.
         out.append(make_fact(
             "nature", {"graha": graha, "nature": nature}, frame,
-            {**ev, "doctrine": list(cards)},
+            {**ev, "doctrine": [a["card"] for a in ev.get("authorities", ()) if a["card"]]
+                    or list(cards)},
         ))
     return out
 

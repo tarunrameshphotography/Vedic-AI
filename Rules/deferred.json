@@ -1596,6 +1596,575 @@
         108,
         110
       ]
+    },
+    {
+      "id": "chapter:brihat-jataka.01",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 1,
+      "locus": "whole chapter - On Signs",
+      "what": "Brihat Jataka chapter 1: On Signs",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:brihat-jataka.03",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 3,
+      "locus": "whole chapter - Non-Human Births",
+      "what": "Brihat Jataka chapter 3: Non-Human Births",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:brihat-jataka.04",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 4,
+      "locus": "whole chapter - On Conception Etc.",
+      "what": "Brihat Jataka chapter 4: On Conception Etc.",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:brihat-jataka.05",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 5,
+      "locus": "whole chapter - Birth Conditions",
+      "what": "Brihat Jataka chapter 5: Birth Conditions",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:brihat-jataka.06",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 6,
+      "locus": "whole chapter - Factors for Early Death",
+      "what": "Brihat Jataka chapter 6: Factors for Early Death",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:brihat-jataka.07",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 7,
+      "locus": "whole chapter - Span of Life",
+      "what": "Brihat Jataka chapter 7: Span of Life",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:brihat-jataka.08",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 8,
+      "locus": "whole chapter - Ruling and Sub Ruling",
+      "what": "Brihat Jataka chapter 8: Ruling and Sub Ruling",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:brihat-jataka.09",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 9,
+      "locus": "whole chapter - Ashtak Varga",
+      "what": "Brihat Jataka chapter 9: Ashtak Varga",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:brihat-jataka.10",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 10,
+      "locus": "whole chapter - Nature of Profession",
+      "what": "Brihat Jataka chapter 10: Nature of Profession",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:brihat-jataka.11",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 11,
+      "locus": "whole chapter - Rajayogas",
+      "what": "Brihat Jataka chapter 11: Rajayogas",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:brihat-jataka.12",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 12,
+      "locus": "whole chapter - Nabhas (Heavenly) Yogas",
+      "what": "Brihat Jataka chapter 12: Nabhas (Heavenly) Yogas",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:brihat-jataka.13",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 13,
+      "locus": "whole chapter - Yogas for Moon",
+      "what": "Brihat Jataka chapter 13: Yogas for Moon",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:brihat-jataka.14",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 14,
+      "locus": "whole chapter - Combination of Planets",
+      "what": "Brihat Jataka chapter 14: Combination of Planets",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:brihat-jataka.15",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 15,
+      "locus": "whole chapter - Renunciation",
+      "what": "Brihat Jataka chapter 15: Renunciation",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:brihat-jataka.16",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 16,
+      "locus": "whole chapter - Traits of Asterisms",
+      "what": "Brihat Jataka chapter 16: Traits of Asterisms",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:brihat-jataka.17",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 17,
+      "locus": "whole chapter - Moon in Different Signs",
+      "what": "Brihat Jataka chapter 17: Moon in Different Signs",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:brihat-jataka.18",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 18,
+      "locus": "whole chapter - Planets in Signs",
+      "what": "Brihat Jataka chapter 18: Planets in Signs",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:brihat-jataka.19",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 19,
+      "locus": "whole chapter - Aspects on Moon",
+      "what": "Brihat Jataka chapter 19: Aspects on Moon",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:brihat-jataka.20",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 20,
+      "locus": "whole chapter - Planets in Houses",
+      "what": "Brihat Jataka chapter 20: Planets in Houses",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:brihat-jataka.21",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 21,
+      "locus": "whole chapter - Planets in Vargas",
+      "what": "Brihat Jataka chapter 21: Planets in Vargas",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:brihat-jataka.22",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 22,
+      "locus": "whole chapter - Miscellaneous",
+      "what": "Brihat Jataka chapter 22: Miscellaneous",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:brihat-jataka.23",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 23,
+      "locus": "whole chapter - Anishta or Misfortune",
+      "what": "Brihat Jataka chapter 23: Anishta or Misfortune",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:brihat-jataka.24",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 24,
+      "locus": "whole chapter - Female Horoscopy",
+      "what": "Brihat Jataka chapter 24: Female Horoscopy",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:brihat-jataka.25",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 25,
+      "locus": "whole chapter - Death",
+      "what": "Brihat Jataka chapter 25: Death",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:brihat-jataka.26",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 26,
+      "locus": "whole chapter - Unknown Horoscopes",
+      "what": "Brihat Jataka chapter 26: Unknown Horoscopes",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:brihat-jataka.27",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 27,
+      "locus": "whole chapter - Drekkana",
+      "what": "Brihat Jataka chapter 27: Drekkana",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "chapter:brihat-jataka.28",
+      "kind": "chapter",
+      "book": "brihat-jataka",
+      "chapter": 28,
+      "locus": "whole chapter - Concluding Chapter",
+      "what": "Brihat Jataka chapter 28: Concluding Chapter",
+      "reason": "Brihat Jataka was entered in Milestone 20 for one specific purpose -- the natural benefic/malefic classification that closes production blocker P0-2 -- and not as a general extraction pass. This chapter is untouched. Ordering only: nothing technical blocks it, and the toolchain and card schema are already proven on this book by BJ.02.Nature.*.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "passage:brihat-jataka.02.remainder",
+      "kind": "passage",
+      "book": "brihat-jataka",
+      "chapter": 2,
+      "locus": "all of chapter 2 except v. 5's natural benefic/malefic classification",
+      "what": "The rest of Brihat Jataka chapter 2 (Planets): the planets' traits, names, colours, presiding devatas, directions, sex and elements, their dignities and relative strengths, the kala bala material, and the translator's worked example of Mahatma Gandhi's horoscope.",
+      "reason": "Milestone 20 entered this chapter for exactly one classification -- the natural benefic/malefic statement of v. 5, which is what closes production blocker P0-2 by naming Jupiter and Venus. Encoding the surrounding chapter was deliberately not attempted in the same milestone: it is ordinary Phase 3 work with no bearing on P0-2, and doing it here would have mixed a targeted blocker fix with an open-ended extraction pass. Several of these paragraphs also restate doctrine Phaladeepika already carries (dignities, relative strength), so encoding them is a cross-book corroboration exercise that should be done deliberately once the corroboration mechanism has been exercised on the classification cards.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        40,
+        41,
+        42,
+        43,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        81,
+        82,
+        83,
+        84,
+        86,
+        87,
+        89,
+        90,
+        92,
+        93,
+        95,
+        96,
+        98,
+        99,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        156,
+        157,
+        160,
+        161,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        174,
+        175
+      ]
+    },
+    {
+      "id": "concept:moon-nature-criterion",
+      "kind": "concept",
+      "book": "brihat-jataka",
+      "chapter": 2,
+      "locus": "ch. 2 v. 5 (printed p.30) against Phaladeepika ch. 2 v. 27",
+      "what": "Which criterion decides that the Moon is malefic, and whether the two books actually disagree about it. Brihat Jataka's English prints 'the Moon (within less than 72 degrees distance from Sun)'; the Devanagari it translates says only क्षीण (kshina, the diminished/waned Moon) and carries no numeral; Phaladeepika's translator renders the same underlying criterion as 'the waning Moon'. Operationally the two English renderings disagree on a large fraction of charts -- a Moon 60 degrees from the Sun is waxing but within 72 degrees.",
+      "reason": "Deferred because resolving it is a consequential editorial policy decision, not an encoding detail, and the project's rule is to preserve disagreement rather than resolve it silently. Three positions are defensible and the choice sets a precedent for every future translator's gloss in the corpus: (a) treat the parenthetical 72-degree figure as doctrine, which manufactures a cross-book contradiction out of two renderings of one Sanskrit word and would require Stage 7 adjudication; (b) treat it as apparatus and read क्षीण as Phaladeepika's translator does, which substitutes one book's wording for what this page prints; (c) hold the Moon clause unasserted, which is what Milestone 20 did. Under (c) Phaladeepika's Moon doctrine governs the Moon unopposed and nothing is overwritten, so no consultation is wrong today -- but the question stays open.",
+      "requires": [
+        "dep.adjudication"
+      ],
+      "phase": "4 (integration)",
+      "status": "deferred"
+    },
+    {
+      "id": "concept:kala-bala-benefic-scope",
+      "kind": "concept",
+      "book": "phaladeepika",
+      "chapter": 4,
+      "locus": "ch. 4, Kala Bala section (printed pp.37-38)",
+      "what": "Phaladeepika ch. 4's statement 'The Moon, Mercury, Jupiter and Venus are benefics', which also names Jupiter and Venus and was one of the three candidate sources considered for closing P0-2.",
+      "reason": "Deliberately NOT encoded as a graha_nature card, and this entry exists so that decision is on the record rather than being an omission. The sentence is scoped to a strength computation: it appears inside the Kala Bala rules, and the sentences immediately following it scope Mercury's treatment to that computation explicitly ('for determining kala Bala Mercury should be treated as a benefic. We support this view'), in open disagreement with ch. 2 v. 27's conditional Mercury. Encoded as general doctrine it would also make the Moon unconditionally benefic and collide with ch. 2 v. 27's waxing/waning rule. Brihat Jataka ch. 2 v. 5 was used instead precisely because it is a general, unscoped classification. If Stage 4 (dep.strength) is ever built, this sentence belongs to it as a kala-bala-local definition, not to dep.nature.",
+      "requires": [
+        "dep.strength"
+      ],
+      "phase": "2 (engine completion)",
+      "status": "deferred"
     }
   ]
 }
