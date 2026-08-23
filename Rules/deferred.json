@@ -1308,48 +1308,66 @@
       ]
     },
     {
-      "id": "passage:phaladeepika.06.p112",
+      "id": "passage:phaladeepika.06.p120",
       "kind": "passage",
       "book": "phaladeepika",
       "chapter": 6,
-      "locus": "vv. 28-34 (p.66-71)",
-      "what": "Srikantha, Srinatha and Virinchi Yogas; the Parivartana (Maha/Dainya/Kahala) house-exchange family",
-      "reason": "Not yet encoded; deferred by ordering. The Parivartana pair enumeration (vv. 32-34 Notes) is confirmed genuinely defective in the printed book -- verified by rendering PDF pages 67-69 directly rather than trusting the flattened extraction -- item 18 of the 28-item Maha list is missing, items 17 and 20 are each printed twice with mismatched content, and item 13 of the 30-item Dainya list is truncated. Whether to transcribe only the legible items or derive the complete set from verse 32's own combinatorics is an editorial decision for that slice, not resolved here. A translator's Note (paras 140-144) also reports Uttarakalamrita's directly contradicting reading of the same 6th/8th/12th-lord exchange (auspicious under three extra conditions, \"quite reverse\" of Phaladeepika's own Dainya) -- a contradicts pair for that slice. An Indira Gandhi worked example is embedded and will be tier-3 apparatus.",
+      "locus": "v. 32 Notes (p.67-69)",
+      "what": "the itemized Notes lists enumerating the individual Maha (28), Dainya (30) and Kahala (8) Parivartana pairs by name",
+      "reason": "Tier-2 apparatus, and redundant with doctrine already encoded: verse 32 itself states the complete classification rule in intact, undamaged prose (66 total pairs; 30 Dainya = any pair involving the 6th/8th/12th lord; 8 Kahala = any pair involving the 3rd lord not already Dainya; 28 Maha = the rest), and PD.06.Maha/.Dainya/.Kahala are encoded directly from that sentence, not from this list. The Maha list is confirmed genuinely defective in the printed book (verified by rendering PDF pages 67-68 directly, not trusting the flattened extraction): item (6) of its claimed 28 is missing entirely, items (18) and (26) are never printed under their own number, item (17) is printed twice (the second instance garbled, mixing fragments of two other pairs under a repeated label), and item (20) is printed twice (the first instance internally self-contradictory). The Dainya list (p.68-69) has two truncations: items (13) and (28) of its claimed 30 each cut off mid-sentence without their pair partner. The Kahala list (p.69) is the one exception -- fully intact, all 8 items legible and consistent with PD.06.Kahala. None of these defects are repaired or guessed at; the general rule they illustrate does not depend on them.",
       "requires": [
         "dep.none"
       ],
       "phase": "3 (knowledge)",
       "status": "deferred",
       "paragraphs": [
-        112,
-        113,
-        114,
-        115,
-        116,
-        117,
-        118,
-        119,
         120,
         121,
         122,
+        123,
         124,
         125,
-        127,
-        128,
-        129,
-        130,
+        126,
+        127
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p131",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "printed p.70",
+      "what": "Indira Gandhi's horoscope illustrating two Maha Yogas and one Dainya Yoga",
+      "reason": "Tier-3 apparatus: a worked example, not a rule. Recorded as deliberately excluded, not pending.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
         131,
         132,
         133,
         134,
         135,
         137,
-        139,
-        140,
-        141,
-        142,
-        143,
-        144,
+        139
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.p145",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "printed p.71",
+      "what": "a second worked example illustrating Uttarakalamrita's Vipareeta Raja Yoga",
+      "reason": "Tier-3 apparatus: a worked example, not a rule, for the reference doctrine PD.06.VipareetaRajaYoga.Uttarakalamrita reports. Recorded as deliberately excluded, not pending.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
         145,
         147
       ]

@@ -5102,6 +5102,2650 @@
       "parallel_of": [
         "PD.06.Amala"
       ]
+    },
+    {
+      "id": "PD.06.Srikantha",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "28, 29",
+        "page_anchor": "phaladeepika/p0066",
+        "tier": 1,
+        "quote": "28. If the Lord of the Lagna. the Sun and the Moon being in their sign of exaltation, own sign or a friend's sign, occupy kendra or trikona, the yoga so formed is called Srikantha Yoga. […] 29. The person with Srikantha Yoga at birth will wear Rudraksha rosaries and his body will look white shining by besmearing the sacred ashes. He will be very liberal and will be constantly in meditation of Lord Shiva. He will regularly\r\n\r\n<!-- page phaladeepika/p0067 -->\r\nand rigidly perform the prescribed rites and will submerge himself in the worship of Lord Shiva. He will be a friend of the virtuous and will have no animosity against any other religious belief. He will become influential and his heart will be enlightened by the worship of Lord Shiva.",
+        "quote_display": "28. If the Lord of the Lagna. the Sun and the Moon being in their sign of exaltation, own sign or a friend's sign, occupy kendra or trikona, the yoga so formed is called Srikantha Yoga. […] 29. The person with Srikantha Yoga at birth will wear Rudraksha rosaries and his body will look white shining by besmearing the sacred ashes. He will be very liberal and will be constantly in meditation of Lord Shiva. He will regularly and rigidly perform the prescribed rites and will submerge himself in the worship of Lord Shiva. He will be a friend of the virtuous and will have no animosity against any other religious belief. He will become influential and his heart will be enlightened by the worship of Lord Shiva.",
+        "quote_sha256": "6adbf8121fef9345dd20d8457dae7a10abb458cb627152d7b425b15667a72a63",
+        "char_span": [
+          124417,
+          124602
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            124417,
+            124602
+          ],
+          [
+            124834,
+            125393
+          ]
+        ],
+        "quote_parts": [
+          "28. If the Lord of the Lagna. the Sun and the Moon being in their sign of exaltation, own sign or a friend's sign, occupy kendra or trikona, the yoga so formed is called Srikantha Yoga.",
+          "29. The person with Srikantha Yoga at birth will wear Rudraksha rosaries and his body will look white shining by besmearing the sacred ashes. He will be very liberal and will be constantly in meditation of Lord Shiva. He will regularly\r\n\r\n<!-- page phaladeepika/p0067 -->\r\nand rigidly perform the prescribed rites and will submerge himself in the worship of Lord Shiva. He will be a friend of the virtuous and will have no animosity against any other religious belief. He will become influential and his heart will be enlightened by the worship of Lord Shiva."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "all": [
+              {
+                "any": [
+                  {
+                    "dignity": {
+                      "graha": "Sun",
+                      "dignity": "exalted"
+                    }
+                  },
+                  {
+                    "dignity": {
+                      "graha": "Sun",
+                      "dignity": "own"
+                    }
+                  },
+                  {
+                    "dignity": {
+                      "graha": "Sun",
+                      "dignity": "friend"
+                    }
+                  }
+                ]
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Sun",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_class": {
+                      "graha": "Sun",
+                      "klass": "trikona"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "any": [
+                  {
+                    "dignity": {
+                      "graha": "Moon",
+                      "dignity": "exalted"
+                    }
+                  },
+                  {
+                    "dignity": {
+                      "graha": "Moon",
+                      "dignity": "own"
+                    }
+                  },
+                  {
+                    "dignity": {
+                      "graha": "Moon",
+                      "dignity": "friend"
+                    }
+                  }
+                ]
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Moon",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_class": {
+                      "graha": "Moon",
+                      "klass": "trikona"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "lord_of_house": {
+              "graha": "?gl",
+              "house": 1
+            }
+          },
+          {
+            "all": [
+              {
+                "any": [
+                  {
+                    "dignity": {
+                      "graha": "?gl",
+                      "dignity": "exalted"
+                    }
+                  },
+                  {
+                    "dignity": {
+                      "graha": "?gl",
+                      "dignity": "own"
+                    }
+                  },
+                  {
+                    "dignity": {
+                      "graha": "?gl",
+                      "dignity": "friend"
+                    }
+                  }
+                ]
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "?gl",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_class": {
+                      "graha": "?gl",
+                      "klass": "trikona"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Srikantha"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Srikantha Yoga: the lord of the Lagna, the Sun and the Moon each in exaltation, own sign, or a friend's sign (dignity: exalted/own/friend -- 'friend' read via dep.dignity-friendship, the sign-lord's natural relationship to the graha occupying it), each in a kendra or trikona.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.06.Srinatha",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "28, 30",
+        "page_anchor": "phaladeepika/p0066",
+        "tier": 1,
+        "quote": "If Venus, the lord of the 9th and Mercury be in similar position, the yoga formed is known as Srinatha Yoga. […] 30. The native of Srinatha Yoga will be wealthy, splendorous and soft spoken. His Manner of speaking will be pleasant and witful. He will have in his body marks of Lord Narayana (such as conch, chakra, etc.). He will, along with other devotees or virtuous persons, be engaged in the recitations of religious songs about greatness of Narayana. He will be devotee of Vishnu. He will be respected by other persons. He will be very handsome and attractive and others are pleased in coming in contact with him. He will be blessed with a virtuous wife and noble sons (children).",
+        "quote_display": "If Venus, the lord of the 9th and Mercury be in similar position, the yoga formed is known as Srinatha Yoga. […] 30. The native of Srinatha Yoga will be wealthy, splendorous and soft spoken. His Manner of speaking will be pleasant and witful. He will have in his body marks of Lord Narayana (such as conch, chakra, etc.). He will, along with other devotees or virtuous persons, be engaged in the recitations of religious songs about greatness of Narayana. He will be devotee of Vishnu. He will be respected by other persons. He will be very handsome and attractive and others are pleased in coming in contact with him. He will be blessed with a virtuous wife and noble sons (children).",
+        "quote_sha256": "35e22a6fcd42e1fb2d582cbf57bf45eb43819a678287ff73dfc029a73b745118",
+        "char_span": [
+          124606,
+          124714
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            124606,
+            124714
+          ],
+          [
+            125397,
+            125969
+          ]
+        ],
+        "quote_parts": [
+          "If Venus, the lord of the 9th and Mercury be in similar position, the yoga formed is known as Srinatha Yoga.",
+          "30. The native of Srinatha Yoga will be wealthy, splendorous and soft spoken. His Manner of speaking will be pleasant and witful. He will have in his body marks of Lord Narayana (such as conch, chakra, etc.). He will, along with other devotees or virtuous persons, be engaged in the recitations of religious songs about greatness of Narayana. He will be devotee of Vishnu. He will be respected by other persons. He will be very handsome and attractive and others are pleased in coming in contact with him. He will be blessed with a virtuous wife and noble sons (children)."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "all": [
+              {
+                "any": [
+                  {
+                    "dignity": {
+                      "graha": "Venus",
+                      "dignity": "exalted"
+                    }
+                  },
+                  {
+                    "dignity": {
+                      "graha": "Venus",
+                      "dignity": "own"
+                    }
+                  },
+                  {
+                    "dignity": {
+                      "graha": "Venus",
+                      "dignity": "friend"
+                    }
+                  }
+                ]
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Venus",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_class": {
+                      "graha": "Venus",
+                      "klass": "trikona"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "any": [
+                  {
+                    "dignity": {
+                      "graha": "Mercury",
+                      "dignity": "exalted"
+                    }
+                  },
+                  {
+                    "dignity": {
+                      "graha": "Mercury",
+                      "dignity": "own"
+                    }
+                  },
+                  {
+                    "dignity": {
+                      "graha": "Mercury",
+                      "dignity": "friend"
+                    }
+                  }
+                ]
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Mercury",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_class": {
+                      "graha": "Mercury",
+                      "klass": "trikona"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "lord_of_house": {
+              "graha": "?g9",
+              "house": 9
+            }
+          },
+          {
+            "all": [
+              {
+                "any": [
+                  {
+                    "dignity": {
+                      "graha": "?g9",
+                      "dignity": "exalted"
+                    }
+                  },
+                  {
+                    "dignity": {
+                      "graha": "?g9",
+                      "dignity": "own"
+                    }
+                  },
+                  {
+                    "dignity": {
+                      "graha": "?g9",
+                      "dignity": "friend"
+                    }
+                  }
+                ]
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "?g9",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_class": {
+                      "graha": "?g9",
+                      "klass": "trikona"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Srinatha"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Srinatha Yoga: Venus, the lord of the 9th, and Mercury, each 'in similar position' to Srikantha's test (v.28) -- exalted, own, or friend's sign, in a kendra or trikona.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.06.Virinchi",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "28, 31",
+        "page_anchor": "phaladeepika/p0066",
+        "tier": 1,
+        "quote": "If Jupiter, the lord of the 5th and Saturn be similarly disposed, the yoga so formed is termed as Virinrhi Yoga. […] 31. The person with Virinchi Yoga at birth will be extremely intelligent. He will be fully absorbed in the knowledge of Brahm. He will never deviate from the code of conduct prescribed by the Vedas. He will be full of good qualities and will always be happy at heart. He will have many distinguished disciples. He will be sweet and noble in his speech and will be blessed with much wealth, wife and children. He will shine with spiritual luster. He will be long-lived, will have complete control over his senses and will be revered by kings.",
+        "quote_display": "If Jupiter, the lord of the 5th and Saturn be similarly disposed, the yoga so formed is termed as Virinrhi Yoga. […] 31. The person with Virinchi Yoga at birth will be extremely intelligent. He will be fully absorbed in the knowledge of Brahm. He will never deviate from the code of conduct prescribed by the Vedas. He will be full of good qualities and will always be happy at heart. He will have many distinguished disciples. He will be sweet and noble in his speech and will be blessed with much wealth, wife and children. He will shine with spiritual luster. He will be long-lived, will have complete control over his senses and will be revered by kings.",
+        "quote_sha256": "66e55f81e16abeef1e63aa605ae683d94ae76ecd904b6ec6e15d295d7b523aab",
+        "char_span": [
+          124718,
+          124830
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            124718,
+            124830
+          ],
+          [
+            125973,
+            126514
+          ]
+        ],
+        "quote_parts": [
+          "If Jupiter, the lord of the 5th and Saturn be similarly disposed, the yoga so formed is termed as Virinrhi Yoga.",
+          "31. The person with Virinchi Yoga at birth will be extremely intelligent. He will be fully absorbed in the knowledge of Brahm. He will never deviate from the code of conduct prescribed by the Vedas. He will be full of good qualities and will always be happy at heart. He will have many distinguished disciples. He will be sweet and noble in his speech and will be blessed with much wealth, wife and children. He will shine with spiritual luster. He will be long-lived, will have complete control over his senses and will be revered by kings."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "all": [
+              {
+                "any": [
+                  {
+                    "dignity": {
+                      "graha": "Jupiter",
+                      "dignity": "exalted"
+                    }
+                  },
+                  {
+                    "dignity": {
+                      "graha": "Jupiter",
+                      "dignity": "own"
+                    }
+                  },
+                  {
+                    "dignity": {
+                      "graha": "Jupiter",
+                      "dignity": "friend"
+                    }
+                  }
+                ]
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Jupiter",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_class": {
+                      "graha": "Jupiter",
+                      "klass": "trikona"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "any": [
+                  {
+                    "dignity": {
+                      "graha": "Saturn",
+                      "dignity": "exalted"
+                    }
+                  },
+                  {
+                    "dignity": {
+                      "graha": "Saturn",
+                      "dignity": "own"
+                    }
+                  },
+                  {
+                    "dignity": {
+                      "graha": "Saturn",
+                      "dignity": "friend"
+                    }
+                  }
+                ]
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Saturn",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_class": {
+                      "graha": "Saturn",
+                      "klass": "trikona"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "lord_of_house": {
+              "graha": "?g5",
+              "house": 5
+            }
+          },
+          {
+            "all": [
+              {
+                "any": [
+                  {
+                    "dignity": {
+                      "graha": "?g5",
+                      "dignity": "exalted"
+                    }
+                  },
+                  {
+                    "dignity": {
+                      "graha": "?g5",
+                      "dignity": "own"
+                    }
+                  },
+                  {
+                    "dignity": {
+                      "graha": "?g5",
+                      "dignity": "friend"
+                    }
+                  }
+                ]
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "?g5",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_class": {
+                      "graha": "?g5",
+                      "klass": "trikona"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Virinchi"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Virinchi Yoga: Jupiter, the lord of the 5th, and Saturn, 'similarly disposed' to Srikantha's test (v.28). Verse 28 itself spells this yoga 'Virinrhi Yoga'; verse 31, giving its effects, spells it 'Virinchi Yoga'. Both spellings are printed for the same yoga; 'Virinchi' is used as the card id and predicts value because it is the spelling verse 31 gives when naming the yoga in its own title sentence, not because verse 28's spelling is corrected.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.06.Maha",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "32, 34",
+        "page_anchor": "phaladeepika/p0067",
+        "tier": 1,
+        "quote": "32. When two lords of different houses mutually interchange places, that is, they occupy the house of each other, such a disposition of planets is known as Parivartana yoga. The interchanges of the pairs of the bhava lords will number 66 beginning from the Lagna and ending with the 12th. Out of these 66 parivartana Yogas, 30 are caused by the lords of the 6th, 8th and 12th and are called Dalnya yogas. 8 such Parivartana Yogas are caused by the lord of the 3rd and are termed as Kahala yogas. The remaining 28 are known as Maha Yogas. […] 34. Person born with Mahayoga will have the beneficence of the Goddess Sri and will be adorned with expensive and beautiful clothes and ornaments. He is reverred and honoured by the king. He will hold a high position and will be rewarded of authority by the king, He will be blessed with sons and fully enjoy wealth and conveyances.",
+        "quote_display": "32. When two lords of different houses mutually interchange places, that is, they occupy the house of each other, such a disposition of planets is known as Parivartana yoga. The interchanges of the pairs of the bhava lords will number 66 beginning from the Lagna and ending with the 12th. Out of these 66 parivartana Yogas, 30 are caused by the lords of the 6th, 8th and 12th and are called Dalnya yogas. 8 such Parivartana Yogas are caused by the lord of the 3rd and are termed as Kahala yogas. The remaining 28 are known as Maha Yogas. […] 34. Person born with Mahayoga will have the beneficence of the Goddess Sri and will be adorned with expensive and beautiful clothes and ornaments. He is reverred and honoured by the king. He will hold a high position and will be rewarded of authority by the king, He will be blessed with sons and fully enjoy wealth and conveyances.",
+        "quote_sha256": "dd139d1a17e934d6202facb583d77678e8aa4bfe4939bed39c37af553001cf6e",
+        "char_span": [
+          126518,
+          127055
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            126518,
+            127055
+          ],
+          [
+            132336,
+            132668
+          ]
+        ],
+        "quote_parts": [
+          "32. When two lords of different houses mutually interchange places, that is, they occupy the house of each other, such a disposition of planets is known as Parivartana yoga. The interchanges of the pairs of the bhava lords will number 66 beginning from the Lagna and ending with the 12th. Out of these 66 parivartana Yogas, 30 are caused by the lords of the 6th, 8th and 12th and are called Dalnya yogas. 8 such Parivartana Yogas are caused by the lord of the 3rd and are termed as Kahala yogas. The remaining 28 are known as Maha Yogas.",
+          "34. Person born with Mahayoga will have the beneficence of the Goddess Sri and will be adorned with expensive and beautiful clothes and ornaments. He is reverred and honoured by the king. He will hold a high position and will be rewarded of authority by the king, He will be blessed with sons and fully enjoy wealth and conveyances."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 1
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 2
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 2
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 1
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 1
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 4
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 4
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 1
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 1
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 5
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 5
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 1
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 1
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 7
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 7
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 1
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 1
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 9
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 9
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 1
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 1
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 10
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 10
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 1
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 1
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 11
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 11
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 1
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 2
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 4
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 4
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 2
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 2
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 5
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 5
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 2
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 2
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 7
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 7
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 2
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 2
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 9
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 9
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 2
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 2
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 10
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 10
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 2
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 2
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 11
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 11
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 2
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 4
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 5
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 5
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 4
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 4
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 7
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 7
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 4
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 4
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 9
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 9
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 4
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 4
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 10
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 10
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 4
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 4
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 11
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 11
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 4
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 5
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 7
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 7
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 5
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 5
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 9
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 9
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 5
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 5
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 10
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 10
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 5
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 5
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 11
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 11
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 5
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 7
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 9
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 9
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 7
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 7
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 10
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 10
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 7
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 7
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 11
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 11
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 7
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 9
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 10
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 10
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 9
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 9
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 11
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 11
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 9
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 10
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 11
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 11
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 10
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Maha"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": [
+        "Maha Yoga: a Parivartana (mutual house-exchange) between the lords of any two of the eight houses verse 32 leaves over once the 6th/8th/12th (Dainya) and the 3rd (Kahala) are removed -- Lagna, 2nd, 4th, 5th, 7th, 9th, 10th, 11th, taken two at a time (28 pairs, matching the verse's own count exactly: 66 total = 30 Dainya + 8 Kahala + 28 Maha). This condition is derived from verse 32's own explicit, undamaged arithmetic, not from the itemized Notes list that follows it on p.67-69: that list is confirmed genuinely defective in the printed book (verified by rendering PDF pages 67-69 directly) -- item (6) of its claimed 28 is missing entirely, items (18) and (26) are never printed under their own number, item (17) is printed twice (once correct, once garbled and mixing fragments of two other pairs), and item (20) is printed twice (once internally self-contradictory, once correct). The defective list is recorded separately as deferred apparatus (passage:phaladeepika.06.p121) and is not used here or repaired; every legible item in it is consistent with this card's derivation, and none contradicts it."
+      ],
+      "exclusions": []
+    },
+    {
+      "id": "PD.06.Dainya",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "32, 33",
+        "page_anchor": "phaladeepika/p0067",
+        "tier": 1,
+        "quote": "32. When two lords of different houses mutually interchange places, that is, they occupy the house of each other, such a disposition of planets is known as Parivartana yoga. The interchanges of the pairs of the bhava lords will number 66 beginning from the Lagna and ending with the 12th. Out of these 66 parivartana Yogas, 30 are caused by the lords of the 6th, 8th and 12th and are called Dalnya yogas. 8 such Parivartana Yogas are caused by the lord of the 3rd and are termed as Kahala yogas. The remaining 28 are known as Maha Yogas. […] 33. The person with Dainya Yoga at birth will be a fool, will revile others and indulge in sinful deeds. He is always in trouble from his enemies. He will speak harshly and will not have a stable mind. He will encounter obstacles in all his ventures.",
+        "quote_display": "32. When two lords of different houses mutually interchange places, that is, they occupy the house of each other, such a disposition of planets is known as Parivartana yoga. The interchanges of the pairs of the bhava lords will number 66 beginning from the Lagna and ending with the 12th. Out of these 66 parivartana Yogas, 30 are caused by the lords of the 6th, 8th and 12th and are called Dalnya yogas. 8 such Parivartana Yogas are caused by the lord of the 3rd and are termed as Kahala yogas. The remaining 28 are known as Maha Yogas. […] 33. The person with Dainya Yoga at birth will be a fool, will revile others and indulge in sinful deeds. He is always in trouble from his enemies. He will speak harshly and will not have a stable mind. He will encounter obstacles in all his ventures.",
+        "quote_sha256": "d26bf30b5215ed3ee3bae6919e0c90ce79e6e541d3d1a146df27720c35f6492f",
+        "char_span": [
+          126518,
+          127055
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            126518,
+            127055
+          ],
+          [
+            131836,
+            132086
+          ]
+        ],
+        "quote_parts": [
+          "32. When two lords of different houses mutually interchange places, that is, they occupy the house of each other, such a disposition of planets is known as Parivartana yoga. The interchanges of the pairs of the bhava lords will number 66 beginning from the Lagna and ending with the 12th. Out of these 66 parivartana Yogas, 30 are caused by the lords of the 6th, 8th and 12th and are called Dalnya yogas. 8 such Parivartana Yogas are caused by the lord of the 3rd and are termed as Kahala yogas. The remaining 28 are known as Maha Yogas.",
+          "33. The person with Dainya Yoga at birth will be a fool, will revile others and indulge in sinful deeds. He is always in trouble from his enemies. He will speak harshly and will not have a stable mind. He will encounter obstacles in all his ventures."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 1
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 6
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 6
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 1
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 1
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 8
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 8
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 1
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 1
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 12
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 12
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 1
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 2
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 6
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 6
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 2
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 2
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 8
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 8
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 2
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 2
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 12
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 12
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 2
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 3
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 6
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 6
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 3
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 3
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 8
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 8
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 3
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 3
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 12
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 12
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 3
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 4
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 6
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 6
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 4
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 4
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 8
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 8
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 4
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 4
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 12
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 12
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 4
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 5
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 6
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 6
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 5
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 5
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 8
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 8
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 5
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 5
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 12
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 12
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 5
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 6
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 7
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 7
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 6
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 6
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 8
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 8
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 6
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 6
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 9
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 9
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 6
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 6
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 10
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 10
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 6
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 6
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 11
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 11
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 6
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 6
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 12
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 12
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 6
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 7
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 8
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 8
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 7
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 7
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 12
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 12
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 7
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 8
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 9
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 9
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 8
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 8
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 10
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 10
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 8
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 8
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 11
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 11
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 8
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 8
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 12
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 12
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 8
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 9
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 12
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 12
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 9
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 10
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 12
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 12
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 10
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 11
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 12
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 12
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 11
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Dainya"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": [
+        "Dainya Yoga: a Parivartana where at least one of the two exchanging lords is the 6th, 8th, or 12th house lord (30 pairs, matching verse 32's own count: the 6th paired with each of the other 11 houses, the 8th with the remaining 10, the 12th with the remaining 9 -- 11+10+9=30). Derived from verse 32's own arithmetic, cross-checked against the (partially defective) itemized Dainya list on p.68-69: items (13) and (28) of its claimed 30 are truncated mid-sentence in the printed book, missing their pair partner (verified by rendering PDF page 69 directly); every other item is legible and consistent with this derivation. The defective list is recorded separately (passage:phaladeepika.06.p124) and not used here. Uttarakalamrita's directly contradicting doctrine for this same 6th/8th/12th-lord configuration is recorded separately as PD.06.VipareetaRajaYoga.Uttarakalamrita."
+      ],
+      "exclusions": [],
+      "contradicts": [
+        "PD.06.VipareetaRajaYoga.Uttarakalamrita"
+      ]
+    },
+    {
+      "id": "PD.06.Kahala",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "32, 33",
+        "page_anchor": "phaladeepika/p0067",
+        "tier": 1,
+        "quote": "32. When two lords of different houses mutually interchange places, that is, they occupy the house of each other, such a disposition of planets is known as Parivartana yoga. The interchanges of the pairs of the bhava lords will number 66 beginning from the Lagna and ending with the 12th. Out of these 66 parivartana Yogas, 30 are caused by the lords of the 6th, 8th and 12th and are called Dalnya yogas. 8 such Parivartana Yogas are caused by the lord of the 3rd and are termed as Kahala yogas. The remaining 28 are known as Maha Yogas. […] The native with Kahala Yoga will occasionally be haughtly and sometimes sweet in his speech. There will be occasions when he will be very prosperous and then will be driven to poverty, unhappiness and misery.",
+        "quote_display": "32. When two lords of different houses mutually interchange places, that is, they occupy the house of each other, such a disposition of planets is known as Parivartana yoga. The interchanges of the pairs of the bhava lords will number 66 beginning from the Lagna and ending with the 12th. Out of these 66 parivartana Yogas, 30 are caused by the lords of the 6th, 8th and 12th and are called Dalnya yogas. 8 such Parivartana Yogas are caused by the lord of the 3rd and are termed as Kahala yogas. The remaining 28 are known as Maha Yogas. […] The native with Kahala Yoga will occasionally be haughtly and sometimes sweet in his speech. There will be occasions when he will be very prosperous and then will be driven to poverty, unhappiness and misery.",
+        "quote_sha256": "c80fb69564f90e18afed35d6d8dbc3597703de3faccee2cad681aef6bb4679f2",
+        "char_span": [
+          126518,
+          127055
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            126518,
+            127055
+          ],
+          [
+            132090,
+            132298
+          ]
+        ],
+        "quote_parts": [
+          "32. When two lords of different houses mutually interchange places, that is, they occupy the house of each other, such a disposition of planets is known as Parivartana yoga. The interchanges of the pairs of the bhava lords will number 66 beginning from the Lagna and ending with the 12th. Out of these 66 parivartana Yogas, 30 are caused by the lords of the 6th, 8th and 12th and are called Dalnya yogas. 8 such Parivartana Yogas are caused by the lord of the 3rd and are termed as Kahala yogas. The remaining 28 are known as Maha Yogas.",
+          "The native with Kahala Yoga will occasionally be haughtly and sometimes sweet in his speech. There will be occasions when he will be very prosperous and then will be driven to poverty, unhappiness and misery."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 1
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 3
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 3
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 1
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 2
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 3
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 3
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 2
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 3
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 4
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 4
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 3
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 3
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 5
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 5
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 3
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 3
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 7
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 7
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 3
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 3
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 9
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 9
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 3
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 3
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 10
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 10
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 3
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g1",
+                  "house": 3
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g1",
+                  "house": 11
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g2",
+                  "house": 11
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g2",
+                  "house": 3
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Kahala"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": [
+        "Kahala Yoga (the Parivartana one of v.32-33, not the unrelated dispositor-chain Kahala Yoga of v.35): a Parivartana where one of the two exchanging lords is the 3rd house lord and neither is the 6th, 8th or 12th lord (8 pairs: 3rd with Lagna, 2nd, 4th, 5th, 7th, 9th, 10th, 11th). Derived from verse 32's own arithmetic; the itemized Kahala list on p.69 is completely intact in the printed book (verified by rendering the page directly) and every one of its 8 items matches this derivation exactly, so unlike Maha and Dainya this card's derivation has full, undamaged, item-by-item confirmation, not merely arithmetic self-consistency."
+      ],
+      "exclusions": []
+    },
+    {
+      "id": "PD.06.VipareetaRajaYoga.Uttarakalamrita",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "33 Notes (Uttarakalamrita, khand 4 sloka 22)",
+        "page_anchor": "phaladeepika/p0070",
+        "tier": 2,
+        "quote": "Notes - Here it would be relevant to mention that in khand 4 sloka 22 in Uttarakalamrit, the exalted results given for mutual interchange of lords of the 6th, 8th and 12th houses are quite reverse of the effects given in Phaladeepika. The sloka in Uttarakalamrit is as under.\r\n\r\nThis means that (1) If the lord of the 8th is in the 12th or 6th, (2) if the lord of the 6th is in the 8th or 12th. (3) if the lord of the 12th is in the 8th or 6th. (4) the three lords may be in the signs of each other or be aspected by each other and (5) if\r\n\r\n<!-- page phaladeepika/p0071 -->\r\nthey are not associated with or aspected by the lords of any other houses (in other words they may have nothing to do with the lords of any other houses), the person born in such a Yoga will be very prosperous and a king of kings.\r\n\r\nThis is known as Vipareeta Raja Yoga which means that the planets who normally give adverse effect, give excellent results.\r\n\r\nHowever, there is some difference between the Yogas given above and those mentioned in Phaladeepika. In Phaladeepika Dainya Yogas (by the lords of the 6th, 8th and 12th) are caused by interchanges of two planets only amongst the lords of the 6th, 8th and 12th, while in Uttarkalamrita the effects are given of the placement of the lords of the 6th, 8th and 12th in Dusthanas or of their association with or aspect by each other and be unrelated top lords of any other houses.",
+        "quote_display": "Notes - Here it would be relevant to mention that in khand 4 sloka 22 in Uttarakalamrit, the exalted results given for mutual interchange of lords of the 6th, 8th and 12th houses are quite reverse of the effects given in Phaladeepika. The sloka in Uttarakalamrit is as under. This means that (1) If the lord of the 8th is in the 12th or 6th, (2) if the lord of the 6th is in the 8th or 12th. (3) if the lord of the 12th is in the 8th or 6th. (4) the three lords may be in the signs of each other or be aspected by each other and (5) if they are not associated with or aspected by the lords of any other houses (in other words they may have nothing to do with the lords of any other houses), the person born in such a Yoga will be very prosperous and a king of kings. This is known as Vipareeta Raja Yoga which means that the planets who normally give adverse effect, give excellent results. However, there is some difference between the Yogas given above and those mentioned in Phaladeepika. In Phaladeepika Dainya Yogas (by the lords of the 6th, 8th and 12th) are caused by interchanges of two planets only amongst the lords of the 6th, 8th and 12th, while in Uttarkalamrita the effects are given of the placement of the lords of the 6th, 8th and 12th in Dusthanas or of their association with or aspect by each other and be unrelated top lords of any other houses.",
+        "quote_sha256": "c532684a75120528bd6b2177ebb887d69637a1870734c01b6b11b866768ddcb6",
+        "char_span": [
+          134255,
+          135667
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Vipareeta Raja Yoga",
+        "authority": "Uttarakalamrita"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "activation": "reference",
+      "note": [
+        "Phaladeepika's translator reporting Uttarakalamrita's directly contradicting doctrine for the same 6th/8th/12th-lord configuration Phaladeepika calls Dainya: not a mutual exchange between two of the three dusthana lords, but the placement of the three dusthana lords in each other's dusthanas (12th or 6th for the 8th lord, and so on for each), or their mutual sign-relation or aspect, provided none of the three is associated with or aspected by any other house's lord -- explicitly called 'quite reverse' of Phaladeepika's own effects and named Vipareeta Raja Yoga. Not encoded as a testable condition: clause (4) ('the three lords may be in the signs of each other or be aspected by each other') does not say whether this must hold pairwise or for all three simultaneously, and clause (5) is a universal negation over every other house's lord that the passage does not itself resolve into the condition language's terms. Recorded as a reference card and marked contradicting PD.06.Dainya rather than tested."
+      ],
+      "exclusions": [],
+      "contradicts": [
+        "PD.06.Dainya"
+      ]
     }
   ]
 }

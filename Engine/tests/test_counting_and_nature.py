@@ -611,3 +611,227 @@ def test_subhavasi_fires_end_to_end_on_a_real_chart(provider):
     mercury_facts = {f.args["house"] for f in fs.by_predicate("in_house_from")
                       if f.args["graha"] == "Mercury" and f.args["reference"] == "Sun"}
     assert mercury_facts == {12}
+
+
+# --- Srikantha/Srinatha/Virinchi and Maha/Dainya/Kahala (chapter 6 slice 6,
+# vv. 28-34) ------------------------------------------------------------------
+
+def test_srikantha_fires_when_lagna_lord_sun_and_moon_are_all_strong(cards):
+    """PD.06.Srikantha: the Lagna lord, the Sun and the Moon each exalted,
+    own, or in a friend's sign, each angular or trinal."""
+    card = next(c for c in cards if c.id == "PD.06.Srikantha")
+    fs = facts(
+        ("lord_of_house", {"graha": "Mars", "house": 1}),
+        ("dignity", {"graha": "Mars", "dignity": "own"}),
+        ("in_house_class", {"graha": "Mars", "klass": "kendra"}),
+        ("dignity", {"graha": "Sun", "dignity": "exalted"}),
+        ("in_house_class", {"graha": "Sun", "klass": "trikona"}),
+        ("dignity", {"graha": "Moon", "dignity": "friend"}),
+        ("in_house_class", {"graha": "Moon", "klass": "kendra"}),
+    )
+    assert evaluate(card.conditions, fs).satisfied
+
+
+def test_srikantha_does_not_fire_if_only_two_of_the_three_qualify(cards):
+    card = next(c for c in cards if c.id == "PD.06.Srikantha")
+    fs = facts(
+        ("lord_of_house", {"graha": "Mars", "house": 1}),
+        ("dignity", {"graha": "Mars", "dignity": "own"}),
+        ("in_house_class", {"graha": "Mars", "klass": "kendra"}),
+        ("dignity", {"graha": "Sun", "dignity": "exalted"}),
+        ("in_house_class", {"graha": "Sun", "klass": "trikona"}),
+        # Moon present but with no dignity/angularity facts at all.
+    )
+    assert not evaluate(card.conditions, fs).satisfied
+
+
+def test_srinatha_tests_venus_the_9th_lord_and_mercury(cards):
+    card = next(c for c in cards if c.id == "PD.06.Srinatha")
+    fs = facts(
+        ("dignity", {"graha": "Venus", "dignity": "own"}),
+        ("in_house_class", {"graha": "Venus", "klass": "kendra"}),
+        ("lord_of_house", {"graha": "Jupiter", "house": 9}),
+        ("dignity", {"graha": "Jupiter", "dignity": "exalted"}),
+        ("in_house_class", {"graha": "Jupiter", "klass": "trikona"}),
+        ("dignity", {"graha": "Mercury", "dignity": "own"}),
+        ("in_house_class", {"graha": "Mercury", "klass": "kendra"}),
+    )
+    assert evaluate(card.conditions, fs).satisfied
+
+
+def test_virinchi_tests_jupiter_the_5th_lord_and_saturn(cards):
+    card = next(c for c in cards if c.id == "PD.06.Virinchi")
+    fs = facts(
+        ("dignity", {"graha": "Jupiter", "dignity": "own"}),
+        ("in_house_class", {"graha": "Jupiter", "klass": "kendra"}),
+        ("lord_of_house", {"graha": "Venus", "house": 5}),
+        ("dignity", {"graha": "Venus", "dignity": "friend"}),
+        ("in_house_class", {"graha": "Venus", "klass": "trikona"}),
+        ("dignity", {"graha": "Saturn", "dignity": "own"}),
+        ("in_house_class", {"graha": "Saturn", "klass": "kendra"}),
+    )
+    assert evaluate(card.conditions, fs).satisfied
+
+
+def test_maha_fires_on_a_2nd_4th_exchange(cards):
+    """Neither house is 3rd, 6th, 8th or 12th, so this is Maha."""
+    card = next(c for c in cards if c.id == "PD.06.Maha")
+    fs = facts(
+        ("lord_of_house", {"graha": "Venus", "house": 2}),
+        ("in_house", {"graha": "Venus", "house": 4}),
+        ("lord_of_house", {"graha": "Mercury", "house": 4}),
+        ("in_house", {"graha": "Mercury", "house": 2}),
+    )
+    assert evaluate(card.conditions, fs).satisfied
+
+
+def test_dainya_fires_on_any_exchange_touching_6th_8th_or_12th(cards):
+    """Verse 32: Dainya is 'caused by the lords of the 6th, 8th and 12th' --
+    tested here for a 6th-Lagna pair, an 8th-9th pair, and a 6th-8th pair
+    (both houses in the dusthana set at once)."""
+    card = next(c for c in cards if c.id == "PD.06.Dainya")
+    six_lagna = facts(
+        ("lord_of_house", {"graha": "Saturn", "house": 6}),
+        ("in_house", {"graha": "Saturn", "house": 1}),
+        ("lord_of_house", {"graha": "Mars", "house": 1}),
+        ("in_house", {"graha": "Mars", "house": 6}),
+    )
+    assert evaluate(card.conditions, six_lagna).satisfied
+    eight_nine = facts(
+        ("lord_of_house", {"graha": "Saturn", "house": 8}),
+        ("in_house", {"graha": "Saturn", "house": 9}),
+        ("lord_of_house", {"graha": "Jupiter", "house": 9}),
+        ("in_house", {"graha": "Jupiter", "house": 8}),
+    )
+    assert evaluate(card.conditions, eight_nine).satisfied
+    six_eight = facts(
+        ("lord_of_house", {"graha": "Saturn", "house": 6}),
+        ("in_house", {"graha": "Saturn", "house": 8}),
+        ("lord_of_house", {"graha": "Mars", "house": 8}),
+        ("in_house", {"graha": "Mars", "house": 6}),
+    )
+    assert evaluate(card.conditions, six_eight).satisfied
+
+
+def test_kahala_fires_on_a_3rd_house_exchange_not_touching_a_dusthana(cards):
+    card = next(c for c in cards if c.id == "PD.06.Kahala")
+    fs = facts(
+        ("lord_of_house", {"graha": "Mercury", "house": 3}),
+        ("in_house", {"graha": "Mercury", "house": 11}),
+        ("lord_of_house", {"graha": "Saturn", "house": 11}),
+        ("in_house", {"graha": "Saturn", "house": 3}),
+    )
+    assert evaluate(card.conditions, fs).satisfied
+
+
+def test_a_3rd_6th_exchange_is_dainya_not_kahala(cards):
+    """Verse 32's own itemized Kahala list (p.69, intact) excludes 3rd-6th,
+    3rd-8th and 3rd-12th pairs -- those are already Dainya, since a
+    dusthana lord is involved. A pair touching both the 3rd and a dusthana
+    must fire Dainya and must not fire Kahala or Maha."""
+    dainya = next(c for c in cards if c.id == "PD.06.Dainya")
+    kahala = next(c for c in cards if c.id == "PD.06.Kahala")
+    maha = next(c for c in cards if c.id == "PD.06.Maha")
+    fs = facts(
+        ("lord_of_house", {"graha": "Mercury", "house": 3}),
+        ("in_house", {"graha": "Mercury", "house": 6}),
+        ("lord_of_house", {"graha": "Moon", "house": 6}),
+        ("in_house", {"graha": "Moon", "house": 3}),
+    )
+    assert evaluate(dainya.conditions, fs).satisfied
+    assert not evaluate(kahala.conditions, fs).satisfied
+    assert not evaluate(maha.conditions, fs).satisfied
+
+
+def test_maha_dainya_kahala_pair_sets_partition_all_66_exchanges(cards):
+    """The three cards' literal house-pair enumerations were derived from
+    verse 32's own stated arithmetic (66 = 30 + 8 + 28), not from the
+    printed itemized list, which is independently confirmed defective.
+    This is the arithmetic check: every one of the 66 possible house pairs
+    must satisfy exactly one of the three cards' conditions."""
+    import itertools
+    maha = next(c for c in cards if c.id == "PD.06.Maha")
+    dainya = next(c for c in cards if c.id == "PD.06.Dainya")
+    kahala = next(c for c in cards if c.id == "PD.06.Kahala")
+    counts = {"maha": 0, "dainya": 0, "kahala": 0, "none": 0, "multiple": 0}
+    for h1, h2 in itertools.combinations(range(1, 13), 2):
+        fs = facts(
+            ("lord_of_house", {"graha": "A", "house": h1}),
+            ("in_house", {"graha": "A", "house": h2}),
+            ("lord_of_house", {"graha": "B", "house": h2}),
+            ("in_house", {"graha": "B", "house": h1}),
+        )
+        hits = [name for name, card in
+                (("maha", maha), ("dainya", dainya), ("kahala", kahala))
+                if evaluate(card.conditions, fs).satisfied]
+        if len(hits) == 0:
+            counts["none"] += 1
+        elif len(hits) > 1:
+            counts["multiple"] += 1
+        else:
+            counts[hits[0]] += 1
+    assert counts == {"maha": 28, "dainya": 30, "kahala": 8, "none": 0, "multiple": 0}
+
+
+def test_vipareeta_raja_yoga_is_a_reference_card_contradicting_dainya(cards):
+    """Uttarakalamrita's doctrine for the same 6th/8th/12th-lord
+    configuration is explicitly 'quite reverse' of Phaladeepika's own
+    Dainya effects; it must never fire and must record the contradiction,
+    not silently agree or silently override."""
+    card = next(c for c in cards if c.id == "PD.06.VipareetaRajaYoga.Uttarakalamrita")
+    assert card.activation == "reference"
+    assert card.conditions == {"all": []}
+    assert "PD.06.Dainya" in card.raw.get("contradicts", [])
+
+
+def test_maha_notes_list_defect_is_transcribed_exactly_as_printed():
+    """Regression guard for the source defect discovered in this slice: the
+    printed Maha Yogas Notes list is missing item (6) entirely and prints
+    item (17) twice. If the corpus is ever re-converted and this defect
+    disappears, PD.06.Maha's condition (derived from verse 32's own
+    arithmetic, not from this list) must not be silently 'corrected' to
+    match a repaired list without a human deciding that on purpose."""
+    text = (ROOT / "Knowledge" / "phaladeepika.md").read_bytes().decode("utf-8")
+    i = text.find("28. Maha Yogas:")
+    j = text.find("30. Dainya Yogas:")
+    assert i >= 0 and j > i
+    maha_list = text[i:j]
+    assert "(5) the Lord of the Lagna in the 10th" in maha_list
+    assert "(6)" not in maha_list          # item (6) is genuinely absent
+    assert maha_list.count("(17)") == 2    # item (17) is genuinely duplicated
+    assert "(18)" not in maha_list         # item (18) is genuinely absent
+    assert "(26)" not in maha_list         # item (26) is genuinely absent
+
+
+def test_dainya_notes_list_truncations_are_transcribed_exactly_as_printed():
+    text = (ROOT / "Knowledge" / "phaladeepika.md").read_bytes().decode("utf-8")
+    i = text.find("30. Dainya Yogas:")
+    j = text.find("8. Kahala Togas:")
+    assert i >= 0 and j > i
+    dainya_list = text[i:j]
+    assert "(13) the lord of the 8th (14)" in dainya_list   # item 13 truncated
+    assert "(28) the lord of 12th, (29)" in dainya_list      # item 28 truncated
+
+
+def test_kahala_yoga_fires_end_to_end_on_a_real_chart(provider):
+    """Real-chart sanity check: 1975-02-01 12:10 IST at Thanjavur places
+    Mercury (3rd lord) in the 11th and Saturn (11th lord) in the 3rd,
+    through the actual ephemeris -- a genuine Parivartana touching the 3rd
+    house and no dusthana, i.e. PD.06.Kahala's condition."""
+    from Engine.activate import activate
+    rec = BirthRecord(
+        date="1975-02-01", time="12:10", timezone="Asia/Kolkata",
+        latitude=10.7870, longitude=79.1378, place_name="Thanjavur",
+        time_precision="minute", time_source="certificate", sex="male",
+    )
+    chart = compute_chart(resolve_birth(rec, provider), provider)
+    cards = load_cards(RULES)
+    doctrine = Doctrine.from_cards(cards)
+    fs = extract_facts(chart, doctrine)
+    claims, _ = activate(chart, fs, cards)
+    fired = {c.derived["rule_card"] for c in claims}
+    assert "PD.06.Kahala" in fired
+    assert "PD.06.Dainya" not in fired
+    assert "PD.06.Maha" not in fired
+    kahala_claim = next(c for c in claims if c.derived["rule_card"] == "PD.06.Kahala")
+    assert kahala_claim.derived["variables"] == {"?g1": "Mercury", "?g2": "Saturn"}
