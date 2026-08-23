@@ -5,40 +5,52 @@ astrologer would, where every predictive sentence traces to a rule printed in a 
 applied to a quantity that was actually computed. Governing rule: *the system may compute,
 and it may quote — it may not invent.*
 
-**Current production-readiness: 40%** (see §A for the weighted breakdown)
+**Current production-readiness: 49%** (see §A for the weighted breakdown). **This is not a
+9-point jump in capability.** §A's published category scores and weights have always summed
+to 48.30%, not the 39.55% the file stated; the per-milestone *increments* were computed
+correctly but the base was wrong and carried forward unchanged for four milestones. Milestone
+19 recomputed it from the same categories and weights (§A) and corrected the arithmetic. Real
+movement this session is +2 provenance and +1 test coverage, i.e. about +0.3 points.
 
 **Current phase:** Production Blocker Clearance Program (interrupts ordinary Phase 3
 rule extraction — see §J and §K). Phase 3 itself remains at the state described in §B.
 
-**Current milestone:** Milestone 18 — verification queue, chapter 8 batch (108 cards,
-1 genuine defect found and corrected). See §J for the full production-blocker audit and
-§D below for the resume point.
+**Current milestone:** Milestone 19 — verification queue, chapter 10 batch (36 cards; 1
+defect corrected, 1 documented and held unsigned, 2 prior claims corrected), which **closes
+the interpretive verification queue** and clears blocker P1-1. The same session found a new
+production blocker, **P0-2, the benefic classification gap** — see §K.
 
 **Exact resume point:** `git fetch --all --prune`, confirm `main` == `origin/main`, then
-read §K (Production Blocker Register, P1-1) and resume `Reports/VERIFICATION_QUEUE.md` at
-chapter 10 (37 cards, the only chapter left in the queue).
+read §K, **P0-2**. Do not resume ordinary chapter encoding first: 22 active cards across
+chapters 6 and 10 systematically under-fire today because Jupiter and Venus receive no
+`nature` fact at all, and P0-2 needs a human decision between three real sources before any
+of it can be encoded. The verification queue (P1-1) is finished apart from two deliberate,
+documented holdouts and needs no further work.
 
-**Current Git SHA:** `d38c83473450a6fb1eba106e807e149be7504007` (parent — this milestone's
+**Current Git SHA:** `86047e98db2775de11c58d5924fb5d3c1d66c42b` (parent — this milestone's
 own commit follows this file's checkpoint)
 **Last verified remote SHA (origin/main):** same before this milestone's commit — 0 ahead /
 0 behind, working tree clean
-**Last update date:** 2026-08-24
+**Last update date:** 2026-08-23
 
-**Current test count:** 233 passing (`Engine/tests`) — was 230
+**Current test count:** 241 passing (`Engine/tests`) — was 233
 **Current rule-card counts:** 405 total · 385 executable (firing) · 20 inert (recorded, blocked)
-— `PD.08.Saturn.01` was split into two cards this session (see Milestone 18), so the store
-grew by one card without any new corpus material.
-**Current verification:** 368/405 cards signed off (91%) — was 4/404 (1%) before Milestone 15.
-175 structural (reference/table) cards signed off by automated structural check; 193
-interpretive cards signed off by human(+Claude) reading pass (3 pre-existing + 20 chapter 9
-+ 8 of chapters 1-2 + 53 of chapter 6 + 109 of chapter 8, including two independently
-re-verified PDF-page spot checks from chapter 6 that both confirmed the prior session's
-claims exactly, and one genuine condition defect found and corrected in chapter 8 — see
-Milestone 18). 37 interpretive cards remain queued (all of chapter 10) — see
-`Reports/VERIFICATION_QUEUE.md`. One card (`PD.01.Kalapurusha.Strength`) remains
-deliberately **unsigned**: a genuine condition defect found in Milestone 16, correctly
-deferred because its fix needs `dep.strength` and `dep.condition-variables`, neither of
-which exist yet.
+— unchanged this session; Milestone 19 corrected a condition in place and split no cards.
+**Current verification:** **403/405 cards signed off (99.5%)** — was 368/405 (91%), and 4/404
+(1%) before Milestone 15. 175 structural (reference/table) cards signed off by automated
+structural check; 228 interpretive cards signed off by human(+Claude) reading pass (3
+pre-existing + 20 chapter 9 + 8 of chapters 1-2 + 53 of chapter 6 + 109 of chapter 8 + 35 of
+chapter 10). **The interpretive queue is closed.** Exactly two cards remain deliberately
+**unsigned**, both for real, documented condition defects blocked on capabilities that do not
+exist:
+  - `PD.01.Kalapurusha.Strength` — found in Milestone 16; needs `dep.strength` +
+    `dep.condition-variables`. Its Milestone 16 note was **corrected** in Milestone 19: it
+    claimed the stub leaf was "vacuously true"; it is vacuously *false* (see §I, "any" is a
+    literal, not a wildcard), which points the eventual repair the other way.
+  - `PD.10.Venus.VargaMarsSaturn` — found in Milestone 19; its varga branch does not encode
+    "the Varga of Mars or Saturn" and repairing it requires deciding what "Varga" denotes,
+    which belongs to whoever encodes chapters 3/21, not to a review pass.
+
 **Backlog:** 89 entries (20 card, 44 passage, 22 chapter, 3 concept), 0 resolved
 
 ---
@@ -56,24 +68,33 @@ own warning that a system can have many cards while lacking reasoning capability
 | Corpus completeness | 15% | 25% | 2 of 6 planned books converted and frozen (Brihat Jataka, Phaladeepika); 4 pending (BPHS, Jataka Parijata, Uttara Kalamrita, Saravali) behind a deliberate freeze. |
 | Source verification | 10% | 70% | Corpus pipeline verified byte-exact with hallucination detection, verse reconciliation, figure transcription for the 2 converted books; Devanagari glyph-level spot-check still owed on Brihat Jataka. |
 | Rule extraction/encoding | 20% | 36% | Phaladeepika chapters 1, 2, 8, 9, 10 encoded and 6 partially (through v.38 of ~70); 405 cards (one card split into two during verification, not new corpus material) from an estimated ~1,535 total across all 28 Phaladeepika chapters at the measured 0.65 cards/paragraph rate — and that is one book of six. |
-| Reasoning engine capability | 15% | 45% | Stages 0, 1, 2, 6, 9, 10 implemented; Stage 3-5 (yogas/strength/houses as first-class computation) not built as dedicated stages; Stage 7 (adjudication) only partial (synthesis exists, weighting/cancellation does not); no varga, dasa, transit, ashtakavarga, or strength calculators yet. |
+| Reasoning engine capability | 15% | 45% | Stages 0, 1, 2, 6, 9, 10 implemented; Stage 3-5 (yogas/strength/houses as first-class computation) not built as dedicated stages; Stage 7 (adjudication) only partial (synthesis exists, weighting/cancellation does not); no varga, dasa, transit, ashtakavarga, or strength calculators yet. **This score is now known to overstate effective capability** and is held only because Milestone 19's discovery is a doctrine-coverage gap rather than an engine one: Jupiter and Venus receive no `nature` fact on any chart, so all 22 active cards conditioning on `benefic` systematically under-fire (§K, P0-2). Revise this score when P0-2 is decided. |
 | Contradiction handling | 10% | 55% | Competing authorities are preserved via `contradicts`/`extends` links and dual cards (e.g. PD.01 rising-sign dispute, PD.09 dignity dispute) — the mechanism works and is used repeatedly, but Stage 7 adjudication (weighing contradictions against each other) does not exist yet. |
-| Provenance/auditability | 10% | 95% | Every card is byte-exact hash-verified against the corpus on every run; `verify.py` enforces this as a build gate. `extraction.verified_by` now covers 368/405 cards (91%, was 4/404) via `Rules/tools/review.py`: 175 structural cards signed off automatically (no interpretive layer to review — the byte-exact check already is the complete verification), 193 interpretive cards signed off by an actual human(+Claude) reading pass across chapters 1, 2, 6, 8 and 9. 37 interpretive cards remain queued (all of chapter 10) in `Reports/VERIFICATION_QUEUE.md`. |
-| Test coverage | 10% | 62% | 233 tests (was 224), growing with every milestone, covering rule structure, engine extractors, variable binding, overrides, the verification tool itself, and now the Saturn-dignity split found during chapter 8's review; no dedicated end-to-end regression suite across the full corpus of encoded chapters yet. |
+| Provenance/auditability | 10% | 97% | Every card is byte-exact hash-verified against the corpus on every run; `verify.py` enforces this as a build gate. `extraction.verified_by` now covers **403/405 cards (99.5%**, was 4/404) via `Rules/tools/review.py`: 175 structural cards signed off automatically (no interpretive layer to review — the byte-exact check already is the complete verification), 228 interpretive cards signed off by an actual human(+Claude) reading pass across chapters 1, 2, 6, 8, 9 and 10. The interpretive queue is closed; the 2 unsigned cards are deliberate, documented defect holdouts, not unreviewed cards. Not 100% because those two defects are real and still open. |
+| Test coverage | 10% | 63% | 241 tests (was 233), growing with every milestone, covering rule structure, engine extractors, variable binding, overrides, the verification tool itself, and now the chapter 10 verification batch's findings (the missing inimical-sign disjunct, and a test pinning that `"any"` is a literal so every inert stub condition is fail-safe); no dedicated end-to-end regression suite across the full corpus of encoded chapters yet. |
 | End-to-end validation | 5% | 30% | CLI produces full 3-part consultations and has been spot-checked against real charts per milestone; no systematic charted validation set (Phase 6 of `Phases.txt`) exists yet. |
 | Multi-book corroboration | 3% | 0% | Only one book (Phaladeepika) has cards in the store; Brihat Jataka is corpus-converted but has zero rule cards. Cross-book agreement (a Phase 4 goal) cannot be assessed with one book. |
 | Production safety/reliability | 1% | 50% | Groundedness verification (Stage 9) refuses to emit ungrounded output; no rate limiting, error-recovery, or production deployment hardening attempted (not yet in scope). |
 | CLI/API/user-facing readiness | 1% | 40% | Working CLI (`Engine/cli.py`) produces real consultations; no API, no UI, no packaging. |
 
-**Overall Production Readiness: 0.15×25 + 0.10×70 + 0.20×36 + 0.15×45 + 0.10×55 + 0.10×95 +
-0.10×62 + 0.05×30 + 0.03×0 + 0.01×50 + 0.01×40 = 39.55% ≈ 40%**
+**Overall Production Readiness: 0.15×25 + 0.10×70 + 0.20×36 + 0.15×45 + 0.10×55 + 0.10×97 +
+0.10×63 + 0.05×30 + 0.03×0 + 0.01×50 + 0.01×40 = 48.60% ≈ 49%**
 
-(Was 39.05% before Milestone 15. The verification workflow keeps moving the needle on its
-own category — provenance/auditability rose 90→92→93→95 across Milestones 15-18 — and this
-session is the first time the composite number itself crosses a rounding boundary (39%→40%).
-The number that actually matters is still 368/405 verified, not the composite percentage,
-which is why §A tracks both — but it's worth noting explicitly the one time the smaller
-metric's movement was large enough to show up in the headline one.)
+**Arithmetic correction (Milestone 19).** The previous line claimed this expression equalled
+39.55%. It does not, and never did: with the same eleven categories, the same weights (which
+sum to exactly 100) and the same scores, it comes to 48.30%. The error was in the *base*, not
+in the updates — each milestone's increment (e.g. provenance 90→95 adding 0.10×5 = 0.5 points,
+39.05→39.55) was applied correctly on top of a wrong starting figure and carried forward
+unchanged through Milestones 15-18. Milestone 15's §J.1 audit checked whether the *categories
+and weights* were sound (they are) but did not re-evaluate the sum itself, which is how the
+error survived an audit explicitly aimed at this number.
+
+So the headline figure moves 40% → 49%, of which **about 8.7 points are the correction and
+about 0.3 points are this session's actual progress** (+2 provenance, +1 test coverage). Do
+not report this as capability gained. It also means the project has been *under*-reporting
+itself for several milestones — the opposite of the inflation §J.1 was looking for — while
+simultaneously, per P0-2, overstating what its reasoning actually delivers on a real chart.
+Both are corrected here rather than one being used to offset the other.
 
 This number should be recomputed (not incremented by feel) whenever a category's score
 changes materially — see §16.
@@ -591,29 +612,174 @@ capability vs. clear source-established error) work in practice, not just on pap
 
 ---
 
+### Milestone 19 — Verification queue, chapter 10 batch (36 cards) — queue closed
+
+**Phase:** Production Blocker Clearance Program (P1-1 — **cleared**)
+**Status:** COMPLETE
+**Completion:** 100%
+
+**What was verified:** All 36 queued interpretive cards of chapter 10 (Kalatra Bhava, the
+7th house), read one by one against their quoted verses in `Knowledge/phaladeepika.md`. 35
+were signed off; 1 was found defective and is deliberately held unsigned (below). This
+**closes the interpretive verification queue**: 403/405 cards are now signed, and the only
+two unsigned cards are documented defects, not unread cards.
+
+**Checks run beyond reading, since chapter 10 is not a uniform template:**
+- Every literal graha, sign and house number in every condition was cross-checked
+  programmatically against that card's *own* quote. This surfaced exactly two cards whose
+  condition mentions something its quote does not — both anaphoric sentences — and both were
+  then resolved against the surrounding corpus text rather than assumed.
+- The reference cards that chapter 10 conditions depend on were checked to actually exist and
+  say what the cards assume: `PD.02.GrahaSex` really does print "Mercury, Ketu and Saturn are
+  eunuchs" (backing the "hermaphrodite planet" reading), and `Dual` really is a source-printed
+  sign attribute (`PD.01.SignAttributes.{Gemini,Virgo,Sagittarius,Pisces}`), not an engine
+  coinage.
+- `scope.sex` was verified to be genuinely enforced (`Engine/activate.py` 93-97) rather than
+  decorative, and `BirthRecord` was confirmed to carry `sex` (`Engine/chart.py:58`).
+
+**Defect found and corrected — `PD.10.WifeLoss.Lord7Afflicted` (v. 15).** The verse gives
+four ways the 7th lord may be afflicted — "posited in his sign of debilitation, **be in an
+inimical sign**, be combust or be aspected by a malefic" — and the encoded condition carried
+only three, silently dropping the inimical-sign alternative; the card's own note then
+mis-enumerated the list as three. This was demonstrated, not merely read: on a constructed
+fact set (7th lord in an inimical sign, malefic occupying the 7th) the card did not fire,
+while `PD.10.WifeDeprived.Lord7Afflicted` — the *same doctrine, stated twice by the book* —
+did fire on identical facts, because that card carries the branch this one lacked. Since
+`dignity(?g,"inimical")` is already derivable (`dep.dignity-friendship`, implemented since
+Milestone 6), this was Milestone 18's category B (a clear representation error the source
+itself corrects), so it was fixed in place rather than deferred: the branch was inserted in
+the verse's own order. The quote, span and hash were untouched — only `conditions` and `note`
+changed — so no re-hashing was required.
+
+**Defect found and deliberately NOT corrected — `PD.10.Venus.VargaMarsSaturn` (v. 4).** Its
+first branch, `in_varga_sign(Venus,"D9","any")`, does not encode what the verse says. The
+verse conditions on Venus being in "the Varga of Mars or Saturn" — a varga *owned by* one of
+those grahas — and the leaf tests neither ownership nor any particular sign, while narrowing
+"Varga" to D9, a reading the verse never states. The prior note disclosed only that the quote
+crosses a page break, so the gap was undisclosed. Left unsigned and documented in full,
+following the `PD.01.Kalapurusha.Strength` precedent: choosing what "Varga" denotes here is an
+interpretive decision belonging to whoever encodes the varga doctrine with chapters 3 and 21
+in hand, not to a verification pass. Its two aspect branches were confirmed faithful.
+
+**Prior claim corrected — `"any"` is a literal, not a wildcard.** Milestone 16's note on
+`PD.01.Kalapurusha.Strength` justified its defect finding by saying the card's
+`lord_of_house(any,any)` leaf is "vacuously true — every house always has a lord". That is
+**wrong about the engine**, and the direction of the error matters. `VARIABLE_RE` is
+`^\?[a-z][a-z0-9_]*$`, so only `?`-prefixed arguments quantify; a literal is matched by exact
+string equality against the fact set, and `"any"` matches no fact at all. Verified empirically:
+against a fact set containing `lord_of_house(Jupiter,7)`, the condition `lord_of_house(?g,7)`
+is satisfied and `lord_of_house(any,7)` is not. The leaf is therefore vacuously **false**. The
+defect finding itself stands (the condition still does not represent its quote), but the
+consequence reverses: chapter 10's seven inert placeholder cards are **fail-safe by
+construction**, not latent over-fires — and, more usefully, each must have its condition
+*rewritten* when its dependency lands, never merely have `activation` flipped. Recorded in
+the affected cards' sign-offs and pinned by a test.
+
+**Prior claim corrected — `PD.10.Couple.BeneficAspect`'s anaphora.** "But should the above two
+houses be associated with or aspected by benefics..." names no houses; the card encodes the
+2nd and 7th and its note asserted that reading flatly. Reading the whole of v. 7 in the corpus
+shows the *nearest* preceding sentence names the 7th and 8th houses of the **wife's** nativity.
+The encoded reading is still the better one (the "But" contrasts with v. 7's opening 2nd-and-7th
+rule, and the effect is stated of "the couple", i.e. the native's own chart) and is unchanged,
+but the competing antecedent is now recorded in the note instead of being asserted away — per
+the standing rule never to resolve a source ambiguity silently. The alternative would place the
+card in a second nativity (`dep.second-nativity`), which is exactly why it matters.
+
+**New production blocker discovered — P0-2, the benefic classification gap.** Running an
+actual end-to-end consultation (per §13 of the session brief, "inspect the actual output")
+surfaced the engine's own honesty report saying: *"the encoded doctrine does not classify
+Jupiter, Venus; no nature fact is emitted for them and rules about benefics under-fire
+accordingly."* Investigated and confirmed as a genuine, severe, previously unrecorded blocker.
+See §K, P0-2 for the full analysis and the three candidate sources. Quantified: **22 active
+cards** (all executable, none inert) across chapters 6 and 10 condition on `benefic` and
+therefore under-fire on every chart. Demonstrated concretely: `PD.10.Benefics.In7` ("Benefics
+in the 7th house will produce good effects") **cannot fire for Jupiter in the 7th**, the most
+textbook instance of the rule it encodes.
+
+**Arithmetic defect found in this file — see §A.** The published production-readiness figure
+did not equal its own published inputs (claimed 39.55%, actually 48.30% from the same
+categories, weights and scores). Corrected, with an explicit warning that the resulting 40% →
+49% move is almost entirely the correction and not progress.
+
+**Tests:** +8 (233 → 241), all in `Engine/tests/test_counting_and_nature.py`: the missing
+inimical branch firing; each of the three other afflictions firing independently
+(parametrised); both halves of the verse's conjunction refusing to fire alone (two tests);
+the `"any"`-is-a-literal semantics; and a guard asserting that chapter 10's only unsigned card
+is the one documented holdout, so a future session cannot quietly leave a card unreviewed.
+`Reports/PHASE3_BACKLOG.md` and `Reports/PHASE3_PLAN.md` regenerated (card notes changed), and
+`Reports/VERIFICATION_QUEUE.md` regenerated — it now lists only the 2 holdouts.
+
+**Verification moved from 368/405 (91%) to 403/405 (99.5%). Blocker P1-1 is cleared.**
+
+**Why this milestone matters:** Closes the production blocker that has driven the last five
+milestones, and does it without rubber-stamping the last chapter — the batch found one real
+under-firing bug, one undisclosed condition gap, and two incorrect claims made by previous
+verification passes, including one about the engine's own semantics that had been reasoning in
+the wrong direction. It also demonstrates the limit of the verification queue as a quality
+instrument: every one of chapter 10's cards can be individually faithful to its verse while the
+consultation they collectively produce is still substantially wrong, because the *doctrine they
+depend on* is missing (P0-2). Card-level verification was necessary and is now finished; it was
+never sufficient.
+
+---
+
 ## D. CURRENT MILESTONE
 
-**Nothing is currently in progress.** Milestone 18 above is fully committed, tested,
+**Nothing is currently in progress.** Milestone 19 above is fully committed, tested,
 verified, and pushed.
 
-**Next approved action — resume the verification queue (§K, blocker P1-1):** chapter 10
-(37 cards) is the only chapter left in the queue. Read each interpretive card's
-condition/effect against its quoted verse (and the rendered PDF for anything an existing
-note flags as extraction-ambiguous, or for any claim of an independent prior PDF check worth
-spot-verifying, per Milestone 17's practice), recording a real sign-off in the established
-style, or documenting/correcting a defect per the category it falls into (§7 of the audit
-brief) if one is found. Regenerate the queue with `python Rules/tools/review.py --queue`
-after each batch. Completing chapter 10 closes out the interpretive queue entirely except
-for the one deliberate `PD.01.Kalapurusha.Strength` holdout.
+**Next approved action — decide P0-2 (§K), the benefic classification gap.** This is a
+**human judgement call and is why this session stopped here**, per the session brief's own
+instruction to stop rather than invent an answer to a source ambiguity. Jupiter and Venus
+receive no `nature` fact on any chart, and 22 active cards under-fire as a result. The engine
+may not simply be told they are benefic — §I forbids hardcoding a classification the corpus
+itself states, and the corpus states it three different ways, each with a real cost:
 
-**Alternative — resume ordinary Phase 3 extraction (§7/§8):**
-- Phaladeepika ch.6 vv.39-41 (Vallaki/Dharma/Hasha/Kendra/Shula/Yuga/Gola) — **blocked**,
-  needs a new "distinct signs occupied by the 7 classical grahas" engine fact.
-- Phaladeepika ch.6 vv.42-43 (Adhiyoga) — **ready now**, already scoped
-  (`passage:phaladeepika.06.p175`).
+1. **Phaladeepika ch. 4 (Kala Bala), char ~64650:** *"The Moon, Mercury, Jupiter and Venus are
+   benefics."* Names both missing grahas outright, in the same book already encoded. But it is
+   scoped to a strength computation, and the sentences immediately after it explicitly scope
+   Mercury's treatment to that computation (*"for determining kala Bala Mercury should be
+   treated as a benefic. We support this view"*), in open disagreement with ch. 2 v. 27.
+   Encoded unscoped it would also make the Moon unconditionally benefic, colliding with ch. 2's
+   waxing/waning rule and raising `DoctrineError` on real charts.
+2. **Phaladeepika ch. 8 Notes:** *"Jupiter is the greatest natural benefic amongst all the
+   planets"* and *"Venus is the benefic No. 2."* General and unscoped, and they name exactly
+   the two grahas that are missing — but both are the translator's commentary, and this project
+   has consistently recorded such Notes as tier-2/3 apparatus rather than doctrine (Milestone
+   11 did precisely this with the translator's benefic/malefic preference). Promoting apparatus
+   to doctrine is a precedent change that should be made deliberately, not incidentally.
+3. **Brihat Jataka, char ~50134:** *"Sun, Mars, Saturn and the Moon (within less than 72
+   degrees distance from Sun) are treated as natural malefics. Moon other than of the nature
+   referred to above, Mercury, Jupiter and Venus are natural benefics."* The cleanest statement
+   of the three — verse-level, general, unscoped, and directly parallel to Phaladeepika ch. 2
+   v. 27. It would also clear blocker **P1-2** (Brihat Jataka has zero cards) and produce the
+   project's **first real cross-book corroboration** (both books make Sun/Mars/Saturn malefic
+   and both make Mercury conditional on its company). But it introduces the project's first
+   genuine cross-book *contradiction*: the two books define the Moon's nature by different
+   criteria — Phaladeepika by waxing/waning, Brihat Jataka by distance from the Sun — which
+   disagree on real charts (a Moon 60° from the Sun is waxing, so benefic to Phaladeepika, and
+   within 72°, so malefic to Brihat Jataka). `_resolve_nature`'s `settle()` refuses such a
+   conflict by design, raising `DoctrineError` rather than picking an authority. So option 3
+   depends on **P1-3 (Stage 7 adjudication)** existing first.
 
-**Blockers:** none preventing Adhiyoga or the next verification batch.
-**Dependencies:** none new required.
+**This is the moment P1-3 stops being speculative.** §K P1-3 has been deferred on the grounds
+that only one card needed adjudication, so building a general mechanism would be architecture
+ahead of need. That reasoning no longer holds: adjudication is now the gate on a P0 blocker
+affecting 22 active cards, with a specific, reproducible, two-book contradiction to design
+against instead of a hypothetical one. Recommended sequence once the decision is made: option 3
+→ Stage 7 adjudication scoped to exactly this conflict → then reassess.
+
+**Do not** resume ordinary chapter encoding before P0-2 is decided. Every new chapter encoded
+against `benefic` conditions inherits the same silent under-firing.
+
+**Alternative (unblocked, if P0-2 is deliberately deferred):**
+- Phaladeepika ch. 6 vv. 42-43 (Adhiyoga) — ready now, scoped
+  (`passage:phaladeepika.06.p175`). Note it is a benefic-conditioned yoga, so it would be
+  born into P0-2's under-firing.
+- Phaladeepika ch. 6 vv. 39-41 — still blocked, needs a distinct-sign-count fact.
+
+**Blockers:** P0-2 blocks meaningful consultation quality; it does not block encoding.
+**Dependencies:** none new required to *decide* P0-2; option 3 requires P1-3.
 **Last commit:** this milestone's own commit (see git log for the SHA).
 **Working tree:** clean, in sync with `origin/main`.
 
@@ -734,7 +900,7 @@ count:
 | Hemmed-between (papakartari/subhakartari) extractor | Not implemented | `dep.hemmed-between`; no chapter dependency yet identified, low priority. |
 | Stage 7 adjudication (weighting, priority, cancellation) | Not implemented | `dep.adjudication`; the largest single open architectural item — Phase 4 in `Phases.txt` has not started. |
 | Distinct-sign-count fact (how many signs the 7 classical grahas occupy) | Not implemented | Newly identified this session, blocks ch.6 vv.39-41 specifically; small and well-scoped, not yet built. |
-| Native-sex-scoped rule handling | Implemented as a schema (`dep.native-sex`) but the birth record does not carry sex, so all sex-scoped cards stay inert regardless | Birth-record schema does not yet capture sex; ch.11 (Female Horoscopy) is entirely blocked on this. |
+| Native-sex-scoped rule handling | **Implemented (row corrected in Milestone 19).** The previous text here claimed "the birth record does not carry sex, so all sex-scoped cards stay inert regardless" — that is stale and was wrong at the time of writing. `BirthRecord` carries `sex` (`Engine/chart.py:58`), `Engine/cli.py` exposes `--sex`, and `Engine/activate.py` 93-97 enforces `scope.sex`, refusing a card whose stated sex does not match the record (including when the record says `unknown`, which is the correct outcome rather than a guess). | Sex-scoped cards such as `PD.10.Female.MoonSaturn7Remarriage` / `PD.10.Male.MoonSaturn7` are `active` and fire correctly when `--sex` is supplied. ch.11 (Female Horoscopy) is **not** blocked on this and is listed as newly unblocked by `backlog.py`. |
 
 ---
 
@@ -1004,6 +1170,8 @@ cleared, newly identified, or re-scoped.
 
 ### P0 — must be solved before production
 
+*Ordered by position on the critical path: **P0-2 is the top item**, discovered in Milestone 19 and degrading every consultation today, while P0-1 gates whole future chapters. P0-1 is listed first only because it is the older entry.*
+
 **P0-1 — `dep.strength` (Stage 4: Shadbala/Bhavabala) does not exist.**
 - **Why it matters:** Classical doctrine conditions on planetary/house strength throughout
   the corpus; without it, ch. 4 itself and large fractions of many other chapters (ch.19 at
@@ -1020,36 +1188,79 @@ cleared, newly identified, or re-scoped.
   single largest "born inert" tax on every future chapter per §J.5.
 - **Status:** Deferred to next Phase-3-resuming session; not started this session (§J.5).
 
+**P0-2 — The benefic classification gap: Jupiter and Venus have no `nature` fact at all.**
+- **Why it matters:** This is the most consequential defect found in the project so far,
+  because it degrades *every* consultation silently rather than failing loudly. The two
+  principal natural benefics of the entire tradition are unclassified by the encoded doctrine,
+  so `nature(Jupiter,benefic)` and `nature(Venus,benefic)` are never emitted, and every rule
+  conditioning on a benefic under-fires. It is not an engine bug — `Engine/facts.py`
+  `_resolve_nature` is correct and even reports the gap honestly in the consultation's own
+  "Doctrine read, but not complete" section — it is a doctrine-coverage gap.
+- **Quantified:** **22 active cards** (all executable, none inert) condition on `benefic`:
+  the twelve house-wise yogas of ch. 6 (`Chamara`, `Dhenu`, `Shaurya`, `Jaladhi`, `Chhattra`,
+  `Astra.H06`, `Astra.H08`, `Kama`, `Bhagya`, `Khyati`, `Parijata`, `Musala`), `PD.06.Amala`,
+  the Subha- cluster (`Subhavesi`, `Subhavasi`, `Subhobhayachari`, `Subhakartari`, `Susubha`),
+  and 4 of chapter 10 (`Houses5And7.Flourish`, `Benefics.In7`, `Couple.BeneficAspect`,
+  `WifeChildren.Lords2712`). Anything conditioning on `nature_occupancy(house, "benefic")` is
+  affected the same way.
+- **Demonstrated, not inferred:** `PD.10.Benefics.In7` encodes "Benefics in the 7th house will
+  produce good effects unless they happen to be lords of the 6th, 8th or 12th house". Given a
+  chart with Jupiter in the 7th — the most textbook instance of that rule — the card does not
+  fire. Supplying the single missing fact `nature(Jupiter,benefic)` makes it fire immediately.
+- **Root cause:** The only two `graha_nature` reference cards are `PD.02.Nature.Malefics`
+  (ch. 2 v. 27) and `PD.02.Nature.Benefics` (that verse's Notes). Read together they name the
+  malefics exhaustively (Sun, Mars, Saturn, Rahu, Ketu, plus the waning Moon and Mercury when
+  associated with them) but name only the waxing Moon and unassociated Mercury as benefic.
+  Jupiter and Venus are simply never mentioned in that passage — the book treats them as
+  benefic by default, and "not on the malefic list, therefore benefic" is an inference the
+  engine is forbidden to make on its own (§I: the corpus is the sole authority for a
+  classification the corpus states).
+- **Dependency:** A human decision between three real sources, each with a real cost — see §D
+  for the full statement of all three with corpus offsets. Briefly: Phaladeepika ch. 4's
+  benefic list is scoped to Kala Bala and collides with ch. 2 on both Mercury and the Moon;
+  Phaladeepika ch. 8's two statements are general but are translator's apparatus, not verse;
+  Brihat Jataka's is the cleanest and most general but starts a second book and introduces the
+  project's first genuine cross-book contradiction (the two books define the Moon's nature by
+  incompatible criteria), which `settle()` refuses to adjudicate by design.
+- **Exact work required:** (1) decide which source governs; (2) if Brihat Jataka, build Stage 7
+  adjudication (P1-3) first, because the Moon conflict raises `DoctrineError` on real charts;
+  (3) encode the chosen passage as a `graha_nature` reference card with the existing toolchain;
+  (4) re-run a consultation and confirm the 22 cards now fire where they should.
+- **What it unlocks:** correct firing of 22 active cards today and every benefic-conditioned
+  card encoded hereafter; materially better consultations; and, via option 3, blockers P1-2 and
+  the first cross-book corroboration the project has ever been able to attempt.
+- **Status:** **OPEN, and it is the top of the critical path.** Discovered in Milestone 19; not
+  actioned, deliberately, because choosing among the three sources is a judgement call with
+  lasting consequences and the session brief's §14/§18 forbid inventing an answer to exactly
+  this kind of ambiguity. Do not resolve it by hardcoding the conventional classification.
+
 ### P1 — required for the intended MVP/production scope
 
-**P1-1 — Human(+Claude) verification queue: 37 interpretive cards still unsigned.**
-- **Why it matters:** Byte-exact quote verification proves the words are real; it does not
-  prove the card reads them correctly. This is the one component of "provenance" the store
-  cannot yet claim in full.
-- **Current state:** Workflow built (Milestone 15) and now proven across four batches
-  (Milestone 15: ch. 9; Milestone 16: ch. 1-2; Milestone 17: ch. 6; Milestone 18: ch. 8).
-  368/405 signed (91%), was 4/404. One card (`PD.01.Kalapurusha.Strength`) remains
-  deliberately left unsigned — a real condition defect blocked on missing capabilities
-  (`dep.strength`, `dep.condition-variables`). One card (`PD.08.Saturn.01`) was found
-  defective and *corrected*, not just documented, and split into two (Milestone 18) — the
-  first verification-pass defect not blocked on a missing capability. Two of chapter 6's
-  prior PDF-page-render claims were independently re-checked and confirmed exact
-  (Milestone 17). Queue lives in `Reports/VERIFICATION_QUEUE.md`, regenerated by
-  `python Rules/tools/review.py --queue`.
-- **Dependency:** None — the tool and methodology are complete; this is now a bounded
-  reading-and-recording task, chapter by chapter.
-- **Exact work required:** Work through the queue (ch. 10 only, 37 cards), recording real
-  sign-offs in the established style, re-running `review.py --queue` after each batch. Do
-  not accept a card's own note about extraction ambiguity or a prior PDF-render claim at
-  face value where it can be re-rendered and checked directly — Milestone 16 found one false
-  claim this way; Milestone 17 found two true ones. Do not assume a uniform-looking template
-  (like chapter 8's graha-in-house cards) is risk-free without checking every card against
-  its own quote — Milestone 18 found one card that broke the template's pattern precisely
-  because it wasn't skimmed.
-- **What it unlocks:** Provenance/auditability category score continues to rise (§A);
-  eventually clears this production gate in full.
-- **Status:** In progress — 193/230 interpretive cards done (ch. 1, 2, 6, 8, 9 complete
-  except one deferred defect); ch. 10 remains.
+**P1-1 — Human(+Claude) verification queue. CLEARED (Milestone 19).**
+- **Why it mattered:** Byte-exact quote verification proves the words are real; it does not
+  prove the card reads them correctly. This was the one component of "provenance" the store
+  could not claim in full.
+- **Final state:** **403/405 cards signed (99.5%)**, from 4/404 (1%) when the workflow was
+  built. 175 structural cards signed automatically; 228 interpretive cards signed by an actual
+  human(+Claude) reading pass across chapters 1, 2, 6, 8, 9 and 10, over five batches
+  (Milestones 15-19). The interpretive queue is empty apart from two deliberate holdouts, both
+  real documented condition defects blocked on capabilities that do not exist:
+  `PD.01.Kalapurusha.Strength` (needs `dep.strength` + `dep.condition-variables`) and
+  `PD.10.Venus.VargaMarsSaturn` (needs the varga doctrine decided). A test
+  (`test_chapter_ten_interpretive_cards_are_signed_off_except_the_one_holdout`) pins the second
+  so a future session cannot quietly leave a card unreviewed.
+- **What the pass actually found**, across the five batches: 3 genuine condition defects (1
+  corrected in ch. 8, 1 corrected in ch. 10, 2 held open with documentation), 4 stale or wrong
+  metadata claims corrected, 3 prior sessions' claims re-checked against the primary source (1
+  found false, 2 confirmed exact), and 1 incorrect claim about the engine's own semantics
+  corrected. It was not a rubber stamp.
+- **Standing lesson — card-level verification is necessary but not sufficient.** Every chapter
+  10 card can be individually faithful to its verse while the consultation they collectively
+  produce is still substantially wrong, because the doctrine they *depend on* is missing. That
+  is exactly what P0-2 below turned out to be, and it was invisible to 5 milestones of
+  card-by-card review; it took running an actual consultation and reading the output to see it.
+- **Status:** **CLEARED.** Do not re-open. Re-run `python Rules/tools/review.py --queue` after
+  encoding any new chapter — new interpretive cards will queue themselves.
 
 **P1-2 — Only one book (Phaladeepika) has rule cards; Brihat Jataka has zero.**
 - **Why it matters:** Multi-book corroboration is a stated project goal (`Phases.txt` Phase
@@ -1070,14 +1281,29 @@ cleared, newly identified, or re-scoped.
   never weighed against itself — `Phases.txt` Phase 4 is otherwise entirely unbuilt.
 - **Current state:** Only `dep.rule-transfer` and `dep.dignity-override` exist as narrow
   primitives; `dep.adjudication` unlocks only 1 card solo today.
-- **Dependency:** None blocking design work, but building the *general* mechanism now, when
-  only 1 card needs it, risks exactly the speculative-architecture-ahead-of-need §I warns
-  against.
-- **Exact work required:** Wait until more contradictory cards accumulate (ch. 6's
-  Mantreswara-vs-Parashara dusthana-lord dispute at `passage:phaladeepika.06.p202` will add
-  several), then design Stage 7 against real, multiple examples rather than one.
-- **What it unlocks:** Phase 4 entirely; contradiction-explaining narrative in Phase 5.
-- **Status:** Deliberately not started — correctly deferred per §I, not neglected.
+- **Dependency (re-scoped in Milestone 19):** the previous entry here deferred this on the
+  grounds that "only 1 card needs it, [so building it] risks exactly the
+  speculative-architecture-ahead-of-need §I warns against." **That reasoning no longer holds.**
+  P0-2 — a P0 blocker degrading 22 active cards on every chart — has a candidate fix (adopting
+  Brihat Jataka's natural-benefic classification, which is the cleanest of the three available
+  sources and would also clear P1-2) that **cannot be taken without adjudication**, because the
+  two books define the Moon's nature by incompatible criteria (Phaladeepika: waxing/waning;
+  Brihat Jataka: within/beyond 72° of the Sun) and `_resolve_nature`'s `settle()` raises
+  `DoctrineError` rather than choosing an authority. Adjudication is now a gate on production
+  quality, not a speculative nicety.
+- **Exact work required:** design Stage 7 against the concrete, reproducible conflict P0-2
+  supplies — one graha, two books, two stated criteria that genuinely disagree on real charts —
+  rather than against a hypothetical. The smallest defensible version does not need weighting or
+  numeric confidence: it needs to represent that two authorities classify the same graha
+  differently, surface both with their sources, and mark the conflict unresolved where no
+  documented priority rule exists. Additional real examples will arrive with ch. 6's
+  Mantreswara-vs-Parashara dusthana-lord dispute (`passage:phaladeepika.06.p202`), which should
+  be encoded alongside if possible so the design is tested against two independent conflicts.
+- **What it unlocks:** P0-2's best fix; P1-2 (Brihat Jataka's first cards); Phase 4 entirely;
+  contradiction-explaining narrative in Phase 5.
+- **Status:** Not started, but **no longer correctly deferred** — it is now on the critical path
+  behind P0-2's decision. Do not build a general weighting/confidence system; build exactly the
+  mechanism the Moon conflict requires and no more (§I).
 
 ### P2 — important, can follow initial production release
 
@@ -1122,16 +1348,40 @@ chapters.**
 
 ## DO NOT FORGET
 
+- **P0-2 IS THE TOP OF THE CRITICAL PATH: Jupiter and Venus have no `nature` fact.** 22
+  active cards under-fire on every chart because of it. Do **not** fix this by telling the
+  engine they are benefic — that is precisely the hardcoding §I forbids. Three real corpus
+  sources exist and choosing between them is a human decision; §D lays out all three with
+  offsets. Read §K P0-2 before doing anything else.
+- **Card-level verification is necessary but not sufficient.** Five milestones of card-by-card
+  review (368 → 403 cards signed) never once surfaced P0-2, because every individual card was
+  faithful to its own verse; the gap was in the doctrine they all depend on. It took running
+  an actual consultation and reading the engine's own "Doctrine read, but not complete"
+  report. **Run a real consultation and read the output as part of every milestone**, not just
+  the test suite.
+- **`"any"` in a condition is a LITERAL, not a wildcard.** `VARIABLE_RE` is
+  `^\?[a-z][a-z0-9_]*$`, so only `?`-prefixed arguments quantify. `lord_of_house(any,7)`
+  matches no fact and is vacuously **false**. This means every inert placeholder card is
+  fail-safe, and — importantly — that such a card must have its condition **rewritten** when
+  its dependency lands, never merely have `activation` flipped to active. Milestone 16's note
+  claimed the opposite ("vacuously true"); it was corrected in Milestone 19 and is pinned by a
+  test.
+- **The verification queue is CLOSED (Milestone 19)** — 403/405, with exactly two deliberate,
+  documented holdouts (`PD.01.Kalapurusha.Strength`, `PD.10.Venus.VargaMarsSaturn`). Do not
+  re-open it or re-derive whether verification can be systematic; that is settled. Just re-run
+  `python Rules/tools/review.py --queue` after encoding a new chapter.
+- **§A's headline percentage was miscomputed for four milestones** (claimed 39.55%, its own
+  inputs give 48.30%). Corrected in Milestone 19. **Recompute the sum from the table, never
+  by adding a delta to the previous headline** — that is exactly how the error propagated.
 - **A verification workflow now exists — use it, don't repeat the audit.**
   `Rules/tools/review.py` classifies every card as structural (auto-signed) or interpretive
   (queued in `Reports/VERIFICATION_QUEUE.md`). Resume the queue chapter by chapter rather
   than re-deriving whether verification "can be done systematically" — that question is
   answered (§J.4, §K P1-1).
-- **37 interpretive cards remain unsigned** (all of chapter 10). Chapters 1, 2, 6, 8, 9 are
-  complete except the one deliberate `PD.01.Kalapurusha.Strength` holdout — read each card's
-  `conditions`/`predicts` against its quoted verse; do not blanket-approve a whole file at
-  once, even a uniform-looking one — `PD.08.Saturn.01` broke chapter 8's uniform template
-  and was only caught by reading every card individually (Milestone 18).
+- **Never blanket-approve a file of cards, even a uniform-looking one.** `PD.08.Saturn.01`
+  broke chapter 8's uniform template and was caught only by reading every card individually
+  (Milestone 18); `PD.10.WifeLoss.Lord7Afflicted` was missing a disjunct its own sibling card
+  carried, and was caught only by comparing the two against the same doctrine (Milestone 19).
 - **`Phases.txt` marks Phase 1 complete with a ✅ — this is wrong.** Only 2 of 6 planned
   books are converted (Brihat Jataka, Phaladeepika); 4 are pending behind a deliberate
   freeze. Do not treat Phase 1 as finished when reasoning about project state.
@@ -1154,9 +1404,9 @@ chapters.**
   decision requiring real design (`dep.second-nativity`).
 - **Cross-book corroboration (Phase 4 goal) cannot be evaluated yet** — only one book has
   cards in the store.
-- **Human verification is nearly complete** — 368/405 cards (91%) have `verified_by` set;
-  37 remain queued (ch. 10) plus one deliberate holdout. This was a real production blocker
-  as recently as Milestone 14 (4/404); see §K P1-1 for the live count, not this line.
+- **Human verification is complete** — 403/405 cards (99.5%) have `verified_by` set; the 2
+  that do not are documented defect holdouts, not unreviewed cards. This was a real production
+  blocker as recently as Milestone 14 (4/404). See §K P1-1, now marked CLEARED.
 - **Never merge contradictory authorities into one card** — this project's core value is
   preserving disagreement (rising-sign dispute, nodal-exaltation 3-way dispute, dignity
   dispute, natural-friendship table anomalies, ch.19's dasa-balance dispute still

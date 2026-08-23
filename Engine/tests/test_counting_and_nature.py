@@ -1226,3 +1226,95 @@ def test_shankha_fires_end_to_end_on_a_real_chart(provider):
     shankha_claim = next(c for c in claims if c.derived["rule_card"] == "PD.06.Shankha")
     assert shankha_claim.derived["variables"]["?g1"] == "Venus"
     assert shankha_claim.derived["variables"]["?g2"] == "Venus"
+
+
+# --- Milestone 19: chapter 10 verification pass ------------------------------
+#
+# Phaladeepika 10 v.15 states four ways the lord of the 7th may be afflicted:
+# "posited in his sign of debilitation, be in an inimical sign, be combust or be
+# aspected by a malefic". The encoded condition carried only three of them --
+# "be in an inimical sign" was missing -- so the card under-fired on a chart the
+# verse plainly covers. These tests pin all four alternatives, and pin that the
+# verse's second, conjoined requirement is still required.
+
+def test_seventh_lord_in_an_inimical_sign_fires_the_loss_of_wife_card():
+    """The alternative that was missing. dignity(?l,"inimical") is derivable via
+    dep.dignity-friendship and is used by the sibling card from the same
+    doctrine, so its absence here was an omission, not a capability gap."""
+    cards = load_cards(RULES)
+    card = next(c for c in cards if c.id == "PD.10.WifeLoss.Lord7Afflicted")
+    fs = facts(
+        ("lord_of_house", {"graha": "Jupiter", "house": 7}),
+        ("dignity", {"graha": "Jupiter", "dignity": "inimical"}),
+        ("nature_occupancy", {"house": 7, "nature": "malefic"}),
+    )
+    assert evaluate(card.conditions, fs).satisfied
+
+
+@pytest.mark.parametrize("affliction", [
+    ("dignity", {"graha": "Jupiter", "dignity": "debilitated"}),
+    ("dignity", {"graha": "Jupiter", "dignity": "inimical"}),
+    ("combust", {"graha": "Jupiter"}),
+])
+def test_each_affliction_of_the_seventh_lord_fires_independently(affliction):
+    """The verse's list is a disjunction: any one affliction suffices, provided
+    the 7th house is itself afflicted."""
+    cards = load_cards(RULES)
+    card = next(c for c in cards if c.id == "PD.10.WifeLoss.Lord7Afflicted")
+    fs = facts(
+        ("lord_of_house", {"graha": "Jupiter", "house": 7}),
+        affliction,
+        ("nature_occupancy", {"house": 7, "nature": "malefic"}),
+    )
+    assert evaluate(card.conditions, fs).satisfied
+
+
+def test_afflicted_seventh_lord_alone_does_not_fire_without_an_afflicted_seventh():
+    """"...and the 7th house be occupied or aspected by a malefic" is conjoined,
+    not another alternative. An inimical 7th lord on its own must stay silent."""
+    cards = load_cards(RULES)
+    card = next(c for c in cards if c.id == "PD.10.WifeLoss.Lord7Afflicted")
+    fs = facts(
+        ("lord_of_house", {"graha": "Jupiter", "house": 7}),
+        ("dignity", {"graha": "Jupiter", "dignity": "inimical"}),
+    )
+    assert not evaluate(card.conditions, fs).satisfied
+
+
+def test_unafflicted_seventh_lord_does_not_fire_on_an_afflicted_seventh_alone():
+    """The other half of the conjunction: a malefic in the 7th proves nothing
+    unless the 7th lord is itself afflicted one of the four stated ways."""
+    cards = load_cards(RULES)
+    card = next(c for c in cards if c.id == "PD.10.WifeLoss.Lord7Afflicted")
+    fs = facts(
+        ("lord_of_house", {"graha": "Jupiter", "house": 7}),
+        ("nature_occupancy", {"house": 7, "nature": "malefic"}),
+    )
+    assert not evaluate(card.conditions, fs).satisfied
+
+
+def test_any_is_a_literal_not_a_wildcard_so_stub_conditions_are_fail_safe():
+    """Chapter 10 holds seven inert placeholder cards whose conditions are stubs
+    like `lord_of_house(any, 7)`, kept until dep.strength / dep.varga / dep.dasa
+    exist. Milestone 16's note on PD.01.Kalapurusha.Strength claimed such a leaf
+    is "vacuously true ... every house always has a lord"; it is not. Only
+    ?-prefixed arguments quantify, so "any" is matched by string equality and
+    matches no fact. The leaf is vacuously FALSE, which makes every stub card
+    fail-safe rather than a latent over-fire -- and means these cards must have
+    their conditions rewritten when their dependency lands, not merely have
+    `activation` flipped."""
+    fs = facts(("lord_of_house", {"graha": "Jupiter", "house": 7}))
+    assert evaluate({"all": [{"lord_of_house": {"graha": "?g", "house": 7}}]}, fs).satisfied
+    assert not evaluate({"all": [{"lord_of_house": {"graha": "any", "house": 7}}]}, fs).satisfied
+
+
+def test_chapter_ten_interpretive_cards_are_signed_off_except_the_one_holdout():
+    """The chapter 10 verification batch. PD.10.Venus.VargaMarsSaturn is
+    deliberately left unsigned: its varga branch does not encode "the Varga of
+    Mars or Saturn" and repairing it requires deciding what "Varga" denotes,
+    which belongs to whoever encodes the varga doctrine, not to a review pass."""
+    import json
+    doc = json.loads((RULES / "phaladeepika" / "ch10.json").read_text(encoding="utf-8"))
+    unsigned = [c["id"] for c in doc["cards"]
+                if not (c.get("extraction") or {}).get("verified_by")]
+    assert unsigned == ["PD.10.Venus.VargaMarsSaturn"]

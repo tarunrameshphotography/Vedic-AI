@@ -159,8 +159,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.1: the four supports per house -- benefic occupant, full benefic aspect, the house's own lord occupying it, its own lord aspecting it -- are a faithful distribution of \"associated with or aspected by benefics or their lords\" over both named houses; the conjunction of the 5th and 7th matches \"the 5th and 7th houses ... they\", and under-fires rather than over-fires. The verse's negative half (\"if it is not so, they will not be fruitful\") is not encoded as a second claim -- one card, one effect, per the store's convention -- and is a Phase 3 opportunity, not a fidelity defect)",
+        "verified_date": "2026-08-23"
       },
       "activation": "active",
       "note": "\"Associated with or aspected by benefics or their lords\" is read as four sufficient supports per house: a benefic occupant, a full benefic aspect, the house's own lord occupying it, or its own lord aspecting it. The lagna frame only is encoded; dep.moon-frame is no longer listed because the alternative frame is recorded as an exclusion rather than a blocker -- the card is sound in the frame it does use.",
@@ -267,8 +267,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.1's second paragraph: the verse gives four alternatives and the `any` carries the three that are expressible -- malefic occupancy of the 12th, 4th and 8th conjoined as printed, Venus conjunct a malefic, Venus aspected by a malefic -- each binding the afflicting graha by variable. The fourth (Venus hemmed between two malefics) is omitted rather than faked; dep.hemmed-between has no extractor, and omitting a disjunct can only under-fire)",
+        "verified_date": "2026-08-23"
       },
       "activation": "active",
       "note": "Four alternative conditions in the verse, three of them now expressible. \"Malefics in the 12th, 4th and 8th houses\" was previously called inexpressible and is not: dep.nature-occupancy states it directly, and the three houses are conjoined as printed. Association is same-sign conjunction and aspect is full drishti, each with the malefic named by a bound variable so the claim says which graha afflicts Venus.",
@@ -332,8 +332,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.2 sentence 1: lord_of_house(?g,7) and in_house(?g,5) bind the same graha, which is exactly what \"the lord of the 7th house occupies the 5th\" says; predicts.effect carries the verse's own disjunction \"lose his wife or he will become sonless\" without resolving it)",
+        "verified_date": "2026-08-23"
       },
       "note": "The variable binds the same graha across both leaves, which is the whole content of the rule: not any lord and any placement, but the lord of the 7th in the 5th.",
       "exclusions": []
@@ -407,8 +407,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.2 sentence 2: the two lordships are bound separately (?g, ?h) under an `any`, matching \"the lord of the 5th OR the 8th be in the 7th\"; a single shared variable would have wrongly demanded one graha rule both houses)",
+        "verified_date": "2026-08-23"
       },
       "note": "Two independent lordships, each bound separately.",
       "exclusions": []
@@ -456,8 +456,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.2 sentence 3: the encoded in_house(Moon,5) leaf is exact, and the note correctly states that \"weak\" and the malefic occupancy of the Ascendant/7th/12th are not expressible, so the card is held inert rather than firing on the placement alone. Additionally confirmed this session that the card is fail-safe by construction, not merely by its inert flag: verified empirically that a literal argument is matched by exact string equality against the fact set (VARIABLE_RE = ^\\?[a-z][a-z0-9_]*$), so a partial stub condition can only ever fail to match, never match vacuously)",
+        "verified_date": "2026-08-23"
       },
       "activation": "inert",
       "note": "The Moon-in-5th leaf is exact; 'weak' and the malefic occupancy of three houses are not expressible, so the card must not fire on the placement alone.",
@@ -517,8 +517,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.2 sentence 4: in_house(Sun,7) and in_house(Rahu,7) match \"the Sun and Rahu occupy the 7th house\" literally; predicts.domain \"wealth\" matches the verse's stated effect (\"loss of wealth through association with women\") rather than being filed under marriage by the chapter's subject)",
+        "verified_date": "2026-08-23"
       },
       "exclusions": []
     },
@@ -585,8 +585,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.3(a): two-span card joining the governing sentence \"The native loses his wife if there are any of the following disposition of planets present at brith\" to item (a); condition in_sign(Venus,Scorpio) + in_house(Venus,7) matches the item exactly, and the graha and sign were also cross-checked programmatically against the card's own quote)",
+        "verified_date": "2026-08-23"
       },
       "note": "Quotes two spans: the governing sentence that states the effect, and the disposition it governs. They are printed as separate paragraphs, so neither says the whole rule alone.",
       "exclusions": []
@@ -654,8 +654,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.3(b): same two-span construction; in_sign(Mercury,Taurus) + in_house(Mercury,7) matches item (b) exactly, graha and sign cross-checked programmatically against the card's own quote)",
+        "verified_date": "2026-08-23"
       },
       "note": "Quotes two spans: the governing sentence that states the effect, and the disposition it governs. They are printed as separate paragraphs, so neither says the whole rule alone.",
       "exclusions": []
@@ -723,8 +723,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.3(c): same two-span construction; in_sign(Jupiter,Capricorn) + in_house(Jupiter,7) matches item (c) exactly, graha and sign cross-checked programmatically against the card's own quote)",
+        "verified_date": "2026-08-23"
       },
       "note": "Quotes two spans: the governing sentence that states the effect, and the disposition it governs. They are printed as separate paragraphs, so neither says the whole rule alone.",
       "exclusions": []
@@ -792,8 +792,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.3(d): same two-span construction; in_sign(Saturn,Pisces) + in_house(Saturn,7) matches item (d) exactly, graha and sign cross-checked programmatically against the card's own quote)",
+        "verified_date": "2026-08-23"
       },
       "note": "Quotes two spans: the governing sentence that states the effect, and the disposition it governs. They are printed as separate paragraphs, so neither says the whole rule alone.",
       "exclusions": []
@@ -861,8 +861,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.3(e): same two-span construction; in_sign(Mars,Pisces) + in_house(Mars,7) matches item (e) exactly, graha and sign cross-checked programmatically against the card's own quote. Noted that the five dispositions of v.3 are not a single classical dignity pattern -- they are encoded as the book prints them, not normalised to one)",
+        "verified_date": "2026-08-23"
       },
       "note": "Quotes two spans: the governing sentence that states the effect, and the disposition it governs. They are printed as separate paragraphs, so neither says the whole rule alone.",
       "exclusions": []
@@ -928,8 +928,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.3's closing sentence: \"Mars and Saturn occupy the 7th house identical with Cancer\" is encoded as both grahas in house 7 and both in Cancer, which is what a 7th house identical with Cancer means; the reversal of the surrounding loss-of-wife doctrine (\"However...\") is preserved as its own card rather than folded into the items above)",
+        "verified_date": "2026-08-23"
       },
       "exclusions": []
     },
@@ -1070,8 +1070,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.4's second paragraph: conjunct(Venus,?m) + nature(?m,malefic) + Venus in the 7th, 5th or 9th matches \"Venus in conjunction with malefic occupies the 7th, 5th or 9th house\"; the malefic is bound by variable so the trace names which graha, and the three houses are a disjunction as printed)",
+        "verified_date": "2026-08-23"
       },
       "activation": "active",
       "note": "The malefic is now named by a variable bound to a graha the chart actually places with Venus, so the claim says which one. Conjunction is same-sign, an engine choice recorded on the fact.",
@@ -1141,7 +1141,7 @@
         "verified_date": null
       },
       "activation": "inert",
-      "note": "The quote runs across a printed page break; the page anchor sits inside the span, as it does in the corpus.",
+      "note": "The quote runs across a printed page break; the page anchor sits inside the span, as it does in the corpus. VERIFICATION DEFECT (Milestone 19, left unsigned): the first branch, in_varga_sign(Venus,\"D9\",\"any\"), does not encode what the verse says. The verse conditions on Venus being in \"the Varga of Mars or Saturn\" -- a varga *owned by* one of those two grahas -- and the leaf tests neither ownership nor any particular sign, while narrowing \"Varga\" to D9, a reading the verse does not state. It is currently harmless twice over (the card is inert, and \"any\" is a literal argument that matches no fact, so the branch fails rather than firing), but it must not be repaired by simply implementing dep.varga and flipping `activation`. Not corrected here: choosing what \"Varga\" denotes in this verse -- D9 specifically, any divisional chart, or the signs Mars and Saturn own -- is an interpretive decision belonging to whoever encodes the varga doctrine with chapter 3 and 21 in hand, not to a verification pass. The two aspect branches (Mars/Saturn aspecting Venus) are faithful and were confirmed.",
       "exclusions": [],
       "requires": [
         "dep.varga",
@@ -1213,8 +1213,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.5 sentence 1 in the graha frame the verse actually uses; the note's disclosure is accurate -- \"the 7th from the Venus and Moon\" is genuinely ambiguous, and the encoded reading (both malefics in the 7th from both reference bodies) is the intersection every reading agrees on, so it under-fires and cannot over-fire)",
+        "verified_date": "2026-08-23"
       },
       "activation": "active",
       "note": "Now in the frame the verse actually uses. \"The 7th from the Venus and Moon\" is genuinely ambiguous -- it may mean the 7th from each separately, or Mars from one and Saturn from the other. The reading encoded is the one every interpretation agrees on: both malefics in the 7th from both reference bodies. It under-fires and never over-fires.",
@@ -1280,8 +1280,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.5 sentence 2: the \"hermaphrodite\"->`eunuch` mapping was checked against the reference card that supplies the class, PD.02.GrahaSex (\"Mercury, Ketu and Saturn are eunuchs\"), confirming the engine reads the classification from the corpus rather than hardcoding it; occupant_count(11,2) is the literal count printed)",
+        "verified_date": "2026-08-23"
       },
       "activation": "active",
       "note": "\"Hermaphrodite\" is read as the `eunuch` class of PD.02.GrahaSex (Mercury, Ketu, Saturn) -- an encoding judgement about two words for one classification, recorded here rather than made silently. The count of two in the 11th is literal, exactly as printed.",
@@ -1346,8 +1346,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.5 sentence 3: lord of the 7th and Venus both in a Dual sign; confirmed \"Dual\" is source-backed and not an engine coinage -- PD.01.SignAttributes.{Gemini,Virgo,Sagittarius,Pisces} each carry mobility \"Dual\" from the chapter 1 table. The verse's \"or amsa\" branch is untested and disclosed in the note, so the card under-fires only)",
+        "verified_date": "2026-08-23"
       },
       "note": "The verse offers 'a dual sign or amsa'. Only the sign branch is tested, so the card is sound but not complete: it fires when the rule certainly holds and stays silent when it might hold by navamsa. Under-firing, never over-firing.",
       "exclusions": [
@@ -1409,8 +1409,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.5 sentence 4: a counting rule, encoded as two bound counts (conjunct_count of the 7th lord and of Venus) rather than one derived number, because the verse does not say how to combine them; confirmed conjunct_count is the second predicate dep.occupant-count explicitly delivers, so the card's `requires` is accurate rather than stale)",
+        "verified_date": "2026-08-23"
       },
       "activation": "active",
       "note": "\"The number of planets that are in conjunction with the lord of 7th house and Venus\" is read as two counts, one per graha, both bound and both reported. The alternative reading -- planets conjunct *both* at once -- is narrower and the text does not choose between them, so the two numbers are given rather than a single derived one.",
@@ -1466,8 +1466,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.6 sentence 1: occupant_count(7,?n) binds the number the chart actually produces and the claim reports that number, with no arithmetic entering the condition language. The note correctly records that the verse's further split of that count into malefics (who die) and benefics (who survive) is carried in the trace but not asserted as a second claim -- one card, one effect)",
+        "verified_date": "2026-08-23"
       },
       "activation": "active",
       "note": "A counting rule, not a categorical one. `?n` binds to the number of grahas the chart puts in the 7th and the claim reports that number. Only the first sentence is conditioned: the split of that number into malefics (who die) and benefics (who survive) is carried by nature_count facts in the trace but is not asserted as a separate claim, because one card yields one effect.",
@@ -1523,8 +1523,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.6 paragraph 2: held inert and correctly so -- \"a benefic endowed with strength\" needs dep.strength, which does not exist. The stub condition was additionally checked this session and found fail-safe rather than merely unevaluated: `lord_of_house(any,7)` matches the literal string \"any\", never a real graha, so it can only fail. Whoever implements dep.strength must rewrite this condition, not simply flip `activation`)",
+        "verified_date": "2026-08-23"
       },
       "activation": "inert",
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
@@ -1591,8 +1591,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.6 paragraph 3: all three leaves bind the same graha through ?l, which is what makes the rule about a malefic 7th lord in its own house rather than about any malefic anywhere; \"Even a malefic\" is the load-bearing concession and the note records it)",
+        "verified_date": "2026-08-23"
       },
       "activation": "active",
       "note": "\"Even a malefic\" is the load-bearing word: the rule is about a malefic 7th lord in its own house, so all three clauses bind the same graha through ?l.",
@@ -1676,8 +1676,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.6 paragraph 4: the \"unless\" is encoded as a correlated negation over the already-bound ?g, so the exclusion applies to the benefic that satisfied the first clause and not to any graha anywhere -- confirmed by reading _solve() in Engine/rules.py, which solves a conjunction left to right and passes the current assignment into the `not`. Encoded uncorrelated, the leaf would be true of every chart and the card could never fire)",
+        "verified_date": "2026-08-23"
       },
       "activation": "active",
       "note": "The \"unless\" is the whole difficulty. It excludes the benefic that satisfied the first clause, not any graha anywhere, so the negation has to see the current binding -- dep.correlated-negation. Without it the condition asked whether anything at all rules the 6th, 8th or 12th, which is true of every chart, and the card could never fire.",
@@ -1779,8 +1779,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.7 sentence 1: both the 2nd and the 7th must be afflicted, as \"the 2nd and 7th houses\" prints it, each satisfiable by malefic occupancy or full malefic aspect; the following sentence about malefic aspects being invariably untoward is a strengthening remark and is correctly not conditioned separately)",
+        "verified_date": "2026-08-23"
       },
       "activation": "active",
       "note": "\"Associated with\" is read as a malefic occupying the house and \"aspected by\" as full drishti, either sufficing per house. The verse says \"the 2nd and 7th\", so both houses must be afflicted; the second sentence about malefic aspects being invariably untoward is a strengthening remark and is not separately conditioned.",
@@ -1842,8 +1842,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.7 paragraph 2: correctly held inert on dep.second-nativity -- the verse speaks of the wife's own nativity, and per the standing architectural decision a second nativity is not approximated from the native's chart. The stub condition names the literal string \"malefic\" as a graha, which matches no fact, so the card is fail-safe as well as inert; it must be rewritten, not merely activated, when dep.second-nativity lands)",
+        "verified_date": "2026-08-23"
       },
       "activation": "inert",
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
@@ -1943,11 +1943,11 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.7 paragraph 3 together with the whole of v.7 in Knowledge/phaladeepika.md, because the sentence's subject is anaphoric: the condition's houses 2 and 7 appear nowhere in the card's own quote and had to be resolved from context. The 2nd/7th reading is sound -- the \"But\" contrasts with v.7's opening rule and the effect is stated of \"the couple\" -- but the nearest preceding sentence names the 7th and 8th of the wife's nativity, and that competing antecedent was asserted away by the previous note rather than recorded. Note corrected this session to preserve both readings; the encoded one is unchanged)",
+        "verified_date": "2026-08-23"
       },
       "activation": "active",
-      "note": "The benefic counterpart of PD.10.WifeLoss.Houses2And7Afflicted, in the same shape: occupancy or full aspect, both the 2nd and the 7th.",
+      "note": "The benefic counterpart of PD.10.WifeLoss.Houses2And7Afflicted, in the same shape: occupancy or full aspect, both the 2nd and the 7th. VERIFICATION NOTE (Milestone 19): \"the above two houses\" is anaphoric and its antecedent is not certain. The 2nd and 7th are taken because this sentence's \"But\" contrasts directly with v.7's opening rule about the 2nd and 7th, and because the effect is stated of \"the couple\", i.e. the native's own chart. The competing reading is recorded rather than suppressed: the *nearest* preceding sentence names the 7th and 8th houses of the wife's nativity, so \"the above two houses\" could denote those instead. That alternative would put the card in a second nativity (dep.second-nativity), which is exactly why the reading matters; it is not resolved here.",
       "exclusions": [
         "Aspect means full drishti only, per the engine's aspect choice.",
         "Under-fires on benefics: the encoded corpus classifies only the waxing Moon and Mercury-not-with-malefics as benefic, because Phaladeepika states the full benefic list in chapter 4, which is not encoded. Jupiter and Venus therefore carry no nature fact and cannot satisfy a benefic clause here."
@@ -2008,8 +2008,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.8 sentence 1: Moon and Saturn together in the 7th, scoped to a female nativity. Confirmed the scope is actually enforced and is not decorative -- Engine/activate.py lines 93-97 refuse the card unless the record's sex matches, and Engine/chart.py carries `sex` on BirthRecord, so the card cannot fire on a male chart nor on a chart whose sex is unknown)",
+        "verified_date": "2026-08-23"
       },
       "note": "Applies only to a female nativity; scope.sex keeps it from firing on any other chart, and from firing at all when the record does not say.",
       "exclusions": []
@@ -2064,8 +2064,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.8 sentence 2, whose \"such a planetary disposition\" is anaphoric and carries no grahas or houses of its own; resolved against the immediately preceding sentence in Knowledge/phaladeepika.md, which supplies Moon and Saturn together in the 7th -- the antecedent is unambiguous, being the only disposition stated in the verse. Scope male, enforced as above)",
+        "verified_date": "2026-08-23"
       },
       "note": "Applies only to a male nativity; scope.sex keeps it from firing on any other chart, and from firing at all when the record does not say.",
       "exclusions": []
@@ -2161,8 +2161,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.8 paragraph 3: encoded as printed -- a debilitated malefic required in each of the 2nd, 7th and 8th, bound separately as ?a/?b/?c. The note correctly records that many astrologers read the list as a disjunction while the text says \"and\", and that the conjunctive reading cannot over-fire. No scope.sex is set because the one sentence states the outcome for both sexes, and the quote carries that distinction itself)",
+        "verified_date": "2026-08-23"
       },
       "activation": "active",
       "note": "Encoded as printed: \"in the 2nd, 7th and 8th\", so a debilitated malefic is required in each of the three houses. That is a demanding condition and many astrologers read the list as a disjunction, but the text says \"and\" and the conjunctive reading cannot over-fire. The effect is stated for both sexes in one sentence, so no scope.sex is set and the quote carries the distinction.",
@@ -2218,8 +2218,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.9: correctly held inert -- the verse conditions on even signs for the 7th house, the 7th lord and Venus, plus strength and non-combustion of the 5th and 7th lords, and dep.strength does not exist. Stub condition confirmed fail-safe by the literal-argument check described above)",
+        "verified_date": "2026-08-23"
       },
       "activation": "inert",
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
@@ -2392,8 +2392,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.10, the most structurally demanding card in the chapter: the lords of the 2nd, 7th and 12th each in a kendra or trikona and each aspected by Jupiter, then benefics in the 2nd, 7th and 11th counted from the 7th lord. Confirmed the frame shift is real and not an encoding liberty -- \"to the lord of the 7th wherever he may be\" is the verse's own instruction to count from that graha, and dep.graha-frame supplies exactly that via in_house_from)",
+        "verified_date": "2026-08-23"
       },
       "activation": "active",
       "note": "\"There be benefics in the 2nd, 7th and 11th to the lord of the 7th wherever he may be\" is a frame shift inside the verse: those three houses are counted from the 7th lord, not from the lagna, which is what \"wherever he may be\" says. dep.graha-frame supplies it.",
@@ -2454,8 +2454,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.11: correctly held inert -- the rule needs navamsa (dep.varga), exaltation/depression signs of two lords, and the Moon's Ashtakavarga (dep.ashtakavarga), none of which are available; scoped male as the verse states. Stub condition confirmed fail-safe)",
+        "verified_date": "2026-08-23"
       },
       "activation": "inert",
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
@@ -2511,8 +2511,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.12 sentence 1: correctly held inert -- \"the strongest of the three planets\" is a strength comparison and dep.strength does not exist. Stub condition confirmed fail-safe)",
+        "verified_date": "2026-08-23"
       },
       "activation": "inert",
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
@@ -2566,8 +2566,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.12 paragraph 2: correctly held inert on dep.transit and dep.varga; timing is set to \"transit\", which matches the verse's own tense (\"when the Venus or the lord of the 7th transits\") rather than defaulting to natal. Stub condition confirmed fail-safe)",
+        "verified_date": "2026-08-23"
       },
       "activation": "inert",
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
@@ -2622,8 +2622,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.13: correctly held inert on dep.dasa; timing \"dasa\" matches \"during the dasha of the planet\". The verse's closing transit alternative is recorded in the quote and in `requires` (dep.transit) rather than being dropped. Stub condition confirmed fail-safe)",
+        "verified_date": "2026-08-23"
       },
       "activation": "inert",
       "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
@@ -2679,8 +2679,8 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.14: correctly held inert on dep.strength, dep.dasa, dep.varga and dep.transit together -- the rule compares the strength of two candidate significators and then waits on a Jupiter transit. The quote runs across the printed p.0113/p.0114 break and the page anchor sits inside the span, as it does in the corpus; verified byte-exact at its recorded span. Stub condition confirmed fail-safe)",
+        "verified_date": "2026-08-23"
       },
       "activation": "inert",
       "note": "The quote runs across a printed page break; the page anchor sits inside the span, as it does in the corpus.",
@@ -2730,6 +2730,12 @@
                 "dignity": {
                   "graha": "?l",
                   "dignity": "debilitated"
+                }
+              },
+              {
+                "dignity": {
+                  "graha": "?l",
+                  "dignity": "inimical"
                 }
               },
               {
@@ -2794,11 +2800,11 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (read against v.15, and found defective: the verse gives four ways the 7th lord may be afflicted -- debilitation, an inimical sign, combustion, a malefic aspect -- and the condition carried only three, silently dropping \"be in an inimical sign\", which the note then mis-enumerated as three. Demonstrated the gap on a constructed fact set (7th lord in an inimical sign, malefic occupying the 7th): the card did not fire although the verse covers that chart, while the sibling card from the same doctrine, PD.10.WifeDeprived.Lord7Afflicted, did. Corrected by adding dignity(?l,\"inimical\") in the verse's own order, with regression tests; the second arm (the 7th house itself occupied or aspected by a malefic) and the ?l binding across both arms were re-read and are faithful)",
+        "verified_date": "2026-08-23"
       },
       "activation": "active",
-      "note": "Two conjoined requirements, each satisfiable several ways: the 7th lord must be afflicted (debilitated, combust, or aspected by a malefic) and the 7th house must itself be occupied or aspected by a malefic. Both arms bind through ?l so the affliction and the lordship are the same graha. Kept separate from PD.10.WifeDeprived.Lord7Afflicted because the book states the rule twice and attributes this one.",
+      "note": "Two conjoined requirements, each satisfiable several ways: the 7th lord must be afflicted (posited in his sign of debilitation, in an inimical sign, combust, or aspected by a malefic) and the 7th house must itself be occupied or aspected by a malefic. Both arms bind through ?l so the affliction and the lordship are the same graha. Kept separate from PD.10.WifeDeprived.Lord7Afflicted because the book states the rule twice and attributes this one. VERIFICATION CORRECTION (Milestone 19): the \"be in an inimical sign\" alternative was missing from the condition and from this note, although the verse states it explicitly and dignity(?g,\"inimical\") is already derivable (dep.dignity-friendship, used by PD.10.WifeDeprived.Lord7Afflicted from the same doctrine and by PD.09.Dignity.Inimical). The card therefore under-fired: a chart with the 7th lord in an inimical sign and a malefic in the 7th produced nothing, though the verse covers it. Corrected here rather than deferred -- no missing capability was involved, only an omitted disjunct the source itself establishes.",
       "exclusions": [
         "The \"be in an inimical sign\" arm is omitted: natural friendship is dep.dignity-friendship, still unresolved, so no inimical-sign fact exists. One arm of a disjunction, so the card under-fires only.",
         "Aspect means full drishti only, per the engine's aspect choice."
@@ -2810,7 +2816,8 @@
         "dep.combust",
         "dep.nature",
         "dep.aspects",
-        "dep.nature-occupancy"
+        "dep.nature-occupancy",
+        "dep.dignity-friendship"
       ]
     }
   ]
