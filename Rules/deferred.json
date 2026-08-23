@@ -1412,23 +1412,19 @@
       ]
     },
     {
-      "id": "passage:phaladeepika.06.p164",
+      "id": "passage:phaladeepika.06.p168",
       "kind": "passage",
       "book": "phaladeepika",
       "chapter": 6,
-      "locus": "vv. 37-41 (p.73-74)",
-      "what": "Raja Yoga, Shankha Yoga, and the seven planets-in-N-signs family (Vallaki/Veena, Dharma, Hasha, Kendra, Shula, Yuga, Gola)",
-      "reason": "Not yet encoded. The seven planets-in-N-signs family needs one new engine fact -- a count of how many distinct signs the seven classical grahas (excluding the nodes) occupy between them -- which nothing in the current vocabulary computes; occupant_count counts occupants of one house, not signs occupied overall. Not built speculatively; Raja and Shankha Yoga need nothing new and could be encoded independently of it.",
+      "locus": "vv. 39-41 (p.73-74)",
+      "what": "the seven planets-in-N-signs family (Vallaki/Veena, Dharma, Hasha, Kendra, Shula, Yuga, Gola)",
+      "reason": "Not yet encoded. This family needs one new engine fact -- a count of how many distinct signs the seven classical grahas (excluding the nodes) occupy between them -- which nothing in the current vocabulary computes; occupant_count counts occupants of one house, not signs occupied overall. Not built speculatively. Raja Yoga and Shankha Yoga (v.37-38, the rest of the original p164 entry) needed nothing new and are now encoded as PD.06.RajaYoga and PD.06.Shankha.",
       "requires": [
         "dep.none"
       ],
       "phase": "3 (knowledge)",
       "status": "deferred",
       "paragraphs": [
-        164,
-        165,
-        166,
-        167,
         168,
         169,
         170,

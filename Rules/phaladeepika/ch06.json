@@ -7982,6 +7982,192 @@
       "kind": "yoga",
       "note": "Parvata Yoga: the lord of the Lagna (?g1) occupies some house; the lord of that house (?g2) -- ?g1's dispositor -- is tested for dignity (exalted or own) and angularity (kendra or trikona). Two hops, unambiguous in both the verse's own wording and its worked example ('lord of the Lagna, Mars is posited in Sagittarius (9th house). Lord of the 9th house Jupiter is in the 4th (a Kendra) in his sign of exaltation causing Parvata Yoga') -- Mars to Jupiter, Jupiter tested directly, no further hop. No new engine capability: lord_of_house and in_house chained through a shared house variable, the same composition already used for PD.06.Maha/.Dainya/.Kahala's Parivartana test.",
       "exclusions": []
+    },
+    {
+      "id": "PD.06.RajaYoga",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "37, 38",
+        "page_anchor": "phaladeepika/p0073",
+        "tier": 1,
+        "quote": "37. The conjunction or association of the lords of 9th and the 10th house in any auspicious house consitutes Raja Yoga. […] 38. The person with Raja yoga will be a king or equal to a king. When sets out on a journey he will be greeted by bands like Bheri and sounds of Conch etc. He will have a Royal Umbrella over his head and will be accompanied by elephants, horses, and palanquins etc. Bards and minstrels will recite poems in his praise, He will be presented gifts by eminent persons.",
+        "quote_display": "37. The conjunction or association of the lords of 9th and the 10th house in any auspicious house consitutes Raja Yoga. […] 38. The person with Raja yoga will be a king or equal to a king. When sets out on a journey he will be greeted by bands like Bheri and sounds of Conch etc. He will have a Royal Umbrella over his head and will be accompanied by elephants, horses, and palanquins etc. Bards and minstrels will recite poems in his praise, He will be presented gifts by eminent persons.",
+        "quote_sha256": "d895bce9d9cef96a2b25a4d50d24a653a4e8c9f9ce34a0333e94222abeb00311",
+        "char_span": [
+          140432,
+          140551
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            140432,
+            140551
+          ],
+          [
+            140712,
+            141077
+          ]
+        ],
+        "quote_parts": [
+          "37. The conjunction or association of the lords of 9th and the 10th house in any auspicious house consitutes Raja Yoga.",
+          "38. The person with Raja yoga will be a king or equal to a king. When sets out on a journey he will be greeted by bands like Bheri and sounds of Conch etc. He will have a Royal Umbrella over his head and will be accompanied by elephants, horses, and palanquins etc. Bards and minstrels will recite poems in his praise, He will be presented gifts by eminent persons."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g1",
+              "house": 9
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?g2",
+              "house": 10
+            }
+          },
+          {
+            "in_house": {
+              "graha": "?g1",
+              "house": "?h"
+            }
+          },
+          {
+            "in_house": {
+              "graha": "?g2",
+              "house": "?h"
+            }
+          },
+          {
+            "house_class": {
+              "house": "?h",
+              "klass": "auspicious"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Raja Yoga"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Raja Yoga (v.37-38, not to be confused with the unrelated Chapter 7 material also titled 'Raja Yogas', nor with Neechabhanga or Vipareeta Raja Yoga elsewhere in this chapter): the 9th lord (?g1) and 10th lord (?g2) occupying the same house (?h) together, that house being 'auspicious'. 'Conjunction or association ... in any auspicious house' is read as co-occupation of one house, not as an aspect or a separate 'association' relation, because the very next sentence (Shankha Yoga, PD.06.Shankha) glosses the identical situation as lords who are 'similarly placed (that is, they occupy together an auspicious house)' -- the book supplies its own definition of what 'conjunction or association ... in any auspicious house' means one sentence later, so nothing is imported from outside the source. 'Auspicious house' is read as the house_class already sourced from Chapter 1 v.17 ('The remaining houses are considered good and auspicious', PD.01.HouseClass.Auspicious: every house except the 6th, 8th and 12th) rather than narrowed to kendra-or-trikona, because that is the literal term this verse itself uses and the book has already defined it generically elsewhere; a narrower kendra-or-trikona gloss of 'auspicious house' does appear once elsewhere in the corpus (the Rahu/Ketu dasa doctrine of v.15, ch.19 area: 'posited in an auspicious house (kendra or trikona)'), but that is a different passage's own parenthetical, not a restatement of this verse, so it is not imported here. No new engine capability: lord_of_house, in_house and the existing house_class reference, joined through shared house variables exactly as PD.06.Parvata and PD.06.Kahala.Dispositor already join lord_of_house and in_house. No distinctness constraint is placed on ?g1 and ?g2: the 9th and 10th houses always have two different lords in a standard rasi scheme, so the two variables cannot bind to the same graha, unlike PD.06.Shankha where the general kendra/trikona pairing can.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.06.Shankha",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "37, 38",
+        "page_anchor": "phaladeepika/p0073",
+        "tier": 1,
+        "quote": "If the lords of a Kendra and Trikona are similarly placed (that is, they occupy together an auspicious house), the Yoga so formed is called Shankha Yoga. […] The person born with Shankha Yoga will enjoy all comforts in the company of many beautiful women.",
+        "quote_display": "If the lords of a Kendra and Trikona are similarly placed (that is, they occupy together an auspicious house), the Yoga so formed is called Shankha Yoga. […] The person born with Shankha Yoga will enjoy all comforts in the company of many beautiful women.",
+        "quote_sha256": "f9ff56a96137748eb34d78428ffc33ecd0f55e6c27c209e81457e93347d50f1b",
+        "char_span": [
+          140555,
+          140708
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            140555,
+            140708
+          ],
+          [
+            141081,
+            141178
+          ]
+        ],
+        "quote_parts": [
+          "If the lords of a Kendra and Trikona are similarly placed (that is, they occupy together an auspicious house), the Yoga so formed is called Shankha Yoga.",
+          "The person born with Shankha Yoga will enjoy all comforts in the company of many beautiful women."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g1",
+              "house": "?hk"
+            }
+          },
+          {
+            "house_class": {
+              "house": "?hk",
+              "klass": "kendra"
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?g2",
+              "house": "?ht"
+            }
+          },
+          {
+            "house_class": {
+              "house": "?ht",
+              "klass": "trikona"
+            }
+          },
+          {
+            "in_house": {
+              "graha": "?g1",
+              "house": "?h"
+            }
+          },
+          {
+            "in_house": {
+              "graha": "?g2",
+              "house": "?h"
+            }
+          },
+          {
+            "house_class": {
+              "house": "?h",
+              "klass": "auspicious"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Shankha Yoga"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": null,
+        "verified_date": null
+      },
+      "kind": "yoga",
+      "note": "Shankha Yoga (v.37, unnumbered second half): the general form of which PD.06.RajaYoga's 9th/10th test is one specific instance -- any kendra lord (?g1, house ?hk in 1/4/7/10) and any trikona lord (?g2, house ?ht in 5/9) occupying, together, one house (?h) classed 'auspicious' (see PD.06.RajaYoga's note for why 'auspicious house' is read as the Chapter-1-v.17 definition rather than narrowed to kendra-or-trikona). Because the 9th house is itself a trikona and the 10th a kendra, every chart satisfying PD.06.RajaYoga also satisfies this card -- both fire together on such a chart, and that overlap is the source's own structure (a specific case named alongside its general case in the same verse), not a card-authoring error, so no exclusion is added between the two. Unlike the 9th/10th pair, ?g1 and ?g2 here are not guaranteed distinct: one graha can lord both a kendra and a trikona sign at once (e.g. Capricorn lagna: Venus lords the 5th, a trikona, and the 10th, a kendra), so this card can in principle be satisfied by a single graha 'paired' with itself. No distinctness constraint is added, matching this store's existing convention of leaving two independently-bound roles unconstrained when the source does not itself say the roles must be different grahas (see PD.06.Lakshmi's note on Venus and the 9th lord). No new engine capability: lord_of_house, in_house and house_class, joined through shared house and graha variables using the same generic binding the engine already performs for every other multi-hop card in this chapter.",
+      "exclusions": []
     }
   ]
 }

@@ -635,13 +635,18 @@ def test_slice_runs_and_verifies():
     # Parvata Yoga (Mars, ?g2, tested directly) and Kahala Yoga -- the
     # dispositor one, PD.06.Kahala.Dispositor, distinct from the Parivartana
     # PD.06.Kahala of v.32-34 -- which takes the one further hop and finds
-    # Mars is its own dispositor there, so ?g3 is Mars again. This number
-    # tracks the rule store: it must change when doctrine is added, and
-    # never on its own.
-    assert r.verification.checks["claims"] == 34
+    # Mars is its own dispositor there, so ?g3 is Mars again; plus one more
+    # from chapter 6 slice 8's Shankha Yoga (v.37): Venus lords both the
+    # 10th (a kendra, Libra) and the 5th (a trikona, Taurus) on this chart
+    # and sits in the 1st (an auspicious house), satisfying PD.06.Shankha
+    # with the same graha filling both the kendra-lord and trikona-lord
+    # roles. PD.06.RajaYoga does not fire here -- the 9th and 10th lords
+    # are not together. This number tracks the rule store: it must change
+    # when doctrine is added, and never on its own.
+    assert r.verification.checks["claims"] == 35
     for k in ("quote_integrity_passed", "conditions_reevaluated_passed",
               "numeric_grounding_passed"):
-        assert r.verification.checks[k] == 34
+        assert r.verification.checks[k] == 35
 
 
 def test_every_claim_has_all_four_provenance_links():
@@ -665,7 +670,7 @@ def test_quoted_output_adds_no_words():
     r = run(DEMO)
     by_id = {c.claim_id: c for c in r.claims}
     rules = [s for s in r.sentences if s.part == "rules"]
-    assert len(rules) == 34
+    assert len(rules) == 35
     for s in rules:
         assert s.text == by_id[s.claim_ids[0]].passage["quote_display"]
 

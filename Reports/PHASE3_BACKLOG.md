@@ -12,8 +12,8 @@ Nothing may be silently deferred. Inert cards are read out of the store, deferre
 | — of kind `chapter` | 22 |
 | — of kind `concept` | 3 |
 | Resolved | 0 |
-| Cards in store | 402 |
-| Firing | 382 |
+| Cards in store | 404 |
+| Firing | 384 |
 | Inert | 20 |
 
 ## Dependencies
@@ -133,7 +133,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `passage:phaladeepika.06.p145` | phaladeepika | 6 | printed p.71 | a second worked example illustrating Uttarakalamrita's Vipareeta Raja Yoga | Tier-3 apparatus: a worked example, not a rule, for the reference doctrine PD.06.VipareetaRajaYoga.Uttarakalamrita reports. Recorded as deliberately excluded… | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.06.p150` | phaladeepika | 6 | printed p.71-72 | worked examples for the dispositor-chain Kahala Yoga (v.35) and Parvata Yoga, with the printed chart for Parvata's example only | Tier-3 apparatus: worked examples, not rules. Recorded as deliberately excluded, not pending. The Kahala example (Mars -> Sun -> Saturn) is the evidence PD.0… | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.06.p159` | phaladeepika | 6 | printed p.73 | Shri Morarji Desai's horoscope illustrating a second instance of Parvata Yoga | Tier-3 apparatus: a worked example, not a rule. Recorded as deliberately excluded, not pending. | `dep.none` | 3 (knowledge) | deferred |
-| `passage:phaladeepika.06.p164` | phaladeepika | 6 | vv. 37-41 (p.73-74) | Raja Yoga, Shankha Yoga, and the seven planets-in-N-signs family (Vallaki/Veena, Dharma, Hasha, Kendra, Shula, Yuga, Gola) | Not yet encoded. The seven planets-in-N-signs family needs one new engine fact -- a count of how many distinct signs the seven classical grahas (excluding th… | `dep.none` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.06.p168` | phaladeepika | 6 | vv. 39-41 (p.73-74) | the seven planets-in-N-signs family (Vallaki/Veena, Dharma, Hasha, Kendra, Shula, Yuga, Gola) | Not yet encoded. This family needs one new engine fact -- a count of how many distinct signs the seven classical grahas (excluding the nodes) occupy between … | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.06.p175` | phaladeepika | 6 | vv. 42-43 (p.74-75) | Adhiyoga | Not yet encoded; deferred by ordering. A Notes aside attributed to "Shruti Kirti ... according to Vyas" disputes how strictly the three yoga-forming grahas m… | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.06.p202` | phaladeepika | 6 | vv. 57-69 (p.78-82) | Twelve yogas keyed to the 6th/8th/12th lords occupying a dusthana (Ava, Nisswa, Mriti, Kuhu, Pamara, Harsha, Dushkriti, Sarala, Nirbhagya, Duryoga [10th house], Daridrya, Vimala) | Not yet encoded; deferred by ordering. The richest single contradiction in the chapter: Mantreswara calls Harsha/Sarala/Vimala auspicious, Parashara's own ni… | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.06.p233` | phaladeepika | 6 | v. 70 and colophon (p.82-83) | A second, unrelated Duryoga (weak/strong 6th-8th-12th vs. 1st-4th-9th-10th lord test) and the chapter's closing formula | Verse 70 needs dep.strength directly ("vested with strength" / "weak or combust" gates both halves of the test) and is not testable until it exists. The colo… | `dep.strength` | 3 (knowledge) | deferred |

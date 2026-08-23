@@ -1028,3 +1028,159 @@ def test_kahala_dispositor_fires_end_to_end_on_a_real_chart(provider):
     assert parvata_claim.derived["variables"]["?g2"] == "Mars"
     dispositor_claim = next(c for c in claims if c.derived["rule_card"] == "PD.06.Kahala.Dispositor")
     assert dispositor_claim.derived["variables"]["?g3"] == "Mars"
+
+
+# --- Raja Yoga and Shankha Yoga (chapter 6 slice 8, v.37-38) ----------------
+
+def test_raja_yoga_fires_when_9th_and_10th_lords_share_an_auspicious_house():
+    """Raja Yoga: the 9th lord and the 10th lord occupying, together, one
+    house classed 'auspicious' (every house but the 6th, 8th and 12th, per
+    PD.01.HouseClass.Auspicious -- v.37 does not say 'kendra or trikona')."""
+    card = next(c for c in load_cards(RULES) if c.id == "PD.06.RajaYoga")
+    fs = facts(
+        ("lord_of_house", {"graha": "Jupiter", "house": 9}),
+        ("lord_of_house", {"graha": "Saturn", "house": 10}),
+        ("in_house", {"graha": "Jupiter", "house": 1}),
+        ("in_house", {"graha": "Saturn", "house": 1}),
+        ("house_class", {"house": 1, "klass": "auspicious"}),
+    )
+    assert evaluate(card.conditions, fs).satisfied
+
+
+def test_raja_yoga_does_not_fire_if_the_shared_house_is_not_auspicious():
+    """The house the lords share must itself be classed 'auspicious'. A
+    dusthana with no such classification fact must not satisfy the card."""
+    card = next(c for c in load_cards(RULES) if c.id == "PD.06.RajaYoga")
+    fs = facts(
+        ("lord_of_house", {"graha": "Jupiter", "house": 9}),
+        ("lord_of_house", {"graha": "Saturn", "house": 10}),
+        ("in_house", {"graha": "Jupiter", "house": 8}),
+        ("in_house", {"graha": "Saturn", "house": 8}),
+        ("house_class", {"house": 8, "klass": "dusthana"}),
+        # No house_class(8, auspicious) fact -- house 8 is not auspicious.
+    )
+    assert not evaluate(card.conditions, fs).satisfied
+
+
+def test_raja_yoga_does_not_fire_if_the_lords_are_not_together():
+    """'Conjunction or association ... in any auspicious house' requires the
+    two lords to occupy the *same* house, not merely two auspicious ones."""
+    card = next(c for c in load_cards(RULES) if c.id == "PD.06.RajaYoga")
+    fs = facts(
+        ("lord_of_house", {"graha": "Jupiter", "house": 9}),
+        ("lord_of_house", {"graha": "Saturn", "house": 10}),
+        ("in_house", {"graha": "Jupiter", "house": 1}),
+        ("in_house", {"graha": "Saturn", "house": 3}),
+        ("house_class", {"house": 1, "klass": "auspicious"}),
+        ("house_class", {"house": 3, "klass": "auspicious"}),
+    )
+    assert not evaluate(card.conditions, fs).satisfied
+
+
+def test_shankha_yoga_fires_for_any_kendra_and_trikona_lord_pair():
+    """Shankha Yoga: the general form of PD.06.RajaYoga -- any kendra lord
+    and any trikona lord (not just the 10th and 9th specifically) together
+    in an auspicious house."""
+    card = next(c for c in load_cards(RULES) if c.id == "PD.06.Shankha")
+    fs = facts(
+        ("lord_of_house", {"graha": "Mars", "house": 4}),
+        ("house_class", {"house": 4, "klass": "kendra"}),
+        ("lord_of_house", {"graha": "Mercury", "house": 5}),
+        ("house_class", {"house": 5, "klass": "trikona"}),
+        ("in_house", {"graha": "Mars", "house": 2}),
+        ("in_house", {"graha": "Mercury", "house": 2}),
+        ("house_class", {"house": 2, "klass": "auspicious"}),
+    )
+    assert evaluate(card.conditions, fs).satisfied
+
+
+def test_shankha_yoga_can_be_satisfied_by_one_graha_lording_both_roles():
+    """No distinctness constraint is placed on the kendra lord and the
+    trikona lord (see PD.06.Shankha's note and PD.06.Lakshmi's precedent):
+    a single graha that lords both a kendra and a trikona sign at once must
+    still satisfy the card when it occupies an auspicious house."""
+    card = next(c for c in load_cards(RULES) if c.id == "PD.06.Shankha")
+    fs = facts(
+        ("lord_of_house", {"graha": "Venus", "house": 10}),
+        ("house_class", {"house": 10, "klass": "kendra"}),
+        ("lord_of_house", {"graha": "Venus", "house": 5}),
+        ("house_class", {"house": 5, "klass": "trikona"}),
+        ("in_house", {"graha": "Venus", "house": 1}),
+        ("house_class", {"house": 1, "klass": "auspicious"}),
+    )
+    assert evaluate(card.conditions, fs).satisfied
+
+
+def test_raja_yoga_is_a_specific_case_of_shankha_yoga():
+    """The 9th is a trikona and the 10th a kendra, so every chart satisfying
+    PD.06.RajaYoga's condition also satisfies PD.06.Shankha's -- the source
+    states the specific case (9th/10th) alongside its own general case
+    (any kendra/trikona pair) in the same verse, so both cards must fire
+    together on such a chart; this is not treated as a duplicate."""
+    cards = load_cards(RULES)
+    raja = next(c for c in cards if c.id == "PD.06.RajaYoga")
+    shankha = next(c for c in cards if c.id == "PD.06.Shankha")
+    fs = facts(
+        ("lord_of_house", {"graha": "Jupiter", "house": 9}),
+        ("house_class", {"house": 9, "klass": "trikona"}),
+        ("lord_of_house", {"graha": "Saturn", "house": 10}),
+        ("house_class", {"house": 10, "klass": "kendra"}),
+        ("in_house", {"graha": "Jupiter", "house": 1}),
+        ("in_house", {"graha": "Saturn", "house": 1}),
+        ("house_class", {"house": 1, "klass": "auspicious"}),
+    )
+    assert evaluate(raja.conditions, fs).satisfied
+    assert evaluate(shankha.conditions, fs).satisfied
+
+
+def test_raja_and_shankha_have_correct_provenance():
+    for card_id in ("PD.06.RajaYoga", "PD.06.Shankha"):
+        card = next(c for c in load_cards(RULES) if c.id == card_id)
+        assert card.verse == "37, 38"
+        assert card.page_anchor == "phaladeepika/p0073"
+        assert card.chapter == 6
+        assert card.book_id == "phaladeepika"
+
+
+def test_v37_raja_shankha_definition_is_transcribed_exactly_as_printed():
+    """Regression guard for the exact source wording PD.06.RajaYoga's note
+    relies on: the Shankha Yoga sentence, printed immediately after v.37's
+    Raja Yoga sentence, is the book's own gloss of 'occupy together an
+    auspicious house' -- if the corpus is ever re-converted, this clause
+    must survive unchanged or that reading is no longer textually grounded."""
+    text = (ROOT / "Knowledge" / "phaladeepika.md").read_bytes().decode("utf-8")
+    assert (
+        "37. The conjunction or association of the lords of 9th and the "
+        "10th house in any auspicious house consitutes Raja Yoga."
+    ) in text
+    assert (
+        "If the lords of a Kendra and Trikona are similarly placed (that "
+        "is, they occupy together an auspicious house), the Yoga so formed "
+        "is called Shankha Yoga."
+    ) in text
+
+
+def test_shankha_fires_end_to_end_on_a_real_chart(provider):
+    """Real-chart sanity check: on the golden 1987-03-14 04:22 IST chart at
+    Thanjavur, Venus lords both the 10th (a kendra, Libra) and the 5th (a
+    trikona, Taurus), and sits in the 1st (an auspicious house) -- the same
+    graha satisfying both the kendra-lord and trikona-lord roles at once,
+    exactly the edge case PD.06.Shankha's note describes. PD.06.RajaYoga
+    must not fire on this chart: the 9th and 10th lords are not together."""
+    from Engine.activate import activate
+    rec = BirthRecord(
+        date="1987-03-14", time="04:22", timezone="Asia/Kolkata",
+        latitude=10.7870, longitude=79.1378, place_name="Thanjavur",
+        time_precision="minute", time_source="certificate",
+    )
+    chart = compute_chart(resolve_birth(rec, provider), provider)
+    cards = load_cards(RULES)
+    doctrine = Doctrine.from_cards(cards)
+    fs = extract_facts(chart, doctrine)
+    claims, _ = activate(chart, fs, cards)
+    fired = {c.derived["rule_card"] for c in claims}
+    assert "PD.06.Shankha" in fired
+    assert "PD.06.RajaYoga" not in fired
+    shankha_claim = next(c for c in claims if c.derived["rule_card"] == "PD.06.Shankha")
+    assert shankha_claim.derived["variables"]["?g1"] == "Venus"
+    assert shankha_claim.derived["variables"]["?g2"] == "Venus"
