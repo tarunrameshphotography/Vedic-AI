@@ -348,6 +348,18 @@ def test_golden_kemadruma_does_not_fire_because_ketu_guards_the_moon():
     assert r.verification.ok
 
 
+def test_a_negation_only_trigger_renders_honestly_instead_of_empty():
+    """A card satisfied entirely by absence (PD.06.Kemadruma) binds no
+    variable, so conditions_satisfied is empty. The consultation trace must
+    say so in words rather than print 'triggered by ' with nothing after it."""
+    from Engine.render import _trigger_grounds
+
+    assert _trigger_grounds([]) == (
+        "a negative condition, satisfied by no graha in particular")
+    assert _trigger_grounds(["in_house_from(Moon,Sun,7)"]) == (
+        "`in_house_from(Moon,Sun,7)`")
+
+
 def test_chapter_six_kemadruma_cards_do_not_assign_sunapha_anapha_durudhara(cards):
     """The naming ambiguity this slice exists to resolve (v.5 vs v.8's
     'respectively'): no card in the store may claim to know which of

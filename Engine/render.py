@@ -88,6 +88,15 @@ def _house_of(claim: Claim) -> int | None:
     return None
 
 
+def _trigger_grounds(conditions_satisfied) -> str:
+    """A card built entirely from negation (e.g. PD.06.Kemadruma: no graha
+    in the 2nd or 12th from the Moon) binds no variable, so
+    conditions_satisfied is empty -- that is the honest trace of a negative
+    condition, not a gap to render as a bare "triggered by"."""
+    grounds = ', '.join('`' + k + '`' for k in conditions_satisfied)
+    return grounds or 'a negative condition, satisfied by no graha in particular'
+
+
 def _body_of(claim: Claim) -> str:
     for f in claim.derived["facts"]:
         if f["key"].startswith("in_house("):
@@ -230,7 +239,7 @@ def consultation(
             A(f"- **Source** — {_citation(claim)}")
             A(f"- **Rule card** — `{claim.derived['rule_card']}` "
               f"(tier {claim.tier}), triggered by "
-              f"{', '.join('`' + k + '`' for k in claim.derived['conditions_satisfied'])}")
+              f"{_trigger_grounds(claim.derived['conditions_satisfied'])}")
             A(f"- **Page anchor** — `{p['page_anchor']}` · "
               f"`{p['corpus_file']}` chars {p['char_span'][0]}–{p['char_span'][1]}")
             A(f"- **Claim** — `{claim.claim_id}`")
