@@ -1016,16 +1016,36 @@
       "conditions": {
         "any": [
           {
-            "in_house": {
-              "graha": "Mars",
-              "house": 1
-            }
+            "all": [
+              {
+                "in_house": {
+                  "graha": "Mars",
+                  "house": 1
+                }
+              },
+              {
+                "strength": {
+                  "graha": "Mars",
+                  "strength": "strong"
+                }
+              }
+            ]
           },
           {
-            "lord_of_house": {
-              "graha": "Mars",
-              "house": 1
-            }
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "Mars",
+                  "house": 1
+                }
+              },
+              {
+                "strength": {
+                  "graha": "Mars",
+                  "strength": "strong"
+                }
+              }
+            ]
           }
         ]
       },
@@ -1040,15 +1060,13 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": "tarunrameshphotography + Claude (condition's two leaves match \"Mars... in the Ascendant or as lord of the Ascendant\"; corrected a stale requires entry -- see note)",
+        "verified_by": "tarunrameshphotography + Claude (Milestone 22: condition rewritten to add the strength test to both leaves, which is exactly what the previous verification pass said whoever built dep.strength must do rather than merely dropping the dependency; re-read against the quote, both leaves match \"strong in the Ascendant or as lord of the Ascendant\")",
         "verified_date": "2026-08-24"
       },
-      "activation": "inert",
-      "note": "The Mars-in-lagna leaf is exact, but the rule is conditioned on a *strong* Mars, which the engine cannot yet establish (dep.strength). VERIFICATION NOTE (2026-08-24): the original note also listed dep.lord-of-house as missing; that capability has been implemented since (Milestone 4, Engine/facts.py::_lordship) and lord_of_house is used throughout the store, so it was never really a blocker -- corrected here to dep.strength alone. The condition itself (Mars in lagna OR Mars as lagna lord, without any strength test) is still only the closest expressible reading; whoever builds dep.strength must add an actual strength test to both leaves, not just drop the dependency.",
+      "activation": "active",
+      "note": "ACTIVATED (Milestone 22). The passage is \"if Mars is strong in the Ascendant or as lord of the Ascendant\", and both leaves now carry the strength test the previous note said they must: the disjunction is over the two placements, and each conjoins strength(Mars, strong). The strength fact means what Phaladeepika ch. 4 vv. 4-5 mean by strong -- exalted, or retrograde among the five, or retrograde in debilitation with the rays unaffected, and never when combust -- not a Shadbala Pinda, which the chapter withholds the arithmetic for. See concept:strength-criterion-scope. HISTORY: the original note also listed dep.lord-of-house as missing; that was corrected on 2026-08-24 after the capability was found to have existed since Milestone 4.",
       "exclusions": [],
-      "requires": [
-        "dep.strength"
-      ]
+      "requires": []
     },
     {
       "id": "PD.02.Places.Sun",

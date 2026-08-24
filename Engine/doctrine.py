@@ -304,3 +304,52 @@ class Doctrine:
         if graha in table:
             return Sourced(table[graha], (c.id,))
         return Sourced(None, (c.id,))
+
+    # --- strength -----------------------------------------------------------
+
+    def graha_strength_verdicts(self) -> Sourced:
+        """Every card that says a graha is *strong* or *weak*, as it says it.
+
+        Read with `_all` and filtered, not with `_one`, for two reasons. The
+        doctrine is several independent statements rather than one table --
+        verse 4 on combustion and the retrograde rescue, verse 5 on exaltation,
+        retrogression and the nodes -- so asking for a single card would raise
+        on doctrine that is not in conflict. And the relation `graha_strength`
+        is also carried by a card that quantifies one *component* of strength
+        without reaching a verdict (`PD.04.DikBala.Houses`, full Dik Bala in a
+        named house). A component is not a verdict: a graha with full Dik Bala
+        may be weak on every other count, so cards with no `verdict` are
+        skipped here rather than read as claims about strength.
+
+        What comes back is the card's own structure, unflattened. Three shapes
+        are in the store and all three are the source's, not the engine's: a
+        condition on chart facts (`when`), a restriction of that condition to
+        named grahas (`grahas`), and a per-graha table of signs (`table`, the
+        nodes, which the rest of the chapter passes over). The extractor reads
+        whichever the card carries; nothing here decides between them.
+        """
+        rows = []
+        cards = []
+        for c in self._rows("graha_strength"):
+            p = c.predicts
+            if not p.get("verdict"):
+                continue
+            cards.append(c.id)
+            rows.append({
+                "verdict": p["verdict"],
+                "basis": p.get("basis", ""),
+                "when": dict(p.get("when", {})),
+                "grahas": list(p.get("grahas", ())),
+                "table": {k: list(v) for k, v in p.get("table", {}).items()},
+                "overrides": list(p.get("overrides", ())),
+                "authority": p.get("authority", ""),
+                "card": c.id,
+                "book": c.book_id,
+            })
+        if not rows:
+            raise DoctrineError(
+                "no graha_strength card states a verdict; the chapter that "
+                "says which grahas are strong has not been encoded yet"
+            )
+        self.consulted.update(cards)
+        return Sourced(rows, tuple(sorted(cards)))

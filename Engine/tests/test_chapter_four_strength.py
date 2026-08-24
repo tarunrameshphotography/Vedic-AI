@@ -347,14 +347,38 @@ def test_the_kala_bala_scope_question_stays_open(registry):
     assert "PD.04.Ancients.KalaBala.BeneficList" in entry["reason"]
 
 
-def test_strength_is_still_an_outstanding_dependency(registry):
-    """This milestone encoded the source of dep.strength; it did not build it.
+def test_strength_was_built_on_the_chapter_and_not_around_it(registry):
+    """Milestone 21 encoded the source of dep.strength; Milestone 22 built it.
 
-    The extractor that reads these cards is the next milestone. Until it
-    exists, no chart produces a strength fact and every card blocked on
-    dep.strength stays blocked -- which is what this asserts, so that a
-    half-built state cannot be mistaken for a finished one.
+    Supersedes `test_strength_is_still_an_outstanding_dependency`, which
+    asserted the half-built state so it could not be mistaken for a finished
+    one. It is finished, and what this asserts instead is the thing that could
+    still go wrong later: that the capability is still declared to rest on the
+    chapter it reads. A future session that reimplemented strength without the
+    chapter -- from a table in Python, say -- would leave this passing only by
+    deleting the dependency, which is a visible act rather than a quiet one.
     """
     deps = registry["dependencies"]
-    assert deps["dep.strength"].get("implemented", False) is False
+    assert deps["dep.strength"]["implemented"] is True
+    assert deps["dep.strength"]["predicate"] == "strength"
     assert "chapter:phaladeepika.04" in deps["dep.strength"]["depends_on"]
+
+
+def test_the_ordinal_criterion_is_a_separate_and_unmet_dependency(registry):
+    """"Strong" was built; "strongest" was not, and they are not the same ask.
+
+    Two cards (`PD.10.WifeDirection.Strongest`, `PD.10.Marriage.StrongerDasha`)
+    were declared against dep.strength and turned out to need a ranking the
+    encoded doctrine cannot supply -- vv. 4-5 state a verdict, not an order,
+    and the chapter's only ordinal criterion is the Pinda whose arithmetic it
+    withholds. Registering that as its own dependency is what stops the next
+    session from reading "dep.strength is implemented" as "these cards can
+    fire now".
+    """
+    deps = registry["dependencies"]
+    ranking = deps["dep.strength-ranking"]
+    assert ranking["implemented"] is False
+    assert "dep.strength" in ranking["depends_on"]
+    assert ranking["effort"] > deps["dep.strength"]["effort"], (
+        "ranking is blocked on source material the project does not have; it "
+        "must not be priced as a cheap follow-on to the verdict extractor")

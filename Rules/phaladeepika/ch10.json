@@ -442,6 +442,30 @@
               "graha": "Moon",
               "house": 5
             }
+          },
+          {
+            "strength": {
+              "graha": "Moon",
+              "strength": "weak"
+            }
+          },
+          {
+            "nature_occupancy": {
+              "house": 1,
+              "nature": "malefic"
+            }
+          },
+          {
+            "nature_occupancy": {
+              "house": 7,
+              "nature": "malefic"
+            }
+          },
+          {
+            "nature_occupancy": {
+              "house": 12,
+              "nature": "malefic"
+            }
           }
         ]
       },
@@ -456,17 +480,13 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": "tarunrameshphotography + Claude (read against v.2 sentence 3: the encoded in_house(Moon,5) leaf is exact, and the note correctly states that \"weak\" and the malefic occupancy of the Ascendant/7th/12th are not expressible, so the card is held inert rather than firing on the placement alone. Additionally confirmed this session that the card is fail-safe by construction, not merely by its inert flag: verified empirically that a literal argument is matched by exact string equality against the fact set (VARIABLE_RE = ^\\?[a-z][a-z0-9_]*$), so a partial stub condition can only ever fail to match, never match vacuously)",
-        "verified_date": "2026-08-23"
+        "verified_by": "tarunrameshphotography + Claude (Milestone 22: re-read against the quote clause by clause; the three malefic-occupancy leaves and the weak-Moon leaf replace a condition that carried only the placement, which the prior note correctly said must not fire on its own)",
+        "verified_date": "2026-08-24"
       },
-      "activation": "inert",
-      "note": "The Moon-in-5th leaf is exact; 'weak' and the malefic occupancy of three houses are not expressible, so the card must not fire on the placement alone.",
+      "activation": "active",
+      "note": "ACTIVATED (Milestone 22). Every clause of the verse is now expressible and all five are conjoined: the Moon in the 5th, the Moon weak, and malefics occupying each of the Ascendant, the 7th and the 12th. The weakness this tests is the one the source's own worked example is about -- ch. 4 v. 4 says of the Moon specifically that \"even if the Moon be in Taurus or Cancer, if she is very near or with the Sun, she will be considered weak\" -- so a weak Moon here is a combust Moon, which is the only way this engine's encoded doctrine makes the Moon weak at all. It is NOT a Shadbala reading; see concept:strength-criterion-scope. `nature_occupancy` asserts that a house holds at least one malefic, which is what \"the malefics occupy the Ascendant, 7th and 12th houses\" says; it does not require that every occupant be malefic, and the verse does not either.",
       "exclusions": [],
-      "requires": [
-        "dep.nature",
-        "dep.strength",
-        "dep.nature-occupancy"
-      ]
+      "requires": []
     },
     {
       "id": "PD.10.SunRahu.In7",
@@ -1506,8 +1526,20 @@
         "all": [
           {
             "lord_of_house": {
-              "graha": "any",
+              "graha": "?g",
               "house": 7
+            }
+          },
+          {
+            "nature": {
+              "graha": "?g",
+              "nature": "benefic"
+            }
+          },
+          {
+            "strength": {
+              "graha": "?g",
+              "strength": "strong"
             }
           }
         ]
@@ -1523,18 +1555,13 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": "tarunrameshphotography + Claude (read against v.6 paragraph 2: held inert and correctly so -- \"a benefic endowed with strength\" needs dep.strength, which does not exist. The stub condition was additionally checked this session and found fail-safe rather than merely unevaluated: `lord_of_house(any,7)` matches the literal string \"any\", never a real graha, so it can only fail. Whoever implements dep.strength must rewrite this condition, not simply flip `activation`)",
-        "verified_date": "2026-08-23"
+        "verified_by": "tarunrameshphotography + Claude (Milestone 22: the previous condition carried lord_of_house(any,7) alone, which matched no fact at all -- \"any\" is a literal to the evaluator, not a wildcard -- and asserted neither of the verse's two properties; rewritten with a bound variable and both tests)",
+        "verified_date": "2026-08-24"
       },
-      "activation": "inert",
-      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "activation": "active",
+      "note": "ACTIVATED (Milestone 22). \"Should the lord of the 7th house be a benefic endowed with strength\" is now expressible in full: the lord is bound by a variable rather than asserted of a literal, and both of its stated properties -- benefic and strong -- are tested of that same graha. Correlation matters here and the variable is what supplies it: without it the condition would ask whether some benefic somewhere is strong. \"Endowed with strength\" is read as the ch. 4 vv. 4-5 verdict, not as a Shadbala Pinda; see concept:strength-criterion-scope.",
       "exclusions": [],
-      "requires": [
-        "dep.lord-of-house",
-        "dep.condition-variables",
-        "dep.nature",
-        "dep.strength"
-      ]
+      "requires": []
     },
     {
       "id": "PD.10.Lord7.MaleficInOwn7",
@@ -2200,9 +2227,59 @@
       "conditions": {
         "all": [
           {
+            "house_sign_class": {
+              "house": 7,
+              "klass": "Even"
+            }
+          },
+          {
             "lord_of_house": {
-              "graha": "any",
+              "graha": "?l7",
               "house": 7
+            }
+          },
+          {
+            "in_sign_class": {
+              "graha": "?l7",
+              "klass": "Even"
+            }
+          },
+          {
+            "in_sign_class": {
+              "graha": "Venus",
+              "klass": "Even"
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?l5",
+              "house": 5
+            }
+          },
+          {
+            "strength": {
+              "graha": "?l5",
+              "strength": "strong"
+            }
+          },
+          {
+            "strength": {
+              "graha": "?l7",
+              "strength": "strong"
+            }
+          },
+          {
+            "not": {
+              "combust": {
+                "graha": "?l5"
+              }
+            }
+          },
+          {
+            "not": {
+              "combust": {
+                "graha": "?l7"
+              }
             }
           }
         ]
@@ -2218,19 +2295,13 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": "tarunrameshphotography + Claude (read against v.9: correctly held inert -- the verse conditions on even signs for the 7th house, the 7th lord and Venus, plus strength and non-combustion of the 5th and 7th lords, and dep.strength does not exist. Stub condition confirmed fail-safe by the literal-argument check described above)",
-        "verified_date": "2026-08-23"
+        "verified_by": "tarunrameshphotography + Claude (Milestone 22: re-read against the quote; the previous condition carried lord_of_house(any,7) alone and expressed none of the five clauses. Sign parity comes from the encoded sign_attributes table, not from arithmetic on sign order)",
+        "verified_date": "2026-08-24"
       },
-      "activation": "inert",
-      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "activation": "active",
+      "note": "ACTIVATED (Milestone 22). The verse has five conditions and all five are now expressible: the 7th house an even sign, its lord in an even sign, Venus in an even sign, the lords of the 5th and the 7th both possessed of strength, and both not eclipsed by the Sun's rays. The two lords are bound by separate variables because the verse speaks of both and they are usually different grahas; where one graha lords both houses the two variables bind to it and the card fires once, which is correct. The not-combust leaves are kept even though this engine's combust graha is already weak by ch. 4 v. 4 and so fails the strength leaf anyway: the verse states both conditions and the card quotes the verse. \"Possessed of strength\" is the ch. 4 vv. 4-5 verdict, not a Shadbala Pinda -- see concept:strength-criterion-scope.",
       "exclusions": [],
-      "requires": [
-        "dep.lord-of-house",
-        "dep.condition-variables",
-        "dep.strength",
-        "dep.sign-class",
-        "dep.combust"
-      ]
+      "requires": []
     },
     {
       "id": "PD.10.WifeChildren.Lords2712",
@@ -2511,15 +2582,14 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": "tarunrameshphotography + Claude (read against v.12 sentence 1: correctly held inert -- \"the strongest of the three planets\" is a strength comparison and dep.strength does not exist. Stub condition confirmed fail-safe)",
-        "verified_date": "2026-08-23"
+        "verified_by": "tarunrameshphotography + Claude (Milestone 22: examined when dep.strength was built; found to need an ordinal comparison the encoded doctrine cannot supply, and re-declared rather than forced active)",
+        "verified_date": "2026-08-24"
       },
       "activation": "inert",
-      "note": "Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the passage says.",
+      "note": "STILL INERT AFTER dep.strength (Milestone 22), and for a reason worth stating precisely: the verse does not ask whether a graha is strong, it asks which of three is *strongest*. dep.strength as built emits a binary verdict -- strong, weak, or no claim -- because that is the only thing Phaladeepika ch. 4 vv. 4-5 state; the chapter's one ordinal criterion is the Shadbala Pinda of vv. 22-23, whose arithmetic the chapter withholds for three of six components. So there is no defensible way to rank the planet in the 7th against the lord of the 7th against Venus, and ranking two grahas that are both merely \"strong\" would be the engine inventing an order the source never supplies. Re-declared against dep.strength-ranking, which is that missing capability named honestly, rather than left declaring a dependency that now exists.",
       "exclusions": [],
       "requires": [
-        "dep.lord-of-house",
-        "dep.strength"
+        "dep.strength-ranking"
       ]
     },
     {
@@ -2679,19 +2749,19 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": "tarunrameshphotography + Claude (read against v.14: correctly held inert on dep.strength, dep.dasa, dep.varga and dep.transit together -- the rule compares the strength of two candidate significators and then waits on a Jupiter transit. The quote runs across the printed p.0113/p.0114 break and the page anchor sits inside the span, as it does in the corpus; verified byte-exact at its recorded span. Stub condition confirmed fail-safe)",
-        "verified_date": "2026-08-23"
+        "verified_by": "tarunrameshphotography + Claude (Milestone 22: dependency corrected from dep.strength to dep.strength-ranking after reading the verse; the other three blockers are unchanged and independently sufficient)",
+        "verified_date": "2026-08-24"
       },
       "activation": "inert",
-      "note": "The quote runs across a printed page break; the page anchor sits inside the span, as it does in the corpus.",
+      "note": "The quote runs across a printed page break; the page anchor sits inside the span, as it does in the corpus. MILESTONE 22: dep.strength is now implemented but does not release this card, and the declared dependency was wrong rather than merely unmet -- \"find out who ... is stronger\" is an ordinal comparison, not the binary verdict ch. 4 vv. 4-5 supply. Replaced with dep.strength-ranking. dep.varga, dep.dasa and dep.transit remain outstanding independently, so this card would stay inert even if the ranking existed.",
       "exclusions": [],
       "requires": [
-        "dep.lord-of-house",
         "dep.condition-variables",
-        "dep.varga",
-        "dep.strength",
         "dep.dasa",
-        "dep.transit"
+        "dep.lord-of-house",
+        "dep.strength-ranking",
+        "dep.transit",
+        "dep.varga"
       ]
     },
     {

@@ -52,6 +52,11 @@ VOCABULARY: dict[str, tuple[str, ...]] = {
     "nature": ("graha", "nature"),
     "nature_occupancy": ("house", "nature"),
     "nature_count": ("house", "nature", "n"),
+    # Strength is a verdict, not a score. The only values are the two words
+    # the source itself uses -- "strong" and "weak" -- because the arithmetic
+    # that would produce a number is withheld by the chapter that states the
+    # verdicts. See `_strength` below and concept:strength-criterion-scope.
+    "strength": ("graha", "strength"),
 }
 
 
@@ -740,6 +745,156 @@ def _nature_occupancy(chart, doc, rep, frame) -> list[Fact]:
     return out
 
 
+def _strength_condition_met(when: dict, graha: str, retrograde: bool,
+                            dignities: set[str], combust: bool) -> tuple[bool, dict]:
+    """Whether one card's `when` block holds for one graha, and the evidence.
+
+    The keys are the source's, transcribed by the encoder; this function knows
+    how to read them and nothing about what they mean. A key it does not
+    recognise raises rather than being ignored, because a silently-skipped
+    clause would let a card fire on a weaker condition than it states -- the
+    one failure mode a strength verdict cannot be allowed to have.
+    """
+    ev: dict[str, Any] = {}
+    for key, want in when.items():
+        if key == "dignity":
+            ev["dignity"] = sorted(dignities)
+            if want not in dignities:
+                return False, ev
+        elif key == "retrograde":
+            ev["retrograde"] = retrograde
+            if bool(want) is not retrograde:
+                return False, ev
+        elif key == "combust":
+            ev["combust"] = combust
+            if bool(want) is not combust:
+                return False, ev
+        elif key == "not_combust":
+            ev["combust"] = combust
+            if bool(want) is combust:
+                return False, ev
+        else:
+            raise DoctrineError(
+                f"a graha_strength condition on {graha} uses {key!r}, which "
+                f"the extractor does not know how to read; it will not guess"
+            )
+    return True, ev
+
+
+def _strength(chart, doc, rep, frame) -> list[Fact]:
+    """dep.strength (Stage 4) -- the strong/weak verdicts chapter 4 states.
+
+    This is deliberately **not** a Shadbala calculator and must not become
+    one. Chapter 4 prints two different criteria for "strong": verses 22-23
+    define it as a Shadbala Pinda reaching a per-graha threshold in Rupas, and
+    verses 4-5 say "strong" and "weak" outright about conditions a chart
+    settles. Only the second is computable here -- three of the six components
+    the Pinda needs (Yudha, Chesta, Drig) have their arithmetic explicitly
+    withheld by the source -- so a Pinda produced by this engine would be an
+    invented number wearing the chapter's vocabulary. What comes out of here is
+    therefore the book's verdict, on the book's stated grounds, and every fact
+    names the card it came from. See concept:strength-criterion-scope.
+
+    The one piece of ordering logic, the combustion override, is the source's
+    own: verse 4 says a graha whose rays are eclipsed is weak "even though he
+    may be posited in his sign of exaltation, in his own or a friend's sign",
+    and the card carries that list in `overrides`. The engine applies what the
+    card names and nothing further -- which is why a *retrograde* graha that is
+    also combust gets no verdict at all rather than a chosen one: verse 5 calls
+    it strong, verse 4 calls it weak, the override list does not mention
+    retrogression, and adjudicating that is Stage 7's job and does not exist.
+    """
+    rows, cards = doc.graha_strength_verdicts()
+    rep.used("strength", cards)
+
+    # The inputs are the other extractors' own, recomputed from the same
+    # reference cards rather than re-derived here. A second copy of the
+    # dignity or combustion rules living in this function is exactly the
+    # smuggled doctrine the store exists to prevent, and it would drift.
+    dignities: dict[str, set[str]] = {}
+    for f in _dignity(chart, doc, rep, frame):
+        dignities.setdefault(f.args["graha"], set()).add(f.args["dignity"])
+    combust = {f.args["graha"] for f in _combustion(chart, doc, rep, frame)}
+
+    out: list[Fact] = []
+    unresolved: list[str] = []
+    for b in sorted(chart.bodies.values(), key=lambda x: x.body):
+        graha = b.body
+        hits: list[dict] = []
+        for row in rows:
+            if row["grahas"] and graha not in row["grahas"]:
+                continue
+            if row["table"]:
+                # The nodes' shape: strength is a list of signs per graha, and
+                # a graha the table does not name is not spoken about at all.
+                signs = row["table"].get(graha)
+                if signs is None or b.sign not in signs:
+                    continue
+                ev = {"sign": b.sign, "strong_signs": list(signs)}
+            else:
+                ok, ev = _strength_condition_met(
+                    row["when"], graha, b.retrograde,
+                    dignities.get(graha, set()), graha in combust)
+                if not ok:
+                    continue
+            hits.append({"verdict": row["verdict"], "basis": row["basis"],
+                         "card": row["card"], "book": row["book"],
+                         "authority": row["authority"],
+                         "overrides": row["overrides"], "evidence": ev})
+
+        if not hits:
+            continue
+
+        weak = [h for h in hits if h["verdict"] == "weak"]
+        strong = [h for h in hits if h["verdict"] == "strong"]
+
+        # A strong verdict the source itself says the weak one beats.
+        beaten = {o for h in weak for o in h["overrides"]}
+        overridden = [h for h in strong if h["basis"] in beaten]
+        surviving = [h for h in strong if h["basis"] not in beaten]
+
+        if weak and surviving:
+            # Two verdicts the source does not rank against each other. Picking
+            # one would be the engine adjudicating between its own authorities,
+            # which is precisely what it must not do -- so this graha gets no
+            # strength fact and the collision is reported rather than buried.
+            unresolved.append(
+                f"{graha} is called strong ({', '.join(h['basis'] for h in surviving)}) "
+                f"and weak ({', '.join(h['basis'] for h in weak)}) by cards the "
+                f"source does not rank against each other "
+                f"({', '.join(sorted(h['card'] for h in surviving + weak))})")
+            continue
+
+        winners = weak or strong
+        verdict = winners[0]["verdict"]
+        ev: dict[str, Any] = {
+            "authorities": [{"card": h["card"], "book": h["book"],
+                             "authority": h["authority"], "basis": h["basis"]}
+                            for h in winners],
+            "doctrine": sorted({h["card"] for h in winners}),
+            "criterion": "the verdict verses 4-5 state outright, not a "
+                         "Shadbala Pinda; the chapter withholds the arithmetic "
+                         "for three of the six components",
+        }
+        for h in winners:
+            ev.update(h["evidence"])
+        if overridden:
+            ev["overridden"] = [
+                {"card": h["card"], "basis": h["basis"], "verdict": h["verdict"]}
+                for h in overridden]
+        books = sorted({h["book"] for h in winners if h["book"]})
+        ev["books"] = books
+        ev["corroborated"] = len(books) > 1
+        out.append(make_fact("strength", {"graha": graha, "strength": verdict},
+                             frame, ev))
+
+    if unresolved:
+        rep.incomplete("strength", "; ".join(unresolved) +
+                       " -- no strength fact is emitted for them and rules "
+                       "conditioning on their strength do not fire")
+    return out
+
+
 EXTRACTORS = (
     ("lord_of_house", _lordship),
     ("sign_class", _sign_classes),
@@ -754,6 +909,7 @@ EXTRACTORS = (
     ("conjunct", _conjunction),
     ("nature", _nature),
     ("nature_occupancy", _nature_occupancy),
+    ("strength", _strength),
 )
 
 

@@ -132,9 +132,9 @@
       "predicate": "occupant_count"
     },
     "dep.strength": {
-      "title": "planetary and house strength (Stage 4)",
-      "kind": "calculator",
-      "detail": "Strength verdicts for grahas and houses. Sourced from Phaladeepika ch. 4, which is now encoded in full (Milestone 21). NOT a numeric Shadbala calculator: the chapter withholds the arithmetic for three of the six components, so the strong/weak verdicts come from vv. 4-5 rather than from a Pinda -- see concept:strength-criterion-scope.",
+      "title": "strength verdict extractor (Stage 4)",
+      "kind": "predicate",
+      "detail": "Strong/weak verdicts for grahas, read out of Phaladeepika ch. 4 vv. 4-5 by Engine/facts.py::_strength (Milestone 22). NOT a Shadbala calculator and it must not become one: the chapter withholds the arithmetic for three of the six components (Yudha, Chesta, Drig), so the Pinda its own vv. 22-23 define strength by cannot be computed from this book at all. The five verdict cards are PD.04.Strength.Exalted, PD.04.Strength.RetrogradeFive, PD.04.Strength.RetrogradeInDebilitation, PD.04.Weakness.Combust (which the verse itself says overrides exaltation, own and friend's sign) and PD.04.RahuKetu.StrongSigns. What the word means here is registered at concept:strength-criterion-scope and is not the same thing vv. 22-23 mean. House strength (Bhava Bala) is deliberately NOT included -- see concept:bhava-bala-subtraction-scope -- and neither is any ordinal comparison of one graha against another; that is dep.strength-ranking.",
       "phase": "2 (engine completion)",
       "depends_on": [
         "chapter:phaladeepika.04",
@@ -142,7 +142,9 @@
         "dep.aspects"
       ],
       "effort": 8,
-      "effort_basis": "shadbala is six components, each its own calculation"
+      "effort_basis": "originally estimated at 8 on the assumption that shadbala is six components each with its own calculation; the source turned out not to supply that arithmetic, and the work actually done was a verdict extractor reading five reference cards",
+      "predicate": "strength",
+      "implemented": true
     },
     "dep.dasa": {
       "title": "vimshottari dasa engine",
@@ -447,6 +449,64 @@
       "depends_on": [],
       "effort": 1,
       "effort_basis": "nothing to build until the term is resolved or another book defines it",
+      "implemented": false
+    },
+    "dep.strength-ranking": {
+      "title": "ordinal comparison of graha strength",
+      "kind": "calculator",
+      "detail": "Which of several grahas is the *strongest*, as distinct from whether one is strong. dep.strength emits the binary verdict Phaladeepika ch. 4 vv. 4-5 state; it supplies no order, and two grahas that are both merely strong cannot be ranked from it. The chapter's one ordinal criterion is the Shadbala Pinda of vv. 22-23, whose arithmetic the same chapter withholds for three of six components, so this cannot be built from Phaladeepika alone -- it needs a source that supplies the missing component arithmetic. Identified in Milestone 22 when dep.strength was built and two cards were found to need ranking rather than the verdict they had been declared against.",
+      "phase": "2 (engine completion)",
+      "depends_on": [
+        "dep.strength",
+        "dep.shadbala-arithmetic"
+      ],
+      "effort": 13,
+      "effort_basis": "blocked on source material, not on code: no encoded book supplies a computable total strength for two grahas to be compared by",
+      "implemented": false
+    },
+    "dep.compound-friendship": {
+      "title": "compound (Panchadha maitri) friendship tiers",
+      "kind": "predicate",
+      "predicate": "compound_relationship",
+      "detail": "The five-fold friendship the classics actually use -- Adhimitra (best friend), Mitra, Sama, Shatru, Adhishatru -- formed by combining the natural relationship with the temporary (Tatkalik) one, where the planets in the 2nd, 3rd, 4th, 10th, 11th and 12th from a graha are its temporary friends and the 1st, 5th, 6th, 7th, 8th and 9th its temporary enemies. dep.dignity-friendship carries the natural half only. Phaladeepika states the whole scheme in ch. 2 and uses Adhimitra without further definition in ch. 6 v. 19 (Pushkala yoga) and ch. 10 v. 23, and the ch. 4 survey prices six of its Sthana Bala rows by it. The combination table is doctrine and is printed; encoding it is ordinary Phase 3 work, and the temporary half is then arithmetic the engine already has the placements for.",
+      "phase": "2 (engine completion)",
+      "depends_on": [
+        "dep.dignity-friendship",
+        "dep.graha-frame"
+      ],
+      "effort": 3,
+      "effort_basis": "encode the printed combination table as reference cards, then a house-offset reckoning over existing placements",
+      "implemented": false
+    },
+    "dep.kendra-togetherness": {
+      "title": "what \"together in a Kendra\" means",
+      "kind": "concept",
+      "detail": "Phaladeepika ch. 6 v. 19 conditions Pushkala yoga on the lords of the Lagna and the Moon's sign being \"together in a Kendra\". Two readings are available -- conjoined in one and the same kendra, or each independently in a kendra of its own -- and the passage does not say which. They are not equivalent and pick out different charts. This is a reading to be settled from the sources, not a capability to be built; the engine can already express either one.",
+      "phase": "3 (knowledge)",
+      "depends_on": [],
+      "effort": 1,
+      "effort_basis": "a human's reading, not an implementation",
+      "implemented": false
+    },
+    "dep.body-part-significator": {
+      "title": "house-to-body-part correspondence",
+      "kind": "predicate",
+      "predicate": "body_part_of_house",
+      "detail": "Which limb or organ each house stands for -- the Kalapurusha correspondence. Phaladeepika ch. 1 v. 4's Notes predict about \"the part of the body represented by that house\" without the store carrying any house-to-limb mapping: PD.01.SignBodyForm.Table names the four sign classes (human, quadruped, centiped, watery) and asserts no correspondence at all. A claim emitted today would name no body part. Identified in Milestone 22 as the second, independent blocker on PD.01.Kalapurusha.Strength.",
+      "phase": "3 (knowledge)",
+      "depends_on": [],
+      "effort": 2,
+      "effort_basis": "find and encode the passage that states the correspondence",
+      "implemented": false
+    },
+    "dep.shadbala-arithmetic": {
+      "title": "the Shadbala component arithmetic Phaladeepika withholds",
+      "kind": "doctrine",
+      "detail": "Three of the six components a Shadbala Pinda sums -- Yudha (planetary war), Chesta (motional) and Drig (aspectual) -- have their arithmetic explicitly withheld by Phaladeepika ch. 4, which states what they are and refers the reader elsewhere for how to compute them. Everything in the chapter that is priced in Shastyamsa or Rupas therefore terminates in a quantity this project cannot produce from any encoded book: the Pinda of vv. 22-23, the Bhava Bala formula, and the survey's own component tables. This is a source gap, not an engineering one, and it is what dep.strength was scoped *around* in Milestone 22 rather than through. Closing it needs a book that prints the missing methods -- BPHS is the obvious candidate and is not yet converted.",
+      "phase": "3 (knowledge)",
+      "depends_on": [],
+      "effort": 13,
+      "effort_basis": "convert and encode a source that supplies the three withheld methods; no amount of work on the encoded corpus can substitute",
       "implemented": false
     }
   },
@@ -2259,7 +2319,7 @@
       "what": "How Yudha Bala (planetary war) is actually computed.",
       "reason": "The source states the condition -- two of the five non-luminous grahas in the same rasi, degree and minute -- and then refers the reader to Sripati Padhati, Keshavi Jataka or Brihat Parasara Hora Shastra for the method. None of those three is in this project's corpus. The condition is encoded; the computation is absent from the source and is therefore absent here.",
       "requires": [
-        "dep.strength"
+        "dep.shadbala-arithmetic"
       ],
       "phase": "3 (knowledge)",
       "status": "deferred"
@@ -2273,7 +2333,7 @@
       "what": "Whether the printed glosses of Manda and Mandatara are transposed, and whether both are really worth 15 Shastyamsa.",
       "reason": "As printed, Manda is 'motion be increasing but be less than the medium motion' and Mandatara 'the motion be decreasing but be more than the medium motion' -- descriptions that overlap rather than succeed one another, and that read against the names (slow, slower) look swapped. Both are given the same value, and the wider ladder is non-monotonic as printed (fast 45, faster 30). Recorded exactly as printed. Correcting it would mean importing another book's Chesta Bala table, which is precisely what the store forbids.",
       "requires": [
-        "dep.strength"
+        "dep.shadbala-arithmetic"
       ],
       "phase": "3 (knowledge)",
       "status": "deferred"
@@ -2287,7 +2347,7 @@
       "what": "What the malefic-aspect subtraction attaches to when benefic aspect predominates.",
       "reason": "'Deduct quantum of malefic aspect from it and the strength of the lord of the house and add Bhawa Dik Bala' admits two readings: subtract from the benefic quantum alone, or from that quantum plus the lord's strength. The sibling paragraph covering the malefic-heavy case is unambiguous and implies the first, which is what the card records -- but that is an inference from a neighbouring sentence, not a statement, and it is registered rather than treated as settled.",
       "requires": [
-        "dep.strength"
+        "dep.shadbala-arithmetic"
       ],
       "phase": "3 (knowledge)",
       "status": "deferred"
@@ -2399,7 +2459,7 @@
       "what": "Mars's Sthan Bala figure in the other-authorities threshold table, which makes the row fail to sum.",
       "reason": "Six of the seven rows total exactly at 60 Shastyamsa to the Rupa. Mars's does not: 1-16 + 0-30 + 0-40 + 1-7 + 0-20 = 3-53, against a printed total of 4-13. Saturn's row is identical in its other four cells, carries 1-36, and does sum -- so one digit in one cell would repair it. The page was rendered and inspected (image p0050): the table is cleanly set, every column aligns, and 1-16 is genuinely what is printed. Preserved as printed, exactly as the chapter 23 Ashtakavarga chart that totals 44 instead of 48 bindus is.",
       "requires": [
-        "dep.strength"
+        "dep.shadbala-arithmetic"
       ],
       "phase": "3 (knowledge)",
       "status": "deferred"
@@ -2482,6 +2542,34 @@
       "paragraphs": [
         161
       ]
+    },
+    {
+      "id": "concept:retrograde-combust-collision",
+      "kind": "concept",
+      "book": "phaladeepika",
+      "chapter": 4,
+      "locus": "ch. 4 v. 5 against ch. 4 v. 4 (printed p.43)",
+      "what": "What a graha that is both retrograde and combust is, when one verse calls it strong and the one before it calls it weak.",
+      "reason": "Found in Milestone 22 by building the extractor, not by reading the chapter: it is a collision between two cards that only a chart produces. Verse 5 says the five non-luminous planets are strong when retrograde, with no further condition. Verse 4 says a planet whose rays are eclipsed is weak \"even though he may be posited in his sign of exaltation, in his own or a friend's sign\" -- and that override list names dignities, not retrogression, so it does not settle the case. Verse 4's own retrograde clause points the other way, conditioning its rescue on the rays being unaffected, but reading that condition into verse 5 would be the engine narrowing a verse the book states flatly. The extractor therefore emits NO strength fact for such a graha and reports the collision, rather than choosing. This is common enough to matter: retrograde Mercury and Venus are frequently combust. Closely related to concept:retrograde-rescue-scope, which is the same tension between chapters rather than within one.",
+      "requires": [
+        "dep.adjudication"
+      ],
+      "phase": "4 (integration)",
+      "status": "deferred"
+    },
+    {
+      "id": "concept:strength-is-not-bhava-strength",
+      "kind": "concept",
+      "book": "phaladeepika",
+      "chapter": 4,
+      "locus": "ch. 4 vv. 4-5 against vv. 24-26 (printed pp.43, 50-51)",
+      "what": "That the strength capability covers grahas only, not houses.",
+      "reason": "Recorded in Milestone 22 so the gap is visible rather than inferred from an absence. The verdicts vv. 4-5 state are about planets. Bhava Bala -- the strength of a house -- is stated in the chapter too, but only as a formula over components the chapter does not supply the arithmetic for, and its Dik Bala half further needs a Bhava madhya that whole-sign houses do not have. So no bhava_strength fact exists, no card conditions on one, and any future rule about a strong house is inert on arrival until a source supplies the missing components. See also concept:bhava-bala-subtraction-scope.",
+      "requires": [
+        "dep.strength"
+      ],
+      "phase": "2 (engine completion)",
+      "status": "deferred"
     }
   ]
 }
