@@ -82,6 +82,14 @@ DEMO = BirthRecord(
     latitude=10.7870, longitude=79.1378, place_name="Thanjavur",
     time_precision="minute", time_source="certificate", sex="male")
 
+# Saturn is exalted in Libra and in a kendra here, so PD.06.Sasa fires under
+# Milestone 24's added v.9 strength gate -- the demo chart no longer does
+# (PD.06.Ruchaka's Mars there is merely own-sign, which carries no strength
+# verdict). Found by scanning; the smallest real instant that still exercises
+# the parallel_of link to PD.06.PanchaMahapurusha.JatakaParijata now that the
+# demo chart cannot.
+MAHAPURUSHA = _mumbai("1960-05-16", "08:15")
+
 
 @pytest.fixture(scope="module")
 def cards():
@@ -101,6 +109,11 @@ def collision():
 @pytest.fixture(scope="module")
 def demo():
     return run(DEMO)
+
+
+@pytest.fixture(scope="module")
+def mahapurusha():
+    return run(MAHAPURUSHA)
 
 
 @pytest.fixture(scope="module")
@@ -254,15 +267,21 @@ def test_the_collision_appears_in_both_registers_without_being_decided(collision
 
 # --- parallel authorities ---------------------------------------------------
 
-def test_another_books_definition_is_shown_without_asserting_agreement(demo):
+def test_another_books_definition_is_shown_without_asserting_agreement(mahapurusha):
     """`parallel_of` records that a second authority spoke, not that it agreed.
 
     One of these cards reports a *different* condition for the same yoga, so
     labelling the relation corroboration would manufacture a concord the store
     never claims. The relationship is that another named authority is on
     record; the reader compares the two statements.
+
+    Uses the `mahapurusha` fixture, not `demo`: Milestone 24 added v.9's
+    strength gate to all five Mahapurusha cards, and the demo chart's Mars
+    (own sign, not exalted, not retrograde) no longer carries a strength
+    verdict, so PD.06.Ruchaka no longer fires there and this relationship
+    no longer appears on it.
     """
-    hits = _by_cards(demo.adjudications, "PD.06.PanchaMahapurusha.JatakaParijata")
+    hits = _by_cards(mahapurusha.adjudications, "PD.06.PanchaMahapurusha.JatakaParijata")
     assert hits
     adj = hits[0]
     assert adj.relationship == PARALLEL_AUTHORITY

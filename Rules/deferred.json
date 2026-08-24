@@ -146,6 +146,16 @@
       "predicate": "strength",
       "implemented": true
     },
+    "dep.lagna-strength": {
+      "title": "strength verdict for the Lagna/Ascendant",
+      "kind": "predicate",
+      "detail": "Whether the Lagna itself is 'strong' or 'weak', the way dep.strength already reads a strong/weak verdict for a graha. Identified in Milestone 24 while encoding passage:phaladeepika.06.p009's disjunctive 'the Lagna or the Moon... without blemish' clause: the Moon side is testable today (the Moon is one of the nine grahas dep.strength covers) but the Lagna side needs two things dep.strength did not supply. Engine: the Lagna is a scalar (ChartBundle.ascendant_sign), never a member of chart.bodies, so no dignity/combustion/retrograde-shaped extractor produces a fact for it without new code. Doctrine: ch.4 vv.4-5, the only source dep.strength reads, state verdicts only about grahas; no encoded passage states a Lagna-specific strong/weak verdict for the engine to read even if the plumbing existed. Both gaps are real; neither is closed by the other.",
+      "phase": "2 (engine completion)",
+      "depends_on": [],
+      "effort": 5,
+      "effort_basis": "new extractor shape for a non-graha subject, plus whatever source eventually states a Lagna-specific verdict -- costed as a guess until that source is identified",
+      "implemented": false
+    },
     "dep.dasa": {
       "title": "vimshottari dasa engine",
       "kind": "calculator",
@@ -1194,17 +1204,31 @@
       "kind": "passage",
       "book": "phaladeepika",
       "chapter": 6,
-      "locus": "v. 9 (p.55-56)",
-      "what": "the blanket condition that every yoga in the chapter needs strength in the Lagna/Moon and the yoga-forming planets",
-      "reason": "Applies to all named yogas in the chapter, not just the five Pancha Mahapurusha ones encoded in this slice. Recorded once here rather than duplicated per card; PD.06.Ruchaka, PD.06.Bhadra, PD.06.Hamsa, PD.06.Malavya and PD.06.Sasa each cross-reference this entry in their own note rather than repeating it. Untestable until dep.strength exists.",
+      "locus": "v. 9 (Notes), printed p.55",
+      "what": "the blanket condition that the Pancha Mahapurusha Yogas require (the Lagna or the Moon) and the yoga-forming planets to be 'without blemish'",
+      "reason": "RESOLVED (Milestone 24), with real remainder tracked below. Read against the primary text rather than trusted from the prior paraphrase: the sentence sits inside the Pancha Mahapurusha section (immediately after the Jataka Parijata/Saravali corroboration and immediately before the worked-example introduction for those same five yogas), so it is textually anchored to those five yogas -- the prior 'every yoga in the chapter' wording was the encoder's own broader gloss, not something this sentence states, and is corrected here. The scope is also disjunctive ('the Lagna OR the Moon', not 'and'), conjoined with the yoga-forming planets: (Lagna-strong OR Moon-strong) AND (yoga-planets without blemish). 'Without blemish' bundles four sub-conditions: vested with strength, not conjunct a malefic, not combust, not hemmed between malefics (papakartari). Two of the four are now encoded directly on PD.06.Ruchaka/.Bhadra/.Hamsa/.Malavya/.Sasa's own conditions, for the yoga-forming planet only: strength(graha,strong) (dep.strength, ch.4 vv.4-5) and a correlated negation that no conjunct graha is malefic ('not combust' is already subsumed -- PD.04.Weakness.Combust forces a weak verdict on any combust graha). The Lagna-or-Moon clause and the papakartari clause remain unencoded and are tracked as their own items: see concept:p009-lagna-or-moon-clause (new) and dep.hemmed-between (existing, still unimplemented).",
       "requires": [
-        "dep.strength"
+        "dep.none"
       ],
       "phase": "2 (engine completion)",
-      "status": "deferred",
+      "status": "resolved",
       "paragraphs": [
         9
       ]
+    },
+    {
+      "id": "concept:p009-lagna-or-moon-clause",
+      "kind": "concept",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "v. 9 (Notes), printed p.55 -- see passage:phaladeepika.06.p009",
+      "what": "the disjunctive '(Lagna or Moon) without blemish' half of v.9's blanket condition, on top of the yoga-forming-planets half Milestone 24 encoded",
+      "reason": "The Moon side is trivially testable (the Moon is one of the nine grahas dep.strength already covers) but the Lagna side is not. This is not just an engine gap: the Lagna is a scalar in this engine (ChartBundle.ascendant_sign, exposed only via the sign-only lagna_sign(sign) predicate, never a member of chart.bodies), so no extractor derives dignity/combustion/retrograde facts for it -- and no encoded passage states a Lagna-specific strong/weak verdict the way ch.4 vv.4-5 state one for grahas, so even new plumbing would have no doctrine to read. Writing 'strength(Moon,strong) OR strength(Lagna,strong)' into a card today would be honest but permanently half-dead (the Lagna arm can never match any fact), so it was left off PD.06.Ruchaka/.Bhadra/.Hamsa/.Malavya/.Sasa's conditions entirely rather than encoded as a disjunction with one arm silently unreachable.",
+      "requires": [
+        "dep.lagna-strength"
+      ],
+      "phase": "2 (engine completion)",
+      "status": "deferred"
     },
     {
       "id": "passage:phaladeepika.06.p010",
@@ -1649,16 +1673,32 @@
       "kind": "passage",
       "book": "phaladeepika",
       "chapter": 6,
-      "locus": "v. 70 and colophon (p.82-83)",
-      "what": "A second, unrelated Duryoga (weak/strong 6th-8th-12th vs. 1st-4th-9th-10th lord test) and the chapter's closing formula",
-      "reason": "Verse 70 needs dep.strength directly (\"vested with strength\" / \"weak or combust\" gates both halves of the test) and is not testable until it exists. The colophon (\"Thus ends the sixth chapter...\") is narrative, not doctrine, matching every other chapter's closing formula.",
+      "locus": "v. 70 (printed p.82)",
+      "what": "A second, unrelated Duryoga (weak/strong 6th-8th-12th vs. 1st-4th-9th-10th lord test), distinct from the 10th-house 'Duryoga' in the still-unencoded vv.57-69 dusthana-lord cluster (passage:phaladeepika.06.p202)",
+      "reason": "RESOLVED (Milestone 24). Encoded as PD.06.Duryoga (the named configuration: 6th/8th/12th lords strong, in kendra or trikona; 1st/4th/9th/10th lords weak or combust, in a dusthana) and PD.06.Duryoga.Reverse (the verse's own unnamed reverse configuration and its stated effect). 'Weak or combust' is tested as strength=weak OR combust(graha) directly, since the verse names combustion as an independent alternative rather than routing it through the strength verdict alone -- this also means the ch.4 retrograde-combust collision cannot silently block this card the way it blocks a bare strength(g,weak) test. Uses only existing predicates (lord_of_house, strength, combust, in_house_class); no new engine capability. The colophon that followed this verse in the same paragraph range is split out to its own entry, passage:phaladeepika.06.colophon.",
       "requires": [
-        "dep.strength"
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "resolved",
+      "paragraphs": [
+        233
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.06.colophon",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "ch. 6 colophon (printed p.82)",
+      "what": "The chapter's closing formula, marking the end of the sixth chapter on Yogas.",
+      "reason": "Narrative, not doctrine, matching every other chapter's closing formula and treated the same way as chapter 4's (passage:phaladeepika.04.colophon). Split out of passage:phaladeepika.06.p233 in Milestone 24 so that entry's resolution reflects only the doctrine it actually gained (v.70) rather than bundling narrative text under dep.strength.",
+      "requires": [
+        "dep.none"
       ],
       "phase": "3 (knowledge)",
       "status": "deferred",
       "paragraphs": [
-        233,
         234
       ]
     },
@@ -2543,7 +2583,7 @@
       "chapter": 4,
       "locus": "ch. 4 colophon (printed p.50)",
       "what": "The chapter's closing formula, marking the end of the fourth chapter on the determination of Shadbalas.",
-      "reason": "Narrative, not doctrine, matching every other chapter's closing formula and treated the same way as chapter 6's (passage:phaladeepika.06.p233).",
+      "reason": "Narrative, not doctrine, matching every other chapter's closing formula and treated the same way as chapter 6's (passage:phaladeepika.06.colophon).",
       "requires": [
         "dep.none"
       ],

@@ -308,18 +308,52 @@ def test_chapter_six_citation_cards_are_reference_not_claims(cards):
         assert card.conditions == {"all": []}
 
 
-def test_golden_ruchaka_fires_for_mars_in_its_own_sign_in_a_kendra():
-    """Mars sits in Aries, its own sign, in the 4th house -- a kendra --
-    in the golden chart. Ruchaka Yoga, among the Mahapurusha family."""
+def test_golden_ruchaka_no_longer_fires_for_mars_in_own_sign_without_strength():
+    """Mars sits in Aries, its own sign, in the 4th house -- a kendra -- in
+    the golden chart, satisfying Ruchaka's own naming condition. Milestone 24
+    added v.9's blanket strength requirement (passage:phaladeepika.06.p009) as
+    an additional clause on all five Mahapurusha cards, and ch.4 vv.4-5's five
+    verdict cards do not independently state "own sign => strong" -- only
+    exaltation, retrogression (of the five non-luminaries), retrograde-in-
+    debilitation and the nodes' own signs do. Mars here is not exalted and not
+    retrograde, so no strength fact is emitted for it at all (neither strong
+    nor weak), and Ruchaka -- along with the rest of the Mahapurusha family --
+    now correctly withholds the claim. This is the real, evidenced consequence
+    of the source's own additional gate, not a regression: the golden chart is
+    the project's own negative control for it.
+    """
     claims = {c.derived["rule_card"]: c for c in run(DEMO).claims
              if c.derived["rule_card"] in ("PD.06.Ruchaka", "PD.06.Bhadra",
                                            "PD.06.Hamsa", "PD.06.Malavya",
                                            "PD.06.Sasa")}
-    assert set(claims) == {"PD.06.Ruchaka"}
-    assert claims["PD.06.Ruchaka"].derived["variables"] == {}
-    quantities = claims["PD.06.Ruchaka"].astronomical["quantities"]
-    assert any(q["name"] == "Mars.lon_sidereal" and q["sign"] == "Aries"
-              for q in quantities)
+    assert set(claims) == set()
+
+
+def test_golden_ruchaka_fires_once_mars_is_actually_vested_with_strength(provider, cards):
+    """The positive control for the same finding: move Mars from Aries (own
+    sign, no strength verdict) to Capricorn, its exaltation sign, keeping
+    everything else on the golden chart exactly as the ephemeris produced it
+    (the `place` convention established in test_strength.py -- edge cases here
+    are placements, not fixtures). Capricorn is the golden chart's own 1st
+    house (kendra) for this ascendant, so both of Ruchaka's own naming clauses
+    (own-or-exalted dignity, kendra) and v.9's added strength clause are
+    satisfied, and the claim returns.
+    """
+    from Engine.doctrine import Doctrine
+    from Engine.tests.test_strength import place
+
+    base = compute_chart(resolve_birth(DEMO, provider), provider)
+    moved = place(base, "Mars", lon=280.0, retrograde=False)  # Capricorn
+    assert moved.bodies["Mars"].sign == "Capricorn"
+    assert moved.bodies["Mars"].house == 1
+
+    doctrine = Doctrine.from_cards(cards)
+    facts = extract_facts(moved, doctrine)
+    claims, _ = activate(moved, facts, cards)
+    fired = {c.derived["rule_card"] for c in claims}
+    assert "PD.06.Ruchaka" in fired
+    ruchaka = next(c for c in claims if c.derived["rule_card"] == "PD.06.Ruchaka")
+    assert "strength(Mars,strong)" in ruchaka.derived["conditions_satisfied"]
 
 
 def test_golden_adhama_and_sakata_fire_from_slice_three():
@@ -661,14 +695,13 @@ def test_slice_runs_and_verifies():
     # -- one from the Moon-sign transfer (dep.rule-transfer), eight from
     # dep.dignity-friendship (three grahas classed friend, one neutral, and
     # four solutions of PD.10.WifeDeprived.Lord7Afflicted's own quantified
-    # "any": three inimical, one combust), Ruchaka Yoga (Mars in Aries, its
-    # own sign, in the 4th, a kendra), Adhama Yoga (the Moon in a kendra from
-    # the Sun), and Sakata Yoga (the Moon in the 6th from Jupiter, not
+    # "any": three inimical, one combust), Adhama Yoga (the Moon in a kendra
+    # from the Sun), and Sakata Yoga (the Moon in the 6th from Jupiter, not
     # cancelled here); plus two from chapter 6 slice 7's dispositor-chain
     # yogas (v.35-36), both released by the same underlying fact -- Saturn
     # (the lagna lord) sits in the 11th, whose lord Mars sits in the 4th (a
-    # kendra) in Mars's own sign, which is the Ruchaka placement above:
-    # Parvata Yoga (Mars, ?g2, tested directly) and Kahala Yoga -- the
+    # kendra) in Mars's own sign, the same placement Ruchaka's naming clause
+    # tests: Parvata Yoga (Mars, ?g2, tested directly) and Kahala Yoga -- the
     # dispositor one, PD.06.Kahala.Dispositor, distinct from the Parivartana
     # PD.06.Kahala of v.32-34 -- which takes the one further hop and finds
     # Mars is its own dispositor there, so ?g3 is Mars again; plus one more
@@ -677,8 +710,21 @@ def test_slice_runs_and_verifies():
     # and sits in the 1st (an auspicious house), satisfying PD.06.Shankha
     # with the same graha filling both the kendra-lord and trikona-lord
     # roles. PD.06.RajaYoga does not fire here -- the 9th and 10th lords
-    # are not together. This number tracks the rule store: it must change
+    # are not together. Ruchaka Yoga itself does NOT fire on this chart (see
+    # below) even though Mars sits in Aries, its own sign, in the 4th: that
+    # placement satisfies the yoga's own naming clause but not v.9's added
+    # strength clause. This number tracks the rule store: it must change
     # when doctrine is added, and never on its own.
+    #
+    # 41 -> 40 in Milestone 24: PD.06.Ruchaka stopped firing on this chart.
+    # v.9's blanket strength condition (passage:phaladeepika.06.p009) was
+    # added to all five Pancha Mahapurusha cards; ch.4 vv.4-5's verdict cards
+    # do not independently state "own sign => strong" (only exaltation,
+    # retrogression, retrograde-in-debilitation and the nodes' own signs do),
+    # so Mars here -- own sign, not exalted, not retrograde -- gets no
+    # strength fact at all, and Ruchaka correctly withholds the claim. See
+    # test_golden_ruchaka_no_longer_fires_for_mars_in_own_sign_without_strength
+    # and its positive-control sibling above. Nothing else on this chart moved.
     #
     # 35 -> 41 in Milestone 20, when BJ.02.Nature.Benefics supplied the
     # natural-benefic classification of Jupiter and Venus that no encoded
@@ -689,10 +735,10 @@ def test_slice_runs_and_verifies():
     # two principal benefics were unclassified. Nothing that fired before
     # stopped firing: the change is purely additive, which is what adding a
     # classification (rather than altering one) should do.
-    assert r.verification.checks["claims"] == 41
+    assert r.verification.checks["claims"] == 40
     for k in ("quote_integrity_passed", "conditions_reevaluated_passed",
               "numeric_grounding_passed"):
-        assert r.verification.checks[k] == 41
+        assert r.verification.checks[k] == 40
 
 
 def test_every_claim_has_all_four_provenance_links():
@@ -716,7 +762,7 @@ def test_quoted_output_adds_no_words():
     r = run(DEMO)
     by_id = {c.claim_id: c for c in r.claims}
     rules = [s for s in r.sentences if s.part == "rules"]
-    assert len(rules) == 41  # see test_slice_runs_and_verifies for the 35 -> 41 move
+    assert len(rules) == 40  # see test_slice_runs_and_verifies for the 41 -> 40 move
     for s in rules:
         assert s.text == by_id[s.claim_ids[0]].passage["quote_display"]
 

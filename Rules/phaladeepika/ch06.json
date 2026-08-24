@@ -61,6 +61,30 @@
               "graha": "Mars",
               "klass": "kendra"
             }
+          },
+          {
+            "strength": {
+              "graha": "Mars",
+              "strength": "strong"
+            }
+          },
+          {
+            "not": {
+              "all": [
+                {
+                  "conjunct": {
+                    "graha": "Mars",
+                    "other": "?m"
+                  }
+                },
+                {
+                  "nature": {
+                    "graha": "?m",
+                    "nature": "malefic"
+                  }
+                }
+              ]
+            }
           }
         ]
       },
@@ -76,11 +100,11 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": "tarunrameshphotography + Claude (own/exaltation dignity + kendra for Mars matches v.1's naming clause exactly)",
+        "verified_by": "tarunrameshphotography + Claude (Milestone 24: added v.9's strength and not-conjunct-with-malefic tests -- passage:phaladeepika.06.p009, read against the primary text -- as additional required clauses beyond the yoga's own own/exaltation+kendra naming condition. Rewriting a condition is an interpretive act; verified against the source and against a real chart showing the own-sign, non-exalted, non-retrograde branch now correctly withholds the claim)",
         "verified_date": "2026-08-24"
       },
       "kind": "yoga",
-      "note": "Ruchaka Yoga: Mars in its own sign or exaltation sign, in a kendra. Verse 9's blanket strength caveat (passage:phaladeepika.06.p009) is not tested here -- the engine has no dep.strength -- so this card fires on placement alone, which is not the whole of what the chapter says. Corroborated, not restated, by PD.06.PanchaMahapurusha.JatakaParijata and .Saravali.",
+      "note": "Ruchaka Yoga: Mars in its own sign or exaltation sign, in a kendra, vested with strength (ch.4 vv.4-5's verdict) and not conjunct a malefic -- v.9's blanket condition (passage:phaladeepika.06.p009), textually anchored to these five Pancha Mahapurusha yogas, not the whole chapter. Still not tested: the disjunctive Lagna-or-Moon clause (Lagna has no strength verdict in this store -- dep.lagna-strength, unimplemented) and papakartari/hemmed-between-malefics (dep.hemmed-between, unimplemented). Corroborated, not restated, by PD.06.PanchaMahapurusha.JatakaParijata and .Saravali.",
       "exclusions": [],
       "parallel_of": [
         "PD.06.PanchaMahapurusha.JatakaParijata",
@@ -146,6 +170,30 @@
               "graha": "Mercury",
               "klass": "kendra"
             }
+          },
+          {
+            "strength": {
+              "graha": "Mercury",
+              "strength": "strong"
+            }
+          },
+          {
+            "not": {
+              "all": [
+                {
+                  "conjunct": {
+                    "graha": "Mercury",
+                    "other": "?m"
+                  }
+                },
+                {
+                  "nature": {
+                    "graha": "?m",
+                    "nature": "malefic"
+                  }
+                }
+              ]
+            }
           }
         ]
       },
@@ -161,11 +209,11 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": "tarunrameshphotography + Claude (own/exaltation dignity + kendra for Mercury matches v.1's naming clause exactly)",
+        "verified_by": "tarunrameshphotography + Claude (Milestone 24: added v.9's strength and not-conjunct-with-malefic tests -- passage:phaladeepika.06.p009, read against the primary text -- as additional required clauses beyond the yoga's own own/exaltation+kendra naming condition. Rewriting a condition is an interpretive act; verified against the source and against a real chart showing the own-sign, non-exalted, non-retrograde branch now correctly withholds the claim)",
         "verified_date": "2026-08-24"
       },
       "kind": "yoga",
-      "note": "Bhadra Yoga: Mercury in its own sign or exaltation sign, in a kendra. Verse 9's blanket strength caveat (passage:phaladeepika.06.p009) is not tested here -- the engine has no dep.strength -- so this card fires on placement alone, which is not the whole of what the chapter says. Corroborated, not restated, by PD.06.PanchaMahapurusha.JatakaParijata and .Saravali.",
+      "note": "Bhadra Yoga: Mercury in its own sign or exaltation sign, in a kendra, vested with strength (ch.4 vv.4-5's verdict) and not conjunct a malefic -- v.9's blanket condition (passage:phaladeepika.06.p009), textually anchored to these five Pancha Mahapurusha yogas, not the whole chapter. Still not tested: the disjunctive Lagna-or-Moon clause (Lagna has no strength verdict in this store -- dep.lagna-strength, unimplemented) and papakartari/hemmed-between-malefics (dep.hemmed-between, unimplemented). Corroborated, not restated, by PD.06.PanchaMahapurusha.JatakaParijata and .Saravali.",
       "exclusions": [],
       "parallel_of": [
         "PD.06.PanchaMahapurusha.JatakaParijata",
@@ -231,6 +279,30 @@
               "graha": "Jupiter",
               "klass": "kendra"
             }
+          },
+          {
+            "strength": {
+              "graha": "Jupiter",
+              "strength": "strong"
+            }
+          },
+          {
+            "not": {
+              "all": [
+                {
+                  "conjunct": {
+                    "graha": "Jupiter",
+                    "other": "?m"
+                  }
+                },
+                {
+                  "nature": {
+                    "graha": "?m",
+                    "nature": "malefic"
+                  }
+                }
+              ]
+            }
           }
         ]
       },
@@ -246,11 +318,11 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": "tarunrameshphotography + Claude (own/exaltation dignity + kendra for Jupiter matches v.1's naming clause exactly)",
+        "verified_by": "tarunrameshphotography + Claude (Milestone 24: added v.9's strength and not-conjunct-with-malefic tests -- passage:phaladeepika.06.p009, read against the primary text -- as additional required clauses beyond the yoga's own own/exaltation+kendra naming condition. Rewriting a condition is an interpretive act; verified against the source and against a real chart showing the own-sign, non-exalted, non-retrograde branch now correctly withholds the claim)",
         "verified_date": "2026-08-24"
       },
       "kind": "yoga",
-      "note": "Hamsa Yoga: Jupiter in its own sign or exaltation sign, in a kendra. Verse 9's blanket strength caveat (passage:phaladeepika.06.p009) is not tested here -- the engine has no dep.strength -- so this card fires on placement alone, which is not the whole of what the chapter says. Corroborated, not restated, by PD.06.PanchaMahapurusha.JatakaParijata and .Saravali.",
+      "note": "Hamsa Yoga: Jupiter in its own sign or exaltation sign, in a kendra, vested with strength (ch.4 vv.4-5's verdict) and not conjunct a malefic -- v.9's blanket condition (passage:phaladeepika.06.p009), textually anchored to these five Pancha Mahapurusha yogas, not the whole chapter. Still not tested: the disjunctive Lagna-or-Moon clause (Lagna has no strength verdict in this store -- dep.lagna-strength, unimplemented) and papakartari/hemmed-between-malefics (dep.hemmed-between, unimplemented). Corroborated, not restated, by PD.06.PanchaMahapurusha.JatakaParijata and .Saravali.",
       "exclusions": [],
       "parallel_of": [
         "PD.06.PanchaMahapurusha.JatakaParijata",
@@ -316,6 +388,30 @@
               "graha": "Venus",
               "klass": "kendra"
             }
+          },
+          {
+            "strength": {
+              "graha": "Venus",
+              "strength": "strong"
+            }
+          },
+          {
+            "not": {
+              "all": [
+                {
+                  "conjunct": {
+                    "graha": "Venus",
+                    "other": "?m"
+                  }
+                },
+                {
+                  "nature": {
+                    "graha": "?m",
+                    "nature": "malefic"
+                  }
+                }
+              ]
+            }
           }
         ]
       },
@@ -331,11 +427,11 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": "tarunrameshphotography + Claude (own/exaltation dignity + kendra for Venus matches v.1's naming clause exactly)",
+        "verified_by": "tarunrameshphotography + Claude (Milestone 24: added v.9's strength and not-conjunct-with-malefic tests -- passage:phaladeepika.06.p009, read against the primary text -- as additional required clauses beyond the yoga's own own/exaltation+kendra naming condition. Rewriting a condition is an interpretive act; verified against the source and against a real chart showing the own-sign, non-exalted, non-retrograde branch now correctly withholds the claim)",
         "verified_date": "2026-08-24"
       },
       "kind": "yoga",
-      "note": "Malavya Yoga: Venus in its own sign or exaltation sign, in a kendra. Verse 9's blanket strength caveat (passage:phaladeepika.06.p009) is not tested here -- the engine has no dep.strength -- so this card fires on placement alone, which is not the whole of what the chapter says. Corroborated, not restated, by PD.06.PanchaMahapurusha.JatakaParijata and .Saravali.",
+      "note": "Malavya Yoga: Venus in its own sign or exaltation sign, in a kendra, vested with strength (ch.4 vv.4-5's verdict) and not conjunct a malefic -- v.9's blanket condition (passage:phaladeepika.06.p009), textually anchored to these five Pancha Mahapurusha yogas, not the whole chapter. Still not tested: the disjunctive Lagna-or-Moon clause (Lagna has no strength verdict in this store -- dep.lagna-strength, unimplemented) and papakartari/hemmed-between-malefics (dep.hemmed-between, unimplemented). Corroborated, not restated, by PD.06.PanchaMahapurusha.JatakaParijata and .Saravali.",
       "exclusions": [],
       "parallel_of": [
         "PD.06.PanchaMahapurusha.JatakaParijata",
@@ -401,6 +497,30 @@
               "graha": "Saturn",
               "klass": "kendra"
             }
+          },
+          {
+            "strength": {
+              "graha": "Saturn",
+              "strength": "strong"
+            }
+          },
+          {
+            "not": {
+              "all": [
+                {
+                  "conjunct": {
+                    "graha": "Saturn",
+                    "other": "?m"
+                  }
+                },
+                {
+                  "nature": {
+                    "graha": "?m",
+                    "nature": "malefic"
+                  }
+                }
+              ]
+            }
           }
         ]
       },
@@ -416,11 +536,11 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": "tarunrameshphotography + Claude (own/exaltation dignity + kendra for Saturn matches v.1's naming clause exactly)",
+        "verified_by": "tarunrameshphotography + Claude (Milestone 24: added v.9's strength and not-conjunct-with-malefic tests -- passage:phaladeepika.06.p009, read against the primary text -- as additional required clauses beyond the yoga's own own/exaltation+kendra naming condition. Rewriting a condition is an interpretive act; verified against the source and against a real chart showing the own-sign, non-exalted, non-retrograde branch now correctly withholds the claim)",
         "verified_date": "2026-08-24"
       },
       "kind": "yoga",
-      "note": "Sasa Yoga: Saturn in its own sign or exaltation sign, in a kendra. Verse 9's blanket strength caveat (passage:phaladeepika.06.p009) is not tested here -- the engine has no dep.strength -- so this card fires on placement alone, which is not the whole of what the chapter says. Corroborated, not restated, by PD.06.PanchaMahapurusha.JatakaParijata and .Saravali.",
+      "note": "Sasa Yoga: Saturn in its own sign or exaltation sign, in a kendra, vested with strength (ch.4 vv.4-5's verdict) and not conjunct a malefic -- v.9's blanket condition (passage:phaladeepika.06.p009), textually anchored to these five Pancha Mahapurusha yogas, not the whole chapter. Still not tested: the disjunctive Lagna-or-Moon clause (Lagna has no strength verdict in this store -- dep.lagna-strength, unimplemented) and papakartari/hemmed-between-malefics (dep.hemmed-between, unimplemented). Corroborated, not restated, by PD.06.PanchaMahapurusha.JatakaParijata and .Saravali.",
       "exclusions": [],
       "parallel_of": [
         "PD.06.PanchaMahapurusha.JatakaParijata",
@@ -530,6 +650,49 @@
         "PD.06.Sasa",
         "PD.06.PanchaMahapurusha.JatakaParijata"
       ]
+    },
+    {
+      "id": "PD.06.PanchaMahapurusha.StrengthCondition",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "1-5 (Notes)",
+        "page_anchor": "phaladeepika/p0055",
+        "tier": 2,
+        "quote": "But it is imperative that Yogas will give the promised effects only when the Lagna or the Moon and the Yoga forming planets are without blemish. In other words they are vested with strength and are not associated with or in conjunction with malefics, are not combust and not placed between malefics.",
+        "quote_display": "But it is imperative that Yogas will give the promised effects only when the Lagna or the Moon and the Yoga forming planets are without blemish. In other words they are vested with strength and are not associated with or in conjunction with malefics, are not combust and not placed between malefics.",
+        "quote_sha256": "768c375ded0bebe45443f77730a493c4c5dd32cac28dbee054ead1037664c753",
+        "char_span": [
+          98531,
+          98830
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Pancha Mahapurusha"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (Milestone 24: the card's own conditions are trivially empty -- reference/table shape -- but the note carries a real interpretive judgment, the scope determination read against the primary text, so it is signed by hand rather than stamped as automated structural)",
+        "verified_date": "2026-08-24"
+      },
+      "kind": "yoga",
+      "activation": "reference",
+      "note": "passage:phaladeepika.06.p009. Sits in the same undifferentiated Notes commentary as PD.06.PanchaMahapurusha.JatakaParijata/.Saravali (paragraphs 7-8), immediately before this line, and immediately before 'As the names of Yogas denote the persons with such Yogas at birth become Mahapurushas...' and the translator's introduction to worked examples of the same five yogas. Textually anchored to the five Pancha Mahapurusha yogas -- not, as deferred.json previously paraphrased it, 'every yoga in the chapter' (see that entry's corrected wording). The scope is disjunctive, 'the Lagna OR the Moon' (not 'and'), conjoined with the yoga-forming planets: (Lagna-strong OR Moon-strong) AND (yoga-planets without blemish). Its 'without blemish' gloss bundles four sub-conditions: vested with strength, not conjunct/associated with malefics, not combust, not hemmed between malefics (papakartari). Milestone 24 encodes two of these four directly onto PD.06.Ruchaka/.Bhadra/.Hamsa/.Malavya/.Sasa's own conditions, for the yoga-forming planet only: strength(graha,strong) (ch.4 vv.4-5's verdict; 'not combust' is already subsumed, since PD.04.Weakness.Combust forces a weak verdict on any combust graha) and a correlated negation that no conjunct graha is malefic. Not encoded, and not asserted: the Lagna-or-Moon clause (the Lagna carries no strength verdict in this engine or doctrine -- Rules/deferred.json dep.lagna-strength, unimplemented, new this milestone) and papakartari/hemmed-between-malefics (Rules/deferred.json dep.hemmed-between, unimplemented). Never becomes a claim itself.",
+      "exclusions": []
     },
     {
       "id": "PD.06.Chamara",
@@ -8168,6 +8331,477 @@
       },
       "kind": "yoga",
       "note": "Shankha Yoga (v.37, unnumbered second half): the general form of which PD.06.RajaYoga's 9th/10th test is one specific instance -- any kendra lord (?g1, house ?hk in 1/4/7/10) and any trikona lord (?g2, house ?ht in 5/9) occupying, together, one house (?h) classed 'auspicious' (see PD.06.RajaYoga's note for why 'auspicious house' is read as the Chapter-1-v.17 definition rather than narrowed to kendra-or-trikona). Because the 9th house is itself a trikona and the 10th a kendra, every chart satisfying PD.06.RajaYoga also satisfies this card -- both fire together on such a chart, and that overlap is the source's own structure (a specific case named alongside its general case in the same verse), not a card-authoring error, so no exclusion is added between the two. Unlike the 9th/10th pair, ?g1 and ?g2 here are not guaranteed distinct: one graha can lord both a kendra and a trikona sign at once (e.g. Capricorn lagna: Venus lords the 5th, a trikona, and the 10th, a kendra), so this card can in principle be satisfied by a single graha 'paired' with itself. No distinctness constraint is added, matching this store's existing convention of leaving two independently-bound roles unconstrained when the source does not itself say the roles must be different grahas (see PD.06.Lakshmi's note on Venus and the 9th lord). No new engine capability: lord_of_house, in_house and house_class, joined through shared house and graha variables using the same generic binding the engine already performs for every other multi-hop card in this chapter.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.06.Duryoga",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "70",
+        "page_anchor": "phaladeepika/p0082",
+        "tier": 1,
+        "quote": "70. If the lords of the 6th, 8th and 12th houses vested with strength are posited in Kendra or Trikona and the lords of 1st, 10th, 4th and 9th houses be weak or combust, and occupy the 6th, 8th and 12th houses, the yoga so arising is named Duryoga.",
+        "quote_display": "70. If the lords of the 6th, 8th and 12th houses vested with strength are posited in Kendra or Trikona and the lords of 1st, 10th, 4th and 9th houses be weak or combust, and occupy the 6th, 8th and 12th houses, the yoga so arising is named Duryoga.",
+        "quote_sha256": "a39976ed85339c574f7fd8c153834e13d22b478178df5bcf7214a414863a8ad4",
+        "char_span": [
+          159986,
+          160234
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?l6",
+              "house": 6
+            }
+          },
+          {
+            "strength": {
+              "graha": "?l6",
+              "strength": "strong"
+            }
+          },
+          {
+            "any": [
+              {
+                "in_house_class": {
+                  "graha": "?l6",
+                  "klass": "kendra"
+                }
+              },
+              {
+                "in_house_class": {
+                  "graha": "?l6",
+                  "klass": "trikona"
+                }
+              }
+            ]
+          },
+          {
+            "lord_of_house": {
+              "graha": "?l8",
+              "house": 8
+            }
+          },
+          {
+            "strength": {
+              "graha": "?l8",
+              "strength": "strong"
+            }
+          },
+          {
+            "any": [
+              {
+                "in_house_class": {
+                  "graha": "?l8",
+                  "klass": "kendra"
+                }
+              },
+              {
+                "in_house_class": {
+                  "graha": "?l8",
+                  "klass": "trikona"
+                }
+              }
+            ]
+          },
+          {
+            "lord_of_house": {
+              "graha": "?l12",
+              "house": 12
+            }
+          },
+          {
+            "strength": {
+              "graha": "?l12",
+              "strength": "strong"
+            }
+          },
+          {
+            "any": [
+              {
+                "in_house_class": {
+                  "graha": "?l12",
+                  "klass": "kendra"
+                }
+              },
+              {
+                "in_house_class": {
+                  "graha": "?l12",
+                  "klass": "trikona"
+                }
+              }
+            ]
+          },
+          {
+            "lord_of_house": {
+              "graha": "?l1",
+              "house": 1
+            }
+          },
+          {
+            "any": [
+              {
+                "strength": {
+                  "graha": "?l1",
+                  "strength": "weak"
+                }
+              },
+              {
+                "combust": {
+                  "graha": "?l1"
+                }
+              }
+            ]
+          },
+          {
+            "in_house_class": {
+              "graha": "?l1",
+              "klass": "dusthana"
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?l4",
+              "house": 4
+            }
+          },
+          {
+            "any": [
+              {
+                "strength": {
+                  "graha": "?l4",
+                  "strength": "weak"
+                }
+              },
+              {
+                "combust": {
+                  "graha": "?l4"
+                }
+              }
+            ]
+          },
+          {
+            "in_house_class": {
+              "graha": "?l4",
+              "klass": "dusthana"
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?l9",
+              "house": 9
+            }
+          },
+          {
+            "any": [
+              {
+                "strength": {
+                  "graha": "?l9",
+                  "strength": "weak"
+                }
+              },
+              {
+                "combust": {
+                  "graha": "?l9"
+                }
+              }
+            ]
+          },
+          {
+            "in_house_class": {
+              "graha": "?l9",
+              "klass": "dusthana"
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?l10",
+              "house": 10
+            }
+          },
+          {
+            "any": [
+              {
+                "strength": {
+                  "graha": "?l10",
+                  "strength": "weak"
+                }
+              },
+              {
+                "combust": {
+                  "graha": "?l10"
+                }
+              }
+            ]
+          },
+          {
+            "in_house_class": {
+              "graha": "?l10",
+              "klass": "dusthana"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Duryoga"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (Milestone 24: seven independently-bound lord-of-house variables, each tested against strength/combust and house-class using only existing predicates; no distinctness constraint between the seven, matching this file's standing convention -- see PD.06.Shankha's note -- since the source does not require the lords to be seven different grahas and a chart where one graha rules two of these houses simply cannot satisfy contradictory strong/weak roles for the same graha, which the fact set already excludes without help. 'Weak or combust' encoded as strength=weak OR combust(graha) directly, not narrowed through the strength verdict alone, because the verse's own disjunction names combustion as an independent alternative -- this also means the ch.4 retrograde-combust collision (concept:retrograde-combust-collision) cannot silently block this card the way it blocks a bare strength(g,weak) test)",
+        "verified_date": "2026-08-24"
+      },
+      "kind": "yoga",
+      "note": "Duryoga (v.70, first configuration): 6th/8th/12th lords vested with strength and posited in a kendra or trikona; 1st/4th/9th/10th lords weak or combust and occupying a dusthana (6th/8th/12th). No predicted effect is quoted for this configuration in the verse itself -- v.70 names the yoga but its effect is not stated in this sentence, unlike PD.06.Duryoga.Reverse's own explicit effect clause; the predicts block therefore names the yoga only. Distinct from the 10th-house 'Duryoga' inside the vv.57-69 dusthana-lord cluster (passage:phaladeepika.06.p202, unencoded) -- the source calls both 'Duryoga' and they are unrelated conditions, per that entry's own note. WORKED, BUT NOT FIRED, DURING MILESTONE 24 VALIDATION: PD.06.Duryoga.Reverse was confirmed firing on a constructed chart exercising this same seven-role machinery (see Engine/tests/test_chapter_six_strength.py); this card, its exact mirror, could not be. The reason is structural, not a flaw in this condition: across all twelve whole-sign lagnas, either two of the seven lord-roles collide on one graha (impossible -- a graha carries one strength verdict at a time), or, on the four lagnas free of that collision, the Sun ends up bound to one of the roles -- and the Sun's only path to a 'strong' verdict in this store is exaltation (Aries; ch.4 v.5 names no other route for a luminary), while Aries lands in a dusthana house (not kendra/trikona) for every one of those four lagnas' 'named'-configuration role assignment. The Reverse configuration escapes this only because its role swap happens to put Aries in a trikona house for two of the four (Leo, Sagittarius lagna). Left active and untouched rather than marked inert: no predicate is missing and no capability is absent -- every clause here is exactly as expressible as its mirror's -- so this is not the 'inert' category (a card ahead of the engine). It is the empirical case Milestone 22 named directly: 'a card can be made active, pass every structural check, and still never fire on any chart because its condition is unsatisfiable.' Recorded here rather than left to be rediscovered.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.06.Duryoga.Reverse",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "70 (unnumbered second half)",
+        "page_anchor": "phaladeepika/p0082",
+        "tier": 1,
+        "quote": "If, however, the above dispositions are in the reverse order, viz., the lords of the 6th, 8th and 12th houses being weak or combust occupy those houses and the lords of the 1st, 4th, 9th and 10th being strong are posited in the kendra or trikona house, the native will become a king, fortunate, wealthy, happy and virtuous.",
+        "quote_display": "If, however, the above dispositions are in the reverse order, viz., the lords of the 6th, 8th and 12th houses being weak or combust occupy those houses and the lords of the 1st, 4th, 9th and 10th being strong are posited in the kendra or trikona house, the native will become a king, fortunate, wealthy, happy and virtuous.",
+        "quote_sha256": "96f29a25bd2f7f8f00b689f5f066bb5ddb8d56a7c1973577eb354f8bbe1ccedb",
+        "char_span": [
+          160235,
+          160558
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?l6",
+              "house": 6
+            }
+          },
+          {
+            "any": [
+              {
+                "strength": {
+                  "graha": "?l6",
+                  "strength": "weak"
+                }
+              },
+              {
+                "combust": {
+                  "graha": "?l6"
+                }
+              }
+            ]
+          },
+          {
+            "in_house_class": {
+              "graha": "?l6",
+              "klass": "dusthana"
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?l8",
+              "house": 8
+            }
+          },
+          {
+            "any": [
+              {
+                "strength": {
+                  "graha": "?l8",
+                  "strength": "weak"
+                }
+              },
+              {
+                "combust": {
+                  "graha": "?l8"
+                }
+              }
+            ]
+          },
+          {
+            "in_house_class": {
+              "graha": "?l8",
+              "klass": "dusthana"
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?l12",
+              "house": 12
+            }
+          },
+          {
+            "any": [
+              {
+                "strength": {
+                  "graha": "?l12",
+                  "strength": "weak"
+                }
+              },
+              {
+                "combust": {
+                  "graha": "?l12"
+                }
+              }
+            ]
+          },
+          {
+            "in_house_class": {
+              "graha": "?l12",
+              "klass": "dusthana"
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?l1",
+              "house": 1
+            }
+          },
+          {
+            "strength": {
+              "graha": "?l1",
+              "strength": "strong"
+            }
+          },
+          {
+            "any": [
+              {
+                "in_house_class": {
+                  "graha": "?l1",
+                  "klass": "kendra"
+                }
+              },
+              {
+                "in_house_class": {
+                  "graha": "?l1",
+                  "klass": "trikona"
+                }
+              }
+            ]
+          },
+          {
+            "lord_of_house": {
+              "graha": "?l4",
+              "house": 4
+            }
+          },
+          {
+            "strength": {
+              "graha": "?l4",
+              "strength": "strong"
+            }
+          },
+          {
+            "any": [
+              {
+                "in_house_class": {
+                  "graha": "?l4",
+                  "klass": "kendra"
+                }
+              },
+              {
+                "in_house_class": {
+                  "graha": "?l4",
+                  "klass": "trikona"
+                }
+              }
+            ]
+          },
+          {
+            "lord_of_house": {
+              "graha": "?l9",
+              "house": 9
+            }
+          },
+          {
+            "strength": {
+              "graha": "?l9",
+              "strength": "strong"
+            }
+          },
+          {
+            "any": [
+              {
+                "in_house_class": {
+                  "graha": "?l9",
+                  "klass": "kendra"
+                }
+              },
+              {
+                "in_house_class": {
+                  "graha": "?l9",
+                  "klass": "trikona"
+                }
+              }
+            ]
+          },
+          {
+            "lord_of_house": {
+              "graha": "?l10",
+              "house": 10
+            }
+          },
+          {
+            "strength": {
+              "graha": "?l10",
+              "strength": "strong"
+            }
+          },
+          {
+            "any": [
+              {
+                "in_house_class": {
+                  "graha": "?l10",
+                  "klass": "kendra"
+                }
+              },
+              {
+                "in_house_class": {
+                  "graha": "?l10",
+                  "klass": "trikona"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Duryoga (reverse configuration, unnamed by the source)"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (Milestone 24: the exact mirror of PD.06.Duryoga -- same seven lord-of-house roles, strong/weak-or-combust and house-class tests swapped between the two groups, same no-distinctness rationale)",
+        "verified_date": "2026-08-24"
+      },
+      "kind": "yoga",
+      "note": "Verse 70's reverse configuration: 6th/8th/12th lords weak or combust, occupying a dusthana; 1st/4th/9th/10th lords vested with strength, posited in a kendra or trikona -- 'the native will become a king, fortunate, wealthy, happy and virtuous.' The verse states this configuration and its effect but does not name it, unlike the first half's 'Duryoga'; the card id and predicts.yoga record that honestly rather than inventing a Sanskrit name the source does not give.",
       "exclusions": []
     }
   ]

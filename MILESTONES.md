@@ -5,57 +5,86 @@ astrologer would, where every predictive sentence traces to a rule printed in a 
 applied to a quantity that was actually computed. Governing rule: *the system may compute,
 and it may quote — it may not invent.*
 
-**Current production-readiness: 59%** (see §A for the weighted breakdown; was 56% after
-Milestone 22). The movement is again capability rather than encoding, and this time it is
-capability the store had been *waiting* for rather than lacking: the `contradicts`, `extends`
-and `parallel_of` links have existed since chapter 1 was encoded and **no code had ever read
-them**. Card count did not move — 501 before and after.
+**Current production-readiness: 59%** (see §A for the weighted breakdown; was 58.80% ≈ 59%
+after Milestone 23, and stays 59% here — see Milestone 24's own note on why its real work does
+not clear the bar to move a category score under this file's own conservative recomputation
+discipline). Card count moved slightly — 501 → 504 — from an encoding pass, not a chapter
+completion.
 
-**Current phase:** Phase 4 (Knowledge Integration) is properly under way. Stage 7's
-*representation* half is built; its *weighting* half is deliberately not, and is not
+**Current phase:** Phase 4 (Knowledge Integration) is properly under way; Milestone 24 is
+ordinary Phase 3 encoding that happened to depend on Phase 4's neighbour, Phase 2's Stage 4.
+Stage 7's *representation* half is built; its *weighting* half is deliberately not, and is not
 scheduled.
 
-**Current milestone:** Milestone 23 — **Stage 7, the reading half**: `Engine/adjudicate.py`.
-Every relationship the rule store declares between two cards is now read, typed, and reported
-in the consultation with both sides quoted and an explicit `unresolved` state where the corpus
-does not settle the matter. The milestone's sharpest finding is a live defect it fixes: on
-**83% of charts** Part 3 was reporting a verse and its own translator's refutation of that
-verse as *agreeing*.
+**Current milestone:** Milestone 24 — **the blanket strength condition on chapter 6's Pancha
+Mahapurusha Yogas, and the second Duryoga**: `passage:phaladeepika.06.p009` and
+`passage:phaladeepika.06.p233`. Ch.4's `dep.strength` (Milestone 22) is used, for the first
+time, to gate encoding rather than an engine stage — v.9's "vested with strength ... not
+conjunct a malefic" clause is added to `PD.06.Ruchaka/.Bhadra/.Hamsa/.Malavya/.Sasa`, and v.70's
+second Duryoga is encoded as two new cards. The milestone's sharpest finding is a real,
+evidenced narrowing: the golden/demo chart's Ruchaka claim, firing since Milestone 7, is now
+correctly withheld, because Mars there is merely own-sign and ch.4 vv.4-5 do not call own-sign
+alone "strong". A second finding, arguably more interesting: one of the two new Duryoga cards
+(`PD.06.Duryoga`, the verse's own named configuration) could not be shown firing on *any* chart,
+real or constructed, and the reason is now documented rather than left to be rediscovered — see
+the card's own note and `Engine/tests/test_chapter_six_strength.py`.
 
-**Exact resume point:** `git fetch --all --prune`, confirm `main` == `origin/main`, then pick
-up §D. There is still **no open P0**. §D continues to recommend
-`passage:phaladeepika.06.p009` — the blanket strength condition on every chapter 6 yoga —
-because this milestone deliberately did not consume it. **Four decisions are owed by a
-human**, none blocking that: `concept:moon-nature-criterion` (Milestone 20),
-`concept:strength-criterion-scope` (Milestone 21), `concept:retrograde-combust-collision`
-(Milestone 22 — now *surfaced properly* rather than buried in a prose aside, which changes its
-urgency but not its answer) and `concept:parallel-of-overloaded` (new — see §D).
+**Exact resume point:** `git fetch --all --prune`, confirm `main` == `origin/main`, then pick up
+§D. There is still **no open P0**. §D's recommended next milestone is
+`passage:phaladeepika.06.p202` — vv.57-69, the twelve dusthana-lord yogas and the chapter's
+richest contradiction (Mantreswara vs. Parashara) — continuing chapter 6 in the natural reading
+order and giving Stage 7 adjudication a second genuine claim-to-claim contradiction to read.
+**Five decisions are owed by a human**, none blocking that: `concept:moon-nature-criterion`
+(Milestone 20), `concept:strength-criterion-scope` (Milestone 21),
+`concept:retrograde-combust-collision` (Milestone 22), `concept:parallel-of-overloaded`
+(Milestone 23), and `concept:p009-lagna-or-moon-clause` (new — see §D) — the disjunctive
+"Lagna or Moon" half of v.9 that this milestone deliberately left unencoded because the Lagna
+carries no strength verdict anywhere in this store.
 
-**Current Git SHA:** `a17b3dec0c88a5108ebc0d8dd07d8b087caa6263` (parent — this milestone's
-own commit follows this file's checkpoint)
+**Current Git SHA:** `a5575d1c232f2db27ea4c4d2395b09a2349d0505` (parent — this milestone's own
+commit follows this file's checkpoint)
 **Last verified remote SHA (origin/main):** same before this milestone's commit — 0 ahead /
 0 behind, working tree clean
 **Last update date:** 2026-08-24
 
-**Current test count:** 334 passing (`Engine/tests`) — was 302. The 32 new tests are
-`Engine/tests/test_adjudication.py`, and four deliberate mutations of the new module were run
-against them to confirm they can fail: reading links directionally, treating every
-`parallel_of` as a second authority, resolving an unresolved dispute, and deleting the
-strength collision's refusal were each caught.
-**Current rule-card counts:** **501 total** · 484 executable (firing) · **17 inert** —
-unchanged. No card was added, removed, re-quoted or re-conditioned. A milestone that taught the
-engine to read what the cards already said has no business changing the cards.
-**Current verification:** **498/501 cards signed off (99.4%)** — unchanged. 270 carry the
-automated structural sign-off, 228 a real human(+Claude) one, 3 are unsigned (the standing
-holdouts `PD.01.Kalapurusha.Strength`, `PD.10.Venus.VargaMarsSaturn`, `PD.04.Lagna.TripedSign`).
-*Reconciliation:* Milestone 21's header reported this split as 234/264. The live tool
-(`review.py --queue`) reports 270/231-of-which-228-signed, and did so before this milestone's
-changes as well — the 234/264 figure was a stale partition, not a change. The total, 498/501,
-is the same under either. **Four cards were re-signed by hand** here: the four whose conditions
-this milestone rewrote, because rewriting a condition is an interpretive act and inheriting the
-old sign-off would have been false.
+**Current test count:** 341 passing (`Engine/tests`) — was 334. Seven new: one renamed/rewritten
+and one new sibling in `Engine/tests/test_slice.py` (the golden chart's Ruchaka claim now
+withheld, and a constructed positive control showing it returns once Mars is genuinely
+exalted); a new `mahapurusha` fixture in `Engine/tests/test_adjudication.py` (the demo chart no
+longer exercises the `parallel_of` link to Jataka Parijata's corroboration, since Ruchaka no
+longer fires there); and six in the new `Engine/tests/test_chapter_six_strength.py` — scope
+(only the five Mahapurusha cards carry the new clauses; an unrelated graha's strength does not
+affect Ruchaka), the retrograde-combust collision reproduced for a Mahapurusha card specifically,
+`PD.06.Duryoga.Reverse` firing on a constructed chart, and `PD.06.Duryoga`'s structural
+unfireability confirmed by comparing its condition tree against its mirror's.
+**Current rule-card counts:** **504 total** · 487 executable (firing) · **17 inert** — inert
+count unchanged; +3 firing/reference (`PD.06.PanchaMahapurusha.StrengthCondition`, reference;
+`PD.06.Duryoga`, `PD.06.Duryoga.Reverse`, both active). Five existing cards
+(`PD.06.Ruchaka/.Bhadra/.Hamsa/.Malavya/.Sasa`) had their `conditions` rewritten, not replaced —
+the dignity+kendra naming clause is untouched, two clauses were added.
+**Current verification:** **501/504 cards signed off (99.4%)** — same three standing holdouts
+(`PD.01.Kalapurusha.Strength`, `PD.10.Venus.VargaMarsSaturn`, `PD.04.Lagna.TripedSign`); every
+other new or rewritten card this milestone touched was signed by hand
+(`tarunrameshphotography + Claude`), including the three new cards and the five rewritten ones,
+because rewriting a condition — or authoring a reference card whose note carries a real scope
+judgment — is an interpretive act and an inherited or automated sign-off would have been false.
 
-**Backlog (Milestone 23):** 136 entries (was 135). One new concept entry,
+**Backlog (Milestone 24):** 138 entries (was 136). `passage:phaladeepika.06.p009` and
+`passage:phaladeepika.06.p233` move to `resolved`. Two new entries: `concept:p009-lagna-or-moon-clause`
+(the tracked remainder of v.9) and `passage:phaladeepika.06.colophon` (split out of p233 so its
+resolution reflects only the doctrine it actually gained, matching `passage:phaladeepika.04.colophon`'s
+own treatment). One new dependency, `dep.lagna-strength` (`implemented: false`) — genuinely new,
+not a bookkeeping correction: no encoded chapter states a Lagna-specific strength verdict, and no
+extractor derives one, so `strength(Lagna,...)` is both a doctrine gap and an engine gap. It
+deliberately carries no `predicate` field in the registry, because `dependency_state()` in
+`Rules/tools/backlog.py` marks a dependency implemented the moment ANY extractor emits its named
+predicate anywhere — and `strength` already is, for grahas. Giving `dep.lagna-strength` the same
+predicate name would have reported it falsely resolved the instant it was declared, which is
+exactly the kind of tooling-correct/input-wrong signal Milestone 22 had to catch for `dep.strength`
+itself; caught here before it shipped, by reading `backlog.py`'s own logic rather than trusting
+its first output.
+
+**Original Milestone 23 note on the backlog:** 136 entries (was 135). One new concept entry,
 `concept:parallel-of-overloaded`, and one new dependency, `dep.adjudication-representation`
 (`implemented: true`), which is the capability actually built. **`dep.adjudication` itself was
 deliberately left outstanding.** Eleven registry entries declare it, this milestone releases
@@ -92,12 +121,12 @@ own warning that a system can have many cards while lacking reasoning capability
 |---|---:|---:|---|
 | Corpus completeness | 15% | 25% | 2 of 6 planned books converted and frozen (Brihat Jataka, Phaladeepika); 4 pending (BPHS, Jataka Parijata, Uttara Kalamrita, Saravali) behind a deliberate freeze. |
 | Source verification | 10% | 77% | Corpus pipeline verified byte-exact with hallucination detection, verse reconciliation, figure transcription for the 2 converted books. **The Devanagari glyph-level spot-check owed on Brihat Jataka has now begun** (Milestone 20): ch. 2 v. 5's closing line was compared glyph by glyph against the rendered page and 2 OCR defects found and recorded (`व`→`र`, `सु`→`स`), neither affecting any encoded card. One line is not a spot-check pass, but it is the first evidence about the real error rate rather than an estimate. |
-| Rule extraction/encoding | 20% | 42% | Phaladeepika chapters 1, 2, **4**, 8, 9, 10 encoded and 6 partially (through v.38 of ~70); 499 Phaladeepika cards (+2 Brihat Jataka = 501 in the store) from an estimated ~1,535 total across all 28 Phaladeepika chapters at the measured 0.65 cards/paragraph rate — and that is one book of six. Chapter 4 alone contributed 94, and it is the densest chapter encoded so far: 163 paragraphs of computational doctrine, almost all of it `reference` rather than firing. |
+| Rule extraction/encoding | 20% | 42% | Phaladeepika chapters 1, 2, **4**, 8, 9, 10 encoded and 6 partially (through v.9 and v.70 of ~70, Milestone 24); 502 Phaladeepika cards (+2 Brihat Jataka = 504 in the store) from an estimated ~1,535 total across all 28 Phaladeepika chapters at the measured 0.65 cards/paragraph rate — and that is one book of six. Chapter 4 alone contributed 94, and it is the densest chapter encoded so far: 163 paragraphs of computational doctrine, almost all of it `reference` rather than firing. **Milestone 24 added 3 cards (1 reference, 2 firing) and rewrote 5 existing ones' conditions** — held at 42%, not moved: three cards against an estimated ~1,535-card total is below what this table's own rounding can register, and no new chapter was completed (chapter 6 remains partial). |
 | Reasoning engine capability | 15% | 65% | Stages 0, 1, 2, **4**, 6, **7 (reading half)**, 9, 10 implemented; Stages 3 and 5 (yogas/houses as first-class computation) not built as dedicated stages; **Stage 7's weighting half deliberately does not exist and is not scheduled**; no varga, dasa, transit or ashtakavarga calculators, and no *numeric* strength calculator — the source withholds the arithmetic one would need (`dep.shadbala-arithmetic`). **Raised 60→65 in Milestone 23: Stage 7's representation half exists** — every relationship the store declares between two cards is read, typed and reported with both sides quoted, and an `unresolved` outcome is a finished answer rather than a placeholder. Not higher, because the half that would let the engine *choose* between two source-backed claims is absent by design: no encoded source supplies a rule for choosing, and the only precedence applied anywhere in the engine is the one verse 4 states in its own sentence. **Previously raised 52→60 in Milestone 22: Stage 4 exists and P0-1 is closed** — every chart now produces graha strength verdicts, read from chapter 4's own cards, and the largest "born inert" tax on every future chapter is paid. Not higher, for three reasons that are the source's and not the schedule's: it is graha strength only (no Bhava Bala — the components are withheld), it is a binary verdict and not an order (no `strongest`), and Stage 3 (yogas) and Stage 5 (houses) are still not dedicated stages. **Previously raised 45→52 in Milestone 20**, the first increase from real capability rather than bookkeeping: P0-2 is closed (all 9 grahas now carry a `nature` fact, so the 22 benefic-conditioned cards can fire), and the first piece of Stage 7 exists — per-graha authority attribution and cross-book corroboration in `_resolve_nature`. Still 52 and not higher because Stage 7's *hard* half — adjudicating authorities that actually disagree — remains unbuilt and deliberately so (§K, P1-3). |
 | Contradiction handling | 10% | 82% | Competing authorities are preserved via `contradicts`/`extends` links and dual cards (e.g. PD.01 rising-sign dispute, PD.09 dignity dispute) — the mechanism works and is used repeatedly, but Stage 7 adjudication (weighing contradictions against each other) does not exist yet. **71→82 in Milestone 23**, the largest single move this category has had, and it is a *reading* gain rather than a mechanism gain: the `contradicts`/`extends`/`parallel_of` links were being written faithfully into the store and read by nothing, so no consultation had ever surfaced one. All four relationship types now reach the reader with card id, book, chapter, verse, printed page and both sides' own words. It also repaired a live defect — on 83% of 720 scanned charts Part 3 was printing a verse and its own translator's refutation as *agreeing*, under a heading reading "Terms that recur without contradiction". Not higher for two stated reasons: the engine still cannot choose where the source does not, and `parallel_of` cannot distinguish agreement from a variant reading (`concept:parallel-of-overloaded`), so cross-book *corroboration* of a yoga still cannot be claimed. **68→71 in Milestone 22:** the first *chart-dependent* refusal. A graha that is both retrograde and combust is called strong by ch. 4 v. 5 and weak by v. 4, and the extractor emits no verdict for it, reports the collision by name in the consultation's own "doctrine read, but not complete" section, and lets every rule about its strength correctly not fire. Earlier contradiction handling was static — two cards linked at encoding time; this one only exists on charts that satisfy both. |
-| Provenance/auditability | 10% | 98% | Every card is byte-exact hash-verified against the corpus on every run; `verify.py` enforces this as a build gate. `extraction.verified_by` now covers **498/501 cards (99.4%**, was 4/404) via `Rules/tools/review.py`: 234 structural cards signed off automatically (no interpretive layer to review — the byte-exact check already is the complete verification), 264 signed off by an actual human(+Claude) reading pass across chapters 1, 2, 4, 6, 8, 9 and 10 — including 33 of chapter 4's, re-signed by hand because their encoding involved a real judgement. The interpretive queue is closed; the 3 unsigned cards are deliberate, documented defect holdouts, not unreviewed cards. Not 100% because those three defects are real and still open. **97→98 in Milestone 23:** every adjudication carries the full provenance of both parties and is re-checked by Stage 9 (`verify_adjudications`), so a conclusion *about* sources can be walked back to them the way a claim can; and a relationship link naming a card that does not exist now fails the build, because a link the engine reads is a link whose typo silently costs a reported contradiction. |
-| Test coverage | 10% | 76% | 270 tests (was 250), growing with every milestone, covering rule structure, engine extractors, variable binding, overrides, the verification tool itself, and now chapter 4's encoding (`Engine/tests/test_chapter_four_strength.py`, +20 tests: the two authorities never merged, the Mars row's printed defect pinned as printed, the unquantified components pinned as unquantified, and the verses-4-and-5 verdict set pinned as the only source Stage 4 may read); no dedicated end-to-end regression suite across the full corpus of encoded chapters yet. **72→76 in Milestone 23:** 334 tests (was 302), the 32 new ones in `Engine/tests/test_adjudication.py` — and, for the first time in this project, the suite was checked by *mutating the module under test*: four deliberate breakages (directional link reading, treating every `parallel_of` as a second authority, resolving what should stay unresolved, deleting the strength collision's refusal) were each confirmed to fail it, and the second one initially did **not**, which exposed a test that checked the discriminator's input rather than its output. **68→72 in Milestone 22:** 302 tests (was 271), the 30 new ones in `Engine/tests/test_strength.py` covering the extractor's doctrine reading, its calculation on placed edge cases, the retrograde/combust refusal, determinism, and — the ones that matter most — the negatives: no fact carries a number, a component is not a verdict, retrogression does not make the nodes strong, and the doctrine dies with its cards. |
-| End-to-end validation | 5% | 36% | CLI produces full 3-part consultations and has been spot-checked against real charts per milestone; no systematic charted validation set (Phase 6 of `Phases.txt`) exists yet. **33→36 in Milestone 23:** 720 nativities across four cities and sixty years were run end to end with **zero pipeline or verification failures**, and the frequency of each relationship type was measured rather than asserted — which is how the 83% figure above is known. Still not Phase 6: nothing here checks whether a prediction is *correct*. **30→33 in Milestone 22:** the first time the project *searched* a chart space rather than spot-checking one nativity — 880 real birth instants were scanned to find a chart for each newly-activated card and to confirm each one actually fires. That is not Phase 6, but it is the first evidence that an activated card is not merely well-formed. |
+| Provenance/auditability | 10% | 98% | Every card is byte-exact hash-verified against the corpus on every run; `verify.py` enforces this as a build gate. `extraction.verified_by` now covers **501/504 cards (99.4%**, was 4/404) via `Rules/tools/review.py`: 271 structural cards signed off automatically (no interpretive layer to review — the byte-exact check already is the complete verification), 230 signed off by an actual human(+Claude) reading pass across chapters 1, 2, 4, 6, 8, 9 and 10 — including 33 of chapter 4's and, as of Milestone 24, the three new and five rewritten chapter 6 cards, re-signed by hand because their encoding involved a real judgement. The interpretive queue is closed; the 3 unsigned cards are deliberate, documented defect holdouts, not unreviewed cards. Not 100% because those three defects are real and still open. **97→98 in Milestone 23:** every adjudication carries the full provenance of both parties and is re-checked by Stage 9 (`verify_adjudications`), so a conclusion *about* sources can be walked back to them the way a claim can; and a relationship link naming a card that does not exist now fails the build, because a link the engine reads is a link whose typo silently costs a reported contradiction. |
+| Test coverage | 10% | 76% | 270 tests (was 250), growing with every milestone, covering rule structure, engine extractors, variable binding, overrides, the verification tool itself, and now chapter 4's encoding (`Engine/tests/test_chapter_four_strength.py`, +20 tests: the two authorities never merged, the Mars row's printed defect pinned as printed, the unquantified components pinned as unquantified, and the verses-4-and-5 verdict set pinned as the only source Stage 4 may read); no dedicated end-to-end regression suite across the full corpus of encoded chapters yet. **Milestone 24: 341 tests (was 334)**, +7 in `Engine/tests/test_chapter_six_strength.py` and `test_slice.py`/`test_adjudication.py` fixture updates — held at 76%, not moved: a 2% test-count increase focused on one chapter's encoding is smaller than the swings that have moved this row before, even though the specific finding it pins (a card confirmed structurally unfireable, not merely untested) is a genuine methodological addition. **72→76 in Milestone 23:** 334 tests (was 302), the 32 new ones in `Engine/tests/test_adjudication.py` — and, for the first time in this project, the suite was checked by *mutating the module under test*: four deliberate breakages (directional link reading, treating every `parallel_of` as a second authority, resolving what should stay unresolved, deleting the strength collision's refusal) were each confirmed to fail it, and the second one initially did **not**, which exposed a test that checked the discriminator's input rather than its output. **68→72 in Milestone 22:** 302 tests (was 271), the 30 new ones in `Engine/tests/test_strength.py` covering the extractor's doctrine reading, its calculation on placed edge cases, the retrograde/combust refusal, determinism, and — the ones that matter most — the negatives: no fact carries a number, a component is not a verdict, retrogression does not make the nodes strong, and the doctrine dies with its cards. |
+| End-to-end validation | 5% | 36% | CLI produces full 3-part consultations and has been spot-checked against real charts per milestone; no systematic charted validation set (Phase 6 of `Phases.txt`) exists yet. **Milestone 24:** 2,176 real nativities (four cities, 1950-2010) run end to end with **zero pipeline or verification failures** — held at 36%, not moved: the sweep confirms the milestone's own findings (a 29.2% Mahapurusha firing rate, zero natural occurrences of either Duryoga card, an unchanged 13.6% collision rate) without adding a new *kind* of end-to-end evidence beyond what Milestones 22-23 already established this row on. **33→36 in Milestone 23:** 720 nativities across four cities and sixty years were run end to end with **zero pipeline or verification failures**, and the frequency of each relationship type was measured rather than asserted — which is how the 83% figure above is known. Still not Phase 6: nothing here checks whether a prediction is *correct*. **30→33 in Milestone 22:** the first time the project *searched* a chart space rather than spot-checking one nativity — 880 real birth instants were scanned to find a chart for each newly-activated card and to confirm each one actually fires. That is not Phase 6, but it is the first evidence that an activated card is not merely well-formed. |
 | Multi-book corroboration | 3% | 30% | **No longer zero (Milestone 20).** Brihat Jataka now has 2 rule cards, and cross-book agreement is not only assessable but implemented and surfaced: 4 grahas' natures are corroborated by both books, and the consultation reports which claims rest on one authority and which on two. Scored 25%, not higher, because corroboration exists for exactly one relation (`graha_nature`) out of the whole store, and the second book has 2 cards against the first book's 499. **25→30 in Milestone 23:** three further books — Jataka Parijata, Saravali and Uttarakalamrita — now reach the reader in their own words, on 92% of charts, wherever the translator reports them on a doctrine the chart activates. Only +5, and deliberately: those statements are reported as *a second authority on the same doctrine* and **not** as corroboration, because one of them states a materially different condition for the same yoga and the store's `parallel_of` link does not record which kind it is. |
 | Production safety/reliability | 1% | 50% | Groundedness verification (Stage 9) refuses to emit ungrounded output; no rate limiting, error-recovery, or production deployment hardening attempted (not yet in scope). |
 | CLI/API/user-facing readiness | 1% | 40% | Working CLI (`Engine/cli.py`) produces real consultations; no API, no UI, no packaging. |
@@ -105,20 +134,33 @@ own warning that a system can have many cards while lacking reasoning capability
 **Overall Production Readiness: 0.15×25 + 0.10×77 + 0.20×42 + 0.15×65 + 0.10×82 + 0.10×98 +
 0.10×76 + 0.05×36 + 0.03×30 + 0.01×50 + 0.01×40 = 58.80% ≈ 59%**
 
-Recomputed from the table, not incremented. Movement from 56% is +3 points across six
-categories: contradiction handling 71→82 (+1.10 pts — the largest, and the one this milestone
-is actually about), reasoning capability 60→65 (+0.75), test coverage 72→76 (+0.40),
-end-to-end validation 33→36 (+0.15), multi-book corroboration 25→30 (+0.15), provenance 97→98
-(+0.10). Sum of deltas 2.65, and 56.15 + 2.65 = 58.80, which agrees with the expression above
-— the two are cross-checked here precisely because §A's own history contains four milestones
-of a figure that did not.
+Recomputed from the table, not incremented — and unchanged from Milestone 23. **No category
+score moved in Milestone 24.** This is a deliberate reading of the table's own rows, each
+explained where it appears: 3 cards and 5 rewritten conditions is below what "Rule
+extraction/encoding" registers against an estimated ~1,535-card total; no new engine mechanism
+was built, by design, so "Reasoning engine capability" and "Contradiction handling" could not
+move; and while both "Test coverage" (+7 tests) and "End-to-end validation" (a 2,176-chart
+sweep) grew, neither cleared the bar the swings that moved those rows in Milestones 22-23 did.
+The milestone's real content — a genuine, evidenced narrowing of five long-fired cards, and a
+card proven structurally unfireable rather than merely untested — is methodological rigor, not
+new capability or new corpus, and this table does not have a row for that. Recording it here
+rather than inflating an adjacent row is the same discipline Milestone 23 applied when it
+declined to credit "Rule extraction" for links the encoders had already written down.
 
-**Rule extraction did not move and must not.** Not one card was added, removed, re-quoted or
-re-conditioned — 501 before, 501 after — and this milestone did not so much as open a chapter
-file. **Corpus completeness and source verification did not move either**: no page was
-rendered and no book was converted. The temptation here was subtler than Milestone 22's: it
-would have been to credit the *encoding* score for relationships the encoders had already
-written down and this milestone merely learned to read. Those links were encoded in
+Movement from 56% (Milestone 22) to 58.80% is +3 points across six categories, unchanged since
+Milestone 23: contradiction handling 71→82 (+1.10 pts), reasoning capability 60→65 (+0.75), test
+coverage 72→76 (+0.40), end-to-end validation 33→36 (+0.15), multi-book corroboration 25→30
+(+0.15), provenance 97→98 (+0.10). Sum of deltas 2.65, and 56.15 + 2.65 = 58.80, which agrees
+with the expression above — the two are cross-checked here precisely because §A's own history
+contains four milestones of a figure that did not.
+
+**Previous figure (Milestone 23):** identical expression and result to the one above —
+58.80% ≈ 59%. Rule extraction did not move there either: not one card was added, removed,
+re-quoted or re-conditioned in that milestone — 501 before, 501 after — and it did not so much
+as open a chapter file. Corpus completeness and source verification did not move either: no
+page was rendered and no book was converted. The temptation there was subtler than Milestone
+22's: it would have been to credit the *encoding* score for relationships the encoders had
+already written down and that milestone merely learned to read. Those links were encoded in
 Milestones 1-14 and were already counted then.
 
 **Previous figure (Milestone 22):** 0.15×25 + 0.10×77 + 0.20×42 + 0.15×60 + 0.10×71 +
@@ -162,7 +204,7 @@ changes materially — see §16.
 |---|---|---|---:|---|---|
 | Phase 1 | Corpus & OCR | **Not complete — documentation overstates it** | 33% | 2 of 6 books converted, verified, frozen (`Knowledge/brihat-jataka.md`, `Knowledge/phaladeepika.md`). `Phases.txt` marks "Phase 1 — Corpus & OCR" with a ✅, which is **inaccurate**: 4 books (BPHS Vol.1, Jataka Parijata Vol.1, Uttara Kalamrita, Saravali) are audited but not yet OCR'd/converted (`Reports/PROJECT_STATUS.md`). The pipeline architecture itself is frozen and proven across two structurally different books, which is what "frozen" refers to — not full corpus completeness. | Convert and verify the remaining 4 books; get Devanagari glyph-level spot-check on Brihat Jataka; write `Reports/conversion_report.md`. |
 | Phase 2 | Reasoning engine architecture | Core MVP complete; extensions ongoing | 66% | Stages 0,1,2,6,**7 (reading half)**,9,10 fully implemented (`Engine/chart.py`, `facts.py`, `activate.py`, `render.py`, `pipeline.py`). **14** fact extractors implemented (`Engine/facts.py`): lordship, sign classes, house classes, graha classes, aspects, combustion, dignity, dignity-friendship, occupant count, graha frame, conjunction, nature, nature occupancy, **strength** (Milestone 22). **Stage 4 (graha strength) now exists**, as a verdict extractor rather than a calculator — the source withholds the arithmetic a Shadbala Pinda would need. **Stage 7's reading half now exists** (`Engine/adjudicate.py`, Milestone 23), so Stages 3 and 5 (yoga/house computation as dedicated stages) are the largest remaining items — see `dep.varga`, `dep.dasa`, `dep.ashtakavarga`, `dep.transit`, `dep.vargottama`, `dep.upagraha` in `Rules/deferred.json`, all currently `implemented: false`; `dep.strength` and `dep.adjudication-representation` are `implemented: true`, and `dep.adjudication` (weighting) is outstanding by design. | ~~Build `dep.strength`~~ **done, Milestone 22**. ~~Build the adjudication representation~~ **done, Milestone 23**. Build `dep.varga`, `dep.dasa`, `dep.ashtakavarga`, `dep.transit`. |
-| Phase 3 | Classical Knowledge Extraction | In progress | 33% | 499 cards from Phaladeepika chapters 1, 2, **4**, 6 (partial), 8, 9, 10 of 28 total chapters, plus 2 from Brihat Jataka ch. 2. Estimated ~1,535 total cards across all 28 Phaladeepika chapters at the measured 0.65 cards/paragraph rate (`Reports/PHASE3_PLAN.md`), so 499/1535 ≈ 33% of just this one book, before the rest of Brihat Jataka or the 4 unconverted books are touched at all. | Continue chapter-by-chapter encoding (ch. 3, 5, 6 remainder, 7, 11-28); extend Brihat Jataka extraction; human sign-off is no longer the bottleneck (498/501, see §K P1-1). |
+| Phase 3 | Classical Knowledge Extraction | In progress | 33% | 502 cards from Phaladeepika chapters 1, 2, **4**, 6 (partial, through v.9 and v.70 of ~70 as of Milestone 24), 8, 9, 10 of 28 total chapters, plus 2 from Brihat Jataka ch. 2. Estimated ~1,535 total cards across all 28 Phaladeepika chapters at the measured 0.65 cards/paragraph rate (`Reports/PHASE3_PLAN.md`), so 502/1535 ≈ 33% of just this one book, before the rest of Brihat Jataka or the 4 unconverted books are touched at all. | Continue chapter-by-chapter encoding (ch. 3, 5, 6 remainder — vv.39-43, 57-69 next, ch. 7, 11-28); extend Brihat Jataka extraction; human sign-off is no longer the bottleneck (501/504, see §K P1-1). |
 | Phase 4 | Knowledge Integration | **Under way (Milestones 20, 23)** | 40% | `Phases.txt` names six things for this phase — rule conflicts, priority, weighting, cancellation, reinforcement, cross-book agreement. **Milestone 23 settled four of them, two by building and two by finding they needed nothing built.** *Conflicts* are now read, typed and reported with full provenance (`Engine/adjudicate.py`). *Priority* exists only where a source states it — the combustion override, applied on 11% of charts — and nowhere else. *Cancellation* turned out to need no mechanism at all: the one real cancellation doctrine in the store (Sakata Yoga, ch. 6 v. 17) is printed in the same sentence as the yoga it cancels, so it is a negated conjunct inside the card's own condition and has been working since Milestone 9; the same is true of every "unless" in the store. *Cross-book agreement* is reported for `graha_nature` and three further books' statements now reach the reader, though deliberately not as corroboration. **Weighting is the one item deliberately not built and not scheduled**, and *reinforcement* is untouched. Earlier: the corroboration half of Stage 7 was built and exercised (Milestone 20): two books now classify grahas by nature, agreement between them is recorded per graha (`authorities`, `books`, `corroborated`) rather than the second authority overwriting the first, and the consultation reports it. `dep.rule-transfer` and `dep.dignity-override` remain as narrow primitives. | Rule *reinforcement*, and resolving `concept:parallel-of-overloaded` so a yoga stated by two books can be reported as corroborated the way a graha's nature already is. **Not** weighting: it stays unbuilt until a source supplies a rule for choosing, and none does (§K, P1-3). |
 | Phase 5 | Consultation Intelligence | Not started | 10% | Stage 8 (compose prose) and part of Stage 7 (synthesis, grouping/recurrence) exist (`Engine/synthesis.py`, `render.py`) and produce a real 3-part consultation today, but there is no contradiction-explaining or cross-book-convergence narrative yet — that needs Phase 4 first. | Build after Phase 4 adjudication exists. |
 | Phase 6 | Validation | Not started | 0% | No charted validation set, no celebrity/historical chart corpus, no accuracy measurement exists yet. Individual milestones are spot-checked against 1-2 real charts each (ad hoc), which is not the same as this phase. | Build hundreds of known charts and measure prediction accuracy, per `Phases.txt`. |
@@ -1303,17 +1345,234 @@ project itself had documented.
 
 ---
 
+### Milestone 24 — Chapter 6's blanket strength condition, and the second Duryoga
+
+**Phase:** 3 (knowledge), using capability built in Phase 2 (Milestone 22)
+**Scope:** one new reference card, two new predictive cards, five existing cards' conditions
+extended, one deferred.json entry resolved and split, one new dependency registered
+**Status:** COMPLETE
+**Completion:** 100% of what the source's testable clauses support; see "What was deliberately
+not built"
+**Commit:** this milestone's own commit (see `git log`)
+**Remote:** VERIFIED
+
+**Source-first reconnaissance, not the backlog's paraphrase.** `Rules/deferred.json`'s existing
+entry for `passage:phaladeepika.06.p009` read "the blanket condition that every yoga in the
+chapter needs strength in the Lagna/Moon and the yoga-forming planets" — read against
+`Knowledge/phaladeepika.md` directly (paragraph 9, printed p.55) rather than trusted, two things
+in that paraphrase turned out to be imprecise:
+
+1. **"Lagna/Moon" is a disjunction, not a conjunction.** The verse's own words: *"...only when
+   the Lagna **or** the Moon and the Yoga forming planets are without blemish."* The true parse
+   is `(Lagna-strong OR Moon-strong) AND (yoga-forming-planets without blemish)`.
+2. **The scope is textually anchored to the five Pancha Mahapurusha Yogas, not the whole
+   chapter.** The sentence sits inside that section — immediately after the Jataka Parijata and
+   Saravali corroboration quotes for those five yogas, and immediately before "As the names of
+   Yogas denote the persons with such Yogas at birth become Mahapurushas..." and the translator's
+   introduction to worked examples of those same five yogas. "Every yoga in the chapter" was the
+   original encoder's own generalisation from Milestone 7, not something this sentence states.
+   Consistent with that: of chapter 6's 60 cards (before this milestone), only the five
+   Mahapurusha cards ever cross-referenced `passage:phaladeepika.06.p009` in their own notes; no
+   other card did. The engine did not touch any other chapter-6 card.
+
+The verse's own "without blemish" gloss bundles four sub-conditions: *"vested with strength and
+are not associated with or in conjunction with malefics, are not combust and not placed between
+malefics."* Only two of the four are encodable today:
+
+- **Vested with strength** → the existing `strength(graha,"strong")` predicate (`dep.strength`,
+  Milestone 22), reused exactly as built, with no new engine code.
+- **Not conjunct a malefic** → a correlated negation over the existing `conjunct`/`nature`
+  predicates (`{"not": {"all": [{"conjunct":...},{"nature":...,"malefic"}]}}`), a shape the
+  engine's `_solve` already supports generically (`Engine/rules.py`'s own docstring names exactly
+  this pattern) but which no card in the store had previously exercised. Verified with a
+  dedicated construction before use in a production card, not assumed from the docstring.
+- **Not combust** is already subsumed: `PD.04.Weakness.Combust` forces a `weak` verdict on any
+  combust graha, so a card testing `strength(g,"strong")` already excludes combustion.
+- **Not hemmed between malefics (papakartari)** and **the Lagna-or-Moon disjunction** remain
+  unencoded — the first needs `dep.hemmed-between` (already registered, still unimplemented, and
+  blocked on the rest of chapter 6 per its own entry); the second needs a Lagna-specific strength
+  verdict that exists nowhere in this engine or this store's doctrine (see below).
+
+**Inspecting `dep.strength` before extending it, per the resume brief's own instruction.**
+`Engine/facts.py::_strength` iterates only `chart.bodies.values()` — the nine grahas
+(`Engine/ephemeris/provider.py::BODIES`). The Lagna is a scalar (`ChartBundle.ascendant_sign`),
+never a member of that set, exposed only through the sign-only `lagna_sign(sign)` predicate. A
+card literal `strength(Lagna,"strong")` would load and pass `verify.py` (which never validates
+that a `graha` argument names a real body) but would **permanently and silently never match any
+fact** — indistinguishable from an ordinary unmet condition, the exact failure mode the resume
+brief's §4 asked to be checked for before extending the mechanism. This is not solely an engine
+gap: ch.4 vv.4-5, the only source `dep.strength` reads, state strong/weak verdicts about grahas
+only; no encoded passage states a Lagna-specific verdict even if the plumbing existed. Building
+it would be new engine code on top of doctrine that does not exist — exactly the "do not build
+speculative architecture" case §I already forbids. So the Lagna-or-Moon clause was left off every
+card's conditions rather than encoded as a disjunction with one arm permanently, silently dead;
+registered instead as `dep.lagna-strength` (new, `implemented: false`) and
+`concept:p009-lagna-or-moon-clause` (new, deferred).
+
+**A real, evidenced consequence — not silently smoothed over.** The five Mahapurusha cards are
+encoded as *own-sign-or-exaltation dignity* + *kendra placement*, Mantreswara's own naming
+condition (v.1). Ch.4 vv.4-5's five verdict cards do **not** independently state "own sign ⇒
+strong" — only exaltation, retrogression (of the five non-luminous grahas), retrograde-in-
+debilitation, and the nodes' own signs produce a `strong` verdict. So adding
+`strength(graha,"strong")` as an *additional* required clause narrows these cards: a graha in its
+own sign, not exalted, not retrograde, now carries no strength verdict at all and the card
+correctly withholds the claim. This is not hypothetical — it is the project's own golden/demo
+chart (1987-03-14, Thanjavur): Mars sits in Aries, its own sign, in the 4th (a kendra), and
+`PD.06.Ruchaka` has fired on this exact chart since Milestone 7. It no longer does. Confirmed as
+the source's own additional requirement, not an artefact of the encoding: the five cards' own
+notes, written in Milestone 7 before `dep.strength` existed, already anticipated this — *"this
+card fires on placement alone, which is not the whole of what the chapter says."* The dignity and
+kendra clauses were **added to, never removed**; the yoga's own naming condition is untouched.
+Measured across 2,176 real nativities (four cities, 1950–2010): the Mahapurusha family now fires
+on 29.2% of charts, still a substantial fraction — this is a narrowing, not a near-elimination.
+
+**`passage:phaladeepika.06.p233` — the second Duryoga (v.70, printed p.82).** *"If the lords of
+the 6th, 8th and 12th houses vested with strength are posited in Kendra or Trikona and the lords
+of 1st, 10th, 4th and 9th houses be weak or combust, and occupy the 6th, 8th and 12th houses, the
+yoga so arising is named Duryoga. If, however, the above dispositions are in the reverse order...
+the native will become a king, fortunate, wealthy, happy and virtuous."* Distinct from the
+10th-house "Duryoga" inside the still-unencoded vv.57-69 dusthana-lord cluster
+(`passage:phaladeepika.06.p202`) — the source names both "Duryoga" and they are unrelated
+conditions. Encoded as two new cards, `PD.06.Duryoga` (the named configuration) and
+`PD.06.Duryoga.Reverse` (the verse's own unnamed reverse configuration, which the card id and
+`predicts.yoga` record honestly rather than inventing a Sanskrit name the source does not give).
+"Weak or combust" is tested as `strength(g,"weak") OR combust(g)` directly — not routed through
+the strength verdict alone — because the verse names combustion as an independent alternative;
+this also means the ch.4 retrograde-combust collision cannot silently block this test the way it
+blocks a bare `strength(g,"weak")` leaf. The chapter's closing colophon (paragraph 234, on the
+same printed page) is narrative, not doctrine, and was split into its own entry,
+`passage:phaladeepika.06.colophon`, matching `passage:phaladeepika.04.colophon`'s treatment,
+rather than left bundled with v.70 under `dep.strength`.
+
+**The finding that took the most work to confirm: `PD.06.Duryoga` cannot be shown firing on any
+chart.** Both cards use the identical seven-role machinery (three house-lords needing
+strong+kendra/trikona, four needing weak-or-combust+dusthana) with the two roles swapped. Only
+`PD.06.Duryoga.Reverse` could be constructed firing — deliberately constructed, not scanned,
+because the joint probability of seven independent strength/house-class facts is far below what
+even a several-thousand-chart scan would find (confirmed: zero natural occurrences of either card
+across the 2,176-chart validation sweep). Working out why `PD.06.Duryoga` specifically resisted
+construction, by exhaustively checking all twelve whole-sign lagnas, is itself a finding: eight of
+the twelve force two of the seven lord-roles onto the same graha (impossible — one graha carries
+one strength verdict at a time), and the remaining four collision-free lagnas each bind the Sun
+to one of the seven roles. The Sun's only route to a `strong` verdict in this store is exaltation
+(Aries; ch.4 v.5 names no other route for a luminary, and the Sun can never be `weak` either —
+`Engine/facts.py::_combustion` excludes it by construction, "the doctrine is stated as distance
+*from* the Sun"), and Aries does not land in a kendra or trikona house for any of those four
+lagnas under the *named* configuration's own role assignment. It does for two of them (Leo,
+Sagittarius) under the *reverse* configuration's swapped assignment — which is exactly why the
+reverse card, and only the reverse card, could be built. `PD.06.Duryoga` is left **active**, not
+marked `inert`: no predicate is missing and no capability is absent — every clause is exactly as
+expressible as its mirror's — so this is not the "card ahead of the engine" category `inert`
+exists for. It is the other category Milestone 22 named directly: *"a card can be made active,
+pass every structural check, and still never fire on any chart because its condition is
+unsatisfiable."* Recorded in the card's own `note` and pinned by
+`test_duryoga_named_cannot_fire_given_the_suns_single_strong_path`.
+
+**Adjudication interaction, checked per the resume brief's §7, not assumed.** A Mahapurusha
+graha that is both retrograde and combust hits `concept:retrograde-combust-collision` exactly as
+any other strength-conditioned card does: `_strength` emits no verdict, the card silently does
+not fire, and `Engine/adjudicate.py` — untouched this milestone — still and separately reports
+the collision as an unresolved `contradiction`. Confirmed by construction (Mars exalted and in
+the lagna, then made retrograde and combust): `PD.06.Ruchaka` does not fire, and the adjudication
+`contradiction`/`unresolved` for "the strength of Mars" still appears, unaffected by whether any
+downstream card tried to use the fact. No new engine code was needed or written for this.
+
+**Engine changes:** none. Every clause uses predicates that already existed
+(`strength`, `conjunct`, `nature`, `combust`, `lord_of_house`, `in_house_class`) in combinators
+the engine already generically supports. This was verified, not assumed, for the one genuinely
+novel combination (`{"not": {"all": [...]}}` with a fresh existential variable inside the
+negation) before it was used in a production card.
+
+**Tests:** 341 (was 334). Two in `Engine/tests/test_slice.py` (the golden chart's Ruchaka claim
+now withheld; a constructed positive control — Mars moved to its exaltation sign — showing it
+returns), a new fixture in `Engine/tests/test_adjudication.py` (a real chart, found by scanning,
+where `PD.06.Sasa` still exercises the `parallel_of` corroboration link the demo chart no longer
+does), and six in the new `Engine/tests/test_chapter_six_strength.py`: scope (only the five
+Mahapurusha cards carry the new clauses, confirmed against a sample of untouched chapter-6 cards;
+an unrelated graha's strength cannot affect Ruchaka), the reference card never becomes a claim,
+the retrograde-combust collision reproduced for a Mahapurusha card specifically, `PD.06.Duryoga.
+Reverse` firing on the constructed chart with its full seven-variable binding checked, and
+`PD.06.Duryoga`'s structural unfireability confirmed by comparing its condition tree's
+strong/weak role assignment against its mirror's.
+
+**Real-chart validation.** 2,176 real nativities (four cities, 1950–2010, sparse stride), **zero
+pipeline or verification failures**. The Mahapurusha family fires on 29.2% of charts (was higher
+before this milestone on an unrestricted-by-strength basis, though that count was never itself
+pinned by a test to compare against directly — the golden chart's own concrete before/after,
+41 claims → 40, is the pinned comparison). `PD.06.Duryoga` and `PD.06.Duryoga.Reverse` each fired
+on **zero** of the 2,176 charts, consistent with the construction finding above. The
+retrograde-combust collision was reported on 13.6% of charts, continuing to behave exactly as
+Milestone 22/23 left it.
+
+**Production blockers cleared:** none. This was ordinary Phase 3 encoding using an
+already-cleared P0's capability; no blocker was open going in.
+
+**What was deliberately not built**, each because the source or the engine's own honest limits
+forbid it: a Lagna-specific strength verdict (no source states one; registered as
+`dep.lagna-strength` rather than guessed at); the papakartari/hemmed-between clause (needs
+`dep.hemmed-between`, already registered, blocked on the rest of chapter 6); any attempt to force
+`PD.06.Duryoga` to fire by loosening its condition beyond what the verse states (its
+unfireability is the source's own doctrine meeting this engine's own honest strength model, not
+an encoding defect to paper over); and any extension of the strength/malefic-conjunction clauses
+to chapter-6 cards the verse's own text does not reach.
+
+**Why this milestone matters.** It is the first time `dep.strength` (Milestone 22) was used to
+*gate encoding* rather than to complete an engine stage, and the first time this project's own
+"is this card active or does it actually fire" discipline (Milestone 22's own words) produced a
+documented, permanent answer — "it structurally cannot" — for a card that is neither buggy nor
+missing a capability. Both findings (the golden chart's narrowed Ruchaka, `PD.06.Duryoga`'s
+unfireability) came from the same discipline: read the source exactly, extend an existing
+mechanism instead of inventing one, and then actually run a chart rather than trust that a
+well-formed condition is a firing one.
+
+---
+
 ---
 
 ## D. CURRENT MILESTONE
 
-**Nothing is currently in progress.** Milestone 23 above is fully committed, tested, verified,
+**Nothing is currently in progress.** Milestone 24 above is fully committed, tested, verified,
 and pushed.
 
-**Four decisions are owed by a human.** None blocks the next milestone; each should be
+**Five decisions are owed by a human.** None blocks the next milestone; each should be
 settled before the work it touches is extended.
 
-### Decision 0a (new, Milestone 23) — `concept:parallel-of-overloaded`
+### Decision 0b (new, Milestone 24) — `concept:p009-lagna-or-moon-clause`
+
+**What v.9's disjunctive clause requires, and why only half of it is encoded.** The verse:
+*"...only when the Lagna **or** the Moon and the Yoga forming planets are without blemish."*
+Milestone 24 encoded the yoga-forming-planets half onto the five Mahapurusha cards. The
+Lagna-or-Moon half is not encoded at all — not narrowed, not approximated, simply absent from
+every card's conditions.
+
+**Why it was left off rather than partially encoded.** The Moon side is trivially testable (the
+Moon is one of the nine grahas `dep.strength` already covers). The Lagna side needs two things
+this engine and this store's doctrine do not have: `ChartBundle` never treats the Lagna as a
+strength-bearing subject (it is a scalar, `ascendant_sign`, never a member of `chart.bodies`), and
+no encoded passage states a Lagna-specific strong/weak verdict even if the plumbing existed.
+Writing `strength(Moon,"strong") OR strength(Lagna,"strong")` into a card today would be honest
+but permanently half-dead — the Lagna arm could never match a fact, forever, until both gaps
+close — so it was left off entirely rather than encoded as a disjunction whose second arm silently
+does nothing.
+
+**What closing it would take, if a human decides it should be closed:**
+1. **New doctrine.** No encoded chapter states a Lagna strong/weak verdict. The nearest classical
+   candidate is Bhava Bala (house strength), which chapter 4 states only as a formula over
+   components this book withholds the arithmetic for (`concept:strength-is-not-bhava-strength`) —
+   so even converting a new book would need one that states a Lagna verdict *outright*, the way
+   ch.4 vv.4-5 state graha verdicts outright, not one that only supplies more withheld arithmetic.
+2. **New engine plumbing.** A Lagna-shaped strength extractor, whatever doctrine it reads.
+   Registered as `dep.lagna-strength` (`implemented: false`, effort costed as a guess until the
+   source is identified).
+
+**Recommendation: leave it closed for now.** Nothing is wrong in any consultation the five cards
+produce today — they assert exactly what their conditions test, no more. This is not a
+precedent-setting editorial call the way Decisions 1-2 below are; it is a straightforward
+"no source, no capability" gap. It is listed as a decision anyway because a future session should
+not silently start encoding a Lagna-strength guess without first finding the source that would
+justify it.
+
+### Decision 0a (Milestone 23) — `concept:parallel-of-overloaded`
 
 **What a `parallel_of` link means.** It is currently used for two different things, and the
 engine can tell them apart only by whether the linked card names an authority:
@@ -1445,39 +1704,38 @@ make — which is why it was not taken unilaterally.
 
 ### Next milestone — a choice, not a critical path
 
-**With P0-1 closed there is no open P0.** For the first time since the blocker register was
-written, nothing is gating production that a single capability would clear, and the next
-milestone is therefore a judgement about return rather than an obligation. `leverage.py` now
-ranks `dep.triped-sign-class` first (cost 1, +1 card) and that is a human's reading rather
-than an implementation, so the ranked list does not settle it either.
+**With P0-1 closed there is no open P0.** Nothing is gating production that a single capability
+would clear, and the next milestone is therefore a judgement about return rather than an
+obligation. `leverage.py` now ranks `dep.triped-sign-class` first (cost 1, +1 card) and that is
+a human's reading (whether "Triped" is a misprint for "biped") rather than an implementation, so
+the ranked list does not settle it either.
 
-**Recommended: `passage:phaladeepika.06.p009` — the blanket strength condition on chapter 6's
-yogas.** This milestone released it, and it is the first place the new capability pays for
-itself in *encoding* rather than in engine work: the passage states that every yoga in the
-chapter requires strength in the Lagna, the Moon and the yoga-forming planets, which is a
-condition the engine can now express and could not express last week. It also touches every
-chapter 6 card already in the store, so it is the highest-leverage encoding available.
-`passage:phaladeepika.06.p233` (a second, unrelated Duryoga turning on a weak/strong lord
-test) was released with it and is the natural companion.
+**Recommended: `passage:phaladeepika.06.p202` — vv.57-69, the twelve dusthana-lord yogas.**
+Continues chapter 6 in its natural reading order (v.9 and v.70 are now both consumed; the
+chapter's remaining unencoded material is vv.39-41, vv.42-43 and this passage). Explicitly
+flagged since Milestone 8 as "the richest single contradiction in the chapter" — Mantreswara
+calls Harsha/Sarala/Vimala auspicious, Parashara's own nivritti verse calls them the opposite —
+which makes it the natural next exercise for Stage 7 adjudication's reading half (Milestone 23):
+it would give the store a **second** genuine claim-to-claim contradiction, where today there is
+exactly one (`PD.09.Dignity.Exalted` vs. its own Notes). Ready now — `dep.none` — no capability
+is missing.
 
 **Three alternatives, each defensible:**
 
-1. ~~**Stage 7 adjudication (P1-3).**~~ **Its reading half was built in Milestone 23** and the
-   remaining half is not a milestone candidate: weighting stays unbuilt until a source supplies
-   a rule for choosing, and none does. What *is* a candidate is
-   `concept:parallel-of-overloaded` (Decision 0a) — an encoding pass over chapter 6's notes
-   that would let cross-book corroboration be reported for yogas.
+1. **`passage:phaladeepika.06.p175`** (vv.42-43, Adhiyoga) or **`passage:phaladeepika.06.p168`**
+   (vv.39-41, the seven-planets-in-N-signs family — needs one small new engine fact, a
+   distinct-sign-count over the seven classical grahas). Either continues chapter 6 without
+   p202's adjudication angle.
 2. **`dep.compound-friendship`** (cost 3). The Adhimitra/Adhishatru tiers, which the book
    defines in ch. 2 and then uses without definition in ch. 6 v. 19, ch. 10 v. 23 and six
    rows of the ch. 4 survey. Cheap, well-sourced, and releases `PD.06.Pushkala`'s first
    remaining obstacle.
-3. **Brihat Jataka ch. 2's remainder** (`passage:brihat-jataka.02.remainder`). It restates
-   dignity and relative-strength doctrine Phaladeepika already carries, which makes it the
-   natural place to exercise cross-book corroboration on a **second** relation now that a
-   strength relation exists. Multi-book corroboration is scored 25% precisely because it
-   covers exactly one relation.
+3. **`concept:parallel-of-overloaded`** (Decision 0a) — an encoding pass over chapter 6's notes
+   that would let cross-book corroboration be reported for yogas the way it already is for
+   `graha_nature`. Precedent-setting (see Decision 0a's own text), so best taken only after a
+   human has read that decision.
 
-**Three things the next milestone must NOT do**, each of which the source still forbids:
+**Four things the next milestone must NOT do**, each of which the source still forbids:
 
 - **Do not compute a Shadbala Pinda.** Three of six components have no printed arithmetic.
   This did not change by building Stage 4; it is why Stage 4 is shaped the way it is. See
@@ -1488,11 +1746,13 @@ test) was released with it and is the natural companion.
 - **Do not rank grahas by strength.** `dep.strength-ranking` is registered, is priced at 13,
   and is blocked on source material rather than on code. Two cards are waiting on it and must
   keep waiting.
-- **Do not add weighting to Stage 7** (new, Milestone 23). The adjudicator has four
-  relationships and three resolutions and no field a number could live in; a test asserts
-  that, and another asserts no percentage reaches a `reason` string. The way to resolve more
-  conflicts is to encode a source that states a precedence, never to invent one. See
-  `dep.adjudication`, still outstanding on purpose.
+- **Do not add weighting to Stage 7.** The adjudicator has four relationships and three
+  resolutions and no field a number could live in; a test asserts that, and another asserts no
+  percentage reaches a `reason` string. The way to resolve more conflicts is to encode a source
+  that states a precedence, never to invent one. See `dep.adjudication`, still outstanding on
+  purpose. (New, Milestone 24: nor should a future session build `dep.lagna-strength` from a
+  *guess* at what "Lagna strength" would mean — Decision 0b is explicit that this waits on a
+  source stating a verdict outright, not on engine work.)
 
 **Blockers:** none blocking encoding, and no open P0.
 **Last commit:** this milestone's own commit (see git log for the SHA).
