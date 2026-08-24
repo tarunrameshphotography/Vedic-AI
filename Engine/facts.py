@@ -98,6 +98,7 @@ class DoctrineReport:
         self.consulted: dict[str, list[str]] = {}
         self.skipped: dict[str, str] = {}
         self.partial: dict[str, str] = {}
+        self.conflicts: list[dict] = []
 
     def used(self, extractor: str, cards) -> None:
         got = set(self.consulted.get(extractor, ())) | set(cards)
@@ -115,6 +116,29 @@ class DoctrineReport:
         """
         self.partial[extractor] = reason
 
+    def conflict(self, extractor: str, subject: str, cards, reason: str,
+                 basis=()) -> None:
+        """Two pieces of doctrine that collided on *this chart*, named.
+
+        Separate from `incomplete`, which they usually accompany, because the
+        two say different things and only one of them is a relationship.
+        `incomplete` is a coverage statement -- this graha got no fact. This is
+        a statement about the doctrine: these named cards disagree here, and
+        the source does not rank them. Stage 7 reads it and reports it with the
+        cards' own words; keeping it structured rather than folding it into the
+        prose reason is what stops that report from having to parse a sentence.
+        """
+        self.conflicts.append({
+            "extractor": extractor,
+            "subject": subject,
+            "cards": sorted(cards),
+            "reason": reason,
+            "basis": tuple(basis),
+        })
+
+    def conflicts_for(self, extractor: str) -> list[dict]:
+        return [c for c in self.conflicts if c["extractor"] == extractor]
+
     @property
     def cards(self) -> list[str]:
         out: set[str] = set()
@@ -124,7 +148,9 @@ class DoctrineReport:
 
     def to_dict(self) -> dict:
         return {"consulted": dict(self.consulted), "skipped": dict(self.skipped),
-                "partial": dict(self.partial), "cards_total": len(self.cards)}
+                "partial": dict(self.partial),
+                "conflicts": [dict(c, basis=list(c["basis"])) for c in self.conflicts],
+                "cards_total": len(self.cards)}
 
 
 class FactSet:
@@ -858,11 +884,39 @@ def _strength(chart, doc, rep, frame) -> list[Fact]:
             # one would be the engine adjudicating between its own authorities,
             # which is precisely what it must not do -- so this graha gets no
             # strength fact and the collision is reported rather than buried.
+            strong_basis = ", ".join(h["basis"] for h in surviving)
+            weak_basis = ", ".join(h["basis"] for h in weak)
             unresolved.append(
-                f"{graha} is called strong ({', '.join(h['basis'] for h in surviving)}) "
-                f"and weak ({', '.join(h['basis'] for h in weak)}) by cards the "
+                f"{graha} is called strong ({strong_basis}) "
+                f"and weak ({weak_basis}) by cards the "
                 f"source does not rank against each other "
                 f"({', '.join(sorted(h['card'] for h in surviving + weak))})")
+            # The same collision, structured, so Stage 7 can report it as a
+            # relationship between two named verses rather than as a sentence
+            # about missing coverage. Both are recorded: they are different
+            # statements and each belongs in a different part of the report.
+            rep.conflict(
+                "strength",
+                f"the strength of {graha}",
+                [h["card"] for h in surviving + weak],
+                reason=(
+                    f"{graha} satisfies both verdicts at once — called strong "
+                    f"({strong_basis}) and weak ({weak_basis}). The verse stating "
+                    f"the weakness carries its own list of what it overrides and "
+                    f"that list does not name this ground, so the source itself "
+                    f"does not settle the case. The engine emits no strength "
+                    f"verdict for {graha} rather than choosing one, and every rule "
+                    f"conditioning on {graha}'s strength correctly does not fire."
+                ),
+                # The chart quantities both sides read, so the collision can be
+                # checked against Part 1 without re-deriving anything.
+                basis=sorted({
+                    f"{k}({graha})"
+                    for h in surviving + weak
+                    for k in ("retrograde", "combust")
+                    if h["evidence"].get(k)
+                }),
+            )
             continue
 
         winners = weak or strong

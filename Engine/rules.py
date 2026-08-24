@@ -21,6 +21,11 @@ from .facts import VOCABULARY, FactSet
 
 COMBINATORS = ("all", "any", "not")
 
+# The relationships a card may declare about another card. Stage 7 reads these;
+# nothing else in the engine does, and no meaning attaches to them here -- this
+# is the list of field names, not a doctrine about what they imply.
+RELATION_LINKS = ("contradicts", "extends", "parallel_of")
+
 # A condition argument of this shape is a variable, not a literal.
 VARIABLE_RE = re.compile(r"^\?[a-z][a-z0-9_]*$")
 
@@ -195,6 +200,23 @@ def verify_cards(cards: list[RuleCard], corpus_dir: str | Path) -> list[str]:
                     f"{card.id}: condition uses predicate {pred!r} "
                     f"which is not in the vocabulary"
                 )
+
+    # Relationship links became load-bearing when Stage 7 started reading them.
+    # A link to a card that does not exist used to be inert clutter; it is now
+    # a silently lost relationship -- the consultation simply would not report
+    # a contradiction it was told about -- so it fails the build like a stale
+    # quote does. Checked after the loop because a link may point at a card
+    # loaded from a different file.
+    known = {c.id for c in cards}
+    for card in cards:
+        for rel in RELATION_LINKS:
+            for target in card.raw.get(rel) or ():
+                if target not in known:
+                    problems.append(
+                        f"{card.id}: {rel} names {target!r}, which is not a card "
+                        f"in the store")
+                elif target == card.id:
+                    problems.append(f"{card.id}: {rel} names itself")
     return problems
 
 

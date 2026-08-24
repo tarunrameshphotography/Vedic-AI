@@ -22,6 +22,7 @@ from dataclasses import dataclass
 from typing import Protocol
 
 from .activate import Claim
+from .adjudicate import Adjudication
 from .chart import ChartBundle
 from .facts import VOCABULARY, FactSet
 from .synthesis import SynthesisResult, narrate
@@ -106,6 +107,97 @@ def _body_of(claim: Claim) -> str:
 
 # --- the consultation -------------------------------------------------------
 
+_RELATIONSHIP_HEADING = {
+    "contradiction": "Contradiction",
+    "qualification": "Qualification",
+    "parallel_authority": "A second authority on the same doctrine",
+    "override": "Override stated by the source",
+}
+
+_RESOLUTION_LABEL = {
+    "applied": "resolved by the source itself",
+    "unresolved": "**unresolved** — the corpus does not settle it",
+    "recorded": "recorded, nothing to weigh on this chart",
+}
+
+
+def _page_of(anchor: str | None) -> str:
+    return anchor.split("/p")[-1].lstrip("0") if anchor and "/p" in anchor else "?"
+
+
+def adjudication_section(adjudications: list[Adjudication]) -> list[str]:
+    """Stage 7's output, rendered so a reader can check every step of it.
+
+    Each entry names the relationship, the outcome, the reason for that
+    outcome, and then both sides in their own words with book, chapter, verse
+    and printed page. Nothing is summarised into a verdict and nothing is
+    scored, because there is no score to render: where the source ranks two
+    statements the reason says which sentence does the ranking, and where it
+    does not the entry says so and both statements stay standing.
+    """
+    L: list[str] = []
+    A = L.append
+    if not adjudications:
+        A("No two of the applicable passages are linked in the rule store as "
+          "agreeing, contradicting, qualifying or overriding one another, and no "
+          "doctrine collided while the facts were derived. This reading has "
+          "nothing to reconcile — which is a result, not an omission.")
+        A("")
+        return L
+
+    unresolved = sum(1 for a in adjudications if a.resolution == "unresolved")
+    recorded = sum(1 for a in adjudications if a.resolution == "recorded")
+    A(f"{len(adjudications)} relationship(s) hold between the statements above. "
+      f"{unresolved} of them the corpus does not settle, and {recorded} put a "
+      f"second authority on record without there being anything to weigh.")
+    A("")
+    A("The engine has no mechanism for preferring one authority to another and "
+      "does not acquire one here. Where a source states its own precedence it is "
+      "applied and the sentence that states it is named; where none is stated the "
+      "relationship is left **unresolved** and both statements stand. Nothing "
+      "below carries a weight, a score or a rank.")
+    A("")
+    A("A relationship marked *recorded* has one side that never becomes a claim — "
+      "another authority the translator reports, or doctrine stated too loosely to "
+      "test. It is shown because the reader cannot otherwise see that the doctrine "
+      "behind an activated passage is disputed at all; it is not evidence for or "
+      "against that passage.")
+    A("")
+
+    for adj in adjudications:
+        A(f"**{_RELATIONSHIP_HEADING.get(adj.relationship, adj.relationship)}** — "
+          f"{_RESOLUTION_LABEL.get(adj.resolution, adj.resolution)}")
+        A("")
+        where = (f"Both sides turn on `{'`, `'.join(adj.basis)}`."
+                 if adj.basis else "")
+        how = (f"Declared in the rule store as `{'`, `'.join(adj.declared_as)}`."
+               if adj.declared_as
+               else "Found while deriving the facts, not declared between cards.")
+        A(" ".join(x for x in (where, how) if x))
+        A("")
+        for p in adj.parties:
+            # "attributed to", never "reporting". The authority named on a card
+            # is often the book's own author -- one encoded chapter marks which
+            # of its verses are its own author's and which are the translator
+            # relaying earlier writers -- and phrasing it as reporting would
+            # turn every such card into a second authority it is not.
+            who = f" — attributed to **{p.authority}**" if p.authority else ""
+            if p.activated:
+                state = f"activated here as `{'`, `'.join(p.claim_ids)}`"
+            elif p.activation == "reference":
+                state = ("reference doctrine — the engine reads it, and it never "
+                         "becomes a claim")
+            else:
+                state = "in the store; its conditions do not hold on this chart"
+            A(f"- **`{p.card}`**{who} · {p.book} {p.chapter}.{p.verse} · "
+              f"printed p. {_page_of(p.page_anchor)} · {state}")
+            A(f"  > {p.statement}")
+        A("")
+        A(f"*{adj.reason}*")
+        A("")
+    return L
+
+
 def consultation(
     chart: ChartBundle,
     facts: FactSet,
@@ -113,6 +205,7 @@ def consultation(
     sentences: list[Sentence],
     synthesis: SynthesisResult,
     coverage: dict,
+    adjudications: list[Adjudication] | None = None,
 ) -> str:
     rb = chart.resolved_birth
     L: list[str] = []
@@ -251,10 +344,19 @@ def consultation(
     A("## Part 3 — Synthesised interpretation")
     A("")
     A("This is the only section in the system's own voice. It states nothing about "
-      "the chart that Part 2 does not already say; it reports where the applicable "
-      "passages concentrate and which of their terms recur, so the reading can be "
-      "seen as a whole rather than as nine separate verdicts.")
+      "the chart that Part 2 does not already say; it reports how the applicable "
+      "passages stand to one another, where they concentrate and which of their "
+      "terms recur, so the reading can be seen as a whole rather than as nine "
+      "separate verdicts.")
     A("")
+
+    # Stage 7 leads Part 3. Where two of the passages above are related -- one
+    # qualifying another, a second authority speaking to the same doctrine, a
+    # verse the source itself says gives way -- that relationship is the first
+    # thing a reader needs, before any measurement of which words recur.
+    A("### How the applicable passages stand to one another")
+    A("")
+    L.extend(adjudication_section(adjudications or []))
 
     if synthesis.concentrations:
         A("### Where the texts concentrate")
@@ -281,6 +383,18 @@ def consultation(
         for t in contested:
             A(f"**“{'/'.join(t.variants)}”**")
             A("")
+            if t.doctrinal_conflicts:
+                # Say which evidence made this contested. Without the note, a
+                # theme flagged only by the store's own link would show every
+                # occurrence marked "asserted" and read as agreement -- which
+                # is what this section printed before Stage 7 existed.
+                pairs = "; ".join(f"`{a}` against `{b}`"
+                                  for a, b in t.doctrinal_conflicts)
+                A(f"Contested because the rule store links these passages' cards "
+                  f"as contradicting each other ({pairs}), not because a cue word "
+                  f"fired. See *How the applicable passages stand to one another*, "
+                  f"above.")
+                A("")
             for occ in t.occurrences:
                 mark = "negated " if occ.negated else "asserted"
                 cue = f" (cue: *{occ.cue}*)" if occ.cue else ""
@@ -376,7 +490,14 @@ def consultation(
           "the extractor did not fail:")
         A("")
         for extractor, reason in sorted(facts.doctrine.partial.items()):
-            A(f"- `{extractor}` — {reason}")
+            # Where the incompleteness was caused by doctrine colliding rather
+            # than by doctrine missing, Part 3 carries the relationship with
+            # both verses quoted. Point there instead of restating it: this
+            # line is a coverage statement, that one is a relationship.
+            pointer = ("  Reported in full, with both verses, under *How the "
+                       "applicable passages stand to one another* in Part 3."
+                       if facts.doctrine.conflicts_for(extractor) else "")
+            A(f"- `{extractor}` — {reason}{pointer}")
         A("")
 
     if facts.doctrine.skipped:

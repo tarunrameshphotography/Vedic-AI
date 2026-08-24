@@ -6,11 +6,11 @@ Nothing may be silently deferred. Inert cards are read out of the store, deferre
 
 | | |
 |---|---|
-| Backlog entries | **135** |
+| Backlog entries | **136** |
 | — of kind `card` | 17 |
 | — of kind `passage` | 47 |
 | — of kind `chapter` | 48 |
-| — of kind `concept` | 22 |
+| — of kind `concept` | 23 |
 | Resolved | 1 |
 | Cards in store | 501 |
 | Firing | 484 |
@@ -24,7 +24,7 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 |---|---|---|---|---|---|
 | `dep.none` — no dependency -- simply not yet done | process | yes | 74 | 0 | 3 (knowledge) |
 | `dep.adjudication` — Stage 7 adjudication | engine | no | 12 | 1 | 4 (integration) |
-| `dep.manual-verification` — human verification of the encoding | process | no | 8 | 2 | 3 (knowledge) |
+| `dep.manual-verification` — human verification of the encoding | process | no | 9 | 2 | 3 (knowledge) |
 | `dep.strength` — strength verdict extractor (Stage 4) | predicate | yes | 7 | 0 | 2 (engine completion) |
 | `dep.condition-variables` — variables in the condition language | schema | yes | 6 | 6 | 4 (integration) |
 | `dep.dasa` — vimshottari dasa engine | calculator | no | 6 | 3 | 2 (engine completion) |
@@ -53,6 +53,7 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 | `dep.vargottama` — vargottama extractor | predicate | no | 1 | 1 | 2 (engine completion) |
 | `dep.weekday-hora-lords` — which graha rules each weekday and each hora | reference | no | 1 | 0 | 3 (knowledge) |
 | `dep.yoga-combination-count` — counting how many sibling yoga-conditions are simultaneously true | schema | no | 1 | 0 | beyond the MVP |
+| `dep.adjudication-representation` — adjudication representation (Stage 7, the reading half) | engine | yes | 0 | 0 | 4 (integration) |
 | `dep.correlated-negation` — negation correlated with the current binding | schema | yes | 0 | 0 | 2 (engine completion) |
 | `dep.day-night` — whether the birth was by day or by night | calculator | no | 0 | 0 | 2 (engine completion) |
 | `dep.declination` — declination north or south | calculator | no | 0 | 0 | 2 (engine completion) |
@@ -196,7 +197,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `passage:phaladeepika.09.p016` | phaladeepika | 9 | p.107-109 | two transcribed horoscopes, their lagna notes, a worked example and an aside on Abraham Lincoln | Tier-3 apparatus: worked examples, not rules. Recorded as deliberately excluded, not pending. | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.10.p038` | phaladeepika | 10 | p.114 colophon | the chapter's closing formula | Colophon. Not doctrine. | `dep.none` | 3 (knowledge) | deferred |
 
-### Cross-cutting (22)
+### Cross-cutting (23)
 
 | Entry | Book | Chapter | Locus | Deferred | Reason | Blocked on | Phase | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -220,6 +221,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `concept:strength-is-not-bhava-strength` | phaladeepika | 4 | ch. 4 vv. 4-5 against vv. 24-26 (printed pp.43, 50-51) | That the strength capability covers grahas only, not houses. | Recorded in Milestone 22 so the gap is visible rather than inferred from an absence. The verdicts vv. 4-5 state are about planets. Bhava Bala -- the strength… | `dep.strength` | 2 (engine completion) | deferred |
 | `concept:tatkalik-friendship` | phaladeepika | 4 | ch. 4 v. 10 (printed p.45) | Temporal (Tatkalik) friendship and enmity, which this project has never encoded. | Verse 10 prefers natural friendship to temporal, which ratifies what the engine already does -- Engine/facts.py::_dignity_friendship reads the natural table … | `dep.none` | 3 (knowledge) | deferred |
 | `concept:yudha-bala-method-not-given` | phaladeepika | 4 | ch. 4, Yudha Bala (printed p.39) | How Yudha Bala (planetary war) is actually computed. | The source states the condition -- two of the five non-luminous grahas in the same rasi, degree and minute -- and then refers the reader to Sripati Padhati, … | `dep.shadbala-arithmetic` | 3 (knowledge) | deferred |
+| `concept:parallel-of-overloaded` | phaladeepika | 6 | every parallel_of link in chapter 6 (27 cards) | Whether a parallel_of link means the two cards agree, or only that they speak to the same doctrine -- the store does not currently distinguish, so Stage 7 reports neither. | Found in Milestone 23 while building Stage 7. parallel_of is used for two different things. It links a card to another named authority's statement of the sam… | `dep.manual-verification` | 4 (integration) | deferred |
 | `concept:sunapha-anapha-durudhara-naming` | phaladeepika | 6 | v. 5-7 (p.57-59) | which of Sunapha, Anapha and Durudhara individually corresponds to the 2nd-only, 12th-only or both-occupied condition from the Moon | Verse 5 states that the three yogas collectively arise 'when the planets occupy the 2nd and 12th houses reckoned from the Moon', but assigns no name to any o… | `dep.manual-verification` | 3 (knowledge) | deferred |
 | `concept:nodal-retrograde-dignity` | phaladeepika | 9 | v. 20, as applied by Engine/overrides.py | whether the retrograde-as-exalted override extends to Rahu and Ketu | The verse says 'a planet' without exclusion, and the engine's own retrograde predicate already marks the nodes retrograde on every chart (their motion is alw… | `dep.manual-verification` | 3 (knowledge) | deferred |
 

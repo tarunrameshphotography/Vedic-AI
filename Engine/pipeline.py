@@ -12,6 +12,12 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from .activate import Claim, activate, verify_claims
+from .adjudicate import (
+    Adjudication,
+    adjudicate,
+    contested_claim_pairs,
+    verify_adjudications,
+)
 from .chart import BirthRecord, ChartBundle, compute_chart, resolve_birth
 from .ephemeris import EphemerisProvider, SwissEphemerisDLL
 from .doctrine import Doctrine
@@ -42,6 +48,7 @@ class Result:
     chart: ChartBundle
     facts: FactSet
     claims: list[Claim]
+    adjudications: list[Adjudication]
     sentences: list[Sentence]
     synthesis: SynthesisResult
     coverage: dict
@@ -126,19 +133,28 @@ def run(
         facts = apply_overrides(cards, doctrine, facts, chart)         # Stage 2b
         claims, report = activate(chart, facts, cards, _book_meta(rules_dir))  # Stage 6
 
-        # Stage 7 is not implemented in this slice: with a single chapter there
-        # is nothing to adjudicate between. Claims are ordered deterministically
-        # by house then body so the report reads in a stable order.
-        # A claim with no house of its own -- one keyed on the ascendant's sign
-        # -- sorts to 0 and leads, matching how Stage 10 groups it.
+        # Claims are ordered deterministically by house then body so the report
+        # reads in a stable order. A claim with no house of its own -- one keyed
+        # on the ascendant's sign -- sorts to 0 and leads, matching how Stage 10
+        # groups it.
         order = {b: i for i, b in enumerate(chart.bodies)}
         claims.sort(key=lambda c: (
             _house(c) or 0, order.get(_body(c), 99)
         ))
 
+        # Stage 7. A layer above the claims, never inside them: it reads the
+        # relationships the store already declares between cards and reports
+        # what they amount to on this chart. `claims` is untouched by it, which
+        # is what keeps "what did the source say?" and "how were those
+        # statements reconciled?" two separate answers.
+        adjudications = adjudicate(claims, facts, cards)
+
         # Stage 7c/8. Synthesis measures recurrence across the activated
-        # passages; it introduces no claim of its own.
-        synthesis = synthesise(claims)
+        # passages; it introduces no claim of its own. It is handed the pairs
+        # Stage 7 found in a source-stated disagreement so a lexical pass can
+        # no longer report a verse and its own refutation as agreeing -- the
+        # contradiction is the store's, not the synthesizer's.
+        synthesis = synthesise(claims, contested_claim_pairs(adjudications))
         synthesizer = synthesizer or QuotingSynthesizer()
         sentences = synthesizer.compose(claims, chart) + synthesis_sentences(synthesis)
 
@@ -149,6 +165,15 @@ def run(
             verification.failures.extend(synth_problems)
         verification.checks["synthesis_themes"] = len(synthesis.themes)
         verification.checks["synthesis_grounded"] = not synth_problems
+        # Stage 9 covers Stage 7 too. An adjudication is a conclusion about
+        # sources, and one that cannot be walked back to a card is the black
+        # box this project exists not to build.
+        adj_problems = verify_adjudications(adjudications, claims, cards)
+        if adj_problems:
+            verification.ok = False
+            verification.failures.extend(adj_problems)
+        verification.checks["adjudications"] = len(adjudications)
+        verification.checks["adjudications_grounded"] = not adj_problems
         if not verification.ok:
             raise PipelineError(
                 "groundedness verification failed; report not emitted:\n  "
@@ -168,10 +193,11 @@ def run(
         coverage = _coverage(chart, claims, report)
         coverage["loaded_doctrine"] = _scope(meta)
         return Result(                                                # Stage 10
-            chart=chart, facts=facts, claims=claims, sentences=sentences,
+            chart=chart, facts=facts, claims=claims,
+            adjudications=adjudications, sentences=sentences,
             synthesis=synthesis, coverage=coverage, verification=verification,
             consultation=consultation(chart, facts, claims, sentences,
-                                      synthesis, coverage),
+                                      synthesis, coverage, adjudications),
             audit=audit_view(claims, chart, verification),
         )
     finally:

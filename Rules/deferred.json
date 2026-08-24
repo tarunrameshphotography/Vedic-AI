@@ -297,11 +297,11 @@
     "dep.adjudication": {
       "title": "Stage 7 adjudication",
       "kind": "engine",
-      "detail": "Conflict resolution, weighting and precedence between rules that disagree.",
+      "detail": "Weighting and precedence between rules that disagree -- deciding which of two source-backed claims to prefer when the corpus itself does not say. NOT implemented and not scheduled: the standing prohibition on invented numeric confidence, source-prestige ranking and 'book A is more correct than book B' applies to every part of it. The *representation* half was split off and built in Milestone 23 as dep.adjudication-representation; what remains here is the half that would require the engine to choose, and no encoded source yet supplies a rule for choosing. The eleven entries declaring this dependency each need either such a rule from a source or a human's ruling -- none is released by the representation.",
       "phase": "4 (integration)",
       "depends_on": [],
       "effort": 8,
-      "effort_basis": "Stage 7: conflict types, precedence, weighting"
+      "effort_basis": "Stage 7's remaining half: precedence between claims the corpus does not rank. Unchanged at 8 -- the representation half was split off as dep.adjudication-representation and built, and no edge is drawn to it because leverage.py charges an entire closure and would re-bill that work."
     },
     "dep.manual-verification": {
       "title": "human verification of the encoding",
@@ -508,6 +508,16 @@
       "effort": 13,
       "effort_basis": "convert and encode a source that supplies the three withheld methods; no amount of work on the encoded corpus can substitute",
       "implemented": false
+    },
+    "dep.adjudication-representation": {
+      "title": "adjudication representation (Stage 7, the reading half)",
+      "kind": "engine",
+      "detail": "Engine/adjudicate.py (Milestone 23). Reads the contradicts/extends/parallel_of links the rule store has always carried, plus the collisions the strength extractor finds on a chart, and reports each as a typed relationship between named cards with a resolution of applied / unresolved / recorded. It RESOLVES nothing the source does not resolve: the only 'applied' precedence in the corpus is the combustion override, which the verse states in its own sentence. No weighting, no confidence, no authority ranking, and no field in which a number could be recorded -- those are dep.adjudication, deliberately still outstanding. Split off from dep.adjudication rather than marking that one implemented, because eleven registry entries declare dep.adjudication and this releases none of them.",
+      "phase": "4 (integration)",
+      "depends_on": [],
+      "effort": 5,
+      "effort_basis": "one module reading links already in the store, plus a structured conflict channel on the doctrine report and a consultation section",
+      "implemented": true
     }
   },
   "entries": [
@@ -2569,6 +2579,20 @@
         "dep.strength"
       ],
       "phase": "2 (engine completion)",
+      "status": "deferred"
+    },
+    {
+      "id": "concept:parallel-of-overloaded",
+      "kind": "concept",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "every parallel_of link in chapter 6 (27 cards)",
+      "what": "Whether a parallel_of link means the two cards agree, or only that they speak to the same doctrine -- the store does not currently distinguish, so Stage 7 reports neither.",
+      "reason": "Found in Milestone 23 while building Stage 7. parallel_of is used for two different things. It links a card to another named authority's statement of the same doctrine (PD.06.PanchaMahapurusha.JatakaParijata and .Saravali, whose own note says 'Corroborates'), and it links sibling cards cut from a single sentence (PD.06.Varishtha/.Sama/.Adhama, three mutually exclusive readings of one verse; also Lakshmi/Gouri, Subhamala/Asubhamala, Mahabhagya.Male/.Female, Amala/Amala.V12). predicts.authority separates the two groups cleanly today and is what Stage 7 keys on. But even within the first group the link does not record agreement: PD.06.Vesi.AuthoritativeWorks reports that most authoritative works define the yoga WITHOUT the benefic/malefic split Mantreswara uses -- a different condition for the same yoga -- while PD.06.PanchaMahapurusha.JatakaParijata restates the same one. Stage 7 therefore reports 'a second authority on the same doctrine' and deliberately does NOT report corroboration, because asserting agreement the store never claimed would manufacture the very concord cross-book corroboration is supposed to be evidence for. Resolving this -- most likely by splitting parallel_of into an agreement link and a variant-reading link at encoding time -- would let yoga corroboration be reported the way graha_nature corroboration already is. It is an encoding decision, not an engine one.",
+      "requires": [
+        "dep.manual-verification"
+      ],
+      "phase": "4 (integration)",
       "status": "deferred"
     }
   ]

@@ -18,6 +18,13 @@ requires the engine to know what any word means astrologically. A recurring
 term is reported with its passages attached so the texts, not this module,
 carry the meaning.
 
+One thing it does not measure and must not: whether two passages *doctrinally*
+disagree. The cue-word test is a reading aid over English wording, and wording
+is not enough -- a verse and its own translator's refutation can share every
+content word and be flatly opposed. Those pairs come in from Stage 7, which
+reads the `contradicts` links the encoder recorded off the printed page. They
+arrive as citations, not as judgements this module made.
+
 What this deliberately does NOT do: weigh planets by strength, rank houses by
 importance, resolve a tension between two passages, or decide that a theme is
 "strong". Those need doctrine the rule store does not yet hold.
@@ -82,6 +89,11 @@ class Theme:
     term: str                          # display form (shortest variant)
     variants: tuple[str, ...]
     occurrences: tuple[Occurrence, ...]
+    # Claim pairs the rule store itself declares to be in disagreement, among
+    # the passages this term appears in. Supplied by Stage 7, not measured
+    # here: this module reads text and would have no way to know that verse 14
+    # and its own translator's note contradict each other.
+    doctrinal_conflicts: tuple[tuple[str, str], ...] = ()
 
     @property
     def claim_ids(self) -> tuple[str, ...]:
@@ -101,8 +113,24 @@ class Theme:
         return tuple(o.claim_id for o in self.occurrences if o.negated)
 
     @property
-    def contested(self) -> bool:
+    def contested_lexically(self) -> bool:
         return bool(self.asserted) and bool(self.negated)
+
+    @property
+    def contested(self) -> bool:
+        """Whether the passages pull against each other, by either evidence.
+
+        Two independent grounds, and the second is the load-bearing one. The
+        cue-word test catches "devoid of wealth" against "wealthy". It cannot
+        catch a verse saying the native will "shine like" a named king against
+        its own translator's note saying he "cannot shine like" him, because
+        `cannot` is not a cue and no closed list of English negating words ever
+        would catch every such case. The rule store already recorded that
+        disagreement as a `contradicts` link between the two cards, so Stage 7
+        hands it over rather than the cue list being stretched to approximate
+        it.
+        """
+        return self.contested_lexically or bool(self.doctrinal_conflicts)
 
 
 @dataclass(frozen=True)
@@ -146,8 +174,19 @@ def _body_of(claim: Claim) -> str:
     return "?"
 
 
-def synthesise(claims: list[Claim]) -> SynthesisResult:
-    """Measure recurrence and concentration across the activated passages."""
+def synthesise(claims: list[Claim],
+               contested_pairs: "frozenset[frozenset[str]] | None" = None,
+               ) -> SynthesisResult:
+    """Measure recurrence and concentration across the activated passages.
+
+    `contested_pairs` comes from Stage 7 and is the only thing in this module
+    that this module did not measure itself. It is not astrology arriving
+    through the back door: each pair is two claims whose *cards* the encoder
+    linked with `contradicts` while reading the printed page, so what enters
+    here is a citation, not a judgement. Optional, so the module stays usable
+    (and testable) on its own.
+    """
+    contested_pairs = contested_pairs or frozenset()
     # --- where the passages concentrate -------------------------------------
     by_house: dict[int, list[Claim]] = {}
     for c in claims:
@@ -193,10 +232,17 @@ def synthesise(claims: list[Claim]) -> SynthesisResult:
         if len({o.claim_id for o in occs}) < MIN_CLAIMS_FOR_THEME:
             continue
         display = min(variants, key=lambda v: (len(v), v))
+        ids = sorted({o.claim_id for o in occs})
+        conflicts = tuple(sorted(
+            (a, b)
+            for i, a in enumerate(ids) for b in ids[i + 1:]
+            if frozenset((a, b)) in contested_pairs
+        ))
         themes.append(Theme(
             term=display,
             variants=tuple(sorted(variants)),
             occurrences=tuple(sorted(occs, key=lambda o: o.claim_id)),
+            doctrinal_conflicts=conflicts,
         ))
 
     # Contested themes first -- a disagreement between two passages is the most
@@ -252,13 +298,33 @@ def narrate(result: SynthesisResult) -> list[tuple[str, tuple[str, ...]]]:
     for theme in result.themes:
         variants = ("/".join(theme.variants)
                     if len(theme.variants) > 1 else theme.variants[0])
-        if theme.contested:
+        if theme.doctrinal_conflicts and not theme.contested_lexically:
+            # The cue words found nothing and the store did. Say so plainly
+            # rather than reporting "asserted in 2, negated in 0", which is
+            # what the lexical wording would produce here and which reads as
+            # agreement -- the exact misreport this branch exists to prevent.
+            pairs = "; ".join(f"{a} against {b}"
+                              for a, b in theme.doctrinal_conflicts)
+            text = (
+                f"“{variants}” recurs in {len(theme.claim_ids)} passages that the "
+                f"rule store records as contradicting each other ({pairs}); the "
+                f"wording alone does not show it, and the disagreement is the "
+                f"books', not this reading's."
+            )
+        elif theme.contested:
             text = (
                 f"“{variants}” recurs in {len(theme.claim_ids)} passages and the texts "
                 f"do not agree: asserted in {len(theme.asserted)} "
                 f"({', '.join(theme.asserted)}), negated in {len(theme.negated)} "
                 f"({', '.join(theme.negated)})."
             )
+            if theme.doctrinal_conflicts:
+                text = text[:-1] + (
+                    f"; the rule store also records "
+                    + "; ".join(f"{a} against {b}"
+                                for a, b in theme.doctrinal_conflicts)
+                    + " as contradicting each other."
+                )
         elif theme.negated:
             text = (
                 f"“{variants}” is negated in all {len(theme.negated)} passages that "
@@ -298,6 +364,18 @@ def verify_synthesis(result: SynthesisResult, claims: list[Claim]) -> list[str]:
                 problems.append(
                     f"theme '{theme.term}': negation cue {occ.cue!r} not in {occ.claim_id}"
                 )
+        # A doctrinal conflict is a citation, so it is checked like one: both
+        # sides must be claims this reading actually activated, and both must
+        # be among the passages the term was found in.
+        for a, b in theme.doctrinal_conflicts:
+            for cid in (a, b):
+                if cid not in by_id:
+                    problems.append(
+                        f"theme '{theme.term}': conflict cites unknown claim {cid}")
+                elif cid not in theme.claim_ids:
+                    problems.append(
+                        f"theme '{theme.term}': conflict cites {cid}, which does "
+                        f"not carry the term")
 
     for con in result.concentrations:
         for cid in con.claim_ids:

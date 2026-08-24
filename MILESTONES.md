@@ -5,43 +5,46 @@ astrologer would, where every predictive sentence traces to a rule printed in a 
 applied to a quantity that was actually computed. Governing rule: *the system may compute,
 and it may quote — it may not invent.*
 
-**Current production-readiness: 56%** (see §A for the weighted breakdown; was 54% after
-Milestone 21). The movement is capability this time, not encoding: **P0-1 is closed**. Stage 4
-exists, every chart now produces strength verdicts, and the four cards that were waiting only
-on it fire on real nativities. Card count did not move at all — 501 before and after — which
-is the honest shape of a milestone that built an engine rather than encoding a chapter.
+**Current production-readiness: 59%** (see §A for the weighted breakdown; was 56% after
+Milestone 22). The movement is again capability rather than encoding, and this time it is
+capability the store had been *waiting* for rather than lacking: the `contradicts`, `extends`
+and `parallel_of` links have existed since chapter 1 was encoded and **no code had ever read
+them**. Card count did not move — 501 before and after.
 
-**Current phase:** Phase 4 (Knowledge Integration) has **started** — narrowly, with the
-corroboration half of Stage 7 only. Phase 3 remains at the state described in §B.
+**Current phase:** Phase 4 (Knowledge Integration) is properly under way. Stage 7's
+*representation* half is built; its *weighting* half is deliberately not, and is not
+scheduled.
 
-**Current milestone:** Milestone 22 — **Stage 4 built**: `dep.strength`, the engine half of
-**P0-1**, as a verdict extractor and deliberately not a Shadbala calculator. 21 inert cards →
-17. The milestone's second finding is a conflict inside chapter 4 that only a chart can
-produce, and that a card-by-card encoding pass could not have seen.
+**Current milestone:** Milestone 23 — **Stage 7, the reading half**: `Engine/adjudicate.py`.
+Every relationship the rule store declares between two cards is now read, typed, and reported
+in the consultation with both sides quoted and an explicit `unresolved` state where the corpus
+does not settle the matter. The milestone's sharpest finding is a live defect it fixes: on
+**83% of charts** Part 3 was reporting a verse and its own translator's refutation of that
+verse as *agreeing*.
 
 **Exact resume point:** `git fetch --all --prune`, confirm `main` == `origin/main`, then pick
-up §D. With P0-1 closed there is **no open P0**, so the next milestone is a choice rather
-than a critical path; §D recommends `passage:phaladeepika.06.p009` — the blanket strength
-condition on every chapter 6 yoga, which this milestone released and which is the first place
-the new capability pays for itself in encoding rather than in engine work. **Three decisions
-are owed by a human**, none blocking that: `concept:moon-nature-criterion` (Milestone 20),
-`concept:strength-criterion-scope` (Milestone 21 — now *live* rather than latent, because the
-engine it governs exists and is emitting verdicts) and `concept:retrograde-combust-collision`
-(new — see §D).
+up §D. There is still **no open P0**. §D continues to recommend
+`passage:phaladeepika.06.p009` — the blanket strength condition on every chapter 6 yoga —
+because this milestone deliberately did not consume it. **Four decisions are owed by a
+human**, none blocking that: `concept:moon-nature-criterion` (Milestone 20),
+`concept:strength-criterion-scope` (Milestone 21), `concept:retrograde-combust-collision`
+(Milestone 22 — now *surfaced properly* rather than buried in a prose aside, which changes its
+urgency but not its answer) and `concept:parallel-of-overloaded` (new — see §D).
 
-**Current Git SHA:** `9ac2bda56f9b21b26679f2b688d95aaf5e35505e` (parent — this milestone's
+**Current Git SHA:** `a17b3dec0c88a5108ebc0d8dd07d8b087caa6263` (parent — this milestone's
 own commit follows this file's checkpoint)
 **Last verified remote SHA (origin/main):** same before this milestone's commit — 0 ahead /
 0 behind, working tree clean
 **Last update date:** 2026-08-24
 
-**Current test count:** 302 passing (`Engine/tests`) — was 271. The 31 new tests are
-`Engine/tests/test_strength.py` (30) plus one that chapter 4’s suite gained when a test
-asserting the half-built state was replaced by two asserting the finished one.
-**Current rule-card counts:** **501 total** · 484 executable (firing) · **17 inert** — was 480
-/ 21. No card was added, removed or re-quoted; four moved from inert to active because the
-capability they named now exists, and four more had their declared dependency **corrected**
-because it turned out not to be the thing blocking them.
+**Current test count:** 334 passing (`Engine/tests`) — was 302. The 32 new tests are
+`Engine/tests/test_adjudication.py`, and four deliberate mutations of the new module were run
+against them to confirm they can fail: reading links directionally, treating every
+`parallel_of` as a second authority, resolving an unresolved dispute, and deleting the
+strength collision's refusal were each caught.
+**Current rule-card counts:** **501 total** · 484 executable (firing) · **17 inert** —
+unchanged. No card was added, removed, re-quoted or re-conditioned. A milestone that taught the
+engine to read what the cards already said has no business changing the cards.
 **Current verification:** **498/501 cards signed off (99.4%)** — unchanged. 270 carry the
 automated structural sign-off, 228 a real human(+Claude) one, 3 are unsigned (the standing
 holdouts `PD.01.Kalapurusha.Strength`, `PD.10.Venus.VargaMarsSaturn`, `PD.04.Lagna.TripedSign`).
@@ -52,7 +55,16 @@ is the same under either. **Four cards were re-signed by hand** here: the four w
 this milestone rewrote, because rewriting a condition is an interpretive act and inheriting the
 old sign-off would have been false.
 
-**Backlog:** 135 entries (was 137), and the arithmetic is worth stating because it is the
+**Backlog (Milestone 23):** 136 entries (was 135). One new concept entry,
+`concept:parallel-of-overloaded`, and one new dependency, `dep.adjudication-representation`
+(`implemented: true`), which is the capability actually built. **`dep.adjudication` itself was
+deliberately left outstanding.** Eleven registry entries declare it, this milestone releases
+none of them, and marking it implemented would have reported all eleven as newly unblocked —
+the same false signal Milestone 22 had to correct after building `dep.strength`. Its `effort`
+stays 8, and no `depends_on` edge was drawn to the new entry, because `leverage.py` charges an
+entire dependency closure and would have re-billed work already done.
+
+**Original Milestone 22 note on the backlog:** 135 entries (was 137), and the arithmetic is worth stating because it is the
 first milestone whose backlog *shrank*: −4 card entries (the four cards that went active stop
 being deferred knowledge) and +2 concept entries
 (`concept:retrograde-combust-collision`, `concept:strength-is-not-bhava-strength`). The four
@@ -81,31 +93,36 @@ own warning that a system can have many cards while lacking reasoning capability
 | Corpus completeness | 15% | 25% | 2 of 6 planned books converted and frozen (Brihat Jataka, Phaladeepika); 4 pending (BPHS, Jataka Parijata, Uttara Kalamrita, Saravali) behind a deliberate freeze. |
 | Source verification | 10% | 77% | Corpus pipeline verified byte-exact with hallucination detection, verse reconciliation, figure transcription for the 2 converted books. **The Devanagari glyph-level spot-check owed on Brihat Jataka has now begun** (Milestone 20): ch. 2 v. 5's closing line was compared glyph by glyph against the rendered page and 2 OCR defects found and recorded (`व`→`र`, `सु`→`स`), neither affecting any encoded card. One line is not a spot-check pass, but it is the first evidence about the real error rate rather than an estimate. |
 | Rule extraction/encoding | 20% | 42% | Phaladeepika chapters 1, 2, **4**, 8, 9, 10 encoded and 6 partially (through v.38 of ~70); 499 Phaladeepika cards (+2 Brihat Jataka = 501 in the store) from an estimated ~1,535 total across all 28 Phaladeepika chapters at the measured 0.65 cards/paragraph rate — and that is one book of six. Chapter 4 alone contributed 94, and it is the densest chapter encoded so far: 163 paragraphs of computational doctrine, almost all of it `reference` rather than firing. |
-| Reasoning engine capability | 15% | 60% | Stages 0, 1, 2, **4**, 6, 9, 10 implemented; Stages 3 and 5 (yogas/houses as first-class computation) not built as dedicated stages; Stage 7 (adjudication) only partial (synthesis exists, weighting/cancellation does not); no varga, dasa, transit or ashtakavarga calculators, and no *numeric* strength calculator — the source withholds the arithmetic one would need (`dep.shadbala-arithmetic`). **Raised 52→60 in Milestone 22: Stage 4 exists and P0-1 is closed** — every chart now produces graha strength verdicts, read from chapter 4's own cards, and the largest "born inert" tax on every future chapter is paid. Not higher, for three reasons that are the source's and not the schedule's: it is graha strength only (no Bhava Bala — the components are withheld), it is a binary verdict and not an order (no `strongest`), and Stage 3 (yogas) and Stage 5 (houses) are still not dedicated stages. **Previously raised 45→52 in Milestone 20**, the first increase from real capability rather than bookkeeping: P0-2 is closed (all 9 grahas now carry a `nature` fact, so the 22 benefic-conditioned cards can fire), and the first piece of Stage 7 exists — per-graha authority attribution and cross-book corroboration in `_resolve_nature`. Still 52 and not higher because Stage 7's *hard* half — adjudicating authorities that actually disagree — remains unbuilt and deliberately so (§K, P1-3). |
-| Contradiction handling | 10% | 71% | Competing authorities are preserved via `contradicts`/`extends` links and dual cards (e.g. PD.01 rising-sign dispute, PD.09 dignity dispute) — the mechanism works and is used repeatedly, but Stage 7 adjudication (weighing contradictions against each other) does not exist yet. **68→71 in Milestone 22:** the first *chart-dependent* refusal. A graha that is both retrograde and combust is called strong by ch. 4 v. 5 and weak by v. 4, and the extractor emits no verdict for it, reports the collision by name in the consultation's own "doctrine read, but not complete" section, and lets every rule about its strength correctly not fire. Earlier contradiction handling was static — two cards linked at encoding time; this one only exists on charts that satisfy both. |
-| Provenance/auditability | 10% | 97% | Every card is byte-exact hash-verified against the corpus on every run; `verify.py` enforces this as a build gate. `extraction.verified_by` now covers **498/501 cards (99.4%**, was 4/404) via `Rules/tools/review.py`: 234 structural cards signed off automatically (no interpretive layer to review — the byte-exact check already is the complete verification), 264 signed off by an actual human(+Claude) reading pass across chapters 1, 2, 4, 6, 8, 9 and 10 — including 33 of chapter 4's, re-signed by hand because their encoding involved a real judgement. The interpretive queue is closed; the 3 unsigned cards are deliberate, documented defect holdouts, not unreviewed cards. Not 100% because those three defects are real and still open. |
-| Test coverage | 10% | 72% | 270 tests (was 250), growing with every milestone, covering rule structure, engine extractors, variable binding, overrides, the verification tool itself, and now chapter 4's encoding (`Engine/tests/test_chapter_four_strength.py`, +20 tests: the two authorities never merged, the Mars row's printed defect pinned as printed, the unquantified components pinned as unquantified, and the verses-4-and-5 verdict set pinned as the only source Stage 4 may read); no dedicated end-to-end regression suite across the full corpus of encoded chapters yet. **68→72 in Milestone 22:** 302 tests (was 271), the 30 new ones in `Engine/tests/test_strength.py` covering the extractor's doctrine reading, its calculation on placed edge cases, the retrograde/combust refusal, determinism, and — the ones that matter most — the negatives: no fact carries a number, a component is not a verdict, retrogression does not make the nodes strong, and the doctrine dies with its cards. |
-| End-to-end validation | 5% | 33% | CLI produces full 3-part consultations and has been spot-checked against real charts per milestone; no systematic charted validation set (Phase 6 of `Phases.txt`) exists yet. **30→33 in Milestone 22:** the first time the project *searched* a chart space rather than spot-checking one nativity — 880 real birth instants were scanned to find a chart for each newly-activated card and to confirm each one actually fires. That is not Phase 6, but it is the first evidence that an activated card is not merely well-formed. |
-| Multi-book corroboration | 3% | 25% | **No longer zero (Milestone 20).** Brihat Jataka now has 2 rule cards, and cross-book agreement is not only assessable but implemented and surfaced: 4 grahas' natures are corroborated by both books, and the consultation reports which claims rest on one authority and which on two. Scored 25%, not higher, because corroboration exists for exactly one relation (`graha_nature`) out of the whole store, and the second book has 2 cards against the first book's 499. |
+| Reasoning engine capability | 15% | 65% | Stages 0, 1, 2, **4**, 6, **7 (reading half)**, 9, 10 implemented; Stages 3 and 5 (yogas/houses as first-class computation) not built as dedicated stages; **Stage 7's weighting half deliberately does not exist and is not scheduled**; no varga, dasa, transit or ashtakavarga calculators, and no *numeric* strength calculator — the source withholds the arithmetic one would need (`dep.shadbala-arithmetic`). **Raised 60→65 in Milestone 23: Stage 7's representation half exists** — every relationship the store declares between two cards is read, typed and reported with both sides quoted, and an `unresolved` outcome is a finished answer rather than a placeholder. Not higher, because the half that would let the engine *choose* between two source-backed claims is absent by design: no encoded source supplies a rule for choosing, and the only precedence applied anywhere in the engine is the one verse 4 states in its own sentence. **Previously raised 52→60 in Milestone 22: Stage 4 exists and P0-1 is closed** — every chart now produces graha strength verdicts, read from chapter 4's own cards, and the largest "born inert" tax on every future chapter is paid. Not higher, for three reasons that are the source's and not the schedule's: it is graha strength only (no Bhava Bala — the components are withheld), it is a binary verdict and not an order (no `strongest`), and Stage 3 (yogas) and Stage 5 (houses) are still not dedicated stages. **Previously raised 45→52 in Milestone 20**, the first increase from real capability rather than bookkeeping: P0-2 is closed (all 9 grahas now carry a `nature` fact, so the 22 benefic-conditioned cards can fire), and the first piece of Stage 7 exists — per-graha authority attribution and cross-book corroboration in `_resolve_nature`. Still 52 and not higher because Stage 7's *hard* half — adjudicating authorities that actually disagree — remains unbuilt and deliberately so (§K, P1-3). |
+| Contradiction handling | 10% | 82% | Competing authorities are preserved via `contradicts`/`extends` links and dual cards (e.g. PD.01 rising-sign dispute, PD.09 dignity dispute) — the mechanism works and is used repeatedly, but Stage 7 adjudication (weighing contradictions against each other) does not exist yet. **71→82 in Milestone 23**, the largest single move this category has had, and it is a *reading* gain rather than a mechanism gain: the `contradicts`/`extends`/`parallel_of` links were being written faithfully into the store and read by nothing, so no consultation had ever surfaced one. All four relationship types now reach the reader with card id, book, chapter, verse, printed page and both sides' own words. It also repaired a live defect — on 83% of 720 scanned charts Part 3 was printing a verse and its own translator's refutation as *agreeing*, under a heading reading "Terms that recur without contradiction". Not higher for two stated reasons: the engine still cannot choose where the source does not, and `parallel_of` cannot distinguish agreement from a variant reading (`concept:parallel-of-overloaded`), so cross-book *corroboration* of a yoga still cannot be claimed. **68→71 in Milestone 22:** the first *chart-dependent* refusal. A graha that is both retrograde and combust is called strong by ch. 4 v. 5 and weak by v. 4, and the extractor emits no verdict for it, reports the collision by name in the consultation's own "doctrine read, but not complete" section, and lets every rule about its strength correctly not fire. Earlier contradiction handling was static — two cards linked at encoding time; this one only exists on charts that satisfy both. |
+| Provenance/auditability | 10% | 98% | Every card is byte-exact hash-verified against the corpus on every run; `verify.py` enforces this as a build gate. `extraction.verified_by` now covers **498/501 cards (99.4%**, was 4/404) via `Rules/tools/review.py`: 234 structural cards signed off automatically (no interpretive layer to review — the byte-exact check already is the complete verification), 264 signed off by an actual human(+Claude) reading pass across chapters 1, 2, 4, 6, 8, 9 and 10 — including 33 of chapter 4's, re-signed by hand because their encoding involved a real judgement. The interpretive queue is closed; the 3 unsigned cards are deliberate, documented defect holdouts, not unreviewed cards. Not 100% because those three defects are real and still open. **97→98 in Milestone 23:** every adjudication carries the full provenance of both parties and is re-checked by Stage 9 (`verify_adjudications`), so a conclusion *about* sources can be walked back to them the way a claim can; and a relationship link naming a card that does not exist now fails the build, because a link the engine reads is a link whose typo silently costs a reported contradiction. |
+| Test coverage | 10% | 76% | 270 tests (was 250), growing with every milestone, covering rule structure, engine extractors, variable binding, overrides, the verification tool itself, and now chapter 4's encoding (`Engine/tests/test_chapter_four_strength.py`, +20 tests: the two authorities never merged, the Mars row's printed defect pinned as printed, the unquantified components pinned as unquantified, and the verses-4-and-5 verdict set pinned as the only source Stage 4 may read); no dedicated end-to-end regression suite across the full corpus of encoded chapters yet. **72→76 in Milestone 23:** 334 tests (was 302), the 32 new ones in `Engine/tests/test_adjudication.py` — and, for the first time in this project, the suite was checked by *mutating the module under test*: four deliberate breakages (directional link reading, treating every `parallel_of` as a second authority, resolving what should stay unresolved, deleting the strength collision's refusal) were each confirmed to fail it, and the second one initially did **not**, which exposed a test that checked the discriminator's input rather than its output. **68→72 in Milestone 22:** 302 tests (was 271), the 30 new ones in `Engine/tests/test_strength.py` covering the extractor's doctrine reading, its calculation on placed edge cases, the retrograde/combust refusal, determinism, and — the ones that matter most — the negatives: no fact carries a number, a component is not a verdict, retrogression does not make the nodes strong, and the doctrine dies with its cards. |
+| End-to-end validation | 5% | 36% | CLI produces full 3-part consultations and has been spot-checked against real charts per milestone; no systematic charted validation set (Phase 6 of `Phases.txt`) exists yet. **33→36 in Milestone 23:** 720 nativities across four cities and sixty years were run end to end with **zero pipeline or verification failures**, and the frequency of each relationship type was measured rather than asserted — which is how the 83% figure above is known. Still not Phase 6: nothing here checks whether a prediction is *correct*. **30→33 in Milestone 22:** the first time the project *searched* a chart space rather than spot-checking one nativity — 880 real birth instants were scanned to find a chart for each newly-activated card and to confirm each one actually fires. That is not Phase 6, but it is the first evidence that an activated card is not merely well-formed. |
+| Multi-book corroboration | 3% | 30% | **No longer zero (Milestone 20).** Brihat Jataka now has 2 rule cards, and cross-book agreement is not only assessable but implemented and surfaced: 4 grahas' natures are corroborated by both books, and the consultation reports which claims rest on one authority and which on two. Scored 25%, not higher, because corroboration exists for exactly one relation (`graha_nature`) out of the whole store, and the second book has 2 cards against the first book's 499. **25→30 in Milestone 23:** three further books — Jataka Parijata, Saravali and Uttarakalamrita — now reach the reader in their own words, on 92% of charts, wherever the translator reports them on a doctrine the chart activates. Only +5, and deliberately: those statements are reported as *a second authority on the same doctrine* and **not** as corroboration, because one of them states a materially different condition for the same yoga and the store's `parallel_of` link does not record which kind it is. |
 | Production safety/reliability | 1% | 50% | Groundedness verification (Stage 9) refuses to emit ungrounded output; no rate limiting, error-recovery, or production deployment hardening attempted (not yet in scope). |
 | CLI/API/user-facing readiness | 1% | 40% | Working CLI (`Engine/cli.py`) produces real consultations; no API, no UI, no packaging. |
 
-**Overall Production Readiness: 0.15×25 + 0.10×77 + 0.20×42 + 0.15×60 + 0.10×71 + 0.10×97 +
-0.10×72 + 0.05×33 + 0.03×25 + 0.01×50 + 0.01×40 = 56.15% ≈ 56%**
+**Overall Production Readiness: 0.15×25 + 0.10×77 + 0.20×42 + 0.15×65 + 0.10×82 + 0.10×98 +
+0.10×76 + 0.05×36 + 0.03×30 + 0.01×50 + 0.01×40 = 58.80% ≈ 59%**
 
-Recomputed from the table, not incremented. Movement from 54% is +2 points across four
-categories: reasoning capability 52→60 (Stage 4 built, P0-1 closed), contradiction handling
-68→71 (the first chart-dependent refusal), test coverage 68→72 (+31 tests), end-to-end
-validation 30→33 (880 charts scanned to confirm each activated card fires).
+Recomputed from the table, not incremented. Movement from 56% is +3 points across six
+categories: contradiction handling 71→82 (+1.10 pts — the largest, and the one this milestone
+is actually about), reasoning capability 60→65 (+0.75), test coverage 72→76 (+0.40),
+end-to-end validation 33→36 (+0.15), multi-book corroboration 25→30 (+0.15), provenance 97→98
+(+0.10). Sum of deltas 2.65, and 56.15 + 2.65 = 58.80, which agrees with the expression above
+— the two are cross-checked here precisely because §A's own history contains four milestones
+of a figure that did not.
 
-**Rule extraction did not move and must not.** No card was added, and the four that went
-active were already encoded and already counted — 501 before, 501 after. A milestone that
-built an engine has no business raising the encoding score, and the temptation to credit the
-unlock twice (once as capability, once as extraction) is exactly the double-count §J.1 was
-written to catch. **Corpus completeness, source verification, provenance and multi-book
-corroboration did not move either**: no page was rendered, no book was converted, no card was
-newly signed off that was not re-signed for a condition this milestone itself rewrote, and
-strength rests on one book.
+**Rule extraction did not move and must not.** Not one card was added, removed, re-quoted or
+re-conditioned — 501 before, 501 after — and this milestone did not so much as open a chapter
+file. **Corpus completeness and source verification did not move either**: no page was
+rendered and no book was converted. The temptation here was subtler than Milestone 22's: it
+would have been to credit the *encoding* score for relationships the encoders had already
+written down and this milestone merely learned to read. Those links were encoded in
+Milestones 1-14 and were already counted then.
+
+**Previous figure (Milestone 22):** 0.15×25 + 0.10×77 + 0.20×42 + 0.15×60 + 0.10×71 +
+0.10×97 + 0.10×72 + 0.05×33 + 0.03×25 + 0.01×50 + 0.01×40 = 56.15% ≈ 56%
 
 **Previous figure (Milestone 21):** 0.15×25 + 0.10×77 + 0.20×42 + 0.15×52 + 0.10×68 +
 0.10×97 + 0.10×68 + 0.05×30 + 0.03×25 + 0.01×50 + 0.01×40 = 54.10% ≈ 54%
@@ -144,9 +161,9 @@ changes materially — see §16.
 | Phase | Purpose | Status | Completion | Evidence | Remaining |
 |---|---|---|---:|---|---|
 | Phase 1 | Corpus & OCR | **Not complete — documentation overstates it** | 33% | 2 of 6 books converted, verified, frozen (`Knowledge/brihat-jataka.md`, `Knowledge/phaladeepika.md`). `Phases.txt` marks "Phase 1 — Corpus & OCR" with a ✅, which is **inaccurate**: 4 books (BPHS Vol.1, Jataka Parijata Vol.1, Uttara Kalamrita, Saravali) are audited but not yet OCR'd/converted (`Reports/PROJECT_STATUS.md`). The pipeline architecture itself is frozen and proven across two structurally different books, which is what "frozen" refers to — not full corpus completeness. | Convert and verify the remaining 4 books; get Devanagari glyph-level spot-check on Brihat Jataka; write `Reports/conversion_report.md`. |
-| Phase 2 | Reasoning engine architecture | Core MVP complete; extensions ongoing | 62% | Stages 0,1,2,6,9,10 fully implemented (`Engine/chart.py`, `facts.py`, `activate.py`, `render.py`, `pipeline.py`). **14** fact extractors implemented (`Engine/facts.py`): lordship, sign classes, house classes, graha classes, aspects, combustion, dignity, dignity-friendship, occupant count, graha frame, conjunction, nature, nature occupancy, **strength** (Milestone 22). **Stage 4 (graha strength) now exists**, as a verdict extractor rather than a calculator — the source withholds the arithmetic a Shadbala Pinda would need. Stages 3 and 5 (yoga/house computation as dedicated stages) and Stage 7 (adjudication) are the largest remaining items — see `dep.varga`, `dep.dasa`, `dep.adjudication`, `dep.ashtakavarga`, `dep.transit`, `dep.vargottama`, `dep.upagraha` in `Rules/deferred.json`, all currently `implemented: false`; `dep.strength` is now `implemented: true`. | ~~Build `dep.strength`~~ **done, Milestone 22**. Build `dep.varga`, `dep.dasa`, `dep.adjudication`, `dep.ashtakavarga`, `dep.transit`. |
+| Phase 2 | Reasoning engine architecture | Core MVP complete; extensions ongoing | 66% | Stages 0,1,2,6,**7 (reading half)**,9,10 fully implemented (`Engine/chart.py`, `facts.py`, `activate.py`, `render.py`, `pipeline.py`). **14** fact extractors implemented (`Engine/facts.py`): lordship, sign classes, house classes, graha classes, aspects, combustion, dignity, dignity-friendship, occupant count, graha frame, conjunction, nature, nature occupancy, **strength** (Milestone 22). **Stage 4 (graha strength) now exists**, as a verdict extractor rather than a calculator — the source withholds the arithmetic a Shadbala Pinda would need. **Stage 7's reading half now exists** (`Engine/adjudicate.py`, Milestone 23), so Stages 3 and 5 (yoga/house computation as dedicated stages) are the largest remaining items — see `dep.varga`, `dep.dasa`, `dep.ashtakavarga`, `dep.transit`, `dep.vargottama`, `dep.upagraha` in `Rules/deferred.json`, all currently `implemented: false`; `dep.strength` and `dep.adjudication-representation` are `implemented: true`, and `dep.adjudication` (weighting) is outstanding by design. | ~~Build `dep.strength`~~ **done, Milestone 22**. ~~Build the adjudication representation~~ **done, Milestone 23**. Build `dep.varga`, `dep.dasa`, `dep.ashtakavarga`, `dep.transit`. |
 | Phase 3 | Classical Knowledge Extraction | In progress | 33% | 499 cards from Phaladeepika chapters 1, 2, **4**, 6 (partial), 8, 9, 10 of 28 total chapters, plus 2 from Brihat Jataka ch. 2. Estimated ~1,535 total cards across all 28 Phaladeepika chapters at the measured 0.65 cards/paragraph rate (`Reports/PHASE3_PLAN.md`), so 499/1535 ≈ 33% of just this one book, before the rest of Brihat Jataka or the 4 unconverted books are touched at all. | Continue chapter-by-chapter encoding (ch. 3, 5, 6 remainder, 7, 11-28); extend Brihat Jataka extraction; human sign-off is no longer the bottleneck (498/501, see §K P1-1). |
-| Phase 4 | Knowledge Integration | **Started (Milestone 20)** | 20% | The corroboration half of Stage 7 is built and exercised: two books now classify grahas by nature, agreement between them is recorded per graha (`authorities`, `books`, `corroborated`) rather than the second authority overwriting the first, and the consultation reports it. `dep.rule-transfer` and `dep.dignity-override` remain as narrow primitives. | Build the conflict half. **The condition on it is now met (Milestone 22): three genuine conflicts exist** — `concept:kendra-positional-strength-conflict`, `concept:retrograde-rescue-scope` and `concept:retrograde-combust-collision`, the last of which only a chart produces. Still no weighting and no numeric confidence (§K, P1-3). |
+| Phase 4 | Knowledge Integration | **Under way (Milestones 20, 23)** | 40% | `Phases.txt` names six things for this phase — rule conflicts, priority, weighting, cancellation, reinforcement, cross-book agreement. **Milestone 23 settled four of them, two by building and two by finding they needed nothing built.** *Conflicts* are now read, typed and reported with full provenance (`Engine/adjudicate.py`). *Priority* exists only where a source states it — the combustion override, applied on 11% of charts — and nowhere else. *Cancellation* turned out to need no mechanism at all: the one real cancellation doctrine in the store (Sakata Yoga, ch. 6 v. 17) is printed in the same sentence as the yoga it cancels, so it is a negated conjunct inside the card's own condition and has been working since Milestone 9; the same is true of every "unless" in the store. *Cross-book agreement* is reported for `graha_nature` and three further books' statements now reach the reader, though deliberately not as corroboration. **Weighting is the one item deliberately not built and not scheduled**, and *reinforcement* is untouched. Earlier: the corroboration half of Stage 7 was built and exercised (Milestone 20): two books now classify grahas by nature, agreement between them is recorded per graha (`authorities`, `books`, `corroborated`) rather than the second authority overwriting the first, and the consultation reports it. `dep.rule-transfer` and `dep.dignity-override` remain as narrow primitives. | Rule *reinforcement*, and resolving `concept:parallel-of-overloaded` so a yoga stated by two books can be reported as corroborated the way a graha's nature already is. **Not** weighting: it stays unbuilt until a source supplies a rule for choosing, and none does (§K, P1-3). |
 | Phase 5 | Consultation Intelligence | Not started | 10% | Stage 8 (compose prose) and part of Stage 7 (synthesis, grouping/recurrence) exist (`Engine/synthesis.py`, `render.py`) and produce a real 3-part consultation today, but there is no contradiction-explaining or cross-book-convergence narrative yet — that needs Phase 4 first. | Build after Phase 4 adjudication exists. |
 | Phase 6 | Validation | Not started | 0% | No charted validation set, no celebrity/historical chart corpus, no accuracy measurement exists yet. Individual milestones are spot-checked against 1-2 real charts each (ad hoc), which is not the same as this phase. | Build hundreds of known charts and measure prediction accuracy, per `Phases.txt`. |
 | Phase 7 | Research Platform | Not started | 0% | Depends on Phase 4 (cross-book comparison) and Phase 6 (validated data) neither of which exist yet. | Not actionable yet. |
@@ -1145,17 +1162,196 @@ signed off, and still contain a conflict that only a chart reveals.
 
 ---
 
+### Milestone 23 — Stage 7's reading half: the store's own relationships, finally read
+
+**Phase:** 4 (knowledge integration)
+**Scope:** one new module, one structured channel on the doctrine report, one build gate, one
+consultation section, and a correction to Part 3 — no rule card touched
+**Status:** COMPLETE
+**Completion:** 100% of what the corpus supports; see "What was deliberately not built"
+**Commit:** this milestone's own commit (see `git log`)
+**Remote:** VERIFIED
+
+**The finding that set the scope.** Before writing any code, the store was inventoried for
+real conflicts. `contradicts` appears on 12 cards, `extends` on 2, `parallel_of` on 27 — and
+`grep` over `Engine/` found **no code anywhere that reads any of them**. They had been written
+faithfully by every encoding pass since chapter 1 and were inert. So the smallest useful
+adjudicator was not a weighting scheme; it was a reader.
+
+**The live defect that proves it.** On a chart with an exalted graha, two cards fire on the
+same fact: `PD.09.Dignity.Exalted` (ch. 9 v. 14 — the native "will shine like king
+Vikramaditya") and `PD.09.Dignity.Exalted.Notes` (the translator's own dissent on the same
+page — the native "cannot shine like king Vikramaditya"). The store links them with
+`contradicts`. Part 2 printed them as two unrelated paragraphs. Worse, Part 3's lexical pass
+saw "ruler", "shine" and "vikramaditya" un-negated in both — *"cannot"* is not one of its
+negation cues — and printed:
+
+> **“vikramaditya”** — asserted in 2 passages: `clm-0023`, `clm-0024`
+
+under a heading reading **“Terms that recur without contradiction.”** The system was reporting
+a verse and its own printed refutation as agreeing. Measured over 720 nativities, this
+happened on **598 of them — 83%**. The cue list was never the real problem, and lengthening it
+would not have been the real fix: the contradiction was declared in the store all along and
+nothing read it.
+
+**Conflicts inventoried, and what each turned out to be.** Every linked pair was classified
+against the source, and the classification decided the build:
+
+| Conflict | Source(s) | Represented as | Does the source resolve it? | What Stage 7 does |
+|---|---|---|---|---|
+| `PD.09.Dignity.Exalted` vs `.Notes` | PD ch. 9 v. 14 and its own Notes | `contradicts`, and the Notes card carries `polarity: qualified` | **No.** The Notes narrows rather than denies — the effect holds if the graha is in an auspicious house, free of malefic influence and "supported by other helpful planetary combinations" | **qualification / unresolved.** Both stand, and the reason states that the qualifying condition is not encoded, so the engine cannot test it |
+| `concept:retrograde-combust-collision` | PD ch. 4 v. 5 against v. 4 | not a card link at all — only a chart produces it | **No.** v. 4's own override list names dignities, not retrogression | **contradiction / unresolved**, promoted from a prose aside into a relationship with both verses quoted; still no verdict emitted |
+| Combustion override | PD ch. 4 v. 4 | `predicts.overrides` on the weak card | **Yes** — in the same sentence as the weakness | **override / applied**, naming the sentence that authorises it. Fires on 11% of charts |
+| `PD.06.Dainya` vs `PD.06.VipareetaRajaYoga.Uttarakalamrita` | PD ch. 6 vv. 32-33 vs Uttarakalamrita khand 4 sloka 22, via the translator | `contradicts`; the Uttarakalamrita side is a reference card | **No**, and it cannot be evaluated either: its clauses 4 and 5 are not resolvable into the condition language, which the card's note already said | **contradiction / recorded.** Fires on 18% of charts, and is the first time a reader learns another authority calls this configuration a *Raja* yoga |
+| Pancha Mahapurusha, Vesi/Vasi families | Jataka Parijata, Saravali, unnamed "authoritative works", via the translator | `parallel_of` to cards naming an authority | n/a — they are not in conflict | **parallel_authority / recorded**, on 92% of charts |
+| Rising-sign, Rasi Sandhi, nodal exaltation (3-way), Sun's karaka, kendra positional strength | PD ch. 1, 2, 4 | `contradicts` between **reference** cards | Not applicable to a nativity | **Nothing.** No side is ever a claim, so reporting them on every chart would pad the report with doctrine the reading never touched |
+
+**Two findings that removed work rather than adding it.**
+- **Cancellation needs no mechanism.** The obvious case, Sakata Yoga (ch. 6 v. 17), prints the
+  yoga and its cancellation in one sentence — "cancelled if the Moon be in a Kendra position
+  from the Ascendant" — so the encoder made the cancelling clause a negated conjunct *inside
+  the card's own condition*, and the card has simply not fired for a kendra Moon since
+  Milestone 9. There is no second claim to cancel. Every "unless" in the store
+  (`PD.10.Benefics.In7`) is the same shape. A cross-card cancellation framework built for this
+  would have been architecture for a problem the encoding had already solved — so none was
+  built.
+- **Exactly one claim-to-claim contradiction exists in the whole corpus.** Every other
+  `contradicts` link has at least one side that never becomes a claim. Verified across 720
+  charts and pinned by a test. This is the concrete reason no machinery for *weighing rival
+  predictions* was built: there is one pair that could ever need it, and the source does not
+  settle that pair either.
+
+**The one judgement the data would not settle, registered rather than decided.**
+`parallel_of` is overloaded. It links a card to another named authority's statement of the
+same doctrine, **and** it links sibling cards cut from a single sentence
+(`PD.06.Varishtha`/`.Sama`/`.Adhama` are three mutually exclusive readings of one verse; so are
+Lakshmi/Gouri, Subhamala/Asubhamala, Mahabhagya.Male/.Female, Amala/Amala.V12). Reporting the
+second kind as a second authority would manufacture corroboration out of the project's own
+filing. `predicts.authority` separates the two groups cleanly and is what the engine keys on.
+But even in the first group the link does not record *agreement*:
+`PD.06.Vesi.AuthoritativeWorks` reports that most authoritative works define the yoga
+**without** the benefic/malefic split this book uses — a different condition for the same yoga
+— while `PD.06.PanchaMahapurusha.JatakaParijata` restates the same one. So Stage 7 reports
+"a second authority on the same doctrine" and **deliberately does not report corroboration**.
+Registered as `concept:parallel-of-overloaded`; resolving it is an encoding decision, not an
+engine one.
+
+**What was built.**
+- `Engine/adjudicate.py` — `Adjudication` (subject, relationship, resolution, reason, parties,
+  basis, declared_as) and `Party` (card, book, chapter, verse, page anchor, authority,
+  statement, activation, claim ids). **There is deliberately no field in which a number could
+  be recorded.** Four relationships (`contradiction`, `qualification`, `parallel_authority`,
+  `override`) and three resolutions (`applied`, `unresolved`, `recorded`), both closed
+  vocabularies enforced by Stage 9.
+- Links are read **undirected**. Six links in the store are declared from one end only —
+  including this milestone's flagship, which only the Notes card declares — and which end
+  carries the declaration is an accident of encoding order.
+- `DoctrineReport.conflict()`, a structured channel beside `incomplete()`, so the strength
+  extractor's chart-dependent collision reaches Stage 7 as data rather than as a sentence to
+  be parsed. The two coexist because they say different things: `incomplete` is a coverage
+  statement ("this graha got no fact"), the conflict is a relationship ("these two verses
+  disagree here"), and only the second can carry the verses.
+- A consultation section, **“How the applicable passages stand to one another,”** opening
+  Part 3.
+- `verify_cards` now fails the build on a relationship link naming a card that does not exist.
+  These fields were inert clutter until this milestone; a typo in one now silently costs a
+  reported contradiction.
+- `synthesise()` takes the claim pairs Stage 7 found in a source-stated disagreement, so a
+  theme spanning such a pair is contested **by doctrine** and says so. Synthesis still measures
+  no astrology of its own: what enters is a citation the encoder wrote off the printed page.
+
+**`unresolved` is a finished answer.** Where the corpus states no precedence, both statements
+stand, the reason says why no choice was made, and that is the output — not a placeholder for
+a decision the engine is waiting on.
+
+**Tests:** 334 (was 302). `Engine/tests/test_adjudication.py` is 32 of them. **Four deliberate
+mutations of the module were run against the suite** to confirm the tests can fail: reading
+links directionally (caught), resolving an unresolved dispute (caught, 5 tests), deleting the
+strength collision's refusal (caught, 6 tests), and treating every `parallel_of` as a second
+authority — which was **not** caught on the first attempt, because the test checked the
+discriminator's *input* (do sibling cards name an authority?) rather than its *output* (does
+the adjudicator ever emit one without a named authority?). Two behavioural tests replaced it
+and the mutation is now caught.
+
+**Real-chart validation.** 720 nativities, four cities, 1950-2010, **zero pipeline or
+verification failures**. Every relationship type and every resolution occurred. Frequencies
+were measured, not asserted: `parallel_authority`/`recorded` on 92.2% of charts,
+`qualification`/`unresolved` on 83.1%, `contradiction`/`recorded` on 18.1%,
+`contradiction`/`unresolved` on 12.4%, `override`/`applied` on 11.1%.
+
+**Nothing was gained or lost in Part 2.** On both the demo nativity (41 claims) and the
+exaltation chart (46 claims), Part 2 is **byte-identical** before and after. A test asserts
+that running the adjudicator leaves the claim list unchanged, because raw source claims stay
+authoritative and adjudication is a layer above them.
+
+**What was deliberately not built**, each because the corpus does not support it: any
+weighting, confidence, source-prestige or ranking of one authority against another; any
+precedence not stated by a source in its own sentence; a cross-card cancellation mechanism (no
+case needs one); corroboration of yogas (the link cannot distinguish agreement from a variant
+reading); and any relationship type outside the four the store actually exhibits.
+
+**Production blockers cleared:** none, and **`dep.adjudication` was deliberately left
+outstanding**. Eleven registry entries declare it and this milestone releases none of them.
+
+**Why this milestone matters.** Milestone 22's lesson was that a chapter can be read card by
+card, signed off, and still hide a conflict only a chart reveals. This one is the mirror
+image: a relationship can be read correctly, recorded correctly, and carried in the store for
+twenty-two milestones while the system's own output contradicts it. Card-level verification
+could not have caught it and neither could running a consultation and reading Part 2 — the
+error was in Part 3, in a heading that said "without contradiction" over a contradiction the
+project itself had documented.
+
+---
+
 ---
 
 ## D. CURRENT MILESTONE
 
-**Nothing is currently in progress.** Milestone 22 above is fully committed, tested, verified,
+**Nothing is currently in progress.** Milestone 23 above is fully committed, tested, verified,
 and pushed.
 
-**Three decisions are owed by a human.** None blocks the next milestone; each should be
+**Four decisions are owed by a human.** None blocks the next milestone; each should be
 settled before the work it touches is extended.
 
-### Decision 0 (new, Milestone 22) — `concept:retrograde-combust-collision`
+### Decision 0a (new, Milestone 23) — `concept:parallel-of-overloaded`
+
+**What a `parallel_of` link means.** It is currently used for two different things, and the
+engine can tell them apart only by whether the linked card names an authority:
+
+1. **Another authority's statement of the same doctrine** — `PD.06.PanchaMahapurusha.JatakaParijata`,
+   `.Saravali`, `PD.06.Vesi.AuthoritativeWorks`, `PD.06.VesiVasi.Saravali`. These carry
+   `predicts.authority`.
+2. **Sibling cards cut from one sentence** — `PD.06.Varishtha`/`.Sama`/`.Adhama` (three
+   mutually exclusive readings of one verse), Lakshmi/Gouri, Subhamala/Asubhamala,
+   Mahabhagya.Male/.Female, Amala/Amala.V12. These carry no authority, and
+   `PD.06.Amala.V12`'s own note already states the principle: a restatement by the same author
+   must not be counted as a second corroborating card.
+
+**Why it matters.** Even within group 1 the link does not say whether the other authority
+*agrees*. `PD.06.PanchaMahapurusha.JatakaParijata` restates the same condition;
+`PD.06.Vesi.AuthoritativeWorks` states a **different** one — the yoga without the
+benefic/malefic split. Stage 7 therefore reports "a second authority on the same doctrine" for
+both and claims corroboration for neither, which is honest but weaker than what the corpus
+could support.
+
+**Three defensible positions:**
+1. **Split the link at encoding time** into an agreement link and a variant-reading link, and
+   backfill the 27 existing cards. Lets cross-book corroboration be reported for yogas the way
+   it already is for `graha_nature`, and would move the multi-book score materially. Costs a
+   re-reading pass over chapter 6's notes.
+2. **Add a field rather than a link type** — e.g. `predicts.agrees: true|false|unstated` on the
+   authority-naming card. Cheaper, and `unstated` is an honest third value where the translator
+   reports another book without comparing it.
+3. **Leave it** — what Stage 7 does today. Nothing is wrong in any consultation; the reader
+   sees both statements and compares them. Sustainable indefinitely, but it means the project
+   never reports yoga corroboration.
+
+**Recommendation: (2).** It matches how the store already records nuance (`polarity`,
+`overrides`, `conditional`) and its `unstated` value is the one the corpus most often warrants.
+But it decides what this project will treat as cross-book agreement, which is a
+precedent-setting call and explicitly a human's.
+
+### Decision 0 (Milestone 22, now surfaced) — `concept:retrograde-combust-collision`
 
 **What a graha that is both retrograde and combust is.** Verse 5 calls it strong (the five
 non-luminous planets are strong when retrograde, no further condition); verse 4 calls it weak
@@ -1171,11 +1367,15 @@ Two readings are defensible and both are the human's to pick, not the engine's:
 2. **Hold it unasserted** — what the engine does today. Nothing is wrong in any consultation,
    the question stays visible, and retrograde-combust grahas simply get no strength claim.
 
-**Recommendation: (2), unchanged, until Stage 7 exists.** This is the second same-chapter
-conflict chapter 4 has produced (`concept:kendra-positional-strength-conflict` was the first)
-and the third overall involving retrogression (`concept:retrograde-rescue-scope`). Three
-genuine conflicts is now enough material to design adjudication against, which is what P1-3
-was waiting for — see §K.
+**Recommendation: (2), unchanged.** **MILESTONE 23 UPDATE.** Stage 7 now exists and does not
+change this answer — it changes only how visible the question is. The collision used to appear
+as one sentence in the consultation's coverage list; it is now reported as a contradiction with
+both verses quoted, both pages cited, and an explicit statement that the source does not settle
+it, on the 12% of charts that produce one. **Stage 7 will never resolve this**: the engine can
+only apply a precedence a source states, and neither verse states one. What is owed is a
+human's ruling, not a capability, and the entry's `requires: dep.adjudication` is retained
+because a *general* precedence rule — should it ever be supplied by a source — is where the
+answer would come from.
 
 ### Decision 1 (Milestone 21, now live) — `concept:strength-criterion-scope`
 
@@ -1262,14 +1462,11 @@ test) was released with it and is the natural companion.
 
 **Three alternatives, each defensible:**
 
-1. **Stage 7 adjudication (P1-3).** The standing reason not to build it was that only one
-   genuine conflict existed to design against, and designing a weighting scheme for a sample
-   of one is how a project invents doctrine. There are now **three**:
-   `concept:kendra-positional-strength-conflict` (v. 3 against v. 8), `concept:retrograde-rescue-scope`
-   (ch. 4 v. 4 against ch. 9 v. 20) and `concept:retrograde-combust-collision` (ch. 4 v. 5
-   against v. 4, and the first that only a chart produces). That is enough material. It is
-   also the biggest single piece of remaining architecture and would not be one session's
-   work.
+1. ~~**Stage 7 adjudication (P1-3).**~~ **Its reading half was built in Milestone 23** and the
+   remaining half is not a milestone candidate: weighting stays unbuilt until a source supplies
+   a rule for choosing, and none does. What *is* a candidate is
+   `concept:parallel-of-overloaded` (Decision 0a) — an encoding pass over chapter 6's notes
+   that would let cross-book corroboration be reported for yogas.
 2. **`dep.compound-friendship`** (cost 3). The Adhimitra/Adhishatru tiers, which the book
    defines in ch. 2 and then uses without definition in ch. 6 v. 19, ch. 10 v. 23 and six
    rows of the ch. 4 survey. Cheap, well-sourced, and releases `PD.06.Pushkala`'s first
@@ -1291,6 +1488,11 @@ test) was released with it and is the natural companion.
 - **Do not rank grahas by strength.** `dep.strength-ranking` is registered, is priced at 13,
   and is blocked on source material rather than on code. Two cards are waiting on it and must
   keep waiting.
+- **Do not add weighting to Stage 7** (new, Milestone 23). The adjudicator has four
+  relationships and three resolutions and no field a number could live in; a test asserts
+  that, and another asserts no percentage reaches a `reason` string. The way to resolve more
+  conflicts is to encode a source that states a precedence, never to invent one. See
+  `dep.adjudication`, still outstanding on purpose.
 
 **Blockers:** none blocking encoding, and no open P0.
 **Last commit:** this milestone's own commit (see git log for the SHA).
@@ -1342,7 +1544,7 @@ test) was released with it and is the natural companion.
 | Brihat Jataka rule extraction | Book is corpus-converted (`Knowledge/brihat-jataka.md`, 6282 lines) but has **zero** rule cards. First cross-book corroboration cannot happen until this starts. |
 | Convert remaining 4 books (BPHS Vol.1, Jataka Parijata Vol.1, Uttara Kalamrita, Saravali) | Behind the deliberate Phase 1 freeze; each has known OCR/text-layer problems documented in `Reports/PROJECT_STATUS.md` "Book audit". |
 | `concept:manual-verification` — human sign-off on all cards | Only 4 of 404 cards have `extraction.verified_by` set. |
-| Stage 7 adjudication design | Needed before Phase 4 can start; currently only `dep.rule-transfer` and `dep.dignity-override` exist as narrow primitives. |
+| ~~Stage 7 adjudication design~~ | **Done, Milestone 23** — the reading half is `Engine/adjudicate.py`. What is left here is `concept:parallel-of-overloaded` (§D Decision 0a), an *encoding* pass, not an engine one. Weighting is refused, not pending. |
 | Phase 6 validation corpus | Hundreds of known/celebrity/historical charts — not started. |
 
 ### Production blockers
@@ -1350,8 +1552,10 @@ test) was released with it and is the natural companion.
 Must be solved before the system can be called production-ready, independent of card
 count:
 
-1. **Stage 7 adjudication does not exist.** Contradictory doctrine is preserved but never
-   weighed — `Phases.txt` Phase 4 is entirely unbuilt.
+1. ~~**Stage 7 adjudication does not exist.**~~ **Reading half CLEARED in Milestone 23** —
+   contradictory doctrine is now read, typed and reported with both sides quoted. It is still
+   never *weighed*, and that is deliberate and permanent absent a source that states a
+   precedence. See §K, P1-3.
 2. **Only one book has rule cards.** Multi-book corroboration (a stated goal) cannot be
    assessed or delivered with a single-book store.
 3. **No validation corpus.** No measurement exists of whether the system's predictions are
@@ -1389,6 +1593,8 @@ count:
 | Benefic/malefic nature resolution | Implemented | `Engine/facts.py::_nature`, `_resolve_nature` | nature-conditioned cards |
 | Nature occupancy (house occupied by grahas of a given nature) | Implemented | `Engine/facts.py::_nature_occupancy` | occupancy-by-nature cards |
 | **Graha strength verdicts (Stage 4)** | **Implemented (Milestone 22)** | `Engine/facts.py::_strength`, `Engine/doctrine.py::graha_strength_verdicts` — reads the five Phaladeepika ch. 4 vv. 4-5 verdict cards and emits `strong`/`weak`; **not** a Shadbala calculator | `PD.02.Form.Mars.Youthful`, `PD.10.WeakMoon5.Malefics`, `PD.10.Lord7.BeneficStrong`, `PD.10.WifeChildren.EvenSigns` |
+| **Adjudication: reading the store's own relationships (Stage 7, reading half)** | **Implemented (Milestone 23)** | `Engine/adjudicate.py` — reads `contradicts`/`extends`/`parallel_of` undirected plus the strength extractor's chart-dependent collisions, and emits typed relationships (`contradiction`, `qualification`, `parallel_authority`, `override`) with resolutions (`applied`, `unresolved`, `recorded`). **No weighting, no score, no ranking, and no field one could live in** | the consultation's "How the applicable passages stand to one another"; `synthesise()`, which uses the contested pairs so a verse and its own refutation are no longer reported as agreeing |
+| Relationship-link integrity as a build gate | Implemented (Milestone 23) | `Engine/rules.py::verify_cards` — a `contradicts`/`extends`/`parallel_of` target that is not a card in the store fails the run, as a stale quote does | every card carrying a link |
 | Condition-variable schema (multi-variable conditions) | Implemented | commit `e6d7df9` | most cards from ch.6 onward |
 | Dignity-override mechanism | Implemented | commit `14125a4` | retrograde-as-exalted override cards |
 | Rule-transfer mechanism | Implemented | commit `04dfba7` | "shares effect with" cards |
@@ -1417,7 +1623,9 @@ count:
 | Universal quantification over a variable-membership set | Not implemented | `dep.universal-quantification`; needs a new combinator, not an extension of existing condition language — e.g. Vasumati Yoga ("ALL benefic planets"). |
 | Yoga-combination counting (N sibling yoga-conditions true simultaneously) | Not implemented | `dep.yoga-combination-count`; beyond the MVP; blocks the Pancha Mahapurusha compounding-effects closing sentence. |
 | Hemmed-between (papakartari/subhakartari) extractor | Not implemented | `dep.hemmed-between`; no chapter dependency yet identified, low priority. |
-| Stage 7 adjudication (weighting, priority, cancellation) | Not implemented | `dep.adjudication`; the largest single open architectural item — Phase 4 in `Phases.txt` has not started. |
+| Stage 7 **weighting/precedence** (deciding which of two claims wins) | Not implemented, and **not scheduled** | `dep.adjudication`. The *reading* half was split off as `dep.adjudication-representation` and built in Milestone 23; what remains would require the engine to choose where the corpus does not, which the standing prohibition on invented confidence and source prestige forbids. Eleven registry entries declare this dependency and each needs either a rule from a source or a human's ruling. |
+| Cross-card cancellation mechanism | Not implemented, **and no case needs one** | Investigated in Milestone 23. The store's one real cancellation doctrine (Sakata Yoga, ch. 6 v. 17) prints the yoga and its cancellation in a single sentence, so the cancelling clause is a negated conjunct inside the card's own condition and the card has simply not fired for a kendra Moon since Milestone 9. Every "unless" in the store is the same shape. Building a framework for this would have been architecture for a solved problem. |
+| Corroboration between books on a **yoga** | Not implemented | `concept:parallel-of-overloaded`. `parallel_of` does not distinguish "this authority agrees" from "this authority states it differently" — and one linked card does state it differently — so Stage 7 reports a second authority's words without asserting agreement. An encoding decision, not an engine one; see §D Decision 0a. |
 | Distinct-sign-count fact (how many signs the 7 classical grahas occupy) | Not implemented | Newly identified this session, blocks ch.6 vv.39-41 specifically; small and well-scoped, not yet built. |
 | Native-sex-scoped rule handling | **Implemented (row corrected in Milestone 19).** The previous text here claimed "the birth record does not carry sex, so all sex-scoped cards stay inert regardless" — that is stale and was wrong at the time of writing. `BirthRecord` carries `sex` (`Engine/chart.py:58`), `Engine/cli.py` exposes `--sex`, and `Engine/activate.py` 93-97 enforces `scope.sex`, refusing a card whose stated sex does not match the record (including when the record says `unknown`, which is the correct outcome rather than a guess). | Sex-scoped cards such as `PD.10.Female.MoonSaturn7Remarriage` / `PD.10.Male.MoonSaturn7` are `active` and fire correctly when `--sex` is supplied. ch.11 (Female Horoscopy) is **not** blocked on this and is listed as newly unblocked by `backlog.py`. |
 
@@ -1455,7 +1663,7 @@ word). See §K P1-1 and `Reports/VERIFICATION_QUEUE.md`.
 ## H. KNOWN DEFERMENTS
 
 The full machine-readable list lives in `Rules/deferred.json` and is rendered by
-`Rules/tools/backlog.py` into `Reports/PHASE3_BACKLOG.md` (89 entries) on every run — that
+`Rules/tools/backlog.py` into `Reports/PHASE3_BACKLOG.md` (136 entries as of Milestone 23) on every run — that
 report is the authoritative live listing. This section is the *permanent, curated*
 subset most likely to be forgotten. See §I "DO NOT FORGET" for the most critical items.
 
@@ -1505,8 +1713,41 @@ approximate matching anywhere in the activation path.
 translator's notes; silently picking a winner would misrepresent the tradition.
 **Consequence:** `contradicts`/`extends` links and dual cards recur throughout (rising-sign
 verse-8 dispute, nodal exaltation 3-way dispute, dignity dispute, dasa-balance dispute
-still pending in ch.19). Stage 7 adjudication (weighing them) does not exist yet — they
-are preserved, not yet reasoned about.
+still pending in ch.19). **As of Milestone 23 they are also read**: Stage 7 reports each
+relationship with both sides quoted and an explicit `unresolved` outcome. They are still never
+weighed against each other.
+
+**Decision (Milestone 23):** Adjudication is a layer *above* the claims and may not edit them.
+**Reason:** The system must be able to answer "what did the source say?" and "how did the
+reasoning layer reconcile those statements?" separately. Collapsing the two produces output in
+which a reader cannot tell a quotation from an inference — the failure this whole architecture
+is arranged against.
+**Consequence:** `adjudicate()` is pure with respect to `claims` and `facts`; Part 2 is
+byte-identical with the module present and absent, and a test asserts it. Adjudications are a
+separate list on `Result` with their own Stage 9 verification (`verify_adjudications`).
+
+**Decision (Milestone 23):** The engine may apply a precedence only where a source states one
+in its own sentence; otherwise the relationship is `unresolved` and both statements stand.
+**Reason:** Any general precedence rule the engine supplied would be doctrine the engine
+invented — "book A is more correct than book B" — which the corpus does not authorise and no
+citation could support.
+**Consequence:** Exactly one precedence is applied anywhere in the engine: chapter 4 verse 4's
+combustion override, which the verse prints in the same sentence as the weakness. There is no
+field on an `Adjudication` in which a number could be recorded, the relationship and resolution
+vocabularies are closed and enforced by Stage 9, and `unresolved` is a finished answer rather
+than a placeholder.
+
+**Decision (Milestone 23):** A relationship link is classified from fields the encoder wrote,
+never from prose in a `note`.
+**Reason:** Parsing an encoder's prose to decide what a link means would put the engine's
+reading of English where a recorded judgement belongs, and would silently change meaning
+whenever a note was reworded.
+**Consequence:** `contradicts` + `polarity: "qualified"` → qualification; `extends` →
+qualification; `parallel_of` + `predicts.authority` on the other card → parallel authority;
+`parallel_of` without one → **no relationship at all**, because that shape is a sibling card
+from the same sentence. Where the fields cannot settle a question the answer is a registry
+entry, not a guess — `concept:parallel-of-overloaded` exists because the link cannot express
+whether the second authority agrees.
 
 **Decision:** Reference cards (tables, classifications) are distinct from predictive
 cards, and doctrine-backed extractors read only from reference cards already in the
@@ -1814,7 +2055,32 @@ cleared, newly identified, or re-scoped.
   cards against Phaladeepika's 499, and its remaining 27 chapters plus the rest of ch. 2 are
   registered in the backlog (`chapter:brihat-jataka.*`, `passage:brihat-jataka.02.remainder`).
 
-**P1-3 — Stage 7 adjudication: the corroboration half now exists; the conflict half does not.**
+**P1-3 — Stage 7 adjudication. The reading half is BUILT (Milestone 23); the weighting half is
+deliberately not, and is no longer scheduled.**
+
+- **What Milestone 23 delivered.** `Engine/adjudicate.py`. The `contradicts`, `extends` and
+  `parallel_of` links had been carried in the store since chapter 1 and **no code read any of
+  them** — so no consultation had ever surfaced a single declared contradiction, and Part 3
+  actively reported one as agreement on 83% of charts. All four relationship types now reach
+  the reader with full provenance and an explicit `unresolved` state. Claims are untouched:
+  Part 2 is byte-identical before and after.
+- **What it deliberately did not deliver, and why the blocker text below still stands.** No
+  weighting, no confidence, no precedence beyond the one the source states in its own sentence.
+  Not for want of material — because the material argues the other way. **Exactly one
+  claim-to-claim contradiction exists in the whole corpus** (`PD.09.Dignity.Exalted` against
+  its own translator's note), verified across 720 charts and pinned by a test; every other
+  `contradicts` link has a side that never becomes a claim. A weighting scheme designed for a
+  sample of one is how a project invents doctrine, which is the same reasoning that kept this
+  blocker closed before — it just now rests on a measurement rather than an estimate.
+- **The bookkeeping.** `dep.adjudication-representation` is registered `implemented: true`;
+  `dep.adjudication` stays outstanding because eleven entries declare it and this releases
+  none of them.
+- **Status: half CLEARED, half correctly refused.** Do not open the second half to add a
+  weighting scheme. If a future session wants the engine to choose between two claims, the work
+  is *encoding a source that states the precedence*, not writing arithmetic against ones that
+  do not.
+
+**Original P1-3 text (Milestone 20-22), kept for the record:**
 - **Why it matters:** Contradictory doctrine is preserved (`contradicts`/`extends`) but never
   weighed against itself. `Phases.txt` Phase 4 was otherwise entirely unbuilt.
 - **What changed in Milestone 20 — a partial build, and a correction to this entry's own
@@ -1902,6 +2168,27 @@ chapters.**
 
 ## DO NOT FORGET
 
+- **A relationship the store records is worth nothing until code reads it.** For twenty-two
+  milestones every encoding pass faithfully wrote `contradicts`, `extends` and `parallel_of`
+  links, and no line of engine code ever read one — so no consultation surfaced a single
+  declared contradiction, and Part 3 reported a verse and its own printed refutation as
+  *agreeing* on 83% of charts, under a heading that said "without contradiction". Card-level
+  verification could not catch it; neither could reading Part 2. **When adding a field to a
+  card, check that something consumes it, and add the build gate that fails when it dangles.**
+  (Milestone 23.)
+- **`unresolved` is a finished answer, not a placeholder.** Where the corpus states no
+  precedence the engine says so, quotes both sides, and stops. Do not add weighting to Stage 7
+  to "finish" it — `dep.adjudication` is outstanding on purpose, and the way to resolve more
+  conflicts is to encode a source that states one.
+- **The obvious cancellation case needs no cancellation mechanism.** Sakata Yoga's cancellation
+  is printed in the same sentence as the yoga, so it is a negated conjunct inside the card's
+  own condition and has worked since Milestone 9. Check whether the encoding already handles a
+  case before building architecture for it. (Milestone 23; the same lesson as §I's standing
+  rule, arrived at from the other direction.)
+- **Test the output of a discriminator, not its input.** Milestone 23's suite passed a mutation
+  that would have manufactured corroboration out of sibling cards, because the test asked "do
+  these cards name an authority?" instead of "does the adjudicator ever emit one without a
+  named authority?". Mutating the module under test is what found it, and is worth doing again.
 - **Before building adjudication for an apparent contradiction, read the source behind both
   sides — one of them may be a translator's gloss.** Milestone 19 identified a hard cross-book
   conflict on the Moon's nature and concluded Stage 7 had to be built before P0-2 could be
