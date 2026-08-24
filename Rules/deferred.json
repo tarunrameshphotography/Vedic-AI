@@ -134,7 +134,7 @@
     "dep.strength": {
       "title": "planetary and house strength (Stage 4)",
       "kind": "calculator",
-      "detail": "Shadbala and bhava bala. Sourceable from Phaladeepika ch. 4, which is deferred.",
+      "detail": "Strength verdicts for grahas and houses. Sourced from Phaladeepika ch. 4, which is now encoded in full (Milestone 21). NOT a numeric Shadbala calculator: the chapter withholds the arithmetic for three of the six components, so the strong/weak verdicts come from vv. 4-5 rather than from a Pinda -- see concept:strength-criterion-scope.",
       "phase": "2 (engine completion)",
       "depends_on": [
         "chapter:phaladeepika.04",
@@ -378,6 +378,76 @@
       "effort": 15,
       "effort_basis": "a new condition-language combinator with universal-quantification binding semantics",
       "implemented": false
+    },
+    "dep.day-night": {
+      "title": "whether the birth was by day or by night",
+      "kind": "calculator",
+      "detail": "Sunrise and sunset for the birth place and instant, and so whether the birth fell in the Dinamana or the Ratrimana. Phaladeepika ch. 4 conditions three separate strength components on it (v. 1's diurnal/nocturnal grahas, v. 6's day and night signs, the survey's Tribhaga Bala). The ephemeris provider exposes no rise/set call today. Deliberately NOT approximated from clock hours: 'daytime' guessed at 06:00-18:00 is simply wrong at high latitudes and at the edges of every time zone, and a strength verdict resting on it would be unfalsifiable.",
+      "phase": "2 (engine completion)",
+      "depends_on": [],
+      "effort": 3,
+      "effort_basis": "one rise/set call per birth, plus the day/night predicate",
+      "implemented": false
+    },
+    "dep.paksha": {
+      "title": "the lunar fortnight as a fact",
+      "kind": "predicate",
+      "predicate": "paksha",
+      "detail": "Shukla or Krishna paksha, and the full Moon. The arithmetic already exists -- Engine/facts.py::_phase computes waxing and waning from the Sun-Moon elongation for the nature extractor -- so this is a predicate that is not emitted rather than a quantity that cannot be computed. Left unbuilt because no card asks for it: Phaladeepika ch. 4's paksha statements (vv. 1, 4, 5, 21) all state a quantity of Paksha Bala rather than a verdict, and emitting one would mean inventing the scale.",
+      "phase": "2 (engine completion)",
+      "depends_on": [],
+      "effort": 2,
+      "effort_basis": "a predicate over an elongation the engine already computes"
+    },
+    "dep.declination": {
+      "title": "declination north or south",
+      "kind": "calculator",
+      "detail": "Ayana Bala is defined on declination in both of chapter 4's authorities, and 'victorious in the planetary course' (v. 2) turns on it too. The chart carries ecliptic latitude, not declination, and the provider exposes no equatorial coordinates.",
+      "phase": "2 (engine completion)",
+      "depends_on": [],
+      "effort": 3,
+      "effort_basis": "equatorial coordinates from the ephemeris, plus a north/south predicate",
+      "implemented": false
+    },
+    "dep.degree-range": {
+      "title": "comparing a graha's degree in its sign against a range",
+      "kind": "schema",
+      "detail": "Phaladeepika ch. 4 v. 3 makes male, female and hermaphrodite grahas strong in the first, last and middle third of a sign respectively. Both halves are in hand -- the graha sex classification is encoded and read (Engine/facts.py::_graha_classes) and every chart carries deg_in_sign -- but the condition language has no way to test a number against an interval. Small and well scoped.",
+      "phase": "2 (engine completion)",
+      "depends_on": [],
+      "effort": 3,
+      "effort_basis": "an interval comparator in the condition language",
+      "implemented": false
+    },
+    "dep.chandra-kriya": {
+      "title": "Chandrakriya, Chandra Avastha and Chandravela",
+      "kind": "calculator",
+      "detail": "The 108 effects keyed to the elapsed fraction of the birth nakshatra, printed in the middle of Phaladeepika ch. 4 with no connection to the strength doctrine on either side of them. The engine already computes the nakshatra and pada, so the input is available; what is not resolved is that the verse's divisors (60, 300, 100 applied to elapsed Vighatikas) do not produce the printed part counts (60, 12, 36), while the translator's tables divide the nakshatra's arc instead -- see concept:chandra-divisor-mismatch.",
+      "phase": "3 (knowledge)",
+      "depends_on": [],
+      "effort": 5,
+      "effort_basis": "an index calculation plus 108 effects split into cards",
+      "implemented": false
+    },
+    "dep.weekday-hora-lords": {
+      "title": "which graha rules each weekday and each hora",
+      "kind": "reference",
+      "detail": "Four Kala Bala components in Phaladeepika ch. 4 -- lord of the year, month, day and hora -- turn on a weekday-to-graha mapping and an hora sequence. Neither is stated in that chapter, and no encoded chapter states them, so the doctrine is simply absent from the store. It must come from a card, not from the engine's general knowledge of the seven-day week.",
+      "phase": "3 (knowledge)",
+      "depends_on": [],
+      "effort": 2,
+      "effort_basis": "a reference table, once a chapter that states it is encoded",
+      "implemented": false
+    },
+    "dep.triped-sign-class": {
+      "title": "the 'triped' sign class",
+      "kind": "reference",
+      "detail": "Phaladeepika ch. 4 v. 6 gives the lagna a full Rupa when it is a 'triped' sign, a class that appears nowhere else in this book -- chapter 1 v. 7 and chapter 4's own Bhava Dik Bala both use biped, quadruped, keeta and watery. The printed word is confirmed against the rendered page, so this is a defect or an unexplained term in the source, not an extraction error, and the class it names cannot be built from anything the corpus carries.",
+      "phase": "3 (knowledge)",
+      "depends_on": [],
+      "effort": 1,
+      "effort_basis": "nothing to build until the term is resolved or another book defines it",
+      "implemented": false
     }
   },
   "entries": [
@@ -402,12 +472,12 @@
       "chapter": 4,
       "locus": "whole chapter - The various kinds of Strengths of Planets and Houses",
       "what": "shadbala and bhava bala doctrine",
-      "reason": "Computational doctrine rather than predictive rules. Source of dep.strength.",
+      "reason": "RESOLVED: encoded in full as 94 cards. The chapter turned out to carry two strength doctrines by two authorities and says so itself -- eight printed pages of the translator's survey of 'the views of other ancients', carrying all the familiar Shastyamsa arithmetic, followed by Mantreswara's own 24 verses, which name a DIFFERENT six balas and are almost entirely unquantified. Both are encoded, separated by predicts.authority and by tier, and never merged. The original reason for deferral -- 'computational doctrine rather than predictive rules' -- was right about the survey and wrong about the verses: verses 4 and 5 state strong and weak as verdicts about conditions the engine can evaluate, and those are what dep.strength is built from. See concept:strength-criterion-scope for why the chapter's own numeric criterion (vv. 22-23) is not.",
       "requires": [
         "dep.none"
       ],
       "phase": "3 (knowledge)",
-      "status": "deferred"
+      "status": "resolved"
     },
     {
       "id": "chapter:phaladeepika.05",
@@ -2159,12 +2229,259 @@
       "chapter": 4,
       "locus": "ch. 4, Kala Bala section (printed pp.37-38)",
       "what": "Phaladeepika ch. 4's statement 'The Moon, Mercury, Jupiter and Venus are benefics', which also names Jupiter and Venus and was one of the three candidate sources considered for closing P0-2.",
-      "reason": "Deliberately NOT encoded as a graha_nature card, and this entry exists so that decision is on the record rather than being an omission. The sentence is scoped to a strength computation: it appears inside the Kala Bala rules, and the sentences immediately following it scope Mercury's treatment to that computation explicitly ('for determining kala Bala Mercury should be treated as a benefic. We support this view'), in open disagreement with ch. 2 v. 27's conditional Mercury. Encoded as general doctrine it would also make the Moon unconditionally benefic and collide with ch. 2 v. 27's waxing/waning rule. Brihat Jataka ch. 2 v. 5 was used instead precisely because it is a general, unscoped classification. If Stage 4 (dep.strength) is ever built, this sentence belongs to it as a kala-bala-local definition, not to dep.nature.",
+      "reason": "Deliberately NOT encoded as a graha_nature card, and this entry exists so that decision is on the record rather than being an omission. The sentence is scoped to a strength computation: it appears inside the Kala Bala rules, and the sentences immediately following it scope Mercury's treatment to that computation explicitly ('for determining kala Bala Mercury should be treated as a benefic. We support this view'), in open disagreement with ch. 2 v. 27's conditional Mercury. Encoded as general doctrine it would also make the Moon unconditionally benefic and collide with ch. 2 v. 27's waxing/waning rule. Brihat Jataka ch. 2 v. 5 was used instead precisely because it is a general, unscoped classification. If Stage 4 (dep.strength) is ever built, this sentence belongs to it as a kala-bala-local definition, not to dep.nature. UPDATE (chapter 4 encoding): the sentence is now encoded, as PD.04.Ancients.KalaBala.BeneficList with relation kala_bala_benefic and an explicit scope field, together with its malefic counterpart. That records the definition without promoting it to general nature doctrine. The entry stays deferred because what is deferred is its USE: the Kala Bala computation that would consume it does not exist and cannot, since the source withholds the arithmetic for three of the six components.",
       "requires": [
         "dep.strength"
       ],
       "phase": "2 (engine completion)",
       "status": "deferred"
+    },
+    {
+      "id": "concept:oja-yugma-fifth-graha",
+      "kind": "concept",
+      "book": "phaladeepika",
+      "chapter": 4,
+      "locus": "ch. 4, Sthan Bala item (9)(a) (printed p.36)",
+      "what": "Which graha is missing from the Oja Yugma Rasi Bala list. The sentence reads 'The Sun, Mars, Mercury and Saturn amongst those five' -- it says five and names four.",
+      "reason": "The page was rendered and inspected (image p0036); four grahas are what is printed, so this is the book's defect and not the extraction's. The card records the four that are named and does not supply a fifth, because any candidate would come from outside this project's corpus. Note the printed scheme is asymmetric besides: no rule is given for the Moon or Venus in an even rasi, nor for these four in an odd navamsa.",
+      "requires": [
+        "dep.strength"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "concept:yudha-bala-method-not-given",
+      "kind": "concept",
+      "book": "phaladeepika",
+      "chapter": 4,
+      "locus": "ch. 4, Yudha Bala (printed p.39)",
+      "what": "How Yudha Bala (planetary war) is actually computed.",
+      "reason": "The source states the condition -- two of the five non-luminous grahas in the same rasi, degree and minute -- and then refers the reader to Sripati Padhati, Keshavi Jataka or Brihat Parasara Hora Shastra for the method. None of those three is in this project's corpus. The condition is encoded; the computation is absent from the source and is therefore absent here.",
+      "requires": [
+        "dep.strength"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "concept:chesta-bala-manda-definitions",
+      "kind": "concept",
+      "book": "phaladeepika",
+      "chapter": 4,
+      "locus": "ch. 4, Chesta Bala items (e) and (f) (printed p.40)",
+      "what": "Whether the printed glosses of Manda and Mandatara are transposed, and whether both are really worth 15 Shastyamsa.",
+      "reason": "As printed, Manda is 'motion be increasing but be less than the medium motion' and Mandatara 'the motion be decreasing but be more than the medium motion' -- descriptions that overlap rather than succeed one another, and that read against the names (slow, slower) look swapped. Both are given the same value, and the wider ladder is non-monotonic as printed (fast 45, faster 30). Recorded exactly as printed. Correcting it would mean importing another book's Chesta Bala table, which is precisely what the store forbids.",
+      "requires": [
+        "dep.strength"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "concept:bhava-bala-subtraction-scope",
+      "kind": "concept",
+      "book": "phaladeepika",
+      "chapter": 4,
+      "locus": "ch. 4, 'Auspicious and Inauspicious Drishti' (printed p.41)",
+      "what": "What the malefic-aspect subtraction attaches to when benefic aspect predominates.",
+      "reason": "'Deduct quantum of malefic aspect from it and the strength of the lord of the house and add Bhawa Dik Bala' admits two readings: subtract from the benefic quantum alone, or from that quantum plus the lord's strength. The sibling paragraph covering the malefic-heavy case is unambiguous and implies the first, which is what the card records -- but that is an inference from a neighbouring sentence, not a statement, and it is registered rather than treated as settled.",
+      "requires": [
+        "dep.strength"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "concept:retrograde-rescue-scope",
+      "kind": "concept",
+      "book": "phaladeepika",
+      "chapter": 4,
+      "locus": "ch. 4 v. 4 (printed p.43) against ch. 9 v. 20",
+      "what": "Whether retrogression rescues a badly-placed graha unconditionally, or only when its rays are also unaffected.",
+      "reason": "Chapter 9 v. 20 says a retrograde graha produces the effect of exaltation even in an enemy's or a debilitation sign, with no further condition, and the engine's dignity-override mechanism is built on it. Chapter 4 v. 4 makes the same rescue conditional: 'vested with full strength if he is retrograde AND if his rays are full and brilliant'. For a retrograde graha that is also combust the two verses disagree about the outcome. Encoded as an `extends` link rather than a contradiction, because the chapter 4 statement is the narrower of the two and narrowing is not denial -- but which reading governs the override is a human's call, and it is the second genuine same-book conflict this project has found. See also concept:kendra-positional-strength-conflict.",
+      "requires": [
+        "dep.adjudication"
+      ],
+      "phase": "4 (integration)",
+      "status": "deferred"
+    },
+    {
+      "id": "concept:kendra-positional-strength-conflict",
+      "kind": "concept",
+      "book": "phaladeepika",
+      "chapter": 4,
+      "locus": "ch. 4 v. 3 against ch. 4 v. 8 (printed pp.43, 45)",
+      "what": "How much positional strength a graha in a kendra actually gets.",
+      "reason": "Verse 3 gives every kendra one Rupa, a panaphara half and an apoklima a quarter -- agreeing exactly with the survey's Kendradi Bala. Verse 8, five verses later and in the same chapter, gives the lagna a full Rupa, the 7th three quarters, the 10th a half and the 4th a quarter. A graha in the 4th house is therefore worth one Rupa by verse 3 and a quarter by verse 8. Both are encoded and linked with `contradicts`; the engine has no way to prefer one and correctly does not try. Verse 8 attributes its distinction to 'the astrologers', which may mean Mantreswara is reporting rather than asserting it -- which is exactly the sort of question Stage 7 adjudication would have to answer.",
+      "requires": [
+        "dep.adjudication"
+      ],
+      "phase": "4 (integration)",
+      "status": "deferred"
+    },
+    {
+      "id": "concept:special-aspect-parity",
+      "kind": "concept",
+      "book": "phaladeepika",
+      "chapter": 4,
+      "locus": "ch. 4 v. 9 (printed p.45) against ch. 2 v. 23",
+      "what": "Whether Jupiter's, Mars's and Saturn's special aspects are as effective as the aspect from the 7th house.",
+      "reason": "This one bears on behaviour the engine exhibits on every chart. PD.02.Aspect.Special grants those three grahas full drishti on the six houses chapter 4 v. 9 names, and Engine/facts.py::_aspects emits them as full aspects. Verse 9 ranks the 7th-house aspect above them 'in all cases' and attributes the equal-competence view to 'some learneds' rather than endorsing it -- so the engine currently follows the dissenting opinion the verse reports, not the verse. Nothing was changed on the strength of this, because acting on it means ranking two aspects against each other, which is Stage 7's job and does not exist. Recorded so the discrepancy is visible rather than buried in an extractor.",
+      "requires": [
+        "dep.adjudication"
+      ],
+      "phase": "4 (integration)",
+      "status": "deferred"
+    },
+    {
+      "id": "concept:tatkalik-friendship",
+      "kind": "concept",
+      "book": "phaladeepika",
+      "chapter": 4,
+      "locus": "ch. 4 v. 10 (printed p.45)",
+      "what": "Temporal (Tatkalik) friendship and enmity, which this project has never encoded.",
+      "reason": "Verse 10 prefers natural friendship to temporal, which ratifies what the engine already does -- Engine/facts.py::_dignity_friendship reads the natural table and no temporal one exists. But in doing so it names tatkalik friendship as real doctrine that the store does not carry at all. The verse states the preference, not the computation, so nothing here supplies it.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "concept:chandra-divisor-mismatch",
+      "kind": "concept",
+      "book": "phaladeepika",
+      "chapter": 4,
+      "locus": "ch. 4 v. 12 and its Notes (printed pp.45-49)",
+      "what": "How the Chandrakriya, Chandra Avastha and Chandravela indices are actually derived.",
+      "reason": "Verse 12 says to convert the elapsed portion of the birth nakshatra to Vighatikas and divide by 60, 300 and 100 to get the three indices -- but the three sequences have 60, 12 and 36 members, and dividing by 300 cannot yield a number in 1..12 the way dividing by 60 yields one in 1..60. The translator's ready-made tables further on divide the nakshatra's ARC into 60, 12 and 36 parts instead, which does produce the right ranges. The two methods coincide only if the Moon's motion is taken as uniform across the nakshatra, which neither the verse nor the Notes says. Not resolved here.",
+      "requires": [
+        "dep.chandra-kriya"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "concept:chandra-effects-not-predictive",
+      "kind": "concept",
+      "book": "phaladeepika",
+      "chapter": 4,
+      "locus": "ch. 4 vv. 13-19 (printed pp.45-47)",
+      "what": "The 108 Chandrakriya, Chandra Avastha and Chandravela effects, encoded as three ordered reference lists rather than as 108 predictive cards.",
+      "reason": "Every one of the 108 is a real predictive claim and every one is recorded, in order, on three reference cards -- so nothing is lost. They are not split into individual predictive cards because none of them could fire: the index that selects which effect applies does not exist (dep.chandra-kriya) and its derivation is itself disputed by the source (concept:chandra-divisor-mismatch). Splitting them now would add 108 permanently inert cards, more than doubling this chapter, and would have to be redone against whatever index the resolution produces.",
+      "requires": [
+        "dep.chandra-kriya"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "concept:parivesha-worked-example",
+      "kind": "concept",
+      "book": "phaladeepika",
+      "chapter": 4,
+      "locus": "ch. 4 v. 5 Notes (printed p.44)",
+      "what": "The worked example for Parivesha and Indrachapa, which does not compute.",
+      "reason": "Confirmed against the rendered page (image p0044): step 2 deducts 12 Rasis from a Dhooma of 0-9-31-38, a smaller quantity, and the Vyatipata line subtracts 11-20-28-32 from a figure printed one line above as 11-20-28-22. The defects are the book's, not the extraction's, and are preserved as printed. The method itself is recorded on PD.04.Parivesha.Computation; it is not executable in any case without dep.upagraha.",
+      "requires": [
+        "dep.upagraha"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "concept:mars-bala-pinda-row",
+      "kind": "concept",
+      "book": "phaladeepika",
+      "chapter": 4,
+      "locus": "ch. 4 v. 23 Notes (printed p.50)",
+      "what": "Mars's Sthan Bala figure in the other-authorities threshold table, which makes the row fail to sum.",
+      "reason": "Six of the seven rows total exactly at 60 Shastyamsa to the Rupa. Mars's does not: 1-16 + 0-30 + 0-40 + 1-7 + 0-20 = 3-53, against a printed total of 4-13. Saturn's row is identical in its other four cells, carries 1-36, and does sum -- so one digit in one cell would repair it. The page was rendered and inspected (image p0050): the table is cleanly set, every column aligns, and 1-16 is genuinely what is printed. Preserved as printed, exactly as the chapter 23 Ashtakavarga chart that totals 44 instead of 48 bindus is.",
+      "requires": [
+        "dep.strength"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "concept:strength-criterion-scope",
+      "kind": "concept",
+      "book": "phaladeepika",
+      "chapter": 4,
+      "locus": "ch. 4 vv. 22-23 against vv. 4-5 (printed pp.49-50)",
+      "what": "Which of the chapter's two criteria for 'strong' the engine's strength verdicts implement.",
+      "reason": "Verses 22-23 give the chapter's formal definition: a graha is strong when its Shadbala Pinda reaches a per-graha threshold in Rupas, and weak below it. That is not computable here -- the six components are quantified only in the other authorities' scheme, and three of those (Yudha, Chesta, Drig) have their arithmetic explicitly withheld by the source. So the strong and weak verdicts this project emits come instead from verses 4 and 5, which say 'strong' and 'weak' outright about conditions the engine can evaluate. The two criteria are not equivalent and this entry exists so that is never quietly forgotten: a graha the engine calls strong is one Phaladeepika calls strong for a stated reason, not one whose Shadbala Pinda has been measured.",
+      "requires": [
+        "dep.strength"
+      ],
+      "phase": "2 (engine completion)",
+      "status": "deferred"
+    },
+    {
+      "id": "concept:lord-of-house-or-hora",
+      "kind": "concept",
+      "book": "phaladeepika",
+      "chapter": 4,
+      "locus": "ch. 4 v. 1 (printed p.42)",
+      "what": "Whether 'lords of the year, month, day and house' means the hora.",
+      "reason": "The printed word is 'house'. The survey's parallel paragraphs quantify the lords of the year, month, day and HORA at 15, 30, 45 and 60 Shastyamsa, and the verse's own ascending series 1/4, 1/2, 3/4, 1 Rupa is the same series in the same order. Read as 'hora' on that basis, and flagged rather than silently corrected, because the alternative reading -- the lord of the bhava -- is not absurd and the store's rule is that a substitution belongs to a human.",
+      "requires": [
+        "dep.weekday-hora-lords"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "concept:ketu-strength-clauses",
+      "kind": "concept",
+      "book": "phaladeepika",
+      "chapter": 4,
+      "locus": "ch. 4 v. 5 (printed pp.43-44)",
+      "what": "Two of Ketu's strength conditions, quoted but not asserted.",
+      "reason": "Verse 5 makes Ketu strong in Pisces, Virgo, Taurus -- all three encoded -- and also in 'the latter half of Sagittarius', which needs a half-sign predicate the store does not have, and 'in Partvesha and Indrachapa when the Sun and the Moon are together in the same sign', which needs the two upagraha longitudes computed in this verse's own Notes. Both clauses are inside the card's quote and neither is asserted by it.",
+      "requires": [
+        "dep.upagraha"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred"
+    },
+    {
+      "id": "passage:phaladeepika.04.chandra-examples",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 4,
+      "locus": "ch. 4, the four Chandra worked examples (printed pp.48-49)",
+      "what": "The translator's worked examples for reading the Chandrakriya, Chandra Avastha and Chandravela tables from a specimen Moon at 11-20-37-21.",
+      "reason": "Apparatus, not doctrine: each one demonstrates a table lookup already encoded on the corresponding table card, using a specimen nativity that belongs to no one. The same treatment the chapter 8 and chapter 9 transcribed horoscopes received. They are not quoted by any card and are claimed here so the omission is deliberate and visible.",
+      "requires": [
+        "dep.chandra-kriya"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        141,
+        145,
+        148,
+        151
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.04.colophon",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 4,
+      "locus": "ch. 4 colophon (printed p.50)",
+      "what": "The chapter's closing formula, marking the end of the fourth chapter on the determination of Shadbalas.",
+      "reason": "Narrative, not doctrine, matching every other chapter's closing formula and treated the same way as chapter 6's (passage:phaladeepika.06.p233).",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        161
+      ]
     }
   ]
 }

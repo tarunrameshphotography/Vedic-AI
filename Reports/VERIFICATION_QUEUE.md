@@ -10,7 +10,7 @@ sign-off in the card's `extraction.verified_by` in the style already
 used for `PD.02.*`, `PD.09.*`, `PD.10.*` -- reviewer name(s) plus a short
 description of what was checked -- not a blanket approval.
 
-**2 card(s) queued.**
+**3 card(s) queued.**
 
 ## `PD.01.Kalapurusha.Strength` (v. 4 (Notes), inert)
 
@@ -19,6 +19,14 @@ description of what was checked -- not a blanket approval.
 - conditions: `{"any": [{"aspects": {"graha": "any", "target": "any"}}, {"lord_of_house": {"graha": "any", "house": "any"}}]}`
 - predicts: `{"domain": "body", "subject": "house_significator", "effect": "limb_strong_or_diseased"}`
 - note: The only predictive rule in the chapter, and it is the translator's commentary rather than the verse. Universally quantified over the houses. VERIFICATION NOTE (2026-08-24): the condition does not yet match the quote -- the quote states three alternatives (occupied by a benefic, aspected by a benefic, or the house's lord bestowed with strength) but the condition only carries two leaves, omits the "occupied" (in_house) case entirely, and its lord_of_house(any,any) leaf does not test strength. CORRECTION (Milestone 19): the prior note called that leaf "vacuously true ... because every house always has a lord". That is wrong about the engine and the error is worth keeping straight, because it points the repair in the opposite direction. "any" is not a wildcard: VARIABLE_RE is ^\?[a-z][a-z0-9_]*$, so only ?-prefixed arguments quantify, and a literal is matched by exact string equality against the fact set. "any" therefore matches no fact at all and both leaves are vacuously FALSE, so this condition can never be satisfied even if the card were made active -- it is fail-safe today, not a latent over-fire. Currently harmless only because the card is inert and never evaluated; not corrected here (would be choosing an interpretation during a verification pass, not verifying one) -- whoever builds dep.strength + dep.condition-variables against this card must add the missing in_house(?g,?h) disjunct and make both benefic-sourced leaves test dep.nature explicitly, not just re-parameterize the existing two leaves.
+
+## `PD.04.Lagna.TripedSign` (v. 6, inert)
+
+> 6. The first house gets one Rupa of strength if it is a triped sign. If it be Vrischika it gets 1 /4 Rupa as its strength. In any other sign the strength will be 1/2 Rupa.
+
+- conditions: `{"all": []}`
+- predicts: `{"relation": "bhava_strength", "authority": "Mantreswara", "house": 1, "unit": "rupa", "table": {"triped": 1.0, "Scorpio": 0.25, "any other": 0.5}}`
+- note: AMBIGUOUS AT THE SOURCE, and inert for that reason rather than for a missing capability. The verse partitions the signs three ways and names the first class 'triped' -- a category that appears nowhere else in this book. Chapter 1 v. 7's body-form table (PD.01.SignBodyForm.Table) classifies signs biped, quadruped, keeta and watery, with no triped among them, and the survey's own Bhava Dik Bala earlier in this chapter uses the same four. 'Triped' is confirmed as the printed word against the rendered page (image p0044, printed p.44), so it is a defect of the book and not of the extraction. Whether it is a misprint for 'biped' -- which would make the verse parallel to the survey's Bhava Dik Bala -- is exactly the kind of substitution a card must not make on its own. Registered as dep.triped-sign-class -- the store carries no such class because the book never gives one.
 
 ## `PD.10.Venus.VargaMarsSaturn` (v. 4, inert)
 
