@@ -1948,10 +1948,11 @@
       },
       "kind": "yoga",
       "activation": "reference",
-      "note": "Discursive commentary, not a further testable condition: reports the folk view (malefics in 3rd/6th/11th destroy enemies and disease), then Mantreswara's own stated principle (a dusthana lord in another dusthana does good, per verse 57 -- not yet encoded). Preserved as corroborating doctrine for PD.06.Astra.H06 rather than turned into a claim of its own.",
+      "note": "Discursive commentary, not a further testable condition: reports the folk view (malefics in 3rd/6th/11th destroy enemies and disease), then Mantreswara's own stated principle (a dusthana lord in another dusthana does good, per verse 57 (now encoded: PD.06.DusthanaLord.General and the Harsha/Sarala/Vimala cards it governs)). Preserved as corroborating doctrine for PD.06.Astra.H06 rather than turned into a claim of its own.",
       "exclusions": [],
       "parallel_of": [
-        "PD.06.Astra.H06"
+        "PD.06.Astra.H06",
+        "PD.06.DusthanaLord.General"
       ]
     },
     {
@@ -8803,6 +8804,2171 @@
       "kind": "yoga",
       "note": "Verse 70's reverse configuration: 6th/8th/12th lords weak or combust, occupying a dusthana; 1st/4th/9th/10th lords vested with strength, posited in a kendra or trikona -- 'the native will become a king, fortunate, wealthy, happy and virtuous.' The verse states this configuration and its effect but does not name it, unlike the first half's 'Duryoga'; the card id and predicts.yoga record that honestly rather than inventing a Sanskrit name the source does not give.",
       "exclusions": []
+    },
+    {
+      "id": "PD.06.DusthanaLord.General",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "57",
+        "page_anchor": "phaladeepika/p0078",
+        "tier": 1,
+        "quote": "57. If the lords of the houses from the Lagna onwards are in the 6th, 8th or the 12th. or If the houses are occupied or aspected by malefics, 12 kinds of yogas are formed from the houses commencing from the Lagna. They are respectively—\r\n\r\n(1) Ava Yoga, (2) Nisswa Yoga, (3) Mriti Yoga, (4) Kuhu Yoga, (5) Pamara Yoga, (6) Harsha Yoga, (7) Dushkriti Yoga, (8) Sarala Yoga, (9) Nirbhagya Yoga, (10) Duryoga,\r\n\r\n(11) Daridra Yoga, and (12) VimalaYoga.",
+        "quote_display": "57. If the lords of the houses from the Lagna onwards are in the 6th, 8th or the 12th. or If the houses are occupied or aspected by malefics, 12 kinds of yogas are formed from the houses commencing from the Lagna. They are respectively— (1) Ava Yoga, (2) Nisswa Yoga, (3) Mriti Yoga, (4) Kuhu Yoga, (5) Pamara Yoga, (6) Harsha Yoga, (7) Dushkriti Yoga, (8) Sarala Yoga, (9) Nirbhagya Yoga, (10) Duryoga, (11) Daridra Yoga, and (12) VimalaYoga.",
+        "quote_sha256": "4b5ecc2dca3fbdfa67b245cd67081a02b8ceab3b071e77176231abda1ae606de",
+        "char_span": [
+          151014,
+          151463
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "domain": "yoga",
+        "topic": "governing condition for the twelve house-wise dusthana-lord yogas of vv. 58-69"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (governing condition cross-checked against v.63, v.65 and the translator's own p.231 gloss before being generalised to all twelve houses)",
+        "verified_date": "2026-08-24"
+      },
+      "kind": "yoga",
+      "activation": "reference",
+      "note": "Governing verse for the whole vv.57-69 cluster. Names two independent triggering conditions for house N (N = 1..12 from the Lagna): (A) any of the lords of the 6th, 8th or 12th houses is posited in house N, or (B) house N is occupied by or aspected by a malefic. Either produces the yoga named Nth in this verse's own list. This reading is not imported from outside the passage: v.63 ('the lords of the 6th, 8th and 12th occupy the 6th house') and v.65 ('the lords of the 6th, 8th or 12th are posited in the 8th house') both restate the identical template for N=6 and N=8 in unambiguous subject-verb-object prose (three lords, plural subject, occupying one named house), which is the reading applied to all twelve. Paragraph 231 (the translator's own note on v.57) independently confirms clause (B) applies to Harsha/Sarala/Vimala specifically, cross-checking this reading against the same verse from the translator's side. An earlier card in this store, PD.06.Astra.H06.Notes (encoded in slice 2, before this passage was reached), already quotes a translator aside forward-referencing 'Verse 57 of this very chapter' for exactly this doctrine -- 'if lord of a Dusthana is posited in another dusthana he does good' -- which this card now resolves; see that card's updated note and parallel_of link. Ten of the twelve house-verses (all but Harsha v.63 and Sarala v.65) state only the effect and rely on this verse for the condition, exactly as vv.44-56's Chamara/Dhenu/... family relies on v.44's template (Milestone 8 precedent) -- this is the same idiom applied to a different (dusthana-lord/malefic) template, not two chapters of coincidence."
+    },
+    {
+      "id": "PD.06.DusthanaLord.Ava",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "58",
+        "page_anchor": "phaladeepika/p0078",
+        "tier": 1,
+        "quote": "58. The person born with Ava yoga will be of no significance (He will be unknown and will be of no importance to others). He will be exceedingly poor and will have a short life (Alpa ayu). He will suffer humiliations, will remain in company of the wicked and will Be deformed and of ill behaviour. His position will remain unsteady.",
+        "quote_display": "58. The person born with Ava yoga will be of no significance (He will be unknown and will be of no importance to others). He will be exceedingly poor and will have a short life (Alpa ayu). He will suffer humiliations, will remain in company of the wicked and will Be deformed and of ill behaviour. His position will remain unsteady.",
+        "quote_sha256": "a7ed01391a85930b13706f27119cd2c3784c2c7f0754b8fcd1a9ed8b515bb58e",
+        "char_span": [
+          151467,
+          151799
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g6",
+                      "house": 6
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g6",
+                      "house": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g8",
+                      "house": 8
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g8",
+                      "house": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g12",
+                      "house": 12
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g12",
+                      "house": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house": {
+                      "graha": "?m1",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m1",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "aspects": {
+                      "graha": "?m2",
+                      "target": 1
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m2",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Ava",
+        "house": 1
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (v.57's general template applied to house 1; house-name mapping taken from v.57's own numbered list, para. 203-204, not assumed)",
+        "verified_date": "2026-08-24"
+      },
+      "kind": "yoga",
+      "note": "Ava Yoga, house 1: fires when any of the lords of the 6th, 8th or 12th houses is posited in house 1, or house 1 is occupied by or aspected by a malefic (PD.06.DusthanaLord.General, v.57). v.58 states only the effect; the condition is v.57's general template (house 1), not repeated here -- same idiom as the vv.44-56 house-wise family (item 1 states the template in full, items 2-12 say only 'similarly disposed')."
+    },
+    {
+      "id": "PD.06.DusthanaLord.Nisswa",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "59",
+        "page_anchor": "phaladeepika/p0078",
+        "tier": 1,
+        "quote": "59. The person with Nisswa yoga at birth will be harsh in speaking. His wife will not bear children. He will remain in bad company and will have ill formed teeth and eyes. He will be bereft of intelligence, children, learning and power. His wealth will be taken away by his enemies.",
+        "quote_display": "59. The person with Nisswa yoga at birth will be harsh in speaking. His wife will not bear children. He will remain in bad company and will have ill formed teeth and eyes. He will be bereft of intelligence, children, learning and power. His wealth will be taken away by his enemies.",
+        "quote_sha256": "5aaec95b32829d23076bae4d17f865a4b4c60b9690de8ab8db24ebcedc81ce19",
+        "char_span": [
+          151803,
+          152085
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g6",
+                      "house": 6
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g6",
+                      "house": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g8",
+                      "house": 8
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g8",
+                      "house": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g12",
+                      "house": 12
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g12",
+                      "house": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house": {
+                      "graha": "?m1",
+                      "house": 2
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m1",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "aspects": {
+                      "graha": "?m2",
+                      "target": 2
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m2",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Nisswa",
+        "house": 2
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (v.57's general template applied to house 2; house-name mapping taken from v.57's own numbered list, para. 203-204, not assumed)",
+        "verified_date": "2026-08-24"
+      },
+      "kind": "yoga",
+      "note": "Nisswa Yoga, house 2: fires when any of the lords of the 6th, 8th or 12th houses is posited in house 2, or house 2 is occupied by or aspected by a malefic (PD.06.DusthanaLord.General, v.57). v.59 states only the effect; the condition is v.57's general template (house 2), not repeated here -- same idiom as the vv.44-56 house-wise family (item 1 states the template in full, items 2-12 say only 'similarly disposed')."
+    },
+    {
+      "id": "PD.06.DusthanaLord.Mriti",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "60",
+        "page_anchor": "phaladeepika/p0078",
+        "tier": 1,
+        "quote": "60. The person with Mriti Yoga will be annihilated by his enemies, will be devoid of brothers, shame, strength and wealth. He will get tired by indulging in unseemly actions and will be of excitable temperament.",
+        "quote_display": "60. The person with Mriti Yoga will be annihilated by his enemies, will be devoid of brothers, shame, strength and wealth. He will get tired by indulging in unseemly actions and will be of excitable temperament.",
+        "quote_sha256": "e84944a019a6c9c19ed9dd0878afbdeac704acea768b1fa0cdc5dc794b2dcf54",
+        "char_span": [
+          152089,
+          152300
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g6",
+                      "house": 6
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g6",
+                      "house": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g8",
+                      "house": 8
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g8",
+                      "house": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g12",
+                      "house": 12
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g12",
+                      "house": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house": {
+                      "graha": "?m1",
+                      "house": 3
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m1",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "aspects": {
+                      "graha": "?m2",
+                      "target": 3
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m2",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Mriti",
+        "house": 3
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (v.57's general template applied to house 3; house-name mapping taken from v.57's own numbered list, para. 203-204, not assumed)",
+        "verified_date": "2026-08-24"
+      },
+      "kind": "yoga",
+      "note": "Mriti Yoga, house 3: fires when any of the lords of the 6th, 8th or 12th houses is posited in house 3, or house 3 is occupied by or aspected by a malefic (PD.06.DusthanaLord.General, v.57). v.60 states only the effect; the condition is v.57's general template (house 3), not repeated here -- same idiom as the vv.44-56 house-wise family (item 1 states the template in full, items 2-12 say only 'similarly disposed')."
+    },
+    {
+      "id": "PD.06.DusthanaLord.Kuhu",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "61",
+        "page_anchor": "phaladeepika/p0078",
+        "tier": 1,
+        "quote": "61. Kuhu Yoga will make the native be bereft of mother, conveyances,\r\n\r\n<!-- page phaladeepika/p0079 -->\r\nfriends, happiness, ornaments, relations. He will be unemployed and without a place of living having lost the one already owned by him and will have association with women of low caste.",
+        "quote_display": "61. Kuhu Yoga will make the native be bereft of mother, conveyances, friends, happiness, ornaments, relations. He will be unemployed and without a place of living having lost the one already owned by him and will have association with women of low caste.",
+        "quote_sha256": "aba8f296ae97aa4a82b4b002e142a5e29ba3bb774f7d5e2324719e0df079f37a",
+        "char_span": [
+          152304,
+          152595
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g6",
+                      "house": 6
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g6",
+                      "house": 4
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g8",
+                      "house": 8
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g8",
+                      "house": 4
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g12",
+                      "house": 12
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g12",
+                      "house": 4
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house": {
+                      "graha": "?m1",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m1",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "aspects": {
+                      "graha": "?m2",
+                      "target": 4
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m2",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Kuhu",
+        "house": 4
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (v.57's general template applied to house 4; house-name mapping taken from v.57's own numbered list, para. 203-204, not assumed)",
+        "verified_date": "2026-08-24"
+      },
+      "kind": "yoga",
+      "note": "Kuhu Yoga, house 4: fires when any of the lords of the 6th, 8th or 12th houses is posited in house 4, or house 4 is occupied by or aspected by a malefic (PD.06.DusthanaLord.General, v.57). v.61 states only the effect; the condition is v.57's general template (house 4), not repeated here -- same idiom as the vv.44-56 house-wise family (item 1 states the template in full, items 2-12 say only 'similarly disposed')."
+    },
+    {
+      "id": "PD.06.DusthanaLord.Pamara",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "62",
+        "page_anchor": "phaladeepika/p0079",
+        "tier": 1,
+        "quote": "62. Pamara Yoga which affects the 5th house, will give the native a miserable living and he will be indiscriminate. He will be liar and a cheat. He will suffer from loss of children or will be childless. He will associate with mean and wicked persons. He will have no faith in God or religion and will be a glutton.",
+        "quote_display": "62. Pamara Yoga which affects the 5th house, will give the native a miserable living and he will be indiscriminate. He will be liar and a cheat. He will suffer from loss of children or will be childless. He will associate with mean and wicked persons. He will have no faith in God or religion and will be a glutton.",
+        "quote_sha256": "33fac1adf58ff7499e3dea19fc08ce351fecdfb500c190ad2fa41a72e0c52522",
+        "char_span": [
+          152599,
+          152914
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g6",
+                      "house": 6
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g6",
+                      "house": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g8",
+                      "house": 8
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g8",
+                      "house": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g12",
+                      "house": 12
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g12",
+                      "house": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house": {
+                      "graha": "?m1",
+                      "house": 5
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m1",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "aspects": {
+                      "graha": "?m2",
+                      "target": 5
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m2",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Pamara",
+        "house": 5
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (v.57's general template applied to house 5; house-name mapping taken from v.57's own numbered list, para. 203-204, not assumed)",
+        "verified_date": "2026-08-24"
+      },
+      "kind": "yoga",
+      "note": "Pamara Yoga, house 5: fires when any of the lords of the 6th, 8th or 12th houses is posited in house 5, or house 5 is occupied by or aspected by a malefic (PD.06.DusthanaLord.General, v.57). v.62 states only the effect; the condition is v.57's general template (house 5), not repeated here -- same idiom as the vv.44-56 house-wise family (item 1 states the template in full, items 2-12 say only 'similarly disposed')."
+    },
+    {
+      "id": "PD.06.DusthanaLord.Harsha",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "63",
+        "page_anchor": "phaladeepika/p0079",
+        "tier": 1,
+        "quote": "63. Harsha Yoga concerns the 6th house. According to this yoga if the lords of the 6th, 8th and 12th occupy the 6th house, the native will be blessed with happiness and good fortune and a strong constitution. He will conquer his enemies and will hesitate in indulging in sinful deeds. He will become a friend of illustrious and men with class. He will be wealthy, splendourous, famous and will have friends and sons.",
+        "quote_display": "63. Harsha Yoga concerns the 6th house. According to this yoga if the lords of the 6th, 8th and 12th occupy the 6th house, the native will be blessed with happiness and good fortune and a strong constitution. He will conquer his enemies and will hesitate in indulging in sinful deeds. He will become a friend of illustrious and men with class. He will be wealthy, splendourous, famous and will have friends and sons.",
+        "quote_sha256": "3e6e63af47ec4960e88545a925492efc64417e6560c5ad1aeed2a99871d09aef",
+        "char_span": [
+          152918,
+          153334
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g6",
+                      "house": 6
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g6",
+                      "house": 6
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g8",
+                      "house": 8
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g8",
+                      "house": 6
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g12",
+                      "house": 12
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g12",
+                      "house": 6
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house": {
+                      "graha": "?m1",
+                      "house": 6
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m1",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "aspects": {
+                      "graha": "?m2",
+                      "target": 6
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m2",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Harsha",
+        "house": 6
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (v.57's general template applied to house 6; house-name mapping taken from v.57's own numbered list, para. 203-204, not assumed)",
+        "verified_date": "2026-08-24"
+      },
+      "kind": "yoga",
+      "note": "Harsha Yoga, house 6: fires when any of the lords of the 6th, 8th or 12th houses is posited in house 6, or house 6 is occupied by or aspected by a malefic (PD.06.DusthanaLord.General, v.57). v.63 itself restates the condition ('the lords of the 6th, 8th and 12th... in the 6th house'), confirming the general template for this house directly, not just by inheritance from v.57."
+    },
+    {
+      "id": "PD.06.DusthanaLord.Dushkriti",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "64",
+        "page_anchor": "phaladeepika/p0079",
+        "tier": 1,
+        "quote": "64. Dushkriti Yoga involves the 7th house. The person with this yoga at birth, will be deprived of his own wife and will indulge with other persons' wives. He will wander about to and fro unnoticed and will suffer from venereal diseases. He will be punished by the king (Government). He will be hated by his relations and will remain unhappy in consequence.",
+        "quote_display": "64. Dushkriti Yoga involves the 7th house. The person with this yoga at birth, will be deprived of his own wife and will indulge with other persons' wives. He will wander about to and fro unnoticed and will suffer from venereal diseases. He will be punished by the king (Government). He will be hated by his relations and will remain unhappy in consequence.",
+        "quote_sha256": "046463aba55b5cbb3b5dc6abdd4a423ecb66d82997a761a9b1ef627081def702",
+        "char_span": [
+          153338,
+          153695
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g6",
+                      "house": 6
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g6",
+                      "house": 7
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g8",
+                      "house": 8
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g8",
+                      "house": 7
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g12",
+                      "house": 12
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g12",
+                      "house": 7
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house": {
+                      "graha": "?m1",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m1",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "aspects": {
+                      "graha": "?m2",
+                      "target": 7
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m2",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Dushkriti",
+        "house": 7
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (v.57's general template applied to house 7; house-name mapping taken from v.57's own numbered list, para. 203-204, not assumed)",
+        "verified_date": "2026-08-24"
+      },
+      "kind": "yoga",
+      "note": "Dushkriti Yoga, house 7: fires when any of the lords of the 6th, 8th or 12th houses is posited in house 7, or house 7 is occupied by or aspected by a malefic (PD.06.DusthanaLord.General, v.57). v.64 states only the effect; the condition is v.57's general template (house 7), not repeated here -- same idiom as the vv.44-56 house-wise family (item 1 states the template in full, items 2-12 say only 'similarly disposed')."
+    },
+    {
+      "id": "PD.06.DusthanaLord.Sarala",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "65",
+        "page_anchor": "phaladeepika/p0079",
+        "tier": 1,
+        "quote": "65. Sarala Yoga concerns the 8th house. The yoga is formed if the lords of the 6th, 8th or 12th are posited in the 8th house. This yoga inspite of the house being a Dusthana gives excellent results. The yoga enables the native to be longlived. resolute, fearless, prosperous, learned, blessed with children and wealth. The native with this yoga will achieve success in all his ventures, will be victorious over his enemies and will be a great celebrity.",
+        "quote_display": "65. Sarala Yoga concerns the 8th house. The yoga is formed if the lords of the 6th, 8th or 12th are posited in the 8th house. This yoga inspite of the house being a Dusthana gives excellent results. The yoga enables the native to be longlived. resolute, fearless, prosperous, learned, blessed with children and wealth. The native with this yoga will achieve success in all his ventures, will be victorious over his enemies and will be a great celebrity.",
+        "quote_sha256": "6f0e9f45703c1466516aa78a479580962bd8eb97ce3d239754535802505319ed",
+        "char_span": [
+          153699,
+          154152
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g6",
+                      "house": 6
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g6",
+                      "house": 8
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g8",
+                      "house": 8
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g8",
+                      "house": 8
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g12",
+                      "house": 12
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g12",
+                      "house": 8
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house": {
+                      "graha": "?m1",
+                      "house": 8
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m1",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "aspects": {
+                      "graha": "?m2",
+                      "target": 8
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m2",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Sarala",
+        "house": 8
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (v.57's general template applied to house 8; house-name mapping taken from v.57's own numbered list, para. 203-204, not assumed)",
+        "verified_date": "2026-08-24"
+      },
+      "kind": "yoga",
+      "note": "Sarala Yoga, house 8: fires when any of the lords of the 6th, 8th or 12th houses is posited in house 8, or house 8 is occupied by or aspected by a malefic (PD.06.DusthanaLord.General, v.57). v.65 itself restates the condition ('the lords of the 6th, 8th or 12th... in the 8th house'), confirming the general template for this house directly, not just by inheritance from v.57."
+    },
+    {
+      "id": "PD.06.DusthanaLord.Nirbhagya",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "66",
+        "page_anchor": "phaladeepika/p0079",
+        "tier": 1,
+        "quote": "66. The Nirbhagya Yoga which concerns the 9th house (the house of Bhagya) causes the native to lose all his paternal property such as lands, house etc. He will have no regard for good people and elders and will be irreligious. He will be dressed in old and worn out clothes, will be poor and miserable.",
+        "quote_display": "66. The Nirbhagya Yoga which concerns the 9th house (the house of Bhagya) causes the native to lose all his paternal property such as lands, house etc. He will have no regard for good people and elders and will be irreligious. He will be dressed in old and worn out clothes, will be poor and miserable.",
+        "quote_sha256": "999de4fec0167652081fd74b8778404658907553220f7cb73b7c0899e9ae3cb4",
+        "char_span": [
+          154156,
+          154458
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g6",
+                      "house": 6
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g6",
+                      "house": 9
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g8",
+                      "house": 8
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g8",
+                      "house": 9
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g12",
+                      "house": 12
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g12",
+                      "house": 9
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house": {
+                      "graha": "?m1",
+                      "house": 9
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m1",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "aspects": {
+                      "graha": "?m2",
+                      "target": 9
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m2",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Nirbhagya",
+        "house": 9
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (v.57's general template applied to house 9; house-name mapping taken from v.57's own numbered list, para. 203-204, not assumed)",
+        "verified_date": "2026-08-24"
+      },
+      "kind": "yoga",
+      "note": "Nirbhagya Yoga, house 9: fires when any of the lords of the 6th, 8th or 12th houses is posited in house 9, or house 9 is occupied by or aspected by a malefic (PD.06.DusthanaLord.General, v.57). v.66 states only the effect; the condition is v.57's general template (house 9), not repeated here -- same idiom as the vv.44-56 house-wise family (item 1 states the template in full, items 2-12 say only 'similarly disposed')."
+    },
+    {
+      "id": "PD.06.DusthanaLord.Duryoga",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "67",
+        "page_anchor": "phaladeepika/p0079",
+        "tier": 1,
+        "quote": "67. All the physical efforts will prove fruitless for the person born with Duryoga involving the 10th house. He will be of no importance, a traitor and very\r\n\r\n<!-- page phaladeepika/p0080 -->\r\nselfish only earning to satisfy his own hunger. He will be constantly away from his home and live abroad.",
+        "quote_display": "67. All the physical efforts will prove fruitless for the person born with Duryoga involving the 10th house. He will be of no importance, a traitor and very selfish only earning to satisfy his own hunger. He will be constantly away from his home and live abroad.",
+        "quote_sha256": "7b43e61578b6852f3fef212a6170f308e7733d129cd86675e04b28b35a5924bf",
+        "char_span": [
+          154462,
+          154761
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g6",
+                      "house": 6
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g6",
+                      "house": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g8",
+                      "house": 8
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g8",
+                      "house": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g12",
+                      "house": 12
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g12",
+                      "house": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house": {
+                      "graha": "?m1",
+                      "house": 10
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m1",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "aspects": {
+                      "graha": "?m2",
+                      "target": 10
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m2",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Duryoga",
+        "house": 10
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (v.57's general template applied to house 10; house-name mapping taken from v.57's own numbered list, para. 203-204, not assumed)",
+        "verified_date": "2026-08-24"
+      },
+      "kind": "yoga",
+      "note": "Duryoga Yoga, house 10: fires when any of the lords of the 6th, 8th or 12th houses is posited in house 10, or house 10 is occupied by or aspected by a malefic (PD.06.DusthanaLord.General, v.57). v.67 states only the effect; the condition is v.57's general template (house 10), not repeated here -- same idiom as the vv.44-56 house-wise family (item 1 states the template in full, items 2-12 say only 'similarly disposed'). Shares its printed name with the unrelated weak/strong-lord Duryoga of v.70 (PD.06.Duryoga / PD.06.Duryoga.Reverse) -- a different condition entirely (strength/combustion of 1st/4th/9th/10th vs. 6th/8th/12th lords, not house-10 occupation by a dusthana lord). Named PD.06.DusthanaLord.Duryoga, not PD.06.Duryoga, precisely to keep the two apart, per Rules/deferred.json's own flag on passage:phaladeepika.06.p202."
+    },
+    {
+      "id": "PD.06.DusthanaLord.Daridrya",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "68",
+        "page_anchor": "phaladeepika/p0080",
+        "tier": 1,
+        "quote": "68. The yoga involving the 11th house is known as Daridrya Yoga. Incoming debts constantly will be the way of life for the person with this yoga. He suffers from diseases of the ear. He will be deprived of good brotherhood and will be engaged in cruelly and sins. He will be indecent in speech and work like a menial.",
+        "quote_display": "68. The yoga involving the 11th house is known as Daridrya Yoga. Incoming debts constantly will be the way of life for the person with this yoga. He suffers from diseases of the ear. He will be deprived of good brotherhood and will be engaged in cruelly and sins. He will be indecent in speech and work like a menial.",
+        "quote_sha256": "b9142c5c30880ab5da178d380d818af55785ca7a17615b1c4fe5dc2b9cb63154",
+        "char_span": [
+          154765,
+          155082
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g6",
+                      "house": 6
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g6",
+                      "house": 11
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g8",
+                      "house": 8
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g8",
+                      "house": 11
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g12",
+                      "house": 12
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g12",
+                      "house": 11
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house": {
+                      "graha": "?m1",
+                      "house": 11
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m1",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "aspects": {
+                      "graha": "?m2",
+                      "target": 11
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m2",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Daridrya",
+        "house": 11
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (v.57's general template applied to house 11; house-name mapping taken from v.57's own numbered list, para. 203-204, not assumed)",
+        "verified_date": "2026-08-24"
+      },
+      "kind": "yoga",
+      "note": "Daridrya Yoga, house 11: fires when any of the lords of the 6th, 8th or 12th houses is posited in house 11, or house 11 is occupied by or aspected by a malefic (PD.06.DusthanaLord.General, v.57). v.68 states only the effect (and, unlike most of this family, its own naming clause too -- 'is known as Daridrya Yoga'); the condition is still v.57's general template (house 11), not repeated in v.68 -- same idiom as the vv.44-56 house-wise family (item 1 states the template in full, items 2-12 say only 'similarly disposed'). id and predicts.yoga follow v.68's own spelling, 'Daridrya', since that is this card's own quoted naming sentence; v.57's naming list (para. 203) prints the same yoga 'Daridra Yoga' -- two different printed spellings preserved as printed, same treatment as Subhamala/Asubhamala (Milestone 9)."
+    },
+    {
+      "id": "PD.06.DusthanaLord.Vimala",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "69",
+        "page_anchor": "phaladeepika/p0080",
+        "tier": 1,
+        "quote": "69. The person with his birth in Vlmla Yoga (which concerns the 12th house) will be frugal in his expenses and clever in saving money. He will be equipped with good behaviour towards others, will enjoy happiness, will be independent, will follow a respectable profession or conduct and will be well known for his good qualities.",
+        "quote_display": "69. The person with his birth in Vlmla Yoga (which concerns the 12th house) will be frugal in his expenses and clever in saving money. He will be equipped with good behaviour towards others, will enjoy happiness, will be independent, will follow a respectable profession or conduct and will be well known for his good qualities.",
+        "quote_sha256": "9f848b986d51f9151d68c7d2170ee027b594249d5be171248dc8df3963c6fdd7",
+        "char_span": [
+          155086,
+          155414
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g6",
+                      "house": 6
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g6",
+                      "house": 12
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g8",
+                      "house": 8
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g8",
+                      "house": 12
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g12",
+                      "house": 12
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?g12",
+                      "house": 12
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "in_house": {
+                      "graha": "?m1",
+                      "house": 12
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m1",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "aspects": {
+                      "graha": "?m2",
+                      "target": 12
+                    }
+                  },
+                  {
+                    "nature": {
+                      "graha": "?m2",
+                      "nature": "malefic"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Vimala",
+        "house": 12
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (v.57's general template applied to house 12; house-name mapping taken from v.57's own numbered list, para. 203-204, not assumed)",
+        "verified_date": "2026-08-24"
+      },
+      "kind": "yoga",
+      "note": "Vimala Yoga, house 12: fires when any of the lords of the 6th, 8th or 12th houses is posited in house 12, or house 12 is occupied by or aspected by a malefic (PD.06.DusthanaLord.General, v.57). v.69 states only the effect; the condition is v.57's general template (house 12), not repeated here -- same idiom as the vv.44-56 house-wise family (item 1 states the template in full, items 2-12 say only 'similarly disposed'). Printed 'VimalaYoga' (no space) in v.57's naming list and 'Vlmla Yoga' in its own verse 69 -- an evident scan defect for 'Vimala', transcribed as printed in both places rather than corrected."
+    },
+    {
+      "id": "PD.06.Parashara.SixthLordInSixth",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "57-69 (Notes, (1))",
+        "page_anchor": "phaladeepika/p0080",
+        "tier": 2,
+        "quote": "(1) 6th lord in the 6th - The native will have enmity with the group of his kinsmen but. he will be friendly to others and will enjoy mediocre happiness in matters like wealth.",
+        "quote_display": "(1) 6th lord in the 6th - The native will have enmity with the group of his kinsmen but. he will be friendly to others and will enjoy mediocre happiness in matters like wealth.",
+        "quote_sha256": "b705b883d2e5207855b64a943c51d0c5a8d0874be1224f62c0799ad4450b69da",
+        "char_span": [
+          156635,
+          156811
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 6
+            }
+          },
+          {
+            "in_house": {
+              "graha": "?g",
+              "house": 6
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "SixthLordInSixth",
+        "authority": "Parashara",
+        "house": 6,
+        "polarity": "qualified"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (direct quote of one numbered item in Parashara's breakdown; condition is exactly 'lord of house X in house Y', no strength or other clause stated for this item)",
+        "verified_date": "2026-08-24"
+      },
+      "kind": "yoga",
+      "note": "Parashara's Notes breakdown (reported by the translator), the 6th lord posited in the 6th house. Reported against PD.06.DusthanaLord.Harsha, which claims a uniform good result for ANY of the three dusthana lords (6th, 8th, 12th) landing in house 6; Parashara differentiates by which lord it is, and this specific combination narrows rather than flatly denies Harsha's blanket claim.",
+      "contradicts": [
+        "PD.06.DusthanaLord.Harsha"
+      ]
+    },
+    {
+      "id": "PD.06.Parashara.SixthLordInEighth",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "57-69 (Notes, (2))",
+        "page_anchor": "phaladeepika/p0081",
+        "tier": 2,
+        "quote": "(2) 6th lord in the 8th - The native will be sickly, inimical, will desire others' wealth, be interested in other's wives and be impure (or degraded).",
+        "quote_display": "(2) 6th lord in the 8th - The native will be sickly, inimical, will desire others' wealth, be interested in other's wives and be impure (or degraded).",
+        "quote_sha256": "ca3e4ccdb1cd4d0a1b3dc63557ba31e83db896a10ab43a11486b764bf5ec2ea6",
+        "char_span": [
+          156849,
+          156999
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 6
+            }
+          },
+          {
+            "in_house": {
+              "graha": "?g",
+              "house": 8
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "SixthLordInEighth",
+        "authority": "Parashara",
+        "house": 8
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (direct quote of one numbered item in Parashara's breakdown; condition is exactly 'lord of house X in house Y', no strength or other clause stated for this item)",
+        "verified_date": "2026-08-24"
+      },
+      "kind": "yoga",
+      "note": "Parashara's Notes breakdown (reported by the translator), the 6th lord posited in the 8th house. Reported against PD.06.DusthanaLord.Sarala, which claims a uniform good result for ANY of the three dusthana lords (6th, 8th, 12th) landing in house 8; Parashara differentiates by which lord it is, and this specific combination stands in direct opposition to Sarala's blanket claim.",
+      "contradicts": [
+        "PD.06.DusthanaLord.Sarala"
+      ]
+    },
+    {
+      "id": "PD.06.Parashara.SixthLordInTwelfth",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "57-69 (Notes, (3))",
+        "page_anchor": "phaladeepika/p0081",
+        "tier": 2,
+        "quote": "(3) 6th lord in the 12th - The native will always spend on vices, be hostile to learned people and will torture living beings.",
+        "quote_display": "(3) 6th lord in the 12th - The native will always spend on vices, be hostile to learned people and will torture living beings.",
+        "quote_sha256": "771221559614178c93eb39036636c09f5b86a27bfc0d442307e28629f99fc4bf",
+        "char_span": [
+          157003,
+          157129
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 6
+            }
+          },
+          {
+            "in_house": {
+              "graha": "?g",
+              "house": 12
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "SixthLordInTwelfth",
+        "authority": "Parashara",
+        "house": 12
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (direct quote of one numbered item in Parashara's breakdown; condition is exactly 'lord of house X in house Y', no strength or other clause stated for this item)",
+        "verified_date": "2026-08-24"
+      },
+      "kind": "yoga",
+      "note": "Parashara's Notes breakdown (reported by the translator), the 6th lord posited in the 12th house. Reported against PD.06.DusthanaLord.Vimala, which claims a uniform good result for ANY of the three dusthana lords (6th, 8th, 12th) landing in house 12; Parashara differentiates by which lord it is, and this specific combination stands in direct opposition to Vimala's blanket claim.",
+      "contradicts": [
+        "PD.06.DusthanaLord.Vimala"
+      ]
+    },
+    {
+      "id": "PD.06.Parashara.EighthLordInSixth",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "57-69 (Notes, (4))",
+        "page_anchor": "phaladeepika/p0081",
+        "tier": 2,
+        "quote": "(4) 8th lord in the 6th - The native will win over his enemies, be afflteted by diseases and during childhood, will incure danger through snakes and water.",
+        "quote_display": "(4) 8th lord in the 6th - The native will win over his enemies, be afflteted by diseases and during childhood, will incure danger through snakes and water.",
+        "quote_sha256": "c68aa75951b1ffaf4d280d970bf43729b81791350ff7cfbc83c773ac9cca0c23",
+        "char_span": [
+          157133,
+          157288
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 8
+            }
+          },
+          {
+            "in_house": {
+              "graha": "?g",
+              "house": 6
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "EighthLordInSixth",
+        "authority": "Parashara",
+        "house": 6,
+        "polarity": "qualified"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (direct quote of one numbered item in Parashara's breakdown; condition is exactly 'lord of house X in house Y', no strength or other clause stated for this item)",
+        "verified_date": "2026-08-24"
+      },
+      "kind": "yoga",
+      "note": "Parashara's Notes breakdown (reported by the translator), the 8th lord posited in the 6th house. Reported against PD.06.DusthanaLord.Harsha, which claims a uniform good result for ANY of the three dusthana lords (6th, 8th, 12th) landing in house 6; Parashara differentiates by which lord it is, and this specific combination narrows rather than flatly denies Harsha's blanket claim.",
+      "contradicts": [
+        "PD.06.DusthanaLord.Harsha"
+      ]
+    },
+    {
+      "id": "PD.06.Parashara.EighthLordInEighth",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "57-69 (Notes, (5))",
+        "page_anchor": "phaladeepika/p0081",
+        "tier": 2,
+        "quote": "(5) 8th lord in the 8th - The native will be longlived.",
+        "quote_display": "(5) 8th lord in the 8th - The native will be longlived.",
+        "quote_sha256": "417a3e0230e1b194c83e3e190a13e6ab9ca0434671c23d10739918afe72540c6",
+        "char_span": [
+          157292,
+          157347
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 8
+            }
+          },
+          {
+            "in_house": {
+              "graha": "?g",
+              "house": 8
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Parashara.EighthLordInEighth",
+        "authority": "Parashara",
+        "house": 8
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (direct quote, condition matches '8th lord... in the 8th house' exactly, no strength clause since none is stated for this sentence)",
+        "verified_date": "2026-08-24"
+      },
+      "kind": "yoga",
+      "note": "Parashara's Notes breakdown (via the translator), item (5) of 9: the 8th lord posited in the 8th house -- 'the native will be longlived.' Agrees in direction with PD.06.DusthanaLord.Sarala's blanket 'longlived, resolute, fearless, prosperous...' for the same placement (this is one of Parashara's three 8th-house combinations feeding Sarala; see PD.06.Parashara.SixthLordInEighth and .TwelfthLordInEighth for the other two, which do not agree). The verse's own next sentence narrows this further for a weak graha -- see PD.06.Parashara.EighthLordInEighth.Weak, linked as a qualification of this card rather than folded into it, since the base sentence is unconditional on strength and the second sentence is not.",
+      "parallel_of": [
+        "PD.06.DusthanaLord.Sarala"
+      ]
+    },
+    {
+      "id": "PD.06.Parashara.EighthLordInEighth.Weak",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "57-69 (Notes, (5))",
+        "page_anchor": "phaladeepika/p0081",
+        "tier": 2,
+        "quote": "If the said planet be weak being in the 8th the native's longevity will be medium, he will be a thief, be blameworthy and will blame others as well.",
+        "quote_display": "If the said planet be weak being in the 8th the native's longevity will be medium, he will be a thief, be blameworthy and will blame others as well.",
+        "quote_sha256": "e139698f7dad70528870838a4e6c6d7d0bbd5f66bc854a82ef526fa8eb47e3b6",
+        "char_span": [
+          157348,
+          157496
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 8
+            }
+          },
+          {
+            "in_house": {
+              "graha": "?g",
+              "house": 8
+            }
+          },
+          {
+            "strength": {
+              "graha": "?g",
+              "strength": "weak"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Parashara.EighthLordInEighth.Weak",
+        "authority": "Parashara",
+        "house": 8,
+        "polarity": "qualified"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (second sentence of the paragraph, conditional on strength, encoded separately from the unconditional first sentence)",
+        "verified_date": "2026-08-24"
+      },
+      "kind": "yoga",
+      "note": "Parashara's own qualification of PD.06.Parashara.EighthLordInEighth: when the 8th lord placed in the 8th is specifically weak (ch.4 vv.4-5's strength verdict, dep.strength, Milestone 22), the outcome narrows from plain longevity to 'medium longevity... a thief, blameworthy'. Genuinely conditional in the source ('If the said planet be weak'), not a restatement -- encoded as its own card sharing the base card's lord/house leaves plus the added strength test, per the same pattern as PD.06.Duryoga's strength-gated conditions (Milestone 24). Contradicts PD.06.DusthanaLord.Sarala's blanket 'excellent results' only in degree, not in kind, so linked as a qualification (polarity: qualified), not a flat contradiction.",
+      "contradicts": [
+        "PD.06.DusthanaLord.Sarala"
+      ]
+    },
+    {
+      "id": "PD.06.Parashara.EighthLordInTwelfth",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "57-69 (Notes, (6))",
+        "page_anchor": "phaladeepika/p0081",
+        "tier": 2,
+        "quote": "(6) 8th lord in the 12th - The native will spend on evil deeds and will have a short life. More so, if there be additionally a malefic in the said house.",
+        "quote_display": "(6) 8th lord in the 12th - The native will spend on evil deeds and will have a short life. More so, if there be additionally a malefic in the said house.",
+        "quote_sha256": "f13568d7b93723ff3b6982bc94ec9e9125d3cf79fde0cec0b0a65e89db660000",
+        "char_span": [
+          157500,
+          157653
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 8
+            }
+          },
+          {
+            "in_house": {
+              "graha": "?g",
+              "house": 12
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "EighthLordInTwelfth",
+        "authority": "Parashara",
+        "house": 12
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (direct quote of one numbered item in Parashara's breakdown; condition is exactly 'lord of house X in house Y', no strength or other clause stated for this item)",
+        "verified_date": "2026-08-24"
+      },
+      "kind": "yoga",
+      "note": "Parashara's Notes breakdown (reported by the translator), the 8th lord posited in the 12th house. Reported against PD.06.DusthanaLord.Vimala, which claims a uniform good result for ANY of the three dusthana lords (6th, 8th, 12th) landing in house 12; Parashara differentiates by which lord it is, and this specific combination stands in direct opposition to Vimala's blanket claim. The paragraph's own closing clause -- 'More so, if there be additionally a malefic in the said house' -- states a further intensification when a second, distinct graha (not this lord itself) also occupies house 12. Quoted here as printed but not independently conditioned: the condition language has no distinct-from-?g quantifier, and a naive in_house(?m,12) test could bind ?m to the same lord already required to be there, asserting the intensifier on a chart the sentence does not describe. Not a missing predicate so much as a missing quantifier constraint; left undeferred as engine architecture since a single clause does not justify inventing one (matches the project's standing rule against speculative capability).",
+      "contradicts": [
+        "PD.06.DusthanaLord.Vimala"
+      ]
+    },
+    {
+      "id": "PD.06.Parashara.TwelfthLordInSixth",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "57-69 (Notes, (7))",
+        "page_anchor": "phaladeepika/p0081",
+        "tier": 2,
+        "quote": "(7) 12th lord in the 6th - The native will incur enmity with his own men, be given to anger, be sinful and, miserable.",
+        "quote_display": "(7) 12th lord in the 6th - The native will incur enmity with his own men, be given to anger, be sinful and, miserable.",
+        "quote_sha256": "dd06d84a32ef9b92d63c059482c3572af23af0d1a395aa48a60101e0b0bc0a80",
+        "char_span": [
+          157657,
+          157775
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 12
+            }
+          },
+          {
+            "in_house": {
+              "graha": "?g",
+              "house": 6
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "TwelfthLordInSixth",
+        "authority": "Parashara",
+        "house": 6
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (direct quote of one numbered item in Parashara's breakdown; condition is exactly 'lord of house X in house Y', no strength or other clause stated for this item)",
+        "verified_date": "2026-08-24"
+      },
+      "kind": "yoga",
+      "note": "Parashara's Notes breakdown (reported by the translator), the 12th lord posited in the 6th house. Reported against PD.06.DusthanaLord.Harsha, which claims a uniform good result for ANY of the three dusthana lords (6th, 8th, 12th) landing in house 6; Parashara differentiates by which lord it is, and this specific combination stands in direct opposition to Harsha's blanket claim.",
+      "contradicts": [
+        "PD.06.DusthanaLord.Harsha"
+      ]
+    },
+    {
+      "id": "PD.06.Parashara.TwelfthLordInEighth",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "57-69 (Notes, (8))",
+        "page_anchor": "phaladeepika/p0081",
+        "tier": 2,
+        "quote": "(8) 12th lord in 8th - The native will always gain, will speak affably, will enjoy a medium span of life and be endowed with qualities.",
+        "quote_display": "(8) 12th lord in 8th - The native will always gain, will speak affably, will enjoy a medium span of life and be endowed with qualities.",
+        "quote_sha256": "4d9fcdc6373c4e878ddeec62375e90ebe7e88da51b75dd4080e04e0c3d36fc26",
+        "char_span": [
+          157779,
+          157914
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 12
+            }
+          },
+          {
+            "in_house": {
+              "graha": "?g",
+              "house": 8
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Parashara.TwelfthLordInEighth",
+        "authority": "Parashara",
+        "house": 8
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (direct quote; classified as parallel per para. 228's own editorial confirmation that this is Parashara's one good case)",
+        "verified_date": "2026-08-24"
+      },
+      "kind": "yoga",
+      "note": "Parashara's Notes breakdown, item (8) of 9: the 12th lord posited in the 8th house -- 'the native will always gain, will speak affably, will enjoy a medium span of life and be endowed with qualities.' The one combination among all nine that Parashara himself rates good -- para. 228's own closing sentence says so explicitly ('only the 12th lord in the 8th produces some good effects'). Agrees in direction with PD.06.DusthanaLord.Sarala's blanket positive claim for the 8th-house yoga, linked as a genuine parallel authority rather than a contradiction, though the specifics differ in degree (a 'medium span of life' against Sarala's 'longlived').",
+      "parallel_of": [
+        "PD.06.DusthanaLord.Sarala"
+      ]
+    },
+    {
+      "id": "PD.06.Parashara.TwelfthLordInTwelfth",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "57-69 (Notes, (9))",
+        "page_anchor": "phaladeepika/p0081",
+        "tier": 2,
+        "quote": "(9) 12th lord in the 12th - The native will face heavy expenditure, and will not have physical felicity, be irritable and spiteful. It will be seen from the above that according to Parasara the lords of the 6th, 8th and 12th are not good enough even when they occupy their own houses. According to him only the 12th lord in the 8th produces some good effects.",
+        "quote_display": "(9) 12th lord in the 12th - The native will face heavy expenditure, and will not have physical felicity, be irritable and spiteful. It will be seen from the above that according to Parasara the lords of the 6th, 8th and 12th are not good enough even when they occupy their own houses. According to him only the 12th lord in the 8th produces some good effects.",
+        "quote_sha256": "140a1202b062702ac8f4853c8f331e000869de0a62fb177fa035a45e6a495331",
+        "char_span": [
+          157918,
+          158277
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 12
+            }
+          },
+          {
+            "in_house": {
+              "graha": "?g",
+              "house": 12
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "TwelfthLordInTwelfth",
+        "authority": "Parashara",
+        "house": 12
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (direct quote of one numbered item in Parashara's breakdown; condition is exactly 'lord of house X in house Y', no strength or other clause stated for this item)",
+        "verified_date": "2026-08-24"
+      },
+      "kind": "yoga",
+      "note": "Parashara's Notes breakdown (reported by the translator), the 12th lord posited in the 12th house. Reported against PD.06.DusthanaLord.Vimala, which claims a uniform good result for ANY of the three dusthana lords (6th, 8th, 12th) landing in house 12; Parashara differentiates by which lord it is, and this specific combination stands in direct opposition to Vimala's blanket claim.",
+      "contradicts": [
+        "PD.06.DusthanaLord.Vimala"
+      ]
     }
   ]
 }

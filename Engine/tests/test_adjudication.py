@@ -466,9 +466,14 @@ def test_only_genuine_disagreements_are_handed_to_synthesis(demo, collision):
     in conflict) or an `applied` override (the source settled it), or Part 3
     would start reporting agreement as contest.
     """
-    # Every relationship on the demo chart is a parallel authority, and none of
-    # them is a contest.
-    assert {a.relationship for a in demo.adjudications} == {PARALLEL_AUTHORITY}
+    # Milestone 25: the demo chart's Sarala claim now also links to three
+    # Parashara cards (contradiction, qualification, parallel_authority), none
+    # of which fire on this particular chart -- so every relationship here is
+    # `recorded`, not `unresolved`, and none of them is a contest either.
+    assert {a.relationship for a in demo.adjudications} == {
+        PARALLEL_AUTHORITY, CONTRADICTION, QUALIFICATION,
+    }
+    assert all(a.resolution == RECORDED for a in demo.adjudications)
     assert contested_claim_pairs(demo.adjudications) == frozenset()
     # The collision is unresolved, but both its parties are reference cards
     # with no claims -- so it contributes no claim pair either, and Part 3 is
@@ -525,13 +530,16 @@ def test_links_are_read_undirected(cards):
 
 # --- what the corpus does and does not contain ------------------------------
 
-def test_the_only_claim_to_claim_contradiction_is_the_exaltation_dispute(cards):
+def test_the_claim_to_claim_contradictions_are_catalogued(cards):
     """A finding recorded as a test, so a future encoding pass notices.
 
-    Every other `contradicts` link in the store has at least one side that
-    never becomes a claim, which is why this milestone builds no machinery for
-    weighing rival predictions: the corpus contains exactly one pair that could
-    need it, and the source does not settle that pair either.
+    Every `contradicts` link in the store used to have at least one side that
+    never becomes a claim, except the single pair below -- which is why
+    Milestone 23 built no machinery for weighing rival predictions. Milestone
+    25 adds a second real cluster (chapter 6's Harsha/Sarala/Vimala vs.
+    Parashara's nine-combination breakdown), still with no such machinery
+    built: the source does not settle these either, so both sides simply
+    stand, exactly as `Engine/adjudicate.py` already handles.
     """
     by_id = {c.id: c for c in cards}
     pairs = []
@@ -542,7 +550,17 @@ def test_the_only_claim_to_claim_contradiction_is_the_exaltation_dispute(cards):
                 continue
             if by_id[a].activation == "active" and by_id[b].activation == "active":
                 pairs.append((a, b))
-    assert pairs == [("PD.09.Dignity.Exalted", "PD.09.Dignity.Exalted.Notes")]
+    assert sorted(pairs) == sorted([
+        ("PD.09.Dignity.Exalted", "PD.09.Dignity.Exalted.Notes"),
+        ("PD.06.DusthanaLord.Harsha", "PD.06.Parashara.SixthLordInSixth"),
+        ("PD.06.DusthanaLord.Harsha", "PD.06.Parashara.EighthLordInSixth"),
+        ("PD.06.DusthanaLord.Harsha", "PD.06.Parashara.TwelfthLordInSixth"),
+        ("PD.06.DusthanaLord.Sarala", "PD.06.Parashara.SixthLordInEighth"),
+        ("PD.06.DusthanaLord.Sarala", "PD.06.Parashara.EighthLordInEighth.Weak"),
+        ("PD.06.DusthanaLord.Vimala", "PD.06.Parashara.SixthLordInTwelfth"),
+        ("PD.06.DusthanaLord.Vimala", "PD.06.Parashara.EighthLordInTwelfth"),
+        ("PD.06.DusthanaLord.Vimala", "PD.06.Parashara.TwelfthLordInTwelfth"),
+    ])
 
 
 def test_the_sakata_cancellation_needs_no_stage_seven_mechanism(cards):

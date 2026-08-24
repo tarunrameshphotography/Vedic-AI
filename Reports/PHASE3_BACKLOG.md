@@ -8,12 +8,12 @@ Nothing may be silently deferred. Inert cards are read out of the store, deferre
 |---|---|
 | Backlog entries | **138** |
 | — of kind `card` | 17 |
-| — of kind `passage` | 46 |
+| — of kind `passage` | 45 |
 | — of kind `chapter` | 48 |
 | — of kind `concept` | 24 |
-| Resolved | 3 |
-| Cards in store | 504 |
-| Firing | 487 |
+| Resolved | 4 |
+| Cards in store | 527 |
+| Firing | 510 |
 | Inert | 17 |
 
 ## Dependencies
@@ -22,7 +22,7 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 
 | Dependency | Kind | Implemented | Entries blocked | Cards blocked | Phase |
 |---|---|---|---|---|---|
-| `dep.none` — no dependency -- simply not yet done | process | yes | 75 | 0 | 3 (knowledge) |
+| `dep.none` — no dependency -- simply not yet done | process | yes | 74 | 0 | 3 (knowledge) |
 | `dep.adjudication` — Stage 7 adjudication | engine | no | 12 | 1 | 4 (integration) |
 | `dep.manual-verification` — human verification of the encoding | process | no | 9 | 2 | 3 (knowledge) |
 | `dep.condition-variables` — variables in the condition language | schema | yes | 6 | 6 | 4 (integration) |
@@ -86,7 +86,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 
 ## Available now
 
-75 entr(y/ies) are deferred by ordering alone — nothing blocks them. This is the Phase 3 work queue.
+74 entr(y/ies) are deferred by ordering alone — nothing blocks them. This is the Phase 3 work queue.
 
 ## Entries
 
@@ -184,7 +184,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `passage:phaladeepika.06.p159` | phaladeepika | 6 | printed p.73 | Shri Morarji Desai's horoscope illustrating a second instance of Parvata Yoga | Tier-3 apparatus: a worked example, not a rule. Recorded as deliberately excluded, not pending. | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.06.p168` | phaladeepika | 6 | vv. 39-41 (p.73-74) | the seven planets-in-N-signs family (Vallaki/Veena, Dharma, Hasha, Kendra, Shula, Yuga, Gola) | Not yet encoded. This family needs one new engine fact -- a count of how many distinct signs the seven classical grahas (excluding the nodes) occupy between … | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.06.p175` | phaladeepika | 6 | vv. 42-43 (p.74-75) | Adhiyoga | Not yet encoded; deferred by ordering. A Notes aside attributed to "Shruti Kirti ... according to Vyas" disputes how strictly the three yoga-forming grahas m… | `dep.none` | 3 (knowledge) | deferred |
-| `passage:phaladeepika.06.p202` | phaladeepika | 6 | vv. 57-69 (p.78-82) | Twelve yogas keyed to the 6th/8th/12th lords occupying a dusthana (Ava, Nisswa, Mriti, Kuhu, Pamara, Harsha, Dushkriti, Sarala, Nirbhagya, Duryoga [10th house], Daridrya, Vimala) | Not yet encoded; deferred by ordering. The richest single contradiction in the chapter: Mantreswara calls Harsha/Sarala/Vimala auspicious, Parashara's own ni… | `dep.none` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.06.p202` | phaladeepika | 6 | vv. 57-69 (p.78-82) | Twelve yogas keyed to the 6th/8th/12th lords occupying a dusthana (Ava, Nisswa, Mriti, Kuhu, Pamara, Harsha, Dushkriti, Sarala, Nirbhagya, Duryoga [10th house], Daridrya, Vimala) | RESOLVED (Milestone 25). Encoded as PD.06.DusthanaLord.General (reference, v.57's governing condition and the twelve-name list) plus twelve firing cards, PD.… | `dep.none` | 3 (knowledge) | resolved |
 | `passage:phaladeepika.06.p233` | phaladeepika | 6 | v. 70 (printed p.82) | A second, unrelated Duryoga (weak/strong 6th-8th-12th vs. 1st-4th-9th-10th lord test), distinct from the 10th-house 'Duryoga' in the still-unencoded vv.57-69 dusthana-lord cluster (passage:phaladeepika.06.p202) | RESOLVED (Milestone 24). Encoded as PD.06.Duryoga (the named configuration: 6th/8th/12th lords strong, in kendra or trikona; 1st/4th/9th/10th lords weak or c… | `dep.none` | 3 (knowledge) | resolved |
 | `passage:phaladeepika.08.p012` | phaladeepika | 8 | v. 8 Notes (p.93) | the translator's qualification of the Sun in the 10th: the good effects hold only for eight of the twelve lagnas | Tier-2 commentary that narrows a tier-1 card already in the store (PD.08.Sun.10). It is an exclusion on an existing rule, and the card schema records exclusi… | `dep.lord-of-house`, `dep.adjudication` | 4 (integration) | deferred |
 | `passage:phaladeepika.08.p037` | phaladeepika | 8 | v. 15 Note (p.96) | Manglik Dosha: Mars in the 7th, its effect by sex of the native, and the belief that it cancels when both partners are Manglik | Substantial tier-2 doctrine, deferred rather than skipped. It is scoped by the native's sex, states a cancellation rule the engine cannot express, and reads … | `dep.native-sex`, `dep.second-nativity`, `dep.adjudication` | 4 (integration) | deferred |

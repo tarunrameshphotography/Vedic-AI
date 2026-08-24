@@ -6,70 +6,75 @@ applied to a quantity that was actually computed. Governing rule: *the system ma
 and it may quote — it may not invent.*
 
 **Current production-readiness: 59%** (see §A for the weighted breakdown; was 58.80% ≈ 59%
-after Milestone 23, and stays 59% here — see Milestone 24's own note on why its real work does
-not clear the bar to move a category score under this file's own conservative recomputation
-discipline). Card count moved slightly — 501 → 504 — from an encoding pass, not a chapter
-completion.
+after Milestone 23, held at 59% through Milestone 24, and moves to 59.00% here — a genuine,
+if small, recomputed increase: see Milestone 25's own note). Card count moved — 504 → 527 —
+from a real encoding pass closing most of chapter 6's remaining material, not a rewording.
 
-**Current phase:** Phase 4 (Knowledge Integration) is properly under way; Milestone 24 is
-ordinary Phase 3 encoding that happened to depend on Phase 4's neighbour, Phase 2's Stage 4.
-Stage 7's *representation* half is built; its *weighting* half is deliberately not, and is not
-scheduled.
+**Current phase:** Phase 4 (Knowledge Integration) is properly under way; Phase 3 (Milestone 25)
+closed the chapter's richest remaining contradiction using Phase 4's existing adjudication
+mechanism (Milestone 23), not a new one. Stage 7's *representation* half is built; its
+*weighting* half is deliberately not, and is not scheduled.
 
-**Current milestone:** Milestone 24 — **the blanket strength condition on chapter 6's Pancha
-Mahapurusha Yogas, and the second Duryoga**: `passage:phaladeepika.06.p009` and
-`passage:phaladeepika.06.p233`. Ch.4's `dep.strength` (Milestone 22) is used, for the first
-time, to gate encoding rather than an engine stage — v.9's "vested with strength ... not
-conjunct a malefic" clause is added to `PD.06.Ruchaka/.Bhadra/.Hamsa/.Malavya/.Sasa`, and v.70's
-second Duryoga is encoded as two new cards. The milestone's sharpest finding is a real,
-evidenced narrowing: the golden/demo chart's Ruchaka claim, firing since Milestone 7, is now
-correctly withheld, because Mars there is merely own-sign and ch.4 vv.4-5 do not call own-sign
-alone "strong". A second finding, arguably more interesting: one of the two new Duryoga cards
-(`PD.06.Duryoga`, the verse's own named configuration) could not be shown firing on *any* chart,
-real or constructed, and the reason is now documented rather than left to be rediscovered — see
-the card's own note and `Engine/tests/test_chapter_six_strength.py`.
+**Current milestone:** Milestone 25 — **chapter 6's twelve dusthana-lord yogas (vv.57-69) and
+Stage 7's second genuine contradiction cluster**: `passage:phaladeepika.06.p202`. One reference
+card (`PD.06.DusthanaLord.General`, v.57's governing template) plus twelve firing cards, one per
+house, encode the chapter's remaining house-wise yoga family. Parashara's own nine-combination
+breakdown of the same dusthana-lord-in-dusthana sub-case (quoted by the translator at pp.80-81)
+is encoded as ten further cards, linked to `PD.06.DusthanaLord.Harsha/.Sarala/.Vimala` by
+`contradicts` or `parallel_of` per a plain reading of each combination's own valence — not forced
+uniformly to contradiction. This gives Stage 7 adjudication a second real claim-to-claim
+contradiction cluster, where before there was exactly one (`PD.09.Dignity.Exalted` vs. its own
+Notes, Milestone 23): nine new active-active `contradicts` pairs, all exercised on real charts
+(a ~4,500-nativity sweep found genuine chart-dependent contradiction, qualification and
+parallel-authority relationships together on 63.7% of scanned charts). No engine change: every
+condition uses predicates that already existed.
 
 **Exact resume point:** `git fetch --all --prune`, confirm `main` == `origin/main`, then pick up
-§D. There is still **no open P0**. §D's recommended next milestone is
-`passage:phaladeepika.06.p202` — vv.57-69, the twelve dusthana-lord yogas and the chapter's
-richest contradiction (Mantreswara vs. Parashara) — continuing chapter 6 in the natural reading
-order and giving Stage 7 adjudication a second genuine claim-to-claim contradiction to read.
+§D. There is still **no open P0**. §D's recommended next milestone is chapter 6's two remaining
+small passages, `passage:phaladeepika.06.p168` (vv.39-41) and `passage:phaladeepika.06.p175`
+(vv.42-43, Adhiyoga) — after which chapter 6's testable doctrine is complete.
 **Five decisions are owed by a human**, none blocking that: `concept:moon-nature-criterion`
 (Milestone 20), `concept:strength-criterion-scope` (Milestone 21),
 `concept:retrograde-combust-collision` (Milestone 22), `concept:parallel-of-overloaded`
-(Milestone 23), and `concept:p009-lagna-or-moon-clause` (new — see §D) — the disjunctive
-"Lagna or Moon" half of v.9 that this milestone deliberately left unencoded because the Lagna
-carries no strength verdict anywhere in this store.
+(Milestone 23), and `concept:p009-lagna-or-moon-clause` (Milestone 24) — none touched by
+Milestone 25.
 
-**Current Git SHA:** `a5575d1c232f2db27ea4c4d2395b09a2349d0505` (parent — this milestone's own
+**Current Git SHA:** `b973d8c2a061a36cb0bfda8a0c171886889de85d` (parent — this milestone's own
 commit follows this file's checkpoint)
 **Last verified remote SHA (origin/main):** same before this milestone's commit — 0 ahead /
 0 behind, working tree clean
 **Last update date:** 2026-08-24
 
-**Current test count:** 341 passing (`Engine/tests`) — was 334. Seven new: one renamed/rewritten
-and one new sibling in `Engine/tests/test_slice.py` (the golden chart's Ruchaka claim now
-withheld, and a constructed positive control showing it returns once Mars is genuinely
-exalted); a new `mahapurusha` fixture in `Engine/tests/test_adjudication.py` (the demo chart no
-longer exercises the `parallel_of` link to Jataka Parijata's corroboration, since Ruchaka no
-longer fires there); and six in the new `Engine/tests/test_chapter_six_strength.py` — scope
-(only the five Mahapurusha cards carry the new clauses; an unrelated graha's strength does not
-affect Ruchaka), the retrograde-combust collision reproduced for a Mahapurusha card specifically,
-`PD.06.Duryoga.Reverse` firing on a constructed chart, and `PD.06.Duryoga`'s structural
-unfireability confirmed by comparing its condition tree against its mirror's.
-**Current rule-card counts:** **504 total** · 487 executable (firing) · **17 inert** — inert
-count unchanged; +3 firing/reference (`PD.06.PanchaMahapurusha.StrengthCondition`, reference;
-`PD.06.Duryoga`, `PD.06.Duryoga.Reverse`, both active). Five existing cards
-(`PD.06.Ruchaka/.Bhadra/.Hamsa/.Malavya/.Sasa`) had their `conditions` rewritten, not replaced —
-the dignity+kendra naming clause is untouched, two clauses were added.
-**Current verification:** **501/504 cards signed off (99.4%)** — same three standing holdouts
-(`PD.01.Kalapurusha.Strength`, `PD.10.Venus.VargaMarsSaturn`, `PD.04.Lagna.TripedSign`); every
-other new or rewritten card this milestone touched was signed by hand
-(`tarunrameshphotography + Claude`), including the three new cards and the five rewritten ones,
-because rewriting a condition — or authoring a reference card whose note carries a real scope
-judgment — is an interpretive act and an inherited or automated sign-off would have been false.
+**Current test count:** 351 passing (`Engine/tests`) — was 341. Ten new in
+`Engine/tests/test_chapter_six_dusthana_lord.py`: the twelve-card catalogue against v.57's own
+naming list, the house-10 naming-collision distinctness check, the Parashara relationship-type
+catalogue (contradicts plain / contradicts qualified / parallel_of), the conditional weak-graha
+split, and three real-chart tests (one scanned contradiction, one scanned chart exercising both
+the parallel and the qualification relationship together, and the demo chart as the negative
+control — all `recorded`, none `unresolved`, matching `test_slice.py`'s own accounting). Four
+existing tests updated for the demo chart's changed claim count and relationship set (40 → 59
+claims; the "only one claim-to-claim contradiction" test now catalogues nine, not one) and
+`PD.06.Astra.H06.Notes`'s resolved forward reference.
+**Current rule-card counts:** **527 total** · 510 executable (firing) · **17 inert** — inert
+count unchanged; +23 firing/reference: `PD.06.DusthanaLord.General` (reference) plus twelve
+`PD.06.DusthanaLord.<Name>` and ten `PD.06.Parashara.<Lord>In<House>` cards, all active. One
+existing card, `PD.06.Astra.H06.Notes`, had its note and `parallel_of` link updated to resolve a
+forward reference it had carried since Milestone 8, not rewritten in substance.
+**Current verification:** **524/527 cards signed off (99.4%)** — same three standing holdouts
+(`PD.01.Kalapurusha.Strength`, `PD.10.Venus.VargaMarsSaturn`, `PD.04.Lagna.TripedSign`); all
+twenty-three new cards were signed by hand (`tarunrameshphotography + Claude`), because encoding
+which relationship type each Parashara combination carries — contradiction, qualification or
+parallel authority — is an interpretive judgement, not a structural check `verify.py` alone
+could stand in for.
 
-**Backlog (Milestone 24):** 138 entries (was 136). `passage:phaladeepika.06.p009` and
+**Backlog (Milestone 25):** 138 entries (was 138 — unchanged in count, one status flip).
+`passage:phaladeepika.06.p202` moves to `resolved`. No new entries and no new dependencies: every
+condition uses predicates (`lord_of_house`, `in_house`, `aspects`, `nature`, `strength`) already
+in the vocabulary, so nothing was catalogued as newly blocked or newly released beyond the one
+resolution itself. "Available now" drops 75 → 74 for the same reason — p202 stops being counted
+there once resolved.
+
+**Original Milestone 24 note on the backlog:** 138 entries (was 136). `passage:phaladeepika.06.p009` and
 `passage:phaladeepika.06.p233` move to `resolved`. Two new entries: `concept:p009-lagna-or-moon-clause`
 (the tracked remainder of v.9) and `passage:phaladeepika.06.colophon` (split out of p233 so its
 resolution reflects only the doctrine it actually gained, matching `passage:phaladeepika.04.colophon`'s
@@ -121,7 +126,7 @@ own warning that a system can have many cards while lacking reasoning capability
 |---|---:|---:|---|
 | Corpus completeness | 15% | 25% | 2 of 6 planned books converted and frozen (Brihat Jataka, Phaladeepika); 4 pending (BPHS, Jataka Parijata, Uttara Kalamrita, Saravali) behind a deliberate freeze. |
 | Source verification | 10% | 77% | Corpus pipeline verified byte-exact with hallucination detection, verse reconciliation, figure transcription for the 2 converted books. **The Devanagari glyph-level spot-check owed on Brihat Jataka has now begun** (Milestone 20): ch. 2 v. 5's closing line was compared glyph by glyph against the rendered page and 2 OCR defects found and recorded (`व`→`र`, `सु`→`स`), neither affecting any encoded card. One line is not a spot-check pass, but it is the first evidence about the real error rate rather than an estimate. |
-| Rule extraction/encoding | 20% | 42% | Phaladeepika chapters 1, 2, **4**, 8, 9, 10 encoded and 6 partially (through v.9 and v.70 of ~70, Milestone 24); 502 Phaladeepika cards (+2 Brihat Jataka = 504 in the store) from an estimated ~1,535 total across all 28 Phaladeepika chapters at the measured 0.65 cards/paragraph rate — and that is one book of six. Chapter 4 alone contributed 94, and it is the densest chapter encoded so far: 163 paragraphs of computational doctrine, almost all of it `reference` rather than firing. **Milestone 24 added 3 cards (1 reference, 2 firing) and rewrote 5 existing ones' conditions** — held at 42%, not moved: three cards against an estimated ~1,535-card total is below what this table's own rounding can register, and no new chapter was completed (chapter 6 remains partial). |
+| Rule extraction/encoding | 20% | 43% | Phaladeepika chapters 1, 2, **4**, 8, 9, 10 encoded and 6 nearly complete (through v.9, v.57-69 and v.70 of ~70, Milestone 25 — only vv.39-43 remain unencoded); 525 Phaladeepika cards (+2 Brihat Jataka = 527 in the store) from an estimated ~1,535 total across all 28 Phaladeepika chapters at the measured 0.67 cards/paragraph rate — and that is one book of six. Chapter 4 alone contributed 94, still the densest chapter encoded so far. **Milestone 25 added 23 cards** (one reference, twenty-two firing) closing the chapter's twelve-yoga dusthana-lord cluster and its Parashara counter-doctrine — **42%→43%**: 23 cards is roughly 1.5% of the ~1,535-card estimate, small but not below this table's own rounding the way Milestone 24's 3 cards were, and it is the first time in several milestones a chapter has moved from "partial" to "essentially complete." **Milestone 24 added 3 cards (1 reference, 2 firing) and rewrote 5 existing ones' conditions** — held at 42% then: three cards against the same estimate is below what rounding can register. |
 | Reasoning engine capability | 15% | 65% | Stages 0, 1, 2, **4**, 6, **7 (reading half)**, 9, 10 implemented; Stages 3 and 5 (yogas/houses as first-class computation) not built as dedicated stages; **Stage 7's weighting half deliberately does not exist and is not scheduled**; no varga, dasa, transit or ashtakavarga calculators, and no *numeric* strength calculator — the source withholds the arithmetic one would need (`dep.shadbala-arithmetic`). **Raised 60→65 in Milestone 23: Stage 7's representation half exists** — every relationship the store declares between two cards is read, typed and reported with both sides quoted, and an `unresolved` outcome is a finished answer rather than a placeholder. Not higher, because the half that would let the engine *choose* between two source-backed claims is absent by design: no encoded source supplies a rule for choosing, and the only precedence applied anywhere in the engine is the one verse 4 states in its own sentence. **Previously raised 52→60 in Milestone 22: Stage 4 exists and P0-1 is closed** — every chart now produces graha strength verdicts, read from chapter 4's own cards, and the largest "born inert" tax on every future chapter is paid. Not higher, for three reasons that are the source's and not the schedule's: it is graha strength only (no Bhava Bala — the components are withheld), it is a binary verdict and not an order (no `strongest`), and Stage 3 (yogas) and Stage 5 (houses) are still not dedicated stages. **Previously raised 45→52 in Milestone 20**, the first increase from real capability rather than bookkeeping: P0-2 is closed (all 9 grahas now carry a `nature` fact, so the 22 benefic-conditioned cards can fire), and the first piece of Stage 7 exists — per-graha authority attribution and cross-book corroboration in `_resolve_nature`. Still 52 and not higher because Stage 7's *hard* half — adjudicating authorities that actually disagree — remains unbuilt and deliberately so (§K, P1-3). |
 | Contradiction handling | 10% | 82% | Competing authorities are preserved via `contradicts`/`extends` links and dual cards (e.g. PD.01 rising-sign dispute, PD.09 dignity dispute) — the mechanism works and is used repeatedly, but Stage 7 adjudication (weighing contradictions against each other) does not exist yet. **71→82 in Milestone 23**, the largest single move this category has had, and it is a *reading* gain rather than a mechanism gain: the `contradicts`/`extends`/`parallel_of` links were being written faithfully into the store and read by nothing, so no consultation had ever surfaced one. All four relationship types now reach the reader with card id, book, chapter, verse, printed page and both sides' own words. It also repaired a live defect — on 83% of 720 scanned charts Part 3 was printing a verse and its own translator's refutation as *agreeing*, under a heading reading "Terms that recur without contradiction". Not higher for two stated reasons: the engine still cannot choose where the source does not, and `parallel_of` cannot distinguish agreement from a variant reading (`concept:parallel-of-overloaded`), so cross-book *corroboration* of a yoga still cannot be claimed. **68→71 in Milestone 22:** the first *chart-dependent* refusal. A graha that is both retrograde and combust is called strong by ch. 4 v. 5 and weak by v. 4, and the extractor emits no verdict for it, reports the collision by name in the consultation's own "doctrine read, but not complete" section, and lets every rule about its strength correctly not fire. Earlier contradiction handling was static — two cards linked at encoding time; this one only exists on charts that satisfy both. |
 | Provenance/auditability | 10% | 98% | Every card is byte-exact hash-verified against the corpus on every run; `verify.py` enforces this as a build gate. `extraction.verified_by` now covers **501/504 cards (99.4%**, was 4/404) via `Rules/tools/review.py`: 271 structural cards signed off automatically (no interpretive layer to review — the byte-exact check already is the complete verification), 230 signed off by an actual human(+Claude) reading pass across chapters 1, 2, 4, 6, 8, 9 and 10 — including 33 of chapter 4's and, as of Milestone 24, the three new and five rewritten chapter 6 cards, re-signed by hand because their encoding involved a real judgement. The interpretive queue is closed; the 3 unsigned cards are deliberate, documented defect holdouts, not unreviewed cards. Not 100% because those three defects are real and still open. **97→98 in Milestone 23:** every adjudication carries the full provenance of both parties and is re-checked by Stage 9 (`verify_adjudications`), so a conclusion *about* sources can be walked back to them the way a claim can; and a relationship link naming a card that does not exist now fails the build, because a link the engine reads is a link whose typo silently costs a reported contradiction. |
@@ -131,28 +136,37 @@ own warning that a system can have many cards while lacking reasoning capability
 | Production safety/reliability | 1% | 50% | Groundedness verification (Stage 9) refuses to emit ungrounded output; no rate limiting, error-recovery, or production deployment hardening attempted (not yet in scope). |
 | CLI/API/user-facing readiness | 1% | 40% | Working CLI (`Engine/cli.py`) produces real consultations; no API, no UI, no packaging. |
 
-**Overall Production Readiness: 0.15×25 + 0.10×77 + 0.20×42 + 0.15×65 + 0.10×82 + 0.10×98 +
-0.10×76 + 0.05×36 + 0.03×30 + 0.01×50 + 0.01×40 = 58.80% ≈ 59%**
+**Overall Production Readiness: 0.15×25 + 0.10×77 + 0.20×43 + 0.15×65 + 0.10×82 + 0.10×98 +
+0.10×76 + 0.05×36 + 0.03×30 + 0.01×50 + 0.01×40 = 59.00% ≈ 59%**
 
-Recomputed from the table, not incremented — and unchanged from Milestone 23. **No category
-score moved in Milestone 24.** This is a deliberate reading of the table's own rows, each
-explained where it appears: 3 cards and 5 rewritten conditions is below what "Rule
-extraction/encoding" registers against an estimated ~1,535-card total; no new engine mechanism
-was built, by design, so "Reasoning engine capability" and "Contradiction handling" could not
-move; and while both "Test coverage" (+7 tests) and "End-to-end validation" (a 2,176-chart
-sweep) grew, neither cleared the bar the swings that moved those rows in Milestones 22-23 did.
-The milestone's real content — a genuine, evidenced narrowing of five long-fired cards, and a
-card proven structurally unfireable rather than merely untested — is methodological rigor, not
-new capability or new corpus, and this table does not have a row for that. Recording it here
-rather than inflating an adjacent row is the same discipline Milestone 23 applied when it
-declined to credit "Rule extraction" for links the encoders had already written down.
+Recomputed from the table, not incremented. **Exactly one category score moved in Milestone 25:
+"Rule extraction/encoding" 42→43** (+0.20 pts), for the reasons given in that row itself — 23
+cards is small against the ~1,535-card estimate but not below this table's own rounding, and
+chapter 6 moved from partial to essentially complete. Every other row was checked and held for a
+stated reason: "Reasoning engine capability" and "Contradiction handling" did not move because no
+new engine mechanism was built — the milestone reused Stage 7's existing reading layer
+(Milestone 23) on a second doctrine cluster, exactly the "same mechanism, more instances" case
+Milestone 24 itself declined to credit; "Test coverage" (+10 tests, ~3%) did not clear the bar
+the swings that moved that row in Milestones 22-23 did, matching Milestone 24's own +7-test
+precedent; "End-to-end validation" grew (a ~4,500-chart sweep measuring the new family's firing
+rates and the new relationship-type frequencies) but is the same *kind* of evidence Milestone 23
+already established this row on, not a new kind, so it holds exactly as Milestone 24's own
+2,176-chart sweep did; "Provenance" holds at the same 99.4% raw fraction with the same three
+holdouts, all 23 new cards signed by hand. This is the same discipline Milestone 23 applied when
+it declined to credit "Rule extraction" for links the encoders had already written down, and
+Milestone 24 applied when it recorded real methodological work without inflating an adjacent row.
 
-Movement from 56% (Milestone 22) to 58.80% is +3 points across six categories, unchanged since
-Milestone 23: contradiction handling 71→82 (+1.10 pts), reasoning capability 60→65 (+0.75), test
-coverage 72→76 (+0.40), end-to-end validation 33→36 (+0.15), multi-book corroboration 25→30
-(+0.15), provenance 97→98 (+0.10). Sum of deltas 2.65, and 56.15 + 2.65 = 58.80, which agrees
-with the expression above — the two are cross-checked here precisely because §A's own history
-contains four milestones of a figure that did not.
+Movement from 56% (Milestone 22) to 59.00% is +3 points across seven categories: contradiction
+handling 71→82 (+1.10 pts), reasoning capability 60→65 (+0.75), test coverage 72→76 (+0.40), end-
+to-end validation 33→36 (+0.15), multi-book corroboration 25→30 (+0.15), provenance 97→98
+(+0.10), rule extraction 42→43 (+0.20, Milestone 25 only). Sum of deltas 2.85, and 56.15 + 2.85 =
+59.00, which agrees with the expression above — the two are cross-checked here precisely because
+§A's own history contains four milestones of a figure that did not.
+
+**Previous figure (Milestone 24):** identical expression and result to Milestone 23's —
+58.80% ≈ 59%. No category score moved: three cards and five rewritten conditions were below
+what "Rule extraction/encoding" registers, and no new engine mechanism was built, by design, so
+"Reasoning engine capability" and "Contradiction handling" could not move either.
 
 **Previous figure (Milestone 23):** identical expression and result to the one above —
 58.80% ≈ 59%. Rule extraction did not move there either: not one card was added, removed,
@@ -204,7 +218,7 @@ changes materially — see §16.
 |---|---|---|---:|---|---|
 | Phase 1 | Corpus & OCR | **Not complete — documentation overstates it** | 33% | 2 of 6 books converted, verified, frozen (`Knowledge/brihat-jataka.md`, `Knowledge/phaladeepika.md`). `Phases.txt` marks "Phase 1 — Corpus & OCR" with a ✅, which is **inaccurate**: 4 books (BPHS Vol.1, Jataka Parijata Vol.1, Uttara Kalamrita, Saravali) are audited but not yet OCR'd/converted (`Reports/PROJECT_STATUS.md`). The pipeline architecture itself is frozen and proven across two structurally different books, which is what "frozen" refers to — not full corpus completeness. | Convert and verify the remaining 4 books; get Devanagari glyph-level spot-check on Brihat Jataka; write `Reports/conversion_report.md`. |
 | Phase 2 | Reasoning engine architecture | Core MVP complete; extensions ongoing | 66% | Stages 0,1,2,6,**7 (reading half)**,9,10 fully implemented (`Engine/chart.py`, `facts.py`, `activate.py`, `render.py`, `pipeline.py`). **14** fact extractors implemented (`Engine/facts.py`): lordship, sign classes, house classes, graha classes, aspects, combustion, dignity, dignity-friendship, occupant count, graha frame, conjunction, nature, nature occupancy, **strength** (Milestone 22). **Stage 4 (graha strength) now exists**, as a verdict extractor rather than a calculator — the source withholds the arithmetic a Shadbala Pinda would need. **Stage 7's reading half now exists** (`Engine/adjudicate.py`, Milestone 23), so Stages 3 and 5 (yoga/house computation as dedicated stages) are the largest remaining items — see `dep.varga`, `dep.dasa`, `dep.ashtakavarga`, `dep.transit`, `dep.vargottama`, `dep.upagraha` in `Rules/deferred.json`, all currently `implemented: false`; `dep.strength` and `dep.adjudication-representation` are `implemented: true`, and `dep.adjudication` (weighting) is outstanding by design. | ~~Build `dep.strength`~~ **done, Milestone 22**. ~~Build the adjudication representation~~ **done, Milestone 23**. Build `dep.varga`, `dep.dasa`, `dep.ashtakavarga`, `dep.transit`. |
-| Phase 3 | Classical Knowledge Extraction | In progress | 33% | 502 cards from Phaladeepika chapters 1, 2, **4**, 6 (partial, through v.9 and v.70 of ~70 as of Milestone 24), 8, 9, 10 of 28 total chapters, plus 2 from Brihat Jataka ch. 2. Estimated ~1,535 total cards across all 28 Phaladeepika chapters at the measured 0.65 cards/paragraph rate (`Reports/PHASE3_PLAN.md`), so 502/1535 ≈ 33% of just this one book, before the rest of Brihat Jataka or the 4 unconverted books are touched at all. | Continue chapter-by-chapter encoding (ch. 3, 5, 6 remainder — vv.39-43, 57-69 next, ch. 7, 11-28); extend Brihat Jataka extraction; human sign-off is no longer the bottleneck (501/504, see §K P1-1). |
+| Phase 3 | Classical Knowledge Extraction | In progress | 34% | 525 cards from Phaladeepika chapters 1, 2, **4**, 6 (nearly complete through v.9, v.57-69 and v.70 of ~70 as of Milestone 25 — only vv.39-43 remain), 8, 9, 10 of 28 total chapters, plus 2 from Brihat Jataka ch. 2. Estimated ~1,535 total cards across all 28 Phaladeepika chapters at the measured 0.67 cards/paragraph rate (`Reports/PHASE3_PLAN.md`), so 525/1535 ≈ 34% of just this one book, before the rest of Brihat Jataka or the 4 unconverted books are touched at all. | Continue chapter-by-chapter encoding (ch. 3, 5, 6 remainder — vv.39-43 next, ch. 7, 11-28); extend Brihat Jataka extraction; human sign-off is no longer the bottleneck (524/527, see §K P1-1). |
 | Phase 4 | Knowledge Integration | **Under way (Milestones 20, 23)** | 40% | `Phases.txt` names six things for this phase — rule conflicts, priority, weighting, cancellation, reinforcement, cross-book agreement. **Milestone 23 settled four of them, two by building and two by finding they needed nothing built.** *Conflicts* are now read, typed and reported with full provenance (`Engine/adjudicate.py`). *Priority* exists only where a source states it — the combustion override, applied on 11% of charts — and nowhere else. *Cancellation* turned out to need no mechanism at all: the one real cancellation doctrine in the store (Sakata Yoga, ch. 6 v. 17) is printed in the same sentence as the yoga it cancels, so it is a negated conjunct inside the card's own condition and has been working since Milestone 9; the same is true of every "unless" in the store. *Cross-book agreement* is reported for `graha_nature` and three further books' statements now reach the reader, though deliberately not as corroboration. **Weighting is the one item deliberately not built and not scheduled**, and *reinforcement* is untouched. Earlier: the corroboration half of Stage 7 was built and exercised (Milestone 20): two books now classify grahas by nature, agreement between them is recorded per graha (`authorities`, `books`, `corroborated`) rather than the second authority overwriting the first, and the consultation reports it. `dep.rule-transfer` and `dep.dignity-override` remain as narrow primitives. | Rule *reinforcement*, and resolving `concept:parallel-of-overloaded` so a yoga stated by two books can be reported as corroborated the way a graha's nature already is. **Not** weighting: it stays unbuilt until a source supplies a rule for choosing, and none does (§K, P1-3). |
 | Phase 5 | Consultation Intelligence | Not started | 10% | Stage 8 (compose prose) and part of Stage 7 (synthesis, grouping/recurrence) exist (`Engine/synthesis.py`, `render.py`) and produce a real 3-part consultation today, but there is no contradiction-explaining or cross-book-convergence narrative yet — that needs Phase 4 first. | Build after Phase 4 adjudication exists. |
 | Phase 6 | Validation | Not started | 0% | No charted validation set, no celebrity/historical chart corpus, no accuracy measurement exists yet. Individual milestones are spot-checked against 1-2 real charts each (ad hoc), which is not the same as this phase. | Build hundreds of known charts and measure prediction accuracy, per `Phases.txt`. |
@@ -1527,17 +1541,181 @@ well-formed condition is a firing one.
 
 ---
 
+### Milestone 25 — Chapter 6's twelve dusthana-lord yogas, and Stage 7's second contradiction cluster
+
+**Phase:** 3 (knowledge), exercising Phase 4's existing adjudication mechanism (Milestone 23)
+**Scope:** one new reference card, twenty-two new firing cards, one existing card's note/link
+updated, one `Rules/deferred.json` entry resolved
+**Status:** COMPLETE
+**Completion:** 100% of the passage's testable clauses; see "What was deliberately not built"
+**Commit:** this milestone's own commit (see `git log`)
+**Remote:** VERIFIED
+
+**Source-first reconnaissance.** `passage:phaladeepika.06.p202` (vv.57-69, printed pp.78-82) was
+read directly from `Knowledge/phaladeepika.md` (paragraphs 202-232 of chapter 6, located the same
+way `Rules/tools/backlog.py::paragraphs()` does, not by trusting the deferred.json paraphrase),
+not from the backlog's summary alone. Verse 57 states one template, ambiguously worded in
+translation: *"If the lords of the houses from the Lagna onwards are in the 6th, 8th or the 12th.
+or If the houses are occupied or aspected by malefics, 12 kinds of yogas are formed from the
+houses commencing from the Lagna."* Read literally this could mean either "house N's own lord
+goes to a dusthana" or "a dusthana lord lands in house N" — a real interpretive fork, not
+resolved by guessing. It was settled by the passage's own later verses rather than imported
+convention: v.63 (*"if the lords of the 6th, 8th and 12th occupy the 6th house..."*) and v.65
+(*"the lords of the 6th, 8th or 12th are posited in the 8th house"*) both restate the template in
+full, unambiguous subject-verb-object prose, for N=6 and N=8 — three lords (plural subject)
+occupying one named house. That is "a dusthana lord lands in house N," confirmed twice by the
+source itself, and the translator's own note at p.231 (*"it is also stated in verse 57... that
+Harsha, Sarala and Vimala Yogas will also be formed if the 6th, 8th or 12th houses be associated
+with or aspected by malefics"*) independently cross-checks the same reading from a different
+angle. One further, unplanned piece of corroboration: `PD.06.Astra.H06.Notes`, encoded in slice 2
+(Milestone 8-era) before this passage was ever read, already quoted a translator aside stating
+*"he has also expressed the opinion that if lord of a Dusthana is posited in another dusthana he
+does good. This has been described in Verse 57 of this very chapter"* — a forward reference this
+milestone resolves rather than one it discovers.
+
+**One template, twelve cards — the same idiom as slice 2, a different trigger.** The twelve
+house-wise yogas (vv.58-69: Ava, Nisswa, Mriti, Kuhu, Pamara, Harsha, Dushkriti, Sarala,
+Nirbhagya, Duryoga [house 10], Daridrya, Vimala) are encoded as one reference card,
+`PD.06.DusthanaLord.General` (v.57's full condition, quoted in full: paras 202-204), plus twelve
+firing cards, `PD.06.DusthanaLord.<Name>`, each testing: any of the 6th/8th/12th lords posited in
+house N, OR house N occupied by a malefic, OR house N aspected by a malefic. This is `PD.06.
+Chamara`/`.Dhenu`/... (vv.44-56, Milestone 8)'s own precedent — item 1 states the template in
+full, items 2-12 say only "similarly disposed" — carried to a second family with a dusthana-lord-
+or-malefic trigger instead of a benefic one. Two of the twelve (Harsha, Sarala) restate the
+condition in their own verse and so confirm it directly; the other ten rely on it exactly as
+Chamara's siblings rely on item 1. Two printed-spelling defects preserved, not corrected:
+"Daridra Yoga" (v.57's naming list) vs. "Daridrya Yoga" (v.68's own naming sentence — the id and
+`predicts.yoga` follow the card's own quoted verse); "VimalaYoga" (v.57's list, no space) vs.
+"Vlmla Yoga" (v.69, an evident scan defect), both transcribed as printed.
+
+**The house-10 naming collision, flagged before it could happen.** `passage:phaladeepika.06.p202`'s
+own deferred.json entry warned, before either card existed, that this passage's 10th-house yoga
+shares the printed name "Duryoga" with the unrelated weak/strong-lord Duryoga of v.70
+(`PD.06.Duryoga`/`.Reverse`, Milestone 24) — a different condition entirely (strength/combustion
+of the 1st/4th/9th/10th lords, not house-10 occupation by a dusthana lord). Named
+`PD.06.DusthanaLord.Duryoga`, not `PD.06.Duryoga`, precisely to keep the two apart; a dedicated
+test (`test_house_ten_duryoga_stays_distinct_from_verse_70s_duryoga`) pins the distinction rather
+than trusting the naming convention alone.
+
+**Parashara's nine-combination breakdown — the chapter's richest contradiction, read carefully
+rather than forced.** The Notes at pp.80-81 quote Parashara's own effects for each of the nine
+combinations of {6th, 8th, 12th}-lord × {6th, 8th, 12th}-house — exactly the sub-case Harsha,
+Sarala and Vimala make a blanket auspicious claim about. Rather than linking all nine to their
+Mantreswara counterpart as flat contradictions, each was read on its own words and classified by
+its actual valence against the blanket claim (§7 of the resume brief: *"the objective is NOT
+'make the two books agree'... it is to determine exactly what each authority says and represent
+the relationship faithfully"*):
+
+- **Five flat contradictions** (`contradicts`, no `polarity`): 6th-in-8th and 8th-in-12th and
+  12th-in-6th and 12th-in-12th and 6th-in-12th — each entirely negative against a Mantreswara
+  card that is entirely positive. (6th-in-12th vs. Vimala's "frugal in expenses" is the cleanest:
+  Parashara's own words are "spend on vices.")
+- **Three qualifications** (`contradicts` + `predicts.polarity: "qualified"`): 6th-in-6th and
+  8th-in-6th, each mixed-valence (Parashara: "enmity with kinsmen BUT friendly to others" /
+  "win over enemies BUT afflicted by disease") rather than flatly opposed, and the weak-graha
+  half of 8th-in-8th (below).
+- **Two parallel-authority agreements** (`parallel_of` + `predicts.authority: "Parashara"`):
+  12th-in-8th — the one combination Parashara's own text calls good (*"According to him only the
+  12th lord in the 8th produces some good effects"*, para. 228's own summary) — and the
+  unconditional half of 8th-in-8th ("the native will be longlived," matching Sarala's own
+  "longlived" claim before any further qualification).
+
+**Item (5), 8th lord in 8th, is genuinely two claims, not one card with an unused clause.** Its
+paragraph reads: *"The native will be longlived. If the said planet be weak being in the 8th the
+native's longevity will be medium, he will be a thief, be blameworthy..."* — an unconditional
+sentence and a conditional one. Split into `PD.06.Parashara.EighthLordInEighth` (base, no
+strength clause, `parallel_of` Sarala) and `.EighthLordInEighth.Weak` (adds `strength(?g,"weak")`
+on the same shared lord variable — ch.4's `dep.strength`, Milestone 22, reused with no new engine
+code — `contradicts` Sarala with `polarity: "qualified"`, since it narrows rather than denies).
+A real chart (Thanjavur, 1956-10-25, 14:15) has Mercury as the 8th lord in the 8th and
+independently weak, firing both cards together — the source's own two-sentence structure showing
+up as two adjudications on one nativity, not two unrelated findings stitched together.
+
+**What was read and deliberately left uncoded, not silently dropped.** Item (6)'s trailing clause
+— *"More so, if there be additionally a malefic in the said house"* — states a further
+intensification when a *second, distinct* graha also occupies house 12. The condition language
+has no distinct-from-the-already-bound-variable quantifier (`?m != ?g`); a naive `in_house(?m,12)`
+test could bind `?m` to the very lord the sentence says is already there, asserting the
+intensifier on a chart the sentence does not describe. Not encoded, and no new dependency was
+registered for it — a single clause across the whole store does not justify inventing a
+quantifier nothing else has ever needed (§13 of the resume brief: *"if the capability would be
+speculative or architecturally consequential, stop and report it"*). Dr. B.V. Raman's commentary
+(paras 229-230, disputing the "sting disappears entirely" reading — *"the intensity will be
+somewhat modified"*) and the translator's closing remarks (paras 231-232: verse 57's malefic
+clause also produces Harsha/Sarala/Vimala; the three yogas appear in none of Brihat Jataka,
+Saravali or Jataka Parijata) remain tier-3 discursive apparatus, restating Parashara's own side
+without adding independently testable doctrine — quoted by no card, claimed by
+`passage:phaladeepika.06.p202`'s own paragraph list.
+
+**Engine changes:** none. Every condition uses predicates that already existed
+(`lord_of_house`, `in_house`, `aspects`, `nature`, `strength`) in combinators the engine already
+generically supports (nested `any`-of-`all`, already exercised by `PD.06.RajaYoga`'s shared-
+variable pattern). No new dependency was registered.
+
+**Tests:** 351 (was 341). Ten new in `Engine/tests/test_chapter_six_dusthana_lord.py`: the
+twelve-card catalogue checked against v.57's own numbered naming list rather than assumed; the
+house-10 naming-collision distinctness check; that `PD.06.DusthanaLord.General` is
+`reference`-only; that `PD.06.Astra.H06.Notes`'s forward reference is resolved; that all ten
+Parashara cards are `active`, not `reference` (unlike `PD.06.Vesi.AuthoritativeWorks`'s collective
+doctrine, each of these names one specific lord and one specific house and is directly testable);
+the full relationship-type catalogue (five plain contradictions, three qualifications, two
+parallels) checked against the store rather than spot-checked; that the weak-graha split is
+genuinely conditional, not a restatement; and three real-chart tests (below). Four existing tests
+updated: the demo chart's claim count (40 → 59, with the exact graha-by-graha accounting for
+every new claim recorded in `test_slice.py`'s own comment, matching the project's standing
+practice) and quoted-sentence count; the "only one claim-to-claim contradiction" test, renamed
+and extended to catalogue all nine new active-active `contradicts` pairs alongside the original
+`PD.09.Dignity.Exalted` one; the demo chart's adjudication-relationship-set assertion (now
+`{parallel_authority, contradiction, qualification}`, all `recorded`); and `PD.06.Astra.H06.Notes`'s
+own `parallel_of` list.
+
+**Real-chart validation.** Two sweeps, ~4,500 real nativities total (four cities — Mumbai,
+Thanjavur, Delhi, Chennai — 1950-2010), **zero pipeline or verification failures** across both.
+A 3,968-chart sweep measured per-card fire counts (each of the twelve `PD.06.DusthanaLord.*`
+cards fires on well over half of all charts, several past once per chart on average via multiple
+independently-satisfying grahas — expected, given the disjunction includes "any malefic aspects
+this house" and nine grahas commonly aspect twelve houses; each Parashara card, needing one
+*specific* lord in one *specific* house, fires at 7-11% except the weak-graha sub-case at 1.4%)
+and adjudication-type frequencies (1,697 chart-instances of an unresolved contradiction, 828 of
+an unresolved qualification, 709 of an unresolved parallel authority, among the new cards alone).
+A second, 504-chart sweep measured the per-chart (not per-instance) rate directly: **63.7% of
+real charts produce at least one genuine, chart-dependent, both-sides-activated Mantreswara/
+Parashara relationship** — not merely two authorities on file, an actual finding about that
+nativity, exactly the demonstration Milestone 23's reading layer was built to make possible on a
+second real contradiction cluster. `verify_adjudications` (Stage 9's adjudication-integrity check)
+raised no problems on any scanned chart that exercised the new relationships.
+
+**Production blockers cleared:** none. Ordinary Phase 3 encoding, using an already-built Phase 4
+mechanism; no blocker was open going in.
+
+**What was deliberately not built:** the distinct-graha quantifier item (6)'s intensifier would
+need (a single clause does not justify it — see above); any weighting between Mantreswara and
+Parashara (§7 of the resume brief is explicit that an unresolved contradiction is a valid,
+final result, not a placeholder waiting on a ranking mechanism); a card for Dr. B.V. Raman's
+commentary or the translator's closing remarks (discursive restatement, not independently
+testable doctrine); and any change to the "Contradiction handling" or "Reasoning engine
+capability" production-readiness rows, since no new engine mechanism was built — see §A's own
+note on why only "Rule extraction/encoding" moved.
+
+**Why this milestone matters.** It is the first time Stage 7's reading layer (Milestone 23) has
+been exercised on a *cluster* of real, chart-dependent, claim-to-claim relationships rather than
+the single pair (`PD.09.Dignity.Exalted`) it was built to read — proof that the mechanism
+generalises to a second, larger, more textured case (five contradictions, three qualifications,
+two parallels, one genuinely conditional split) without any new code, and that "the corpus does
+not settle this" can be demonstrated as a real, evidenced, majority-of-charts finding rather than
+a single hand-picked example.
+
 ---
 
 ## D. CURRENT MILESTONE
 
-**Nothing is currently in progress.** Milestone 24 above is fully committed, tested, verified,
+**Nothing is currently in progress.** Milestone 25 above is fully committed, tested, verified,
 and pushed.
 
 **Five decisions are owed by a human.** None blocks the next milestone; each should be
-settled before the work it touches is extended.
+settled before the work it touches is extended. Milestone 25 opened none and closed none.
 
-### Decision 0b (new, Milestone 24) — `concept:p009-lagna-or-moon-clause`
+### Decision 0b (Milestone 24) — `concept:p009-lagna-or-moon-clause`
 
 **What v.9's disjunctive clause requires, and why only half of it is encoded.** The verse:
 *"...only when the Lagna **or** the Moon and the Yoga forming planets are without blemish."*
@@ -1710,27 +1888,24 @@ obligation. `leverage.py` now ranks `dep.triped-sign-class` first (cost 1, +1 ca
 a human's reading (whether "Triped" is a misprint for "biped") rather than an implementation, so
 the ranked list does not settle it either.
 
-**Recommended: `passage:phaladeepika.06.p202` — vv.57-69, the twelve dusthana-lord yogas.**
-Continues chapter 6 in its natural reading order (v.9 and v.70 are now both consumed; the
-chapter's remaining unencoded material is vv.39-41, vv.42-43 and this passage). Explicitly
-flagged since Milestone 8 as "the richest single contradiction in the chapter" — Mantreswara
-calls Harsha/Sarala/Vimala auspicious, Parashara's own nivritti verse calls them the opposite —
-which makes it the natural next exercise for Stage 7 adjudication's reading half (Milestone 23):
-it would give the store a **second** genuine claim-to-claim contradiction, where today there is
-exactly one (`PD.09.Dignity.Exalted` vs. its own Notes). Ready now — `dep.none` — no capability
-is missing.
+**Recommended: `passage:phaladeepika.06.p168` (vv.39-41) then `passage:phaladeepika.06.p175`
+(vv.42-43, Adhiyoga) — the last two unencoded passages in chapter 6.** After Milestone 25,
+chapter 6's only remaining testable-doctrine gap is these two. Closing them completes the
+chapter's testable doctrine outright — the first chapter this project would be able to call
+*fully* encoded (modulo the tier-2/3 apparatus every chapter excludes by policy) rather than
+"encoded, with named exceptions." `passage:phaladeepika.06.p168` needs one small new engine
+fact (a distinct-sign-count over the seven classical grahas) per the note recorded when it was
+set aside in slice 3; `passage:phaladeepika.06.p175` (Adhiyoga) carries its own `contradicts`
+pair (a Shruti Kirti/Vyas dispute over how strictly the three yoga-forming grahas must be
+distributed) and is `dep.none` — ready now.
 
-**Three alternatives, each defensible:**
+**Two alternatives, each defensible:**
 
-1. **`passage:phaladeepika.06.p175`** (vv.42-43, Adhiyoga) or **`passage:phaladeepika.06.p168`**
-   (vv.39-41, the seven-planets-in-N-signs family — needs one small new engine fact, a
-   distinct-sign-count over the seven classical grahas). Either continues chapter 6 without
-   p202's adjudication angle.
-2. **`dep.compound-friendship`** (cost 3). The Adhimitra/Adhishatru tiers, which the book
+1. **`dep.compound-friendship`** (cost 3). The Adhimitra/Adhishatru tiers, which the book
    defines in ch. 2 and then uses without definition in ch. 6 v. 19, ch. 10 v. 23 and six
    rows of the ch. 4 survey. Cheap, well-sourced, and releases `PD.06.Pushkala`'s first
    remaining obstacle.
-3. **`concept:parallel-of-overloaded`** (Decision 0a) — an encoding pass over chapter 6's notes
+2. **`concept:parallel-of-overloaded`** (Decision 0a) — an encoding pass over chapter 6's notes
    that would let cross-book corroboration be reported for yogas the way it already is for
    `graha_nature`. Precedent-setting (see Decision 0a's own text), so best taken only after a
    human has read that decision.
@@ -1766,8 +1941,7 @@ is missing.
 
 | Description | Dependencies | Unlocks | Status |
 |---|---|---|---|
-| Ch.6 vv.42-43, Adhiyoga | none | continues ch.6 | ready, scoped in `passage:phaladeepika.06.p175` |
-| Ch.6 vv.57-69, twelve dusthana-lord yogas (Ava, Nisswa, Mriti, Kuhu, Pamara, Harsha, Dushkriti, Sarala, Nirbhagya, Duryoga, Daridrya, Vimala) | none | continues ch.6; contains the richest contradiction in the chapter (Mantreswara vs. Parashara on which of these are auspicious) | ready, `passage:phaladeepika.06.p202` |
+| Ch.6 vv.42-43, Adhiyoga | none | last two unencoded passages in ch.6 (with vv.39-41); own `contradicts` pair (Shruti Kirti/Vyas dispute) | ready, scoped in `passage:phaladeepika.06.p175` |
 | Ch.5 — Source of livelihood | none | new chapter, rule-dense | ready |
 | Ch.7 — RAJA YOGAS | none | new chapter, rule-dense; shares lordship dependency with ch.6 | ready |
 | Ch.12 — Progeny (5th house) | none | new chapter, rule-dense | ready |

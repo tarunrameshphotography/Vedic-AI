@@ -465,7 +465,10 @@ def test_chapter_six_astra_is_printed_twice_and_stays_distinguishable(cards):
     assert h6.quote_sha256 != h8.quote_sha256
     notes = next(c for c in cards if c.id == "PD.06.Astra.H06.Notes")
     assert notes.activation == "reference"
-    assert notes.raw["parallel_of"] == ["PD.06.Astra.H06"]
+    # Milestone 25 resolved this note's own forward reference to "Verse 57 of
+    # this very chapter" by encoding vv.57-69; the note now names both cards
+    # it corroborates.
+    assert notes.raw["parallel_of"] == ["PD.06.Astra.H06", "PD.06.DusthanaLord.General"]
 
 
 def test_golden_khyati_fires_with_two_independently_bound_grahas():
@@ -716,6 +719,27 @@ def test_slice_runs_and_verifies():
     # strength clause. This number tracks the rule store: it must change
     # when doctrine is added, and never on its own.
     #
+    # 40 -> 59 in Milestone 25: nineteen new claims from the vv.57-69
+    # dusthana-lord-yoga family (PD.06.DusthanaLord.*), all off the template's
+    # own quantified "any" (PD.06.DusthanaLord.General) -- a dusthana lord in
+    # the house, or a malefic occupying or aspecting it, each satisfying
+    # binding its own claim. One each for Ava (Saturn aspects 1), Duryoga
+    # (Mars aspects 10), Dushkriti (Mars aspects 7), Kuhu (Mars occupies 4)
+    # and Pamara (Saturn aspects 5); two each for Daridrya (Mars aspects 11;
+    # Saturn occupies 11) and Nirbhagya (Rahu aspects 9; Ketu occupies 9);
+    # three each for Mriti (Ketu aspects 3; Jupiter, lord of 12, sits in 3;
+    # Rahu occupies 3) and Sarala (Sun, Mercury and Saturn each independently
+    # aspect 8); four for Nisswa (Sun, lord of 8, sits in 2; Sun also occupies
+    # 2 as a malefic; Mercury, lord of 6, sits in 2; Mercury also occupies 2
+    # as a malefic). None of the ten new Parashara cards fire here: each needs
+    # one *specific* dusthana lord in one *specific* dusthana, and this
+    # chart's two dusthana-lord solutions above (Nisswa's Sun/Mercury, Mriti's
+    # Jupiter) land in houses 2 and 3, neither a dusthana -- see
+    # test_adjudication.py's demo-chart adjudications, all `recorded` rather
+    # than `unresolved` for exactly this reason. A real chart for the genuine
+    # chart-dependent Mantreswara/Parashara contradiction is exercised
+    # separately (Milestone 25's own dedicated fixture, not the demo chart).
+    #
     # 41 -> 40 in Milestone 24: PD.06.Ruchaka stopped firing on this chart.
     # v.9's blanket strength condition (passage:phaladeepika.06.p009) was
     # added to all five Pancha Mahapurusha cards; ch.4 vv.4-5's verdict cards
@@ -735,10 +759,10 @@ def test_slice_runs_and_verifies():
     # two principal benefics were unclassified. Nothing that fired before
     # stopped firing: the change is purely additive, which is what adding a
     # classification (rather than altering one) should do.
-    assert r.verification.checks["claims"] == 40
+    assert r.verification.checks["claims"] == 59
     for k in ("quote_integrity_passed", "conditions_reevaluated_passed",
               "numeric_grounding_passed"):
-        assert r.verification.checks[k] == 40
+        assert r.verification.checks[k] == 59
 
 
 def test_every_claim_has_all_four_provenance_links():
@@ -762,7 +786,7 @@ def test_quoted_output_adds_no_words():
     r = run(DEMO)
     by_id = {c.claim_id: c for c in r.claims}
     rules = [s for s in r.sentences if s.part == "rules"]
-    assert len(rules) == 40  # see test_slice_runs_and_verifies for the 41 -> 40 move
+    assert len(rules) == 59  # see test_slice_runs_and_verifies for the 40 -> 59 move
     for s in rules:
         assert s.text == by_id[s.claim_ids[0]].passage["quote_display"]
 
