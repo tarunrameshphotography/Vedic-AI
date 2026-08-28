@@ -759,10 +759,20 @@ def test_slice_runs_and_verifies():
     # two principal benefics were unclassified. Nothing that fired before
     # stopped firing: the change is purely additive, which is what adding a
     # classification (rather than altering one) should do.
-    assert r.verification.checks["claims"] == 59
+    #
+    # 59 -> 60 in Milestone 26: PD.06.Adhiyoga (vv.42-43,
+    # passage:phaladeepika.06.p175) fires once via its Moon-frame arm --
+    # Mercury in the 7th, Jupiter in the 8th and Venus in the 6th, all
+    # counted from the Moon, satisfying the condition's own "any" of the
+    # Lagna-or-Moon disjunction v.42 states in one sentence. Not fired via
+    # the Lagna frame on this chart (checked directly against the claim's
+    # own conditions_satisfied binding, which names only the three
+    # in_house_from(...,Moon,...) leaves). PD.06.Adhiyoga.ShrutiKirti stays
+    # reference-only and contributes no claim.
+    assert r.verification.checks["claims"] == 60
     for k in ("quote_integrity_passed", "conditions_reevaluated_passed",
               "numeric_grounding_passed"):
-        assert r.verification.checks[k] == 59
+        assert r.verification.checks[k] == 60
 
 
 def test_every_claim_has_all_four_provenance_links():
@@ -786,7 +796,7 @@ def test_quoted_output_adds_no_words():
     r = run(DEMO)
     by_id = {c.claim_id: c for c in r.claims}
     rules = [s for s in r.sentences if s.part == "rules"]
-    assert len(rules) == 59  # see test_slice_runs_and_verifies for the 40 -> 59 move
+    assert len(rules) == 60  # see test_slice_runs_and_verifies for the 59 -> 60 move
     for s in rules:
         assert s.text == by_id[s.claim_ids[0]].passage["quote_display"]
 

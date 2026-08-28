@@ -6,14 +6,14 @@ Nothing may be silently deferred. Inert cards are read out of the store, deferre
 
 | | |
 |---|---|
-| Backlog entries | **138** |
+| Backlog entries | **139** |
 | — of kind `card` | 17 |
-| — of kind `passage` | 45 |
+| — of kind `passage` | 44 |
 | — of kind `chapter` | 48 |
-| — of kind `concept` | 24 |
-| Resolved | 4 |
-| Cards in store | 527 |
-| Firing | 510 |
+| — of kind `concept` | 25 |
+| Resolved | 5 |
+| Cards in store | 529 |
+| Firing | 512 |
 | Inert | 17 |
 
 ## Dependencies
@@ -22,9 +22,9 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 
 | Dependency | Kind | Implemented | Entries blocked | Cards blocked | Phase |
 |---|---|---|---|---|---|
-| `dep.none` — no dependency -- simply not yet done | process | yes | 74 | 0 | 3 (knowledge) |
+| `dep.none` — no dependency -- simply not yet done | process | yes | 73 | 0 | 3 (knowledge) |
 | `dep.adjudication` — Stage 7 adjudication | engine | no | 12 | 1 | 4 (integration) |
-| `dep.manual-verification` — human verification of the encoding | process | no | 9 | 2 | 3 (knowledge) |
+| `dep.manual-verification` — human verification of the encoding | process | no | 10 | 2 | 3 (knowledge) |
 | `dep.condition-variables` — variables in the condition language | schema | yes | 6 | 6 | 4 (integration) |
 | `dep.dasa` — vimshottari dasa engine | calculator | no | 6 | 3 | 2 (engine completion) |
 | `dep.lord-of-house` — lord_of_house extractor | predicate | yes | 6 | 4 | 2 (engine completion) |
@@ -86,7 +86,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 
 ## Available now
 
-74 entr(y/ies) are deferred by ordering alone — nothing blocks them. This is the Phase 3 work queue.
+73 entr(y/ies) are deferred by ordering alone — nothing blocks them. This is the Phase 3 work queue.
 
 ## Entries
 
@@ -183,7 +183,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `passage:phaladeepika.06.p150` | phaladeepika | 6 | printed p.71-72 | worked examples for the dispositor-chain Kahala Yoga (v.35) and Parvata Yoga, with the printed chart for Parvata's example only | Tier-3 apparatus: worked examples, not rules. Recorded as deliberately excluded, not pending. The Kahala example (Mars -> Sun -> Saturn) is the evidence PD.0… | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.06.p159` | phaladeepika | 6 | printed p.73 | Shri Morarji Desai's horoscope illustrating a second instance of Parvata Yoga | Tier-3 apparatus: a worked example, not a rule. Recorded as deliberately excluded, not pending. | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.06.p168` | phaladeepika | 6 | vv. 39-41 (p.73-74) | the seven planets-in-N-signs family (Vallaki/Veena, Dharma, Hasha, Kendra, Shula, Yuga, Gola) | Not yet encoded. This family needs one new engine fact -- a count of how many distinct signs the seven classical grahas (excluding the nodes) occupy between … | `dep.none` | 3 (knowledge) | deferred |
-| `passage:phaladeepika.06.p175` | phaladeepika | 6 | vv. 42-43 (p.74-75) | Adhiyoga | Not yet encoded; deferred by ordering. A Notes aside attributed to "Shruti Kirti ... according to Vyas" disputes how strictly the three yoga-forming grahas m… | `dep.none` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.06.p175` | phaladeepika | 6 | vv. 42-43 (p.74-75) | Adhiyoga | RESOLVED (Milestone 26). Encoded as PD.06.Adhiyoga: Mercury, Jupiter and Venus each individually within houses 6, 7 or 8, counted from the Lagna OR from the … | `dep.none` | 3 (knowledge) | resolved |
 | `passage:phaladeepika.06.p202` | phaladeepika | 6 | vv. 57-69 (p.78-82) | Twelve yogas keyed to the 6th/8th/12th lords occupying a dusthana (Ava, Nisswa, Mriti, Kuhu, Pamara, Harsha, Dushkriti, Sarala, Nirbhagya, Duryoga [10th house], Daridrya, Vimala) | RESOLVED (Milestone 25). Encoded as PD.06.DusthanaLord.General (reference, v.57's governing condition and the twelve-name list) plus twelve firing cards, PD.… | `dep.none` | 3 (knowledge) | resolved |
 | `passage:phaladeepika.06.p233` | phaladeepika | 6 | v. 70 (printed p.82) | A second, unrelated Duryoga (weak/strong 6th-8th-12th vs. 1st-4th-9th-10th lord test), distinct from the 10th-house 'Duryoga' in the still-unencoded vv.57-69 dusthana-lord cluster (passage:phaladeepika.06.p202) | RESOLVED (Milestone 24). Encoded as PD.06.Duryoga (the named configuration: 6th/8th/12th lords strong, in kendra or trikona; 1st/4th/9th/10th lords weak or c… | `dep.none` | 3 (knowledge) | resolved |
 | `passage:phaladeepika.08.p012` | phaladeepika | 8 | v. 8 Notes (p.93) | the translator's qualification of the Sun in the 10th: the good effects hold only for eight of the twelve lagnas | Tier-2 commentary that narrows a tier-1 card already in the store (PD.08.Sun.10). It is an exclusion on an existing rule, and the card schema records exclusi… | `dep.lord-of-house`, `dep.adjudication` | 4 (integration) | deferred |
@@ -197,7 +197,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `passage:phaladeepika.09.p016` | phaladeepika | 9 | p.107-109 | two transcribed horoscopes, their lagna notes, a worked example and an aside on Abraham Lincoln | Tier-3 apparatus: worked examples, not rules. Recorded as deliberately excluded, not pending. | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.10.p038` | phaladeepika | 10 | p.114 colophon | the chapter's closing formula | Colophon. Not doctrine. | `dep.none` | 3 (knowledge) | deferred |
 
-### Cross-cutting (24)
+### Cross-cutting (25)
 
 | Entry | Book | Chapter | Locus | Deferred | Reason | Blocked on | Phase | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -221,6 +221,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `concept:strength-is-not-bhava-strength` | phaladeepika | 4 | ch. 4 vv. 4-5 against vv. 24-26 (printed pp.43, 50-51) | That the strength capability covers grahas only, not houses. | Recorded in Milestone 22 so the gap is visible rather than inferred from an absence. The verdicts vv. 4-5 state are about planets. Bhava Bala -- the strength… | `dep.strength` | 2 (engine completion) | deferred |
 | `concept:tatkalik-friendship` | phaladeepika | 4 | ch. 4 v. 10 (printed p.45) | Temporal (Tatkalik) friendship and enmity, which this project has never encoded. | Verse 10 prefers natural friendship to temporal, which ratifies what the engine already does -- Engine/facts.py::_dignity_friendship reads the natural table … | `dep.none` | 3 (knowledge) | deferred |
 | `concept:yudha-bala-method-not-given` | phaladeepika | 4 | ch. 4, Yudha Bala (printed p.39) | How Yudha Bala (planetary war) is actually computed. | The source states the condition -- two of the five non-luminous grahas in the same rasi, degree and minute -- and then refers the reader to Sripati Padhati, … | `dep.shadbala-arithmetic` | 3 (knowledge) | deferred |
+| `concept:adhiyoga-distribution-strictness` | phaladeepika | 6 | v. 42 Notes (printed p.75) -- see passage:phaladeepika.06.p175 | Whether the Notes' rejected "some authors" reading of Adhiyoga (all three of houses 6, 7 and 8 must be individually occupied by Mercury, Jupiter or Venus; none may be vacant) should be encoded as a competing active card against PD.06.Adhiyoga, which tests the looser reading the translator endorses instead (any distribution among the three houses). | Found in Milestone 26 while encoding vv.42-43. The stricter reading is independently expressible with predicates already in the vocabulary -- an AND, over ho… | `dep.manual-verification` | 4 (integration) | deferred |
 | `concept:p009-lagna-or-moon-clause` | phaladeepika | 6 | v. 9 (Notes), printed p.55 -- see passage:phaladeepika.06.p009 | the disjunctive '(Lagna or Moon) without blemish' half of v.9's blanket condition, on top of the yoga-forming-planets half Milestone 24 encoded | The Moon side is trivially testable (the Moon is one of the nine grahas dep.strength already covers) but the Lagna side is not. This is not just an engine ga… | `dep.lagna-strength` | 2 (engine completion) | deferred |
 | `concept:parallel-of-overloaded` | phaladeepika | 6 | every parallel_of link in chapter 6 (27 cards) | Whether a parallel_of link means the two cards agree, or only that they speak to the same doctrine -- the store does not currently distinguish, so Stage 7 reports neither. | Found in Milestone 23 while building Stage 7. parallel_of is used for two different things. It links a card to another named authority's statement of the sam… | `dep.manual-verification` | 4 (integration) | deferred |
 | `concept:sunapha-anapha-durudhara-naming` | phaladeepika | 6 | v. 5-7 (p.57-59) | which of Sunapha, Anapha and Durudhara individually corresponds to the 2nd-only, 12th-only or both-occupied condition from the Moon | Verse 5 states that the three yogas collectively arise 'when the planets occupy the 2nd and 12th houses reckoned from the Moon', but assigns no name to any o… | `dep.manual-verification` | 3 (knowledge) | deferred |

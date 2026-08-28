@@ -1605,12 +1605,12 @@
       "chapter": 6,
       "locus": "vv. 42-43 (p.74-75)",
       "what": "Adhiyoga",
-      "reason": "Not yet encoded; deferred by ordering. A Notes aside attributed to \"Shruti Kirti ... according to Vyas\" disputes how strictly the three yoga-forming grahas must be distributed across the three houses -- a contradicts pair for that slice. A Sardar Patel worked example is embedded and will be tier-3 apparatus.",
+      "reason": "RESOLVED (Milestone 26). Encoded as PD.06.Adhiyoga: Mercury, Jupiter and Venus each individually within houses 6, 7 or 8, counted from the Lagna OR from the Moon in one condition (v.42's own disjunctive reference frame) -- one card, not two, because nothing in the tier-1 text names two yogas and a two-card split would have quoted the identical naming+effect text on both cards, which dupes.py correctly flags as a same-book encoding defect (no other pair in the store shares a full quote_sha256). The worked example's own \"Lagnadhiyoga\"/\"Chandradhiyoga\" labels (para 178, tier-3 apparatus) are cited in the card's note as confirmation that both reference frames can independently satisfy the condition on one real chart, not imported into predicts; Engine/rules.py::evaluate's own solution bindings already distinguish which frame(s) fired without needing a second card. PD.06.Adhiyoga.ShrutiKirti (reference, tier 2) quotes the Notes paragraph (183) in full -- both the unnamed \"some authors\" reading requiring all three houses non-vacant, and the translator's rejection of it in favour of Shruti Kirti's (per Vyas) confirmation that any distribution among houses 6/7/8 satisfies the yoga -- and is linked parallel_of PD.06.Adhiyoga, since that is the same loose reading already encoded. The rejected \"some authors\" reading is independently expressible with existing predicates (no house among 6/7/8 vacant of the three grahas) but was deliberately NOT encoded as a competing active `contradicts` card: see concept:adhiyoga-distribution-strictness for the reasoning, opened as its own entry because it is a genuine judgement call, not an engine gap. The Sardar Patel worked example (paras 177-179, 181) and its horoscope chart (paras 180, 182, both LAYOUT and excluded from this list automatically) remain tier-3 apparatus, quoted nowhere as a card -- they stay claimed by this entry's own paragraph list rather than a card span, the same treatment passage:phaladeepika.06.p202 gave Dr. B.V. Raman's commentary.",
       "requires": [
         "dep.none"
       ],
       "phase": "3 (knowledge)",
-      "status": "deferred",
+      "status": "resolved",
       "paragraphs": [
         175,
         176,
@@ -2629,6 +2629,20 @@
       "locus": "every parallel_of link in chapter 6 (27 cards)",
       "what": "Whether a parallel_of link means the two cards agree, or only that they speak to the same doctrine -- the store does not currently distinguish, so Stage 7 reports neither.",
       "reason": "Found in Milestone 23 while building Stage 7. parallel_of is used for two different things. It links a card to another named authority's statement of the same doctrine (PD.06.PanchaMahapurusha.JatakaParijata and .Saravali, whose own note says 'Corroborates'), and it links sibling cards cut from a single sentence (PD.06.Varishtha/.Sama/.Adhama, three mutually exclusive readings of one verse; also Lakshmi/Gouri, Subhamala/Asubhamala, Mahabhagya.Male/.Female, Amala/Amala.V12). predicts.authority separates the two groups cleanly today and is what Stage 7 keys on. But even within the first group the link does not record agreement: PD.06.Vesi.AuthoritativeWorks reports that most authoritative works define the yoga WITHOUT the benefic/malefic split Mantreswara uses -- a different condition for the same yoga -- while PD.06.PanchaMahapurusha.JatakaParijata restates the same one. Stage 7 therefore reports 'a second authority on the same doctrine' and deliberately does NOT report corroboration, because asserting agreement the store never claimed would manufacture the very concord cross-book corroboration is supposed to be evidence for. Resolving this -- most likely by splitting parallel_of into an agreement link and a variant-reading link at encoding time -- would let yoga corroboration be reported the way graha_nature corroboration already is. It is an encoding decision, not an engine one.",
+      "requires": [
+        "dep.manual-verification"
+      ],
+      "phase": "4 (integration)",
+      "status": "deferred"
+    },
+    {
+      "id": "concept:adhiyoga-distribution-strictness",
+      "kind": "concept",
+      "book": "phaladeepika",
+      "chapter": 6,
+      "locus": "v. 42 Notes (printed p.75) -- see passage:phaladeepika.06.p175",
+      "what": "Whether the Notes' rejected \"some authors\" reading of Adhiyoga (all three of houses 6, 7 and 8 must be individually occupied by Mercury, Jupiter or Venus; none may be vacant) should be encoded as a competing active card against PD.06.Adhiyoga, which tests the looser reading the translator endorses instead (any distribution among the three houses).",
+      "reason": "Found in Milestone 26 while encoding vv.42-43. The stricter reading is independently expressible with predicates already in the vocabulary -- an AND, over houses 6/7/8, of an OR over the three grahas being posited there -- so this is a genuine judgement call, not an engine gap. It was NOT encoded as an active `contradicts` card, for a reason structural rather than editorial: the \"some authors\" position's actual claim is that Adhiyoga does NOT form under a looser placement, and the card schema predicts positive effects reached by a satisfied condition, with no mechanism for a card to assert the ABSENCE of a different card's yoga. Every card in the store that fires under a narrower condition than a sibling (e.g. PD.06.Parashara.EighthLordInEighth.Weak, Milestone 25) predicts something -- a different or lesser effect the source states outright -- for a chart that satisfies its OWN condition; it never asserts that another card's condition, though met, produced nothing. Building that would need a genuinely new capability (a negation-of-another-card's-formation predicate) that nothing else in the store has ever required, which is exactly the kind of speculative architecture this project declines to build for a single clause (see PD.06.Parashara.EighthLordInTwelfth's own note on the distinct-graha quantifier it similarly declined, Milestone 25). The other reason this differs from the project's flagship contradiction (PD.09.Dignity.Exalted vs. its own Notes, Milestone 23): that tension is a live, unresolved disagreement between the verse and the translator, both left standing. Here the translator explicitly resolves the dispute within the same paragraph (\"but this is not correct\"), siding with Shruti Kirti (per Vyas) -- the same posture as passage:phaladeepika.06.p060's translator preference, which this project has already declined to encode as a competing doctrine card rather than as apparatus.",
       "requires": [
         "dep.manual-verification"
       ],

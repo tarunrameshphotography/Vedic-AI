@@ -10969,6 +10969,266 @@
       "contradicts": [
         "PD.06.DusthanaLord.Vimala"
       ]
+    },
+    {
+      "id": "PD.06.Adhiyoga",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "42, 43",
+        "page_anchor": "phaladeepika/p0074",
+        "tier": 1,
+        "quote": "42. When the benefic planets occupy the 6th, 7th and 8th places from the Lagna or the Moon, the Yoga so formed is called Adhiyoga. […] The person born with Adhiyoga is a commander (Superintendent of Police or Commander of an army), a minister or a ruler (of a District or State). He will be renowned, prosperous, wealthy, longlived and large souled. […] 43. The further effects of the Adhiyoga are that the native will become lord of men, will always be wealthy, will have a large number of kinsmen and whom he will feed and will be victorious over his enemies.",
+        "quote_display": "42. When the benefic planets occupy the 6th, 7th and 8th places from the Lagna or the Moon, the Yoga so formed is called Adhiyoga. […] The person born with Adhiyoga is a commander (Superintendent of Police or Commander of an army), a minister or a ruler (of a District or State). He will be renowned, prosperous, wealthy, longlived and large souled. […] 43. The further effects of the Adhiyoga are that the native will become lord of men, will always be wealthy, will have a large number of kinsmen and whom he will feed and will be victorious over his enemies.",
+        "quote_sha256": "1658614c352c13e1c198585168a4b5733bf4ca8b076c85c2ab19de4dd49f5870",
+        "char_span": [
+          142617,
+          142747
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            142617,
+            142747
+          ],
+          [
+            142751,
+            142965
+          ],
+          [
+            144968,
+            145175
+          ]
+        ],
+        "quote_parts": [
+          "42. When the benefic planets occupy the 6th, 7th and 8th places from the Lagna or the Moon, the Yoga so formed is called Adhiyoga.",
+          "The person born with Adhiyoga is a commander (Superintendent of Police or Commander of an army), a minister or a ruler (of a District or State). He will be renowned, prosperous, wealthy, longlived and large souled.",
+          "43. The further effects of the Adhiyoga are that the native will become lord of men, will always be wealthy, will have a large number of kinsmen and whom he will feed and will be victorious over his enemies."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "any": [
+                      {
+                        "in_house": {
+                          "graha": "Mercury",
+                          "house": 6
+                        }
+                      },
+                      {
+                        "in_house": {
+                          "graha": "Mercury",
+                          "house": 7
+                        }
+                      },
+                      {
+                        "in_house": {
+                          "graha": "Mercury",
+                          "house": 8
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "any": [
+                      {
+                        "in_house": {
+                          "graha": "Jupiter",
+                          "house": 6
+                        }
+                      },
+                      {
+                        "in_house": {
+                          "graha": "Jupiter",
+                          "house": 7
+                        }
+                      },
+                      {
+                        "in_house": {
+                          "graha": "Jupiter",
+                          "house": 8
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "any": [
+                      {
+                        "in_house": {
+                          "graha": "Venus",
+                          "house": 6
+                        }
+                      },
+                      {
+                        "in_house": {
+                          "graha": "Venus",
+                          "house": 7
+                        }
+                      },
+                      {
+                        "in_house": {
+                          "graha": "Venus",
+                          "house": 8
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "any": [
+                      {
+                        "in_house_from": {
+                          "graha": "Mercury",
+                          "reference": "Moon",
+                          "house": 6
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Mercury",
+                          "reference": "Moon",
+                          "house": 7
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Mercury",
+                          "reference": "Moon",
+                          "house": 8
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "any": [
+                      {
+                        "in_house_from": {
+                          "graha": "Jupiter",
+                          "reference": "Moon",
+                          "house": 6
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Jupiter",
+                          "reference": "Moon",
+                          "house": 7
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Jupiter",
+                          "reference": "Moon",
+                          "house": 8
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "any": [
+                      {
+                        "in_house_from": {
+                          "graha": "Venus",
+                          "reference": "Moon",
+                          "house": 6
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Venus",
+                          "reference": "Moon",
+                          "house": 7
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Venus",
+                          "reference": "Moon",
+                          "house": 8
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Adhiyoga"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (condition matches v.42's plain reading exactly, including its own Lagna-or-Moon disjunction as one condition rather than two cards, since dupes.py correctly flags a same-book identical-quote split as a defect and the tier-1 text names only one yoga; in_house_from reuses dep.graha-frame with no new engine code)",
+        "verified_date": "2026-08-28"
+      },
+      "kind": "yoga",
+      "note": "Mercury, Jupiter and Venus each individually within houses 6, 7 or 8, counted from the Lagna OR from the Moon (v.42's own disjunctive reference frame, one condition, one card -- not split into two cards, since nothing in the tier-1 text names two yogas; the worked example's \"Lagnadhiyoga\"/\"Chandradhiyoga\" labels are tier-3 apparatus, not imported into predicts). No requirement that all three houses be individually occupied -- the plain reading of v.42, and the reading Shruti Kirti (per Vyas) explicitly confirms against a narrower, unnamed \"some authors\" reading the translator rejects in the same paragraph; see PD.06.Adhiyoga.ShrutiKirti and concept:adhiyoga-distribution-strictness (Rules/deferred.json) for why the rejected reading is not separately encoded as a competing active card. The condition's own solutions distinguish which frame(s) actually satisfied it (Engine/rules.py::evaluate records every satisfying binding), so a real chart matching both frames at once -- as the Sardar Patel worked example (para 177-178, tier-3 apparatus) reports for its own chart -- is still visible in the consultation trace without a second card. V.42 itself says only \"the benefic planets\" without naming them; the Notes (para 183) and that same worked example both fix the acting set to Mercury, Jupiter and Venus specifically -- not \"any benefic\" including a waxing Moon -- so that is what is encoded, not an imported convention."
+    },
+    {
+      "id": "PD.06.Adhiyoga.ShrutiKirti",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "42-43 (Notes)",
+        "page_anchor": "phaladeepika/p0075",
+        "tier": 2,
+        "quote": "Notes— Some authors are of the view that for the Adhiyoga (from the Moon or the Lagna) all the three houses viz.,'the 6th, 7th and 8th should be occupied by Mercury, Jupiter or Venus. None of them should be vacant but this is not correct. Shruti Kirti has pronounced that according to Vyas and other ancient sages Mercury, Jupiter and Venus may be separately In the three houses or two may be in one house and the third may be in any other house (amongst 6,7 and 8) and all the three may be together in any of these three houses to meet the requirements of these three houses to form this yoga.",
+        "quote_display": "Notes— Some authors are of the view that for the Adhiyoga (from the Moon or the Lagna) all the three houses viz.,'the 6th, 7th and 8th should be occupied by Mercury, Jupiter or Venus. None of them should be vacant but this is not correct. Shruti Kirti has pronounced that according to Vyas and other ancient sages Mercury, Jupiter and Venus may be separately In the three houses or two may be in one house and the third may be in any other house (amongst 6,7 and 8) and all the three may be together in any of these three houses to meet the requirements of these three houses to form this yoga.",
+        "quote_sha256": "2abf48f7f7c28d2ab56450cbf83776dcbea248d5e73be78a533221a370a4d4b2",
+        "char_span": [
+          144370,
+          144964
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "domain": "yoga",
+        "topic": "distribution of Mercury, Jupiter and Venus among houses 6, 7 and 8 for Adhiyoga",
+        "authority": "Shruti Kirti (per Vyas)"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (quote is byte-exact, including the em dash (U+2014) after \"Notes\", which is a valid character, not a defect; reference-only because it tests nothing beyond the loose reading already encoded on PD.06.Adhiyoga; not linked as contradicts because the rejected reading cannot be represented as a firing claim -- see note)",
+        "verified_date": "2026-08-28"
+      },
+      "kind": "commentary",
+      "activation": "reference",
+      "note": "Reference only: quotes the Notes paragraph in full, including both the unnamed \"some authors\" reading (all three houses must be occupied, none vacant) and the translator's rejection of it in favour of Shruti Kirti's (per Vyas) confirmation that any distribution -- separately, two-plus-one, or all three together in one house -- satisfies the yoga. This is the same distribution PD.06.Adhiyoga already tests, so this card adds no new testable condition and is reference-only; it exists so the rejected reading is preserved in the reader's own words rather than silently dropped. See concept:adhiyoga-distribution-strictness (Rules/deferred.json) for why the rejected reading was not separately encoded as an active `contradicts` card: its own claim is a denial that the yoga forms under a looser placement, which this schema has no way to assert as a firing rule without inventing a negation-of-formation mechanism nothing else in the store needs -- and the translator, unlike the live standing tension between PD.09.Dignity.Exalted and its own Notes, already resolves this dispute within the same paragraph. The character between \"Notes\" and \"Some authors\" is an em dash (U+2014), matching the \"Notes - \" separator used elsewhere in this chapter -- not a corpus defect; it renders as a replacement glyph in some terminals/fonts but is a valid, correctly-decoded character in the corpus file.",
+      "parallel_of": [
+        "PD.06.Adhiyoga"
+      ]
     }
   ]
 }
