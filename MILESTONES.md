@@ -17,7 +17,26 @@ closed chapter 6's last unencoded passage, adding one small new engine predicate
 (`seven_graha_sign_count`) rather than a new mechanism or stage. Stage 7's *representation* half
 is built; its *weighting* half is deliberately not, and is not scheduled.
 
-**Current milestone:** Milestone 27 — **chapter 6's seven-planets-in-N-signs family (vv.39-41)**:
+**Current milestone:** Milestone 28 — **`dep.triped-sign-class` re-investigated, confirmed still
+unresolved at the source, left inert.** `Rules/tools/leverage.py` ranks it first by ROI (cost 1,
+unlocks 1 card) but that ranking is a known false signal for this entry — Milestone 21 first
+registered it as a source-level defect requiring a human's reading, and this session
+independently re-derived the same conclusion from the primary source rather than trusting that
+prior note. `Books/Mantreswara_s__Phaladeeplka_.pdf` page index 43 (printed p.44) was rendered
+directly at 600dpi and inspected glyph by glyph: "triped" is genuinely what the page prints, in
+plain `TimesNewRomanPSMT` text with no OCR artifact and no font-substitution glyph defect
+possible (this edition's text layer is `pdf_text` direct extraction from a clean digital source,
+confirmed in `Pipeline/profiles/phaladeepika.json`, not OCR over a scanned image). "Triped" does
+not appear anywhere else in the converted corpus (Phaladeepika or Brihat Jataka), and the
+closest textual parallel — ch.4's own Bhava Dik Bala rule (a), "Gemini, Virgo, Libra and first
+part of Sagittarius are biped signs; in the Lagna, 1 Rupa" — is a *different authority's* table
+(the translator's survey of "other ancients," not Mantreswara's own verse this card quotes) and
+does not explain the verse's own "Vrischika gets 1/4 Rupa" clause, which has no source
+corroboration anywhere. No card or engine change was made — see new "Decision 0d" in §D and
+Milestone 28 in §C. Chapter 6's testable doctrine (Milestone 27) remains complete; no chapter's
+status changed here.
+
+**Previous milestone:** Milestone 27 — **chapter 6's seven-planets-in-N-signs family (vv.39-41)**:
 `passage:phaladeepika.06.p168`. Seven active cards, `PD.06.Vallaki`/`.Dharma`/`.Hasha`/`.Kendra`/
 `.Shula`/`.Yuga`/`.Gola`, each self-contained (its own item states its own naming clause, exact
 condition and effect in one paragraph, unlike the vv.44-56/vv.57-69 house-wise families' shared
@@ -36,27 +55,34 @@ relationship `PD.06.Varishtha`/`.Sama`/`.Adhama` already carry). With this passa
 **chapter 6's testable doctrine is complete** — see Milestone 27's own "Chapter 6 accounting."
 
 **Exact resume point:** `git fetch --all --prune`, confirm `main` == `origin/main`, then pick up
-§D. There is still **no open P0**. Chapter 6 no longer names the next milestone — it is done.
-`Rules/tools/leverage.py`'s own top-ranked item is `dep.triped-sign-class` (cost 1, unlocks 1
-card, `PD.04.Lagna.TripedSign`), followed by `dep.vargottama` (cost 14, unlocks 3 cards including
-opening chapter 3) and `dep.second-nativity`/`dep.transit`/`dep.prashna` (cost 5-6 each).
+§D. There is still **no open P0**. Chapter 6 remains done; no chapter's status changed in
+Milestone 28. **Do not re-open `dep.triped-sign-class` as "the top of `leverage.py`" without
+reading Decision 0d in §D first** — it is a human's reading of a printed word, not an
+implementation, and two independent sessions (21 and 28) have now confirmed the source does not
+settle it. The next real candidate is `dep.vargottama` (cost 14, unlocks 3 cards including
+opening chapter 3) or `dep.second-nativity`/`dep.transit`/`dep.prashna` (cost 5-6 each).
 Separately, `Rules/tools/backlog.py` flags **4 concept entries as newly resolvable** and stale
 since `dep.strength` landed in Milestone 22 — `concept:kala-bala-benefic-scope`,
 `concept:oja-yugma-fifth-graha`, `concept:strength-criterion-scope`,
-`concept:strength-is-not-bhava-strength` — none touched by this milestone and none a chapter-6
-matter; a future session should read them before picking a next chapter, since they are cheap and
-already unblocked. Neither list was acted on here, per this session's own brief not to continue
-past the one passage without a specific reason. **Six decisions are still owed by a human**, none
-blocking any of the above: `concept:moon-nature-criterion` (Milestone 20),
+`concept:strength-is-not-bhava-strength` — none touched by this or the prior milestone and none a
+chapter-6 matter; a future session should read them before picking a next chapter, since they are
+cheap and already unblocked. Neither list was acted on here, consistent with Milestone 27's own
+brief not to continue past one item without a specific reason, and this milestone's own brief
+being read-only investigation of exactly one dependency. **Seven decisions are still owed by a
+human**, none blocking any of the above: `concept:moon-nature-criterion` (Milestone 20),
 `concept:strength-criterion-scope` (Milestone 21), `concept:retrograde-combust-collision`
 (Milestone 22), `concept:parallel-of-overloaded` (Milestone 23),
-`concept:p009-lagna-or-moon-clause` (Milestone 24), and `concept:adhiyoga-distribution-strictness`
-(Milestone 26) — none touched by Milestone 27.
+`concept:p009-lagna-or-moon-clause` (Milestone 24), `concept:adhiyoga-distribution-strictness`
+(Milestone 26), and now **Decision 0d, `dep.triped-sign-class` / "biped" vs. the printed
+"triped"** (originated Milestone 21, formally investigated and reconfirmed Milestone 28) — none
+touched by Milestone 27 or 28 except the last, which Milestone 28 deepened without resolving.
 
-**Current Git SHA:** `92a30d2909273d11d27e7c34d42f12f1e66fccf9` (parent — this milestone's own
-commit follows this file's checkpoint)
+**Current Git SHA:** `5e84edde887bfc19f8896b4dfda6933296d39888` (parent — Milestone 27's own
+commit; this milestone's own commit follows this file's checkpoint)
 **Last verified remote SHA (origin/main):** same before this milestone's commit — 0 ahead /
-0 behind, working tree clean
+0 behind, working tree clean (two untracked, uncommitted files pre-dating this session were left
+untouched — a stray terminal-transcript dump and an unrelated draft report — neither is part of
+this milestone's diff)
 **Last update date:** 2026-08-29
 
 **Current test count:** 391 passing (`Engine/tests`) — was 363. Twenty-eight new in
@@ -71,16 +97,25 @@ count, and determinism), a positive/negative sweep confirming each of the seven 
 at its own exact count, a direct test that exactly one of the seven ever fires on any chart, and
 seven parametrized real-chart tests (below). One existing test file, `test_slice.py`, updated for
 the demo chart's new claim (60 → 61; `PD.06.Dharma` fires via `seven_graha_sign_count(6)`).
-**Current rule-card counts:** **537 total** · 520 executable (firing) · **17 inert** — inert
-count unchanged; +8: the seven `PD.06.Vallaki`/`.Dharma`/`.Hasha`/`.Kendra`/`.Shula`/`.Yuga`/
-`.Gola` cards (active) and `PD.06.SevenGrahas` (reference).
-**Current verification:** **534/537 cards signed off (99.4%)** — same three standing holdouts
-(`PD.01.Kalapurusha.Strength`, `PD.10.Venus.VargaMarsSaturn`, `PD.04.Lagna.TripedSign`); the
-reference card was auto-signed structural (`Rules/tools/review.py`, no interpretive layer to
-review), and all seven firing cards were signed by hand
-(`tarunrameshphotography + Claude`) at authoring time, so none reached the interpretive queue.
+**Current rule-card counts:** **537 total** · 520 executable (firing) · **17 inert** — unchanged
+by Milestone 28 (investigation only, no card written or edited); the Milestone 27 delta stands:
++8, the seven `PD.06.Vallaki`/`.Dharma`/`.Hasha`/`.Kendra`/`.Shula`/`.Yuga`/`.Gola` cards (active)
+and `PD.06.SevenGrahas` (reference).
+**Current verification:** **534/537 cards signed off (99.4%)** — unchanged by Milestone 28, same
+three standing holdouts (`PD.01.Kalapurusha.Strength`, `PD.10.Venus.VargaMarsSaturn`,
+`PD.04.Lagna.TripedSign` — the last now backed by two independent sessions' source checks rather
+than one, still unsigned because the defect it holds on is real); the reference card was
+auto-signed structural (`Rules/tools/review.py`, no interpretive layer to review), and all seven
+firing cards were signed by hand (`tarunrameshphotography + Claude`) at authoring time, so none
+reached the interpretive queue.
 
-**Backlog (Milestone 27):** 139 entries (was 139 — unchanged in count, one status flip and one
+**Backlog (Milestone 28):** 139 entries (was 139 — unchanged). No entry moved, none added, none
+resolved: this was a read-only re-investigation of one already-registered dependency
+(`dep.triped-sign-class`, `effort: 1`, `implemented: false`) that concluded no new evidence
+justifies changing its registry entry — the entry was written correctly the first time. "Available
+now" holds at 72 for the same reason: nothing was released and nothing was newly deferred.
+
+**Original Milestone 27 note on the backlog:** 139 entries (was 139 — unchanged in count, one status flip and one
 new dependency). `passage:phaladeepika.06.p168` moves to `resolved`. One new dependency,
 `dep.seven-graha-sign-count` (`predicate: "seven_graha_sign_count"`, `implemented: true` the
 moment `Engine/facts.py` emits it, effort 2 — the smallest predicate dependency in the registry).
@@ -189,6 +224,16 @@ discipline Milestone 24 itself applied to its own larger, but not newly-kinded, 
 "Provenance" holds at the same 99.4% raw fraction (534/537, was 526/529) with the same three
 holdouts; the new reference card was auto-signed structural and all seven firing cards were
 signed by hand at authoring time, exactly as Milestone 26's two cards were.
+
+**Milestone 28: identical expression and result — 59.00% ≈ 59%, held for the simplest reason yet:
+nothing was built, encoded, or changed.** This was a read-only investigation of one dependency
+(`dep.triped-sign-class`) that concluded, with new corroborating source evidence, the same thing
+Milestone 21 already concluded: the source does not resolve the term, so the card stays inert and
+no capability was implemented. No row in this table moves on an investigation whose outcome is
+"confirmed still unresolved" — not "Rule extraction/encoding" (0 cards), not "Reasoning engine
+capability" (0 predicates), not "Test coverage" (0 tests), not "Provenance" (534/537, unchanged). A dependency being
+*investigated* is not the same as it being *cleared*, and the score must not move to reward the
+investigation itself.
 
 **Milestone 26: identical expression and result to Milestone 25's — 59.00% ≈ 59%.** No category
 score moved. Two cards closing one small passage is smaller than Milestone 24's own 3-card
@@ -2089,15 +2134,161 @@ first time (the first being Milestone 26's `dupes.py` catch on the Adhiyoga card
 
 ---
 
+### Milestone 28 — `dep.triped-sign-class` re-investigated; confirmed unresolved, left inert
+
+**Phase:** none (read-only investigation; no Phase 2 or 3 deliverable was produced)
+**Scope:** zero cards, zero engine changes, zero dependency-registry edits — one deepened,
+re-confirmed finding, recorded as `MILESTONES.md` §D Decision 0d
+**Status:** COMPLETE (as an investigation; this is not an implementation milestone)
+**Commit:** this milestone's own commit (see `git log`)
+**Remote:** VERIFIED
+
+**Why this dependency was investigated rather than implemented.** `Rules/tools/leverage.py`
+ranks `dep.triped-sign-class` first by ROI (cost 1, unlocks 1 card,
+`PD.04.Lagna.TripedSign`) — the same ranking Milestone 27's own header noted and explicitly
+declined to act on, because the ranking measures cost and cards-unlocked, not whether the
+question is actually an engineering question. It is not: `Rules/deferred.json`'s own entry
+already stated *"nothing to build until the term is resolved,"* and the entry was written by
+Milestone 21 after a source check, not asserted without one. This session's brief was to verify
+that diagnosis against the live repository and the primary source directly, rather than either
+trust it uncritically or discard it in favor of implementing a guess to clear the backlog.
+
+**Source-first reconnaissance.** Read `Knowledge/phaladeepika.md`'s chapter 4 (Kalapurusha
+strength material, pp.35-50) end to end, not just the one verse: verse 6 (line ~865) is
+Mantreswara's own doctrine (the numbered-paragraph strength commentary), immediately preceded
+by a structurally different, translator-authored rule with the same shape — "Bhava Dik Bala,"
+pp.40-41 — which classifies signs biped/quadruped/keeta/watery and gives each a Lagna-or-house
+strength rule. Grepped the full corpus (`Knowledge/phaladeepika.md`, `Knowledge/brihat-jataka.md`)
+for every spelling near "triped," "biped," "quadruped," "centiped"/"keeta," and "watery" to
+locate every passage that could corroborate or define the term; found the chapter 1 v.7 body-form
+table (`PD.01.SignBodyForm.Table`) and the chapter 4 Bhava Dik Bala rule, both already known to
+the store, and confirmed no third passage anywhere names "triped."
+
+**Independent primary-source verification, not reuse of the prior session's claim.** Opened
+`Books/Mantreswara_s__Phaladeeplka_.pdf` directly with PyMuPDF this session (0-indexed page 43,
+printed p.44 — located by searching the PDF's own text layer for the sentence, not by trusting
+the stored `page_anchor`). Three independent checks, not one: (1) the raw extracted text layer
+reads "...if it is a triped sign..." exactly as the card quotes it; (2) `page.get_text("dict")`
+span data shows this entire sentence as a single unbroken `TimesNewRomanPSMT` run, ruling out a
+font-substitution or ligature artifact at the specific letter; (3) a 600dpi crop of just this
+line was rendered to an image and read directly — plain, legible, unambiguous "triped." Cross-
+checked against `Pipeline/profiles/phaladeepika.json`, which records this book's extraction
+method as `pdf_text` direct extraction from a clean digital layer, not OCR over a scan — the
+class of extraction defect that would most plausibly explain a single-letter substitution
+(scanned-image OCR misreading a glyph) does not apply to this book's pipeline at all.
+
+**Conclusion: Decision 0d (see §D) — genuinely unresolved, not a capability gap.** "Biped" is
+the most textually plausible reading (the Bhava Dik Bala rule states the identical Lagna-biped-
+one-Rupa clause), but it is a different authority's table, and it does not explain the verse's
+own "Vrischika gets 1/4 Rupa" clause, which nothing in either converted book corroborates. Per
+this project's own standing rule that a card must never make a substitution the source itself
+does not make, `dep.triped-sign-class` was left exactly as `Rules/deferred.json` already had it
+(`effort: 1`, `implemented: false`) and `PD.04.Lagna.TripedSign` was left exactly as encoded
+(`activation: "inert"`). **No file in `Rules/` was edited.**
+
+**What would still be needed even if "biped" were later ratified by a human.** Discovered as a
+side finding, not chased further: `PD.01.SignBodyForm.Table` records only the four class names
+(`classes: ["human", "quadruped", "centiped", "watery"]`), not a sign→class mapping — the
+Milestone 16 verification pass confirmed the printed table's *layout* is unambiguous but
+deliberately left encoding its *contents* to a future Phase 3 session. So resolving the "triped"/
+"biped" question would not, by itself, make `PD.04.Lagna.TripedSign` executable; the per-sign
+table would still need to be encoded as `predicts` data first. Recorded in Decision 0d; no
+`dep.*` entry was added for it, because `dep.triped-sign-class` already exists to cover the gap
+and a second dependency for the same missing table would double-count it in `leverage.py`.
+
+**Verification results.** `Rules/tools/verify.py`: clean, unchanged (537 cards, every quote
+byte-exact, every deferred item recorded — no output differs from before this session).
+`Rules/tools/dupes.py`: no duplicate candidates, unchanged. `Rules/tools/backlog.py`: 139
+entries, unchanged, same 72 available-now, same 7 newly-unblocked-but-stale entries already
+flagged by Milestone 27's own header. `Rules/tools/leverage.py`: unchanged — `dep.triped-sign-
+class` still ranks first by the tool's own ROI metric, exactly as it did before this session,
+because the tool has no way to represent "this is a human question, not an engineering one";
+that gap is now recorded in prose (§D, Decision 0d, and the header's resume point) rather than
+left implicit. Full suite: 391/391 passing, unchanged.
+
+**Production blockers cleared:** none. **Production-readiness impact:** none — see §A's own
+Milestone 28 paragraph for the row-by-row reasoning; a confirmed-unresolved investigation is not
+a cleared capability and must not move any category.
+
+**Why this milestone matters.** It is the difference between a stale note that might be wrong by
+now and a note two independent sessions, seven milestones apart, have each derived from the
+primary source by different methods. A future session reading `leverage.py`'s output cold would
+otherwise see `dep.triped-sign-class` sitting at the top of the ROI table and reasonably wonder
+whether it was overlooked; it was not, twice over, and that is now on the record in a form a
+future session can check rather than merely trust.
+
+---
+
 ## D. CURRENT MILESTONE
 
-**Nothing is currently in progress.** Milestone 27 above is fully committed, tested, verified,
-and pushed. Chapter 6's testable doctrine is now complete (see Milestone 27's own "Chapter 6
-accounting").
+**Nothing is currently in progress.** Milestone 28 above is fully committed, tested, verified,
+and pushed — it added no card and no engine code, only a re-confirmed source finding (see
+Decision 0d immediately below). Chapter 6's testable doctrine remains complete (see Milestone
+27's own "Chapter 6 accounting").
 
-**Six decisions are owed by a human.** None blocks the next milestone; each should be
-settled before the work it touches is extended. Milestone 27 opened none and closed none of the
-six; it touched no card any of them names.
+**Seven decisions are owed by a human.** None blocks the next milestone; each should be
+settled before the work it touches is extended. Milestone 28 opened one new one (0d, though its
+underlying question dates to Milestone 21) and closed none; Milestone 27 opened none and closed
+none.
+
+### Decision 0d (originated Milestone 21, formally investigated Milestone 28) — `dep.triped-sign-class` / `PD.04.Lagna.TripedSign`
+
+**Whether "triped" (ch.4 v.6, printed p.44) is a misprint for "biped," or a genuine term this
+project's corpus simply does not define.** The verse: *"The first house gets one Rupa of
+strength if it is a triped sign. If it be Vrischika it gets 1/4 Rupa as its strength. In any
+other sign the strength will be 1/2 Rupa."* No class named "triped" (or any spelling near it)
+appears anywhere else in Phaladeepika or in Brihat Jataka, the only two converted books.
+
+**What Milestone 28 added over Milestone 21's original finding.** Milestone 21 confirmed
+"triped" against a rendered page image and stopped there. This session went one step further:
+`Books/Mantreswara_s__Phaladeeplka_.pdf` page index 43 (0-indexed; printed p.44) was reopened
+directly with PyMuPDF and inspected at both the text-layer and the glyph level — not just
+re-rendered. Two things rule out extraction defects specifically, not just confirm the word:
+1. **The book's text layer is `pdf_text` direct extraction from a clean digital source**
+   (`Pipeline/profiles/phaladeepika.json`: *"Clean digital text layer... Goes through
+   producers/pdf_text.py, not OCR"*), so there is no scan-to-glyph guessing step where a
+   "b"/"t" confusion could be introduced the way it could for Brihat Jataka's actual OCR pipeline.
+2. **The PDF's own font metadata for this exact span is a single unbroken `TimesNewRomanPSMT`
+   run reading "triped"** — confirmed by both extracting the raw text layer and reading the
+   `page.get_text("dict")` span data, then independently rendering a 600dpi crop of just this
+   line and reading the image directly. All three (text layer, font/span data, rendered glyphs)
+   agree: the page prints "triped," not "biped" with a smudged or misrendered glyph.
+
+**Why "biped" is the leading candidate but not a safe substitution.** Ch.4's own Bhava Dik Bala
+rule (a) — *"Gemini, Virgo, Libra and first part of Sagittarius are biped signs. If these signs
+be in the Lagna, they obtain one Rupa of strength"* — states exactly the headline clause v.6
+would state if "triped" were "biped": biped-in-Lagna, one full Rupa. But that rule is the
+**translator's survey of "other ancients"** (`PD.04.Frame.OtherAncients`), a different authority
+from the verse `PD.04.Lagna.TripedSign` quotes (Mantreswara's own doctrine,
+`PD.04.Frame.Mantreswara`), and it does not state — and nothing else in the corpus states — the
+verse's own second clause, "if it be Vrischika it gets 1/4 Rupa." That clause has zero source
+corroboration under any reading. Silently correcting to "biped" would therefore be encoding a
+guess for the clause that matters most (the general case) while leaving a second, unexplained
+clause (the Vrischika exception) exactly as unsupported as it was before the "correction" — a
+partial fix that would look more resolved than it is.
+
+**Two defensible positions, both the human's to pick:**
+1. **Leave it inert, as encoded.** `dep.triped-sign-class` (`Rules/deferred.json`, effort 1,
+   `implemented: false`) stays open; `PD.04.Lagna.TripedSign` stays `activation: "inert"`,
+   `requires: ["dep.triped-sign-class"]`. Nothing in any consultation is wrong, because nothing
+   is asserted.
+2. **Encode "triped" as "biped," on the strength of the internal parallel above**, accepting that
+   the Vrischika clause remains a documented, uncorroborated detail of Mantreswara's own verse
+   rather than something the correction explains. Doing this would also require, separately,
+   encoding `PD.01.SignBodyForm.Table`'s sign→class mapping as queryable data for the first
+   time — that table currently states only the four class names (`classes: [human, quadruped,
+   centiped, watery]`, `PD.01.SignBodyForm.Table`), not a per-sign table, precisely because the
+   Milestone 16 verification pass that confirmed the table's *layout* deliberately left encoding
+   its *contents* to a future Phase 3 session rather than a verification pass. So even choosing
+   (2) does not make `PD.04.Lagna.TripedSign` executable by itself — it would clear the term
+   question but leave a second, independent, and genuinely still-open encoding task.
+
+**Recommendation: (1), unchanged, now on stronger evidence.** Two independent sessions, seven
+milestones apart, reading the primary source by two different methods (page-image rendering,
+then text-layer/font/glyph triple-check) reached the identical conclusion. That convergence is
+evidence the term is genuinely unresolved, not evidence a diagnosis was rushed the first time. A
+future session should not re-open this by trusting `leverage.py`'s ROI ranking alone — see the
+header's "Exact resume point" for why that ranking is a known false signal for this one entry.
 
 ### Decision 0c (Milestone 26) — `concept:adhiyoga-distribution-strictness`
 
