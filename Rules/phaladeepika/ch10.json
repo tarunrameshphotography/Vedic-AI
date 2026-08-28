@@ -1126,10 +1126,17 @@
       "conditions": {
         "any": [
           {
-            "in_varga_sign": {
+            "varga_owned_by": {
               "graha": "Venus",
-              "varga": "D9",
-              "sign": "any"
+              "varga": "?v",
+              "owner": "Mars"
+            }
+          },
+          {
+            "varga_owned_by": {
+              "graha": "Venus",
+              "varga": "?v",
+              "owner": "Saturn"
             }
           },
           {
@@ -1157,14 +1164,14 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": null,
-        "verified_date": null
+        "verified_by": "tarunrameshphotography + Claude (Milestone 29): re-diagnosed, not resolved. Read Phaladeepika ch. 3 vv. 1-20 in full and Brihat Jataka ch. 21 in full specifically to settle what \"the Varga of Mars or Saturn\" means; neither states an ownership doctrine that names a division. Condition rewritten from occupancy (in_varga_sign, D9-specific, and further broken by a literal \"any\") to existentially-quantified ownership (varga_owned_by(Venus,?v,Mars/Saturn)), matching the verse's own silence on which division. Confirmed the two aspect branches remain faithful and confirmed varga_owned_by is declared but not implemented, so the card stays correctly inert on a real, newly-named dependency (dep.varga-ownership) rather than on dep.varga, which is now built and does not apply to this card.",
+        "verified_date": "2026-08-29"
       },
       "activation": "inert",
-      "note": "The quote runs across a printed page break; the page anchor sits inside the span, as it does in the corpus. VERIFICATION DEFECT (Milestone 19, left unsigned): the first branch, in_varga_sign(Venus,\"D9\",\"any\"), does not encode what the verse says. The verse conditions on Venus being in \"the Varga of Mars or Saturn\" -- a varga *owned by* one of those two grahas -- and the leaf tests neither ownership nor any particular sign, while narrowing \"Varga\" to D9, a reading the verse does not state. It is currently harmless twice over (the card is inert, and \"any\" is a literal argument that matches no fact, so the branch fails rather than firing), but it must not be repaired by simply implementing dep.varga and flipping `activation`. Not corrected here: choosing what \"Varga\" denotes in this verse -- D9 specifically, any divisional chart, or the signs Mars and Saturn own -- is an interpretive decision belonging to whoever encodes the varga doctrine with chapter 3 and 21 in hand, not to a verification pass. The two aspect branches (Mars/Saturn aspecting Venus) are faithful and were confirmed.",
+      "note": "The quote runs across a printed page break; the page anchor sits inside the span, as it does in the corpus. VERIFICATION DEFECT (Milestone 19) RE-DIAGNOSED, NOT RESOLVED (Milestone 29): the first branch used to read in_varga_sign(Venus,\"D9\",\"any\") -- occupancy of a literal D9 sign, narrowing \"Varga\" to Navamsa on no textual basis, and further broken by \"any\" being a literal that matches no fact. Chapter 3 (v.1, v.4 -- now encoded) and Brihat Jataka ch. 21 (read this milestone, corroborates the Vargottama concept at v.7 but states no ownership doctrine) were both read with this verse specifically in mind, per the prior note's own instruction, and neither resolves which varga \"the Varga of Mars or Saturn\" means. This is a genuine source ambiguity, not a missing calculation: the condition is now rewritten to test ownership rather than occupancy -- varga_owned_by(Venus,?v,Mars) / varga_owned_by(Venus,?v,Saturn), existentially quantified over which varga, matching the verse's own silence on that point -- but `varga_owned_by` is declared in the vocabulary and not implemented, so the branches stay correctly unfireable rather than coincidentally satisfied by dep.varga's D9-occupancy machinery. Requires dep.varga-ownership, a distinct, not-yet-built capability; dep.varga (Navamsa occupancy) does not and must not release this card. The two aspect branches (Mars/Saturn aspecting Venus) remain faithful and were confirmed in Milestone 19.",
       "exclusions": [],
       "requires": [
-        "dep.varga",
+        "dep.varga-ownership",
         "dep.aspects"
       ]
     },

@@ -10,7 +10,7 @@ sign-off in the card's `extraction.verified_by` in the style already
 used for `PD.02.*`, `PD.09.*`, `PD.10.*` -- reviewer name(s) plus a short
 description of what was checked -- not a blanket approval.
 
-**3 card(s) queued.**
+**2 card(s) queued.**
 
 ## `PD.01.Kalapurusha.Strength` (v. 4 (Notes), inert)
 
@@ -27,11 +27,3 @@ description of what was checked -- not a blanket approval.
 - conditions: `{"all": []}`
 - predicts: `{"relation": "bhava_strength", "authority": "Mantreswara", "house": 1, "unit": "rupa", "table": {"triped": 1.0, "Scorpio": 0.25, "any other": 0.5}}`
 - note: AMBIGUOUS AT THE SOURCE, and inert for that reason rather than for a missing capability. The verse partitions the signs three ways and names the first class 'triped' -- a category that appears nowhere else in this book. Chapter 1 v. 7's body-form table (PD.01.SignBodyForm.Table) classifies signs biped, quadruped, keeta and watery, with no triped among them, and the survey's own Bhava Dik Bala earlier in this chapter uses the same four. 'Triped' is confirmed as the printed word against the rendered page (image p0044, printed p.44), so it is a defect of the book and not of the extraction. Whether it is a misprint for 'biped' -- which would make the verse parallel to the survey's Bhava Dik Bala -- is exactly the kind of substitution a card must not make on its own. Registered as dep.triped-sign-class -- the store carries no such class because the book never gives one.
-
-## `PD.10.Venus.VargaMarsSaturn` (v. 4, inert)
-
-> The native will have illicit relations with other people's wives if Venus be in the Varga of Mars or Saturn or be aspected by these planets.
-
-- conditions: `{"any": [{"in_varga_sign": {"graha": "Venus", "varga": "D9", "sign": "any"}}, {"aspects": {"graha": "Mars", "target": "Venus"}}, {"aspects": {"graha": "Saturn", "target": "Venus"}}]}`
-- predicts: `{"domain": "marriage", "subject": "native", "effect": "illicit_relations"}`
-- note: The quote runs across a printed page break; the page anchor sits inside the span, as it does in the corpus. VERIFICATION DEFECT (Milestone 19, left unsigned): the first branch, in_varga_sign(Venus,"D9","any"), does not encode what the verse says. The verse conditions on Venus being in "the Varga of Mars or Saturn" -- a varga *owned by* one of those two grahas -- and the leaf tests neither ownership nor any particular sign, while narrowing "Varga" to D9, a reading the verse does not state. It is currently harmless twice over (the card is inert, and "any" is a literal argument that matches no fact, so the branch fails rather than firing), but it must not be repaired by simply implementing dep.varga and flipping `activation`. Not corrected here: choosing what "Varga" denotes in this verse -- D9 specifically, any divisional chart, or the signs Mars and Saturn own -- is an interpretive decision belonging to whoever encodes the varga doctrine with chapter 3 and 21 in hand, not to a verification pass. The two aspect branches (Mars/Saturn aspecting Venus) are faithful and were confirmed.

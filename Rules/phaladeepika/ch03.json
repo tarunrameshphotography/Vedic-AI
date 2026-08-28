@@ -1,0 +1,198 @@
+{
+  "book_id": "phaladeepika",
+  "chapter": 3,
+  "cards": [
+    {
+      "id": "PD.03.Dasavarga",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 3,
+        "verse": "1",
+        "page_anchor": "phaladeepika/p0028",
+        "tier": 1,
+        "quote": "The ten-fold division of the Zodiac is known as Dasa vargas (Vargas mean divisions). Under the scheme of Dasavarga the various divisions are as Under :— (1) Rasi Each Rasi 30° (2) Hora 2 parts of a Rasi of 15° each. (3) Drekkana 3 parts of a Rasi of 10° each. (4) Trimsamsa 5 parts of 5°, 7° or 8° each. (All parts are not equal) (5) Saptamsa 7 parts of 4°-17\"-8\" each. (6) Navamsa 9 parts of 3°-20 each. (7) Dasmamsa 10 parts of 3°each. (8) Dwadasamsa 12 parts of 2°-30' each. (9) Shodasamsa 16 parts of l°-16'-52\" each. (10) Shastyamsa 60 parts of 30' each.",
+        "quote_display": "The ten-fold division of the Zodiac is known as Dasa vargas (Vargas mean divisions). Under the scheme of Dasavarga the various divisions are as Under :— (1) Rasi Each Rasi 30° (2) Hora 2 parts of a Rasi of 15° each. (3) Drekkana 3 parts of a Rasi of 10° each. (4) Trimsamsa 5 parts of 5°, 7° or 8° each. (All parts are not equal) (5) Saptamsa 7 parts of 4°-17\"-8\" each. (6) Navamsa 9 parts of 3°-20 each. (7) Dasmamsa 10 parts of 3°each. (8) Dwadasamsa 12 parts of 2°-30' each. (9) Shodasamsa 16 parts of l°-16'-52\" each. (10) Shastyamsa 60 parts of 30' each.",
+        "quote_sha256": "62f418cbb3ca4c943615f1bf0348be1942fff6748d4d3f57bade4ac863dca712",
+        "char_span": [
+          46522,
+          47081
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "dasavarga",
+        "table": {
+          "D1": 1,
+          "D9": 9
+        },
+        "printed_list": [
+          {
+            "name": "Rasi",
+            "parts": 1,
+            "arc": "30°"
+          },
+          {
+            "name": "Hora",
+            "parts": 2,
+            "arc": "15° each"
+          },
+          {
+            "name": "Drekkana",
+            "parts": 3,
+            "arc": "10° each"
+          },
+          {
+            "name": "Trimsamsa",
+            "parts": 5,
+            "arc": "5°, 7° or 8° each (unequal, as printed)"
+          },
+          {
+            "name": "Saptamsa",
+            "parts": 7,
+            "arc": "4°17'8\" each"
+          },
+          {
+            "name": "Navamsa",
+            "parts": 9,
+            "arc": "3°20' each"
+          },
+          {
+            "name": "Dasmamsa",
+            "parts": 10,
+            "arc": "3° each"
+          },
+          {
+            "name": "Dwadasamsa",
+            "parts": 12,
+            "arc": "2°30' each"
+          },
+          {
+            "name": "Shodasamsa",
+            "parts": 16,
+            "arc": "1°16'52\" each, as printed"
+          },
+          {
+            "name": "Shastyamsa",
+            "parts": 60,
+            "arc": "30' each"
+          }
+        ]
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "automated (Rules/tools/review.py): reference/table card -- the quote is the fact itself, with no interpretation between quote and card; byte-exact verification (verify.py) is the complete check such a card can receive",
+        "verified_date": "2026-08-29"
+      },
+      "activation": "reference",
+      "note": "The full Dasavarga (ten-fold division) list, verse 1. `table` carries only the two codes the store's varga vocabulary currently uses -- D1 (Rasi, already the base chart) and D9 (Navamsa, dep.varga's only implemented division) -- since a `D`-number for the other eight is a modern convention this verse does not itself use, and the engine does not yet consume them. `printed_list` preserves all ten divisions from the verse, uncoded, so the rest of the definition is not silently dropped. Trimsamsa's '5 parts' counts the five planetary allotments the verse itself later details (v.4: Mars/Saturn/Jupiter/Mercury/Venus own 5,5,8,7,5 degrees in an odd sign) rather than five equal arcs -- the verse's own parenthetical ('All parts are not equal') says so. Shodasamsa's printed arc, 1°16'52\", does not equal 30°/16 (which is 1°52'30\"); transcribed as printed, not corrected -- read as a probable OCR digit transposition ('16' for '52') and not adjudicated here, since no division built this milestone depends on it. Consulted by `Doctrine.varga_division_count` (Engine/doctrine.py), read by the `_varga` extractor (Engine/facts.py) rather than the divisor 9 being a Python literal.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.03.Vargottama.Definition",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 3,
+        "verse": "1",
+        "page_anchor": "phaladeepika/p0028",
+        "tier": 1,
+        "quote": "Vargottama is the name given to that particular Navamsa in a Rasi which bears the same sign as that of Rasi itself.",
+        "quote_display": "Vargottama is the name given to that particular Navamsa in a Rasi which bears the same sign as that of Rasi itself.",
+        "quote_sha256": "0064898c165728738eb4018ce2540d6a400f9aa679abb2fb896e01380a3a31c7",
+        "char_span": [
+          47085,
+          47200
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "vargottama_definition",
+        "varga_a": "D1",
+        "varga_b": "D9"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "automated (Rules/tools/review.py): reference/table card -- the quote is the fact itself, with no interpretation between quote and card; byte-exact verification (verify.py) is the complete check such a card can receive",
+        "verified_date": "2026-08-29"
+      },
+      "activation": "reference",
+      "note": "The definition of Vargottama, verse 1's closing sentence: the same sign in Rasi (D1) and Navamsa (D9). Consulted by `Doctrine.vargottama_definition`, read by the `_varga` extractor (Engine/facts.py) so the D1/D9 comparison is doctrine the engine reads rather than two literals hardcoded into the extractor. This is the only definition of Vargottama the corpus states; PD.09.Vargottama (ch. 9 v. 20) states an effect for it, not a further definition, and Brihat Jataka ch. 21 v. 7 uses the term for a lagna's own Navamsa without redefining it -- consistent with this definition, not a second one.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.03.Navamsa.Start",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 3,
+        "verse": "4",
+        "page_anchor": "phaladeepika/p0029",
+        "tier": 1,
+        "quote": "The first Navamsa in the signs from Aries onwards begins respectively with Aries, Capricorn, Libra and Cancer.",
+        "quote_display": "The first Navamsa in the signs from Aries onwards begins respectively with Aries, Capricorn, Libra and Cancer.",
+        "quote_sha256": "e88dd29278381ea32c3d6a835b1dcf3f67364ae69b936986437a1ff66ea0d30a",
+        "char_span": [
+          49002,
+          49112
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "navamsa_start",
+        "examples": {
+          "Aries": "Aries",
+          "Taurus": "Capricorn",
+          "Gemini": "Libra",
+          "Cancer": "Cancer"
+        },
+        "table": {
+          "Moveable": 0,
+          "Fixed": 8,
+          "Dual": 4
+        }
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "automated (Rules/tools/review.py): reference/table card -- the quote is the fact itself, with no interpretation between quote and card; byte-exact verification (verify.py) is the complete check such a card can receive",
+        "verified_date": "2026-08-29"
+      },
+      "activation": "reference",
+      "note": "Verse 4's closing sentence gives four worked examples, not a general rule in so many words: Aries (Moveable) begins with itself, Taurus (Fixed) with Capricorn, Gemini (Dual) with Libra, Cancer (Moveable, again) with itself. `table` is the engine's arithmetic restatement of those four examples by mobility class (ch. 1's own `sign_attributes` classification, not re-derived here) -- the offset, in signs, from a sign to its own first Navamsa: 0 for Moveable, 8 (the 9th sign counted inclusively) for Fixed, 4 (the 5th counted inclusively) for Dual. The two Moveable examples, three signs apart, agree with each other and with this reading, which is the cross-check that justifies generalising by mobility rather than treating the four as four unrelated positional facts. `examples` preserves the verse's own four pairs verbatim. Consulted by `Doctrine.navamsa_start_offset`, read by the `_varga` extractor (Engine/facts.py).",
+      "exclusions": []
+    }
+  ]
+}

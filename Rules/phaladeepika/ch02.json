@@ -3866,36 +3866,43 @@
         "any": [
           {
             "combust": {
-              "graha": "any"
+              "graha": "?g"
             }
           },
           {
             "dignity": {
-              "graha": "any",
+              "graha": "?g",
+              "dignity": "debilitated"
+            }
+          },
+          {
+            "dignity_in_varga": {
+              "graha": "?g",
+              "varga": "D9",
               "dignity": "debilitated"
             }
           },
           {
             "dignity": {
-              "graha": "any",
+              "graha": "?g",
               "dignity": "inimical"
             }
           },
           {
             "in_house": {
-              "graha": "any",
+              "graha": "?g",
               "house": 6
             }
           },
           {
             "in_house": {
-              "graha": "any",
+              "graha": "?g",
               "house": 8
             }
           },
           {
             "in_house": {
-              "graha": "any",
+              "graha": "?g",
               "house": 12
             }
           }
@@ -3912,18 +3919,12 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": "tarunrameshphotography + Claude (the quote's six alternatives -- eclipsed, debilitated, enemy's house, 6th/8th/12th from the Ascendant -- map one-to-one onto the condition's six leaves; correctly inert on dep.varga since debilitation-in-Navamsa needs the varga engine, and on dep.condition-variables for the \"any\" sentinel)",
-        "verified_date": "2026-08-24"
+        "verified_by": "tarunrameshphotography + Claude (Milestone 29): the quote's six alternatives -- eclipsed, debilitated (in Rasi or Navamsa), enemy's house, 6th/8th/12th from the Ascendant -- now map one-to-one onto the condition's seven leaves (the debilitation alternative needed two, one per varga). Released: dep.combust, dep.dignity, dep.dignity-friendship (for \"inimical\"), dep.varga, dep.dignity-in-varga and dep.condition-variables are all now implemented, and the \"any\" sentinel is rewritten to \"?g\" per the Milestone 16/18 finding that \"any\" matches no fact.",
+        "verified_date": "2026-08-29"
       },
-      "activation": "inert",
-      "note": "Three of the six alternatives are house placements the engine can already test, but the rule is quantified over the grahas and the debilitation clause covers Navamsa as well as Rasi.",
-      "exclusions": [],
-      "requires": [
-        "dep.combust",
-        "dep.dignity",
-        "dep.varga",
-        "dep.condition-variables"
-      ]
+      "activation": "active",
+      "note": "Quantified over the grahas; the debilitation alternative covers Navamsa as well as Rasi, now as two leaves of the same disjunction rather than one.",
+      "exclusions": []
     },
     {
       "id": "PD.02.Prashna.ReservoirWater",

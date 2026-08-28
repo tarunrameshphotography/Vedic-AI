@@ -77,25 +77,54 @@
       "title": "vargottama extractor",
       "kind": "predicate",
       "predicate": "vargottama",
-      "detail": "Same sign in D-1 and D-9. Blocked on the varga engine.",
+      "detail": "Same sign in D-1 and D-9, per ch. 3 v.1's own definition (PD.03.Vargottama.Definition). Built Milestone 29 (Engine/facts.py::_varga); releases PD.09.Vargottama.",
       "phase": "2 (engine completion)",
       "depends_on": [
         "dep.varga"
       ],
       "effort": 1,
-      "effort_basis": "D-1/D-9 sign equality once vargas exist"
+      "effort_basis": "D-1/D-9 sign equality once vargas exist",
+      "implemented": true
     },
     "dep.varga": {
       "title": "varga (divisional chart) engine",
       "kind": "calculator",
       "predicate": "in_varga_sign",
-      "detail": "D-9 at minimum; the MVP scope names D-1, D-3 and D-9.",
+      "detail": "D-9 (Navamsa) only. Built Milestone 29 (Engine/facts.py::_varga, Engine/doctrine.py). The earlier note here said the MVP scope named D-1, D-3 and D-9; re-checked against the store before building anything, no current card consumes a D-3 fact -- PD.10.Venus.VargaMarsSaturn's 'Varga of Mars or Saturn' is ownership, not occupancy, and stays blocked on the new dep.varga-ownership regardless of which division it turns out to mean -- so only D9 was built, per the same one-division-at-a-time discipline dep.seven-graha-sign-count and dep.strength already followed.",
       "phase": "2 (engine completion)",
       "depends_on": [
         "chapter:phaladeepika.03"
       ],
       "effort": 3,
-      "effort_basis": "divisional longitude arithmetic plus a second frame in the ChartBundle"
+      "effort_basis": "divisional longitude arithmetic plus a second frame in the ChartBundle",
+      "implemented": true
+    },
+    "dep.dignity-in-varga": {
+      "title": "dignity read against a divisional placement",
+      "kind": "predicate",
+      "predicate": "dignity_in_varga",
+      "detail": "Ch. 2 v.36: a graha is 'adversely disposed' if 'debilitated (be in a sign of debilitation or Navamsa)' -- debilitation tested against the D9 placement as well as the D1 one. Built Milestone 29 (Engine/facts.py::_varga, folded into the same loop that computes in_varga_sign since the D9 sign is already in hand there), narrowly: only the 'debilitated' value is emitted, because that is the only dignity this verse names for a divisional placement -- exalted/own/Moolatrikona-in-Navamsa facts would be speculative vocabulary no card asks for. Releases PD.02.AdverseDisposition.",
+      "phase": "2 (engine completion)",
+      "depends_on": [
+        "dep.varga",
+        "dep.dignity"
+      ],
+      "effort": 1,
+      "effort_basis": "reuses _varga's already-computed D9 sign and doctrine.exaltation's debilitation_sign; one more fact per graha, no new lookup",
+      "implemented": true
+    },
+    "dep.varga-ownership": {
+      "title": "varga ownership predicate",
+      "kind": "predicate",
+      "predicate": "varga_owned_by",
+      "detail": "Whether a divisional sign a graha occupies is *ruled by* another named graha ('Venus in the Varga of Mars or Saturn', ch. 10 v.4) -- a different fact from dep.varga's sign occupancy. Which division 'the Varga' names in that verse is unresolved: chapter 3 (vv.1,4, encoded Milestone 29) and Brihat Jataka ch. 21 (read Milestone 29, not encoded -- no rule cards exist for that book yet) were both checked with this verse specifically in mind and neither states it. Declared in Engine/facts.py's VOCABULARY (graha, varga, owner) so PD.10.Venus.VargaMarsSaturn's rewritten condition is reported as a real gap rather than silently mis-satisfied by dep.varga; not implemented, and implementing the occupancy half (dep.varga) must not be read as resolving this one.",
+      "phase": "2 (engine completion)",
+      "depends_on": [
+        "chapter:phaladeepika.03",
+        "chapter:brihat-jataka.21"
+      ],
+      "effort": 4,
+      "effort_basis": "a second varga-frame lookup (which graha's sign a division-sign belongs to) plus the still-open question of which division the verse means; a human reading of Brihat Jataka's own commentary tradition may be needed before this is even a well-posed calculator"
     },
     "dep.nature": {
       "title": "benefic/malefic classification",
@@ -549,12 +578,194 @@
       "chapter": 3,
       "locus": "whole chapter - Divisions of a sign",
       "what": "varga definitions and their computation",
-      "reason": "Reference chapter, not rule-dense. Defines the divisions dep.varga must compute.",
+      "reason": "Reference chapter, not rule-dense. Slice 1 (Milestone 29) extracted v.1's Dasavarga list and Vargottama definition, and v.4's Navamsa-start rule -- the minimum this milestone's dep.varga/dep.vargottama needed, per the same one-cluster-at-a-time discipline chapter 6 was sliced with. The rest of the chapter (vv.2-3, 4's Hora/Drekkana/Dwadasamsa/Trimsamsa half, 5-20) is tracked paragraph by paragraph below rather than left as one whole-chapter placeholder, now that any card exists for this chapter at all.",
       "requires": [
         "dep.none"
       ],
       "phase": "3 (knowledge)",
       "status": "deferred"
+    },
+    {
+      "id": "passage:phaladeepika.03.p003",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 3,
+      "locus": "v. 2 (p.28)",
+      "what": "which six/seven of the ten vargas count as Shadvarga/Saptavarga, and a competing view that Navamsa's effect equals Rasi's and Bhava's",
+      "reason": "Classificatory reference doctrine (which vargas belong to which named subset), not itself a testable condition, and not needed by dep.varga or dep.vargottama (D9 alone). Not reviewed for a card this slice; a future slice building Shadvarga-conditioned cards (e.g. v.11) would read it.",
+      "requires": ["dep.none"],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [3, 4]
+    },
+    {
+      "id": "passage:phaladeepika.03.p005",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 3,
+      "locus": "v. 3 (p.28-29)",
+      "what": "each varga's fractional effect-weight (full/half/one-fourth) and the five Avastha age-states (infancy through old age) by degree-portion within a sign, reversed in even signs",
+      "reason": "Two new concepts neither built nor justified yet: a numeric effect-weighting per varga, and an age-state classification by exact degree boundary. No card in the store needs either. Deferred rather than built speculatively, per the same discipline that kept D3/D2/D12/Trimsamsa out of this milestone's dep.varga.",
+      "requires": ["dep.none"],
+      "phase": "2 (engine completion) + 3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [5, 6, 7]
+    },
+    {
+      "id": "passage:phaladeepika.03.p008",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 3,
+      "locus": "v. 4 (p.29), excluding the Navamsa-start sentence already encoded as PD.03.Navamsa.Start",
+      "what": "Hora ownership (Sun/Moon halves by odd/even sign), Drekkana ownership (lords of the sign, 5th and 9th), Dwadasamsa counting (from the sign itself), and Trimsamsa's 5/5/8/7/5 degree allotment among Mars, Saturn, Jupiter, Mercury and Venus, reversed in even signs",
+      "reason": "This is exactly the ownership doctrine dep.varga-ownership would need for Drekkana and Trimsamsa specifically -- but it states how ownership works in general, not which division ch. 10 v.4's 'Varga of Mars or Saturn' means, so encoding it would not by itself resolve PD.10.Venus.VargaMarsSaturn. Not needed by dep.varga (D9 only) or dep.vargottama. Left for a future slice alongside dep.varga-ownership.",
+      "requires": ["dep.none"],
+      "phase": "2 (engine completion) + 3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [8, 9, 10, 11]
+    },
+    {
+      "id": "passage:phaladeepika.03.p013",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 3,
+      "locus": "v. 5 (p.30)",
+      "what": "which of the 60 Shastyamsa (D-60) portions are Krura (inauspicious) or Saumya (auspicious), by odd/even sign",
+      "reason": "A reference table for a division (D60) nothing in the store needs; not reviewed for a card this slice.",
+      "requires": ["dep.none"],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [13]
+    },
+    {
+      "id": "passage:phaladeepika.03.p014",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 3,
+      "locus": "v. 6 (p.30-31)",
+      "what": "Saptamsa/Dasamsa/Shodasamsa counting-direction rules (odd vs. even sign), and the opening statement that graha strength should weigh kendra/trikona/own-sign/Moolatrikona/exaltation/Vargottama plus a varga check, naming three competing methods (Dasavarga alone, 13 vargas, or Saptavarga)",
+      "reason": "Needs D7/D10/D16 (none built, none yet justified) and names a choice between competing strength methods this store's dep.strength does not make -- an adjudication-adjacent question, not a missing calculation. Deferred rather than decided here.",
+      "requires": ["dep.none"],
+      "phase": "2 (engine completion) + 4 (integration)",
+      "status": "deferred",
+      "paragraphs": [14, 15, 16, 17]
+    },
+    {
+      "id": "passage:phaladeepika.03.p018",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 3,
+      "locus": "vv. 7-9 (p.31-32)",
+      "what": "the 13-varga Vaiseshikamsa system: Parijat/Uttama/Gopura/Simhasana/Parvata/Devaloka/Suraloka/Airavata, named by how many of 13 vargas a graha holds dignity in, with a worked example and effects for seven of the eight named tiers (Airavata's own effect is not stated in this verse, as printed)",
+      "reason": "A multi-varga dignity-count tier system with no engine analogue (dep.varga currently computes D9 only, and a 'count of vargas holding dignity' predicate does not exist). Substantial future capability, not attempted this milestone.",
+      "requires": ["dep.none"],
+      "phase": "2 (engine completion) + 3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27]
+    },
+    {
+      "id": "passage:phaladeepika.03.p028",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 3,
+      "locus": "v. 10 (p.32-33)",
+      "what": "a ten-step king-to-kingship/death ladder by how many of the 10 vargas a graha is strong or weak in, plus a recap of the five Avastha age-states' effects",
+      "reason": "Needs all ten vargas plus a strong/weak count-threshold predicate, neither of which exists; the same gap as passage:phaladeepika.03.p005 for the Avastha half. Deferred.",
+      "requires": ["dep.none"],
+      "phase": "2 (engine completion) + 3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [28, 38, 39, 40]
+    },
+    {
+      "id": "passage:phaladeepika.03.p041",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 3,
+      "locus": "v. 11 (p.33)",
+      "what": "benefics strong in the Shadvargas give wealth and long life; a malefic-Shastyamsa Ascendant gives a short life unless its lord is strong; a strong Navamsa-lord or Drekkana-lord of the Ascendant each give a named effect",
+      "reason": "Needs dep.lagna-strength (a strength verdict for the Ascendant itself, not a graha -- registered, not implemented) plus the Shadvarga/Navamsa/Drekkana divisions generalised beyond this milestone's D9. Deferred; a natural passage for whoever builds dep.lagna-strength to return to.",
+      "requires": ["dep.none"],
+      "phase": "2 (engine completion)",
+      "status": "deferred",
+      "paragraphs": [41, 42]
+    },
+    {
+      "id": "passage:phaladeepika.03.p043",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 3,
+      "locus": "v. 12 (p.33-34)",
+      "what": "malefics in odd signs occupying the Sun's Hora, and benefics in even signs occupying the Moon's Hora, each with a stated effect; a further effect when the Ascendant, Moon and both their lords are all strong",
+      "reason": "Needs Hora (D2), not built (nothing currently justifies it), plus a new effect vocabulary. Deferred.",
+      "requires": ["dep.none"],
+      "phase": "2 (engine completion) + 3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [43, 44]
+    },
+    {
+      "id": "passage:phaladeepika.03.p045",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 3,
+      "locus": "vv. 13-14 (p.34)",
+      "what": "named special Drekkanas (Ayudha/armed, Pasa/noose, Nigala, vulture-faced, bird, pig, serpent, quadruped) with character effects, and a good/moderate/bad ordering of a sign's three Drekkanas by whether the sign is dual, moveable or fixed",
+      "reason": "Needs Drekkana (D3), not built (nothing currently justifies it), plus a character/physiognomy effect vocabulary this store does not have. Deferred.",
+      "requires": ["dep.none"],
+      "phase": "2 (engine completion) + 3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [45, 46, 47, 48]
+    },
+    {
+      "id": "passage:phaladeepika.03.p049",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 3,
+      "locus": "v. 15 (p.34-35)",
+      "what": "a noble-qualities yoga when the Lagna's Drekkana lord, and separately its Trimsamsa/Dwadasamsa/Hora, are each well-disposed",
+      "reason": "Needs dep.lagna-strength plus Drekkana/Trimsamsa/Dwadasamsa/Hora, none built. Deferred alongside passage:phaladeepika.03.p041.",
+      "requires": ["dep.none"],
+      "phase": "2 (engine completion)",
+      "status": "deferred",
+      "paragraphs": [49]
+    },
+    {
+      "id": "passage:phaladeepika.03.p050",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 3,
+      "locus": "v. 16 (p.35)",
+      "what": "an alternate Ascendant located from Mandi/Gulika's Rasi and its lord's Navamsa (or, if the Moon is strong, from the Moon instead)",
+      "reason": "Needs dep.upagraha (Mandi/Gulika, registered, not implemented) and introduces a second, alternate Lagna concept the engine does not have. Deferred.",
+      "requires": ["dep.none"],
+      "phase": "2 (engine completion)",
+      "status": "deferred",
+      "paragraphs": [50, 51]
+    },
+    {
+      "id": "passage:phaladeepika.03.p052",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 3,
+      "locus": "v. 17 (p.35)",
+      "what": "the Moon in her own or a friendly Drekkana, or an Uttama varga, each with a stated effect; a graha in its own Trimsamsa acting fully as Karaka; and a single exalted graha aspected by a friend giving wealth",
+      "reason": "Needs Drekkana/Trimsamsa (not built) and the Vaiseshikamsa tier system (passage:phaladeepika.03.p018, not built). The closing exalted-graha-aspected-by-a-friend sentence independently corroborates Brihat Jataka ch. 21 v. 2 ('Even if there be in the birth chart a single exalted planet aspected by its friend the native gets much wealth') -- read this milestone (see dep.varga-ownership's note) but not encoded, since Brihat Jataka carries no rule cards yet. Worth returning to once Brihat Jataka extraction starts.",
+      "requires": ["dep.none"],
+      "phase": "2 (engine completion) + 3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [52, 53]
+    },
+    {
+      "id": "passage:phaladeepika.03.p054",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 3,
+      "locus": "vv. 18-20 (p.35-36)",
+      "what": "the eleven-state Avastha-naming system (Pradeepta/Sukhita/Swastha/Mudita/Shanta/Shakta/Vikala/Nipidita/Khala/Sudukhita/Atibheeta), each defined by a dignity or varga condition and mapped to a percentage of good or bad effect, and how these carry into Dasa/Antardasa results",
+      "reason": "A percentage-weighted effect system with no analogue anywhere in the engine -- claims here are boolean (a card fires or it does not), and blending an 11-way graded percentage into that is a design question for a human, not a missing calculation (category C, master-prompt step 15). Deferred as a whole rather than partially built.",
+      "requires": ["dep.none"],
+      "phase": "4 (integration)",
+      "status": "deferred",
+      "paragraphs": [54, 55, 56, 57, 58, 59]
     },
     {
       "id": "chapter:phaladeepika.04",

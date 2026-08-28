@@ -318,6 +318,43 @@ class Doctrine:
         c = self._one("seven_grahas")
         return Sourced(tuple(c.predicts["grahas"]), (c.id,))
 
+    # --- varga (divisional charts) -------------------------------------------
+
+    def varga_division_count(self, varga: str) -> Sourced:
+        """How many equal parts *varga* divides a sign into (ch. 3 v.1's
+        Dasavarga list -- Rasi through Shastyamsa). Read rather than assumed:
+        that Navamsa means nine parts is this book's own statement, not an
+        engine constant."""
+        c = self._one("dasavarga")
+        table = c.predicts["table"]
+        if varga not in table:
+            raise DoctrineError(
+                f"no dasavarga row for {varga!r}; the store does not say"
+            )
+        return Sourced(table[varga], (c.id,))
+
+    def vargottama_definition(self) -> Sourced:
+        """Which two vargas Vargottama compares (ch. 3 v.1): the same sign in
+        both. Read rather than hardcoded as "D1"/"D9" in the extractor, the
+        same reason `combustion_source` is read rather than assumed "Sun"."""
+        c = self._one("vargottama_definition")
+        p = c.predicts
+        return Sourced({"varga_a": p["varga_a"], "varga_b": p["varga_b"]}, (c.id,))
+
+    def navamsa_start_offset(self, mobility: str) -> Sourced:
+        """Signs counted from a sign of *mobility* to its own first Navamsa
+        (ch. 3 v.4's closing sentence, four worked examples -- Aries, Taurus,
+        Gemini, Cancer -- one per mobility class, with movable given twice and
+        agreeing both times). The offset is the engine's arithmetic restatement
+        of those examples, not a further claim; see the card's own note."""
+        c = self._one("navamsa_start")
+        table = c.predicts["table"]
+        if mobility not in table:
+            raise DoctrineError(
+                f"no navamsa_start offset for mobility {mobility!r}"
+            )
+        return Sourced(table[mobility], (c.id,))
+
     # --- strength -----------------------------------------------------------
 
     def graha_strength_verdicts(self) -> Sourced:

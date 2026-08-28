@@ -14,7 +14,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any
 
-from .chart import ChartBundle
+from .chart import SIGNS, ChartBundle
 from .doctrine import DoctrineError
 
 # Predicate name -> ordered argument names. A rule card referring to a
@@ -36,6 +36,17 @@ VOCABULARY: dict[str, tuple[str, ...]] = {
     "aspects": ("graha", "target"),
     "hemmed_between": ("graha", "nature"),
     "in_varga_sign": ("graha", "varga", "sign"),
+    # Declared, not yet derivable: "in the Varga of Mars or Saturn" (ch. 10 v.
+    # 4) names ownership of a division, not occupancy of one of its signs --
+    # a different fact from `in_varga_sign` above. Which varga the verse means
+    # is itself unresolved (dep.varga-ownership); see PD.10.Venus.VargaMarsSaturn.
+    "varga_owned_by": ("graha", "varga", "owner"),
+    # Dignity read against a divisional placement rather than the Rasi (ch. 2
+    # v.36: "debilitated (be in a sign of debilitation or Navamsa)"). Only
+    # "debilitated" is emitted -- the only dignity this predicate's one
+    # consuming card actually names -- by `_varga`, which already has the D9
+    # sign in hand; see dep.dignity-in-varga.
+    "dignity_in_varga": ("graha", "varga", "dignity"),
     # Classifications, each derived from reference cards rather than declared
     # here. The engine knows the predicate names; the books supply the members.
     "in_sign_class": ("graha", "klass"),
@@ -992,6 +1003,75 @@ def _seven_graha_sign_count(chart, doc, rep, frame) -> list[Fact]:
     )]
 
 
+def _varga(chart, doc, rep, frame) -> list[Fact]:
+    """dep.varga / dep.vargottama / dep.dignity-in-varga -- the Navamsa (D9)
+    sign of each graha, its Vargottama status, and its Navamsa debilitation.
+
+    Only D9 is computed. The MVP note once on file for dep.varga named D-1,
+    D-3 and D-9; re-checked against the current store, nothing it needs
+    consumes a D-3 fact (chapter 3 does not resolve what "the Varga" means in
+    PD.10.Venus.VargaMarsSaturn -- see dep.varga-ownership -- and no other
+    card names a division besides D9), so only D9 is built. Scoped to what
+    ch. 3 v.1's own Vargottama definition requires, the way `_strength` is
+    scoped to a chapter's stated verdicts rather than a general Shadbala
+    calculator.
+
+    The division count (9) and the counting-start rule (which sign a graha's
+    own sign's first Navamsa begins from, by mobility) are both read from
+    reference cards -- ch. 3 v.1 and v.4 respectively -- so neither is a
+    Python literal. Mobility itself is read from the same `sign_attributes`
+    doctrine `_sign_classes` already consults (ch. 1), not re-derived here.
+    """
+    n, div_cards = doc.varga_division_count("D9")
+    arc = 30.0 / n
+    definition, def_cards = doc.vargottama_definition()
+    if {definition["varga_a"], definition["varga_b"]} != {"D1", "D9"}:
+        raise DoctrineError(
+            "vargottama_definition names vargas other than D1/D9; the "
+            "extractor only knows how to compare those two"
+        )
+
+    out = []
+    for b in chart.bodies.values():
+        mobility = doc.sign_attributes(b.sign).value["mobility"]
+        offset, start_cards = doc.navamsa_start_offset(mobility)
+        rep.used("varga", list(div_cards) + list(def_cards) + list(start_cards))
+        nav_index = int(b.deg_in_sign // arc) % n
+        d9_index = (b.sign_index + offset + nav_index) % 12
+        d9_sign = SIGNS[d9_index]
+        ev = {
+            "lon_sidereal": round(b.lon, 6), "sign": b.sign,
+            "deg_in_sign": round(b.deg_in_sign, 6),
+            "navamsa_index": nav_index, "mobility": mobility,
+            "start_offset": offset,
+            "doctrine": sorted(set(div_cards) | set(def_cards) | set(start_cards)),
+        }
+        out.append(make_fact(
+            "in_varga_sign", {"graha": b.body, "varga": "D9", "sign": d9_sign},
+            frame, ev,
+        ))
+        if d9_sign == b.sign:
+            out.append(make_fact("vargottama", {"graha": b.body}, frame, ev))
+
+        # dep.dignity-in-varga -- "debilitated ... or Navamsa" (ch. 2 v.36).
+        # Only debilitation is tested: it is the only dignity that verse
+        # names for a divisional placement, and inventing exalted/own/
+        # Moolatrikona-in-Navamsa facts no card asks for would be exactly the
+        # speculative vocabulary this module's own docstring rules out.
+        try:
+            ex, ex_cards = doc.exaltation(b.body)
+        except DoctrineError:
+            continue
+        if d9_sign == ex["debilitation_sign"]:
+            rep.used("varga", ex_cards)
+            out.append(make_fact(
+                "dignity_in_varga",
+                {"graha": b.body, "varga": "D9", "dignity": "debilitated"},
+                frame, {**ev, "doctrine": sorted(set(ev["doctrine"]) | set(ex_cards))},
+            ))
+    return out
+
+
 EXTRACTORS = (
     ("lord_of_house", _lordship),
     ("sign_class", _sign_classes),
@@ -1008,6 +1088,7 @@ EXTRACTORS = (
     ("nature_occupancy", _nature_occupancy),
     ("strength", _strength),
     ("seven_graha_sign_count", _seven_graha_sign_count),
+    ("varga", _varga),
 )
 
 

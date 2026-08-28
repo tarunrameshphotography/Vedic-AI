@@ -778,10 +778,19 @@ def test_slice_runs_and_verifies():
     # possible chart -- some value from 1 to 7 is always the count -- so
     # exactly one of the seven fires on every chart this demo or any other
     # runs on, never zero and never more than one.
-    assert r.verification.checks["claims"] == 61
+    #
+    # 61 -> 66 in Milestone 29: PD.02.AdverseDisposition (v.36) released --
+    # dep.varga and the new dep.dignity-in-varga (debilitation read against
+    # the D9 placement, not just D1) were its last two blockers -- and fires
+    # five times on this chart, once per graha satisfying its seven-way
+    # disjunction: Jupiter (combust), Sun/Saturn/Rahu (each in an inimical
+    # sign) and the Moon (in the 8th house). No graha here is debilitated in
+    # Rasi or Navamsa, so the two new dignity_in_varga/dignity(debilitated)
+    # leaves this milestone added are not what fires on this particular chart.
+    assert r.verification.checks["claims"] == 66
     for k in ("quote_integrity_passed", "conditions_reevaluated_passed",
               "numeric_grounding_passed"):
-        assert r.verification.checks[k] == 61
+        assert r.verification.checks[k] == 66
 
 
 def test_every_claim_has_all_four_provenance_links():
@@ -805,7 +814,7 @@ def test_quoted_output_adds_no_words():
     r = run(DEMO)
     by_id = {c.claim_id: c for c in r.claims}
     rules = [s for s in r.sentences if s.part == "rules"]
-    assert len(rules) == 61  # see test_slice_runs_and_verifies for the 60 -> 61 move
+    assert len(rules) == 66  # see test_slice_runs_and_verifies for the 61 -> 66 move
     for s in rules:
         assert s.text == by_id[s.claim_ids[0]].passage["quote_display"]
 

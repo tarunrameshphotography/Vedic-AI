@@ -1359,16 +1359,22 @@ def test_any_is_a_literal_not_a_wildcard_so_stub_conditions_are_fail_safe():
     assert not evaluate({"all": [{"lord_of_house": {"graha": "any", "house": 7}}]}, fs).satisfied
 
 
-def test_chapter_ten_interpretive_cards_are_signed_off_except_the_one_holdout():
-    """The chapter 10 verification batch. PD.10.Venus.VargaMarsSaturn is
-    deliberately left unsigned: its varga branch does not encode "the Varga of
-    Mars or Saturn" and repairing it requires deciding what "Varga" denotes,
-    which belongs to whoever encodes the varga doctrine, not to a review pass."""
+def test_chapter_ten_interpretive_cards_are_signed_off():
+    """The chapter 10 verification batch, now complete.
+
+    PD.10.Venus.VargaMarsSaturn was the one holdout: its varga branch did not
+    encode "the Varga of Mars or Saturn" and repairing it needed deciding what
+    "Varga" denotes, which belonged to whoever encoded the varga doctrine, not
+    to a review pass. Milestone 29 did exactly that -- read ch. 3 and Brihat
+    Jataka ch. 21 with this verse in mind, found neither resolves it, and
+    rewrote the condition to test ownership rather than occupancy, existentially
+    quantified over which division. That is a real, signed verification of the
+    new condition; it is not a rubber stamp of the old one."""
     import json
     doc = json.loads((RULES / "phaladeepika" / "ch10.json").read_text(encoding="utf-8"))
     unsigned = [c["id"] for c in doc["cards"]
                 if not (c.get("extraction") or {}).get("verified_by")]
-    assert unsigned == ["PD.10.Venus.VargaMarsSaturn"]
+    assert unsigned == []
 
 
 # --- Milestone 20: the Moon question, and the scope guard on chapter 4 -------

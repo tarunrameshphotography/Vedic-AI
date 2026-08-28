@@ -1094,7 +1094,7 @@
         "all": [
           {
             "vargottama": {
-              "graha": "any"
+              "graha": "?g"
             }
           }
         ]
@@ -1110,17 +1110,13 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": "tarunrameshphotography + Claude (condition matches \"a planet who is vargottama\"; correctly marked inert -- the vargottama predicate is not yet derivable by Engine/facts.py, per dep.vargottama)",
-        "verified_date": "2026-08-23"
+        "verified_by": "tarunrameshphotography + Claude (Milestone 29): dep.vargottama built (Engine/facts.py::_varga, ch. 3 v.1's own definition and v.4's Navamsa-start rule, Engine/doctrine.py); condition rewritten from the literal \"any\" to \"?g\" per the Milestone 16/18 finding that \"any\" matches no fact and the card must have its condition rewritten, not merely its activation flipped; activation flipped from inert to reference, the same treatment its sibling override card (PD.09.Retrograde.AsExalted) above it already gets, since `treat_as_own_sign` was already a supported effect in Engine/overrides.py awaiting exactly this card",
+        "verified_date": "2026-08-29"
       },
       "kind": "meta",
-      "activation": "inert",
-      "note": "Printed as the closing sentence of verse 20.",
-      "exclusions": [],
-      "requires": [
-        "dep.vargottama",
-        "dep.condition-variables"
-      ]
+      "activation": "reference",
+      "note": "Printed as the closing sentence of verse 20. Not a claim about a nativity: it changes the dignity another card is keyed on, the same treatment PD.09.Retrograde.AsExalted gets immediately above. Consulted by the dignity-override mechanism (Engine/overrides.py), which already carried `treat_as_own_sign` in its fixed effect vocabulary in anticipation of this card. Applied only to grahas the store carries ownership doctrine for (`Doctrine.signs_ruled_by`); Rahu and Ketu rule no sign in this corpus, so this stays silent for them rather than asserting an ownership dignity the store does not carry.",
+      "exclusions": []
     }
   ]
 }

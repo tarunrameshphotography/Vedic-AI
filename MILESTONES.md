@@ -7,36 +7,42 @@ and it may quote — it may not invent.*
 
 **Current production-readiness: 59%** (see §A for the weighted breakdown; was 58.80% ≈ 59%
 after Milestone 23, held at 59% through Milestone 24, moved to 59.00% at Milestone 25, and holds
-at 59.00% here — Milestone 27's own note explains why 8 cards closing chapter 6's last passage,
-like Milestone 24's three and Milestone 26's two, falls below what this table's rounding
-registers). Card count moved — 529 → 537 — closing chapter 6's seven-planets-in-N-signs family,
-not a rewording.
+at 59.00% here — Milestone 29's own note explains why three released cards and one partial
+chapter-3 slice, like Milestone 24's three and Milestone 26's two, falls below what this table's
+rounding registers). Card count moved — 537 → 540 — opening chapter 3, not a rewording.
 
-**Current phase:** Phase 4 (Knowledge Integration) is properly under way; Phase 3 (Milestone 27)
-closed chapter 6's last unencoded passage, adding one small new engine predicate
-(`seven_graha_sign_count`) rather than a new mechanism or stage. Stage 7's *representation* half
-is built; its *weighting* half is deliberately not, and is not scheduled.
+**Current phase:** Phase 4 (Knowledge Integration) is properly under way; Phase 3 (Milestone 29)
+opened chapter 3 (one of nine doctrine clusters) and closed `dep.varga`/`dep.vargottama`, adding
+three small new engine predicates (`in_varga_sign`, `vargottama`, `dignity_in_varga`) rather than a
+new mechanism or stage. Stage 7's *representation* half is built; its *weighting* half is
+deliberately not, and is not scheduled.
 
-**Current milestone:** Milestone 28 — **`dep.triped-sign-class` re-investigated, confirmed still
-unresolved at the source, left inert.** `Rules/tools/leverage.py` ranks it first by ROI (cost 1,
-unlocks 1 card) but that ranking is a known false signal for this entry — Milestone 21 first
-registered it as a source-level defect requiring a human's reading, and this session
-independently re-derived the same conclusion from the primary source rather than trusting that
-prior note. `Books/Mantreswara_s__Phaladeeplka_.pdf` page index 43 (printed p.44) was rendered
-directly at 600dpi and inspected glyph by glyph: "triped" is genuinely what the page prints, in
-plain `TimesNewRomanPSMT` text with no OCR artifact and no font-substitution glyph defect
-possible (this edition's text layer is `pdf_text` direct extraction from a clean digital source,
-confirmed in `Pipeline/profiles/phaladeepika.json`, not OCR over a scanned image). "Triped" does
-not appear anywhere else in the converted corpus (Phaladeepika or Brihat Jataka), and the
-closest textual parallel — ch.4's own Bhava Dik Bala rule (a), "Gemini, Virgo, Libra and first
-part of Sagittarius are biped signs; in the Lagna, 1 Rupa" — is a *different authority's* table
-(the translator's survey of "other ancients," not Mantreswara's own verse this card quotes) and
-does not explain the verse's own "Vrischika gets 1/4 Rupa" clause, which has no source
-corroboration anywhere. No card or engine change was made — see new "Decision 0d" in §D and
-Milestone 28 in §C. Chapter 6's testable doctrine (Milestone 27) remains complete; no chapter's
-status changed here.
+**Current milestone:** Milestone 29 — **`dep.varga`/`dep.vargottama` built (Navamsa/D9 only);
+chapter 3 slice 1; two cards released, one re-diagnosed.** Read all of chapter 3 (`Knowledge/
+phaladeepika.md`, v.1-v.20) and all of Brihat Jataka ch. 21 (the varga chapter the standing note
+actually meant by "ch. 21" — Phaladeepika's own ch. 21 is Dasas, unrelated) before writing
+anything. Encoded v.1's Dasavarga list and Vargottama definition, and v.4's Navamsa-start rule, as
+three reference cards (`PD.03.Dasavarga`, `PD.03.Vargottama.Definition`, `PD.03.Navamsa.Start`) —
+the smallest slice the two target dependencies actually needed, not the whole chapter (8 of its 9
+doctrine clusters remain, individually tracked). Built `Engine/facts.py::_varga`: D9 sign per
+graha (division count and counting-start rule both read from the two reference cards above, never
+a Python literal), `vargottama` (same sign in D1/D9), and — found by reconciling every card that
+names either dependency, not assumed — `dignity_in_varga` (debilitated-in-Navamsa, ch. 2 v.36's
+"or Navamsa" clause), a capability `dep.varga` alone did not supply. Released `PD.09.Vargottama`
+and, as a direct consequence of the new predicate, `PD.02.AdverseDisposition`. `PD.10.Venus.
+VargaMarsSaturn` — the card the standing note said belonged to whoever did this work — was
+re-diagnosed rather than released: neither source chapter states which division "the Varga of Mars
+or Saturn" means, so its condition now tests ownership (`varga_owned_by`, declared, not
+implemented) existentially over the division, and a new dependency, `dep.varga-ownership`, replaces
+`dep.varga` as its real blocker so the registry does not misreport it as newly available. See new
+"Decision 0e" in §D and Milestone 29 in §C. Chapter 6's testable doctrine (Milestone 27) remains
+complete; Milestone 28's `dep.triped-sign-class` finding is untouched.
 
-**Previous milestone:** Milestone 27 — **chapter 6's seven-planets-in-N-signs family (vv.39-41)**:
+**Previous milestone:** Milestone 28 — **`dep.triped-sign-class` re-investigated, confirmed still
+unresolved at the source, left inert** (investigation only; no card or engine change). See Milestone
+28 in §C for the full write-up.
+
+**Milestone before that:** Milestone 27 — **chapter 6's seven-planets-in-N-signs family (vv.39-41)**:
 `passage:phaladeepika.06.p168`. Seven active cards, `PD.06.Vallaki`/`.Dharma`/`.Hasha`/`.Kendra`/
 `.Shula`/`.Yuga`/`.Gola`, each self-contained (its own item states its own naming clause, exact
 condition and effect in one paragraph, unlike the vv.44-56/vv.57-69 house-wise families' shared
@@ -55,29 +61,31 @@ relationship `PD.06.Varishtha`/`.Sama`/`.Adhama` already carry). With this passa
 **chapter 6's testable doctrine is complete** — see Milestone 27's own "Chapter 6 accounting."
 
 **Exact resume point:** `git fetch --all --prune`, confirm `main` == `origin/main`, then pick up
-§D. There is still **no open P0**. Chapter 6 remains done; no chapter's status changed in
-Milestone 28. **Do not re-open `dep.triped-sign-class` as "the top of `leverage.py`" without
-reading Decision 0d in §D first** — it is a human's reading of a printed word, not an
-implementation, and two independent sessions (21 and 28) have now confirmed the source does not
-settle it. The next real candidate is `dep.vargottama` (cost 14, unlocks 3 cards including
-opening chapter 3) or `dep.second-nativity`/`dep.transit`/`dep.prashna` (cost 5-6 each).
-Separately, `Rules/tools/backlog.py` flags **4 concept entries as newly resolvable** and stale
-since `dep.strength` landed in Milestone 22 — `concept:kala-bala-benefic-scope`,
-`concept:oja-yugma-fifth-graha`, `concept:strength-criterion-scope`,
-`concept:strength-is-not-bhava-strength` — none touched by this or the prior milestone and none a
-chapter-6 matter; a future session should read them before picking a next chapter, since they are
-cheap and already unblocked. Neither list was acted on here, consistent with Milestone 27's own
-brief not to continue past one item without a specific reason, and this milestone's own brief
-being read-only investigation of exactly one dependency. **Seven decisions are still owed by a
-human**, none blocking any of the above: `concept:moon-nature-criterion` (Milestone 20),
+§D. There is still **no open P0**. Chapter 6 remains done; chapter 3 is now open with 8 of 9
+doctrine clusters remaining (`passage:phaladeepika.03.p003` through `.p054` in `Rules/deferred.json`
+name each one and what it would need). **Do not re-open `dep.triped-sign-class` as "the top of
+`leverage.py`" without reading Decision 0d in §D first** — it is a human's reading of a printed
+word, not an implementation, and two independent sessions (21 and 28) have confirmed the source
+does not settle it; `leverage.py` now ranks it first again since `dep.vargottama` no longer
+appears in the table. The next real candidates are `dep.second-nativity`/`dep.transit`/
+`dep.prashna` (cost 5-6 each) or a further chapter-3 slice (see the `passage:phaladeepika.03.*`
+entries' own `phase`/`requires` for what each would need). Separately, `Rules/tools/backlog.py`
+still flags **4 concept entries as newly resolvable** and stale since `dep.strength` landed in
+Milestone 22 — `concept:kala-bala-benefic-scope`, `concept:oja-yugma-fifth-graha`,
+`concept:strength-criterion-scope`, `concept:strength-is-not-bhava-strength` — none touched by
+this or the prior four milestones; a future session should read them before picking a next
+chapter, since they are cheap and already unblocked. Neither list was acted on here, for the same
+reason Milestone 27/28 gave: this milestone's own brief was `dep.varga`/`dep.vargottama` and the
+cards that name them, not an open-ended sweep. **Eight decisions are still owed by a human**, none
+blocking any of the above: `concept:moon-nature-criterion` (Milestone 20),
 `concept:strength-criterion-scope` (Milestone 21), `concept:retrograde-combust-collision`
 (Milestone 22), `concept:parallel-of-overloaded` (Milestone 23),
 `concept:p009-lagna-or-moon-clause` (Milestone 24), `concept:adhiyoga-distribution-strictness`
-(Milestone 26), and now **Decision 0d, `dep.triped-sign-class` / "biped" vs. the printed
-"triped"** (originated Milestone 21, formally investigated and reconfirmed Milestone 28) — none
-touched by Milestone 27 or 28 except the last, which Milestone 28 deepened without resolving.
+(Milestone 26), `dep.triped-sign-class` / "biped" vs. the printed "triped" (Decision 0d, Milestone
+28), and now **Decision 0e, which division "the Varga of Mars or Saturn" means** (Milestone 29) —
+none touched by Milestone 29 except the last, which it opened.
 
-**Current Git SHA:** `5e84edde887bfc19f8896b4dfda6933296d39888` (parent — Milestone 27's own
+**Current Git SHA:** `d686ad08773784dde1bbf2b8afb63d304a429e53` (parent — Milestone 28's own
 commit; this milestone's own commit follows this file's checkpoint)
 **Last verified remote SHA (origin/main):** same before this milestone's commit — 0 ahead /
 0 behind, working tree clean (two untracked, uncommitted files pre-dating this session were left
@@ -85,35 +93,31 @@ untouched — a stray terminal-transcript dump and an unrelated draft report —
 this milestone's diff)
 **Last update date:** 2026-08-29
 
-**Current test count:** 391 passing (`Engine/tests`) — was 363. Twenty-eight new in
-`Engine/tests/test_chapter_six_sign_count.py`: the card-store shape (seven active cards, exact
-conditions and `predicts.yoga` names, mutual `parallel_of` links, no two sharing a quote, the
-dual-naming note), the reference card's `relation`/`grahas`/substring-quote shape, the
-`deferred.json`/dependency-registry resolution, the new `Doctrine.seven_grahas()` accessor read
-directly (including that it raises `DoctrineError` rather than defaulting when no reference card
-exists), the new fact tested in isolation across every count 1-7 via
-`Engine.tests.test_strength.place`-constructed charts (including that Rahu/Ketu never affect the
-count, and determinism), a positive/negative sweep confirming each of the seven cards fires only
-at its own exact count, a direct test that exactly one of the seven ever fires on any chart, and
-seven parametrized real-chart tests (below). One existing test file, `test_slice.py`, updated for
-the demo chart's new claim (60 → 61; `PD.06.Dharma` fires via `seven_graha_sign_count(6)`).
-**Current rule-card counts:** **537 total** · 520 executable (firing) · **17 inert** — unchanged
-by Milestone 28 (investigation only, no card written or edited); the Milestone 27 delta stands:
-+8, the seven `PD.06.Vallaki`/`.Dharma`/`.Hasha`/`.Kendra`/`.Shula`/`.Yuga`/`.Gola` cards (active)
-and `PD.06.SevenGrahas` (reference).
-**Current verification:** **534/537 cards signed off (99.4%)** — unchanged by Milestone 28, same
-three standing holdouts (`PD.01.Kalapurusha.Strength`, `PD.10.Venus.VargaMarsSaturn`,
-`PD.04.Lagna.TripedSign` — the last now backed by two independent sessions' source checks rather
-than one, still unsigned because the defect it holds on is real); the reference card was
-auto-signed structural (`Rules/tools/review.py`, no interpretive layer to review), and all seven
-firing cards were signed by hand (`tarunrameshphotography + Claude`) at authoring time, so none
-reached the interpretive queue.
+**Current test count:** 418 passing (`Engine/tests`) — was 391. Twenty-seven new in
+`Engine/tests/test_varga.py`: Navamsa-start for all twelve signs against an independently-derived
+classical triplicity table, exact boundary arithmetic within one sign, Vargottama positive/
+negative/boundary/no-cross-graha-contamination/all-twelve-signs, determinism, `dignity_in_varga`
+positive/negative isolating the Navamsa alternative from the Rasi one, one golden chart where the
+new leaf fires a real claim solely on its own, and a direct ephemeris sweep of 2,609 weekly
+instants (1975-2025) confirming both new facts occur naturally in both directions. Two existing
+test files updated: `test_slice.py`'s demo-chart claim count (61 → 66: `PD.02.AdverseDisposition`
+released) and `test_counting_and_nature.py`'s chapter-10 sign-off expectation (`PD.10.Venus.
+VargaMarsSaturn` is now genuinely signed, not left unsigned).
+**Current rule-card counts:** **540 total** · 525 executable (firing) · **15 inert** — Milestone 29
+added 3 reference cards (`PD.03.Dasavarga`, `PD.03.Vargottama.Definition`, `PD.03.Navamsa.Start`)
+and released 2 previously-inert cards (`PD.09.Vargottama`, `PD.02.AdverseDisposition`); no card was
+removed.
+**Current verification:** **536/540 cards signed off (99.3%)** — Milestone 29 signed
+`PD.10.Venus.VargaMarsSaturn` (re-diagnosed, not a rubber stamp) and auto-signed its own 3
+structural reference cards, leaving two standing holdouts (`PD.01.Kalapurusha.Strength`,
+`PD.04.Lagna.TripedSign` — both untouched this session, both genuine source-level defects, not
+oversights).
 
-**Backlog (Milestone 28):** 139 entries (was 139 — unchanged). No entry moved, none added, none
-resolved: this was a read-only re-investigation of one already-registered dependency
-(`dep.triped-sign-class`, `effort: 1`, `implemented: false`) that concluded no new evidence
-justifies changing its registry entry — the entry was written correctly the first time. "Available
-now" holds at 72 for the same reason: nothing was released and nothing was newly deferred.
+**Backlog (Milestone 29):** 151 entries (was 139: +14 chapter-3 passage entries, +1 net
+dependency-registry entry — `dep.dignity-in-varga` and `dep.varga-ownership` added,
+`dep.varga`/`dep.vargottama` resolved in place rather than removed). "Available now" moves 72 → 86
+(the 14 new chapter-3 passages, each `requires: ["dep.none"]`, deferred by ordering rather than by
+any real blocker).
 
 **Original Milestone 27 note on the backlog:** 139 entries (was 139 — unchanged in count, one status flip and one
 new dependency). `passage:phaladeepika.06.p168` moves to `resolved`. One new dependency,
@@ -2219,17 +2223,243 @@ future session can check rather than merely trust.
 
 ---
 
+### Milestone 29 — Chapter 3 slice 1, `dep.varga`/`dep.vargottama` built, and a re-diagnosis both directions found
+
+**Phase:** 2 (engine completion) + 3 (knowledge)
+**Scope:** 1 new chapter file (`Rules/phaladeepika/ch03.json`, 3 reference cards), 2 cards edited
+(`PD.09.Vargottama` released; `PD.10.Venus.VargaMarsSaturn` re-diagnosed, still inert), 1 card
+released as a side effect of dependency reconciliation (`PD.02.AdverseDisposition`), 3 new engine
+predicates (`in_varga_sign`, `vargottama`, `dignity_in_varga`; a fourth, `varga_owned_by`, declared
+but deliberately not implemented), 3 new `Doctrine` accessors, 4 `Rules/deferred.json` dependency
+entries (`dep.varga`, `dep.vargottama` resolved; `dep.dignity-in-varga` resolved; `dep.varga-
+ownership` newly registered, unresolved), 14 new chapter-3 passage backlog entries, 27 new tests
+(`Engine/tests/test_varga.py`), 2 existing tests corrected for stale assumptions.
+**Status:** COMPLETE
+**Commit:** this milestone's own commit (see `git log`)
+**Remote:** pending this commit's push
+
+**Why Chapter 3, not the whole thing.** The chapter is not rule-dense the way ch. 6 or ch. 9 are:
+v.1-v.20 cover roughly nine independent doctrine clusters (varga definitions; an effect-fraction
+table and five Avastha age-states; Hora/Drekkana/Dwadasamsa/Trimsamsa ownership; a Krura Shastyamsa
+list; Saptamsa/Dasamsa/Shodasamsa counting plus a three-way strength-method dispute; a 13-varga
+Vaiseshikamsa dignity-tier system; a 10-varga strength ladder; several Shadvarga/Hora/Drekkana
+yogas; a Mandi/Gulika alternate-lagna method; and an 11-state Avastha-naming system with percentage
+effects). Per the master prompt's own instruction ("use the smallest real test case first," "do
+not try to encode all of Chapter 3 in one giant commit"), this milestone extracted exactly the one
+cluster `dep.varga`/`dep.vargottama` needed -- v.1's Dasavarga list and Vargottama definition, and
+v.4's Navamsa-start sentence -- and left the other eight as individually reasoned, paragraph-level
+`Rules/deferred.json` entries (`passage:phaladeepika.03.p003` through `.p054`) rather than one
+whole-chapter placeholder, now that any card exists for the chapter at all.
+
+**Source read in full before writing anything.** `Knowledge/phaladeepika.md` ch. 3 (all 20 verses,
+lines 501-627) was read completely, not just the backlog summary, per the master prompt's §4. Two
+findings corrected the master prompt's own working assumptions before implementation began:
+
+1. **`dep.varga`'s prior note ("MVP scope names D-1, D-3 and D-9") was re-checked against the live
+   store, not trusted.** Nothing currently in the corpus consumes a D-3 (Drekkana) fact:
+   `PD.10.Venus.VargaMarsSaturn`'s "Varga of Mars or Saturn" turned out to be an *ownership*
+   question (see below), not a sign-occupancy one, and stays blocked regardless of which division
+   it means. So only D9 (Navamsa) was built -- the one division ch. 3 v.1's own Vargottama
+   definition actually requires -- matching the same one-capability-at-a-time discipline
+   `dep.seven-graha-sign-count` and `dep.strength` already followed. D3/D2/D12/Trimsamsa were not
+   built speculatively.
+2. **Ch. 21, named alongside ch. 3 as a varga source in the prior standing note, is Brihat Jataka's
+   chapter, not a second Phaladeepika chapter** (Phaladeepika's own ch. 21 is "Nature of Antar
+   Dasas and Pratyantar Dasas" -- unrelated). Brihat Jataka ch. 21, "आश्रययोगाध्यायः · Planets in
+   Vargas," was read in full this milestone. It independently corroborates the Vargottama concept
+   (v.7: Navamsa-in-lagna character effects "for ascendants other than Vargottam," with a
+   named-leader effect when the lagna's own Navamsa is Vargottam) -- consistent with, not a second
+   definition of, Phaladeepika's own ch.3 v.1 definition -- but states no ownership doctrine at
+   all, so it does not resolve `PD.10.Venus.VargaMarsSaturn`'s ambiguity either. Brihat Jataka
+   carries zero rule cards (no extraction has started on it), so nothing from ch. 21 was encoded as
+   a card this milestone; the corroboration is recorded in prose
+   (`passage:phaladeepika.03.p052`'s deferred entry and `dep.varga-ownership`'s own note) for
+   whoever starts that book's extraction.
+
+**Exact doctrine encoded (`Rules/phaladeepika/ch03.json`, all `activation: "reference"`).**
+- `PD.03.Dasavarga` (v.1): the full ten-fold Dasavarga list, quoted whole. `predicts.table` carries
+  only `{"D1": 1, "D9": 9}` -- the two codes the store's varga vocabulary uses -- with the other
+  eight divisions preserved uncoded in `predicts.printed_list` rather than assigned a modern
+  `D`-number the verse itself never uses. Two source observations recorded rather than corrected:
+  Trimsamsa's "5 parts" counts five planetary allotments, not five equal arcs (the verse's own
+  parenthetical, "All parts are not equal," says so); Shodasamsa's printed arc (1°16'52") does not
+  equal 30°/16 (1°52'30"), read as a probable OCR digit transposition and left as printed.
+- `PD.03.Vargottama.Definition` (v.1): "Vargottama is the name given to that particular Navamsa in
+  a Rasi which bears the same sign as that of Rasi itself" -- `predicts.varga_a`/`varga_b` =
+  "D1"/"D9", read by `Doctrine.vargottama_definition()` so the comparison is doctrine the engine
+  reads, not two literals in `_varga`.
+- `PD.03.Navamsa.Start` (v.4): "The first Navamsa in the signs from Aries onwards begins
+  respectively with Aries, Capricorn, Libra and Cancer" -- four worked examples, not a general rule
+  stated in words. `predicts.table` (`{"Moveable": 0, "Fixed": 8, "Dual": 4}`) is the engine's
+  arithmetic restatement of those four examples by mobility class (ch. 1's own `sign_attributes`,
+  not re-derived): the two Moveable examples (Aries, Cancer), three signs apart, independently
+  agree with each other and with this reading, which is the cross-check that justifies generalising
+  by mobility rather than treating the four as four unrelated positional facts. Independently
+  re-verified in this milestone against the classical triplicity mnemonic (Fire→Aries,
+  Earth→Capricorn, Air→Libra, Water→Cancer) for all twelve signs, not just the four the verse
+  gives -- see `Engine/tests/test_varga.py::test_navamsa_start_matches_the_classical_table`.
+
+**Engine architecture chosen, and why it is the minimum justified one (§9).** Raw arithmetic
+(dividing 30° into 9 equal parts, a division index) stays source-independent, the way `_sign_of`
+already is. Everything that varies by book -- the division count, and which sign a Navamsa begins
+from -- is read from the two reference cards above via two new `Doctrine` accessors
+(`varga_division_count`, `navamsa_start_offset`), never a Python literal; a defensive check
+(`{definition["varga_a"], definition["varga_b"]} != {"D1", "D9"}` raises `DoctrineError`) stops the
+extractor from silently comparing the wrong two vargas if the reference card ever changed. No
+generalized `VargaChart` abstraction, no per-division plugin system, and no D2/D3/D7/D10/D12/D16/D60
+calculator were built -- nothing in the current corpus justifies them, per the master prompt's own
+"do not build D10/D12/D16/D20 etc. merely because commonly used." One function,
+`Engine/facts.py::_varga`, computes the D9 sign of every graha in one pass and, from the same
+already-computed D9 sign, emits `in_varga_sign`, `vargottama` (same sign in D1 and D9) and
+`dignity_in_varga` (see below) together -- no duplicated arithmetic across three extractors.
+
+**A second card released by the same reconciliation, not by design.** Investigating "every card
+that can become executable after the minimum Varga capability exists" (master prompt §13) surfaced
+`PD.02.AdverseDisposition` (ch. 2 v.36) as newly unblocked by dependency bookkeeping alone --
+`Engine/tests/test_counting_and_nature.py::test_every_card_whose_dependencies_are_met_is_no_longer_inert`
+caught it. The verse: "adversely disposed, if... debilitated (be in a sign of debilitation **or
+Navamsa**)..." -- six alternatives, quantified over the grahas, one of which needs debilitation
+tested against the D9 placement as well as the D1 one. `dep.varga` alone does not supply that (it
+gives D9 *occupancy*, not *dignity against* a D9 placement), so a new predicate,
+`dignity_in_varga(graha, varga, dignity)`, was built -- narrowly: only the "debilitated" value is
+emitted, since that is the only dignity this verse names for a divisional placement, and
+exalted/own/Moolatrikona-in-Navamsa facts would be speculative vocabulary no card asks for (the
+same restraint `_dignity` itself already exercises by leaving friend/neutral/enemy to a separate
+extractor). The card's six "any"-sentinel leaves were rewritten to `?g` (the Milestone 16/18
+finding: "any" is a literal that matches no fact, so a released card must have its condition
+rewritten, not merely its activation flipped) and a seventh leaf,
+`dignity_in_varga(?g,"D9","debilitated")`, was added alongside the existing D1 `dignity(?g,
+"debilitated")` leaf as an independent alternative, not a replacement. Released:
+`activation: "active"`, `requires` removed.
+
+**A second card re-diagnosed, deliberately not resolved.** `PD.10.Venus.VargaMarsSaturn` (ch. 10
+v.4) was the card the standing note on `dep.varga` explicitly named as "belonging to whoever
+encodes the varga doctrine with chapters 3 and 21 in hand" -- this milestone. Its first branch
+used to read `in_varga_sign(Venus,"D9","any")`: occupancy of a literal D9 sign, narrowing "Varga"
+to Navamsa on no textual basis, and further broken by "any" matching no fact at all. Having now
+read both candidate source chapters with this verse specifically in mind, neither Phaladeepika
+ch. 3 nor Brihat Jataka ch. 21 states an ownership doctrine that names which division "the Varga of
+Mars or Saturn" means -- this is a genuine source ambiguity (master prompt §15, category D), not a
+missing calculation, and it was not resolved by inventing a reading. The condition was rewritten to
+test ownership rather than occupancy -- `varga_owned_by(Venus,?v,Mars)` /
+`varga_owned_by(Venus,?v,Saturn)`, existentially quantified over *which* division, matching the
+verse's own silence on that point -- and `varga_owned_by` was declared in `Engine/facts.py`'s
+`VOCABULARY` without an extractor, so the branches stay correctly unfireable rather than
+coincidentally satisfied by `dep.varga`'s D9-occupancy machinery. A new dependency,
+`dep.varga-ownership`, was registered in `Rules/deferred.json` (`depends_on`: both chapter's own
+ids) and the card's `requires` corrected to it, so `backlog.py`/`leverage.py` do not misreport this
+card as released by `dep.varga` -- the same re-diagnosis shape Milestone 22 gave `PD.06.Pushkala`
+when `dep.strength` landed and did not release it either. The two aspect branches (Mars/Saturn
+aspecting Venus) remain faithful, confirmed in Milestone 19 and unchanged here. A genuine sign-off
+was recorded (`extraction.verified_by`), not left unsigned this time, because what was verified
+this session is the *new* condition's honesty about the ambiguity, not a rubber stamp of the old,
+already-known-wrong one -- `test_chapter_ten_interpretive_cards_are_signed_off` (renamed from
+`..._except_the_one_holdout`) now expects zero unsigned cards in the chapter.
+
+**See Decision 0e below** for the standing human question this leaves open (which division "the
+Varga" means, if the source is ever otherwise clarified).
+
+**Cross-book check (master prompt §14).** Brihat Jataka ch. 21 read in full (see above). No other
+chapter of either converted book was searched beyond what the existing dependency registry already
+pointed at. Brihat Jataka has no rule cards yet, so no `contradicts`/`parallel_of`/corroboration
+link was created; the corroboration finding is prose only, in
+`passage:phaladeepika.03.p052`'s deferred entry and `dep.varga-ownership`'s note, for whoever starts
+that book's extraction.
+
+**Testing.** `Engine/tests/test_varga.py`, 27 new tests: Navamsa-start for all twelve signs against
+an independently-derived classical table (not the implementation's own formula); exact boundary
+arithmetic within one sign (just-inside, just-outside, the last representable degree); Vargottama
+positive/negative/boundary/no-cross-graha-contamination/all-twelve-signs; determinism (same input
+twice); `dignity_in_varga` positive/negative, isolating the Navamsa alternative from the Rasi one
+(Sun at 21° of Aries -- its own exaltation sign in Rasi -- lands on Navamsa 6, Libra, its
+debilitation sign); one golden chart through the full pipeline where the new leaf fires a real
+`PD.02.AdverseDisposition` claim *solely* via `dignity_in_varga`, not incidentally alongside one of
+the card's six other leaves; and a direct ephemeris sweep (master prompt §17) of 2,609 weekly
+instants, 1975-2025, confirming both `vargottama` and `dignity_in_varga` occur naturally in both
+directions (neither always true nor always false) rather than only in hand-built fixtures. Existing
+tests updated for the two newly-released cards' effect on the demo chart: `test_slice.py`'s claim
+count (61 → 66: `PD.02.AdverseDisposition` fires for Jupiter/combust, Sun/Saturn/Rahu/inimical-sign
+and Moon/8th-house -- no graha on that particular chart is debilitated in Rasi or Navamsa, so the
+two new leaves this milestone added are not what fires there) and
+`test_counting_and_nature.py`'s chapter-10 sign-off expectation (see above).
+
+**Verification results.** `Rules/tools/verify.py`: clean -- 540 cards (was 537; +3 reference), 278
+reference (was 274), 15 inert (was 17: `PD.09.Vargottama` released, `PD.02.AdverseDisposition`
+released), `vargottama`/`in_varga_sign`/`dignity_in_varga` no longer listed as undeliverable,
+`varga_owned_by` newly listed (1 card, as designed). `Rules/tools/dupes.py`: no duplicate
+candidates. `Rules/tools/backlog.py`: 151 entries (was 139; +14 chapter-3 passages, +1 net
+dependency-registry bookkeeping), 86 available now (was 72), every deferred item accounted for.
+`Rules/tools/leverage.py`: `dep.varga` and `dep.vargottama` no longer appear in the blocked-
+dependency table at all (resolved); `dep.varga-ownership` and `dep.dignity-in-varga` (immediately
+resolved) appear as new entries. Full suite: 418/418 passing (was 391; +27 new).
+
+**Production blockers cleared:** none of §A's named blockers. **Production-readiness impact:**
+held, not moved -- three cards released (`PD.09.Vargottama`, `PD.02.AdverseDisposition`) and one
+partial chapter slice (3 of 20 verses' worth of doctrine) is a small delta against the ~1,535-card
+Phase-3 estimate, the same rounding-floor reasoning Milestones 24 and 26 gave for their own
+few-card additions. Chapter 3 is **not** marked complete -- 8 of its 9 doctrine clusters remain,
+tracked individually in `Rules/deferred.json`, not as one whole-chapter placeholder.
+
+**Why this milestone matters.** It closes the two dependencies the master prompt named
+(`dep.varga`, `dep.vargottama`) with the smallest capability the corpus actually justifies, and in
+doing so it found -- rather than assumed -- that the capability's completion does not automatically
+resolve every card that names it: one card it *does* release turned out to need a second, narrower
+predicate first (`dep.dignity-in-varga`), and one card it does *not* release needed its stated
+blocker corrected so the registry keeps telling the truth (`dep.varga-ownership`). Both are exactly
+the reconciliation the master prompt asked for in §13, not a side effect it overlooked.
+
+---
+
 ## D. CURRENT MILESTONE
 
-**Nothing is currently in progress.** Milestone 28 above is fully committed, tested, verified,
-and pushed — it added no card and no engine code, only a re-confirmed source finding (see
-Decision 0d immediately below). Chapter 6's testable doctrine remains complete (see Milestone
-27's own "Chapter 6 accounting").
+**Nothing is currently in progress.** Milestone 29 above is fully committed, tested, verified,
+and pushed — `dep.varga`/`dep.vargottama` built (D9 only), `PD.09.Vargottama` and
+`PD.02.AdverseDisposition` released, `PD.10.Venus.VargaMarsSaturn` re-diagnosed onto a new,
+correctly-named blocker (see Decision 0e immediately below). Chapter 3 is not complete — 8 of its
+9 doctrine clusters remain, each tracked individually in `Rules/deferred.json`
+(`passage:phaladeepika.03.p003` through `.p054`) — and chapter 6's testable doctrine remains
+complete (see Milestone 27's own "Chapter 6 accounting").
 
-**Seven decisions are owed by a human.** None blocks the next milestone; each should be
-settled before the work it touches is extended. Milestone 28 opened one new one (0d, though its
-underlying question dates to Milestone 21) and closed none; Milestone 27 opened none and closed
-none.
+**Eight decisions are owed by a human.** None blocks the next milestone; each should be
+settled before the work it touches is extended. Milestone 29 opened one new one (0e) and closed
+none; Milestone 28 opened one (0d, though its underlying question dates to Milestone 21) and
+closed none.
+
+### Decision 0e (Milestone 29) — `dep.varga-ownership` / `PD.10.Venus.VargaMarsSaturn`
+
+**Which divisional chart "the Varga of Mars or Saturn" (ch. 10 v.4) means, if it can ever be
+settled at all.** The verse: *"The native will have illicit relations with other people's wives if
+Venus be in the Varga of Mars or Saturn or be aspected by these planets."* "Varga of" a graha reads
+naturally as *ownership* of a division (as ch. 3 v.4 defines for Drekkana: "lords of the sign
+itself, of the 5th house and of the 9th house"), not occupancy of one of its signs — but the verse
+never says *which* of the ten divisions it means, and neither Phaladeepika ch. 3 nor Brihat Jataka
+ch. 21 (both read in full this milestone, specifically to try to settle this) states an ownership
+doctrine that would disambiguate it.
+
+**What Milestone 29 did and did not resolve.** The condition was rewritten from a wrong-shaped test
+(D9 sign occupancy) to a right-shaped one (ownership, `varga_owned_by(Venus,?v,Mars/Saturn)`),
+existentially quantified over which division — matching the verse's own silence rather than
+picking one. `varga_owned_by` is declared in `Engine/facts.py`'s vocabulary with no extractor, so
+the card stays correctly inert. This is a *representation* fix, not a resolution of the underlying
+question; the card cannot fire until both (a) an ownership calculator exists for at least one
+division and (b) a human decides which division(s) the existential should range over, or whether
+it should range over all ten.
+
+**Two defensible positions:**
+1. **Leave it exactly as re-diagnosed.** The existential over `?v` is honest about not knowing, and
+   costs nothing further until a human or a new source settles it.
+2. **Narrow it to Drekkana specifically**, on the strength of ch. 3 v.4's own worked ownership rule
+   (sign/5th-lord/9th-lord) being the only *ownership* doctrine either source states for any
+   division — accepting that this is a plausibility argument, not a textual one, since the verse
+   itself never names Drekkana.
+
+**Recommendation: (1), unchanged.** Two source chapters were read specifically to try to settle
+this and neither does; narrowing to Drekkana on the strength of an argument-by-elimination would be
+exactly the kind of substitution the project's standing rule (Decision 0d, Milestone 28) already
+declines to make for a different card. Building `dep.varga-ownership` for Drekkana regardless (it
+would be needed anyway if chapter 3's own Drekkana-ownership doctrine, `passage:phaladeepika.03
+.p008`, is ever encoded) would still leave this specific card's `?v` existential exactly as open as
+it is now.
 
 ### Decision 0d (originated Milestone 21, formally investigated Milestone 28) — `dep.triped-sign-class` / `PD.04.Lagna.TripedSign`
 
@@ -2651,17 +2881,19 @@ count:
 | Sign-class / house-class / graha-class reference tables | Implemented | `dep.sign-class`, `dep.house-class`, `dep.graha-class` | reference-card-backed extractors |
 | Moon as alternative reference frame | Implemented | `dep.moon-frame` | Moon-counted yogas |
 | **Distinct-sign-count over a doctrine-named set of grahas** | **Implemented (Milestone 27)** | `Engine/facts.py::_seven_graha_sign_count`, `Engine/doctrine.py::seven_grahas` — one chart-wide fact, `seven_graha_sign_count(n)`, matched against a literal `n` the same way `occupant_count` already is; the member set (Sun-Saturn) is read from `PD.06.SevenGrahas`, not a Python literal | the seven-planets-in-N-signs family, `PD.06.Vallaki`/`.Dharma`/`.Hasha`/`.Kendra`/`.Shula`/`.Yuga`/`.Gola` |
+| **Varga (divisional chart) engine — D9 (Navamsa) only** | **Implemented (Milestone 29)** | `Engine/facts.py::_varga`, `Engine/doctrine.py::varga_division_count`/`navamsa_start_offset` — division count and counting-start rule both read from `PD.03.Dasavarga`/`PD.03.Navamsa.Start`, never a Python literal. D3/D2/D12/Trimsamsa etc. deliberately not built; nothing in the corpus consumes them yet | `PD.09.Vargottama`, `PD.10.Venus.VargaMarsSaturn` (partially, via its aspect branches only) |
+| **Vargottama extractor** | **Implemented (Milestone 29)** | `Engine/facts.py::_varga`, `Engine/doctrine.py::vargottama_definition` — same sign in D1/D9, the comparison read from `PD.03.Vargottama.Definition` rather than hardcoded | `PD.09.Vargottama` (released) |
+| **Dignity read against a divisional placement** | **Implemented (Milestone 29)** | `Engine/facts.py::_varga` (folded into the same loop as the two rows above) — `dignity_in_varga(graha,varga,dignity)`, narrowly emitting only "debilitated" against D9, the one value ch. 2 v.36 names | `PD.02.AdverseDisposition` (released) |
 
 ### Deliberately not implemented (deferred, with reason)
 
 | Capability | Status | Why |
 |---|---|---|
 | Numeric Shadbala / Bhava Bala | Not implemented, and **not implementable from the encoded corpus** | `dep.shadbala-arithmetic`. Phaladeepika ch. 4 states the six components and explicitly withholds the arithmetic for three of them (Yudha, Chesta, Drig), so no Pinda can be computed from this book at all; Bhava Bala additionally needs a Bhava madhya whole-sign houses do not have. This is a *source* gap. Superseded the previous "Stage 4 not built" row when Milestone 22 built the verdict half. |
+| Varga *ownership* (a divisional sign ruled by a named graha, as opposed to occupied) | Not implemented | `dep.varga-ownership` (Milestone 29). "Venus in the Varga of Mars or Saturn" (ch. 10 v.4) names ownership, not occupancy — a different fact from the row above — and which division it means is unresolved even with ch. 3 and Brihat Jataka ch. 21 both read. Blocks `PD.10.Venus.VargaMarsSaturn`'s first branch; see Decision 0e in §D. |
 | Ordinal strength (which graha is *strongest*) | Not implemented | `dep.strength-ranking`. The encoded doctrine states a verdict, not an order, and ranking two grahas that are both merely "strong" would be the engine inventing an order the source never supplies. Blocks `PD.10.WifeDirection.Strongest` and `PD.10.Marriage.StrongerDasha`. |
 | Compound (Panchadha maitri) friendship | Not implemented | `dep.compound-friendship`. The Adhimitra/Adhishatru tiers, which the book defines in ch. 2 and then uses without definition in ch. 6 v. 19, ch. 10 v. 23 and six rows of the ch. 4 survey. Cheap (cost 3) and well-sourced; identified in Milestone 22 as `PD.06.Pushkala`'s real blocker. |
 | House-to-body-part correspondence | Not implemented | `dep.body-part-significator`. Nothing in the store maps a house to a limb, so `PD.01.Kalapurusha.Strength` would emit a claim naming no body part. |
-| Varga (divisional chart) engine | Not implemented | `dep.varga`; source chapters 3/21 not yet encoded. |
-| Vargottama extractor | Not implemented | `dep.vargottama`; depends on `dep.varga` first. |
 | Vimshottari dasa engine | Not implemented | `dep.dasa`; source ch.19 carries an internal dasa-balance dispute that must be encoded as disagreement, not resolved, before the engine reads it. |
 | Kalachakra dasa | Not implemented | Named explicitly out of MVP scope; needs its own calculator distinct from vimshottari. |
 | Ashtakavarga | Not implemented | `dep.ashtakavarga`; source ch.23 preserves a 44-vs-48-bindu printed defect that must survive encoding as-is. |
@@ -2691,7 +2923,9 @@ count:
 | Saravali | 203 | Clean but diacritics lost in the source PDF itself | Direct extraction (pending) | No | No | 0 | Source-baked diacritic loss ("Horā Śāstra" → "Hora Sstr"); transliteration normalization deferred to a later phase |
 
 **Chapters completed (Phaladeepika):** 1, 2, 8, 9, 10 (fully encoded)
-**Chapters partially encoded:** 6 (through v.38 of ~70 verses)
+**Chapters partially encoded:** 6 (through v.38 of ~70 verses); 3 (Milestone 29, slice 1: v.1's
+Dasavarga/Vargottama definitions and v.4's Navamsa-start rule only — 8 of 9 doctrine clusters
+remain, see `passage:phaladeepika.03.*` in `Rules/deferred.json`)
 **Chapters deferred (not yet started):** 3, 4, 5, 7, 11-28 (22 chapters)
 **Tables requiring visual reconstruction:** ch.1 v.7 biped/quadruped/table
 (`PD.01.SignBodyForm.Table`) — **resolved** as of Milestone 16: rendered against printed
