@@ -769,10 +769,19 @@ def test_slice_runs_and_verifies():
     # own conditions_satisfied binding, which names only the three
     # in_house_from(...,Moon,...) leaves). PD.06.Adhiyoga.ShrutiKirti stays
     # reference-only and contributes no claim.
-    assert r.verification.checks["claims"] == 60
+    #
+    # 60 -> 61 in Milestone 27: PD.06.Dharma (vv.39-41,
+    # passage:phaladeepika.06.p168) fires once, via seven_graha_sign_count(6)
+    # -- the seven classical grahas occupy exactly six distinct signs on this
+    # chart. Unlike every other family in this store, vv.39-41's seven cards
+    # (PD.06.Vallaki/.Dharma/.Hasha/.Kendra/.Shula/.Yuga/.Gola) partition every
+    # possible chart -- some value from 1 to 7 is always the count -- so
+    # exactly one of the seven fires on every chart this demo or any other
+    # runs on, never zero and never more than one.
+    assert r.verification.checks["claims"] == 61
     for k in ("quote_integrity_passed", "conditions_reevaluated_passed",
               "numeric_grounding_passed"):
-        assert r.verification.checks[k] == 60
+        assert r.verification.checks[k] == 61
 
 
 def test_every_claim_has_all_four_provenance_links():
@@ -796,7 +805,7 @@ def test_quoted_output_adds_no_words():
     r = run(DEMO)
     by_id = {c.claim_id: c for c in r.claims}
     rules = [s for s in r.sentences if s.part == "rules"]
-    assert len(rules) == 60  # see test_slice_runs_and_verifies for the 59 -> 60 move
+    assert len(rules) == 61  # see test_slice_runs_and_verifies for the 60 -> 61 move
     for s in rules:
         assert s.text == by_id[s.claim_ids[0]].passage["quote_display"]
 

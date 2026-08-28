@@ -57,6 +57,13 @@ VOCABULARY: dict[str, tuple[str, ...]] = {
     # that would produce a number is withheld by the chapter that states the
     # verdicts. See `_strength` below and concept:strength-criterion-scope.
     "strength": ("graha", "strength"),
+    # How many distinct signs the seven classical grahas occupy between them
+    # (ch. 6 vv. 39-41: Vallaki/Veena through Gola). One fact per
+    # chart, no graha argument -- the same shape as `lagna_sign` -- because the
+    # verse asks about the set collectively, not about any one member of it.
+    # `n` is bound by a variable or matched against a literal exactly the way
+    # `occupant_count` already is; no arithmetic enters the condition language.
+    "seven_graha_sign_count": ("n",),
 }
 
 
@@ -949,6 +956,42 @@ def _strength(chart, doc, rep, frame) -> list[Fact]:
     return out
 
 
+def _seven_graha_sign_count(chart, doc, rep, frame) -> list[Fact]:
+    """dep.seven-graha-sign-count -- ch. 6 vv. 39-41's seven-item family.
+
+    "When the seven planets from Sun to Saturn occupy seven separate signs...
+    Vallaki. […] When all the seven planets are in six signs... Dharma. […]"
+    down to all seven in one sign, Gola. Which nine grahas the verse's "seven"
+    actually names is read from a reference card (`doc.seven_grahas`), not
+    written here as a literal -- the same discipline every other doctrine-
+    backed extractor in this module follows, so a second book with a
+    different seven could not disagree with the engine itself.
+
+    One fact per chart, keyed on the count alone -- the same shape as
+    `lagna_sign`, since nothing here is per-graha. The seven items of vv.
+    39-41 are a partition of the same question (how many distinct signs do
+    these seven bodies occupy, a number from 1 to 7), and each of the seven
+    rule cards tests one exact value rather than a threshold: the literal `n`
+    in a card's condition is matched against this fact's exact key, the same
+    mechanism `occupant_count` already uses for a literal count. No new
+    combinator, no generic "distinct count over any set" facility -- this is
+    scoped to the one set the doctrine actually names, the way `_strength` is
+    scoped to a chapter's own verdicts rather than a general Shadbala
+    calculator.
+    """
+    grahas, cards = doc.seven_grahas()
+    rep.used("seven_graha_sign_count", cards)
+    signs = {chart.bodies[g].sign for g in grahas}
+    return [make_fact(
+        "seven_graha_sign_count", {"n": len(signs)}, frame,
+        {"grahas": list(grahas), "signs": sorted(signs),
+         "doctrine": list(cards),
+         "interpretation": "count of distinct signs occupied by the seven "
+                            "grahas named by the reference card; excludes "
+                            "whichever bodies that card leaves unnamed"},
+    )]
+
+
 EXTRACTORS = (
     ("lord_of_house", _lordship),
     ("sign_class", _sign_classes),
@@ -964,6 +1007,7 @@ EXTRACTORS = (
     ("nature", _nature),
     ("nature_occupancy", _nature_occupancy),
     ("strength", _strength),
+    ("seven_graha_sign_count", _seven_graha_sign_count),
 )
 
 

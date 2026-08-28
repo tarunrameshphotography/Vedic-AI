@@ -11229,6 +11229,441 @@
       "parallel_of": [
         "PD.06.Adhiyoga"
       ]
+    },
+    {
+      "id": "PD.06.Vallaki",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "39-41",
+        "page_anchor": "phaladeepika/p0073",
+        "tier": 1,
+        "quote": "39-41 (1) When the seven planets from Sun to Saturn occupy seven separate signs the Yoga so arising is known as Vallaki. This is also called Veena Yoga. The person born in this Yoga is fond of dancing, singing and playing on musical instrumets and is wealthy.",
+        "quote_display": "39-41 (1) When the seven planets from Sun to Saturn occupy seven separate signs the Yoga so arising is known as Vallaki. This is also called Veena Yoga. The person born in this Yoga is fond of dancing, singing and playing on musical instrumets and is wealthy.",
+        "quote_sha256": "6bcd5a8d8df8f337ce4e837c851665e7a61a9d3dc867ba17c8264fd63eca5086",
+        "char_span": [
+          141182,
+          141441
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "seven_graha_sign_count": {
+              "n": 7
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Vallaki"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (seven_graha_sign_count(n=7) matches item's own stated count of signs; condition, effect and yoga name all read directly from this item's own self-contained paragraph -- no template borrowed from elsewhere in the chapter)",
+        "verified_date": "2026-08-29"
+      },
+      "kind": "yoga",
+      "note": "One of the seven-item Vallaki/Veena-through-Gola family (Phaladeepika ch. 6 vv. 39-41, passage:phaladeepika.06.p168): the seven planets from Sun to Saturn -- the printed set, transcribed rather than read from a reference-card table -- occupy exactly 7 distinct sign(s) between them. Confirmed against a direct 300dpi render of printed p73 (no Notes, no known defect on this passage). Condition uses the new seven_graha_sign_count(n) fact (dep.seven-graha-sign-count, Milestone 27): one chart-wide fact, no graha argument, matched against a literal n exactly the way occupant_count already is -- no arithmetic entered the condition language and no new combinator was built. Vallaki Yoga (also called Veena Yoga in the same sentence -- both names printed together, not an OCR artifact or a printed-spelling defect like Subhamala/Asubhamala's; the card id and predicts.yoga use the first-given name, Vallaki, per the source's own word order). Mutually exclusive with its six siblings by construction (a chart has exactly one distinct-sign count for these seven bodies), linked to all of them by parallel_of -- the same relationship PD.06.Varishtha/.Sama/.Adhama and PD.06.Lakshmi/.Gouri already carry for a sibling family from one book, no authority field.",
+      "parallel_of": [
+        "PD.06.Dharma",
+        "PD.06.Hasha",
+        "PD.06.Kendra",
+        "PD.06.Shula",
+        "PD.06.Yuga",
+        "PD.06.Gola"
+      ]
+    },
+    {
+      "id": "PD.06.Dharma",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "39-41",
+        "page_anchor": "phaladeepika/p0073",
+        "tier": 1,
+        "quote": "(2) When all the seven planets are in six signs, they form Dharma Yoga. The person born with this Yoga will be generous, a king and benefactor.",
+        "quote_display": "(2) When all the seven planets are in six signs, they form Dharma Yoga. The person born with this Yoga will be generous, a king and benefactor.",
+        "quote_sha256": "0cb1b35c60e3b52f0b167c3068746be5c4f9f20d1af12598e46baac1bfcaa17e",
+        "char_span": [
+          141445,
+          141588
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "seven_graha_sign_count": {
+              "n": 6
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Dharma"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (seven_graha_sign_count(n=6) matches item's own stated count of signs; condition, effect and yoga name all read directly from this item's own self-contained paragraph -- no template borrowed from elsewhere in the chapter)",
+        "verified_date": "2026-08-29"
+      },
+      "kind": "yoga",
+      "note": "One of the seven-item Vallaki/Veena-through-Gola family (Phaladeepika ch. 6 vv. 39-41, passage:phaladeepika.06.p168): the seven planets from Sun to Saturn -- the printed set, transcribed rather than read from a reference-card table -- occupy exactly 6 distinct sign(s) between them. Confirmed against a direct 300dpi render of printed p73 (no Notes, no known defect on this passage). Condition uses the new seven_graha_sign_count(n) fact (dep.seven-graha-sign-count, Milestone 27): one chart-wide fact, no graha argument, matched against a literal n exactly the way occupant_count already is -- no arithmetic entered the condition language and no new combinator was built. Mutually exclusive with its six siblings by construction (a chart has exactly one distinct-sign count for these seven bodies), linked to all of them by parallel_of -- the same relationship PD.06.Varishtha/.Sama/.Adhama and PD.06.Lakshmi/.Gouri already carry for a sibling family from one book, no authority field.",
+      "parallel_of": [
+        "PD.06.Vallaki",
+        "PD.06.Hasha",
+        "PD.06.Kendra",
+        "PD.06.Shula",
+        "PD.06.Yuga",
+        "PD.06.Gola"
+      ]
+    },
+    {
+      "id": "PD.06.Hasha",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "39-41",
+        "page_anchor": "phaladeepika/p0073",
+        "tier": 1,
+        "quote": "<!-- page phaladeepika/p0074 -->\r\n(3) When all the seven Planets are confined to five signs only, they give rise to Hasha Yoga. The person born with this Yoga indulges in enjoyment of life, is wealthy and of good conduct and has relatives.",
+        "quote_display": "(3) When all the seven Planets are confined to five signs only, they give rise to Hasha Yoga. The person born with this Yoga indulges in enjoyment of life, is wealthy and of good conduct and has relatives.",
+        "quote_sha256": "fa7c6bc3081cf7242a161173a82a3e4ee98bdb20d4d71fa9c7388c1cbed26297",
+        "char_span": [
+          141592,
+          141831
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "seven_graha_sign_count": {
+              "n": 5
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Hasha"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (seven_graha_sign_count(n=5) matches item's own stated count of signs; condition, effect and yoga name all read directly from this item's own self-contained paragraph -- no template borrowed from elsewhere in the chapter)",
+        "verified_date": "2026-08-29"
+      },
+      "kind": "yoga",
+      "note": "One of the seven-item Vallaki/Veena-through-Gola family (Phaladeepika ch. 6 vv. 39-41, passage:phaladeepika.06.p168): the seven planets from Sun to Saturn -- the printed set, transcribed rather than read from a reference-card table -- occupy exactly 5 distinct sign(s) between them. Confirmed against a direct 300dpi render of printed p74 (no Notes, no known defect on this passage). Condition uses the new seven_graha_sign_count(n) fact (dep.seven-graha-sign-count, Milestone 27): one chart-wide fact, no graha argument, matched against a literal n exactly the way occupant_count already is -- no arithmetic entered the condition language and no new combinator was built. Mutually exclusive with its six siblings by construction (a chart has exactly one distinct-sign count for these seven bodies), linked to all of them by parallel_of -- the same relationship PD.06.Varishtha/.Sama/.Adhama and PD.06.Lakshmi/.Gouri already carry for a sibling family from one book, no authority field.",
+      "parallel_of": [
+        "PD.06.Vallaki",
+        "PD.06.Dharma",
+        "PD.06.Kendra",
+        "PD.06.Shula",
+        "PD.06.Yuga",
+        "PD.06.Gola"
+      ]
+    },
+    {
+      "id": "PD.06.Kendra",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "39-41",
+        "page_anchor": "phaladeepika/p0074",
+        "tier": 1,
+        "quote": "(4) When all the seven planets are placed in four signs only, they form Kendra Yoga. The person with this yoga at birth will acquire wealth and agricultural lands.",
+        "quote_display": "(4) When all the seven planets are placed in four signs only, they form Kendra Yoga. The person with this yoga at birth will acquire wealth and agricultural lands.",
+        "quote_sha256": "b5604998d03d158f2ce0adb887f1ef6aaaf44924b8b17b09885494fc447059ff",
+        "char_span": [
+          141835,
+          141998
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "seven_graha_sign_count": {
+              "n": 4
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Kendra"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (seven_graha_sign_count(n=4) matches item's own stated count of signs; condition, effect and yoga name all read directly from this item's own self-contained paragraph -- no template borrowed from elsewhere in the chapter)",
+        "verified_date": "2026-08-29"
+      },
+      "kind": "yoga",
+      "note": "One of the seven-item Vallaki/Veena-through-Gola family (Phaladeepika ch. 6 vv. 39-41, passage:phaladeepika.06.p168): the seven planets from Sun to Saturn -- the printed set, transcribed rather than read from a reference-card table -- occupy exactly 4 distinct sign(s) between them. Confirmed against a direct 300dpi render of printed p74 (no Notes, no known defect on this passage). Condition uses the new seven_graha_sign_count(n) fact (dep.seven-graha-sign-count, Milestone 27): one chart-wide fact, no graha argument, matched against a literal n exactly the way occupant_count already is -- no arithmetic entered the condition language and no new combinator was built. Card id PD.06.Kendra names the yoga, not the unrelated kendra house class already used throughout this store's house_class facts; the two share a printed word by coincidence, not a doctrine. Mutually exclusive with its six siblings by construction (a chart has exactly one distinct-sign count for these seven bodies), linked to all of them by parallel_of -- the same relationship PD.06.Varishtha/.Sama/.Adhama and PD.06.Lakshmi/.Gouri already carry for a sibling family from one book, no authority field.",
+      "parallel_of": [
+        "PD.06.Vallaki",
+        "PD.06.Dharma",
+        "PD.06.Hasha",
+        "PD.06.Shula",
+        "PD.06.Yuga",
+        "PD.06.Gola"
+      ]
+    },
+    {
+      "id": "PD.06.Shula",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "39-41",
+        "page_anchor": "phaladeepika/p0074",
+        "tier": 1,
+        "quote": "(5) When all the planets are disposed in three signs only, the resulting yoga is known as Shula Yoga. The person with this yoga at birth is wrathful, of violent disposition and poor.",
+        "quote_display": "(5) When all the planets are disposed in three signs only, the resulting yoga is known as Shula Yoga. The person with this yoga at birth is wrathful, of violent disposition and poor.",
+        "quote_sha256": "e68c4cbc619c27ff81abc42f432e27f7a343bbfc7739d9ba504be5925c2eaf92",
+        "char_span": [
+          142002,
+          142184
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "seven_graha_sign_count": {
+              "n": 3
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Shula"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (seven_graha_sign_count(n=3) matches item's own stated count of signs; condition, effect and yoga name all read directly from this item's own self-contained paragraph -- no template borrowed from elsewhere in the chapter)",
+        "verified_date": "2026-08-29"
+      },
+      "kind": "yoga",
+      "note": "One of the seven-item Vallaki/Veena-through-Gola family (Phaladeepika ch. 6 vv. 39-41, passage:phaladeepika.06.p168): the seven planets from Sun to Saturn -- the printed set, transcribed rather than read from a reference-card table -- occupy exactly 3 distinct sign(s) between them. Confirmed against a direct 300dpi render of printed p74 (no Notes, no known defect on this passage). Condition uses the new seven_graha_sign_count(n) fact (dep.seven-graha-sign-count, Milestone 27): one chart-wide fact, no graha argument, matched against a literal n exactly the way occupant_count already is -- no arithmetic entered the condition language and no new combinator was built. Mutually exclusive with its six siblings by construction (a chart has exactly one distinct-sign count for these seven bodies), linked to all of them by parallel_of -- the same relationship PD.06.Varishtha/.Sama/.Adhama and PD.06.Lakshmi/.Gouri already carry for a sibling family from one book, no authority field.",
+      "parallel_of": [
+        "PD.06.Vallaki",
+        "PD.06.Dharma",
+        "PD.06.Hasha",
+        "PD.06.Kendra",
+        "PD.06.Yuga",
+        "PD.06.Gola"
+      ]
+    },
+    {
+      "id": "PD.06.Yuga",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "39-41",
+        "page_anchor": "phaladeepika/p0074",
+        "tier": 1,
+        "quote": "(6) If all the seven planets are posited in two signs only, they give rise to Yuga Yoga. The person with this Yoga In his birth chart will be heretical and without wealth.",
+        "quote_display": "(6) If all the seven planets are posited in two signs only, they give rise to Yuga Yoga. The person with this Yoga In his birth chart will be heretical and without wealth.",
+        "quote_sha256": "b37da6d3a4552018f422a24211c4cfeedf742217d4ff198b60090774ecfb1970",
+        "char_span": [
+          142188,
+          142359
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "seven_graha_sign_count": {
+              "n": 2
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Yuga"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (seven_graha_sign_count(n=2) matches item's own stated count of signs; condition, effect and yoga name all read directly from this item's own self-contained paragraph -- no template borrowed from elsewhere in the chapter)",
+        "verified_date": "2026-08-29"
+      },
+      "kind": "yoga",
+      "note": "One of the seven-item Vallaki/Veena-through-Gola family (Phaladeepika ch. 6 vv. 39-41, passage:phaladeepika.06.p168): the seven planets from Sun to Saturn -- the printed set, transcribed rather than read from a reference-card table -- occupy exactly 2 distinct sign(s) between them. Confirmed against a direct 300dpi render of printed p74 (no Notes, no known defect on this passage). Condition uses the new seven_graha_sign_count(n) fact (dep.seven-graha-sign-count, Milestone 27): one chart-wide fact, no graha argument, matched against a literal n exactly the way occupant_count already is -- no arithmetic entered the condition language and no new combinator was built. Mutually exclusive with its six siblings by construction (a chart has exactly one distinct-sign count for these seven bodies), linked to all of them by parallel_of -- the same relationship PD.06.Varishtha/.Sama/.Adhama and PD.06.Lakshmi/.Gouri already carry for a sibling family from one book, no authority field.",
+      "parallel_of": [
+        "PD.06.Vallaki",
+        "PD.06.Dharma",
+        "PD.06.Hasha",
+        "PD.06.Kendra",
+        "PD.06.Shula",
+        "PD.06.Gola"
+      ]
+    },
+    {
+      "id": "PD.06.Gola",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "39-41",
+        "page_anchor": "phaladeepika/p0074",
+        "tier": 1,
+        "quote": "(7) If all the seven planets are disposed in one sign, they form Gola Yoga. The person born with this Yoga will be Indolent, shortlived, without wealth, sinful and will associate with low type of persons. Such a person will not be a skillful artisan.",
+        "quote_display": "(7) If all the seven planets are disposed in one sign, they form Gola Yoga. The person born with this Yoga will be Indolent, shortlived, without wealth, sinful and will associate with low type of persons. Such a person will not be a skillful artisan.",
+        "quote_sha256": "fd290d45a70b30bade8b15af75bda9f0a34bbd0ae29c90c23975b0b33a0283ae",
+        "char_span": [
+          142363,
+          142613
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "seven_graha_sign_count": {
+              "n": 1
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "Gola"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (seven_graha_sign_count(n=1) matches item's own stated count of signs; condition, effect and yoga name all read directly from this item's own self-contained paragraph -- no template borrowed from elsewhere in the chapter)",
+        "verified_date": "2026-08-29"
+      },
+      "kind": "yoga",
+      "note": "One of the seven-item Vallaki/Veena-through-Gola family (Phaladeepika ch. 6 vv. 39-41, passage:phaladeepika.06.p168): the seven planets from Sun to Saturn -- the printed set, transcribed rather than read from a reference-card table -- occupy exactly 1 distinct sign(s) between them. Confirmed against a direct 300dpi render of printed p74 (no Notes, no known defect on this passage). Condition uses the new seven_graha_sign_count(n) fact (dep.seven-graha-sign-count, Milestone 27): one chart-wide fact, no graha argument, matched against a literal n exactly the way occupant_count already is -- no arithmetic entered the condition language and no new combinator was built. Mutually exclusive with its six siblings by construction (a chart has exactly one distinct-sign count for these seven bodies), linked to all of them by parallel_of -- the same relationship PD.06.Varishtha/.Sama/.Adhama and PD.06.Lakshmi/.Gouri already carry for a sibling family from one book, no authority field.",
+      "parallel_of": [
+        "PD.06.Vallaki",
+        "PD.06.Dharma",
+        "PD.06.Hasha",
+        "PD.06.Kendra",
+        "PD.06.Shula",
+        "PD.06.Yuga"
+      ]
+    },
+    {
+      "id": "PD.06.SevenGrahas",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 6,
+        "verse": "39-41",
+        "page_anchor": "phaladeepika/p0073",
+        "tier": 1,
+        "quote": "the seven planets from Sun to Saturn",
+        "quote_display": "the seven planets from Sun to Saturn",
+        "quote_sha256": "8f9d571c64e09ba059537d58bec4b19cdd22b027cf84193662afef4ee6ede7ff",
+        "char_span": [
+          141197,
+          141233
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "seven_grahas",
+        "grahas": [
+          "Sun",
+          "Moon",
+          "Mars",
+          "Mercury",
+          "Jupiter",
+          "Venus",
+          "Saturn"
+        ]
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (the phrase occurs exactly once in chapter 6, inside item (1)'s own paragraph, and names exactly Sun/Moon/Mars/Mercury/Jupiter/Venus/Saturn -- the classical order already used for chart.bodies -- excluding Rahu and Ketu, which the phrase does not name)",
+        "verified_date": "2026-08-29"
+      },
+      "kind": "table",
+      "activation": "reference",
+      "note": "Reference only: the membership vv.39-41's seven-item family (PD.06.Vallaki through PD.06.Gola) tests via the new seven_graha_sign_count(n) fact (Engine/facts.py::_seven_graha_sign_count, dep.seven-graha-sign-count). Not a table verse of its own -- the phrase is quoted directly out of item (1)'s naming clause (PD.06.Vallaki's own span) rather than invented, and this card's byte-exact quote is a strict substring of that span, not a copy requiring dupes.py's SAME-QUOTE check (different, shorter text -> a different quote_sha256). Exists because Engine/doctrine.py reads every fixed member set from a reference card rather than a Python literal (test_no_doctrinal_constant_is_written_in_python), the same discipline `combustion_source` already follows for naming the Sun."
     }
   ]
 }

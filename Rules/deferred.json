@@ -131,6 +131,17 @@
       "effort_basis": "counts as claims -- the claim schema has no numeric form",
       "predicate": "occupant_count"
     },
+    "dep.seven-graha-sign-count": {
+      "title": "distinct-sign count over the seven classical grahas (Milestone 27)",
+      "kind": "predicate",
+      "detail": "How many distinct signs Sun through Saturn occupy between them, read by Engine/facts.py::_seven_graha_sign_count and delivered as one predicate, seven_graha_sign_count(n), with no graha argument -- the fact is about the set collectively, the same shape as lagna_sign. Built for ch. 6 vv. 39-41 (passage:phaladeepika.06.p168), the seven-item Vallaki/Veena-through-Gola family: each item names an exact count (7 down to 1), so the seven cards match a literal n against this fact's exact key, the same mechanism occupant_count already uses -- no arithmetic entered the condition language and no new combinator was built. The planet set (Sun, Moon, Mars, Mercury, Jupiter, Venus, Saturn; Rahu/Ketu excluded) is read from a new reference card, PD.06.SevenGrahas (predicts.relation: \"seven_grahas\"), via a new Doctrine.seven_grahas() accessor -- not transcribed as a Python literal in Engine/facts.py. The first draft did exactly that, on the reasoning that \"the seven classical planets\" is a fixed astronomical convention rather than book-specific doctrine; Engine/tests/test_doctrine.py::test_no_doctrinal_constant_is_written_in_python[facts.py] correctly caught it before the first commit, and the fix was made the same session.",
+      "phase": "2 (engine completion)",
+      "depends_on": [],
+      "effort": 2,
+      "effort_basis": "one extractor emitting a single chart-wide fact, plus one reference card and one doctrine accessor for the member set it reads rather than hardcodes",
+      "predicate": "seven_graha_sign_count",
+      "implemented": true
+    },
     "dep.strength": {
       "title": "strength verdict extractor (Stage 4)",
       "kind": "predicate",
@@ -1582,12 +1593,12 @@
       "chapter": 6,
       "locus": "vv. 39-41 (p.73-74)",
       "what": "the seven planets-in-N-signs family (Vallaki/Veena, Dharma, Hasha, Kendra, Shula, Yuga, Gola)",
-      "reason": "Not yet encoded. This family needs one new engine fact -- a count of how many distinct signs the seven classical grahas (excluding the nodes) occupy between them -- which nothing in the current vocabulary computes; occupant_count counts occupants of one house, not signs occupied overall. Not built speculatively. Raja Yoga and Shankha Yoga (v.37-38, the rest of the original p164 entry) needed nothing new and are now encoded as PD.06.RajaYoga and PD.06.Shankha.",
+      "reason": "RESOLVED (Milestone 27). Encoded as seven firing cards, PD.06.Vallaki/.Dharma/.Hasha/.Kendra/.Shula/.Yuga/.Gola -- one per item, each self-contained (its own condition and effect printed together in one paragraph, unlike the vv.44-56 house-wise family's shared-template idiom, so no governing/reference card was needed). Each item states an exact distinct-sign count for the seven planets Sun through Saturn (7 down to 1), confirmed against a direct 300dpi render of printed pp.73-74 (no Notes, no known defect, no translator commentary on this passage). This needed one new engine fact, seven_graha_sign_count(n) -- see dep.seven-graha-sign-count -- because nothing in the prior vocabulary counted distinct signs occupied by a fixed set of bodies; occupant_count counts occupants of one house, not signs occupied overall. The seven cards are linked to each other by parallel_of (mutually exclusive readings of one family, same book, no authority field -- the same relationship PD.06.Varishtha/.Sama/.Adhama and PD.06.Lakshmi/.Gouri already carry, extended here to a family of seven rather than three). Item (1)'s dual naming (\"known as Vallaki. This is also called Veena Yoga\") is both printed in the same sentence, not a defect; the card id and predicts.yoga use the first-given name, Vallaki, and the note records the second. Raja Yoga and Shankha Yoga (v.37-38, the rest of the original p164 entry) needed nothing new and were encoded earlier as PD.06.RajaYoga and PD.06.Shankha.",
       "requires": [
         "dep.none"
       ],
       "phase": "3 (knowledge)",
-      "status": "deferred",
+      "status": "resolved",
       "paragraphs": [
         168,
         169,

@@ -305,6 +305,19 @@ class Doctrine:
             return Sourced(table[graha], (c.id,))
         return Sourced(None, (c.id,))
 
+    # --- fixed member sets ----------------------------------------------------
+
+    def seven_grahas(self) -> Sourced:
+        """Which nine grahas count as "the seven" a verse means by that word.
+
+        Read rather than assumed, for the same reason `combustion_source` is:
+        it is Sun-through-Saturn in every text encoded so far, but which
+        bodies a book means by "the seven planets" is a doctrinal claim, and a
+        hardcoded tuple would be the engine asserting it instead of a card.
+        """
+        c = self._one("seven_grahas")
+        return Sourced(tuple(c.predicts["grahas"]), (c.id,))
+
     # --- strength -----------------------------------------------------------
 
     def graha_strength_verdicts(self) -> Sourced:
