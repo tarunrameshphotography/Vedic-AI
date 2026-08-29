@@ -15,6 +15,7 @@ from dataclasses import dataclass, field
 from typing import Any
 
 from .chart import SIGNS, ChartBundle
+from .dasa import jd_to_iso, mahadasa_sequence
 from .doctrine import DoctrineError
 
 # Predicate name -> ordered argument names. A rule card referring to a
@@ -75,6 +76,14 @@ VOCABULARY: dict[str, tuple[str, ...]] = {
     # `n` is bound by a variable or matched against a literal exactly the way
     # `occupant_count` already is; no arithmetic enters the condition language.
     "seven_graha_sign_count": ("n",),
+    # dep.dasa -- which graha presides over which stretch of a native's own
+    # Vimshottari mahadasa timeline. One fact per graha, always nine per
+    # chart (the 120-year cycle names every graha exactly once): this is a
+    # property of the birth moment, not of "now", so no query date enters
+    # anywhere in the pipeline. The window each period covers travels in the
+    # fact's evidence, not as a further predicate argument -- there is
+    # nothing to quantify or compare, only a period to cite.
+    "mahadasa_lord": ("graha",),
 }
 
 
@@ -1072,6 +1081,66 @@ def _varga(chart, doc, rep, frame) -> list[Fact]:
     return out
 
 
+def _dasa(chart, doc, rep, frame) -> list[Fact]:
+    """dep.dasa -- the Vimshottari mahadasa sequence, ch. 19.
+
+    Mahadasa only. Ch. 19/20 state antardasa *effects* but never print the
+    sub-division arithmetic, and inventing one would be exactly the kind of
+    speculative vocabulary this module's own docstring rules out -- see
+    `Engine/dasa.py`'s module docstring.
+
+    The nine-graha order, each graha's period length and the nakshatra the
+    count starts from are all read from `PD.19.VimshottariPeriods`
+    (`Doctrine.vimshottari_periods`), not written here as literals. The
+    balance-at-birth arithmetic and the sequence itself are `Engine/dasa.py`'s
+    -- pure calendar/proportion arithmetic over the doctrine's own numbers,
+    the same separation `_varga` keeps between what a card states and what
+    the extractor computes from it.
+
+    Every graha gets exactly one fact per chart -- the birth moment fixes the
+    whole 120-year sequence, so there is no "current" dasa to ask for and no
+    query-date input anywhere in this pipeline, the same way a chart's
+    planetary placements are fixed regardless of when the report is read.
+
+    Which body's nakshatra the balance is measured from is itself read from
+    doctrine (`Doctrine.dasa_measured_from`), not written here as a literal --
+    the same discipline `_combustion` already applies to the Sun via
+    `Doctrine.combustion_source`.
+    """
+    body_name, body_cards = doc.dasa_measured_from()
+    reference_body = chart.bodies.get(body_name)
+    if reference_body is None:
+        return []
+    periods_doc, period_cards = doc.vimshottari_periods()
+    cards = set(body_cards) | set(period_cards)
+    rep.used("dasa", cards)
+
+    birth_jd = chart.resolved_birth["julian_day_ut"]
+    periods = mahadasa_sequence(
+        birth_jd, reference_body.lon, reference_body.nakshatra_index,
+        periods_doc["order"], periods_doc["years"],
+        periods_doc["starting_nakshatra"],
+    )
+
+    out = []
+    for p in periods:
+        ev = {
+            "ordinal": p.ordinal,
+            "years": p.years,
+            "balance_at_birth": p.balance_at_birth,
+            "start_jd": round(p.start_jd, 6),
+            "end_jd": round(p.end_jd, 6),
+            "start": jd_to_iso(p.start_jd),
+            "end": jd_to_iso(p.end_jd),
+            "measured_from": body_name,
+            "birth_reference_lon": round(reference_body.lon, 6),
+            "birth_reference_nakshatra": reference_body.nakshatra,
+            "doctrine": list(cards),
+        }
+        out.append(make_fact("mahadasa_lord", {"graha": p.graha}, frame, ev))
+    return out
+
+
 EXTRACTORS = (
     ("lord_of_house", _lordship),
     ("sign_class", _sign_classes),
@@ -1089,6 +1158,7 @@ EXTRACTORS = (
     ("strength", _strength),
     ("seven_graha_sign_count", _seven_graha_sign_count),
     ("varga", _varga),
+    ("dasa", _dasa),
 )
 
 

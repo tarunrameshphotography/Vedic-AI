@@ -787,10 +787,26 @@ def test_slice_runs_and_verifies():
     # sign) and the Moon (in the 8th house). No graha here is debilitated in
     # Rasi or Navamsa, so the two new dignity_in_varga/dignity(debilitated)
     # leaves this milestone added are not what fires on this particular chart.
-    assert r.verification.checks["claims"] == 66
+    # 66 -> 81 in Milestone 30: dep.dasa's nine mahadasa_lord facts fire nine
+    # PD.19.Dasa.<Graha> claims on every chart unconditionally -- the birth
+    # moment fixes the whole 120-year sequence, so all nine grahas' claims are
+    # always present, on this chart as on any other (+9). Releasing
+    # PD.09.Dignity.Inimical (the graha:"any" sentinel fixed to a real ?g)
+    # fires once per inimically-placed graha -- Sun, Saturn and Rahu on this
+    # chart, per the note above (+3) -- and its new sibling, PD.09.Dignity.
+    # Inimical.DasaEnmity (split out because the verse's closing sentence is a
+    # further, dasa-scoped claim, not a restatement), fires on the same three
+    # grahas: dignity(?g,inimical) is the discriminating condition in both,
+    # and mahadasa_lord(?g) holds for every graha unconditionally, so joining
+    # it does not narrow which grahas fire -- it attaches each one's own
+    # mahadasa window to the claim (+3). 66+9+3+3 = 81.
+    assert r.verification.checks["claims"] == 81
     for k in ("quote_integrity_passed", "conditions_reevaluated_passed",
               "numeric_grounding_passed"):
-        assert r.verification.checks[k] == 66
+        assert r.verification.checks[k] == 81
+    # 9 PD.19.Dasa.<Graha> claims plus 3 PD.09.Dignity.Inimical.DasaEnmity
+    # claims (Sun, Saturn, Rahu) carry a window on this chart.
+    assert r.verification.checks["window_grounding_passed"] == 12
 
 
 def test_every_claim_has_all_four_provenance_links():
@@ -814,7 +830,7 @@ def test_quoted_output_adds_no_words():
     r = run(DEMO)
     by_id = {c.claim_id: c for c in r.claims}
     rules = [s for s in r.sentences if s.part == "rules"]
-    assert len(rules) == 66  # see test_slice_runs_and_verifies for the 61 -> 66 move
+    assert len(rules) == 81  # see test_slice_runs_and_verifies for the 66 -> 81 move
     for s in rules:
         assert s.text == by_id[s.claim_ids[0]].passage["quote_display"]
 

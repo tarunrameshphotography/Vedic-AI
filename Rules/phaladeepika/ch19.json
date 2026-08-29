@@ -1,0 +1,679 @@
+{
+  "book_id": "phaladeepika",
+  "chapter": 19,
+  "cards": [
+    {
+      "id": "PD.19.VimshottariPeriods",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 19,
+        "verse": "2",
+        "page_anchor": "phaladeepika/p0174",
+        "tier": 1,
+        "quote": "Count the stars from Krittika in groups of nine. The planets presiding over the dasas belonging to the nine nakshatras composing each group are respectively the Sun, the Moon, Mars, Rahu, Jupiter, Saturn, Mercury, Ketu and Venus and the span of their dasa periods are respectively 6, 10, 7, 18, 16, 19, 17, 7 and 20 year.",
+        "quote_display": "Count the stars from Krittika in groups of nine. The planets presiding over the dasas belonging to the nine nakshatras composing each group are respectively the Sun, the Moon, Mars, Rahu, Jupiter, Saturn, Mercury, Ketu and Venus and the span of their dasa periods are respectively 6, 10, 7, 18, 16, 19, 17, 7 and 20 year.",
+        "quote_sha256": "62f0e0b0163ccdc45817b32763c4435f6d65ff410cd698a04ad78828735bdbab",
+        "char_span": [
+          340673,
+          340994
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "vimshottari_periods",
+        "order": [
+          "Sun",
+          "Moon",
+          "Mars",
+          "Rahu",
+          "Jupiter",
+          "Saturn",
+          "Mercury",
+          "Ketu",
+          "Venus"
+        ],
+        "years": {
+          "Sun": 6,
+          "Moon": 10,
+          "Mars": 7,
+          "Rahu": 18,
+          "Jupiter": 16,
+          "Saturn": 19,
+          "Mercury": 17,
+          "Ketu": 7,
+          "Venus": 20
+        },
+        "starting_nakshatra": "Krittika",
+        "cycle_group_size": 9
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "automated (Rules/tools/review.py): reference/table card -- the quote is the fact itself, with no interpretation between quote and card; byte-exact verification (verify.py) is the complete check such a card can receive",
+        "verified_date": "2026-08-29"
+      },
+      "activation": "reference",
+      "note": "The full Vimshottari scheme in one sentence: which nine grahas preside, in which order, for how many years each (6+10+7+18+16+19+17+7+20 = 120, the whole cycle), and that the 27 nakshatras are grouped in threes-of-nine starting from Krittika (the second nakshatra by this book's own zero-based order -- Ashwini, Bharani, Krittika -- read from `Engine.chart.NAKSHATRAS`, which is coordinate bookkeeping, not a further claim this card makes). Consulted by `Doctrine.vimshottari_periods` (Engine/doctrine.py), read by the `_dasa` extractor (Engine/facts.py) and `Engine/dasa.py`'s sequence arithmetic rather than either being a Python literal.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.19.YearDefinition",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 19,
+        "verse": "4",
+        "page_anchor": "phaladeepika/p0176",
+        "tier": 1,
+        "quote": "Note the exact position of the Sun in the Zodiac at the time of birth when the Sun in his next round arrives at the same position, it is considered as a solar year, which is also the year taken for Udu adasa system (Vimsottari or naksharta dasa system). By subdividing the same, days are calculated.",
+        "quote_display": "Note the exact position of the Sun in the Zodiac at the time of birth when the Sun in his next round arrives at the same position, it is considered as a solar year, which is also the year taken for Udu adasa system (Vimsottari or naksharta dasa system). By subdividing the same, days are calculated.",
+        "quote_sha256": "e13f586be3de062264dd625be60bdd4e5a6dbdf81e5c7706eb33cafdb33a9e75",
+        "char_span": [
+          344653,
+          344952
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "dasa_year_definition",
+        "basis": "a solar year -- the Sun's return to the same tropical position -- named as the year the Vimshottari (Udu) system itself uses"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "automated (Rules/tools/review.py): reference/table card -- the quote is the fact itself, with no interpretation between quote and card; byte-exact verification (verify.py) is the complete check such a card can receive",
+        "verified_date": "2026-08-29"
+      },
+      "activation": "reference",
+      "note": "States that a Vimshottari dasa-year is a solar year, without printing a day-count. No card built this milestone reads this one through a Doctrine accessor -- unlike the tables above, there is nothing table-shaped to look up, only a single number to fill in -- so `Engine/dasa.py::DASA_YEAR_DAYS` (365.25, the Julian year) is engine arithmetic, recorded there and here rather than silently assumed, in the same category ch. 1 v. 3's own note already assigns to 'the engine already does what it asks, by a different instrument.'",
+      "exclusions": []
+    },
+    {
+      "id": "PD.19.BalanceMethod",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 19,
+        "verse": "3 (Notes)",
+        "page_anchor": "phaladeepika/p0175",
+        "tier": 2,
+        "quote": "Now-a-days the easiest method of the remainder of the dasa accordingly is based on the longitude of the Moon 3-13°-12' (Cancer 13°-12'). Cancer is composed of one quater or 3°-20' of Punarvasu, four quarters of Ashlesha. As the longitude of 13°-12' in Cancer, it has passed the fourth quarter of Punarvasu in this […] sign and is in Pushyami nakshatra. To find out how much it has moved in Pushyami we will deduct 3°-20' of Punarvasu from the Moon's 13°-12'. Thus the balance will come to 9°-52'. The extent of the whole of Pushyami is 13°-20'. The lord of this nakshatra is Saturn whose total dasa period is 19 years. Therefore 13°- 20' being equal to 19 years, 9°-52' will be equal to 14 years 0 months of 22 days. This indicates that the 14 years and 22 days are observed over at birth and that would remain at credit at birth will be 19 years minus 14 years 22 days, that is, 4 years 11 months and 8 days.",
+        "quote_display": "Now-a-days the easiest method of the remainder of the dasa accordingly is based on the longitude of the Moon 3-13°-12' (Cancer 13°-12'). Cancer is composed of one quater or 3°-20' of Punarvasu, four quarters of Ashlesha. As the longitude of 13°-12' in Cancer, it has passed the fourth quarter of Punarvasu in this […] sign and is in Pushyami nakshatra. To find out how much it has moved in Pushyami we will deduct 3°-20' of Punarvasu from the Moon's 13°-12'. Thus the balance will come to 9°-52'. The extent of the whole of Pushyami is 13°-20'. The lord of this nakshatra is Saturn whose total dasa period is 19 years. Therefore 13°- 20' being equal to 19 years, 9°-52' will be equal to 14 years 0 months of 22 days. This indicates that the 14 years and 22 days are observed over at birth and that would remain at credit at birth will be 19 years minus 14 years 22 days, that is, 4 years 11 months and 8 days.",
+        "quote_sha256": "12c747290bbb9ba0ce56b9c31d6bee609e8f926e11bb2563e892941a54c74956",
+        "char_span": [
+          343530,
+          343843
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            343530,
+            343843
+          ],
+          [
+            343881,
+            344472
+          ]
+        ],
+        "quote_parts": [
+          "Now-a-days the easiest method of the remainder of the dasa accordingly is based on the longitude of the Moon 3-13°-12' (Cancer 13°-12'). Cancer is composed of one quater or 3°-20' of Punarvasu, four quarters of Ashlesha. As the longitude of 13°-12' in Cancer, it has passed the fourth quarter of Punarvasu in this",
+          "sign and is in Pushyami nakshatra. To find out how much it has moved in Pushyami we will deduct 3°-20' of Punarvasu from the Moon's 13°-12'. Thus the balance will come to 9°-52'. The extent of the whole of Pushyami is 13°-20'. The lord of this nakshatra is Saturn whose total dasa period is 19 years. Therefore 13°- 20' being equal to 19 years, 9°-52' will be equal to 14 years 0 months of 22 days. This indicates that the 14 years and 22 days are observed over at birth and that would remain at credit at birth will be 19 years minus 14 years 22 days, that is, 4 years 11 months and 8 days."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "dasa_balance_method",
+        "method": "the fraction of the birth nakshatra still to elapse, times the ruling graha's full dasa period -- worked here by degree/longitude rather than by ghatika, but the translator's Notes state (elsewhere in this verse) that it is the same proportion 'the generally recognised method' reaches by ghatika",
+        "worked_example": {
+          "moon_sign": "Cancer",
+          "moon_deg_in_sign": "13°12'",
+          "nakshatra": "Pushyami",
+          "elapsed_in_nakshatra": "9°52'",
+          "nakshatra_arc": "13°20'",
+          "nakshatra_lord": "Saturn",
+          "lord_dasa_years": 19,
+          "balance": "4 years 11 months 8 days"
+        }
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (Milestone 30: the worked example's own arithmetic checked independently -- 103.2° sidereal (Cancer 13°12') falls in nakshatra index 7 (Pushya/Pushyami), 9.8667° elapsed of its 13.3333° arc, matching the quote's '9°52″' to the minute; the remaining fraction (0.26) times Saturn's 19 years is 4.94 years = 4y 11m 8d, matching the quote's own stated answer exactly -- confirming this passage, not the printed root verse of v.3, is the method Engine/dasa.py implements)",
+        "verified_date": "2026-08-29"
+      },
+      "activation": "reference",
+      "note": "The translator's Notes, not the root verse: v.3's printed root text states Mantreswara's own division-by-60 shortcut (`PD.19.BalanceMethod.Mantreswara`, linked by `contradicts`), and the Notes go on to reject it explicitly ('This in our view is not correct as the total number of ghatikas are not always 60') before giving this degree-based restatement of what the Notes call 'the generally recognised method' -- the same proportion, in a unit the engine already has (`BodyState.lon`) rather than ghatikas. Quoted in two spans because the printed passage crosses a page break (p.175/176) mid-sentence, the same `dep.multi-span-quote` pattern used elsewhere in this store. This is a *worked example*, not itself a general table; `Engine/dasa.py::balance_at_birth_years` restates its proportion algebraically (verified against these exact numbers in `Engine/tests/test_dasa.py`) rather than reading a per-case lookup, since there is nothing table-shaped to look up -- one universal proportion, not a value that varies by mobility, varga or authority the way `PD.03.Navamsa.Start`'s offsets do. Because neither this card nor `PD.19.BalanceMethod.Mantreswara` ever fires as a claim (both are the engine's own justification for a computation, not a rule about a nativity), the `contradicts` link between them is documentary in the rule store and in `Reports/`, and does not surface in a per-chart consultation -- `Engine.adjudicate` only reports a declared link when at least one side has activated a claim (see its own docstring), and a computation-method dispute has no claim for either side to attach to.",
+      "exclusions": [],
+      "contradicts": [
+        "PD.19.BalanceMethod.Mantreswara"
+      ]
+    },
+    {
+      "id": "PD.19.BalanceMethod.Mantreswara",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 19,
+        "verse": "3",
+        "page_anchor": "phaladeepika/p0174",
+        "tier": 1,
+        "quote": "Now is described the method of finding the remainder of the dasa of planet at the time of birth. Find out the nakshatra in which the Moon is posited at birth and for how many ghatikas it will remain after birth in that nakshatra. Multiply those ghatikas by the total period of the dasa and divide it by 60. The quotient will represent the period in years still to elapse. Any remainder remaining may be converted into months by multiplying by 30 and dividing by 60 and so on.",
+        "quote_display": "Now is described the method of finding the remainder of the dasa of planet at the time of birth. Find out the nakshatra in which the Moon is posited at birth and for how many ghatikas it will remain after birth in that nakshatra. Multiply those ghatikas by the total period of the dasa and divide it by 60. The quotient will represent the period in years still to elapse. Any remainder remaining may be converted into months by multiplying by 30 and dividing by 60 and so on.",
+        "quote_sha256": "606f01233cbda83bedeb77e9e92a72e7bc53116fcb2e9bdf68e72d24aba223b3",
+        "char_span": [
+          341439,
+          341914
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "dasa_balance_method_disputed",
+        "method": "remaining ghatikas in the birth nakshatra, times the graha's total dasa period, divided by 60 -- treating the nakshatra's own span as always 60 ghatikas, per the translator's Notes on this same verse",
+        "measured_from": "Moon"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "automated (Rules/tools/review.py): reference/table card -- the quote is the fact itself, with no interpretation between quote and card; byte-exact verification (verify.py) is the complete check such a card can receive",
+        "verified_date": "2026-08-29"
+      },
+      "activation": "reference",
+      "note": "The root verse's own printed method, identified by its own Notes (same verse) as 'the method of calculation according to Shri Mantreshwar' -- always dividing by 60 regardless of the nakshatra's true span -- and as the reading the translator rejects ('not correct as the total number of ghatikas are not always 60'). Preserved rather than deleted: this is the source's own stated method, on record, and `PD.19.BalanceMethod` carries the reading the engine actually computes with. This card's own `method` is never queried by a `Doctrine` accessor and never becomes a claim -- it drives no computation -- so its `relation` is deliberately distinct from `dasa_balance_method` (no accessor could accidentally read the disputed value instead of the endorsed one). Its `measured_from` field is a different matter: this root sentence -- 'find out the nakshatra in which the Moon is posited at birth' -- is the instruction *both* balance methods share (only the division step differs), so it is the one place in the chapter that names which body the whole of dep.dasa keys on. Read by a new `Doctrine.dasa_measured_from` accessor and consulted by the `_dasa` extractor (Engine/facts.py), so the engine never writes 'Moon' as a literal -- the same discipline `combustion_source` already applies to the Sun.",
+      "exclusions": [],
+      "contradicts": [
+        "PD.19.BalanceMethod"
+      ]
+    },
+    {
+      "id": "PD.19.Dasa.Sun",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 19,
+        "verse": "18",
+        "page_anchor": "phaladeepika/p0179",
+        "tier": 1,
+        "quote": "General effects like acquisition of wealth through cruel actions or through kings or through fighting, buring in eyes, abdominal and dental disorders, serious trouble to wife and children, loses of servants, and wealth, separation from reverred elders and parents, will be dertvded during the dasa of the Sun.",
+        "quote_display": "General effects like acquisition of wealth through cruel actions or through kings or through fighting, buring in eyes, abdominal and dental disorders, serious trouble to wife and children, loses of servants, and wealth, separation from reverred elders and parents, will be dertvded during the dasa of the Sun.",
+        "quote_sha256": "5b3212a906ea9a5fae7b512fa03d7828d28f4f4e3ca01d2cdda8547e4b315e0f",
+        "char_span": [
+          350579,
+          350888
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "mahadasa_lord": {
+              "graha": "Sun"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "Sun"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (Milestone 30: condition mahadasa_lord(Sun) matches 'during the dasa of the Sun'; one of nine per-graha cards, vv.18-26, the block the chapter's own v.17 Notes identify as specific to the Vimshottari system -- vv.5-17's general effects are excluded from firing for exactly that reason, see chapter 19's deferred passage entry)",
+        "verified_date": "2026-08-29"
+      },
+      "note": "Transcribed as printed, including its OCR artifacts ('buring' for 'burning', 'dertvded' for 'derived') -- not corrected.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.19.Dasa.Moon",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 19,
+        "verse": "19",
+        "page_anchor": "phaladeepika/p0179",
+        "tier": 1,
+        "quote": "The general effects that will be experienced during the dasa of the Moon will be gain of wealth through the mantras (hymns) and the beneficance of deities, Brahmins and the king, acquisition of wife, wealth, and agricultural land, gain of flowers, clothes, ornaments, and objects of enjoyment of various tastes. There will be animosity with wicked people, loss of wealth and suffering from Rheumatism.",
+        "quote_display": "The general effects that will be experienced during the dasa of the Moon will be gain of wealth through the mantras (hymns) and the beneficance of deities, Brahmins and the king, acquisition of wife, wealth, and agricultural land, gain of flowers, clothes, ornaments, and objects of enjoyment of various tastes. There will be animosity with wicked people, loss of wealth and suffering from Rheumatism.",
+        "quote_sha256": "7e5f9789ae495ca26c958626ffa8786cddb66be9b164c4d0b73c35d653ba7568",
+        "char_span": [
+          351263,
+          351664
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "mahadasa_lord": {
+              "graha": "Moon"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "Moon"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (Milestone 30: condition mahadasa_lord(Moon) matches 'during the dasa of the Moon'; one of nine per-graha cards, vv.18-26)",
+        "verified_date": "2026-08-29"
+      },
+      "note": "",
+      "exclusions": []
+    },
+    {
+      "id": "PD.19.Dasa.Mars",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 19,
+        "verse": "20",
+        "page_anchor": "phaladeepika/p0179",
+        "tier": 1,
+        "quote": "During the dasa of the Mars there will be, on the part of the native, efforts to earn money through lands, litigation and the king. He will acquire agricultural lands and cattle. There will be enmity with his son and brothers and he will be attached to women of ill fame. He will suffer from impurity of blood, diseases arising from heat and loss through fire. There will also be loss of wealth.",
+        "quote_display": "During the dasa of the Mars there will be, on the part of the native, efforts to earn money through lands, litigation and the king. He will acquire agricultural lands and cattle. There will be enmity with his son and brothers and he will be attached to women of ill fame. He will suffer from impurity of blood, diseases arising from heat and loss through fire. There will also be loss of wealth.",
+        "quote_sha256": "131d906dabcbebd33dcfc0068317515551e5f9a4b5a33158d38c21888685c560",
+        "char_span": [
+          351998,
+          352393
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "mahadasa_lord": {
+              "graha": "Mars"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "Mars"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (Milestone 30: condition mahadasa_lord(Mars) matches 'the dasa of the Mars'; one of nine per-graha cards, vv.18-26)",
+        "verified_date": "2026-08-29"
+      },
+      "note": "",
+      "exclusions": []
+    },
+    {
+      "id": "PD.19.Dasa.Rahu",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 19,
+        "verse": "21",
+        "page_anchor": "phaladeepika/p0179",
+        "tier": 1,
+        "quote": "General effects like becoming wicked in disposition, suffering from a dangerous disease, destruction of wife and children of the native, fear or danger from poison, distress or trouble from enemies, diseases of the eye and heart, animosity with friends and servants working on agricultural land and animosity […] with the king, will be experienced when the dasa of Rahu be in operation.",
+        "quote_display": "General effects like becoming wicked in disposition, suffering from a dangerous disease, destruction of wife and children of the native, fear or danger from poison, distress or trouble from enemies, diseases of the eye and heart, animosity with friends and servants working on agricultural land and animosity […] with the king, will be experienced when the dasa of Rahu be in operation.",
+        "quote_sha256": "b5cd02e98cd84bcdaf47db7184f9576818c0d1bfbb3de8a156130c5559c23e3f",
+        "char_span": [
+          352401,
+          352709
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            352401,
+            352709
+          ],
+          [
+            352747,
+            352820
+          ]
+        ],
+        "quote_parts": [
+          "General effects like becoming wicked in disposition, suffering from a dangerous disease, destruction of wife and children of the native, fear or danger from poison, distress or trouble from enemies, diseases of the eye and heart, animosity with friends and servants working on agricultural land and animosity",
+          "with the king, will be experienced when the dasa of Rahu be in operation."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "mahadasa_lord": {
+              "graha": "Rahu"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "Rahu"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (Milestone 30: condition mahadasa_lord(Rahu) matches 'the dasa of Rahu'; one of nine per-graha cards, vv.18-26)",
+        "verified_date": "2026-08-29"
+      },
+      "note": "Quoted in two spans: the printed passage crosses a page break (p.179/180) mid-sentence, between 'animosity' and 'with the king' -- the same `dep.multi-span-quote` pattern as `PD.19.BalanceMethod`.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.19.Dasa.Jupiter",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 19,
+        "verse": "22",
+        "page_anchor": "phaladeepika/p0180",
+        "tier": 1,
+        "quote": "Acquisition of new clothes, and such other objects, servants, retinue and similar grandeur, commanding great respect and dignity, birth of children, gain of wealth and friends, receipts of admiration for the eloquence of his speech, will be the good effects when the dasa of Jupiter be in operation. The evil effects of dasa will be separation from elders, ear disease and phelgmatic troubles.",
+        "quote_display": "Acquisition of new clothes, and such other objects, servants, retinue and similar grandeur, commanding great respect and dignity, birth of children, gain of wealth and friends, receipts of admiration for the eloquence of his speech, will be the good effects when the dasa of Jupiter be in operation. The evil effects of dasa will be separation from elders, ear disease and phelgmatic troubles.",
+        "quote_sha256": "8fd63079747f4667db2f88626b76db7f24f44fcd31896e0b6b4a744d2de8aa7b",
+        "char_span": [
+          353697,
+          354090
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "mahadasa_lord": {
+              "graha": "Jupiter"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "Jupiter"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (Milestone 30: condition mahadasa_lord(Jupiter) matches 'the dasa of Jupiter'; one of nine per-graha cards, vv.18-26)",
+        "verified_date": "2026-08-29"
+      },
+      "note": "Transcribed as printed ('phelgmatic' for 'phlegmatic') -- not corrected.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.19.Dasa.Saturn",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 19,
+        "verse": "23",
+        "page_anchor": "phaladeepika/p0180",
+        "tier": 1,
+        "quote": "The general effects during the dasa of Saturn will be acquistion of wealth consequent of the war or disturbances of the country, acquisition of servants and old women, cattle like buffaloes, and bulls, trouble to wife and children, suffering from windy diseases like rheumatism, gout etc., phlegmatic diseases, piles and burning in hand and feet.",
+        "quote_display": "The general effects during the dasa of Saturn will be acquistion of wealth consequent of the war or disturbances of the country, acquisition of servants and old women, cattle like buffaloes, and bulls, trouble to wife and children, suffering from windy diseases like rheumatism, gout etc., phlegmatic diseases, piles and burning in hand and feet.",
+        "quote_sha256": "244e4873b1a2d41e1b1cb1b212397f79551c64ca90925835260fcaa9e47b4caa",
+        "char_span": [
+          354098,
+          354444
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "mahadasa_lord": {
+              "graha": "Saturn"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "Saturn"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (Milestone 30: condition mahadasa_lord(Saturn) matches 'the dasa of Saturn'; one of nine per-graha cards, vv.18-26)",
+        "verified_date": "2026-08-29"
+      },
+      "note": "",
+      "exclusions": []
+    },
+    {
+      "id": "PD.19.Dasa.Mercury",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 19,
+        "verse": "24",
+        "page_anchor": "phaladeepika/p0180",
+        "tier": 1,
+        "quote": "During the dasa of Mercury the native will get the benefit of learning from preceptors or will himself become a very learned and influential preceptor. There will be gain of agricultural lands, cows and horses and money from Brahmins. He will get into association with persons of high status. He will worship gods and acquire immense wealth. He will suffer from wind, heat and phlegm.",
+        "quote_display": "During the dasa of Mercury the native will get the benefit of learning from preceptors or will himself become a very learned and influential preceptor. There will be gain of agricultural lands, cows and horses and money from Brahmins. He will get into association with persons of high status. He will worship gods and acquire immense wealth. He will suffer from wind, heat and phlegm.",
+        "quote_sha256": "d71a1ef0f9cb310151b210db1dd8b7b44089df0589d08531a5b631d461b37540",
+        "char_span": [
+          354452,
+          354836
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "mahadasa_lord": {
+              "graha": "Mercury"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "Mercury"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (Milestone 30: condition mahadasa_lord(Mercury) matches 'the dasa of Mercury'; one of nine per-graha cards, vv.18-26)",
+        "verified_date": "2026-08-29"
+      },
+      "note": "",
+      "exclusions": []
+    },
+    {
+      "id": "PD.19.Dasa.Ketu",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 19,
+        "verse": "25",
+        "page_anchor": "phaladeepika/p0180",
+        "tier": 1,
+        "quote": "During the dasa of Ketu the native will suffer from sorrow and confusion caused by females, trouble from the rich and loss of wealth. He will do injustice to […] others. He will be banished from his country (native place). He will suffer from dental trouble, pain in the legs and phlegmatic troubles.",
+        "quote_display": "During the dasa of Ketu the native will suffer from sorrow and confusion caused by females, trouble from the rich and loss of wealth. He will do injustice to […] others. He will be banished from his country (native place). He will suffer from dental trouble, pain in the legs and phlegmatic troubles.",
+        "quote_sha256": "ad379f5e10da5ea1d5c11568bd7afdba386f714fe31f24c9fbb1c05e07b06132",
+        "char_span": [
+          354844,
+          355001
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            354844,
+            355001
+          ],
+          [
+            355039,
+            355177
+          ]
+        ],
+        "quote_parts": [
+          "During the dasa of Ketu the native will suffer from sorrow and confusion caused by females, trouble from the rich and loss of wealth. He will do injustice to",
+          "others. He will be banished from his country (native place). He will suffer from dental trouble, pain in the legs and phlegmatic troubles."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "mahadasa_lord": {
+              "graha": "Ketu"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "Ketu"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (Milestone 30: condition mahadasa_lord(Ketu) matches 'the dasa of Ketu'; one of nine per-graha cards, vv.18-26)",
+        "verified_date": "2026-08-29"
+      },
+      "note": "Quoted in two spans: the printed passage crosses a page break (p.180/181) mid-sentence, between 'injustice to' and 'others.' -- the same `dep.multi-span-quote` pattern as `PD.19.BalanceMethod` and `PD.19.Dasa.Rahu`.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.19.Dasa.Venus",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 19,
+        "verse": "26",
+        "page_anchor": "phaladeepika/p0181",
+        "tier": 1,
+        "quote": "Acquisition of wife, jewels, cloths, lustrous gems, concealed treasure, wealth, ornaments, horses, conch, etc., gain of money from trade, agricultrual pursutis, export and import of goods, separation from elders (like parents), loss of peace of mind and distress to kinsmen, will be the general effects experienced during the dasa of Venus.",
+        "quote_display": "Acquisition of wife, jewels, cloths, lustrous gems, concealed treasure, wealth, ornaments, horses, conch, etc., gain of money from trade, agricultrual pursutis, export and import of goods, separation from elders (like parents), loss of peace of mind and distress to kinsmen, will be the general effects experienced during the dasa of Venus.",
+        "quote_sha256": "d15e3d9882ec0fdaa49d4c2b7d6618f7ff0a5bafb7180ab29ac89996e81f8146",
+        "char_span": [
+          355274,
+          355614
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "mahadasa_lord": {
+              "graha": "Venus"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "Venus"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (Milestone 30: condition mahadasa_lord(Venus) matches 'the dasa of Venus'; one of nine per-graha cards, vv.18-26; last of the family, closing the chapter's testable Vimshottari doctrine)",
+        "verified_date": "2026-08-29"
+      },
+      "note": "Transcribed as printed ('agricultrual pursutis' for 'agricultural pursuits') -- not corrected.",
+      "exclusions": []
+    }
+  ]
+}

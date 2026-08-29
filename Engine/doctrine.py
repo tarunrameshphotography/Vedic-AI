@@ -355,6 +355,29 @@ class Doctrine:
             )
         return Sourced(table[mobility], (c.id,))
 
+    # --- dasa (vimshottari) --------------------------------------------------
+
+    def dasa_measured_from(self) -> Sourced:
+        """Which body's nakshatra fixes the Vimshottari balance at birth (ch.
+        19 v. 3's opening instruction, common ground between the verse's two
+        balance methods -- only the division step differs between them).
+        Read rather than hardcoded, the same discipline `combustion_source`
+        already applies to the Sun."""
+        c = self._one("dasa_balance_method_disputed")
+        return Sourced(c.predicts["measured_from"], (c.id,))
+
+    def vimshottari_periods(self) -> Sourced:
+        """The nine-graha dasa order, their period lengths, and the nakshatra
+        the count starts from (ch. 19 v. 2). Read rather than hardcoded, the
+        same discipline `varga_division_count` follows: which nine grahas
+        preside over the cycle, in which order, and for how many years each,
+        is this book's own statement."""
+        c = self._one("vimshottari_periods")
+        p = c.predicts
+        return Sourced({"order": tuple(p["order"]), "years": dict(p["years"]),
+                        "starting_nakshatra": p["starting_nakshatra"]},
+                       (c.id,))
+
     # --- strength -----------------------------------------------------------
 
     def graha_strength_verdicts(self) -> Sourced:

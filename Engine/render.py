@@ -105,6 +105,13 @@ def _body_of(claim: Claim) -> str:
     return "?"
 
 
+def _dasa_graha(claim: Claim) -> str:
+    for f in claim.derived["facts"]:
+        if f["key"].startswith("mahadasa_lord("):
+            return f["key"][len("mahadasa_lord("):-1]
+    return "?"
+
+
 # --- the consultation -------------------------------------------------------
 
 _RELATIONSHIP_HEADING = {
@@ -297,15 +304,24 @@ def consultation(
 
     by_id = {c.claim_id: c for c in claims}
     grouped: dict[int, list[Sentence]] = {}
+    dasa_sentences: list[Sentence] = []
     for s in sentences:
         if s.part != "rules":
+            continue
+        claim = by_id[s.claim_ids[0]]
+        # A dasa claim is a window, not a placement -- it has no house at all,
+        # not merely an absent one -- so it is rendered in its own
+        # chronological section below rather than falling into the "no house
+        # of its own" bucket the Ascendant otherwise uses.
+        if claim.window is not None:
+            dasa_sentences.append(s)
             continue
         # A card keyed on the ascendant's sign rather than on a body in a house
         # has no house of its own. Grouping it at 0 renders it first, which is
         # also where a reading starts. Dropping it -- which is what happened
         # before chapter 9 gave the store its first such card -- would let an
         # activated rule vanish from the report while Stage 9 still passed.
-        h = _house_of(by_id[s.claim_ids[0]])
+        h = _house_of(claim)
         grouped.setdefault(0 if h is None else h, []).append(s)
 
     for house in sorted(grouped):
@@ -335,6 +351,33 @@ def consultation(
               f"{_trigger_grounds(claim.derived['conditions_satisfied'])}")
             A(f"- **Page anchor** — `{p['page_anchor']}` · "
               f"`{p['corpus_file']}` chars {p['char_span'][0]}–{p['char_span'][1]}")
+            A(f"- **Claim** — `{claim.claim_id}`")
+            A("")
+
+    if dasa_sentences:
+        A("### Vimshottari Mahadasa Timeline")
+        A("")
+        A("Each period below is a stretch of this native's own birth-fixed "
+          "sequence, not a placement — the whole 120-year cycle is computed "
+          "once, from the Moon's nakshatra at birth, and every graha appears "
+          "in it exactly once. The first period's length is a balance rather "
+          "than a full term (`PD.19.BalanceMethod`), read from the method the "
+          "chapter's own translator's Notes endorse; the chapter's other, "
+          "disputed method is on record as a separate reference card but "
+          "does not drive this computation.")
+        A("")
+        for s in sorted(dasa_sentences, key=lambda s: by_id[s.claim_ids[0]].window["start"]):
+            claim = by_id[s.claim_ids[0]]
+            w = claim.window
+            A(f"**{_dasa_graha(claim)}** mahadasa — {w['start'][:10]} to {w['end'][:10]}")
+            A("")
+            A(f"> {s.text}")
+            A("")
+            A(f"- **Source** — {_citation(claim)}")
+            A(f"- **Rule card** — `{claim.derived['rule_card']}` (tier {claim.tier})")
+            A(f"- **Page anchor** — `{claim.passage['page_anchor']}` · "
+              f"`{claim.passage['corpus_file']}` chars "
+              f"{claim.passage['char_span'][0]}–{claim.passage['char_span'][1]}")
             A(f"- **Claim** — `{claim.claim_id}`")
             A("")
 

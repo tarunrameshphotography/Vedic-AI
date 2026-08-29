@@ -205,7 +205,9 @@
         "chapter:phaladeepika.19"
       ],
       "effort": 5,
-      "effort_basis": "vimshottari balance at birth plus a timeline, and claims that carry a window"
+      "effort_basis": "vimshottari balance at birth plus a timeline, and claims that carry a window",
+      "implemented": true,
+      "note": "MAHADASA ONLY (Milestone 30). No antardasa sub-division formula is printed anywhere in ch. 19 or ch. 20 -- both state antardasa effects, never the arithmetic -- so none is built; a future dep.antardasa would need a source that states one. Engine/dasa.py (nakshatra-lord cycle, balance-at-birth, the nine-period sequence), Engine/facts.py::_dasa (new predicate mahadasa_lord(graha), always nine facts per chart -- the birth moment fixes the whole 120-year sequence, so there is no query-date input anywhere in the pipeline), Engine/activate.py (new Claim.window field, additive), Engine/pipeline.py + Engine/render.py (dasa claims sort and render chronologically, in their own section, rather than by house). Doctrine read from PD.19.VimshottariPeriods via a new Doctrine.vimshottari_periods accessor, never a Python literal."
     },
     "dep.transit": {
       "title": "transit (gochara) calculation",
@@ -928,12 +930,129 @@
       "chapter": 19,
       "locus": "whole chapter - Dasas and their effects",
       "what": "vimshottari dasa computation and general effects",
-      "reason": "Deferred by ordering. Source of dep.dasa, and it carries an internal dispute about dasa balance that must be encoded as a disagreement rather than resolved.",
+      "reason": "RESOLVED (Milestone 30). v.2's period-years table and nakshatra-cycle rule encoded as PD.19.VimshottariPeriods (reference); v.4's naming of a dasa-year as a solar year, with no printed day-count, as PD.19.YearDefinition (reference; the engine's own 365.25-day arithmetic is recorded in Engine/dasa.py rather than assumed). v.3's balance-at-birth dispute encoded as a disagreement, not resolved: PD.19.BalanceMethod.Mantreswara quotes the root verse's own division-by-60 method, and PD.19.BalanceMethod quotes the same verse's Notes rejecting it and giving the degree/longitude method the engine actually computes with -- linked by contradicts, verified against the Notes' own worked example (4y11m8d for a Moon 9°52' into Pushyami) in Engine/tests/test_dasa.py. vv.18-26, the nine per-graha Vimshottari effect verses, encoded as nine firing cards PD.19.Dasa.<Graha>. vv.5-17 deliberately NOT encoded as firing cards -- v.17's own Notes say outright these effects 'should not apply to Vimsottari dasa system' -- and are recorded instead as a deferred passage quoting that disclaimer, along with the chapter's remaining apparatus (invocation, worked-example arithmetic, translator asides, colophon); see the passage:phaladeepika.19.* entries below.",
       "requires": [
         "dep.none"
       ],
       "phase": "3 (knowledge)",
-      "status": "deferred"
+      "status": "resolved"
+    },
+    {
+      "id": "passage:phaladeepika.19.p001",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 19,
+      "locus": "v. 1 (printed p.174)",
+      "what": "the invocation naming sage Parasara as the source of the dasa doctrine that follows",
+      "reason": "Devotional/attributional invocation, the same tier-3 treatment ch. 1 vv.1-2's invocation of the Sun and Saraswati already receives. It states no rule and conditions nothing.",
+      "requires": ["dep.none"],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [1]
+    },
+    {
+      "id": "passage:phaladeepika.19.p003",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 19,
+      "locus": "v. 2 Notes table (printed p.174)",
+      "what": "a tabular restatement of v.2's own nakshatra/lord/period doctrine, three columns of nine rows",
+      "reason": "Table furniture restating exactly the doctrine PD.19.VimshottariPeriods already quotes from the verse itself, the same treatment PD.03.Dasavarga's own column-heading table furniture already receives (passage:phaladeepika.01.p032 for the precedent).",
+      "requires": ["dep.none"],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [3]
+    },
+    {
+      "id": "passage:phaladeepika.19.balance-apparatus",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 19,
+      "locus": "v. 3 Notes, worked-example and ghatika apparatus (printed p.175)",
+      "what": "the ghatika-based worked example (20 ghatikas remaining in Punarvasu, Jupiter's balance), and the ghatika-based restatement and critique of the same two balance methods PD.19.BalanceMethod / PD.19.BalanceMethod.Mantreswara already quote by their own governing sentences (the 'generally recognised method' and 'Shri Mantreshwar's' method, and the translator's rejection of the latter)",
+      "reason": "The two competing methods are already on record, each in its own governing sentence (PD.19.BalanceMethod.Mantreswara quotes the root verse; PD.19.BalanceMethod quotes the Notes' degree-based restatement and worked example, the one the engine computes with). This is the connective apparatus around them -- a first, ghatika-unit worked example, and a named recap of the two methods in ghatika terms -- real doctrine but not independently testable beyond what is already captured, the same 'apparatus around already-captured doctrine' treatment chapter 6's Kemadruma variants and Adhiyoga cluster give their own worked examples and translator asides.",
+      "requires": ["dep.none"],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [5, 6, 8, 10, 11, 12, 16, 17, 19, 20, 23]
+    },
+    {
+      "id": "passage:phaladeepika.19.p025-045",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 19,
+      "locus": "vv. 5-17 and their Notes (printed pp.176-179)",
+      "what": "a first pass of general per-graha dasa effects (vv.5-17), and the Notes at v.17 explicitly disclaiming them from the Vimshottari system",
+      "reason": "NOT encoded as firing cards, on the source's own instruction: the Notes following v.17 say outright 'the effects given in verses 5-17 are such as could be ascribed to the other dasa systems also... Therefore the effects given in verses 5-17 should not apply to Vimsottari dasa system.' Since dep.dasa builds specifically the Vimshottari engine, encoding vv.5-17 against mahadasa_lord would attach doctrine the source itself says is for a different system to a Vimshottari-computed window. vv.18-26 (the block the same Notes identify as Vimshottari-specific) are encoded instead, as PD.19.Dasa.<Graha>. Recorded as a deliberate exclusion, not a gap: encoding the *other* dasa systems these verses belong to is out of scope, the same standing exclusion ch. 22's Kalachakra dasa already carries.",
+      "requires": ["dep.none"],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45]
+    },
+    {
+      "id": "passage:phaladeepika.19.p047",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 19,
+      "locus": "v. 18 Notes (printed p.179)",
+      "what": "the translator's qualification that the Sun's dasa effects (v.18, encoded as PD.19.Dasa.Sun) hold only when the Sun is not auspiciously disposed, with a worked lagna example",
+      "reason": "Tier-2 commentary narrowing a tier-1 card already in the store, the same shape as passage:phaladeepika.08.p012's qualification of PD.08.Sun.10 -- an exclusion the card schema records but the engine does not yet weigh (dep.adjudication).",
+      "requires": ["dep.adjudication"],
+      "phase": "4 (integration)",
+      "status": "deferred",
+      "paragraphs": [47]
+    },
+    {
+      "id": "passage:phaladeepika.19.p049",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 19,
+      "locus": "v. 19 Notes (printed p.179)",
+      "what": "the translator's qualification that the Moon's dasa effects (v.19, encoded as PD.19.Dasa.Moon) hold in full only when the Moon is strong",
+      "reason": "Tier-2 commentary narrowing a tier-1 card already in the store, the same shape as passage:phaladeepika.19.p047.",
+      "requires": ["dep.adjudication"],
+      "phase": "4 (integration)",
+      "status": "deferred",
+      "paragraphs": [49]
+    },
+    {
+      "id": "passage:phaladeepika.19.p053-056",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 19,
+      "locus": "v. 21 Notes (printed pp.179-180)",
+      "what": "the translator reporting Laghu Parasari's yogakaraka doctrine for Rahu and Ketu, distinct from v.21's own dasa effects (encoded as PD.19.Dasa.Rahu)",
+      "reason": "Substantial tier-2 doctrine attributed to a second, unconverted authority (Laghu Parasari) rather than this book's own -- a yogakaraka classification, not a further dasa-effect statement -- and not reviewed for extraction this milestone, which was scoped to ch. 19's own Vimshottari doctrine.",
+      "requires": ["dep.none"],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [53, 54, 55, 56]
+    },
+    {
+      "id": "passage:phaladeepika.19.p062",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 19,
+      "locus": "v. 25 Notes (printed p.181)",
+      "what": "a cross-reference to the v.21 Notes' Rahu/Ketu discussion",
+      "reason": "Tier-3 apparatus: a pointer to already-deferred material (passage:phaladeepika.19.p053-056), not new doctrine.",
+      "requires": ["dep.none"],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [62]
+    },
+    {
+      "id": "passage:phaladeepika.19.p064",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 19,
+      "locus": "p.182 colophon",
+      "what": "the chapter's closing formula",
+      "reason": "Colophon. Not doctrine, the same treatment every other chapter's closing formula receives.",
+      "requires": ["dep.none"],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [64]
     },
     {
       "id": "chapter:phaladeepika.20",

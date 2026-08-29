@@ -39,6 +39,11 @@ class Claim:
     tier: int
     stability: str
     text: str            # the quoted statement, as displayed
+    # A dasa claim -- "during Saturn's mahadasa, effects are X" -- is true
+    # over a date range, not of the chart timelessly the way every other
+    # claim here is. `None` for every claim that is not one; additive, so
+    # every existing construction and consumer of `Claim` is unaffected.
+    window: dict | None = None
 
 
 def activate(
@@ -157,6 +162,20 @@ def _claim(n, card, solution, chart, facts, book_titles) -> Claim:
             })
 
     meta = (book_titles or {}).get(card.book_id, {})
+
+    # A window rides on a bound fact's evidence -- `mahadasa_lord` is the only
+    # predicate that carries one today -- and is promoted to a first-class
+    # field here so downstream consumers can ask `claim.window` rather than
+    # searching `derived["facts"]`. At most one bound fact carries a window
+    # for any card in the current store (a dasa card conditions on exactly
+    # one graha), so there is nothing to merge or prefer between two.
+    window = None
+    for key in solution.bindings:
+        f = facts.get(key)
+        if f is not None and "start" in f.evidence and "end" in f.evidence:
+            window = {"start": f.evidence["start"], "end": f.evidence["end"]}
+            break
+
     return Claim(
         claim_id=f"clm-{n:04d}",
         astronomical={
@@ -200,6 +219,7 @@ def _claim(n, card, solution, chart, facts, book_titles) -> Claim:
         tier=card.tier,
         stability=stability,
         text=card.quote_display,
+        window=window,
     )
 
 
@@ -226,7 +246,7 @@ def verify_claims(
     corpora: dict[str, str] = {}
     failures: list[str] = []
 
-    n_quote = n_cond = n_num = 0
+    n_quote = n_cond = n_num = n_window = 0
 
     for claim in claims:
         card = by_id.get(claim.derived["rule_card"])
@@ -285,10 +305,58 @@ def verify_claims(
         if not bad:
             n_num += 1
 
+        # (6) window grounding, for dep.dasa claims only: the mahadasa
+        # timeline is re-derived from the chart's own birth JD and Moon
+        # position -- not read back off the same FactSet Stage 6 already
+        # trusted -- so a bug shared between the extractor and this check
+        # would still be caught by disagreeing with the recomputation.
+        if claim.window is not None:
+            graha = next(
+                (k[len("mahadasa_lord("):-1] for k in claim.derived["conditions_satisfied"]
+                 if k.startswith("mahadasa_lord(")), None)
+            recomputed = _recompute_window(chart, cards, graha)
+            if recomputed != claim.window:
+                failures.append(
+                    f"{claim.claim_id}: window {claim.window} does not match "
+                    f"the re-derived mahadasa timeline {recomputed}"
+                )
+            else:
+                n_window += 1
+
     checks = {
         "claims": len(claims),
         "quote_integrity_passed": n_quote,
         "conditions_reevaluated_passed": n_cond,
         "numeric_grounding_passed": n_num,
+        "window_grounding_passed": n_window,
     }
     return VerificationResult(ok=not failures, checks=checks, failures=failures)
+
+
+def _recompute_window(chart: ChartBundle, cards: list[RuleCard], graha: str | None) -> dict | None:
+    """Re-derive one graha's mahadasa window from scratch, for Stage 9.
+
+    Independent of `Engine.facts._dasa`: it goes back to the birth JD and the
+    Moon's own longitude/nakshatra on the `ChartBundle`, and to the doctrine
+    cards directly, rather than trusting the FactSet `_dasa` already produced.
+    """
+    from .dasa import jd_to_iso, mahadasa_sequence
+    from .doctrine import Doctrine, DoctrineError
+
+    if graha is None:
+        return None
+    moon = chart.bodies.get("Moon")
+    if moon is None:
+        return None
+    try:
+        periods_doc, _ = Doctrine.from_cards(cards).vimshottari_periods()
+    except DoctrineError:
+        return None
+    periods = mahadasa_sequence(
+        chart.resolved_birth["julian_day_ut"], moon.lon, moon.nakshatra_index,
+        periods_doc["order"], periods_doc["years"], periods_doc["starting_nakshatra"],
+    )
+    for p in periods:
+        if p.graha == graha:
+            return {"start": jd_to_iso(p.start_jd), "end": jd_to_iso(p.end_jd)}
+    return None

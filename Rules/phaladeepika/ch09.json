@@ -772,12 +772,12 @@
         "verse": "17",
         "page_anchor": "phaladeepika/p0109",
         "tier": 1,
-        "quote": "If a planet gets posited in an inimical sign, the person born will have an evil bent of mind. He will live in other people's houses and will eat their food. He will be without any means of livelihood and will be oppressed by enemies. Even his friends will become his enemies in the dasa of such a planet.",
-        "quote_display": "If a planet gets posited in an inimical sign, the person born will have an evil bent of mind. He will live in other people's houses and will eat their food. He will be without any means of livelihood and will be oppressed by enemies. Even his friends will become his enemies in the dasa of such a planet.",
-        "quote_sha256": "880d926557b80081a8d57f071ab727f1ebb29f5b796e1bec677758f0cf4b3534",
+        "quote": "If a planet gets posited in an inimical sign, the person born will have an evil bent of mind. He will live in other people's houses and will eat their food. He will be without any means of livelihood and will be oppressed by enemies.",
+        "quote_display": "If a planet gets posited in an inimical sign, the person born will have an evil bent of mind. He will live in other people's houses and will eat their food. He will be without any means of livelihood and will be oppressed by enemies.",
+        "quote_sha256": "bbc8864c72c5d62fdcf640e441b19517e362ca1c8eff7036134c830900e606e7",
         "char_span": [
           214926,
-          215230
+          215159
         ],
         "span_trimmed": null
       },
@@ -789,7 +789,7 @@
         "all": [
           {
             "dignity": {
-              "graha": "any",
+              "graha": "?g",
               "dignity": "inimical"
             }
           }
@@ -806,17 +806,67 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": "tarunrameshphotography + Claude (condition matches \"a planet gets posited in an inimical sign\"; correctly marked inert -- graha:\"any\" is a sentinel that matches no fact key, per the card's own note, needs dep.condition-variables to become a real variable)",
-        "verified_date": "2026-08-23"
+        "verified_by": "tarunrameshphotography + Claude (Milestone 30: released -- condition dignity(?g,inimical) matches \"a planet gets posited in an inimical sign\", the same ?g existential-quantification pattern PD.09.Dignity.Exalted/.OwnSign already use; the prior graha:\"any\" was a sentinel that matched no fact key, not a real variable. Split from the verse's closing sentence, which states a second, dasa-scoped claim rather than a further clause of this one -- see PD.09.Dignity.Inimical.DasaEnmity)",
+        "verified_date": "2026-08-29"
       },
-      "activation": "inert",
-      "note": "Universally quantified over the grahas. `graha: \"any\"` is a sentinel, not a body, and matches no fact key.",
-      "exclusions": [],
-      "requires": [
-        "dep.dignity",
-        "dep.condition-variables",
-        "dep.dasa"
-      ]
+      "note": "One claim per inimically-placed graha. The verse's own closing sentence -- \"Even his friends will become his enemies in the dasa of such a planet\" -- is not a further general effect but a distinct claim scoped to that same graha's own mahadasa, and belongs to PD.09.Dignity.Inimical.DasaEnmity instead: bundling it here would either drop the dasa-scoping the verse states or assert it as an unconditional lifelong effect the verse does not claim.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.09.Dignity.Inimical.DasaEnmity",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 9,
+        "verse": "17",
+        "page_anchor": "phaladeepika/p0109",
+        "tier": 1,
+        "quote": "Even his friends will become his enemies in the dasa of such a planet.",
+        "quote_display": "Even his friends will become his enemies in the dasa of such a planet.",
+        "quote_sha256": "dad2cc2550895692eb18dd51ed00e8da806057286f5a50a9da5d124bb35db246",
+        "char_span": [
+          215160,
+          215230
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "dignity": {
+              "graha": "?g",
+              "dignity": "inimical"
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "general",
+        "subject": "any_graha",
+        "dignity": "inimical",
+        "effect": "friends_become_enemies",
+        "timing": "own_mahadasa"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (Milestone 30: condition joins dignity(?g,inimical) with the new mahadasa_lord(?g) on the same shared variable -- \"such a planet\" backreferences the inimically-placed graha of the preceding sentence, so the claim is scoped to that graha's own dasa, not any dasa; matches \"even his friends will become his enemies in the dasa of such a planet\" exactly. The first correlated dep.dasa condition in the store, joined the same way lord_of_house/in_house are already correlated elsewhere via a shared ?g)",
+        "verified_date": "2026-08-29"
+      },
+      "note": "The second, dasa-scoped half of v.17's closing sentence -- split from PD.09.Dignity.Inimical, its general-effects sibling, because this clause states a further, distinct claim (enmity from friends, specifically during the graha's own mahadasa) rather than a restatement of the general effects. dep.dasa fires mahadasa_lord(graha) once per graha unconditionally (the whole 120-year sequence is fixed at birth), so this claim, like every dasa claim, carries a window -- when it applies, not merely whether it does.",
+      "exclusions": []
     },
     {
       "id": "PD.09.Dignity.Debilitated",

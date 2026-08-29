@@ -136,10 +136,15 @@ def run(
         # Claims are ordered deterministically by house then body so the report
         # reads in a stable order. A claim with no house of its own -- one keyed
         # on the ascendant's sign -- sorts to 0 and leads, matching how Stage 10
-        # groups it.
+        # groups it. A dasa claim has no house at all -- it is a window, not a
+        # placement -- and sorts after every house-grouped claim, chronologically
+        # by its own window start; Stage 10 renders that group separately rather
+        # than folding it into the house list.
         order = {b: i for i, b in enumerate(chart.bodies)}
         claims.sort(key=lambda c: (
-            _house(c) or 0, order.get(_body(c), 99)
+            1 if c.window is not None else 0,
+            c.window["start"] if c.window is not None else "",
+            _house(c) or 0, order.get(_body(c), 99),
         ))
 
         # Stage 7. A layer above the claims, never inside them: it reads the
