@@ -814,17 +814,28 @@ def test_slice_runs_and_verifies():
     # the store's house_class table (see PD.20.Parasara.TrikonaLord's own
     # note) (+6); and .EighthLordSunMoon once, Sun owning the 8th (+1).
     # 6+4+6+1 = 17. 81+17 = 98.
-    assert r.verification.checks["claims"] == 98
+    # 98 -> 101 in Milestone 32: v.27's two placement cards,
+    # PD.20.Placement.BeneficAdverse and .MaleficMiseries (nature + (dignity
+    # debilitated OR inimical OR in_house 6 OR in_house 12) + mahadasa_lord).
+    # No benefic on this chart is debilitated, inimical, or in the 6th/12th
+    # house, so the benefic card does not fire here. The malefic card fires
+    # three times -- Sun, Rahu and Saturn are each inimical on this chart (the
+    # same three dignity(?g,inimical) facts PD.09.Dignity.Inimical already
+    # conditions on above), and each is independently a mahadasa lord. 98+3 =
+    # 101.
+    assert r.verification.checks["claims"] == 101
     for k in ("quote_integrity_passed", "conditions_reevaluated_passed",
               "numeric_grounding_passed"):
-        assert r.verification.checks[k] == 98
+        assert r.verification.checks[k] == 101
     # 9 PD.19.Dasa.<Graha> claims plus 3 PD.09.Dignity.Inimical.DasaEnmity
     # claims (Sun, Saturn, Rahu) carry a window on this chart, plus (Milestone
     # 31) all 17 PD.20.* claims above -- every one conditions on
     # mahadasa_lord(?g), so activate.py's generic window-carrying-fact scan
     # populates Claim.window for them automatically, the same mechanism ch.19's
-    # own cards use. 12+17 = 29.
-    assert r.verification.checks["window_grounding_passed"] == 29
+    # own cards use. 12+17 = 29. Milestone 32 adds the 3 PD.20.Placement.
+    # MaleficMiseries claims above, each also conditioning on mahadasa_lord.
+    # 29+3 = 32.
+    assert r.verification.checks["window_grounding_passed"] == 32
 
 
 def test_every_claim_has_all_four_provenance_links():
@@ -848,7 +859,7 @@ def test_quoted_output_adds_no_words():
     r = run(DEMO)
     by_id = {c.claim_id: c for c in r.claims}
     rules = [s for s in r.sentences if s.part == "rules"]
-    assert len(rules) == 98  # see test_slice_runs_and_verifies for the 81 -> 98 move
+    assert len(rules) == 101  # see test_slice_runs_and_verifies for the 98 -> 101 move
     for s in rules:
         assert s.text == by_id[s.claim_ids[0]].passage["quote_display"]
 

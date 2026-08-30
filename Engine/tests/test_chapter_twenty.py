@@ -21,6 +21,16 @@ No antardasa mechanism is built or tested here: reading the whole chapter
 found no order or duration arithmetic for the nine antardasa sub-periods
 anywhere in it (see Rules/deferred.json's dep.antardasa).
 
+Milestone 32 adds v.27 (`PD.20.Placement.BeneficAdverse` /
+`.MaleficMiseries`): no new engine capability, just the existing `nature`,
+`dignity`, `in_house` and `mahadasa_lord` predicates conditioned directly,
+because v.27 states no local disposition criterion of its own the way v.14
+does. The one fact worth pinning with regression tests: v.27 names exactly
+the 6th and 12th house, not the full dusthana class (6th, 8th, 12th) that
+v.14's own `dasa_disposition` and the store's `house_class` table both use --
+a graha in the 8th house alone, with no debilitation or inimical dignity,
+must NOT satisfy either card.
+
 Run:  python -m pytest Engine/tests -q
 """
 
@@ -36,7 +46,7 @@ from Engine.doctrine import Doctrine, DoctrineError
 from Engine.ephemeris import SwissEphemerisDLL
 from Engine.facts import DoctrineReport, chart_frame, extract_facts, _dasa_disposition
 from Engine.pipeline import run
-from Engine.rules import load_cards
+from Engine.rules import evaluate, load_cards
 from Engine.tests.test_strength import place
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -229,11 +239,11 @@ def test_eighth_lord_sun_moon_binds_each_graha_independently():
 
 # --- real chart (DEMO) ---------------------------------------------------------
 
-def test_demo_chart_fires_seventeen_pd20_claims():
-    """Cross-checked against test_slice.py's own 81 -> 98 accounting."""
+def test_demo_chart_fires_twenty_pd20_claims():
+    """Cross-checked against test_slice.py's own 81 -> 98 -> 101 accounting."""
     r = run(DEMO)
     pd20 = [c for c in r.claims if c.derived["rule_card"].startswith("PD.20.")]
-    assert len(pd20) == 17
+    assert len(pd20) == 20
     counts: dict[str, int] = {}
     for c in pd20:
         counts[c.derived["rule_card"]] = counts.get(c.derived["rule_card"], 0) + 1
@@ -246,6 +256,7 @@ def test_demo_chart_fires_seventeen_pd20_claims():
         "PD.20.Parasara.TrikonaLord": 3,
         "PD.20.Parasara.UpachayaLordEvil": 3,
         "PD.20.Parasara.EighthLordSunMoon": 1,
+        "PD.20.Placement.MaleficMiseries": 3,
     }
 
 
@@ -315,3 +326,197 @@ def test_maraka_requires_strength_not_the_local_disposition(cards):
     flat = json.dumps(c.conditions)
     assert '"strength"' in flat
     assert '"dasa_disposition"' not in flat
+
+
+# =============================================================================
+# Milestone 32 -- v.27's PD.20.Placement.BeneficAdverse / .MaleficMiseries
+# =============================================================================
+
+def matched_grahas(chart, doctrine, cards_, card_id: str) -> set[str]:
+    card = next(c for c in cards_ if c.id == card_id)
+    facts = extract_facts(chart, doctrine)
+    ev = evaluate(card.conditions, facts)
+    return {dict(s.assignment)["?g"] for s in ev.solutions}
+
+
+# --- source fidelity ---------------------------------------------------------
+
+def test_v27_cards_cite_the_correct_verse_and_page(cards):
+    benefic = next(c for c in cards if c.id == "PD.20.Placement.BeneficAdverse")
+    malefic = next(c for c in cards if c.id == "PD.20.Placement.MaleficMiseries")
+    assert benefic.verse == "27"
+    assert malefic.verse == "27"
+    # p.187, not the p.186 originally logged in Rules/deferred.json -- the page
+    # anchor immediately precedes the verse in the corpus.
+    assert benefic.page_anchor == "phaladeepika/p0187"
+    assert malefic.page_anchor == "phaladeepika/p0187"
+
+
+def test_v27_quotes_split_at_the_clause_boundary_and_do_not_overlap(cards):
+    """Same sentence, same pattern PD.20.Parasara.KendraLordBenefic/.Malefic
+    already established: each card cites only the clause it asserts."""
+    benefic = next(c for c in cards if c.id == "PD.20.Placement.BeneficAdverse")
+    malefic = next(c for c in cards if c.id == "PD.20.Placement.MaleficMiseries")
+    assert benefic.quote_display.startswith("27. All benefics")
+    assert benefic.quote_display.endswith("produce only adverse results")
+    assert malefic.quote_display.startswith("while malefic")
+    assert malefic.quote_display.endswith("during their dasa periods.")
+    assert "6th or 12th house" in benefic.quote_display
+    assert "miseries" in malefic.quote_display
+    b_span = tuple(benefic.char_span)
+    m_span = tuple(malefic.char_span)
+    assert b_span[1] <= m_span[0]          # adjacent, not overlapping
+
+
+def test_v27_polarity_words_are_the_verses_own_not_a_shared_generic(cards):
+    """The verse uses two different effect words for the two clauses --
+    benefics 'produce only adverse results', malefics 'cause miseries' -- so
+    the cards must not collapse both to the same polarity value."""
+    benefic = next(c for c in cards if c.id == "PD.20.Placement.BeneficAdverse")
+    malefic = next(c for c in cards if c.id == "PD.20.Placement.MaleficMiseries")
+    assert benefic.predicts["polarity"] == "adverse"
+    assert malefic.predicts["polarity"] == "miseries"
+
+
+# --- condition semantics: each of the four disjuncts, isolated ---------------
+
+def test_benefic_debilitated_satisfies_the_benefic_card(chart, doctrine, cards):
+    c = place(chart, "Jupiter", 280.0)          # Capricorn: Jupiter debilitated
+    assert "Jupiter" in matched_grahas(c, doctrine, cards, "PD.20.Placement.BeneficAdverse")
+
+
+def test_benefic_inimical_satisfies_the_benefic_card(chart, doctrine, cards):
+    c = place(chart, "Jupiter", 190.0)          # Libra: inimical only, not a dusthana
+    assert c.bodies["Jupiter"].house not in (6, 8, 12)
+    assert "Jupiter" in matched_grahas(c, doctrine, cards, "PD.20.Placement.BeneficAdverse")
+
+
+def test_benefic_in_house_six_satisfies_the_benefic_card(chart, doctrine, cards):
+    c = place(chart, "Venus", 70.0)             # Gemini: friend's sign, house 6
+    assert c.bodies["Venus"].house == 6
+    assert "Venus" in matched_grahas(c, doctrine, cards, "PD.20.Placement.BeneficAdverse")
+
+
+def test_benefic_in_house_twelve_satisfies_the_benefic_card(chart, doctrine, cards):
+    c = place(chart, "Venus", 250.0)            # Sagittarius: neutral sign, house 12
+    assert c.bodies["Venus"].house == 12
+    assert "Venus" in matched_grahas(c, doctrine, cards, "PD.20.Placement.BeneficAdverse")
+
+
+def test_malefic_debilitated_satisfies_the_malefic_card(chart, doctrine, cards):
+    c = place(chart, "Mars", 100.0)             # Cancer: Mars debilitated
+    assert "Mars" in matched_grahas(c, doctrine, cards, "PD.20.Placement.MaleficMiseries")
+
+
+def test_malefic_inimical_satisfies_the_malefic_card(chart, doctrine, cards):
+    c = place(chart, "Mars", 160.0)             # Virgo: inimical only, not a dusthana
+    assert c.bodies["Mars"].house not in (6, 8, 12)
+    assert "Mars" in matched_grahas(c, doctrine, cards, "PD.20.Placement.MaleficMiseries")
+
+
+def test_malefic_in_house_six_satisfies_the_malefic_card(chart, doctrine, cards):
+    c = place(chart, "Saturn", 70.0)            # Gemini: friend's sign, house 6
+    assert c.bodies["Saturn"].house == 6
+    assert "Saturn" in matched_grahas(c, doctrine, cards, "PD.20.Placement.MaleficMiseries")
+
+
+def test_malefic_in_house_twelve_satisfies_the_malefic_card(chart, doctrine, cards):
+    c = place(chart, "Mars", 250.0)             # Sagittarius: friend's sign, house 12
+    assert c.bodies["Mars"].house == 12
+    assert "Mars" in matched_grahas(c, doctrine, cards, "PD.20.Placement.MaleficMiseries")
+
+
+# --- boundary: the 8th house is deliberately excluded ------------------------
+
+def test_benefic_in_house_eight_alone_does_not_satisfy_the_benefic_card(chart, doctrine, cards):
+    """v.27 names only the 6th and 12th, not the full dusthana class (6,8,12)
+    v.14's `dasa_disposition` uses. The Moon here is in Leo, a friend's sign
+    and the 8th house -- neither debilitated nor inimical -- so despite being
+    in a classic dusthana it must not satisfy this card."""
+    c = place(chart, "Moon", 130.0)
+    assert c.bodies["Moon"].house == 8
+    assert "Moon" not in matched_grahas(c, doctrine, cards, "PD.20.Placement.BeneficAdverse")
+
+
+def test_malefic_in_house_eight_alone_does_not_satisfy_the_malefic_card(chart, doctrine, cards):
+    c = place(chart, "Mars", 130.0)             # Leo: friend's sign, house 8
+    assert c.bodies["Mars"].house == 8
+    assert "Mars" not in matched_grahas(c, doctrine, cards, "PD.20.Placement.MaleficMiseries")
+
+
+# --- false positives ----------------------------------------------------------
+
+def test_benefic_satisfying_no_clause_fires_neither_card(chart, doctrine, cards):
+    c = place(chart, "Venus", 310.0)            # Aquarius: friend's sign, house 2
+    assert c.bodies["Venus"].house not in (6, 8, 12)
+    for card_id in ("PD.20.Placement.BeneficAdverse", "PD.20.Placement.MaleficMiseries"):
+        assert "Venus" not in matched_grahas(c, doctrine, cards, card_id)
+
+
+def test_malefic_satisfying_no_clause_fires_neither_card(chart, doctrine, cards):
+    c = place(chart, "Mars", 220.0)             # Scorpio: Mars's own sign, house 11
+    assert c.bodies["Mars"].house not in (6, 8, 12)
+    for card_id in ("PD.20.Placement.BeneficAdverse", "PD.20.Placement.MaleficMiseries"):
+        assert "Mars" not in matched_grahas(c, doctrine, cards, card_id)
+
+
+def test_nature_gates_each_card_to_its_own_polarity(chart, doctrine, cards):
+    """A benefic in a qualifying placement must not satisfy the malefic card,
+    and vice versa -- `nature` is exclusive per graha on any one chart."""
+    benefic_case = place(chart, "Jupiter", 280.0)     # benefic, debilitated
+    malefic_case = place(chart, "Mars", 100.0)        # malefic, debilitated
+    assert "Jupiter" not in matched_grahas(
+        benefic_case, doctrine, cards, "PD.20.Placement.MaleficMiseries")
+    assert "Mars" not in matched_grahas(
+        malefic_case, doctrine, cards, "PD.20.Placement.BeneficAdverse")
+
+
+# --- real chart (DEMO) --------------------------------------------------------
+
+def test_demo_chart_fires_malefic_miseries_for_the_three_inimical_malefics():
+    """Sun, Rahu and Saturn are each independently inimical on the real DEMO
+    chart (the same three dignity(?g,inimical) facts PD.09.Dignity.Inimical
+    already conditions on), and each is a mahadasa lord -- confirmed against
+    the chart's own facts, not merely asserted."""
+    r = run(DEMO)
+    fired = [c for c in r.claims if c.derived["rule_card"] == "PD.20.Placement.MaleficMiseries"]
+    grahas = set()
+    for c in fired:
+        g = next(f["key"].split("(")[1].split(")")[0]
+                 for f in c.derived["facts"] if f["key"].startswith("mahadasa_lord("))
+        grahas.add(g)
+        assert c.window is not None
+        assert c.window["start"] < c.window["end"]
+    assert grahas == {"Sun", "Rahu", "Saturn"}
+
+
+def test_demo_chart_fires_no_benefic_adverse_claim():
+    """On the real DEMO chart, Jupiter (house 3, own sign), Moon (house 8,
+    friend's sign -- excluded, not the 6th/12th) and Venus (house 1, friend's
+    sign) satisfy none of v.27's four clauses."""
+    r = run(DEMO)
+    assert not any(c.derived["rule_card"] == "PD.20.Placement.BeneficAdverse"
+                   for c in r.claims)
+
+
+def test_v27_claims_do_not_change_any_unrelated_claim_count():
+    """Adding v.27 must be purely additive: every other PD.20.* card's count
+    on the real DEMO chart is unchanged from Milestone 31 (see
+    test_demo_chart_fires_twenty_pd20_claims for the full breakdown)."""
+    r = run(DEMO)
+    counts: dict[str, int] = {}
+    for c in r.claims:
+        if c.derived["rule_card"].startswith("PD.20."):
+            counts[c.derived["rule_card"]] = counts.get(c.derived["rule_card"], 0) + 1
+    counts.pop("PD.20.Placement.MaleficMiseries", None)
+    counts.pop("PD.20.Placement.BeneficAdverse", None)
+    assert counts == {
+        "PD.20.Strong.House4": 1, "PD.20.Strong.House11": 1,
+        "PD.20.Weak.Lagna": 1, "PD.20.Weak.House2": 1,
+        "PD.20.Weak.House7": 1, "PD.20.Weak.House8": 1,
+        "PD.20.Parasara.KendraLordBenefic": 2,
+        "PD.20.Parasara.KendraLordMalefic": 2,
+        "PD.20.Parasara.TrikonaLord": 3,
+        "PD.20.Parasara.UpachayaLordEvil": 3,
+        "PD.20.Parasara.EighthLordSunMoon": 1,
+    }

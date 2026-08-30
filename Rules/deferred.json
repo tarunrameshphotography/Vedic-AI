@@ -1200,12 +1200,12 @@
       "kind": "passage",
       "book": "phaladeepika",
       "chapter": 20,
-      "locus": "v. 27 (printed p.186)",
-      "what": "benefics/malefics in debilitation, an inimical sign or a dusthana producing adverse/miserable dasa effects, for any graha rather than specifically a house lord",
-      "reason": "Fully executable now with existing predicates (`nature`, `dignity`, `in_house_class`, `mahadasa_lord`) -- not blocked by anything -- but out of this milestone's agreed scope, which was the house-lord-specific vv.2-21/22/40/41 cluster. A good near-term candidate for a future slice.",
+      "locus": "v. 27 (printed p.187, not p.186 as originally logged -- the page anchor immediately precedes the verse in the corpus; corrected on resolution)",
+      "what": "benefics/malefics in debilitation, an inimical sign or the 6th/12th house producing adverse/miserable dasa effects, for any graha rather than specifically a house lord",
+      "reason": "RESOLVED (Milestone 32). Encoded as two firing cards, PD.20.Placement.BeneficAdverse and PD.20.Placement.MaleficMiseries, each quoting one of the verse's two clauses (split at 'while malefic...', the same clause-boundary-split pattern PD.20.Parasara.KendraLordBenefic/.Malefic already established). Condition: nature (benefic/malefic) AND (dignity debilitated OR dignity inimical OR in_house 6 OR in_house 12) AND mahadasa_lord -- all four existing predicates named in the original deferral, no engine change. INTERPRETIVE STEP: the verse names exactly the 6th and 12th house, not the full dusthana class (6th, 8th, 12th) that v.14's `dasa_disposition` and the store's `house_class` table both use -- the 8th is deliberately excluded, since the verse itself never names it (the original 'a dusthana' wording in this entry's own `what` field was the encoder's imprecise paraphrase, not something the verse states; corrected here). `predicts.polarity` is 'adverse' for the benefic card and 'miseries' for the malefic card, matching the verse's own two distinct effect words rather than a shared generic value. No Notes or competing authority accompany v.27.",
       "requires": ["dep.none"],
       "phase": "3 (knowledge)",
-      "status": "deferred",
+      "status": "resolved",
       "paragraphs": [44]
     },
     {

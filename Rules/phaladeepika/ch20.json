@@ -2117,6 +2117,172 @@
         "verified_date": "2026-08-30"
       },
       "exclusions": []
+    },
+    {
+      "id": "PD.20.Placement.BeneficAdverse",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "27",
+        "page_anchor": "phaladeepika/p0187",
+        "tier": 1,
+        "quote": "27. All benefics if placed in their sign of debilitation, inimical signs or the 6th or 12th house, they will produce only adverse results",
+        "quote_display": "27. All benefics if placed in their sign of debilitation, inimical signs or the 6th or 12th house, they will produce only adverse results",
+        "quote_sha256": "2e4d842747ded922ce118c7298a2a145e81aa3035234126425c2ae4548c241d5",
+        "char_span": [
+          366798,
+          366935
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "nature": {
+              "graha": "?g",
+              "nature": "benefic"
+            }
+          },
+          {
+            "any": [
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "inimical"
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g",
+                  "house": 6
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g",
+                  "house": 12
+                }
+              }
+            ]
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "graha_placement",
+        "nature": "benefic",
+        "polarity": "adverse"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 32: INTERPRETIVE STEP TAKEN AND RECORDED -- v.27 names exactly the 6th and 12th house, not the full dusthana class (6th, 8th, 12th) that v.14's own `dasa_disposition` and the store's `house_class` table both use; the 8th house is deliberately excluded here because the verse itself never names it, following the same verse-states-its-own-literal-list discipline PD.20.Parasara.UpachayaLordEvil already established for the 3rd/6th/11th vs. the broader `upachaya` class. This is a graha's own placement, not a house lord's, and v.27 states no local disposition criterion of its own the way v.14 does (no own-sign, exaltation or retrograde clause is offered as a counterweight) -- it is a flat list of four alternative placements, encoded directly with `dignity` and `in_house` rather than reusing `dasa_disposition` or `strength`, per concept:strength-criterion-scope's own precedent that a chapter's own restated criterion is kept separate and an unelaborated placement list is encoded on its own terms. 'Inimical signs' reads as `dignity: inimical`, sourced from `_dignity_friendship` exactly as PD.20.Disposition's own note already established (not `_dignity`, which never emits that value). No Notes accompany v.27 in the source, and no competing authority is named, so there is nothing to preserve separately.",
+        "verified_date": "2026-08-30"
+      },
+      "note": "Companion card PD.20.Placement.MaleficMiseries quotes the same sentence's second clause. The verse distinguishes its own two effect words -- benefics 'produce only adverse results' (v.27's first clause), malefics 'cause miseries' (v.27's second clause) -- so the two cards' `predicts.polarity` values are deliberately different words, not a shared generic 'adverse', matching what each clause actually says rather than collapsing them.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Placement.MaleficMiseries",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "27",
+        "page_anchor": "phaladeepika/p0187",
+        "tier": 1,
+        "quote": "while malefic similarly placed will cause miseries during their dasa periods.",
+        "quote_display": "while malefic similarly placed will cause miseries during their dasa periods.",
+        "quote_sha256": "f44cd80ebe65644943c9e78ac90620fe886b16305572e8fcbc4025feb5903a7e",
+        "char_span": [
+          366936,
+          367013
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "nature": {
+              "graha": "?g",
+              "nature": "malefic"
+            }
+          },
+          {
+            "any": [
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "inimical"
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g",
+                  "house": 6
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g",
+                  "house": 12
+                }
+              }
+            ]
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "graha_placement",
+        "nature": "malefic",
+        "polarity": "miseries"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 32: same placement condition as PD.20.Placement.BeneficAdverse (debilitated OR inimical OR house 6 OR house 12), gated on `nature: malefic` instead of `benefic`; quote trimmed to this clause only ('while malefic similarly placed...'), starting mid-sentence the same way PD.20.Parasara.KendraLordMalefic's own quote does, so this card and its companion each cite only the clause they assert rather than sharing an identical quote (dupes.py's SAME-QUOTE check)",
+        "verified_date": "2026-08-30"
+      },
+      "note": "See PD.20.Placement.BeneficAdverse's own note for why `polarity` is 'miseries' here and 'adverse' there -- the verse's own two distinct effect words, not a shared generic value.",
+      "exclusions": []
     }
   ]
 }
