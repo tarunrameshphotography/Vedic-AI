@@ -84,6 +84,13 @@ VOCABULARY: dict[str, tuple[str, ...]] = {
     # fact's evidence, not as a further predicate argument -- there is
     # nothing to quantify or compare, only a period to cite.
     "mahadasa_lord": ("graha",),
+    # ch. 20 v.14's own local disposition criterion, gating vv.2-13/15-20's
+    # house-lord dasa effects. Deliberately not `strength`: chapter 4's
+    # verdict has no own-sign clause, no inimical-sign clause and no
+    # dusthana-placement clause, so it is a narrower thing than what this
+    # verse states -- see concept:strength-criterion-scope and `_strength`'s
+    # own docstring for the precedent this follows on its own terms.
+    "dasa_disposition": ("graha", "verdict"),
 }
 
 
@@ -976,6 +983,99 @@ def _strength(chart, doc, rep, frame) -> list[Fact]:
     return out
 
 
+def _dasa_disposition(chart, doc, rep, frame) -> list[Fact]:
+    """ch. 20 v.14 -- the disposition that gates vv.2-13/15-20's house-lord
+    dasa effects.
+
+    Deliberately not a consumer of `strength`: chapter 4's verdict has no
+    own-sign clause, no inimical-sign clause and no dusthana-placement
+    clause, so it does not cover what this verse actually states. This
+    extractor reads v.14's own two clauses (`PD.20.Disposition`) and
+    recomputes them from the chart's already-derived dignity, combustion
+    and house-class facts -- never re-deriving those rules locally, the
+    same discipline `_strength` follows for the same reason.
+
+    Auspicious: not placed in a dusthana, and (own sign, exaltation, or
+    retrograde). Adverse: placed in a dusthana, or (inimical sign,
+    debilitation, or combust). A graha satisfying both at once -- e.g.
+    retrograde and combust together -- gets no verdict, the same collision
+    discipline `_strength` already applies for the same pair of facts
+    (concept:retrograde-combust-collision); this is not a new tie-break.
+    """
+    criteria, cards = doc.dasa_effect_disposition_criteria()
+    rep.used("dasa_disposition", cards)
+
+    # Unlike `_strength` (which never needs "inimical"), v.14's adverse clause
+    # names the inimical sign explicitly, and that dignity value is minted by
+    # `_dignity_friendship`, not `_dignity` -- both are consulted, the same
+    # way PD.02.AdverseDisposition's own condition reads whichever extractor
+    # produced it from the assembled FactSet.
+    dignities: dict[str, set[str]] = {}
+    for f in _dignity(chart, doc, rep, frame):
+        dignities.setdefault(f.args["graha"], set()).add(f.args["dignity"])
+    for f in _dignity_friendship(chart, doc, rep, frame):
+        dignities.setdefault(f.args["graha"], set()).add(f.args["dignity"])
+    combust = {f.args["graha"] for f in _combustion(chart, doc, rep, frame)}
+    dusthana = {f.args["graha"] for f in _house_classes(chart, doc, rep, frame)
+                if f.predicate == "in_house_class" and f.args["klass"] == "dusthana"}
+
+    aus_dignity = set(criteria["auspicious"]["dignity"])
+    adv_dignity = set(criteria["adverse"]["dignity"])
+
+    out: list[Fact] = []
+    unresolved: list[str] = []
+    for b in sorted(chart.bodies.values(), key=lambda x: x.body):
+        graha = b.body
+        d = dignities.get(graha, set())
+        in_dusthana = graha in dusthana
+        is_combust = graha in combust
+
+        auspicious = (not in_dusthana) and (bool(d & aus_dignity) or b.retrograde)
+        adverse = in_dusthana or bool(d & adv_dignity) or is_combust
+
+        if auspicious and adverse:
+            unresolved.append(
+                f"{graha} is both auspiciously disposed (dignity={sorted(d)}, "
+                f"retrograde={b.retrograde}, dusthana={in_dusthana}) and "
+                f"inauspiciously disposed (combust={is_combust}) by v.14's own "
+                f"two clauses, which the verse does not rank against each other")
+            rep.conflict(
+                "dasa_disposition", f"the dasa-effect disposition of {graha}",
+                cards,
+                reason=(
+                    f"{graha} satisfies both of v.14's clauses at once. The "
+                    f"engine emits no disposition verdict for {graha} rather "
+                    f"than choosing one, and no house-lord dasa card "
+                    f"conditioning on it fires."
+                ),
+                basis=sorted({
+                    f"{k}({graha})" for k in ("retrograde", "combust")
+                    if (k == "retrograde" and b.retrograde) or
+                       (k == "combust" and is_combust)
+                }),
+            )
+            continue
+
+        if auspicious:
+            verdict = "auspicious"
+        elif adverse:
+            verdict = "adverse"
+        else:
+            continue
+
+        ev = {"dignity": sorted(d), "retrograde": b.retrograde,
+              "combust": is_combust, "dusthana": in_dusthana,
+              "doctrine": list(cards)}
+        out.append(make_fact("dasa_disposition", {"graha": graha, "verdict": verdict},
+                             frame, ev))
+
+    if unresolved:
+        rep.incomplete("dasa_disposition", "; ".join(unresolved) +
+                       " -- no disposition fact is emitted for them and no "
+                       "house-lord dasa card conditioning on them fires")
+    return out
+
+
 def _seven_graha_sign_count(chart, doc, rep, frame) -> list[Fact]:
     """dep.seven-graha-sign-count -- ch. 6 vv. 39-41's seven-item family.
 
@@ -1159,6 +1259,7 @@ EXTRACTORS = (
     ("seven_graha_sign_count", _seven_graha_sign_count),
     ("varga", _varga),
     ("dasa", _dasa),
+    ("dasa_disposition", _dasa_disposition),
 )
 
 

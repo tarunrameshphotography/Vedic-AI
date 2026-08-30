@@ -1,0 +1,2122 @@
+{
+  "book_id": "phaladeepika",
+  "chapter": 20,
+  "cards": [
+    {
+      "id": "PD.20.Disposition",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "14",
+        "page_anchor": "phaladeepika/p0183",
+        "tier": 1,
+        "quote": "14. The good effects described above in verses 2 to 13 are derived only when the lord of the house concerned is auspiciously disposed (not placed in the 6th, 8th, or 12th), is posited in his own sign or in his sign of exaltation or is\r\n\r\n<!-- page phaladeepika/p0184 -->\r\nretrograde. The effects will be adverse if such a planet is inauspiciously disposed, is in his inimical sign, in his sign of debilitation or is eclipsed by the Sun's rays.",
+        "quote_display": "14. The good effects described above in verses 2 to 13 are derived only when the lord of the house concerned is auspiciously disposed (not placed in the 6th, 8th, or 12th), is posited in his own sign or in his sign of exaltation or is retrograde. The effects will be adverse if such a planet is inauspiciously disposed, is in his inimical sign, in his sign of debilitation or is eclipsed by the Sun's rays.",
+        "quote_sha256": "82512c754fefd9cf86876248635fc0bf7fc4f5b52db7b024bb325a937ebd2c1f",
+        "char_span": [
+          359842,
+          360285
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "relation": "dasa_effect_disposition",
+        "auspicious": {
+          "dignity": [
+            "own",
+            "exalted"
+          ],
+          "retrograde": true,
+          "not_dusthana": true
+        },
+        "adverse": {
+          "dignity": [
+            "inimical",
+            "debilitated"
+          ],
+          "combust": true,
+          "dusthana": true
+        }
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: INTERPRETIVE STEP TAKEN AND RECORDED -- v.14's two clauses read as auspicious = NOT dusthana AND (own OR exalted OR retrograde); adverse = dusthana OR (inimical OR debilitated OR combust), the most literal parse of 'auspiciously disposed (not placed in the 6th, 8th, or 12th), is posited in his own sign or in his sign of exaltation or is retrograde' / 'adverse if ... inauspiciously disposed, is in his inimical sign, in his sign of debilitation or is eclipsed by the Sun's rays'. A graha satisfying both clauses at once gets no verdict, mirroring `_strength`'s own retrograde+combust collision discipline rather than inventing a new tie-break)",
+        "verified_date": "2026-08-30"
+      },
+      "activation": "reference",
+      "note": "The shared disposition clause gating every PD.20.Strong.*/PD.20.Weak.* card. Deliberately NOT read as ch. 4's `strength` verdict: v.14 states own-sign, inimical-sign and dusthana-placement clauses that chapter 4's own strength doctrine (vv.4-5, PD.04.Strength.*) does not cover -- confirmed by reading all three PD.04.Strength.* cards in full before deciding this. Encoded as its own local criterion (a new predicate, `dasa_disposition`, Engine/facts.py::_dasa_disposition) rather than narrowing what this verse actually says to fit the existing verdict. See concept:strength-criterion-scope.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Strong.Lagna",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "2",
+        "page_anchor": "phaladeepika/p0182",
+        "tier": 1,
+        "quote": "2. When the lagna is endowed with full strength, the native will during the dasa of the lord of the lagna attain a position of eminence in the world and live happily. His body will remain sturdy and healthy and he will have lustre in his face. His prosperity will increase and his life will progress just as the Moon's digits in the bright half of the lunar month.",
+        "quote_display": "2. When the lagna is endowed with full strength, the native will during the dasa of the lord of the lagna attain a position of eminence in the world and live happily. His body will remain sturdy and healthy and he will have lustre in his face. His prosperity will increase and his life will progress just as the Moon's digits in the bright half of the lunar month.",
+        "quote_sha256": "4cc0f2138c162b96075a2d81a4ce18e0cef23cd6c77ad7f60d8b408cff5a0594",
+        "char_span": [
+          356064,
+          356428
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 1
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          },
+          {
+            "dasa_disposition": {
+              "graha": "?g",
+              "verdict": "auspicious"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "house_lord",
+        "house": 1,
+        "polarity": "auspicious"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: mechanical -- condition binds the lagna lord's own mahadasa, gated by PD.20.Disposition's auspicious clause per v.14)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Strong.House2",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "3",
+        "page_anchor": "phaladeepika/p0182",
+        "tier": 1,
+        "quote": "3. During the operation of the lord of the 2nd house, there will be acquisition of family, good daughters, enjoyment of good food and earning of money through lectures, eloquence of speech and consequent appreciation of the audience.",
+        "quote_display": "3. During the operation of the lord of the 2nd house, there will be acquisition of family, good daughters, enjoyment of good food and earning of money through lectures, eloquence of speech and consequent appreciation of the audience.",
+        "quote_sha256": "39e59525ad79743d67f5952dd263411fcd7cbbcbf0f2d4a1001d880506b34b6f",
+        "char_span": [
+          356432,
+          356665
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 2
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          },
+          {
+            "dasa_disposition": {
+              "graha": "?g",
+              "verdict": "auspicious"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "house_lord",
+        "house": 2,
+        "polarity": "auspicious"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: mechanical, same shape as PD.20.Strong.Lagna)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Strong.House3",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "4",
+        "page_anchor": "phaladeepika/p0182",
+        "tier": 1,
+        "quote": "4. If the 3rd house and its lord be equipped with full strength, during the dasa of the lord of the 3rd house, the native will receive full cooperation from his brothers, he will receive auspicious news, he will have opportunity to exhibit his courage and volour, become commander of an army and will attain honour. He will receive support of the people and will become popular for his good quality.",
+        "quote_display": "4. If the 3rd house and its lord be equipped with full strength, during the dasa of the lord of the 3rd house, the native will receive full cooperation from his brothers, he will receive auspicious news, he will have opportunity to exhibit his courage and volour, become commander of an army and will attain honour. He will receive support of the people and will become popular for his good quality.",
+        "quote_sha256": "5cdbff8115a06ec45eda651027ca75ad75cf42315953d0068d2b688a6f9deafa",
+        "char_span": [
+          356669,
+          357068
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 3
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          },
+          {
+            "dasa_disposition": {
+              "graha": "?g",
+              "verdict": "auspicious"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "house_lord",
+        "house": 3,
+        "polarity": "auspicious"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: mechanical, same shape as PD.20.Strong.Lagna; 'volour' transcribed as printed)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Strong.House4",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "5",
+        "page_anchor": "phaladeepika/p0182",
+        "tier": 1,
+        "quote": "5. If the 4th house be vested with maximum strength, effects like going good to the relation, success in agricultural pursuits, happy relations with wife, acquisition of a conveyance, agricultural lands, houses, wealth, attainment of a higher status, will be experienced by the native during the dasa of the lord of the 4th house.",
+        "quote_display": "5. If the 4th house be vested with maximum strength, effects like going good to the relation, success in agricultural pursuits, happy relations with wife, acquisition of a conveyance, agricultural lands, houses, wealth, attainment of a higher status, will be experienced by the native during the dasa of the lord of the 4th house.",
+        "quote_sha256": "db587260813423cbd4bede1c30e812c74dd51fb218a5003370ef4eec3c85a0a3",
+        "char_span": [
+          357072,
+          357402
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 4
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          },
+          {
+            "dasa_disposition": {
+              "graha": "?g",
+              "verdict": "auspicious"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "house_lord",
+        "house": 4,
+        "polarity": "auspicious"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: mechanical, same shape as PD.20.Strong.Lagna)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Strong.House5",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0182",
+        "tier": 1,
+        "quote": "6. If the 5th house be bestowed with full strength, effects like birth of a son, happy associations and relationship with kinsmen, becoming minister of a king, conferment of honours, involvement in virtuous actions and praise for it from the people and enjoyment of many kinds of delicious preparations shared with others, will be derived during the dasa of the lord of the 5th house.",
+        "quote_display": "6. If the 5th house be bestowed with full strength, effects like birth of a son, happy associations and relationship with kinsmen, becoming minister of a king, conferment of honours, involvement in virtuous actions and praise for it from the people and enjoyment of many kinds of delicious preparations shared with others, will be derived during the dasa of the lord of the 5th house.",
+        "quote_sha256": "a74a17028e59bc932cfc4a4a81926e9a678f2834c57cd2772954ff2db73d9584",
+        "char_span": [
+          357406,
+          357790
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 5
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          },
+          {
+            "dasa_disposition": {
+              "graha": "?g",
+              "verdict": "auspicious"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "house_lord",
+        "house": 5,
+        "polarity": "auspicious"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: mechanical, same shape as PD.20.Strong.Lagna)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Strong.House6",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "7",
+        "page_anchor": "phaladeepika/p0182",
+        "tier": 1,
+        "quote": "7. If the 6th be very strongly disposed, effects like overcoming the enemies\r\n\r\n<!-- page phaladeepika/p0183 -->\r\nby his valour, remaining free from diseases, being generous and powerful, enjoying his wealth, splendour and prosperity will be realised by the native during the dasa of the lord of the 6fh house.",
+        "quote_display": "7. If the 6th be very strongly disposed, effects like overcoming the enemies by his valour, remaining free from diseases, being generous and powerful, enjoying his wealth, splendour and prosperity will be realised by the native during the dasa of the lord of the 6fh house.",
+        "quote_sha256": "870f6514051b57e60786db0dcdcde1ab51e123cf0efcc1af4f4ec85a345f606c",
+        "char_span": [
+          357794,
+          358104
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 6
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          },
+          {
+            "dasa_disposition": {
+              "graha": "?g",
+              "verdict": "auspicious"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "house_lord",
+        "house": 6,
+        "polarity": "auspicious"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: mechanical, same shape as PD.20.Strong.Lagna; quote crosses the p.182/183 page break, transcribed as one continuous span with the printed page-anchor inline, the same convention PD.04.Ancients.Sthana.SaptavargaSaptamsa etc. already use; '6fh' printed typo transcribed as printed)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Strong.House7",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "8",
+        "page_anchor": "phaladeepika/p0183",
+        "tier": 1,
+        "quote": "8. If the 7th house be endowed with full strength, during the dasa of the lord of the 7th, the native will acquire new clothes and ornaments and will live happily with his wife. His virility or physical strength will Increase and auspicious functions like marriage etc., will be celebrated in his house. He will perform pleasure trips.",
+        "quote_display": "8. If the 7th house be endowed with full strength, during the dasa of the lord of the 7th, the native will acquire new clothes and ornaments and will live happily with his wife. His virility or physical strength will Increase and auspicious functions like marriage etc., will be celebrated in his house. He will perform pleasure trips.",
+        "quote_sha256": "8fdb4427d5c8b59450d12b506fa2c03f70f8832521c5325ce3a921d5abf863c8",
+        "char_span": [
+          358108,
+          358443
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 7
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          },
+          {
+            "dasa_disposition": {
+              "graha": "?g",
+              "verdict": "auspicious"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "house_lord",
+        "house": 7,
+        "polarity": "auspicious"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: mechanical, same shape as PD.20.Strong.Lagna)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Strong.House8",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "9",
+        "page_anchor": "phaladeepika/p0183",
+        "tier": 1,
+        "quote": "9. If the lord of 8th house be vested with full strength, during his dasa period the native will be able to clear all his debts. He will achieve progress in his profession and other activities. All disputes with him will come to an end and he will acquire buffaloes, goats and other cattle and servants.",
+        "quote_display": "9. If the lord of 8th house be vested with full strength, during his dasa period the native will be able to clear all his debts. He will achieve progress in his profession and other activities. All disputes with him will come to an end and he will acquire buffaloes, goats and other cattle and servants.",
+        "quote_sha256": "63b188ee207ab9997934b5ecfb4ee9384dae9c2d671d90b0702141fd137cec5d",
+        "char_span": [
+          358447,
+          358750
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 8
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          },
+          {
+            "dasa_disposition": {
+              "graha": "?g",
+              "verdict": "auspicious"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "house_lord",
+        "house": 8,
+        "polarity": "auspicious"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: mechanical, same shape as PD.20.Strong.Lagna)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Strong.House9",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "10",
+        "page_anchor": "phaladeepika/p0183",
+        "tier": 1,
+        "quote": "10. If the lord of 9th house be fully strong, during his dasa, the native will enjoy continuous prosperity, happiness and wealth alongwith his wife, sons, grand children and relations, will perform meritorious deeds and receive royal favour and will be respectful to Brahmins and gods.",
+        "quote_display": "10. If the lord of 9th house be fully strong, during his dasa, the native will enjoy continuous prosperity, happiness and wealth alongwith his wife, sons, grand children and relations, will perform meritorious deeds and receive royal favour and will be respectful to Brahmins and gods.",
+        "quote_sha256": "91ce1ec44f8ea0b101d1f5b815ca5401e465f7f242ab7f1cdbf263cc73d26cb1",
+        "char_span": [
+          358754,
+          359039
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 9
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          },
+          {
+            "dasa_disposition": {
+              "graha": "?g",
+              "verdict": "auspicious"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "house_lord",
+        "house": 9,
+        "polarity": "auspicious"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: mechanical, same shape as PD.20.Strong.Lagna)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Strong.House10",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "11",
+        "page_anchor": "phaladeepika/p0183",
+        "tier": 1,
+        "quote": "11. If the 10th house and its lord have full strength, in the dasa of the lord of the 10th house, the native will succeed in every venture he undertakes, and he will live happily. He will earn name and fame and will attain good reputation. He will involve himself in virtuous actions for which he receives humiliations.",
+        "quote_display": "11. If the 10th house and its lord have full strength, in the dasa of the lord of the 10th house, the native will succeed in every venture he undertakes, and he will live happily. He will earn name and fame and will attain good reputation. He will involve himself in virtuous actions for which he receives humiliations.",
+        "quote_sha256": "d7a973a7d5ed24d62772378b749b6d04c61512059badad69ee022b6e738ed219",
+        "char_span": [
+          359043,
+          359362
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 10
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          },
+          {
+            "dasa_disposition": {
+              "graha": "?g",
+              "verdict": "auspicious"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "house_lord",
+        "house": 10,
+        "polarity": "auspicious"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: mechanical, same shape as PD.20.Strong.Lagna; transcribed as printed including the apparently reversed closing clause 'he receives humiliations' after 'virtuous actions')",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Strong.House11",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "12",
+        "page_anchor": "phaladeepika/p0183",
+        "tier": 1,
+        "quote": "12. In the dasa of a strong lord of the 11th there will be continuous growth in prosperity. He will have meetings with his near relatives and will have the comfort of many servants. There will be domestic happiness and great prosperity.",
+        "quote_display": "12. In the dasa of a strong lord of the 11th there will be continuous growth in prosperity. He will have meetings with his near relatives and will have the comfort of many servants. There will be domestic happiness and great prosperity.",
+        "quote_sha256": "7f41b215e066b2f1570d7a04d7a2575313556f2f2a0d7dd4a58476df22ccc677",
+        "char_span": [
+          359366,
+          359602
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 11
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          },
+          {
+            "dasa_disposition": {
+              "graha": "?g",
+              "verdict": "auspicious"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "house_lord",
+        "house": 11,
+        "polarity": "auspicious"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: mechanical, same shape as PD.20.Strong.Lagna)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Strong.House12",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "13",
+        "page_anchor": "phaladeepika/p0183",
+        "tier": 1,
+        "quote": "13. During the dasa of the lord of the 12th, the native will spend extravagantly on good causes. He will perform meritorious acts and thus be free from the evil effects of the sins committed. He will also be conferred royal honours.",
+        "quote_display": "13. During the dasa of the lord of the 12th, the native will spend extravagantly on good causes. He will perform meritorious acts and thus be free from the evil effects of the sins committed. He will also be conferred royal honours.",
+        "quote_sha256": "c036eec52249d997ee9f35e56b0d021f543a6fd8a7448e6f6da7be8959121895",
+        "char_span": [
+          359606,
+          359838
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 12
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          },
+          {
+            "dasa_disposition": {
+              "graha": "?g",
+              "verdict": "auspicious"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "house_lord",
+        "house": 12,
+        "polarity": "auspicious"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: mechanical, same shape as PD.20.Strong.Lagna)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Weak.Lagna",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "15",
+        "page_anchor": "phaladeepika/p0184",
+        "tier": 1,
+        "quote": "15. When the lord of the Lagna is badly placed, the native will be imprisoned during his dasa. He will lead his life in cognito, will suffer fear, diseases and mental anguish, will participate in funeral rites, will incur loss of position and other misfortunes.",
+        "quote_display": "15. When the lord of the Lagna is badly placed, the native will be imprisoned during his dasa. He will lead his life in cognito, will suffer fear, diseases and mental anguish, will participate in funeral rites, will incur loss of position and other misfortunes.",
+        "quote_sha256": "752b0279c6c258743f919254848a086d1519c2fa68119831bca609294a543870",
+        "char_span": [
+          360384,
+          360645
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 1
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          },
+          {
+            "dasa_disposition": {
+              "graha": "?g",
+              "verdict": "adverse"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "house_lord",
+        "house": 1,
+        "polarity": "adverse"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: INTERPRETIVE STEP TAKEN AND RECORDED -- v.15 prints its Lagna and 2nd-house effects as two separate paragraphs under one verse number, unlike vv.2-13's one-verse-per-house pattern; split at the paragraph/sentence boundary into two house-specific cards (this one and PD.20.Weak.House2), each quoting only its own paragraph, per the user's explicit instruction to match vv.2-13's granularity rather than merge two houses' effects into one card)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Weak.House2",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "15",
+        "page_anchor": "phaladeepika/p0184",
+        "tier": 1,
+        "quote": "If the lord of the 2nd is in a similar position, the person conscemed during his dasa will behave stupidly before an audiance, will not stick to his word or family, write objectionable letters, will suffer from eye troubles, will have a harsh tongue, incur lot of expenditure and will face displeasure of the king.",
+        "quote_display": "If the lord of the 2nd is in a similar position, the person conscemed during his dasa will behave stupidly before an audiance, will not stick to his word or family, write objectionable letters, will suffer from eye troubles, will have a harsh tongue, incur lot of expenditure and will face displeasure of the king.",
+        "quote_sha256": "8ef78790c71c2e83f1458a379b19c4e7164962a0f57a9475d0aa8449863b2927",
+        "char_span": [
+          360649,
+          360963
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 2
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          },
+          {
+            "dasa_disposition": {
+              "graha": "?g",
+              "verdict": "adverse"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "house_lord",
+        "house": 2,
+        "polarity": "adverse"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: second paragraph of v.15, split from PD.20.Weak.Lagna per the same reasoning; 'conscemed'/'audiance' printed typos transcribed as printed)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Weak.House3",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "16",
+        "page_anchor": "phaladeepika/p0184",
+        "tier": 1,
+        "quote": "16. If the lord of the 3rd house be weak, there will be loss of brothers and sisters during his dasa. His work will receive adverse criticism and he will be harassed by secret enemies. The native will suffer from reverse and as a result will be humiliated and lose his pride.",
+        "quote_display": "16. If the lord of the 3rd house be weak, there will be loss of brothers and sisters during his dasa. His work will receive adverse criticism and he will be harassed by secret enemies. The native will suffer from reverse and as a result will be humiliated and lose his pride.",
+        "quote_sha256": "2fc7ed62a3280bdf7464d114a2ba749ca919428d97ad3996ebd27b01e8360032",
+        "char_span": [
+          360967,
+          361242
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 3
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          },
+          {
+            "dasa_disposition": {
+              "graha": "?g",
+              "verdict": "adverse"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "house_lord",
+        "house": 3,
+        "polarity": "adverse"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: first paragraph of v.16, split per the same reasoning as PD.20.Weak.Lagna/.House2)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Weak.House4",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "16",
+        "page_anchor": "phaladeepika/p0184",
+        "tier": 1,
+        "quote": "If the lord of the 4th house be weak, during his dasa the mother of the native, his kinsmen and his friends will be distressed. There will be danger of destruction of his house, agricultural lands and cattle and also danger from water.",
+        "quote_display": "If the lord of the 4th house be weak, during his dasa the mother of the native, his kinsmen and his friends will be distressed. There will be danger of destruction of his house, agricultural lands and cattle and also danger from water.",
+        "quote_sha256": "30fb177f847aefacf62ee65da673d8956b1a0f5dcd58d73a65bec7ded517a958",
+        "char_span": [
+          361246,
+          361481
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 4
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          },
+          {
+            "dasa_disposition": {
+              "graha": "?g",
+              "verdict": "adverse"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "house_lord",
+        "house": 4,
+        "polarity": "adverse"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: second paragraph of v.16, split from PD.20.Weak.House3)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Weak.House5",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "17",
+        "page_anchor": "phaladeepika/p0184",
+        "tier": 1,
+        "quote": "17. If the lord of the 5th lacks strength and is badly placed, during his dasa, the native will lose a son. He will suffer from aberration of mind, will be a victim of deception and will wander here and there aimlessly. He will suffer from stomach disorders, face wrath or displeasure of king and will feel physicially weak.",
+        "quote_display": "17. If the lord of the 5th lacks strength and is badly placed, during his dasa, the native will lose a son. He will suffer from aberration of mind, will be a victim of deception and will wander here and there aimlessly. He will suffer from stomach disorders, face wrath or displeasure of king and will feel physicially weak.",
+        "quote_sha256": "962f71f8bd6ab1905dbbef24d2210ac4168373661fff7924fdd73e948e333a00",
+        "char_span": [
+          361485,
+          361809
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 5
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          },
+          {
+            "dasa_disposition": {
+              "graha": "?g",
+              "verdict": "adverse"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "house_lord",
+        "house": 5,
+        "polarity": "adverse"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: first paragraph of v.17, split per the same reasoning as PD.20.Weak.Lagna/.House2)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Weak.House6",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "17",
+        "page_anchor": "phaladeepika/p0184",
+        "tier": 1,
+        "quote": "During the dasa of the lord of the 6th house who is deficient in strength, there will be danger from thieves. He will face poverty, will be overpowered by others and will suffer from diseases, will receive shabby treatment or indulge in undesirable actions. He will serve others and suffer humiliation and loss of reputation. He will have injuries in his body.",
+        "quote_display": "During the dasa of the lord of the 6th house who is deficient in strength, there will be danger from thieves. He will face poverty, will be overpowered by others and will suffer from diseases, will receive shabby treatment or indulge in undesirable actions. He will serve others and suffer humiliation and loss of reputation. He will have injuries in his body.",
+        "quote_sha256": "14bb50adce21d8dd661778d7391d92fefd28d0c3380adaf88122cd95330b8894",
+        "char_span": [
+          361813,
+          362173
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 6
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          },
+          {
+            "dasa_disposition": {
+              "graha": "?g",
+              "verdict": "adverse"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "house_lord",
+        "house": 6,
+        "polarity": "adverse"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: second paragraph of v.17, split from PD.20.Weak.House5)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Weak.House7",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "18",
+        "page_anchor": "phaladeepika/p0184",
+        "tier": 1,
+        "quote": "18. If the lord of the 7th be weak, during his dasa, the son-in-law of the native will be in distress. The native will make separation from his wife and\r\n\r\n<!-- page phaladeepika/p0185 -->\r\nsomething untoward will happen through the opposite sex and he will have affairs with wicked women and will suffer from venereal diseases. He will be wandering aimlessly.",
+        "quote_display": "18. If the lord of the 7th be weak, during his dasa, the son-in-law of the native will be in distress. The native will make separation from his wife and something untoward will happen through the opposite sex and he will have affairs with wicked women and will suffer from venereal diseases. He will be wandering aimlessly.",
+        "quote_sha256": "59640a1552ec1d0fda4e4b868048cc8de681e7779e27dcf63cd394903d408653",
+        "char_span": [
+          362177,
+          362537
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 7
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          },
+          {
+            "dasa_disposition": {
+              "graha": "?g",
+              "verdict": "adverse"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "house_lord",
+        "house": 7,
+        "polarity": "adverse"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: first paragraph of v.18, split per the same reasoning as PD.20.Weak.Lagna/.House2; quote crosses the p.184/185 page break, transcribed as one continuous span with the printed page-anchor inline, same convention as PD.20.Strong.House6)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Weak.House8",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "18",
+        "page_anchor": "phaladeepika/p0185",
+        "tier": 1,
+        "quote": "When the dasa of a badly placed and weak lord of the 8th house be in operation, the person concerned will suffer from great sorrow, loss of intelligence, intense sexual desire, jealousy, fainting fits, poverty, fruitless rambling, loss of reputation, sickness and humiliation. Even his life may end during the dasa of such a planet.",
+        "quote_display": "When the dasa of a badly placed and weak lord of the 8th house be in operation, the person concerned will suffer from great sorrow, loss of intelligence, intense sexual desire, jealousy, fainting fits, poverty, fruitless rambling, loss of reputation, sickness and humiliation. Even his life may end during the dasa of such a planet.",
+        "quote_sha256": "290599b8acabfa603be6cd7673d2769992207f0b68305830dd14bbbb54ed3d39",
+        "char_span": [
+          362541,
+          362873
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 8
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          },
+          {
+            "dasa_disposition": {
+              "graha": "?g",
+              "verdict": "adverse"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "house_lord",
+        "house": 8,
+        "polarity": "adverse"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: second paragraph of v.18, split from PD.20.Weak.House7)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Weak.House9",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "19",
+        "page_anchor": "phaladeepika/p0185",
+        "tier": 1,
+        "quote": "19. During the dasa of the lord of 9th house who is weak, the wife and children of the native will be in trouble. He will suffer in many ways due to wrath of deity that had been worshipped formerly. He will indulge in undesirable actions and one of his elder brothers and his father may die and he himself may suffer from penury.",
+        "quote_display": "19. During the dasa of the lord of 9th house who is weak, the wife and children of the native will be in trouble. He will suffer in many ways due to wrath of deity that had been worshipped formerly. He will indulge in undesirable actions and one of his elder brothers and his father may die and he himself may suffer from penury.",
+        "quote_sha256": "02d4dfcef64497a3a0008117f0a3c3ae888001563a490f739169b05c45af2729",
+        "char_span": [
+          362877,
+          363206
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 9
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          },
+          {
+            "dasa_disposition": {
+              "graha": "?g",
+              "verdict": "adverse"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "house_lord",
+        "house": 9,
+        "polarity": "adverse"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: first paragraph of v.19, split per the same reasoning as PD.20.Weak.Lagna/.House2)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Weak.House10",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "19",
+        "page_anchor": "phaladeepika/p0185",
+        "tier": 1,
+        "quote": "When the lord of the 10th house be devoid of strength, during his dasa, the native will face failure in all his undertakings and he will indulge in wicked actions, he may have to live away from his homeland and may suffer distress on that account. He will have to face untoward happenings and will incur loss of honour.",
+        "quote_display": "When the lord of the 10th house be devoid of strength, during his dasa, the native will face failure in all his undertakings and he will indulge in wicked actions, he may have to live away from his homeland and may suffer distress on that account. He will have to face untoward happenings and will incur loss of honour.",
+        "quote_sha256": "c533b73901d4985c1c212b979ac8e48e68022d79dd5f1beb88856a84a848ead7",
+        "char_span": [
+          363210,
+          363529
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 10
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          },
+          {
+            "dasa_disposition": {
+              "graha": "?g",
+              "verdict": "adverse"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "house_lord",
+        "house": 10,
+        "polarity": "adverse"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: second paragraph of v.19, split from PD.20.Weak.House9)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Weak.House11",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "20",
+        "page_anchor": "phaladeepika/p0185",
+        "tier": 1,
+        "quote": "20. If the lord of the 11th be adversely disposed and be weak, the brother (elder) of the native will be in trouble. His son will be sickly, he (the native) will suffer from misery, deception and ear diseases.",
+        "quote_display": "20. If the lord of the 11th be adversely disposed and be weak, the brother (elder) of the native will be in trouble. His son will be sickly, he (the native) will suffer from misery, deception and ear diseases.",
+        "quote_sha256": "944cdb21e43a0e4bdef053bdcfb36fdc2d872006c29a07d8739ae01d2d1658f1",
+        "char_span": [
+          363533,
+          363742
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 11
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          },
+          {
+            "dasa_disposition": {
+              "graha": "?g",
+              "verdict": "adverse"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "house_lord",
+        "house": 11,
+        "polarity": "adverse"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: first paragraph of v.20, split per the same reasoning as PD.20.Weak.Lagna/.House2)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Weak.House12",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "20",
+        "page_anchor": "phaladeepika/p0185",
+        "tier": 1,
+        "quote": "During the dasa of a weak lord of the 12th house, the native will suffer from many diseases, dishonour and slavery. All his wealth will disappear like the (waning) Moon in the dark half of the month.",
+        "quote_display": "During the dasa of a weak lord of the 12th house, the native will suffer from many diseases, dishonour and slavery. All his wealth will disappear like the (waning) Moon in the dark half of the month.",
+        "quote_sha256": "659d9cae6c8393bd0fcdf84bb89d75516029150cde12d952ef31bfcf353e5ec4",
+        "char_span": [
+          363746,
+          363945
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 12
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          },
+          {
+            "dasa_disposition": {
+              "graha": "?g",
+              "verdict": "adverse"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "house_lord",
+        "house": 12,
+        "polarity": "adverse"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: second paragraph of v.20, split from PD.20.Weak.House11)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Vargottama.Favourable",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "22",
+        "page_anchor": "phaladeepika/p0186",
+        "tier": 1,
+        "quote": "22. If a planet occupies Vargottamamsa he produces very favourable effects in his dasa.",
+        "quote_display": "22. If a planet occupies Vargottamamsa he produces very favourable effects in his dasa.",
+        "quote_sha256": "25f5218ab5209533982132e5f5b378d12d8393ce2fe323c7f5bd70abe7a9eee7",
+        "char_span": [
+          364598,
+          364685
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "vargottama": {
+              "graha": "?g"
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "vargottama",
+        "polarity": "favourable"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: mechanical -- v.22's first sentence, reusing the existing `vargottama` predicate (dep.varga, Milestone 29) unconditionally in the graha's own mahadasa)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Vargottama.Mixed",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "22",
+        "page_anchor": "phaladeepika/p0186",
+        "tier": 1,
+        "quote": "Mixed effects are derived in the dasa of a planet who being Vargottama is in his sign of deblitation or is eclipsed by the Sun's rays.",
+        "quote_display": "Mixed effects are derived in the dasa of a planet who being Vargottama is in his sign of deblitation or is eclipsed by the Sun's rays.",
+        "quote_sha256": "4fdfca42acc18eba69a4b9b1d0631a718e3cee6d496e49515428db2c9ea54888",
+        "char_span": [
+          364686,
+          364820
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "vargottama": {
+              "graha": "?g"
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          },
+          {
+            "any": [
+              {
+                "dignity": {
+                  "graha": "?g",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "combust": {
+                  "graha": "?g"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "vargottama",
+        "polarity": "mixed"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: v.22's second sentence -- Vargottama AND (debilitated OR combust); 'deblitation' printed typo transcribed as printed)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Maraka",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "40",
+        "page_anchor": "phaladeepika/p0190",
+        "tier": 1,
+        "quote": "40. The 2nd and 7th houses are maraka (death producing) houses. If the lords of these houses or planets posited therein, are powerful they cause death duing their dasa.",
+        "quote_display": "40. The 2nd and 7th houses are maraka (death producing) houses. If the lords of these houses or planets posited therein, are powerful they cause death duing their dasa.",
+        "quote_sha256": "e5ac00299be5f901806608e9d90dec346671f01b0d42e00359cc97a82d5d22d6",
+        "char_span": [
+          373667,
+          373835
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "lord_of_house": {
+                  "graha": "?g",
+                  "house": 2
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g",
+                  "house": 7
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g",
+                  "house": 2
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "?g",
+                  "house": 7
+                }
+              }
+            ]
+          },
+          {
+            "strength": {
+              "graha": "?g",
+              "strength": "strong"
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "maraka"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: INTERPRETIVE STEP TAKEN AND RECORDED -- unlike v.14, this verse states no local disposition criterion of its own ('are powerful'), so it reuses the existing chapter-4 `strength` verdict rather than a new local one, per Decision 1's own precedent that a chapter's own restated criterion (like v.14's) is kept separate but an unelaborated 'powerful'/'strong' is the existing verdict. Only the mahadasa-scoped first sentence is encoded; the second sentence ('If the lord of the 8th or 12th house be very weak, death is likely to take place in the an tar dasa of any of the two') is explicitly antardasa-scoped and deferred (passage:phaladeepika.20.antardasa-relational) -- see the deferred registry note for the full clause)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Parasara.KendraLordBenefic",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "41",
+        "page_anchor": "phaladeepika/p0190",
+        "tier": 1,
+        "quote": "41. The dasa of a planet who is lord of a kendra will be adverse if he happens to be a benefic natural benefic",
+        "quote_display": "41. The dasa of a planet who is lord of a kendra will be adverse if he happens to be a benefic natural benefic",
+        "quote_sha256": "d4a26f25251be93be2447d2f3ece73521cad47411a4b7cb4c80256d5b0dc9274",
+        "char_span": [
+          373958,
+          374068
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": "?h"
+            }
+          },
+          {
+            "house_class": {
+              "house": "?h",
+              "klass": "kendra"
+            }
+          },
+          {
+            "nature": {
+              "graha": "?g",
+              "nature": "benefic"
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "parasara_house_class",
+        "klass": "kendra",
+        "nature": "benefic",
+        "polarity": "adverse"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: joins `lord_of_house`/`house_class` on a shared ?h, same pattern PD.06.DusthanaLord.* already uses; 'benefic natural benefic' printed as-is, an evident duplication not corrected. Attributed to 'Parasara's opinion' by the verse's own closing sentence (v.41's last line). Quote trimmed to this clause only, ending before 'and auspicious...', so this card and PD.20.Parasara.KendraLordMalefic each cite only the clause they assert rather than sharing an identical quote -- dupes.py caught the original identical-quote design mid-session)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Parasara.KendraLordMalefic",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "41",
+        "page_anchor": "phaladeepika/p0190",
+        "tier": 1,
+        "quote": "and auspicious or favourable if he is a (natural) malefic.",
+        "quote_display": "and auspicious or favourable if he is a (natural) malefic.",
+        "quote_sha256": "517faf30e565a9792d30a1c10f13d28d195470f447153ca93190f5c151c0834d",
+        "char_span": [
+          374069,
+          374127
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": "?h"
+            }
+          },
+          {
+            "house_class": {
+              "house": "?h",
+              "klass": "kendra"
+            }
+          },
+          {
+            "nature": {
+              "graha": "?g",
+              "nature": "malefic"
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "parasara_house_class",
+        "klass": "kendra",
+        "nature": "malefic",
+        "polarity": "auspicious"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: same source sentence as PD.20.Parasara.KendraLordBenefic, split at the clause boundary ('and auspicious or favourable...') so each card cites only the clause it asserts, avoiding a same-book identical-quote pair -- dupes.py caught the original identical-quote design mid-session)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Parasara.TrikonaLord",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "41",
+        "page_anchor": "phaladeepika/p0190",
+        "tier": 1,
+        "quote": "The dasa of all the planets who are trikonas (1,5,9) will be favourable.",
+        "quote_display": "The dasa of all the planets who are trikonas (1,5,9) will be favourable.",
+        "quote_sha256": "6299a26e86ca95ca5ffa8ff6be4fdc0b1fae79802605340626480579c1eb79fc",
+        "char_span": [
+          374128,
+          374200
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "lord_of_house": {
+                  "graha": "?g",
+                  "house": 1
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g",
+                  "house": 5
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g",
+                  "house": 9
+                }
+              }
+            ]
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "parasara_house_class",
+        "klass": "trikona",
+        "polarity": "favourable"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: INTERPRETIVE STEP TAKEN AND RECORDED -- this verse explicitly parenthesizes 'trikonas (1,5,9)', but the existing PD.01.HouseClass.Trikona reference card (ch.1 v.18: 'The 5th and 9th are called trines (Trikona houses)') defines Trikona as houses 5,9 only in this same book -- the Ascendant is classified `kendra`, not `trikona`, elsewhere in this book. This is a genuine intra-book terminology inconsistency, not silently resolved: the condition uses this verse's own explicit house numbers (1, 5, 9) directly rather than a `house_class` lookup, the most literal reading of what THIS verse states, without picking a side on which definition of 'trikona' governs generally. See MILESTONES.md Milestone 31 for the full discussion",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Parasara.UpachayaLordEvil",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "41",
+        "page_anchor": "phaladeepika/p0190",
+        "tier": 1,
+        "quote": "The lords of the 3rd, 6th and 11th houses, even if benefics, they will always produce evil effects during their dasas.",
+        "quote_display": "The lords of the 3rd, 6th and 11th houses, even if benefics, they will always produce evil effects during their dasas.",
+        "quote_sha256": "15c3cc6739fbf7bd5d7c4ef55a789dba17cb89d772fca0e483b7218d207b13bc",
+        "char_span": [
+          374201,
+          374319
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "lord_of_house": {
+                  "graha": "?g",
+                  "house": 3
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g",
+                  "house": 6
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g",
+                  "house": 11
+                }
+              }
+            ]
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "parasara_house_class",
+        "houses": [
+          3,
+          6,
+          11
+        ],
+        "polarity": "evil"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: INTERPRETIVE STEP TAKEN AND RECORDED -- the verse names exactly houses 3, 6 and 11, not the full `upachaya` class (3,6,10,11, per PD.01.HouseClass.Upachaya) -- house 10 is deliberately excluded, using the verse's own explicit list rather than the broader existing class)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Parasara.EighthLagnaLord",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "41",
+        "page_anchor": "phaladeepika/p0190",
+        "tier": 1,
+        "quote": "The lord of the 8th house, if he also is the lord of the lagna will be auspicious and will produce good effects in his dasa.",
+        "quote_display": "The lord of the 8th house, if he also is the lord of the lagna will be auspicious and will produce good effects in his dasa.",
+        "quote_sha256": "bc6c8767cd9ed2383369fe41bba78a7b8d02709c267d34ef26a8f25c1b4518bd",
+        "char_span": [
+          374320,
+          374444
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 8
+            }
+          },
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 1
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "parasara_house_class",
+        "houses": [
+          8,
+          1
+        ],
+        "polarity": "auspicious"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: mechanical -- same graha bound to both `lord_of_house` clauses via the shared ?g, real only for ascendants where one sign lord rules both 1 and 8, e.g. Aries/Scorpio both ruled by Mars)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.Parasara.EighthLordSunMoon",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "41",
+        "page_anchor": "phaladeepika/p0190",
+        "tier": 1,
+        "quote": "The Sun and the Moon even if they own the 8th house give only good effects. (They do not suffer from the stigma of being lords of the 8th house.)",
+        "quote_display": "The Sun and the Moon even if they own the 8th house give only good effects. (They do not suffer from the stigma of being lords of the 8th house.)",
+        "quote_sha256": "ebda1e1de26e7b3b174ac613fc30dd742cfdfd71361bc64b27fecd62899fce92",
+        "char_span": [
+          374445,
+          374590
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "Sun",
+                  "house": 8
+                }
+              },
+              {
+                "mahadasa_lord": {
+                  "graha": "Sun"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "Moon",
+                  "house": 8
+                }
+              },
+              {
+                "mahadasa_lord": {
+                  "graha": "Moon"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "parasara_house_class",
+        "graha": [
+          "Sun",
+          "Moon"
+        ],
+        "houses": [
+          8
+        ],
+        "polarity": "good"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: the verse names Sun and Moon together in one clause with no natural sub-quote split, unlike PD.20.Parasara.KendraLordBenefic/.Malefic's two-clause sentence -- rather than two cards sharing an identical quote (dupes.py's own SAME-QUOTE defect check, which caught the original two-card design mid-session), this is one card whose condition is `any` of two fully self-contained `all` blocks, each correctly binding one literal graha across both `lord_of_house` and `mahadasa_lord` so a chart cannot mismatch (e.g. Sun owning the 8th while Moon happens to be the current mahadasa lord) -- the same top-level `any`-of-`all` shape PD.02.Form.Mars.Youthful already uses in this store)",
+        "verified_date": "2026-08-30"
+      },
+      "exclusions": []
+    }
+  ]
+}

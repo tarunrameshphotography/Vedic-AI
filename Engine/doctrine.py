@@ -426,3 +426,20 @@ class Doctrine:
             )
         self.consulted.update(cards)
         return Sourced(rows, tuple(sorted(cards)))
+
+    # --- dasa effect disposition (ch. 20 v.14) -------------------------------
+
+    def dasa_effect_disposition_criteria(self) -> Sourced:
+        """v.14's own auspicious/adverse disposition criteria for a house
+        lord's dasa effects (vv.2-13/15-20). One card, two named clauses --
+        not a verdict per graha, which `_dasa_disposition` computes from
+        this and the chart's already-derived dignity/combustion/house-class
+        facts, the same separation `graha_strength_verdicts` keeps between
+        doctrine (this accessor) and computation (the extractor)."""
+        c = self._one("dasa_effect_disposition")
+        p = c.predicts
+        criteria = {
+            "auspicious": dict(p["auspicious"]),
+            "adverse": dict(p["adverse"]),
+        }
+        return Sourced(criteria, (c.id,))

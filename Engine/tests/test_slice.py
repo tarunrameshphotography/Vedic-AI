@@ -800,13 +800,31 @@ def test_slice_runs_and_verifies():
     # and mahadasa_lord(?g) holds for every graha unconditionally, so joining
     # it does not narrow which grahas fire -- it attaches each one's own
     # mahadasa window to the claim (+3). 66+9+3+3 = 81.
-    assert r.verification.checks["claims"] == 81
+    # 81 -> 98 in Milestone 31: chapter 20's Mahadasa-scoped house-lord cards
+    # fire 17 times on this chart, from the new `dasa_disposition` verdict
+    # (Mars auspicious/own, Ketu auspicious/retrograde, Moon and Saturn and
+    # Sun adverse/dusthana-or-inimical -- Rahu satisfies both v.14 clauses at
+    # once here, retrograde AND inimical, and correctly gets no verdict, the
+    # same collision discipline `_strength` already has): PD.20.Strong.House4
+    # and .House11 (Mars owns both, lagna Capricorn), PD.20.Weak.Lagna and
+    # .House2 (Saturn owns both), .House7 (Moon) and .House8 (Sun) (+6);
+    # PD.20.Parasara.KendraLordBenefic x2 and .KendraLordMalefic x2, the
+    # chart's own kendra lords by nature (+4); .TrikonaLord x3 and
+    # .UpachayaLordEvil x3, this verse's own explicit house lists rather than
+    # the store's house_class table (see PD.20.Parasara.TrikonaLord's own
+    # note) (+6); and .EighthLordSunMoon once, Sun owning the 8th (+1).
+    # 6+4+6+1 = 17. 81+17 = 98.
+    assert r.verification.checks["claims"] == 98
     for k in ("quote_integrity_passed", "conditions_reevaluated_passed",
               "numeric_grounding_passed"):
-        assert r.verification.checks[k] == 81
+        assert r.verification.checks[k] == 98
     # 9 PD.19.Dasa.<Graha> claims plus 3 PD.09.Dignity.Inimical.DasaEnmity
-    # claims (Sun, Saturn, Rahu) carry a window on this chart.
-    assert r.verification.checks["window_grounding_passed"] == 12
+    # claims (Sun, Saturn, Rahu) carry a window on this chart, plus (Milestone
+    # 31) all 17 PD.20.* claims above -- every one conditions on
+    # mahadasa_lord(?g), so activate.py's generic window-carrying-fact scan
+    # populates Claim.window for them automatically, the same mechanism ch.19's
+    # own cards use. 12+17 = 29.
+    assert r.verification.checks["window_grounding_passed"] == 29
 
 
 def test_every_claim_has_all_four_provenance_links():
@@ -830,7 +848,7 @@ def test_quoted_output_adds_no_words():
     r = run(DEMO)
     by_id = {c.claim_id: c for c in r.claims}
     rules = [s for s in r.sentences if s.part == "rules"]
-    assert len(rules) == 81  # see test_slice_runs_and_verifies for the 66 -> 81 move
+    assert len(rules) == 98  # see test_slice_runs_and_verifies for the 81 -> 98 move
     for s in rules:
         assert s.text == by_id[s.claim_ids[0]].passage["quote_display"]
 
