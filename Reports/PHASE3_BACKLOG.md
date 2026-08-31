@@ -6,14 +6,14 @@ Nothing may be silently deferred. Inert cards are read out of the store, deferre
 
 | | |
 |---|---|
-| Backlog entries | **174** |
+| Backlog entries | **176** |
 | — of kind `card` | 14 |
-| — of kind `passage` | 79 |
+| — of kind `passage` | 80 |
 | — of kind `chapter` | 46 |
 | — of kind `concept` | 25 |
-| Resolved | 10 |
-| Cards in store | 594 |
-| Firing | 580 |
+| Resolved | 11 |
+| Cards in store | 595 |
+| Firing | 581 |
 | Inert | 14 |
 
 ## Dependencies
@@ -156,7 +156,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `chapter:phaladeepika.27` | phaladeepika | 27 | whole chapter - Yogas leading to ascetism | sanyasa yogas | Rule-dense and encodable now; deferred by ordering only. | `dep.none` | 3 (knowledge) | deferred |
 | `chapter:phaladeepika.28` | phaladeepika | 28 | whole chapter - Concluding Chapter | the author's colophon and closing remarks | Narrative, not doctrine. Will be reviewed once for any rule hidden in the closing remarks, then written off. | `dep.none` | 3 (knowledge) | deferred |
 
-### Passages inside encoded chapters (86)
+### Passages inside encoded chapters (88)
 
 | Entry | Book | Chapter | Locus | Deferred | Reason | Blocked on | Phase | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -239,9 +239,11 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `passage:phaladeepika.20.p021` | phaladeepika | 20 | v. 21 (printed pp.185-186) | a meta-rule attributing whatever chapters 1, 2, 5, 14, 15, 16, 17 and 18 state about a house lord to that lord's own dasa | The card schema's rule-transfer mechanism (dep.rule-transfer, implemented) can express a meta-card that asserts another card's claim under a new condition, b… | `dep.rule-transfer` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.20.p024` | phaladeepika | 20 | v. 24 items (1)-(3), (5) and their Notes (printed p.186) | misery-bringing dasas named by their ordinal position in the birth-fixed mahadasa sequence (e.g. 'the dasa of Saturn if it is the fourth in the order of main dasas'), and the dasas of the lords of the 6th, 8th and 12th houses | RESOLVED (Milestone 33). Encoded as four firing cards: PD.20.MiseryDasa.SaturnFourth, .JupiterSixth and .MarsRahuFifth (items (1)-(3), each `mahadasa_ordinal… | `dep.none` | 3 (knowledge) | resolved |
 | `passage:phaladeepika.20.p024-lastdegree` | phaladeepika | 20 | v. 24 item (4) (printed p.186) | the dasa of a planet placed in the last degree of a sign bringing misery and trouble | Split out of passage:phaladeepika.20.p024 (Milestone 33) so its own, still-genuine gap does not hide behind that entry's now-resolved ordinal/house-lord clau… | `dep.dasa-last-degree` | 3 (knowledge) | deferred |
-| `passage:phaladeepika.20.p025-026-033` | phaladeepika | 20 | vv. 25-26 and v. 33 (printed pp.186-188) | Mars/Venus placement doctrine keyed to the Urdhvamukha sign class (v.25), Venus's own exaltation/own-sign dasa wealth doctrine (v.26), and life-timing keyed to the Shirshodaya/Ubhayodaya/Prishtodaya sign classes (v.33) | v.25 needs an Urdhvamukha sign classification this store has never encoded (dep.urdhvamukha-sign-class). v.33 needs the Shirshodaya/Ubhayodaya/Prishtodaya cl… | `dep.urdhvamukha-sign-class`, `dep.rising-order-sign-class` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.20.p025` | phaladeepika | 20 | v. 25 (printed p.186) | Mars placement doctrine keyed to the Urdhvamukha sign class | v.25 needs an Urdhvamukha sign classification this store has never encoded (dep.urdhvamukha-sign-class). Split out of the original passage:phaladeepika.20.p0… | `dep.urdhvamukha-sign-class` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.20.p026` | phaladeepika | 20 | v. 26 (printed pp.186-187) | Venus's own exaltation/own-sign dasa wealth doctrine | RESOLVED (Milestone 34). Encoded as one firing card, PD.20.WealthDasa.Venus, quoting the verse in full (its one sentence crosses the p0186/p0187 page break m… | `dep.none` | 3 (knowledge) | resolved |
 | `passage:phaladeepika.20.p027` | phaladeepika | 20 | v. 27 (printed p.187, not p.186 as originally logged -- the page anchor immediately precedes the verse in the corpus; corrected on resolution) | benefics/malefics in debilitation, an inimical sign or the 6th/12th house producing adverse/miserable dasa effects, for any graha rather than specifically a house lord | RESOLVED (Milestone 32). Encoded as two firing cards, PD.20.Placement.BeneficAdverse and PD.20.Placement.MaleficMiseries, each quoting one of the verse's two… | `dep.none` | 3 (knowledge) | resolved |
 | `passage:phaladeepika.20.p030` | phaladeepika | 20 | v. 30 (printed p.187) | percentage-weighted dasa effects by degree of dignity (full in exaltation, three-fourths in Moolatrikona, half in own sign, one-fourth in a friend's sign, and so on) | Explicit numeric weighting the project's standing discipline refuses to invent -- there is no invented confidence, authority weighting or percentage scale an… | `dep.adjudication` | 4 (integration) | deferred |
+| `passage:phaladeepika.20.p033` | phaladeepika | 20 | v. 33 (printed p.188) | life-timing keyed to the Shirshodaya/Ubhayodaya/Prishtodaya sign classes, plus (in the same verse's first sentence) an unconditional Jupiter/Moon-sign-lord/lagna-lord kendra placement claim not itself sign-class-gated | v.33's second sentence needs the Shirshodaya/Ubhayodaya/Prishtodaya classification chapter 1 v.8 states but this store has not yet made queryable per-sign (d… | `dep.rising-order-sign-class` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.20.p056-057` | phaladeepika | 20 | vv. 56-57 and Notes (printed pp.193-194) | Arohini/Avarohini/Madhya/Adhama dasa-quality classification by a graha's degree position between its exaltation and debilitation points | Real, source-stated doctrine, not apparatus -- but needs a new predicate comparing a graha's exact degree to its own exaltation/debilitation points and deter… | `dep.degree-position-quality` | 2 (engine completion) | deferred |
 | `passage:phaladeepika.20.p063` | phaladeepika | 20 | v. 63 (printed p.194) | a methodological aside citing Saravali, Hora Shastra and the Nakshatra Dasa, and asserting Prasna Lagna and Janma Lagna give similar predictions | States no rule of its own -- a citation and a methodological equivalence claim, not an effect. Tier-3 apparatus. | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.20.transit-in-dasa` | phaladeepika | 20 | vv. 34-39 and their Notes, vv. 59-62 (printed pp.188-190, 193-194) | effects keyed to a graha's position at a later transit while a dasa or antardasa is in progress | Needs `dep.transit` (positions at a date other than birth), which is unimplemented; chapter 26, the dedicated gochara chapter, is itself not yet encoded. Bui… | `dep.transit` | beyond the MVP | deferred |

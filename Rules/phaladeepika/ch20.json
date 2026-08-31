@@ -2621,6 +2621,138 @@
         "PD.20.Strong.House8",
         "PD.20.Strong.House12"
       ]
+    },
+    {
+      "id": "PD.20.WealthDasa.Venus",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "26",
+        "page_anchor": "phaladeepika/p0186",
+        "tier": 1,
+        "quote": "26. If Venus be in his sign of exaltation or in his own sign and be posited in the 10th, 11th or the 12th house, uneclipsed and free from the influence of a\r\n\r\n<!-- page phaladeepika/p0187 -->\r\nmalefic, the native during his dasa, will become very wealthy, will be full of glory and splendour and will be endowed with gold and precious stones etc., will be widely praised and enjoy all comforts.",
+        "quote_display": "26. If Venus be in his sign of exaltation or in his own sign and be posited in the 10th, 11th or the 12th house, uneclipsed and free from the influence of a malefic, the native during his dasa, will become very wealthy, will be full of glory and splendour and will be endowed with gold and precious stones etc., will be widely praised and enjoy all comforts.",
+        "quote_sha256": "2df8e8ba8c8ce13d9facb3994282f5604ca7c20405f9220375fc9b6a6e694dd5",
+        "char_span": [
+          366399,
+          366794
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "dignity": {
+                  "graha": "Venus",
+                  "dignity": "exalted"
+                }
+              },
+              {
+                "dignity": {
+                  "graha": "Venus",
+                  "dignity": "own"
+                }
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "in_house": {
+                  "graha": "Venus",
+                  "house": 10
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "Venus",
+                  "house": 11
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "Venus",
+                  "house": 12
+                }
+              }
+            ]
+          },
+          {
+            "not": {
+              "combust": {
+                "graha": "Venus"
+              }
+            }
+          },
+          {
+            "not": {
+              "any": [
+                {
+                  "all": [
+                    {
+                      "conjunct": {
+                        "graha": "Venus",
+                        "other": "?m"
+                      }
+                    },
+                    {
+                      "nature": {
+                        "graha": "?m",
+                        "nature": "malefic"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "all": [
+                    {
+                      "aspects": {
+                        "graha": "?m",
+                        "target": "Venus"
+                      }
+                    },
+                    {
+                      "nature": {
+                        "graha": "?m",
+                        "nature": "malefic"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "Venus"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "graha_placement",
+        "graha": "Venus",
+        "polarity": "very_wealthy"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 34: v.26 names exactly one graha (Venus) with five conjuncts, no free graha variable and no Notes -- read directly against the source rather than composed from an adjacent chapter's template. 'His sign of exaltation or in his own sign' is `dignity: exalted` OR `dignity: own` (Pisces/Taurus-or-Libra respectively, per Engine/doctrine.py's own table -- not hand-derived here). '10th, 11th or the 12th house' is `in_house` 10/11/12, Venus's own placement counted from the lagna, the same frame every other ch.20 placement card already uses -- not house ownership, and not Moon-counted (the verse says only 'house', matching every other bare 'house' reference in this chapter). 'Uneclipsed' is `not combust(Venus)`, confirmed as this book's own synonym twice inside chapter 20 itself: v.19 ('If a planet be combust (eclipsed by the Sun's rays)...') and v.22's second sentence ('is in his sign of deblitation or is eclipsed by the Sun's rays', already encoded as `combust` on PD.20.Vargottama.Mixed) -- not imported from outside the chapter. 'Free from the influence of a malefic' reads as NOT (conjunct with a malefic OR aspected by a malefic): the book's own vocabulary equates 'influence' with exactly those two relations at ch.9's 'hemmed in between malefics or be associated with or aspected by malefics... devoid of any influence of benefics' (line 3338 of the corpus, an unencoded passage but the only other place 'influence' pairs with 'malefic'/'benefic' in this book) -- 'associated with' = `conjunct`, 'aspected by' = `aspects`, so 'influence' is the disjunction of the two, negated here. The negation is over a free `?m` per graha (any single malefic conjunct or aspecting Venus blocks the card), the identical negation-as-failure-over-a-variable idiom PD.06.PanchaMahapurusha.Ruchaka already uses for its own 'not conjunct with a malefic' clause (Engine/rules.py's own `not` docstring: 'if there is no planet in the Ascendant'). No `nature` gate on Venus itself is needed -- Venus is the sole named subject, not a free graha variable the way v.27's benefic/malefic cards are. `mahadasa_lord(Venus)` supplies 'during his dasa' exactly as v.22/v.27's own cards already do. Zero new predicates or engine changes: `dignity`, `in_house`, `combust`, `conjunct`, `aspects`, `nature` and `mahadasa_lord` are all pre-existing. `predicts.polarity` is 'very_wealthy', the verse's own lead effect word, matching the terse source-drawn tokens `misery_and_trouble`/`adverse`/`miseries`/`mixed` already used elsewhere in this chapter rather than a synthesised summary of the fuller sentence (glory, splendour, gold, precious stones, being widely praised and enjoying all comforts) -- the full sentence is preserved verbatim in the quote, not compressed into `predicts`.",
+        "verified_date": "2026-08-31"
+      },
+      "note": "Split out of `passage:phaladeepika.20.p025-026-033` (Milestone 30's original deferral), the only one of that entry's three verses fully executable with existing predicates -- v.25 still needs `dep.urdhvamukha-sign-class` and v.33 still needs `dep.rising-order-sign-class`, both unbuilt, and stay deferred under their own split-out entries (`passage:phaladeepika.20.p025`, `passage:phaladeepika.20.p033`). No Notes or competing authority accompany v.26 in the source, so there is nothing to preserve separately, and no existing card in this chapter or elsewhere in the store conditions on a literal Venus placement the way this one does, so there is no duplicate or contradiction to record.",
+      "exclusions": []
     }
   ]
 }

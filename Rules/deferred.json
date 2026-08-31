@@ -1208,17 +1208,43 @@
       "paragraphs": [38]
     },
     {
-      "id": "passage:phaladeepika.20.p025-026-033",
+      "id": "passage:phaladeepika.20.p025",
       "kind": "passage",
       "book": "phaladeepika",
       "chapter": 20,
-      "locus": "vv. 25-26 and v. 33 (printed pp.186-188)",
-      "what": "Mars/Venus placement doctrine keyed to the Urdhvamukha sign class (v.25), Venus's own exaltation/own-sign dasa wealth doctrine (v.26), and life-timing keyed to the Shirshodaya/Ubhayodaya/Prishtodaya sign classes (v.33)",
-      "reason": "v.25 needs an Urdhvamukha sign classification this store has never encoded (dep.urdhvamukha-sign-class). v.33 needs the Shirshodaya/Ubhayodaya/Prishtodaya classification chapter 1 v.8 states but this store has not yet made queryable per-sign (dep.rising-order-sign-class; the verse itself also reads as marginal to a dasa/house-lord chapter, closer to a general life-timing aside). v.26 alone is fully executable with existing predicates (dignity, in_house, combust, aspects/conjunct, nature) but was left out of this milestone's agreed scope alongside its two neighbours -- a good near-term candidate.",
-      "requires": ["dep.urdhvamukha-sign-class", "dep.rising-order-sign-class"],
+      "locus": "v. 25 (printed p.186)",
+      "what": "Mars placement doctrine keyed to the Urdhvamukha sign class",
+      "reason": "v.25 needs an Urdhvamukha sign classification this store has never encoded (dep.urdhvamukha-sign-class). Split out of the original passage:phaladeepika.20.p025-026-033 (Milestone 30) once v.26, its one neighbour that was fully executable with existing predicates, was resolved on its own (Milestone 34) -- v.25 and v.33 each still need a distinct, unbuilt sign classification and were never the same source claim as v.26 to begin with.",
+      "requires": ["dep.urdhvamukha-sign-class"],
       "phase": "3 (knowledge)",
       "status": "deferred",
-      "paragraphs": [41, 42, 43, 52]
+      "paragraphs": [41]
+    },
+    {
+      "id": "passage:phaladeepika.20.p026",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 20,
+      "locus": "v. 26 (printed pp.186-187)",
+      "what": "Venus's own exaltation/own-sign dasa wealth doctrine",
+      "reason": "RESOLVED (Milestone 34). Encoded as one firing card, PD.20.WealthDasa.Venus, quoting the verse in full (its one sentence crosses the p0186/p0187 page break mid-word, hence paragraphs 42 and 43 both). Condition: dignity (exalted OR own) AND in_house (10 OR 11 OR 12) AND NOT combust AND NOT (conjunct-with-malefic OR aspected-by-malefic) AND mahadasa_lord -- all pre-existing predicates named in the original combined deferral (dignity, in_house, combust, aspects/conjunct, nature), zero engine change. 'Uneclipsed' read as `not combust`, corroborated twice inside this same chapter (v.19's own parenthetical 'combust (eclipsed by the Sun's rays)', and v.22's second sentence, already encoded as `combust` on PD.20.Vargottama.Mixed). 'Free from the influence of a malefic' read as NOT (conjunct OR aspected by a malefic), the book's own equivalence for 'influence' at ch.9's 'associated with or aspected by malefics... devoid of any influence of benefics' (the only other place in the corpus 'influence' pairs with malefic/benefic). No Notes or competing authority accompany v.26, and no existing card conditions on a literal Venus placement the way this one does, so nothing else in the store was touched.",
+      "requires": ["dep.none"],
+      "phase": "3 (knowledge)",
+      "status": "resolved",
+      "paragraphs": [42, 43]
+    },
+    {
+      "id": "passage:phaladeepika.20.p033",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 20,
+      "locus": "v. 33 (printed p.188)",
+      "what": "life-timing keyed to the Shirshodaya/Ubhayodaya/Prishtodaya sign classes, plus (in the same verse's first sentence) an unconditional Jupiter/Moon-sign-lord/lagna-lord kendra placement claim not itself sign-class-gated",
+      "reason": "v.33's second sentence needs the Shirshodaya/Ubhayodaya/Prishtodaya classification chapter 1 v.8 states but this store has not yet made queryable per-sign (dep.rising-order-sign-class); the verse itself also reads as marginal to a dasa/house-lord chapter, closer to a general life-timing aside. Its first sentence (Jupiter, the lord of the Moon's sign and the lagna lord all in kendra at birth) is not itself sign-class-gated, but the two sentences were left together at scoping time (Milestone 30) and re-splitting the verse's own two clauses is a genuine encoding decision, not a bookkeeping correction -- out of Milestone 34's agreed v.26-only scope (see that milestone's own note against pulling v.25/v.33 in without the source and architecture justifying it). Split out of the original passage:phaladeepika.20.p025-026-033 (Milestone 30) once v.26 was resolved on its own (Milestone 34).",
+      "requires": ["dep.rising-order-sign-class"],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [52]
     },
     {
       "id": "passage:phaladeepika.20.p027",

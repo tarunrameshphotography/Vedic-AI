@@ -771,3 +771,217 @@ def test_demo_chart_dusthana_lords_binds_each_actual_house_lord():
         assert int(house) in (6, 8, 12)
         bound_grahas.add(graha)
     assert len(bound_grahas) == 3
+
+
+# =============================================================================
+# Milestone 34 -- v.26's PD.20.WealthDasa.Venus
+# =============================================================================
+#
+# Split out of the original combined deferral (passage:phaladeepika.20.
+# p025-026-033, Milestone 30) once v.26 was confirmed the one neighbour fully
+# executable with existing predicates -- v.25 and v.33 stay deferred under
+# their own split entries (dep.urdhvamukha-sign-class, dep.rising-order-
+# sign-class respectively). Zero new engine capability: `dignity`, `in_house`,
+# `combust`, `conjunct`, `aspects`, `nature` and `mahadasa_lord` are all
+# reused exactly as-is. The two negated clauses ('uneclipsed', 'free from the
+# influence of a malefic') are what make this card's condition shape novel
+# for this chapter -- a `not` wrapping an `any` of two `all`s, each over a
+# free `?m` -- so the tests below isolate each of the five conjuncts with a
+# synthetic FactSet (mirroring `_ordinal_factset`'s own isolation rationale)
+# before confirming the whole condition against real ephemeris charts.
+
+def _venus_factset(chart, *, dignity=None, houses=(), combust=False,
+                    malefic_conjunct=None, malefic_aspect=None,
+                    benefic_conjunct=None, mahadasa=True) -> FactSet:
+    """A synthetic FactSet carrying exactly the facts named -- isolates
+    PD.20.WealthDasa.Venus's own five-conjunct condition from chart geometry."""
+    frame = chart_frame(chart)
+    facts = []
+    if dignity:
+        facts.append(make_fact("dignity", {"graha": "Venus", "dignity": dignity}, frame))
+    for h in houses:
+        facts.append(make_fact("in_house", {"graha": "Venus", "house": h}, frame))
+    if combust:
+        facts.append(make_fact("combust", {"graha": "Venus"}, frame))
+    if malefic_conjunct:
+        facts.append(make_fact("conjunct", {"graha": "Venus", "other": malefic_conjunct}, frame))
+        facts.append(make_fact("nature", {"graha": malefic_conjunct, "nature": "malefic"}, frame))
+    if malefic_aspect:
+        facts.append(make_fact("aspects", {"graha": malefic_aspect, "target": "Venus"}, frame))
+        facts.append(make_fact("nature", {"graha": malefic_aspect, "nature": "malefic"}, frame))
+    if benefic_conjunct:
+        facts.append(make_fact("conjunct", {"graha": "Venus", "other": benefic_conjunct}, frame))
+        facts.append(make_fact("nature", {"graha": benefic_conjunct, "nature": "benefic"}, frame))
+    if mahadasa:
+        facts.append(make_fact("mahadasa_lord", {"graha": "Venus"}, frame))
+    return FactSet(facts)
+
+
+# --- source fidelity ---------------------------------------------------------
+
+def test_v26_card_cites_the_correct_verse_and_page(cards):
+    c = next(x for x in cards if x.id == "PD.20.WealthDasa.Venus")
+    assert c.verse == "26"
+    assert c.page_anchor == "phaladeepika/p0186"
+    assert c.quote.startswith("26. If Venus be in his sign of exaltation")
+    assert c.quote.rstrip().endswith("enjoy all comforts.")
+    assert "will become very wealthy" in c.quote
+
+
+def test_v26_card_has_no_notes_and_no_relationships(cards):
+    """v.26 carries no Notes and cites no other authority -- confirm the card
+    records no `contradicts`/`extends`/`parallel_of` and no companion note
+    claiming one, unlike the v.24/v.27 cards in this same chapter."""
+    c = next(x for x in cards if x.id == "PD.20.WealthDasa.Venus")
+    assert not c.raw.get("contradicts")
+    assert not c.raw.get("extends")
+    assert not c.raw.get("parallel_of")
+
+
+# --- condition semantics: each of the five conjuncts, isolated ---------------
+
+def test_exalted_and_house_ten_satisfies_the_card(chart, cards):
+    facts = _venus_factset(chart, dignity="exalted", houses=[10])
+    assert _fires("PD.20.WealthDasa.Venus", cards, facts)
+
+
+def test_own_and_house_eleven_satisfies_the_card(chart, cards):
+    facts = _venus_factset(chart, dignity="own", houses=[11])
+    assert _fires("PD.20.WealthDasa.Venus", cards, facts)
+
+
+def test_own_and_house_twelve_satisfies_the_card(chart, cards):
+    facts = _venus_factset(chart, dignity="own", houses=[12])
+    assert _fires("PD.20.WealthDasa.Venus", cards, facts)
+
+
+def test_debilitated_venus_does_not_satisfy_the_card(chart, cards):
+    """Neither exalted nor own -- the dignity clause alone must gate this."""
+    facts = _venus_factset(chart, dignity="debilitated", houses=[10])
+    assert not _fires("PD.20.WealthDasa.Venus", cards, facts)
+
+
+def test_own_sign_outside_houses_ten_eleven_twelve_does_not_satisfy_the_card(chart, cards):
+    """v.26 names exactly the 10th, 11th and 12th -- not a broader kendra or
+    upachaya class. House 9 (a trikona, not named by this verse) must not
+    satisfy it despite Venus being in its own sign."""
+    facts = _venus_factset(chart, dignity="own", houses=[9])
+    assert not _fires("PD.20.WealthDasa.Venus", cards, facts)
+
+
+def test_combust_venus_does_not_satisfy_the_card(chart, cards):
+    """'Uneclipsed' -- a combust Venus, otherwise qualifying, must not fire."""
+    facts = _venus_factset(chart, dignity="own", houses=[10], combust=True)
+    assert not _fires("PD.20.WealthDasa.Venus", cards, facts)
+
+
+def test_malefic_conjunct_venus_does_not_satisfy_the_card(chart, cards):
+    """'Free from the influence of a malefic', first branch -- association."""
+    facts = _venus_factset(chart, dignity="own", houses=[10], malefic_conjunct="Mars")
+    assert not _fires("PD.20.WealthDasa.Venus", cards, facts)
+
+
+def test_malefic_aspecting_venus_does_not_satisfy_the_card(chart, cards):
+    """'Free from the influence of a malefic', second branch -- aspect."""
+    facts = _venus_factset(chart, dignity="own", houses=[10], malefic_aspect="Saturn")
+    assert not _fires("PD.20.WealthDasa.Venus", cards, facts)
+
+
+def test_benefic_conjunct_venus_does_not_block_the_card(chart, cards):
+    """The verse names only a malefic's influence -- a benefic conjunction
+    (Jupiter here) must not withhold the claim."""
+    facts = _venus_factset(chart, dignity="own", houses=[10], benefic_conjunct="Jupiter")
+    assert _fires("PD.20.WealthDasa.Venus", cards, facts)
+
+
+def test_missing_mahadasa_lord_does_not_satisfy_the_card(chart, cards):
+    """A qualifying placement outside Venus's own dasa must not fire --
+    'during his dasa' is load-bearing, not decorative."""
+    facts = _venus_factset(chart, dignity="own", houses=[10], mahadasa=False)
+    assert not _fires("PD.20.WealthDasa.Venus", cards, facts)
+
+
+def test_wealth_dasa_venus_condition_names_exactly_its_own_dignities_and_houses(cards):
+    c = next(x for x in cards if x.id == "PD.20.WealthDasa.Venus")
+    dignity_clause = next(cl["any"] for cl in c.conditions["all"]
+                           if "any" in cl and "dignity" in cl["any"][0])
+    house_clause = next(cl["any"] for cl in c.conditions["all"]
+                         if "any" in cl and "in_house" in cl["any"][0])
+    assert {leaf["dignity"]["dignity"] for leaf in dignity_clause} == {"exalted", "own"}
+    assert {leaf["in_house"]["house"] for leaf in house_clause} == {10, 11, 12}
+    flat = json.dumps(c.conditions)
+    assert flat.count('"graha": "Venus"') + flat.count('"graha":"Venus"') >= 4
+    assert "house_class" not in flat and "in_house_class" not in flat
+
+
+# --- real chart (DEMO): a real placement the malefic-influence clause blocks -
+
+def test_demo_chart_venus_in_own_sign_house_ten_is_blocked_by_mars_aspect(chart, cards):
+    """On the real DEMO chart, moving only Venus to Libra (its own sign) puts
+    it in house 10 -- satisfying dignity and house -- but the chart's own
+    (unmoved) Mars aspects that degree, so the card correctly withholds the
+    claim. A real, not synthetic, false-positive control."""
+    c = place(chart, "Venus", 190.0)
+    assert c.bodies["Venus"].house == 10
+    facts = extract_facts(c, Doctrine.from_cards(load_cards(RULES)))
+    dign = {f.args["dignity"] for f in facts.by_predicate("dignity")
+            if f.args["graha"] == "Venus"}
+    assert "own" in dign
+    assert not _fires("PD.20.WealthDasa.Venus", cards, facts)
+
+
+# --- real chart (genuine ephemeris): positive and negative instants ----------
+#
+# Found by a direct search over real birth instants (Chennai, 1990) rather
+# than hand-built: for each, `run()` is the full pipeline, not a fact-level
+# check, confirming source, condition binding, window and end-to-end
+# verification together.
+
+WEALTH_DASA_POSITIVE_INSTANTS = [
+    ("1990-06-26", "10:00", 10),
+    ("1990-06-26", "08:00", 11),
+    ("1990-06-26", "06:00", 12),
+]
+
+
+@pytest.mark.parametrize("date,time,house", WEALTH_DASA_POSITIVE_INSTANTS)
+def test_real_chart_fires_wealth_dasa_venus_in_own_sign(date, time, house):
+    rec = BirthRecord(date=date, time=time, timezone="Asia/Kolkata",
+                       latitude=13.0827, longitude=80.2707, place_name="Chennai",
+                       time_precision="minute", time_source="certificate", sex="male")
+    r = run(rec)
+    assert r.verification.ok
+    claims = [c for c in r.claims if c.derived["rule_card"] == "PD.20.WealthDasa.Venus"]
+    assert len(claims) == 1
+    claim = claims[0]
+    assert claim.window is not None
+    assert claim.window["start"] < claim.window["end"]
+    assert f"in_house(Venus,{house})" in claim.derived["conditions_satisfied"]
+    assert "dignity(Venus,own)" in claim.derived["conditions_satisfied"]
+    assert "mahadasa_lord(Venus)" in claim.derived["conditions_satisfied"]
+
+
+def test_real_chart_withholds_wealth_dasa_venus_when_saturn_aspects_it():
+    """A real, unmodified nativity where Venus is exalted in house 12 --
+    otherwise qualifying -- but Saturn aspects it, so the malefic-influence
+    clause correctly withholds the claim. Found by the same search as the
+    positive instants above, not constructed."""
+    rec = BirthRecord(date="1990-04-30", time="05:00", timezone="Asia/Kolkata",
+                       latitude=13.0827, longitude=80.2707, place_name="Chennai",
+                       time_precision="minute", time_source="certificate", sex="male")
+    r = run(rec)
+    assert r.verification.ok
+    claims = [c for c in r.claims if c.derived["rule_card"] == "PD.20.WealthDasa.Venus"]
+    assert claims == []
+
+
+def test_v26_claim_is_purely_additive_to_the_demo_chart():
+    """Adding v.26 must not change any other PD.20.* card's count on the real
+    DEMO chart, and the DEMO chart itself does not fire this card (Venus is
+    not in its own or exaltation sign there) -- see
+    test_demo_chart_fires_twenty_pd20_claims for the full 24-claim tally,
+    which does not include PD.20.WealthDasa.Venus."""
+    r = run(DEMO)
+    assert not any(c.derived["rule_card"] == "PD.20.WealthDasa.Venus" for c in r.claims)
+    pd20 = [c for c in r.claims if c.derived["rule_card"].startswith("PD.20.")]
+    assert len(pd20) == 24
