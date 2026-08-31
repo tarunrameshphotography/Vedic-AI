@@ -84,6 +84,13 @@ VOCABULARY: dict[str, tuple[str, ...]] = {
     # fact's evidence, not as a further predicate argument -- there is
     # nothing to quantify or compare, only a period to cite.
     "mahadasa_lord": ("graha",),
+    # dep.mahadasa-ordinal -- ch. 20 v.24: "the dasa of Saturn if it is the
+    # fourth in the order of main dasas". A graha's 1-based position in that
+    # same birth-fixed nine-period sequence, counted from the dasa the native
+    # was born in (the sequence's own period 1) -- not a universal "Saturn is
+    # always fourth" table. `MahadasaPeriod.ordinal` already carries this
+    # number; this predicate is a pure lookup into it, nothing recomputed.
+    "mahadasa_ordinal": ("graha", "ordinal"),
     # ch. 20 v.14's own local disposition criterion, gating vv.2-13/15-20's
     # house-lord dasa effects. Deliberately not `strength`: chapter 4's
     # verdict has no own-sign clause, no inimical-sign clause and no
@@ -1206,6 +1213,11 @@ def _dasa(chart, doc, rep, frame) -> list[Fact]:
     doctrine (`Doctrine.dasa_measured_from`), not written here as a literal --
     the same discipline `_combustion` already applies to the Sun via
     `Doctrine.combustion_source`.
+
+    Also emits `mahadasa_ordinal` (dep.mahadasa-ordinal, ch. 20 v.24) -- each
+    period's own `ordinal` (1..9, counted from the birth dasa), already
+    computed by `mahadasa_sequence` for `mahadasa_lord`'s window and simply
+    exposed as its own queryable fact rather than left inside evidence only.
     """
     body_name, body_cards = doc.dasa_measured_from()
     reference_body = chart.bodies.get(body_name)
@@ -1238,6 +1250,10 @@ def _dasa(chart, doc, rep, frame) -> list[Fact]:
             "doctrine": list(cards),
         }
         out.append(make_fact("mahadasa_lord", {"graha": p.graha}, frame, ev))
+        out.append(make_fact(
+            "mahadasa_ordinal", {"graha": p.graha, "ordinal": p.ordinal},
+            frame, ev,
+        ))
     return out
 
 

@@ -417,7 +417,11 @@
         "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: mechanical, same shape as PD.20.Strong.Lagna; quote crosses the p.182/183 page break, transcribed as one continuous span with the printed page-anchor inline, the same convention PD.04.Ancients.Sthana.SaptavargaSaptamsa etc. already use; '6fh' printed typo transcribed as printed)",
         "verified_date": "2026-08-30"
       },
-      "exclusions": []
+      "note": "Milestone 33: v.24 item (5) (PD.20.MiseryDasa.DusthanaLords) states, with no disposition qualifier, that the dasas of the lords of the 6th, 8th and 12th houses bring misery and trouble -- for a chart where this house's lord is both strongly disposed (this card's own condition) and its own mahadasa lord, that card and this one fire on the identical graha's dasa and assert opposite outcomes. Neither verse states a precedence between them, so both stand and the relationship is recorded rather than left silent -- see `contradicts` below and that card's own note.",
+      "exclusions": [],
+      "contradicts": [
+        "PD.20.MiseryDasa.DusthanaLords"
+      ]
     },
     {
       "id": "PD.20.Strong.House7",
@@ -537,7 +541,11 @@
         "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: mechanical, same shape as PD.20.Strong.Lagna)",
         "verified_date": "2026-08-30"
       },
-      "exclusions": []
+      "note": "Milestone 33: see PD.20.Strong.House6's own note -- the same tension with PD.20.MiseryDasa.DusthanaLords applies here for the 8th house lord.",
+      "exclusions": [],
+      "contradicts": [
+        "PD.20.MiseryDasa.DusthanaLords"
+      ]
     },
     {
       "id": "PD.20.Strong.House9",
@@ -777,7 +785,11 @@
         "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 31: mechanical, same shape as PD.20.Strong.Lagna)",
         "verified_date": "2026-08-30"
       },
-      "exclusions": []
+      "note": "Milestone 33: see PD.20.Strong.House6's own note -- the same tension with PD.20.MiseryDasa.DusthanaLords applies here for the 12th house lord.",
+      "exclusions": [],
+      "contradicts": [
+        "PD.20.MiseryDasa.DusthanaLords"
+      ]
     },
     {
       "id": "PD.20.Weak.Lagna",
@@ -2283,6 +2295,332 @@
       },
       "note": "See PD.20.Placement.BeneficAdverse's own note for why `polarity` is 'miseries' here and 'adverse' there -- the verse's own two distinct effect words, not a shared generic value.",
       "exclusions": []
+    },
+    {
+      "id": "PD.20.MiseryDasa.SaturnFourth",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "24",
+        "page_anchor": "phaladeepika/p0186",
+        "tier": 1,
+        "quote": "24. The following dasas will bring misery and trouble :- […] (1) The dasa of Saturn if it is the fourth in the order of main dasas.",
+        "quote_display": "24. The following dasas will bring misery and trouble :- […] (1) The dasa of Saturn if it is the fourth in the order of main dasas.",
+        "quote_sha256": "093b9d1477f5ffac6ec6371efc37f2e45f96ac5dc905fa560f53965de4b8800c",
+        "char_span": [
+          365504,
+          365560
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            365504,
+            365560
+          ],
+          [
+            365564,
+            365634
+          ]
+        ],
+        "quote_parts": [
+          "24. The following dasas will bring misery and trouble :-",
+          "(1) The dasa of Saturn if it is the fourth in the order of main dasas."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "mahadasa_ordinal": {
+              "graha": "Saturn",
+              "ordinal": 4
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "Saturn"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "mahadasa_ordinal",
+        "graha": "Saturn",
+        "ordinal": 4,
+        "polarity": "misery_and_trouble"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 33: `dep.mahadasa-ordinal` built for this item -- `ordinal` is the graha's 1-based position in the birth-fixed mahadasa sequence counted from the dasa the native was born in (position 1), not a universal 'Saturn is always fourth' reading; confirmed against the verse's own Notes worked example ('If any body is born in the dasa of Mars, Saturn's dasa will be the fourth for him' -- Mars(1), Rahu(2), Jupiter(3), Saturn(4) in PD.19.VimshottariPeriods' own order). Both `mahadasa_ordinal` and `mahadasa_lord` are conditioned on the same literal graha so activate.py's window-carrying-fact scan and its window-grounding re-derivation (which look specifically for a bound `mahadasa_lord(...)` key) both resolve correctly.",
+        "verified_date": "2026-08-31"
+      },
+      "note": "One of five sub-clauses under v.24's shared intro ('The following dasas will bring misery and trouble'), quoted as the intro plus this item's own numbered clause -- items (2) and (3) each carry the same intro paired with their own clause, rather than the intro being asserted by only one of the four cards. Item (4) (last-degree placement) and, separately, whether this card's claim ever collides with item (5)'s own house-lord clause for the identical graha are each addressed on their own cards' notes.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.MiseryDasa.JupiterSixth",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "24",
+        "page_anchor": "phaladeepika/p0186",
+        "tier": 1,
+        "quote": "24. The following dasas will bring misery and trouble :- […] (2) The dasa of Jupiter if it is the sixth",
+        "quote_display": "24. The following dasas will bring misery and trouble :- […] (2) The dasa of Jupiter if it is the sixth",
+        "quote_sha256": "09b1f1c206d4f8a8159e9d0f42f3ec3b2b66ef156bd383a41e7873826539eb42",
+        "char_span": [
+          365504,
+          365560
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            365504,
+            365560
+          ],
+          [
+            365638,
+            365680
+          ]
+        ],
+        "quote_parts": [
+          "24. The following dasas will bring misery and trouble :-",
+          "(2) The dasa of Jupiter if it is the sixth"
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "mahadasa_ordinal": {
+              "graha": "Jupiter",
+              "ordinal": 6
+            }
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "Jupiter"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "mahadasa_ordinal",
+        "graha": "Jupiter",
+        "ordinal": 6,
+        "polarity": "misery_and_trouble"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 33: same shape as PD.20.MiseryDasa.SaturnFourth; item (2)'s own clause is elliptical in the source ('if it is the sixth', with 'in the order of main dasas' left implicit from item (1)) and is transcribed exactly as printed, not completed. Confirmed against the Notes' second worked example: 'For one born in the dasa of Venus, ... Jupiter's dasa the sixth for him' -- Venus(1), Sun(2), Moon(3), Mars(4), Rahu(5), Jupiter(6) in PD.19.VimshottariPeriods' own order.",
+        "verified_date": "2026-08-31"
+      },
+      "note": "See PD.20.MiseryDasa.SaturnFourth's own note on the shared intro clause and quote convention.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.MiseryDasa.MarsRahuFifth",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "24",
+        "page_anchor": "phaladeepika/p0186",
+        "tier": 1,
+        "quote": "24. The following dasas will bring misery and trouble :- […] (3) The dasa of the Mars and Rahu if they are fifth.",
+        "quote_display": "24. The following dasas will bring misery and trouble :- […] (3) The dasa of the Mars and Rahu if they are fifth.",
+        "quote_sha256": "377e0fa616d6e8896e792f4ab3811ca3dea59ad03889cdb52abb68f6502dccb3",
+        "char_span": [
+          365504,
+          365560
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            365504,
+            365560
+          ],
+          [
+            365684,
+            365736
+          ]
+        ],
+        "quote_parts": [
+          "24. The following dasas will bring misery and trouble :-",
+          "(3) The dasa of the Mars and Rahu if they are fifth."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "all": [
+              {
+                "mahadasa_ordinal": {
+                  "graha": "Mars",
+                  "ordinal": 5
+                }
+              },
+              {
+                "mahadasa_lord": {
+                  "graha": "Mars"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "mahadasa_ordinal": {
+                  "graha": "Rahu",
+                  "ordinal": 5
+                }
+              },
+              {
+                "mahadasa_lord": {
+                  "graha": "Rahu"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "mahadasa_ordinal",
+        "graha": [
+          "Mars",
+          "Rahu"
+        ],
+        "ordinal": 5,
+        "polarity": "misery_and_trouble"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 33: the item names two candidate grahas for the one 5th-position slot -- exactly one of them can actually occupy it in any one birth's own sequence, per the Notes' third worked example ('For one born in the dasa of Ketu, Mars dasa will be the fifth for him') alongside the second example's own Rahu-fifth case (born in Venus dasa) -- so this is an `any`-of-`all` disjunction over the two literal grahas, each binding its own graha across both `mahadasa_ordinal` and `mahadasa_lord`, the same shape PD.20.Parasara.EighthLordSunMoon already established for Sun/Moon in one verse clause.",
+        "verified_date": "2026-08-31"
+      },
+      "note": "See PD.20.MiseryDasa.SaturnFourth's own note on the shared intro clause and quote convention.",
+      "exclusions": []
+    },
+    {
+      "id": "PD.20.MiseryDasa.DusthanaLords",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 20,
+        "verse": "24",
+        "page_anchor": "phaladeepika/p0186",
+        "tier": 1,
+        "quote": "24. The following dasas will bring misery and trouble :- […] (5) The dasas of the lords of the 6th, 8th and 12th houses.",
+        "quote_display": "24. The following dasas will bring misery and trouble :- […] (5) The dasas of the lords of the 6th, 8th and 12th houses.",
+        "quote_sha256": "ef3cc14c192e9b9558cae6513a18a0268046f571008d490486a8d467b4a93907",
+        "char_span": [
+          365504,
+          365560
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            365504,
+            365560
+          ],
+          [
+            365812,
+            365871
+          ]
+        ],
+        "quote_parts": [
+          "24. The following dasas will bring misery and trouble :-",
+          "(5) The dasas of the lords of the 6th, 8th and 12th houses."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "lord_of_house": {
+                  "graha": "?g",
+                  "house": 6
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g",
+                  "house": 8
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "?g",
+                  "house": 12
+                }
+              }
+            ]
+          },
+          {
+            "mahadasa_lord": {
+              "graha": "?g"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "dasa",
+        "subject": "house_lord",
+        "houses": [
+          6,
+          8,
+          12
+        ],
+        "polarity": "misery_and_trouble"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 20 encoding, Milestone 33: item (5) is unconditional -- no disposition, strength, or placement qualifier of its own, unlike vv.2-13/14's house-lord dasa doctrine -- so it is encoded directly with `lord_of_house` (any of 6, 8 or 12) AND `mahadasa_lord`, zero new predicates, the same explicit-literal-list shape PD.20.Parasara.UpachayaLordEvil already established for its own 3rd/6th/11th list. The three houses named happen to equal the store's own `dusthana` class exactly, but the condition still names them literally rather than importing `in_house_class`/`house_class`, matching how PD.20.Placement.BeneficAdverse/.MaleficMiseries (Milestone 32) and PD.20.Parasara.UpachayaLordEvil (Milestone 31) both already chose a verse's own literal list over the broader existing class.",
+        "verified_date": "2026-08-31"
+      },
+      "note": "INTERPRETIVE STEP TAKEN AND RECORDED: this card's unconditional claim can co-fire with PD.20.Strong.House6/.House8/.House12 (vv.7/9/13, each gated on `dasa_disposition: auspicious`) for a chart where a 6th/8th/12th lord is both strongly disposed and its own mahadasa lord, asserting opposite outcomes (good vs. misery) for the identical graha's dasa. Neither v.24 nor vv.7-13 states which governs the other, or that v.24 is confined to a weak/badly-disposed lord the way v.14's own general disposition gate reads for vv.2-13 -- so, per the project's standing preserve-disagreement discipline (no invented adjudication), the relationship is recorded rather than silently left for a lexical pass to miss: `contradicts` links both ways, see PD.20.Strong.House6/.House8/.House12's own notes. No tension exists against PD.20.Weak.House6/.House8/.House12 (vv.15-20's own adverse-disposition cards) -- both predict a negative outcome for the same graha, and are left independently co-firing exactly as the store already lets Parasara-cluster and vv.2-21 cards overlap elsewhere.",
+      "exclusions": [],
+      "contradicts": [
+        "PD.20.Strong.House6",
+        "PD.20.Strong.House8",
+        "PD.20.Strong.House12"
+      ]
     }
   ]
 }

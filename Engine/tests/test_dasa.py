@@ -195,11 +195,85 @@ def _chart(moon_lon, moon_nak_idx, birth_jd=2451545.0):
 
 def test_extractor_emits_nine_mahadasa_lord_facts():
     rep = DoctrineReport()
-    facts = _dasa(_chart(103.2, 7), DOCTRINE, rep, FRAME)
+    facts = [f for f in _dasa(_chart(103.2, 7), DOCTRINE, rep, FRAME)
+             if f.predicate == "mahadasa_lord"]
     assert len(facts) == 9
     assert {f.args["graha"] for f in facts} == set(ORDER)
     for f in facts:
         assert "start" in f.evidence and "end" in f.evidence
+
+
+# --- dep.mahadasa-ordinal (Milestone 33) --------------------------------------
+
+def test_extractor_emits_nine_mahadasa_ordinal_facts():
+    rep = DoctrineReport()
+    facts = [f for f in _dasa(_chart(103.2, 7), DOCTRINE, rep, FRAME)
+             if f.predicate == "mahadasa_ordinal"]
+    assert len(facts) == 9
+    assert {f.args["graha"] for f in facts} == set(ORDER)
+
+
+def test_mahadasa_ordinal_values_are_1_through_9_each_exactly_once():
+    facts = [f for f in _dasa(_chart(103.2, 7), DOCTRINE, DoctrineReport(), FRAME)
+             if f.predicate == "mahadasa_ordinal"]
+    assert sorted(f.args["ordinal"] for f in facts) == list(range(1, 10))
+
+
+def test_mahadasa_ordinal_matches_the_verses_own_worked_examples():
+    """v.24's Notes give three worked examples of ordinal counting from the
+    birth dasa; each is reproduced here directly against the extractor,
+    not just against `mahadasa_sequence` in isolation (see the
+    `mahadasa_sequence`-level equivalents below for the pure-arithmetic
+    check)."""
+    def ordinal_of(moon_lon, moon_nak_idx, graha):
+        facts = [f for f in _dasa(_chart(moon_lon, moon_nak_idx), DOCTRINE,
+                                   DoctrineReport(), FRAME)
+                 if f.predicate == "mahadasa_ordinal"]
+        return next(f.args["ordinal"] for f in facts if f.args["graha"] == graha)
+
+    # Born in Mars dasa (Mrigashira, index 4, Mars's own nakshatra) -> Saturn 4th.
+    assert ordinal_of(4 * (360.0 / 27.0) + 1.0, 4, "Saturn") == 4
+    # Born in Venus dasa (Bharani, index 1) -> Rahu 5th, Jupiter 6th.
+    assert ordinal_of(1 * (360.0 / 27.0) + 1.0, 1, "Rahu") == 5
+    assert ordinal_of(1 * (360.0 / 27.0) + 1.0, 1, "Jupiter") == 6
+    # Born in Ketu dasa (Ashwini, index 0) -> Mars 5th.
+    assert ordinal_of(0 * (360.0 / 27.0) + 1.0, 0, "Mars") == 5
+
+
+def test_mahadasa_ordinal_is_birth_fixed_not_query_date_dependent():
+    """No query date enters `_dasa` anywhere -- the same birth produces the
+    same nine ordinals regardless of when a report is generated, mirroring
+    `test_sequence_is_deterministic` for the underlying sequence."""
+    a = [(f.args["graha"], f.args["ordinal"])
+         for f in _dasa(_chart(103.2, 7), DOCTRINE, DoctrineReport(), FRAME)
+         if f.predicate == "mahadasa_ordinal"]
+    b = [(f.args["graha"], f.args["ordinal"])
+         for f in _dasa(_chart(103.2, 7), DOCTRINE, DoctrineReport(), FRAME)
+         if f.predicate == "mahadasa_ordinal"]
+    assert sorted(a) == sorted(b)
+
+
+def test_mahadasa_ordinal_provenance_matches_mahadasa_lord():
+    """Both predicates are read from the same doctrine cards -- there is no
+    second source of truth for the ordering."""
+    facts = _dasa(_chart(103.2, 7), DOCTRINE, DoctrineReport(), FRAME)
+    lord_doctrine = {tuple(f.evidence["doctrine"]) for f in facts
+                      if f.predicate == "mahadasa_lord"}
+    ordinal_doctrine = {tuple(f.evidence["doctrine"]) for f in facts
+                         if f.predicate == "mahadasa_ordinal"}
+    assert lord_doctrine == ordinal_doctrine
+    assert lord_doctrine  # non-empty: doctrine was actually consulted
+
+
+def test_mahadasa_ordinal_agrees_with_mahadasa_sequence_directly():
+    """Cross-check against `mahadasa_sequence` itself, independent of the
+    extractor's doctrine plumbing."""
+    periods = mahadasa_sequence(2451545.0, 103.2, 7, ORDER, YEARS, "Krittika")
+    by_ordinal = {p.ordinal: p.graha for p in periods}
+    facts = [f for f in _dasa(_chart(103.2, 7), DOCTRINE, DoctrineReport(), FRAME)
+             if f.predicate == "mahadasa_ordinal"]
+    for f in facts:
+        assert by_ordinal[f.args["ordinal"]] == f.args["graha"]
 
 
 def test_extractor_records_which_doctrine_cards_it_consulted():

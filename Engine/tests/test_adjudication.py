@@ -539,7 +539,12 @@ def test_the_claim_to_claim_contradictions_are_catalogued(cards):
     25 adds a second real cluster (chapter 6's Harsha/Sarala/Vimala vs.
     Parashara's nine-combination breakdown), still with no such machinery
     built: the source does not settle these either, so both sides simply
-    stand, exactly as `Engine/adjudicate.py` already handles.
+    stand, exactly as `Engine/adjudicate.py` already handles. Milestone 33
+    adds a third cluster: v.24's unconditional 6th/8th/12th-lord misery dasa
+    (PD.20.MiseryDasa.DusthanaLords) against vv.7/9/13's own strength-gated
+    good-dasa cards for the same three house lords (PD.20.Strong.House6/.8/.12)
+    -- neither verse states which governs a chart where a dusthana lord is
+    both strong and its own mahadasa lord.
     """
     by_id = {c.id: c for c in cards}
     pairs = []
@@ -560,6 +565,9 @@ def test_the_claim_to_claim_contradictions_are_catalogued(cards):
         ("PD.06.DusthanaLord.Vimala", "PD.06.Parashara.SixthLordInTwelfth"),
         ("PD.06.DusthanaLord.Vimala", "PD.06.Parashara.EighthLordInTwelfth"),
         ("PD.06.DusthanaLord.Vimala", "PD.06.Parashara.TwelfthLordInTwelfth"),
+        ("PD.20.MiseryDasa.DusthanaLords", "PD.20.Strong.House6"),
+        ("PD.20.MiseryDasa.DusthanaLords", "PD.20.Strong.House8"),
+        ("PD.20.MiseryDasa.DusthanaLords", "PD.20.Strong.House12"),
     ])
 
 

@@ -6,14 +6,14 @@ Nothing may be silently deferred. Inert cards are read out of the store, deferre
 
 | | |
 |---|---|
-| Backlog entries | **173** |
+| Backlog entries | **174** |
 | — of kind `card` | 14 |
 | — of kind `passage` | 79 |
 | — of kind `chapter` | 46 |
 | — of kind `concept` | 25 |
-| Resolved | 9 |
-| Cards in store | 590 |
-| Firing | 576 |
+| Resolved | 10 |
+| Cards in store | 594 |
+| Firing | 580 |
 | Inert | 14 |
 
 ## Dependencies
@@ -43,11 +43,11 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 | `dep.body-part-significator` — house-to-body-part correspondence | predicate | no | 1 | 1 | 3 (knowledge) |
 | `dep.compound-friendship` — compound (Panchadha maitri) friendship tiers | predicate | no | 1 | 1 | 2 (engine completion) |
 | `dep.conjunct` — conjunction extractor | predicate | yes | 1 | 0 | 2 (engine completion) |
+| `dep.dasa-last-degree` — a graha's dasa-quality when placed in the last degree of a sign | predicate | no | 1 | 0 | 3 (knowledge) |
 | `dep.degree-position-quality` — a graha's dasa-quality by exact degree position (Arohini/Avarohini/Madhya/Adhama) | predicate | no | 1 | 0 | 2 (engine completion) |
 | `dep.dignity` — dignity extractor | predicate | yes | 1 | 1 | 2 (engine completion) |
 | `dep.kendra-togetherness` — what "together in a Kendra" means | concept | no | 1 | 1 | 3 (knowledge) |
 | `dep.lagna-strength` — strength verdict for the Lagna/Ascendant | predicate | no | 1 | 0 | 2 (engine completion) |
-| `dep.mahadasa-ordinal` — a graha's ordinal position in the birth-fixed mahadasa sequence | predicate | no | 1 | 0 | 2 (engine completion) |
 | `dep.multi-span-quote` — quotation across two spans | schema | yes | 1 | 0 | 4 (integration) |
 | `dep.nature` — benefic/malefic classification | calculator | yes | 1 | 1 | 3 (knowledge) |
 | `dep.prashna` — prashna (horary) branch | engine | no | 1 | 1 | beyond the MVP |
@@ -73,6 +73,7 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 | `dep.graha-frame` — houses counted from a graha | schema | yes | 0 | 0 | 4 (integration) |
 | `dep.hemmed-between` — hemming (papakartari / subhakartari) extractor | predicate | no | 0 | 0 | 2 (engine completion) |
 | `dep.house-class` — house classification | reference | yes | 0 | 0 | 3 (knowledge) |
+| `dep.mahadasa-ordinal` — a graha's ordinal position in the birth-fixed mahadasa sequence | predicate | yes | 0 | 0 | 2 (engine completion) |
 | `dep.moon-frame` — the Moon as an alternative reference frame | schema | yes | 0 | 0 | beyond the MVP |
 | `dep.nature-occupancy` — occupancy of a house by grahas of a given nature | predicate | yes | 0 | 0 | 2 (engine completion) |
 | `dep.occupant-count` — occupant counting | predicate | yes | 0 | 0 | 2 (engine completion) |
@@ -155,7 +156,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `chapter:phaladeepika.27` | phaladeepika | 27 | whole chapter - Yogas leading to ascetism | sanyasa yogas | Rule-dense and encodable now; deferred by ordering only. | `dep.none` | 3 (knowledge) | deferred |
 | `chapter:phaladeepika.28` | phaladeepika | 28 | whole chapter - Concluding Chapter | the author's colophon and closing remarks | Narrative, not doctrine. Will be reviewed once for any rule hidden in the closing remarks, then written off. | `dep.none` | 3 (knowledge) | deferred |
 
-### Passages inside encoded chapters (85)
+### Passages inside encoded chapters (86)
 
 | Entry | Book | Chapter | Locus | Deferred | Reason | Blocked on | Phase | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -236,7 +237,8 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `passage:phaladeepika.20.horoscope-apparatus` | phaladeepika | 20 | printed p.190 | a transcribed South Indian-style horoscope chart illustrating v.39's Notes (Rahu conjunct Venus) | Tier-3 apparatus, the same treatment every other transcribed illustrative horoscope in this corpus receives (chapters 8, 9). | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.20.p001` | phaladeepika | 20 | v. 1 (printed p.182) | the chapter's own scope-setting sentence | States no rule and conditions nothing, the same tier-3 treatment every other chapter's opening sentence receives. | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.20.p021` | phaladeepika | 20 | v. 21 (printed pp.185-186) | a meta-rule attributing whatever chapters 1, 2, 5, 14, 15, 16, 17 and 18 state about a house lord to that lord's own dasa | The card schema's rule-transfer mechanism (dep.rule-transfer, implemented) can express a meta-card that asserts another card's claim under a new condition, b… | `dep.rule-transfer` | 3 (knowledge) | deferred |
-| `passage:phaladeepika.20.p024` | phaladeepika | 20 | v. 24 and its Notes (printed p.186) | misery-bringing dasas named by their ordinal position in the birth-fixed mahadasa sequence (e.g. 'the dasa of Saturn if it is the fourth in the order of main dasas'), a last-degree placement clause, and the 6th/8th/12th-lord dasas | The first three sub-clauses need only a graha's ORDINAL position in the already-computed `mahadasa_sequence()` (Engine/dasa.py) -- zero antardasa arithmetic … | `dep.mahadasa-ordinal` | 2 (engine completion) | deferred |
+| `passage:phaladeepika.20.p024` | phaladeepika | 20 | v. 24 items (1)-(3), (5) and their Notes (printed p.186) | misery-bringing dasas named by their ordinal position in the birth-fixed mahadasa sequence (e.g. 'the dasa of Saturn if it is the fourth in the order of main dasas'), and the dasas of the lords of the 6th, 8th and 12th houses | RESOLVED (Milestone 33). Encoded as four firing cards: PD.20.MiseryDasa.SaturnFourth, .JupiterSixth and .MarsRahuFifth (items (1)-(3), each `mahadasa_ordinal… | `dep.none` | 3 (knowledge) | resolved |
+| `passage:phaladeepika.20.p024-lastdegree` | phaladeepika | 20 | v. 24 item (4) (printed p.186) | the dasa of a planet placed in the last degree of a sign bringing misery and trouble | Split out of passage:phaladeepika.20.p024 (Milestone 33) so its own, still-genuine gap does not hide behind that entry's now-resolved ordinal/house-lord clau… | `dep.dasa-last-degree` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.20.p025-026-033` | phaladeepika | 20 | vv. 25-26 and v. 33 (printed pp.186-188) | Mars/Venus placement doctrine keyed to the Urdhvamukha sign class (v.25), Venus's own exaltation/own-sign dasa wealth doctrine (v.26), and life-timing keyed to the Shirshodaya/Ubhayodaya/Prishtodaya sign classes (v.33) | v.25 needs an Urdhvamukha sign classification this store has never encoded (dep.urdhvamukha-sign-class). v.33 needs the Shirshodaya/Ubhayodaya/Prishtodaya cl… | `dep.urdhvamukha-sign-class`, `dep.rising-order-sign-class` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.20.p027` | phaladeepika | 20 | v. 27 (printed p.187, not p.186 as originally logged -- the page anchor immediately precedes the verse in the corpus; corrected on resolution) | benefics/malefics in debilitation, an inimical sign or the 6th/12th house producing adverse/miserable dasa effects, for any graha rather than specifically a house lord | RESOLVED (Milestone 32). Encoded as two firing cards, PD.20.Placement.BeneficAdverse and PD.20.Placement.MaleficMiseries, each quoting one of the verse's two… | `dep.none` | 3 (knowledge) | resolved |
 | `passage:phaladeepika.20.p030` | phaladeepika | 20 | v. 30 (printed p.187) | percentage-weighted dasa effects by degree of dignity (full in exaltation, three-fourths in Moolatrikona, half in own sign, one-fourth in a friend's sign, and so on) | Explicit numeric weighting the project's standing discipline refuses to invent -- there is no invented confidence, authority weighting or percentage scale an… | `dep.adjudication` | 4 (integration) | deferred |

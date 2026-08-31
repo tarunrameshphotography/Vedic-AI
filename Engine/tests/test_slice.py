@@ -823,10 +823,21 @@ def test_slice_runs_and_verifies():
     # same three dignity(?g,inimical) facts PD.09.Dignity.Inimical already
     # conditions on above), and each is independently a mahadasa lord. 98+3 =
     # 101.
-    assert r.verification.checks["claims"] == 101
+    # 101 -> 105 in Milestone 33: chapter 20 v.24's four new dasa cards.
+    # PD.20.MiseryDasa.SaturnFourth and .JupiterSixth do not fire on this
+    # chart -- Saturn is not the 4th, nor Jupiter the 6th, mahadasa from this
+    # chart's own birth dasa. PD.20.MiseryDasa.MarsRahuFifth fires once: Mars
+    # is this chart's ordinal-5 mahadasa (mahadasa_ordinal(Mars,5)), confirmed
+    # directly against conditions_satisfied, not merely against the count.
+    # PD.20.MiseryDasa.DusthanaLords fires three times, once per this lagna's
+    # three distinct 6th/8th/12th house lords (Mercury, Sun, Jupiter) -- v.24's
+    # own unconditional clause, so it does not care that Sun is adverse here
+    # (PD.20.Weak.House8) while Mercury and Jupiter carry no dasa_disposition
+    # verdict either way. 101+1+3 = 105.
+    assert r.verification.checks["claims"] == 105
     for k in ("quote_integrity_passed", "conditions_reevaluated_passed",
               "numeric_grounding_passed"):
-        assert r.verification.checks[k] == 101
+        assert r.verification.checks[k] == 105
     # 9 PD.19.Dasa.<Graha> claims plus 3 PD.09.Dignity.Inimical.DasaEnmity
     # claims (Sun, Saturn, Rahu) carry a window on this chart, plus (Milestone
     # 31) all 17 PD.20.* claims above -- every one conditions on
@@ -834,8 +845,10 @@ def test_slice_runs_and_verifies():
     # populates Claim.window for them automatically, the same mechanism ch.19's
     # own cards use. 12+17 = 29. Milestone 32 adds the 3 PD.20.Placement.
     # MaleficMiseries claims above, each also conditioning on mahadasa_lord.
-    # 29+3 = 32.
-    assert r.verification.checks["window_grounding_passed"] == 32
+    # 29+3 = 32. Milestone 33 adds the 4 new v.24 claims above (1
+    # MarsRahuFifth + 3 DusthanaLords), each also conditioning on
+    # mahadasa_lord. 32+4 = 36.
+    assert r.verification.checks["window_grounding_passed"] == 36
 
 
 def test_every_claim_has_all_four_provenance_links():
@@ -859,7 +872,7 @@ def test_quoted_output_adds_no_words():
     r = run(DEMO)
     by_id = {c.claim_id: c for c in r.claims}
     rules = [s for s in r.sentences if s.part == "rules"]
-    assert len(rules) == 101  # see test_slice_runs_and_verifies for the 98 -> 101 move
+    assert len(rules) == 105  # see test_slice_runs_and_verifies for the 98 -> 101 -> 105 move
     for s in rules:
         assert s.text == by_id[s.claim_ids[0]].passage["quote_display"]
 

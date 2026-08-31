@@ -44,7 +44,8 @@ import pytest
 from Engine.chart import BirthRecord, compute_chart, resolve_birth
 from Engine.doctrine import Doctrine, DoctrineError
 from Engine.ephemeris import SwissEphemerisDLL
-from Engine.facts import DoctrineReport, chart_frame, extract_facts, _dasa_disposition
+from Engine.facts import (DoctrineReport, FactSet, chart_frame, extract_facts,
+                           make_fact, _dasa_disposition)
 from Engine.pipeline import run
 from Engine.rules import evaluate, load_cards
 from Engine.tests.test_strength import place
@@ -240,10 +241,18 @@ def test_eighth_lord_sun_moon_binds_each_graha_independently():
 # --- real chart (DEMO) ---------------------------------------------------------
 
 def test_demo_chart_fires_twenty_pd20_claims():
-    """Cross-checked against test_slice.py's own 81 -> 98 -> 101 accounting."""
+    """Cross-checked against test_slice.py's own 81 -> 98 -> 101 -> 105
+    accounting (this file's own count, 20, is PD.20.* claims only -- the
+    98/101/105 figures over there are the whole-consultation claim count).
+    20 -> 24 in Milestone 33: the DEMO chart's own birth dasa (Moon's
+    nakshatra fixes the birth-fixed sequence) happens to put Mars at ordinal
+    5 (PD.20.MiseryDasa.MarsRahuFifth, x1) -- not Saturn at 4 nor Jupiter at
+    6, so those two cards do not fire on this chart -- and this lagna's three
+    distinct 6th/8th/12th house lords (Mercury, Sun, Jupiter) each fire
+    PD.20.MiseryDasa.DusthanaLords once (x3). 20 + 1 + 3 = 24."""
     r = run(DEMO)
     pd20 = [c for c in r.claims if c.derived["rule_card"].startswith("PD.20.")]
-    assert len(pd20) == 20
+    assert len(pd20) == 24
     counts: dict[str, int] = {}
     for c in pd20:
         counts[c.derived["rule_card"]] = counts.get(c.derived["rule_card"], 0) + 1
@@ -257,6 +266,8 @@ def test_demo_chart_fires_twenty_pd20_claims():
         "PD.20.Parasara.UpachayaLordEvil": 3,
         "PD.20.Parasara.EighthLordSunMoon": 1,
         "PD.20.Placement.MaleficMiseries": 3,
+        "PD.20.MiseryDasa.MarsRahuFifth": 1,
+        "PD.20.MiseryDasa.DusthanaLords": 3,
     }
 
 
@@ -502,7 +513,10 @@ def test_demo_chart_fires_no_benefic_adverse_claim():
 def test_v27_claims_do_not_change_any_unrelated_claim_count():
     """Adding v.27 must be purely additive: every other PD.20.* card's count
     on the real DEMO chart is unchanged from Milestone 31 (see
-    test_demo_chart_fires_twenty_pd20_claims for the full breakdown)."""
+    test_demo_chart_fires_twenty_pd20_claims for the full breakdown). Milestone
+    33's own v.24 cards are additive in exactly the same sense and are popped
+    here too, rather than renaming this test -- their own counts are pinned
+    directly in test_demo_chart_fires_twenty_pd20_claims above."""
     r = run(DEMO)
     counts: dict[str, int] = {}
     for c in r.claims:
@@ -510,6 +524,8 @@ def test_v27_claims_do_not_change_any_unrelated_claim_count():
             counts[c.derived["rule_card"]] = counts.get(c.derived["rule_card"], 0) + 1
     counts.pop("PD.20.Placement.MaleficMiseries", None)
     counts.pop("PD.20.Placement.BeneficAdverse", None)
+    counts.pop("PD.20.MiseryDasa.MarsRahuFifth", None)
+    counts.pop("PD.20.MiseryDasa.DusthanaLords", None)
     assert counts == {
         "PD.20.Strong.House4": 1, "PD.20.Strong.House11": 1,
         "PD.20.Weak.Lagna": 1, "PD.20.Weak.House2": 1,
@@ -520,3 +536,238 @@ def test_v27_claims_do_not_change_any_unrelated_claim_count():
         "PD.20.Parasara.UpachayaLordEvil": 3,
         "PD.20.Parasara.EighthLordSunMoon": 1,
     }
+
+
+# =============================================================================
+# Milestone 33 -- dep.mahadasa-ordinal and v.24's PD.20.MiseryDasa.* cards
+# =============================================================================
+
+MISERY_DASA_CARDS = {
+    "PD.20.MiseryDasa.SaturnFourth", "PD.20.MiseryDasa.JupiterSixth",
+    "PD.20.MiseryDasa.MarsRahuFifth", "PD.20.MiseryDasa.DusthanaLords",
+}
+
+
+def _ordinal_factset(chart, pairs: dict[str, int]) -> FactSet:
+    """A synthetic FactSet carrying exactly the `mahadasa_ordinal` /
+    `mahadasa_lord` facts named in `pairs` (graha -> ordinal), nothing else --
+    isolates each card's own condition logic from chart geometry, the birth
+    dasa arithmetic already being covered directly in Engine/tests/test_dasa.py."""
+    frame = chart_frame(chart)
+    facts = []
+    for graha, ordinal in pairs.items():
+        facts.append(make_fact("mahadasa_ordinal", {"graha": graha, "ordinal": ordinal}, frame))
+        facts.append(make_fact("mahadasa_lord", {"graha": graha}, frame))
+    return FactSet(facts)
+
+
+def _fires(card_id, cards_, facts) -> bool:
+    card = next(c for c in cards_ if c.id == card_id)
+    return evaluate(card.conditions, facts).satisfied
+
+
+# --- source fidelity ---------------------------------------------------------
+
+def test_v24_cards_cite_the_correct_verse_and_page(cards):
+    for cid in MISERY_DASA_CARDS:
+        c = next(x for x in cards if x.id == cid)
+        assert c.verse == "24"
+        assert c.page_anchor == "phaladeepika/p0186"
+
+
+def test_v24_ordinal_card_quotes_include_the_shared_intro_and_own_item(cards):
+    """Each of the three ordinal cards quotes v.24's shared intro sentence
+    plus its own numbered item, joined by the corpus ellipsis -- not the
+    intro alone (which asserts nothing about a specific graha) and not the
+    item alone (which, for items (2)/(3), never restates the effect)."""
+    expectations = {
+        "PD.20.MiseryDasa.SaturnFourth": "(1) The dasa of Saturn",
+        "PD.20.MiseryDasa.JupiterSixth": "(2) The dasa of Jupiter",
+        "PD.20.MiseryDasa.MarsRahuFifth": "(3) The dasa of the Mars and Rahu",
+        "PD.20.MiseryDasa.DusthanaLords": "(5) The dasas of the lords",
+    }
+    for cid, item_prefix in expectations.items():
+        c = next(x for x in cards if x.id == cid)
+        assert c.quote.startswith("24. The following dasas will bring misery and trouble")
+        assert item_prefix in c.quote
+
+
+# --- dep.mahadasa-ordinal: positive, negative, binding ------------------------
+
+def test_saturn_fourth_fires_when_saturn_is_the_fourth_mahadasa(chart, cards):
+    facts = _ordinal_factset(chart, {"Saturn": 4})
+    assert _fires("PD.20.MiseryDasa.SaturnFourth", cards, facts)
+
+
+def test_saturn_fourth_does_not_fire_when_saturn_is_a_different_ordinal(chart, cards):
+    facts = _ordinal_factset(chart, {"Saturn": 7})
+    assert not _fires("PD.20.MiseryDasa.SaturnFourth", cards, facts)
+
+
+def test_saturn_fourth_does_not_fire_for_a_different_graha_at_ordinal_four(chart, cards):
+    """Ordinal 4 alone is not the condition -- it must be Saturn's own."""
+    facts = _ordinal_factset(chart, {"Rahu": 4})
+    assert not _fires("PD.20.MiseryDasa.SaturnFourth", cards, facts)
+
+
+def test_jupiter_sixth_fires_when_jupiter_is_the_sixth_mahadasa(chart, cards):
+    facts = _ordinal_factset(chart, {"Jupiter": 6})
+    assert _fires("PD.20.MiseryDasa.JupiterSixth", cards, facts)
+
+
+def test_jupiter_sixth_does_not_fire_when_jupiter_is_a_different_ordinal(chart, cards):
+    facts = _ordinal_factset(chart, {"Jupiter": 3})
+    assert not _fires("PD.20.MiseryDasa.JupiterSixth", cards, facts)
+
+
+def test_mars_rahu_fifth_fires_for_mars_at_ordinal_five(chart, cards):
+    facts = _ordinal_factset(chart, {"Mars": 5})
+    assert _fires("PD.20.MiseryDasa.MarsRahuFifth", cards, facts)
+
+
+def test_mars_rahu_fifth_fires_for_rahu_at_ordinal_five(chart, cards):
+    facts = _ordinal_factset(chart, {"Rahu": 5})
+    assert _fires("PD.20.MiseryDasa.MarsRahuFifth", cards, facts)
+
+
+def test_mars_rahu_fifth_does_not_fire_for_a_third_graha_at_ordinal_five(chart, cards):
+    """Only Mars or Rahu satisfy item (3) -- any other graha at ordinal 5
+    (e.g. Ketu, per the Notes' own third worked example being 'Mars is fifth
+    when born in Ketu's dasa', not Ketu itself) must not."""
+    facts = _ordinal_factset(chart, {"Ketu": 5})
+    assert not _fires("PD.20.MiseryDasa.MarsRahuFifth", cards, facts)
+
+
+def test_mars_rahu_fifth_binds_each_graha_independently():
+    """The `any`-of-two-`all` shape must not let Mars's ordinal pair with
+    Rahu's mahadasa_lord fact or vice versa -- the same cross-binding defect
+    test_eighth_lord_sun_moon_binds_each_graha_independently already guards
+    against for PD.20.Parasara.EighthLordSunMoon."""
+    cards_ = load_cards(RULES)
+    c = next(x for x in cards_ if x.id == "PD.20.MiseryDasa.MarsRahuFifth")
+    branches = c.conditions["any"]
+    assert len(branches) == 2
+    for branch in branches:
+        grahas = {leaf[k]["graha"] for leaf in branch["all"] for k in leaf}
+        assert grahas in ({"Mars"}, {"Rahu"})
+
+
+def test_mars_rahu_fifth_does_not_fire_when_the_mahadasa_lord_fact_is_missing():
+    """A malformed FactSet carrying only Mars's `mahadasa_ordinal` but not its
+    own `mahadasa_lord` (as if the two facts had come unpaired) must not
+    satisfy the Mars branch -- both conjuncts are load-bearing."""
+    frame = {"reference": "lagna", "varga": "D1", "house_system": "whole_sign"}
+    facts = FactSet([make_fact("mahadasa_ordinal", {"graha": "Mars", "ordinal": 5}, frame)])
+    cards_ = load_cards(RULES)
+    c = next(x for x in cards_ if x.id == "PD.20.MiseryDasa.MarsRahuFifth")
+    assert not evaluate(c.conditions, facts).satisfied
+
+
+# --- item (5): the unconditional 6th/8th/12th house-lord clause --------------
+
+def test_dusthana_lords_fires_for_a_house_six_lord(chart, doctrine, cards):
+    facts = extract_facts(chart, doctrine)
+    grahas = matched_grahas(chart, doctrine, cards, "PD.20.MiseryDasa.DusthanaLords")
+    lord6 = next(f.args["graha"] for f in facts.by_predicate("lord_of_house")
+                 if f.args["house"] == 6)
+    assert lord6 in grahas
+
+
+def test_dusthana_lords_fires_for_all_three_named_houses(chart, doctrine, cards):
+    """Every one of the chart's 6th/8th/12th house lords is in the matched
+    set -- not just one of the three."""
+    facts = extract_facts(chart, doctrine)
+    grahas = matched_grahas(chart, doctrine, cards, "PD.20.MiseryDasa.DusthanaLords")
+    expected = {f.args["graha"] for f in facts.by_predicate("lord_of_house")
+                if f.args["house"] in (6, 8, 12)}
+    assert expected <= grahas
+
+
+def test_dusthana_lords_does_not_fire_for_the_lagna_lord_alone(chart, doctrine, cards):
+    """The lagna lord (house 1) is not named by item (5) -- confirmed against
+    the chart's own lordship facts rather than a synthetic case, mirroring
+    test_upachaya_lord_evil_excludes_house_ten's own boundary discipline."""
+    facts = extract_facts(chart, doctrine)
+    grahas = matched_grahas(chart, doctrine, cards, "PD.20.MiseryDasa.DusthanaLords")
+    lord1 = next(f.args["graha"] for f in facts.by_predicate("lord_of_house")
+                 if f.args["house"] == 1)
+    lord6812 = {f.args["graha"] for f in facts.by_predicate("lord_of_house")
+                if f.args["house"] in (6, 8, 12)}
+    if lord1 not in lord6812:
+        assert lord1 not in grahas
+
+
+def test_dusthana_lords_condition_names_exactly_six_eight_twelve(cards):
+    c = next(x for x in cards if x.id == "PD.20.MiseryDasa.DusthanaLords")
+    any_clause = next(cl["any"] for cl in c.conditions["all"] if "any" in cl)
+    houses = {leaf["lord_of_house"]["house"] for leaf in any_clause}
+    assert houses == {6, 8, 12}
+
+
+# --- false positives -----------------------------------------------------------
+
+def test_a_graha_satisfying_no_v24_clause_fires_no_misery_dasa_card(chart, doctrine, cards):
+    """Venus, ordinal 2 and owning no dusthana on the synthetic pairing below,
+    satisfies none of the four cards."""
+    facts = _ordinal_factset(chart, {"Venus": 2})
+    for cid in ("PD.20.MiseryDasa.SaturnFourth", "PD.20.MiseryDasa.JupiterSixth",
+                "PD.20.MiseryDasa.MarsRahuFifth"):
+        assert not _fires(cid, cards, facts)
+
+
+# --- contradicts: v.24 item (5) vs. vv.7/9/13's strength-gated good dasa -----
+
+def test_dusthana_lords_contradicts_all_three_strong_house_cards(cards):
+    c = next(x for x in cards if x.id == "PD.20.MiseryDasa.DusthanaLords")
+    assert set(c.raw.get("contradicts", [])) == {
+        "PD.20.Strong.House6", "PD.20.Strong.House8", "PD.20.Strong.House12"}
+    for target in ("PD.20.Strong.House6", "PD.20.Strong.House8", "PD.20.Strong.House12"):
+        other = next(x for x in cards if x.id == target)
+        assert "PD.20.MiseryDasa.DusthanaLords" in (other.raw.get("contradicts") or [])
+
+
+# --- timing: every firing claim carries a window -------------------------------
+
+def test_v24_misery_dasa_claims_carry_a_window():
+    r = run(DEMO)
+    v24_claims = [c for c in r.claims if c.derived["rule_card"] in MISERY_DASA_CARDS]
+    assert v24_claims  # the DEMO chart fires at least one, per the count above
+    for c in v24_claims:
+        assert c.window is not None
+        assert c.window["start"] < c.window["end"]
+
+
+# --- real chart (DEMO): binding confirmed against the chart's own facts -------
+
+def test_demo_chart_mars_rahu_fifth_binds_the_chart_actual_ordinal_five_graha():
+    r = run(DEMO)
+    claim = next(c for c in r.claims
+                 if c.derived["rule_card"] == "PD.20.MiseryDasa.MarsRahuFifth")
+    graha = next(
+        k[len("mahadasa_lord("):-1] for k in claim.derived["conditions_satisfied"]
+        if k.startswith("mahadasa_lord("))
+    assert graha in ("Mars", "Rahu")
+    ordinal_key = next(k for k in claim.derived["conditions_satisfied"]
+                        if k.startswith("mahadasa_ordinal("))
+    assert ordinal_key == f"mahadasa_ordinal({graha},5)"
+
+
+def test_demo_chart_dusthana_lords_binds_each_actual_house_lord():
+    """Each of the three firing claims binds the same graha across both its
+    `lord_of_house` and `mahadasa_lord` conditions -- not, say, one graha's
+    house lordship paired with a different graha's dasa -- and that house is
+    one of 6, 8 or 12."""
+    r = run(DEMO)
+    claims = [c for c in r.claims if c.derived["rule_card"] == "PD.20.MiseryDasa.DusthanaLords"]
+    assert len(claims) == 3
+    bound_grahas = set()
+    for c in claims:
+        lord_key = next(k for k in c.derived["conditions_satisfied"]
+                         if k.startswith("lord_of_house("))
+        dasa_key = next(k for k in c.derived["conditions_satisfied"]
+                         if k.startswith("mahadasa_lord("))
+        graha, house = lord_key[len("lord_of_house("):-1].split(",")
+        assert dasa_key == f"mahadasa_lord({graha})"
+        assert int(house) in (6, 8, 12)
+        bound_grahas.add(graha)
+    assert len(bound_grahas) == 3
