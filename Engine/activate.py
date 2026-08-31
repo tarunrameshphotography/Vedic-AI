@@ -340,23 +340,11 @@ def _recompute_window(chart: ChartBundle, cards: list[RuleCard], graha: str | No
     Moon's own longitude/nakshatra on the `ChartBundle`, and to the doctrine
     cards directly, rather than trusting the FactSet `_dasa` already produced.
     """
-    from .dasa import jd_to_iso, mahadasa_sequence
-    from .doctrine import Doctrine, DoctrineError
+    from .dasa import chart_mahadasa_timeline, jd_to_iso
 
     if graha is None:
         return None
-    moon = chart.bodies.get("Moon")
-    if moon is None:
-        return None
-    try:
-        periods_doc, _ = Doctrine.from_cards(cards).vimshottari_periods()
-    except DoctrineError:
-        return None
-    periods = mahadasa_sequence(
-        chart.resolved_birth["julian_day_ut"], moon.lon, moon.nakshatra_index,
-        periods_doc["order"], periods_doc["years"], periods_doc["starting_nakshatra"],
-    )
-    for p in periods:
+    for p in chart_mahadasa_timeline(chart, cards):
         if p.graha == graha:
             return {"start": jd_to_iso(p.start_jd), "end": jd_to_iso(p.end_jd)}
     return None

@@ -29,8 +29,13 @@ recorded here rather than smuggled in as literals:
 from __future__ import annotations
 
 from dataclasses import dataclass
+from typing import TYPE_CHECKING
 
-from .chart import NAKSHATRAS
+from .chart import NAKSHATRAS, ChartBundle
+from .doctrine import Doctrine, DoctrineError
+
+if TYPE_CHECKING:
+    from .rules import RuleCard
 
 DASA_YEAR_DAYS = 365.25
 
@@ -124,6 +129,31 @@ def mahadasa_sequence(
         ))
         jd = end_jd
     return periods
+
+
+def chart_mahadasa_timeline(chart: ChartBundle, cards: "list[RuleCard]") -> list[MahadasaPeriod]:
+    """The full nine-period Vimshottari sequence for this chart's birth moment.
+
+    The same two calls `activate._recompute_window` already made to re-derive
+    one graha's window for Stage 9 -- `Doctrine.from_cards(cards).
+    vimshottari_periods()` then `mahadasa_sequence(...)` -- pulled out here so
+    a second caller (a dasa-timeline view) reads the identical sequence rather
+    than a second copy of the same arithmetic. Returns `[]`, never raises,
+    where the loaded doctrine cannot answer `vimshottari_periods()` (chapter
+    19 not encoded) or the chart carries no Moon placement -- both callers
+    already treat "no periods" and "doctrine absent" as the same case.
+    """
+    moon = chart.bodies.get("Moon")
+    if moon is None:
+        return []
+    try:
+        periods_doc, _ = Doctrine.from_cards(cards).vimshottari_periods()
+    except DoctrineError:
+        return []
+    return mahadasa_sequence(
+        chart.resolved_birth["julian_day_ut"], moon.lon, moon.nakshatra_index,
+        periods_doc["order"], periods_doc["years"], periods_doc["starting_nakshatra"],
+    )
 
 
 def jd_to_iso(jd: float) -> str:

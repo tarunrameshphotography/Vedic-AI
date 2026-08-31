@@ -5,17 +5,30 @@ astrologer would, where every predictive sentence traces to a rule printed in a 
 applied to a quantity that was actually computed. Governing rule: *the system may compute,
 and it may quote — it may not invent.*
 
-**Current production-readiness: 60%** (see §A; recomputed, not incremented — Milestone 34 holds
-59.80% ≈ 60% exactly, identical to Milestones 31/32/33: 1 new card is far below "Rule extraction/
-encoding"'s own rounding, and zero engine capability was added. Card count moved — 594 → 595 —
-Milestone 34's one v.26 card, not a rewording).
+**Current production-readiness: 60%** (see §A; recomputed, not incremented — Milestone 35 moves
+59.80% → 60.00% ≈ 60% exactly: one row, "CLI/API/user-facing readiness" (1% weight), 40→60, for a
+working local API and developer UI now existing and verified end-to-end — the rounded headline does
+not visibly move. Zero doctrine/card change; card count holds at 595).
 
-**Current phase:** Phase 3 (knowledge) closed chapter 20's v.26 (Venus dasa wealth doctrine). No
-Phase 2 (engine completion) change this milestone — every predicate v.26 needed already existed.
-Stage 7's *representation* half is built; its *weighting* half is deliberately not, and is not
-scheduled.
+**Current phase:** infrastructure (Milestone 35 is not Phase 3 knowledge work — a separate frontend/
+API milestone, per its own master prompt and §31's instruction not to inflate astrology progress
+because a frontend exists). Phase 3's own state is exactly where Milestone 34 left it: chapter 20's
+v.26 (Venus dasa wealth doctrine) closed, no Phase 2 (engine completion) doctrine change. Stage 7's
+*representation* half is built; its *weighting* half is deliberately not, and is not scheduled.
 
-**Current milestone:** Milestone 34 — **Phaladeepika chapter 20 v.26 encoded
+**Current milestone:** Milestone 35 — **Developer frontend + local API adapter (`Api/`, `Frontend/`):
+a local FastAPI adapter over the unchanged `Engine.pipeline.run()`, and a React/TypeScript inspection
+UI covering all 13 views the master prompt specifies — birth input, chart summary, claims explorer
+with full source/provenance, Vimshottari dasa timeline, adjudication view, a deferred/unsupported
+view that keeps "not triggered"/"not computable"/"reference only"/"source unresolved" visibly
+separate, fact inspector, rule inspector, verification view, comparison mode, chart view, and local
+test-chart save/load. Zero doctrine change, zero new predicate, zero new rule card; one additive
+`Engine.dasa.chart_mahadasa_timeline` helper, extracted (not duplicated) from logic
+`activate.py`'s Stage-9 window re-derivation already had. Verified end-to-end in a real headless
+browser against the project's own Thanjavur demo chart, and by an automated live CLI-vs-API
+regression test — not merely built.** See Milestone 35 in §C for the full write-up.
+
+**Previous milestone:** Milestone 34 — **Phaladeepika chapter 20 v.26 encoded
 (`PD.20.WealthDasa.Venus`): Venus in its own sign or exaltation sign, in the 10th, 11th or 12th
 house, uneclipsed (not combust) and free from the influence of a malefic (not conjunct or aspected
 by one), producing wealth, glory, splendour and comfort during Venus's own mahadasa. Zero new
@@ -27,7 +40,7 @@ original three-verse combined deferral (`passage:phaladeepika.20.p025-026-033`) 
 three entries — v.26 resolved, v.25 and v.33 each carrying forward their own distinct,
 still-unbuilt sign-class dependency.** See Milestone 34 in §C for the full write-up.
 
-**Previous milestone:** Milestone 33 — **Phaladeepika chapter 20 v.24 items (1)-(3) and (5) encoded
+**Milestone before that:** Milestone 33 — **Phaladeepika chapter 20 v.24 items (1)-(3) and (5) encoded
 (`PD.20.MiseryDasa.SaturnFourth`/`.JupiterSixth`/`.MarsRahuFifth`/`.DusthanaLords`): Saturn's/
 Jupiter's/Mars-or-Rahu's mahadasa bringing misery when it occupies a specific ordinal position
 (4th/6th/5th respectively) in the birth-fixed mahadasa sequence counted from the dasa the native
@@ -64,7 +77,10 @@ write-up.
 chapter 3 slice 1; two cards released, one re-diagnosed.** See Milestone 29 in §C for the full
 write-up.
 
-**Exact resume point:** `git fetch --all --prune`, confirm `main` == `origin/main`, then pick up
+**Exact resume point:** Milestone 35 was infrastructure (`Api/`, `Frontend/`) and changed nothing
+about the Phase-3 knowledge state below — do not resume into the frontend again unless the user asks
+for further frontend work; the next *astrology* session picks up exactly where Milestone 34 left it.
+`git fetch --all --prune`, confirm `main` == `origin/main`, then pick up
 §D. There is still **no open P0**. `passage:phaladeepika.20.p026` is now `resolved`; the original
 combined `passage:phaladeepika.20.p025-026-033` entry no longer exists as such — it is now three
 entries, `p025` (v.25, `deferred`), `p026` (v.26, `resolved`), `p033` (v.33, `deferred`). The
@@ -90,39 +106,37 @@ nature-criterion` (Milestone 20), `concept:strength-criterion-scope` (Milestone 
 retrograde-combust-collision` (Milestone 22), `concept:parallel-of-overloaded` (Milestone 23),
 `concept:p009-lagna-or-moon-clause` (Milestone 24), `concept:adhiyoga-distribution-strictness`
 (Milestone 26), `dep.triped-sign-class` (Decision 0d, Milestone 28), `Decision 0e` (Milestone 29,
-which division "the Varga of Mars or Saturn" means) — none touched by Milestone 34.
+which division "the Varga of Mars or Saturn" means) — none touched by Milestone 34 or 35.
 
-**Current Git SHA:** `3eb2d73b607b433166d326c144d695cb590871f1` (parent — Milestone 33's own
+**Current Git SHA:** `c642339595751fea00f5684a26775ea95e39a014` (parent — Milestone 34's own
 commit; this milestone's own commit follows this file's checkpoint)
 **Last verified remote SHA (origin/main):** same before this milestone's commit — 0 ahead /
-0 behind, working tree clean (two untracked, uncommitted files pre-dating this session were left
-untouched — a stray terminal-transcript dump and an unrelated model-selection report — neither is
-part of this milestone's diff)
-**Last update date:** 2026-08-31
+0 behind, working tree clean (two untracked, uncommitted files pre-dating this session — a stray
+terminal-transcript dump and an unrelated model-selection report — were again left untouched, as
+Milestone 34 also recorded; neither is part of this milestone's diff)
+**Last update date:** 2026-09-01
 
-**Current test count:** 555 passing (`Engine/tests`) — was 536. 19 new, all in
-`Engine/tests/test_chapter_twenty.py`, for `PD.20.WealthDasa.Venus`: source fidelity (verse "26",
-page anchor `phaladeepika/p0186`, quote bounds and no Notes/relationships); each of the five
-conjuncts isolated with a synthetic FactSet (exalted, own, each of houses 10/11/12, debilitated
-does not, own-sign-in-a-trikona (house 9) does not, combust does not, malefic-conjunct does not,
-malefic-aspect does not, a benefic conjunction does *not* block it, and a missing `mahadasa_lord`
-fact does not); a condition-shape regression pin (dignity `any` = exactly {exalted, own}, house
-`any` = exactly {10, 11, 12}, no `house_class` anywhere in it); a real DEMO-chart false-positive
-control (Venus moved to its own sign in house 10, but the chart's own unmoved Mars aspects it, so
-the card correctly withholds); a genuine ephemeris search (Chennai, 1990) confirming three real
-positive instants, one per named house, each with a correctly bound 20-year Venus mahadasa window
-and `verification.ok` `True`; and a genuine negative-control instant (Venus exalted in house 12,
-Saturn aspecting it) where no claim fires. `test_slice.py`'s own claim-count fixtures are
-unchanged (`PD.20.WealthDasa.Venus` does not fire on the DEMO chart).
-**Current rule-card counts:** **595 total** · 581 executable (firing) · **14 inert** — Milestone 34
-added 1 chapter-20 card (0 reference, 1 firing); no card was removed, and none of the 14 existing
-inert cards changed status.
-**Current verification:** **593/595 cards signed off (99.66%)** — the one new chapter-20 card
-signed at authoring time (no interpretive step rose to a standing human decision — see Milestone
-34's own write-up), leaving the same two standing holdouts (`PD.01.Kalapurusha.Strength`,
-`PD.04.Lagna.TripedSign` — untouched, genuine source-level defects, not oversights).
+**Current test count (`Engine/tests`):** 559 passing — was 555. The 4 new tests (Milestone 35, in
+`Engine/tests/test_dasa.py`) are for `chart_mahadasa_timeline`, the one additive plumbing function
+this milestone built: agreement with the golden chart's own `PD.19.Dasa.*` claim windows, direct
+cross-check against `mahadasa_sequence`, and `[]` on a missing Moon or absent doctrine. Milestone
+34's own 19 tests (chapter-20 `PD.20.WealthDasa.Venus`) are unchanged and described in full under
+Milestone 34 above. **New this milestone, outside `Engine/tests`:** `Api/tests/` — 24 passing (5
+files: health, `/consult` response shape, the live CLI-vs-API regression comparison, `/cases`
+against an isolated `tmp_path` root, the full error taxonomy). `Frontend/` (Vitest) — 21 passing
+(5 files: birth form, loading/error states, claims explorer, dasa timeline, `ComparisonMode`'s diff
+logic as a pure function). Neither suite is counted in this row's own historical figure, which this
+table's convention has always scoped to `Engine/tests` — see Milestone 35's own §A accounting.
+**Current rule-card counts:** **595 total** · 581 executable (firing) · **14 inert** — unchanged by
+Milestone 35 (zero cards touched). Milestone 34 added 1 chapter-20 card (0 reference, 1 firing); no
+card was removed, and none of the 14 existing inert cards changed status.
+**Current verification:** **593/595 cards signed off (99.66%)** — unchanged by Milestone 35
+(`Rules/tools/verify.py`/`review.py` output identical to Milestone 34's own), leaving the same two
+standing holdouts (`PD.01.Kalapurusha.Strength`, `PD.04.Lagna.TripedSign` — untouched, genuine
+source-level defects, not oversights).
 
-**Backlog (Milestone 34):** 176 entries (+2 — the combined `passage:phaladeepika.20.p025-026-033`
+**Backlog (Milestone 34, unchanged by Milestone 35 — confirmed by re-running `backlog.py`, identical
+output):** 176 entries (+2 — the combined `passage:phaladeepika.20.p025-026-033`
 entry split into three: `p025` (deferred), `p026` (resolved), `p033` (deferred), a net +2 over the
 one entry it replaced). "Available now" holds at 97 (the split entry was never counted there —
 each half still names an unimplemented dependency — so nothing about availability changed).
@@ -221,10 +235,25 @@ built one small new predicate/extractor, `dasa_disposition`** (ch. 20 v.14's own
 | End-to-end validation | 5% | 36% | CLI produces full 3-part consultations and has been spot-checked against real charts per milestone; no systematic charted validation set (Phase 6 of `Phases.txt`) exists yet. **Milestone 24:** 2,176 real nativities (four cities, 1950-2010) run end to end with **zero pipeline or verification failures** — held at 36%, not moved: the sweep confirms the milestone's own findings (a 29.2% Mahapurusha firing rate, zero natural occurrences of either Duryoga card, an unchanged 13.6% collision rate) without adding a new *kind* of end-to-end evidence beyond what Milestones 22-23 already established this row on. **33→36 in Milestone 23:** 720 nativities across four cities and sixty years were run end to end with **zero pipeline or verification failures**, and the frequency of each relationship type was measured rather than asserted — which is how the 83% figure above is known. Still not Phase 6: nothing here checks whether a prediction is *correct*. **30→33 in Milestone 22:** the first time the project *searched* a chart space rather than spot-checking one nativity — 880 real birth instants were scanned to find a chart for each newly-activated card and to confirm each one actually fires. That is not Phase 6, but it is the first evidence that an activated card is not merely well-formed. |
 | Multi-book corroboration | 3% | 30% | **No longer zero (Milestone 20).** Brihat Jataka now has 2 rule cards, and cross-book agreement is not only assessable but implemented and surfaced: 4 grahas' natures are corroborated by both books, and the consultation reports which claims rest on one authority and which on two. Scored 25%, not higher, because corroboration exists for exactly one relation (`graha_nature`) out of the whole store, and the second book has 2 cards against the first book's 499. **25→30 in Milestone 23:** three further books — Jataka Parijata, Saravali and Uttarakalamrita — now reach the reader in their own words, on 92% of charts, wherever the translator reports them on a doctrine the chart activates. Only +5, and deliberately: those statements are reported as *a second authority on the same doctrine* and **not** as corroboration, because one of them states a materially different condition for the same yoga and the store's `parallel_of` link does not record which kind it is. |
 | Production safety/reliability | 1% | 50% | Groundedness verification (Stage 9) refuses to emit ungrounded output; no rate limiting, error-recovery, or production deployment hardening attempted (not yet in scope). |
-| CLI/API/user-facing readiness | 1% | 40% | Working CLI (`Engine/cli.py`) produces real consultations; no API, no UI, no packaging. |
+| CLI/API/user-facing readiness | 1% | 60% | Working CLI (`Engine/cli.py`) produces real consultations. **Milestone 35 adds a working local API (`Api/`, FastAPI) and a working local developer UI (`Frontend/`, React) covering all 13 required inspection views, verified end-to-end in a real browser** — the row's own stated gap ("no API, no UI") is half-closed. Not higher: no packaging/installer, no authentication or multi-user surface, no production deployment, no external/systematic user testing. |
 
 **Overall Production Readiness: 0.15×25 + 0.10×77 + 0.20×44 + 0.15×67 + 0.10×82 + 0.10×98 +
-0.10×79 + 0.05×36 + 0.03×30 + 0.01×50 + 0.01×40 = 59.80% ≈ 60%**
+0.10×79 + 0.05×36 + 0.03×30 + 0.01×50 + 0.01×60 = 60.00% ≈ 60%**
+
+**Milestone 35: 59.80% → 60.00% ≈ 60%.** Exactly one row moved: "CLI/API/user-facing readiness"
+40→60 (+0.20 pts on the 1%-weighted row), and 59.80 + 0.20 = 60.00 agrees with the recomputed
+expression above — the headline rounded figure does not visibly move, because this row's weight is
+the smallest in the table. Every other row held for a stated reason, all given in full in Milestone
+35's own write-up (§C): no card was added, removed, or reworded (Corpus completeness, Rule
+extraction, Multi-book corroboration, Provenance/auditability all untouched); the one engine change
+(`Engine.dasa.chart_mahadasa_timeline`) is a pure refactor of arithmetic `activate.py` already ran,
+not new reasoning capability (Reasoning engine capability untouched); no relationship type or card
+changed (Contradiction handling untouched); "Test coverage" is scoped to `Engine/tests` by this
+table's own established convention, and that suite's own +4 tests (all *for* the one refactored
+helper) is smaller than every delta that has moved this row before; "End-to-end validation" is
+scoped to chart-space evidence about the doctrine, not the presence of a UI — the new `Api`/
+`Frontend` test suites (24 + 21 passing) and the real-browser verification are credited above under
+"CLI/API/user-facing readiness" instead, not double-counted here.
 
 **Milestone 33: identical expression and result to Milestone 32's — 59.80% ≈ 60%.** No category
 score moved. "Rule extraction/encoding" — 4 cards (v.24 items (1)-(3)/(5)) against the ~1,535-card
@@ -3342,6 +3371,141 @@ classification and keep going. No architectural decision was needed, and the "ne
 backlog list named 0 releasable cards, so per §24 of the master prompt this is a natural stopping
 point. Do not proceed to v.25, v.33, v.24 item (4), Antardasa, or another chapter-20 passage from
 this session — `MILESTONES.md`'s own resume point (§D) governs the next session's starting point.
+
+---
+
+### Milestone 35 — Developer frontend + local API adapter (`Api/`, `Frontend/`); zero doctrine change, one small additive engine plumbing helper
+
+**Phase:** infrastructure (not Phase 3 knowledge work — see §31's own instruction not to treat a
+frontend milestone as astrology progress). Driven by a separate master prompt
+(`Vedic_AI_Frontend_Consultation_Interface_Master_Prompt.md`), not by the leverage-ranked backlog.
+**Scope:** new `Api/` package (FastAPI adapter, 5 files + 5 test files, 24 tests), new `Frontend/`
+package (Vite + React + TypeScript, 12 components + 5 test files, 21 tests), new `docs/FRONTEND.md`,
+new root `requirements.txt` (none existed before), `.gitignore` extended for `Frontend/node_modules/`
+/`Frontend/dist/`/`.env`. One additive `Engine/dasa.py` function
+(`chart_mahadasa_timeline`), `Engine/activate.py`'s `_recompute_window` refactored to call it instead
+of duplicating its own two lines of doctrine lookup. No `Rules/*.json` change, no new predicate, no
+new card, no doctrine read or written.
+**Status:** COMPLETE
+**Commit:** this milestone's own commit (see `git log`)
+**Remote:** pending this commit's push
+
+**What was built.** A local developer inspection UI over the existing 11-stage engine —
+`Birth Input (React) -> POST /consult (FastAPI) -> Engine.pipeline.run() [unchanged] -> Api/
+serialize.py -> 13 React views over one JSON payload`. `Api/app.py` exposes `GET /health`,
+`POST /consult`, `GET /cards/{card_id}`, `GET /deferred`, and `GET`/`POST /cases` (local, uncommitted
+test-chart manifests under `Cases/<slug>/chart.json`, reusing the existing gitignored `Cases/`
+convention rather than inventing a parallel one). `Api/serialize.py` extends `Engine/cli.py`'s own
+existing `--json` dataclass-to-dict adapter (which covered `chart`/`facts`/`claims`/`coverage`/
+`verification`) to also cover `adjudications`, `sentences`/`synthesis`, `audit`, and a new
+`dasa_timeline` array — the full nine-period Vimshottari sequence with each period's own claims
+attached by exact `Claim.window` match, pure JSON grouping over data the engine already produced.
+`Frontend/` renders all 13 required views (birth input, chart summary, claims explorer with full
+provenance, dasa timeline, adjudication view, a deferred/unsupported view that keeps "not
+triggered"/"not computable"/"reference only"/"source unresolved" visibly separate rather than
+merging them into one invented status, fact inspector, rule inspector, verification view,
+comparison mode, chart view, and local test-chart save/load) as a plain view of that one JSON
+payload — no astrology computation exists anywhere in `Frontend/` or `Api/`.
+
+**The one engine change, and why it is not a doctrine change.** §10's dasa-timeline view needs the
+full nine-period Vimshottari sequence; `Engine/activate.py::_recompute_window` already computed
+exactly that sequence internally (for Stage 9's own window re-derivation) and then discarded every
+period but one. `Engine.dasa.chart_mahadasa_timeline(chart, cards)` is those same two calls
+(`Doctrine.from_cards(cards).vimshottari_periods()` then `mahadasa_sequence(...)`) pulled out as
+their own function, returning `[]` rather than raising where the doctrine is absent or the Moon is
+missing — the same two "no periods" cases `_recompute_window` already treated identically.
+`_recompute_window` was rewritten to call it and filter to one graha, removing the duplicate copy of
+the same arithmetic rather than adding a second one. Zero new predicate, zero new card, zero
+behavior change for any existing caller, verified by the full existing `Engine/tests` suite passing
+unchanged (559/559, was 555/555 — the +4 are new tests *for* this function, in `Engine/tests/
+test_dasa.py`, not evidence anything changed for an existing consumer) plus a direct cross-check
+against `mahadasa_sequence` and against the golden chart's own `PD.19.Dasa.*` claim windows.
+
+**Architecture decisions, each made from the repository's own state rather than assumed.** Two
+parallel reconnaissance passes plus direct reads of `Engine/pipeline.py`, `activate.py`,
+`adjudicate.py`, `dasa.py`, `chart.py`, `facts.py`, `rules.py` established: the repo had zero web
+framework, zero `requirements.txt`, zero existing frontend (no `package.json`, no JS/HTML/CSS
+anywhere), and zero existing server code — a blank slate with nothing to reuse and nothing to
+conflict with. `Engine.pipeline.run(BirthRecord, ...) -> Result` was already a single, directly
+importable entrypoint; no code change to the engine's own call contract was needed to reach it.
+FastAPI + uvicorn were chosen for the thin adapter (typed request validation distinguishing
+`BirthDataError`/`EphemerisError`/`PipelineError`'s two distinct failure messages from each other,
+with no new server plumbing beyond `.venv`); Vite + React + TypeScript for the frontend (Node/npm
+already installed and otherwise idle; the 13 required views are stateful enough — expand/collapse
+trees, a two-chart comparison mode — to make plain server-rendered HTML unwieldy to keep correct,
+not stateful enough to justify a router or a state library). No `/chart` endpoint was built: the
+engine has no cheaper partial-pipeline entrypoint, so a chart view is a client-side projection of
+`/consult`'s one response, the correct reading of the master prompt's own "only create endpoints
+actually needed."
+
+**A stale fixture found, not silently trusted.** `Cases/demo/trace.json` (the project's own standing
+demo-chart snapshot) shows 9 claims for the Thanjavur 1987-03-14 birth record; both the live CLI and
+the live API produce 105 claims for the identical input today. The file predates most of the current
+595-card store and was never regenerated as chapters were added — confirmed by running the live CLI
+against the same input during this milestone, not assumed. `Api/tests/test_regression_vs_cli.py`
+therefore compares live CLI output to live API output *in the same test run* rather than pinning
+against that stale file, which would have asserted agreement with something already known wrong.
+
+**Testing.** `Api/tests/` (24 tests, 5 files): health; `/consult` response shape against every field
+the master prompt's screens need; the live CLI-vs-API regression comparison (claim ID sets, rule
+cards, chart `bundle_id`, verification status, coverage counts — all equal); `/cases` round-tripping
+against a `tmp_path`-monkeypatched root (real `Cases/` never touched by the suite); the full error
+taxonomy (`BirthDataError`->400, `EphemerisError`->502, rule-store/groundedness/generic
+`PipelineError`->500 with distinct `error_type`s, pydantic validation->422). `Frontend/` (21 tests,
+5 files, Vitest + React Testing Library): birth-form validation/submit states, loading/error states
+with `fetch` mocked, claims-explorer expand/collapse, dasa-timeline nine-period rendering, and
+`ComparisonMode`'s diff logic tested as a plain exported function independent of React (claims are
+diffed by `(rule_card, bound variables)`, not by `claim_id` — confirmed by reading
+`Engine/activate.py::_claim` that `clm-0001` is a per-run sequential index, not a stable identity
+across two different charts, so a raw-id diff between two charts would have been meaningless noise).
+
+**Real end-to-end verification, in a real browser.** Both servers were started locally
+(`.venv/Scripts/python.exe -m uvicorn Api.app:app`, `npm run dev` in `Frontend/`) and driven with a
+headless Chromium (Playwright) through the full flow against the real Thanjavur demo birth record:
+filled the birth form, submitted, and confirmed the Chart Summary (105 claims, 0 warnings, "OK —
+grounded"), Claims Explorer (105 expandable claims with full quote/provenance), Dasa Timeline (9
+periods, "Antardasa not implemented — deferred" labelled explicitly), Adjudications (13, grouped by
+resolution), Deferred view (per-chart inert/reference/not-covered sections kept visually separate
+from the repository-wide `/deferred` registry), Verification ("GROUNDED — every check passed" in an
+unmistakable success state), and Chart view (houses 1-12, graha placements) all rendered real data
+correctly, with zero browser console errors. Screenshots taken at each step, inspected directly —
+this is genuine visual verification, not a build/type-check standing in for one.
+
+**Verification results.** `Rules/tools/verify.py`/`dupes.py`/`backlog.py`/`leverage.py`: all clean,
+identical output to Milestone 34's own (595 cards, 176 backlog entries, 97 available now — nothing
+here touches doctrine). `.venv/Scripts/python.exe -m pytest Engine/tests Api/tests -q`: **583/583
+passing** (559 engine + 24 api). `npm test` in `Frontend/`: **21/21 passing**.
+`npm run build`: zero TypeScript errors.
+
+**Production blockers cleared:** none of §A's named blockers (there is no open P0) — this milestone
+touched none of them by design. **Production-readiness impact:** "CLI/API/user-facing readiness"
+moves 40%→60% (+0.01 × 20 = +0.20 pts on the 59.80 baseline, 59.80 + 0.20 = 60.00 ≈ 60% — the
+headline figure does not visibly move, because this row's weight is 1%): the row's own stated gap,
+"no API, no UI, no packaging," is now half-closed — a working local API and a working local
+developer UI covering every view the master prompt specified now exist, verified end-to-end in a
+real browser. Not higher, because the row's remaining gap is real and untouched: no packaging or
+installer, no authentication or multi-user surface, no production deployment or hosting, and no
+external/systematic user testing beyond this session's own verification. Every other row is
+untouched by this milestone for the same reason Milestone 28's read-only investigation held every
+row: no card was added, removed, or reworded (Corpus completeness, Rule extraction, Multi-book
+corroboration all untouched); no new predicate or stage was built for the engine's own doctrine
+reasoning (Reasoning engine capability untouched — `chart_mahadasa_timeline` is a pure refactor of
+existing arithmetic, not new capability); no relationship type or card changed (Contradiction
+handling untouched); no card's quote or hash changed (Provenance/auditability untouched at
+593/595); the "Test coverage" row is scoped to `Engine/tests` by this table's own established
+convention and that suite's own pass count (559, was 555) moved only by the +4 tests *for* the one
+additive dasa-timeline helper, smaller than the deltas that have moved that row before; "End-to-end
+validation" is scoped to chart-space evidence about the doctrine, not the presence of a UI (the new
+`Api`/`Frontend` test suites are a different kind of evidence, credited above under "CLI/API/
+user-facing readiness" rather than double-counted here).
+
+**Why this milestone matters, and why it stops here.** It gives the project a real, working
+transparent inspection surface — every one of the master prompt's 36 sections' requirements are met
+end-to-end and verified, not merely built — without touching a single rule card, predicate, or
+doctrine reading, and without inflating the astrology-progress percentage the way §31 explicitly
+warns against. Per the master prompt's own §35/§36, this stops here: do not proceed into another
+astrology milestone from this session. `MILESTONES.md`'s Phase-3 resume point (§D, below) is
+untouched by this milestone and remains exactly where Milestone 34 left it.
 
 ---
 

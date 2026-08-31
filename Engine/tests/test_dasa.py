@@ -19,6 +19,7 @@ import pytest
 from Engine.chart import BirthRecord, NAKSHATRAS
 from Engine.dasa import (
     balance_at_birth_years,
+    chart_mahadasa_timeline,
     jd_to_iso,
     mahadasa_sequence,
     nakshatra_lord,
@@ -348,6 +349,43 @@ def test_golden_dasa_section_renders_chronologically_and_not_under_ascendant(gol
     ascendant_section = text[text.index("### The Ascendant"):text.index("### Vimshottari Mahadasa Timeline")] \
         if "### The Ascendant" in text[:text.index("### Vimshottari Mahadasa Timeline")] else ""
     assert "mahadasa" not in ascendant_section
+
+
+# --- chart_mahadasa_timeline: the full sequence, shared by Stage 9 and the ---
+# --- frontend's own dasa-timeline view (Milestone 35) -------------------------
+
+def test_chart_mahadasa_timeline_returns_nine_periods_matching_golden_claims(golden):
+    """Not a second source of truth: the same windows Stage 9 already
+    re-derived for each PD.19.Dasa.<Graha> claim, read off this one function."""
+    periods = chart_mahadasa_timeline(golden.chart, CARDS)
+    assert len(periods) == 9
+    dasa_windows = {c.derived["rule_card"].rsplit(".", 1)[-1]: c.window
+                     for c in golden.claims if c.derived["rule_card"].startswith("PD.19.Dasa.")}
+    for p in periods:
+        window = dasa_windows.get(p.graha)
+        assert window is not None
+        assert window["start"] == jd_to_iso(p.start_jd)
+        assert window["end"] == jd_to_iso(p.end_jd)
+
+
+def test_chart_mahadasa_timeline_agrees_with_mahadasa_sequence_directly(golden):
+    moon = golden.chart.bodies["Moon"]
+    periods_doc, _ = DOCTRINE.vimshottari_periods()
+    expected = mahadasa_sequence(
+        golden.chart.resolved_birth["julian_day_ut"], moon.lon, moon.nakshatra_index,
+        periods_doc["order"], periods_doc["years"], periods_doc["starting_nakshatra"])
+    actual = chart_mahadasa_timeline(golden.chart, CARDS)
+    assert [(p.graha, p.start_jd, p.end_jd) for p in actual] == \
+           [(p.graha, p.start_jd, p.end_jd) for p in expected]
+
+
+def test_chart_mahadasa_timeline_empty_when_moon_missing():
+    chart = types.SimpleNamespace(bodies={}, resolved_birth={"julian_day_ut": 2451545.0})
+    assert chart_mahadasa_timeline(chart, CARDS) == []
+
+
+def test_chart_mahadasa_timeline_empty_when_doctrine_absent():
+    assert chart_mahadasa_timeline(_chart(103.2, 7), []) == []
 
 
 # --- real-instant sweep, per master-prompt step 17 ----------------------------

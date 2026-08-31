@@ -1,0 +1,16 @@
+# VEDIC-AI Python dependencies (.venv). Direct dependencies only; pip
+# resolves the rest. No manifest existed before Milestone 35 -- these are the
+# packages already ad hoc installed into .venv, written down for the first
+# time, plus the three added for the API layer (fastapi, uvicorn, httpx).
+#
+# Install:  .venv/Scripts/python.exe -m pip install -r requirements.txt
+
+pymupdf==1.28.2       # corpus PDF -> text conversion (Pipeline/)
+tzdata==2026.3        # IANA time zone data for zoneinfo on Windows
+colorama==0.4.6       # console color support (pytest/CLI)
+Pygments==2.21.0      # syntax highlighting (pytest tracebacks)
+pytest==9.1.1         # Engine/tests, Api/tests
+
+fastapi==0.141.1      # Api/ -- thin JSON adapter over Engine.pipeline.run
+uvicorn==0.52.4        # ASGI server for Api/
+httpx==0.28.1          # required by fastapi.testclient.TestClient (Api/tests)
