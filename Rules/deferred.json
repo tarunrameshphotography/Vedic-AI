@@ -225,7 +225,9 @@
       "kind": "predicate",
       "detail": "Ch. 20 v.24: 'the dasa of Saturn if it is the fourth in the order of main dasas', counted from whichever dasa the native was born in. Needs zero antardasa arithmetic -- purely a lookup into the ordering `Engine/dasa.py::mahadasa_sequence()` already computes for dep.dasa.",
       "phase": "2 (engine completion)",
-      "depends_on": ["dep.dasa"],
+      "depends_on": [
+        "dep.dasa"
+      ],
       "effort": 2,
       "effort_basis": "read the already-computed sequence's ordinal index for a graha relative to the birth dasa lord",
       "predicate": "mahadasa_ordinal",
@@ -643,6 +645,36 @@
       "effort": 5,
       "effort_basis": "one module reading links already in the store, plus a structured conflict channel on the doctrine report and a consultation section",
       "implemented": true
+    },
+    "dep.graha-condition-count": {
+      "title": "count of a fixed graha set satisfying an arbitrary per-graha condition",
+      "kind": "predicate",
+      "detail": "\"Three or more planets... in a kendra, in exaltation or own sign\" (ch.7 v.1) and its many siblings in the same chapter (vv.2,3,4,5,8, 12) each need a chart-wide count of how many of a fixed graha set (the seven classical, or all nine) simultaneously satisfy a compound condition -- not one fixed test the way occupant_count(house,n) counts occupants of a house, and not distinct-value counting the way seven_graha_sign_count(n) counts signs. The nearest existing precedent (seven_graha_sign_count, Milestone 27) counts distinct signs across a fixed set with no per-graha condition attached; this would need the same fixed-set shape but a per-graha boolean test (dignity+house, aspect-count, strength+placement) supplied per card, closer in kind to a small new combinator than a single fact. Deliberately distinct from dep.universal-quantification, which is about testing every member of a chart-DEPENDENT classification (e.g. 'all benefics', where the benefic set itself varies by chart); this dependency's graha set is always fixed and known in advance, the same fixed-set precondition seven_graha_sign_count already relies on.",
+      "phase": "2 (engine completion)",
+      "depends_on": [],
+      "effort": 4,
+      "effort_basis": "a chart-wide count fact over a doctrine-named fixed graha set against a per-card compound test, generalising seven_graha_sign_count's shape",
+      "implemented": false
+    },
+    "dep.digbala": {
+      "title": "Digbala (directional strength)",
+      "kind": "predicate",
+      "detail": "A graha's directional strength, full when placed in one of four fixed Bhava-madhya positions named per graha (ch.7 v.4's own Notes: Sun/Mars full in the 10th, Moon/Venus in the 4th, Mercury/Jupiter in the 1st, Saturn in the 7th). Not encoded anywhere in this store; distinct from dep.strength (a verdict extractor reading ch.4 vv.4-5) and from ch.4's own biped/quadruped Bhava Dik Bala row, an unrelated concept despite the similar name.",
+      "phase": "2 (engine completion)",
+      "depends_on": [],
+      "effort": 3,
+      "effort_basis": "a fixed per-graha house-position table plus a full/partial-strength test against it",
+      "implemented": false
+    },
+    "dep.parivartana": {
+      "title": "Parivartana (mutual sign-exchange) between two house lords",
+      "kind": "predicate",
+      "detail": "\"Should the lord of the 9th be in the 10th and vice versa\" (ch.7 v.9) -- two house lords each occupying the sign the other rules. No predicate in the vocabulary tests this; lord_of_house(graha,house) identifies a house's lord but nothing compares two lords' mutual placement the way this doctrine needs.",
+      "phase": "2 (engine completion)",
+      "depends_on": [],
+      "effort": 3,
+      "effort_basis": "a two-graha mutual lord_of_house/in_house comparison, structurally close to the existing mutual-Kendra pattern PD.07.Neechabhanga.MutualKendra already uses with in_house_from",
+      "implemented": false
     }
   },
   "entries": [
@@ -668,10 +700,15 @@
       "locus": "v. 2 (p.28)",
       "what": "which six/seven of the ten vargas count as Shadvarga/Saptavarga, and a competing view that Navamsa's effect equals Rasi's and Bhava's",
       "reason": "Classificatory reference doctrine (which vargas belong to which named subset), not itself a testable condition, and not needed by dep.varga or dep.vargottama (D9 alone). Not reviewed for a card this slice; a future slice building Shadvarga-conditioned cards (e.g. v.11) would read it.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "3 (knowledge)",
       "status": "deferred",
-      "paragraphs": [3, 4]
+      "paragraphs": [
+        3,
+        4
+      ]
     },
     {
       "id": "passage:phaladeepika.03.p005",
@@ -681,10 +718,16 @@
       "locus": "v. 3 (p.28-29)",
       "what": "each varga's fractional effect-weight (full/half/one-fourth) and the five Avastha age-states (infancy through old age) by degree-portion within a sign, reversed in even signs",
       "reason": "Two new concepts neither built nor justified yet: a numeric effect-weighting per varga, and an age-state classification by exact degree boundary. No card in the store needs either. Deferred rather than built speculatively, per the same discipline that kept D3/D2/D12/Trimsamsa out of this milestone's dep.varga.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "2 (engine completion) + 3 (knowledge)",
       "status": "deferred",
-      "paragraphs": [5, 6, 7]
+      "paragraphs": [
+        5,
+        6,
+        7
+      ]
     },
     {
       "id": "passage:phaladeepika.03.p008",
@@ -694,10 +737,17 @@
       "locus": "v. 4 (p.29), excluding the Navamsa-start sentence already encoded as PD.03.Navamsa.Start",
       "what": "Hora ownership (Sun/Moon halves by odd/even sign), Drekkana ownership (lords of the sign, 5th and 9th), Dwadasamsa counting (from the sign itself), and Trimsamsa's 5/5/8/7/5 degree allotment among Mars, Saturn, Jupiter, Mercury and Venus, reversed in even signs",
       "reason": "This is exactly the ownership doctrine dep.varga-ownership would need for Drekkana and Trimsamsa specifically -- but it states how ownership works in general, not which division ch. 10 v.4's 'Varga of Mars or Saturn' means, so encoding it would not by itself resolve PD.10.Venus.VargaMarsSaturn. Not needed by dep.varga (D9 only) or dep.vargottama. Left for a future slice alongside dep.varga-ownership.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "2 (engine completion) + 3 (knowledge)",
       "status": "deferred",
-      "paragraphs": [8, 9, 10, 11]
+      "paragraphs": [
+        8,
+        9,
+        10,
+        11
+      ]
     },
     {
       "id": "passage:phaladeepika.03.p013",
@@ -707,10 +757,14 @@
       "locus": "v. 5 (p.30)",
       "what": "which of the 60 Shastyamsa (D-60) portions are Krura (inauspicious) or Saumya (auspicious), by odd/even sign",
       "reason": "A reference table for a division (D60) nothing in the store needs; not reviewed for a card this slice.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "3 (knowledge)",
       "status": "deferred",
-      "paragraphs": [13]
+      "paragraphs": [
+        13
+      ]
     },
     {
       "id": "passage:phaladeepika.03.p014",
@@ -720,10 +774,17 @@
       "locus": "v. 6 (p.30-31)",
       "what": "Saptamsa/Dasamsa/Shodasamsa counting-direction rules (odd vs. even sign), and the opening statement that graha strength should weigh kendra/trikona/own-sign/Moolatrikona/exaltation/Vargottama plus a varga check, naming three competing methods (Dasavarga alone, 13 vargas, or Saptavarga)",
       "reason": "Needs D7/D10/D16 (none built, none yet justified) and names a choice between competing strength methods this store's dep.strength does not make -- an adjudication-adjacent question, not a missing calculation. Deferred rather than decided here.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "2 (engine completion) + 4 (integration)",
       "status": "deferred",
-      "paragraphs": [14, 15, 16, 17]
+      "paragraphs": [
+        14,
+        15,
+        16,
+        17
+      ]
     },
     {
       "id": "passage:phaladeepika.03.p018",
@@ -733,10 +794,23 @@
       "locus": "vv. 7-9 (p.31-32)",
       "what": "the 13-varga Vaiseshikamsa system: Parijat/Uttama/Gopura/Simhasana/Parvata/Devaloka/Suraloka/Airavata, named by how many of 13 vargas a graha holds dignity in, with a worked example and effects for seven of the eight named tiers (Airavata's own effect is not stated in this verse, as printed)",
       "reason": "A multi-varga dignity-count tier system with no engine analogue (dep.varga currently computes D9 only, and a 'count of vargas holding dignity' predicate does not exist). Substantial future capability, not attempted this milestone.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "2 (engine completion) + 3 (knowledge)",
       "status": "deferred",
-      "paragraphs": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27]
+      "paragraphs": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ]
     },
     {
       "id": "passage:phaladeepika.03.p028",
@@ -746,10 +820,17 @@
       "locus": "v. 10 (p.32-33)",
       "what": "a ten-step king-to-kingship/death ladder by how many of the 10 vargas a graha is strong or weak in, plus a recap of the five Avastha age-states' effects",
       "reason": "Needs all ten vargas plus a strong/weak count-threshold predicate, neither of which exists; the same gap as passage:phaladeepika.03.p005 for the Avastha half. Deferred.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "2 (engine completion) + 3 (knowledge)",
       "status": "deferred",
-      "paragraphs": [28, 38, 39, 40]
+      "paragraphs": [
+        28,
+        38,
+        39,
+        40
+      ]
     },
     {
       "id": "passage:phaladeepika.03.p041",
@@ -759,10 +840,15 @@
       "locus": "v. 11 (p.33)",
       "what": "benefics strong in the Shadvargas give wealth and long life; a malefic-Shastyamsa Ascendant gives a short life unless its lord is strong; a strong Navamsa-lord or Drekkana-lord of the Ascendant each give a named effect",
       "reason": "Needs dep.lagna-strength (a strength verdict for the Ascendant itself, not a graha -- registered, not implemented) plus the Shadvarga/Navamsa/Drekkana divisions generalised beyond this milestone's D9. Deferred; a natural passage for whoever builds dep.lagna-strength to return to.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "2 (engine completion)",
       "status": "deferred",
-      "paragraphs": [41, 42]
+      "paragraphs": [
+        41,
+        42
+      ]
     },
     {
       "id": "passage:phaladeepika.03.p043",
@@ -772,10 +858,15 @@
       "locus": "v. 12 (p.33-34)",
       "what": "malefics in odd signs occupying the Sun's Hora, and benefics in even signs occupying the Moon's Hora, each with a stated effect; a further effect when the Ascendant, Moon and both their lords are all strong",
       "reason": "Needs Hora (D2), not built (nothing currently justifies it), plus a new effect vocabulary. Deferred.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "2 (engine completion) + 3 (knowledge)",
       "status": "deferred",
-      "paragraphs": [43, 44]
+      "paragraphs": [
+        43,
+        44
+      ]
     },
     {
       "id": "passage:phaladeepika.03.p045",
@@ -785,10 +876,17 @@
       "locus": "vv. 13-14 (p.34)",
       "what": "named special Drekkanas (Ayudha/armed, Pasa/noose, Nigala, vulture-faced, bird, pig, serpent, quadruped) with character effects, and a good/moderate/bad ordering of a sign's three Drekkanas by whether the sign is dual, moveable or fixed",
       "reason": "Needs Drekkana (D3), not built (nothing currently justifies it), plus a character/physiognomy effect vocabulary this store does not have. Deferred.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "2 (engine completion) + 3 (knowledge)",
       "status": "deferred",
-      "paragraphs": [45, 46, 47, 48]
+      "paragraphs": [
+        45,
+        46,
+        47,
+        48
+      ]
     },
     {
       "id": "passage:phaladeepika.03.p049",
@@ -798,10 +896,14 @@
       "locus": "v. 15 (p.34-35)",
       "what": "a noble-qualities yoga when the Lagna's Drekkana lord, and separately its Trimsamsa/Dwadasamsa/Hora, are each well-disposed",
       "reason": "Needs dep.lagna-strength plus Drekkana/Trimsamsa/Dwadasamsa/Hora, none built. Deferred alongside passage:phaladeepika.03.p041.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "2 (engine completion)",
       "status": "deferred",
-      "paragraphs": [49]
+      "paragraphs": [
+        49
+      ]
     },
     {
       "id": "passage:phaladeepika.03.p050",
@@ -811,10 +913,15 @@
       "locus": "v. 16 (p.35)",
       "what": "an alternate Ascendant located from Mandi/Gulika's Rasi and its lord's Navamsa (or, if the Moon is strong, from the Moon instead)",
       "reason": "Needs dep.upagraha (Mandi/Gulika, registered, not implemented) and introduces a second, alternate Lagna concept the engine does not have. Deferred.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "2 (engine completion)",
       "status": "deferred",
-      "paragraphs": [50, 51]
+      "paragraphs": [
+        50,
+        51
+      ]
     },
     {
       "id": "passage:phaladeepika.03.p052",
@@ -824,10 +931,15 @@
       "locus": "v. 17 (p.35)",
       "what": "the Moon in her own or a friendly Drekkana, or an Uttama varga, each with a stated effect; a graha in its own Trimsamsa acting fully as Karaka; and a single exalted graha aspected by a friend giving wealth",
       "reason": "Needs Drekkana/Trimsamsa (not built) and the Vaiseshikamsa tier system (passage:phaladeepika.03.p018, not built). The closing exalted-graha-aspected-by-a-friend sentence independently corroborates Brihat Jataka ch. 21 v. 2 ('Even if there be in the birth chart a single exalted planet aspected by its friend the native gets much wealth') -- read this milestone (see dep.varga-ownership's note) but not encoded, since Brihat Jataka carries no rule cards yet. Worth returning to once Brihat Jataka extraction starts.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "2 (engine completion) + 3 (knowledge)",
       "status": "deferred",
-      "paragraphs": [52, 53]
+      "paragraphs": [
+        52,
+        53
+      ]
     },
     {
       "id": "passage:phaladeepika.03.p054",
@@ -837,10 +949,19 @@
       "locus": "vv. 18-20 (p.35-36)",
       "what": "the eleven-state Avastha-naming system (Pradeepta/Sukhita/Swastha/Mudita/Shanta/Shakta/Vikala/Nipidita/Khala/Sudukhita/Atibheeta), each defined by a dignity or varga condition and mapped to a percentage of good or bad effect, and how these carry into Dasa/Antardasa results",
       "reason": "A percentage-weighted effect system with no analogue anywhere in the engine -- claims here are boolean (a card fires or it does not), and blending an 11-way graded percentage into that is a design question for a human, not a missing calculation (category C, master-prompt step 15). Deferred as a whole rather than partially built.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "4 (integration)",
       "status": "deferred",
-      "paragraphs": [54, 55, 56, 57, 58, 59]
+      "paragraphs": [
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ]
     },
     {
       "id": "chapter:phaladeepika.04",
@@ -864,20 +985,6 @@
       "locus": "whole chapter - Source of livelihood",
       "what": "rules for profession and means of living",
       "reason": "Rule-dense and encodable now; deferred by ordering only.",
-      "requires": [
-        "dep.none"
-      ],
-      "phase": "3 (knowledge)",
-      "status": "deferred"
-    },
-    {
-      "id": "chapter:phaladeepika.07",
-      "kind": "chapter",
-      "book": "phaladeepika",
-      "chapter": 7,
-      "locus": "whole chapter - RAJA YOGAS",
-      "what": "the raja yoga combinations",
-      "reason": "Rule-dense and encodable now; deferred by ordering only. Same lordship dependency as ch. 6 at execution time.",
       "requires": [
         "dep.none"
       ],
@@ -1018,10 +1125,14 @@
       "locus": "v. 1 (printed p.174)",
       "what": "the invocation naming sage Parasara as the source of the dasa doctrine that follows",
       "reason": "Devotional/attributional invocation, the same tier-3 treatment ch. 1 vv.1-2's invocation of the Sun and Saraswati already receives. It states no rule and conditions nothing.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "3 (knowledge)",
       "status": "deferred",
-      "paragraphs": [1]
+      "paragraphs": [
+        1
+      ]
     },
     {
       "id": "passage:phaladeepika.19.p003",
@@ -1031,10 +1142,14 @@
       "locus": "v. 2 Notes table (printed p.174)",
       "what": "a tabular restatement of v.2's own nakshatra/lord/period doctrine, three columns of nine rows",
       "reason": "Table furniture restating exactly the doctrine PD.19.VimshottariPeriods already quotes from the verse itself, the same treatment PD.03.Dasavarga's own column-heading table furniture already receives (passage:phaladeepika.01.p032 for the precedent).",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "3 (knowledge)",
       "status": "deferred",
-      "paragraphs": [3]
+      "paragraphs": [
+        3
+      ]
     },
     {
       "id": "passage:phaladeepika.19.balance-apparatus",
@@ -1044,10 +1159,24 @@
       "locus": "v. 3 Notes, worked-example and ghatika apparatus (printed p.175)",
       "what": "the ghatika-based worked example (20 ghatikas remaining in Punarvasu, Jupiter's balance), and the ghatika-based restatement and critique of the same two balance methods PD.19.BalanceMethod / PD.19.BalanceMethod.Mantreswara already quote by their own governing sentences (the 'generally recognised method' and 'Shri Mantreshwar's' method, and the translator's rejection of the latter)",
       "reason": "The two competing methods are already on record, each in its own governing sentence (PD.19.BalanceMethod.Mantreswara quotes the root verse; PD.19.BalanceMethod quotes the Notes' degree-based restatement and worked example, the one the engine computes with). This is the connective apparatus around them -- a first, ghatika-unit worked example, and a named recap of the two methods in ghatika terms -- real doctrine but not independently testable beyond what is already captured, the same 'apparatus around already-captured doctrine' treatment chapter 6's Kemadruma variants and Adhiyoga cluster give their own worked examples and translator asides.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "3 (knowledge)",
       "status": "deferred",
-      "paragraphs": [5, 6, 8, 10, 11, 12, 16, 17, 19, 20, 23]
+      "paragraphs": [
+        5,
+        6,
+        8,
+        10,
+        11,
+        12,
+        16,
+        17,
+        19,
+        20,
+        23
+      ]
     },
     {
       "id": "passage:phaladeepika.19.p025-045",
@@ -1057,10 +1186,34 @@
       "locus": "vv. 5-17 and their Notes (printed pp.176-179)",
       "what": "a first pass of general per-graha dasa effects (vv.5-17), and the Notes at v.17 explicitly disclaiming them from the Vimshottari system",
       "reason": "NOT encoded as firing cards, on the source's own instruction: the Notes following v.17 say outright 'the effects given in verses 5-17 are such as could be ascribed to the other dasa systems also... Therefore the effects given in verses 5-17 should not apply to Vimsottari dasa system.' Since dep.dasa builds specifically the Vimshottari engine, encoding vv.5-17 against mahadasa_lord would attach doctrine the source itself says is for a different system to a Vimshottari-computed window. vv.18-26 (the block the same Notes identify as Vimshottari-specific) are encoded instead, as PD.19.Dasa.<Graha>. Recorded as a deliberate exclusion, not a gap: encoding the *other* dasa systems these verses belong to is out of scope, the same standing exclusion ch. 22's Kalachakra dasa already carries.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "3 (knowledge)",
       "status": "deferred",
-      "paragraphs": [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45]
+      "paragraphs": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ]
     },
     {
       "id": "passage:phaladeepika.19.p047",
@@ -1070,10 +1223,14 @@
       "locus": "v. 18 Notes (printed p.179)",
       "what": "the translator's qualification that the Sun's dasa effects (v.18, encoded as PD.19.Dasa.Sun) hold only when the Sun is not auspiciously disposed, with a worked lagna example",
       "reason": "Tier-2 commentary narrowing a tier-1 card already in the store, the same shape as passage:phaladeepika.08.p012's qualification of PD.08.Sun.10 -- an exclusion the card schema records but the engine does not yet weigh (dep.adjudication).",
-      "requires": ["dep.adjudication"],
+      "requires": [
+        "dep.adjudication"
+      ],
       "phase": "4 (integration)",
       "status": "deferred",
-      "paragraphs": [47]
+      "paragraphs": [
+        47
+      ]
     },
     {
       "id": "passage:phaladeepika.19.p049",
@@ -1083,10 +1240,14 @@
       "locus": "v. 19 Notes (printed p.179)",
       "what": "the translator's qualification that the Moon's dasa effects (v.19, encoded as PD.19.Dasa.Moon) hold in full only when the Moon is strong",
       "reason": "Tier-2 commentary narrowing a tier-1 card already in the store, the same shape as passage:phaladeepika.19.p047.",
-      "requires": ["dep.adjudication"],
+      "requires": [
+        "dep.adjudication"
+      ],
       "phase": "4 (integration)",
       "status": "deferred",
-      "paragraphs": [49]
+      "paragraphs": [
+        49
+      ]
     },
     {
       "id": "passage:phaladeepika.19.p053-056",
@@ -1096,10 +1257,17 @@
       "locus": "v. 21 Notes (printed pp.179-180)",
       "what": "the translator reporting Laghu Parasari's yogakaraka doctrine for Rahu and Ketu, distinct from v.21's own dasa effects (encoded as PD.19.Dasa.Rahu)",
       "reason": "Substantial tier-2 doctrine attributed to a second, unconverted authority (Laghu Parasari) rather than this book's own -- a yogakaraka classification, not a further dasa-effect statement -- and not reviewed for extraction this milestone, which was scoped to ch. 19's own Vimshottari doctrine.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "3 (knowledge)",
       "status": "deferred",
-      "paragraphs": [53, 54, 55, 56]
+      "paragraphs": [
+        53,
+        54,
+        55,
+        56
+      ]
     },
     {
       "id": "passage:phaladeepika.19.p062",
@@ -1109,10 +1277,14 @@
       "locus": "v. 25 Notes (printed p.181)",
       "what": "a cross-reference to the v.21 Notes' Rahu/Ketu discussion",
       "reason": "Tier-3 apparatus: a pointer to already-deferred material (passage:phaladeepika.19.p053-056), not new doctrine.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "3 (knowledge)",
       "status": "deferred",
-      "paragraphs": [62]
+      "paragraphs": [
+        62
+      ]
     },
     {
       "id": "passage:phaladeepika.19.p064",
@@ -1122,10 +1294,14 @@
       "locus": "p.182 colophon",
       "what": "the chapter's closing formula",
       "reason": "Colophon. Not doctrine, the same treatment every other chapter's closing formula receives.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "3 (knowledge)",
       "status": "deferred",
-      "paragraphs": [64]
+      "paragraphs": [
+        64
+      ]
     },
     {
       "id": "chapter:phaladeepika.20",
@@ -1150,10 +1326,14 @@
       "locus": "v. 1 (printed p.182)",
       "what": "the chapter's own scope-setting sentence",
       "reason": "States no rule and conditions nothing, the same tier-3 treatment every other chapter's opening sentence receives.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "3 (knowledge)",
       "status": "deferred",
-      "paragraphs": [1]
+      "paragraphs": [
+        1
+      ]
     },
     {
       "id": "passage:phaladeepika.20.p021",
@@ -1163,10 +1343,15 @@
       "locus": "v. 21 (printed pp.185-186)",
       "what": "a meta-rule attributing whatever chapters 1, 2, 5, 14, 15, 16, 17 and 18 state about a house lord to that lord's own dasa",
       "reason": "The card schema's rule-transfer mechanism (dep.rule-transfer, implemented) can express a meta-card that asserts another card's claim under a new condition, but this verse names six other chapters' worth of existing cards at once -- encoding it faithfully would mean systematically re-conditioning every relevant card across those chapters on `mahadasa_lord`, a distinct, larger undertaking out of this milestone's agreed scope, not a gap in the mechanism itself.",
-      "requires": ["dep.rule-transfer"],
+      "requires": [
+        "dep.rule-transfer"
+      ],
       "phase": "3 (knowledge)",
       "status": "deferred",
-      "paragraphs": [30, 31]
+      "paragraphs": [
+        30,
+        31
+      ]
     },
     {
       "id": "passage:phaladeepika.20.antardasa-relational",
@@ -1176,10 +1361,37 @@
       "locus": "v. 23, vv. 28-29, v. 42, vv. 43-54 and their Notes (printed pp.186-192)",
       "what": "antardasa lord identification and the relational (kendra/trikona/yogakaraka) effects that depend on it",
       "reason": "Every verse here names which related planet's antardasa matters and what effect it carries, but none states an order or duration formula for the nine antardasa sub-periods -- that is assumed background knowledge the reader already has, not printed doctrine, confirmed by reading the whole chapter directly (not just the deferred-summary). vv.43-44 ('No planet produces good or bad effects to the native in accordance with the house he owns during his dasa and his own antar dasa... It is only in the antar dasas of these [related] planets that the original planet will in his main dasa manifest his effect') was investigated directly: read together, this is an antardasa-scoped refinement of WHEN within a mahadasa the vv.2-21 effects manifest, not a denial that they exist -- no `contradicts` link was drawn against vv.2-21/v.41, since v.44's own adjacent sentence resolves the apparent tension. Per the project's rule against inventing timing arithmetic from outside the source, none of this cluster is built.",
-      "requires": ["dep.antardasa"],
+      "requires": [
+        "dep.antardasa"
+      ],
       "phase": "2 (engine completion)",
       "status": "deferred",
-      "paragraphs": [33, 45, 46, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90]
+      "paragraphs": [
+        33,
+        45,
+        46,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ]
     },
     {
       "id": "passage:phaladeepika.20.p024",
@@ -1189,10 +1401,19 @@
       "locus": "v. 24 items (1)-(3), (5) and their Notes (printed p.186)",
       "what": "misery-bringing dasas named by their ordinal position in the birth-fixed mahadasa sequence (e.g. 'the dasa of Saturn if it is the fourth in the order of main dasas'), and the dasas of the lords of the 6th, 8th and 12th houses",
       "reason": "RESOLVED (Milestone 33). Encoded as four firing cards: PD.20.MiseryDasa.SaturnFourth, .JupiterSixth and .MarsRahuFifth (items (1)-(3), each `mahadasa_ordinal(graha, ordinal)` AND `mahadasa_lord(graha)` on the item's own literal graha/position, item (3)'s two named grahas as an `any`-of-`all` the same shape PD.20.Parasara.EighthLordSunMoon already established for Sun/Moon), and PD.20.MiseryDasa.DusthanaLords (item (5), `lord_of_house` any-of-6/8/12 AND `mahadasa_lord`, zero new predicates). `mahadasa_ordinal` built for dep.mahadasa-ordinal (see that entry) -- a 1-based position in the already-computed birth-fixed sequence, counted from the birth dasa, confirmed against the Notes' own three worked examples exactly, not a universal per-graha table. The item (5) card was flagged, at authoring time, as apparently contradicting PD.20.Strong.House6/.House8/.House12 (vv.7/9/13's strong-lord-of-6th/8th/12th dasa = good effects) for a chart where such a lord is both strong and its own mahadasa lord; `contradicts` links were added both ways rather than left silent, per the project's standing preserve-disagreement discipline -- no source resolves which governs, and none was invented. Item (4) (last-degree placement) is NOT resolved by this milestone; split out below as its own entry under the new `dep.dasa-last-degree`, since it is blocked on a genuinely different kind of gap (an unstated degree threshold) than the ordinal items were.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "3 (knowledge)",
       "status": "resolved",
-      "paragraphs": [34, 35, 36, 37, 39, 40]
+      "paragraphs": [
+        34,
+        35,
+        36,
+        37,
+        39,
+        40
+      ]
     },
     {
       "id": "passage:phaladeepika.20.p024-lastdegree",
@@ -1202,10 +1423,14 @@
       "locus": "v. 24 item (4) (printed p.186)",
       "what": "the dasa of a planet placed in the last degree of a sign bringing misery and trouble",
       "reason": "Split out of passage:phaladeepika.20.p024 (Milestone 33) so its own, still-genuine gap does not hide behind that entry's now-resolved ordinal/house-lord clauses. 'Last degree of a sign' is stated with no numeral, no Notes (unlike items (1)-(3), which have three worked examples), and no cross-reference to chapter 4's exaltation/debilitation degrees the way vv.56-57's Arohini/Avarohini doctrine does -- there is nothing in this corpus to derive an exact degree band from. Per the project's rule against inventing a threshold the source does not print, this stays deferred until a human or a further source supplies one.",
-      "requires": ["dep.dasa-last-degree"],
+      "requires": [
+        "dep.dasa-last-degree"
+      ],
       "phase": "3 (knowledge)",
       "status": "deferred",
-      "paragraphs": [38]
+      "paragraphs": [
+        38
+      ]
     },
     {
       "id": "passage:phaladeepika.20.p025",
@@ -1215,10 +1440,14 @@
       "locus": "v. 25 (printed p.186)",
       "what": "Mars placement doctrine keyed to the Urdhvamukha sign class",
       "reason": "v.25 needs an Urdhvamukha sign classification this store has never encoded (dep.urdhvamukha-sign-class). Split out of the original passage:phaladeepika.20.p025-026-033 (Milestone 30) once v.26, its one neighbour that was fully executable with existing predicates, was resolved on its own (Milestone 34) -- v.25 and v.33 each still need a distinct, unbuilt sign classification and were never the same source claim as v.26 to begin with.",
-      "requires": ["dep.urdhvamukha-sign-class"],
+      "requires": [
+        "dep.urdhvamukha-sign-class"
+      ],
       "phase": "3 (knowledge)",
       "status": "deferred",
-      "paragraphs": [41]
+      "paragraphs": [
+        41
+      ]
     },
     {
       "id": "passage:phaladeepika.20.p026",
@@ -1228,10 +1457,15 @@
       "locus": "v. 26 (printed pp.186-187)",
       "what": "Venus's own exaltation/own-sign dasa wealth doctrine",
       "reason": "RESOLVED (Milestone 34). Encoded as one firing card, PD.20.WealthDasa.Venus, quoting the verse in full (its one sentence crosses the p0186/p0187 page break mid-word, hence paragraphs 42 and 43 both). Condition: dignity (exalted OR own) AND in_house (10 OR 11 OR 12) AND NOT combust AND NOT (conjunct-with-malefic OR aspected-by-malefic) AND mahadasa_lord -- all pre-existing predicates named in the original combined deferral (dignity, in_house, combust, aspects/conjunct, nature), zero engine change. 'Uneclipsed' read as `not combust`, corroborated twice inside this same chapter (v.19's own parenthetical 'combust (eclipsed by the Sun's rays)', and v.22's second sentence, already encoded as `combust` on PD.20.Vargottama.Mixed). 'Free from the influence of a malefic' read as NOT (conjunct OR aspected by a malefic), the book's own equivalence for 'influence' at ch.9's 'associated with or aspected by malefics... devoid of any influence of benefics' (the only other place in the corpus 'influence' pairs with malefic/benefic). No Notes or competing authority accompany v.26, and no existing card conditions on a literal Venus placement the way this one does, so nothing else in the store was touched.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "3 (knowledge)",
       "status": "resolved",
-      "paragraphs": [42, 43]
+      "paragraphs": [
+        42,
+        43
+      ]
     },
     {
       "id": "passage:phaladeepika.20.p033",
@@ -1241,10 +1475,14 @@
       "locus": "v. 33 (printed p.188)",
       "what": "life-timing keyed to the Shirshodaya/Ubhayodaya/Prishtodaya sign classes, plus (in the same verse's first sentence) an unconditional Jupiter/Moon-sign-lord/lagna-lord kendra placement claim not itself sign-class-gated",
       "reason": "v.33's second sentence needs the Shirshodaya/Ubhayodaya/Prishtodaya classification chapter 1 v.8 states but this store has not yet made queryable per-sign (dep.rising-order-sign-class); the verse itself also reads as marginal to a dasa/house-lord chapter, closer to a general life-timing aside. Its first sentence (Jupiter, the lord of the Moon's sign and the lagna lord all in kendra at birth) is not itself sign-class-gated, but the two sentences were left together at scoping time (Milestone 30) and re-splitting the verse's own two clauses is a genuine encoding decision, not a bookkeeping correction -- out of Milestone 34's agreed v.26-only scope (see that milestone's own note against pulling v.25/v.33 in without the source and architecture justifying it). Split out of the original passage:phaladeepika.20.p025-026-033 (Milestone 30) once v.26 was resolved on its own (Milestone 34).",
-      "requires": ["dep.rising-order-sign-class"],
+      "requires": [
+        "dep.rising-order-sign-class"
+      ],
       "phase": "3 (knowledge)",
       "status": "deferred",
-      "paragraphs": [52]
+      "paragraphs": [
+        52
+      ]
     },
     {
       "id": "passage:phaladeepika.20.p027",
@@ -1254,10 +1492,14 @@
       "locus": "v. 27 (printed p.187, not p.186 as originally logged -- the page anchor immediately precedes the verse in the corpus; corrected on resolution)",
       "what": "benefics/malefics in debilitation, an inimical sign or the 6th/12th house producing adverse/miserable dasa effects, for any graha rather than specifically a house lord",
       "reason": "RESOLVED (Milestone 32). Encoded as two firing cards, PD.20.Placement.BeneficAdverse and PD.20.Placement.MaleficMiseries, each quoting one of the verse's two clauses (split at 'while malefic...', the same clause-boundary-split pattern PD.20.Parasara.KendraLordBenefic/.Malefic already established). Condition: nature (benefic/malefic) AND (dignity debilitated OR dignity inimical OR in_house 6 OR in_house 12) AND mahadasa_lord -- all four existing predicates named in the original deferral, no engine change. INTERPRETIVE STEP: the verse names exactly the 6th and 12th house, not the full dusthana class (6th, 8th, 12th) that v.14's `dasa_disposition` and the store's `house_class` table both use -- the 8th is deliberately excluded, since the verse itself never names it (the original 'a dusthana' wording in this entry's own `what` field was the encoder's imprecise paraphrase, not something the verse states; corrected here). `predicts.polarity` is 'adverse' for the benefic card and 'miseries' for the malefic card, matching the verse's own two distinct effect words rather than a shared generic value. No Notes or competing authority accompany v.27.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "3 (knowledge)",
       "status": "resolved",
-      "paragraphs": [44]
+      "paragraphs": [
+        44
+      ]
     },
     {
       "id": "passage:phaladeepika.20.p030",
@@ -1267,10 +1509,14 @@
       "locus": "v. 30 (printed p.187)",
       "what": "percentage-weighted dasa effects by degree of dignity (full in exaltation, three-fourths in Moolatrikona, half in own sign, one-fourth in a friend's sign, and so on)",
       "reason": "Explicit numeric weighting the project's standing discipline refuses to invent -- there is no invented confidence, authority weighting or percentage scale anywhere in this engine, and this verse asks for exactly that (dep.adjudication territory, not scheduled).",
-      "requires": ["dep.adjudication"],
+      "requires": [
+        "dep.adjudication"
+      ],
       "phase": "4 (integration)",
       "status": "deferred",
-      "paragraphs": [47]
+      "paragraphs": [
+        47
+      ]
     },
     {
       "id": "passage:phaladeepika.20.weakest-of-comparator",
@@ -1280,10 +1526,24 @@
       "locus": "vv. 31-32, v. 55 and v. 58 (printed pp.187-188, 192-193)",
       "what": "death-timing doctrine that identifies 'the weakest' among several named candidates (Saturn/Mandi/Rahu/22nd-decanate-lord/8th-lord/navamsa-lords; two named significators; five named significators; a 12th-from-house lord or occupant)",
       "reason": "No ranking or comparison mechanism exists anywhere in this engine -- every predicate here is a verdict or a set membership test, never an ordering over several candidates -- so 'find the weakest of N' cannot be expressed without inventing one. vv.31-32 additionally need dep.transit for their own transit-timing clauses.",
-      "requires": ["dep.weakest-of-comparator"],
+      "requires": [
+        "dep.weakest-of-comparator"
+      ],
       "phase": "2 (engine completion)",
       "status": "deferred",
-      "paragraphs": [48, 49, 50, 51, 91, 92, 93, 95, 96, 97, 101]
+      "paragraphs": [
+        48,
+        49,
+        50,
+        51,
+        91,
+        92,
+        93,
+        95,
+        96,
+        97,
+        101
+      ]
     },
     {
       "id": "passage:phaladeepika.20.transit-in-dasa",
@@ -1293,10 +1553,28 @@
       "locus": "vv. 34-39 and their Notes, vv. 59-62 (printed pp.188-190, 193-194)",
       "what": "effects keyed to a graha's position at a later transit while a dasa or antardasa is in progress",
       "reason": "Needs `dep.transit` (positions at a date other than birth), which is unimplemented; chapter 26, the dedicated gochara chapter, is itself not yet encoded. Building the calculator now would be architecture speculating ahead of an unread source chapter, the same reasoning Milestone 30 gave for declining `dep.transit` as that milestone's own candidate.",
-      "requires": ["dep.transit"],
+      "requires": [
+        "dep.transit"
+      ],
       "phase": "beyond the MVP",
       "status": "deferred",
-      "paragraphs": [53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 103, 104, 105, 106]
+      "paragraphs": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        103,
+        104,
+        105,
+        106
+      ]
     },
     {
       "id": "passage:phaladeepika.20.horoscope-apparatus",
@@ -1306,10 +1584,15 @@
       "locus": "printed p.190",
       "what": "a transcribed South Indian-style horoscope chart illustrating v.39's Notes (Rahu conjunct Venus)",
       "reason": "Tier-3 apparatus, the same treatment every other transcribed illustrative horoscope in this corpus receives (chapters 8, 9).",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "3 (knowledge)",
       "status": "deferred",
-      "paragraphs": [64, 66]
+      "paragraphs": [
+        64,
+        66
+      ]
     },
     {
       "id": "passage:phaladeepika.20.p056-057",
@@ -1319,10 +1602,16 @@
       "locus": "vv. 56-57 and Notes (printed pp.193-194)",
       "what": "Arohini/Avarohini/Madhya/Adhama dasa-quality classification by a graha's degree position between its exaltation and debilitation points",
       "reason": "Real, source-stated doctrine, not apparatus -- but needs a new predicate comparing a graha's exact degree to its own exaltation/debilitation points and determining which half of the arc it occupies, which this store does not have. Not built this milestone; a well-scoped future candidate.",
-      "requires": ["dep.degree-position-quality"],
+      "requires": [
+        "dep.degree-position-quality"
+      ],
       "phase": "2 (engine completion)",
       "status": "deferred",
-      "paragraphs": [98, 99, 100]
+      "paragraphs": [
+        98,
+        99,
+        100
+      ]
     },
     {
       "id": "passage:phaladeepika.20.p063",
@@ -1332,10 +1621,14 @@
       "locus": "v. 63 (printed p.194)",
       "what": "a methodological aside citing Saravali, Hora Shastra and the Nakshatra Dasa, and asserting Prasna Lagna and Janma Lagna give similar predictions",
       "reason": "States no rule of its own -- a citation and a methodological equivalence claim, not an effect. Tier-3 apparatus.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "3 (knowledge)",
       "status": "deferred",
-      "paragraphs": [107]
+      "paragraphs": [
+        107
+      ]
     },
     {
       "id": "passage:phaladeepika.20.closing-notes",
@@ -1345,10 +1638,17 @@
       "locus": "closing Notes on Slokas 32, 41 and 54 (printed pp.194-195)",
       "what": "the translator's own commentary explaining why Jupiter causes death when transiting the 8th lord's positions, why the Sun and Moon are exempted from the 8th-lord stigma, and defining Yogakaraka",
       "reason": "Tier-2/3 translator commentary restating and explaining verses already on record (v.32's own Notes are already grouped with passage:phaladeepika.20.weakest-of-comparator; the Sloka 41 note directly supports PD.20.Parasara.EighthLordSun/.EighthLordMoon, already encoded from the verse itself; Sloka 54's Yogakaraka definition supports the still-deferred vv.45-54 cluster). No independently testable doctrine beyond what is already captured or already deferred elsewhere.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "3 (knowledge)",
       "status": "deferred",
-      "paragraphs": [108, 109, 110, 111]
+      "paragraphs": [
+        108,
+        109,
+        110,
+        111
+      ]
     },
     {
       "id": "passage:phaladeepika.20.colophon",
@@ -1358,10 +1658,14 @@
       "locus": "printed p.196",
       "what": "the chapter's closing formula",
       "reason": "Colophon. Not doctrine, the same treatment every other chapter's closing formula receives.",
-      "requires": ["dep.none"],
+      "requires": [
+        "dep.none"
+      ],
       "phase": "3 (knowledge)",
       "status": "deferred",
-      "paragraphs": [112]
+      "paragraphs": [
+        112
+      ]
     },
     {
       "id": "chapter:phaladeepika.21",
@@ -3283,6 +3587,436 @@
       ],
       "phase": "4 (integration)",
       "status": "deferred"
+    },
+    {
+      "id": "passage:phaladeepika.07.p001",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 7,
+      "locus": "vv.1-3 (p.83-84)",
+      "what": "kendra-placed exaltation/own-sign planet counts (three-or-more, five-or-more) forming Raja Yoga, by family status",
+      "reason": "Each verse gates its outcome on counting how many of a fixed graha set simultaneously satisfy a compound per-graha test (dignity own-or-exalted, house kendra for vv.1-2; retrograde/not-dusthana/not-combust for v.3's second sentence) against a literal threshold ('three or more', 'five or more'). No existing predicate counts a fixed graha set against an arbitrary compound condition the way occupant_count/seven_graha_sign_count count occupancy or distinct signs -- dep.graha-condition-count, registered this milestone. v.1 and v.2 additionally condition their outcome on whether the native is 'born in a royal family' or 'an ordinary family', a birth-record field BirthRecord does not carry and no verse states how to derive astrologically; v.3's single-planet clause (not-dusthana, not-combust, retrograde) is independently encodable and does not share the counting blocker, but was left with its paragraph for chapter 7 slice 1's scope.",
+      "requires": [
+        "dep.graha-condition-count"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.07.p004",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 7,
+      "locus": "v.4 and its Notes (p.84)",
+      "what": "Digbala (directional strength) forming Raja Yoga when two or more, four or five planets hold it",
+      "reason": "Digbala -- a graha's directional strength, full when placed in one of four fixed Bhava-madhya positions the Notes table by graha -- is not encoded anywhere in this store; dep.digbala, registered this milestone. The verse and its Notes also gate on counting ('two or more', 'five such planets... or at least 4'), the same dep.graha-condition-count gap as p001.",
+      "requires": [
+        "dep.digbala",
+        "dep.graha-condition-count"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.07.p007",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 7,
+      "locus": "v.5 (p.84-85)",
+      "what": "Lagna and Moon both in Vargottama Navamsa, Lagna aspected by four other planets",
+      "reason": "'The Lagna... in Vargottama Navamsa' needs a Lagna-scoped vargottama test; ChartBundle never treats the Lagna as a member of chart.bodies (the same architecture gap Decision 0b, Milestone 24, identified for dep.lagna-strength, here applied to vargottama rather than a strength verdict), and 'aspected by four planets' is dep.graha-condition-count's counting gap again.",
+      "requires": [
+        "dep.lagna-strength",
+        "dep.graha-condition-count"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        7
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.07.p008",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 7,
+      "locus": "v.6 (p.85)",
+      "what": "the Lagna's Vargottama lord in kendra or trikona; a second Vargottama lord in kendra or the 9th, in own or exaltation sign",
+      "reason": "The verse names 'the lord' twice with an unclear second referent ('the lord being Vargottama be posited in a kendra or the 9th') -- genuinely ambiguous prose, not a missing capability (the first clause alone is fully expressible with existing predicates). Needs a careful human re-reading against the source render before encoding, the same posture Decision 0d took for a genuinely unclear passage rather than guessing a referent.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        8
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.07.p009",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 7,
+      "locus": "v.7 (p.85)",
+      "what": "the full Moon aspected by an exalted/own-sign planet, or the full Moon in a kendra other than the Lagna",
+      "reason": "'Brilliant with white lustre'/'full Moon' names the lunar phase (Purnima), which this store has never encoded as a fact -- dep.paksha, already registered, not implemented.",
+      "requires": [
+        "dep.paksha"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.07.p011",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 7,
+      "locus": "v.8 (p.85)",
+      "what": "Venus in Aswini Nakshatra in the Lagna aspected by three planets; or a powerful Lagna lord in the 2nd with Venus undamaged",
+      "reason": "The first clause's 'aspected by three planets' is dep.graha-condition-count's counting gap; the second clause is independently close to encodable (lord_of_house, strength, in_house, conjunct, dignity) and was left with its paragraph for this slice's scope.",
+      "requires": [
+        "dep.graha-condition-count"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        11,
+        12
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.07.p013",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 7,
+      "locus": "v.9 (p.85-86)",
+      "what": "Mars in Aries/Sagittarius as the Lagna aspected by a friendly planet; or the 9th and 10th lords exchanging houses",
+      "reason": "The second yoga is Parivartana (mutual sign-exchange between two house lords), a doctrine this store has never encoded a predicate for -- dep.parivartana, registered this milestone. The first clause is independently close to encodable and was left with its paragraph for this slice's scope.",
+      "requires": [
+        "dep.parivartana"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        13,
+        14
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.07.p015",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 7,
+      "locus": "v.10 and its Notes (p.86)",
+      "what": "one fully specified planetary configuration (Sun-Moon conjunct in mid-Sagittarius, Saturn in the Lagna, exalted Mars) producing a valorous king; the Notes' cross-reference to Varahamihir's own Saturn-rising doctrine",
+      "reason": "Deferred by ordering only for this slice (dep.none) -- the configuration is expressible with existing predicates (conjunct, in_sign, in_house, dignity); left for a future chapter 7 slice.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        15,
+        16
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.07.p018",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 7,
+      "locus": "vv.11-12 (p.86-87)",
+      "what": "the full Moon in the Sun's Navamsa with unafflicted benefics in kendra; the full Moon with three other undamaged planets in their own Navamsas aspected by benefics",
+      "reason": "Both gate on the full Moon -- dep.paksha again; v.12 additionally counts ('three other planets'), dep.graha-condition-count.",
+      "requires": [
+        "dep.paksha",
+        "dep.graha-condition-count"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        18,
+        19
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.07.p020",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 7,
+      "locus": "v.13 (p.87)",
+      "what": "the Moon in Vargottama aspected by a strong planet, with no malefic in the Lagna",
+      "reason": "Deferred by ordering only for this slice (dep.none) -- vargottama, strength and aspects are all implemented; 'no malefic in the Lagna' is a finite enumerated negation over the nine grahas, not a quantification gap. Left for a future chapter 7 slice.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        20
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.07.p021",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 7,
+      "locus": "v.14 (p.87)",
+      "what": "Jupiter, Mercury, Venus or the Moon uneclipsed in the 9th, aspected by or associated with friendly planets",
+      "reason": "Deferred by ordering only for this slice (dep.none) -- close to encodable with existing predicates; whether natural friendship is exposed as a directly queryable condition-language fact (as opposed to internal-only to the strength/friendship extractors) needs confirming before authoring. Left for a future chapter 7 slice.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        21
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.07.p022",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 7,
+      "locus": "v.15 and its Notes (p.86-87)",
+      "what": "one fully specified but disputed planetary configuration -- the Notes record two incompatible commentators' reconstructions of the same verse, Shri V. Subrahmanya Shastri's and Pt. Gopesh Kumar Ojha's, each with its own worked horoscope",
+      "reason": "The Notes call the verse itself 'somewhat confusing and complicated' and record two commentators' materially different reconstructions of what chart it describes, each illustrated with its own worked horoscope. A genuine source-level interpretive dispute, not a missing capability -- matches Decision-0-style territory (both readings would need to be preserved as parallel/contradicting cards, a human-judgment call on which is the better encoding target, or whether to encode both) rather than a single verse a chapter-7 slice should settle in passing.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        28,
+        30,
+        31,
+        32,
+        34
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.07.p036",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 7,
+      "locus": "v.16 (p.87-88)",
+      "what": "a night birth with the Moon in Cancer as the 10th house and a specific benefic disposition, forming a world-ruling king",
+      "reason": "'The birth be at night' names day/night birth, not encoded -- dep.day-night, already registered, not implemented.",
+      "requires": [
+        "dep.day-night"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        36
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.07.p037",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 7,
+      "locus": "v.17 (p.88)",
+      "what": "the full Moon in Vargottamamsa",
+      "reason": "Full Moon again -- dep.paksha.",
+      "requires": [
+        "dep.paksha"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        37
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.07.p038",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 7,
+      "locus": "v.18 (p.88)",
+      "what": "Jupiter and the Moon in kendra aspected by Venus, with no planet in a sign of debilitation",
+      "reason": "Deferred by ordering only for this slice (dep.none) -- fully expressible with existing predicates (in_house_class, aspects, and a finite enumerated negation over the nine grahas for 'no planet in debilitation', the same shape as p020's 'no malefic in the Lagna'). Left for a future chapter 7 slice.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        38
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.07.p039",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 7,
+      "locus": "v.19 (p.88)",
+      "what": "the Moon in a watery sign and Navamsa identical with the Lagna, in its own or a benefic Varga, with no malefic in a kendra",
+      "reason": "Deferred by ordering only for this slice (dep.none) -- 'watery sign' is an existing sign class (PD.01.SignBodyForm.Table), Navamsa-equals-Lagna is expressible via a shared bound variable between in_varga_sign and lagna_sign, and the rest reuses dignity/dignity_in_varga and a finite enumerated negation. Left for a future chapter 7 slice.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        39
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.07.p040",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 7,
+      "locus": "v.20 (p.88)",
+      "what": "four Raja Yogas: Venus aspected by Jupiter; Jupiter in a non-Capricorn Lagna; a full-strength Lagna lord in kendra; full-strength Mercury in kendra aspected by Jupiter",
+      "reason": "Deferred by ordering only for this slice (dep.none) -- all four sub-clauses are expressible with existing predicates (aspects, in_house, in_sign exclusion, lord_of_house, strength, in_house_class). Left for a future chapter 7 slice.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        40,
+        41,
+        43,
+        44,
+        45
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.07.p046",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 7,
+      "locus": "v.21 and its Note (p.88-89)",
+      "what": "an exalted planet aspected by a friendly planet (richer still if also conjunct one); the Sun in its own Navamsa with the Moon in its own sign, both strong",
+      "reason": "Deferred by ordering only for this slice (dep.none) -- close to encodable; whether natural friendship is exposed as a directly queryable condition-language fact needs confirming first, the same open question as p021. Left for a future chapter 7 slice.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.07.p050",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 7,
+      "locus": "v.22 (p.89)",
+      "what": "the full Moon in Pisces aspected by a friendly planet; or the full, exalted Moon",
+      "reason": "Full Moon again -- dep.paksha.",
+      "requires": [
+        "dep.paksha"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        50,
+        51,
+        52
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.07.p053",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 7,
+      "locus": "v.23 (p.89)",
+      "what": "the Moon in an Adhimitra Navamsa aspected by Venus, richer still if also aspected by Jupiter",
+      "reason": "'Adhimitra' is a compound (Panchadha Maitri) friendship tier beyond the three dep.dignity-friendship already covers -- dep.compound-friendship, already registered, not implemented (the same blocker PD.06.Pushkala and PD.10.WifeDeprived carry).",
+      "requires": [
+        "dep.compound-friendship"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        53,
+        54
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.07.p055",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 7,
+      "locus": "vv.24-25 (p.89)",
+      "what": "four further Raja Yogas by placement/conjunction (malefics in 3rd/6th/11th from the Lagna-lord's house, the Moon or the Lagna; Mars and Mercury in the 2nd; the Sun and Venus in the 4th; Mars/Saturn/Jupiter in the 10th/11th/Lagna); one of the 11th/9th/2nd lords in kendra from the Moon with Jupiter owning the 2nd, 5th or 11th",
+      "reason": "Deferred by ordering only for this slice (dep.none) -- all five sub-yogas are expressible with existing predicates (nature, in_house, in_house_from, conjunct, lord_of_house). Left for a future chapter 7 slice -- among the cleanest remaining material in the chapter.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.07.p065",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 7,
+      "locus": "v.26 Notes illustration (p.90)",
+      "what": "a transcribed horoscope chart and its worked-example narration (Saturn debilitated in Aries, Mars and Sun in Kendra) illustrating item (1)'s doctrine",
+      "reason": "Tier-3 apparatus (a transcribed chart diagram and its narration), excluded from rule extraction exactly as this store's other horoscope illustrations already are (chapters 7-10's own known_defects) -- not independently testable doctrine, and already corroborated in PD.07.Neechabhanga.LordOrExaltedInSign's own note.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        65,
+        67,
+        69
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.07.p082",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 7,
+      "locus": "chapter close (p.92)",
+      "what": "\"Thus ends the seventh chapter on 'Maharaja Yogas' in Phaladeepika composed by Mantreswara.\"",
+      "reason": "Colophon, not doctrine -- the same treatment this store's other chapter-close colophons already received.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        82
+      ]
     }
   ]
 }

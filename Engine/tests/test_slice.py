@@ -609,13 +609,13 @@ def test_the_plan_does_not_charge_for_chapters_already_encoded():
 
     done = leverage.encoded_chapters()
     assert ("phaladeepika", 2) in done, "chapter 2 is encoded per the manifest"
-    assert ("phaladeepika", 7) not in done, "chapter 7 is not yet encoded per the manifest"
+    assert ("phaladeepika", 5) not in done, "chapter 5 is not yet encoded per the manifest"
 
     deps = json.loads((RULES / "deferred.json").read_text(encoding="utf-8"))["dependencies"]
     fake = {"dep.x": {"depends_on": ["chapter:phaladeepika.02",
-                                     "chapter:phaladeepika.07"]}}
+                                     "chapter:phaladeepika.05"]}}
     needed = leverage.chapters_needed({"dep.x"}, fake, done)
-    assert needed == {"chapter:phaladeepika.07"}
+    assert needed == {"chapter:phaladeepika.05"}
 
     # And no capability in the real registry is still billed for an encoded one.
     for dep_id in deps:

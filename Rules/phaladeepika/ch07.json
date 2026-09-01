@@ -1,0 +1,2461 @@
+{
+  "book_id": "phaladeepika",
+  "chapter": 7,
+  "cards": [
+    {
+      "id": "PD.07.Neechabhanga.LordOrExaltedInSign",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 7,
+        "verse": "26",
+        "page_anchor": "phaladeepika/p0089",
+        "tier": 1,
+        "quote": "26. A planet in debilitation is considered adverse in effect. But there arise circumstances when the debilitation of such a planet is cancelled giving rise to Neechabhang Raja Yoga. These circumstances are explained below. […] I at birth a planet is posited in sign of debilitation and the lord of the sign of debilitation be in Kendra from the Moon or Lagna or the planet that is exalted in the sign be in Kendra to the Moon or the Lagna, the debilitation of the Planet concerned gets cancelled and a Raja Yoga is formed enabling the native to become a very powerful King. […] Nates — Thus there are five kinds of Neechabhanga Raja Yogas as described below:— […] (1) The lord of the depression sign or the planet that is exalted in that sign, is in a Kendra position from the Lagna or the Moon.",
+        "quote_display": "26. A planet in debilitation is considered adverse in effect. But there arise circumstances when the debilitation of such a planet is cancelled giving rise to Neechabhang Raja Yoga. These circumstances are explained below. […] I at birth a planet is posited in sign of debilitation and the lord of the sign of debilitation be in Kendra from the Moon or Lagna or the planet that is exalted in the sign be in Kendra to the Moon or the Lagna, the debilitation of the Planet concerned gets cancelled and a Raja Yoga is formed enabling the native to become a very powerful King. […] Nates — Thus there are five kinds of Neechabhanga Raja Yogas as described below:— […] (1) The lord of the depression sign or the planet that is exalted in that sign, is in a Kendra position from the Lagna or the Moon.",
+        "quote_sha256": "f823fce569171d983047f4583b0960236d0edcd665bf91d54a4fb33d41b88cfc",
+        "char_span": [
+          174152,
+          174374
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            174152,
+            174374
+          ],
+          [
+            174378,
+            174724
+          ],
+          [
+            178415,
+            178496
+          ],
+          [
+            178500,
+            178631
+          ]
+        ],
+        "quote_parts": [
+          "26. A planet in debilitation is considered adverse in effect. But there arise circumstances when the debilitation of such a planet is cancelled giving rise to Neechabhang Raja Yoga. These circumstances are explained below.",
+          "I at birth a planet is posited in sign of debilitation and the lord of the sign of debilitation be in Kendra from the Moon or Lagna or the planet that is exalted in the sign be in Kendra to the Moon or the Lagna, the debilitation of the Planet concerned gets cancelled and a Raja Yoga is formed enabling the native to become a very powerful King.",
+          "Nates — Thus there are five kinds of Neechabhanga Raja Yogas as described below:—",
+          "(1) The lord of the depression sign or the planet that is exalted in that sign, is in a Kendra position from the Lagna or the Moon."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Sun",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Venus",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  },
+                  {
+                    "in_house_class": {
+                      "graha": "Saturn",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Saturn",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Saturn",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Saturn",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Saturn",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Moon",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Mars",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Mars",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Moon",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Moon",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Moon",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Moon",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Moon",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  },
+                  {
+                    "in_house_class": {
+                      "graha": "Jupiter",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Jupiter",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Jupiter",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Jupiter",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Jupiter",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Mercury",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Jupiter",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Jupiter",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Jupiter",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Jupiter",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Jupiter",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  },
+                  {
+                    "in_house_class": {
+                      "graha": "Venus",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Jupiter",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Saturn",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Saturn",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Saturn",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Saturn",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Saturn",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  },
+                  {
+                    "in_house_class": {
+                      "graha": "Mars",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Venus",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Mercury",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mercury",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mercury",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mercury",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mercury",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Saturn",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Mars",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  },
+                  {
+                    "in_house_class": {
+                      "graha": "Sun",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Sun",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Sun",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Sun",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Sun",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "NeechabhangaRajaYoga",
+        "mechanism": "debilitation_lord_or_sign_exalter_in_kendra",
+        "effect": "very_powerful_king"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 7 slice 1, Milestone 36: INTERPRETIVE STEP TAKEN AND RECORDED -- disjunctive reading and per-graha table both corroborated by the verse's own worked example, see note)",
+        "verified_date": "2026-09-01"
+      },
+      "note": "\"I at birth\" and \"Nates\" transcribed as printed (evident OCR/print defects for \"If at birth\" and \"Notes\"); \"Neechabhang\" (no final \"a\") likewise transcribed as printed, the only one of the five verses to spell it that way. INTERPRETIVE STEP TAKEN AND RECORDED: the verse's own \"or\" (this card's condition, disjunctive) is corroborated by the Note immediately following v.26 (not quoted by this card; see PD.07.Neechabhanga.UchchanathaNote), where the translator explicitly adopts \"any of the two conditions should be enough\" against a named dissenting view (Pt. Gopesh Kumar Ojha) requiring both. The same Note's worked example (Saturn debilitated in Aries; Mars, Aries's own lord, and Sun, exalted in Aries, both in Kendra to the Lagna) confirms \"the planet that is exalted in the sign\" means the graha whose OWN exaltation sign is the debilitated planet's depression sign -- Mars in the example, Sun in the other -- not a further lordship lookup, and directly validates this card's per-graha table. Moon's branch carries only its debilitation-sign lord (Mars): no classical graha among Sun-Saturn exalts in Scorpio, and Mantreswara's own chapter 1 is silent on Rahu/Ketu's exaltation (PD.01.Exaltation.RahuKetu.Mantreswara), so the second disjunct has no doctrine to test for the Moon and is correctly omitted rather than guessed. Venus's branch collapses to its single debilitation-sign lord (Mercury) because Mercury also exalts in Virgo, Venus's own debilitation sign -- both disjuncts name the same graha. The Neechabhanga family (vv.26-30) is Chapter 7 slice 1 (Milestone 36); verses 1-25 are individually deferred in Rules/deferred.json, none silently dropped. Per-graha lord/exaltation table read from the store's own PD.01.SignLord.* and PD.01.Exaltation.* reference cards, not a Python literal -- Sun/Libra->Venus, Aries->Mars; Moon/Scorpio->Mars, Taurus->Venus; Mars/Cancer->Moon, Capricorn->Saturn; Mercury/Pisces->Jupiter, Virgo->Mercury (own sign); Jupiter/Capricorn->Saturn, Cancer->Moon; Venus/Virgo->Mercury, Pisces->Jupiter; Saturn/Aries->Mars, Libra->Venus. Existential 'any' over the seven classical grahas, not per-graha named cards, because unlike Pancha Mahapurusha (five separately named yogas, Ruchaka/Bhadra/Hamsa/Malavya/Sasa) Neechabhanga carries one name for a general condition on 'a planet' -- the same shape PD.20.MiseryDasa.DusthanaLords already uses for its own ?g existential over a fixed house list."
+    },
+    {
+      "id": "PD.07.Neechabhanga.MutualKendra",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 7,
+        "verse": "27",
+        "page_anchor": "phaladeepika/p0090",
+        "tier": 1,
+        "quote": "27. Should at birth a planet be posited in his sign of debilitation, and the lord of that depression sign and the lord of the planet's exaltation sign are in Kendra positions mutually, the debilitation gets cancelled The Neechabhanga Raja Yoga so formed produces a powerful King of Kings. […] (2) The lord of the sign of debilitation and the lord of the exaltation sign of the debilitation planet are mutually in Kendra positions.",
+        "quote_display": "27. Should at birth a planet be posited in his sign of debilitation, and the lord of that depression sign and the lord of the planet's exaltation sign are in Kendra positions mutually, the debilitation gets cancelled The Neechabhanga Raja Yoga so formed produces a powerful King of Kings. […] (2) The lord of the sign of debilitation and the lord of the exaltation sign of the debilitation planet are mutually in Kendra positions.",
+        "quote_sha256": "a97aeb66caaddd7c9199f7c0d787d648898b5105b9b2d91f7972677f6327e137",
+        "char_span": [
+          177181,
+          177469
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            177181,
+            177469
+          ],
+          [
+            178635,
+            178772
+          ]
+        ],
+        "quote_parts": [
+          "27. Should at birth a planet be posited in his sign of debilitation, and the lord of that depression sign and the lord of the planet's exaltation sign are in Kendra positions mutually, the debilitation gets cancelled The Neechabhanga Raja Yoga so formed produces a powerful King of Kings.",
+          "(2) The lord of the sign of debilitation and the lord of the exaltation sign of the debilitation planet are mutually in Kendra positions."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Sun",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "all": [
+                  {
+                    "any": [
+                      {
+                        "in_house_from": {
+                          "graha": "Venus",
+                          "reference": "Mars",
+                          "house": 1
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Venus",
+                          "reference": "Mars",
+                          "house": 4
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Venus",
+                          "reference": "Mars",
+                          "house": 7
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Venus",
+                          "reference": "Mars",
+                          "house": 10
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "any": [
+                      {
+                        "in_house_from": {
+                          "graha": "Mars",
+                          "reference": "Venus",
+                          "house": 1
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Mars",
+                          "reference": "Venus",
+                          "house": 4
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Mars",
+                          "reference": "Venus",
+                          "house": 7
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Mars",
+                          "reference": "Venus",
+                          "house": 10
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Moon",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "all": [
+                  {
+                    "any": [
+                      {
+                        "in_house_from": {
+                          "graha": "Mars",
+                          "reference": "Venus",
+                          "house": 1
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Mars",
+                          "reference": "Venus",
+                          "house": 4
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Mars",
+                          "reference": "Venus",
+                          "house": 7
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Mars",
+                          "reference": "Venus",
+                          "house": 10
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "any": [
+                      {
+                        "in_house_from": {
+                          "graha": "Venus",
+                          "reference": "Mars",
+                          "house": 1
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Venus",
+                          "reference": "Mars",
+                          "house": 4
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Venus",
+                          "reference": "Mars",
+                          "house": 7
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Venus",
+                          "reference": "Mars",
+                          "house": 10
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Mars",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "all": [
+                  {
+                    "any": [
+                      {
+                        "in_house_from": {
+                          "graha": "Moon",
+                          "reference": "Saturn",
+                          "house": 1
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Moon",
+                          "reference": "Saturn",
+                          "house": 4
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Moon",
+                          "reference": "Saturn",
+                          "house": 7
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Moon",
+                          "reference": "Saturn",
+                          "house": 10
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "any": [
+                      {
+                        "in_house_from": {
+                          "graha": "Saturn",
+                          "reference": "Moon",
+                          "house": 1
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Saturn",
+                          "reference": "Moon",
+                          "house": 4
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Saturn",
+                          "reference": "Moon",
+                          "house": 7
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Saturn",
+                          "reference": "Moon",
+                          "house": 10
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Mercury",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "all": [
+                  {
+                    "any": [
+                      {
+                        "in_house_from": {
+                          "graha": "Jupiter",
+                          "reference": "Mercury",
+                          "house": 1
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Jupiter",
+                          "reference": "Mercury",
+                          "house": 4
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Jupiter",
+                          "reference": "Mercury",
+                          "house": 7
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Jupiter",
+                          "reference": "Mercury",
+                          "house": 10
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "any": [
+                      {
+                        "in_house_from": {
+                          "graha": "Mercury",
+                          "reference": "Jupiter",
+                          "house": 1
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Mercury",
+                          "reference": "Jupiter",
+                          "house": 4
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Mercury",
+                          "reference": "Jupiter",
+                          "house": 7
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Mercury",
+                          "reference": "Jupiter",
+                          "house": 10
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Jupiter",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "all": [
+                  {
+                    "any": [
+                      {
+                        "in_house_from": {
+                          "graha": "Saturn",
+                          "reference": "Moon",
+                          "house": 1
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Saturn",
+                          "reference": "Moon",
+                          "house": 4
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Saturn",
+                          "reference": "Moon",
+                          "house": 7
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Saturn",
+                          "reference": "Moon",
+                          "house": 10
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "any": [
+                      {
+                        "in_house_from": {
+                          "graha": "Moon",
+                          "reference": "Saturn",
+                          "house": 1
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Moon",
+                          "reference": "Saturn",
+                          "house": 4
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Moon",
+                          "reference": "Saturn",
+                          "house": 7
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Moon",
+                          "reference": "Saturn",
+                          "house": 10
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Venus",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "all": [
+                  {
+                    "any": [
+                      {
+                        "in_house_from": {
+                          "graha": "Mercury",
+                          "reference": "Jupiter",
+                          "house": 1
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Mercury",
+                          "reference": "Jupiter",
+                          "house": 4
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Mercury",
+                          "reference": "Jupiter",
+                          "house": 7
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Mercury",
+                          "reference": "Jupiter",
+                          "house": 10
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "any": [
+                      {
+                        "in_house_from": {
+                          "graha": "Jupiter",
+                          "reference": "Mercury",
+                          "house": 1
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Jupiter",
+                          "reference": "Mercury",
+                          "house": 4
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Jupiter",
+                          "reference": "Mercury",
+                          "house": 7
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Jupiter",
+                          "reference": "Mercury",
+                          "house": 10
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Saturn",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "all": [
+                  {
+                    "any": [
+                      {
+                        "in_house_from": {
+                          "graha": "Mars",
+                          "reference": "Venus",
+                          "house": 1
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Mars",
+                          "reference": "Venus",
+                          "house": 4
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Mars",
+                          "reference": "Venus",
+                          "house": 7
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Mars",
+                          "reference": "Venus",
+                          "house": 10
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "any": [
+                      {
+                        "in_house_from": {
+                          "graha": "Venus",
+                          "reference": "Mars",
+                          "house": 1
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Venus",
+                          "reference": "Mars",
+                          "house": 4
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Venus",
+                          "reference": "Mars",
+                          "house": 7
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "Venus",
+                          "reference": "Mars",
+                          "house": 10
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "NeechabhangaRajaYoga",
+        "mechanism": "debilitation_lord_and_own_exaltation_lord_mutual_kendra",
+        "effect": "king_of_kings"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 7 slice 1, Milestone 36: mechanical, same per-graha table as PD.07.Neechabhanga.LordOrExaltedInSign, debilitation-lord/exaltation-lord pair read from PD.01.SignLord/.Exaltation)",
+        "verified_date": "2026-09-01"
+      },
+      "note": "\"Mutually in Kendra positions\" tested both directions explicitly (debilitation-sign lord in Kendra counted from the exaltation-sign lord's own placement, and the reverse), since Kendra-from-a-graha is not a symmetric relation in general. For Mercury (debilitated in Pisces, ruled by Jupiter; exalted in Virgo, its own sign) the second party is Mercury itself -- mutual Kendra between Jupiter and Mercury, no self-reference, since the two parties are still two distinct grahas (Jupiter and Mercury), not Mercury and Mercury. The Neechabhanga family (vv.26-30) is Chapter 7 slice 1 (Milestone 36); verses 1-25 are individually deferred in Rules/deferred.json, none silently dropped. Per-graha lord/exaltation table read from the store's own PD.01.SignLord.* and PD.01.Exaltation.* reference cards, not a Python literal -- Sun/Libra->Venus, Aries->Mars; Moon/Scorpio->Mars, Taurus->Venus; Mars/Cancer->Moon, Capricorn->Saturn; Mercury/Pisces->Jupiter, Virgo->Mercury (own sign); Jupiter/Capricorn->Saturn, Cancer->Moon; Venus/Virgo->Mercury, Pisces->Jupiter; Saturn/Aries->Mars, Libra->Venus. Existential 'any' over the seven classical grahas, not per-graha named cards, because unlike Pancha Mahapurusha (five separately named yogas, Ruchaka/Bhadra/Hamsa/Malavya/Sasa) Neechabhanga carries one name for a general condition on 'a planet' -- the same shape PD.20.MiseryDasa.DusthanaLords already uses for its own ?g existential over a fixed house list."
+    },
+    {
+      "id": "PD.07.Neechabhanga.AspectedByLord",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 7,
+        "verse": "28",
+        "page_anchor": "phaladeepika/p0090",
+        "tier": 1,
+        "quote": "28. If a planet is in his sign of debilitation, and is aspected by the lord of that sign, the debilitation gets cancelled and by the Neechabhanga Raja Yoga so formed the native becomes a ruler of the Earth and famous. And if in the above Yoga if the planet be placed in an auspicious case still better effects may be expected. […] (3) The planet in the sign of debilitation is aspected by the lord of that sign.",
+        "quote_display": "28. If a planet is in his sign of debilitation, and is aspected by the lord of that sign, the debilitation gets cancelled and by the Neechabhanga Raja Yoga so formed the native becomes a ruler of the Earth and famous. And if in the above Yoga if the planet be placed in an auspicious case still better effects may be expected. […] (3) The planet in the sign of debilitation is aspected by the lord of that sign.",
+        "quote_sha256": "036b91ae3307e303fa0cf69ed84b522ca17aeec91464b848adc03e9dd5fa614b",
+        "char_span": [
+          177473,
+          177799
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            177473,
+            177799
+          ],
+          [
+            178776,
+            178856
+          ]
+        ],
+        "quote_parts": [
+          "28. If a planet is in his sign of debilitation, and is aspected by the lord of that sign, the debilitation gets cancelled and by the Neechabhanga Raja Yoga so formed the native becomes a ruler of the Earth and famous. And if in the above Yoga if the planet be placed in an auspicious case still better effects may be expected.",
+          "(3) The planet in the sign of debilitation is aspected by the lord of that sign."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Sun",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "Sun",
+                  "house": "?hsun"
+                }
+              },
+              {
+                "aspects": {
+                  "graha": "Venus",
+                  "target": "?hsun"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Moon",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "Moon",
+                  "house": "?hmoon"
+                }
+              },
+              {
+                "aspects": {
+                  "graha": "Mars",
+                  "target": "?hmoon"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Mars",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "Mars",
+                  "house": "?hmars"
+                }
+              },
+              {
+                "aspects": {
+                  "graha": "Moon",
+                  "target": "?hmars"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Mercury",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "Mercury",
+                  "house": "?hmercury"
+                }
+              },
+              {
+                "aspects": {
+                  "graha": "Jupiter",
+                  "target": "?hmercury"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Jupiter",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "Jupiter",
+                  "house": "?hjupiter"
+                }
+              },
+              {
+                "aspects": {
+                  "graha": "Saturn",
+                  "target": "?hjupiter"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Venus",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "Venus",
+                  "house": "?hvenus"
+                }
+              },
+              {
+                "aspects": {
+                  "graha": "Mercury",
+                  "target": "?hvenus"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Saturn",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "in_house": {
+                  "graha": "Saturn",
+                  "house": "?hsaturn"
+                }
+              },
+              {
+                "aspects": {
+                  "graha": "Mars",
+                  "target": "?hsaturn"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "NeechabhangaRajaYoga",
+        "mechanism": "debilitated_planet_aspected_by_debilitation_lord",
+        "effect": "ruler_of_earth_famous"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 7 slice 1, Milestone 36: mechanical, aspects(debilitation_lord, house-of-debilitated-planet) via a shared bound variable, same pattern PD.10.Houses5And7.Flourish already uses)",
+        "verified_date": "2026-09-01"
+      },
+      "note": "The verse's own trailing sentence (\"if... the planet be placed in an auspicious case still better effects may be expected\") is quoted for completeness but not independently conditioned: \"auspicious case\" names no chart-testable term this store or chapter defines (not house-class, not dignity, not nature), the same posture passage:phaladeepika.06.p202's item (6) trailing clause took rather than inventing a meaning for an undefined qualifier. The Neechabhanga family (vv.26-30) is Chapter 7 slice 1 (Milestone 36); verses 1-25 are individually deferred in Rules/deferred.json, none silently dropped. Per-graha lord/exaltation table read from the store's own PD.01.SignLord.* and PD.01.Exaltation.* reference cards, not a Python literal -- Sun/Libra->Venus, Aries->Mars; Moon/Scorpio->Mars, Taurus->Venus; Mars/Cancer->Moon, Capricorn->Saturn; Mercury/Pisces->Jupiter, Virgo->Mercury (own sign); Jupiter/Capricorn->Saturn, Cancer->Moon; Venus/Virgo->Mercury, Pisces->Jupiter; Saturn/Aries->Mars, Libra->Venus. Existential 'any' over the seven classical grahas, not per-graha named cards, because unlike Pancha Mahapurusha (five separately named yogas, Ruchaka/Bhadra/Hamsa/Malavya/Sasa) Neechabhanga carries one name for a general condition on 'a planet' -- the same shape PD.20.MiseryDasa.DusthanaLords already uses for its own ?g existential over a fixed house list."
+    },
+    {
+      "id": "PD.07.Neechabhanga.LordOrExaltLordKendra",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 7,
+        "verse": "29",
+        "page_anchor": "phaladeepika/p0090",
+        "tier": 1,
+        "quote": "29. When the planet is posited in his sign of debilitation, if the lord of the sign so occupied or the lord of the planet's exaltation sign be in a Kendra position with reference to the Lagna or the Moon, the person so born will become very wealthy emperor. He will perform virtuous actions and will be very powerful, famous and affluent. […] (4) The lord of the sign of debilitation or the lord of the exaltation sign of the planet in debilitation, is in Kendra from the Lagna or the Moon.",
+        "quote_display": "29. When the planet is posited in his sign of debilitation, if the lord of the sign so occupied or the lord of the planet's exaltation sign be in a Kendra position with reference to the Lagna or the Moon, the person so born will become very wealthy emperor. He will perform virtuous actions and will be very powerful, famous and affluent. […] (4) The lord of the sign of debilitation or the lord of the exaltation sign of the planet in debilitation, is in Kendra from the Lagna or the Moon.",
+        "quote_sha256": "8196c04a853d147bd8a4c2ed7aca49a689d0ecd55d12e9f0229415367398ac50",
+        "char_span": [
+          177803,
+          178141
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            177803,
+            178141
+          ],
+          [
+            178860,
+            179007
+          ]
+        ],
+        "quote_parts": [
+          "29. When the planet is posited in his sign of debilitation, if the lord of the sign so occupied or the lord of the planet's exaltation sign be in a Kendra position with reference to the Lagna or the Moon, the person so born will become very wealthy emperor. He will perform virtuous actions and will be very powerful, famous and affluent.",
+          "(4) The lord of the sign of debilitation or the lord of the exaltation sign of the planet in debilitation, is in Kendra from the Lagna or the Moon."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Sun",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Venus",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  },
+                  {
+                    "in_house_class": {
+                      "graha": "Mars",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Moon",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Mars",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  },
+                  {
+                    "in_house_class": {
+                      "graha": "Venus",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Mars",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Moon",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Moon",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Moon",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Moon",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Moon",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  },
+                  {
+                    "in_house_class": {
+                      "graha": "Saturn",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Saturn",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Saturn",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Saturn",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Saturn",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Mercury",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Jupiter",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Jupiter",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Jupiter",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Jupiter",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Jupiter",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  },
+                  {
+                    "in_house_class": {
+                      "graha": "Mercury",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mercury",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mercury",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mercury",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mercury",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Jupiter",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Saturn",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Saturn",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Saturn",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Saturn",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Saturn",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  },
+                  {
+                    "in_house_class": {
+                      "graha": "Moon",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Moon",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Moon",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Moon",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Moon",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Venus",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Mercury",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mercury",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mercury",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mercury",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mercury",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  },
+                  {
+                    "in_house_class": {
+                      "graha": "Jupiter",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Jupiter",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Jupiter",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Jupiter",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Jupiter",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Saturn",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Mars",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  },
+                  {
+                    "in_house_class": {
+                      "graha": "Venus",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "NeechabhangaRajaYoga",
+        "mechanism": "debilitation_lord_or_own_exaltation_lord_in_kendra",
+        "effect": "wealthy_emperor"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 7 slice 1, Milestone 36: INTERPRETIVE STEP TAKEN AND RECORDED -- item 4 kept distinct from item 1's own near-identical prose per the Notes' own five-fold enumeration, see note)",
+        "verified_date": "2026-09-01"
+      },
+      "note": "Distinguished from PD.07.Neechabhanga.LordOrExaltedInSign (item 1, v.26) by which second graha the \"or\" names -- the Notes summary keeps the two verses apart even though v.26's own prose (\"the planet that is exalted in the sign\") and v.29's own prose (\"the lord of the planet's exaltation sign\") read close enough to collide on a casual pass: item 1's second disjunct is the sign's own exalting graha (a different lookup, undefined for Moon/Scorpio); item 4's second disjunct is the SIGN LORD of the debilitated planet's own exaltation sign (always defined, via PD.01.SignLord, the same table PD.07.Neechabhanga.MutualKendra's item 2 already reads). The Neechabhanga family (vv.26-30) is Chapter 7 slice 1 (Milestone 36); verses 1-25 are individually deferred in Rules/deferred.json, none silently dropped. Per-graha lord/exaltation table read from the store's own PD.01.SignLord.* and PD.01.Exaltation.* reference cards, not a Python literal -- Sun/Libra->Venus, Aries->Mars; Moon/Scorpio->Mars, Taurus->Venus; Mars/Cancer->Moon, Capricorn->Saturn; Mercury/Pisces->Jupiter, Virgo->Mercury (own sign); Jupiter/Capricorn->Saturn, Cancer->Moon; Venus/Virgo->Mercury, Pisces->Jupiter; Saturn/Aries->Mars, Libra->Venus. Existential 'any' over the seven classical grahas, not per-graha named cards, because unlike Pancha Mahapurusha (five separately named yogas, Ruchaka/Bhadra/Hamsa/Malavya/Sasa) Neechabhanga carries one name for a general condition on 'a planet' -- the same shape PD.20.MiseryDasa.DusthanaLords already uses for its own ?g existential over a fixed house list."
+    },
+    {
+      "id": "PD.07.Neechabhanga.PlanetItselfKendra",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 7,
+        "verse": "30",
+        "page_anchor": "phaladeepika/p0090",
+        "tier": 1,
+        "quote": "30. If a planet in his sign of debilitation be in a Kendra position with\r\n\r\n<!-- page phaladeepika/p0091 -->\r\nreference to the Moon or the Lagna, the debilitation gets cancelled and the Neechabhanga Raja Yoga so formed will produce an emperor revered by other Kings. […] (5) The planet in his sign of debilitation is in Kendra with reference to the Lagna or the Moon.",
+        "quote_display": "30. If a planet in his sign of debilitation be in a Kendra position with reference to the Moon or the Lagna, the debilitation gets cancelled and the Neechabhanga Raja Yoga so formed will produce an emperor revered by other Kings. […] (5) The planet in his sign of debilitation is in Kendra with reference to the Lagna or the Moon.",
+        "quote_sha256": "9c8e421db0b0c1ae62b977a7d16d00d7d58604c88d60d9294660561361eea832",
+        "char_span": [
+          178145,
+          178411
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            178145,
+            178411
+          ],
+          [
+            179011,
+            179107
+          ]
+        ],
+        "quote_parts": [
+          "30. If a planet in his sign of debilitation be in a Kendra position with\r\n\r\n<!-- page phaladeepika/p0091 -->\r\nreference to the Moon or the Lagna, the debilitation gets cancelled and the Neechabhanga Raja Yoga so formed will produce an emperor revered by other Kings.",
+          "(5) The planet in his sign of debilitation is in Kendra with reference to the Lagna or the Moon."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Sun",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Sun",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Sun",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Sun",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Sun",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Sun",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Moon",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Moon",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Moon",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Moon",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Moon",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Moon",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Mars",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Mars",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mars",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Mercury",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Mercury",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mercury",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mercury",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mercury",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Mercury",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Jupiter",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Jupiter",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Jupiter",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Jupiter",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Jupiter",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Jupiter",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Venus",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Venus",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Venus",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "dignity": {
+                  "graha": "Saturn",
+                  "dignity": "debilitated"
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_house_class": {
+                      "graha": "Saturn",
+                      "klass": "kendra"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Saturn",
+                      "reference": "Moon",
+                      "house": 1
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Saturn",
+                      "reference": "Moon",
+                      "house": 4
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Saturn",
+                      "reference": "Moon",
+                      "house": 7
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "Saturn",
+                      "reference": "Moon",
+                      "house": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "NeechabhangaRajaYoga",
+        "mechanism": "debilitated_planet_itself_in_kendra",
+        "effect": "emperor_revered_by_kings"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 7 slice 1, Milestone 36: mechanical, dignity(?g,debilitated) plus the same kendra-from-Lagna-or-Moon disjunct the other four items reuse)",
+        "verified_date": "2026-09-01"
+      },
+      "note": "The simplest of the five: no lordship lookup at all, the debilitated planet's own placement is the whole test. The Neechabhanga family (vv.26-30) is Chapter 7 slice 1 (Milestone 36); verses 1-25 are individually deferred in Rules/deferred.json, none silently dropped. Per-graha lord/exaltation table read from the store's own PD.01.SignLord.* and PD.01.Exaltation.* reference cards, not a Python literal -- Sun/Libra->Venus, Aries->Mars; Moon/Scorpio->Mars, Taurus->Venus; Mars/Cancer->Moon, Capricorn->Saturn; Mercury/Pisces->Jupiter, Virgo->Mercury (own sign); Jupiter/Capricorn->Saturn, Cancer->Moon; Venus/Virgo->Mercury, Pisces->Jupiter; Saturn/Aries->Mars, Libra->Venus. Existential 'any' over the seven classical grahas, not per-graha named cards, because unlike Pancha Mahapurusha (five separately named yogas, Ruchaka/Bhadra/Hamsa/Malavya/Sasa) Neechabhanga carries one name for a general condition on 'a planet' -- the same shape PD.20.MiseryDasa.DusthanaLords already uses for its own ?g existential over a fixed house list."
+    },
+    {
+      "id": "PD.07.Neechabhanga.UchchanathaNote",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 7,
+        "verse": "26 note",
+        "page_anchor": "phaladeepika/p0089",
+        "tier": 1,
+        "quote": "Note — There is some difference of opinion about the interpretation of the word Uchchanatha. Suppose Saturn is in the Aries in debilitation who will be Uchchanatha of Saturn? According to one view Saturn is exalted in Libra. Therefore lord of Libra, namely, Venus is the Uchchanatha. Another view is that Saturn being in Aries and the Sun is exalted in Aries. Therefore the Sun is the Uchchanatha. In our view the second view is more appropriate. There is also difference of opinion whether the conditions mentioned above have to be fulfilled before debilitation gets cancelled. Shri V. Subrahmanaya Shastri has taken the view that any of the two conditions should be enough for the cancellation of the debilitation. Pt. Gopesh Kumar Ojha has taken the view that both the conditions have to be fulfilled. We are of the view that it should be enough for any of the two conditions to be fulfilled for the cancellation of the debilitation. Our view and that of Shri Shastri is supported by Jataka Parijata.",
+        "quote_display": "Note — There is some difference of opinion about the interpretation of the word Uchchanatha. Suppose Saturn is in the Aries in debilitation who will be Uchchanatha of Saturn? According to one view Saturn is exalted in Libra. Therefore lord of Libra, namely, Venus is the Uchchanatha. Another view is that Saturn being in Aries and the Sun is exalted in Aries. Therefore the Sun is the Uchchanatha. In our view the second view is more appropriate. There is also difference of opinion whether the conditions mentioned above have to be fulfilled before debilitation gets cancelled. Shri V. Subrahmanaya Shastri has taken the view that any of the two conditions should be enough for the cancellation of the debilitation. Pt. Gopesh Kumar Ojha has taken the view that both the conditions have to be fulfilled. We are of the view that it should be enough for any of the two conditions to be fulfilled for the cancellation of the debilitation. Our view and that of Shri Shastri is supported by Jataka Parijata.",
+        "quote_sha256": "06ff21fad55194b0a210fdae58336153f2e2a3a3c26301381e24995670c5b62a",
+        "char_span": [
+          174728,
+          175731
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "domain": "commentary",
+        "topic": "neechabhanga_uchchanatha_dispute",
+        "dispute": "which graha is Uchchanatha (exaltation-lord) of a debilitated planet's sign, and whether v.26's two disjuncts are alternative or cumulative",
+        "translator_resolution": "the graha exalted in the debilitation sign (not the debilitation sign's own ruling lord); either of v.26's two conditions suffices, against Pt. Gopesh Kumar Ojha's dissenting requirement of both"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 7 slice 1, Milestone 36: documentary, accounts for the paragraph and cites the interpretive resolution the firing card relies on)",
+        "verified_date": "2026-09-01"
+      },
+      "kind": "reference",
+      "activation": "reference",
+      "note": "Tier-2 commentary (translator's Notes, not Mantreswara's own verse), quoted whole because both disputes it records directly informed how PD.07.Neechabhanga.LordOrExaltedInSign was encoded (disjunctive, and \"exalted in the sign\" read as the sign's own exalting graha) -- see that card's own note. Not independently testable: this paragraph argues for a reading, it does not state a further chart condition. The Neechabhanga family (vv.26-30) is Chapter 7 slice 1 (Milestone 36); verses 1-25 are individually deferred in Rules/deferred.json, none silently dropped. Per-graha lord/exaltation table read from the store's own PD.01.SignLord.* and PD.01.Exaltation.* reference cards, not a Python literal -- Sun/Libra->Venus, Aries->Mars; Moon/Scorpio->Mars, Taurus->Venus; Mars/Cancer->Moon, Capricorn->Saturn; Mercury/Pisces->Jupiter, Virgo->Mercury (own sign); Jupiter/Capricorn->Saturn, Cancer->Moon; Venus/Virgo->Mercury, Pisces->Jupiter; Saturn/Aries->Mars, Libra->Venus. Existential 'any' over the seven classical grahas, not per-graha named cards, because unlike Pancha Mahapurusha (five separately named yogas, Ruchaka/Bhadra/Hamsa/Malavya/Sasa) Neechabhanga carries one name for a general condition on 'a planet' -- the same shape PD.20.MiseryDasa.DusthanaLords already uses for its own ?g existential over a fixed house list."
+    }
+  ]
+}
