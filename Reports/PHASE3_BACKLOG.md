@@ -6,14 +6,14 @@ Nothing may be silently deferred. Inert cards are read out of the store, deferre
 
 | | |
 |---|---|
-| Backlog entries | **198** |
+| Backlog entries | **199** |
 | — of kind `card` | 14 |
-| — of kind `passage` | 103 |
+| — of kind `passage` | 100 |
 | — of kind `chapter` | 45 |
 | — of kind `concept` | 25 |
-| Resolved | 11 |
-| Cards in store | 601 |
-| Firing | 587 |
+| Resolved | 15 |
+| Cards in store | 611 |
+| Firing | 597 |
 | Inert | 14 |
 
 ## Dependencies
@@ -22,7 +22,7 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 
 | Dependency | Kind | Implemented | Entries blocked | Cards blocked | Phase |
 |---|---|---|---|---|---|
-| `dep.none` — no dependency -- simply not yet done | process | yes | 108 | 0 | 3 (knowledge) |
+| `dep.none` — no dependency -- simply not yet done | process | yes | 104 | 0 | 3 (knowledge) |
 | `dep.adjudication` — Stage 7 adjudication | engine | no | 15 | 1 | 4 (integration) |
 | `dep.manual-verification` — human verification of the encoding | process | no | 10 | 2 | 3 (knowledge) |
 | `dep.graha-condition-count` — count of a fixed graha set satisfying an arbitrary per-graha condition | predicate | no | 5 | 0 | 2 (engine completion) |
@@ -54,6 +54,7 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 | `dep.kendra-togetherness` — what "together in a Kendra" means | concept | no | 1 | 1 | 3 (knowledge) |
 | `dep.multi-span-quote` — quotation across two spans | schema | yes | 1 | 0 | 4 (integration) |
 | `dep.nature` — benefic/malefic classification | calculator | yes | 1 | 1 | 3 (knowledge) |
+| `dep.own-or-benefic-dignity-in-varga` — own-sign / benefic dignity read against a divisional placement | predicate | no | 1 | 0 | 3 (knowledge) |
 | `dep.parivartana` — Parivartana (mutual sign-exchange) between two house lords | predicate | no | 1 | 0 | 2 (engine completion) |
 | `dep.prashna` — prashna (horary) branch | engine | no | 1 | 1 | beyond the MVP |
 | `dep.rising-order-sign-class` — shirshodaya/ubhayodaya/prishtodaya rising-order sign classification, queryable per sign | reference | no | 1 | 0 | 3 (knowledge) |
@@ -101,7 +102,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 
 ## Available now
 
-108 entr(y/ies) are deferred by ordering alone — nothing blocks them. This is the Phase 3 work queue.
+104 entr(y/ies) are deferred by ordering alone — nothing blocks them. This is the Phase 3 work queue.
 
 ## Entries
 
@@ -158,7 +159,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `chapter:phaladeepika.27` | phaladeepika | 27 | whole chapter - Yogas leading to ascetism | sanyasa yogas | Rule-dense and encodable now; deferred by ordering only. | `dep.none` | 3 (knowledge) | deferred |
 | `chapter:phaladeepika.28` | phaladeepika | 28 | whole chapter - Concluding Chapter | the author's colophon and closing remarks | Narrative, not doctrine. Will be reviewed once for any rule hidden in the closing remarks, then written off. | `dep.none` | 3 (knowledge) | deferred |
 
-### Passages inside encoded chapters (111)
+### Passages inside encoded chapters (112)
 
 | Entry | Book | Chapter | Locus | Deferred | Reason | Blocked on | Phase | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -223,18 +224,19 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `passage:phaladeepika.07.p013` | phaladeepika | 7 | v.9 (p.85-86) | Mars in Aries/Sagittarius as the Lagna aspected by a friendly planet; or the 9th and 10th lords exchanging houses | The second yoga is Parivartana (mutual sign-exchange between two house lords), a doctrine this store has never encoded a predicate for -- dep.parivartana, re… | `dep.parivartana` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.07.p015` | phaladeepika | 7 | v.10 and its Notes (p.86) | one fully specified planetary configuration (Sun-Moon conjunct in mid-Sagittarius, Saturn in the Lagna, exalted Mars) producing a valorous king; the Notes' cross-reference to Varahamihir's own Saturn-rising doctrine | Deferred by ordering only for this slice (dep.none) -- the configuration is expressible with existing predicates (conjunct, in_sign, in_house, dignity); left… | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.07.p018` | phaladeepika | 7 | vv.11-12 (p.86-87) | the full Moon in the Sun's Navamsa with unafflicted benefics in kendra; the full Moon with three other undamaged planets in their own Navamsas aspected by benefics | Both gate on the full Moon -- dep.paksha again; v.12 additionally counts ('three other planets'), dep.graha-condition-count. | `dep.paksha`, `dep.graha-condition-count` | 3 (knowledge) | deferred |
-| `passage:phaladeepika.07.p020` | phaladeepika | 7 | v.13 (p.87) | the Moon in Vargottama aspected by a strong planet, with no malefic in the Lagna | Deferred by ordering only for this slice (dep.none) -- vargottama, strength and aspects are all implemented; 'no malefic in the Lagna' is a finite enumerated… | `dep.none` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.07.p020` | phaladeepika | 7 | v.13 (p.87) | the Moon in Vargottama aspected by a strong planet, with no malefic in the Lagna | RESOLVED (Milestone 37). Encoded as one firing card, PD.07.Emperor.VargottamaMoonAspectedNoMalefic. Condition: vargottama(Moon) AND strength(?g,strong) AND a… | `dep.none` | 3 (knowledge) | resolved |
 | `passage:phaladeepika.07.p021` | phaladeepika | 7 | v.14 (p.87) | Jupiter, Mercury, Venus or the Moon uneclipsed in the 9th, aspected by or associated with friendly planets | Deferred by ordering only for this slice (dep.none) -- close to encodable with existing predicates; whether natural friendship is exposed as a directly query… | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.07.p022` | phaladeepika | 7 | v.15 and its Notes (p.86-87) | one fully specified but disputed planetary configuration -- the Notes record two incompatible commentators' reconstructions of the same verse, Shri V. Subrahmanya Shastri's and Pt. Gopesh Kumar Ojha's, each with its own worked horoscope | The Notes call the verse itself 'somewhat confusing and complicated' and record two commentators' materially different reconstructions of what chart it descr… | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.07.p036` | phaladeepika | 7 | v.16 (p.87-88) | a night birth with the Moon in Cancer as the 10th house and a specific benefic disposition, forming a world-ruling king | 'The birth be at night' names day/night birth, not encoded -- dep.day-night, already registered, not implemented. | `dep.day-night` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.07.p037` | phaladeepika | 7 | v.17 (p.88) | the full Moon in Vargottamamsa | Full Moon again -- dep.paksha. | `dep.paksha` | 3 (knowledge) | deferred |
-| `passage:phaladeepika.07.p038` | phaladeepika | 7 | v.18 (p.88) | Jupiter and the Moon in kendra aspected by Venus, with no planet in a sign of debilitation | Deferred by ordering only for this slice (dep.none) -- fully expressible with existing predicates (in_house_class, aspects, and a finite enumerated negation … | `dep.none` | 3 (knowledge) | deferred |
-| `passage:phaladeepika.07.p039` | phaladeepika | 7 | v.19 (p.88) | the Moon in a watery sign and Navamsa identical with the Lagna, in its own or a benefic Varga, with no malefic in a kendra | Deferred by ordering only for this slice (dep.none) -- 'watery sign' is an existing sign class (PD.01.SignBodyForm.Table), Navamsa-equals-Lagna is expressibl… | `dep.none` | 3 (knowledge) | deferred |
-| `passage:phaladeepika.07.p040` | phaladeepika | 7 | v.20 (p.88) | four Raja Yogas: Venus aspected by Jupiter; Jupiter in a non-Capricorn Lagna; a full-strength Lagna lord in kendra; full-strength Mercury in kendra aspected by Jupiter | Deferred by ordering only for this slice (dep.none) -- all four sub-clauses are expressible with existing predicates (aspects, in_house, in_sign exclusion, l… | `dep.none` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.07.p038` | phaladeepika | 7 | v.18 (p.88) | Jupiter and the Moon in kendra aspected by Venus, with no planet in a sign of debilitation | RESOLVED (Milestone 37). Encoded as one firing card, PD.07.King.JupiterMoonKendraVenusAspectedNoDebilitation. Condition: in_house_class(Jupiter,kendra) AND i… | `dep.none` | 3 (knowledge) | resolved |
+| `passage:phaladeepika.07.p039` | phaladeepika | 7 | v.19 (p.88) | the Moon in a watery sign and Navamsa identical with the Lagna, in its own or a benefic Varga, with no malefics in Kendra | CORRECTED (Milestone 37) -- the Milestone 36 note above was too optimistic. 'Watery sign', Navamsa-equals-Lagna and the negation are indeed all expressible w… | `dep.own-or-benefic-dignity-in-varga` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.07.p040` | phaladeepika | 7 | v.20 items (b)-(d) (p.88) | three Raja Yogas: Jupiter in a non-Capricorn Lagna; a full-strength Lagna lord in kendra; full-strength Mercury in kendra aspected by Jupiter | RESOLVED (Milestone 37) for items (b)-(d). Encoded as three firing cards -- PD.07.King.JupiterLagnaNotCapricorn, PD.07.King.StrongLagnaLordKendra, PD.07.King… | `dep.none` | 3 (knowledge) | resolved |
+| `passage:phaladeepika.07.p040-royalfamily` | phaladeepika | 7 | v.20 item (a) (p.87-88) | Venus aspected by Jupiter, for a person born in a royal family | Split out of passage:phaladeepika.07.p040 (Milestone 37) so its own genuine gap does not hide behind that entry's now-resolved items (b)-(d). 'Aspected by Ju… | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.07.p046` | phaladeepika | 7 | v.21 and its Note (p.88-89) | an exalted planet aspected by a friendly planet (richer still if also conjunct one); the Sun in its own Navamsa with the Moon in its own sign, both strong | Deferred by ordering only for this slice (dep.none) -- close to encodable; whether natural friendship is exposed as a directly queryable condition-language f… | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.07.p050` | phaladeepika | 7 | v.22 (p.89) | the full Moon in Pisces aspected by a friendly planet; or the full, exalted Moon | Full Moon again -- dep.paksha. | `dep.paksha` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.07.p053` | phaladeepika | 7 | v.23 (p.89) | the Moon in an Adhimitra Navamsa aspected by Venus, richer still if also aspected by Jupiter | 'Adhimitra' is a compound (Panchadha Maitri) friendship tier beyond the three dep.dignity-friendship already covers -- dep.compound-friendship, already regis… | `dep.compound-friendship` | 3 (knowledge) | deferred |
-| `passage:phaladeepika.07.p055` | phaladeepika | 7 | vv.24-25 (p.89) | four further Raja Yogas by placement/conjunction (malefics in 3rd/6th/11th from the Lagna-lord's house, the Moon or the Lagna; Mars and Mercury in the 2nd; the Sun and Venus in the 4th; Mars/Saturn/Jupiter in the 10th/11th/Lagna); one of the 11th/9th/2nd lords in kendra from the Moon with Jupiter owning the 2nd, 5th or 11th | Deferred by ordering only for this slice (dep.none) -- all five sub-yogas are expressible with existing predicates (nature, in_house, in_house_from, conjunct… | `dep.none` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.07.p055` | phaladeepika | 7 | vv.24-25 (p.89) | four further Raja Yogas by placement/conjunction (malefics in 3rd/6th/11th from the Lagna-lord's house, the Moon or the Lagna; Mars and Mercury in the 2nd; the Sun and Venus in the 4th; Mars/Saturn/Jupiter in the 10th/11th/Lagna); one of the 11th/9th/2nd lords in kendra from the Moon with Jupiter owning the 2nd, 5th or 11th | RESOLVED (Milestone 37). Encoded as five firing cards: PD.07.RajaYoga.MaleficsThirdSixthEleventh, .MarsMercurySecond, .SunVenusFourth, .MarsSaturnJupiterTent… | `dep.none` | 3 (knowledge) | resolved |
 | `passage:phaladeepika.07.p065` | phaladeepika | 7 | v.26 Notes illustration (p.90) | a transcribed horoscope chart and its worked-example narration (Saturn debilitated in Aries, Mars and Sun in Kendra) illustrating item (1)'s doctrine | Tier-3 apparatus (a transcribed chart diagram and its narration), excluded from rule extraction exactly as this store's other horoscope illustrations already… | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.07.p082` | phaladeepika | 7 | chapter close (p.92) | "Thus ends the seventh chapter on 'Maharaja Yogas' in Phaladeepika composed by Mantreswara." | Colophon, not doctrine -- the same treatment this store's other chapter-close colophons already received. | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.08.p012` | phaladeepika | 8 | v. 8 Notes (p.93) | the translator's qualification of the Sun in the 10th: the good effects hold only for eight of the twelve lagnas | Tier-2 commentary that narrows a tier-1 card already in the store (PD.08.Sun.10). It is an exclusion on an existing rule, and the card schema records exclusi… | `dep.lord-of-house`, `dep.adjudication` | 4 (integration) | deferred |

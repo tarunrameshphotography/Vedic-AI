@@ -2456,6 +2456,1017 @@
       "kind": "reference",
       "activation": "reference",
       "note": "Tier-2 commentary (translator's Notes, not Mantreswara's own verse), quoted whole because both disputes it records directly informed how PD.07.Neechabhanga.LordOrExaltedInSign was encoded (disjunctive, and \"exalted in the sign\" read as the sign's own exalting graha) -- see that card's own note. Not independently testable: this paragraph argues for a reading, it does not state a further chart condition. The Neechabhanga family (vv.26-30) is Chapter 7 slice 1 (Milestone 36); verses 1-25 are individually deferred in Rules/deferred.json, none silently dropped. Per-graha lord/exaltation table read from the store's own PD.01.SignLord.* and PD.01.Exaltation.* reference cards, not a Python literal -- Sun/Libra->Venus, Aries->Mars; Moon/Scorpio->Mars, Taurus->Venus; Mars/Cancer->Moon, Capricorn->Saturn; Mercury/Pisces->Jupiter, Virgo->Mercury (own sign); Jupiter/Capricorn->Saturn, Cancer->Moon; Venus/Virgo->Mercury, Pisces->Jupiter; Saturn/Aries->Mars, Libra->Venus. Existential 'any' over the seven classical grahas, not per-graha named cards, because unlike Pancha Mahapurusha (five separately named yogas, Ruchaka/Bhadra/Hamsa/Malavya/Sasa) Neechabhanga carries one name for a general condition on 'a planet' -- the same shape PD.20.MiseryDasa.DusthanaLords already uses for its own ?g existential over a fixed house list."
+    },
+    {
+      "id": "PD.07.Emperor.VargottamaMoonAspectedNoMalefic",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 7,
+        "verse": "13",
+        "page_anchor": "phaladeepika/p0085",
+        "tier": 1,
+        "quote": "13. Should the Moon having attained Vargottamsa be aspected by a strong planet and no malefic be posited in the Lagna the person will become an emperor and possess a well formed body.",
+        "quote_display": "13. Should the Moon having attained Vargottamsa be aspected by a strong planet and no malefic be posited in the Lagna the person will become an emperor and possess a well formed body.",
+        "quote_sha256": "574203cb1b2c20f99f0c03f3182dd26b17df71b4b06b3c8bf96a4bdb22fb0bfb",
+        "char_span": [
+          165435,
+          165618
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "vargottama": {
+              "graha": "Moon"
+            }
+          },
+          {
+            "strength": {
+              "graha": "?g",
+              "strength": "strong"
+            }
+          },
+          {
+            "aspects": {
+              "graha": "?g",
+              "target": "Moon"
+            }
+          },
+          {
+            "not": {
+              "all": [
+                {
+                  "nature": {
+                    "graha": "?m",
+                    "nature": "malefic"
+                  }
+                },
+                {
+                  "in_house": {
+                    "graha": "?m",
+                    "house": 1
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "RajaYoga",
+        "mechanism": "vargottama_moon_aspected_by_strong_planet_no_malefic_in_lagna",
+        "effect": "emperor_well_formed_body"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 7 slice 2, Milestone 37: mechanical, vargottama/strength/aspects/nature/in_house all reused exactly as-is)",
+        "verified_date": "2026-09-02"
+      },
+      "note": "\"No malefic be posited in the Lagna\" encoded as correlated negation-as-failure over a fresh variable (`not` wrapping `nature(?m,malefic)` and `in_house(?m,1)`), the same pattern PD.06.Kemadruma already uses for \"if the above three Yogas are absent\" -- an existential check for absence, not an enumeration over named grahas. Chapter 7 slice 2 (Milestone 37); this verse was tagged `dep.none` at Milestone 36 (`passage:phaladeepika.07.p020`), deferred there by ordering only. No new engine capability."
+    },
+    {
+      "id": "PD.07.King.JupiterMoonKendraVenusAspectedNoDebilitation",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 7,
+        "verse": "18",
+        "page_anchor": "phaladeepika/p0087",
+        "tier": 1,
+        "quote": "18. Should Jupiter and the Moon be in kendra aspected by Venus with no planet in his sign of debilitation, the person born becomes king with unequalled fame.",
+        "quote_display": "18. Should Jupiter and the Moon be in kendra aspected by Venus with no planet in his sign of debilitation, the person born becomes king with unequalled fame.",
+        "quote_sha256": "23a2b130095e482d6975cb0c243b7422d5213b2c821c10f910e420e5bcd3ed7d",
+        "char_span": [
+          171126,
+          171283
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house_class": {
+              "graha": "Jupiter",
+              "klass": "kendra"
+            }
+          },
+          {
+            "in_house_class": {
+              "graha": "Moon",
+              "klass": "kendra"
+            }
+          },
+          {
+            "aspects": {
+              "graha": "Venus",
+              "target": "Jupiter"
+            }
+          },
+          {
+            "aspects": {
+              "graha": "Venus",
+              "target": "Moon"
+            }
+          },
+          {
+            "not": {
+              "dignity": {
+                "graha": "?p",
+                "dignity": "debilitated"
+              }
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "RajaYoga",
+        "mechanism": "jupiter_moon_kendra_aspected_by_venus_no_debilitated_planet",
+        "effect": "king_unequalled_fame"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 7 slice 2, Milestone 37: INTERPRETIVE STEP TAKEN AND RECORDED -- \"aspected by Venus\" read as governing the compound subject \"Jupiter and the Moon\", see note)",
+        "verified_date": "2026-09-02"
+      },
+      "note": "INTERPRETIVE STEP TAKEN AND RECORDED: \"Jupiter and the Moon be in kendra aspected by Venus\" is read as the participial phrase \"aspected by Venus\" governing the compound subject \"Jupiter and the Moon\" as a whole -- i.e. Venus aspects both -- rather than only the nearer noun (the Moon). This is a plain-grammar reading of the printed English sentence itself, not an import of outside astrological convention; the verse carries no Note resolving it and no worked example to corroborate against, unlike v.26's disjunctive \"or\" (see PD.07.Neechabhanga.LordOrExaltedInSign's own note), so this remains a reading rather than a source-confirmed resolution. \"No planet in his sign of debilitation\" encoded as `not: dignity(?p,debilitated)`, the same existential-absence shape as PD.07.Emperor.VargottamaMoonAspectedNoMalefic's \"no malefic in the Lagna\". Chapter 7 slice 2 (Milestone 37); this verse was tagged `dep.none` at Milestone 36 (`passage:phaladeepika.07.p038`). No new engine capability."
+    },
+    {
+      "id": "PD.07.King.JupiterLagnaNotCapricorn",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 7,
+        "verse": "20",
+        "page_anchor": "phaladeepika/p0087",
+        "tier": 1,
+        "quote": "20. Five Yogas are described in this Verse which are as follows — […] If Jupiter occupies a sign other than Capricorn identical with Lagna, the native becomes a King with many elephants under his charge.",
+        "quote_display": "20. Five Yogas are described in this Verse which are as follows — […] If Jupiter occupies a sign other than Capricorn identical with Lagna, the native becomes a King with many elephants under his charge.",
+        "quote_sha256": "7b5dac7d9d10eb988580dafe25026bfe37b10ac29891f64264d0679e344f14c8",
+        "char_span": [
+          171486,
+          171551
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            171486,
+            171551
+          ],
+          [
+            171683,
+            171816
+          ]
+        ],
+        "quote_parts": [
+          "20. Five Yogas are described in this Verse which are as follows —",
+          "If Jupiter occupies a sign other than Capricorn identical with Lagna, the native becomes a King with many elephants under his charge."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Jupiter",
+              "house": 1
+            }
+          },
+          {
+            "not": {
+              "lagna_sign": {
+                "sign": "Capricorn"
+              }
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "RajaYoga",
+        "mechanism": "jupiter_in_lagna_not_capricorn",
+        "effect": "king_many_elephants"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 7 slice 2, Milestone 37: mechanical, in_house/lagna_sign reused exactly as-is)",
+        "verified_date": "2026-09-02"
+      },
+      "note": "v.20's own heading (\"Five Yogas are described in this Verse\") is printed and quoted as-is, but only four are ever numbered or stated in the corpus text ((a)-(c) and a fourth marked \"(4)\" rather than \"(d)\", itself transcribed as printed) -- no fifth yoga is stated anywhere for this verse, and none is invented here to reconcile the stated count. This card is item (b): \"a sign other than Capricorn identical with Lagna\" read as Jupiter occupying the 1st house (\"a sign... identical with Lagna\" = the Lagna sign) while that sign is not Capricorn -- Capricorn also being Jupiter's own sign of debilitation (PD.01.Exaltation), which is presumably why the exception is stated, though that rationale is not itself conditioned since the verse states the sign name directly rather than \"not debilitated\". Item (a) (Venus aspected by Jupiter, gated on the native being \"born in a royal family\") is deferred separately -- `BirthRecord` carries no family-status field and no verse states how to derive one astrologically, the same gap `passage:phaladeepika.07.p001` already named for vv.1-2. Chapter 7 slice 2 (Milestone 37); this verse was tagged `dep.none` at Milestone 36 (`passage:phaladeepika.07.p040`). No new engine capability."
+    },
+    {
+      "id": "PD.07.King.StrongLagnaLordKendra",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 7,
+        "verse": "20",
+        "page_anchor": "phaladeepika/p0087",
+        "tier": 1,
+        "quote": "20. Five Yogas are described in this Verse which are as follows — […] A King will be born if in a nativity the lord of the Lagna vested with full strength occupies a Kendra.",
+        "quote_display": "20. Five Yogas are described in this Verse which are as follows — […] A King will be born if in a nativity the lord of the Lagna vested with full strength occupies a Kendra.",
+        "quote_sha256": "c7323baa8d7ed5b6b09212961680aca6c75650c69cff0fa60cdbef47c12fdb07",
+        "char_span": [
+          171486,
+          171551
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            171486,
+            171551
+          ],
+          [
+            171824,
+            171927
+          ]
+        ],
+        "quote_parts": [
+          "20. Five Yogas are described in this Verse which are as follows —",
+          "A King will be born if in a nativity the lord of the Lagna vested with full strength occupies a Kendra."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 1
+            }
+          },
+          {
+            "strength": {
+              "graha": "?g",
+              "strength": "strong"
+            }
+          },
+          {
+            "in_house_class": {
+              "graha": "?g",
+              "klass": "kendra"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "RajaYoga",
+        "mechanism": "strong_lagna_lord_in_kendra",
+        "effect": "king"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 7 slice 2, Milestone 37: mechanical, lord_of_house/strength/in_house_class reused exactly as-is)",
+        "verified_date": "2026-09-02"
+      },
+      "note": "Item (c) of v.20. \"Vested with full strength\" read as `strength(?g,strong)` -- this store's `strength` predicate carries only the two words the source itself uses, \"strong\"/\"weak\" (see `Engine/facts.py`'s own `strength` vocabulary comment and concept:strength-criterion-scope), so no separate \"full\" gradation is invented. Chapter 7 slice 2 (Milestone 37); this verse was tagged `dep.none` at Milestone 36 (`passage:phaladeepika.07.p040`). No new engine capability."
+    },
+    {
+      "id": "PD.07.King.StrongMercuryKendraAspectedJupiter",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 7,
+        "verse": "20",
+        "page_anchor": "phaladeepika/p0087",
+        "tier": 1,
+        "quote": "20. Five Yogas are described in this Verse which are as follows — […] (4) If at birth Mercury with full strength is posited in Kendra and is aspected by Jupiter, the native becomes so influential that the Kings act according to his advice.",
+        "quote_display": "20. Five Yogas are described in this Verse which are as follows — […] (4) If at birth Mercury with full strength is posited in Kendra and is aspected by Jupiter, the native becomes so influential that the Kings act according to his advice.",
+        "quote_sha256": "4c3f801ea1fb6fc1569d1ff01006b06b1a5d3e1d4e1334e072a33462a58d1d68",
+        "char_span": [
+          171486,
+          171551
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            171486,
+            171551
+          ],
+          [
+            171931,
+            172100
+          ]
+        ],
+        "quote_parts": [
+          "20. Five Yogas are described in this Verse which are as follows —",
+          "(4) If at birth Mercury with full strength is posited in Kendra and is aspected by Jupiter, the native becomes so influential that the Kings act according to his advice."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "strength": {
+              "graha": "Mercury",
+              "strength": "strong"
+            }
+          },
+          {
+            "in_house_class": {
+              "graha": "Mercury",
+              "klass": "kendra"
+            }
+          },
+          {
+            "aspects": {
+              "graha": "Jupiter",
+              "target": "Mercury"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "RajaYoga",
+        "mechanism": "strong_mercury_in_kendra_aspected_by_jupiter",
+        "effect": "influential_advisor_to_kings"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 7 slice 2, Milestone 37: mechanical, strength/in_house_class/aspects reused exactly as-is)",
+        "verified_date": "2026-09-02"
+      },
+      "note": "Item (d) of v.20, printed and transcribed as \"(4)\" rather than \"(d)\" -- the same evident print-numbering defect noted on PD.07.King.JupiterLagnaNotCapricorn. Chapter 7 slice 2 (Milestone 37); this verse was tagged `dep.none` at Milestone 36 (`passage:phaladeepika.07.p040`). No new engine capability."
+    },
+    {
+      "id": "PD.07.RajaYoga.MaleficsThirdSixthEleventh",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 7,
+        "verse": "24",
+        "page_anchor": "phaladeepika/p0088",
+        "tier": 1,
+        "quote": "24. The following are 4 Raja yogas declared by those versed in the science of Astrology — […] (1) Malefics posited in the 3rd, 6th and 11th house counted from […] The house occupied by the lord of Lagna, Moon or from the Lagna.",
+        "quote_display": "24. The following are 4 Raja yogas declared by those versed in the science of Astrology — […] (1) Malefics posited in the 3rd, 6th and 11th house counted from […] The house occupied by the lord of Lagna, Moon or from the Lagna.",
+        "quote_sha256": "baf7c88277ef6c5ea0858d308742db564770847c78fe7baae31fcf40fe31558d",
+        "char_span": [
+          173410,
+          173499
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            173410,
+            173499
+          ],
+          [
+            173503,
+            173567
+          ],
+          [
+            173605,
+            173669
+          ]
+        ],
+        "quote_parts": [
+          "24. The following are 4 Raja yogas declared by those versed in the science of Astrology —",
+          "(1) Malefics posited in the 3rd, 6th and 11th house counted from",
+          "The house occupied by the lord of Lagna, Moon or from the Lagna."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?ll",
+                  "house": 1
+                }
+              },
+              {
+                "all": [
+                  {
+                    "nature": {
+                      "graha": "?m1",
+                      "nature": "malefic"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "?m1",
+                      "reference": "?ll",
+                      "house": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "nature": {
+                      "graha": "?m2",
+                      "nature": "malefic"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "?m2",
+                      "reference": "?ll",
+                      "house": 6
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "nature": {
+                      "graha": "?m3",
+                      "nature": "malefic"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "?m3",
+                      "reference": "?ll",
+                      "house": 11
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "all": [
+                  {
+                    "nature": {
+                      "graha": "?m1",
+                      "nature": "malefic"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "?m1",
+                      "reference": "Moon",
+                      "house": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "nature": {
+                      "graha": "?m2",
+                      "nature": "malefic"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "?m2",
+                      "reference": "Moon",
+                      "house": 6
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "nature": {
+                      "graha": "?m3",
+                      "nature": "malefic"
+                    }
+                  },
+                  {
+                    "in_house_from": {
+                      "graha": "?m3",
+                      "reference": "Moon",
+                      "house": 11
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "all": [
+                  {
+                    "nature": {
+                      "graha": "?m1",
+                      "nature": "malefic"
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?m1",
+                      "house": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "nature": {
+                      "graha": "?m2",
+                      "nature": "malefic"
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?m2",
+                      "house": 6
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "nature": {
+                      "graha": "?m3",
+                      "nature": "malefic"
+                    }
+                  },
+                  {
+                    "in_house": {
+                      "graha": "?m3",
+                      "house": 11
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "RajaYoga",
+        "mechanism": "malefics_in_third_sixth_eleventh_from_lagna_lord_or_moon_or_lagna",
+        "effect": "raja_yoga"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 7 slice 2, Milestone 37: INTERPRETIVE STEP TAKEN AND RECORDED -- three alternative reference points and a three-house conjunctive reading, see note)",
+        "verified_date": "2026-09-02"
+      },
+      "note": "INTERPRETIVE STEP TAKEN AND RECORDED: \"the 3rd, 6th and 11th house counted from the house occupied by the lord of Lagna, Moon or from the Lagna\" is read as three ALTERNATIVE reference points (any of: the Lagna-lord's own house, the Moon, the Lagna itself), each requiring malefics in ALL THREE of the 3rd/6th/11th counted from that one reference point -- a plain-grammar reading of the printed list (\"the 3rd, 6th and 11th\", conjunctive \"and\") rather than a disjunctive \"any one of\" reading, and not the same word-level dispute v.26's own \"or\" carried (no Note or worked example addresses this sentence). \"From the Lagna\" uses `in_house` directly (already Lagna-relative under whole-sign houses) rather than `in_house_from`, since the Lagna itself is not a chart body (the same architecture gap `dep.lagna-strength`'s own Decision 0b already named) and does not need to be, given the houses are already counted from it. \"The house occupied by the lord of Lagna\" binds a fresh variable via `lord_of_house(?ll,1)` and reuses it as `in_house_from`'s reference, the general graha-frame mechanism `dep.graha-frame` already provides for any pair of grahas, not only the Moon. No distinctness constraint is placed on ?m1/?m2/?m3: three simultaneously-satisfying facts cannot in fact be the same graha, since one graha cannot occupy three different houses from the same reference at once, so none is invented. Chapter 7 slice 2 (Milestone 37); this verse was tagged `dep.none` at Milestone 36 (`passage:phaladeepika.07.p055`), deferred there by ordering only, and named \"among the cleanest remaining material in the chapter\". No new engine capability."
+    },
+    {
+      "id": "PD.07.RajaYoga.MarsMercurySecond",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 7,
+        "verse": "24",
+        "page_anchor": "phaladeepika/p0088",
+        "tier": 1,
+        "quote": "24. The following are 4 Raja yogas declared by those versed in the science of Astrology — […] (2) Mars and Mercury occupying the 2nd house from the Lagna.",
+        "quote_display": "24. The following are 4 Raja yogas declared by those versed in the science of Astrology — […] (2) Mars and Mercury occupying the 2nd house from the Lagna.",
+        "quote_sha256": "d9b9277b7dfe911c7d9b792f6dea28840f611f6de82a693c5e4959e2a9cb1475",
+        "char_span": [
+          173410,
+          173499
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            173410,
+            173499
+          ],
+          [
+            173673,
+            173733
+          ]
+        ],
+        "quote_parts": [
+          "24. The following are 4 Raja yogas declared by those versed in the science of Astrology —",
+          "(2) Mars and Mercury occupying the 2nd house from the Lagna."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mars",
+              "house": 2
+            }
+          },
+          {
+            "in_house": {
+              "graha": "Mercury",
+              "house": 2
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "RajaYoga",
+        "mechanism": "mars_mercury_in_second",
+        "effect": "raja_yoga"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 7 slice 2, Milestone 37: mechanical, in_house reused exactly as-is)",
+        "verified_date": "2026-09-02"
+      },
+      "note": "Item (2) of v.24. Chapter 7 slice 2 (Milestone 37); this verse was tagged `dep.none` at Milestone 36 (`passage:phaladeepika.07.p055`). No new engine capability."
+    },
+    {
+      "id": "PD.07.RajaYoga.SunVenusFourth",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 7,
+        "verse": "24",
+        "page_anchor": "phaladeepika/p0088",
+        "tier": 1,
+        "quote": "24. The following are 4 Raja yogas declared by those versed in the science of Astrology — […] (3) The Sun and Venus located together in the 4th house.",
+        "quote_display": "24. The following are 4 Raja yogas declared by those versed in the science of Astrology — […] (3) The Sun and Venus located together in the 4th house.",
+        "quote_sha256": "266503eb37f044913ab905dd37f3699708741129a04a17241a067e2686bde70e",
+        "char_span": [
+          173410,
+          173499
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            173410,
+            173499
+          ],
+          [
+            173737,
+            173793
+          ]
+        ],
+        "quote_parts": [
+          "24. The following are 4 Raja yogas declared by those versed in the science of Astrology —",
+          "(3) The Sun and Venus located together in the 4th house."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Sun",
+              "house": 4
+            }
+          },
+          {
+            "in_house": {
+              "graha": "Venus",
+              "house": 4
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "RajaYoga",
+        "mechanism": "sun_venus_in_fourth",
+        "effect": "raja_yoga"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 7 slice 2, Milestone 37: mechanical, in_house reused exactly as-is)",
+        "verified_date": "2026-09-02"
+      },
+      "note": "Item (3) of v.24. Chapter 7 slice 2 (Milestone 37); this verse was tagged `dep.none` at Milestone 36 (`passage:phaladeepika.07.p055`). No new engine capability."
+    },
+    {
+      "id": "PD.07.RajaYoga.MarsSaturnJupiterTenthEleventhLagna",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 7,
+        "verse": "24",
+        "page_anchor": "phaladeepika/p0088",
+        "tier": 1,
+        "quote": "24. The following are 4 Raja yogas declared by those versed in the science of Astrology — […] (4) Mars, Saturn and Jupiter be housed respectively in the 10th, 11th and the Lagna.",
+        "quote_display": "24. The following are 4 Raja yogas declared by those versed in the science of Astrology — […] (4) Mars, Saturn and Jupiter be housed respectively in the 10th, 11th and the Lagna.",
+        "quote_sha256": "9b12c2695534754d9e4f24b7180a00e1486da139fdbb22638c0dbd129a19ecc5",
+        "char_span": [
+          173410,
+          173499
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            173410,
+            173499
+          ],
+          [
+            173797,
+            173881
+          ]
+        ],
+        "quote_parts": [
+          "24. The following are 4 Raja yogas declared by those versed in the science of Astrology —",
+          "(4) Mars, Saturn and Jupiter be housed respectively in the 10th, 11th and the Lagna."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "in_house": {
+              "graha": "Mars",
+              "house": 10
+            }
+          },
+          {
+            "in_house": {
+              "graha": "Saturn",
+              "house": 11
+            }
+          },
+          {
+            "in_house": {
+              "graha": "Jupiter",
+              "house": 1
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "RajaYoga",
+        "mechanism": "mars_tenth_saturn_eleventh_jupiter_lagna",
+        "effect": "raja_yoga"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 7 slice 2, Milestone 37: mechanical, in_house reused exactly as-is)",
+        "verified_date": "2026-09-02"
+      },
+      "note": "Item (4) of v.24 -- \"respectively\" fixes the pairing (Mars-10th, Saturn-11th, Jupiter-Lagna) rather than leaving it a free permutation, the plain reading of \"respectively\" itself. Chapter 7 slice 2 (Milestone 37); this verse was tagged `dep.none` at Milestone 36 (`passage:phaladeepika.07.p055`). No new engine capability."
+    },
+    {
+      "id": "PD.07.RajaYoga.HouseLordKendraFromMoonJupiterOwnership",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 7,
+        "verse": "25",
+        "page_anchor": "phaladeepika/p0089",
+        "tier": 1,
+        "quote": "25. Should one out of the lords of the 11th, the 9th and the 2nd houses occupies a Kendra with reference to the Moon and should Jupiter own the 2nd, the 5th or the 11th house, the Yoga so formed enables the person born to become the lord of a full fledged empire.",
+        "quote_display": "25. Should one out of the lords of the 11th, the 9th and the 2nd houses occupies a Kendra with reference to the Moon and should Jupiter own the 2nd, the 5th or the 11th house, the Yoga so formed enables the person born to become the lord of a full fledged empire.",
+        "quote_sha256": "151b8f26d72f63373f4998b5b52d72b0e62d9f5e8566387d33cde9fbfe5391d8",
+        "char_span": [
+          173885,
+          174148
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g",
+                      "house": 11
+                    }
+                  },
+                  {
+                    "any": [
+                      {
+                        "in_house_from": {
+                          "graha": "?g",
+                          "reference": "Moon",
+                          "house": 1
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "?g",
+                          "reference": "Moon",
+                          "house": 4
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "?g",
+                          "reference": "Moon",
+                          "house": 7
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "?g",
+                          "reference": "Moon",
+                          "house": 10
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g",
+                      "house": 9
+                    }
+                  },
+                  {
+                    "any": [
+                      {
+                        "in_house_from": {
+                          "graha": "?g",
+                          "reference": "Moon",
+                          "house": 1
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "?g",
+                          "reference": "Moon",
+                          "house": 4
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "?g",
+                          "reference": "Moon",
+                          "house": 7
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "?g",
+                          "reference": "Moon",
+                          "house": 10
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "lord_of_house": {
+                      "graha": "?g",
+                      "house": 2
+                    }
+                  },
+                  {
+                    "any": [
+                      {
+                        "in_house_from": {
+                          "graha": "?g",
+                          "reference": "Moon",
+                          "house": 1
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "?g",
+                          "reference": "Moon",
+                          "house": 4
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "?g",
+                          "reference": "Moon",
+                          "house": 7
+                        }
+                      },
+                      {
+                        "in_house_from": {
+                          "graha": "?g",
+                          "reference": "Moon",
+                          "house": 10
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "lord_of_house": {
+                  "graha": "Jupiter",
+                  "house": 2
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "Jupiter",
+                  "house": 5
+                }
+              },
+              {
+                "lord_of_house": {
+                  "graha": "Jupiter",
+                  "house": 11
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "RajaYoga",
+        "mechanism": "eleventh_ninth_or_second_lord_kendra_from_moon_with_jupiter_owning_second_fifth_or_eleventh",
+        "effect": "lord_of_full_fledged_empire"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 7 slice 2, Milestone 37: mechanical, lord_of_house/in_house_from reused exactly as-is, same Kendra-from-a-reference-graha shape PD.07.Neechabhanga.MutualKendra already uses)",
+        "verified_date": "2026-09-02"
+      },
+      "note": "\"Kendra with reference to the Moon\" tested as houses 1/4/7/10 counted from the Moon via `in_house_from`, the same four-house enumeration already used throughout the chapter 7 slice 1 Neechabhanga family (no `kendra_from` shortcut exists in the vocabulary for a non-Lagna frame). \"Should Jupiter own the 2nd, the 5th or the 11th house\" is independent of which of the three house-lords satisfies the first clause -- the verse states it as its own separate condition, not tied to which lord fired. Chapter 7 slice 2 (Milestone 37); this verse was tagged `dep.none` at Milestone 36 (`passage:phaladeepika.07.p055`). No new engine capability."
     }
   ]
 }

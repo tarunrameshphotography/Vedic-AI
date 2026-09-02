@@ -113,6 +113,19 @@
       "effort_basis": "reuses _varga's already-computed D9 sign and doctrine.exaltation's debilitation_sign; one more fact per graha, no new lookup",
       "implemented": true
     },
+    "dep.own-or-benefic-dignity-in-varga": {
+      "title": "own-sign / benefic dignity read against a divisional placement",
+      "kind": "predicate",
+      "detail": "Registered Milestone 37, reading ch. 7 v.19: 'the Moon... in his own or benefic Varga'. `dignity_in_varga` already exists (dep.dignity-in-varga, Milestone 29) but by deliberate design emits only the 'debilitated' value -- ch. 2 v.36 is the only verse that predicate was built for, and it names no other dignity. v.19 needs a genuinely different value ('own', i.e. the Navamsa sign is the graha's own sign) that the current extractor does not compute at all, plus 'benefic Varga' itself is not a term this store has read a definition for anywhere yet (unclear whether it means the Navamsa sign's lord is a natural benefic, or some other classification) -- a human reading question layered on top of the missing predicate, not resolved by registering this entry. Deliberately carries no `predicate` field, the same reason dep.lagna-strength (Milestone 24) withheld one: `dignity_in_varga` already IS derivable under that name (dep.dignity-in-varga emits it), so naming it here would report this entry falsely resolved the instant it was declared. Not implemented; do not satisfy this by widening dep.dignity-in-varga's own scope, which was deliberately kept narrow (see that entry's own detail).",
+      "phase": "3 (knowledge)",
+      "depends_on": [
+        "dep.varga",
+        "dep.dignity"
+      ],
+      "effort": 2,
+      "effort_basis": "own-sign lookup mirrors dep.dignity's own _dignity own-sign branch, applied to the D9 sign _varga already has in hand; 'benefic Varga' itself still needs a human reading before any arithmetic is well-posed",
+      "implemented": false
+    },
     "dep.varga-ownership": {
       "title": "varga ownership predicate",
       "kind": "predicate",
@@ -3760,12 +3773,12 @@
       "chapter": 7,
       "locus": "v.13 (p.87)",
       "what": "the Moon in Vargottama aspected by a strong planet, with no malefic in the Lagna",
-      "reason": "Deferred by ordering only for this slice (dep.none) -- vargottama, strength and aspects are all implemented; 'no malefic in the Lagna' is a finite enumerated negation over the nine grahas, not a quantification gap. Left for a future chapter 7 slice.",
+      "reason": "RESOLVED (Milestone 37). Encoded as one firing card, PD.07.Emperor.VargottamaMoonAspectedNoMalefic. Condition: vargottama(Moon) AND strength(?g,strong) AND aspects(?g,Moon) AND NOT(nature(?m,malefic) AND in_house(?m,1)) -- vargottama, strength, aspects, nature and in_house all reused exactly as-is; the negation is the same correlated `not` shape PD.06.Kemadruma already uses for an absence test. Zero new engine capability.",
       "requires": [
         "dep.none"
       ],
       "phase": "3 (knowledge)",
-      "status": "deferred",
+      "status": "resolved",
       "paragraphs": [
         20
       ]
@@ -3854,12 +3867,12 @@
       "chapter": 7,
       "locus": "v.18 (p.88)",
       "what": "Jupiter and the Moon in kendra aspected by Venus, with no planet in a sign of debilitation",
-      "reason": "Deferred by ordering only for this slice (dep.none) -- fully expressible with existing predicates (in_house_class, aspects, and a finite enumerated negation over the nine grahas for 'no planet in debilitation', the same shape as p020's 'no malefic in the Lagna'). Left for a future chapter 7 slice.",
+      "reason": "RESOLVED (Milestone 37). Encoded as one firing card, PD.07.King.JupiterMoonKendraVenusAspectedNoDebilitation. Condition: in_house_class(Jupiter,kendra) AND in_house_class(Moon,kendra) AND aspects(Venus,Jupiter) AND aspects(Venus,Moon) AND NOT dignity(?p,debilitated) -- all pre-existing predicates, zero engine change. INTERPRETIVE STEP TAKEN AND RECORDED: \"aspected by Venus\" read as governing the compound subject \"Jupiter and the Moon\" (Venus aspects both), a plain-grammar reading of the printed sentence rather than an outside convention -- see the card's own note for the full reasoning and its caveat that no Note or worked example in this book corroborates it the way v.26's own disjunctive 'or' was corroborated.",
       "requires": [
         "dep.none"
       ],
       "phase": "3 (knowledge)",
-      "status": "deferred",
+      "status": "resolved",
       "paragraphs": [
         38
       ]
@@ -3870,10 +3883,10 @@
       "book": "phaladeepika",
       "chapter": 7,
       "locus": "v.19 (p.88)",
-      "what": "the Moon in a watery sign and Navamsa identical with the Lagna, in its own or a benefic Varga, with no malefic in a kendra",
-      "reason": "Deferred by ordering only for this slice (dep.none) -- 'watery sign' is an existing sign class (PD.01.SignBodyForm.Table), Navamsa-equals-Lagna is expressible via a shared bound variable between in_varga_sign and lagna_sign, and the rest reuses dignity/dignity_in_varga and a finite enumerated negation. Left for a future chapter 7 slice.",
+      "what": "the Moon in a watery sign and Navamsa identical with the Lagna, in its own or a benefic Varga, with no malefics in Kendra",
+      "reason": "CORRECTED (Milestone 37) -- the Milestone 36 note above was too optimistic. 'Watery sign', Navamsa-equals-Lagna and the negation are indeed all expressible with existing predicates, but 'in his own or benefic Varga' is not: `dignity_in_varga` (dep.dignity-in-varga) was built Milestone 29 deliberately scoped to emit only 'debilitated' (the one value ch. 2 v.36 names), so it cannot test 'own', and 'benefic Varga' is itself a term this store has not read a definition for anywhere yet. Re-registered under the new dep.own-or-benefic-dignity-in-varga rather than left mis-filed under dep.none, which would have reported this as immediately available when it is not.",
       "requires": [
-        "dep.none"
+        "dep.own-or-benefic-dignity-in-varga"
       ],
       "phase": "3 (knowledge)",
       "status": "deferred",
@@ -3886,20 +3899,36 @@
       "kind": "passage",
       "book": "phaladeepika",
       "chapter": 7,
-      "locus": "v.20 (p.88)",
-      "what": "four Raja Yogas: Venus aspected by Jupiter; Jupiter in a non-Capricorn Lagna; a full-strength Lagna lord in kendra; full-strength Mercury in kendra aspected by Jupiter",
-      "reason": "Deferred by ordering only for this slice (dep.none) -- all four sub-clauses are expressible with existing predicates (aspects, in_house, in_sign exclusion, lord_of_house, strength, in_house_class). Left for a future chapter 7 slice.",
+      "locus": "v.20 items (b)-(d) (p.88)",
+      "what": "three Raja Yogas: Jupiter in a non-Capricorn Lagna; a full-strength Lagna lord in kendra; full-strength Mercury in kendra aspected by Jupiter",
+      "reason": "RESOLVED (Milestone 37) for items (b)-(d). Encoded as three firing cards -- PD.07.King.JupiterLagnaNotCapricorn, PD.07.King.StrongLagnaLordKendra, PD.07.King.StrongMercuryKendraAspectedJupiter -- reusing in_house, lagna_sign, lord_of_house, strength and in_house_class exactly as-is, zero new engine capability. Item (a) (Venus aspected by Jupiter, gated on the native being 'born in a royal family') is split out below as passage:phaladeepika.07.p040-royalfamily: `BirthRecord` carries no family-status field and no verse states how to derive one astrologically, the same gap `passage:phaladeepika.07.p001` already named for vv.1-2. The verse's own heading ('Five Yogas are described in this Verse') states a count of five but only four sub-items are ever printed -- transcribed as printed, no fifth yoga invented to reconcile it.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "resolved",
+      "paragraphs": [
+        40,
+        43,
+        44,
+        45
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.07.p040-royalfamily",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 7,
+      "locus": "v.20 item (a) (p.87-88)",
+      "what": "Venus aspected by Jupiter, for a person born in a royal family",
+      "reason": "Split out of passage:phaladeepika.07.p040 (Milestone 37) so its own genuine gap does not hide behind that entry's now-resolved items (b)-(d). 'Aspected by Jupiter' is trivially expressible (`aspects`), but 'born in a royal family' is a birth-record field `BirthRecord` does not carry and no verse anywhere in this corpus states how to derive astrologically -- the same gap `passage:phaladeepika.07.p001` already named for vv.1-2, not a temporal-ordering deferral, so this is not expected to resolve merely by waiting for another chapter-7 slice.",
       "requires": [
         "dep.none"
       ],
       "phase": "3 (knowledge)",
       "status": "deferred",
       "paragraphs": [
-        40,
-        41,
-        43,
-        44,
-        45
+        41
       ]
     },
     {
@@ -3966,12 +3995,12 @@
       "chapter": 7,
       "locus": "vv.24-25 (p.89)",
       "what": "four further Raja Yogas by placement/conjunction (malefics in 3rd/6th/11th from the Lagna-lord's house, the Moon or the Lagna; Mars and Mercury in the 2nd; the Sun and Venus in the 4th; Mars/Saturn/Jupiter in the 10th/11th/Lagna); one of the 11th/9th/2nd lords in kendra from the Moon with Jupiter owning the 2nd, 5th or 11th",
-      "reason": "Deferred by ordering only for this slice (dep.none) -- all five sub-yogas are expressible with existing predicates (nature, in_house, in_house_from, conjunct, lord_of_house). Left for a future chapter 7 slice -- among the cleanest remaining material in the chapter.",
+      "reason": "RESOLVED (Milestone 37). Encoded as five firing cards: PD.07.RajaYoga.MaleficsThirdSixthEleventh, .MarsMercurySecond, .SunVenusFourth, .MarsSaturnJupiterTenthEleventhLagna (v.24 items (1)-(4)) and PD.07.RajaYoga.HouseLordKendraFromMoonJupiterOwnership (v.25). Reuses nature, in_house, in_house_from and lord_of_house exactly as-is -- zero new engine capability, and `in_house_from`'s reference argument bound to the Lagna-lord (a variable, not only the Moon) via the same graha-frame mechanism (dep.graha-frame) any pair of grahas already supports. INTERPRETIVE STEP TAKEN AND RECORDED on item (1): 'the 3rd, 6th and 11th... counted from [the Lagna-lord's house] or [Moon] or [the Lagna]' read as three alternative reference points, each requiring malefics in all three of the 3rd/6th/11th from that reference -- see the card's own note.",
       "requires": [
         "dep.none"
       ],
       "phase": "3 (knowledge)",
-      "status": "deferred",
+      "status": "resolved",
       "paragraphs": [
         55,
         56,
