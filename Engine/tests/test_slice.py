@@ -609,13 +609,16 @@ def test_the_plan_does_not_charge_for_chapters_already_encoded():
 
     done = leverage.encoded_chapters()
     assert ("phaladeepika", 2) in done, "chapter 2 is encoded per the manifest"
-    assert ("phaladeepika", 5) not in done, "chapter 5 is not yet encoded per the manifest"
+    # Chapter 5 was this example's own "not yet encoded" case until Milestone
+    # 38 encoded it; chapter 11 (Female Horoscopy, blocked on dep.native-sex)
+    # takes its place -- still deferred, per Rules/deferred.json.
+    assert ("phaladeepika", 11) not in done, "chapter 11 is not yet encoded per the manifest"
 
     deps = json.loads((RULES / "deferred.json").read_text(encoding="utf-8"))["dependencies"]
     fake = {"dep.x": {"depends_on": ["chapter:phaladeepika.02",
-                                     "chapter:phaladeepika.05"]}}
+                                     "chapter:phaladeepika.11"]}}
     needed = leverage.chapters_needed({"dep.x"}, fake, done)
-    assert needed == {"chapter:phaladeepika.05"}
+    assert needed == {"chapter:phaladeepika.11"}
 
     # And no capability in the real registry is still billed for an encoded one.
     for dep_id in deps:
@@ -834,10 +837,21 @@ def test_slice_runs_and_verifies():
     # own unconditional clause, so it does not care that Sun is adverse here
     # (PD.20.Weak.House8) while Mercury and Jupiter carry no dasa_disposition
     # verdict either way. 101+1+3 = 105.
-    assert r.verification.checks["claims"] == 105
+    # 105 -> 106 in Milestone 38: chapter 5's seven-way Navamsa-lord family.
+    # This chart's own 10th lord (Venus, Libra) sits in Gemini in Navamsa --
+    # Mercury's own sign -- so PD.05.Livelihood.MercuryNavamsa fires once and
+    # none of its six siblings do (mutually exclusive by construction). None
+    # of chapter 5's other three cards fire on this chart: the Navamsa-lord
+    # here is Mercury, which carries no `strength` verdict at all (neither
+    # exalted, nor one of the five retrograde-strong grahas, nor combust) on
+    # this nativity, so neither PD.05.Livelihood.NavamsaLordStrong nor
+    # .NavamsaLordWeak fires; and Venus itself neither occupies nor aspects
+    # the 10th house, nor sits in a Fixed Navamsa (Gemini is Dual), so
+    # PD.05.Livelihood.Country.OwnLand does not fire either. 105+1 = 106.
+    assert r.verification.checks["claims"] == 106
     for k in ("quote_integrity_passed", "conditions_reevaluated_passed",
               "numeric_grounding_passed"):
-        assert r.verification.checks[k] == 105
+        assert r.verification.checks[k] == 106
     # 9 PD.19.Dasa.<Graha> claims plus 3 PD.09.Dignity.Inimical.DasaEnmity
     # claims (Sun, Saturn, Rahu) carry a window on this chart, plus (Milestone
     # 31) all 17 PD.20.* claims above -- every one conditions on
@@ -872,7 +886,7 @@ def test_quoted_output_adds_no_words():
     r = run(DEMO)
     by_id = {c.claim_id: c for c in r.claims}
     rules = [s for s in r.sentences if s.part == "rules"]
-    assert len(rules) == 105  # see test_slice_runs_and_verifies for the 98 -> 101 -> 105 move
+    assert len(rules) == 106  # see test_slice_runs_and_verifies for the 98 -> 101 -> 105 -> 106 move
     for s in rules:
         assert s.text == by_id[s.claim_ids[0]].passage["quote_display"]
 

@@ -1,0 +1,1158 @@
+{
+  "book_id": "phaladeepika",
+  "chapter": 5,
+  "cards": [
+    {
+      "id": "PD.05.Livelihood.SunNavamsa",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 5,
+        "verse": "2",
+        "page_anchor": "phaladeepika/p0052",
+        "tier": 1,
+        "quote": "2. The sources of livelihood of the native will be through fruit bearing trees, by the recitation of mantras, by fraud and cunningness, by gambling, by speaking lies, through wool, medicines and the like, by working on metals or through service under a king or respectable person, if the lord of the 10th house be placed […] in the Navamsa of the Sun.",
+        "quote_display": "2. The sources of livelihood of the native will be through fruit bearing trees, by the recitation of mantras, by fraud and cunningness, by gambling, by speaking lies, through wool, medicines and the like, by working on metals or through service under a king or respectable person, if the lord of the 10th house be placed […] in the Navamsa of the Sun.",
+        "quote_sha256": "a8662cde1fa917a3107d09550bc886a4ad2698e97df76b74f3993c4409d80560",
+        "char_span": [
+          93690,
+          94010
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            93690,
+            94010
+          ],
+          [
+            94048,
+            94074
+          ]
+        ],
+        "quote_parts": [
+          "2. The sources of livelihood of the native will be through fruit bearing trees, by the recitation of mantras, by fraud and cunningness, by gambling, by speaking lies, through wool, medicines and the like, by working on metals or through service under a king or respectable person, if the lord of the 10th house be placed",
+          "in the Navamsa of the Sun."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 10
+            }
+          },
+          {
+            "in_varga_sign": {
+              "graha": "?g",
+              "varga": "D9",
+              "sign": "Leo"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "wealth",
+        "topic": "source_of_livelihood",
+        "navamsa_lord": "Sun"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 5, Milestone 38: mechanical, lord_of_house/in_varga_sign/strength/in_house/aspects reused exactly as-is)",
+        "verified_date": "2026-09-02"
+      },
+      "note": "Verse 2 of Mantreswara's own per-Navamsa-lord livelihood family (vv.2-8, one card per classical graha whose Navamsa the 10th house's lord occupies). Condition: `lord_of_house(?g,10)` (the 10th-lord, whichever graha it turns out to be) AND `in_varga_sign(?g,D9,sign)` for ['Leo'], the sign(s) this store's own PD.01.SignLord.* cards (ch.1 v.6) give Sun as lord of -- not a separate `varga_owned_by` lookup (dep.varga-ownership, unimplemented), the same authoring-time-table discipline PD.07.Neechabhanga.* already used for its own per-graha exaltation/debilitation-sign-lord table, guarded here by the same kind of drift-guard regression test (Engine/tests/test_chapter_five_livelihood.py). Zero new engine capability: `lord_of_house` (dep.lord-of-house) and `in_varga_sign` (dep.varga, D9 only, Milestone 29) both reused exactly as declared. The seven cards are mutually exclusive by construction (a chart's 10th lord has exactly one D9 sign, hence exactly one Navamsa-owner), linked by `parallel_of` the same way PD.06.Vallaki/.Dharma/.../.Gola already are for their own seven-way partition.",
+      "parallel_of": [
+        "PD.05.Livelihood.MoonNavamsa",
+        "PD.05.Livelihood.MarsNavamsa",
+        "PD.05.Livelihood.MercuryNavamsa",
+        "PD.05.Livelihood.JupiterNavamsa",
+        "PD.05.Livelihood.VenusNavamsa",
+        "PD.05.Livelihood.SaturnNavamsa"
+      ]
+    },
+    {
+      "id": "PD.05.Livelihood.MoonNavamsa",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 5,
+        "verse": "3",
+        "page_anchor": "phaladeepika/p0053",
+        "tier": 1,
+        "quote": "3. The sources of income or livelihood will be through trade in waterproducts (pearls, corals etc.), agriculture and cattle breeding, pilgrimage to holy places, service under a woman and trade in drapery. If the Navamsa occupied by the lord of the 10th house is that of the Moon.",
+        "quote_display": "3. The sources of income or livelihood will be through trade in waterproducts (pearls, corals etc.), agriculture and cattle breeding, pilgrimage to holy places, service under a woman and trade in drapery. If the Navamsa occupied by the lord of the 10th house is that of the Moon.",
+        "quote_sha256": "ccc27f0fdca02c697d22a2b3d94514e98822d673a2e620a647f1462379256001",
+        "char_span": [
+          94078,
+          94357
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 10
+            }
+          },
+          {
+            "in_varga_sign": {
+              "graha": "?g",
+              "varga": "D9",
+              "sign": "Cancer"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "wealth",
+        "topic": "source_of_livelihood",
+        "navamsa_lord": "Moon"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 5, Milestone 38: mechanical, lord_of_house/in_varga_sign/strength/in_house/aspects reused exactly as-is)",
+        "verified_date": "2026-09-02"
+      },
+      "note": "Verse 3 of Mantreswara's own per-Navamsa-lord livelihood family (vv.2-8, one card per classical graha whose Navamsa the 10th house's lord occupies). Condition: `lord_of_house(?g,10)` (the 10th-lord, whichever graha it turns out to be) AND `in_varga_sign(?g,D9,sign)` for ['Cancer'], the sign(s) this store's own PD.01.SignLord.* cards (ch.1 v.6) give Moon as lord of -- not a separate `varga_owned_by` lookup (dep.varga-ownership, unimplemented), the same authoring-time-table discipline PD.07.Neechabhanga.* already used for its own per-graha exaltation/debilitation-sign-lord table, guarded here by the same kind of drift-guard regression test (Engine/tests/test_chapter_five_livelihood.py). Zero new engine capability: `lord_of_house` (dep.lord-of-house) and `in_varga_sign` (dep.varga, D9 only, Milestone 29) both reused exactly as declared. The seven cards are mutually exclusive by construction (a chart's 10th lord has exactly one D9 sign, hence exactly one Navamsa-owner), linked by `parallel_of` the same way PD.06.Vallaki/.Dharma/.../.Gola already are for their own seven-way partition.",
+      "parallel_of": [
+        "PD.05.Livelihood.SunNavamsa",
+        "PD.05.Livelihood.MarsNavamsa",
+        "PD.05.Livelihood.MercuryNavamsa",
+        "PD.05.Livelihood.JupiterNavamsa",
+        "PD.05.Livelihood.VenusNavamsa",
+        "PD.05.Livelihood.SaturnNavamsa"
+      ]
+    },
+    {
+      "id": "PD.05.Livelihood.MarsNavamsa",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 5,
+        "verse": "4",
+        "page_anchor": "phaladeepika/p0053",
+        "tier": 1,
+        "quote": "4. The sources of income or livelihood will be through metals, serving for fighting battles, cooking, lands, gold, causing troubles to others, weapons, adventure, association with wicked men, spying or through theft if the lord of the 10th house occupies the Navamsa of Mars.",
+        "quote_display": "4. The sources of income or livelihood will be through metals, serving for fighting battles, cooking, lands, gold, causing troubles to others, weapons, adventure, association with wicked men, spying or through theft if the lord of the 10th house occupies the Navamsa of Mars.",
+        "quote_sha256": "4c9e8b09e46dc51e2190812d8365d68e486c9019e600096208ccd3c241bc3dba",
+        "char_span": [
+          94361,
+          94636
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 10
+            }
+          },
+          {
+            "any": [
+              {
+                "in_varga_sign": {
+                  "graha": "?g",
+                  "varga": "D9",
+                  "sign": "Aries"
+                }
+              },
+              {
+                "in_varga_sign": {
+                  "graha": "?g",
+                  "varga": "D9",
+                  "sign": "Scorpio"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "wealth",
+        "topic": "source_of_livelihood",
+        "navamsa_lord": "Mars"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 5, Milestone 38: mechanical, lord_of_house/in_varga_sign/strength/in_house/aspects reused exactly as-is)",
+        "verified_date": "2026-09-02"
+      },
+      "note": "Verse 4 of Mantreswara's own per-Navamsa-lord livelihood family (vv.2-8, one card per classical graha whose Navamsa the 10th house's lord occupies). Condition: `lord_of_house(?g,10)` (the 10th-lord, whichever graha it turns out to be) AND `in_varga_sign(?g,D9,sign)` for ['Aries', 'Scorpio'], the sign(s) this store's own PD.01.SignLord.* cards (ch.1 v.6) give Mars as lord of -- not a separate `varga_owned_by` lookup (dep.varga-ownership, unimplemented), the same authoring-time-table discipline PD.07.Neechabhanga.* already used for its own per-graha exaltation/debilitation-sign-lord table, guarded here by the same kind of drift-guard regression test (Engine/tests/test_chapter_five_livelihood.py). Zero new engine capability: `lord_of_house` (dep.lord-of-house) and `in_varga_sign` (dep.varga, D9 only, Milestone 29) both reused exactly as declared. The seven cards are mutually exclusive by construction (a chart's 10th lord has exactly one D9 sign, hence exactly one Navamsa-owner), linked by `parallel_of` the same way PD.06.Vallaki/.Dharma/.../.Gola already are for their own seven-way partition.",
+      "parallel_of": [
+        "PD.05.Livelihood.SunNavamsa",
+        "PD.05.Livelihood.MoonNavamsa",
+        "PD.05.Livelihood.MercuryNavamsa",
+        "PD.05.Livelihood.JupiterNavamsa",
+        "PD.05.Livelihood.VenusNavamsa",
+        "PD.05.Livelihood.SaturnNavamsa"
+      ]
+    },
+    {
+      "id": "PD.05.Livelihood.MercuryNavamsa",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 5,
+        "verse": "5",
+        "page_anchor": "phaladeepika/p0053",
+        "tier": 1,
+        "quote": "5. In a nativity where the lord of the 10th house is posited in the Navamsa owned by Mercury, the earning will be through composition of poem, study of sacred scripture, by being a writer, or through clerical work or through tricks, through the knowledge of astrology, through the study of Vedas, by recitation of Mantras, through priesthood or by some pretext.",
+        "quote_display": "5. In a nativity where the lord of the 10th house is posited in the Navamsa owned by Mercury, the earning will be through composition of poem, study of sacred scripture, by being a writer, or through clerical work or through tricks, through the knowledge of astrology, through the study of Vedas, by recitation of Mantras, through priesthood or by some pretext.",
+        "quote_sha256": "176393ce5cf32d471f70adf55e061c69a4862d7bde702a4ef4fa4a6a33d5f8bf",
+        "char_span": [
+          94640,
+          95001
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 10
+            }
+          },
+          {
+            "any": [
+              {
+                "in_varga_sign": {
+                  "graha": "?g",
+                  "varga": "D9",
+                  "sign": "Gemini"
+                }
+              },
+              {
+                "in_varga_sign": {
+                  "graha": "?g",
+                  "varga": "D9",
+                  "sign": "Virgo"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "wealth",
+        "topic": "source_of_livelihood",
+        "navamsa_lord": "Mercury"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 5, Milestone 38: mechanical, lord_of_house/in_varga_sign/strength/in_house/aspects reused exactly as-is)",
+        "verified_date": "2026-09-02"
+      },
+      "note": "Verse 5 of Mantreswara's own per-Navamsa-lord livelihood family (vv.2-8, one card per classical graha whose Navamsa the 10th house's lord occupies). Condition: `lord_of_house(?g,10)` (the 10th-lord, whichever graha it turns out to be) AND `in_varga_sign(?g,D9,sign)` for ['Gemini', 'Virgo'], the sign(s) this store's own PD.01.SignLord.* cards (ch.1 v.6) give Mercury as lord of -- not a separate `varga_owned_by` lookup (dep.varga-ownership, unimplemented), the same authoring-time-table discipline PD.07.Neechabhanga.* already used for its own per-graha exaltation/debilitation-sign-lord table, guarded here by the same kind of drift-guard regression test (Engine/tests/test_chapter_five_livelihood.py). Zero new engine capability: `lord_of_house` (dep.lord-of-house) and `in_varga_sign` (dep.varga, D9 only, Milestone 29) both reused exactly as declared. The seven cards are mutually exclusive by construction (a chart's 10th lord has exactly one D9 sign, hence exactly one Navamsa-owner), linked by `parallel_of` the same way PD.06.Vallaki/.Dharma/.../.Gola already are for their own seven-way partition.",
+      "parallel_of": [
+        "PD.05.Livelihood.SunNavamsa",
+        "PD.05.Livelihood.MoonNavamsa",
+        "PD.05.Livelihood.MarsNavamsa",
+        "PD.05.Livelihood.JupiterNavamsa",
+        "PD.05.Livelihood.VenusNavamsa",
+        "PD.05.Livelihood.SaturnNavamsa"
+      ]
+    },
+    {
+      "id": "PD.05.Livelihood.JupiterNavamsa",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 5,
+        "verse": "6",
+        "page_anchor": "phaladeepika/p0053",
+        "tier": 1,
+        "quote": "6. If the Navamsa be that of Jupiter, the sources of livelihood or earning will be through dependence on Brahmins, or through dependence on temples (serving as priests etc.) or religious Ashramas, through the beneficience of the king (Government), through study of Puranas, Shastras, or Vedas, through practicing of righteous paths and actions, or by religious instruction.",
+        "quote_display": "6. If the Navamsa be that of Jupiter, the sources of livelihood or earning will be through dependence on Brahmins, or through dependence on temples (serving as priests etc.) or religious Ashramas, through the beneficience of the king (Government), through study of Puranas, Shastras, or Vedas, through practicing of righteous paths and actions, or by religious instruction.",
+        "quote_sha256": "99b46061cb38fced003c524112de0fc39e5a94a94fb202a2c167a95e4b40214f",
+        "char_span": [
+          95005,
+          95378
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 10
+            }
+          },
+          {
+            "any": [
+              {
+                "in_varga_sign": {
+                  "graha": "?g",
+                  "varga": "D9",
+                  "sign": "Sagittarius"
+                }
+              },
+              {
+                "in_varga_sign": {
+                  "graha": "?g",
+                  "varga": "D9",
+                  "sign": "Pisces"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "wealth",
+        "topic": "source_of_livelihood",
+        "navamsa_lord": "Jupiter"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 5, Milestone 38: mechanical, lord_of_house/in_varga_sign/strength/in_house/aspects reused exactly as-is)",
+        "verified_date": "2026-09-02"
+      },
+      "note": "Verse 6 of Mantreswara's own per-Navamsa-lord livelihood family (vv.2-8, one card per classical graha whose Navamsa the 10th house's lord occupies). Condition: `lord_of_house(?g,10)` (the 10th-lord, whichever graha it turns out to be) AND `in_varga_sign(?g,D9,sign)` for ['Sagittarius', 'Pisces'], the sign(s) this store's own PD.01.SignLord.* cards (ch.1 v.6) give Jupiter as lord of -- not a separate `varga_owned_by` lookup (dep.varga-ownership, unimplemented), the same authoring-time-table discipline PD.07.Neechabhanga.* already used for its own per-graha exaltation/debilitation-sign-lord table, guarded here by the same kind of drift-guard regression test (Engine/tests/test_chapter_five_livelihood.py). Zero new engine capability: `lord_of_house` (dep.lord-of-house) and `in_varga_sign` (dep.varga, D9 only, Milestone 29) both reused exactly as declared. The seven cards are mutually exclusive by construction (a chart's 10th lord has exactly one D9 sign, hence exactly one Navamsa-owner), linked by `parallel_of` the same way PD.06.Vallaki/.Dharma/.../.Gola already are for their own seven-way partition.",
+      "parallel_of": [
+        "PD.05.Livelihood.SunNavamsa",
+        "PD.05.Livelihood.MoonNavamsa",
+        "PD.05.Livelihood.MarsNavamsa",
+        "PD.05.Livelihood.MercuryNavamsa",
+        "PD.05.Livelihood.VenusNavamsa",
+        "PD.05.Livelihood.SaturnNavamsa"
+      ]
+    },
+    {
+      "id": "PD.05.Livelihood.VenusNavamsa",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 5,
+        "verse": "7",
+        "page_anchor": "phaladeepika/p0053",
+        "tier": 1,
+        "quote": "7. If the Navamsa be that of Venus, the sources of earning will be through dependence, serving a woman (she may be wife, prostitute, queen, a film actress or any other woman), through cows, buffaloes, elephants, horses, etc., through teaching music or through musical performances, by singing or dancing, through silver (sale and purchase), scents, milk, curd etc., ornaments, through silken and other expensive dress materials, by being a companion or aides of a lady of high standing, or by his poetic talents.",
+        "quote_display": "7. If the Navamsa be that of Venus, the sources of earning will be through dependence, serving a woman (she may be wife, prostitute, queen, a film actress or any other woman), through cows, buffaloes, elephants, horses, etc., through teaching music or through musical performances, by singing or dancing, through silver (sale and purchase), scents, milk, curd etc., ornaments, through silken and other expensive dress materials, by being a companion or aides of a lady of high standing, or by his poetic talents.",
+        "quote_sha256": "1b9adfe422d7d3bc257f32023774d3c6a80d9c82936143f0d0af09fcd6ad87b9",
+        "char_span": [
+          95382,
+          95894
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 10
+            }
+          },
+          {
+            "any": [
+              {
+                "in_varga_sign": {
+                  "graha": "?g",
+                  "varga": "D9",
+                  "sign": "Taurus"
+                }
+              },
+              {
+                "in_varga_sign": {
+                  "graha": "?g",
+                  "varga": "D9",
+                  "sign": "Libra"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "wealth",
+        "topic": "source_of_livelihood",
+        "navamsa_lord": "Venus"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 5, Milestone 38: mechanical, lord_of_house/in_varga_sign/strength/in_house/aspects reused exactly as-is)",
+        "verified_date": "2026-09-02"
+      },
+      "note": "Verse 7 of Mantreswara's own per-Navamsa-lord livelihood family (vv.2-8, one card per classical graha whose Navamsa the 10th house's lord occupies). Condition: `lord_of_house(?g,10)` (the 10th-lord, whichever graha it turns out to be) AND `in_varga_sign(?g,D9,sign)` for ['Taurus', 'Libra'], the sign(s) this store's own PD.01.SignLord.* cards (ch.1 v.6) give Venus as lord of -- not a separate `varga_owned_by` lookup (dep.varga-ownership, unimplemented), the same authoring-time-table discipline PD.07.Neechabhanga.* already used for its own per-graha exaltation/debilitation-sign-lord table, guarded here by the same kind of drift-guard regression test (Engine/tests/test_chapter_five_livelihood.py). Zero new engine capability: `lord_of_house` (dep.lord-of-house) and `in_varga_sign` (dep.varga, D9 only, Milestone 29) both reused exactly as declared. The seven cards are mutually exclusive by construction (a chart's 10th lord has exactly one D9 sign, hence exactly one Navamsa-owner), linked by `parallel_of` the same way PD.06.Vallaki/.Dharma/.../.Gola already are for their own seven-way partition.",
+      "parallel_of": [
+        "PD.05.Livelihood.SunNavamsa",
+        "PD.05.Livelihood.MoonNavamsa",
+        "PD.05.Livelihood.MarsNavamsa",
+        "PD.05.Livelihood.MercuryNavamsa",
+        "PD.05.Livelihood.JupiterNavamsa",
+        "PD.05.Livelihood.SaturnNavamsa"
+      ]
+    },
+    {
+      "id": "PD.05.Livelihood.SaturnNavamsa",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 5,
+        "verse": "8",
+        "page_anchor": "phaladeepika/p0053",
+        "tier": 1,
+        "quote": "8. If the Navamsa be that of Saturn, the sources of income or livelihood, will be through dealing in roots and fruits, by hard physical labour, through servants or menials, rogues and through the earnings of men of low morality, through grains of bad quality, by carrying loads, by following low kind of professions, through […] sculpture, wooden materials, and by serving under a butcher.",
+        "quote_display": "8. If the Navamsa be that of Saturn, the sources of income or livelihood, will be through dealing in roots and fruits, by hard physical labour, through servants or menials, rogues and through the earnings of men of low morality, through grains of bad quality, by carrying loads, by following low kind of professions, through […] sculpture, wooden materials, and by serving under a butcher.",
+        "quote_sha256": "d97f8be98ab318d38407c00c8a787c493c885bdf97e5c1e0a6e722980c3b4198",
+        "char_span": [
+          95898,
+          96222
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            95898,
+            96222
+          ],
+          [
+            96260,
+            96320
+          ]
+        ],
+        "quote_parts": [
+          "8. If the Navamsa be that of Saturn, the sources of income or livelihood, will be through dealing in roots and fruits, by hard physical labour, through servants or menials, rogues and through the earnings of men of low morality, through grains of bad quality, by carrying loads, by following low kind of professions, through",
+          "sculpture, wooden materials, and by serving under a butcher."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 10
+            }
+          },
+          {
+            "any": [
+              {
+                "in_varga_sign": {
+                  "graha": "?g",
+                  "varga": "D9",
+                  "sign": "Capricorn"
+                }
+              },
+              {
+                "in_varga_sign": {
+                  "graha": "?g",
+                  "varga": "D9",
+                  "sign": "Aquarius"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "wealth",
+        "topic": "source_of_livelihood",
+        "navamsa_lord": "Saturn"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 5, Milestone 38: mechanical, lord_of_house/in_varga_sign/strength/in_house/aspects reused exactly as-is)",
+        "verified_date": "2026-09-02"
+      },
+      "note": "Verse 8 of Mantreswara's own per-Navamsa-lord livelihood family (vv.2-8, one card per classical graha whose Navamsa the 10th house's lord occupies). Condition: `lord_of_house(?g,10)` (the 10th-lord, whichever graha it turns out to be) AND `in_varga_sign(?g,D9,sign)` for ['Capricorn', 'Aquarius'], the sign(s) this store's own PD.01.SignLord.* cards (ch.1 v.6) give Saturn as lord of -- not a separate `varga_owned_by` lookup (dep.varga-ownership, unimplemented), the same authoring-time-table discipline PD.07.Neechabhanga.* already used for its own per-graha exaltation/debilitation-sign-lord table, guarded here by the same kind of drift-guard regression test (Engine/tests/test_chapter_five_livelihood.py). Zero new engine capability: `lord_of_house` (dep.lord-of-house) and `in_varga_sign` (dep.varga, D9 only, Milestone 29) both reused exactly as declared. The seven cards are mutually exclusive by construction (a chart's 10th lord has exactly one D9 sign, hence exactly one Navamsa-owner), linked by `parallel_of` the same way PD.06.Vallaki/.Dharma/.../.Gola already are for their own seven-way partition.",
+      "parallel_of": [
+        "PD.05.Livelihood.SunNavamsa",
+        "PD.05.Livelihood.MoonNavamsa",
+        "PD.05.Livelihood.MarsNavamsa",
+        "PD.05.Livelihood.MercuryNavamsa",
+        "PD.05.Livelihood.JupiterNavamsa",
+        "PD.05.Livelihood.VenusNavamsa"
+      ]
+    },
+    {
+      "id": "PD.05.Livelihood.NavamsaLordStrong",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 5,
+        "verse": "9",
+        "page_anchor": "phaladeepika/p0054",
+        "tier": 1,
+        "quote": "If the lord of Navamsa be strong, there will be accrual of wealth without any obstacle or exertion.",
+        "quote_display": "If the lord of Navamsa be strong, there will be accrual of wealth without any obstacle or exertion.",
+        "quote_sha256": "f1e62f948dde33882913867d28af224b8564e6b0c87bdad619d49b41ec4b2c2e",
+        "char_span": [
+          96327,
+          96426
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g",
+                  "house": 10
+                }
+              },
+              {
+                "in_varga_sign": {
+                  "graha": "?g",
+                  "varga": "D9",
+                  "sign": "Leo"
+                }
+              },
+              {
+                "strength": {
+                  "graha": "Sun",
+                  "strength": "strong"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g",
+                  "house": 10
+                }
+              },
+              {
+                "in_varga_sign": {
+                  "graha": "?g",
+                  "varga": "D9",
+                  "sign": "Cancer"
+                }
+              },
+              {
+                "strength": {
+                  "graha": "Moon",
+                  "strength": "strong"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g",
+                  "house": 10
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_varga_sign": {
+                      "graha": "?g",
+                      "varga": "D9",
+                      "sign": "Aries"
+                    }
+                  },
+                  {
+                    "in_varga_sign": {
+                      "graha": "?g",
+                      "varga": "D9",
+                      "sign": "Scorpio"
+                    }
+                  }
+                ]
+              },
+              {
+                "strength": {
+                  "graha": "Mars",
+                  "strength": "strong"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g",
+                  "house": 10
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_varga_sign": {
+                      "graha": "?g",
+                      "varga": "D9",
+                      "sign": "Gemini"
+                    }
+                  },
+                  {
+                    "in_varga_sign": {
+                      "graha": "?g",
+                      "varga": "D9",
+                      "sign": "Virgo"
+                    }
+                  }
+                ]
+              },
+              {
+                "strength": {
+                  "graha": "Mercury",
+                  "strength": "strong"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g",
+                  "house": 10
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_varga_sign": {
+                      "graha": "?g",
+                      "varga": "D9",
+                      "sign": "Sagittarius"
+                    }
+                  },
+                  {
+                    "in_varga_sign": {
+                      "graha": "?g",
+                      "varga": "D9",
+                      "sign": "Pisces"
+                    }
+                  }
+                ]
+              },
+              {
+                "strength": {
+                  "graha": "Jupiter",
+                  "strength": "strong"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g",
+                  "house": 10
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_varga_sign": {
+                      "graha": "?g",
+                      "varga": "D9",
+                      "sign": "Taurus"
+                    }
+                  },
+                  {
+                    "in_varga_sign": {
+                      "graha": "?g",
+                      "varga": "D9",
+                      "sign": "Libra"
+                    }
+                  }
+                ]
+              },
+              {
+                "strength": {
+                  "graha": "Venus",
+                  "strength": "strong"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g",
+                  "house": 10
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_varga_sign": {
+                      "graha": "?g",
+                      "varga": "D9",
+                      "sign": "Capricorn"
+                    }
+                  },
+                  {
+                    "in_varga_sign": {
+                      "graha": "?g",
+                      "varga": "D9",
+                      "sign": "Aquarius"
+                    }
+                  }
+                ]
+              },
+              {
+                "strength": {
+                  "graha": "Saturn",
+                  "strength": "strong"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "wealth",
+        "topic": "source_of_livelihood",
+        "disposition": "strong"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 5, Milestone 38: mechanical, lord_of_house/in_varga_sign/strength/in_house/aspects reused exactly as-is)",
+        "verified_date": "2026-09-02"
+      },
+      "note": "Verse 9's first sentence. \"The lord of Navamsa\" is the same graha vv.2-8 (PD.05.Livelihood.*) already establish as whichever of the seven classical grahas the 10th house's lord (`?g`) sits in the Navamsa of -- the Navamsa's lord, by construction, is that named graha. Encoded as an existential over the same seven branches vv.2-8 use (10th-lord's D9 sign identifies the Navamsa owner X), each branch adding `strength(X,strong)` -- this store's own strong/weak verdict (dep.strength, ch.4 vv.4-5), not a separate gradation (\"vested with full strength\" elsewhere in this corpus reads the same way; see PD.07.King.StrongLagnaLordKendra's own note). Zero new engine capability.",
+      "parallel_of": [
+        "PD.05.Livelihood.NavamsaLordWeak"
+      ]
+    },
+    {
+      "id": "PD.05.Livelihood.NavamsaLordWeak",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 5,
+        "verse": "9",
+        "page_anchor": "phaladeepika/p0054",
+        "tier": 1,
+        "quote": "If it be weak, very little earning may be expected.",
+        "quote_display": "If it be weak, very little earning may be expected.",
+        "quote_sha256": "b8e7faea917eabfaa50b9e92e37a68a36686813daeea0b4e259bf87ed35423ae",
+        "char_span": [
+          96427,
+          96478
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "any": [
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g",
+                  "house": 10
+                }
+              },
+              {
+                "in_varga_sign": {
+                  "graha": "?g",
+                  "varga": "D9",
+                  "sign": "Leo"
+                }
+              },
+              {
+                "strength": {
+                  "graha": "Sun",
+                  "strength": "weak"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g",
+                  "house": 10
+                }
+              },
+              {
+                "in_varga_sign": {
+                  "graha": "?g",
+                  "varga": "D9",
+                  "sign": "Cancer"
+                }
+              },
+              {
+                "strength": {
+                  "graha": "Moon",
+                  "strength": "weak"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g",
+                  "house": 10
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_varga_sign": {
+                      "graha": "?g",
+                      "varga": "D9",
+                      "sign": "Aries"
+                    }
+                  },
+                  {
+                    "in_varga_sign": {
+                      "graha": "?g",
+                      "varga": "D9",
+                      "sign": "Scorpio"
+                    }
+                  }
+                ]
+              },
+              {
+                "strength": {
+                  "graha": "Mars",
+                  "strength": "weak"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g",
+                  "house": 10
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_varga_sign": {
+                      "graha": "?g",
+                      "varga": "D9",
+                      "sign": "Gemini"
+                    }
+                  },
+                  {
+                    "in_varga_sign": {
+                      "graha": "?g",
+                      "varga": "D9",
+                      "sign": "Virgo"
+                    }
+                  }
+                ]
+              },
+              {
+                "strength": {
+                  "graha": "Mercury",
+                  "strength": "weak"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g",
+                  "house": 10
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_varga_sign": {
+                      "graha": "?g",
+                      "varga": "D9",
+                      "sign": "Sagittarius"
+                    }
+                  },
+                  {
+                    "in_varga_sign": {
+                      "graha": "?g",
+                      "varga": "D9",
+                      "sign": "Pisces"
+                    }
+                  }
+                ]
+              },
+              {
+                "strength": {
+                  "graha": "Jupiter",
+                  "strength": "weak"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g",
+                  "house": 10
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_varga_sign": {
+                      "graha": "?g",
+                      "varga": "D9",
+                      "sign": "Taurus"
+                    }
+                  },
+                  {
+                    "in_varga_sign": {
+                      "graha": "?g",
+                      "varga": "D9",
+                      "sign": "Libra"
+                    }
+                  }
+                ]
+              },
+              {
+                "strength": {
+                  "graha": "Venus",
+                  "strength": "weak"
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "lord_of_house": {
+                  "graha": "?g",
+                  "house": 10
+                }
+              },
+              {
+                "any": [
+                  {
+                    "in_varga_sign": {
+                      "graha": "?g",
+                      "varga": "D9",
+                      "sign": "Capricorn"
+                    }
+                  },
+                  {
+                    "in_varga_sign": {
+                      "graha": "?g",
+                      "varga": "D9",
+                      "sign": "Aquarius"
+                    }
+                  }
+                ]
+              },
+              {
+                "strength": {
+                  "graha": "Saturn",
+                  "strength": "weak"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "wealth",
+        "topic": "source_of_livelihood",
+        "disposition": "weak"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 5, Milestone 38: mechanical, lord_of_house/in_varga_sign/strength/in_house/aspects reused exactly as-is)",
+        "verified_date": "2026-09-02"
+      },
+      "note": "Verse 9's second sentence, \"it\" referring back to \"the lord of Navamsa\" from the sentence immediately before (PD.05.Livelihood.NavamsaLordStrong, which this card's own note explains in full). Same seven-branch existential, `strength(X,weak)` in place of `strong`. `strength` can also emit neither verdict for a graha under the retrograde+combust collision `_strength` itself declines to adjudicate (concept:retrograde-combust-collision), so this card and PD.05.Livelihood.NavamsaLordStrong are mutually exclusive but not guaranteed exhaustive -- linked by `parallel_of`, not asserted to partition every chart the way vv.2-8's own seven cards do.",
+      "parallel_of": [
+        "PD.05.Livelihood.NavamsaLordStrong"
+      ]
+    },
+    {
+      "id": "PD.05.Livelihood.Country.OwnLand",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 5,
+        "verse": "9",
+        "page_anchor": "phaladeepika/p0054",
+        "tier": 1,
+        "quote": "If the sign be occupied or aspected by its lord, the source of income will be found in his own country. […] The same will happen when the Navamsa occupied by the lord of the 10th house by a fixed sign.",
+        "quote_display": "If the sign be occupied or aspected by its lord, the source of income will be found in his own country. […] The same will happen when the Navamsa occupied by the lord of the 10th house by a fixed sign.",
+        "quote_sha256": "55cd80d09c232b434e89d075b0a6d01d0040fdeb2eac9698e686e44ac5b33095",
+        "char_span": [
+          96637,
+          96740
+        ],
+        "span_trimmed": null,
+        "spans": [
+          [
+            96637,
+            96740
+          ],
+          [
+            96741,
+            96834
+          ]
+        ],
+        "quote_parts": [
+          "If the sign be occupied or aspected by its lord, the source of income will be found in his own country.",
+          "The same will happen when the Navamsa occupied by the lord of the 10th house by a fixed sign."
+        ]
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "lord_of_house": {
+              "graha": "?g",
+              "house": 10
+            }
+          },
+          {
+            "any": [
+              {
+                "in_house": {
+                  "graha": "?g",
+                  "house": 10
+                }
+              },
+              {
+                "aspects": {
+                  "graha": "?g",
+                  "target": 10
+                }
+              },
+              {
+                "in_varga_sign": {
+                  "graha": "?g",
+                  "varga": "D9",
+                  "sign": "Leo"
+                }
+              },
+              {
+                "in_varga_sign": {
+                  "graha": "?g",
+                  "varga": "D9",
+                  "sign": "Taurus"
+                }
+              },
+              {
+                "in_varga_sign": {
+                  "graha": "?g",
+                  "varga": "D9",
+                  "sign": "Scorpio"
+                }
+              },
+              {
+                "in_varga_sign": {
+                  "graha": "?g",
+                  "varga": "D9",
+                  "sign": "Aquarius"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "wealth",
+        "topic": "country_of_income",
+        "verdict": "own_country"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (chapter 5, Milestone 38: mechanical, lord_of_house/in_varga_sign/strength/in_house/aspects reused exactly as-is)",
+        "verified_date": "2026-09-02"
+      },
+      "note": "Verse 9's fourth and fifth sentences, both stated for the identical \"own country\" verdict (\"the same will happen when...\") and encoded together as one card's own two-branch disjunction rather than split, matching the way this store already treats one book-given name/one effect covering several named mechanisms (e.g. PD.07.Neechabhanga.LordOrExaltedInSign's own five-way \"any\"). Sentence one: \"the sign\" is the 10th house's own sign (subject of the two sentences immediately before, both about \"the sign representing the 10th house\"); \"its lord\" is that sign's ruling graha, i.e. the 10th house's own lord -- lord_of_house(?g,10) AND (in_house(?g,10) [occupied] OR aspects(?g,target=10) [aspected]); aspects already emits graha-to-house facts (full drishti onto a house number, not only onto another graha -- dep.aspects, Engine/facts.py::_aspects), so no new predicate is needed. Sentence two: \"a fixed sign\" is read against the same per-sign mobility table PD.01.SignAttributes.* (ch.1) already carries (Doctrine.sign_attributes(sign)[\"mobility\"]) -- of the seven Navamsa-owner sign pairs vv.2-8 (PD.05.Livelihood.*) already use, exactly four individual signs are \"Fixed\": Leo (Sun), Taurus (one of Venus's two), Scorpio (one of Mars's two) and Aquarius (one of Saturn's two) -- Mercury's and Jupiter's own pairs are both Dual, Moon's and the other halves of Mars/Venus/Saturn's are Moveable, so neither is ever satisfiable and correctly contributes no branch. Sign mobility is chart-independent doctrine (Aries is always Moveable), so this is authoring-time embedding exactly like vv.2-8's own Navamsa sign-lord table, not a new predicate: in_sign_class (dep.sign-class) turns out to be both already implemented AND the wrong shape for this clause regardless (it classifies a graha's own Rasi sign, not a divisional placement) -- see dep.sign-class's own corrected entry in Rules/deferred.json. Both branches guarded by the same drift-guard regression test as vv.2-8's own table (Engine/tests/test_chapter_five_livelihood.py). The verse's own first sentence (which country, by name, a given sign or Navamsa indicates) and its closing sentence (the mirror-image \"other than its lord\" foreign-country clause, needing a graha-distinct-from-?g quantifier the condition language does not have) are deferred separately -- see passage:phaladeepika.05.p022-country-general and passage:phaladeepika.05.p022-foreign."
+    }
+  ]
+}

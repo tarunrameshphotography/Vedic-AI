@@ -320,14 +320,15 @@
     "dep.sign-class": {
       "title": "sign classification",
       "kind": "reference",
-      "detail": "Odd/even, movable/fixed/dual, and the rest. Reference doctrine from Phaladeepika ch. 1, deferred.",
+      "detail": "Odd/even, movable/fixed/dual, and the rest. Built alongside chapter 1's own encoding (PD.01.SignAttributes.*, relation `sign_attributes`, read by `Doctrine.sign_attributes`) and emitted per graha by `Engine/facts.py`'s `_sign_class` extractor as `in_sign_class(graha,klass)` -- one fact per attribute axis (mobility, parity, direction, ...), not only mobility. This entry's own text went stale after chapter 1 landed and was corrected at Milestone 38 while auditing why a newly authored chapter-5 passage citing it as blocked came back `resolvable`: it is not blocked, and the predicate is a graha's own Rasi (D1) sign class, not a divisional one, so it would not in any case have reached a Navamsa placement -- ch.5 v.9's own 'fixed sign' clause (PD.05.Livelihood.Country.OwnLand) turned out not to need a live predicate at all, since sign mobility is chart-independent doctrine embeddable at authoring time exactly as the per-graha Navamsa sign-lord table already is. No card has yet consumed `in_sign_class` in a condition; it remains implemented but unused.",
       "phase": "3 (knowledge)",
       "depends_on": [
         "chapter:phaladeepika.01"
       ],
       "effort": 1,
       "effort_basis": "a classification table read from cards",
-      "predicate": "in_sign_class"
+      "predicate": "in_sign_class",
+      "implemented": true
     },
     "dep.house-class": {
       "title": "house classification",
@@ -688,6 +689,26 @@
       "effort": 3,
       "effort_basis": "a two-graha mutual lord_of_house/in_house comparison, structurally close to the existing mutual-Kendra pattern PD.07.Neechabhanga.MutualKendra already uses with in_house_from",
       "implemented": false
+    },
+    "dep.sign-to-country": {
+      "title": "which country/place a sign or divisional sign indicates",
+      "kind": "reference",
+      "detail": "Ch.5 v.9: 'The country from which the accrual of wealth will be indicated by the sign representing the 10th house or the Navamsa occupied by the lord of the 10th house' -- names a sign-to-country/place table as the general determinant but does not print one. No card anywhere in the current store carries such a table (checked against ch.1's own sign-attribute material, which states directions/body-forms/genders but never countries), so this is a genuinely new, unlocated classification, not an exposure gap like dep.rising-order-sign-class's own chapter-1-states-it-but-doesn't-expose-it situation.",
+      "phase": "3 (knowledge)",
+      "depends_on": [],
+      "effort": 2,
+      "effort_basis": "a reference table, once a chapter that states it is located and encoded -- costed as a guess until then",
+      "implemented": false
+    },
+    "dep.distinct-graha-quantifier": {
+      "title": "a condition-language test that two bound variables resolve to different grahas",
+      "kind": "combinator",
+      "detail": "Ch.5 v.9's own closing sentence: 'If the sign of the 10th house be occupied or aspected by [a] planet OTHER than its lord, the person concerned will earn in [a] place other than his native land' -- needs a second variable distinct from the already-bound 10th-lord, which no existing predicate or combinator tests (every leaf either binds a fresh variable or matches a literal; nothing excludes one bound value from equalling another). The same gap was already named informally, not registered, in ch.6 v.69 item 6's own trailing clause ('more so, if there be additionally a malefic in the said house') -- see PD.06.Parashara.EighthLordInTwelfth's note -- and now blocks a second, independent verse in a different chapter, which is what justifies registering it here rather than leaving it as a one-off aside.",
+      "phase": "2 (engine completion)",
+      "depends_on": [],
+      "effort": 4,
+      "effort_basis": "a new combinator shape (inequality between two solutions' bindings for the same variable name), not an extension of an existing one",
+      "implemented": false
     }
   },
   "entries": [
@@ -997,12 +1018,121 @@
       "chapter": 5,
       "locus": "whole chapter - Source of livelihood",
       "what": "rules for profession and means of living",
-      "reason": "Rule-dense and encodable now; deferred by ordering only.",
+      "reason": "RESOLVED (Milestone 38) for vv.2-9: ten firing cards, the seven-way per-graha Navamsa-lord livelihood family (vv.2-8) plus v.9's strength-gated wealth amount and own-country verdict (the latter covering both of the verse's own named sufficient conditions -- occupied/aspected by its own lord, or a fixed Navamsa -- in one card). Verse 1 and the remainder of v.9 (two more sentences) are deferred individually below rather than left under this one blanket entry -- see passage:phaladeepika.05.p001, .p002, .p022-country-general and .p022-foreign, none silently dropped.",
       "requires": [
         "dep.none"
       ],
       "phase": "3 (knowledge)",
-      "status": "deferred"
+      "status": "resolved"
+    },
+    {
+      "id": "passage:phaladeepika.05.worked-example-apparatus",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 5,
+      "locus": "v.1 Notes, worked example, printed horoscope chart and continued analysis (p.51-52)",
+      "what": "the translator's Notes on modern-day livelihood sources, a fully worked chart (Leo Lagna, Sun in Scorpio, Moon in Pisces) illustrating v.1's Lagna/Sun/Moon-whichever-stronger method, and a discursive aside on why only the strongest of the three reference points is used",
+      "reason": "Tier-3 apparatus, the same treatment every other transcribed illustrative horoscope in this corpus receives (chapters 8, 9, 20). The worked example depends on the same 'whoever is stronger' comparison passage:phaladeepika.05.p001/.p002 are already blocked on, so it would not become independently encodable even if reproduced.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.05.p023",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 5,
+      "locus": "p.54-55 colophon",
+      "what": "the chapter's closing formula",
+      "reason": "Colophon. Not doctrine, the same treatment every other chapter's closing formula receives.",
+      "requires": [
+        "dep.none"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        23
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.05.p001",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 5,
+      "locus": "v.1, first sentence group (p.51)",
+      "what": "which planet, occupying the 10th house from whichever of the Lagna or the Moon is stronger, indicates the source of wealth (father/mother/enemy/friend/brother/wife/servant for Sun/Moon/Mars/Mercury/Jupiter/Venus/Saturn respectively)",
+      "reason": "The qualifying condition itself ('whoever is stronger [between the Lagna and the Moon]') needs a strength verdict for the Lagna, which this store does not have -- the same architecture gap dep.lagna-strength already names (identified Milestone 24 for ch.6 v.9, applied again at ch.7 v.5). The significator table that follows is fully specified and would encode trivially once the qualifying condition is testable; it is not encoded ahead of that condition, which would assert more than the verse's own 'whoever is in the 10th' scoping supports.",
+      "requires": [
+        "dep.lagna-strength"
+      ],
+      "phase": "2 (engine completion)",
+      "status": "deferred",
+      "paragraphs": [
+        1
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.05.p002",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 5,
+      "locus": "v.1, second sentence group (p.51)",
+      "what": "the native's profession assigned to the lord of the Navamsa occupied by the lord of the 10th house from the Lagna, from the Moon and from the Sun (severally), whoever of the three is strongest",
+      "reason": "'Whoever is strongest' ranks three named candidates (the three 10th-lords, from three different reference points) and no predicate or combinator in this store compares several bound values against one another -- the same rank/compare gap dep.weakest-of-comparator already names for ch.20's own 'weakest of N' clauses, here needed in the opposite direction ('strongest of three'), which that entry's own detail (a general rank/compare gap, not literally restricted to 'weakest') already covers without a further dependency.",
+      "requires": [
+        "dep.weakest-of-comparator"
+      ],
+      "phase": "2 (engine completion)",
+      "status": "deferred",
+      "paragraphs": [
+        2
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.05.p022-country-general",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 5,
+      "locus": "v.9, third sentence (p.54)",
+      "what": "the country of income indicated by the sign representing the 10th house, or by the Navamsa occupied by the lord of the 10th house",
+      "reason": "Names a sign-to-country/place determinant but does not print the table itself; no source encoded anywhere in this store states one. See the newly registered dep.sign-to-country.",
+      "requires": [
+        "dep.sign-to-country"
+      ],
+      "phase": "3 (knowledge)",
+      "status": "deferred",
+      "paragraphs": [
+        22
+      ]
+    },
+    {
+      "id": "passage:phaladeepika.05.p022-foreign",
+      "kind": "passage",
+      "book": "phaladeepika",
+      "chapter": 5,
+      "locus": "v.9, closing sentence (p.54)",
+      "what": "the mirror-image foreign-country verdict: the 10th house occupied or aspected by a planet OTHER than its own lord indicates income earned outside the native's own country",
+      "reason": "'A planet other than its lord' needs a second bound graha distinct from the already-bound 10th-lord, which no predicate or combinator in this store's condition language expresses. See the newly registered dep.distinct-graha-quantifier.",
+      "requires": [
+        "dep.distinct-graha-quantifier"
+      ],
+      "phase": "2 (engine completion)",
+      "status": "deferred",
+      "paragraphs": [
+        22
+      ]
     },
     {
       "id": "chapter:phaladeepika.11",
