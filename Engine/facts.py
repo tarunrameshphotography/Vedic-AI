@@ -98,6 +98,15 @@ VOCABULARY: dict[str, tuple[str, ...]] = {
     # verse states -- see concept:strength-criterion-scope and `_strength`'s
     # own docstring for the precedent this follows on its own terms.
     "dasa_disposition": ("graha", "verdict"),
+    # dep.compound-friendship -- ch. 2 v. 23's own Panchadha Maitri tier
+    # between two grahas, combining the natural relationship
+    # (dep.dignity-friendship's own Doctrine.natural_relationship) with the
+    # temporary one (dep.graha-frame's own house-offset reckoning) via
+    # PD.02.Friendship.CompoundTable. Directional: `graha`'s classification of
+    # `other` need not equal `other`'s classification of `graha`, because
+    # neither the natural-relationship table nor the house offset between them
+    # is itself symmetric.
+    "compound_relationship": ("graha", "other", "category"),
 }
 
 
@@ -497,6 +506,76 @@ def _dignity_friendship(chart, doc, rep, frame) -> list[Fact]:
         ))
     if ambiguous:
         rep.incomplete("dignity_friendship",
+                        "the printed table contradicts itself for: "
+                        + "; ".join(ambiguous))
+    return out
+
+
+def _compound_friendship(chart, doc, rep, frame) -> list[Fact]:
+    """dep.compound-friendship -- ch. 2 v. 23's own five-tier compound
+    (Panchadha Maitri) relationship between two grahas: Adhimitra, Mitra,
+    Sama, Shatru, Adhishatru.
+
+    Two already-sourced inputs are combined, neither recomputed locally: the
+    natural relationship (`Doctrine.natural_relationship`, the same lookup
+    `_dignity_friendship` above uses) and the temporary one, read off the
+    `in_house_from` facts `_graha_frame` already derives (dep.graha-frame) --
+    friendly if the second graha falls in the 2nd, 3rd, 4th, 10th, 11th or
+    12th house counted from the first, inimical if in the 1st, 5th, 6th, 7th,
+    8th or 9th, per `PD.02.Friendship.Temporary`. The two combine through
+    `PD.02.Friendship.CompoundTable`'s own six-row Note.
+
+    Directional, and not assumed symmetric. `compound_relationship(A, B)` and
+    `compound_relationship(B, A)` are computed independently and can differ --
+    the natural-relationship table itself is not symmetric (the Moon
+    classifies Mercury as a friend; Mercury classifies the Moon as an enemy),
+    and the house offset from A to B is not, in general, the offset from B to
+    A. No claim is invented where the source is silent: the seven-graha
+    natural-relationship table (vv. 21-22) never names Rahu or Ketu inside any
+    graha's own friend/neutral/enemy row, so a classical graha's compound
+    relationship *to* a node is not emitted here, even though a node's own
+    relationship *to* a classical graha is (its own row, v. 35, does cover
+    them) -- an asymmetry in what the book states, preserved rather than
+    filled in.
+    """
+    houses, houses_cards = doc.temporary_relationship_houses()
+
+    offsets = {
+        (f.args["graha"], f.args["reference"]): f.args["house"]
+        for f in _graha_frame(chart, doc, rep, frame)
+    }
+
+    out: list[Fact] = []
+    ambiguous: list[str] = []
+    for (a, b), house in offsets.items():
+        try:
+            natural, nat_cards = doc.natural_relationship(a, b)
+        except DoctrineError as exc:
+            ambiguous.append(f"{a} vs {b}: {exc}")
+            continue
+        if natural is None:
+            continue                      # the table names no relation here
+        if house in houses["friendly"]:
+            temporary = "friend"
+        elif house in houses["inimical"]:
+            temporary = "enemy"
+        else:
+            continue                      # the partition does not cover this house
+        try:
+            category, cat_cards = doc.compound_relationship(natural, temporary)
+        except DoctrineError as exc:
+            ambiguous.append(f"{a} vs {b} ({natural}+{temporary}): {exc}")
+            continue
+        cards = set(nat_cards) | set(houses_cards) | set(cat_cards)
+        rep.used("compound_friendship", cards)
+        out.append(make_fact(
+            "compound_relationship", {"graha": a, "other": b, "category": category},
+            frame,
+            {"natural_relationship": natural, "temporary_relationship": temporary,
+             "house_from_graha": house, "doctrine": sorted(cards)},
+        ))
+    if ambiguous:
+        rep.incomplete("compound_friendship",
                         "the printed table contradicts itself for: "
                         + "; ".join(ambiguous))
     return out
@@ -1266,6 +1345,7 @@ EXTRACTORS = (
     ("combust", _combustion),
     ("dignity", _dignity),
     ("dignity_friendship", _dignity_friendship),
+    ("compound_friendship", _compound_friendship),
     ("occupant_count", _occupant_count),
     ("graha_frame", _graha_frame),
     ("conjunct", _conjunction),

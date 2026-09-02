@@ -609,7 +609,7 @@
       "title": "compound (Panchadha maitri) friendship tiers",
       "kind": "predicate",
       "predicate": "compound_relationship",
-      "detail": "The five-fold friendship the classics actually use -- Adhimitra (best friend), Mitra, Sama, Shatru, Adhishatru -- formed by combining the natural relationship with the temporary (Tatkalik) one, where the planets in the 2nd, 3rd, 4th, 10th, 11th and 12th from a graha are its temporary friends and the 1st, 5th, 6th, 7th, 8th and 9th its temporary enemies. dep.dignity-friendship carries the natural half only. Phaladeepika states the whole scheme in ch. 2 and uses Adhimitra without further definition in ch. 6 v. 19 (Pushkala yoga) and ch. 10 v. 23, and the ch. 4 survey prices six of its Sthana Bala rows by it. The combination table is doctrine and is printed; encoding it is ordinary Phase 3 work, and the temporary half is then arithmetic the engine already has the placements for.",
+      "detail": "The five-fold friendship the classics actually use -- Adhimitra (best friend), Mitra, Sama, Shatru, Adhishatru -- formed by combining the natural relationship with the temporary (Tatkalik) one, where the planets in the 2nd, 3rd, 4th, 10th, 11th and 12th from a graha are its temporary friends and the 1st, 5th, 6th, 7th, 8th and 9th its temporary enemies. dep.dignity-friendship carries the natural half only. Phaladeepika states the whole scheme in ch. 2 and uses Adhimitra without further definition in ch. 6 v. 19 (Pushkala yoga) and ch. 7 v. 23, and the ch. 4 survey prices six of its Sthana Bala rows by it. The combination table is doctrine and is printed; encoding it is ordinary Phase 3 work, and the temporary half is then arithmetic the engine already has the placements for. (Milestone 39 corrected this entry's own citation from 'ch. 10 v. 23' to 'ch. 7 v. 23' -- no verse using Adhimitra terminology exists anywhere in chapter 10's own extracted span; the actual second use, alongside Pushkala, is chapter 7's own v. 23.)",
       "phase": "2 (engine completion)",
       "depends_on": [
         "dep.dignity-friendship",
@@ -617,7 +617,7 @@
       ],
       "effort": 3,
       "effort_basis": "encode the printed combination table as reference cards, then a house-offset reckoning over existing placements",
-      "implemented": false
+      "implemented": true
     },
     "dep.kendra-togetherness": {
       "title": "what \"together in a Kendra\" means",
@@ -4107,12 +4107,12 @@
       "chapter": 7,
       "locus": "v.23 (p.89)",
       "what": "the Moon in an Adhimitra Navamsa aspected by Venus, richer still if also aspected by Jupiter",
-      "reason": "'Adhimitra' is a compound (Panchadha Maitri) friendship tier beyond the three dep.dignity-friendship already covers -- dep.compound-friendship, already registered, not implemented (the same blocker PD.06.Pushkala and PD.10.WifeDeprived carry).",
+      "reason": "RESOLVED (Milestone 39). Encoded as two firing cards: PD.07.King.MoonAdhimitraNavamsaVenusAspected (the verse's first sentence) and PD.07.King.MoonAdhimitraNavamsaVenusJupiterAspected (its second, `extends` the first with an added Jupiter aspect). \"The Navamsa of an Adhimitra\" reads the same idiom dep.dignity-friendship already established for natural friendship (a sign's *lord* classifies the graha occupying it), extended to the Navamsa and to the compound tier: a six-way existential over the D9 sign(s) each of the six other classical grahas rules (this store's own PD.01.SignLord.* table, the authoring-time discipline PD.05.Livelihood.* and PD.07.Neechabhanga.* already used) AND that lord's own compound_relationship to the Moon being Adhimitra -- the Moon itself carries no branch, since compound_relationship(Moon,Moon,*) is structurally never emitted. Zero new engine capability beyond dep.compound-friendship itself. This entry's own former reason text claimed the same blocker was shared by PD.10.WifeDeprived.Lord7Afflicted -- checked while resolving this passage and found stale: that card fires via dep.dignity-friendship (natural friendship only, dignity:inimical) and never named dep.compound-friendship at all; not corrected until now because nothing had re-examined this passage since it was first deferred.",
       "requires": [
-        "dep.compound-friendship"
+        "dep.none"
       ],
       "phase": "3 (knowledge)",
-      "status": "deferred",
+      "status": "resolved",
       "paragraphs": [
         53,
         54

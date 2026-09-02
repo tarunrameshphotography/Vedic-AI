@@ -488,13 +488,13 @@ def test_chapter_six_slice_three_inert_cards_never_fire(cards):
     """Vasumati (universal quantification) and Pushkala are recorded, not
     guessed at.
 
-    Pushkala had three independent obstacles and dep.strength was only the
-    first. Milestone 22 built that one, and the card stays inert on the other
-    two -- an undefined compound-friendship tier ("the house of an Adhimitra")
-    and an ambiguous reading ("together in a Kendra"). Its declared
-    dependencies moved with it, which is the point of this assertion: a card
-    that still cannot fire must not be left declaring a dependency that now
-    exists, or the backlog reports it as released.
+    Pushkala had three independent obstacles. dep.strength (Milestone 22) and
+    dep.compound-friendship (Milestone 39) are both now built, and the card
+    stays inert on the one that is not a capability at all -- an ambiguous
+    reading ("together in a Kendra"). Its declared dependencies moved with it
+    each time, which is the point of this assertion: a card that still cannot
+    fire must not be left declaring a dependency that now exists, or the
+    backlog reports it as released.
     """
     vasumati = next(c for c in cards if c.id == "PD.06.Vasumati")
     pushkala = next(c for c in cards if c.id == "PD.06.Pushkala")
@@ -502,9 +502,9 @@ def test_chapter_six_slice_three_inert_cards_never_fire(cards):
     assert vasumati.raw["requires"] == ["dep.universal-quantification"]
     assert vasumati.conditions == {"all": []}
     assert pushkala.activation == "inert"
-    assert pushkala.raw["requires"] == ["dep.compound-friendship",
-                                        "dep.kendra-togetherness"]
+    assert pushkala.raw["requires"] == ["dep.kendra-togetherness"]
     assert "dep.strength" not in pushkala.raw["requires"]
+    assert "dep.compound-friendship" not in pushkala.raw["requires"]
     assert pushkala.conditions == {"all": []}
     r = run(DEMO)
     fired = {c.derived["rule_card"] for c in r.claims}

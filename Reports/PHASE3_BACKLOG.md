@@ -8,12 +8,12 @@ Nothing may be silently deferred. Inert cards are read out of the store, deferre
 |---|---|
 | Backlog entries | **205** |
 | — of kind `card` | 14 |
-| — of kind `passage` | 106 |
+| — of kind `passage` | 105 |
 | — of kind `chapter` | 44 |
 | — of kind `concept` | 25 |
-| Resolved | 16 |
-| Cards in store | 621 |
-| Firing | 607 |
+| Resolved | 17 |
+| Cards in store | 623 |
+| Firing | 609 |
 | Inert | 14 |
 
 ## Dependencies
@@ -39,7 +39,6 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 | `dep.condition-variables` — variables in the condition language | schema | yes | 3 | 3 | 4 (integration) |
 | `dep.lagna-strength` — strength verdict for the Lagna/Ascendant | predicate | no | 3 | 0 | 2 (engine completion) |
 | `dep.upagraha` — upagraha computation | calculator | no | 3 | 0 | 2 (engine completion) |
-| `dep.compound-friendship` — compound (Panchadha maitri) friendship tiers | predicate | no | 2 | 1 | 2 (engine completion) |
 | `dep.native-sex` — the native's sex in the birth record | schema | yes | 2 | 0 | 2 (engine completion) |
 | `dep.second-nativity` — a second nativity | schema | no | 2 | 1 | beyond the MVP |
 | `dep.strength-ranking` — ordinal comparison of graha strength | calculator | no | 2 | 2 | 2 (engine completion) |
@@ -70,6 +69,7 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 | `dep.yoga-combination-count` — counting how many sibling yoga-conditions are simultaneously true | schema | no | 1 | 0 | beyond the MVP |
 | `dep.adjudication-representation` — adjudication representation (Stage 7, the reading half) | engine | yes | 0 | 0 | 4 (integration) |
 | `dep.combust` — combustion extractor | predicate | yes | 0 | 0 | 2 (engine completion) |
+| `dep.compound-friendship` — compound (Panchadha maitri) friendship tiers | predicate | yes | 0 | 0 | 2 (engine completion) |
 | `dep.correlated-negation` — negation correlated with the current binding | schema | yes | 0 | 0 | 2 (engine completion) |
 | `dep.declination` — declination north or south | calculator | no | 0 | 0 | 2 (engine completion) |
 | `dep.degree-range` — comparing a graha's degree in its sign against a range | schema | no | 0 | 0 | 2 (engine completion) |
@@ -243,7 +243,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `passage:phaladeepika.07.p040-royalfamily` | phaladeepika | 7 | v.20 item (a) (p.87-88) | Venus aspected by Jupiter, for a person born in a royal family | Split out of passage:phaladeepika.07.p040 (Milestone 37) so its own genuine gap does not hide behind that entry's now-resolved items (b)-(d). 'Aspected by Ju… | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.07.p046` | phaladeepika | 7 | v.21 and its Note (p.88-89) | an exalted planet aspected by a friendly planet (richer still if also conjunct one); the Sun in its own Navamsa with the Moon in its own sign, both strong | Deferred by ordering only for this slice (dep.none) -- close to encodable; whether natural friendship is exposed as a directly queryable condition-language f… | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.07.p050` | phaladeepika | 7 | v.22 (p.89) | the full Moon in Pisces aspected by a friendly planet; or the full, exalted Moon | Full Moon again -- dep.paksha. | `dep.paksha` | 3 (knowledge) | deferred |
-| `passage:phaladeepika.07.p053` | phaladeepika | 7 | v.23 (p.89) | the Moon in an Adhimitra Navamsa aspected by Venus, richer still if also aspected by Jupiter | 'Adhimitra' is a compound (Panchadha Maitri) friendship tier beyond the three dep.dignity-friendship already covers -- dep.compound-friendship, already regis… | `dep.compound-friendship` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.07.p053` | phaladeepika | 7 | v.23 (p.89) | the Moon in an Adhimitra Navamsa aspected by Venus, richer still if also aspected by Jupiter | RESOLVED (Milestone 39). Encoded as two firing cards: PD.07.King.MoonAdhimitraNavamsaVenusAspected (the verse's first sentence) and PD.07.King.MoonAdhimitraN… | `dep.none` | 3 (knowledge) | resolved |
 | `passage:phaladeepika.07.p055` | phaladeepika | 7 | vv.24-25 (p.89) | four further Raja Yogas by placement/conjunction (malefics in 3rd/6th/11th from the Lagna-lord's house, the Moon or the Lagna; Mars and Mercury in the 2nd; the Sun and Venus in the 4th; Mars/Saturn/Jupiter in the 10th/11th/Lagna); one of the 11th/9th/2nd lords in kendra from the Moon with Jupiter owning the 2nd, 5th or 11th | RESOLVED (Milestone 37). Encoded as five firing cards: PD.07.RajaYoga.MaleficsThirdSixthEleventh, .MarsMercurySecond, .SunVenusFourth, .MarsSaturnJupiterTent… | `dep.none` | 3 (knowledge) | resolved |
 | `passage:phaladeepika.07.p065` | phaladeepika | 7 | v.26 Notes illustration (p.90) | a transcribed horoscope chart and its worked-example narration (Saturn debilitated in Aries, Mars and Sun in Kendra) illustrating item (1)'s doctrine | Tier-3 apparatus (a transcribed chart diagram and its narration), excluded from rule extraction exactly as this store's other horoscope illustrations already… | `dep.none` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.07.p082` | phaladeepika | 7 | chapter close (p.92) | "Thus ends the seventh chapter on 'Maharaja Yogas' in Phaladeepika composed by Mantreswara." | Colophon, not doctrine -- the same treatment this store's other chapter-close colophons already received. | `dep.none` | 3 (knowledge) | deferred |
@@ -323,7 +323,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `card:PD.02.Disease.FollowsTemperament` | phaladeepika | 2 | v. 7 (Notes) | disease_follows_the_graha_temperament | States how to read a disease off whichever graha caused it, but not which graha causes one. Needs the rule that identifies the cause before it can be applied. | `dep.condition-variables`, `dep.adjudication` | 4 (integration) | deferred |
 | `card:PD.02.Prashna.ReservoirWater` | phaladeepika | 2 | v. 36 | water_increases | A horary rule: it reads the chart of the moment a question is asked, not a nativity. Its condition is exactly expressible and would fire on a birth chart, wh… | `dep.prashna` | beyond the MVP | deferred |
 | `card:PD.04.Lagna.TripedSign` | phaladeepika | 4 | v. 6 | 6. The first house gets one Rupa of strength if it is a triped sign. I | AMBIGUOUS AT THE SOURCE, and inert for that reason rather than for a missing capability. The verse partitions the signs three ways and names the first class … | `dep.triped-sign-class` | 3 (knowledge) | deferred |
-| `card:PD.06.Pushkala` | phaladeepika | 6 | v. 19, 20 | If the lords of the signs occupied by the Lagna and the Moon be togeth | STILL INERT AFTER dep.strength (Milestone 22). Three independent obstacles were recorded here and dep.strength was only the first; it is now built, and "a pl… | `dep.compound-friendship`, `dep.kendra-togetherness` | 2 (engine completion) + 3 (knowledge) | deferred |
+| `card:PD.06.Pushkala` | phaladeepika | 6 | v. 19, 20 | If the lords of the signs occupied by the Lagna and the Moon be togeth | STILL INERT AFTER dep.compound-friendship (Milestone 39). Three independent obstacles were originally recorded here; dep.strength (Milestone 22) and dep.comp… | `dep.kendra-togetherness` | 3 (knowledge) | deferred |
 | `card:PD.06.Vasumati` | phaladeepika | 6 | v. 19, 20 | 19. Vasumati Yoga is formed when all the benefic planets occupy upacha | Universally quantified over the (variable-membership) set of benefic grahas -- "ALL the benefic planets" must be in upachaya houses, not that one is. The con… | `dep.universal-quantification` | beyond the MVP | deferred |
 | `card:PD.10.Marriage.Dasha7` | phaladeepika | 10 | v. 13 | timing_of_marriage | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.lord-of-house`, `dep.dasa`, `dep.aspects`, `dep.transit` | 2 (engine completion) + beyond the MVP | deferred |
 | `card:PD.10.Marriage.StrongerDasha` | phaladeepika | 10 | v. 14 | timing_of_marriage | The quote runs across a printed page break; the page anchor sits inside the span, as it does in the corpus. MILESTONE 22: dep.strength is now implemented but… | `dep.condition-variables`, `dep.dasa`, `dep.lord-of-house`, `dep.strength-ranking`, `dep.transit`, `dep.varga` | 2 (engine completion) + 4 (integration) + beyond the MVP | deferred |

@@ -2831,6 +2831,447 @@
       "note": "Item (d) of v.20, printed and transcribed as \"(4)\" rather than \"(d)\" -- the same evident print-numbering defect noted on PD.07.King.JupiterLagnaNotCapricorn. Chapter 7 slice 2 (Milestone 37); this verse was tagged `dep.none` at Milestone 36 (`passage:phaladeepika.07.p040`). No new engine capability."
     },
     {
+      "id": "PD.07.King.MoonAdhimitraNavamsaVenusAspected",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 7,
+        "verse": "23",
+        "page_anchor": "phaladeepika/p0088",
+        "tier": 1,
+        "quote": "23. Should the Moon be in the Navamasa of an Adhimitra aspected fully by Venus. The native will become a very wealthy King.",
+        "quote_display": "23. Should the Moon be in the Navamasa of an Adhimitra aspected fully by Venus. The native will become a very wealthy King.",
+        "quote_sha256": "7b2e5b8a4ac747383f6e06cd2b49ac81cd6eea538414069fb54e46482b825974",
+        "char_span": [
+          173151,
+          173274
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "in_varga_sign": {
+                      "graha": "Moon",
+                      "varga": "D9",
+                      "sign": "Leo"
+                    }
+                  },
+                  {
+                    "compound_relationship": {
+                      "graha": "Moon",
+                      "other": "Sun",
+                      "category": "Adhimitra"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "any": [
+                      {
+                        "in_varga_sign": {
+                          "graha": "Moon",
+                          "varga": "D9",
+                          "sign": "Aries"
+                        }
+                      },
+                      {
+                        "in_varga_sign": {
+                          "graha": "Moon",
+                          "varga": "D9",
+                          "sign": "Scorpio"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "compound_relationship": {
+                      "graha": "Moon",
+                      "other": "Mars",
+                      "category": "Adhimitra"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "any": [
+                      {
+                        "in_varga_sign": {
+                          "graha": "Moon",
+                          "varga": "D9",
+                          "sign": "Gemini"
+                        }
+                      },
+                      {
+                        "in_varga_sign": {
+                          "graha": "Moon",
+                          "varga": "D9",
+                          "sign": "Virgo"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "compound_relationship": {
+                      "graha": "Moon",
+                      "other": "Mercury",
+                      "category": "Adhimitra"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "any": [
+                      {
+                        "in_varga_sign": {
+                          "graha": "Moon",
+                          "varga": "D9",
+                          "sign": "Sagittarius"
+                        }
+                      },
+                      {
+                        "in_varga_sign": {
+                          "graha": "Moon",
+                          "varga": "D9",
+                          "sign": "Pisces"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "compound_relationship": {
+                      "graha": "Moon",
+                      "other": "Jupiter",
+                      "category": "Adhimitra"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "any": [
+                      {
+                        "in_varga_sign": {
+                          "graha": "Moon",
+                          "varga": "D9",
+                          "sign": "Taurus"
+                        }
+                      },
+                      {
+                        "in_varga_sign": {
+                          "graha": "Moon",
+                          "varga": "D9",
+                          "sign": "Libra"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "compound_relationship": {
+                      "graha": "Moon",
+                      "other": "Venus",
+                      "category": "Adhimitra"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "any": [
+                      {
+                        "in_varga_sign": {
+                          "graha": "Moon",
+                          "varga": "D9",
+                          "sign": "Capricorn"
+                        }
+                      },
+                      {
+                        "in_varga_sign": {
+                          "graha": "Moon",
+                          "varga": "D9",
+                          "sign": "Aquarius"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "compound_relationship": {
+                      "graha": "Moon",
+                      "other": "Saturn",
+                      "category": "Adhimitra"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "aspects": {
+              "graha": "Venus",
+              "target": "Moon"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "RajaYoga",
+        "mechanism": "moon_in_adhimitra_navamsa_aspected_by_venus",
+        "effect": "wealthy_king"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (Milestone 39: dep.compound-friendship built to release this passage; mechanical once built, in_varga_sign/aspects/compound_relationship reused exactly as declared)",
+        "verified_date": "2026-09-03"
+      },
+      "note": "V.23's first sentence. \"The Navamsa of an Adhimitra\" is read the same idiom dep.dignity-friendship already established for the natural case (`_dignity_friendship`'s own docstring: \"in the house of a friend\" means the sign's *lord* is a friend of the graha sitting there) -- extended here from the Rasi to the Navamsa (D9) and from natural friendship to the compound (Panchadha Maitri) tier v.23 of chapter 2 defines. Encoded as a six-way existential over the D9 sign(s) each of the six other classical grahas rules (the per-sign lord table this store's own PD.01.SignLord.* cards give, ch.1 v.6, the same authoring-time-table discipline PD.05.Livelihood.* and PD.07.Neechabhanga.* already used for their own per-graha tables) AND that lord's own compound_relationship to the Moon being Adhimitra. The seventh classical graha, the Moon itself (Cancer's own lord), is not given a branch: `compound_relationship(Moon,Moon,*)` is structurally never emitted -- the natural-relationship table carries no self-relation -- so a Moon branch would be dead code, not a narrower reading of the verse. \"Aspected fully by Venus\" is `aspects(Venus,Moon)`, the same full-drishti-onto-a-graha shape Milestone 37 already used. Zero new engine capability beyond dep.compound-friendship itself: `in_varga_sign` (D9, Milestone 29) and `aspects` (onto a graha) both reused exactly as declared."
+    },
+    {
+      "id": "PD.07.King.MoonAdhimitraNavamsaVenusJupiterAspected",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 7,
+        "verse": "23",
+        "page_anchor": "phaladeepika/p0088",
+        "tier": 1,
+        "quote": "Should the Moon in the above position be aspected by Jupiter, the person born will become a King reigning over the entire Earth.",
+        "quote_display": "Should the Moon in the above position be aspected by Jupiter, the person born will become a King reigning over the entire Earth.",
+        "quote_sha256": "52464e157359184b3ae31d200d9f6e3acc9543fee44848b56b049e3612956c7f",
+        "char_span": [
+          173278,
+          173406
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "in_varga_sign": {
+                      "graha": "Moon",
+                      "varga": "D9",
+                      "sign": "Leo"
+                    }
+                  },
+                  {
+                    "compound_relationship": {
+                      "graha": "Moon",
+                      "other": "Sun",
+                      "category": "Adhimitra"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "any": [
+                      {
+                        "in_varga_sign": {
+                          "graha": "Moon",
+                          "varga": "D9",
+                          "sign": "Aries"
+                        }
+                      },
+                      {
+                        "in_varga_sign": {
+                          "graha": "Moon",
+                          "varga": "D9",
+                          "sign": "Scorpio"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "compound_relationship": {
+                      "graha": "Moon",
+                      "other": "Mars",
+                      "category": "Adhimitra"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "any": [
+                      {
+                        "in_varga_sign": {
+                          "graha": "Moon",
+                          "varga": "D9",
+                          "sign": "Gemini"
+                        }
+                      },
+                      {
+                        "in_varga_sign": {
+                          "graha": "Moon",
+                          "varga": "D9",
+                          "sign": "Virgo"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "compound_relationship": {
+                      "graha": "Moon",
+                      "other": "Mercury",
+                      "category": "Adhimitra"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "any": [
+                      {
+                        "in_varga_sign": {
+                          "graha": "Moon",
+                          "varga": "D9",
+                          "sign": "Sagittarius"
+                        }
+                      },
+                      {
+                        "in_varga_sign": {
+                          "graha": "Moon",
+                          "varga": "D9",
+                          "sign": "Pisces"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "compound_relationship": {
+                      "graha": "Moon",
+                      "other": "Jupiter",
+                      "category": "Adhimitra"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "any": [
+                      {
+                        "in_varga_sign": {
+                          "graha": "Moon",
+                          "varga": "D9",
+                          "sign": "Taurus"
+                        }
+                      },
+                      {
+                        "in_varga_sign": {
+                          "graha": "Moon",
+                          "varga": "D9",
+                          "sign": "Libra"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "compound_relationship": {
+                      "graha": "Moon",
+                      "other": "Venus",
+                      "category": "Adhimitra"
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "any": [
+                      {
+                        "in_varga_sign": {
+                          "graha": "Moon",
+                          "varga": "D9",
+                          "sign": "Capricorn"
+                        }
+                      },
+                      {
+                        "in_varga_sign": {
+                          "graha": "Moon",
+                          "varga": "D9",
+                          "sign": "Aquarius"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "compound_relationship": {
+                      "graha": "Moon",
+                      "other": "Saturn",
+                      "category": "Adhimitra"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "aspects": {
+              "graha": "Venus",
+              "target": "Moon"
+            }
+          },
+          {
+            "aspects": {
+              "graha": "Jupiter",
+              "target": "Moon"
+            }
+          }
+        ]
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "RajaYoga",
+        "mechanism": "moon_in_adhimitra_navamsa_aspected_by_venus_and_jupiter",
+        "effect": "king_of_the_whole_earth"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (Milestone 39: dep.compound-friendship built to release this passage; mechanical once built, in_varga_sign/aspects/compound_relationship reused exactly as declared)",
+        "verified_date": "2026-09-03"
+      },
+      "note": "V.23's second sentence, \"the above position\" referring back to the first sentence's own condition (PD.07.King.MoonAdhimitraNavamsaVenusAspected, whose note explains the D9/compound-friendship encoding in full). Same six-branch existential, ANDed with both `aspects(Venus,Moon)` and `aspects(Jupiter,Moon)` rather than Venus's aspect alone. Not a card that fires instead of the first -- the greater effect is stated as an addition on top of the same disposition, so this card's own condition is a strict superset of the first card's, and the two are linked by `extends` rather than `parallel_of`.",
+      "extends": [
+        "PD.07.King.MoonAdhimitraNavamsaVenusAspected"
+      ]
+    },
+    {
       "id": "PD.07.RajaYoga.MaleficsThirdSixthEleventh",
       "schema": 1,
       "source": {

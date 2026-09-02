@@ -200,6 +200,64 @@ class Doctrine:
         self.consulted.add(card.id)
         return Sourced(hits[0], (card.id,))
 
+    def temporary_relationship_houses(self) -> Sourced:
+        """The house-offset partition ch. 2 v. 23 defines: which houses,
+        counted from a graha, hold its temporary (Tatkalik) friends and which
+        hold its temporary enemies.
+
+        Two cards carry the relation `temporary_relationship`
+        (`PD.02.Friendship.Temporary`, the verse itself, and
+        `PD.02.Friendship.TemporaryNote`, the translator's own restatement of
+        it) and only the first names the actual house lists; the second is
+        marked `restates` rather than a second authority, so it is excluded
+        by shape rather than by `_one` raising on two candidates.
+        """
+        hits = [c for c in self._rows("temporary_relationship")
+                if "friendly_houses" in c.predicts]
+        if not hits:
+            raise DoctrineError(
+                "no temporary_relationship card carries friendly_houses; the "
+                "store does not say"
+            )
+        if len(hits) > 1:
+            raise DoctrineError(
+                f"{len(hits)} temporary_relationship cards carry "
+                f"friendly_houses ({', '.join(sorted(c.id for c in hits))}); "
+                f"the engine cannot choose between authorities"
+            )
+        c = hits[0]
+        self.consulted.add(c.id)
+        return Sourced({"friendly": tuple(c.predicts["friendly_houses"]),
+                        "inimical": tuple(c.predicts["inimical_houses"])},
+                       (c.id,))
+
+    def compound_relationship(self, natural: str, temporary: str) -> Sourced:
+        """The compound (Panchadha Maitri) tier for one natural/temporary pair,
+        read from `PD.02.Friendship.CompoundTable`'s own six-row Note under
+        ch. 2 v. 23.
+
+        The table has no row for a temporary "neutral" -- v. 23's own house
+        partition never produces one, every one of the twelve houses from a
+        graha being classed friendly or inimical -- so only "friend" and
+        "enemy" are ever meaningful values for *temporary* here.
+        """
+        c = self._one("compound_relationship")
+        hits = [row["result"] for row in c.predicts["table"]
+                if row["natural"] == natural and row["temporary"] == temporary]
+        if not hits:
+            raise DoctrineError(
+                f"no compound_relationship row for natural={natural!r}, "
+                f"temporary={temporary!r}; the printed table does not cover "
+                f"this combination"
+            )
+        if len(hits) > 1:
+            raise DoctrineError(
+                f"{len(hits)} compound_relationship rows match "
+                f"natural={natural!r}, temporary={temporary!r}; the printed "
+                f"table contradicts itself there"
+            )
+        return Sourced(hits[0], (c.id,))
+
     # --- classifications ----------------------------------------------------
 
     def sign_attributes(self, sign: str) -> Sourced:

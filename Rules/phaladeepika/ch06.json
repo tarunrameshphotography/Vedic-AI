@@ -2845,15 +2845,14 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": "tarunrameshphotography + Claude (Milestone 22: re-examined when dep.strength was built; the strength clause is now expressible, the other two obstacles are not, and the requires list -- which named only dep.strength and so would have reported this card as released -- is corrected to the two that actually block it)",
-        "verified_date": "2026-08-24"
+        "verified_by": "tarunrameshphotography + Claude (Milestone 39: re-examined when dep.compound-friendship was built; the compound-friendship clause is now expressible -- compound_relationship(?g,?lord,Adhimitra) over the lords of the Lagna and Moon signs -- but the card is still not encoded, because its other named obstacle, dep.kendra-togetherness, is a reading call, not a capability, and remains unresolved; the requires list is corrected to name only that one blocker)",
+        "verified_date": "2026-09-03"
       },
       "kind": "yoga",
       "activation": "inert",
-      "note": "STILL INERT AFTER dep.strength (Milestone 22). Three independent obstacles were recorded here and dep.strength was only the first; it is now built, and \"a planet endowed with strength aspects the Lagna\" is expressible (strength(?g, strong) with aspects(?g, 1)). The other two are not, and either one alone still blocks the card, so the declared dependencies are corrected to name them instead of a capability that now exists. (1) \"The house of an Adhimitra\" is the compound friendship tier -- natural friend plus temporary friend -- which the book does define, in ch. 2 (\"Natural friend + Temporary friend = Best friend ... (Adhimitra)\"), but which nothing in the store encodes and no extractor computes: dep.dignity-friendship carries the natural half only, and the temporary half needs the 2/3/4/10/11/12-from-a-graha reckoning. (2) \"The lords ... together in a Kendra\" is still not unambiguous -- conjoined in one kendra, or each independently in a kendra -- and this passage does not say which. Printed page 64 was rendered and checked when this card was encoded, so neither is an extraction gap.",
+      "note": "STILL INERT AFTER dep.compound-friendship (Milestone 39). Three independent obstacles were originally recorded here; dep.strength (Milestone 22) and dep.compound-friendship (Milestone 39) are both now built, and two of the card's three clauses -- \"a planet endowed with strength aspects the Lagna\" and \"the house of an Adhimitra\" -- are each individually expressible. Encoding the card's actual conditions is deliberately not done this milestone anyway, because the one remaining obstacle, \"the lords ... together in a Kendra\", is still not unambiguous -- conjoined in one kendra, or each independently in a kendra -- and writing conditions for the other two clauses while leaving this one unresolved would either omit a third of the verse or guess at it; neither is this project's discipline. Printed page 64 was rendered and checked when this card was encoded, so this is not an extraction gap.",
       "exclusions": [],
       "requires": [
-        "dep.compound-friendship",
         "dep.kendra-togetherness"
       ]
     },

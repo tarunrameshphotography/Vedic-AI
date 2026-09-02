@@ -438,7 +438,7 @@ def test_the_cards_strength_does_not_release_are_still_inert(cards):
     """
     by_id = {c.id: c for c in cards}
     still_blocked = {
-        "PD.06.Pushkala": {"dep.compound-friendship", "dep.kendra-togetherness"},
+        "PD.06.Pushkala": {"dep.kendra-togetherness"},
         "PD.01.Kalapurusha.Strength": {"dep.body-part-significator",
                                        "dep.manual-verification"},
         "PD.10.WifeDirection.Strongest": {"dep.strength-ranking"},

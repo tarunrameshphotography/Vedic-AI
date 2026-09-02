@@ -329,6 +329,148 @@ def test_two_cards_claiming_the_same_graha_is_refused(tmp_path):
         doc.natural_relationship("Sun", "Moon")
 
 
+# --- unit: compound friendship (dep.compound-friendship) --------------------
+
+def test_temporary_relationship_houses_reads_the_house_lists(tmp_path):
+    doc = synthetic(tmp_path, [
+        ("temporary_relationship", {"friendly_houses": [2, 3, 4, 10, 11, 12],
+                                    "inimical_houses": [1, 5, 6, 7, 8, 9]}),
+    ])
+    houses, cards = doc.temporary_relationship_houses()
+    assert houses == {"friendly": (2, 3, 4, 10, 11, 12), "inimical": (1, 5, 6, 7, 8, 9)}
+    assert cards == ("XX.01.Synthetic001",)
+
+
+def test_temporary_relationship_ignores_a_restating_card_with_no_house_lists(tmp_path):
+    """PD.02.Friendship.TemporaryNote restates the verse but carries no
+    friendly_houses/inimical_houses of its own; it must not count as a second
+    authority `_one` would refuse to choose between -- excluded by shape, not
+    by name."""
+    doc = synthetic(tmp_path, [
+        ("temporary_relationship", {"friendly_houses": [2, 3, 4, 10, 11, 12],
+                                    "inimical_houses": [1, 5, 6, 7, 8, 9]}),
+        ("temporary_relationship", {"restates": "XX.01.Synthetic001"}),
+    ])
+    houses, cards = doc.temporary_relationship_houses()
+    assert houses["friendly"] == (2, 3, 4, 10, 11, 12)
+    assert cards == ("XX.01.Synthetic001",)
+
+
+def test_temporary_relationship_houses_missing_raises(tmp_path):
+    doc = synthetic(tmp_path, [("sign_lord", {"sign": "Aries", "graha": "Mars"})])
+    with pytest.raises(DoctrineError, match="has not been encoded"):
+        doc.temporary_relationship_houses()
+
+
+def test_compound_relationship_reads_all_six_printed_rows(tmp_path):
+    """Every row of PD.02.Friendship.CompoundTable's own Note, matched
+    exactly -- covering the whole finite input space (3 natural values x 2
+    temporary values, the only two the house partition ever produces)."""
+    doc = synthetic(tmp_path, [
+        ("compound_relationship", {"table": [
+            {"natural": "friend", "temporary": "friend", "result": "Adhimitra"},
+            {"natural": "friend", "temporary": "enemy", "result": "Sama"},
+            {"natural": "enemy", "temporary": "enemy", "result": "Adhishatru"},
+            {"natural": "enemy", "temporary": "friend", "result": "Sama"},
+            {"natural": "neutral", "temporary": "friend", "result": "Mitra"},
+            {"natural": "neutral", "temporary": "enemy", "result": "Shatru"},
+        ]}),
+    ])
+    assert doc.compound_relationship("friend", "friend").value == "Adhimitra"
+    assert doc.compound_relationship("friend", "enemy").value == "Sama"
+    assert doc.compound_relationship("enemy", "enemy").value == "Adhishatru"
+    assert doc.compound_relationship("enemy", "friend").value == "Sama"
+    assert doc.compound_relationship("neutral", "friend").value == "Mitra"
+    assert doc.compound_relationship("neutral", "enemy").value == "Shatru"
+
+
+def test_compound_relationship_has_no_row_for_a_temporary_neutral(tmp_path):
+    """v. 23's own house partition covers all twelve houses between "friendly"
+    and "inimical" and leaves no third case, so the printed table never needs
+    a temporary-neutral row -- and none is invented for it here."""
+    doc = synthetic(tmp_path, [
+        ("compound_relationship", {"table": [
+            {"natural": "friend", "temporary": "friend", "result": "Adhimitra"},
+        ]}),
+    ])
+    with pytest.raises(DoctrineError, match="does not cover this combination"):
+        doc.compound_relationship("friend", "neutral")
+
+
+def test_compound_relationship_two_tables_is_refused(tmp_path):
+    doc = synthetic(tmp_path, [
+        ("compound_relationship", {"table": [
+            {"natural": "friend", "temporary": "friend", "result": "Adhimitra"}]}),
+        ("compound_relationship", {"table": [
+            {"natural": "friend", "temporary": "friend", "result": "Mitra"}]}),
+    ])
+    with pytest.raises(DoctrineError, match="cannot choose between authorities"):
+        doc.compound_relationship("friend", "friend")
+
+
+def test_compound_friendship_extractor_reuses_the_graha_frame_offset(tmp_path, chart):
+    """Wiring, not arithmetic: the extractor must not recompute the house
+    offset itself, only read it off dep.graha-frame's own `in_house_from`
+    facts (the same discipline `_dasa_disposition` already follows for
+    dignity/combustion/house-class). Jupiter sits three signs on from Venus in
+    this chart -- a temporary friend by the house partition -- and Jupiter is
+    made Venus's natural neutral here on purpose, isolated from the real
+    book's own table."""
+    assert chart.bodies["Jupiter"].sign_index == 11
+    assert chart.bodies["Venus"].sign_index == 9
+    doc = synthetic(tmp_path, [
+        ("temporary_relationship", {"friendly_houses": [2, 3, 4, 10, 11, 12],
+                                    "inimical_houses": [1, 5, 6, 7, 8, 9]}),
+        ("natural_relationship", {"table": {
+            "Jupiter": {"friend": [], "neutral": ["Venus"], "enemy": []},
+        }}),
+        ("compound_relationship", {"table": [
+            {"natural": "neutral", "temporary": "friend", "result": "Mitra"},
+        ]}),
+    ])
+    fs = extract_facts(chart, doc)
+    assert "compound_relationship(Jupiter,Venus,Mitra)" in fs
+    ev = fs.get("compound_relationship(Jupiter,Venus,Mitra)").evidence
+    assert ev["natural_relationship"] == "neutral"
+    assert ev["temporary_relationship"] == "friend"
+    assert ev["house_from_graha"] == 3
+    assert any(cid.startswith("XX.01.") for cid in ev["doctrine"])
+    # Venus's own row was never given, so the reverse direction is reported
+    # incomplete rather than silently produced or silently dropped.
+    assert "vs Jupiter" in fs.doctrine.partial.get("compound_friendship", "")
+
+
+def test_compound_friendship_never_reports_a_graha_against_itself(tmp_path, chart):
+    """dep.graha-frame emits no self-pairs, and this extractor draws its pairs
+    from exactly those facts -- a graha cannot be asked whether it is its own
+    Adhimitra."""
+    doc = synthetic(tmp_path, [
+        ("temporary_relationship", {"friendly_houses": [2, 3, 4, 10, 11, 12],
+                                    "inimical_houses": [1, 5, 6, 7, 8, 9]}),
+        ("natural_relationship", {"table": {
+            g: {"friend": [g], "neutral": [], "enemy": []}
+            for g in ("Sun", "Moon", "Mars", "Mercury", "Jupiter", "Venus", "Saturn")
+        }}),
+        ("compound_relationship", {"table": [
+            {"natural": "friend", "temporary": "friend", "result": "Adhimitra"},
+        ]}),
+    ])
+    fs = extract_facts(chart, doc)
+    assert all(f.args["graha"] != f.args["other"]
+               for f in fs.by_predicate("compound_relationship"))
+
+
+def test_compound_friendship_skipped_without_the_temporary_house_doctrine(tmp_path, chart):
+    """No PD.02.Friendship.Temporary-shaped card at all: the extractor's own
+    missing doctrine is reported as skipped, the same way `_combustion`
+    reports a missing dep.combust source -- not swallowed locally inside the
+    extractor."""
+    doc = synthetic(tmp_path, [("sign_lord", {"sign": "Aries", "graha": "Mars"})])
+    fs = extract_facts(chart, doc)
+    assert not fs.by_predicate("compound_relationship")
+    assert "has not been encoded" in fs.doctrine.skipped.get("compound_friendship", "")
+
+
 # --- golden chart -----------------------------------------------------------
 #
 # 1987-03-14 04:22 Asia/Kolkata, Thanjavur. Capricorn lagna, so the houses run
@@ -417,6 +559,67 @@ def test_golden_ketu_is_read_from_the_rahu_ketu_card(facts):
     assert "PD.02.Friendship.NaturalTable" not in ev["doctrine"]
 
 
+COMPOUND_CATEGORIES = {"Adhimitra", "Mitra", "Sama", "Shatru", "Adhishatru"}
+
+
+def test_golden_compound_friendship_is_directional(facts, chart):
+    """Jupiter classifies Venus its natural enemy while Venus classifies
+    Jupiter neutral (an asymmetry PD.02.Friendship.NaturalTable's vv.21-22
+    already state outright, not one this extractor introduces); both fall in
+    a mutually temporary-friendly house pair here, so both directions resolve
+    -- to two different compound tiers, computed independently."""
+    assert chart.bodies["Jupiter"].sign == "Pisces"
+    assert chart.bodies["Venus"].sign == "Capricorn"
+    assert "compound_relationship(Jupiter,Venus,Sama)" in facts
+    assert "compound_relationship(Venus,Jupiter,Mitra)" in facts
+    fwd = facts.get("compound_relationship(Jupiter,Venus,Sama)").evidence
+    rev = facts.get("compound_relationship(Venus,Jupiter,Mitra)").evidence
+    assert fwd["natural_relationship"] == "enemy"
+    assert rev["natural_relationship"] == "neutral"
+    assert fwd["house_from_graha"] != rev["house_from_graha"]
+
+
+def test_golden_compound_friendship_reports_the_printed_contradiction(facts):
+    """The Moon/Mercury printed defect (PD.02.Friendship.NaturalTable: Mercury
+    listed under both Friend and Neutral in the Moon's own row) blocks only
+    the direction that reads the Moon's row. Mercury's own row is clean, so
+    Mercury's classification of the Moon still resolves."""
+    assert "compound_relationship(Mercury,Moon,Adhishatru)" in facts
+    assert not [f for f in facts.by_predicate("compound_relationship")
+               if f.args["graha"] == "Moon" and f.args["other"] == "Mercury"]
+    reason = facts.doctrine.partial.get("compound_friendship", "")
+    assert "Moon vs Mercury" in reason
+    assert "both friend and neutral" in reason
+
+
+def test_golden_compound_friendship_never_rates_a_node_as_seen_by_a_classical_graha(facts):
+    """The seven-graha natural-relationship table (vv. 21-22) never names Rahu
+    or Ketu inside any classical graha's own row -- so a classical graha's
+    compound relationship *to* a node is not emitted, even though a node's
+    own relationship *to* a classical graha is (its own row, v. 35, does cover
+    them). Genuine asymmetric source coverage, not an engine guess filling in
+    the gap either way."""
+    assert not [f for f in facts.by_predicate("compound_relationship")
+               if f.args["graha"] == "Mercury" and f.args["other"] in ("Rahu", "Ketu")]
+    assert [f for f in facts.by_predicate("compound_relationship")
+           if f.args["graha"] == "Rahu" and f.args["other"] == "Mercury"]
+
+
+def test_golden_compound_friendship_never_invents_a_seventh_category(facts):
+    """Anti-invention: only the five printed tiers ever appear as `category`,
+    never a numeric score standing in for one."""
+    rows = facts.by_predicate("compound_relationship")
+    assert rows
+    assert {f.args["category"] for f in rows} <= COMPOUND_CATEGORIES
+    for f in rows:
+        assert isinstance(f.args["category"], str)
+
+
+def test_golden_compound_friendship_facts_name_their_reference_cards(facts):
+    ev = facts.get("compound_relationship(Mercury,Moon,Adhishatru)").evidence
+    assert any(cid.startswith("PD.02.Friendship") for cid in ev["doctrine"])
+
+
 def test_golden_house_classes(facts):
     for house in (1, 4, 7, 10):
         assert f"house_class({house},kendra)" in facts
@@ -466,7 +669,8 @@ def test_every_doctrine_fact_names_its_reference_cards(facts):
 def test_each_extractor_reports_what_it_consulted(facts):
     rep = facts.doctrine
     for name in ("lord_of_house", "sign_class", "house_class", "graha_class",
-                 "aspects", "combust", "dignity", "dignity_friendship"):
+                 "aspects", "combust", "dignity", "dignity_friendship",
+                 "compound_friendship"):
         assert rep.consulted.get(name), f"{name} reported no reference cards"
     assert not rep.skipped, rep.skipped
     assert len(rep.cards) >= 50
