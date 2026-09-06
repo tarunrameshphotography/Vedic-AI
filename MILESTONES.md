@@ -5,37 +5,79 @@ astrologer would, where every predictive sentence traces to a rule printed in a 
 applied to a quantity that was actually computed. Governing rule: *the system may compute,
 and it may quote — it may not invent.*
 
-**Current production-readiness: 60%** (see §A; recomputed, not incremented — Milestone 39 holds
-60.00% exactly: every row's own delta this milestone (2 new firing cards against a ~1,535-card
-estimate; one genuinely new predicate, `compound_relationship`, but architecturally the same kind
-of capability `dasa_disposition`/`mahadasa_ordinal` already are — a doctrine-read verdict derived
-from already-computed inputs, not a new stage or combinator; one new `extends` link between two
-cards from the same verse, not a cross-authority disagreement; a raw-fraction provenance move;
-+26 tests) falls below every row's own established rounding threshold, the same posture Milestones
-26/31/32/33/34/36/37/38 already took for their own small, correct, fully-verified additions. Card
-count moves 621 → 623 (+2 firing, +0 reference)).
+**Current production-readiness: 60%** (see §A; recomputed, not incremented — Milestone 40 holds
+60.00% exactly: it resolves one reading question (`dep.kendra-togetherness`, purely from source and
+cross-reference, no engine change) and registers one newly discovered one
+(`dep.pushkala-clause-scope`), releasing zero new cards and touching zero engine files — well below
+every row's own established rounding threshold, the same posture Milestones
+26/31/32/33/34/36/37/38/39 already took for their own small, correct, fully-verified, sub-threshold
+work. Card count holds at 623 (609 firing, 14 inert, unchanged); +1 test).
 
-**Current phase:** knowledge/engine-completion (Phase 3/2). Milestone 39 builds
-`dep.compound-friendship` — Phaladeepika ch.2 v.23's own compound (Panchadha Maitri) tier between
-two grahas, combining the natural relationship (`Doctrine.natural_relationship`, already built) with
-the temporary (Tatkalik) one (a house-offset reckoning reusing `dep.graha-frame`'s own
-`in_house_from` facts) via `PD.02.Friendship.CompoundTable`'s own six-row Note — and uses it to
-release chapter 7 v.23 (`PD.07.King.MoonAdhimitraNavamsaVenusAspected`/
-`.MoonAdhimitraNavamsaVenusJupiterAspected`, two firing cards), the passage the dependency registry
-had named as its second real use since Milestone 22. `PD.06.Pushkala` (ch.6 v.19) was re-examined
-and stays inert: one of its two named obstacles is now built, the other, `dep.kendra-togetherness`,
-is a reading call rather than a capability and remains unresolved, so the card's own `requires` is
-corrected to name only that one blocker rather than left declaring a dependency that no longer
-applies. Auditing the registry entry also found two stale citations, both corrected in place rather
-than left misleading a future session: `dep.compound-friendship`'s own detail text named "ch.10
-v.23" for its second use when no verse anywhere in chapter 10 uses Adhimitra terminology at all (the
-actual second use is chapter 7's own v.23); and `passage:phaladeepika.07.p053`'s own reason text
-claimed `PD.10.WifeDeprived.Lord7Afflicted` shared this same blocker, when that card in fact fires
-via `dep.dignity-friendship` (natural friendship only) and never named `dep.compound-friendship` at
-all. Phase 4 (integration) is untouched. Stage 7's *representation* half is built; its *weighting*
-half is deliberately not, and is not scheduled.
+**Current phase:** knowledge/engine-completion (Phase 3/2). Milestone 40 is a source-investigation
+milestone by design, per its own master prompt: it resolves `dep.kendra-togetherness` —
+Phaladeepika ch.6 v.19's "the lords of the signs occupied by the Lagna and the Moon be together in
+a Kendra" reads as the two lords conjoined in one and the same Kendra house, not each independently
+in a Kendra of its own, because the same chapter already settles the idiom: v.37's Raja Yoga clause
+("the conjunction or association of the lords of 9th and the 10th house in any auspicious house,"
+`PD.06.RajaYoga`) is glossed by the very next sentence, Shankha Yoga (`PD.06.Shankha`), as lords
+"similarly placed (that is, they occupy together an auspicious house)" — a book's own parenthetical
+definition of "together in a house," already adjudicated and encoded before this milestone, one
+page after Pushkala's own identical construction. Corroborated corpus-wide (Phaladeepika chs. 4, 6,
+7, 10, 12, 16, 18 and Brihat Jataka's own instances): every printed use of "together" denotes
+co-occupation of one sign or house, never independent placement in a shared classification. No
+engine change was needed or made — `conjunct(graha,other)` ("same sign," already the engine's own
+reading of "posited together in a bhava") and `in_house_class(graha,"kendra")` already say exactly
+this — so `dep.kendra-togetherness` is flipped to `implemented: true` in `Rules/deferred.json` on
+textual grounds alone. Re-auditing `PD.06.Pushkala` in full, rather than assuming one resolved
+obstacle resolves the whole card, found the verse's own top-level grammar independently
+unresolved — "[lords together in a Kendra] or [lords in the house of an Adhimitra] and [a planet
+endowed with strength aspects the Lagna]" is genuinely ambiguous between `(A or B) and C` and
+`A or (B and C)`, and no punctuation, Note, worked example, or parallel sentence anywhere in the
+corpus settles it. Registered as a new dependency, `dep.pushkala-clause-scope`
+(`implemented: false`), and `PD.06.Pushkala`'s own `requires` corrected to name it alone. Zero cards
+released; zero engine files touched. Phase 4 (integration) is untouched. Stage 7's
+*representation* half is built; its *weighting* half is deliberately not, and is not scheduled.
 
-**Current milestone:** Milestone 39 — **`dep.compound-friendship` built (Phaladeepika ch.2 v.23);
+**Current milestone:** Milestone 40 — **`dep.kendra-togetherness` resolved (a reading call, not a
+capability); `PD.06.Pushkala` (ch.6 v.19) stays inert, now on a newly registered second reading
+question, `dep.pushkala-clause-scope`.** Investigated whether ch.6 v.19's "the lords of the signs
+occupied by the Lagna and the Moon be together in a Kendra" means the two lords conjoined in one
+and the same Kendra house, or each independently occupying a Kendra of its own — the two readings
+the registry had left open since Milestone 22, when `dep.strength` first exposed Pushkala as
+blocked on it. The chapter itself already settles the idiom: v.37's Raja Yoga clause ("the
+conjunction or association of the lords of 9th and the 10th house in any auspicious house,"
+`PD.06.RajaYoga`) is glossed by the very next sentence, Shankha Yoga (`PD.06.Shankha`), as lords
+"similarly placed (that is, they occupy together an auspicious house)" — the book's own
+parenthetical definition of "together in a house" as co-occupation of one house, already
+adjudicated and encoded before this milestone (verified 2026-08-24), one page after Pushkala's own
+identical construction (lord(s) + "together" + "in a [house-class]"). Corroborated corpus-wide: a
+search of every use of "together"/"posited together"/"conjoined together" across the whole
+converted Phaladeepika corpus (chs. 4, 6, 7, 10, 12, 16, 18) and Brihat Jataka found none that
+denotes independent placement in a shared classification — every one denotes co-occupation of one
+sign or house. `dep.kendra-togetherness` is flipped to `implemented: true` in `Rules/deferred.json`
+on this textual basis alone; no engine change, since `conjunct(graha,other)` ("same sign," already
+documented in `Engine/facts.py` as this engine's own reading of "posited together in a bhava") and
+`in_house_class(graha,"kendra")` already express exactly this reading and need no extension.
+Re-auditing `PD.06.Pushkala` in full — per the master prompt's own explicit instruction not to
+assume one resolved obstacle resolves the whole card — found the verse's own top-level grammar
+independently unresolved: "[the lords be together in a Kendra] or [be in the house of an Adhimitra]
+and [a planet endowed with strength aspects the Lagna]" is genuinely ambiguous between `(A or B)
+and C` (the strength/aspect clause a mandatory addition to either lord-placement) and
+`A or (B and C)` (Kendra-togetherness alone suffices, the strength/aspect requirement attached only
+to the Adhimitra alternative) — not equivalent, and picking out different charts. No punctuation,
+Notes, worked example, or parallel "X or Y and Z" sentence anywhere in Phaladeepika settles it (a
+corpus-wide search for the same shape found only this one sentence), and Brihat Jataka does not
+name Pushkala yoga at all, so it supplies no corroboration either. Registered as a new dependency,
+`dep.pushkala-clause-scope` (`implemented: false`), and `PD.06.Pushkala`'s own `requires` corrected
+to name it alone — all three of the verse's individual clauses are now individually expressible
+(Kendra-togetherness via `conjunct`/`in_house_class`; "the house of an Adhimitra" via
+`compound_relationship`, the same idiom `PD.07.King.MoonAdhimitraNavamsaVenusAspected` already
+uses; the strength/aspect clause via `strength`/`aspects`), but the card's own `conditions` stay
+`{"all": []}` and `activation` stays `inert`, because writing them would mean picking one of the two
+unresolved boolean parses. Zero new engine capability; zero cards released; one dependency resolved,
+one newly registered.** See Milestone 40 in §C for the full write-up.
+
+**Previous milestone:** Milestone 39 — **`dep.compound-friendship` built (Phaladeepika ch.2 v.23);
 chapter 7 v.23 released (`PD.07.King.MoonAdhimitraNavamsaVenusAspected`/
 `.MoonAdhimitraNavamsaVenusJupiterAspected`): two firing cards.** The Moon occupying the Navamsa
 (D9) of a graha who is its own compound-friendship Adhimitra (best friend), aspected fully by Venus
@@ -69,7 +111,7 @@ exists; the actual second use is ch.7 v.23) and `passage:phaladeepika.07.p053`'s
 `PD.10.WifeDeprived.Lord7Afflicted` shared this blocker (it does not; that card fires via
 `dep.dignity-friendship` alone).** See Milestone 39 in §C for the full write-up.
 
-**Previous milestone:** Milestone 38 — **Phaladeepika chapter 5 encoded, vv.2-9
+**Milestone before that:** Milestone 38 — **Phaladeepika chapter 5 encoded, vv.2-9
 (`PD.05.Livelihood.SunNavamsa`/`.MoonNavamsa`/`.MarsNavamsa`/`.MercuryNavamsa`/`.JupiterNavamsa`/
 `.VenusNavamsa`/`.SaturnNavamsa` vv.2-8, `PD.05.Livelihood.NavamsaLordStrong`/`.NavamsaLordWeak`
 v.9's first two sentences, `PD.05.Livelihood.Country.OwnLand` v.9's fourth and fifth sentences):
@@ -205,23 +247,22 @@ in §C for the full write-up.
 inimical sign, or literally the 6th or 12th house (not the full 6th/8th/12th dusthana class)
 producing adverse/miserable dasa effects, for any graha rather than specifically a house lord. Zero
 new engine capability — `nature`, `dignity`, `in_house` and `mahadasa_lord` reused exactly as-is.**
-See Milestone 32 in §C for the full write-up.
-
-**Milestone before that:** Milestone 31 — **Chapter 20's Mahadasa-scoped house-lord dasa doctrine
-encoded (vv.2-21, v.22's first two sentences, v.40's first sentence, v.41); no Antardasa mechanism
-built — confirmed, by reading all 63 verses directly, that no order or duration arithmetic for the
-nine antardasa sub-periods is printed anywhere in chapters 19 or 20.** See Milestone 31 in §C for
-the full write-up. (Milestone 30 — `dep.dasa` built, chapter 19 encoded — and every earlier
+See Milestone 32 in §C for the full write-up. (Milestone 31 — chapter 20's Mahadasa-scoped
+house-lord dasa doctrine encoded, vv.2-21, and no Antardasa mechanism built — and every earlier
 milestone remain in full in §C; this rolling header summary keeps a nine-milestone window.)
 
-**Exact resume point:** Milestone 39 built `dep.compound-friendship` and used it to release chapter 7
-v.23 (two firing cards); chapter 20's own state is exactly where Milestone 34 left it, and chapter 5's
-own state is exactly where Milestone 38 left it (Milestones 35-39 all touched chapter 7,
-infrastructure, or one cross-chapter engine capability). `git fetch --all --prune`, confirm `main` ==
-`origin/main`, then pick up §D. There is still **no open P0**. `PD.06.Pushkala` (ch.6 v.19) is
-re-examined and still inert, now on exactly one blocker, `dep.kendra-togetherness` (a reading call,
-not a capability) — `leverage.py` accordingly now ranks it cost 1, +1 card, tied with
-`dep.triped-sign-class` at the top of the recommended order. **Chapter 5 (Milestone 38)** is resolved for vv.2-9;
+**Exact resume point:** Milestone 40 resolved `dep.kendra-togetherness` (a reading call, settled from
+the same chapter's own v.37/v.38 idiom) and, on re-auditing `PD.06.Pushkala` in full, found and
+registered a second, previously unnamed reading question in the same sentence's own grammar,
+`dep.pushkala-clause-scope`; chapter 20's own state is exactly where Milestone 34 left it, and
+chapter 5's own state is exactly where Milestone 38 left it (Milestones 35-40 all touched chapter 7,
+infrastructure, a cross-chapter engine capability, or — this milestone — a source reading with zero
+engine change). `git fetch --all --prune`, confirm `main` == `origin/main`, then pick up §D. There
+is still **no open P0**. `PD.06.Pushkala` (ch.6 v.19) is re-examined and still inert, now on exactly
+one blocker, `dep.pushkala-clause-scope` (a reading call, not a capability) — `leverage.py`
+accordingly now ranks it cost 1, +1 card, tied with `dep.triped-sign-class` at the top of the
+recommended order (`dep.kendra-togetherness` itself is resolved and no longer appears in
+`leverage.py`'s table at all). **Chapter 5 (Milestone 38)** is resolved for vv.2-9;
 the remainder is genuinely blocked, not merely unpicked: **v.1** needs `dep.lagna-strength`
 (`passage:phaladeepika.05.p001`, its own source-of-wealth-by-strongest-of-Lagna/Moon clause) and
 `dep.weakest-of-comparator` (`passage:phaladeepika.05.p002`, its own profession-by-strongest-of-three
@@ -273,15 +314,33 @@ still owed by a human**, none blocking any of the above: `concept:moon-nature-cr
 (Milestone 22), `concept:parallel-of-overloaded` (Milestone 23), `concept:p009-lagna-or-moon-clause`
 (Milestone 24), `concept:adhiyoga-distribution-strictness` (Milestone 26), `dep.triped-sign-class`
 (Decision 0d, Milestone 28), `Decision 0e` (Milestone 29, which division "the Varga of Mars or Saturn"
-means) — none touched by Milestones 34-39.
+means) — none touched by Milestones 34-40. (Milestone 40's own two findings —
+`dep.kendra-togetherness`'s resolution and `dep.pushkala-clause-scope`'s registration — are tracked
+as ordinary `Rules/deferred.json` dependencies, the same way `dep.kendra-togetherness` itself always
+was, not added to this numbered list; neither rose to the kind of standing, precedent-setting
+judgement call Decisions 0-0e record.)
 
-**Current Git SHA:** `4e2cfe232966d7b486ca251bb449d0e2e0f75c2b` (parent — Milestone 38's own commit;
+**Current Git SHA:** `a553eeed7d3c0690793a24124ec7411bbb3f058e` (parent — Milestone 39's own commit;
 this milestone's own commit follows this file's checkpoint)
 **Last verified remote SHA (origin/main):** same before this milestone's commit — 0 ahead /
-0 behind, working tree clean before this commit
-**Last update date:** 2026-09-03
+0 behind, working tree clean apart from the same two known pre-existing unrelated untracked files
+before this commit
+**Last update date:** 2026-09-06
 
-**Current test count (`Engine/tests`):** 652 passing — was 626. The 26 new tests (Milestone 39: 14 in
+**Current test count (`Engine/tests`):** 653 passing — was 652. The 1 new test (Milestone 40, in
+`Engine/tests/test_slice.py`: `test_kendra_togetherness_resolved_but_pushkala_still_blocked`) pins
+the hand-set `implemented` flags on both `dep.kendra-togetherness` (now `true`) and the newly
+registered `dep.pushkala-clause-scope` (`false`) directly against the registry, plus its `kind` and
+the absence of a `predicate` field — since a concept-kind dependency is never flipped automatically
+by anything in `Engine/facts.py` the way a predicate-kind one is. Two pre-existing assertions were
+also corrected in place rather than left pinning a stale dependency name (not counted as new tests):
+`Engine/tests/test_slice.py::test_chapter_six_slice_three_inert_cards_never_fire` and
+`Engine/tests/test_strength.py::test_the_cards_strength_does_not_release_are_still_inert` both now
+assert `PD.06.Pushkala`'s own `requires` is `["dep.pushkala-clause-scope"]`, with an explicit check
+that `dep.kendra-togetherness` no longer appears there — the same "corrected, not merely widened"
+discipline Milestone 39 applied to these same two assertions when `dep.compound-friendship` was
+built.
+**Previous count (Milestone 39):** 652 passing — was 626. The 26 new tests (Milestone 39: 14 in
 `Engine/tests/test_doctrine.py` for `dep.compound-friendship` itself — unit tests against a synthetic
 reference store for `Doctrine.temporary_relationship_houses`/`.compound_relationship` and the
 `_compound_friendship` extractor's own wiring, plus golden-chart tests against the real store pinning
@@ -367,15 +426,33 @@ against an isolated `tmp_path` root, the full error taxonomy). `Frontend/` (Vite
 (5 files: birth form, loading/error states, claims explorer, dasa timeline, `ComparisonMode`'s diff
 logic as a pure function). Neither suite is counted in this row's own historical figure, which this
 table's convention has always scoped to `Engine/tests` — see Milestone 35's own §A accounting.
-**Current rule-card counts:** **623 total** · 609 executable (firing) · **14 inert** — Milestone 39
-added 2 chapter-7 cards (0 reference, 2 firing); no card was removed, and none of the 14 existing
-inert cards changed status by construction (`PD.06.Pushkala`'s own bookkeeping was corrected, not
-its activation — it stays inert, now on one blocker instead of two). **Previous count (Milestone
-38):** 621 total · 607 executable · 14 inert — 10 chapter-5 cards added (0 reference, 10 firing).
-**Current verification:** **621/623 cards signed off (99.68%, was 619/621 ≈ 99.68%)** — both new
-cards signed at authoring time; the same two standing holdouts unchanged (`PD.01.Kalapurusha.Strength`,
-`PD.04.Lagna.TripedSign` — untouched, genuine source-level defects, not oversights). A raw-fraction
-move within existing rounding, held at 98% in §A.
+**Current rule-card counts:** **623 total** · 609 executable (firing) · **14 inert** — Milestone 40
+added no card at all (a source-investigation and dependency-bookkeeping milestone); none of the 14
+inert cards changed activation (`PD.06.Pushkala`'s own bookkeeping was corrected twice over — one
+declared blocker resolved, one newly discovered and registered — but it stays inert throughout).
+**Previous count (Milestone 39):** 623 total · 609 executable · 14 inert — 2 chapter-7 cards added
+(0 reference, 2 firing).
+**Current verification:** **621/623 cards signed off (99.68%, unchanged)** — `PD.06.Pushkala`'s own
+`extraction.verified_by` was rewritten in place (still non-empty, so it remains counted as signed);
+the same two standing holdouts unchanged (`PD.01.Kalapurusha.Strength`, `PD.04.Lagna.TripedSign` —
+untouched, genuine source-level defects, not oversights). Held at 98% in §A.
+
+**Backlog (Milestone 40):** 205 entries (+0 net — no entry added, removed, or flipped between
+`deferred`/`resolved`; `PD.06.Pushkala`'s own `card:PD.06.Pushkala` backlog entry, derived from the
+rule store, persists unchanged in kind and count, only its `requires`/`reason` text following the
+card). Two dependencies change: `dep.kendra-togetherness` flips `implemented: false` → `true` (a
+textual reading, not a build) and a new dependency, `dep.pushkala-clause-scope`
+(`implemented: false`), is registered — so the registry moves 65 → 66 dependencies, 30 → 31
+implemented. `card:PD.06.Pushkala`'s own `requires` corrected from `["dep.kendra-togetherness"]` to
+`["dep.pushkala-clause-scope"]`, the same "declared dependency no longer applies" bookkeeping fix
+Milestone 22 first established for this exact card and Milestone 39 repeated for it most recently.
+"Available now" holds at 105 (`PD.06.Pushkala` was never counted there under either dependency name,
+since both name an unimplemented one). `backlog.py`'s own "newly unblocked" line still names the
+same 9 pre-existing stale entries this file's own header has carried forward for several
+milestones (4 `concept:*` entries stale since Milestone 22, `chapter:phaladeepika.11`/`.18`/`.22`,
+`passage:phaladeepika.20.p021` and `.08.p057`) — none is this milestone's to fix, and none is newly
+added by this milestone's own change (`dep.kendra-togetherness` blocked nothing else, so its
+resolution surfaces no additional entry).
 
 **Backlog (Milestone 39):** 205 entries (+0 net — one status flip only,
 `passage:phaladeepika.07.p053` from `deferred` to `resolved`; resolved count moves 16 → 17, the
@@ -550,6 +627,25 @@ built one small new predicate/extractor, `dasa_disposition`** (ch. 20 v.14's own
 
 **Overall Production Readiness: 0.15×25 + 0.10×77 + 0.20×44 + 0.15×67 + 0.10×82 + 0.10×98 +
 0.10×79 + 0.05×36 + 0.03×30 + 0.01×50 + 0.01×60 = 60.00% ≈ 60%**
+
+**Milestone 40: 60.00% → 60.00%, held.** No row moves, and none is even a candidate this time: unlike
+every other milestone in this table's own history, Milestone 40 added zero cards (Rule
+extraction/encoding), zero engine capability (Reasoning engine capability — `dep.kendra-togetherness`
+was resolved by reading, not by writing `Engine/*.py`), no new `contradicts` cluster (Contradiction
+handling), and no chart-scale run (End-to-end validation), because the master prompt scoped it as a
+source-investigation milestone and the source did not, in the end, license a new firing card —
+`PD.06.Pushkala` stays inert throughout, now on a different, newly discovered blocker
+(`dep.pushkala-clause-scope`) rather than the one it entered the milestone on. The two rows a change
+like this could in principle touch both move by less than their own rounding: Provenance/auditability
+holds at 98% (621/623 signed off, unchanged in both numerator and denominator — `PD.06.Pushkala`'s
+own `extraction.verified_by` text was rewritten, not newly signed or unsigned) and Test coverage
+holds at 79% (653 tests, was 652, +1, ~0.15% — smaller than every prior delta this row has ever
+credited, let alone moved on). This is not a null milestone: a genuine reading question three
+milestones' own write-ups (22, 38, 39) carried forward as unresolved is now settled, from the
+source itself rather than from convention, and the re-audit it required found a second such question
+in the same sentence that no prior session had named — but neither event is the kind this table
+scores, which is why the number holds exactly rather than moving by an unrounded fraction the way
+Milestone 39's own raw-fraction provenance move did.
 
 **Milestone 39: 60.00% → 60.00%, held.** No row moved. Every row's own delta this milestone (2 new
 firing cards against the ~1,535-card estimate; one genuinely new predicate,
@@ -4555,36 +4651,251 @@ ranking — rather than leaving a future session to re-derive them.
 
 ---
 
+### Milestone 40 — `dep.kendra-togetherness` resolved; `PD.06.Pushkala` re-audited and stays inert
+on a newly registered second question
+
+**Phase:** 3 (knowledge) — a source-reading milestone; no engine-completion (Phase 2) work was in
+scope or needed
+**Scope:** `Rules/deferred.json` (`dep.kendra-togetherness` flipped `implemented: false` → `true`,
+its own `detail` text rewritten to state the resolution and evidence; one new dependency registered,
+`dep.pushkala-clause-scope`, `implemented: false`); `Rules/phaladeepika/ch06.json`
+(`PD.06.Pushkala`'s own `requires`/`note`/`extraction.verified_by`/`verified_date` corrected in
+place — `conditions` and `activation` untouched, still `{"all": []}` / `inert`);
+`Engine/tests/test_slice.py` (two pre-existing assertions in
+`test_chapter_six_slice_three_inert_cards_never_fire` corrected, one new test added,
+`test_kendra_togetherness_resolved_but_pushkala_still_blocked`);
+`Engine/tests/test_strength.py` (one pre-existing assertion in
+`test_the_cards_strength_does_not_release_are_still_inert` corrected). `Reports/PHASE3_BACKLOG.md`
+and `Reports/PHASE3_PLAN.md` regenerated. No `Engine/*.py` file touched.
+**Status:** COMPLETE
+**Commit:** this milestone's own commit (see `git log`)
+**Remote:** pending this commit's push
+
+**Investigation scope, exactly as the master prompt set it.** Determine what Phaladeepika ch.6
+v.19 means by the Pushkala-yoga condition that the lords of the signs occupied by the Lagna and the
+Moon be "together in a Kendra" — conjoined in one and the same Kendra house, or each independently
+in a Kendra of its own — and whether the source settles it well enough for a faithful
+implementation, or whether the ambiguity must stay documented and the dependent card (`PD.06.Pushkala`)
+stay inert. Not in scope: any other Chapter 6 passage, any engine capability beyond what this one
+reading needs, and any numeric authority-weighting mechanism.
+
+**Source passages read.** `Knowledge/phaladeepika.md`: the full Pushkala passage and its immediate
+context (ch.6 vv.14-21, printed pp.63-65 — Kesari/Sakata/Adhama/Sama/Varishtha, Vasumati, Amala,
+Pushkala itself, and Subhamala/Asubhamala/Lakshmi/Gouri immediately after) for the verse's own
+surrounding idiom; the whole of chapter 6 (vv.1-70, printed pp.55-82) for every other
+"together"/"conjunction"/"association ... in a house" construction the same author uses,
+specifically v.37-38's Raja Yoga/Shankha Yoga pair; and a corpus-wide search of the full converted
+book for every occurrence of "together" (chs. 4, 6, 7, 10, 12, 16, 18) and, separately, for the
+exact "or ... and ... aspects" shape v.19's own trailing clause has (found nowhere else in the
+book). `Knowledge/brihat-jataka.md`: a corpus-wide search for "together" (its own instances at
+Kendra/houses context, e.g. "Mars and Saturn occupy together a malefic sign," "Moon and Jupiter are
+together in Sagittarius," all co-occupation) and, separately, for "Pushkala" (zero hits — Brihat
+Jataka does not name this yoga at all, so it supplies no corroboration for either of Milestone 40's
+two findings). The store's own already-encoded cards were read as primary evidence too, not merely
+as background: `PD.06.RajaYoga` and `PD.06.Shankha` (ch.6 v.37-38, encoded and verified
+2026-08-24, well before this milestone) directly bear on the "together" question, and
+`PD.07.King.MoonAdhimitraNavamsaVenusAspected` (ch.7 v.23, Milestone 39) directly bears on how "the
+house of an Adhimitra" is already read in this store.
+
+**Competing interpretations considered, and the evidence for each.**
+
+*Reading 1 — conjoined in one and the same Kendra (co-occupation).* Evidence: `PD.06.RajaYoga`'s
+own quote, v.37, "the conjunction or association of the lords of 9th and the 10th house in any
+auspicious house," is glossed by the very next sentence, `PD.06.Shankha`'s own quote, as lords
+"similarly placed (**that is, they occupy together an auspicious house**)" — a translator's
+parenthetical explicitly equating "conjunction or association ... in a house" with "occupy
+together [a house]," and reading both as co-occupation of one house (`PD.06.RajaYoga`'s own
+`conditions`: `lord_of_house(?g1,9)`, `lord_of_house(?g2,10)`, `in_house(?g1,?h)`,
+`in_house(?g2,?h)`, `house_class(?h,"auspicious")` — the two lords bound to the *same* `?h`).
+Pushkala's own "the lords ... be together in a Kendra" is the identical shape — lord(s) of named
+houses, "together," "in a [house-class]" — one page earlier, same author, same chapter. Corpus-wide
+corroboration: every other "together" in Phaladeepika (Sun/Moon "together" causing Indrachapa,
+ch.4; Sun/Venus "located together in the 4th house," ch.7; Moon/Saturn "together in the 7th house,"
+ch.10; lords of the 5th and 9th "placed together in a house," ch.12; lords of the 5th and 6th "be
+together in any house" and lords of the 5th and 11th "conjoined together," both ch.16; Venus and
+Saturn "together," ch.18) and every "together" found in Brihat Jataka denotes co-occupation of one
+sign or house; none denotes independent, unconnected placement in a shared classification.
+*Reading 2 — each independently in a Kendra of its own.* Evidence: none found. No sentence
+anywhere in either book uses "together" this way, and no Note, worked example, or commentary
+attaches this reading to Pushkala or to any other "together" construction.
+
+**Conclusion on `dep.kendra-togetherness`: RESOLVED, Reading 1.** Category A/C evidence under the
+master prompt's own hierarchy — textually established within the same chapter (`PD.06.RajaYoga`/
+`PD.06.Shankha`, v.37-38) and corroborated by cross-passage usage across the whole corpus, not
+imported convention or engineering assumption. `Rules/deferred.json`'s
+`dep.kendra-togetherness` entry is flipped `implemented: false` → `true`, with its `detail` field
+rewritten to state this reasoning in full rather than merely marking the flag. No engine change is
+needed: `conjunct(graha,other)` (`Engine/facts.py::_conjunction`, "same sign" — its own docstring
+already calls this the engine's reading of grahas "posited together in a bhava") and
+`in_house_class(graha,"kendra")` (already used by `PD.06.Ruchaka` and others) together say exactly
+what Reading 1 requires; the general condition-language variable binding (`Engine/rules.py`'s own
+`?`-prefixed unification, general to every argument position, not only `graha`) would let a card
+express `lord_of_house(?lg,1)`, `in_house(Moon,?mh)`, `lord_of_house(?ml,?mh)`,
+`conjunct(?lg,?ml)`, `in_house_class(?lg,"kendra")` without any new predicate, exactly the way
+`PD.06.Shankha` already joins `lord_of_house`/`in_house`/`house_class` through shared variables for
+its own, structurally identical pair.
+
+**`PD.06.Pushkala` re-audited in full, not assumed released.** The master prompt was explicit that
+resolving `dep.kendra-togetherness` must not be assumed to resolve the whole card, so all three of
+the verse's own clauses were re-examined together, not just the one named dependency:
+
+1. **"The lords ... be together in a Kendra"** — now expressible (`conjunct` + `in_house_class`,
+   above).
+2. **"[The lords] be in the house of an Adhimitra"** — already noted expressible at Milestone 39
+   (`compound_relationship(?g,?lord,"Adhimitra")`, the same "in the house of X" idiom
+   `dep.dignity-friendship` established for the natural case and `PD.07.King.MoonAdhimitraNavamsaVenusAspected`
+   already uses for the compound one), unchanged by this milestone.
+3. **"A planet endowed with strength aspects the Lagna"** — expressible since `dep.strength`
+   (Milestone 22): `strength(?p,"strong")` and `aspects(?p,Lagna-house)`.
+
+All three are now individually expressible with existing predicates and zero new engine code. But
+re-reading the verse's own English while writing out what a full condition tree would look like
+surfaced a fourth, previously unnamed problem: the sentence's own top-level grammar. "If the lords
+... be together in a Kendra **or** be in the house of an Adhimitra **and** a planet endowed with
+strength aspects the Lagna, the planetary disposition so formed is known as Pushkala yoga" is
+genuinely ambiguous between **(A or B) and C** — the strength/aspect clause a mandatory addition to
+either lord-placement — and **A or (B and C)** — Kendra-togetherness alone suffices, with the
+strength/aspect requirement attached only to the Adhimitra alternative. These are not equivalent:
+a chart with the two lords conjunct in a Kendra but no strong planet aspecting the Lagna satisfies
+Pushkala under the second reading and not the first — exactly the "pick out different charts" test
+the registry's own `dep.kendra-togetherness` entry had already applied to the Kendra question.
+Investigated the same way: no punctuation survives in the converted text to settle it; no Note or
+worked example is printed for Pushkala (unlike Vasumati and Amala, the two yogas printed
+immediately around it, both of which get their own explanatory sentences at v.20); a corpus-wide
+search for the same "X or Y and Z" shape found no other sentence in Phaladeepika built this way to
+compare against; and Brihat Jataka does not name Pushkala yoga at all, so it offers no
+corroboration either. This is a second, independent reading question, not a restatement of the
+first, and it survives even though the first is now closed.
+
+**Conclusion on the card's overall status: still inert, correctly, on a different blocker.**
+Registered the new question as `dep.pushkala-clause-scope` in `Rules/deferred.json` (`kind:
+"concept"`, `implemented: false`, matching `dep.kendra-togetherness`'s own shape and its
+`effort: 1` / `effort_basis: "a human's reading, not an implementation"`, since this is a reading
+call, not a capability gap). `PD.06.Pushkala`'s own `requires` is corrected from
+`["dep.kendra-togetherness"]` to `["dep.pushkala-clause-scope"]` — the same "declared dependency no
+longer applies" bookkeeping fix Milestone 22 first established for this exact card and Milestone 39
+repeated for it most recently — and its `extraction.verified_by`/`note`/`verified_date` fields are
+rewritten to state both findings (the resolved reading and the newly discovered one) rather than
+only the first. `conditions` stays `{"all": []}` and `activation` stays `"inert"`: writing partial
+conditions now would mean silently picking one of the two unresolved boolean parses, which neither
+this project's discipline nor this milestone's own master prompt permits. This is Outcome 2 from
+the master prompt's own framing, but only for the card as a whole — Outcome 1 (the source settles
+it) applies cleanly to the one named dependency, `dep.kendra-togetherness`, on its own.
+
+**Downstream re-audit.** A repository-wide search for every reference to `dep.kendra-togetherness`
+found exactly four: `Rules/deferred.json` (the entry itself, updated), `Rules/phaladeepika/ch06.json`
+(`PD.06.Pushkala`, the only card that ever named it, updated), and two test assertions
+(`Engine/tests/test_slice.py`, `Engine/tests/test_strength.py`, both updated — see "Regression
+safety" below). No other card, passage entry, or reference anywhere in the store names this
+dependency, so no other downstream re-diagnosis was needed. `Rules/tools/backlog.py`'s own "newly
+unblocked" line was inspected directly rather than trusted: it still names exactly the same 9
+pre-existing stale entries this file's own header has carried forward for several milestones (the
+four `concept:*` entries stale since Milestone 22, three unencoded chapters, and two passages) —
+`dep.kendra-togetherness` blocked nothing besides `PD.06.Pushkala`, so its resolution surfaces no
+additional entry and none of the 9 is newly this milestone's to fix.
+
+**No engine capability was built, and none was needed.** `conjunct` and `in_house_class` already
+existed with exactly the right semantics; `compound_relationship` (Milestone 39) and `strength`
+(Milestone 22) already covered the card's other two clauses; the variable-binding condition
+language (`Engine/rules.py`) already supports the multi-hop, shared-variable joins a full Pushkala
+condition would need, proven by `PD.06.Shankha`'s own pre-existing, structurally identical card.
+This milestone's entire footprint is two JSON registry/card corrections and one test file's worth
+of assertion updates plus one new test.
+
+**Regression safety.** `PD.06.Pushkala`'s own `requires` correction required updating the same two
+pre-existing test assertions Milestone 39 last touched for this card:
+`Engine/tests/test_slice.py::test_chapter_six_slice_three_inert_cards_never_fire` and
+`Engine/tests/test_strength.py::test_the_cards_strength_does_not_release_are_still_inert` both now
+assert `["dep.pushkala-clause-scope"]` alone, with explicit checks that neither `dep.strength`,
+`dep.compound-friendship`, nor `dep.kendra-togetherness` remain in the card's own `requires` — the
+same "corrected, not merely widened" discipline Milestone 22 first applied to this card and
+Milestone 39 repeated most recently. One new test,
+`test_kendra_togetherness_resolved_but_pushkala_still_blocked`, pins the hand-set `implemented`
+flags on both dependencies directly against the registry (`dep.kendra-togetherness` now `true`,
+`dep.pushkala-clause-scope` still `false`), their shared `kind` (`"concept"`), and the absence of a
+`predicate` field on either — because a concept-kind dependency, unlike `dep.compound-friendship`'s
+own predicate kind, is never flipped automatically by anything `Engine/facts.py` emits, so its flag
+could silently drift out of sync with the store if nothing pinned it. No other pre-existing test,
+card, or engine file was touched.
+
+**No real-chart validation was run, deliberately.** `PD.06.Pushkala` remains inert, so per the
+master prompt's own instruction not to fabricate a chart validation for a disputed interpretation,
+none was attempted for it. The reading this milestone does rely on — `conjunct`/`in_house_class`
+denoting co-occupation of one Kendra house — is not new: it is the same reading
+`PD.06.RajaYoga`/`PD.06.Shankha` already fire under on real charts today (both structural cards,
+signed off, exercised by the existing test suite), so no fresh end-to-end evidence was needed for
+it either.
+
+**Verification results.** `Rules/tools/verify.py`: clean — 623 cards, 205 backlog entries, 105
+available now, every quote byte-exact, every deferred item accounted for, "newly unblocked" still
+names the same pre-existing 9. `dupes.py`: no duplicate candidates (623 cards scanned).
+`backlog.py --write`/`leverage.py --write`: reports regenerated, minimal diff — `dep.kendra-togetherness`
+drops out of both tables (resolved, blocks nothing), `dep.pushkala-clause-scope` appears in the
+identical slot (cost 1, +1 card, tied for first with `dep.triped-sign-class`); dependency count
+moves 65 → 66 (30 → 31 implemented); card counts unchanged, 623 total / 609 firing / 14 inert.
+`review.py --queue`: unchanged, 621/623 signed off (337/339 interpretive) — `PD.06.Pushkala`'s own
+`extraction.verified_by` was rewritten, not cleared, so it stays counted as signed and did not enter
+the queue. Full `Engine/tests` suite: **653 passing (was 652), zero failures.**
+
+**Production blockers cleared:** none of §A's named blockers (there is no open P0) — this milestone
+touched none of them by design. **Production-readiness impact:** held at 60.00% ≈ 60% exactly — see
+§A's own Milestone 40 note: no row moves, because no card, no engine capability, no `contradicts`
+cluster, and no chart-scale run were added, which is itself a correct description of a
+source-investigation milestone that resolved one reading and discovered it did not, by itself,
+license a new firing card.
+
+**Why this milestone matters, and why it stops here.** A reading question three milestones' own
+write-ups (22, 38, 39) carried forward as a defensible-but-undone option is now settled, from
+evidence already sitting inside the same chapter the question was asked about, not from outside
+convention or model memory. The re-audit the master prompt required — checking that resolving one
+named obstacle does not silently resolve the whole card — did its job: it caught a second,
+previously invisible ambiguity in the same sentence before any condition was written for it, the
+same kind of discipline that has repeatedly found stale bookkeeping in this store (Milestone 38's
+`dep.sign-class`, Milestone 39's "ch.10 v.23") but this time finding a genuine, unresolved gap
+rather than a mechanical staleness. `PD.06.Pushkala` stays inert, correctly, and for a more
+precisely stated reason than it was inert for at the start of this milestone. Per this session's own
+master prompt, this stops here: one milestone, fully checkpointed. The exact next candidates —
+`dep.triped-sign-class`'s own tied-for-cheapest human reading call, `dep.pushkala-clause-scope` in
+the same tie, chapter 7's own remaining `dep.none` verse (v.10), or a fresh chapter — are named in
+this file's own header resume point rather than left for a future session to re-derive.
+
+---
+
 ## D. CURRENT MILESTONE
 
-**Nothing is currently in progress.** Milestone 38 above is fully committed, tested, verified, and
-pushed — Phaladeepika chapter 5, vv.2-9 (10 firing cards), zero new engine capability, two new
-dependencies registered (`dep.sign-to-country`, `dep.distinct-graha-quantifier`), one stale
-dependency-registry entry corrected in place (`dep.sign-class`). Chapter 5 is now closed on its own
-testable doctrine; only v.1 and two sentences of v.9 remain, each genuinely blocked (`dep.lagna-strength`,
-`dep.weakest-of-comparator`, `dep.sign-to-country`, `dep.distinct-graha-quantifier`) — see Milestone
-38's own §C write-up and this file's own header resume point for the exact detail. **No single next
-milestone is forced.** Milestones 35-38 all left chapter 20's own remainder exactly as Milestone
-34 left it: v.25 (Mars/Urdhvamukha placement, `passage:phaladeepika.20.p025`) and v.33 (Jupiter-kendra
-/ Shirshodaya-Ubhayodaya-Prishtodaya life-timing, `passage:phaladeepika.20.p033`) each need their own
-unencoded sign classification (`dep.urdhvamukha-sign-class`, `dep.rising-order-sign-class`
-respectively); v.24 item (4) (last-degree placement) needs a degree threshold the source does not
-print (`dep.dasa-last-degree`); vv.56-57 need a new degree-position predicate
-(`dep.degree-position-quality`, a different gap from item (4)'s own); v.30 hits the standing
-no-invented-numeric-weighting refusal directly (`dep.adjudication`); everything Antardasa-scoped
-stays correctly blocked on `dep.antardasa`, unimplemented by design. Chapter 3 is not complete — 8
-of its 9 doctrine clusters remain, each tracked individually in `Rules/deferred.json`
-(`passage:phaladeepika.03.p003` through `.p054`) — and chapter 6's testable doctrine remains
-complete (see Milestone 27's own "Chapter 6 accounting"). **Chapter 7 is roughly half closed by verse
-count** (Milestones 36-37): slices 1 (vv.26-30) and 2 (vv.13, 18, 20(b)-(d), 24, 25) both closed in
-full. What remains is genuinely blocked, not merely unpicked: `dep.graha-condition-count`
-(vv.1-4,8,12), `dep.digbala` (v.4), `dep.parivartana` (v.9's second yoga), `dep.paksha`
-(vv.7,11,12,17,22), `dep.day-night` (v.16), `dep.compound-friendship` (v.23), `dep.lagna-strength`'s
-own architecture gap (v.5), `dep.own-or-benefic-dignity-in-varga` (v.19, newly registered this
-milestone), the friendship-exposure gap shared by v.14 and v.21 (natural friendship is computed but
-not exposed as its own queryable fact — see Milestone 37's own write-up), v.10's own
-descriptive-vs-testable judgement call, and two passages needing a human re-reading (v.6, v.15).
-Decision 0e (below) is untouched by Milestones 34-38.
+**Nothing is currently in progress.** Milestone 40 above is fully committed, tested, verified, and
+pushed — `dep.kendra-togetherness` resolved by reading (no engine change), `dep.pushkala-clause-scope`
+newly registered, `PD.06.Pushkala` re-audited and correctly still inert. Milestone 39 before it built
+`dep.compound-friendship` and released chapter 7 v.23 (two firing cards, `PD.07.King.
+MoonAdhimitraNavamsaVenusAspected`/`.MoonAdhimitraNavamsaVenusJupiterAspected`) — chapter 7's own
+`dep.compound-friendship` blocker is therefore resolved and no longer among its remaining gaps (see
+the corrected list below; this paragraph itself had gone one milestone stale on exactly this point
+before this milestone's own bookkeeping pass caught it). Chapter 5's own state is exactly where
+Milestone 38 left it: closed on its own testable doctrine; only v.1 and two sentences of v.9 remain,
+each genuinely blocked (`dep.lagna-strength`, `dep.weakest-of-comparator`, `dep.sign-to-country`,
+`dep.distinct-graha-quantifier`) — see Milestone 38's own §C write-up and this file's own header
+resume point for the exact detail. **No single next milestone is forced.** Milestones 35-40 all left
+chapter 20's own remainder exactly as Milestone 34 left it: v.25 (Mars/Urdhvamukha placement,
+`passage:phaladeepika.20.p025`) and v.33 (Jupiter-kendra / Shirshodaya-Ubhayodaya-Prishtodaya
+life-timing, `passage:phaladeepika.20.p033`) each need their own unencoded sign classification
+(`dep.urdhvamukha-sign-class`, `dep.rising-order-sign-class` respectively); v.24 item (4)
+(last-degree placement) needs a degree threshold the source does not print (`dep.dasa-last-degree`);
+vv.56-57 need a new degree-position predicate (`dep.degree-position-quality`, a different gap from
+item (4)'s own); v.30 hits the standing no-invented-numeric-weighting refusal directly
+(`dep.adjudication`); everything Antardasa-scoped stays correctly blocked on `dep.antardasa`,
+unimplemented by design. Chapter 3 is not complete — 8 of its 9 doctrine clusters remain, each
+tracked individually in `Rules/deferred.json` (`passage:phaladeepika.03.p003` through `.p054`) —
+and chapter 6's testable doctrine remains complete except `PD.06.Pushkala` itself, still inert on
+`dep.pushkala-clause-scope` (see Milestone 27's own "Chapter 6 accounting" and Milestone 40's own
+§C write-up). **Chapter 7 is roughly half closed by verse count** (Milestones 36-37, 39): slices 1
+(vv.26-30), 2 (vv.13, 18, 20(b)-(d), 24, 25) and v.23 all closed in full. What remains is genuinely
+blocked, not merely unpicked: `dep.graha-condition-count` (vv.1-4,8,12), `dep.digbala` (v.4),
+`dep.parivartana` (v.9's second yoga), `dep.paksha` (vv.7,11,12,17,22), `dep.day-night` (v.16),
+`dep.lagna-strength`'s own architecture gap (v.5), `dep.own-or-benefic-dignity-in-varga` (v.19), the
+friendship-exposure gap shared by v.14 and v.21 (natural friendship is computed but not exposed as
+its own queryable fact — see Milestone 37's own write-up), v.10's own descriptive-vs-testable
+judgement call, and two passages needing a human re-reading (v.6, v.15). Decision 0e (below) is
+untouched by Milestones 34-40.
 
 **Eight decisions are owed by a human.** None blocks the next milestone; each should be
 settled before the work it touches is extended. Milestone 29 opened one (0e) and closed none;
@@ -4625,7 +4936,15 @@ kind of mechanical bookkeeping repair Milestone 37's `p039` fix was (reading wha
 actually emits rather than trusting the registry's own stale text), and chapter 5's own encoded slice
 carried no genuine interpretive fork of the kind Decisions 0a-0e or the eight `concept:*` entries
 record — vv.2-8's per-graha table and v.9's strength/own-country clauses all read literally off the
-verse, with no competing reading anywhere in the source or its Notes.
+verse, with no competing reading anywhere in the source or its Notes. Milestone 39 likewise opened
+and closed none of these eight — building `dep.compound-friendship` needed no standing human
+judgement call, only reading ch.2 vv.21-23's own already-encoded Notes as the specification they
+already were. Milestone 40 likewise opened and closed none of these eight — `dep.kendra-togetherness`
+was never one of them (like the other `dep.*` reading calls outside this numbered list, it was
+always tracked as an ordinary `Rules/deferred.json` dependency, not a precedent-setting Decision),
+and its resolution and `dep.pushkala-clause-scope`'s registration are recorded in full in Milestone
+40's own §C write-up and in `PD.06.Pushkala`'s own `note`/`extraction.verified_by` fields rather than
+added here.
 
 ### Decision 0e (Milestone 29) — `dep.varga-ownership` / `PD.10.Venus.VargaMarsSaturn`
 
@@ -4932,24 +5251,30 @@ make — which is why it was not taken unilaterally.
 would clear, and the next milestone is therefore a judgement about return rather than an
 obligation. `leverage.py` now ranks two entries tied at cost 1, +1 card each:
 `dep.triped-sign-class` (a human's reading of whether "Triped" is a misprint for "biped" —
-unchanged since Milestone 21, re-confirmed as recently as Milestone 30) and, new as of Milestone 39,
-`dep.kendra-togetherness` (`PD.06.Pushkala`'s own one remaining blocker, now that
-`dep.compound-friendship` is built — itself also a human reading call, not an implementation: does
-"together in a Kendra" mean the lords of the Lagna and Moon signs conjoined in one and the same
-Kendra, or each independently in a Kendra of its own). Neither is settled by the ranking; both are
+unchanged since Milestone 21, re-confirmed as recently as Milestone 30) and, new as of Milestone 40,
+`dep.pushkala-clause-scope` (`PD.06.Pushkala`'s own one remaining blocker, now that
+`dep.kendra-togetherness` is resolved — itself also a human reading call, not an implementation:
+does the verse's trailing "a planet endowed with strength aspects the Lagna" clause govern both of
+the two named lord-placements or only the second). `dep.kendra-togetherness` itself is resolved
+(Milestone 40, from the chapter's own v.37/v.38 idiom) and no longer appears in `leverage.py`'s
+table at all. Neither of the two remaining tied entries is settled by the ranking; both are
 readings, not builds.
 
-*(This subsection's own "recommended" line named continuing chapter 7 or opening chapter 5/11/18
-until Milestone 39 — chapter 5 was closed in Milestone 38 and chapter 7 v.23 in this one; the
-recommendation below replaces it rather than leaving stale pointers to already-completed work
+*(This subsection's own "recommended" line named `dep.kendra-togetherness` until Milestone 40 — it
+is resolved now, and correctly did not release `PD.06.Pushkala` on its own, because the milestone
+that resolved it also found a second, previously unnamed reading question in the same sentence; the
+recommendation below replaces it rather than leaving a stale pointer to already-completed work
 sitting next to the header's own current resume point.)*
 
-**Recommended: `dep.kendra-togetherness`'s own reading call (cost 1, releases `PD.06.Pushkala`), or
-chapter 7's own last `dep.none` verse (v.10), or a fresh chapter — genuinely a three-way, human
-choice.** `dep.kendra-togetherness` needs no source work at all, only a decision between two readings
-this file has already stated in full (`Rules/deferred.json`'s own entry, and `PD.06.Pushkala`'s own
-`note`); once decided, the card's own conditions can finally be written and Pushkala goes active for
-the first time since it entered the store. **Chapter 7's v.10** (`passage:phaladeepika.07.p015`,
+**Recommended: `dep.pushkala-clause-scope`'s own reading call (cost 1, releases `PD.06.Pushkala`),
+or chapter 7's own last `dep.none` verse (v.10), or a fresh chapter — genuinely a three-way, human
+choice.** `dep.pushkala-clause-scope` needs no source work at all, only a decision between two
+readings this file has already stated in full (`Rules/deferred.json`'s own entry, and
+`PD.06.Pushkala`'s own `note`); once decided, the card's own conditions can finally be written and
+Pushkala goes active for the first time since it entered the store — a human should note that all
+three of the verse's own clauses are already individually expressible with existing predicates
+(`conjunct`/`in_house_class`, `compound_relationship`, `strength`/`aspects`), so resolving this one
+reading question is the entire remaining cost. **Chapter 7's v.10** (`passage:phaladeepika.07.p015`,
 still `dep.none`) is a fully specified configuration whose "middle of Sagittarius"/"very powerful
 Mars" phrasing needs its own descriptive-vs-testable reading call, deliberately left out of both
 Milestone 37's slice 2 and this milestone; taking it would close chapter 7's own `dep.none` remainder
@@ -5000,7 +5325,7 @@ own last easy verse", or "start clean".
 | Description | Dependencies | Unlocks | Status |
 |---|---|---|---|
 | Ch.7 v.10 — last `dep.none` verse (needs a descriptive-vs-testable reading call) | none | closes the chapter's own `dep.none` remainder entirely (vv.13,18,19,20,24-25 resolved Milestone 37; v.23 resolved Milestone 39) | ready |
-| `dep.kendra-togetherness` (a reading call: "together in a Kendra", conjoined vs. independent) | none | releases `PD.06.Pushkala` (its only remaining blocker as of Milestone 39) | ready — human reading only, no build |
+| `dep.pushkala-clause-scope` (a reading call: does the trailing strength/aspect clause govern one or both named alternatives) | none | releases `PD.06.Pushkala` (its only remaining blocker as of Milestone 40 — `dep.kendra-togetherness` itself is resolved) | ready — human reading only, no build |
 | Ch.12 — Progeny (5th house) | none | new chapter, rule-dense | ready |
 | Ch.14 — Diseases, Death, Past/Future births | none, but sensitive-content policy applies | new chapter | ready |
 | Ch.15 — Assessment of houses | none | feeds future Stage 7 weighting | ready |
@@ -5028,7 +5353,7 @@ passage encoded in Milestone 27 (see §C). Removed from this table rather than l
 | Ch.25 — Upagraha computation | `dep.upagraha` | upagraha calculator | blocked |
 | Ch.26 — Transit (gochara) | `dep.transit` | transit engine, beyond MVP | blocked |
 | `card:PD.09.Vargottama` | `dep.vargottama` | vargottama extractor (needs `dep.varga` first) | blocked |
-| `card:PD.06.Pushkala`, `card:PD.06.Vasumati` | `dep.kendra-togetherness`, `dep.universal-quantification` respectively | a human reading call for Pushkala, a new engine capability for Vasumati. **Pushkala's dependency was corrected in Milestone 22 (dropped `dep.strength`, since built) and again in Milestone 39 (dropped `dep.compound-friendship`, now built and consumed by chapter 7 v.23 instead — Pushkala's own second blocker, `dep.kendra-togetherness`, remains a reading call, not a build)** | blocked |
+| `card:PD.06.Pushkala`, `card:PD.06.Vasumati` | `dep.pushkala-clause-scope`, `dep.universal-quantification` respectively | a human reading call for Pushkala, a new engine capability for Vasumati. **Pushkala's dependency was corrected in Milestone 22 (dropped `dep.strength`, since built), again in Milestone 39 (dropped `dep.compound-friendship`, now built and consumed by chapter 7 v.23 instead), and again in Milestone 40 (dropped `dep.kendra-togetherness`, now resolved by reading — replaced with `dep.pushkala-clause-scope`, a second, previously unnamed reading question the same milestone's re-audit found in the same sentence's own grammar)** | blocked |
 | 16 cards with no unlock path yet | various combinations, see `Reports/PHASE3_PLAN.md` "Cards that no sequence here releases" | multiple simultaneous capabilities | blocked |
 
 ### Planned later
@@ -5097,7 +5422,8 @@ count:
 | Sign-class / house-class / graha-class reference tables | Implemented | `dep.sign-class`, `dep.house-class`, `dep.graha-class` | reference-card-backed extractors |
 | Moon as alternative reference frame | Implemented | `dep.moon-frame` | Moon-counted yogas |
 | **Distinct-sign-count over a doctrine-named set of grahas** | **Implemented (Milestone 27)** | `Engine/facts.py::_seven_graha_sign_count`, `Engine/doctrine.py::seven_grahas` — one chart-wide fact, `seven_graha_sign_count(n)`, matched against a literal `n` the same way `occupant_count` already is; the member set (Sun-Saturn) is read from `PD.06.SevenGrahas`, not a Python literal | the seven-planets-in-N-signs family, `PD.06.Vallaki`/`.Dharma`/`.Hasha`/`.Kendra`/`.Shula`/`.Yuga`/`.Gola` |
-| **Compound (Panchadha maitri) friendship** | **Implemented (Milestone 39)** | `Engine/facts.py::_compound_friendship`, `Engine/doctrine.py::temporary_relationship_houses`/`compound_relationship` — combines `natural_relationship` (dep.dignity-friendship) with a house-offset temporary relationship (dep.graha-frame's own `in_house_from` facts) via `PD.02.Friendship.CompoundTable`'s own six-row Note; directional, not assumed symmetric | `PD.07.King.MoonAdhimitraNavamsaVenusAspected`/`.MoonAdhimitraNavamsaVenusJupiterAspected` (released); `PD.06.Pushkala` still blocked separately on `dep.kendra-togetherness` |
+| **Compound (Panchadha maitri) friendship** | **Implemented (Milestone 39)** | `Engine/facts.py::_compound_friendship`, `Engine/doctrine.py::temporary_relationship_houses`/`compound_relationship` — combines `natural_relationship` (dep.dignity-friendship) with a house-offset temporary relationship (dep.graha-frame's own `in_house_from` facts) via `PD.02.Friendship.CompoundTable`'s own six-row Note; directional, not assumed symmetric | `PD.07.King.MoonAdhimitraNavamsaVenusAspected`/`.MoonAdhimitraNavamsaVenusJupiterAspected` (released); `PD.06.Pushkala` still blocked separately on `dep.pushkala-clause-scope` |
+| **"Together in a Kendra" reading (Pushkala)** | **Resolved by reading, not a build (Milestone 40)** | No engine change — `conjunct` (`Engine/facts.py::_conjunction`, "same sign") + `in_house_class(graha,"kendra")`, both pre-existing, already say co-occupation of one Kendra house, the reading `PD.06.RajaYoga`/`PD.06.Shankha` (ch.6 v.37-38) already established for the identical idiom | `PD.06.Pushkala` still blocked separately on `dep.pushkala-clause-scope`, a second reading question the same milestone's re-audit found |
 | **Varga (divisional chart) engine — D9 (Navamsa) only** | **Implemented (Milestone 29)** | `Engine/facts.py::_varga`, `Engine/doctrine.py::varga_division_count`/`navamsa_start_offset` — division count and counting-start rule both read from `PD.03.Dasavarga`/`PD.03.Navamsa.Start`, never a Python literal. D3/D2/D12/Trimsamsa etc. deliberately not built; nothing in the corpus consumes them yet | `PD.09.Vargottama`, `PD.10.Venus.VargaMarsSaturn` (partially, via its aspect branches only) |
 | **Vargottama extractor** | **Implemented (Milestone 29)** | `Engine/facts.py::_varga`, `Engine/doctrine.py::vargottama_definition` — same sign in D1/D9, the comparison read from `PD.03.Vargottama.Definition` rather than hardcoded | `PD.09.Vargottama` (released) |
 | **Dignity read against a divisional placement** | **Implemented (Milestone 29)** | `Engine/facts.py::_varga` (folded into the same loop as the two rows above) — `dignity_in_varga(graha,varga,dignity)`, narrowly emitting only "debilitated" against D9, the one value ch. 2 v.36 names | `PD.02.AdverseDisposition` (released) |
@@ -5171,7 +5497,7 @@ subset most likely to be forgotten. See §I "DO NOT FORGET" for the most critica
 | `passage:phaladeepika.06.p175` | vv.42-43 Adhiyoga | RESOLVED, Milestone 26 — see `concept:adhiyoga-distribution-strictness` for the one judgement call left open | n/a | No | Resolved |
 | `passage:phaladeepika.06.p202` | vv.57-69, twelve dusthana-lord yogas | RESOLVED, Milestone 25 — see its own contradiction/qualification/parallel-authority relationships against Parashara's counter-doctrine | n/a | No | Resolved |
 | `card:PD.06.Vasumati` | Universally-quantified benefic-set condition | `dep.universal-quantification` doesn't exist | New combinator | No | Yes, low priority |
-| `card:PD.06.Pushkala` | Strength + Kendra-togetherness + undefined friendship tier | Triple-blocked | `dep.strength` + 2 unresolved readings | No | Yes |
+| `card:PD.06.Pushkala` | Strength (Milestone 22), friendship tier (Milestone 39) and Kendra-togetherness (Milestone 40) all now resolved; a second reading question in the same sentence's own grammar is not | Singly-blocked | `dep.pushkala-clause-scope` (1 unresolved reading) | No | Yes |
 | `concept:sunapha-anapha-durudhara-naming` | Which yoga name maps to which Moon-adjacency condition | Source states the collective condition, never names which sub-case is which | Human verification against another authority, or leave unnamed permanently | No | Yes — flagged twice already (slices 2 and 5) |
 | `concept:nodal-retrograde-dignity` | Whether the retrograde-as-exalted override applies to Rahu/Ketu | Source says "a planet" without exclusion; engine already marks nodes retrograde on every chart | Human verification | No | Yes |
 | `concept:manual-verification` | Human sign-off on all cards | 498/501 verified (99.4%) as of Milestone 21; see §K P1-1 for the live count | Queue closed; 3 deliberate defect holdouts remain | **Arguably yes for true production** | Cleared as a blocker (P1-1, Milestone 19); the 3 holdouts are tracked individually |

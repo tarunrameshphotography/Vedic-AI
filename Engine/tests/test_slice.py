@@ -488,13 +488,17 @@ def test_chapter_six_slice_three_inert_cards_never_fire(cards):
     """Vasumati (universal quantification) and Pushkala are recorded, not
     guessed at.
 
-    Pushkala had three independent obstacles. dep.strength (Milestone 22) and
-    dep.compound-friendship (Milestone 39) are both now built, and the card
-    stays inert on the one that is not a capability at all -- an ambiguous
-    reading ("together in a Kendra"). Its declared dependencies moved with it
-    each time, which is the point of this assertion: a card that still cannot
-    fire must not be left declaring a dependency that now exists, or the
-    backlog reports it as released.
+    Pushkala had three independent obstacles. dep.strength (Milestone 22),
+    dep.compound-friendship (Milestone 39) and dep.kendra-togetherness
+    (Milestone 40 -- "together in a Kendra" reads as co-occupation of one
+    house, the same idiom the chapter's own v.37/v.38 pair already glosses)
+    are all now resolved, and the card stays inert on a second, independent
+    reading question the Milestone 40 re-audit found in the same sentence's
+    own grammar: whether the trailing strength/aspect clause governs both
+    named alternatives or only the second (dep.pushkala-clause-scope). Its
+    declared dependencies moved with it each time, which is the point of this
+    assertion: a card that still cannot fire must not be left declaring a
+    dependency that now exists, or the backlog reports it as released.
     """
     vasumati = next(c for c in cards if c.id == "PD.06.Vasumati")
     pushkala = next(c for c in cards if c.id == "PD.06.Pushkala")
@@ -502,13 +506,33 @@ def test_chapter_six_slice_three_inert_cards_never_fire(cards):
     assert vasumati.raw["requires"] == ["dep.universal-quantification"]
     assert vasumati.conditions == {"all": []}
     assert pushkala.activation == "inert"
-    assert pushkala.raw["requires"] == ["dep.kendra-togetherness"]
+    assert pushkala.raw["requires"] == ["dep.pushkala-clause-scope"]
     assert "dep.strength" not in pushkala.raw["requires"]
     assert "dep.compound-friendship" not in pushkala.raw["requires"]
+    assert "dep.kendra-togetherness" not in pushkala.raw["requires"]
     assert pushkala.conditions == {"all": []}
     r = run(DEMO)
     fired = {c.derived["rule_card"] for c in r.claims}
     assert "PD.06.Vasumati" not in fired and "PD.06.Pushkala" not in fired
+
+
+def test_kendra_togetherness_resolved_but_pushkala_still_blocked():
+    """dep.kendra-togetherness (Milestone 40) is a resolved reading, not a
+    built predicate -- it has no `predicate` field, so nothing in
+    Engine/facts.py flips it automatically the way dep.compound-friendship's
+    own kind does. This pins the hand-set flag and the reason it does not,
+    by itself, unblock the one card that ever named it.
+    """
+    sys.path.insert(0, str(ROOT / "Rules" / "tools"))
+    import backlog
+
+    _, registry, _, _, _, _, _ = backlog.build()
+    deps = registry["dependencies"]
+    assert deps["dep.kendra-togetherness"]["implemented"] is True
+    assert deps["dep.kendra-togetherness"]["kind"] == "concept"
+    assert "predicate" not in deps["dep.kendra-togetherness"]
+    assert deps["dep.pushkala-clause-scope"]["implemented"] is False
+    assert deps["dep.pushkala-clause-scope"]["kind"] == "concept"
 
 
 def test_chapter_six_adhama_sama_varishtha_have_distinct_quotes(cards):

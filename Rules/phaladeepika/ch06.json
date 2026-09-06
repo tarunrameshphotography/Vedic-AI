@@ -2845,15 +2845,15 @@
       "extraction": {
         "method": "authored",
         "proposer": "Rules/tools/build_chapter.py",
-        "verified_by": "tarunrameshphotography + Claude (Milestone 39: re-examined when dep.compound-friendship was built; the compound-friendship clause is now expressible -- compound_relationship(?g,?lord,Adhimitra) over the lords of the Lagna and Moon signs -- but the card is still not encoded, because its other named obstacle, dep.kendra-togetherness, is a reading call, not a capability, and remains unresolved; the requires list is corrected to name only that one blocker)",
-        "verified_date": "2026-09-03"
+        "verified_by": "tarunrameshphotography + Claude (Milestone 40: dep.kendra-togetherness resolved -- the same chapter's own v.37/v.38 pair (PD.06.RajaYoga/PD.06.Shankha) already glosses \"lords ... together in [a house]\" as co-occupation of one house, one page later than Pushkala's identical construction, and corpus-wide usage of \"together\" corroborates it -- so all three named clauses (Kendra-togetherness, Adhimitra house, strength+aspect) are now individually expressible. The card still does not encode conditions, because the re-audit this required found a second, previously unregistered ambiguity in the same sentence's own grammar -- see dep.pushkala-clause-scope -- and the requires list is corrected to name that one instead)",
+        "verified_date": "2026-09-06"
       },
       "kind": "yoga",
       "activation": "inert",
-      "note": "STILL INERT AFTER dep.compound-friendship (Milestone 39). Three independent obstacles were originally recorded here; dep.strength (Milestone 22) and dep.compound-friendship (Milestone 39) are both now built, and two of the card's three clauses -- \"a planet endowed with strength aspects the Lagna\" and \"the house of an Adhimitra\" -- are each individually expressible. Encoding the card's actual conditions is deliberately not done this milestone anyway, because the one remaining obstacle, \"the lords ... together in a Kendra\", is still not unambiguous -- conjoined in one kendra, or each independently in a kendra -- and writing conditions for the other two clauses while leaving this one unresolved would either omit a third of the verse or guess at it; neither is this project's discipline. Printed page 64 was rendered and checked when this card was encoded, so this is not an extraction gap.",
+      "note": "STILL INERT AFTER dep.kendra-togetherness (Milestone 40). Three independent obstacles were originally recorded here; dep.strength (Milestone 22), dep.compound-friendship (Milestone 39) and dep.kendra-togetherness (Milestone 40) are all now resolved, and all three of the verse's named clauses -- \"the lords ... together in a Kendra\" (conjunct + in_house_class \"kendra\"), \"the house of an Adhimitra\" (compound_relationship, the same idiom PD.07.King.MoonAdhimitraNavamsaVenusAspected already uses), and \"a planet endowed with strength aspects the Lagna\" (strength + aspects) -- are each individually expressible. Encoding the card's actual conditions is still deliberately not done, because a full re-audit under Milestone 40 found the verse's own top-level grammar unresolved: \"[A] or [B] and [C]\" is ambiguous between (A or B) and C (the strength/aspect clause required either way) and A or (B and C) (Kendra-togetherness alone suffices). No punctuation, Notes, worked example, or parallel sentence anywhere in Phaladeepika resolves this shape, and Brihat Jataka does not name Pushkala yoga at all. Writing conditions for any one parse would pick a reading the source does not settle. Printed page 64 was rendered and checked when this card was encoded, so this is not an extraction gap.",
       "exclusions": [],
       "requires": [
-        "dep.kendra-togetherness"
+        "dep.pushkala-clause-scope"
       ]
     },
     {

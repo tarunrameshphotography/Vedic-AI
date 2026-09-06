@@ -12,7 +12,7 @@ Most inert cards declare several dependencies and become executable only when th
 
 | Dependency | Kind | Cards blocked | Entries | Solo unlock | Closure unlock | Effort | Return |
 |---|---|---:|---:|---:|---:|---:|---:|
-| `dep.kendra-togetherness` — what "together in a Kendra" means | concept | 1 | 1 | 1 | 1 | 1 | 1.00 |
+| `dep.pushkala-clause-scope` — whether Pushkala's trailing strength/aspect clause governs both named alternatives or only the second | concept | 1 | 1 | 1 | 1 | 1 | 1.00 |
 | `dep.triped-sign-class` — the 'triped' sign class | reference | 1 | 1 | 1 | 1 | 1 | 1.00 |
 | `dep.transit` — transit (gochara) calculation | calculator | 3 | 5 | 2 | 2 | 6 | 0.33 |
 | `dep.second-nativity` — a second nativity | schema | 1 | 2 | 1 | 1 | 5 | 0.20 |
@@ -74,7 +74,7 @@ graph LR
 | Step | Build | Also requires | Chapters first | Cost | Cards released | Running total executable |
 |---:|---|---|---|---:|---:|---:|
 | 1 | `dep.triped-sign-class` — the 'triped' sign class | — | — | 1 | +1 | 610 |
-| 2 | `dep.kendra-togetherness` — what "together in a Kendra" means | — | — | 1 | +1 | 611 |
+| 2 | `dep.pushkala-clause-scope` — whether Pushkala's trailing strength/aspect clause governs both named alternatives or only the second | — | — | 1 | +1 | 611 |
 | 3 | `dep.transit` — transit (gochara) calculation | — | — | 6 | +2 | 613 |
 | 4 | `dep.second-nativity` — a second nativity | — | — | 5 | +1 | 614 |
 | 5 | `dep.prashna` — prashna (horary) branch | — | — | 6 | +1 | 615 |

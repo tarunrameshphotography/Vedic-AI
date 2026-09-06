@@ -52,12 +52,12 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 | `dep.digbala` — Digbala (directional strength) | predicate | no | 1 | 0 | 2 (engine completion) |
 | `dep.dignity` — dignity extractor | predicate | yes | 1 | 1 | 2 (engine completion) |
 | `dep.distinct-graha-quantifier` — a condition-language test that two bound variables resolve to different grahas | combinator | no | 1 | 0 | 2 (engine completion) |
-| `dep.kendra-togetherness` — what "together in a Kendra" means | concept | no | 1 | 1 | 3 (knowledge) |
 | `dep.multi-span-quote` — quotation across two spans | schema | yes | 1 | 0 | 4 (integration) |
 | `dep.nature` — benefic/malefic classification | calculator | yes | 1 | 1 | 3 (knowledge) |
 | `dep.own-or-benefic-dignity-in-varga` — own-sign / benefic dignity read against a divisional placement | predicate | no | 1 | 0 | 3 (knowledge) |
 | `dep.parivartana` — Parivartana (mutual sign-exchange) between two house lords | predicate | no | 1 | 0 | 2 (engine completion) |
 | `dep.prashna` — prashna (horary) branch | engine | no | 1 | 1 | beyond the MVP |
+| `dep.pushkala-clause-scope` — whether Pushkala's trailing strength/aspect clause governs both named alternatives or only the second | concept | no | 1 | 1 | 3 (knowledge) |
 | `dep.rising-order-sign-class` — shirshodaya/ubhayodaya/prishtodaya rising-order sign classification, queryable per sign | reference | no | 1 | 0 | 3 (knowledge) |
 | `dep.rule-transfer` — rule-transfer mechanism | schema | yes | 1 | 0 | 4 (integration) |
 | `dep.sign-to-country` — which country/place a sign or divisional sign indicates | reference | no | 1 | 0 | 3 (knowledge) |
@@ -80,6 +80,7 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 | `dep.graha-frame` — houses counted from a graha | schema | yes | 0 | 0 | 4 (integration) |
 | `dep.hemmed-between` — hemming (papakartari / subhakartari) extractor | predicate | no | 0 | 0 | 2 (engine completion) |
 | `dep.house-class` — house classification | reference | yes | 0 | 0 | 3 (knowledge) |
+| `dep.kendra-togetherness` — what "together in a Kendra" means | concept | yes | 0 | 0 | 3 (knowledge) |
 | `dep.mahadasa-ordinal` — a graha's ordinal position in the birth-fixed mahadasa sequence | predicate | yes | 0 | 0 | 2 (engine completion) |
 | `dep.moon-frame` — the Moon as an alternative reference frame | schema | yes | 0 | 0 | beyond the MVP |
 | `dep.nature-occupancy` — occupancy of a house by grahas of a given nature | predicate | yes | 0 | 0 | 2 (engine completion) |
@@ -323,7 +324,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `card:PD.02.Disease.FollowsTemperament` | phaladeepika | 2 | v. 7 (Notes) | disease_follows_the_graha_temperament | States how to read a disease off whichever graha caused it, but not which graha causes one. Needs the rule that identifies the cause before it can be applied. | `dep.condition-variables`, `dep.adjudication` | 4 (integration) | deferred |
 | `card:PD.02.Prashna.ReservoirWater` | phaladeepika | 2 | v. 36 | water_increases | A horary rule: it reads the chart of the moment a question is asked, not a nativity. Its condition is exactly expressible and would fire on a birth chart, wh… | `dep.prashna` | beyond the MVP | deferred |
 | `card:PD.04.Lagna.TripedSign` | phaladeepika | 4 | v. 6 | 6. The first house gets one Rupa of strength if it is a triped sign. I | AMBIGUOUS AT THE SOURCE, and inert for that reason rather than for a missing capability. The verse partitions the signs three ways and names the first class … | `dep.triped-sign-class` | 3 (knowledge) | deferred |
-| `card:PD.06.Pushkala` | phaladeepika | 6 | v. 19, 20 | If the lords of the signs occupied by the Lagna and the Moon be togeth | STILL INERT AFTER dep.compound-friendship (Milestone 39). Three independent obstacles were originally recorded here; dep.strength (Milestone 22) and dep.comp… | `dep.kendra-togetherness` | 3 (knowledge) | deferred |
+| `card:PD.06.Pushkala` | phaladeepika | 6 | v. 19, 20 | If the lords of the signs occupied by the Lagna and the Moon be togeth | STILL INERT AFTER dep.kendra-togetherness (Milestone 40). Three independent obstacles were originally recorded here; dep.strength (Milestone 22), dep.compoun… | `dep.pushkala-clause-scope` | 3 (knowledge) | deferred |
 | `card:PD.06.Vasumati` | phaladeepika | 6 | v. 19, 20 | 19. Vasumati Yoga is formed when all the benefic planets occupy upacha | Universally quantified over the (variable-membership) set of benefic grahas -- "ALL the benefic planets" must be in upachaya houses, not that one is. The con… | `dep.universal-quantification` | beyond the MVP | deferred |
 | `card:PD.10.Marriage.Dasha7` | phaladeepika | 10 | v. 13 | timing_of_marriage | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.lord-of-house`, `dep.dasa`, `dep.aspects`, `dep.transit` | 2 (engine completion) + beyond the MVP | deferred |
 | `card:PD.10.Marriage.StrongerDasha` | phaladeepika | 10 | v. 14 | timing_of_marriage | The quote runs across a printed page break; the page anchor sits inside the span, as it does in the corpus. MILESTONE 22: dep.strength is now implemented but… | `dep.condition-variables`, `dep.dasa`, `dep.lord-of-house`, `dep.strength-ranking`, `dep.transit`, `dep.varga` | 2 (engine completion) + 4 (integration) + beyond the MVP | deferred |
