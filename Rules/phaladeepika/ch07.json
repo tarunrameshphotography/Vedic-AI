@@ -3908,6 +3908,54 @@
         "verified_date": "2026-09-02"
       },
       "note": "\"Kendra with reference to the Moon\" tested as houses 1/4/7/10 counted from the Moon via `in_house_from`, the same four-house enumeration already used throughout the chapter 7 slice 1 Neechabhanga family (no `kendra_from` shortcut exists in the vocabulary for a non-Lagna frame). \"Should Jupiter own the 2nd, the 5th or the 11th house\" is independent of which of the three house-lords satisfies the first clause -- the verse states it as its own separate condition, not tied to which lord fired. Chapter 7 slice 2 (Milestone 37); this verse was tagged `dep.none` at Milestone 36 (`passage:phaladeepika.07.p055`). No new engine capability."
+    },
+    {
+      "id": "PD.07.King.SunMoonMidSagittariusSaturnLagnaMarsExalted",
+      "schema": 1,
+      "source": {
+        "book_id": "phaladeepika",
+        "chapter": 7,
+        "verse": "10",
+        "page_anchor": "phaladeepika/p0084",
+        "tier": 1,
+        "quote": "10. Should the Sun in conjunction with the Moon be posited in the middle of Sagittarius, Saturn be occupying the Lagna and a very powerful Mars be in his sign of exaltation, the native will become an extremely valourous king who will be offered solutations out of fear by his enemies from a distance.",
+        "quote_display": "10. Should the Sun in conjunction with the Moon be posited in the middle of Sagittarius, Saturn be occupying the Lagna and a very powerful Mars be in his sign of exaltation, the native will become an extremely valourous king who will be offered solutations out of fear by his enemies from a distance.",
+        "quote_sha256": "738d4262597be402f66e331517dcbed8e8e0778880d709bb6245d148002b66ad",
+        "char_span": [
+          164268,
+          164568
+        ],
+        "span_trimmed": null
+      },
+      "scope": {
+        "frame": "lagna",
+        "varga": "D1"
+      },
+      "conditions": {
+        "all": []
+      },
+      "predicts": {
+        "domain": "yoga",
+        "yoga": "RajaYoga",
+        "mechanism": "sun_moon_mid_sagittarius_saturn_lagna_mars_exalted",
+        "effect": "valorous_king_feared_by_enemies"
+      },
+      "timing": "natal",
+      "weight": 1.0,
+      "specificity": 1,
+      "extraction": {
+        "method": "authored",
+        "proposer": "Rules/tools/build_chapter.py",
+        "verified_by": "tarunrameshphotography + Claude (Milestone 43: v.10 investigated fresh -- this verse was tagged `dep.none` at Milestone 36 (`passage:phaladeepika.07.p015`) by an ordering-only triage that did not account for the degree-scope problem in its own text)",
+        "verified_date": "2026-09-06"
+      },
+      "kind": "yoga",
+      "activation": "inert",
+      "note": "STILL INERT: no source-based numeric definition of \"middle of a sign\" applies to a non-hermaphrodite graha -- see dep.middle-of-sign-scope. The book's only \"middle of sign\" definition (ch.1's Sthana Bala survey, 11-20 degrees, already encoded as PD.04.SexByDegree) is explicitly scoped to hermaphrodite grahas, paired against separate first-third/last-third bands for male and female grahas. The book's own ch.2 graha_sex table classifies the Sun male and the Moon female, so neither body in this verse's Sun-Moon conjunction is the graha class that band governs; applying it anyway would import a numeric range the source itself scopes to a different graha class. A corpus-wide search of both Phaladeepika and Brihat Jataka found no other numeric \"middle of a sign\" definition anywhere, and no Note, commentary, or worked example discusses this verse's own \"middle of Sagittarius\" phrase further. Brihat Jataka's own closely parallel yoga (ch.11 v.5: Mars exalted in the Lagna, Sun and Moon occupying Sagittarius) states the same base configuration without any \"middle\" qualifier at all -- evidence the qualifier is a deliberate, Phaladeepika-specific addition, not a fixed feature of the yoga type that the parallel authority's own telling corroborates a reading for. The verse's other two clauses are independently expressible and are NOT the source of the remaining blockage: \"Saturn be occupying the Lagna\" is `in_house(Saturn,1)`, the same bare idiom PD.07.Emperor.VargottamaMoonAspectedNoMalefic already uses for a malefic in the Lagna; \"a very powerful Mars be in his sign of exaltation\" is `dignity(Mars,\"exalted\")` and `strength(Mars,\"strong\")` as two sibling conditions, the same established project idiom PD.06.Ruchaka, PD.07.King.StrongLagnaLordKendra and PD.07.King.StrongMercuryKendraAspectedJupiter all use for \"powerful/strong X in [dignity/placement]\" -- this corrects the chapter 7 slice 1 manifest's own prior framing (Milestone 36), which had bundled \"very powerful Mars\" together with \"middle of Sagittarius\" as a single open reading question; only the latter remains open. Mars's exaltation sign (Capricorn) is sourced from PD.01.Exaltation.Mars via Doctrine.exaltation(), the same table every other exaltation check in the store reads. Because all three clauses are joined by \"and\" into one configuration, the one unresolved clause blocks the whole verse from firing even though the other two are settled; `conditions` is deliberately left `{\"all\": []}` rather than encoding a partial or guessed structure, the same convention PD.04.Lagna.TripedSign and PD.06.Pushkala already use. The Notes attached to this passage (\"It will be relevant to quote here Varahamihir...\") are a grammatically separate editorial cross-reference to Brihat Jataka's own Saturn-rising doctrine (five named ascendants conferring royalty) -- reviewed and found to add no independently testable content to this verse's own condition, so they are not folded into this card's quote and no separate reference card is built for them in this milestone. Confirmed directly against the extracted corpus text (Knowledge/phaladeepika.md), not independently rendered from a page image, since no punctuation/formatting ambiguity was suspected here beyond the degree-scope question itself.",
+      "exclusions": [],
+      "requires": [
+        "dep.middle-of-sign-scope"
+      ]
     }
   ]
 }

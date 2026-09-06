@@ -565,6 +565,38 @@ def test_pushkala_clause_scope_reinvestigated_still_unresolved(cards):
     assert "PD.06.Pushkala" not in fired
 
 
+def test_middle_of_sign_scope_investigated_still_unresolved(cards):
+    """Milestone 43 investigated Phaladeepika ch.7 v.10 fresh (previously
+    tagged `dep.none`) -- the Sun-Moon "posited in the middle of Sagittarius"
+    clause has no source-based numeric definition for a non-hermaphrodite
+    graha (the book's only "middle of sign" band, ch.1's Sthana Bala survey,
+    is scoped to hermaphrodite grahas; the Sun and Moon are male/female per
+    the book's own ch.2 graha_sex table), so `dep.middle-of-sign-scope` is
+    registered unresolved and the card stays inert, even though the verse's
+    other two clauses (Saturn in the Lagna; Mars exalted and strong) are
+    independently expressible. This pins that the investigation did not
+    quietly resolve the dependency or release the card anyway.
+    """
+    sys.path.insert(0, str(ROOT / "Rules" / "tools"))
+    import backlog
+
+    _, registry, _, _, _, _, _ = backlog.build()
+    deps = registry["dependencies"]
+    scope = deps["dep.middle-of-sign-scope"]
+    assert scope["implemented"] is False
+    assert scope["kind"] == "concept"
+    assert scope["depends_on"] == ["dep.degree-range"]
+
+    card = next(c for c in cards
+                if c.id == "PD.07.King.SunMoonMidSagittariusSaturnLagnaMarsExalted")
+    assert card.activation == "inert"
+    assert card.conditions == {"all": []}
+    assert card.raw["requires"] == ["dep.middle-of-sign-scope"]
+    r = run(DEMO)
+    fired = {c.derived["rule_card"] for c in r.claims}
+    assert "PD.07.King.SunMoonMidSagittariusSaturnLagnaMarsExalted" not in fired
+
+
 def test_chapter_six_adhama_sama_varishtha_have_distinct_quotes(cards):
     """One shared naming sentence (v. 18, \"respectively\"), three distinct
     effect fragments carved out of one shared effect sentence -- Varishtha's

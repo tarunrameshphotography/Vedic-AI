@@ -5,17 +5,29 @@ astrologer would, where every predictive sentence traces to a rule printed in a 
 applied to a quantity that was actually computed. Governing rule: *the system may compute,
 and it may quote — it may not invent.*
 
-**Current production-readiness: 60%** (see §A; recomputed, not incremented — Milestone 42 holds
-60.00% exactly, same as Milestone 41 before it: it re-investigates `dep.triped-sign-class` a third
-time (after Milestones 21 and 28), finds the book's own fourfold sign-class scheme disagrees with
-itself on Aquarius and Cancer between its two statements of it and that Brihat Jataka carries no
-comparable strength material at all, neither point settling the ambiguity, and leaves the dependency
-`implemented: false` and `PD.04.Lagna.TripedSign` inert — releasing zero new cards and touching zero
-engine files, well below every row's own established rounding threshold, the same posture Milestones
-26/31/32/33/34/36/37/38/39/40/41 already took for their own small, correct, fully-verified,
-sub-threshold work. A read-only investigation fork committed and pushed without authorization
-mid-milestone; caught, reverted, and redone under the coordinating session's direct control — see
-Milestone 42's own write-up. Card count holds at 623 (609 firing, 14 inert, unchanged); +1 test).
+**Current production-readiness: 60%** (see §A; recomputed, not incremented — Milestone 43 holds
+60.00% exactly, same as Milestones 41/42 before it: it investigates Phaladeepika ch.7 v.10
+(`passage:phaladeepika.07.p015`, tagged `dep.none` since Milestone 36) fresh, and finds a genuine
+mixed result rather than either a clean release or a clean refusal. Two of the verse's three clauses
+— Saturn occupying the Lagna, and a very powerful (i.e. dignified-and-strong) Mars in his sign of
+exaltation — are independently expressible with existing predicates under this project's own
+established "powerful X in [dignity]" idiom (`PD.06.Ruchaka`, `PD.07.King.StrongLagnaLordKendra`,
+`PD.07.King.StrongMercuryKendraAspectedJupiter`), correcting Milestone 36's own manifest, which had
+bundled "very powerful Mars" together with "middle of Sagittarius" as one open reading question. The
+third clause — the Sun-Moon conjunction "posited in the middle of Sagittarius" — remains genuinely
+undefined: the book's only numeric "middle of a sign" band (ch.1's Sthana Bala survey, 11°-20°) is
+scoped to hermaphrodite grahas, and the Sun and Moon are male/female under the book's own ch.2
+`graha_sex` table, so no source-stated band governs either body; a corpus-wide search of both books
+found no other definition, and the closest parallel yoga (Brihat Jataka ch.11 v.5) states the same
+base configuration without the qualifier at all. Registered `dep.middle-of-sign-scope`
+(`implemented: false`) and built one new inert card, `PD.07.King.SunMoonMidSagittariusSaturnLagna
+MarsExalted` — the first time this milestone chain has produced a freshly materialized inert card for
+a verse's *first* investigation, rather than re-investigating an already-built one, following the
+`PD.04.Lagna.TripedSign`/`PD.06.Pushkala` convention. Releasing zero new *firing* cards and touching
+zero engine files; the small raw-fraction moves in Provenance/auditability and Test coverage fall
+below every row's own established rounding threshold, the same posture Milestones 26/31-42 already
+took for their own small, correct, fully-verified, sub-threshold work. Card count moves 623→624 (609
+firing unchanged, 14→15 inert); +1 test).
 
 **Current phase:** knowledge/engine-completion (Phase 3/2). Milestone 40 was a source-investigation
 milestone by design, per its own master prompt: it resolved `dep.kendra-togetherness` —
@@ -48,7 +60,38 @@ resolved `dep.kendra-togetherness`, so it does not settle Pushkala's scope eithe
 engine files touched; Phase 4 (integration) is untouched. Stage 7's *representation* half is built;
 its *weighting* half is deliberately not, and is not scheduled.
 
-**Current milestone:** Milestone 42 — **`dep.triped-sign-class` re-investigated a third time and
+**Current milestone:** Milestone 43 — **Phaladeepika ch.7 v.10 (`passage:phaladeepika.07.p015`)
+investigated fresh; two of its three clauses resolved by reuse of established project idiom, the
+third genuinely undefined by the source.** Previously tagged `dep.none` since Milestone 36's own
+chapter 7 slice 1 triage and deliberately left out of Milestone 37's own slice 2 by name, pending
+"its own descriptive-vs-testable reading call" on the verse's "middle of Sagittarius"/"very powerful
+Mars" phrasing. This milestone found that framing too broad: "Saturn be occupying the Lagna" is
+plainly `in_house(Saturn,1)`, and "a very powerful Mars be in his sign of exaltation" is
+`dignity(Mars,"exalted")` + `strength(Mars,"strong")` as two sibling conditions, the same
+already-adjudicated idiom three existing cards (`PD.06.Ruchaka`, `PD.07.King.StrongLagnaLordKendra`,
+`PD.07.King.StrongMercuryKendraAspectedJupiter`) already use for identical "powerful/strong X in
+[dignity]" language — reuse, not invention. What remains genuinely open is the Sun-Moon conjunction
+"posited in the middle of Sagittarius": the book's only numeric "middle of a sign" definition (ch.1's
+Sthana Bala survey, 11°-20°, already encoded as `PD.04.SexByDegree`) is explicitly scoped to
+hermaphrodite grahas, and the book's own ch.2 `graha_sex` table classifies the Sun male and the Moon
+female — neither is the graha class that band governs — and no other passage in either corpus (a
+full-text search of both Phaladeepika and Brihat Jataka) defines "middle of a sign" at all. Brihat
+Jataka's own closely parallel yoga (ch.11 v.5: Mars exalted in the Lagna, Sun and Moon occupying
+Sagittarius) states the same base configuration with no "middle" qualifier whatsoever, evidence the
+qualifier is a deliberate Phaladeepika-specific addition rather than a fixed feature a parallel
+authority's own telling would corroborate a reading for. Registered `dep.middle-of-sign-scope`
+(`implemented: false`, `depends_on: ["dep.degree-range"]`) and built the verse's first-ever card,
+`PD.07.King.SunMoonMidSagittariusSaturnLagnaMarsExalted` — `conditions: {"all": []}`,
+`activation: "inert"`, `requires: ["dep.middle-of-sign-scope"]`, the same convention
+`PD.04.Lagna.TripedSign`/`PD.06.Pushkala` already use — since all three clauses are joined by "and,"
+the one unresolved clause blocks the whole configuration even though the other two are settled. Two
+git-worktree-isolated read-only investigators were used for evidence gathering, per this milestone's
+own subagent-safety protocol (written after the Milestone 41/42 rogue-fork incidents); both complied,
+`git status --short`/`git diff --stat` checked clean after each. Card count moves 623→624 (609 firing
+unchanged, 14→15 inert); dependency count 66→67 (31 implemented unchanged, 35→36 outstanding); tests
+655→656.
+
+**Previous milestone:** Milestone 42 — **`dep.triped-sign-class` re-investigated a third time and
 left unresolved; `PD.04.Lagna.TripedSign` (ch.4 v.6) stays inert.** A third independent session,
 after Milestones 21 and 28, re-derived the evidence for Phaladeepika ch.4 v.6's printed "triped"
 sign class directly from the primary source rather than trusting prior milestone prose. Confirmed a
@@ -82,7 +125,7 @@ added/removed/released; dependency count holds at 66 (31 implemented, 35 outstan
 holds at 623 (609 firing, 14 inert); tests 654 → 655.** See Milestone 42 in §C for the full write-up,
 including the process-incident account.
 
-**Previous milestone:** Milestone 41 — **`dep.pushkala-clause-scope` re-investigated and left
+**Milestone before that:** Milestone 41 — **`dep.pushkala-clause-scope` re-investigated and left
 unresolved; `PD.06.Pushkala` (ch.6 v.19) stays inert.** Milestone 40's own dependency detail said
 flatly that "no ... parallel sentence anywhere in the corpus settles it" for Pushkala's "[lords
 together in a Kendra] or [lords in the house of an Adhimitra] and [a planet endowed with strength
@@ -382,6 +425,20 @@ built one small new predicate/extractor, `dasa_disposition`** (ch. 20 v.14's own
 
 **Overall Production Readiness: 0.15×25 + 0.10×77 + 0.20×44 + 0.15×67 + 0.10×82 + 0.10×98 +
 0.10×79 + 0.05×36 + 0.03×30 + 0.01×50 + 0.01×60 = 60.00% ≈ 60%**
+
+**Milestone 43: 60.00% → 60.00%, held.** Two rows carry a raw-fraction move, both within their own
+established rounding: Provenance/auditability moves 622/623→623/624 signed off (both ≈ 99.84%,
+unchanged at this row's own two-decimal display) — the new card's extraction fidelity was signed off
+at authoring time, the same way every other new card's has been since Milestone 24; Test coverage
+moves 655→656 tests (+1, ~0.15%) — smaller than every delta this row has ever credited, including
+Milestone 40's own +1 that also held. Rule extraction/encoding holds at 44%: one new card was built,
+but it is inert (0 firing), a smaller contribution to executable capability than even Milestone 34's
+own single-firing-card addition, which itself fell below this row's rounding. Reasoning engine
+capability holds at 67%: zero `Engine/*.py` files touched, the same "same mechanism, more instances"
+posture (here, no instances at all — two clauses reused existing predicates verbatim, one clause
+stayed unencoded) this row has held since Milestone 24. Contradiction handling holds at 82%: no new
+`contradicts` cluster. End-to-end validation holds at 36%: no chart-scale run was warranted (nothing
+fires). All other rows untouched. Full accounting in Milestone 43's own §C write-up.
 
 **Milestone 40: 60.00% → 60.00%, held.** No row moves, and none is even a candidate this time: unlike
 every other milestone in this table's own history, Milestone 40 added zero cards (Rule
@@ -4971,10 +5028,148 @@ implemented false correction.
 
 ---
 
+### Milestone 43 — Phaladeepika ch.7 v.10 investigated fresh; `dep.middle-of-sign-scope` registered,
+remains unresolved; `PD.07.King.SunMoonMidSagittariusSaturnLagnaMarsExalted` built inert
+
+**Phase:** 3 (knowledge) — a source-extraction milestone; no engine-completion (Phase 2) work was
+needed for the two clauses that resolved
+**Scope:** `Rules/deferred.json` (`dep.middle-of-sign-scope` registered new; the pre-existing
+`passage:phaladeepika.07.p015` entry retargeted from `dep.none` and its `reason` field corrected);
+`Rules/phaladeepika/ch07.json` (one new card, `PD.07.King.SunMoonMidSagittariusSaturnLagnaMarsExalted`,
+built via `Rules/tools/build_chapter.py phaladeepika 7 --write`); `Engine/tests/test_slice.py` (one
+new test, `test_middle_of_sign_scope_investigated_still_unresolved`); `Reports/PHASE3_BACKLOG.md`,
+`Reports/PHASE3_PLAN.md`, `Reports/VERIFICATION_QUEUE.md` regenerated. No `Engine/*.py` file touched.
+**Status:** COMPLETE
+**Commit:** this milestone's own commit (see `git log`)
+**Remote:** VERIFIED
+
+**Investigation scope, exactly as the master prompt set it.** Determine whether Phaladeepika ch.7
+v.10 (`passage:phaladeepika.07.p015`), tagged `dep.none` since Milestone 36's own chapter 7 slice 1
+triage and deliberately excluded from Milestone 37's own slice 2 by name, is genuinely executable, or
+whether its own "middle of Sagittarius"/"very powerful Mars" phrasing (flagged but never resolved)
+hides a real reading or capability gap. Not in scope: reopening `dep.pushkala-clause-scope` or
+`dep.triped-sign-class` absent a direct live dependency, which the live repository does not show.
+
+**Parallel read-only investigation, isolated by git worktree.** Two read-only investigators were
+dispatched in git-worktree isolation — one for a corpus-wide search of the "middle of [sign]" idiom
+and any competing definitions, one for engine-capability and chapter-7 card-wiring conventions — per
+this milestone's own explicit subagent-safety protocol, written after the Milestone 41 and 42
+rogue-fork incidents. Both complied and returned evidence only; `git status --short`/`git diff
+--stat` on the coordinator's own working tree were checked after each completion and showed no
+unexpected change.
+
+**Source read directly by the coordinator, not trusted from investigator prose (per §7).**
+`Knowledge/phaladeepika.md:1887`: "10. Should the Sun in conjunction with the Moon be posited in the
+middle of Sagittarius, Saturn be occupying the Lagna and a very powerful Mars be in his sign of
+exaltation, the native will become an extremely valourous king who will be offered solutations out of
+fear by his enemies from a distance." Its Notes (lines 1889-1892) are a grammatically separate
+editorial cross-reference ("It will be relevant to quote here Varahamihir...") to Brihat Jataka's own
+Saturn-rising doctrine (five named ascendants conferring royalty), not a further clause of v.10's own
+condition — confirmed directly against the corpus text, not independently rendered from a page image,
+since no punctuation/formatting ambiguity was suspected here beyond the degree-scope question itself.
+
+**Three clauses, audited independently.**
+
+1. *"Saturn be occupying the Lagna"* — executable: `in_house(Saturn,1)`, the same bare idiom
+   `PD.07.Emperor.VargottamaMoonAspectedNoMalefic` already uses for a malefic in the Lagna.
+2. *"a very powerful Mars be in his sign of exaltation"* — executable, and NOT a second open question
+   the way Milestone 36's own manifest framed it (bundled together with "middle of Sagittarius" as
+   one "descriptive-vs-testable reading call"). Three existing firing cards — `PD.06.Ruchaka`,
+   `PD.07.King.StrongLagnaLordKendra`, `PD.07.King.StrongMercuryKendraAspectedJupiter` — all encode
+   "powerful/strong X in [dignity/placement]" as two sibling conditions, `dignity` + `strength`,
+   never one collapsed value. Applying that same already-adjudicated idiom here gives
+   `dignity(Mars,"exalted")` and `strength(Mars,"strong")` — reuse of an existing, multiply
+   precedented reading, not a fresh interpretive leap. Mars's exaltation sign (Capricorn) is sourced
+   from `PD.01.Exaltation.Mars` via `Doctrine.exaltation()`, the same table every other exaltation
+   check in the store reads.
+3. *"Sun in conjunction with the Moon... posited in the middle of Sagittarius"* — genuinely blocked.
+   The only numeric "middle of a sign" definition anywhere in either corpus text is chapter 1's own
+   Sthana Bala survey ("The hemaphrodite planets are strong in the middle of the sign (11° to 20°),
+   male planets in the first part of a sign (1° to 10°) and female in the last part of the sign (21°
+   to -30°)", already encoded as `PD.04.SexByDegree`, itself blocked on `dep.degree-range`'s own
+   interval-comparator gap) — explicitly scoped to hermaphrodite grahas. The book's own ch.2
+   `graha_sex` table classifies the Sun male and the Moon female, so neither body in this verse's
+   conjunction is the graha class that band governs; applying it anyway would import a numeric range
+   the source itself scopes to a different graha class. A corpus-wide search of both Phaladeepika and
+   Brihat Jataka's full text for "middle of" and its variants found no other numeric definition
+   anywhere — Brihat Jataka's own single "middle of the sign" occurrence is an unrelated transit-
+   timing rule (Jupiter/Venus give transit results on reaching the middle of the transited sign, no
+   degree band stated). The closest parallel yoga, Brihat Jataka's own ch.11 v.5 ("Mars in his sign
+   of exaltation in the ascendant and with Sun and Moon occupying Sagittarius"), states the same base
+   Sun-Moon-in-Sagittarius-plus-exalted-Mars configuration **without** any "middle" qualifier at all —
+   evidence the qualifier is a deliberate, Phaladeepika-specific addition rather than a fixed feature
+   of the yoga type a parallel authority's own telling would corroborate a reading for. No Note,
+   commentary, or worked example anywhere in either corpus discusses v.10's own phrase any further.
+
+**Conclusion: card built, stays inert.** Because all three clauses are joined by "and" into one
+configuration, clause 3 alone blocks the whole verse from firing even though clauses 1-2 are settled
+— there is no way to partially fire two of three required conditions. Registered
+`dep.middle-of-sign-scope` (`kind: "concept"`, `depends_on: ["dep.degree-range"]` since even a
+resolved reading would still need `dep.degree-range`'s own interval-comparator gap built,
+`implemented: false`). Built `PD.07.King.SunMoonMidSagittariusSaturnLagnaMarsExalted` via
+`Rules/tools/build_chapter.py phaladeepika 7` (dry run first, confirmed a unique match, then
+`--write`) — `conditions: {"all": []}`, `activation: "inert"`,
+`requires: ["dep.middle-of-sign-scope"]`, the same convention `PD.04.Lagna.TripedSign` and
+`PD.06.Pushkala` already use. This is the first milestone in this chain to materialize a brand-new
+inert card for a verse's *first* investigation — no card existed for v.10 before this milestone.
+`passage:phaladeepika.07.p015`'s own backlog entry (`Rules/deferred.json`) was retargeted from
+`dep.none`, and its `reason` field — which had claimed "the configuration is expressible with
+existing predicates (conjunct, in_sign, in_house, dignity)" — corrected, since that ordering-only
+triage did not account for the degree-scope problem. The Notes' Varahamihir cross-reference was
+reviewed and found to add no independently testable content beyond what v.10's own Saturn-in-Lagna
+clause already states; no separate reference card was built for it, to keep this milestone's own
+scope narrow (§11) rather than build an abstraction the source-backed rule does not require.
+
+**Regression safety.** One new test,
+`Engine/tests/test_slice.py::test_middle_of_sign_scope_investigated_still_unresolved`, pins: the new
+card exists, is `inert`, `conditions == {"all": []}`, `requires == ["dep.middle-of-sign-scope"]`, the
+dependency's `implemented` flag is `False` with `kind == "concept"` and
+`depends_on == ["dep.degree-range"]`, and the card never fires on the project's own real DEMO chart.
+No pre-existing test needed correction; the existing 655 all still pass unmodified.
+
+**No real-chart validation was run, deliberately.** Per §15, real-chart validation is required only
+if a source-backed executable rule is actually released. This milestone's outcome leaves the card
+inert, so none was attempted or fabricated.
+
+**Verification results.** `Rules/tools/verify.py`: clean — 624 cards (609 firing, 15 inert, +1
+inert), 206 backlog entries, 104 available now (was 105 — `passage:phaladeepika.07.p015` correctly
+dropped out of "available by ordering" now that it is genuinely blocked rather than merely unpicked),
+every quote byte-exact, every deferred item accounted for. `dupes.py`: no duplicate candidates (624
+cards scanned). `backlog.py --write`: report regenerated — 206 entries (was 205; the "card" bucket
+rose 14→15 alongside the newly materialized inert card, while the "passage" bucket separately and
+correctly still carries the same passage entry at 118, now genuinely blocked rather than
+deferred-by-ordering). `leverage.py --write`: report regenerated — `dep.middle-of-sign-scope` ranks
+at ROI 0.25 (ROI cost 4: 1 for the reading itself plus `dep.degree-range`'s own registered cost 3),
+well below the tied-for-first `dep.triped-sign-class`/`dep.pushkala-clause-scope` slot.
+`review.py --queue`: 339/340 interpretive cards verified (was 338/339) — the new card's own
+extraction fidelity signed off at authoring time, the pre-existing single queued item
+(`PD.01.Kalapurusha.Strength`) unchanged. Full `Engine/tests` suite: **656 passing (was 655), zero
+failures.**
+
+**Production blockers cleared:** none. **Production-readiness impact:** held at 60.00% ≈ 60% — see
+§A's own new Milestone 43 entry for the row-level accounting (two rows move by a raw fraction within
+existing rounding; the rest hold exactly).
+
+**Why this milestone matters.** Two of a three-clause verse's clauses were resolved by directly
+reusing this project's own already-adjudicated idiom rather than either guessing or leaving the whole
+verse in limbo, correcting a two-milestone-old manifest note that had bundled them together with a
+genuinely unresolved third clause. The clause that remains blocked is blocked for a documented,
+source-grounded reason — a numeric definition the book itself scopes to a different graha class, not
+an unexamined assumption — and the verse moves from a bare backlog note to a fully byte-verified,
+hash-pinned inert card with its own complete evidence ledger. Real, auditable progress even though
+zero cards fire, exactly the posture this project's own closing principle asks for.
+
+---
+
 ## D. CURRENT MILESTONE
 
-**Nothing is currently in progress.** Milestone 42 above is fully committed, tested, verified, and
-pushed — `dep.triped-sign-class` re-investigated a third time (after Milestones 21 and 28), found the
+**Nothing is currently in progress.** Milestone 43 above is fully committed, tested, verified, and
+pushed — Phaladeepika ch.7 v.10 (`passage:phaladeepika.07.p015`) investigated fresh: two of its three
+clauses (Saturn in the Lagna; Mars exalted and strong) resolved by reusing this project's own
+established idiom, the third (the Sun-Moon conjunction's "middle of Sagittarius") found genuinely
+undefined by the source. `dep.middle-of-sign-scope` registered `implemented: false`, and the verse's
+first-ever card, `PD.07.King.SunMoonMidSagittariusSaturnLagnaMarsExalted`, built inert. Milestone 42
+before it re-investigated `dep.triped-sign-class` a third time (after Milestones 21 and 28), found the
 book's own fourfold biped/quadruped/keeta/watery scheme disagrees with itself on Aquarius and Cancer
 between its two statements of it, and that Brihat Jataka has no comparable strength material to check
 against — neither point settles the ambiguity, so the dependency stays `implemented: false`,
@@ -5013,9 +5208,12 @@ blocked, not merely unpicked: `dep.graha-condition-count` (vv.1-4,8,12), `dep.di
 `dep.parivartana` (v.9's second yoga), `dep.paksha` (vv.7,11,12,17,22), `dep.day-night` (v.16),
 `dep.lagna-strength`'s own architecture gap (v.5), `dep.own-or-benefic-dignity-in-varga` (v.19), the
 friendship-exposure gap shared by v.14 and v.21 (natural friendship is computed but not exposed as
-its own queryable fact — see Milestone 37's own write-up), v.10's own descriptive-vs-testable
-judgement call, and two passages needing a human re-reading (v.6, v.15). Decision 0e (below) is
-untouched by Milestones 34-40.
+its own queryable fact — see Milestone 37's own write-up), and two passages needing a human
+re-reading (v.6, v.15). v.10 itself is no longer an open judgement call as of Milestone 43: it is
+built as an inert card, two of its three clauses resolved, blocked solely on
+`dep.middle-of-sign-scope` (whether "middle of a sign" has any source-stated meaning for a
+non-hermaphrodite graha) — see Milestone 43's own §C write-up. Decision 0e (below) is untouched by
+Milestones 34-43.
 
 **Eight decisions are owed by a human.** None blocks the next milestone; each should be
 settled before the work it touches is extended. Milestone 29 opened one (0e) and closed none;
@@ -5068,7 +5266,15 @@ added here. Milestone 41 likewise opened and closed none of these eight — re-i
 `dep.pushkala-clause-scope` was the same kind of ordinary `Rules/deferred.json` dependency work
 Milestone 40's own reading calls were, not a precedent-setting Decision, and its finding (the
 `PD.06.Saraswati` parallel, judged insufficient) is recorded in full in Milestone 41's own §C
-write-up and in the dependency's own `detail` field rather than added here.
+write-up and in the dependency's own `detail` field rather than added here. Milestone 42 likewise
+opened and closed none of these eight — re-investigating `dep.triped-sign-class` a third time was the
+same kind of ordinary dependency work, and its finding is recorded in full in Milestone 42's own §C
+write-up. Milestone 43 likewise opened and closed none of these eight — registering
+`dep.middle-of-sign-scope` was the same kind of ordinary `Rules/deferred.json` dependency work
+Milestones 40-42's own reading calls were, not a precedent-setting Decision, and its finding (the
+book's own "middle of a sign" definition is scoped to hermaphrodite grahas and does not govern the
+Sun or Moon) is recorded in full in Milestone 43's own §C write-up and in the dependency's own
+`detail` field rather than added here.
 
 ### Decision 0e (Milestone 29) — `dep.varga-ownership` / `PD.10.Venus.VargaMarsSaturn`
 
@@ -5473,7 +5679,7 @@ own last easy verse", or "start clean".
 
 | Description | Dependencies | Unlocks | Status |
 |---|---|---|---|
-| Ch.7 v.10 — last `dep.none` verse (needs a descriptive-vs-testable reading call) | none | closes the chapter's own `dep.none` remainder entirely (vv.13,18,19,20,24-25 resolved Milestone 37; v.23 resolved Milestone 39) | ready |
+| `dep.middle-of-sign-scope` (a reading call: does "middle of a sign" have any source-stated meaning for a non-hermaphrodite graha) | `dep.degree-range` | releases `PD.07.King.SunMoonMidSagittariusSaturnLagnaMarsExalted` (built inert Milestone 43; its own only remaining blocker) | ready — human reading only, no build (mechanical half also needs `dep.degree-range` built) |
 | `dep.pushkala-clause-scope` (a reading call: does the trailing strength/aspect clause govern one or both named alternatives) | none | releases `PD.06.Pushkala` (its only remaining blocker as of Milestone 40 — `dep.kendra-togetherness` itself is resolved) | ready — human reading only, no build |
 | Ch.12 — Progeny (5th house) | none | new chapter, rule-dense | ready |
 | Ch.14 — Diseases, Death, Past/Future births | none, but sensitive-content policy applies | new chapter | ready |

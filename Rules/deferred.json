@@ -562,6 +562,18 @@
       "effort_basis": "an interval comparator in the condition language",
       "implemented": false
     },
+    "dep.middle-of-sign-scope": {
+      "title": "what \"middle of a sign\" means for a non-hermaphrodite graha",
+      "kind": "concept",
+      "detail": "Phaladeepika ch. 7 v. 10: \"the Sun in conjunction with the Moon be posited in the middle of Sagittarius\" -- one clause of a king-yoga configuration. The only place either corpus text (Phaladeepika or Brihat Jataka) defines a numeric \"middle of a sign\" band is chapter 1's own Sthana Bala survey (\"The hemaphrodite planets are strong in the middle of the sign (11 degrees to 20 degrees), male planets in the first part of a sign (1 degree to 10 degrees) and female in the last part of the sign (21 degrees to -30 degrees)\", already encoded as PD.04.SexByDegree, itself blocked on dep.degree-range's own interval-comparator gap) -- and that band is explicitly scoped by the book's own words to hermaphrodite grahas specifically, paired against separate first-third and last-third bands for male and female grahas respectively. Chapter 2's own graha_sex reference table classifies the Sun as male and the Moon as female, not hermaphrodite, so neither body in v. 10's conjunction is the class of graha the 11-20 degree band actually governs. Applying that definition to v. 10's Sun-Moon conjunction anyway would import a numeric range the source itself scopes to a different graha class -- exactly the invention the project's governing rule forbids. A corpus-wide search of both books' full text for every occurrence of \"middle of\" and its variants found no other numeric definition: Brihat Jataka's own single \"middle of the sign\" occurrence (its transit-timing chapter -- Jupiter and Venus give transit results on reaching the middle of the transited sign) states no degree band at all, and is a timing rule for transiting results, not a natal placement doctrine. The closest parallel yoga, Brihat Jataka's own ch. 11 v. 5 (\"Mars in his sign of exaltation in the ascendant and with Sun and Moon occupying Sagittarius\"), states the same base Sun-Moon-in-Sagittarius-plus-exalted-Mars configuration WITHOUT any \"middle\" qualifier at all -- evidence the qualifier is a deliberate, Phaladeepika-specific addition rather than a fixed feature of the underlying yoga type that a parallel authority's own telling would corroborate a reading for. It does not, however, supply the missing definition. No Note, commentary, or worked example anywhere in either corpus discusses v. 10's \"middle of Sagittarius\" phrase any further. Registered Milestone 43: the verse's other two clauses (Saturn occupying the Lagna; a very powerful, i.e. dignified-and-strong, Mars in his sign of exaltation) are both independently expressible with existing predicates (in_house, dignity, strength) under the project's own already-established idiom for \"powerful X in [dignity]\" (PD.06.Ruchaka, PD.07.King.StrongLagnaLordKendra, PD.07.King.StrongMercuryKendraAspectedJupiter all encode it as two sibling conditions, dignity plus strength, never one collapsed value) -- so this single clause is the sole remaining obstacle to the whole configuration firing.",
+      "phase": "3 (knowledge)",
+      "depends_on": [
+        "dep.degree-range"
+      ],
+      "effort": 1,
+      "effort_basis": "a human's reading (whether the book intends a numeric degree band for luminaries at all, and if so which) -- dep.degree-range's own interval-comparator gap is a separate, additional prerequisite even once that reading is settled",
+      "implemented": false
+    },
     "dep.chandra-kriya": {
       "title": "Chandrakriya, Chandra Avastha and Chandravela",
       "kind": "calculator",
@@ -3876,9 +3888,9 @@
       "chapter": 7,
       "locus": "v.10 and its Notes (p.86)",
       "what": "one fully specified planetary configuration (Sun-Moon conjunct in mid-Sagittarius, Saturn in the Lagna, exalted Mars) producing a valorous king; the Notes' cross-reference to Varahamihir's own Saturn-rising doctrine",
-      "reason": "Deferred by ordering only for this slice (dep.none) -- the configuration is expressible with existing predicates (conjunct, in_sign, in_house, dignity); left for a future chapter 7 slice.",
+      "reason": "RE-AUDITED Milestone 43 (previously mis-tagged dep.none by a prior slice's ordering-only triage, which did not account for the \"middle of Sagittarius\" clause). Saturn-in-Lagna and a powerful, exalted Mars are both expressible with existing predicates (in_house, dignity, strength) under this project's own established idiom. The Sun-Moon \"posited in the middle of Sagittarius\" clause is not: the book's only numeric \"middle of a sign\" definition is scoped to hermaphrodite grahas, and Sun/Moon are male/female under the book's own graha_sex table, so no source-stated band governs this clause -- see dep.middle-of-sign-scope. A card was built inert on this single dependency; see PD.07.King.SunMoonMidSagittariusSaturnLagnaMarsExalted.",
       "requires": [
-        "dep.none"
+        "dep.middle-of-sign-scope"
       ],
       "phase": "3 (knowledge)",
       "status": "deferred",

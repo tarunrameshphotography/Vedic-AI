@@ -6,15 +6,15 @@ Nothing may be silently deferred. Inert cards are read out of the store, deferre
 
 | | |
 |---|---|
-| Backlog entries | **205** |
-| — of kind `card` | 14 |
+| Backlog entries | **206** |
+| — of kind `card` | 15 |
 | — of kind `passage` | 105 |
 | — of kind `chapter` | 44 |
 | — of kind `concept` | 25 |
 | Resolved | 17 |
-| Cards in store | 623 |
+| Cards in store | 624 |
 | Firing | 609 |
-| Inert | 14 |
+| Inert | 15 |
 
 ## Dependencies
 
@@ -22,7 +22,7 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 
 | Dependency | Kind | Implemented | Entries blocked | Cards blocked | Phase |
 |---|---|---|---|---|---|
-| `dep.none` — no dependency -- simply not yet done | process | yes | 105 | 0 | 3 (knowledge) |
+| `dep.none` — no dependency -- simply not yet done | process | yes | 104 | 0 | 3 (knowledge) |
 | `dep.adjudication` — Stage 7 adjudication | engine | no | 15 | 1 | 4 (integration) |
 | `dep.manual-verification` — human verification of the encoding | process | no | 10 | 2 | 3 (knowledge) |
 | `dep.graha-condition-count` — count of a fixed graha set satisfying an arbitrary per-graha condition | predicate | no | 5 | 0 | 2 (engine completion) |
@@ -39,6 +39,7 @@ What the deferred knowledge is waiting for. A `predicate` dependency is marked i
 | `dep.condition-variables` — variables in the condition language | schema | yes | 3 | 3 | 4 (integration) |
 | `dep.lagna-strength` — strength verdict for the Lagna/Ascendant | predicate | no | 3 | 0 | 2 (engine completion) |
 | `dep.upagraha` — upagraha computation | calculator | no | 3 | 0 | 2 (engine completion) |
+| `dep.middle-of-sign-scope` — what "middle of a sign" means for a non-hermaphrodite graha | concept | no | 2 | 1 | 3 (knowledge) |
 | `dep.native-sex` — the native's sex in the birth record | schema | yes | 2 | 0 | 2 (engine completion) |
 | `dep.second-nativity` — a second nativity | schema | no | 2 | 1 | beyond the MVP |
 | `dep.strength-ranking` — ordinal comparison of graha strength | calculator | no | 2 | 2 | 2 (engine completion) |
@@ -105,7 +106,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 
 ## Available now
 
-105 entr(y/ies) are deferred by ordering alone — nothing blocks them. This is the Phase 3 work queue.
+104 entr(y/ies) are deferred by ordering alone — nothing blocks them. This is the Phase 3 work queue.
 
 ## Entries
 
@@ -231,7 +232,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `passage:phaladeepika.07.p009` | phaladeepika | 7 | v.7 (p.85) | the full Moon aspected by an exalted/own-sign planet, or the full Moon in a kendra other than the Lagna | 'Brilliant with white lustre'/'full Moon' names the lunar phase (Purnima), which this store has never encoded as a fact -- dep.paksha, already registered, no… | `dep.paksha` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.07.p011` | phaladeepika | 7 | v.8 (p.85) | Venus in Aswini Nakshatra in the Lagna aspected by three planets; or a powerful Lagna lord in the 2nd with Venus undamaged | The first clause's 'aspected by three planets' is dep.graha-condition-count's counting gap; the second clause is independently close to encodable (lord_of_ho… | `dep.graha-condition-count` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.07.p013` | phaladeepika | 7 | v.9 (p.85-86) | Mars in Aries/Sagittarius as the Lagna aspected by a friendly planet; or the 9th and 10th lords exchanging houses | The second yoga is Parivartana (mutual sign-exchange between two house lords), a doctrine this store has never encoded a predicate for -- dep.parivartana, re… | `dep.parivartana` | 3 (knowledge) | deferred |
-| `passage:phaladeepika.07.p015` | phaladeepika | 7 | v.10 and its Notes (p.86) | one fully specified planetary configuration (Sun-Moon conjunct in mid-Sagittarius, Saturn in the Lagna, exalted Mars) producing a valorous king; the Notes' cross-reference to Varahamihir's own Saturn-rising doctrine | Deferred by ordering only for this slice (dep.none) -- the configuration is expressible with existing predicates (conjunct, in_sign, in_house, dignity); left… | `dep.none` | 3 (knowledge) | deferred |
+| `passage:phaladeepika.07.p015` | phaladeepika | 7 | v.10 and its Notes (p.86) | one fully specified planetary configuration (Sun-Moon conjunct in mid-Sagittarius, Saturn in the Lagna, exalted Mars) producing a valorous king; the Notes' cross-reference to Varahamihir's own Saturn-rising doctrine | RE-AUDITED Milestone 43 (previously mis-tagged dep.none by a prior slice's ordering-only triage, which did not account for the "middle of Sagittarius" clause… | `dep.middle-of-sign-scope` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.07.p018` | phaladeepika | 7 | vv.11-12 (p.86-87) | the full Moon in the Sun's Navamsa with unafflicted benefics in kendra; the full Moon with three other undamaged planets in their own Navamsas aspected by benefics | Both gate on the full Moon -- dep.paksha again; v.12 additionally counts ('three other planets'), dep.graha-condition-count. | `dep.paksha`, `dep.graha-condition-count` | 3 (knowledge) | deferred |
 | `passage:phaladeepika.07.p020` | phaladeepika | 7 | v.13 (p.87) | the Moon in Vargottama aspected by a strong planet, with no malefic in the Lagna | RESOLVED (Milestone 37). Encoded as one firing card, PD.07.Emperor.VargottamaMoonAspectedNoMalefic. Condition: vargottama(Moon) AND strength(?g,strong) AND a… | `dep.none` | 3 (knowledge) | resolved |
 | `passage:phaladeepika.07.p021` | phaladeepika | 7 | v.14 (p.87) | Jupiter, Mercury, Venus or the Moon uneclipsed in the 9th, aspected by or associated with friendly planets | Deferred by ordering only for this slice (dep.none) -- close to encodable with existing predicates; whether natural friendship is exposed as a directly query… | `dep.none` | 3 (knowledge) | deferred |
@@ -315,7 +316,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `concept:sunapha-anapha-durudhara-naming` | phaladeepika | 6 | v. 5-7 (p.57-59) | which of Sunapha, Anapha and Durudhara individually corresponds to the 2nd-only, 12th-only or both-occupied condition from the Moon | Verse 5 states that the three yogas collectively arise 'when the planets occupy the 2nd and 12th houses reckoned from the Moon', but assigns no name to any o… | `dep.manual-verification` | 3 (knowledge) | deferred |
 | `concept:nodal-retrograde-dignity` | phaladeepika | 9 | v. 20, as applied by Engine/overrides.py | whether the retrograde-as-exalted override extends to Rahu and Ketu | The verse says 'a planet' without exclusion, and the engine's own retrograde predicate already marks the nodes retrograde on every chart (their motion is alw… | `dep.manual-verification` | 3 (knowledge) | deferred |
 
-### Rule cards recorded but not firing (14)
+### Rule cards recorded but not firing (15)
 
 | Entry | Book | Chapter | Locus | Deferred | Reason | Blocked on | Phase | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -326,6 +327,7 @@ Every blocking dependency of these entries is now implemented. Each card here be
 | `card:PD.04.Lagna.TripedSign` | phaladeepika | 4 | v. 6 | 6. The first house gets one Rupa of strength if it is a triped sign. I | AMBIGUOUS AT THE SOURCE, and inert for that reason rather than for a missing capability. The verse partitions the signs three ways and names the first class … | `dep.triped-sign-class` | 3 (knowledge) | deferred |
 | `card:PD.06.Pushkala` | phaladeepika | 6 | v. 19, 20 | If the lords of the signs occupied by the Lagna and the Moon be togeth | STILL INERT AFTER dep.kendra-togetherness (Milestone 40) AND after re-investigation (Milestone 41). Three independent obstacles were originally recorded here… | `dep.pushkala-clause-scope` | 3 (knowledge) | deferred |
 | `card:PD.06.Vasumati` | phaladeepika | 6 | v. 19, 20 | 19. Vasumati Yoga is formed when all the benefic planets occupy upacha | Universally quantified over the (variable-membership) set of benefic grahas -- "ALL the benefic planets" must be in upachaya houses, not that one is. The con… | `dep.universal-quantification` | beyond the MVP | deferred |
+| `card:PD.07.King.SunMoonMidSagittariusSaturnLagnaMarsExalted` | phaladeepika | 7 | v. 10 | valorous_king_feared_by_enemies | STILL INERT: no source-based numeric definition of "middle of a sign" applies to a non-hermaphrodite graha -- see dep.middle-of-sign-scope. The book's only "… | `dep.middle-of-sign-scope` | 3 (knowledge) | deferred |
 | `card:PD.10.Marriage.Dasha7` | phaladeepika | 10 | v. 13 | timing_of_marriage | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.lord-of-house`, `dep.dasa`, `dep.aspects`, `dep.transit` | 2 (engine completion) + beyond the MVP | deferred |
 | `card:PD.10.Marriage.StrongerDasha` | phaladeepika | 10 | v. 14 | timing_of_marriage | The quote runs across a printed page break; the page anchor sits inside the span, as it does in the corpus. MILESTONE 22: dep.strength is now implemented but… | `dep.condition-variables`, `dep.dasa`, `dep.lord-of-house`, `dep.strength-ranking`, `dep.transit`, `dep.varga` | 2 (engine completion) + 4 (integration) + beyond the MVP | deferred |
 | `card:PD.10.Marriage.TransitTrine` | phaladeepika | 10 | v. 12 | timing_of_marriage | Written in terms the fact extractor cannot produce. The condition below is the closest the predicate vocabulary can express and is not the whole of what the … | `dep.lord-of-house`, `dep.transit`, `dep.varga` | 2 (engine completion) + beyond the MVP | deferred |
