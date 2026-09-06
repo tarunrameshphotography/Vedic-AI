@@ -246,6 +246,29 @@ def test_the_triped_sign_card_is_inert_for_the_ambiguity_not_a_capability(by_id)
     assert "triped" in card.predicts["table"]
 
 
+def test_triped_sign_class_reinvestigated_milestone_42_still_unresolved(by_id):
+    """A third independent session, after Milestones 21 and 28, still cannot
+    license a 'triped' -> 'biped' substitution.
+
+    Milestone 42 found two further data points -- chapter 1's own body-form
+    table disagrees with this chapter's own Bhava Dik Bala list on Aquarius
+    and Cancer, and Brihat Jataka has no comparable strength material at all
+    -- and neither one settles the ambiguity. This pins that a re-investigation
+    finding further evidence, but not evidence that clears the project's own
+    bar (categories 1-5), does not quietly resolve the dependency or release
+    the card anyway, and that no guessed 'biped' class was ever introduced.
+    """
+    card = by_id["PD.04.Lagna.TripedSign"]
+    assert card.activation == "inert"
+    assert "biped" not in card.predicts["table"]
+
+    deferred = json.loads((RULES / "deferred.json").read_text(encoding="utf-8"))
+    dep = deferred["dependencies"]["dep.triped-sign-class"]
+    assert dep["implemented"] is False
+    assert "Bhava Dik Bala" in dep["detail"]
+    assert "Brihat Jataka" in dep["detail"]
+
+
 # --- disagreement preserved --------------------------------------------------
 
 def test_the_two_kendra_rules_contradict_each_other_and_both_survive(by_id):

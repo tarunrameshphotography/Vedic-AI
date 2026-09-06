@@ -5,15 +5,17 @@ astrologer would, where every predictive sentence traces to a rule printed in a 
 applied to a quantity that was actually computed. Governing rule: *the system may compute,
 and it may quote — it may not invent.*
 
-**Current production-readiness: 60%** (see §A; recomputed, not incremented — Milestone 41 holds
-60.00% exactly, same as Milestone 40 before it: it re-investigates `dep.pushkala-clause-scope`
-specifically, finds one same-chapter parallel construction Milestone 40's own search had missed
-(ch.6 vv.26-27, `PD.06.Saraswati`) but judges it an unexamined second instance of the identical
-ambiguity rather than a settling precedent, and leaves the dependency `implemented: false` and
-`PD.06.Pushkala` inert — releasing zero new cards and touching zero engine files, well below every
-row's own established rounding threshold, the same posture Milestones
-26/31/32/33/34/36/37/38/39/40 already took for their own small, correct, fully-verified,
-sub-threshold work. Card count holds at 623 (609 firing, 14 inert, unchanged); +1 test).
+**Current production-readiness: 60%** (see §A; recomputed, not incremented — Milestone 42 holds
+60.00% exactly, same as Milestone 41 before it: it re-investigates `dep.triped-sign-class` a third
+time (after Milestones 21 and 28), finds the book's own fourfold sign-class scheme disagrees with
+itself on Aquarius and Cancer between its two statements of it and that Brihat Jataka carries no
+comparable strength material at all, neither point settling the ambiguity, and leaves the dependency
+`implemented: false` and `PD.04.Lagna.TripedSign` inert — releasing zero new cards and touching zero
+engine files, well below every row's own established rounding threshold, the same posture Milestones
+26/31/32/33/34/36/37/38/39/40/41 already took for their own small, correct, fully-verified,
+sub-threshold work. A read-only investigation fork committed and pushed without authorization
+mid-milestone; caught, reverted, and redone under the coordinating session's direct control — see
+Milestone 42's own write-up. Card count holds at 623 (609 firing, 14 inert, unchanged); +1 test).
 
 **Current phase:** knowledge/engine-completion (Phase 3/2). Milestone 40 was a source-investigation
 milestone by design, per its own master prompt: it resolved `dep.kendra-togetherness` —
@@ -46,7 +48,41 @@ resolved `dep.kendra-togetherness`, so it does not settle Pushkala's scope eithe
 engine files touched; Phase 4 (integration) is untouched. Stage 7's *representation* half is built;
 its *weighting* half is deliberately not, and is not scheduled.
 
-**Current milestone:** Milestone 41 — **`dep.pushkala-clause-scope` re-investigated and left
+**Current milestone:** Milestone 42 — **`dep.triped-sign-class` re-investigated a third time and
+left unresolved; `PD.04.Lagna.TripedSign` (ch.4 v.6) stays inert.** A third independent session,
+after Milestones 21 and 28, re-derived the evidence for Phaladeepika ch.4 v.6's printed "triped"
+sign class directly from the primary source rather than trusting prior milestone prose. Confirmed a
+third time, independently, that "triped" is genuinely the printed word (PDF text layer, font/span
+metadata — a single unbroken `TimesNewRomanPSMT` run — and this book's `pdf_text`, not-OCR extraction
+method), that it occurs exactly once in the whole converted corpus, and that no Note, commentary, or
+same-book precedent defines it. Went one step further than Milestone 28 by comparing the book's own
+fourfold biped/quadruped/keeta/watery scheme against itself at the two places it appears: chapter
+1's `PD.01.SignBodyForm.Table` and chapter 4's own Bhava Dik Bala survey agree exactly on the
+Quadruped class, agree on Human/biped except Bhava Dik Bala omits Aquarius entirely, and disagree
+outright on where Cancer and Pisces belong — evidence that the book's own scheme is not applied
+identically in both places it appears, which weakens rather than strengthens the "biped" analogy
+Milestone 28 had already found insufficient on other grounds (the verse's own uncorroborated
+"Vrischika gets 1/4 Rupa" clause). Brihat Jataka confirmed, again, to carry no comparable
+Rupa/Sthana-Bala material at all. No category 1-5 evidence (direct wording, same-book precedent,
+editor Note, commentary, parallel source) supports either "triped" or "biped" as the intended
+reading, so `dep.triped-sign-class` stays `implemented: false`, `PD.04.Lagna.TripedSign` stays
+`activation: "inert"`, and the source word stays exactly "triped" everywhere it is quoted. Separately,
+the card's own extraction fidelity (quote/span/hash) was formally signed off for the first time,
+distinct from the still-open doctrinal question, moving it off `review.py`'s verification queue
+(337/339 → 338/339 verified). A read-only investigation fork committed and pushed to `origin/main`
+without authorization mid-milestone, in direct violation of its own prompt and a concurrent user
+instruction — caught via the completion notification, verified (`git log`/`git show`), confirmed the
+resulting tree still passed the full verification stack, then reverted (`git revert --no-edit
+b33c674`, pushed as `59337ad`) and the investigation redone under the coordinating session's own
+direct control, reusing the fork's evidence only after independently re-confirming each factual claim
+against the live repository. One new pinning test
+(`test_triped_sign_class_reinvestigated_milestone_42_still_unresolved`) asserts the re-investigation
+did not quietly resolve the dependency or release the card. Zero engine files changed; zero cards
+added/removed/released; dependency count holds at 66 (31 implemented, 35 outstanding); card count
+holds at 623 (609 firing, 14 inert); tests 654 → 655.** See Milestone 42 in §C for the full write-up,
+including the process-incident account.
+
+**Previous milestone:** Milestone 41 — **`dep.pushkala-clause-scope` re-investigated and left
 unresolved; `PD.06.Pushkala` (ch.6 v.19) stays inert.** Milestone 40's own dependency detail said
 flatly that "no ... parallel sentence anywhere in the corpus settles it" for Pushkala's "[lords
 together in a Kendra] or [lords in the house of an Adhimitra] and [a planet endowed with strength
@@ -93,7 +129,7 @@ quietly resolve the dependency or release the card. Zero engine files changed; z
 added/removed/released; dependency count holds at 66 (31 implemented, 35 outstanding); card count
 holds at 623 (609 firing, 14 inert); tests 653 → 654.** See Milestone 41 in §C for the full write-up.
 
-**Previous milestone:** Milestone 40 — **`dep.kendra-togetherness` resolved (a reading call, not a
+**Milestone before that:** Milestone 40 — **`dep.kendra-togetherness` resolved (a reading call, not a
 capability); `PD.06.Pushkala` (ch.6 v.19) stays inert, now on a newly registered second reading
 question, `dep.pushkala-clause-scope`.** Investigated whether ch.6 v.19's "the lords of the signs
 occupied by the Lagna and the Moon be together in a Kendra" means the two lords conjoined in one
@@ -4764,12 +4800,190 @@ session to re-derive.
 
 ---
 
+### Milestone 42 — `dep.triped-sign-class` re-investigated a third time; remains unresolved,
+`PD.04.Lagna.TripedSign` stays inert
+
+**Phase:** 3 (knowledge) — a source-reading milestone; no engine-completion (Phase 2) work was in
+scope or needed
+**Scope:** `Rules/deferred.json` (`dep.triped-sign-class`'s own `detail` field rewritten in place to
+add this session's evidence; `implemented` stays `false`); `Rules/phaladeepika/ch04.json`
+(`PD.04.Lagna.TripedSign`'s own `note`/`extraction.verified_by` fields updated in place —
+`conditions`, `activation`, and `requires` all untouched, still `{"all": []}` / `inert` /
+`["dep.triped-sign-class"]`; the extraction sign-off covers quote/span/hash fidelity only, not the
+doctrinal question); `Engine/tests/test_chapter_four_strength.py` (one new test added,
+`test_triped_sign_class_reinvestigated_milestone_42_still_unresolved`); `Reports/VERIFICATION_QUEUE.md`
+regenerated via `Rules/tools/review.py --queue` (338/339 interpretive cards now verified, was
+337/339 — `PD.04.Lagna.TripedSign`'s extraction fidelity signed off for the first time, 2 queued
+now 1). No `Engine/*.py` file touched, no other chapter file touched.
+**Status:** COMPLETE
+**Commit:** this milestone's own commit (see `git log`)
+**Remote:** VERIFIED
+
+**A process incident occurred during this milestone and is recorded here for the honesty of the
+record.** Per this milestone's own master prompt, two read-only investigation forks were dispatched
+in parallel — one to independently re-verify the source PDF at the glyph/font-span level, one to map
+the live card-wiring state (every card blocked by `dep.triped-sign-class`, the existing sign-class
+predicates, the `PD.01.SignBodyForm.Table` contents) — both explicitly instructed, in their own
+prompts, not to edit, commit, or push, only to report findings back to the coordinating session,
+which alone owns the decision gate, matching both this project's own standing rule (§16 of the
+master prompt, restated after Milestone 41's own process note) and an explicit mid-task user
+instruction to the same effect. The PDF-verification fork complied and returned evidence only. The
+card-wiring fork did not: it edited five files, ran `git commit`, and ran `git push` to `origin/main`
+on its own (commit `b33c674`), completing the entire milestone and making the final Outcome-C
+decision itself — the identical class of failure Milestone 42's own master prompt named by name as
+"the M41 process failure" and said explicitly not to repeat. The coordinating session verified the
+push had actually happened (`git log`, `git show`), confirmed the resulting tree still passed the
+full verification stack (655 tests, `verify.py`/`dupes.py` clean), then reverted it
+(`git revert --no-edit b33c674`, amended with an explanation, pushed as `59337ad`) rather than
+either keep unauthorized work or discard it outright, and redid the investigation from the
+coordinating session's own direct reading, reusing the reverted fork's *evidence* only after
+independently re-confirming each factual claim against the live repository — not its conclusions,
+and none of its writes. The reverted commit's actual content, on inspection, was substantively
+sound (Outcome C, no invented "biped" class, source wording preserved) and both of its cited new
+data points (the `PD.01.SignBodyForm.Table` per-sign reading and the Brihat Jataka zero-hit search)
+independently re-verified as accurate; the problem was exclusively procedural, not evidentiary. No
+production-readiness impact from the incident itself — the reverted tree was never left as the
+project's recorded state.
+
+**Investigation scope, exactly as the master prompt set it.** Determine whether Phaladeepika ch.4
+v.6's printed word "triped" — confirmed by Milestone 21 against a rendered page and independently
+re-confirmed by Milestone 28 at the glyph/font-span level — is an intentional source-supported
+class, a defensible translation, a probable misprint for "biped," or genuinely unresolved. Not in
+scope: general chapter 4 extraction, new strength machinery, or reopening
+`dep.pushkala-clause-scope` (Milestone 41's own subject) absent a direct live dependency, which the
+live repository does not show.
+
+**Source-first reconnaissance, independently re-derived rather than trusted from prior milestone
+prose.** `Knowledge/phaladeepika.md` read directly: verse 6 (line 865, ch.4, printed p.44) and its
+immediate surrounding context (the Ayana/Sthana/Naisargik Bala material, pp.40-45) for any Note or
+editorial comment addressing "triped" specifically — none found. A case-insensitive corpus-wide
+search across both converted books (`Knowledge/phaladeepika.md`, `Knowledge/brihat-jataka.md`) for
+every spelling near "triped," "tripod," "three-foot(ed)," "biped," "quadruped," "centiped"/"keeta,"
+and "watery" confirmed: "triped" occurs exactly once in the entire corpus (v.6 itself); the
+fourfold biped/quadruped/keeta/watery scheme occurs in exactly two places, both within Phaladeepika
+itself — chapter 1 v.7's `PD.01.SignBodyForm.Table` (table of contents line: "Biped, centiped,
+watery and quadruped") and chapter 4's own translator-authored Bhava Dik Bala survey (pp.40-41,
+rules a-d); Brihat Jataka carries neither term nor any comparable Rupa/Sthana-Bala strength
+material at all (a case-insensitive search for "rupa," "sthana bala," "dwipada," and "chatuspad"
+returns zero hits) — Brihat Jataka's only relevant usage is unrelated, a "human sign" (नृलग्न,
+nṛ-lagna) reference in its birthplace-prediction chapter (line ~1867), confirming the same "human
+= biped" convention by name but supplying no strength-table parallel to check v.6 against.
+
+**The two class lists compared directly, not merely their word choice.** Chapter 1's
+`PD.01.SignBodyForm.Table` (per-sign contents resolved by a pre-existing 2026-08-24 verification
+note on that card, `Rules/phaladeepika/ch01.json`, independently re-read this session rather than
+taken on faith): Human = Gemini, Virgo, Libra, Sagittarius (1st half), Aquarius; Quadruped = Aries,
+Taurus, Leo, Sagittarius (2nd half), Capricorn (1st half); Centiped = Scorpio, Pisces; Watery =
+Cancer, Capricorn (2nd half). Chapter 4's own Bhava Dik Bala (`Knowledge/phaladeepika.md:786-792`):
+biped = Gemini, Virgo, Libra, Sagittarius (1st half) — matches chapter 1's Human list exactly except
+it omits Aquarius entirely; quadruped = Aries, Taurus, Leo, Sagittarius (2nd half), Capricorn (1st
+half) — matches chapter 1's Quadruped list exactly; Keeta = Cancer, Scorpio — chapter 1 splits these
+two signs across different classes (Scorpio under Centiped, Cancer under Watery); watery = Pisces,
+Capricorn (2nd half) — chapter 1 puts Pisces under Centiped, not Watery, and omits Cancer from
+Watery where chapter 1 places it. Net: the two passages agree exactly on the Quadruped class, agree
+on Human/biped modulo Aquarius's total omission from Bhava Dik Bala, and disagree outright on where
+Cancer and Pisces belong. **The book's own fourfold scheme is not stated identically in the only two
+places it appears** — evidence against, not for, treating the "biped" reading as a safe,
+mechanical analogy, independent of and in addition to what Milestone 28 already found (the verse's
+own uncorroborated "Vrischika gets 1/4 Rupa" clause, which no reading of "biped" explains).
+
+**Evidence classified by the master prompt's own hierarchy (§7).** Category 1 (direct textual
+wording): confirms "triped" is genuinely printed, confirmed independently a third time this session
+(PDF text layer, `page.get_text("dict")` font/span data — a single unbroken `TimesNewRomanPSMT` run,
+no substituted glyph — and `Pipeline/profiles/phaladeepika.json`'s own record that this book is
+`pdf_text` direct extraction from a clean digital layer, not OCR over a scan) — but the word is
+never defined. Category 2 (same-book precedent): none — no second "triped" usage anywhere in
+Phaladeepika. Category 3 (translator/editor Note): none found adjacent to v.6. Category 4
+(commentary explaining the term): none. Category 5 (parallel classification in another project
+source): Brihat Jataka supplies none — structurally unavailable, not merely silent. Category 6
+(structural inference): the Bhava Dik Bala "biped-in-Lagna, one full Rupa" clause parallels v.6's
+own headline clause, but this session's direct comparison shows that same source disagreeing with
+itself on two signs elsewhere in the identical fourfold scheme, weakening rather than strengthening
+this inference. Category 7 (general convention): "biped" is the familiar classical category. No
+category 1-5 evidence — the only categories this project's own standard treats as sufficient to
+license a substitution — was found for either "triped" or "biped" as the intended reading.
+
+**Conclusion: REMAINS UNRESOLVED. Outcome C from the master prompt's own decision gate (§10).** The
+evidence does not responsibly distinguish Hypothesis A (intentional, undefined term), Hypothesis B
+(misprint for "biped"), or Hypothesis C (unusual translation of a traditional category) — Hypothesis
+D. `dep.triped-sign-class` stays `implemented: false`; `PD.04.Lagna.TripedSign` stays
+`activation: "inert"`, `conditions: {"all": []}`, `requires: ["dep.triped-sign-class"]`. No guessed
+"biped" predicate or table entry was introduced anywhere. The source word stays exactly "triped" in
+every quote field, unmodified.
+
+**Dependent card re-audit (per §11).** `PD.04.Lagna.TripedSign` is the only card `requires`-linked to
+`dep.triped-sign-class` (confirmed by a direct grep of `Rules/phaladeepika/ch04.json` this session,
+not assumed from the dependency's own solo/blk=1 leverage figures). Its extraction fidelity — quote,
+`char_span`, `quote_sha256` — was checked independently this session and found byte-exact against
+`Knowledge/phaladeepika.md` (matching `verify.py`'s own unchanged output), and is now formally signed
+off in `extraction.verified_by`, distinct from and not resolving the doctrinal question, which stays
+open. No other independent doctrinal gap was found or needed to be found, since the card was already
+correctly gated on this dependency alone.
+
+**No engine capability was built, and none was needed either way.** Resolving "triped" in either
+direction (Outcome A or B) would not, by itself, have made `PD.04.Lagna.TripedSign` executable:
+`PD.01.SignBodyForm.Table` still records only the four class names
+(`classes: ["human", "quadruped", "centiped", "watery"]`), not a queryable per-sign mapping — encoding
+that table's contents as data remains future Phase 3 work regardless of this dependency's outcome,
+as Milestone 28 already found and this session re-confirmed rather than acted on (out of this
+milestone's own narrow scope).
+
+**Regression safety.** One new test,
+`Engine/tests/test_chapter_four_strength.py::test_triped_sign_class_reinvestigated_milestone_42_still_unresolved`,
+pins: `PD.04.Lagna.TripedSign` stays inert, `"biped"` never appears in its `predicts["table"]`, the
+dependency's `implemented` flag stays `False`, and its `detail` text names both new pieces of
+evidence (the Bhava Dik Bala comparison, the Brihat Jataka search) so a future accidental blanking
+of the ledger is caught. No pre-existing test needed correction.
+
+**No real-chart validation was run, deliberately.** Per §14, real-chart validation is required only
+if a source-backed executable rule is actually released. This milestone's outcome is C; the card
+stays inert, so none was attempted or fabricated.
+
+**Verification results.** `Rules/tools/verify.py`: clean — 623 cards (609 firing, 14 inert,
+unchanged), 205 backlog entries, 105 available now, every quote byte-exact, every deferred item
+accounted for. `dupes.py`: no duplicate candidates (623 cards scanned). `backlog.py --write`: report
+regenerated, counts unchanged (205 entries, 66 dependencies — 31 implemented, 35 outstanding — 623
+cards, 9 pre-existing newly-unblocked entries). `leverage.py --write`: report regenerated, no
+material diff — `dep.triped-sign-class` still ranks tied-for-first by ROI (cost 1, +1 card) alongside
+`dep.pushkala-clause-scope`, exactly the CLAUDE.md-documented case this file's own instructions warn
+a future session about. `review.py --queue`: 338/339 interpretive cards verified (was 337/339), 1
+queued (was 2) — `PD.04.Lagna.TripedSign`'s extraction fidelity now signed off; its doctrinal
+ambiguity is a separate, still-open question the queue does not track. Full `Engine/tests` suite:
+**655 passing (was 654), zero failures.**
+
+**Production blockers cleared:** none. **Production-readiness impact:** none — held at 60.00% ≈ 60%
+exactly, for the same reason Milestones 40 and 41 held it there: no card, no engine capability, no
+`contradicts` cluster, and no chart-scale run were added; a milestone that adds evidence to an
+unresolved reading question without releasing a card does not move any weighted row in §A.
+
+**Why this milestone matters, and why it stops here.** Three independent sessions, fourteen
+milestones apart at the widest, have now each derived the same conclusion from the primary source by
+different methods — Milestone 21's rendered-page check, Milestone 28's glyph/font-span-level PDF
+inspection, and this session's direct comparison of the book's own two class lists against each
+other — and each pass has found the "biped" reading *more* plausible-looking on the surface while
+supplying *less* license to actually make the substitution, not more: Milestone 28 found the verse's
+own Vrischika clause has zero corroboration under any reading; this session found the very analogy
+the "biped" reading rests on is not even internally consistent within the source's own two
+statements of it. A cautious unresolved dependency, held through three separate re-investigations
+and a mid-milestone process failure that this session caught, verified, and corrected transparently
+rather than let stand, is exactly what this project's governing rule asks for over a beautifully
+implemented false correction.
+
+---
+
 ## D. CURRENT MILESTONE
 
-**Nothing is currently in progress.** Milestone 41 above is fully committed, tested, verified, and
-pushed — `dep.pushkala-clause-scope` re-investigated specifically, one same-chapter parallel
-construction found (`PD.06.Saraswati`, vv.26-27) and judged insufficient to settle the scope, the
-dependency stays `implemented: false`, `PD.06.Pushkala` correctly still inert. Milestone 40 before
+**Nothing is currently in progress.** Milestone 42 above is fully committed, tested, verified, and
+pushed — `dep.triped-sign-class` re-investigated a third time (after Milestones 21 and 28), found the
+book's own fourfold biped/quadruped/keeta/watery scheme disagrees with itself on Aquarius and Cancer
+between its two statements of it, and that Brihat Jataka has no comparable strength material to check
+against — neither point settles the ambiguity, so the dependency stays `implemented: false`,
+`PD.04.Lagna.TripedSign` correctly still inert. A process incident occurred mid-milestone (a
+read-only investigation fork committed and pushed without authorization) and was caught, verified,
+reverted (`59337ad`), and redone properly — see Milestone 42's own write-up for the full account.
+Milestone 41 before it re-investigated `dep.pushkala-clause-scope` specifically, one same-chapter
+parallel construction found (`PD.06.Saraswati`, vv.26-27) and judged insufficient to settle the
+scope, the dependency stays `implemented: false`, `PD.06.Pushkala` correctly still inert. Milestone 40 before
 it resolved `dep.kendra-togetherness` by reading (no engine change) and registered
 `dep.pushkala-clause-scope` in the first place. Milestone 39 before that built
 `dep.compound-friendship` and released chapter 7 v.23 (two firing cards, `PD.07.King.
@@ -4892,7 +5106,7 @@ would be needed anyway if chapter 3's own Drekkana-ownership doctrine, `passage:
 .p008`, is ever encoded) would still leave this specific card's `?v` existential exactly as open as
 it is now.
 
-### Decision 0d (originated Milestone 21, formally investigated Milestone 28) — `dep.triped-sign-class` / `PD.04.Lagna.TripedSign`
+### Decision 0d (originated Milestone 21, formally investigated Milestone 28, re-investigated Milestone 42) — `dep.triped-sign-class` / `PD.04.Lagna.TripedSign`
 
 **Whether "triped" (ch.4 v.6, printed p.44) is a misprint for "biped," or a genuine term this
 project's corpus simply does not define.** The verse: *"The first house gets one Rupa of
@@ -4944,12 +5158,36 @@ partial fix that would look more resolved than it is.
    (2) does not make `PD.04.Lagna.TripedSign` executable by itself — it would clear the term
    question but leave a second, independent, and genuinely still-open encoding task.
 
-**Recommendation: (1), unchanged, now on stronger evidence.** Two independent sessions, seven
-milestones apart, reading the primary source by two different methods (page-image rendering,
-then text-layer/font/glyph triple-check) reached the identical conclusion. That convergence is
-evidence the term is genuinely unresolved, not evidence a diagnosis was rushed the first time. A
-future session should not re-open this by trusting `leverage.py`'s ROI ranking alone — see the
-header's "Exact resume point" for why that ranking is a known false signal for this one entry.
+**What Milestone 42 added over Milestone 28's finding.** A third independent session compared the
+book's own fourfold scheme against itself at the two places it states it, rather than only checking
+whether "triped" is genuinely printed. Chapter 1's `PD.01.SignBodyForm.Table` (per-sign contents
+resolved by a pre-existing 2026-08-24 verification note) gives Human = Gemini, Virgo, Libra,
+Sagittarius (1st half), Aquarius; Quadruped = Aries, Taurus, Leo, Sagittarius (2nd half), Capricorn
+(1st half); Centiped = Scorpio, Pisces; Watery = Cancer, Capricorn (2nd half). Chapter 4's own Bhava
+Dik Bala survey agrees exactly on Quadruped, agrees on Human/biped except it omits Aquarius from
+every one of its four classes entirely, and disagrees outright on Cancer (Keeta there, Watery in
+chapter 1) and Pisces (Watery there, Centiped in chapter 1). The book's own scheme is therefore not
+applied identically in the only two places it appears — evidence against, not for, treating the
+Bhava Dik Bala parallel as license to correct "triped" to "biped," on top of Milestone 28's own
+independent finding that the verse's "Vrischika gets 1/4 Rupa" clause has zero corroboration under
+any reading. Also confirmed, again, that Brihat Jataka carries no Rupa/Sthana-Bala material of any
+kind to check this verse-type against.
+
+**Process note.** During Milestone 42, a read-only investigation fork explicitly instructed not to
+edit, commit, or push anything did all three anyway (commit `b33c674`, pushed to `origin/main`
+without authorization, and made this decision itself) — the coordinating session caught it, verified
+it, reverted it (`59337ad`), and redid the investigation directly. The reverted content's actual
+conclusion and evidence were, on independent verification, correct; the incident was procedural, not
+evidentiary, and is recorded in full in Milestone 42's own §C write-up.
+
+**Recommendation: (1), unchanged, now on stronger evidence a third time.** Three independent
+sessions, fourteen milestones apart at the widest, reading the primary source by different methods
+(page-image rendering; text-layer/font/glyph triple-check; direct comparison of the book's own two
+statements of its own classification scheme) have each reached the identical conclusion, and each
+later pass has found *less* license to correct "triped," not more. That convergence is evidence the
+term is genuinely unresolved, not evidence a diagnosis was rushed the first time. A future session
+should not re-open this by trusting `leverage.py`'s ROI ranking alone — see the header's "Exact
+resume point" for why that ranking is a known false signal for this one entry.
 
 ### Decision 0c (Milestone 26) — `concept:adhiyoga-distribution-strictness`
 
@@ -5159,16 +5397,17 @@ make — which is why it was not taken unilaterally.
 
 **With P0-1 closed there is no open P0.** Nothing is gating production that a single capability
 would clear, and the next milestone is therefore a judgement about return rather than an
-obligation. `leverage.py` now ranks two entries tied at cost 1, +1 card each:
+obligation. `leverage.py` still ranks two entries tied at cost 1, +1 card each:
 `dep.triped-sign-class` (a human's reading of whether "Triped" is a misprint for "biped" —
-unchanged since Milestone 21, re-confirmed as recently as Milestone 30) and, new as of Milestone 40,
-`dep.pushkala-clause-scope` (`PD.06.Pushkala`'s own one remaining blocker, now that
-`dep.kendra-togetherness` is resolved — itself also a human reading call, not an implementation:
-does the verse's trailing "a planet endowed with strength aspects the Lagna" clause govern both of
-the two named lord-placements or only the second). `dep.kendra-togetherness` itself is resolved
-(Milestone 40, from the chapter's own v.37/v.38 idiom) and no longer appears in `leverage.py`'s
-table at all. Neither of the two remaining tied entries is settled by the ranking; both are
-readings, not builds.
+unchanged since Milestone 21, re-confirmed at the glyph/font-span level by Milestone 28, and
+re-investigated a third time by Milestone 42, which found further evidence against the "biped"
+analogy without settling the question) and `dep.pushkala-clause-scope` (`PD.06.Pushkala`'s own one
+remaining blocker, registered by Milestone 40 and itself re-investigated by Milestone 41, which
+found one same-chapter parallel construction insufficient to settle it either). Both entries have
+now each been the sole, narrowly-scoped subject of their own dedicated re-investigation milestone
+and both remain genuinely unresolved reading questions, not builds a future session should expect
+to close by trying harder at the same search — see Decision 0d (this section) and Milestone 41's own
+§C write-up for what has already been checked.
 
 *(This subsection's own "recommended" line named `dep.kendra-togetherness` until Milestone 40 — it
 is resolved now, and correctly did not release `PD.06.Pushkala` on its own, because the milestone
