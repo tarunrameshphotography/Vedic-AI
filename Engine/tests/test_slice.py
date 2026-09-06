@@ -535,6 +535,36 @@ def test_kendra_togetherness_resolved_but_pushkala_still_blocked():
     assert deps["dep.pushkala-clause-scope"]["kind"] == "concept"
 
 
+def test_pushkala_clause_scope_reinvestigated_still_unresolved(cards):
+    """Milestone 41 re-investigated dep.pushkala-clause-scope specifically --
+    found one same-chapter parallel construction (ch.6 vv.26-27, PD.06.Saraswati)
+    Milestone 40's own search had missed, and confirmed the engine already
+    expresses both candidate boolean parses (nested `all`/`any`) with zero new
+    predicates -- but judged neither settles the source's own ambiguity, so the
+    outcome is unchanged. This pins that a re-investigation which finds new
+    evidence but does not meet the bar does not quietly resolve the dependency
+    or release the card anyway.
+    """
+    sys.path.insert(0, str(ROOT / "Rules" / "tools"))
+    import backlog
+
+    _, registry, _, _, _, _, _ = backlog.build()
+    deps = registry["dependencies"]
+    scope = deps["dep.pushkala-clause-scope"]
+    assert scope["implemented"] is False
+    assert scope["kind"] == "concept"
+    assert "predicate" not in scope
+    assert "Saraswati" in scope["detail"]
+
+    pushkala = next(c for c in cards if c.id == "PD.06.Pushkala")
+    assert pushkala.activation == "inert"
+    assert pushkala.conditions == {"all": []}
+    assert pushkala.raw["requires"] == ["dep.pushkala-clause-scope"]
+    r = run(DEMO)
+    fired = {c.derived["rule_card"] for c in r.claims}
+    assert "PD.06.Pushkala" not in fired
+
+
 def test_chapter_six_adhama_sama_varishtha_have_distinct_quotes(cards):
     """One shared naming sentence (v. 18, \"respectively\"), three distinct
     effect fragments carved out of one shared effect sentence -- Varishtha's
